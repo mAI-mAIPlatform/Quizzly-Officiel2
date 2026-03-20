@@ -27,7 +27,7 @@ export default function ClassementPage() {
   if (!mounted) return null; // Prevent SSR Hydration mismatch
 
   const allPlayers = [
-    ...FAKE_PLAYERS,
+    ...FAKE_PLAYERS.map(p => ({ ...p, isMe: false })),
     { id: "me", name: "Moi", xp: progress.xp, avatar: "M", isMe: true }
   ];
 
