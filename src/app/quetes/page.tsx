@@ -1,0 +1,93 @@
+"use client";
+
+import { useProgress } from "@/context/ProgressContext";
+import { motion } from "framer-motion";
+
+export default function QuetesPage() {
+  const { progress, claimQuestReward } = useProgress();
+
+  const dailyQuests = progress.quests.filter(q => q.id.startsWith("q_daily"));
+  const weeklyQuests = progress.quests.filter(q => q.id.startsWith("q_weekly"));
+
+  const QuestCard = ({ quest }: { quest: any }) => {
+    const isReady = quest.current >= quest.target && !quest.isCompleted;
+    const progressPercent = Math.min(100, (quest.current / quest.target) * 100);
+
+    return (
+      <div className={`glass p-6 flex flex-col gap-4 relative overflow-hidden transition-all duration-300 ${quest.isCompleted ? 'opacity-50 grayscale' : ''}`}>
+        {quest.isCompleted && (
+          <div className="absolute top-2 right-2 bg-green/20 text-green-500 px-2 py-0.5 rounded-full text-[10px] font-bold uppercase">Complété</div>
+        )}
+        
+        <div className="flex justify-between items-start">
+          <h3 className="font-bold text-lg font-space">{quest.title}</h3>
+          <span className="font-bold text-primary">+{quest.xpReward} XP</span>
+        </div>
+
+        <div className="space-y-1">
+          <div className="flex justify-between text-xs opacity-60">
+            <span>Progression</span>
+            <span>{quest.current} / {quest.target}</span>
+          </div>
+          <div className="w-full h-2 bg-foreground/10 rounded-full overflow-hidden">
+            <div 
+              className="h-full bg-primary transition-all duration-500" 
+              style={{ width: `${progressPercent}%` }}
+            ></div>
+          </div>
+        </div>
+
+        <button
+          onClick={() => claimQuestReward(quest.id)}
+          disabled={!isReady}
+          className={`w-full py-2 rounded-xl font-bold transition-all ${
+            isReady 
+            ? "bg-primary text-primary-foreground hover:scale-105 shadow-lg shadow-primary/20" 
+            : "bg-foreground/5 opacity-50 cursor-not-allowed"
+          }`}
+        >
+          {quest.isCompleted ? "Réclamé" : isReady ? "Réclamer" : "En cours"}
+        </button>
+      </div>
+    );
+  };
+
+  return (
+    <div className="max-w-4xl mx-auto space-y-12 animate-in fade-in duration-700">
+      <header className="space-y-4 text-center">
+        <h1 className="text-5xl font-space font-black text-transparent bg-clip-text bg-gradient-to-r from-primary to-violet">
+          Tes Quêtes 🎯
+        </h1>
+        <p className="text-lg opacity-70">Relève les défis pour gagner un maximum d'XP !</p>
+      </header>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <section className="space-y-6">
+          <div className="flex items-center gap-3">
+            <span className="text-2xl">🔥</span>
+            <h2 className="text-2xl font-bold font-space">Quêtes du Jour</h2>
+          </div>
+          <div className="flex flex-col gap-4">
+            {dailyQuests.map(q => <QuestCard key={q.id} quest={q} />)}
+          </div>
+        </section>
+
+        <section className="space-y-6">
+          <div className="flex items-center gap-3">
+            <span className="text-2xl">⚡</span>
+            <h2 className="text-2xl font-bold font-space">Quêtes Hebdo</h2>
+          </div>
+          <div className="flex flex-col gap-4">
+            {weeklyQuests.map(q => <QuestCard key={q.id} quest={q} />)}
+          </div>
+        </section>
+      </div>
+
+      <div className="glass p-8 bg-gradient-to-br from-primary/5 to-transparent text-center border-primary/20">
+        <h3 className="text-xl font-bold font-space mb-2">Besoin de plus de défis ?</h3>
+        <p className="opacity-70 mb-6">Les quêtes journalières se réinitialisent chaque jour à minuit.</p>
+        <div className="text-4xl">🕒</div>
+      </div>
+    </div>
+  );
+}

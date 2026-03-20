@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: var(--font-inter), sans-serif;
+  --font-space: var(--font-space), sans-serif;
+
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent-violet: var(--violet);
+  --color-accent-blue: var(--blue);
+  --color-accent-cyan: var(--cyan);
+  --color-accent-rose: var(--rose);
+  --color-accent-green: var(--green);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-border: var(--card-border);
+}
+
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --card: rgba(255, 255, 255, 0.7);
+  --card-border: rgba(255, 255, 255, 0.5);
+
+  --primary: #6366f1; /* Indigo/Violet */
+  --secondary: #3b82f6; /* Blue */
+  --violet: #8b5cf6;
+  --blue: #3b82f6;
+  --cyan: #06b6d4;
+  --rose: #f43f5e;
+  --green: #10b981;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #020617;
+    --foreground: #f8fafc;
+    --card: rgba(15, 23, 42, 0.4);
+    --card-border: rgba(255, 255, 255, 0.1);
+  }
+}
+
+.dark {
+  --background: #020617;
+  --foreground: #f8fafc;
+  --card: rgba(15, 23, 42, 0.4);
+  --card-border: rgba(255, 255, 255, 0.1);
+}
+
+.light {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --card: rgba(255, 255, 255, 0.7);
+  --card-border: rgba(255, 255, 255, 0.5);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: var(--font-inter);
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, hsla(225,39%,30%,0.2) 0, transparent 50%), 
+    radial-gradient(at 100% 0%, hsla(339,49%,30%,0.2) 0, transparent 50%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.light body {
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(253,16%,97%,1) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, hsla(225,100%,94%,1) 0, transparent 50%), 
+    radial-gradient(at 100% 0%, hsla(339,100%,94%,1) 0, transparent 50%);
+}
+
+.dark body {
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, hsla(225,39%,30%,0.2) 0, transparent 50%), 
+    radial-gradient(at 100% 0%, hsla(339,49%,30%,0.2) 0, transparent 50%);
+}
+
+/* Utilitaires pour le verre liquide */
+@utility glass {
+  background-color: var(--card);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--card-border);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 1.5rem;
+}

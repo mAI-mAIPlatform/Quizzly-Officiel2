@@ -1,0 +1,85 @@
+"use client";
+
+import { useState, useEffect } from "react";
+
+export default function QuestionTrous({ 
+  question, 
+  hasAnswered, 
+  onValidate 
+}: { 
+  question: any; 
+  hasAnswered: boolean; 
+  onValidate: (correct: boolean) => void 
+}) {
+  const [inputValue, setInputValue] = useState("");
+
+  useEffect(() => {
+    setInputValue("");
+  }, [question.id]);
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (hasAnswered || !inputValue.trim()) return;
+
+    // Normaliser la réponse (enlever espaces, minuscules)
+    const normalizedInput = inputValue.trim().toLowerCase();
+    
+    // Vérifier si la réponse correspond à l'une des réponses attendues
+    const isCorrect = question.reponsesAttendues.some(
+      (ans: string) => ans.toLowerCase() === normalizedInput
+    );
+
+    onValidate(isCorrect);
+  };
+
+  // Séparer l'énoncé par le texte {{1}} pour insérer l'input au milieu
+  const parts = question.enonce.split("{{1}}");
+
+  return (
+    <div className="flex flex-col h-full items-center justify-center animate-in slide-in-from-right-8 duration-500">
+      <div className="glass p-10 rounded-3xl w-full max-w-2xl">
+        <div className="inline-block px-4 py-1 rounded-full bg-foreground/10 uppercase tracking-widest text-xs font-bold mb-6 text-primary">
+          Texte à compléter
+        </div>
+        
+        <form onSubmit={handleSubmit} className="text-2xl md:text-3xl font-space leading-loose text-center">
+          {parts[0]}
+          <input
+            type="text"
+            disabled={hasAnswered}
+            value={inputValue}
+            onChange={(e) => setInputValue(e.target.value)}
+            placeholder="..."
+            className={`mx-3 inline-block w-40 text-center bg-background/50 border-b-4 border-primary/50 focus:border-primary outline-none text-primary font-bold transition-colors ${
+              hasAnswered 
+                ? question.reponsesAttendues.some((ans:string) => ans.toLowerCase() === inputValue.trim().toLowerCase())
+                  ? 'border-green text-green bg-green/10'
+                  : 'border-rose text-rose bg-rose/10'
+                : ''
+            }`}
+            autoFocus
+          />
+          {parts[1]}
+
+          {!hasAnswered && (
+            <div className="mt-12 flex justify-center">
+              <button
+                type="submit"
+                disabled={!inputValue.trim()}
+                className="px-8 py-3 bg-primary text-primary-foreground font-bold rounded-2xl hover:brightness-110 disabled:opacity-50 transition-all font-space"
+              >
+                Vérifier
+              </button>
+            </div>
+          )}
+
+          {hasAnswered && !question.reponsesAttendues.some((ans:string) => ans.toLowerCase() === inputValue.trim().toLowerCase()) && (
+            <div className="mt-8 text-lg font-sans bg-rose/10 text-rose-200 border border-rose/30 p-4 rounded-xl">
+              La réponse attendue était : <strong className="text-rose font-bold">{question.reponsesAttendues[0]}</strong>
+            </div>
+          )}
+        </form>
+      </div>
+    </div>
+  );
+}
