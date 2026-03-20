@@ -12,7 +12,8 @@ export default async function ChapitrePage({
   const [matiereId, niveau] = resolvedParams.id.split("-"); // ex: maths-6 -> maths, 6
   
   const normalizedNiveau = niveau === "6" ? "6eme" : niveau === "5" ? "5eme" : niveau === "4" ? "4eme" : niveau === "3" ? "3eme" : niveau;
-  const basePath = path.join(process.cwd(), "src", "data", normalizedNiveau || "6eme", matiereId || "maths");
+  const dataRoot = path.resolve(process.cwd(), "src/data");
+  const basePath = path.join(dataRoot, normalizedNiveau || "6eme", matiereId || "maths");
   let metadata, quizFiles = [];
   let quizzes = [];
 

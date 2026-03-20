@@ -268,8 +268,25 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     
     setProgress(prev => {
       const updated = { ...prev, claimedPassRewards: [...prev.claimedPassRewards, tier] };
-      // Récompense : 100 diamants par palier
-      updated.crystals += 100;
+      
+      // Determine reward based on tier (index = tier - 1)
+      const i = tier - 1;
+      if (i === 19) {
+        // Lion de Légende (Avatar)
+        if (!updated.unlockedAvatars.includes("🦁")) {
+          updated.unlockedAvatars = [...updated.unlockedAvatars, "🦁"];
+        }
+      } else if (tier % 5 === 0) {
+        // Gros Pack Diamants (ex: 250)
+        updated.crystals += 250;
+      } else if (tier % 2 === 0) {
+        // 50 Diamants
+        updated.crystals += 50;
+      } else {
+        // Neurone Bonus
+        updated.neurones = Math.min(5, updated.neurones + 1);
+      }
+      
       localStorage.setItem("quizzly_progress", JSON.stringify(updated));
       return updated;
     });

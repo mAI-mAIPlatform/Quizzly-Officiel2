@@ -13,10 +13,9 @@ export default async function PlayQuizPage({
 
   const normalizedNiveau = niveau === "6" ? "6eme" : niveau === "5" ? "5eme" : niveau === "4" ? "4eme" : niveau === "3" ? "3eme" : niveau;
 
+  const dataDir = path.resolve(process.cwd(), "src/data");
   const quizPath = path.join(
-    process.cwd(),
-    "src",
-    "data",
+    dataDir,
     normalizedNiveau,
     matiereId,
     chapitre,

@@ -90,6 +90,4 @@ export default function PassPage() {
       </div>
     </div>
   );
-}    </div>
-  );
 }
