@@ -1,0 +1,43 @@
+{
+  "id": "3-techno-ch3-q3",
+  "titre": "Boucles et Conditions",
+  "questions": [
+    {
+      "type": "vrai_faux",
+      "question": "Une boucle 'Répéter 10 fois' est une boucle bornée (on connaît le nombre de tours à l'avance).",
+      "answer": true
+    },
+    {
+      "type": "qcm",
+      "question": "Quand utilise-t-on une boucle 'Répéter jusqu'à ce que...' ?",
+      "options": [
+        "Pour faire une action une seule fois",
+        "Pour répéter une action tant qu'une condition n'est pas remplie",
+        "Pour éteindre le robot",
+        "Pour supprimer le programme"
+      ],
+      "answer": "Pour répéter une action tant qu'une condition n'est pas remplie"
+    },
+    {
+      "type": "vrai_faux",
+      "question": "L'instruction 'Si ... Alors ... Sinon' permet au programme de prendre deux chemins différents selon un test.",
+      "answer": true
+    },
+    {
+      "type": "qcm",
+      "question": "Que permettent les opérateurs logiques (ET, OU) ?",
+      "options": [
+        "À faire des calculs très compliqués",
+        "À tester plusieurs conditions en même temps (ex: Si bouton pressé ET il fait nuit)",
+        "À changer la police de texte",
+        "À accélérer le processeur"
+      ],
+      "answer": "À tester plusieurs conditions en même temps (ex: Si bouton pressé ET il fait nuit)"
+    },
+    {
+      "type": "vrai_faux",
+      "question": "Une boucle infinie est une boucle qui ne s'arrête jamais, ce qui peut bloquer un robot ou un ordinateur.",
+      "answer": true
+    }
+  ]
+}

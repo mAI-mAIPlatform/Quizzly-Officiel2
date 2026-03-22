@@ -1,0 +1,39 @@
+{
+  "id": "2-snt-ch1-q5",
+  "titre": "Client et Serveur",
+  "questions": [
+    {
+      "type": "qcm",
+      "question": "Dans une navigation Web, qui est le 'client' ?",
+      "options": [
+        "L'ordinateur qui héberge le site",
+        "L'ordinateur (et le navigateur) qui demande la page",
+        "Le fournisseur d'accès",
+        "Le créateur du site"
+      ],
+      "answer": "L'ordinateur (et le navigateur) qui demande la page"
+    },
+    {
+      "type": "vrai_faux",
+      "question": "Un serveur Web est un ordinateur puissant qui 'sert' des pages sur demande.",
+      "answer": true
+    },
+    {
+      "type": "qcm",
+      "question": "Comment appelle-t-on la demande envoyée par le client au serveur ?",
+      "options": ["Un ordre", "Une requête HTTP", "Un message WhatsApp", "Une facture"],
+      "answer": "Une requête HTTP"
+    },
+    {
+      "type": "vrai_faux",
+      "question": "Une seule machine ne peut jamais être à la fois client et serveur.",
+      "answer": false
+    },
+    {
+      "type": "qcm",
+      "question": "Un serveur est généralement allumé :",
+      "options": ["Seulement le jour", "24h/24 et 7j/7", "Quand on bouge la souris", "Pendant les vacances"],
+      "answer": "24h/24 et 7j/7"
+    }
+  ]
+}

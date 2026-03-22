@@ -33,56 +33,21 @@
   --green: #10b981;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #020617;
-    --foreground: #f8fafc;
-    --card: rgba(15, 23, 42, 0.4);
-    --card-border: rgba(255, 255, 255, 0.1);
-  }
-}
-
-.dark {
-  --background: #020617;
-  --foreground: #f8fafc;
-  --card: rgba(15, 23, 42, 0.4);
-  --card-border: rgba(255, 255, 255, 0.1);
-}
-
-.light {
-  --background: #f8fafc;
-  --foreground: #0f172a;
-  --card: rgba(255, 255, 255, 0.7);
-  --card-border: rgba(255, 255, 255, 0.5);
-}
-
 body {
   background-color: var(--background);
   color: var(--foreground);
   transition: background-color 0.3s ease, color 0.3s ease;
   font-family: var(--font-inter);
   background-image: 
-    radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
-    radial-gradient(at 50% 0%, hsla(225,39%,30%,0.2) 0, transparent 50%), 
-    radial-gradient(at 100% 0%, hsla(339,49%,30%,0.2) 0, transparent 50%);
+    radial-gradient(at 0% 0%, hsla(253,16%,97%,1) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, hsla(225,100%,94%,1) 0, transparent 50%), 
+    radial-gradient(at 100% 0%, hsla(339,100%,94%,1) 0, transparent 50%);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.light body {
-  background-image: 
-    radial-gradient(at 0% 0%, hsla(253,16%,97%,1) 0, transparent 50%), 
-    radial-gradient(at 50% 0%, hsla(225,100%,94%,1) 0, transparent 50%), 
-    radial-gradient(at 100% 0%, hsla(339,100%,94%,1) 0, transparent 50%);
-}
-
-.dark body {
-  background-image: 
-    radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
-    radial-gradient(at 50% 0%, hsla(225,39%,30%,0.2) 0, transparent 50%), 
-    radial-gradient(at 100% 0%, hsla(339,49%,30%,0.2) 0, transparent 50%);
-}
+/* Supprimé : .light body et .dark body styles */
 
 /* Utilitaires pour le verre liquide */
 @utility glass {

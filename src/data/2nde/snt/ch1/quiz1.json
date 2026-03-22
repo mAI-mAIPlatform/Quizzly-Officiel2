@@ -1,0 +1,39 @@
+{
+  "id": "2-snt-ch1-q1",
+  "titre": "Internet vs Web",
+  "questions": [
+    {
+      "type": "qcm",
+      "question": "Quelle est la principale différence entre Internet et le Web ?",
+      "options": [
+        "C'est la même chose",
+        "Internet est le réseau physique (câbles), le Web est un service sur Internet",
+        "Le Web est plus ancien qu'Internet",
+        "Il n'y a pas de différence"
+      ],
+      "answer": "Internet est le réseau physique (câbles), le Web est un service sur Internet"
+    },
+    {
+      "type": "vrai_faux",
+      "question": "Tim Berners-Lee est considéré comme l'inventeur du Web.",
+      "answer": true
+    },
+    {
+      "type": "qcm",
+      "question": "Quel protocole est utilisé pour transférer des pages Web ?",
+      "options": ["SMTP", "FTP", "HTTP (ou HTTPS)", "Bluetooth"],
+      "answer": "HTTP (ou HTTPS)"
+    },
+    {
+      "type": "vrai_faux",
+      "question": "Toutes les informations sur Internet sont accessibles via le Web.",
+      "answer": false
+    },
+    {
+      "type": "qcm",
+      "question": "Que signifie le sigle WWW ?",
+      "options": ["World Wide Web", "World Web West", "Wide Web World", "Web World Wide"],
+      "answer": "World Wide Web"
+    }
+  ]
+}

@@ -1,6 +1,8 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+// v1.1.0 - Correction support question.answer
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export default function QuestionTrous({ 
   question, 
@@ -13,9 +15,11 @@ export default function QuestionTrous({
 }) {
   const [inputValue, setInputValue] = useState("");
 
-  useEffect(() => {
+  const [prevQuestionId, setPrevQuestionId] = useState(question.id);
+  if (question.id !== prevQuestionId) {
+    setPrevQuestionId(question.id);
     setInputValue("");
-  }, [question.id]);
+  }
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -25,15 +29,16 @@ export default function QuestionTrous({
     const normalizedInput = inputValue.trim().toLowerCase();
     
     // Vérifier si la réponse correspond à l'une des réponses attendues
-    const isCorrect = question.reponsesAttendues.some(
-      (ans: string) => ans.toLowerCase() === normalizedInput
+    const attendues = question.reponsesAttendues || [question.answer];
+    const isCorrect = attendues.some(
+      (ans: string) => ans && ans.toLowerCase() === normalizedInput
     );
 
     onValidate(isCorrect);
   };
 
   // Séparer l'énoncé par le texte {{1}} pour insérer l'input au milieu
-  const parts = question.enonce.split("{{1}}");
+  const parts = (question.enonce || question.question || "").split("{{1}}");
 
   return (
     <div className="flex flex-col h-full items-center justify-center animate-in slide-in-from-right-8 duration-500">
@@ -52,7 +57,7 @@ export default function QuestionTrous({
             placeholder="..."
             className={`mx-3 inline-block w-40 text-center bg-background/50 border-b-4 border-primary/50 focus:border-primary outline-none text-primary font-bold transition-colors ${
               hasAnswered 
-                ? question.reponsesAttendues.some((ans:string) => ans.toLowerCase() === inputValue.trim().toLowerCase())
+                ? (question.reponsesAttendues || [question.answer]).some((ans:string) => ans && ans.toLowerCase() === inputValue.trim().toLowerCase())
                   ? 'border-green text-green bg-green/10'
                   : 'border-rose text-rose bg-rose/10'
                 : ''
@@ -73,9 +78,9 @@ export default function QuestionTrous({
             </div>
           )}
 
-          {hasAnswered && !question.reponsesAttendues.some((ans:string) => ans.toLowerCase() === inputValue.trim().toLowerCase()) && (
+          {hasAnswered && !(question.reponsesAttendues || [question.answer]).some((ans:string) => ans && ans.toLowerCase() === inputValue.trim().toLowerCase()) && (
             <div className="mt-8 text-lg font-sans bg-rose/10 text-rose-200 border border-rose/30 p-4 rounded-xl">
-              La réponse attendue était : <strong className="text-rose font-bold">{question.reponsesAttendues[0]}</strong>
+              La réponse attendue était : <strong className="text-rose font-bold">{(question.reponsesAttendues || [question.answer])[0]}</strong>
             </div>
           )}
         </form>

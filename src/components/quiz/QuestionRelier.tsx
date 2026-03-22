@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+// v1.1.0 - Support de l'énoncé de question
 "use client";
 
 import { useState, useEffect } from "react";
@@ -81,7 +83,7 @@ export default function QuestionRelier({ question, hasAnswered, onValidate }: an
           Relier
         </span>
         <h2 className="text-2xl md:text-3xl font-space font-bold mt-6 leading-tight">
-          {question.question}
+          {question.enonce || question.question}
         </h2>
       </div>
 

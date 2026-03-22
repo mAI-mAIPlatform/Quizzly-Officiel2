@@ -1,0 +1,13 @@
+import { survivalQuizzes } from "./quizzes";
+import { survivalExtended2Quizzes } from "./extended2";
+
+const allSurvivalQuizzes = [
+  ...survivalQuizzes,
+  ...survivalExtended2Quizzes
+];
+
+export const getSurvivalQuizData = (id: string) => {
+  // If id is 31, we want index 0 of extended2?
+  // Actually let's just find by id property in the quiz objects
+  return allSurvivalQuizzes.find(q => q.id === `survival_${id}`) || null;
+};

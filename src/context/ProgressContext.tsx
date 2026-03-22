@@ -28,6 +28,18 @@ type UserProgress = {
   unlockedThemes: string[];
   unlockedAvatars: string[];
   claimedPassRewards: number[];
+  selectedClass: string;
+  xpBoost: number;
+  unlockedAchievements: string[];
+  friends: string[];
+  tribes: { id: string; name: string; members: string[]; mascot: string }[];
+  messages: { [chatId: string]: { sender: string; text: string; timestamp: string }[] };
+  rankedPoints: number;
+  rankedRank: 'Apprenti' | 'Etudiant' | 'Expert' | 'Savant' | 'Génie';
+  rankedCompletedQuizzes: string[];
+  survivalHighScore: number;
+  survivalTotalXP: number;
+  isPassPro: boolean;
 };
 
 type ProgressContextType = {
@@ -41,7 +53,17 @@ type ProgressContextType = {
   buyNeurones: (amount: number, cost: number) => boolean;
   buyCosmetic: (type: 'avatar' | 'theme', id: string, cost: number) => boolean;
   claimPassReward: (tier: number) => void;
-  updateProfile: (data: Partial<{ pseudo: string; bio: string; avatar: string }>) => void;
+  updateProfile: (data: Partial<{ pseudo: string; bio: string; avatar: string; selectedClass: string }>) => void;
+  buyBooster: (multiplier: number, cost: number) => boolean;
+  unlockAchievement: (id: string) => void;
+  addFriend: (pseudo: string) => void;
+  createTribe: (name: string) => void;
+  joinTribe: (id: string) => void;
+  sendMessage: (chatId: string, text: string) => void;
+  addRankedPoints: (amount: number) => void;
+  markRankedQuizCompleted: (quizId: string) => void;
+  updateSurvivalScore: (score: number) => void;
+  buyPassPro: () => boolean;
 };
 
 const defaultQuests: Quest[] = [
@@ -66,9 +88,21 @@ const defaultProgress: UserProgress = {
   pseudo: "Apprenti Quizzly",
   bio: "Prêt à apprendre !",
   avatar: "🦁",
-  unlockedThemes: ["light", "dark"],
+  unlockedThemes: ["light"],
   unlockedAvatars: ["🦁"],
-  claimedPassRewards: []
+  claimedPassRewards: [],
+  selectedClass: "6ème",
+  xpBoost: 1,
+  unlockedAchievements: [],
+  friends: [],
+  tribes: [],
+  messages: {},
+  rankedPoints: 0,
+  rankedRank: 'Apprenti',
+  rankedCompletedQuizzes: [],
+  survivalHighScore: 0,
+  survivalTotalXP: 0,
+  isPassPro: false
 };
 
 const ProgressContext = createContext<ProgressContextType | undefined>(undefined);
@@ -92,11 +126,10 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     // Check for neurone regeneration
     const checkRegen = () => {
       const now = Date.now();
-      const lastRegen = localStorage.getItem("quizzly_last_regen");
       const saved = localStorage.getItem("quizzly_progress");
       
       if (saved) {
-        let currentProgress = JSON.parse(saved);
+        const currentProgress = JSON.parse(saved);
         if (currentProgress.neurones < 5) {
           const lastTime = currentProgress.lastNeuroneRegen ? new Date(currentProgress.lastNeuroneRegen).getTime() : now;
           const diffMs = now - lastTime;
@@ -121,17 +154,22 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
 
   const addXP = (amount: number) => {
     setProgress(prev => {
-      const newProgress = { ...prev, xp: prev.xp + amount };
+      const finalAmount = amount * (prev.xpBoost || 1);
+      let newXP = prev.xp + finalAmount;
+      let newLevel = prev.level;
+      let newCrystals = prev.crystals;
       
-      const xpNeeded = newProgress.level * 100;
-      if (newProgress.xp >= xpNeeded) {
-        newProgress.level += 1;
-        newProgress.xp -= xpNeeded;
-        newProgress.crystals += 50;
+      while (newXP >= 100) {
+        newLevel += 1;
+        newXP -= 100;
+        newCrystals += 50;
       }
       
-      // Mini-logique pour le Pass (Tous les 200 XP gagnés environ - Max 20 niveaux)
-      newProgress.passTier = Math.min(20, Math.floor((prev.xp + amount + (prev.level-1)*100) / 200) + 1);
+      const newProgress = { ...prev, xp: newXP, level: newLevel, crystals: newCrystals };
+      
+      // Mini-logique pour le Pass (Tous les 200 XP cumulés - Max 20 paliers)
+      const totalXPCumulated = newXP + (newLevel - 1) * 100;
+      newProgress.passTier = Math.min(20, Math.floor(totalXPCumulated / 200) + 1);
 
       localStorage.setItem("quizzly_progress", JSON.stringify(newProgress));
       return newProgress;
@@ -236,9 +274,28 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     return true;
   };
 
-  const updateProfile = (data: Partial<{ pseudo: string; bio: string; avatar: string }>) => {
+  const updateProfile = (data: Partial<{ pseudo: string; bio: string; avatar: string; selectedClass: string }>) => {
     setProgress(prev => {
       const updated = { ...prev, ...data };
+      localStorage.setItem("quizzly_progress", JSON.stringify(updated));
+      return updated;
+    });
+  };
+
+  const buyBooster = (multiplier: number, cost: number) => {
+    if (progress.crystals < cost) return false;
+    setProgress(prev => {
+      const updated = { ...prev, crystals: prev.crystals - cost, xpBoost: multiplier };
+      localStorage.setItem("quizzly_progress", JSON.stringify(updated));
+      return updated;
+    });
+    return true;
+  };
+
+  const unlockAchievement = (id: string) => {
+    setProgress(prev => {
+      if (prev.unlockedAchievements.includes(id)) return prev;
+      const updated = { ...prev, unlockedAchievements: [...prev.unlockedAchievements, id] };
       localStorage.setItem("quizzly_progress", JSON.stringify(updated));
       return updated;
     });
@@ -292,11 +349,112 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     });
   };
 
+  const addFriend = (pseudo: string) => {
+    setProgress(prev => {
+      if (prev.friends.includes(pseudo)) return prev;
+      const updated = { ...prev, friends: [...prev.friends, pseudo] };
+      localStorage.setItem("quizzly_progress", JSON.stringify(updated));
+      return updated;
+    });
+  };
+
+  const createTribe = (name: string) => {
+    const id = "tribe_" + Math.random().toString(36).substr(2, 9);
+    const mascots = ["🦁", "🦊", "🐘", "🦅", "🐺"];
+    const mascot = mascots[Math.floor(Math.random() * mascots.length)];
+    
+    setProgress(prev => {
+      const newTribe = { id, name, members: [prev.pseudo], mascot };
+      const updated = { ...prev, tribes: [...prev.tribes, newTribe] };
+      localStorage.setItem("quizzly_progress", JSON.stringify(updated));
+      return updated;
+    });
+  };
+
+  const joinTribe = (id: string) => {
+    setProgress(prev => {
+      const tribe = prev.tribes.find(t => t.id === id);
+      if (!tribe || tribe.members.includes(prev.pseudo)) return prev;
+      
+      const updatedTribes = prev.tribes.map(t => 
+        t.id === id ? { ...t, members: [...t.members, prev.pseudo] } : t
+      );
+      const updated = { ...prev, tribes: updatedTribes };
+      localStorage.setItem("quizzly_progress", JSON.stringify(updated));
+      return updated;
+    });
+  };
+
+  const sendMessage = (chatId: string, text: string) => {
+    setProgress(prev => {
+      const newMessage = {
+        sender: prev.pseudo,
+        text,
+        timestamp: new Date().toISOString()
+      };
+      
+      const chatMessages = prev.messages[chatId] || [];
+      const updatedMessages = {
+        ...prev.messages,
+        [chatId]: [...chatMessages, newMessage]
+      };
+      
+      const updated = { ...prev, messages: updatedMessages };
+      localStorage.setItem("quizzly_progress", JSON.stringify(updated));
+      return updated;
+    });
+  };
+
   const isQuizCompleted = (quizId: string) => {
     return progress.completedQuizzes.includes(quizId);
   };
 
-  if (!isLoaded) return <div className="min-h-screen bg-background text-foreground flex items-center justify-center">Chargement...</div>;
+  const addRankedPoints = (amount: number) => {
+    setProgress(prev => {
+      const newPoints = prev.rankedPoints + amount;
+      let newRank = prev.rankedRank;
+
+      if (newPoints >= 6001) newRank = 'Génie';
+      else if (newPoints >= 3001) newRank = 'Savant';
+      else if (newPoints >= 1501) newRank = 'Expert';
+      else if (newPoints >= 501) newRank = 'Etudiant';
+      else newRank = 'Apprenti';
+
+      const updated = { ...prev, rankedPoints: newPoints, rankedRank: newRank };
+      localStorage.setItem("quizzly_progress", JSON.stringify(updated));
+      return updated;
+    });
+  };
+
+  const markRankedQuizCompleted = (quizId: string) => {
+    setProgress(prev => {
+      if (prev.rankedCompletedQuizzes.includes(quizId)) return prev;
+      const updated = { ...prev, rankedCompletedQuizzes: [...prev.rankedCompletedQuizzes, quizId] };
+      localStorage.setItem("quizzly_progress", JSON.stringify(updated));
+      return updated;
+    });
+  };
+
+  const updateSurvivalScore = (score: number) => {
+    setProgress(prev => {
+      const newHighScore = Math.max(prev.survivalHighScore, score);
+      const updated = { ...prev, survivalHighScore: newHighScore, survivalTotalXP: prev.survivalTotalXP + (score * 5) };
+      localStorage.setItem("quizzly_progress", JSON.stringify(updated));
+      return updated;
+    });
+  };
+
+  const buyPassPro = () => {
+    if (progress.crystals < 50 || progress.isPassPro) return false;
+    setProgress(prev => {
+      const updated = { ...prev, crystals: prev.crystals - 50, isPassPro: true };
+      localStorage.setItem("quizzly_progress", JSON.stringify(updated));
+      return updated;
+    });
+    return true;
+  };
+
+  if (!isLoaded) return <div className="min-h-screen bg-background text-foreground flex items-center justify-center font-bold">Chargement de ton cerveau... 🧠</div>;
 
   return (
     <ProgressContext.Provider value={{ 
@@ -310,7 +468,17 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
       buyNeurones,
       buyCosmetic,
       claimPassReward,
-      updateProfile
+      updateProfile,
+      buyBooster,
+      unlockAchievement,
+      addFriend,
+      createTribe,
+      joinTribe,
+      sendMessage,
+      addRankedPoints,
+      markRankedQuizCompleted,
+      updateSurvivalScore,
+      buyPassPro
     }}>
       {children}
     </ProgressContext.Provider>

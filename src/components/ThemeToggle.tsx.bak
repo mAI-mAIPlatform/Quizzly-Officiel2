@@ -1,0 +1,16 @@
+"use client";
+
+import { useState, useEffect } from "react";
+
+export default function ThemeToggle() {
+  const [theme, setTheme] = useState<"light" | "dark">("dark");
+
+  useEffect(() => {
+    // Force light mode
+    document.documentElement.classList.remove("dark");
+    document.documentElement.classList.add("light");
+    localStorage.setItem("quizzly_theme", "light");
+  }, []);
+
+  return null; // On ne l'affiche plus
+}

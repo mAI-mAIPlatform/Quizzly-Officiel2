@@ -1,0 +1,34 @@
+{
+  "id": "4-techno-ch1-q1",
+  "titre": "Besoin et Cahier des charges",
+  "questions": [
+    {
+      "type": "qcm",
+      "question": "Quelle est la première étape de la conception d'un objet ?",
+      "options": ["Fabriquer l'objet", "Identifier un besoin", "Vendre l'objet", "Le jeter"],
+      "answer": "Identifier un besoin"
+    },
+    {
+      "type": "vrai_faux",
+      "question": "Le cahier des charges liste toutes les fonctions et contraintes de l'objet.",
+      "answer": true
+    },
+    {
+      "type": "qcm",
+      "question": "Comment appelle-t-on ce qu'un objet DOIT faire pour répondre au besoin ?",
+      "options": ["Une fonction de service", "Une contrainte", "Un défaut", "Une couleur"],
+      "answer": "Une fonction de service"
+    },
+    {
+      "type": "vrai_faux",
+      "question": "Le prix de vente peut être une contrainte dans le cahier des charges.",
+      "answer": true
+    },
+    {
+      "type": "qcm",
+      "question": "Qui définit le besoin au départ ?",
+      "options": ["L'utilisateur (client)", "L'usine", "Le livreur", "Le robot"],
+      "answer": "L'utilisateur (client)"
+    }
+  ]
+}

@@ -1,7 +1,9 @@
-import { promises as fs } from "fs";
+/* eslint-disable react/no-unescaped-entities */
+// v1.1.0 - Correction des erreurs de parsing JSX et des imports manquants
+import QuizLoader from "@/components/quiz/QuizLoader";
 import path from "path";
+import fs from "fs/promises";
 import Link from "next/link";
-import QuizEngine from "@/components/quiz/QuizEngine";
 
 export default async function PlayQuizPage({
   params,
@@ -63,52 +65,12 @@ export default async function PlayQuizPage({
             </div>
           </div>
         </div>
-        
-        {/* On peut ajouter le score ou des cristaux ici plus tard */}
       </header>
-
-  {/* Le moteur de quiz qui prend le relais ou écran de blocage */}
+      
+      {/* Le moteur de quiz qui prend le relais ou écran de blocage */}
       <main className="flex-1 flex flex-col w-full max-w-3xl mx-auto p-4 md:p-8">
-        <PlayContent quizData={quizData} niveau={niveau} matiereId={matiereId} chapitre={chapitre} />
+        <QuizLoader quizData={quizData} niveau={niveau} matiereId={matiereId} chapitre={chapitre} />
       </main>
     </div>
-  );
-}
-
-// Composant interne pour gérer l'état client
-function PlayContent({ quizData, niveau, matiereId, chapitre }: any) {
-  // On doit utiliser un hook client pour accéder au context
-  return (
-    <QuizLoader quizData={quizData} niveau={niveau} matiereId={matiereId} chapitre={chapitre} />
-  );
-}
-
-import { useProgress } from "@/context/ProgressContext";
-
-function QuizLoader({ quizData, niveau, matiereId, chapitre }: any) {
-  const { progress } = useProgress();
-
-  if (progress.neurones <= 0) {
-    return (
-      <div className="flex flex-col items-center justify-center p-8 glass rounded-3xl text-center gap-6 animate-in zoom-in-95">
-        <div className="text-8xl">🧠</div>
-        <h2 className="text-3xl font-bold font-space text-rose">Plus de Neurones !</h2>
-        <p className="opacity-70 text-lg">
-          Ton cerveau a besoin de repos. Attends un peu que tes neurones se rechargent ou achètes-en dans la boutique !
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4 w-full max-w-md">
-          <Link href="/boutique" className="flex-1 py-4 bg-cyan text-white font-bold rounded-2xl shadow-lg shadow-cyan/20 hover:scale-105 transition-transform">
-            Aller à la boutique 🛒
-          </Link>
-          <Link href={`/matiere/${matiereId}-${niveau}/${chapitre}`} className="flex-1 py-4 glass font-bold rounded-2xl hover:bg-white/10 transition-colors">
-            Plus tard 👋
-          </Link>
-        </div>
-      </div>
-    );
-  }
-
-  return (
-    <QuizEngine quiz={quizData} backUrl={`/matiere/${matiereId}-${niveau}/${chapitre}`} matiereId={matiereId} />
   );
 }

@@ -1,0 +1,34 @@
+{
+  "id": "5-techno-ch1-q4",
+  "titre": "Sécurité informatique",
+  "questions": [
+    {
+      "type": "vrai_faux",
+      "question": "Un mot de passe solide doit contenir uniquement des lettres minuscules.",
+      "answer": false
+    },
+    {
+      "type": "qcm",
+      "question": "Qu'est-ce qu'un logiciel malveillant (malware) ?",
+      "options": ["Un jeu gratuit", "Un programme conçu pour endommager un système", "Un antivirus", "Un navigateur"],
+      "answer": "Un programme conçu pour endommager un système"
+    },
+    {
+      "type": "qcm",
+      "question": "Comment appelle-t-on la technique frauduleuse consistant à envoyer un e-mail pour voler des codes ?",
+      "options": ["Le streaming", "Le phishing (hameçonnage)", "Le téléchargement", "Le surf"],
+      "answer": "Le phishing (hameçonnage)"
+    },
+    {
+      "type": "vrai_faux",
+      "question": "Il est recommandé de changer régulièrement ses mots de passe.",
+      "answer": true
+    },
+    {
+      "type": "qcm",
+      "question": "Lequel de ces outils protège l'ordinateur contre les virus ?",
+      "options": ["Un pare-feu", "Un tableur", "Un antivirus", "Un lecteur vidéo"],
+      "answer": "Un antivirus"
+    }
+  ]
+}

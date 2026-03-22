@@ -1,0 +1,38 @@
+{
+  "id": "4-techno-ch3-q5",
+  "titre": "Programmation de systèmes",
+  "questions": [
+    {
+      "type": "vrai_faux",
+      "question": "En programmation par blocs (ex: Scratch), on emboîte des briques pour créer des instructions.",
+      "answer": true
+    },
+    {
+      "type": "qcm",
+      "question": "Qu'est-ce qu'une boucle 'Répéter indéfiniment' ?",
+      "options": [
+        "Une erreur de programme",
+        "Une suite d'actions qui recommence sans fin",
+        "Une action qui ne se fait qu'une fois",
+        "Un bouton d'arrêt"
+      ],
+      "answer": "Une suite d'actions qui recommence sans fin"
+    },
+    {
+      "type": "vrai_faux",
+      "question": "Une variable permet de stocker une information qui peut changer pendant le programme (ex: un score).",
+      "answer": true
+    },
+    {
+      "type": "qcm",
+      "question": "L'instruction 'Si luminosité < 500 alors Allumer LED' est :",
+      "options": ["Une boucle", "Une condition (un test)", "Une erreur", "Une variable"],
+      "answer": "Une condition (un test)"
+    },
+    {
+      "type": "vrai_faux",
+      "question": "On peut transférer son programme de l'ordinateur vers un robot (ou une carte comme Arduino).",
+      "answer": true
+    }
+  ]
+}

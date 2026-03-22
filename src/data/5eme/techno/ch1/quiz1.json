@@ -1,0 +1,40 @@
+{
+  "id": "5-techno-ch1-q1",
+  "titre": "Les composants de base",
+  "questions": [
+    {
+      "type": "qcm",
+      "question": "Quel composant est souvent considéré comme le 'cerveau' de l'ordinateur ?",
+      "options": ["La carte graphique", "Le processeur", "La mémoire vive", "Le disque dur"],
+      "answer": "Le processeur"
+    },
+    {
+      "type": "qcm",
+      "question": "Lequel de ces périphériques est un périphérique de sortie ?",
+      "options": ["Le clavier", "La souris", "L'écran", "Le scanner"],
+      "answer": "L'écran"
+    },
+    {
+      "type": "vrai_faux",
+      "question": "Le disque dur permet de stocker les données de façon permanente.",
+      "answer": true
+    },
+    {
+      "type": "qcm",
+      "question": "À quoi sert la mémoire vive (RAM) ?",
+      "options": [
+        "À stocker les photos pour toujours",
+        "À refroidir l'ordinateur",
+        "À stocker temporairement les données en cours d'utilisation",
+        "À alimenter l'ordinateur en électricité"
+      ],
+      "answer": "À stocker temporairement les données en cours d'utilisation"
+    },
+    {
+      "type": "qcm",
+      "question": "Quel port est le plus couramment utilisé pour brancher une clé de stockage ?",
+      "options": ["HDMI", "Ethernet", "USB", "Jack"],
+      "answer": "USB"
+    }
+  ]
+}

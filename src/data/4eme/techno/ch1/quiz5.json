@@ -1,0 +1,44 @@
+{
+  "id": "4-techno-ch1-q5",
+  "titre": "La CAO",
+  "questions": [
+    {
+      "type": "qcm",
+      "question": "Que signifie le sigle CAO ?",
+      "options": [
+        "Calcul Automatique d'Objets",
+        "Conception Assistée par Ordinateur",
+        "Code d'Accès Officiel",
+        "Circuit d'Air Ouvert"
+      ],
+      "answer": "Conception Assistée par Ordinateur"
+    },
+    {
+      "type": "vrai_faux",
+      "question": "La modélisation 3D permet de visualiser l'objet avant de le fabriquer.",
+      "answer": true
+    },
+    {
+      "type": "qcm",
+      "question": "Quelle technologie permet de créer un objet physique à partir d'un fichier 3D ?",
+      "options": ["L'imprimante papier", "L'imprimante 3D", "Le scanner", "La clé USB"],
+      "answer": "L'imprimante 3D"
+    },
+    {
+      "type": "vrai_faux",
+      "question": "Les logiciels de CAO ne servent qu'à faire des dessins décoratifs.",
+      "answer": false
+    },
+    {
+      "type": "qcm",
+      "question": "L'un des avantages de la simulation numérique est de :",
+      "options": [
+        "Tester la solidité d'un objet sans le fabriquer réellement",
+        "Passer le temps",
+        "Changer la météo",
+        "Éteindre l'ordinateur"
+      ],
+      "answer": "Tester la solidité d'un objet sans le fabriquer réellement"
+    }
+  ]
+}

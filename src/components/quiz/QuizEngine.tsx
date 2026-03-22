@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { motion, AnimatePresence } from "framer-motion";
 import QuestionQCM from "./QuestionQCM";
 import QuestionVraiFaux from "./QuestionVraiFaux";
 import QuestionTrous from "./QuestionTrous";
@@ -9,16 +10,23 @@ import QuestionRelier from "./QuestionRelier";
 import { useProgress } from "@/context/ProgressContext";
 import confetti from "canvas-confetti";
 
-export default function QuizEngine({ quiz, backUrl, matiereId }: { quiz: { id: string; titre: string; questions: any[] }; backUrl: string; matiereId: string }) {
+export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSurvival }: { quiz: { id: string; titre: string; questions: any[] /* eslint-disable-line @typescript-eslint/no-explicit-any */ }; backUrl: string; matiereId: string; onComplete?: (score: number) => void; isSurvival?: boolean }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
+  const [combo, setCombo] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
-  const { addXP, markQuizCompleted, isQuizCompleted, progress: userProgress, useNeurone } = useProgress();
+  const { addXP, markQuizCompleted, isQuizCompleted, progress: userProgress, useNeurone: consumeNeurone, sendMessage } = useProgress();
 
   // État de la réponse en cours
   const [hasAnswered, setHasAnswered] = useState(false);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [hasLostNeurone, setHasLostNeurone] = useState(false);
+
+  useEffect(() => {
+    if (isFinished && onComplete) {
+      onComplete(score);
+    }
+  }, [isFinished, onComplete, score]);
 
   const currentQuestion = quiz.questions[currentIndex];
   const progressBarWidth = ((currentIndex) / quiz.questions.length) * 100;
@@ -28,6 +36,13 @@ export default function QuizEngine({ quiz, backUrl, matiereId }: { quiz: { id: s
     setIsCorrect(correct);
     if (correct) {
       setScore(s => s + 1);
+      setCombo(c => c + 1);
+    } else {
+      setCombo(0);
+      if (isSurvival) {
+        // En mode survie, une erreur = fin immédiate après un petit délai pour voir la croix
+        setTimeout(() => setIsFinished(true), 1500);
+      }
     }
   };
 
@@ -47,9 +62,9 @@ export default function QuizEngine({ quiz, backUrl, matiereId }: { quiz: { id: s
       const isSuccess = score >= quiz.questions.length / 2;
 
       if (!isQuizCompleted(quiz.id) && isSuccess) {
-        const baseXP = score * 10;
-        const finalXP = userProgress.streak >= 3 ? Math.floor(baseXP * 1.5) : baseXP;
-        addXP(finalXP);
+        // Gain de base : bonnes réponses x 2
+        const baseXP = score * 2;
+        addXP(baseXP);
         markQuizCompleted(quiz.id, matiereId);
         
         confetti({
@@ -61,51 +76,68 @@ export default function QuizEngine({ quiz, backUrl, matiereId }: { quiz: { id: s
       }
 
       if (!isSuccess && !hasLostNeurone) {
-        useNeurone();
+        consumeNeurone();
         setHasLostNeurone(true);
       }
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isFinished]);
 
   if (isFinished) {
     const successRate = (score / quiz.questions.length) * 100;
-    const finalXP = userProgress.streak >= 3 ? Math.floor(score * 10 * 1.5) : score * 10;
+    const survivalBonus = isSurvival ? Math.floor(score * 10) : 0;
+    const earnedXP = ((score * 2) + survivalBonus) * (userProgress.xpBoost || 1);
+
+    if (onComplete) {
+      onComplete(score);
+    }
     
     let message = "Bien joué !";
-    let emoji = "🎉";
+    let statusImage = "/images/bien_joue.png";
+
     if (successRate === 100) {
-      message = "Parfait ! Impérial !";
-      emoji = "🤩";
+      message = "Impérial !";
+      statusImage = "/images/objectifs_atteints.png";
     } else if (successRate >= 80) {
-      message = "Excellent travail !";
-      emoji = "🥳";
+      message = "Félicitations !";
+      statusImage = "/images/felicitations.png";
     } else if (successRate < 50) {
-      message = "Il faut encore s'entraîner !";
-      emoji = "🤔";
+      message = "Dommage...";
+      statusImage = "/images/score_faible.png";
     }
 
     return (
-      <div className="flex flex-col items-center justify-center h-full text-center animate-in zoom-in-95 duration-700 w-full">
-        <h2 className="text-4xl font-space font-bold mb-4">{message}</h2>
-        <div className="text-6xl mb-8">{emoji}</div>
+      <div className="flex flex-col items-center justify-center h-full text-center animate-in zoom-in-95 duration-700 w-full pb-20">
+        <div className="w-48 h-48 mb-6 relative">
+           {/* eslint-disable-next-line @next/next/no-img-element */}
+           <img src={statusImage} alt={message} className="w-full h-full object-contain" />
+        </div>
+        <h2 className="text-4xl font-space font-black mb-4 tracking-tighter uppercase italic text-primary">{message}</h2>
         
-        <div className="glass p-8 rounded-3xl w-full max-w-sm mb-12 flex flex-col items-center relative overflow-hidden">
-           {userProgress.streak >= 3 && (
-             <div className="absolute top-0 right-0 bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-bl-xl z-20">
-               Bonus Streak x1.5 🔥
+        <div className="glass p-8 rounded-3xl w-full max-w-sm mb-12 flex flex-col items-center relative overflow-hidden ring-2 ring-primary/5 shadow-2xl">
+           {userProgress.xpBoost > 1 && (
+             <div className="absolute top-0 right-0 bg-cyan text-white text-[10px] font-black px-3 py-1 rounded-bl-xl z-20 uppercase tracking-widest">
+               Booster x{userProgress.xpBoost} ✨
              </div>
            )}
-          <div className="text-sm uppercase tracking-widest font-bold opacity-60 mb-2">XP Gagné</div>
-          <div className="text-5xl font-space font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan to-blue mb-4">
-            +{finalXP}
+          <div className="text-[10px] uppercase tracking-[0.3em] font-black opacity-40 mb-2">Points d&apos;Expérience</div>
+          <div className="text-5xl font-space font-black text-transparent bg-clip-text bg-gradient-to-r from-primary to-cyan mb-4 drop-shadow-md">
+            +{earnedXP} XP
           </div>
-          <div className="text-xl font-medium opacity-80">
-            {score} / {quiz.questions.length} correctes
+          <div className="text-lg font-bold opacity-60 flex items-center gap-2">
+            <span className="text-2xl">🎯</span> {score} / {quiz.questions.length} correctes
           </div>
         </div>
-        
-        <div className="w-40 h-40 mx-auto rounded-full border-8 border-primary/20 flex flex-col items-center justify-center mb-8 relative">
+
+        <div className="w-40 h-40 mx-auto rounded-full border-8 border-primary/5 flex flex-col items-center justify-center mb-10 relative bg-white/30 backdrop-blur-sm">
           <svg className="absolute inset-0 w-full h-full -rotate-90" viewBox="0 0 100 100">
+            <circle 
+              cx="50" cy="50" r="46" 
+              fill="none" 
+              stroke="currentColor" 
+              strokeWidth="8" 
+              className="text-primary/10"
+            />
             <circle 
               cx="50" cy="50" r="46" 
               fill="none" 
@@ -117,16 +149,29 @@ export default function QuizEngine({ quiz, backUrl, matiereId }: { quiz: { id: s
               strokeLinecap="round"
             />
           </svg>
-          <span className="text-5xl font-bold font-space text-primary">{score}</span>
-          <span className="text-sm uppercase tracking-widest opacity-60 mt-1">sur {quiz.questions.length}</span>
+          <span className="text-5xl font-black font-space text-primary tracking-tighter">{score}</span>
+          <span className="text-[10px] uppercase tracking-widest opacity-40 font-black">sur {quiz.questions.length}</span>
         </div>
 
-        <Link 
-          href={backUrl}
-          className="px-8 py-4 bg-primary text-primary-foreground font-bold rounded-2xl hover:brightness-110 transition-all font-space text-lg"
-        >
-          Terminer et Continuer
-        </Link>
+        <div className="flex flex-col sm:flex-row gap-4 w-full max-w-sm px-6">
+          <Link 
+            href={backUrl}
+            className="flex-1 px-8 py-5 bg-primary text-white font-black rounded-3xl hover:scale-105 transition-all font-space text-sm uppercase tracking-widest shadow-xl shadow-primary/20 flex items-center justify-center italic"
+          >
+            Continuer 🚀
+          </Link>
+          <button 
+            onClick={() => {
+              const tribeId = userProgress.tribes[0]?.id || 'social_feed';
+              const modeName = isSurvival ? 'Mode Survie 🔥' : 'de défi';
+              sendMessage(tribeId, `Vient de faire un score de ${score} en ${modeName} (${quiz.titre}) ! 🏆✨`);
+              alert("Score partagé avec ta tribu ! 📣");
+            }}
+            className="flex-1 px-8 py-5 bg-cyan text-white font-black rounded-3xl hover:scale-105 transition-all font-space text-sm uppercase tracking-widest shadow-xl shadow-cyan/20 flex items-center justify-center italic"
+          >
+            Partager 📣
+          </button>
+        </div>
       </div>
     );
   }
@@ -173,29 +218,44 @@ export default function QuizEngine({ quiz, backUrl, matiereId }: { quiz: { id: s
       </div>
 
       {/* Footer Actions */}
-      {hasAnswered && (
-        <div className={`mt-8 p-6 rounded-3xl animate-in slide-in-from-bottom-5 duration-300 ${isCorrect ? 'bg-green/10 border-2 border-green/30' : 'bg-rose/10 border-2 border-rose/30'}`}>
-          <div className="flex flex-col sm:flex-row items-center gap-4 justify-between">
-            <div className="flex items-center gap-4">
-              <div className={`w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold ${isCorrect ? 'bg-green text-green-950' : 'bg-rose text-rose-950'}`}>
-                {isCorrect ? '✓' : '×'}
+      <AnimatePresence mode="wait">
+        {hasAnswered && (
+          <motion.div 
+            initial={{ y: 100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            exit={{ y: 100, opacity: 0 }}
+            className={`mt-8 p-8 rounded-[2rem] shadow-2xl backdrop-blur-3xl border-2 transition-colors duration-500 ${isCorrect ? 'bg-green/20 border-green/40 shadow-green/20' : 'bg-rose/20 border-rose/40 shadow-rose/20'}`}
+          >
+            <div className="flex flex-col sm:flex-row items-center gap-6 justify-between">
+              <div className="flex items-center gap-6">
+                <motion.div 
+                  initial={{ scale: 0 }}
+                  animate={{ scale: 1 }}
+                  className={`w-16 h-16 rounded-2xl flex items-center justify-center text-3xl shadow-xl ${isCorrect ? 'bg-green text-green-950' : 'bg-rose text-rose-950'}`}
+                >
+                  {isCorrect ? '✨' : '💥'}
+                </motion.div>
+                <div className="text-center sm:text-left">
+                  <h3 className={`font-space font-black text-2xl tracking-tighter uppercase italic ${isCorrect ? 'text-green-500' : 'text-rose-500'}`}>
+                    {isCorrect ? 'Excellent !' : 'BOOM ! Perdu...'}
+                  </h3>
+                  <p className="text-xs font-bold opacity-60 uppercase tracking-widest mt-1">
+                    {isCorrect ? `Combo x${combo} ! 🔥` : 'Ta survie s\'arrête ici.'}
+                  </p>
+                </div>
               </div>
-              <div>
-                <h3 className={`font-space font-bold text-xl ${isCorrect ? 'text-green-400' : 'text-rose-400'}`}>
-                  {isCorrect ? 'Excellent !' : 'Oups, fausse route !'}
-                </h3>
-              </div>
+              
+              <button 
+                onClick={handleNext}
+                className={`group px-10 py-4 rounded-2xl font-black font-space text-lg transition-all shadow-xl flex items-center gap-3 ${isCorrect ? 'bg-green text-emerald-950 shadow-green/20 hover:scale-105' : 'bg-rose text-rose-950 shadow-rose/20 hover:scale-105'}`}
+              >
+                {isCorrect ? 'Continuer' : 'Voir mon score'}
+                <span className="group-hover:translate-x-1 transition-transform">➜</span>
+              </button>
             </div>
-            
-            <button 
-              onClick={handleNext}
-              className={`px-8 py-3 rounded-2xl font-bold font-space text-lg transition-transform hover:scale-105 ${isCorrect ? 'bg-green text-emerald-950' : 'bg-rose text-rose-950'}`}
-            >
-              Continuer
-            </button>
-          </div>
-        </div>
-      )}
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

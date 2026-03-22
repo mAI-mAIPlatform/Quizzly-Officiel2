@@ -1,0 +1,39 @@
+{
+  "id": "2-snt-ch3-q2",
+  "titre": "Données structurées",
+  "questions": [
+    {
+      "type": "qcm",
+      "question": "Que signifie le sigle CSV ?",
+      "options": [
+        "Calcul Simple de Valeurs",
+        "Comma-Separated Values (Valeurs séparées par des virgules)",
+        "Code Sûr et Valide",
+        "Centre de Stockage des Vidéos"
+      ],
+      "answer": "Comma-Separated Values (Valeurs séparées par des virgules)"
+    },
+    {
+      "type": "vrai_faux",
+      "question": "Dans un fichier CSV, chaque ligne représente généralement un enregistrement (un objet, une personne).",
+      "answer": true
+    },
+    {
+      "type": "qcm",
+      "question": "Dans un tableau de données, comment appelle-t-on le titre d'une colonne ?",
+      "options": ["Un habitant", "Un descripteur (ou champ)", "Un pixel", "Une rime"],
+      "answer": "Un descripteur (ou champ)"
+    },
+    {
+      "type": "vrai_faux",
+      "question": "Le format JSON est également très utilisé pour échanger des données structurées.",
+      "answer": true
+    },
+    {
+      "type": "qcm",
+      "question": "Le logiciel le plus courant pour visualiser des fichiers CSV proprement est :",
+      "options": ["Un traitement de texte", "Un tableur (ex: Excel, Calc)", "Un lecteur de musique", "Une calculatrice"],
+      "answer": "Un tableur (ex: Excel, Calc)"
+    }
+  ]
+}

@@ -1,12 +1,15 @@
 "use client";
 
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable @next/next/no-img-element */
 import { useProgress } from "@/context/ProgressContext";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 import { useState } from "react";
 
 export default function ProfilePage() {
-  const { progress, updateProfile } = useProgress();
+  const { progress, updateProfile, sendMessage } = useProgress();
   const [isEditing, setIsEditing] = useState(false);
   const [pseudo, setPseudo] = useState(progress.pseudo);
   const [bio, setBio] = useState(progress.bio);
@@ -81,7 +84,10 @@ export default function ProfilePage() {
             <>
               <div className="flex items-center justify-center md:justify-start gap-4">
                 <h1 className="text-4xl font-space font-extrabold tracking-tighter">{progress.pseudo}</h1>
-                <button onClick={() => setIsEditing(true)} className="w-8 h-8 glass flex items-center justify-center rounded-full hover:bg-white/10 transition-colors">✏️</button>
+                <div className="flex gap-2">
+                  <button onClick={() => setIsEditing(true)} className="w-8 h-8 glass flex items-center justify-center rounded-full hover:bg-white/10 transition-colors" title="Modifier le profil">✏️</button>
+                  <Link href="/reglages" className="w-8 h-8 glass flex items-center justify-center rounded-full hover:bg-white/10 transition-colors" title="Paramètres">⚙️</Link>
+                </div>
               </div>
               <p className="text-foreground/60 font-medium italic">"{progress.bio}"</p>
               
@@ -139,26 +145,44 @@ export default function ProfilePage() {
       </div>
 
       {/* Badges & Succès */}
-      <section className="glass p-8">
-        <h2 className="text-2xl font-space font-bold mb-6 flex items-center gap-3">
+      <section className="glass p-10 border-primary/10 shadow-2xl relative overflow-hidden bg-white/40">
+        <div className="absolute top-0 right-0 p-4 opacity-5">
+           <img src="/images/logo.png" alt="" className="w-32 h-32" />
+        </div>
+        <h2 className="text-3xl font-space font-black mb-8 flex items-center gap-4 tracking-tight uppercase italic text-primary">
           <span>🏅</span> Mes Succès
         </h2>
         
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
           {[
-            { id: "b1", nom: "Premier Pas", desc: "1 quiz terminé", icon: "🌱", done: progress.completedQuizzes.length >= 1 },
-            { id: "b2", nom: "Sérieux", desc: "3 jours de série", icon: "📅", done: progress.streak >= 3 },
-            { id: "b3", nom: "Expert Maths", desc: "10 quiz de maths", icon: "📐", done: progress.completedQuizzes.filter(id => id.includes("maths")).length >= 10 },
-            { id: "b4", nom: "Collectionneur", desc: "100 diamants", icon: "🏆", done: progress.crystals >= 100 },
-            { id: "b5", nom: "Génie", desc: "Niveau 5 atteint", icon: "🧠", done: progress.level >= 5 },
+            { id: "pionnier", nom: "Pionnier", desc: "Rejoindre v0.4.4", icon: "🚀", done: true },
+            { id: "premier_pas", nom: "Premier Pas", desc: "1 quiz terminé", icon: "🌱", done: progress.completedQuizzes.length >= 1 },
+            { id: "savant_fou", nom: "Savant Fou", desc: "5 sans-faute", icon: "🧪", done: progress.unlockedAchievements.includes("savant_fou") },
+            { id: "bourreau", nom: "Bourreau", desc: "Atteindre Niveau 5", icon: "💪", done: progress.level >= 5 },
+            { id: "collectionneur", nom: "Collectionneur", desc: "3 avatars débloqués", icon: "🎨", done: progress.unlockedAvatars.length >= 3 },
+            { id: "infatigable", nom: "Infatigable", desc: "7 jours de série", icon: "🔋", done: progress.streak >= 7 },
+            { id: "classe_change", nom: "Maître des Classes", desc: "Changer de classe", icon: "🏫", done: progress.selectedClass !== "6ème" },
+            { id: "booster", nom: "Accélérateur", desc: "Acheter un booster", icon: "⚡", done: progress.xpBoost > 1 },
           ].map((badge) => (
             <div 
               key={badge.id}
-              className={`flex flex-col items-center p-4 rounded-2xl border transition-all duration-500 ${badge.done ? 'bg-white/10 border-white/20' : 'opacity-20 bg-black/5 border-transparent grayscale'}`}
+              className={`flex flex-col items-center p-6 rounded-3xl border-2 transition-all duration-700 hover:scale-105 relative group ${badge.done ? 'bg-white border-primary/20 shadow-xl shadow-primary/5' : 'opacity-20 bg-black/5 border-transparent grayscale'}`}
             >
-              <div className="text-4xl mb-2">{badge.icon}</div>
-              <div className="text-sm font-bold text-center leading-tight">{badge.nom}</div>
-              <div className="text-[10px] text-foreground/40 text-center mt-1 hidden sm:block">{badge.desc}</div>
+              {badge.done && (
+                <button 
+                  onClick={() => {
+                    const tid = progress.tribes[0]?.id || 'social';
+                    sendMessage(tid, `Vient de débloquer le succès : ${badge.nom} (${badge.icon}) ! 🏅✨`);
+                    alert("Succès partagé ! 📣");
+                  }}
+                  className="absolute -top-2 -right-2 w-8 h-8 rounded-full bg-cyan text-white flex items-center justify-center text-[10px] shadow-lg opacity-0 group-hover:opacity-100 transition-opacity"
+                >
+                  📣
+                </button>
+              )}
+              <div className="text-5xl mb-3 drop-shadow-md">{badge.icon}</div>
+              <div className="text-sm font-black text-center leading-none uppercase tracking-tighter mb-1">{badge.nom}</div>
+              <div className="text-[9px] text-foreground/40 font-bold text-center uppercase tracking-widest leading-tight">{badge.desc}</div>
             </div>
           ))}
         </div>

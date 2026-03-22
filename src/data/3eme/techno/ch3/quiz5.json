@@ -1,0 +1,38 @@
+{
+  "id": "3-techno-ch3-q5",
+  "titre": "Algorithme et Organigramme",
+  "questions": [
+    {
+      "type": "vrai_faux",
+      "question": "Un organigramme doit toujours avoir un point de départ unique.",
+      "answer": true
+    },
+    {
+      "type": "qcm",
+      "question": "Que signifie la forme ovale dans un organigramme ?",
+      "options": ["Une question", "Le Début ou la Fin du programme", "Une action", "Une variable"],
+      "answer": "Le Début ou la Fin du programme"
+    },
+    {
+      "type": "vrai_faux",
+      "question": "Un test (losange) possède toujours deux sorties : OUI (Vrai) et NON (Faux).",
+      "answer": true
+    },
+    {
+      "type": "qcm",
+      "question": "Qu'est-ce qu'un événement en programmation ?",
+      "options": [
+        "Une fête",
+        "Un fait qui déclenche le programme ou une action (ex: bouton pressé)",
+        "Le titre du programme",
+        "Une erreur de calcul"
+      ],
+      "answer": "Un fait qui déclenche le programme ou une action (ex: bouton pressé)"
+    },
+    {
+      "type": "vrai_faux",
+      "question": "Utiliser des sous-programmes permet de rendre l'organigramme principal plus simple et plus lisible.",
+      "answer": true
+    }
+  ]
+}

@@ -1,28 +1,52 @@
 "use client";
 
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useProgress } from "@/context/ProgressContext";
 import { motion } from "framer-motion";
 
 export default function PassPage() {
-  const { progress, claimPassReward } = useProgress();
+  const { progress, claimPassReward, buyPassPro } = useProgress();
   const xpInTier = progress.xp % 200;
   const progressPercent = (xpInTier / 200) * 100;
 
-  const tiers = Array.from({ length: 20 }, (_, i) => ({
-    level: i + 1,
-    reward: i === 19 ? "Lion de Légende (Avatar)" : (i + 1) % 5 === 0 ? "Gros Pack Diamants" : (i + 1) % 2 === 0 ? "50 Diamants" : "Neurone Bonus",
-    icon: i === 19 ? "🦁" : (i + 1) % 5 === 0 ? "💰" : (i + 1) % 2 === 0 ? "💎" : "🧠",
-    color: i === 19 ? "from-yellow-400 to-orange-600" : (i + 1) % 5 === 0 ? "from-emerald-400 to-green-600" : "from-blue-400 to-violet-500",
-    free: (i + 1) % 3 !== 0
-  }));
+  const tiers = Array.from({ length: 20 }, (_, i) => {
+    const level = i + 1;
+    let reward = "Diamants";
+    let icon = "💎";
+    let color = "from-blue-400 to-violet-500";
+    
+    if (level === 5) { reward = "Avatar Apprenti"; icon = "🎓"; color = "from-emerald-400 to-green-600"; }
+    else if (level === 10) { reward = "Avatar Expert"; icon = "🧠"; color = "from-cyan-400 to-blue-600"; }
+    else if (level === 15) { reward = "Avatar Maître"; icon = "👑"; color = "from-orange-400 to-red-600"; }
+    else if (level === 20) { reward = "Avatar Légende"; icon = "🦁"; color = "from-yellow-400 to-orange-600"; }
+    else if (level % 5 === 0) { reward = "Gros Pack Diamants"; icon = "💰"; color = "from-emerald-400 to-teal-600"; }
+    else if (level % 2 === 0) { reward = "50 Diamants"; icon = "💎"; }
+    else if (level % 3 === 0) { reward = "Booster XP"; icon = "⚡"; color = "from-yellow-400 to-amber-600"; }
+    else { reward = "Neurone Bonus"; icon = "🧠"; color = "from-rose-400 to-red-500"; }
+
+    return { level, reward, icon, color, free: level % 4 !== 0 };
+  });
 
   return (
     <div className="max-w-4xl mx-auto space-y-8 animate-in fade-in duration-700 pb-20">
       <header className="glass p-8 bg-gradient-to-br from-violet/20 to-primary/20 text-center space-y-4">
         <h1 className="text-6xl font-space font-black tracking-tighter italic text-transparent bg-clip-text bg-gradient-to-r from-violet to-primary drop-shadow-xl">
-          QUIZZLY PASS
+          QUIZZLY PASS {progress.isPassPro && <span className="text-sm not-italic bg-primary text-white px-3 py-1 rounded-full align-middle ml-2 shadow-lg">PRO</span>}
         </h1>
         <p className="text-lg font-bold opacity-80 uppercase tracking-[0.3em] text-primary">Saison 1 : L'Origine 🧬</p>
+        
+        {!progress.isPassPro && (
+          <button 
+            onClick={() => {
+              if (buyPassPro()) alert("Pass Pro activé ! 👑");
+              else alert("Pas assez de diamants ! 💎");
+            }}
+            className="bg-primary text-white font-black px-8 py-3 rounded-xl text-sm shadow-xl shadow-primary/20 hover:scale-105 transition-all"
+          >
+            DEVENIR PRO (50 💎)
+          </button>
+        )}
         
         <div className="flex flex-col items-center gap-2 pt-6">
           <div className="flex justify-between w-full max-w-md text-sm font-black uppercase tracking-tighter opacity-70">

@@ -1,6 +1,8 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+// v1.1.0 - Gère la question vide en utilisant question.question si question.enonce n'est pas fourni.
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export default function QuestionQCM({ 
   question, 
@@ -14,27 +16,32 @@ export default function QuestionQCM({
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
 
   // Reset quand on change de question
-  useEffect(() => {
+  const [prevQuestionId, setPrevQuestionId] = useState(question.id);
+  if (question.id !== prevQuestionId) {
+    setPrevQuestionId(question.id);
     setSelectedIndex(null);
-  }, [question.id]);
+  }
 
   const handleSelect = (index: number) => {
     if (hasAnswered) return;
     setSelectedIndex(index);
-    onValidate(index === question.correctIndex);
+    const actualCorrectIndex = question.correctIndex ?? question.options.findIndex((opt: string) => opt === question.answer);
+    onValidate(index === actualCorrectIndex);
   };
 
   return (
     <div className="flex flex-col h-full animate-in slide-in-from-right-8 duration-500">
       <h2 className="text-2xl md:text-3xl font-space font-bold mb-8 text-center mt-4">
-        {question.enonce}
+        {question.enonce || question.question}
       </h2>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-auto">
         {question.options.map((option: string, index: number) => {
+          const actualCorrectIndex = question.correctIndex ?? question.options.findIndex((opt: string) => opt === question.answer);
           let stateClass = "glass hover:bg-white/5 border-primary/20";
+          
           if (hasAnswered) {
-            if (index === question.correctIndex) {
+            if (index === actualCorrectIndex) {
               stateClass = "bg-green/20 border-green text-green-100 ring-2 ring-green/50";
             } else if (index === selectedIndex) {
               stateClass = "bg-rose/20 border-rose text-rose-100";
@@ -53,7 +60,7 @@ export default function QuestionQCM({
               className={`p-6 rounded-2xl text-left text-lg font-medium transition-all duration-300 relative overflow-hidden ${stateClass} ${!hasAnswered && 'hover:scale-[1.02] active:scale-95'}`}
             >
               <div className="flex items-center gap-4 relative z-10">
-                <span className={`w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm ${hasAnswered && index === question.correctIndex ? 'bg-green text-green-950' : 'bg-primary/20 text-primary'}`}>
+                <span className={`w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm ${hasAnswered && index === actualCorrectIndex ? 'bg-green text-green-950' : 'bg-primary/20 text-primary'}`}>
                   {String.fromCharCode(65 + index)}
                 </span>
                 <span>{option}</span>

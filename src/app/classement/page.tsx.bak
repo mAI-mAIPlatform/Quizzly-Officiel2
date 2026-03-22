@@ -1,0 +1,118 @@
+"use client";
+
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-require-imports */
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react-hooks/set-state-in-effect */
+/* eslint-disable prefer-const */
+import { useProgress } from "@/context/ProgressContext";
+import { useState, useEffect } from "react";
+
+const FAKE_PLAYERS = [
+  { id: "p1", name: "Alexandre_01", xp: 5240, avatar: "🦁" },
+  { id: "p2", name: "SarahConnor", xp: 4100, avatar: "🦊" },
+  { id: "p3", name: "MaxRider", xp: 3250, avatar: "🐯" },
+  { id: "p4", name: "Chloé_Z", xp: 2800, avatar: "🐰" },
+  { id: "p5", name: "LucasB", xp: 2150, avatar: "🐼" },
+  { id: "p6", name: "Emma_L", xp: 1700, avatar: "🐨" },
+  { id: "p7", name: "GamerDu93", xp: 950, avatar: "🐸" },
+  { id: "p8", name: "Juliette.M", xp: 520, avatar: "🐙" },
+  { id: "p9", name: "Thomas.Pro", xp: 210, avatar: "🐢" },
+  { id: "p10", name: "Nouveau", xp: 50, avatar: "🐣" },
+];
+
+export default function ClassementPage() {
+  const { progress } = useProgress();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) return null; // Prevent SSR Hydration mismatch
+
+  const allPlayers = [
+    ...FAKE_PLAYERS.map(p => ({ ...p, isMe: false })),
+    { id: "me", name: "Moi", xp: progress.xp, avatar: "M", isMe: true }
+  ];
+
+  const sortedPlayers = allPlayers.sort((a, b) => b.xp - a.xp);
+
+  return (
+    <div className="flex flex-col gap-8 w-full max-w-4xl mx-auto h-full relative z-10 animate-in fade-in slide-in-from-bottom-4 duration-500">
+      <header className="flex flex-col justify-center items-center text-center gap-4 py-8 relative">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-orange-500/10 rounded-full blur-3xl -z-10"></div>
+        <h1 className="text-5xl font-bold font-space text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-rose drop-shadow-sm">
+          Ligue Or 🏆
+        </h1>
+        <p className="opacity-80 text-lg">Affronte d'autres étudiants et hisse-toi au sommet du classement hebdo !</p>
+      </header>
+
+      <div className="glass rounded-3xl p-2 md:p-6 shadow-xl flex flex-col gap-2">
+        <div className="grid grid-cols-[3rem_1fr_4rem] md:grid-cols-[4rem_1fr_6rem] gap-4 px-4 py-2 opacity-50 text-xs md:text-sm font-bold uppercase tracking-wider">
+          <div className="text-center">Rang</div>
+          <div>Joueur</div>
+          <div className="text-right">Score</div>
+        </div>
+
+        {sortedPlayers.map((player, index) => {
+          const isTop3 = index < 3;
+          let rankColor = "text-foreground/50";
+          let medal = "";
+          
+          if (index === 0) {
+            rankColor = "text-yellow-400";
+            medal = "🥇";
+          } else if (index === 1) {
+            rankColor = "text-slate-300";
+            medal = "🥈";
+          } else if (index === 2) {
+            rankColor = "text-amber-600";
+            medal = "🥉";
+          }
+
+          return (
+            <div 
+              key={player.id} 
+              className={`grid grid-cols-[3rem_1fr_4rem] md:grid-cols-[4rem_1fr_6rem] gap-4 items-center p-3 md:p-4 rounded-2xl transition-all duration-300 hover:bg-foreground/5 ${
+                player.isMe 
+                  ? "bg-primary/20 border-2 border-primary/50 shadow-lg shadow-primary/10 scale-[1.02] z-10" 
+                  : "glass border border-transparent"
+              }`}
+            >
+              {/* Rang */}
+              <div className={`text-center font-space font-bold text-xl md:text-2xl ${rankColor}`}>
+                {medal || `#${index + 1}`}
+              </div>
+
+              {/* Joueur */}
+              <div className="flex items-center gap-3 md:gap-4 overflow-hidden">
+                <div className={`w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center text-xl md:text-2xl shadow-inner ${
+                  player.isMe ? "bg-gradient-to-tr from-violet to-primary text-white" : "bg-foreground/10"
+                }`}>
+                  {player.avatar}
+                </div>
+                <div className="flex flex-col truncate">
+                  <span className={`font-bold truncate ${player.isMe ? "text-primary" : "opacity-90"} ${isTop3 ? "text-lg md:text-xl" : "text-base"}`}>
+                    {player.name}
+                  </span>
+                  {player.isMe && <span className="text-[10px] md:text-xs text-primary uppercase tracking-widest">C'est toi !</span>}
+                </div>
+              </div>
+
+              {/* Score */}
+              <div className="text-right flex flex-col items-end justify-center">
+                <span className={`font-space font-bold ${isTop3 ? "text-xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-rose" : "text-base md:text-lg opacity-80"}`}>
+                  {player.xp}
+                </span>
+                <span className="text-[10px] uppercase opacity-50 tracking-wider">XP</span>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}

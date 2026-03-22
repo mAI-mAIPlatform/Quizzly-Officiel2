@@ -1,6 +1,8 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+// v1.1.0 - Correction question vide
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const OptionButton = ({ value, label, color, bgHover, hasAnswered, questionReponse, selectedResponse, onSelect }: any) => {
   let stateClass = "glass";
@@ -40,14 +42,17 @@ export default function QuestionVraiFaux({
 }) {
   const [selectedResponse, setSelectedResponse] = useState<boolean | null>(null);
 
-  useEffect(() => {
+  const [prevQuestionId, setPrevQuestionId] = useState(question.id);
+  if (question.id !== prevQuestionId) {
+    setPrevQuestionId(question.id);
     setSelectedResponse(null);
-  }, [question.id]);
+  }
 
   const handleSelect = (response: boolean) => {
     if (hasAnswered) return;
     setSelectedResponse(response);
-    onValidate(response === question.reponse);
+    const actualReponse = question.reponse !== undefined ? question.reponse : question.answer;
+    onValidate(response === actualReponse);
   };
 
   return (
@@ -57,22 +62,23 @@ export default function QuestionVraiFaux({
           Vrai ou Faux ?
         </div>
         <h2 className="text-3xl md:text-4xl font-space font-bold leading-tight">
-          "{question.enonce}"
+          &quot;{question.enonce || question.question}&quot;
         </h2>
       </div>
       
       <div className="grid grid-cols-2 gap-6 mt-12">
         <OptionButton 
           value={true} label="Vrai" color="green" bgHover="hover:bg-green/10" 
-          hasAnswered={hasAnswered} questionReponse={question.reponse} 
+          hasAnswered={hasAnswered} questionReponse={question.reponse !== undefined ? question.reponse : question.answer} 
           selectedResponse={selectedResponse} onSelect={handleSelect} 
         />
         <OptionButton 
           value={false} label="Faux" color="rose" bgHover="hover:bg-rose/10" 
-          hasAnswered={hasAnswered} questionReponse={question.reponse} 
+          hasAnswered={hasAnswered} questionReponse={question.reponse !== undefined ? question.reponse : question.answer} 
           selectedResponse={selectedResponse} onSelect={handleSelect} 
         />
       </div>
     </div>
   );
 }
+

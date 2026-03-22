@@ -1,5 +1,7 @@
 "use client";
 
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react-hooks/set-state-in-effect */
 import { useProgress } from "@/context/ProgressContext";
 import { useState, useEffect } from "react";
 

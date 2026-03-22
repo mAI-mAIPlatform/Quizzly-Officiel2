@@ -1,5 +1,6 @@
 "use client";
 
+/* eslint-disable react/no-unescaped-entities */
 import { useState } from "react";
 import Link from "next/link";
 
@@ -8,7 +9,9 @@ const NIVEAUX = [
   { id: "5eme", nom: "5ème" },
   { id: "4eme", nom: "4ème" },
   { id: "3eme", nom: "3ème" },
-  { id: "lycee", nom: "Lycée" },
+  { id: "2nde", nom: "2nde" },
+  { id: "1ere", nom: "1ère" },
+  { id: "terminale", nom: "Terminale" },
 ];
 
 const MATIERES = [
@@ -18,6 +21,13 @@ const MATIERES = [
   { id: 'svt', nom: 'SVT', icon: '🌿', color: 'from-green to-emerald-500', dispo: true },
   { id: 'physique', nom: 'Physique-Chimie', icon: '🧪', color: 'from-violet to-purple-500', dispo: true },
   { id: "anglais", nom: "Anglais", icon: "🗣️", color: "from-rose-500 to-red-600", dispo: true },
+  { id: "espagnol", nom: "Espagnol", icon: "🇪🇸", color: "from-yellow-400 to-orange-500", dispo: true },
+  { id: "allemand", nom: "Allemand", icon: "🇩🇪", color: "from-gray-700 to-black", dispo: true },
+  { id: "techno", nom: "Technologie", icon: "⚙️", color: "from-slate-500 to-blue-600", dispo: true },
+  { id: "emc", nom: "EMC", icon: "⚖️", color: "from-blue-600 to-red-600", dispo: true },
+  { id: "ses", nom: "SES", icon: "📈", color: "from-emerald-400 to-teal-600", dispo: true },
+  { id: "snt", nom: "SNT", icon: "💻", color: "from-cyan-500 to-blue-500", dispo: true },
+  { id: "philo", nom: "Philosphie", icon: "🧘", color: "from-indigo-400 to-purple-600", dispo: true },
 ];
 
 export default function MatieresPage() {

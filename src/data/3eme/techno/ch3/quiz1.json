@@ -1,0 +1,43 @@
+{
+  "id": "3-techno-ch3-q1",
+  "titre": "Modélisation 3D avancée",
+  "questions": [
+    {
+      "type": "vrai_faux",
+      "question": "Le montage (ou assemblage) en CAO permet de vérifier que toutes les pièces de l'objet s'emboîtent correctement.",
+      "answer": true
+    },
+    {
+      "type": "qcm",
+      "question": "Qu'est-ce qu'une 'interférence' en modélisation 3D ?",
+      "options": [
+        "Deux pièces qui se rentrent dedans (collision), ce qui est une erreur de conception",
+        "Une musique de fond",
+        "Un changement de couleur",
+        "Une perte de connexion Internet"
+      ],
+      "answer": "Deux pièces qui se rentrent dedans (collision), ce qui est une erreur de conception"
+    },
+    {
+      "type": "vrai_faux",
+      "question": "L'éclatée d'un système 3D permet de voir toutes les pièces détachées et l'ordre de montage.",
+      "answer": true
+    },
+    {
+      "type": "qcm",
+      "question": "À quoi sert le rendu réaliste (rendering) ?",
+      "options": [
+        "À transformer le modèle en dessin animé",
+        "À simuler l'aspect final avec les vraies matières et la lumière pour le client",
+        "À réduire la taille des fichiers",
+        "À supprimer les pièces inutiles"
+      ],
+      "answer": "À simuler l'aspect final avec les vraies matières et la lumière pour le client"
+    },
+    {
+      "type": "vrai_faux",
+      "question": "On peut utiliser un modèle 3D pour calculer automatiquement le poids et le centre de gravité d'un futur objet.",
+      "answer": true
+    }
+  ]
+}
