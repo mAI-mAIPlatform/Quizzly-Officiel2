@@ -9,13 +9,17 @@ import QuestionTrous from "./QuestionTrous";
 import QuestionRelier from "./QuestionRelier";
 import { useProgress } from "@/context/ProgressContext";
 import confetti from "canvas-confetti";
+import { useRef } from "react";
 
-export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSurvival }: { quiz: { id: string; titre: string; questions: any[] /* eslint-disable-line @typescript-eslint/no-explicit-any */ }; backUrl: string; matiereId: string; onComplete?: (score: number) => void; isSurvival?: boolean }) {
+export type QuizTypeEnum = 'classic' | 'ranked' | 'survival' | 'duel' | 'blitz' | 'vrai_faux' | 'visuel';
+
+export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSurvival, quizType = 'classic' }: { quiz: { id: string; titre: string; questions: any[] /* eslint-disable-line @typescript-eslint/no-explicit-any */ }; backUrl: string; matiereId: string; onComplete?: (score: number) => void; isSurvival?: boolean; quizType?: QuizTypeEnum }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [combo, setCombo] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
-  const { addXP, markQuizCompleted, isQuizCompleted, progress: userProgress, useNeurone: consumeNeurone, sendMessage } = useProgress();
+  const { addXP, markQuizCompleted, isQuizCompleted, progress: userProgress, useNeurone: consumeNeurone, sendMessage, addHistoryEntry } = useProgress();
+  const hasSavedHistory = useRef(false);
 
   // État de la réponse en cours
   const [hasAnswered, setHasAnswered] = useState(false);
@@ -60,6 +64,22 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
   useEffect(() => {
     if (isFinished) {
       const isSuccess = score >= quiz.questions.length / 2;
+
+      // Historique global (sauvegarde une seule fois)
+      if (!hasSavedHistory.current) {
+        let finalType = quizType;
+        if (isSurvival) finalType = 'survival';
+        if (matiereId === 'ranked') finalType = 'ranked';
+        
+        addHistoryEntry({
+          id: quiz.id,
+          type: finalType,
+          score: score,
+          maxScore: quiz.questions.length,
+          title: quiz.titre
+        });
+        hasSavedHistory.current = true;
+      }
 
       if (!isQuizCompleted(quiz.id) && isSuccess) {
         // Gain de base : bonnes réponses x 2

@@ -28,9 +28,9 @@ export default function Navbar() {
 
       <div className="flex items-center gap-4">
         {/* Neurones */}
-        <div className="flex items-center gap-2 font-black text-rose bg-rose/10 px-4 py-2 rounded-2xl border border-rose/10 shadow-sm">
+        <Link href="/boutique" className="flex items-center gap-2 font-black text-rose bg-rose/10 px-4 py-2 rounded-2xl border border-rose/10 shadow-sm cursor-pointer hover:scale-105 transition-all">
           <span className="text-xl">🧠</span> {progress.neurones}/5
-        </div>
+        </Link>
 
         {/* Streak */}
         <div className="flex items-center gap-2 font-black text-orange-500 bg-orange-500/10 px-4 py-2 rounded-2xl border border-orange-500/10 shadow-sm">
@@ -40,6 +40,15 @@ export default function Navbar() {
         {/* Cristaux -> Boutique */}
         <Link href="/boutique" className="flex items-center gap-2 font-black text-cyan bg-cyan/10 px-4 py-2 rounded-2xl border border-cyan/10 hover:scale-105 transition-all shadow-sm">
           <span className="text-xl">💎</span> {progress.crystals}
+        </Link>
+
+        {/* Profil */}
+        <Link href="/profil" className="ml-2 w-10 h-10 rounded-xl bg-gradient-to-tr from-violet/20 to-primary/20 border-2 border-primary/20 relative hover:scale-110 transition-all flex items-center justify-center text-xl shadow-lg group cursor-pointer overflow-hidden">
+          <div className="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity rounded-xl"></div>
+          {progress.avatar}
+          <span className="absolute bottom-0 right-0 bg-primary text-white text-[8px] font-black px-1 rounded-tl-lg border-t border-l border-white/20">
+            {progress.level}
+          </span>
         </Link>
       </div>
 

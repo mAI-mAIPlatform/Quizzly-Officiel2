@@ -33,13 +33,33 @@ type UserProgress = {
   unlockedAchievements: string[];
   friends: string[];
   tribes: { id: string; name: string; members: string[]; mascot: string }[];
-  messages: { [chatId: string]: { sender: string; text: string; timestamp: string }[] };
+  messages: { [chatId: string]: { sender: string; text: string; timestamp: string; isSystem?: boolean }[] };
   rankedPoints: number;
   rankedRank: 'Apprenti' | 'Etudiant' | 'Expert' | 'Savant' | 'Génie';
   rankedCompletedQuizzes: string[];
   survivalHighScore: number;
   survivalTotalXP: number;
   isPassPro: boolean;
+  unlockedTitles: string[];
+  selectedTitle: string;
+  chests: string[];
+  // v0.9.4 additions
+  settings: { musicEnabled: boolean; soundEnabled: boolean };
+  dailyRewardClaimed: boolean;
+  lastDailyRewardDate: string | null;
+  shields: number;
+  boosterCount: number;
+  profileFrame: string;
+  profileBanner: string;
+  selectedMascot: string;
+  selectedEffect: string;
+  unlockedFrames: string[];
+  unlockedBanners: string[];
+  unlockedEffects: string[];
+  unlockedMascots: string[];
+  streakDays: string[]; // ISO dates of streak days
+  history: { id: string; date: string; type: 'classic' | 'ranked' | 'survival' | 'duel' | 'blitz' | 'vrai_faux' | 'visuel'; score: number; maxScore: number; title: string }[];
+  selectedTheme: string;
 };
 
 type ProgressContextType = {
@@ -64,6 +84,22 @@ type ProgressContextType = {
   markRankedQuizCompleted: (quizId: string) => void;
   updateSurvivalScore: (score: number) => void;
   buyPassPro: () => boolean;
+  claimChest: (type: string) => void;
+  buyChest: (type: string, cost: number) => boolean;
+  addChestRewards: (type: string) => void;
+  updateWeekendQuest: () => void;
+  activeChest: { type: string; isOpen: boolean } | null;
+  closeChest: () => void;
+  // v0.9.4
+  claimDailyReward: () => boolean;
+  buyRandomChest: (cost: number) => boolean;
+  updateSettings: (s: Partial<{ musicEnabled: boolean; soundEnabled: boolean }>) => void;
+  updateTheme: (theme: string) => void;
+  buyFrame: (id: string, cost: number) => boolean;
+  buyBanner: (id: string, cost: number) => boolean;
+  buyEffect: (id: string, cost: number) => boolean;
+  buyMascot: (id: string, cost: number) => boolean;
+  addHistoryEntry: (entry: { id: string; type: 'classic' | 'ranked' | 'survival' | 'duel' | 'blitz' | 'vrai_faux' | 'visuel'; score: number; maxScore: number; title: string }) => void;
 };
 
 const defaultQuests: Quest[] = [
@@ -102,13 +138,33 @@ const defaultProgress: UserProgress = {
   rankedCompletedQuizzes: [],
   survivalHighScore: 0,
   survivalTotalXP: 0,
-  isPassPro: false
+  isPassPro: false,
+  unlockedTitles: ["Petit Nouveau"],
+  selectedTitle: "Petit Nouveau",
+  chests: [],
+  settings: { musicEnabled: true, soundEnabled: true },
+  dailyRewardClaimed: false,
+  lastDailyRewardDate: null,
+  shields: 3,
+  boosterCount: 0,
+  profileFrame: "default",
+  profileBanner: "default",
+  selectedMascot: "",
+  selectedEffect: "",
+  unlockedFrames: ["default"],
+  unlockedBanners: ["default"],
+  unlockedEffects: [],
+  unlockedMascots: [],
+  streakDays: [],
+  history: [],
+  selectedTheme: "light",
 };
 
 const ProgressContext = createContext<ProgressContextType | undefined>(undefined);
 
 export function ProgressProvider({ children }: { children: React.ReactNode }) {
   const [progress, setProgress] = useState<UserProgress>(defaultProgress);
+  const [activeChest, setActiveChest] = useState<{ type: string; isOpen: boolean } | null>(null);
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
@@ -152,6 +208,13 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     return () => clearInterval(interval);
   }, []);
 
+  // Update document root theme attribute
+  useEffect(() => {
+    if (isLoaded && progress.selectedTheme) {
+      document.documentElement.setAttribute("data-theme", progress.selectedTheme);
+    }
+  }, [isLoaded, progress.selectedTheme]);
+
   const addXP = (amount: number) => {
     setProgress(prev => {
       const finalAmount = amount * (prev.xpBoost || 1);
@@ -167,9 +230,9 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
       
       const newProgress = { ...prev, xp: newXP, level: newLevel, crystals: newCrystals };
       
-      // Mini-logique pour le Pass (Tous les 200 XP cumulés - Max 20 paliers)
+      // Mini-logique pour le Pass (Tous les 200 XP cumulés - Max 30 paliers)
       const totalXPCumulated = newXP + (newLevel - 1) * 100;
-      newProgress.passTier = Math.min(20, Math.floor(totalXPCumulated / 200) + 1);
+      newProgress.passTier = Math.min(30, Math.floor(totalXPCumulated / 200) + 1);
 
       localStorage.setItem("quizzly_progress", JSON.stringify(newProgress));
       return newProgress;
@@ -326,27 +389,97 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     setProgress(prev => {
       const updated = { ...prev, claimedPassRewards: [...prev.claimedPassRewards, tier] };
       
-      // Determine reward based on tier (index = tier - 1)
-      const i = tier - 1;
-      if (i === 19) {
-        // Lion de Légende (Avatar)
-        if (!updated.unlockedAvatars.includes("🦁")) {
-          updated.unlockedAvatars = [...updated.unlockedAvatars, "🦁"];
-        }
-      } else if (tier % 5 === 0) {
-        // Gros Pack Diamants (ex: 250)
-        updated.crystals += 250;
-      } else if (tier % 2 === 0) {
-        // 50 Diamants
-        updated.crystals += 50;
-      } else {
-        // Neurone Bonus
-        updated.neurones = Math.min(5, updated.neurones + 1);
-      }
+      const rewards30: { [key: number]: () => void } = {
+        1: () => updated.crystals += 50,
+        2: () => updated.unlockedTitles.push("Major de Promo"),
+        3: () => updated.neurones = Math.min(5, updated.neurones + 1),
+        4: () => updated.unlockedAvatars.push("🎓"),
+        5: () => updated.crystals += 100,
+        6: () => updated.xpBoost = 1.5,
+        7: () => updated.unlockedTitles.push("Petit Génie"),
+        8: () => updated.neurones = Math.min(5, updated.neurones + 1),
+        9: () => updated.crystals += 150,
+        10: () => updated.unlockedAvatars.push("🧠"),
+        11: () => updated.unlockedTitles.push("Chercheur"),
+        12: () => updated.crystals += 200,
+        13: () => updated.neurones = Math.min(5, updated.neurones + 1),
+        14: () => updated.unlockedAvatars.push("🦉"),
+        15: () => updated.unlockedTitles.push("Expert"),
+        16: () => updated.crystals += 250,
+        17: () => updated.xpBoost = 2,
+        18: () => updated.neurones = Math.min(5, updated.neurones + 1),
+        19: () => updated.crystals += 300,
+        20: () => updated.unlockedAvatars.push("🦁"),
+        21: () => updated.unlockedTitles.push("Maître"),
+        22: () => updated.crystals += 400,
+        23: () => updated.neurones = Math.min(5, updated.neurones + 1),
+        24: () => updated.unlockedAvatars.push("🐉"),
+        25: () => updated.unlockedTitles.push("Légende"),
+        26: () => updated.crystals += 500,
+        27: () => updated.xpBoost = 3,
+        28: () => updated.neurones = Math.min(5, updated.neurones + 1),
+        29: () => updated.crystals += 1000,
+        30: () => updated.unlockedAvatars.push("👑"),
+      };
+
+      if (rewards30[tier]) rewards30[tier]();
       
       localStorage.setItem("quizzly_progress", JSON.stringify(updated));
       return updated;
     });
+  };
+
+  const buyChest = (type: string, cost: number) => {
+    if (progress.crystals < cost) return false;
+    setProgress(prev => {
+        const updated = { ...prev, crystals: prev.crystals - cost };
+        localStorage.setItem("quizzly_progress", JSON.stringify(updated));
+        return updated;
+    });
+    setActiveChest({ type, isOpen: true });
+    return true;
+  };
+
+  const closeChest = () => setActiveChest(null);
+
+  const claimChest = (type: string) => {
+    setActiveChest({ type, isOpen: true });
+    // Les gains réels sont gérés dans la modal à la fin de l'animation pour plus de réalisme
+  };
+
+  const addChestRewards = (type: string) => {
+    setProgress(prev => {
+        const updated = { ...prev };
+        if (type === "Rare") { updated.crystals += 100; }
+        else if (type === "Epique") { updated.crystals += 250; updated.unlockedTitles.push("Guerrier du Weekend"); }
+        else if (type === "Mythique") { updated.crystals += 500; updated.unlockedAvatars.push("🔥"); }
+        else if (type === "Légendaire") { updated.crystals += 1000; updated.unlockedTitles.push("Immortel"); }
+        else if (type === "Ultra") { updated.crystals += 5000; updated.unlockedAvatars.push("✨"); updated.unlockedTitles.push("Dieu du Quiz"); }
+        
+        localStorage.setItem("quizzly_progress", JSON.stringify(updated));
+        return updated;
+    });
+  };
+
+  const updateWeekendQuest = () => {
+    const now = new Date();
+    const day = now.getDay(); // 0 = Dimanche, 5 = Vendredi, 6 = Samedi
+    const hour = now.getHours();
+
+    if (day === 5 && hour >= 15 || day === 6 || day === 0) {
+        setProgress(prev => {
+           if (prev.quests.some(q => q.id === "q_weekend")) return prev;
+           const weekendQuests = [
+             { id: "q_weekend", title: "Gagner 500 XP ce Weekend", target: 500, current: 0, xpReward: 0, isCompleted: false },
+             { id: "q_weekend", title: "Faire 10 quiz parfaits", target: 10, current: 0, xpReward: 0, isCompleted: false },
+             { id: "q_weekend", title: "Monter un niveau ce Weekend", target: 1, current: 0, xpReward: 0, isCompleted: false }
+           ];
+           const randomQuest = weekendQuests[Math.floor(Math.random() * weekendQuests.length)];
+           const updated = { ...prev, quests: [...prev.quests, randomQuest] };
+           localStorage.setItem("quizzly_progress", JSON.stringify(updated));
+           return updated;
+        });
+    }
   };
 
   const addFriend = (pseudo: string) => {
@@ -454,6 +587,78 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     return true;
   };
 
+  const claimDailyReward = () => {
+    const today = new Date().toISOString().split('T')[0];
+    if (progress.lastDailyRewardDate === today) return false;
+    setProgress(prev => {
+      const updated = { ...prev, crystals: prev.crystals + 5, dailyRewardClaimed: true, lastDailyRewardDate: today };
+      localStorage.setItem("quizzly_progress", JSON.stringify(updated));
+      return updated;
+    });
+    return true;
+  };
+
+  const buyRandomChest = (cost: number) => {
+    if (progress.crystals < cost) return false;
+    setProgress(prev => {
+      const updated = { ...prev, crystals: prev.crystals - cost };
+      localStorage.setItem("quizzly_progress", JSON.stringify(updated));
+      return updated;
+    });
+    // Rarity %: 80% Rare, 12% Épique, 5% Mythique, 2% Légendaire, 1% Ultra
+    const roll = Math.random() * 100;
+    let tier = "Rare";
+    if (roll >= 99) tier = "Ultra";
+    else if (roll >= 97) tier = "Légendaire";
+    else if (roll >= 92) tier = "Mythique";
+    else if (roll >= 80) tier = "Epique";
+    setActiveChest({ type: tier, isOpen: true });
+    return true;
+  };
+
+  const updateSettings = (s: Partial<{ musicEnabled: boolean; soundEnabled: boolean }>) => {
+    setProgress(prev => {
+      const updated = { ...prev, settings: { ...prev.settings, ...s } };
+      localStorage.setItem("quizzly_progress", JSON.stringify(updated));
+      return updated;
+    });
+  };
+
+  const updateTheme = (theme: string) => {
+    setProgress(prev => {
+      if (!prev.unlockedThemes.includes(theme)) return prev;
+      const updated = { ...prev, selectedTheme: theme };
+      localStorage.setItem("quizzly_progress", JSON.stringify(updated));
+      return updated;
+    });
+  };
+
+  const buyGenericCosmetic = (field: string, unlockedField: string, id: string, cost: number) => {
+    if (progress.crystals < cost) return false;
+    setProgress(prev => {
+      const unlockedArr = (prev as Record<string, unknown>)[unlockedField] as string[];
+      if (unlockedArr.includes(id)) return prev;
+      const updated = { ...prev, crystals: prev.crystals - cost, [unlockedField]: [...unlockedArr, id], [field]: id };
+      localStorage.setItem("quizzly_progress", JSON.stringify(updated));
+      return updated;
+    });
+    return true;
+  };
+
+  const buyFrame = (id: string, cost: number) => buyGenericCosmetic("profileFrame", "unlockedFrames", id, cost);
+  const buyBanner = (id: string, cost: number) => buyGenericCosmetic("profileBanner", "unlockedBanners", id, cost);
+  const buyEffect = (id: string, cost: number) => buyGenericCosmetic("selectedEffect", "unlockedEffects", id, cost);
+  const buyMascot = (id: string, cost: number) => buyGenericCosmetic("selectedMascot", "unlockedMascots", id, cost);
+
+  const addHistoryEntry = (entry: { id: string; type: 'classic' | 'ranked' | 'survival' | 'duel' | 'blitz' | 'vrai_faux' | 'visuel'; score: number; maxScore: number; title: string }) => {
+    setProgress(prev => {
+      const historyEntry = { ...entry, date: new Date().toISOString() };
+      const updated = { ...prev, history: [historyEntry, ...(prev.history || [])].slice(0, 100) }; // Keep last 100
+      localStorage.setItem("quizzly_progress", JSON.stringify(updated));
+      return updated;
+    });
+  };
+
   if (!isLoaded) return <div className="min-h-screen bg-background text-foreground flex items-center justify-center font-bold">Chargement de ton cerveau... 🧠</div>;
 
   return (
@@ -478,7 +683,22 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
       addRankedPoints,
       markRankedQuizCompleted,
       updateSurvivalScore,
-      buyPassPro
+      buyPassPro,
+      claimChest,
+      buyChest,
+      addChestRewards,
+      updateWeekendQuest,
+      activeChest,
+      closeChest,
+      claimDailyReward,
+      buyRandomChest,
+      updateSettings,
+      updateTheme,
+      buyFrame,
+      buyBanner,
+      buyEffect,
+      buyMascot,
+      addHistoryEntry,
     }}>
       {children}
     </ProgressContext.Provider>
@@ -492,3 +712,4 @@ export function useProgress() {
   }
   return context;
 }
+

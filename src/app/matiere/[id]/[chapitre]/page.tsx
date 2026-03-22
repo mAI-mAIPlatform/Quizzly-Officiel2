@@ -4,6 +4,7 @@
 import Link from "next/link";
 import { promises as fs } from "fs";
 import path from "path";
+import { motion } from "framer-motion";
 
 // Simulation d'une page dynamique pour Next.js App Router
 export default async function ChapitrePage({
@@ -55,6 +56,7 @@ export default async function ChapitrePage({
     );
   }
 
+  return (
     <div className="flex flex-col gap-6 w-full max-w-4xl mx-auto text-foreground relative z-10 min-h-[80vh]">
       {/* Un fond dégradé subtil façon ciel pastel (violet vers bleu) pour accentuer l'immersion */}
       <div className="absolute inset-x-0 -top-10 bottom-0 bg-gradient-to-b from-[#d1bcf5]/20 to-[#add8e6]/20 dark:from-[#b8a4f5]/10 dark:to-[#a3dff7]/10 -z-10 rounded-3xl blur-xl"></div>
@@ -76,54 +78,53 @@ export default async function ChapitrePage({
         <p className="opacity-70 mt-3 text-lg">{quizzes.length} Quiz disponibles (Total: {quizzes.reduce((acc, q) => acc + q.questions.length, 0)} questions)</p>
       </header>
 
-      <section className="mt-8 flex flex-col items-center py-10 relative w-full overflow-hidden">
-        {/* Ligne pointillée centrale (la ligne de progression) */}
-        <div className="absolute top-16 bottom-20 left-1/2 w-0 border-l-[6px] border-dashed border-white/40 dark:border-white/20 -translate-x-[3px] z-0"></div>
+      <section className="mt-8 relative w-full pb-20">
+        {/* Ligne pointillée centrale */}
+        <div className="absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-emerald-400/40 via-cyan-400/40 to-transparent -translate-x-1/2 border-l-2 border-dashed border-emerald-500/20"></div>
         
-        <h2 className="text-2xl font-space font-bold mb-16 text-center relative z-10 bg-background/60 backdrop-blur-md px-6 py-2 rounded-full shadow-sm text-primary">
-          Chemin de la Connaissance 🚀
-        </h2>
-        
-        <div className="flex flex-col gap-24 w-full max-w-md mx-auto relative z-10 pb-10">
+        <div className="flex flex-col gap-24 relative z-10 pt-10">
           {quizzes.map((quiz, index) => {
-            // Effet zigzag (gauche puis droite alterné)
-            const isEven = index % 2 === 0;
-            const offsetX = index === 0 ? 'translate-x-0' : (isEven ? '-translate-x-14 sm:-translate-x-20' : 'translate-x-14 sm:translate-x-20');
-            
-            return (
-              <div key={quiz.id} className="flex justify-center w-full">
-                <div className={`relative flex flex-col items-center group ${offsetX}`}>
-                  <Link
-                    href={`/play/${niveau}/${matiereId}/${resolvedParams.chapitre}/${quiz.id}`}
-                    className={`
-                      relative flex items-center justify-center 
-                      w-24 h-24 rounded-full 
-                      shadow-[0_15px_30px_rgba(0,0,0,0.15),_inset_0_-8px_15px_rgba(0,0,0,0.2),_inset_0_8px_15px_rgba(255,255,255,0.7)]
-                      bg-gradient-to-br from-[#dcf0ff] via-[#d0bbf2] to-[#ffc8f3] dark:from-[#679ecc] dark:via-[#957bd4] dark:to-[#d68fc4]
-                      transform transition-all duration-300 hover:scale-110 hover:-translate-y-2 active:scale-95
-                      ring-4 ring-transparent hover:ring-white/50
-                    `}
-                  >
-                     {/* Étoile 3D (SVG) */}
-                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-12 h-12 text-white drop-shadow-[0_4px_6px_rgba(0,0,0,0.4)] opacity-95 group-hover:text-yellow-100 transition-colors">
-                        <path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clipRule="evenodd" />
-                     </svg>
-                     
-                     {/* Reflet glossy en haut pour l'effet bulle */}
-                     <div className="absolute top-1 left-[15%] w-[70%] h-[35%] bg-gradient-to-b from-white/90 to-white/10 rounded-t-full opacity-80 blur-[0.5px]"></div>
-                     
-                     {/* Bulle de niveau/questions */}
-                     <div className="absolute -bottom-2 -right-2 bg-background border border-foreground/10 text-xs font-bold px-2 py-1 rounded-full shadow-md text-primary">
-                       {quiz.questions.length}Q
-                     </div>
-                  </Link>
+            const isLeft = index % 2 === 0;
 
-                  {/* Titre du quiz (en dessous) */}
-                  <div className="absolute top-28 w-44 mt-3 flex flex-col items-center justify-center opacity-90 group-hover:opacity-100 transition-opacity">
-                    <div className="bg-background/80 backdrop-blur-md rounded-xl px-4 py-2 text-sm font-bold shadow-md text-center text-foreground border border-foreground/10 leading-tight">
-                       {quiz.titre}
-                    </div>
+            return (
+              <div 
+                key={quiz.id} 
+                className={`flex items-center w-full ${isLeft ? 'justify-start md:pr-[50%]' : 'justify-end md:pl-[50%]'}`}
+              >
+                <div className="relative group mx-auto md:mx-0">
+                  {/* Numero du Quiz */}
+                  <div className={`absolute -top-4 ${isLeft ? '-right-4' : '-left-4'} w-8 h-8 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black z-20 shadow-lg border-2 border-white/20`}>
+                    {index + 1}
                   </div>
+
+                  <Link href={`/play/${niveau}/${matiereId}/${resolvedParams.chapitre}/${quiz.id}`}>
+                    <motion.div 
+                      whileHover={{ scale: 1.1, rotate: isLeft ? -5 : 5 }}
+                      whileTap={{ scale: 0.9 }}
+                      className={`
+                        relative flex flex-col items-center justify-center 
+                        w-32 h-32 md:w-36 md:h-36 rounded-full 
+                        bg-white border-4 border-emerald-100 shadow-2xl transition-all duration-300
+                        overflow-hidden
+                      `}
+                    >
+                       {/* Background glossy Ocean */}
+                       <div className="absolute inset-0 bg-gradient-to-br from-emerald-50 to-cyan-50 opacity-50"></div>
+                       <div className="absolute top-0 right-0 w-24 h-24 bg-emerald-400/10 rounded-full blur-2xl -mr-12 -mt-12"></div>
+                       
+                       {/* Étoile ou Icone */}
+                       <div className="text-4xl md:text-5xl mb-1 relative z-10 filter drop-shadow-sm">⭐</div>
+                       
+                       <div className="text-[9px] font-black uppercase tracking-widest text-emerald-700 relative z-10 px-4 text-center leading-tight">
+                         {quiz.titre}
+                       </div>
+
+                       {/* Bulle de questions */}
+                       <div className="absolute -bottom-1 bg-cyan-600 text-white text-[8px] font-black px-2 py-0.5 rounded-full shadow-lg">
+                         {quiz.questions.length} QUESTIONS
+                       </div>
+                    </motion.div>
+                  </Link>
                 </div>
               </div>
             );
