@@ -23,28 +23,23 @@ export default async function MatierePage({
 
   const normalizedNiveau = levelMap[niveau] || levelMap[niveau.toLowerCase()] || "debutant";
   
-  // Utilisation d'une structure plus statique pour aider l'analyse de Turbopack
-  const getLevelPath = (ln: string) => {
-    switch(ln) {
-      case "debutant": return path.join(process.cwd(), "src/data/debutant");
-      case "entrainement": return path.join(process.cwd(), "src/data/entrainement");
-      case "etudiant": return path.join(process.cwd(), "src/data/etudiant");
-      case "difficile": return path.join(process.cwd(), "src/data/difficile");
-      case "expert": return path.join(process.cwd(), "src/data/expert");
-      case "savant": return path.join(process.cwd(), "src/data/savant");
-      case "genie": return path.join(process.cwd(), "src/data/genie");
-      default: return path.join(process.cwd(), "src/data/debutant");
-    }
-  };
-
-  const levelDir = getLevelPath(normalizedNiveau);
-  const basePath = path.join(levelDir, matiereId || "maths");
-  
+  // v1.1.7 - Restauration des variables manquantes (mId, metadata)
   let metadata: any = null;
-
+  let metaStr: string | null = null;
+  const mId = matiereId || "maths";
+  
   try {
-    const metaStr = await fs.readFile(path.join(basePath, "metadata.json"), "utf8");
-    metadata = JSON.parse(metaStr);
+    switch(normalizedNiveau) {
+      case "debutant": metaStr = await fs.readFile(path.join(process.cwd(), "src/data/debutant", mId, "metadata.json"), "utf8"); break;
+      case "entrainement": metaStr = await fs.readFile(path.join(process.cwd(), "src/data/entrainement", mId, "metadata.json"), "utf8"); break;
+      case "etudiant": metaStr = await fs.readFile(path.join(process.cwd(), "src/data/etudiant", mId, "metadata.json"), "utf8"); break;
+      case "difficile": metaStr = await fs.readFile(path.join(process.cwd(), "src/data/difficile", mId, "metadata.json"), "utf8"); break;
+      case "expert": metaStr = await fs.readFile(path.join(process.cwd(), "src/data/expert", mId, "metadata.json"), "utf8"); break;
+      case "savant": metaStr = await fs.readFile(path.join(process.cwd(), "src/data/savant", mId, "metadata.json"), "utf8"); break;
+      case "genie": metaStr = await fs.readFile(path.join(process.cwd(), "src/data/genie", mId, "metadata.json"), "utf8"); break;
+      default: metaStr = await fs.readFile(path.join(process.cwd(), "src/data/debutant", mId, "metadata.json"), "utf8"); break;
+    }
+    if (metaStr) metadata = JSON.parse(metaStr);
   } catch (err) {
     console.error("Erreur de lecture métadonnées matiere:", err);
   }

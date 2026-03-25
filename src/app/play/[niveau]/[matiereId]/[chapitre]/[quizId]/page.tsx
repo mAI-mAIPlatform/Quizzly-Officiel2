@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-// v1.1.0 - Correction des erreurs de parsing JSX et des imports manquants
+// v1.1.2 - Correction de la déclaration de quizData et des imports
 import QuizLoader from "@/components/quiz/QuizLoader";
 import path from "path";
 import fs from "fs/promises";
@@ -29,47 +29,58 @@ export default async function PlayQuizPage({
 
   const normalizedNiveau = levelMap[niveau] || levelMap[niveau.toLowerCase()] || "debutant";
   
-  // v1.1.1 - Utilisation d'une structure plus statique pour aider l'analyse de Turbopack
-  const getLevelPath = (ln: string) => {
-    switch(ln) {
-      case "debutant": return path.join(process.cwd(), "src/data/debutant");
-      case "entrainement": return path.join(process.cwd(), "src/data/entrainement");
-      case "etudiant": return path.join(process.cwd(), "src/data/etudiant");
-      case "difficile": return path.join(process.cwd(), "src/data/difficile");
-      case "expert": return path.join(process.cwd(), "src/data/expert");
-      case "savant": return path.join(process.cwd(), "src/data/savant");
-      case "genie": return path.join(process.cwd(), "src/data/genie");
-      default: return path.join(process.cwd(), "src/data/debutant");
-    }
-  };
-
-  const levelDir = getLevelPath(normalizedNiveau);
-  
-  // Essayer d'abord avec le dossier de partie si spécifié
-  let quizPath = "";
-  if (partie) {
-    quizPath = path.join(levelDir, matiereId, chapitre, `partie${partie}`, `${quizId}.json`);
-  } else {
-    quizPath = path.join(levelDir, matiereId, chapitre, `${quizId}.json`);
-  }
+  // v1.1.4 - Optimisation Turbopack pour éviter le bundling excessif
+  let quizData: any = null;
+  const quizFileName = `${quizId}.json`;
+  const mId = matiereId;
+  const cId = chapitre;
+  const pId = partie ? `partie${partie}` : null;
 
   try {
-    // Tentative de lecture (avec fallback sur le chemin racine si partie échoue ou n'est pas fournie)
-    try {
-      const fileContent = await fs.readFile(quizPath, "utf8");
-      quizData = JSON.parse(fileContent);
-    } catch (e) {
-      if (partie) {
-        // Fallback : essayer à la racine du chapitre au cas où
-        const fallbackPath = path.join(levelDir, matiereId, chapitre, `${quizId}.json`);
-        const fileContent = await fs.readFile(fallbackPath, "utf8");
-        quizData = JSON.parse(fileContent);
-      } else {
-        throw e;
-      }
+    let fileContent: string;
+    
+    // Switch explicite pour aider Turbopack à restreindre la recherche de fichiers
+    switch(normalizedNiveau) {
+      case "debutant":
+        fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/debutant", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/debutant", mId, cId, quizFileName), "utf8");
+        break;
+      case "entrainement":
+        fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/entrainement", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/entrainement", mId, cId, quizFileName), "utf8");
+        break;
+      case "etudiant":
+        fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/etudiant", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/etudiant", mId, cId, quizFileName), "utf8");
+        break;
+      case "difficile":
+        fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/difficile", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/difficile", mId, cId, quizFileName), "utf8");
+        break;
+      case "expert":
+        fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/expert", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/expert", mId, cId, quizFileName), "utf8");
+        break;
+      case "savant":
+        fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/savant", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/savant", mId, cId, quizFileName), "utf8");
+        break;
+      case "genie":
+        fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/genie", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/genie", mId, cId, quizFileName), "utf8");
+        break;
+      default:
+        fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/debutant", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/debutant", mId, cId, quizFileName), "utf8");
     }
+    
+    quizData = JSON.parse(fileContent);
+
   } catch (error) {
-    console.error("Erreur lors de la lecture du quiz :", error);
+    if (partie) {
+      // Fallback simple si la lecture avec partie échoue
+      try {
+        const fbPath = path.join(process.cwd(), "src/data", normalizedNiveau, mId, cId, quizFileName);
+        const fbContent = await fs.readFile(fbPath, "utf8");
+        quizData = JSON.parse(fbContent);
+      } catch (innerError) {
+        console.error("Erreur lecture quiz (fallback inclus) :", innerError);
+      }
+    } else {
+      console.error("Erreur lecture quiz :", error);
+    }
   }
 
   if (!quizData) {

@@ -27,30 +27,40 @@ export default async function ChapitrePage({
 
   const normalizedNiveau = levelMap[niveau] || levelMap[niveau.toLowerCase()] || "debutant";
   
-  // Utilisation d'une structure plus statique pour aider l'analyse de Turbopack
-  const getLevelPath = (ln: string) => {
-    switch(ln) {
-      case "debutant": return path.join(process.cwd(), "src/data/debutant");
-      case "entrainement": return path.join(process.cwd(), "src/data/entrainement");
-      case "etudiant": return path.join(process.cwd(), "src/data/etudiant");
-      case "difficile": return path.join(process.cwd(), "src/data/difficile");
-      case "expert": return path.join(process.cwd(), "src/data/expert");
-      case "savant": return path.join(process.cwd(), "src/data/savant");
-      case "genie": return path.join(process.cwd(), "src/data/genie");
-      default: return path.join(process.cwd(), "src/data/debutant");
-    }
-  };
-
-  const levelDir = getLevelPath(normalizedNiveau);
-  const basePath = path.join(levelDir, matiereId || "maths");
-  let metadata;
-  let quizzes = [];
+  // v1.1.5 - Réduction des patterns Turbopack via des chemins explicites
+  const mId = matiereId || "maths";
+  const cId = resolvedParams.chapitre;
+  let metadata: any = null;
+  let quizzes: any[] = [];
 
   try {
-    const metaStr = await fs.readFile(path.join(basePath, "metadata.json"), "utf8");
+    // 1. Charger les métadonnées avec un chemin explicite par niveau
+    let metaStr: string;
+    switch(normalizedNiveau) {
+      case "debutant": metaStr = await fs.readFile(path.join(process.cwd(), "src/data/debutant", mId, "metadata.json"), "utf8"); break;
+      case "entrainement": metaStr = await fs.readFile(path.join(process.cwd(), "src/data/entrainement", mId, "metadata.json"), "utf8"); break;
+      case "etudiant": metaStr = await fs.readFile(path.join(process.cwd(), "src/data/etudiant", mId, "metadata.json"), "utf8"); break;
+      case "difficile": metaStr = await fs.readFile(path.join(process.cwd(), "src/data/difficile", mId, "metadata.json"), "utf8"); break;
+      case "expert": metaStr = await fs.readFile(path.join(process.cwd(), "src/data/expert", mId, "metadata.json"), "utf8"); break;
+      case "savant": metaStr = await fs.readFile(path.join(process.cwd(), "src/data/savant", mId, "metadata.json"), "utf8"); break;
+      case "genie": metaStr = await fs.readFile(path.join(process.cwd(), "src/data/genie", mId, "metadata.json"), "utf8"); break;
+      default: metaStr = await fs.readFile(path.join(process.cwd(), "src/data/debutant", mId, "metadata.json"), "utf8"); break;
+    }
     metadata = JSON.parse(metaStr);
     
-    const chapDir = path.join(basePath, resolvedParams.chapitre);
+    // 2. Déterminer le dossier du chapitre
+    let chapDir: string;
+    switch(normalizedNiveau) {
+      case "debutant": chapDir = path.join(process.cwd(), "src/data/debutant", mId, cId); break;
+      case "entrainement": chapDir = path.join(process.cwd(), "src/data/entrainement", mId, cId); break;
+      case "etudiant": chapDir = path.join(process.cwd(), "src/data/etudiant", mId, cId); break;
+      case "difficile": chapDir = path.join(process.cwd(), "src/data/difficile", mId, cId); break;
+      case "expert": chapDir = path.join(process.cwd(), "src/data/expert", mId, cId); break;
+      case "savant": chapDir = path.join(process.cwd(), "src/data/savant", mId, cId); break;
+      case "genie": chapDir = path.join(process.cwd(), "src/data/genie", mId, cId); break;
+      default: chapDir = path.join(process.cwd(), "src/data/debutant", mId, cId); break;
+    }
+
     const parties = ["partie1", "partie2", "partie3"];
     
     // Détection de l'ancienne structure (fichiers JSON à la racine du chapitre)
@@ -58,13 +68,11 @@ export default async function ChapitrePage({
     const rootQuizzes = rootFiles.filter(f => f.endsWith(".json"));
 
     if (rootQuizzes.length > 0) {
-      // Ancienne structure : charger les quiz directement
       for (const f of rootQuizzes) {
         const qStr = await fs.readFile(path.join(chapDir, f), "utf8");
         quizzes.push({ ...JSON.parse(qStr), partie: 1 });
       }
     } else {
-      // Nouvelle structure : charger par parties
       for (let i = 0; i < parties.length; i++) {
         const part = parties[i];
         const partDir = path.join(chapDir, part);
@@ -78,7 +86,7 @@ export default async function ChapitrePage({
             quizzes.push({ ...JSON.parse(qStr), partie: i + 1 });
           }
         } catch {
-          // Dossier de partie absent, on ignore
+          // Dossier de partie absent
         }
       }
     }
