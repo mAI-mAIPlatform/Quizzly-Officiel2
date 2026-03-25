@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Trier les listes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode trie la liste 'en place' (modifie l'original) ?",
+      "options": [
+        "sort()",
+        "sorted()",
+        "order()",
+        "arrange()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "sorted(L) renvoie une nouvelle liste triée sans modifier L.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour trier dans l'ordre inverse, on utilise l'argument reverse={{1}}.",
+      "reponsesAttendues": [
+        "True"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "sort()",
+          "right": "Modifie L"
+        },
+        {
+          "left": "sorted()",
+          "right": "Crée une copie triée"
+        },
+        {
+          "left": "reverse()",
+          "right": "Inverse l'ordre (sans trier)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on trier une liste contenant des nombres ET des textes ?",
+      "options": [
+        "Non, ça provoque une TypeError",
+        "Oui, les nombres d'abord",
+        "Oui, les textes d'abord",
+        "Seulement si on utilise sort(key=str)"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

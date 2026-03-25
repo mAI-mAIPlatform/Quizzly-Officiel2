@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "L'Antiquité comme modèle",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi les auteurs classiques utilisent-ils des sujets antiques ?",
+      "options": [
+        "C'est un modèle de noblesse et de grandeur",
+        "Ils n'ont pas d'imagination",
+        "C'est obligatoire pour plaire au Roi",
+        "Pour apprendre le grec"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Aristote est le philosophe grec qui a défini les règles du théâtre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La ville grecque où se passent beaucoup de tragédies est {{1}}.",
+      "reponsesAttendues": [
+        "Thèbes"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la figure antique à sa pièce de Racine.",
+      "pairs": [
+        {
+          "left": "Phèdre",
+          "right": "Mythologie grecque"
+        },
+        {
+          "left": "Britannicus",
+          "right": "Histoire de Rome"
+        },
+        {
+          "left": "Esther",
+          "right": "Source biblique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on l'imitation des Anciens par les Classiques ?",
+      "options": [
+        "L'imitation (Mimesis)",
+        "Le plagiat",
+        "La parodie",
+        "La traduction"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

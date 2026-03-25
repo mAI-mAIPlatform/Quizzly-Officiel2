@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "I numeri 0-20",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Diez'?",
+      "options": [
+        "Dieci",
+        "Undici",
+        "Nove",
+        "Dodici"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Quindici' es el número 15.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dieci + sette = {{1}} (17).",
+      "reponsesAttendues": [
+        "diciassette"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el número.",
+      "pairs": [
+        {
+          "left": "Venti",
+          "right": "20"
+        },
+        {
+          "left": "Tredici",
+          "right": "13"
+        },
+        {
+          "left": "Quattordici",
+          "right": "14"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se escribe 11?",
+      "options": [
+        "Undici",
+        "Dodici",
+        "Venti",
+        "Uno"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

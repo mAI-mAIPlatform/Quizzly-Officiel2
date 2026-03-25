@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "La naissance du Rock",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Durant quelle décennie le Rock n' Roll est-il apparu aux États-Unis ?",
+      "options": [
+        "Les années 1950",
+        "Les années 1920",
+        "Les années 1980",
+        "Les années 2000"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Rock n' Roll est le résultat d'un mélange entre le Rythm n' Blues noir et la musique Country blanche.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le chanteur surnommé 'The King' (le Roi du Rock) est Elvis {{1}} (Presley).",
+      "reponsesAttendues": [
+        "Presley"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le pionnier du Rock à son succès.",
+      "pairs": [
+        {
+          "left": "Bill Haley",
+          "right": "Rock Around the Clock"
+        },
+        {
+          "left": "Chuck Berry",
+          "right": "Johnny B. Goode"
+        },
+        {
+          "left": "Little Richard",
+          "right": "Tutti Frutti"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel instrument devient la star incontestée du Rock ?",
+      "options": [
+        "La Guitare électrique",
+        "L'Orgue d'église",
+        "La Flûte de Pan",
+        "Le Cor d'harmonie"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

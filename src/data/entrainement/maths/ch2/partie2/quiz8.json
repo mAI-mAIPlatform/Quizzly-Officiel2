@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Symétrie Centrale et Coordonnées (Initiation)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans un repère, le symétrique de A(2;3) par rapport à l'origine O(0;0) est :",
+      "options": [
+        "A'(-2;3)",
+        "A'(2;-3)",
+        "A'(-2;-3)",
+        "A'(3;2)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour trouver le symétrique par rapport à l'origine, on change les signes des coordonnées.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le symétrique de B(-5;4) par rapport à l'origine est B'({{1}};-4).",
+      "reponsesAttendues": [
+        "5"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le point à son symétrique par rapport à (0;0).",
+      "pairs": [
+        {
+          "left": "(1;1)",
+          "right": "(-1;-1)"
+        },
+        {
+          "left": "(-2;0)",
+          "right": "(2;0)"
+        },
+        {
+          "left": "(0;3)",
+          "right": "(0;-3)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où se trouve le centre de symétrie si A(1;1) et A'(-1;-1) sont symétriques ?",
+      "options": [
+        "(1,0)",
+        "(0,1)",
+        "(0,0)",
+        "(1,1)"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

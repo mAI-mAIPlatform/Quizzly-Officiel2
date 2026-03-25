@@ -1,0 +1,63 @@
+{
+  "id": "quiz26",
+  "titre": "La Subordonnée de But",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'exprime la subordonnée de but ?",
+      "options": [
+        "L'objectif ou l'intention de l'action",
+        "La cause d'un accident",
+        "L'heure du rendez-vous",
+        "Une description de paysage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Elle est toujours conjuguée au subjonctif.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Je te prête mon livre pour {{1}} tu apprennes.",
+      "reponsesAttendues": [
+        "que"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la locution à sa nuance.",
+      "pairs": [
+        {
+          "left": "Pour que",
+          "right": "But à atteindre (positif)"
+        },
+        {
+          "left": "De peur que",
+          "right": "But à éviter (négatif)"
+        },
+        {
+          "left": "Afin que",
+          "right": "But (niveau soutenu)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si le sujet est le même dans les deux propositions, on utilise :",
+      "options": [
+        "Pour + infinitif",
+        "Pour que + subjonctif",
+        "Car + indicatif",
+        "Rien du tout"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

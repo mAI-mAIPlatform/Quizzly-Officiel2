@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Miscibilité des liquides",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quand dit-on que deux liquides sont miscibles ?",
+      "options": [
+        "Quand ils ne se mélangent pas",
+        "Quand ils forment un mélange homogène après agitation",
+        "Quand ils changent de couleur",
+        "Quand ils gèlent ensemble"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'eau et l'huile sont non miscibles.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'eau et l'alcool sont des liquides {{1}}.",
+      "reponsesAttendues": [
+        "miscibles"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le couple de liquides.",
+      "pairs": [
+        {
+          "left": "Eau + Sirop",
+          "right": "Miscibles"
+        },
+        {
+          "left": "Eau + Essence",
+          "right": "Non miscibles"
+        },
+        {
+          "left": "Huile + Vinaigre",
+          "right": "Non miscibles"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'outil pour séparer deux liquides non miscibles ?",
+      "options": [
+        "Un filtre",
+        "Une ampoule à décanter",
+        "Une cuillère",
+        "Un thermomètre"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

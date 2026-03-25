@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "La Comparaison",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une comparaison ?",
+      "options": [
+        "Un rapprochement entre deux éléments avec un outil de comparaison",
+        "Un rapprochement sans outil de comparaison",
+        "Une exagération de la réalité",
+        "Une opposition de deux mots"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans 'Elle est belle comme le jour', l'outil de comparaison est 'comme'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Sa chevelure brille {{1}} l'or.",
+      "reponsesAttendues": [
+        "comme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Trouve l'outil de comparaison.",
+      "pairs": [
+        {
+          "left": "Il semble",
+          "right": "Outil verbal"
+        },
+        {
+          "left": "Pareil à",
+          "right": "Outil adjectival"
+        },
+        {
+          "left": "Comme",
+          "right": "Outil conjonctif"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Laquelle est une comparaison ?",
+      "options": [
+        "Ses yeux sont pareils à des étoiles.",
+        "Sa voix est un murmure.",
+        "Le vent hurle.",
+        "Il a mangé un petit pois."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

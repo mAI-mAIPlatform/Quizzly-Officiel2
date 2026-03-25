@@ -1,0 +1,62 @@
+{
+  "id": "quiz6",
+  "titre": "Instruments du Monde",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "De quel pays est originaire le Sitar ?",
+      "options": [
+        "Chine",
+        "Inde",
+        "Maroc",
+        "Brésil"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Djembé est un tambour africain.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La {{1}} est un instrument à vent avec un sac d'air, typique de l'Écosse.",
+      "reponsesAttendues": [
+        "cornemuse"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Didgeridoo",
+          "right": "Australie"
+        },
+        {
+          "left": "Balalaïka",
+          "right": "Russie"
+        },
+        {
+          "left": "Banjo",
+          "right": "États-Unis"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel nom donne-t-on aux flûtes de Pan d'Amérique du Sud ?",
+      "options": [
+        "Siku / Zampoña",
+        "Didgeridoo",
+        "Koto",
+        "Vina"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

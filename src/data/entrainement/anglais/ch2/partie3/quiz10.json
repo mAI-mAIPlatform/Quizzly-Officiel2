@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Chapter 2 Review : Fitness and Food",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "To be healthy you should...",
+      "options": [
+        "Eat well and exercise",
+        "Sleep 2 hours and eat candy",
+        "Watch TV all day",
+        "Don't drink water"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "You say 'I go karate'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Swimming is done in a {{1}}.",
+      "reponsesAttendues": [
+        "pool"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Match.",
+      "pairs": [
+        {
+          "left": "Football",
+          "right": "Pitch"
+        },
+        {
+          "left": "Tennis",
+          "right": "Court"
+        },
+        {
+          "left": "Skating",
+          "right": "Rink"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Congratulations! Ready for Chapter 3 about Travel?",
+      "options": [
+        "Yes!",
+        "Definitely!",
+        "Let's travel!",
+        "Review Part 3"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

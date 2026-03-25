@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Sensible à la Casse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Python est 'Case Sensitive'. Qu'est-ce que cela signifie ?",
+      "options": [
+        "Il fait la différence entre MAJUSCULES et minuscules",
+        "Il déteste les erreurs",
+        "Il aime les boîtiers d'ordinateurs",
+        "Il ne supporte pas les accents"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La variable 'age' et 'Age' sont identiques pour Python.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour Python, 'x' et 'X' sont {{1}} variables différentes.",
+      "reponsesAttendues": [
+        "deux"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Trouve l'intrus.",
+      "pairs": [
+        {
+          "left": "Variable",
+          "right": "NOM"
+        },
+        {
+          "left": "variable",
+          "right": "nom"
+        },
+        {
+          "left": "vARIABLE",
+          "right": "NoM"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la bonne pratique pour les noms de variables ?",
+      "options": [
+        "Tout en minuscules avec des underscores (snake_case)",
+        "Tout en MAJUSCULES",
+        "Mélanger au hasard",
+        "Utiliser des émojis"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

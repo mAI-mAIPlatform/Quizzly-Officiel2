@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Gustos y preferencias",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'J'aime les vacances'?",
+      "options": [
+        "Me gustan las vacaciones",
+        "Me gusta las vacaciones",
+        "Yo gusto las vacaciones",
+        "Me gustas las vacaciones"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Me encanta' es más fuerte que 'Me gusta'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A nosotros nos {{1}} (gustar) mucho ir a la playa.",
+      "reponsesAttendues": [
+        "gusta"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el pronombre complemento de 'Gustar'.",
+      "pairs": [
+        {
+          "left": "A mí",
+          "right": "me"
+        },
+        {
+          "left": "A ti",
+          "right": "te"
+        },
+        {
+          "left": "A vosotros",
+          "right": "os"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Por qué se dice 'Me gustaN los museos' (en plural)?",
+      "options": [
+        "Porque el sujeto (lo que nos gusta) es plural",
+        "Porque 'yo' soy plural",
+        "Es un error gramatical",
+        "Porque rima mejor"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

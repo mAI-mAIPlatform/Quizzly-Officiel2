@@ -1,0 +1,63 @@
+{
+  "id": "quiz17",
+  "titre": "Meeting People",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "How do you introduce yourself?",
+      "options": [
+        "Hello, my name is...",
+        "I am the boss",
+        "Give me your name",
+        "I am hungry"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Nice to meet you' is a polite phrase for the first time you see someone.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Where are you {{1}}? (Asking for origin)",
+      "reponsesAttendues": [
+        "from"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the greeting to the time of day.",
+      "pairs": [
+        {
+          "left": "Good morning",
+          "right": "8:00 AM"
+        },
+        {
+          "left": "Good afternoon",
+          "right": "3:00 PM"
+        },
+        {
+          "left": "Good evening",
+          "right": "7:00 PM"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is 'small talk'?",
+      "options": [
+        "Polite conversation about unimportant things",
+        "Speaking very quietly",
+        "Talking only to children",
+        "A type of dictionary"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

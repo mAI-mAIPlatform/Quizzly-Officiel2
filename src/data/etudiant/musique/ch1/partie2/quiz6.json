@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "L'Impressionnisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quel pays le courant musical impressionniste est-il né ?",
+      "options": [
+        "France",
+        "Allemagne",
+        "Russie",
+        "Italie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'impressionnisme musical cherche à créer des atmosphères et des couleurs sonores plutôt que des formes rigides.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le compositeur du célèbre 'Prélude à l'Après-midi d'un faune' est Claude {{1}} (Debussy).",
+      "reponsesAttendues": [
+        "Debussy"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'œuvre impressionniste à son auteur.",
+      "pairs": [
+        {
+          "left": "La Mer",
+          "right": "Claude Debussy"
+        },
+        {
+          "left": "Boléro",
+          "right": "Maurice Ravel"
+        },
+        {
+          "left": "Ma mère l'Oye",
+          "right": "Maurice Ravel"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel instrument est souvent utilisé pour ses sonorités vaporeuses dans la musique de Debussy ?",
+      "options": [
+        "La Harpe",
+        "La Batterie",
+        "Le Trombone",
+        "La Guitare électrique"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

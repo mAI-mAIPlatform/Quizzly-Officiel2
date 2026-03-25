@@ -1,0 +1,64 @@
+{
+  "id": "quiz30",
+  "titre": "Synthèse Générale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que JavaScript apporte au Web ?",
+      "options": [
+        "L'interactivité, la logique et le dynamisme",
+        "Juste de la couleur",
+        "Rien du tout",
+        "La structure des pages"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Vous êtes maintenant capable de créer des mini-jeux et des applications interactives simples.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le duo gagnant pour manipuler la page est le {{1}} et les {{2}} (DOM / événements).",
+      "reponsesAttendues": [
+        "DOM",
+        "événements"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Concept -> Résumé éclair.",
+      "pairs": [
+        {
+          "left": "Variables",
+          "right": "Mémoire"
+        },
+        {
+          "left": "Fonctions",
+          "right": "Actions réutilisables"
+        },
+        {
+          "left": "Boucles",
+          "right": "Répétition"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Bravo champion ! Quelle est la prochaine étape de ton aventure ?",
+      "options": [
+        "Maîtriser le HTML et le CSS pour devenir un développeur complet",
+        "Arrêter l'informatique",
+        "Tout oublier",
+        "Apprendre à faire des gâteaux"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

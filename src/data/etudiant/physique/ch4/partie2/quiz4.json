@@ -1,0 +1,63 @@
+{
+  "id": "quiz14",
+  "titre": "L'année-lumière",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une année-lumière (al) ?",
+      "options": [
+        "Une unité de distance",
+        "Une unité de temps",
+        "Une vitesse",
+        "Un type d'étoile"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une année-lumière est la distance parcourue par la lumière en un an.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "1 année-lumière vaut environ {{1}} milliards de kilomètres.",
+      "reponsesAttendues": [
+        "10000"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'objet à sa distance en années-lumière.",
+      "pairs": [
+        {
+          "left": "Proxima Centauri (étoile proche)",
+          "right": "4.2 al"
+        },
+        {
+          "left": "Galaxie d'Andromède",
+          "right": "2.5 millions d'al"
+        },
+        {
+          "left": "Étoile Polaire",
+          "right": "430 al"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi dit-on que 'voir loin, c'est voir dans le passé' ?",
+      "options": [
+        "Car la lumière met du temps à nous parvenir",
+        "Car les télescopes sont vieux",
+        "Car l'espace remonte le temps",
+        "C'est une expression poétique sans base scientifique"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

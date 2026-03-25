@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Meteo",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Hace buen tiempo'?",
+      "options": [
+        "Fa bel tempo",
+        "Fa brutto tempo",
+        "Piove",
+        "Nevica"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'C'è il sole' significa que está lloviendo.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Oggi {{1}} (il pleut).",
+      "reponsesAttendues": [
+        "piove"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el fenómeno metereológico.",
+      "pairs": [
+        {
+          "left": "La neve",
+          "right": "La neige"
+        },
+        {
+          "left": "Il vento",
+          "right": "Le vent"
+        },
+        {
+          "left": "La nebbia",
+          "right": "Le brouillard"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Tengo calor'?",
+      "options": [
+        "Ho caldo",
+        "Ho freddo",
+        "Sono caldo",
+        "Fa caldo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

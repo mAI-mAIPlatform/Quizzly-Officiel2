@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Les Faux-amis (Falsi amici)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'Camera' en italien ?",
+      "options": [
+        "Une caméra / appareil photo",
+        "Une chambre",
+        "Une voiture",
+        "Un bureau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Cantina' en italien signifie 'Cantine scolaire'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour dire 'Avoir besoin de', on n'utilise pas 'besogno' mais '{{1}}'.",
+      "reponsesAttendues": [
+        "bisogno"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le mot italien à son vrai sens.",
+      "pairs": [
+        {
+          "left": "Burro",
+          "right": "Beurre (pas bourreau)"
+        },
+        {
+          "left": "Salire",
+          "right": "Monter (pas salir)"
+"        },
+        {
+          "left": "Fidanzato",
+          "right": "Fiancé / Petit-ami"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Presto' ?",
+      "options": [
+        "Tôt / Vite",
+        "Prêt",
+        "Prester",
+        "Prêter"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

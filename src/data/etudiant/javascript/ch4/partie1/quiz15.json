@@ -1,0 +1,65 @@
+{
+  "id": "quiz15",
+  "titre": "Compteur de Clics",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment coder un bouton qui compte le nombre de clics ?",
+      "options": [
+        "Initialiser un compteur à 0, et l'incrémenter (compteur++) à chaque addEventListener('click')",
+        "Le bouton le fait tout seul en HTML",
+        "En utilisant une boucle infinie",
+        "En changeant l'ID du bouton"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si on rafraîchit la page, le compteur revient normalement à 0 (sauf si on utilise un stockage).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'affichage du nombre doit se faire dans le {{1}} du texte du bouton (innerText / HTML).",
+      "reponsesAttendues": [
+        "innerText",
+        "innerHTML",
+        "contenu"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'action au code JS.",
+      "pairs": [
+        {
+          "left": "Incrémenter",
+          "right": "score++"
+        },
+        {
+          "left": "Remise à zéro",
+          "right": "score = 0"
+        },
+        {
+          "left": "Double score",
+          "right": "score *= 2"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est un exemple concret d'utilisation ?",
+      "options": [
+        "Un bouton 'Like' ou un compteur de points dans un jeu",
+        "Modifier la police de caractères",
+        "Fermer une fenêtre",
+        "Trier une liste"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

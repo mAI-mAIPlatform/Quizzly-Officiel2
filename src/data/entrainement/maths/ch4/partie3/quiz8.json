@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Équations avec x des deux côtés",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Résous 3x = x + 10 :",
+      "options": [
+        "x = 5",
+        "x = 2.5",
+        "x = 10",
+        "x = 2"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'équation 2x + 5 = 2x + 6 n'a pas de solution.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La solution de 4x = 2x + 8 est x = {{1}}.",
+      "reponsesAttendues": [
+        "4"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Résous l'équation.",
+      "pairs": [
+        {
+          "left": "5x = 4x + 3",
+          "right": "3"
+        },
+        {
+          "left": "2x = x - 5",
+          "right": "-5"
+        },
+        {
+          "left": "x + 1 = 2x",
+          "right": "1"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Résous 10x - 5 = 5x + 20 :",
+      "options": [
+        "x = 3",
+        "x = 5",
+        "x = 1.5",
+        "x = 25"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

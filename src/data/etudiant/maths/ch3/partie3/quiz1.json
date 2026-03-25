@@ -1,0 +1,63 @@
+{
+  "id": "quiz21",
+  "titre": "Vocabulaire des probabilités",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Une expérience dont on ne peut pas prévoir le résultat est une expérience :",
+      "options": [
+        "Aléatoire",
+        "Certaine",
+        "Impossible",
+        "Mathématique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Chaque résultat possible d'une expérience s'appelle une 'issue'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Lancer un dé à 6 faces est une expérience qui possède {{1}} issues.",
+      "reponsesAttendues": [
+        "6"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'expérience à son nombre d'issues.",
+      "pairs": [
+        {
+          "left": "Pile ou Face",
+          "right": "2"
+        },
+        {
+          "left": "Tirer une carte (52)",
+          "right": "52"
+        },
+        {
+          "left": "Jour de la semaine",
+          "right": "7"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Un 'événement' est composé de :",
+      "options": [
+        "Une ou plusieurs issues",
+        "Toutes les issues obligatoirement",
+        "Aucune issue",
+        "Seulement du hasard"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

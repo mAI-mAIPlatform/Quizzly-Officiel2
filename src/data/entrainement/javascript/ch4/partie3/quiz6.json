@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Portée de bloc (Block Scope)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quels mots-clés respectent la portée de bloc ( let/const ) ?",
+      "options": [
+        "var",
+        "let et const",
+        "Tous",
+        "Aucun"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une variable let dans un 'if' est visible même après le 'if'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le bloc de code est défini par les {{1}} { }.",
+      "reponsesAttendues": [
+        "accolades"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le mot-clé.",
+      "pairs": [
+        {
+          "left": "var",
+          "right": "Portée de fonction (ignorera le bloc if/for)"
+        },
+        {
+          "left": "let",
+          "right": "Portée de bloc (recommandée)"
+        },
+        {
+          "left": "const",
+          "right": "Portée de bloc (recommandée)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi privilégier le Block Scope ?",
+      "options": [
+        "Meilleure sécurité et moins de bugs inattendus",
+        "C'est plus court à écrire",
+        "C'est une mode",
+        "Pour utiliser moins de RAM"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

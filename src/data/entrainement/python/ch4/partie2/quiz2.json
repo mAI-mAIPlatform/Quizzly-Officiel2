@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Accéder aux valeurs : Le duel [] vs get()",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que renvoie dico['clé'] si la clé n'existe pas ?",
+      "options": [
+        "Une erreur (KeyError)",
+        "None",
+        "0",
+        "La chaîne vide"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "dico.get('clé') renvoie None au lieu d'une erreur si la clé manque.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour donner une valeur par défaut avec get, on écrit : dico.get(cle, {{1}}).",
+      "reponsesAttendues": [
+        "par_defaut"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Lequel utiliser ?",
+      "pairs": [
+        {
+          "left": "dico['x']",
+          "right": "Si on est SÛR que x existe"
+        },
+        {
+          "left": "dico.get('x')",
+          "right": "Si x est optionnel"
+        },
+        {
+          "left": "dico.get('x', 0)",
+          "right": "Renvoie 0 si x manque"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment vérifier si une clé existe sans provoquer d'erreur ?",
+      "options": [
+        "if 'cle' in dico:",
+        "if dico['cle']:",
+        "if dico.has('cle'):",
+        "if 'cle' == dico.keys():"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

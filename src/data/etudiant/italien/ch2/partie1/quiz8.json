@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Preposizioni articolate",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué resulta de 'A + Il'?",
+      "options": [
+        "Al",
+        "All'",
+        "Alla",
+        "Ai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "In + Il = Nel.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vado {{1}} scuola (à la).",
+      "reponsesAttendues": [
+        "alla"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la combinación.",
+      "pairs": [
+        {
+          "left": "A + Lo",
+          "right": "Allo"
+        },
+        {
+          "left": "In + La",
+          "right": "Nella"
+        },
+        {
+          "left": "Di + Il",
+          "right": "Del"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'En el restaurante' (In + il)?",
+      "options": [
+        "Nel ristorante",
+        "Al ristorante",
+        "Dal ristorante",
+        "Sul ristorante"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

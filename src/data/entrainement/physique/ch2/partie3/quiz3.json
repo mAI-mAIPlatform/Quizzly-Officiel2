@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "La transformation chimique au microscope",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que font les molécules lors d'une transformation chimique ?",
+      "options": [
+        "Elles dansent",
+        "Elles se cassent et les atomes se recombinent pour former de nouvelles molécules",
+        "Elles changent de couleur",
+        "Elles s'évaporent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Au cours d'une transformation chimique, les atomes sont conservés.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les substances qui disparaissent s'appellent les {{1}}.",
+      "reponsesAttendues": [
+        "réactifs"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe les termes de la réaction.",
+      "pairs": [
+        {
+          "left": "Produits",
+          "right": "Substances qui apparaissent"
+        },
+        {
+          "left": "Réactifs",
+          "right": "Substances initiales"
+        },
+        {
+          "left": "Équation chimique",
+          "right": "Modèle décrivant la transformation"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi dit-on que rien ne se perd, rien ne se crée ?",
+      "options": [
+        "Parce que c'est gratuit",
+        "Parce que le nombre total d'atomes de chaque sorte reste le même avant et après",
+        "Parce qu'on ne peut pas peser les gaz",
+        "C'est un proverbe de cuisine"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Protection de la Nature",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une espèce 'endémique' ?",
+      "options": [
+        "Une espèce qui ne vit que dans un seul endroit précis au monde",
+        "Une espèce qui est malade",
+        "Une espèce qui vit partout sur Terre",
+        "Une espèce qui n'existe plus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'UICN (Union Internationale pour la Conservation de la Nature) établit une 'liste rouge' des espèces menacées.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La disparition totale d'une espèce de la surface de la Terre s'appelle l'{{1}} (extinction).",
+      "reponsesAttendues": [
+        "extinction"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'animal à la cause principale de sa menace.",
+      "pairs": [
+        {
+          "left": "Ours Polaire",
+          "right": "Fonte de la banquise (réchauffement)"
+        },
+        {
+          "left": "Orang-outan",
+          "right": "Déforestation (huile de palme)"
+        },
+        {
+          "left": "Rhinocéros",
+          "right": "Braconnage (pour ses cornes)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il important de protéger les abeilles ?",
+      "options": [
+        "Elles pollinisent les plantes, ce dont nous avons besoin pour manger",
+        "Elles fabriquent des pulls en laine",
+        "Elles nettoient les maisons",
+        "Elles ne sont pas importantes"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

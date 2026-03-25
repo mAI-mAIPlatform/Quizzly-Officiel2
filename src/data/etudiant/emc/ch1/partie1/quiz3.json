@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Marianne et le Sceau",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel personnage féminin est l'allégorie de la République française ?",
+      "options": [
+        "Marianne",
+        "Jeanne d'Arc",
+        "Marie-Antoinette",
+        "Catherine de Médicis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Marianne porte un bonnet phrygien, symbole de liberté.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On trouve le buste de Marianne dans toutes les {{1}} (mairies) de France.",
+      "reponsesAttendues": [
+        "mairies"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le symbole à sa fonction.",
+      "pairs": [
+        {
+          "left": "Le Sceau de l'État",
+          "right": "Authentifie les actes solennels (Constitution)"
+        },
+        {
+          "left": "Le coq",
+          "right": "Symbole de la vigilance et du peuple gaulois"
+        },
+        {
+          "left": "Le buste de Marianne",
+          "right": "Représente la République dans les bâtiments publics"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel accessoire de Marianne symbolisait autrefois l'esclave affranchi dans l'Antiquité ?",
+      "options": [
+        "Le bonnet phrygien",
+        "La robe de soie",
+        "Le collier de perles",
+        "L'épée de bronze"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

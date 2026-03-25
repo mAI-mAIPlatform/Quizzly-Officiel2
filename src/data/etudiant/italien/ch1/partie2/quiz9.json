@@ -1,0 +1,63 @@
+{
+  "id": "quiz19",
+  "titre": "Concordanza",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Completa: 'La ragazza è {{1}}'.",
+      "options": [
+        "simpatica",
+        "simpatico",
+        "simpatici",
+        "simpatiche"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Los adjetivos que terminan en 'E' (como 'grande') sirven para masculino y femenino.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "I ragazzi sono {{1}} (italiens).",
+      "reponsesAttendues": [
+        "italiani"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la concordancia.",
+      "pairs": [
+        {
+          "left": "Uomo",
+          "right": "stanco"
+        },
+        {
+          "left": "Donna",
+          "right": "stanca"
+        },
+        {
+          "left": "Donne",
+          "right": "stanche"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cuál es la forma plural de 'Libro interessante'?",
+      "options": [
+        "Libri interessanti",
+        "Libri interessante",
+        "Libre interessanti",
+        "Libri interessanti"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

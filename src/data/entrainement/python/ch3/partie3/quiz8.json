@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Créer son propre module",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment créer un module nommé 'perso' ?",
+      "options": [
+        "Créer un fichier perso.py",
+        "Créer un dossier perso",
+        "Écrire module perso:",
+        "Utiliser import perso"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut importer un module situé dans le même dossier que notre programme.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si le module perso.py contient une fonction f(), on l'appelle par perso.{{1}}().",
+      "reponsesAttendues": [
+        "f"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Workflow module.",
+      "pairs": [
+        {
+          "left": "Étape 1",
+          "right": "Écrire le fichier .py"
+        },
+        {
+          "left": "Étape 2",
+          "right": "Importer le fichier"
+        },
+        {
+          "left": "Étape 3",
+          "right": "Utiliser les fonctions"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on importer un module qui n'est pas dans le même dossier ?",
+      "options": [
+        "Oui, s'il est dans le chemin de recherche (Python Path)",
+        "Non, strictement interdit",
+        "Seulement s'il est vide",
+        "Seulement sur Mac"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "quiz4",
+  "titre": "La 2ème Déclinaison - Neutres (Templum)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la particularité des noms neutres au pluriel (Nom/Acc/Voc) ?",
+      "options": [
+        "Ils se terminent en -i",
+        "Ils se terminent en -a",
+        "Ils se terminent en -os",
+        "Ils n'existent pas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A l'accusatif singulier, un neutre comme 'Templum' reste 'Templum'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le nominatif pluriel de 'Templum' est {{1}}.",
+      "reponsesAttendues": [
+        "Templa"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "-um",
+          "right": "Nom. sing. neutre"
+        },
+        {
+          "left": "-a",
+          "right": "Nom. plur. neutre"
+        },
+        {
+          "left": "-is",
+          "right": "Dat/Abl plur."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie le mot 'Bellum' ?",
+      "options": [
+        "Beau",
+        "La guerre",
+        "Le temple",
+        "La ville"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

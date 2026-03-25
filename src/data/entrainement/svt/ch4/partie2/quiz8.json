@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Le mutualisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre mutualisme et symbiose ?",
+      "options": [
+        "Le mutualisme est obligatoire pour survivre",
+        "Le mutualisme apporte un bénéfice aux deux, mais n'est pas forcément permanent",
+        "C'est exactement la même chose",
+        "Le mutualisme est une attaque"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'abeille et la fleur sont dans une relation de mutualisme.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'oiseau pique-bœuf qui mange les tiques sur un buffle fait du {{1}}.",
+      "reponsesAttendues": [
+        "mutualisme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le bénéfice mutuel.",
+      "pairs": [
+        {
+          "left": "Abeille",
+          "right": "Récolte du nectar (nourriture)"
+        },
+        {
+          "left": "Fleur",
+          "right": "Transport de son pollen (reproduction)"
+        },
+        {
+          "left": "Oiseau nettoyeur",
+          "right": "Délivre le gros animal de ses parasites"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passerait-il sans les insectes pollinisateurs ?",
+      "options": [
+        "Les fleurs seraient plus belles",
+        "Beaucoup de plantes ne pourraient plus se reproduire",
+        "Rien du tout",
+        "Les fruits seraient plus gros"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

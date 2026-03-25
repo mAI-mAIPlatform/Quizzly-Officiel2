@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Cycle de vie et Recyclage",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le recyclage ?",
+      "options": [
+        "Transformer un déchet en un nouveau matériau de base",
+        "Jeter au bord de la route",
+        "Acheter un objet neuf",
+        "Brûler tout ce qu'on trouve"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'acier peut être recyclé indéfiniment sans perdre ses qualités.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un matériau est {{1}} s'il se décompose naturellement dans l'environnement.",
+      "reponsesAttendues": [
+        "biodégradable"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Symboles Recyclage.",
+      "pairs": [
+        {
+          "left": "Ruban de Möbius",
+          "right": "Produit recyclable"
+        },
+        {
+          "left": "Point Vert",
+          "right": "L'entreprise finance le tri"
+        },
+        {
+          "left": "Triman",
+          "right": "À jeter dans le bac de tri"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la règle des 3R ?",
+      "options": [
+        "Réduire, Réutiliser, Recycler",
+        "Rapidité, Rigueur, Rendu",
+        "Rire, Réver, Réussir",
+        "Rien ne se jette"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

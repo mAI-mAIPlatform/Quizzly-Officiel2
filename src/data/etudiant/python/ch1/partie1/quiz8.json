@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Concaténation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la 'Concaténation' ?",
+      "options": [
+        "L'action de coller plusieurs chaînes de caractères entre elles",
+        "Une erreur de calcul",
+        "Le nom d'un robot",
+        "Un type de boucle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser le symbole '+' pour coller deux textes ensemble.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour afficher 'Bonjour' suivi de la variable nom, on peut écrire : print(\"Bonjour \" {{1}} nom) (+).",
+      "reponsesAttendues": [
+        "+"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'opération au résultat.",
+      "pairs": [
+        {
+          "left": "\"10\" + \"20\"",
+          "right": "\"1020\" (Texte)"
+        },
+        {
+          "left": "10 + 20",
+          "right": "30 (Nombre)"
+        },
+        {
+          "left": "\"Hello\" * 3",
+          "right": "\"HelloHelloHello\""
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on additionner directement un texte et un nombre (ex: \"Age: \" + 15) ?",
+      "options": [
+        "Non, il faut d'abord transformer le nombre en texte avec str(15)",
+        "Oui, Python le fait tout seul",
+        "Seulement si le nombre est positif",
+        "Seulement dans une boucle"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

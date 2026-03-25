@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Prepositions of Time",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "We use _____ for specific times (ex: 8:00).",
+      "options": [
+        "at",
+        "on",
+        "in",
+        "to"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "We use 'in' for months and years.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "School starts {{1}} September.",
+      "reponsesAttendues": [
+        "in"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the prepositions.",
+      "pairs": [
+        {
+          "left": "At",
+          "right": "Times (8 o'clock)"
+        },
+        {
+          "left": "On",
+          "right": "Days (Monday)"
+        },
+        {
+          "left": "In",
+          "right": "Parts of day (Morning)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "See you _____ Friday!",
+      "options": [
+        "on",
+        "at",
+        "in",
+        "by"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

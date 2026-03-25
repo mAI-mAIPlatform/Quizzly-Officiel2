@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Cap. 1 P. 2 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Le vote se fait dans l'{{1}} et la liberté de la {{2}} est essentielle.",
+      "options": [
+        "isoloir / presse",
+        "couloir / radio",
+        "rue / télévision",
+        "bureau / pensée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Seuls les membres d'un parti peuvent voter aux élections nationales.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Agir sans rémunération pour une association est être {{1}} (bénévole).",
+      "reponsesAttendues": [
+        "bénévole"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les libertés.",
+      "pairs": [
+        {
+          "left": "Expression",
+          "right": "Dire ses idées"
+        },
+        {
+          "left": "Association",
+          "right": "Créer un groupe (Loi 1901)"
+        },
+        {
+          "left": "Syndicale",
+          "right": "Défendre les travailleurs"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'abstention ?",
+      "options": [
+        "Le fait de ne pas voter",
+        "Le fait de voter blanc",
+        "Le fait de voter pour l'opposition",
+        "Le fait de déchirer son bulletin"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

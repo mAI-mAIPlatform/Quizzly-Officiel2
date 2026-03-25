@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Impact Numérique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi le numérique a-t-il un impact écologique ?",
+      "options": [
+        "À cause de l'énergie consommée par les serveurs et de la fabrication des appareils",
+        "Parce que les câbles sont en plastique",
+        "Parce que les ordinateurs font du bruit",
+        "Il n'a aucun impact car c'est 'virtuel'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le streaming vidéo (Netflix, YouTube...) représente une grande part de la consommation d'énergie d'Internet.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'envoi massif de mails inutiles s'appelle la pollution {{1}} (numérique).",
+      "reponsesAttendues": [
+        "numérique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'action au bon geste écologique.",
+      "pairs": [
+        {
+          "left": "Vieux smartphone",
+          "right": "Le faire réparer ou le recycler"
+        },
+        {
+          "left": "Mails anciens",
+          "right": "Les supprimer pour libérer de la place sur les serveurs"
+        },
+        {
+          "left": "Vidéo HD en 4G",
+          "right": "Préférer le WiFi ou baisser la résolution"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est l'action la plus efficace pour réduire son impact numérique ?",
+      "options": [
+        "Garder ses appareils le plus longtemps possible",
+        "Changer de fond d'écran souvent",
+        "Éteindre sa box la nuit uniquement",
+        "Acheter un ordinateur portable plus petit"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

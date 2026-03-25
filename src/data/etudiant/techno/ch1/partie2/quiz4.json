@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Tests et Conditions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle structure permet à un programme de faire un choix selon une condition ?",
+      "options": [
+        "La structure 'Si... Alors... Sinon...'",
+        "La boucle 'Répéter'",
+        "L'instruction 'Fin'",
+        "Le bouton 'Pause'"
+      ],
+      "correctIndex": 00
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une condition est une expression qui est soit Vraie, soit Fausse.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "En programmation, 'Sinon' s'exécute quand la condition du 'Si' est {{1}} (fausse).",
+      "reponsesAttendues": [
+        "fausse"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'opérateur de comparaison à son nom.",
+      "pairs": [
+        {
+          "left": "==",
+          "right": "Est égal à"
+        },
+        {
+          "left": ">",
+          "right": "Est plus grand que"
+        },
+        {
+          "left": "!=",
+          "right": "Est différent de"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si (Age < 18) Alors 'Mineur' Sinon 'Majeur'. Si Age = 20, qu'affiche le programme ?",
+      "options": [
+        "Majeur",
+        "Mineur",
+        "Erreur",
+        "Rien"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

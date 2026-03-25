@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "For vs While : Le Duel",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quand utiliser une boucle FOR ?",
+      "options": [
+        "Quand on connaît le nombre de tours (itérations)",
+        "Quand on attend une réponse utilisateur",
+        "Quand on veut une boucle infinie",
+        "Jamais, While est meilleur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Toute boucle FOR peut être écrite avec un WHILE.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La boucle {{1}} est souvent plus concise et moins risquée.",
+      "reponsesAttendues": [
+        "for"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Lequel choisir ?",
+      "pairs": [
+        {
+          "left": "Parcourir une liste",
+          "right": "FOR"
+        },
+        {
+          "left": "Attendre 'oui/non'",
+          "right": "WHILE"
+        },
+        {
+          "left": "Répéter 100 fois",
+          "right": "FOR (avec range)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel possède un compteur géré automatiquement ?",
+      "options": [
+        "For (avec range)",
+        "While",
+        "If",
+        "Les deux"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

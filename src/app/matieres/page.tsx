@@ -5,13 +5,13 @@ import { useState } from "react";
 import Link from "next/link";
 
 const NIVEAUX = [
-  { id: "6eme", nom: "6ème" },
-  { id: "5eme", nom: "5ème" },
-  { id: "4eme", nom: "4ème" },
-  { id: "3eme", nom: "3ème" },
-  { id: "2nde", nom: "2nde" },
-  { id: "1ere", nom: "1ère" },
-  { id: "terminale", nom: "Terminale" },
+  { id: "debutant", nom: "Débutant" },
+  { id: "entrainement", nom: "Entraînement" },
+  { id: "etudiant", nom: "Étudiant" },
+  { id: "difficile", nom: "Difficile" },
+  { id: "expert", nom: "Expert" },
+  { id: "savant", nom: "Savant" },
+  { id: "genie", nom: "Génie" },
 ];
 
 const MATIERES = [
@@ -21,6 +21,15 @@ const MATIERES = [
   { id: 'svt', nom: 'SVT', icon: '🌿', color: 'from-green to-emerald-500', dispo: true },
   { id: 'physique', nom: 'Physique-Chimie', icon: '🧪', color: 'from-violet to-purple-500', dispo: true },
   { id: "anglais", nom: "Anglais", icon: "🗣️", color: "from-rose-500 to-red-600", dispo: true },
+  { id: "culture-generale", nom: "Culture Générale", icon: "🌍", color: "from-indigo-500 to-purple-600", dispo: false },
+  { id: "latin", nom: "Latin", icon: "📜", color: "from-amber-700 to-yellow-900", dispo: false },
+  { id: "musique", nom: "Education Musicale", icon: "🎵", color: "from-pink-400 to-rose-600", dispo: false },
+  { id: "html", nom: "HTML", icon: "🌐", color: "from-orange-400 to-red-500", dispo: false },
+  { id: "javascript", nom: "JavaScript", icon: "🟨", color: "from-yellow-300 to-amber-500", dispo: false },
+  { id: "python", nom: "Python", icon: "🐍", color: "from-blue-600 to-green-500", dispo: false },
+  { id: "italien", nom: "Italien", icon: "🇮🇹", color: "from-green-500 to-red-500", dispo: false },
+  { id: "portugais", nom: "Portugais", icon: "🇵🇹", color: "from-red-600 to-green-700", dispo: false },
+  { id: "grec", nom: "Grec", icon: "🏺", color: "from-blue-400 to-blue-800", dispo: false },
   { id: "espagnol", nom: "Espagnol", icon: "🇪🇸", color: "from-yellow-400 to-orange-500", dispo: true },
   { id: "allemand", nom: "Allemand", icon: "🇩🇪", color: "from-gray-700 to-black", dispo: true },
   { id: "techno", nom: "Technologie", icon: "⚙️", color: "from-slate-500 to-blue-600", dispo: true },
@@ -31,7 +40,7 @@ const MATIERES = [
 ];
 
 export default function MatieresPage() {
-  const [activeNiveau, setActiveNiveau] = useState("6eme");
+  const [activeNiveau, setActiveNiveau] = useState("debutant");
 
   return (
     <div className="flex flex-col gap-8 w-full max-w-5xl mx-auto text-foreground relative z-10 animate-in fade-in duration-500">

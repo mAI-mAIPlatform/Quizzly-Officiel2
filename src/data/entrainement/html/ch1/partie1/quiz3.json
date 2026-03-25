@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Les Balises de Titre (Heading)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Combien de niveaux de titres existe-t-il en HTML ?",
+      "options": [
+        "6",
+        "3",
+        "10",
+        "Illimité"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "<h1> est le titre le plus important.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise pour un titre de niveau 3 est {{1}}.",
+      "reponsesAttendues": [
+        "h3"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Hiérarchie des titres.",
+      "pairs": [
+        {
+          "left": "<h1>",
+          "right": "Titre principal"
+        },
+        {
+          "left": "<h2>",
+          "right": "Sous-titre"
+        },
+        {
+          "left": "<h6>",
+          "right": "Titre le plus petit"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Est-il recommandé d'avoir plusieurs <h1> par page ?",
+      "options": [
+        "Non, un seul pour le SEO",
+        "Oui, autant qu'on veut",
+        "Seulement si la page est longue",
+        "Seulement pour les menus"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

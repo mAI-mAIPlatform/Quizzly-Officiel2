@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Presente: Debilitamiento",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "En el verbo 'Pedir' (e->i), ¿cuál es la forma de 'Yo'?",
+      "options": [
+        "Pido",
+        "Pedo",
+        "Piedo",
+        "Pedes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Servir' (e->i) se conjuga 'servimos' para 'Nosotros'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "El camarero {{1}} (servir) la comida.",
+      "reponsesAttendues": [
+        "sirve"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el verbo de debilitamiento.",
+      "pairs": [
+        {
+          "left": "Repetir",
+          "right": "Él repite"
+        },
+        {
+          "left": "Seguir",
+          "right": "Tú sigues"
+        },
+        {
+          "left": "Vestirse",
+          "right": "Me visto"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cuál es la forma correcta de 'Elegir' (e->i) para 'Ellos'?",
+      "options": [
+        "Eligen",
+        "Elegen",
+        "Eleigen",
+        "Elijen"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz29",
+  "titre": "Quale?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice '¿Cuál?'?",
+      "options": [
+        "Quale",
+        "Quali",
+        "Chi",
+        "Cosa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El plural de 'Quale' es 'Quali'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "{{1}} è il tuo libro? (cuál).",
+      "reponsesAttendues": [
+        "Qual"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la pregunta.",
+      "pairs": [
+        {
+          "left": "Quali libri?",
+          "right": "Quels livres ?"
+        },
+        {
+          "left": "Quale ragazza?",
+          "right": "Quelle fille ?"
+        },
+        {
+          "left": "Qual è?",
+          "right": "Lequel est-ce ?"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'Eccoli'?",
+      "options": [
+        "Aquí están (ellos)",
+        "Aquí está (él)",
+        "Donde están",
+        "Quienes son"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

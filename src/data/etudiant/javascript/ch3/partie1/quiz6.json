@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Ajouter : unshift",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet d'ajouter un élément au TOUT DÉBUT du tableau ?",
+      "options": [
+        "unshift()",
+        "push()",
+        "start()",
+        "firstAdd()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "unshift() décale tous les autres éléments vers un index plus élevé (0 devient 1, etc.).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour mettre 'Premier' au début de la liste 'classement', on fait : classement.{{1}}(\"Premier\") (unshift).",
+      "reponsesAttendues": [
+        "unshift"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'action au côté du tableau.",
+      "pairs": [
+        {
+          "left": "push",
+          "right": "Fin (droite)"
+        },
+        {
+          "left": "unshift",
+          "right": "Début (gauche)"
+        },
+        {
+          "left": "Index 0",
+          "right": "Premier élément"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le résultat de : let t = [2, 3]; t.unshift(1); ?",
+      "options": [
+        "[1, 2, 3]",
+        "[2, 3, 1]",
+        "[1, 3]",
+        "Erreur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

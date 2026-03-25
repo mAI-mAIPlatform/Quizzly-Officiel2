@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "EXAMEN : Monde Numérique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Un système capable de régler l'éclairage selon la lumière du jour est...",
+      "options": [
+        "Un système domotique intelligent",
+        "Un système manuel",
+        "Un simple interrupteur",
+        "Un panneau publicitaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'évolution numérique n'a aucun impact sur l'environnement.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le {{1}} est l'intelligence capable de piloter un véhicule sans intervention.",
+      "reponsesAttendues": [
+        "pilote"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Mix Numérique.",
+      "pairs": [
+        {
+          "left": "IoT",
+          "right": "Milliards d'objets reliés"
+        },
+        {
+          "left": "IA",
+          "right": "Apprentissage et décisions"
+        },
+        {
+          "left": "Éthique",
+          "right": "Responsabilité de l'usage"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Félicitations ! Prêt pour le Chapitre 4 (Structure et Énergie) ?",
+      "options": [
+        "Oui !",
+        "C'est parti !",
+        "Absolument !",
+        "Révisions Ch3"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

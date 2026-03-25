@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Daily Hygiene",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "You should _____ your teeth twice a day.",
+      "options": [
+        "brush",
+        "wash",
+        "clean",
+        "comb"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Washing your hands helps prevent spreading germs.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "I take a {{1}} every morning.",
+      "reponsesAttendues": [
+        "shower"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the objects.",
+      "pairs": [
+        {
+          "left": "Soap",
+          "right": "Hands"
+        },
+        {
+          "left": "Toothbrush",
+          "right": "Teeth"
+        },
+        {
+          "left": "Shampoo",
+          "right": "Hair"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What do you use to dry your body?",
+      "options": [
+        "A towel",
+        "A blanket",
+        "A sheet",
+        "A sponge"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

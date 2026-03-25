@@ -1,0 +1,63 @@
+{
+  "id": "quiz30",
+  "titre": "Bilan Ch.1 : Dire l'amour",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert la poésie et le théâtre d'amour ?",
+      "options": [
+        "À sublimer les sentiments par le langage",
+        "À apprendre des répliques par cœur",
+        "À faire pleurer le public seulement",
+        "À rien du tout"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'alexandrin est le vers le plus noble de la poésie française.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un quiproquo est un malentendu où l'on prend une chose pour une {{1}}.",
+      "reponsesAttendues": [
+        "autre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la période à son auteur emblématique.",
+      "pairs": [
+        {
+          "left": "Renaissance",
+          "right": "Ronsard"
+        },
+        {
+          "left": "Classisme",
+          "right": "Molière"
+        },
+        {
+          "left": "Lumières",
+          "right": "Marivaux"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel mot résume le mieux l'amour tragique ?",
+      "options": [
+        "La Fatalité",
+        "Le Bonheur",
+        "La Blague",
+        "L'Argent"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

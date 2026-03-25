@@ -1,0 +1,65 @@
+{
+  "id": "quiz27",
+  "titre": "from ... import ...",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment importer uniquement la fonction 'sqrt' du module 'math' ?",
+      "options": [
+        "from math import sqrt",
+        "import sqrt from math",
+        "import math.sqrt",
+        "get sqrt from math"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si on utilise 'from math import sqrt', on peut utiliser 'sqrt()' directement sans écrire 'math.' devant.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour importer tout le contenu d'un module sans prefixe (déconseillé), on utilise une {{1}} (*) (étoile).",
+      "reponsesAttendues": [
+        "*",
+        "étoile",
+        "etoile"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'import à sa syntaxe d'appel.",
+      "pairs": [
+        {
+          "left": "import math",
+          "right": "math.sqrt(9)"
+        },
+        {
+          "left": "from math import sqrt",
+          "right": "sqrt(9)"
+        },
+        {
+          "left": "import math as m",
+          "right": "m.sqrt(9)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi evite-t-on 'from module import *' ?",
+      "options": [
+        "Cela peut créer des conflits de noms avec vos propres variables ou fonctions",
+        "C'est plus lent",
+        "C'est interdit par Google",
+        "Cela consomme trop de RAM"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz15",
+  "titre": "Social Media Trends",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is a 'hashtag' (#) used for?",
+      "options": [
+        "To categorize content and make it searchable",
+        "To say hello to friends",
+        "To turn off the computer",
+        "To buy things online"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A 'viral' video is one that is seen by very few people.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A person who has many followers and can change their opinions is an {{1}}.",
+      "reponsesAttendues": [
+        "influencer"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the platform with its primary content.",
+      "pairs": [
+        {
+          "left": "YouTube",
+          "right": "Long and short videos"
+        },
+        {
+          "left": "Instagram",
+          "right": "Photos and stories"
+        },
+        {
+          "left": "Twitch",
+          "right": "Live streaming (often gaming)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What does 'trending' mean?",
+      "options": [
+        "Currently popular and widely discussed online",
+        "Something very old and forgotten",
+        "A type of very slow internet",
+        "A part of a computer's mouse"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

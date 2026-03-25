@@ -1,0 +1,63 @@
+{
+  "id": "quiz12",
+  "titre": "Material escolar",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Dónde guardas tus libros para ir al cole?",
+      "options": [
+        "En la mochila",
+        "En el estuche",
+        "En la mesa",
+        "En la basura"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Bolígrafo' se puede abreviar como 'boli'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Necesito un {{1}} para escribir (crayon).",
+      "reponsesAttendues": [
+        "lápiz"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el material.",
+      "pairs": [
+        {
+          "left": "La goma",
+          "right": "La gomme"
+        },
+        {
+          "left": "La regla",
+          "right": "La règle"
+        },
+        {
+          "left": "El cuaderno",
+          "right": "Le cahier"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'sacapuntas'?",
+      "options": [
+        "Taille-crayon",
+        "Compas",
+        "Calculatrice",
+        "Agenda"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

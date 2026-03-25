@@ -1,0 +1,63 @@
+{
+  "id": "quiz16",
+  "titre": "Le Narrateur",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Le narrateur est-il la même personne que l'auteur ?",
+      "options": [
+        "Non, c'est un personnage imaginaire qui raconte",
+        "Oui, toujours",
+        "Seulement dans les romans de Zola",
+        "Seulement si le livre est vrai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un narrateur homodiégétique est un personnage de l'histoire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le narrateur qui raconte à la 3ème personne sans être dans l'histoire est {{1}}.",
+      "reponsesAttendues": [
+        "hétérodiégétique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le type de narrateur à sa marque.",
+      "pairs": [
+        {
+          "left": "Narrateur-personnage",
+          "right": "Pronom 'Je'"
+        },
+        {
+          "left": "Narrateur extérieur",
+          "right": "Pronom 'Il/Elle'"
+        },
+        {
+          "left": "Destinataire",
+          "right": "Le dédicataire"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel type de narrateur trouve-t-on dans une autobiographie ?",
+      "options": [
+        "Autodiégétique",
+        "Hétérodiégétique",
+        "Omniscient pur",
+        "Animal"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

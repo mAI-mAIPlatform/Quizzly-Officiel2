@@ -1,0 +1,62 @@
+{
+  "id": "quiz10",
+  "titre": "Récapitulatif - Fin de la Culture G",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "De quoi est composé le noyau d'un atome (en plus des neutrons) ?",
+      "options": [
+        "Électrons",
+        "Protons",
+        "Molécules",
+        "Cellules"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'ONU a son siège à New York.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'inventeur de l'imprimerie est {{1}}.",
+      "reponsesAttendues": [
+        "Gutenberg"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Biodiversité",
+          "right": "Variété des espèces vivantes"
+        },
+        {
+          "left": "Inertie",
+          "right": "Principe de physique (Newton)"
+        },
+        {
+          "left": "Jurisprudence",
+          "right": "Ensemble des décisions de justice"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle planète est surnommée l'étoile du Berger ?",
+      "options": [
+        "Mars",
+        "Vénus",
+        "Jupiter",
+        "Mercure"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

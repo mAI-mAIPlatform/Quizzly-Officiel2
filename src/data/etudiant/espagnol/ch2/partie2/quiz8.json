@@ -1,0 +1,63 @@
+{
+  "id": "quiz18",
+  "titre": "Ocio y Salidas",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿A dónde vas para ver una película?",
+      "options": [
+        "Al cine",
+        "Al parque",
+        "A la panadería",
+        "Al gimnasio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Ir de tapas' es una actividad típica española.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Quedo con mis {{1}} (amis) en la plaza.",
+      "reponsesAttendues": [
+        "amigos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el lugar con la actividad.",
+      "pairs": [
+        {
+          "left": "Centro comercial",
+          "right": "Ir de compras"
+        },
+        {
+          "left": "Discoteca",
+          "right": "Bailar"
+        },
+        {
+          "left": "Parque de atracciones",
+          "right": "Subir a la montaña rusa"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'quedar con alguien'?",
+      "options": [
+        "Donner rendez-vous / Voir quelqu'un",
+        "Rester à la maison",
+        "Oublier quelqu'on",
+        "Se fâcher avec quelqu'un"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "BILAN : Analyse et Grammaire du Texte",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans un dialogue, comment appelle-t-on les indications de mise en scène ?",
+      "options": [
+        "Didascalies",
+        "Répliques",
+        "Monologues",
+        "Tirades"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'énonciation dépend de la situation de celui qui parle.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Cependant' est un connecteur d'{{1}}.",
+      "reponsesAttendues": [
+        "opposition"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Synthèse finale.",
+      "pairs": [
+        {
+          "left": "Comparaison",
+          "right": "Figure de style"
+        },
+        {
+          "left": "Pronom 'Je'",
+          "right": "Indice d'énonciation"
+        },
+        {
+          "left": "Discours Direct",
+          "right": "Guillemets"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Félicitations ! Prêt pour le Chapitre 4 (Syntaxe et Ponctuation) ?",
+      "options": [
+        "Oui !",
+        "C'est parti !",
+        "Absolument !",
+        "Révisions Ch3"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

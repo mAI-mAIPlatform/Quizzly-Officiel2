@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Review : School and Schedule",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Which one is NOT a school subject?",
+      "options": [
+        "Apple",
+        "Maths",
+        "Science",
+        "History"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "English schools often require a uniform.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "I have Geography at half {{1}} ten.",
+      "reponsesAttendues": [
+        "past"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Summary.",
+      "pairs": [
+        {
+          "left": "Time",
+          "right": "At + Time"
+        },
+        {
+          "left": "Equipment",
+          "right": "Bag, Pen..."
+        },
+        {
+          "left": "Subject",
+          "right": "English, PE..."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Ready for Part 3 about School Rules?",
+      "options": [
+        "Yes!",
+        "Absolutely!",
+        "Bring it on!",
+        "Review Part 2"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

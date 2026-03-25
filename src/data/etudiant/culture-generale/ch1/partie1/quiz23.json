@@ -1,0 +1,64 @@
+{
+  "id": "quiz3",
+  "titre": "Les Climats",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel climat se caractérise par des températures très élevées et de fortes pluies toute l'année ?",
+      "options": [
+        "Le climat équatorial",
+        "Le climat polaire",
+        "Le climat tempéré",
+        "Le climat désertique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le climat méditerranéen se définit par des étés chauds et secs et des hivers doux.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le climat où il ne pleut presque jamais et où les écarts de température sont énormes est le climat {{1}} (désertique).",
+      "reponsesAttendues": [
+        "désertique",
+        "desertique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le climat à son paysage type.",
+      "pairs": [
+        {
+          "left": "Climat polaire",
+          "right": "Banquise et toundra"
+        },
+        {
+          "left": "Climat tropical",
+          "right": "Savane"
+        },
+        {
+          "left": "Climat continental",
+          "right": "Forêts de feuillus et prairies"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel phénomène influence grandement les climats côtiers (comme en Europe de l'Ouest) ?",
+      "options": [
+        "Les courants marins (ex: Gulf Stream)",
+        "La couleur du sable",
+        "Le passage des avions",
+        "La rotation de la lune"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

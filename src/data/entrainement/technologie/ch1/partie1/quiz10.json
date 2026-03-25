@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "EXAMEN : Choix des Matériaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel matériau choisir pour un manche de casserole (ne brûle pas la main) ?",
+      "options": [
+        "Plastique thermodurcissable ou bois",
+        "Acier inoxydable",
+        "Aluminium",
+        "Cuivre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le choix d'un matériau dépend de ses propriétés, de son coût et de son impact écologique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour l'aviation, on privilégie l'{{1}} car il est très léger.",
+      "reponsesAttendues": [
+        "aluminium"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Mix Matériaux.",
+      "pairs": [
+        {
+          "left": "Transparence",
+          "right": "Verre / Plexiglas"
+        },
+        {
+          "left": "Souplesse",
+          "right": "Élastomère / Cuir"
+        },
+        {
+          "left": "Haute température",
+          "right": "Céramique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour les Énergies et la Conversion (P2) ?",
+      "options": [
+        "Oui !",
+        "C'est parti !",
+        "Absolument !",
+        "Révisions P1"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

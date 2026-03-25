@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Cas pratique : Voter une loi",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle institution propose une nouvelle loi européenne (ex: interdire les plastiques) ?",
+      "options": [
+        "La Commission européenne",
+        "Le Parlement européen",
+        "Le Conseil de l'Union",
+        "Le tribunal de Paris"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Parlement et le Conseil de l'Union doivent se mettre d'accord pour que la loi soit adoptée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le pouvoir de proposer des lois s'appelle le droit d'{{1}} (initiative).",
+      "reponsesAttendues": [
+        "initiative"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'étape au bon acteur.",
+      "pairs": [
+        {
+          "left": "Proposition",
+          "right": "Commission européenne"
+        },
+        {
+          "left": "Vote",
+          "right": "Parlement et Conseil de l'UE (Co-décision)"
+        },
+        {
+          "left": "Application",
+          "right": "Les États membres dans leur pays"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le fait que le Parlement et le Conseil votent ensemble ?",
+      "options": [
+        "La procédure de co-décision",
+        "Un match nul",
+        "Le secret partagé",
+        "La séparation des pouvoirs"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

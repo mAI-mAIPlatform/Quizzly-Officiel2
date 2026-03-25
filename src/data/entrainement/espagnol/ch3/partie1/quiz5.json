@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Irregulares en 'I' (Pasado)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'J'ai fait' (Hacer) ?",
+      "options": [
+        "Hice",
+        "Hiciste",
+        "Hizo",
+        "Hicimos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Quise' es el pasado de 'Querer'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Él hizo' se escribe con '{{1}}' para mantener el sonido.",
+      "reponsesAttendues": [
+        "z"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Raíces Fuertes I.",
+      "pairs": [
+        {
+          "left": "Vine",
+          "right": "Venir"
+        },
+        {
+          "left": "Quise",
+          "right": "Querer"
+        },
+        {
+          "left": "Dije",
+          "right": "Decir"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué hizo tu hermano ayer?",
+      "options": [
+        "Hizo los deberes",
+        "Soy su hermano",
+        "Tengo deberes",
+        "Vive aquí"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

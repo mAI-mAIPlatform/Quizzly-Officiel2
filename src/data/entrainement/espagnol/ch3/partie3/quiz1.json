@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Ir a + Infinitivo",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Je vais manger' ?",
+      "options": [
+        "Voy a comer",
+        "Vas a comer",
+        "Va a comer",
+        "Vamos a comer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Se usa 'Ir a + infinitivo' para planes inmediatos.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Nous allons voyager' se dice '{{1}} a viajar'.",
+      "reponsesAttendues": [
+        "Vamos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Estructura Futuro.",
+      "pairs": [
+        {
+          "left": "Él va a",
+          "right": "Él va a leer"
+        },
+        {
+          "left": "Ellos van a",
+          "right": "Ellos van a dormir"
+        },
+        {
+          "left": "Tú vas a",
+          "right": "Tú vas a jugar"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué vas a hacer esta tarde?",
+      "options": [
+        "Voy a estudiar español",
+        "Soy español",
+        "Tengo un libro",
+        "Vivo en España"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

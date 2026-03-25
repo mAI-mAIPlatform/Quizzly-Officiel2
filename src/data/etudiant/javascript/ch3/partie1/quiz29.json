@@ -1,0 +1,63 @@
+{
+  "id": "quiz29",
+  "titre": "Debug Logique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi ma boucle for sur mon tableau d'objets n'affiche que 'undefined' ?",
+      "options": [
+        "Tu essaies d'accéder à une clé mal orthographiée ou inexistante",
+        "Le tableau est trop grand",
+        "On ne peut pas boucler sur des objets",
+        "Il faut transformer l'objet en texte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "console.log(monObjet) dans la console permet d'inspecter toutes ses clés et valeurs pour débugger.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'erreur 'Uncaught TypeError: Assignment to constant variable' arrive si on tente de changer l'objet entier déclaré avec {{1}} (const).",
+      "reponsesAttendues": [
+        "const"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'erreur à la correction.",
+      "pairs": [
+        {
+          "left": "objet.nom (est undefined)",
+          "right": "Vérifier l'orthographe de 'nom'"
+        },
+        {
+          "left": "objet = {} (erreur const)",
+          "right": "Utiliser let ou modifier juste les clés"
+        },
+        {
+          "left": "boucle infinie",
+          "right": "Vérifier la condition d'arrêt"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle commande permet de voir si une clé 'age' existe dans 'user' ?",
+      "options": [
+        "'age' in user",
+        "user.has('age')",
+        "user.age.exists()",
+        "find(age, user)"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

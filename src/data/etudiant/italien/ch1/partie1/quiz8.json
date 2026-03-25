@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Articoli (Maschile)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué artículo se usa para 'Libro' (consonante normal)?",
+      "options": [
+        "Il",
+        "Lo",
+        "L'",
+        "La"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Se usa 'Lo' para palabras que empiezan con Z o S + consonante (es. Lo zaino).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "{{1}} amico (l' - vocal).",
+      "reponsesAttendues": [
+        "L'"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el artículo masculino.",
+      "pairs": [
+        {
+          "left": "Il",
+          "right": "Ragazzo (consonante)"
+        },
+        {
+          "left": "Lo",
+          "right": "Studente (S+cons)"
+        },
+        {
+          "left": "L'",
+          "right": "Albero (vocale)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cuál es el artículo para 'Zio' (tío)?",
+      "options": [
+        "Lo",
+        "Il",
+        "L'",
+        "La"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Le travail des ouvriers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle était la durée quotidienne moyenne de travail d'un ouvrier vers 1840 ?",
+      "options": [
+        "12 à 15 heures",
+        "7 heures",
+        "35 heures par semaine",
+        "2 heures"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les ouvriers ne bénéficiaient ni de congés payés ni de protection en cas d'accident.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une amende ou un renvoi immédiat punissait souvent le moindre {{1}}.",
+      "reponsesAttendues": [
+        "retard"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le danger au lieu de travail.",
+      "pairs": [
+        {
+          "left": "Coup de grisou",
+          "right": "Explosion de gaz dans la mine"
+        },
+        {
+          "left": "Saturnisme / Maladies",
+          "right": "Produits chimiques dans l'usine"
+        },
+        {
+          "left": "Accident de machine",
+          "right": "Manque de protection dans les ateliers"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'appelle-t-on le 'livret ouvrier' ?",
+      "options": [
+        "Un document obligatoire pour surveiller les déplacements de l'ouvrier",
+        "Un livre de poésie pour les travailleurs",
+        "Le carnet de paie de l'usine",
+        "Une carte de réduction pour le train"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

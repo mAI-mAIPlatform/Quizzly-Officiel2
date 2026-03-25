@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "O Pequeno-Almoço",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Le pain' ?",
+      "options": [
+        "O pão",
+        "A manteiga",
+        "O queijo",
+        "O presunto"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Fiambre' é um tipo de carne fria (jambon cuit).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu quero pão com {{1}} (beurre).",
+      "reponsesAttendues": [
+        "manteiga"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Pequeno-almoço.",
+      "pairs": [
+        {
+          "left": "Cereais",
+          "right": "Céréales"
+        },
+        {
+          "left": "Iogurte",
+          "right": "Yaourt"
+        },
+        {
+          "left": "Geleia",
+          "right": "Confiture"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Bebes leite de manhã?",
+      "options": [
+        "Sim, bebo leite quente",
+        "Sim, bebo pão",
+        "Não, sou leite",
+        "Olá"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

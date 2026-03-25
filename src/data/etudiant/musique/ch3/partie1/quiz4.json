@@ -1,0 +1,64 @@
+{
+  "id": "quiz4",
+  "titre": "Les altérations",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le rôle du 'Dièse' (#) ?",
+      "options": [
+        "Il monte la note d'un demi-ton",
+        "Il baisse la note d'un demi-ton",
+        "Il annule une modification",
+        "Il rend la note plus longue"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'Bémol' (b) baisse la note d'un demi-ton.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le signe qui annule l'effet d'un dièse ou d'un bémol s'appelle le {{1}} (bécarre).",
+      "reponsesAttendues": [
+        "bécarre",
+        "becarre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le signe à son effet.",
+      "pairs": [
+        {
+          "left": "Dièse (#)",
+          "right": "Élève le son (plus aigu)"
+        },
+        {
+          "left": "Bémol (b)",
+          "right": "Abaisse le son (plus grave)"
+        },
+        {
+          "left": "Bécarre",
+          "right": "Remet la note à son état naturel"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on les altérations placées au tout début de la portée, après la clef ?",
+      "options": [
+        "L'armure (ou armature)",
+        "Le bouclier",
+        "La signature",
+        "Le code secret"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

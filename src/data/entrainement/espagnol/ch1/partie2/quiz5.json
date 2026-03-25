@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Los Muebles básicos",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Lit' ?",
+      "options": [
+        "Cama",
+        "Silla",
+        "Mesa",
+        "Sofá"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Un sofá' es para sentarse.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Table' se dice '{{1}}'.",
+      "reponsesAttendues": [
+        "mesa"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Muebles.",
+      "pairs": [
+        {
+          "left": "Silla",
+          "right": "Chaise"
+        },
+        {
+          "left": "Armario",
+          "right": "Armoire"
+        },
+        {
+          "left": "Lámpara",
+          "right": "Lampe"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Donde pones la ropa ?",
+      "options": [
+        "En el armario",
+        "Sobre la mesa",
+        "En el suelo",
+        "En el jardín"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

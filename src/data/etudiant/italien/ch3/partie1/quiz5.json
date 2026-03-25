@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Prenotare un hotel",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se pide una habitación?",
+      "options": [
+        "Vorrei prenotare una camera",
+        "Vorrei comprare un hotel",
+        "Vorrei mangiare a letto",
+        "Vorrei uscire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Letto matrimoniale' es una cama doble.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La colazione è {{1}} (incluse).",
+      "reponsesAttendues": [
+        "inclusa"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el término de hotel.",
+      "pairs": [
+        {
+          "left": "Singola",
+          "right": "Chambre pour une personne"
+        },
+        {
+          "left": "Doppia",
+          "right": "Chambre pour deux personnes"
+        },
+        {
+          "left": "Servizio",
+          "right": "Service"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'albergo'?",
+      "options": [
+        "Hotel",
+        "Hostal",
+        "Casa",
+        "Apartamento"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

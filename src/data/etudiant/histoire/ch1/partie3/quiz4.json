@@ -1,0 +1,63 @@
+{
+  "id": "quiz24",
+  "titre": "Le 18 Brumaire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quelle date Bonaparte prend-il le pouvoir par un coup d'État ?",
+      "options": [
+        "9-10 novembre 1799 (18 Brumaire)",
+        "14 juillet 1789",
+        "2 décembre 1804",
+        "18 juin 1815"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le coup d'État met fin au régime du Directoire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Bonaparte devient alors Premier {{1}}.",
+      "reponsesAttendues": [
+        "Consul"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'acteur du coup d'État à son rôle.",
+      "pairs": [
+        {
+          "left": "Napoléon",
+          "right": "Le sabre (force militaire)"
+        },
+        {
+          "left": "Sieyès",
+          "right": "Le cerveau (organisateur politique)"
+        },
+        {
+          "left": "Lucien Bonaparte",
+          "right": "Président des Cinq-Cents (frère)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que déclare Bonaparte après son coup d'État ?",
+      "options": [
+        "La Révolution est fixée aux principes qui l'ont commencée : elle est finie",
+        "Je suis le nouveau Roi de France",
+        "La guerre continue pour toujours",
+        "Tout recommence comme avant"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

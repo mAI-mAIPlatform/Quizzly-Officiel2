@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Invention vs Innovation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une invention ?",
+      "options": [
+        "La création d'une solution technique nouvelle qui n'existait pas",
+        "Vendre un produit",
+        "Changer la couleur d'un objet",
+        "Copier une idée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une innovation est une invention qui rencontre un succès commercial.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour protéger une invention, on dépose un {{1}}.",
+      "reponsesAttendues": [
+        "brevet"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Progrès technique.",
+      "pairs": [
+        {
+          "left": "Découverte",
+          "right": "On trouve quelque chose qui existe (ex: feu)"
+        },
+        {
+          "left": "Invention",
+          "right": "On crée un nouvel objet (ex: ampoule)"
+        },
+        {
+          "left": "Innovation",
+          "right": "Amélioration d'un objet existant"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi toutes les inventions ne deviennent-elles pas des innovations ?",
+      "options": [
+        "Parce qu'elles ne répondent pas toujours à un besoin du public",
+        "Parce qu'elles sont trop secrètes",
+        "Elles le deviennent toutes",
+        "C'est une question de chance"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

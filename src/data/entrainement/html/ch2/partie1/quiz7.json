@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Placeholder vs Value",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un placeholder ?",
+      "options": [
+        "Une indication d'aide qui disparaît quand on écrit",
+        "La valeur réelle envoyée au serveur",
+        "Un bouton caché",
+        "Le nom du champ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si je ne saisis rien, le placeholder est envoyé comme donnée.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} contient la valeur réelle pré-remplie du champ.",
+      "reponsesAttendues": [
+        "value"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Usage des attributs.",
+      "pairs": [
+        {
+          "left": "placeholder",
+          "right": "Exemple de saisie (grisé)"
+        },
+        {
+          "left": "value",
+          "right": "Donnée effective"
+        },
+        {
+          "left": "title",
+          "right": "Info-bulle au survol"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi ne pas utiliser le placeholder à la place du label ?",
+      "options": [
+        "C'est mauvais pour l'accessibilité (il disparaît)",
+        "C'est trop moche",
+        "C'est interdit par le W3C",
+        "Il n'y a pas de raison"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

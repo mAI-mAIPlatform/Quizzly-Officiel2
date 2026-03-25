@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Corneille : Amour et Honneur",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle pièce de Corneille est la plus célèbre pour son dilemme ?",
+      "options": [
+        "Le Cid",
+        "Cinna",
+        "Horace",
+        "Polyeucte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Rodrigre doit choisir entre son amour pour Chimène et l'honneur de son père.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le choix impossible entre deux valeurs s'appelle un {{1}} cornélien.",
+      "reponsesAttendues": [
+        "dilemme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le personnage à son conflit.",
+      "pairs": [
+        {
+          "left": "Rodrigue",
+          "right": "Venger son père vs Aimer Chimène"
+        },
+        {
+          "left": "Chimène",
+          "right": "Aimer le meurtrier de son père"
+        },
+        {
+          "left": "Don Diègue",
+          "right": "L'honneur bafoué par un soufflet"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment se termine globalement le conflit du Cid ?",
+      "options": [
+        "Par un espoir de mariage (fin 'tragi-comique')",
+        "Par le suicide de tous",
+        "Par un banquet",
+        "On ne sait pas"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

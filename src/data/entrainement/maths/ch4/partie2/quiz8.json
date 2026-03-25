@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Distributivité et Priorités",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Calcule 10 + 2(x + 5) pour x = 3 :",
+      "options": [
+        "26",
+        "50",
+        "16",
+        "30"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'expression 5 + 3x est égale à 8x.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Réduis 4(x + 1) + 2x. On obtient {{1}}x + 4.",
+      "reponsesAttendues": [
+        "6"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Développe et réduis.",
+      "pairs": [
+        {
+          "left": "2(x + 3) + x",
+          "right": "3x + 6"
+        },
+        {
+          "left": "5(2 - x)",
+          "right": "10 - 5x"
+        },
+        {
+          "left": "x + x(2)",
+          "right": "3x"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle expression est la plus simple pour x + x + x + 5 + 5 ?",
+      "options": [
+        "x³ + 10",
+        "3x + 10",
+        "13x",
+        "3x + 25"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

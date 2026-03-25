@@ -1,0 +1,63 @@
+{
+  "id": "quiz11",
+  "titre": "Érosion et Transport",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'érosion ?",
+      "options": [
+        "L'usure et la modification des roches par des agents externes",
+        "La croissance des montagnes",
+        "L'explosion d'un volcan",
+        "Le nettoyage des vitres"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'eau est le principal agent d'érosion sur Terre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les débris de roches transportés par l'eau s'appellent des {{1}}.",
+      "reponsesAttendues": [
+        "sédiments"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'agent à son action d'érosion.",
+      "pairs": [
+        {
+          "left": "Gel / Dégel",
+          "right": "Éclatement des roches par dilatation de l'eau"
+        },
+        {
+          "left": "Vent",
+          "right": "Abrasion par le sable transporté (érosion éolienne)"
+        },
+        {
+          "left": "Vagues",
+          "right": "Recul des falaises littorales"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel de ces facteurs accélère l'érosion des sols ?",
+      "options": [
+        "La déforestation (absence de racines)",
+        "La plantation d'arbres",
+        "Le manque de vent",
+        "L'absence de pluie"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

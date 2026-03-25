@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan : Les ressources d'énergie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Laquelle de ces sources est non-renouvelable ?",
+      "options": [
+        "Le vent",
+        "L'uranium",
+        "Le bois (si géré durablement)",
+        "Le soleil"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'énergie hydraulique ne rejette pas de CO2 pendant sa production.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une source d'énergie qui ne s'épuise pas est dite {{1}}.",
+      "reponsesAttendues": [
+        "renouvelable"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dernier défi du chapitre 3 :",
+      "pairs": [
+        {
+          "left": "Charbon",
+          "right": "Fossile"
+        },
+        {
+          "left": "Turbine",
+          "right": "Mouvement"
+        },
+        {
+          "left": "Alternateur",
+          "right": "Électricité"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Bravo ! En route pour le dernier chapitre : Mouvements et Lumière ?",
+      "options": [
+        "C'est parti !",
+        "Un petit saut dans la science",
+        "Prêt pour le final !",
+        "L'énergie est partout !"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

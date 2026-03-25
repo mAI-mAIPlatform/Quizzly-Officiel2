@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "At the Doctor's",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What does a doctor do?",
+      "options": [
+        "Treats sick people",
+        "Cooks food",
+        "Teaches students",
+        "Drives a bus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A 'Prescription' is the paper for medicine.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "What is the {{1}}? (Doctor's question).",
+      "reponsesAttendues": [
+        "matter"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the people.",
+      "pairs": [
+        {
+          "left": "Patient",
+          "right": "Sick person"
+        },
+        {
+          "left": "GP",
+          "right": "General Practitioner (Doctor)"
+        },
+        {
+          "left": "Nurse",
+          "right": "Assists the doctor"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Where do you go to buy medicine?",
+      "options": [
+        "The pharmacy / chemist's",
+        "The library",
+        "The gym",
+        "The park"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

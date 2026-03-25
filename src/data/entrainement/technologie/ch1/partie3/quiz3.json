@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "La Chaîne d'Information",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la première étape de la chaîne d'information ?",
+      "options": [
+        "Acquérir (avec les capteurs)",
+        "Traiter (avec le processeur)",
+        "Communiquer (avec les écrans/LEDs)",
+        "Dormir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'étape 'Traiter' se fait généralement dans un microcontrôleur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Après avoir traité, le système doit {{1}} les ordres à la chaîne d'énergie.",
+      "reponsesAttendues": [
+        "transmettre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Fonctions de l'info.",
+      "pairs": [
+        {
+          "left": "Acquérir",
+          "right": "Capteur"
+        },
+        {
+          "left": "Traiter",
+          "right": "Programme / Carte"
+        },
+        {
+          "left": "Communiquer",
+          "right": "Écran / Wi-Fi"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel élément permet de stocker les ordres ?",
+      "options": [
+        "La mémoire (du microcontrôleur)",
+        "Les fils",
+        "La batterie",
+        "Le moteur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

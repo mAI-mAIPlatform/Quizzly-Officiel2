@@ -1,0 +1,63 @@
+{
+  "id": "quiz15",
+  "titre": "Les ZIP",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie le sigle ZIP ?",
+      "options": [
+        "Zone Industrialo-Portuaire",
+        "Zone Interdite aux Poissons",
+        "Zéro Information Partagée",
+        "Zone d'Investissement Principal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une ZIP regroupe un port de commerce et des industries (pétrochimie, usines).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "En France, la plus grande ZIP se trouve à Fos-sur-{{1}} (près de Marseille).",
+      "reponsesAttendues": [
+        "Mer"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'installation à son rôle dans la ZIP.",
+      "pairs": [
+        {
+          "left": "Terminal pétrolier",
+          "right": "Réception du pétrole brut par tankers"
+        },
+        {
+          "left": "Raffinerie",
+          "right": "Transformation du pétrole en essence"
+        },
+        {
+          "left": "Grue portique",
+          "right": "Chargement et déchargement des conteneurs"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi les usines s'installent-elles directement sur le port ?",
+      "options": [
+        "Pour transformer les matières premières dès leur arrivée par bateau",
+        "Parce que les ouvriers aiment regarder les vagues",
+        "Parce qu'il n'y a pas d'impôts sur l'eau",
+        "C'est uniquement pour le décor"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

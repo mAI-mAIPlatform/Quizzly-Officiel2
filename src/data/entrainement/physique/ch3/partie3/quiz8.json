@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "La géothermie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "D'où provient l'énergie géothermique ?",
+      "options": [
+        "Des nuages",
+        "De la chaleur interne de la Terre",
+        "Des océans",
+        "Des arbres"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Plus on descend dans la Terre, plus la température diminue.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La géothermie peut être utilisée pour le chauffage ou l'{{1}}.",
+      "reponsesAttendues": [
+        "électricité"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'installation.",
+      "pairs": [
+        {
+          "left": "Pompe à chaleur",
+          "right": "Usage domestique"
+        },
+        {
+          "left": "Centrale géothermique",
+          "right": "Production industrielle"
+        },
+        {
+          "left": "Source chaude",
+          "right": "Phénomène naturel"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage majeur de la géothermie ?",
+      "options": [
+        "Elle est disponible 24h/24, quel que soit le temps",
+        "Elle est facile partout dans son jardin",
+        "Elle produit du pétrole",
+        "Elle refroidit la planète"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

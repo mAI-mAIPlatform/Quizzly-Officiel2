@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Contrastes de Tiempos (Pasado, Presente, Futuro)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Identifica el futuro :",
+      "options": [
+        "Iré",
+        "Fui",
+        "Voy",
+        "Iba"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Ayer hablé' es pasado, 'Mañana hablaré' es futuro.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Hoy como' es presente, 'Ayer {{1}}' es pasado.",
+      "reponsesAttendues": [
+        "comí"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Tiempo verbal.",
+      "pairs": [
+        {
+          "left": "Estoy",
+          "right": "Presente"
+        },
+        {
+          "left": "Estuve",
+          "right": "Pasado Indefinido"
+        },
+        {
+          "left": "Estaré",
+          "right": "Futuro Simple"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué hiciste ayer y qué harás mañana?",
+      "options": [
+        "Ayer estudié y mañana descansaré",
+        "Ayer descanso y mañana estudio",
+        "Ayer estudiaré y mañana estudié",
+        "No sé"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz21",
+  "titre": "Trip Planning",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "How do you express a future plan in English?",
+      "options": [
+        "I am going to visit London next summer",
+        "I visit London next summer",
+        "I was visiting London",
+        "I London go"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "We use 'going to' for intentions and plans made before speaking.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "What {{1}} you going to do this weekend?",
+      "reponsesAttendues": [
+        "are"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the plan with the action.",
+      "pairs": [
+        {
+          "left": "I'm going to the airport",
+          "right": "To catch a flight"
+        },
+        {
+          "left": "I'm going to the beach",
+          "right": "To swim and sunbathe"
+        },
+        {
+          "left": "I'm going to a museum",
+          "right": "To see famous paintings"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is the negative form of 'I am going to travel'?",
+      "options": [
+        "I am not going to travel",
+        "I don't going to travel",
+        "I no going to travel",
+        "I won't going to travel"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "As Estações do Ano",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qual é a estação do calor?",
+      "options": [
+        "O verão",
+        "O inverno",
+        "A primavera",
+        "O outono"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Primavera' é quando as flores crescem.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "No {{1}} (hiver) faz muito frio.",
+      "reponsesAttendues": [
+        "inverno"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Estações.",
+      "pairs": [
+        {
+          "left": "Outono",
+          "right": "Automne"
+        },
+        {
+          "left": "Verão",
+          "right": "Été"
+        },
+        {
+          "left": "Inverno",
+          "right": "Hiver"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qual é a tua estação favorita?",
+      "options": [
+        "Gosto mais da primavera",
+        "Sou o outono",
+        "Dez horas",
+        "Olá"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

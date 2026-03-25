@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Arguments par défaut",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment donner une valeur par défaut à un paramètre ?",
+      "options": [
+        "def f(nom='Invité'):",
+        "def f(nom : 'Invité'):",
+        "def f(nom == 'Invité'):",
+        "def f(nom default 'Invité'):"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si on fournit un argument, la valeur par défaut est ignorée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les paramètres par défaut doivent être placés à la {{1}} de la liste des paramètres.",
+      "reponsesAttendues": [
+        "fin"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe (def f(n='X')).",
+      "pairs": [
+        {
+          "left": "f()",
+          "right": "Utilise 'X'"
+        },
+        {
+          "left": "f('Y')",
+          "right": "Utilise 'Y'"
+        },
+        {
+          "left": "Valeur par défaut",
+          "right": "Rend l'argument optionnel"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est VALIDE ?",
+      "options": [
+        "def f(a, b=2):",
+        "def f(a=1, b):",
+        "Les deux",
+        "Aucun"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

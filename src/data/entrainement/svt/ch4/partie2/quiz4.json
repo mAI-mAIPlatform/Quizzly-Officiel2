@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Les consommateurs secondaires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un consommateur secondaire ?",
+      "options": [
+        "Un animal qui ne mange que des plantes",
+        "Un animal qui mange d'autres animaux (zoophage)",
+        "Une plante carnivore",
+        "Un robot nettoyeur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un renard qui mange un mulot (qui a mangé une graine) est un consommateur secondaire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les consommateurs transforment la matière de leurs proies en leur propre {{1}}.",
+      "reponsesAttendues": [
+        "matière"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'animal à son régime alimentaire.",
+      "pairs": [
+        {
+          "left": "Aigle",
+          "right": "Super-prédateur (consommateur tertiaire)"
+        },
+        {
+          "left": "Vache",
+          "right": "Consommateur primaire (phytophage)"
+        },
+        {
+          "left": "Mante religieuse",
+          "right": "Consommateur secondaire"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le transfert de matière d'un niveau à l'autre ?",
+      "options": [
+        "Le flux de matière",
+        "Le trajet de l'autobus",
+        "La livraison",
+        "Le déménagement"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

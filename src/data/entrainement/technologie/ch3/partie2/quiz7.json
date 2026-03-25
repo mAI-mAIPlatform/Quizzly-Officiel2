@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Événements et Message",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un événement en programmation ?",
+      "options": [
+        "Une action qui déclenche le programme (ex: clic, touche pressée)",
+        "Un anniversaire",
+        "Une erreur de code",
+        "Un résultat de calcul"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le bloc 'Quand le drapeau vert est cliqué' (Scratch) est un événement.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Envoyer un {{1}} permet de faire communiquer deux lutins ou parties du programme.",
+      "reponsesAttendues": [
+        "message"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Déclencheurs.",
+      "pairs": [
+        {
+          "left": "Clic souris",
+          "right": "Événement matériel"
+        },
+        {
+          "left": "Chronomètre > 10",
+          "right": "Condition temporelle"
+        },
+        {
+          "left": "Réception message",
+          "right": "Événement logiciel"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi utilise-t-on les événements ?",
+      "options": [
+        "Pour que le programme soit interactif et réagisse aux actions de l'utilisateur",
+        "Pour le rendre plus complexe",
+        "Pour économiser de la mémoire",
+        "Ça n'a pas d'utilité réelle"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

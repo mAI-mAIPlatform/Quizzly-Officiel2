@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan : Composantes de l'écosystème",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'avez-vous retenu sur l'écosystème ?",
+      "options": [
+        "C'est juste un milieu",
+        "C'est le mélange Biotope + Biocénose + Interactions",
+        "C'est un meuble suédois",
+        "C'est la météo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un écosystème est dynamique, il évolue tout le temps.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La science qui étudie les écosystèmes est l'{{1}}.",
+      "reponsesAttendues": [
+        "écologie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dernier défi de la partie 1 :",
+      "pairs": [
+        {
+          "left": "Vivant",
+          "right": "Biocénose"
+        },
+        {
+          "left": "Non-vivant",
+          "right": "Biotope"
+        },
+        {
+          "left": "Équilibre",
+          "right": "Stabilité du système"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour la Partie 2 sur les Réseaux Alimentaires ?",
+      "options": [
+        "Oui, voyons qui mange qui !",
+        "Pas encore",
+        "C'est quoi un réseau ?",
+        "Je préfère rester sur la définition"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

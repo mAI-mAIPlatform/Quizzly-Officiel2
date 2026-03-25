@@ -1,0 +1,42 @@
+{
+  "id": "quiz29",
+  "titre": "Debug sémantique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel est un exemple de mauvaise structure ?",
+      "options": ["<b><strong>Gras et Important</strong></b>", "<strong><b>Gras et Important</b></strong>", "<strong><b>Gras et Important</strong></b>", "<b>Gras</b> <strong>Important</strong>"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Utiliser <b> au lieu de <strong> empêche Google de comprendre l'importance.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une liste sans balise <{{1}}> ou <{{2}}> autour des <li> est invalide (ul / ol).",
+      "reponsesAttendues": ["ul", "ol"]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Visuel -> Mauvaise Balise ?",
+      "pairs": [
+        {"left": "Citation", "right": "Italique simple"},
+        {"left": "Code", "right": "Police normale"},
+        {"left": "Importance", "right": "Couleur seule"}
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment tester sa sémantique ?",
+      "options": ["Sans CSS, le sens reste-t-il clair ?", "Si ça brille", "Si c'est en anglais", "Si le fichier est gros"],
+      "correctIndex": 0
+    }
+  ]
+}

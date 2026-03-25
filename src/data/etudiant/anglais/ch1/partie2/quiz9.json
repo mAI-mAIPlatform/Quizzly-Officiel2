@@ -1,0 +1,63 @@
+{
+  "id": "quiz19",
+  "titre": "Souvenirs and Shopping",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is a 'souvenir'?",
+      "options": [
+        "Something you buy to remember a place",
+        "A type of food",
+        "A person who travels",
+        "A fast train"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A 'flea market' sells expensive new cars.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "If you want to pay less in a market, you {{1}}.",
+      "reponsesAttendues": [
+        "bargain"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the shop to what it sells.",
+      "pairs": [
+        {
+          "left": "Bakery",
+          "right": "Bread and cakes"
+        },
+        {
+          "left": "Pharmacy",
+          "right": "Medicine"
+"        },
+        {
+          "left": "Bookshop",
+          "right": "Books and magazines"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is a 'receipt'?",
+      "options": [
+        "A piece of paper showing you paid",
+        "A type of soup",
+        "A list of rules",
+        "A gift for a friend"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

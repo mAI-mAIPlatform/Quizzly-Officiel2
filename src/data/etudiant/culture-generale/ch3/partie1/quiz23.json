@@ -1,0 +1,64 @@
+{
+  "id": "quiz3",
+  "titre": "Métiers du Cinéma",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est la personne responsable de la création artistique globale et qui dirige les acteurs ?",
+      "options": [
+        "Le réalisateur",
+        "Le producteur",
+        "Le figurant",
+        "Le spectateur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'Monteur' est celui qui assemble les images et les sons pour créer le film final.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La personne qui écrit l'histoire et les dialogues du film s'appelle le {{1}} (scénariste).",
+      "reponsesAttendues": [
+        "scénariste",
+        "scenariste"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le métier à son rôle.",
+      "pairs": [
+        {
+          "left": "Chef Opérateur (Image)",
+          "right": "Gère la lumière et le cadre des prises"
+        },
+        {
+          "left": "Ingénieur du son",
+          "right": "Enregistre les voix et les bruits sur le plateau"
+        },
+        {
+          "left": "Producteur",
+          "right": "Financier et organisateur du projet"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Storyboard' ?",
+      "options": [
+        "Une BD qui dessine chaque plan du film avant de le tourner",
+        "Une planche de surf pour les acteurs",
+        "La liste des noms à la fin du film",
+        "Un type de micro"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

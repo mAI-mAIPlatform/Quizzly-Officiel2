@@ -1,0 +1,63 @@
+{
+  "id": "quiz21",
+  "titre": "Heritage and Conservation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is a 'World Heritage Site'?",
+      "options": [
+        "A place of great cultural or natural importance protected by UNESCO",
+        "A place where everyone can buy toys",
+        "The name of a new video game",
+        "A type of fast food restaurant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Conservation means protecting historic buildings and environments from destruction.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Stonehenge is a famous prehistoric {{1}} in England.",
+      "reponsesAttendues": [
+        "monument"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the historic site with its country.",
+      "pairs": [
+        {
+          "left": "The Great Wall",
+          "right": "China"
+        },
+        {
+          "left": "Machu Picchu",
+          "right": "Peru"
+        },
+        {
+          "left": "The Colosseum",
+          "right": "Italy"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Why do we keep objects in museums?",
+      "options": [
+        "To preserve history and educate people",
+        "Because we don't have enough space at home",
+        "To sell them to tourists",
+        "Because they are broken"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

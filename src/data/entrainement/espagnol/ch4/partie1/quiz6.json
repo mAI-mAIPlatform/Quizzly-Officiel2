@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Acoso y Ciberacoso",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Harcèlement' ?",
+      "options": [
+        "Acoso",
+        "Amistad",
+        "Respeto",
+        "Paz"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Denunciar' es informar a la policía o profesores.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Victime' se dice '{{1}}'.",
+      "reponsesAttendues": [
+        "víctima"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Convivencia.",
+      "pairs": [
+        {
+          "left": "Respetar",
+          "right": "Respecter"
+        },
+        {
+          "left": "Insultar",
+          "right": "Insulter"
+        },
+        {
+          "left": "Ayudar",
+          "right": "Aider"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué debes hacer si ves acoso?",
+      "options": [
+        "Debes ayudar y denunciarlo",
+        "Debes reírte",
+        "Debes ignorarlo",
+        "Debes grabar un video"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

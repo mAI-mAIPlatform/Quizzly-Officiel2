@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Navigation au Clavier",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle touche permet de sauter d'un élément interactif à l'autre ?",
+      "options": [
+        "Tab (Tabulation)",
+        "Espace",
+        "Entrée",
+        "Echap"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "tabindex='-1' retire l'élément de la navigation au clavier.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour rendre une <div> focusable, on lui met un tabindex='{{1}}'.",
+      "reponsesAttendues": [
+        "0"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Focus Keyboard.",
+      "pairs": [
+        {
+          "left": "tabindex='0'",
+          "right": "Ordre naturel"
+        },
+        {
+          "left": "tabindex='>0'",
+          "right": "Force l'ordre (déconseillé)"
+        },
+        {
+          "left": ":focus",
+          "right": "Style CSS du curseur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il crucial d'avoir un indicateur de focus visible ?",
+      "options": [
+        "Pour savoir où on se trouve sur la page sans souris",
+        "Pour faire joli",
+        "Pour charger plus vite",
+        "Ce n'est pas utile"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

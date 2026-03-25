@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Équations simples (Initiation)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Résous x + 5 = 12 :",
+      "options": [
+        "x = 17",
+        "x = 7",
+        "x = 5",
+        "x = 60"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour résoudre x - 10 = 5, on doit ajouter 10 des deux côtés.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La solution de 2x = 10 est x = {{1}}.",
+      "reponsesAttendues": [
+        "5"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Trouve la solution x.",
+      "pairs": [
+        {
+          "left": "x + 2 = 10",
+          "right": "8"
+        },
+        {
+          "left": "x / 2 = 10",
+          "right": "20"
+        },
+        {
+          "left": "3x = 9",
+          "right": "3"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Résous 10 - x = 4 :",
+      "options": [
+        "14",
+        "6",
+        "-6",
+        "40"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

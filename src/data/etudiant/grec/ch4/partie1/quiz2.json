@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Le Parfait (Indicatif)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel mécanisme de formation consiste à répéter la première consonne au début du verbe au parfait ?",
+      "options": [
+        "Le redoublement (ex: pe- / πε-)",
+        "L'augmentation",
+        "Le suffixe -sa",
+        "Il n'y a pas de changement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le parfait grec exprime l'état présent résultant d'une action passée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "J'ai éduqué (et je le suis encore) se dit 'pe-{{1}}-ka' (pepaideuka / πεπαίδευκα).",
+      "reponsesAttendues": [
+        "paideu"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la forme (parfait).",
+      "pairs": [
+        {
+          "left": "pepaideuka",
+          "right": "J'ai éduqué"
+        },
+        {
+          "left": "pepaideukas",
+          "right": "Tu as éduqué"
+        },
+        {
+          "left": "pepaideuke",
+          "right": "Il a éduqué"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison de la 1ère pers. singulier du parfait actif ?",
+      "options": [
+        "-ka (κα)",
+        "-ô",
+        "-sa",
+        "-onta"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

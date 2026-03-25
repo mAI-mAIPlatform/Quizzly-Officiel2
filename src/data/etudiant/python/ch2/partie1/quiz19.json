@@ -1,0 +1,63 @@
+{
+  "id": "quiz19",
+  "titre": "Erreurs de Boucle",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Laquelle de ces erreurs est fréquente avec range() ?",
+      "options": [
+        "Oublier que le dernier nombre est exclu",
+        "Oublier les parenthèses",
+        "Mettre des virgules au lieu de points",
+        "Utiliser des lettres"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une boucle 'for' peut être infinie en Python si on modifie mal la variable de boucle.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si j'écris 'for i range(5):', il manque le mot-clé {{1}} (in).",
+      "reponsesAttendues": [
+        "in"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'erreur au message Python probable.",
+      "pairs": [
+        {
+          "left": "Oubli de :",
+          "right": "SyntaxError"
+        },
+        {
+          "left": "Mauvais décalage",
+          "right": "IndentationError"
+        },
+        {
+          "left": "for i in n: # n non défini",
+          "right": "NameError"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si j'indente une ligne de trop dans la boucle ?",
+      "options": [
+        "Elle ne s'exécutera que si la boucle contient une condition (imbrication)",
+        "Elle s'exécute normalement",
+        "Elle s'exécute à la fin",
+        "Elle est supprimée"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

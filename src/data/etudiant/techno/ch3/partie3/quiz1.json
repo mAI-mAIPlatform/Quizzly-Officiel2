@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "L'Empreinte Carbone",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'empreinte carbone d'un objet technique ?",
+      "options": [
+        "La quantité de gaz à effet de serre (CO2) émise pendant tout son cycle de vie",
+        "La trace laissée par l'objet sur le sol",
+        "Le poids du carbone contenu dans l'objet",
+        "Le prix du transport"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La fabrication d'un smartphone est l'étape qui émet généralement le plus de CO2.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'effet de {{1}} (serre) est provoqué par l'accumulation de gaz comme le CO2 dans l'atmosphère.",
+      "reponsesAttendues": [
+        "serre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'étape à son impact carbone moyen.",
+      "pairs": [
+        {
+          "left": "Extraction des matières",
+          "right": "Impact très élevé (mines, pollution)"
+        },
+        {
+          "left": "Transport par avion",
+          "right": "Impact élevé par kilomètre"
+        },
+        {
+          "left": "Usage quotidien",
+          "right": "Impact variable selon la source d'électricité"
+"        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment réduire l'empreinte carbone d'un produit ?",
+      "options": [
+        "En allongeant sa durée de vie et en le recyclant",
+        "En le peignant en blanc pour réfléchir le soleil",
+        "En le fabriquant avec plus de plastique",
+        "En le jetant plus vite pour en acheter un neuf"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

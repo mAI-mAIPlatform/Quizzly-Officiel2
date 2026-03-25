@@ -1,0 +1,63 @@
+{
+  "id": "quiz30",
+  "titre": "GERMAN FINAL EXAM",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Ich {{1}} (être) gestern ins Kino gegangen, weil ich den Film {{2}} (verbe voir) wollte.",
+      "options": [
+        "bin / sehen",
+        "habe / sehen",
+        "ist / sehen",
+        "war / sehen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "German sentence: Verb is always in position 2 in main statements.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich finde, dass Deutsch {{1}} ist (genial).",
+      "reponsesAttendues": [
+        "toll"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona los temas clave.",
+      "pairs": [
+        {
+          "left": "Kapitel 1",
+          "right": "Vorstellen & Schule"
+        },
+        {
+          "left": "Kapitel 2",
+          "right": "Alltag & Modalen"
+        },
+        {
+          "left": "Kapitel 3",
+          "right": "Sport & Perfekt"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice '¡Buen trabajo! ¡Felicidades!'?",
+      "options": [
+        "Gute Arbeit! Herzlichen Glückwunsch!",
+        "Gute Nacht!",
+        "Guten Appetit!",
+        "Gute Reise!"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

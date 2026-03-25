@@ -1,0 +1,64 @@
+{
+  "id": "quiz7",
+  "titre": "Comparer du Texte",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment tester si la variable 'reponse' contient exactement le mot 'oui' ?",
+      "options": [
+        "if reponse == \"oui\":",
+        "if reponse is \"oui\":",
+        "if reponse = \"oui\":",
+        "if reponse == oui:"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En Python, \"OUI\" == \"oui\" renvoie True.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour comparer sans se soucier des majuscules, on peut utiliser : if reponse.{{1}}() == \"oui\": (lower / upper).",
+      "reponsesAttendues": [
+        "lower",
+        "upper"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'opération au résultat (pour reponse = 'Salut').",
+      "pairs": [
+        {
+          "left": "reponse == 'Salut'",
+          "right": "True"
+        },
+        {
+          "left": "reponse != 'Bye'",
+          "right": "True"
+        },
+        {
+          "left": "len(reponse) > 10",
+          "right": "False"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on comparer deux chaînes de caractères avec > ou < en Python ?",
+      "options": [
+        "Oui, Python compare alors par ordre alphabétique",
+        "Non, ça produit une erreur",
+        "Seulement si elles ont la même longueur",
+        "Seulement le dimanche"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

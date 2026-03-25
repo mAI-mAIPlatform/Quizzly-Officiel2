@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Formatage du Texte",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise met du texte en gras (importance forte) ?",
+      "options": [
+        "<strong>",
+        "<i>",
+        "<u>",
+        "<small>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La balise <em> sert à mettre en italique (emphase).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise {{1}} souligne le texte.",
+      "reponsesAttendues": [
+        "u"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Style de texte.",
+      "pairs": [
+        {
+          "left": "<b>",
+          "right": "Gras (visuel)"
+        },
+        {
+          "left": "<i>",
+          "right": "Italique (visuel)"
+        },
+        {
+          "left": "<mark>",
+          "right": "Surligné"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle balise affiche du texte barré ?",
+      "options": [
+        "<del>",
+        "<ins>",
+        "<sub>",
+        "<sup>"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

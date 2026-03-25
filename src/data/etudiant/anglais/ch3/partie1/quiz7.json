@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Future Transport",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is an 'electric vehicle'?",
+      "options": [
+        "A car that uses a battery instead of petrol",
+        "A car that produces lightning",
+        "A very fast bicycle",
+        "A car with many lights"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A self-driving car can navigate without a human driver.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A high-speed transport system in a vacuum tube is the {{1}}.",
+      "reponsesAttendues": [
+        "hyperloop"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the transport with its feature.",
+      "pairs": [
+        {
+          "left": "Maglev train",
+          "right": "Uses magnets to float above tracks"
+        },
+        {
+          "left": "Flying taxi",
+          "right": "Uses propellers to travel in the air above cities"
+        },
+        {
+          "left": "Shared mobility",
+          "right": "Using apps to share cars or bikes"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is 'teleportation' (in sci-fi)?",
+      "options": [
+        "Moving objects instantly from one place to another",
+        "Driving very fast",
+        "Taking a very long train journey",
+        "Sending an email"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

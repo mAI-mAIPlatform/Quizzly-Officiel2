@@ -1,0 +1,63 @@
+{
+  "id": "quiz24",
+  "titre": "Paris : Métropole Mondiale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le rayonnement exceptionnel de Paris ?",
+      "options": [
+        "C'est une ville mondiale (global city)",
+        "C'est une ville de campagne",
+        "C'est une ville fantôme",
+        "C'est une ville de province"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Paris concentre les sièges des grandes entreprises et les institutions politiques.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le quartier d'affaires mondialement connu de Paris est La {{1}}.",
+      "reponsesAttendues": [
+        "Défense"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le monument à son type de rayonnement.",
+      "pairs": [
+        {
+          "left": "Le Louvre",
+          "right": "Rayonnement Culturel"
+        },
+        {
+          "left": "Le Palais de l'Élysée",
+          "right": "Rayonnement Politique"
+        },
+        {
+          "left": "Bourse de Paris",
+          "right": "Rayonnement Économique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel grand projet de transport vise à mieux relier la banlieue à Paris ?",
+      "options": [
+        "Le Grand Paris Express",
+        "Le tunnel sous la Manche",
+        "Le canal du Midi",
+        "La route de la soie"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

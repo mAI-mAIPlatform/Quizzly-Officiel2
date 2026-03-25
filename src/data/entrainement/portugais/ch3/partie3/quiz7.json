@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Natureza 2 (Paisagens)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'La montagne' ?",
+      "options": [
+        "A montanha",
+        "O mar",
+        "A floresta",
+        "O campo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Praia' é onde há areia e mar.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Os esquilos vivem na {{1}} (forêt).",
+      "reponsesAttendues": [
+        "floresta"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Paisagens.",
+      "pairs": [
+        {
+          "left": "Deserto",
+          "right": "Désert"
+        },
+        {
+          "left": "Ilha",
+          "right": "Île"
+        },
+        {
+          "left": "Vale",
+          "right": "Vallée"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Onde preferes ir de férias?",
+      "options": [
+        "Prefiro ir para a montanha",
+        "Prefiro ir para a cozinha",
+        "Sou um deserto",
+        "Até logo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

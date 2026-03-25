@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Avantages de la reproduction asexuée",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le plus gros avantage de la reproduction asexuée ?",
+      "options": [
+        "Elle prend beaucoup de temps",
+        "Elle permet de coloniser un milieu très rapidement",
+        "Elle nécessite de trouver un partenaire",
+        "Elle ne coûte rien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si les conditions du milieu sont stables et favorables, le clonage naturel est très efficace.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pas besoin de chercher un {{1}}, ce qui économise de l'énergie et du temps.",
+      "reponsesAttendues": [
+        "partenaire"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'avantage.",
+      "pairs": [
+        {
+          "left": "Vitesse",
+          "right": "Nombreux descendants en peu de temps"
+        },
+        {
+          "left": "Économie",
+          "right": "Pas de gamètes ni de parade nuptiale"
+        },
+        {
+          "left": "Assurance",
+          "right": "Conservation de caractères gagnants"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi est-ce utile pour une plante ?",
+      "options": [
+        "Pour s'étendre sans attendre la pollinisation",
+        "Pour devenir plus belle",
+        "Pour attirer les vaches",
+        "Ça ne sert pas"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

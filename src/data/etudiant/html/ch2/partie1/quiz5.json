@@ -1,0 +1,74 @@
+{
+  "id": "quiz5",
+  "titre": "Formats d'Images",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel format supporte la transparence et les animations ?",
+      "options": ["JPG", "GIF", "PNG", "WebP"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le format JPG est idéal pour les photographies.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le format moderne recommandé par Google pour le web est le {{1}}.",
+      "reponsesAttendues": ["WebP"]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe format et usage :",
+      "pairs": [
+        {"left": "SVG", "right": "Logos/Vecteurs"},
+        {"left": "JPG", "right": "Photos"},
+        {"left": "PNG", "right": "Transparence"}
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel format perd de la qualité à chaque fois qu'on le compresse trop ?",
+      "options": ["SVG", "JPG", "PNG-24", "EPS"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q6",
+      "type": "vrai_faux",
+      "enonce": "Un fichier SVG s'agrandit sans jamais perdre en qualité.",
+      "reponse": true
+    },
+    {
+      "id": "q7",
+      "type": "qcm",
+      "enonce": "Lequel de ces formats est le plus ancien sur le web ?",
+      "options": ["WebP", "AVIF", "GIF", "SVG"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "Pour un logo avec un fond transparent, le format {{1}} est souvent utilisé.",
+      "reponsesAttendues": ["PNG"]
+    },
+    {
+      "id": "q9",
+      "type": "vrai_faux",
+      "enonce": "Le format BMP est recommandé pour le web car il est léger.",
+      "reponse": false
+    },
+    {
+      "id": "q10",
+      "type": "qcm",
+      "enonce": "Quel format supporte à la fois perte et sans perte, transparence et animation ?",
+      "options": ["JPG", "WebP", "PNG-8", "TIFF"],
+      "correctIndex": 1
+    }
+  ]
+}

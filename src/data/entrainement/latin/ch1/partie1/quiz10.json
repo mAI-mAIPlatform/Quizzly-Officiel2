@@ -1,0 +1,62 @@
+{
+  "id": "quiz10",
+  "titre": "Récapitulatif Initiation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'Liber' ?",
+      "options": [
+        "Livre",
+        "Libre",
+        "Lèvre",
+        "Lumière"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Salve s'adresse à une seule personne.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot 'Pater' a donné le mot français {{1}}.",
+      "reponsesAttendues": [
+        "Père"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Unus",
+          "right": "1"
+        },
+        {
+          "left": "Duo",
+          "right": "2"
+        },
+        {
+          "left": "Tres",
+          "right": "3"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment se prononce le 'C' de 'Canis' ?",
+      "options": [
+        "S",
+        "K",
+        "CH",
+        "Il est muet"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Les états de la matière",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Sous quels états trouve-t-on la matière sur Terre ?",
+      "options": [
+        "Solide et liquide uniquement",
+        "Solide, liquide et gazeux",
+        "En poudre et en morceaux",
+        "Transparent et coloré"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un liquide prend la forme du récipient qui le contient.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un solide qui garde sa propre forme est un solide {{1}}.",
+      "reponsesAttendues": [
+        "compact"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'état à sa propriété.",
+      "pairs": [
+        {
+          "left": "Gazeux",
+          "right": "Occupe tout l'espace disponible (expansible)"
+        },
+        {
+          "left": "Liquide",
+          "right": "Surface libre plane et horizontale au repos"
+        },
+        {
+          "left": "Solide compact",
+          "right": "Forme propre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi le sable est-il un solide particulier ?",
+      "options": [
+        "Parce qu'il est liquide",
+        "Parce qu'il est divisé (en petits grains), il s'écoule et prend la forme du récipient",
+        "Parce qu'il change de couleur dans l'eau",
+        "Il n'est pas particulier"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

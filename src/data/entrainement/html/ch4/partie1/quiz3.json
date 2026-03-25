@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Dessiner des Rectangles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode dessine un rectangle plein ?",
+      "options": [
+        "fillRect(x, y, w, h)",
+        "drawRect()",
+        "rectFull()",
+        "paintBox()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "strokeRect dessine uniquement le contour du rectangle.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour effacer une zone, on utilise {{1}}Rect.",
+      "reponsesAttendues": [
+        "clear"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Rect Methodes.",
+      "pairs": [
+        {
+          "left": "fillRect",
+          "right": "Rempli de couleur"
+        },
+        {
+          "left": "strokeRect",
+          "right": "Contour seul"
+        },
+        {
+          "left": "clearRect",
+          "right": "Gomme une zone"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quels sont les paramètres de fillRect(10, 20, 100, 50) ?",
+      "options": [
+        "x=10, y=20, largeur=100, hauteur=50",
+        "x=10, y=20, finX=100, finY=50",
+        "centreX=10, centreY=20, rayon=100",
+        "C'est aléatoire"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

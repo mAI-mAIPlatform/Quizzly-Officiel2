@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "La Poésie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on une ligne dans un poème ?",
+      "options": [
+        "Un vers",
+        "Une strophe",
+        "Un paragraphe",
+        "Une rime"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un 'Alexandrin' est un vers composé de 12 syllabes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un groupement de plusieurs vers formant une 'unité' dans un poème s'appelle une {{1}} (strophe).",
+      "reponsesAttendues": [
+        "strophe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le poète à son œuvre ou style.",
+      "pairs": [
+        {
+          "left": "Arthur Rimbaud",
+          "right": "Le Dormeur du val (Poète maudit)"
+        },
+        {
+          "left": "Charles Baudelaire",
+          "right": "Les Fleurs du Mal"
+        },
+        {
+          "left": "Paul Verlaine",
+          "right": "Poèmes saturniens"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'Rime' ?",
+      "options": [
+        "La répétition d'un même son à la fin de deux ou plusieurs vers",
+        "Un type de chapeau porté par les poètes",
+        "Une grosse faute d'orthographe",
+        "Le titre d'un poème"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

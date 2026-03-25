@@ -1,0 +1,62 @@
+{
+  "id": "quiz8",
+  "titre": "Accord de l'Adjectif",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'accorde l'adjectif avec le nom ?",
+      "options": [
+        "Seulement en genre",
+        "Seulement en nombre",
+        "En genre, en nombre et en cas",
+        "Il ne s'accorde jamais"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Bonus dominus' signifie 'le bon maître'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une bonne rose se dit 'Bona {{1}}'.",
+      "reponsesAttendues": [
+        "rosa"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Magnus",
+          "right": "Masculin"
+        },
+        {
+          "left": "Magna",
+          "right": "Féminin"
+        },
+        {
+          "left": "Magnum",
+          "right": "Neutre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel adjectif signifie 'Petit' ?",
+      "options": [
+        "Magnus",
+        "Parvus",
+        "Bonus",
+        "Malus"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

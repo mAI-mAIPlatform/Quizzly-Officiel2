@@ -1,0 +1,63 @@
+{
+  "id": "quiz22",
+  "titre": "addEventListener",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode est recommandée pour attacher un écouteur d'événement à un élément ?",
+      "options": [
+        "addEventListener()",
+        "attachEvent()",
+        "onClickSet()",
+        "listenTo()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "addEventListener prend deux arguments principaux : le nom de l'événement et la fonction à exécuter.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour réagir au clic sur 'btn', on écrit : btn.{{1}}(\"click\", () => { ... }) (addEventListener).",
+      "reponsesAttendues": [
+        "addEventListener"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'argument à son rôle.",
+      "pairs": [
+        {
+          "left": "\"click\"",
+          "right": "Le type d'événement"
+        },
+        {
+          "left": "() => { ... }",
+          "right": "La fonction de rappel (callback)"
+        },
+        {
+          "left": "btn",
+          "right": "L'élément qui subit l'action"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage de addEventListener par rapport à l'ancien attribut 'onclick' dans le HTML ?",
+      "options": [
+        "On peut ajouter plusieurs écouteurs sur le même élément sans les écraser",
+        "Il est plus joli",
+        "Il ne nécessite pas de script parent",
+        "Il fonctionne seulement sur Chrome"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

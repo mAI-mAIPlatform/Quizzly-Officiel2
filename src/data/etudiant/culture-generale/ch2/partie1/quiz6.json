@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Immunité et Vaccins",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le système immunitaire ?",
+      "options": [
+        "L'ensemble des défenses de l'organisme contre les maladies",
+        "Le système qui permet de courir vite",
+        "Une partie de l'œil",
+        "Une application sur téléphone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un vaccin permet d'apprendre au corps à reconnaître et à combattre un microbe avant d'être malade.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les médicaments utilisés pour tuer les bactéries (mais inefficaces contre les virus) sont les {{1}} (antibiotiques).",
+      "reponsesAttendues": [
+        "antibiotiques"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'élément de défense à son action.",
+      "pairs": [
+        {
+          "left": "Peau",
+          "right": "Barrière physique contre l'entrée des microbes"
+        },
+        {
+          "left": "Anticorps",
+          "right": "Protéines qui s'attaquent spécifiquement à un microbe"
+        },
+        {
+          "left": "Fièvre",
+          "right": "Réaction du corps pour ralentir la multiplication des microbes"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il important de se laver les mains souvent ?",
+      "options": [
+        "Pour éliminer les microbes présents sur la peau",
+        "Pour faire briller les ongles",
+        "Pour économiser le savon",
+        "Pour changer de couleur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

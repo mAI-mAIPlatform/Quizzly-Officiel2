@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "La Justice en France",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel grand principe garantit qu'une personne est innocente tant qu'elle n'est pas jugée ?",
+      "options": [
+        "La présomption d'innocence",
+        "L'obligation de parler",
+        "Le droit de punir",
+        "La règle de l'arbitraire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En France, la Justice est rendue 'au nom du peuple français'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le juge qui tranche les litiges entre les personnes est le juge {{1}} (civil).",
+      "reponsesAttendues": [
+        "civil"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'acteur judiciaire à sa fonction.",
+      "pairs": [
+        {
+          "left": "L'avocat",
+          "right": "Défend les intérêts de son client"
+        },
+        {
+          "left": "Le Procureur",
+          "right": "Représente la société et demande une peine"
+        },
+        {
+          "left": "Le Juge",
+          "right": "Arbitre le procès et rend la décision"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le fait de pouvoir contester un premier jugement ?",
+      "options": [
+        "Faire appel",
+        "Demander pardon",
+        "Partir en vacances",
+        "Refuser la loi"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

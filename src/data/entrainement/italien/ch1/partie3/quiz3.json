@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Les Dizaines",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Trente' ?",
+      "options": [
+        "Venti",
+        "Trenta",
+        "Quaranta",
+        "Cinquanta"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour dire 21 (Ventuno), on enlève la voyelle finale de 'Venti' devant 'Uno'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le nombre 100 se dit '{{1}}'.",
+      "reponsesAttendues": [
+        "cento"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la dizaine.",
+      "pairs": [
+        {
+          "left": "40",
+          "right": "Quaranta"
+        },
+        {
+          "left": "50",
+          "right": "Cinquanta"
+        },
+        {
+          "left": "60",
+          "right": "Sessanta"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Quatre-vingts' en italien ?",
+      "options": [
+        "Ottanta",
+        "Quattro-venti",
+        "Settanta",
+        "Novanta"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

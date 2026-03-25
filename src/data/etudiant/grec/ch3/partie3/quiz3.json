@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Platon (Platôn)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'école fondée par Platon à Athènes ?",
+      "options": [
+        "L'Académie",
+        "Le Lycée",
+        "Le Portique",
+        "Le Jardin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'allégorie de la Caverne explique que nous ne voyons souvent que des ombres de la réalité.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour Platon, le monde véritable est le monde des {{1}} (Idées).",
+      "reponsesAttendues": [
+        "Idées"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'œuvre de Platon.",
+      "pairs": [
+        {
+          "left": "La République",
+          "right": "La cité idéale et la justice"
+        },
+        {
+          "left": "Le Banquet",
+          "right": "Discours sur l'Amour (Éros)"
+        },
+        {
+          "left": "Phédon",
+          "right": "L'immortalité de l'âme"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel était le véritable nom de Platon (Platon étant un surnom dû à ses larges épaules) ?",
+      "options": [
+        "Aristoclès",
+        "Socrate II",
+        "Antiphon",
+        "Glaucon"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz24",
+  "titre": "Modifier un objet",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment changer le score de 'joueur' à 500 ?",
+      "options": [
+        "joueur.score = 500;",
+        "joueur['score'] = 500;",
+        "Les deux sont corrects",
+        "joueur = {score: 500};"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Même si un objet est déclaré avec 'const', on peut modifier le contenu de ses propriétés.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On ne peut pas réassigner l'objet entier s'il est {{1}}, mais on peut changer ses clés (const).",
+      "reponsesAttendues": [
+        "const"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'action au code.",
+      "pairs": [
+        {
+          "left": "Modifier",
+          "right": "joueur.pv = 80;"
+        },
+        {
+          "left": "Augmenter",
+          "right": "joueur.pv += 10;"
+        },
+        {
+          "left": "Remplacer texte",
+          "right": "joueur.nom = 'Chef';"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si j'écris : joueur.score = \"Inconnu\" alors qu'il y avait un nombre ?",
+      "options": [
+        "Le type de la propriété change en String",
+        "Cela provoque une erreur de type",
+        "Le score reste à l'ancienne valeur",
+        "L'objet est supprimé"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

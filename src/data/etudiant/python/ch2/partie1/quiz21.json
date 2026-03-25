@@ -1,0 +1,65 @@
+{
+  "id": "quiz21",
+  "titre": "La Boucle while",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'while' en français ?",
+      "options": [
+        "Tant que",
+        "Pendant que",
+        "Si",
+        "Depuis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La boucle 'while' continue de s'exécuter tant que sa condition est True.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si la condition du 'while' est Fausse dès le début, le code à l'intérieur ne s'exécutera {{1}} (pas / jamais).",
+      "reponsesAttendues": [
+        "pas",
+        "jamais",
+        "0"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'étape de la boucle while à son rôle.",
+      "pairs": [
+        {
+          "left": "while condition:",
+          "right": "Teste la condition avant chaque tour"
+        },
+        {
+          "left": "Corps de la boucle",
+          "right": "Les actions à répéter"
+        },
+        {
+          "left": "Mise à jour (ex: i += 1)",
+          "right": "Évite que la boucle ne tourne à l'infini"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel symbole termine la ligne du 'while' ?",
+      "options": [
+        ": (deux-points)",
+        "; (point-virgule)",
+        "{ (accolade)",
+        "(parenthèse)"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

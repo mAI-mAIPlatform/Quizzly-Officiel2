@@ -1,0 +1,62 @@
+{
+  "id": "quiz9",
+  "titre": "Verbe d'Action (Présent)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le verbe modèle en grec (signifie délier/détacher) ?",
+      "options": [
+        "Luo (λύω)",
+        "Amo",
+        "Logo",
+        "Pauo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Lueis' signifie 'Tu délies'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Nous délions se dit {{1}} (terminaison -omen).",
+      "reponsesAttendues": [
+        "Luomen"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Luô",
+          "right": "Je délie"
+        },
+        {
+          "left": "Luete",
+          "right": "Vous déliez"
+        },
+        {
+          "left": "Luousi",
+          "right": "Ils délient"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie le verbe 'Agô' ?",
+      "options": [
+        "Pousser / Conduire",
+        "Manger",
+        "Dormir",
+        "Écrire"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

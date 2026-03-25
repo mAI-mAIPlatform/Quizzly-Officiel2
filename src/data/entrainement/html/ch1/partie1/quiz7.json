@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Les Liens Hypertextes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise permet de créer un lien ?",
+      "options": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<url>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'href' définit la destination du lien.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour ouvrir un lien dans un nouvel onglet, on utilise target='_{{1}}'.",
+      "reponsesAttendues": [
+        "blank"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Attributs des liens.",
+      "pairs": [
+        {
+          "left": "href",
+          "right": "Adresse URL"
+        },
+        {
+          "left": "target",
+          "right": "Lieu d'ouverture"
+        },
+        {
+          "left": "title",
+          "right": "Bulle d'info au survol"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment crée-t-on un lien vers une ancre (même page) ?",
+      "options": [
+        "href='#nom_de_id'",
+        "href='link:id'",
+        "href='/id'",
+        "target='anchor'"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

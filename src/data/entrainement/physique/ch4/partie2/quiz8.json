@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Mascot et Force (Poids)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre masse et poids ?",
+      "options": [
+        "C'est la même chose",
+        "La masse est la quantité de matière (kg), le poids est une force (N)",
+        "La masse se mesure en Newton",
+        "Le poids ne change jamais"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le poids d'un objet change si on change de planète.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'instrument qui mesure une force (ou le poids) est le {{1}}.",
+      "reponsesAttendues": [
+        "dynamomètre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'unité à la grandeur.",
+      "pairs": [
+        {
+          "left": "Masse",
+          "right": "Kilogramme (kg)"
+        },
+        {
+          "left": "Poids / Force",
+          "right": "Newton (N)"
+        },
+        {
+          "left": "Intensité de pesanteur (g)",
+          "right": "N/kg"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi pèse-t-on moins lours sur la Lune ?",
+      "options": [
+        "On a fait un régime",
+        "La Lune est moins massive que la Terre, son attraction est plus faible",
+        "Il n'y a pas d'air",
+        "On flotte"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

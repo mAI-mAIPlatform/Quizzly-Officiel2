@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "El Imperativo Negativo",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Ne parle pas' ?",
+      "options": [
+        "No hables",
+        "No habla",
+        "No hable",
+        "No hablas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Para el imperativo negativo se usa el presente de subjuntivo.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Ne mange pas' se dice 'No {{1}}'.",
+      "reponsesAttendues": [
+        "comas"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Negación.",
+      "pairs": [
+        {
+          "left": "No vayas",
+          "right": "N'y va pas"
+        },
+        {
+          "left": "No pongas",
+          "right": "Ne mets pas"
+        },
+        {
+          "left": "No digas",
+          "right": "Ne dis pas"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¡No llegues tarde!",
+      "options": [
+        "Ne sois pas en retard !",
+        "Arrive à l'heure !",
+        "Il n'est pas en retard",
+        "Tengo tiempo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

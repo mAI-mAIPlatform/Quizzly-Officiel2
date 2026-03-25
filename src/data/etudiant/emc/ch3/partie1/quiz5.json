@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Le Pluralisme des Idées",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le pluralisme dans une démocratie ?",
+      "options": [
+        "L'existence et le respect de plusieurs opinions différentes",
+        "L'obligation pour tout le monde de penser la même chose",
+        "Le fait d'avoir plusieurs chefs d'État en même temps",
+        "La suppression des partis politiques"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le pluralisme permet aux citoyens de choisir librement leurs représentants.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un pays sans pluralisme est souvent une {{1}} (dictature).",
+      "reponsesAttendues": [
+        "dictature"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'opinion à son domaine.",
+      "pairs": [
+        {
+          "left": "Politique",
+          "right": "Gérer la cité et faire les lois"
+        },
+        {
+          "left": "Philosophique",
+          "right": "Réfléchir au sens de la vie"
+        },
+        {
+          "left": "Religieuse",
+          "right": "Croyances sur le sacré et les cultes"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que favorise le débat démocratique ?",
+      "options": [
+        "La discussion et le compromis pacifique",
+        "La violence et la bagarre",
+        "Le silence et l'obéissance",
+        "L'exclusion des opposants"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

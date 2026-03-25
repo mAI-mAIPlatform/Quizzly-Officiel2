@@ -1,0 +1,63 @@
+{
+  "id": "quiz21",
+  "titre": "Gestion Durable des Granulats",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi doit-on gérer durablement les granulats (sable, gravier) ?",
+      "options": [
+        "Parce que ce sont des ressources non renouvelables à l'échelle humaine",
+        "Parce qu'ils deviennent mous avec le temps",
+        "Pour qu'ils changent de couleur",
+        "Parce qu'ils s'évaporent au soleil"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le recyclage des anciens matériaux de construction permet d'économiser les granulats naturels.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le prélèvement excessif de sable dans les rivières peut perturber l'{{1}} aquatique.",
+      "reponsesAttendues": [
+        "écosystème"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'action à son bénéfice écologique.",
+      "pairs": [
+        {
+          "left": "Recyclage du béton",
+          "right": "Économie des carrières naturelles"
+        },
+        {
+          "left": "Transport par barge",
+          "right": "Réduction de la pollution par camions"
+        },
+        {
+          "left": "Réaménagement de carrière",
+          "right": "Création de nouvelles zones de biodiversité"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le principal utilisateur de granulats ?",
+      "options": [
+        "Le secteur du bâtiment et des travaux publics (BTP)",
+        "L'industrie du jouet",
+        "La fabrication de vêtements",
+        "Le domaine de la pâtisserie"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

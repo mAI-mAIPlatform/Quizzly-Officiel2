@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Techniques de Fabrication",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelles sont les trois grandes familles de techniques de fabrication ?",
+      "options": [
+        "Soustraction (usinage), Addition (impression 3D), Formage (moulage)",
+        "Peinture, Dessin, Collage",
+        "Vente, Achat, Livraison",
+        "Allumage, Extinction, Veille"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'usinage consiste à enlever de la matière pour obtenir la forme voulue.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le tranchage (slicing) est l'étape qui prépare un fichier pour l'{{1}} (impression) 3D.",
+      "reponsesAttendues": [
+        "impression"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la technique à son principe.",
+      "pairs": [
+        {
+          "left": "Soustraction",
+          "right": "Enlèvement de copeaux (ex: fraisage)"
+        },
+        {
+          "left": "Addition",
+          "right": "Dépôt de couches successives (ex: imprimante 3D)"
+        },
+        {
+          "left": "Formage",
+          "right": "Déformation ou moulage (ex: emboutissage)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle technique privilégier pour fabriquer 1 million de gobelets en plastique ?",
+      "options": [
+        "Le moulage par injection",
+        "L'impression 3D",
+        "La taille à la main",
+        "L'usinage d'un bloc de plastique"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

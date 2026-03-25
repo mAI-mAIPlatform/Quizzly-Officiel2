@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Doces e Sobremesas",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Le gâteau' ?",
+      "options": [
+        "O bolo",
+        "O chocolate",
+        "O gelado",
+        "A fruta"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Gelado' significa 'Glace'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu adoro {{1}} (chocolat).",
+      "reponsesAttendues": [
+        "chocolate"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Doces.",
+      "pairs": [
+        {
+          "left": "Açúcar",
+          "right": "Sucre"
+        },
+        {
+          "left": "Mel",
+          "right": "Miel"
+        },
+        {
+          "left": "Bolacha",
+          "right": "Biscuit"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qual é a tua sobremesa favorita?",
+      "options": [
+        "Mousse de chocolate",
+        "Batatas fritas",
+        "O meu nome é Maria",
+        "Até logo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

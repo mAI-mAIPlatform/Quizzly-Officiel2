@@ -1,0 +1,64 @@
+{
+  "id": "quiz23",
+  "titre": "Les Paramètres",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi servent les paramètres d'une fonction ?",
+      "options": [
+        "À lui envoyer des informations pour qu'elle puisse travailler avec",
+        "À changer le nom de la fonction",
+        "À décorer le code",
+        "À ralentir l'exécution"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une fonction peut avoir plusieurs paramètres séparés par des virgules.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans 'function dire(texte)', 'texte' est le {{1}} (paramètre).",
+      "reponsesAttendues": [
+        "paramètre",
+        "parametre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'appel à sa fonction.",
+      "pairs": [
+        {
+          "left": "addition(5, 3)",
+          "right": "Envoie 5 et 3 à la fonction"
+        },
+        {
+          "left": "function addition(a, b)",
+          "right": "Reçoit a et b"
+        },
+        {
+          "left": "console.log(a + b)",
+          "right": "Utilise les paramètres"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on les valeurs réelles passées lors de l'appel (ex: 5 et 3) ?",
+      "options": [
+        "Les arguments",
+        "Les résultats",
+        "Les clés",
+        "Les facteurs"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

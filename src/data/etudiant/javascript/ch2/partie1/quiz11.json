@@ -1,0 +1,63 @@
+{
+  "id": "quiz11",
+  "titre": "Modifier le Texte",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle propriété permet de changer le texte affiché d'un élément ?",
+      "options": [
+        "innerText",
+        "value",
+        "write",
+        "changeText"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "element.innerText = \"Nouveau\" remplace tout le contenu actuel par le mot \"Nouveau\".",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La propriété {{1}} est très proche de innerText mais récupère le texte brut sans tenir compte du style (textContent).",
+      "reponsesAttendues": [
+        "textContent"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'action au code.",
+      "pairs": [
+        {
+          "left": "Lire le texte",
+          "right": "let t = el.innerText;"
+        },
+        {
+          "left": "Vider le texte",
+          "right": "el.innerText = \"\";"
+        },
+        {
+          "left": "Ajouter du texte",
+          "right": "el.innerText += \" !\";"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si vous mettez des balises HTML dans 'innerText' ?",
+      "options": [
+        "Elles s'affichent telles quelles à l'écran comme du texte simple",
+        "Elles sont interprétées par le navigateur",
+        "Elles disparaissent",
+        "Cela provoque une erreur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

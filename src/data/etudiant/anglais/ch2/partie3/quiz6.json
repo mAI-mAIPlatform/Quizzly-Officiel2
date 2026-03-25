@@ -1,0 +1,63 @@
+{
+  "id": "quiz26",
+  "titre": "Comparing Traditions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "How do you say two traditions are equal for a quality?",
+      "options": [
+        "This festival is as famous as that one",
+        "This festival is as famous that one",
+        "This festival is as fame than that one",
+        "This festival is more famous as that one"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Not as... as' is used to say one thing has less of a quality than another.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "American football is not {{1}} popular in Europe as soccer.",
+      "reponsesAttendues": [
+        "as"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the comparison to its meaning.",
+      "pairs": [
+        {
+          "left": "As old as",
+          "right": "Equally old"
+        },
+        {
+          "left": "Not as cold as",
+          "right": "Less cold than"
+        },
+        {
+          "left": "Assweet as",
+          "right": "Equally sweet"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Which structure is used for 'aussi... que' in English?",
+      "options": [
+        "As + adjective + as",
+        "More + adjective + than",
+        "The + adjective + -est",
+        "Too + adjective"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

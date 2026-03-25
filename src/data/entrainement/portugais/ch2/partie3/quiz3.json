@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Atividades Culturais",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Le cinéma' ?",
+      "options": [
+        "O cinema",
+        "O teatro",
+        "O museu",
+        "O concerto"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Ver um filme' significa 'Regarder un film'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vamos ao {{1}} (théâtre) amanhã.",
+      "reponsesAttendues": [
+        "teatro"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Cultura.",
+      "pairs": [
+        {
+          "left": "Pintura",
+          "right": "Peinture"
+        },
+        {
+          "left": "Exposição",
+          "right": "Exposition"
+        },
+        {
+          "left": "Livro",
+          "right": "Livre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Gostas de ler?",
+      "options": [
+        "Sim, leio muito",
+        "Sim, sou um livro",
+        "Não, sou de Braga",
+        "Até logo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

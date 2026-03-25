@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Familles de Matériaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelles sont les quatre grandes familles de matériaux ?",
+      "options": [
+        "Métalliques, Organiques, Minéraux (Céramiques), Synthétiques (Plastiques)",
+        "Gazeux, Liquides, Solides, Plasma",
+        "Beaux, Laids, Vieux, Neufs",
+        "Légers, Lourds, Mous, Durs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un matériau composite est un mélange d'au moins deux matériaux de familles différentes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le bois et le coton appartiennent à la famille des matériaux {{1}} (organiques).",
+      "reponsesAttendues": [
+        "organiques"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le matériau à sa famille.",
+      "pairs": [
+        {
+          "left": "Aluminium",
+          "right": "Métallique"
+        },
+        {
+          "left": "Verre / Brique",
+          "right": "Minéral (Céramique)"
+        },
+        {
+          "left": "Plexiglas",
+          "right": "Synthétique (Plastique)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi choisit-on un matériau particulier pour fabriquer un objet ?",
+      "options": [
+        "Pour ses propriétés adaptées à l'usage (solidité, légèreté, coût...)",
+        "Parce que c'est le seul qui existait ce jour-là",
+        "Uniquement pour sa couleur",
+        "Pour faire plaisir au fabricant"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

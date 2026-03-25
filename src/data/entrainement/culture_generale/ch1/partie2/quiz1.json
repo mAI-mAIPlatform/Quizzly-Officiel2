@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Grands Écrivains Français",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a écrit 'Les Misérables' ?",
+      "options": [
+        "Émile Zola",
+        "Victor Hugo",
+        "Gustave Flaubert",
+        "Honoré de Balzac"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Molière était un célèbre auteur de tragédies.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'auteur du 'Petit Prince' est Antoine de Saint-{{1}}.",
+      "reponsesAttendues": [
+        "Exupéry"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Auteurs et Œuvres.",
+      "pairs": [
+        {
+          "left": "Molière",
+          "right": "L'Avare"
+        },
+        {
+          "left": "Zola",
+          "right": "Germinal"
+        },
+        {
+          "left": "Camus",
+          "right": "L'Étranger"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Dans quelle pièce trouve-t-on le personnage de Figaro ?",
+      "options": [
+        "Le Mariage de Figaro",
+        "L'Avare",
+        "Cyrano de Bergerac",
+        "Le Cid"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

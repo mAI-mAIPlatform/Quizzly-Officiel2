@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Symétrie et Aires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Un triangle a une aire de 15 cm². Son symétrique par rapport à un point a une aire de :",
+      "options": [
+        "7.5 cm²",
+        "15 cm²",
+        "30 cm²",
+        "225 cm²"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Deux figures symétriques par rapport à un point sont superposables.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La symétrie centrale conserve les {{1}} et les périmètres.",
+      "reponsesAttendues": [
+        "aires"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la mesure à sa conservation.",
+      "pairs": [
+        {
+          "left": "Longueur de contour",
+          "right": "Périmètre"
+        },
+        {
+          "left": "Surface intérieure",
+          "right": "Aire"
+        },
+        {
+          "left": "Écartement de deux droites",
+          "right": "Angle"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si on double les dimensions d'une figure, son aire est multipliée par 4. Si on fait une symétrie, l'aire est multipliée par :",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "0.5"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Traditionelle deutsche Küche",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'La saucisse' ?",
+      "options": [
+        "Die Wurst",
+        "Das Schnitzel",
+        "Die Brezel",
+        "Das Sauerkraut"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Brezeln sind typisch für Süddeutschland.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Le chou-fleur' se dice '{{1}}'.",
+      "reponsesAttendues": [
+        "Blumenkohl"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Gerichte.",
+      "pairs": [
+        {
+          "left": "Schnitzel",
+          "right": "Escalope"
+        },
+        {
+          "left": "Sauerkraut",
+          "right": "Choucroute"
+        },
+        {
+          "left": "Kartoffelsalat",
+          "right": "Salade de patates"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Was isst man oft auf dem Oktoberfest?",
+      "options": [
+        "Hendl und Brezel",
+        "Pizza und Pasta",
+        "Sushi",
+        "Couscous"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

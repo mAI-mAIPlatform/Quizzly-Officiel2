@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Streaming and Media",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is 'Streaming'?",
+      "options": [
+        "Watching/Listening in real-time online",
+        "Downloading files to a disk",
+        "Taking photos",
+        "Writing an email"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A 'Podcast' is an audio program you can listen to anytime.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "I am watching a {{1}} on Netflix.",
+      "reponsesAttendues": [
+        "series"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match media.",
+      "pairs": [
+        {
+          "left": "YouTube",
+          "right": "Videos"
+        },
+        {
+          "left": "Spotify",
+          "right": "Music"
+        },
+        {
+          "left": "Twitch",
+          "right": "Live streaming"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is a 'Vlog'?",
+      "options": [
+        "A video blog",
+        "A type of dog",
+        "A fast car",
+        "A computer game"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

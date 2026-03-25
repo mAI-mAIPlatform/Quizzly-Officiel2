@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Calculer une quatrième proportionnelle",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Si 2 kg de pommes coûtent 4€, combien coûtent 5 kg ?",
+      "options": [
+        "8€",
+        "10€",
+        "12€",
+        "6€"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser le produit en croix pour calculer une valeur manquante.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans un tableau (a, b | c, x), le produit en croix donne x = (b × c) / {{1}}.",
+      "reponsesAttendues": [
+        "a"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Trouve la valeur manquante x.",
+      "pairs": [
+        {
+          "left": "2/10 = 3/x",
+          "right": "15"
+        },
+        {
+          "left": "5/20 = 2/x",
+          "right": "8"
+        },
+        {
+          "left": "10/50 = 1/x",
+          "right": "5"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si 3 stylos coûtent 4.50€, quel est le prix d'un stylo ?",
+      "options": [
+        "1€",
+        "1.50€",
+        "2€",
+        "1.25€"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

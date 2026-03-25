@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Synthèse : Genres Littéraires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quel genre trouve-t-on des actes et des scènes ?",
+      "options": [
+        "Le théâtre",
+        "La poésie",
+        "Le roman",
+        "L'essai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'autobiographie est le récit de la vie de quelqu'un d'autre.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une courte histoire avec une morale s'appelle une {{1}}.",
+      "reponsesAttendues": [
+        "fable"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Lien genre / terme.",
+      "pairs": [
+        {
+          "left": "Poésie",
+          "right": "Strophe"
+        },
+        {
+          "left": "Roman",
+          "right": "Chapitre"
+        },
+        {
+          "left": "Théâtre",
+          "right": "Didascalie"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on celui qui raconte l'histoire dans un roman ?",
+      "options": [
+        "Le narrateur",
+        "L'auteur",
+        "Le personnage",
+        "Le lecteur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

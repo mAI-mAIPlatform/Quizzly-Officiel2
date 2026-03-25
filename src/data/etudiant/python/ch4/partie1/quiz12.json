@@ -1,0 +1,64 @@
+{
+  "id": "quiz12",
+  "titre": "Shifumi : Choix Ordi",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle fonction permet à l'IA de choisir un élément au hasard dans notre liste ?",
+      "options": [
+        "random.choice(liste)",
+        "random.randint(0, 2)",
+        "Les deux sont valables",
+        "random.pick(liste)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "random.choice() est plus simple car elle renvoie directement l'élément (ex: 'Pierre').",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si j'utilise randint(0, 2), je récupère un index que je dois ensuite utiliser sur ma {{1}} (liste).",
+      "reponsesAttendues": [
+        "liste",
+        "collection"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'action au résultat.",
+      "pairs": [
+        {
+          "left": "random.choice(['A', 'B'])",
+          "right": "Donne 'A' ou 'B'"
+        },
+        {
+          "left": "random.randint(0, 5)",
+          "right": "Donne un nombre entre 0 et 5"
+        },
+        {
+          "left": "random.random()",
+          "right": "Donne un décimal entre 0 et 1"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on prévoir ce que l'ordinateur va choisir ?",
+      "options": [
+        "Non, c'est le principe du hasard (pseudo-aléatoire)",
+        "Oui, il choisit toujours Pierre en premier",
+        "Oui, si on regarde le code source",
+        "Seulement le mardi"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

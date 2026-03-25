@@ -1,0 +1,70 @@
+{
+  "id": "quiz1",
+  "titre": "Introduction à l'Audio",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise HTML5 permet d'insérer du son ?",
+      "options": ["<sound>", "<audio>", "<music>", "<mp3>"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La balise <audio> nécessite l'attribut 'controls' pour afficher le lecteur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut pour lancer le son automatiquement est {{1}}.",
+      "reponsesAttendues": ["autoplay"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel attribut permet de rejouer le son en boucle ?",
+      "options": ["replay", "loop", "repeat", "again"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut mettre du texte entre <audio> et </audio> pour les vieux navigateurs.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel de ces attributs n'existe PAS sur la balise <audio> ?",
+      "options": ["muted", "preload", "poster", "volume"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'muted' démarre le son sans volume.",
+      "reponse": true
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "L'attribut preload=\"{{1}}\" charge les données du fichier dès le chargement de la page.",
+      "reponsesAttendues": ["auto"]
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la balise pour définir une source alternative ?",
+      "options": ["<src>", "<link>", "<source>", "<file>"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser du CSS pour changer l'apparence par défaut du lecteur natif.",
+      "reponse": false
+    }
+  ]
+}

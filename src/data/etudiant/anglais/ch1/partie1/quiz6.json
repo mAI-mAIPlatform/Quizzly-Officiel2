@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Asking for Directions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "How do you ask for the way politely?",
+      "options": [
+        "Excuse me, how can I get to...?",
+        "Hey you! Where is...?",
+        "Go there now!",
+        "Tell me the secret path."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Go straight on' means you should turn immediately.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "When you turn at a corner, you turn {{1}} or right.",
+      "reponsesAttendues": [
+        "left"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the direction to its meaning.",
+      "pairs": [
+        {
+          "left": "Turn left",
+          "right": "Go to the left side"
+        },
+        {
+          "left": "Cross the street",
+          "right": "Go to the other side of the road"
+"        },
+        {
+          "left": "Go past the church",
+          "right": "Continue after the church"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is a 'roundabout'?",
+      "options": [
+        "A circular road junction",
+        "A very fast train",
+        "A square in the city center",
+        "A type of sandwich"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

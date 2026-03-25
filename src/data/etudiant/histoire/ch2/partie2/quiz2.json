@@ -1,0 +1,63 @@
+{
+  "id": "quiz12",
+  "titre": "Métropoles émergentes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces pays possède de nombreuses métropoles émergentes ?",
+      "options": [
+        "La Chine",
+        "L'Islande",
+        "Madagascar",
+        "Le Vatican"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les métropoles émergentes voient coexister des quartiers de luxe et des bidonvilles.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La métropole brésilienne célèbre pour sa forte croissance est Sao {{1}}.",
+      "reponsesAttendues": [
+        "Paulo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la métropole à son pays émergent.",
+      "pairs": [
+        {
+          "left": "Mumbai (Bombay)",
+          "right": "Inde"
+        },
+        {
+          "left": "Shanghai",
+          "right": "Chine"
+        },
+        {
+          "left": "Mexico",
+          "right": "Mexique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le signe extérieur de réussite des métropoles émergentes ?",
+      "options": [
+        "La construction de quartiers d'affaires ultra-modernes",
+        "Le retour à l'agriculture",
+        "La diminution du nombre d'écoles",
+        "L'interdiction des voitures"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

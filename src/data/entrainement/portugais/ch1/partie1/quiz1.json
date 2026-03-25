@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Verbo SER (Être - Essence)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Eu ... (suis) estudante.",
+      "options": [
+        "sou",
+        "estou",
+        "tenho",
+        "vou"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Nós somos' significa 'Nous sommes'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Tu {{1}} (es) português.",
+      "reponsesAttendues": [
+        "és"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Conjugação do Ser.",
+      "pairs": [
+        {
+          "left": "Ele / Ela",
+          "right": "é"
+        },
+        {
+          "left": "Nós",
+          "right": "somos"
+        },
+        {
+          "left": "Eles / Elas",
+          "right": "são"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Eles ... (sont) brasileiros.",
+      "options": [
+        "são",
+        "somos",
+        "é",
+        "és"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

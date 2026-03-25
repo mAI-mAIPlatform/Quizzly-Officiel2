@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Höflichkeit",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Merci'?",
+      "options": [
+        "Danke",
+        "Bitte",
+        "Gern geschehen",
+        "Entschuldigung"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Entschuldigung' sirve para pedir perdón o permiso.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Einen Moment, {{1}} (s'il vous plaît).",
+      "reponsesAttendues": [
+        "bitte"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la cortesía.",
+      "pairs": [
+        {
+          "left": "Vielen Dank",
+          "right": "Merci beaucoup"
+        },
+        {
+          "left": "Dankeschön",
+          "right": "Merci bien"
+        },
+        {
+          "left": "Bitte sehr",
+          "right": "Je vous en prie / De rien"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Derien' formalmente?",
+      "options": [
+        "Gern geschehen",
+        "Tschüss",
+        "Morgen",
+        "Hallo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "EXAMEN : Données Structurées",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la meilleure technique aujourd'hui ?",
+      "options": [
+        "JSON-LD",
+        "Microdonnées",
+        "RDFa",
+        "Texte brut"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les données structurées sont invisibles pour l'internaute.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On utilise @{{1}} pour Schema.org.",
+      "reponsesAttendues": [
+        "context"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Mix Schema.",
+      "pairs": [
+        {
+          "left": "Product",
+          "right": "Prix et Étoiles"
+        },
+        {
+          "left": "FAQPage",
+          "right": "Questions extensibles"
+        },
+        {
+          "left": "BreadcrumbList",
+          "right": "Chemin de fer"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Félicitations ! Prêt pour le Chapitre 4 (Techniques Avancées) ?",
+      "options": [
+        "Oui !",
+        "C'est parti !",
+        "Absolument !",
+        "Révisions Ch3"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

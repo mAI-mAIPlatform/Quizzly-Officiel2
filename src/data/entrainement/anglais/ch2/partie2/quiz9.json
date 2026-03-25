@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Grammar : I have vs My ... hurts",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Which sentence is correct?",
+      "options": [
+        "My leg hurts",
+        "I have a leg ache",
+        "My leg has a pain",
+        "I sore my leg"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'I have a sore throat' is correct.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "I {{1}} a headache.",
+      "reponsesAttendues": [
+        "have"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the expressions.",
+      "pairs": [
+        {
+          "left": "I have a...",
+          "right": "Stomach ache"
+        },
+        {
+          "left": "My ... hurts",
+          "right": "Back"
+        },
+        {
+          "left": "I have a sore...",
+          "right": "Throat"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is the question for health?",
+      "options": [
+        "How do you feel?",
+        "What do you have?",
+        "Why are you hurt?",
+        "Where is your pain?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

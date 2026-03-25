@@ -1,0 +1,63 @@
+{
+  "id": "quiz15",
+  "titre": "Higiene",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Cepillarse los dientes'?",
+      "options": [
+        "Escovar os dentes",
+        "Lavar as mãos",
+        "Pentear o cabelo",
+        "Tomar banho"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Pentear o cabelo' significa peinarse el cabello.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu {{1}} as mãos antes de comer (lavo).",
+      "reponsesAttendues": [
+        "lavo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el artículo de higiene.",
+      "pairs": [
+        {
+          "left": "O sabonete",
+          "right": "Le savon"
+        },
+        {
+          "left": "A toalha",
+          "right": "La serviette"
+        },
+        {
+          "left": "O pente",
+          "right": "Le peigne"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'barbear-se'?",
+      "options": [
+        "Afeitarse",
+        "Bañarse",
+        "Vestirse",
+        "Dormir"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Las Comidas del Día",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Petit-déjeuner' ?",
+      "options": [
+        "Desayuno",
+        "Almuerzo",
+        "Merienda",
+        "Cena"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En España se cena más tarde que en Francia.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Le goûter' se dice '{{1}}'.",
+      "reponsesAttendues": [
+        "merienda"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Horarios.",
+      "pairs": [
+        {
+          "left": "Desayunar",
+          "right": "Por la mañana"
+        },
+        {
+          "left": "Comer / Almorzar",
+          "right": "A las dos de la tarde"
+        },
+        {
+          "left": "Cenar",
+          "right": "Por la noche"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué comes por la noche?",
+      "options": [
+        "Ceno una ensalada",
+        "Desayuno cereales",
+        "Meriendo fruta",
+        "Tengo hambre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

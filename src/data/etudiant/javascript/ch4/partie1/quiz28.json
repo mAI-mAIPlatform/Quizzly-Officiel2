@@ -1,0 +1,63 @@
+{
+  "id": "quiz28",
+  "titre": "Bonnes Pratiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'code propre' (Clean Code) ?",
+      "options": [
+        "Un code facile à lire, bien organisé et commenté",
+        "Un code sans espaces",
+        "Un code écrit en une seule ligne",
+        "Un code qui ne marche pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il est important de donner des noms clairs aux variables (ex: 'vitesseJoueur' au lieu de 'v').",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On ajoute des {{1}} pour expliquer pourquoi on a écrit une partie complexe du code (commentaires).",
+      "reponsesAttendues": [
+        "commentaires"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la règle à son bénéfice.",
+      "pairs": [
+        {
+          "left": "Noms clairs",
+          "right": "Compréhension immédiate"
+        },
+        {
+          "left": "Fonctions courtes",
+          "right": "Maintenance facile"
+        },
+        {
+          "left": "Indentation",
+          "right": "Lisibilité visuelle"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi éviter de copier-coller du code ?",
+      "options": [
+        "Si on veut changer un détail, il faut le faire partout (risque d'erreurs)",
+        "Pour que le fichier soit plus lourd",
+        "Parce que c'est interdit par la loi",
+        "C'est plus rapide de recopier"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

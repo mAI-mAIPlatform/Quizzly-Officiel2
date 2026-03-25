@@ -1,0 +1,63 @@
+{
+  "id": "quiz29",
+  "titre": "Obstacles et signaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'arrive-t-il à un signal radio quand il traverse un obstacle ?",
+      "options": [
+        "Il perd de la puissance (atténuation)",
+        "Il change de couleur",
+        "Il devient instantanément nul",
+        "Il accélère"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le métal bloque presque totalement les ondes WiFi (effet de cage).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un signal qui rebondit sur un obstacle subit une {{1}}.",
+      "reponsesAttendues": [
+        "réflexion"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'obstacle à son effet sur le Wifi.",
+      "pairs": [
+        {
+          "left": "Placo / Bois",
+          "right": "Traverse facilement"
+        },
+        {
+          "left": "Béton armé",
+          "right": "Traverse difficilement"
+        },
+        {
+          "left": "Plaque d'acier",
+          "right": "Réflexion totale / Bloqué"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si la distance entre émetteur et récepteur augmente ?",
+      "options": [
+        "Le signal devient de plus en plus faible",
+        "Le signal devient de plus en plus fort",
+        "La vitesse du signal diminue",
+        "C'est impossible"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

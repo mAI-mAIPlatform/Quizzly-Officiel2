@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Vocabulaire : Planète",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie le terme 'biodégradable' ?",
+      "options": [
+        "Qui peut être décomposé naturellement par des organismes vivants (bactéries...)",
+        "Qui brille dans le noir",
+        "Qui est très solide",
+        "Qui peut voler"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le développement durable doit concilier économie, écologie et social.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'épuisement des {{1}} (ressources) naturelles est un défi majeur pour le futur.",
+      "reponsesAttendues": [
+        "ressources"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme à sa définition.",
+      "pairs": [
+        {
+          "left": "Recyclabilité",
+          "right": "Capacité d'un produit à être transformé en fin de vie"
+        },
+        {
+          "left": "Éco-conception",
+          "right": "Concevoir un objet en pensant à la planète dès le début"
+        },
+        {
+          "left": "Upcycling",
+          "right": "Transformer un déchet en un objet de valeur supérieure"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un écocitoyen ?",
+      "options": [
+        "Quelqu'un qui agit au quotidien pour protéger l'environnement",
+        "Quelqu'un qui vit dans une forêt uniquement",
+        "Une personne qui fabrique sa propre électricité",
+        "Le président d'une usine de recyclage"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

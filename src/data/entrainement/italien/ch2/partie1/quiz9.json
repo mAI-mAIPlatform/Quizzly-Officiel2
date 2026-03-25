@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "S'appeler et se situer",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel verbe utilise-t-on pour 'Je m'appelle' ?",
+      "options": [
+        "Chiamarsi",
+        "Essere",
+        "Avere",
+        "Nominarsi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Dove sei?' peut s'utiliser pour demander à quelqu'un où il se trouve.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Je suis chez moi se dit 'Sono {{1}} casa'.",
+      "reponsesAttendues": [
+        "a"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la localisation.",
+      "pairs": [
+        {
+          "left": "Qui",
+          "right": "Ici"
+        },
+        {
+          "left": "Lì",
+          "right": "Là-bas"
+        },
+        {
+          "left": "Fuori",
+          "right": "Dehors"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Je suis là' ?",
+      "options": [
+        "Sono qui",
+        "Ho qui",
+        "Siamo là",
+        "Sono dove"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

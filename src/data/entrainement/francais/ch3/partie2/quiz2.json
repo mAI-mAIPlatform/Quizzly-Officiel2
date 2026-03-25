@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "La Métaphore",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre une métaphore et une comparaison ?",
+      "options": [
+        "La métaphore n'a pas d'outil de comparaison",
+        "La métaphore a toujours un outil de comparaison",
+        "La métaphore est plus courte",
+        "Il n'y a aucune différence"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans 'C'est une perle', on parle de quelqu'un de précieux par métaphore.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une métaphore qui dure tout un texte s'appelle une métaphore {{1}}.",
+      "reponsesAttendues": [
+        "filée"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Identifie.",
+      "pairs": [
+        {
+          "left": "Le temps est un voleur",
+          "right": "Métaphore"
+        },
+        {
+          "left": "Le temps comme un voleur",
+          "right": "Comparaison"
+        },
+        {
+          "left": "Il court vite",
+          "right": "Sens propre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Laquelle est une métaphore ?",
+      "options": [
+        "Ta mémoire est un jardin de souvenirs.",
+        "Ta mémoire est comme un jardin.",
+        "Tu as une bonne mémoire.",
+        "Les souvenirs s'envolent."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

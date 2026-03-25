@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Canonical URL",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert la balise <link rel='canonical'> ?",
+      "options": [
+        "À indiquer la version officielle (unique) d'une page pour éviter le duplicate content",
+        "À changer la couleur du site",
+        "À bloquer les robots",
+        "À traduire la page"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut avoir plusieurs URL canoniques par page.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le duplicate {{1}} (contenu en double) pénalise le SEO.",
+      "reponsesAttendues": [
+        "content"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Scénarios Canonical.",
+      "pairs": [
+        {
+          "left": "Paramètres d'URL (ex: ?sort=price)",
+          "right": "Nécessite une canonique"
+        },
+        {
+          "left": "Double version (HTTP vs HTTPS)",
+          "right": "Nécessite une canonique"
+        },
+        {
+          "left": "Page de contact unique",
+          "right": "Canonique vers elle-même"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où place-t-on le lien canonique ?",
+      "options": [
+        "Dans le <head>",
+        "Dans le <body>",
+        "Dans le footer",
+        "Dans un fichier .txt"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

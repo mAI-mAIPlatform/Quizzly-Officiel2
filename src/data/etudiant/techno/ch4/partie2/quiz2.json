@@ -1,0 +1,64 @@
+{
+  "id": "quiz2",
+  "titre": "Les Actionneurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un actionneur ?",
+      "options": [
+        "Un composant qui convertit l'énergie pour réaliser une action physique (mouvement, lumière, son...)",
+        "Un bouton sur lequel on appuie",
+        "Un capteur de température",
+        "Le programme informatique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un vérin est un actionneur qui produit un mouvement de translation (ligne droite).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une lampe ou une DEL transforme l'électricité en énergie {{1}} (lumineuse / rayonnante).",
+      "reponsesAttendues": [
+        "lumineuse",
+        "rayonnante"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'actionneur à l'action qu'il réalise.",
+      "pairs": [
+        {
+          "left": "Moteur à courant continu",
+          "right": "Rotation continue (pour les roues)"
+        },
+        {
+          "left": "Servomoteur",
+          "right": "Rotation précise sur un angle (ex: bras articulé)"
+        },
+        {
+          "left": "Buzzer",
+          "right": "Émission d'un son"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel type d'énergie utilisent généralement les actionneurs de nos robots ?",
+      "options": [
+        "L'énergie électrique",
+        "L'énergie musculaire",
+        "L'énergie solaire directe",
+        "L'énergie hydraulique uniquement"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

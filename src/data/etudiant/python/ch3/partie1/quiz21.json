@@ -1,0 +1,65 @@
+{
+  "id": "quiz21",
+  "titre": "Variables Locales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une variable 'Locale' ?",
+      "options": [
+        "Une variable créée à l'intérieur d'une fonction et qui n'existe que là-bas",
+        "Une variable utilisable partout",
+        "Une variable qui vient de France",
+        "Une variable qui ne change jamais"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si je crée une variable 'x' dans une fonction, je peux l'utiliser dans une autre fonction sans problème.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La zone du programme où une variable est visible s'appelle sa {{1}} (portée / scope).",
+      "reponsesAttendues": [
+        "portée",
+        "portee",
+        "scope"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la variable à sa portée.",
+      "pairs": [
+        {
+          "left": "Variable dans def f():",
+          "right": "Locale à f()"
+        },
+        {
+          "left": "Paramètre de fonction",
+          "right": "Local à la fonction"
+        },
+        {
+          "left": "Variable à la racine du fichier",
+          "right": "Globale"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il pour une variable locale quand la fonction a fini de s'exécuter ?",
+      "options": [
+        "Elle est supprimée de la mémoire",
+        "Elle devient globale",
+        "Elle est renommée",
+        "Elle se met en pause"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

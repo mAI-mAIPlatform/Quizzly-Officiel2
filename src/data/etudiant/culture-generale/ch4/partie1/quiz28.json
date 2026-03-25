@@ -1,0 +1,63 @@
+{
+  "id": "quiz28",
+  "titre": "Records Humains",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est l'homme le plus rapide de l'histoire sur 100 mètres ?",
+      "options": [
+        "Usain Bolt",
+        "Carl Lewis",
+        "Kylian Mbappé",
+        "Superman"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le record du plus haut sommet du monde est détenu par l'Everest (environ 8848m).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La personne qui a vécu le plus longtemps officiellement est la française Jeanne {{1}} (Calment), décédée à 122 ans.",
+      "reponsesAttendues": [
+        "Calment"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le record à son domaine.",
+      "pairs": [
+        {
+          "left": "Burj Khalifa",
+          "right": "Plus haute tour du monde (Dubaï)"
+        },
+        {
+          "left": "Neil Armstrong",
+          "right": "Premier homme à avoir marché sur la Lune"
+        },
+        {
+          "left": "Michael Phelps",
+          "right": "Recordman de médailles d'or aux JO (Natation)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Dans quel livre célèbre peut-on consulter tous les records mondiaux ?",
+      "options": [
+        "Le Livre Guinness des Records",
+        "Le Dictionnaire",
+        "Le Code de la Route",
+        "L'Annuaire"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

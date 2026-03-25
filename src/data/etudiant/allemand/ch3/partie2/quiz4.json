@@ -1,0 +1,63 @@
+{
+  "id": "quiz14",
+  "titre": "Partizip II: Unregelm.",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es el final típico de los participios irregulares (fuertes)?",
+      "options": [
+        "-en",
+        "-t",
+        "-ed",
+        "-st"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Gesehen' es un participio fuerte (irregular).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich habe einen Apfel {{1}} (manger - gegessen).",
+      "reponsesAttendues": [
+        "gegessen"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el infinitivo con el participio fuerte.",
+      "pairs": [
+        {
+          "left": "Sprechen",
+          "right": "gesprochen"
+        },
+        {
+          "left": "Lesen",
+          "right": "gelesen"
+"        },
+        {
+          "left": "Schreiben",
+          "right": "geschrieben"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'J'ai dormi'?",
+      "options": [
+        "Ich habe geschlafen",
+        "Ich habe geschlaft",
+        "Ich bin geschlafen",
+        "Ich habe schlafen"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

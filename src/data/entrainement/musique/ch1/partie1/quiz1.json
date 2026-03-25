@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "La Famille des Cordes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces instruments possède le plus de cordes ?",
+      "options": [
+        "Le violon",
+        "La harpe",
+        "La contrebasse",
+        "L'alto"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le violoncelle se joue assis.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On frotte les cordes du violon avec un {{1}}.",
+      "reponsesAttendues": [
+        "archet"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Instruments et tailles.",
+      "pairs": [
+        {
+          "left": "Violon",
+          "right": "Petit"
+        },
+        {
+          "left": "Contrebasse",
+          "right": "Très grand"
+        },
+        {
+          "left": "Alto",
+          "right": "Moyen"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel instrument de la famille des cordes a le son le plus aigu ?",
+      "options": [
+        "Le violon",
+        "Le violoncelle",
+        "La contrebasse",
+        "L'alto"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

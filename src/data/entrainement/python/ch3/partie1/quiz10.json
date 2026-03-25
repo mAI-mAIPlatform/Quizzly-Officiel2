@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan : Les Fonctions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "L'un de ces avantages n'appartient pas aux fonctions :",
+      "options": [
+        "Lisibilité",
+        "Réutilisation",
+        "Mise à jour facile",
+        "Augmente la consommation de RAM"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut mettre des boucles et des conditions dans une fonction.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Appeler une fonction dans elle-même s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "récursivité"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Synthèse Fonctions :",
+      "pairs": [
+        {
+          "left": "def",
+          "right": "Créer"
+        },
+        {
+          "left": "return",
+          "right": "Donner"
+        },
+        {
+          "left": "invoke (appel)",
+          "right": "Agir"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour la partie 2 sur les Paramètres avancés ?",
+      "options": [
+        "Oui!",
+        "Andiamo!",
+        "Let's go Python!",
+        "Vérifions les Bases"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Zusammenfassung Kapitel 4 Teil 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Ich trage eine ... (pantalon) und rote ... (chaussures).",
+      "options": [
+        "Hose / Schuhe",
+        "Jacke / Socken",
+        "Kleid / Stiefel",
+        "Mütze / Brille"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Farben sind wichtig für die Mode.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich {{1}} (porter) ein blaues Hemd.",
+      "reponsesAttendues": [
+        "trage"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Kleidung.",
+      "pairs": [
+        {
+          "left": "Anziehen",
+          "right": "S'habiller"
+        },
+        {
+          "left": "Ausziehen",
+          "right": "Se déshabiller"
+        },
+        {
+          "left": "Umziehen",
+          "right": "Se changer"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Wie gefällt dir mein Style?",
+      "options": [
+        "Sehr gut, du siehst modern aus",
+        "Ich bin ein Style",
+        "Style ist ein Brot",
+        "Hallo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

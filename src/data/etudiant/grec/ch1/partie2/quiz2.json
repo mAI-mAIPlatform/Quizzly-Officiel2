@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Les adjectifs (1ère classe)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment se décline un adjectif de la 1ère classe (type 2-1-2) ?",
+      "options": [
+        "Comme la 2ème décl. au masc./neutre et la 1ère au fém.",
+        "Comme la 3ème déclinaison uniquement",
+        "Il ne se décline pas",
+        "Comme la 1ère déclinaison partout"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'adjectif 'agathos' signifie 'bon'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Beau se dit {{1}} (kalos / καλός).",
+      "reponsesAttendues": [
+        "kalos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'adjectif.",
+      "pairs": [
+        {
+          "left": "mikros",
+          "right": "Petit"
+        },
+        {
+          "left": "megas",
+          "right": "Grand"
+        },
+        {
+          "left": "sophos",
+          "right": "Sage / Savant"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment accorde-t-on 'belle maison' (hé oikia) ?",
+      "options": [
+        "hé kalê oikia",
+        "ho kalos oikia",
+        "to kalon oikia",
+        "hé oikia kalos"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

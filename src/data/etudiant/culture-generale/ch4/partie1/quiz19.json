@@ -1,0 +1,64 @@
+{
+  "id": "quiz19",
+  "titre": "Bulletin d'Infos",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Éditorial' dans un journal ?",
+      "options": [
+        "Un texte exprimant l'opinion officielle de la rédaction du journal",
+        "La liste des prix des journaux",
+        "Un petit dessin humoristique",
+        "Une publicité pour du savon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un 'Reportage' est un article ou une séquence vidéo qui présente un sujet sur le terrain.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le titre écrit en très gros caractères à la première page d'un journal s'appelle la {{1}} (Une).",
+      "reponsesAttendues": [
+        "Une",
+        "Manchette"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'élément du bulletin au type d'info.",
+      "pairs": [
+        {
+          "left": "Flash Info",
+          "right": "Nouvelle très importante et urgente"
+        },
+        {
+          "left": "Rubrique Sports",
+          "right": "Résultats et actualités athlétiques"
+        },
+        {
+          "left": "Faits Divers",
+          "right": "Événements locaux parfois tragiques ou insolites"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le fait pour un journaliste de garantir l'exactitude de son information ?",
+      "options": [
+        "Le recoupement des sources",
+        "Le coloriage",
+        "Le pari sportif",
+        "La chance"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

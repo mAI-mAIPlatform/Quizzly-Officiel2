@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Loi d'additivité (Tension)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans un circuit en série, la tension aux bornes du générateur est égale :",
+      "options": [
+        "À la somme des tensions aux bornes des autres dipôles",
+        "À la moyenne des tensions",
+        "À la tension du dipôle le plus petit",
+        "À zéro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Aux bornes d'un fil de connexion, la tension est pratiquement nulle.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La loi d'additivité des tensions s'appelle aussi la loi des {{1}} (en physique avancée).",
+      "reponsesAttendues": [
+        "mailles"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Calcule U_G (Générateur) si U_L (Lampe) = 3V et U_M (Moteur) = 6V en série.",
+      "pairs": [
+        {
+          "left": "U_G",
+          "right": "9 V"
+        },
+        {
+          "left": "U_L + U_M",
+          "right": "9 V"
+        },
+        {
+          "left": "Condition",
+          "right": "Circuit en série uniquement"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si un dipôle est court-circuité en série ?",
+      "options": [
+        "Sa tension devient nulle et celle des autres augmente",
+        "Sa tension double",
+        "Tout le circuit s'éteint",
+        "La pile se recharge"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

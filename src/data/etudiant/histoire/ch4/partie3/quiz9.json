@@ -1,0 +1,63 @@
+{
+  "id": "quiz29",
+  "titre": "Enjeux d'Avenir",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel défi écologique la France affronte-t-elle dans la mondialisation ?",
+      "options": [
+        "Réduire l'empreinte carbone de ses échanges et de ses consommations",
+        "Augmenter le nombre de bouteilles en plastique",
+        "Arrêter toute forme de commerce",
+        "Refuser la pluie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La transition énergétique vers le bas-carbone est un axe majeur de la future économie française.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La réindustrialisation du pays s'appelle parfois la {{1}} des activités.",
+      "reponsesAttendues": [
+        "relocalisation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le risque à l'enjeu français.",
+      "pairs": [
+        {
+          "left": "Cyberattaque",
+          "right": "Sécurité des infrastructures numériques"
+        },
+        {
+          "left": "Pénurie",
+          "right": "Souveraineté (médicaments, énergie)"
+        },
+        {
+          "left": "Changement climatique",
+          "right": "Inondation des littoraux et sécheresses"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle organisation permet à la France de peser plus lourd dans la mondialisation ?",
+      "options": [
+        "L'Union Européenne",
+        "Le club de foot local",
+        "L'association des voisins",
+        "Elle pèse déjà très lourd toute seule"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz24",
+  "titre": "Unregelmäßige Verben",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo cambia 'lesen' para 'Du'?",
+      "options": [
+        "liest",
+        "lest",
+        "lesest",
+        "lestet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En los verbos irregulares, el cambio de vocal solo ocurre en 'Du' y 'Er/Sie/Es'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Er {{1}} (sprechen) gut Deutsch.",
+      "reponsesAttendues": [
+        "spricht"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el verbo con su cambio (Du/Er/Sie/Es).",
+      "pairs": [
+        {
+          "left": "Sehen",
+          "right": "ie (sieht)"
+        },
+        {
+          "left": "Fahren",
+          "right": "ä (fährt)"
+        },
+        {
+          "left": "Essen",
+          "right": "i (isst)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Tu manges'?",
+      "options": [
+        "Du isst",
+        "Du esst",
+        "Du essest",
+        "Du ist"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

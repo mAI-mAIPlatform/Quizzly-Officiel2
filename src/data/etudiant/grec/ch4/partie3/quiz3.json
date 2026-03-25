@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Examen : 3ème déclinaison",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment trouve-t-on le radical d'un nom de la 3ème déclinaison ?",
+      "options": [
+        "En enlevant la terminaison du génitif singulier",
+        "Au hasard",
+        "C'est toujours le nominatif",
+        "En regardant l'article"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le génitif singulier de la 3ème déclinaison se termine par -os (ος).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le nominatif pluriel des noms masculins/féminins est en -{{1}} (es).",
+      "reponsesAttendues": [
+        "es"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le radical.",
+      "pairs": [
+        {
+          "left": "sôma (corps)",
+          "right": "sômat-"
+        },
+        {
+          "left": "phulax (garde)",
+          "right": "phulak-"
+        },
+        {
+          "left": "mêtêr (mère)",
+          "right": "mêtr-"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le datif pluriel de 'païs' (enfant / radical paid-) ?",
+      "options": [
+        "paisi (παισί)",
+        "paides",
+        "paidôn",
+        "paidos"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

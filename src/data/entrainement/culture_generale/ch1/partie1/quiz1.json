@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Grandes Dates de l'Histoire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "En quelle année a eu lieu la bataille de Marignan ?",
+      "options": [
+        "1492",
+        "1515",
+        "1789",
+        "1914"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Révolution Française a commencé en 1789.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Christophe Colomb a découvert l'Amérique en {{1}}.",
+      "reponsesAttendues": [
+        "1492"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dates et Événements.",
+      "pairs": [
+        {
+          "left": "1918",
+          "right": "Armistice de la 1ère Guerre Mondiale"
+        },
+        {
+          "left": "800",
+          "right": "Sacre de Charlemagne"
+        },
+        {
+          "left": "1969",
+          "right": "Premier pas sur la Lune"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel roi a régné le plus longtemps en France ?",
+      "options": [
+        "Saint Louis",
+        "Henri IV",
+        "Louis XIV (le Roi Soleil)",
+        "Napoléon Ier"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

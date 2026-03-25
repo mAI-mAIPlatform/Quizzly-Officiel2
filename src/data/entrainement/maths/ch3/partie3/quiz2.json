@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Proportionnalité et Conversions d'unités",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Combien de secondes dans 1h 30min ?",
+      "options": [
+        "3600 s",
+        "5400 s",
+        "4500 s",
+        "90 s"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "1.5 h est égal à 1h 50min.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "45 minutes correspondent à {{1}} heure (format décimal).",
+      "reponsesAttendues": [
+        "0.75"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Convertis en heures décimales.",
+      "pairs": [
+        {
+          "left": "30 min",
+          "right": "0.5 h"
+        },
+        {
+          "left": "15 min",
+          "right": "0.25 h"
+        },
+        {
+          "left": "6 min",
+          "right": "0.1 h"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si je parcours 1km en 10min, quelle est ma vitesse en km/h ?",
+      "options": [
+        "10 km/h",
+        "6 km/h",
+        "60 km/h",
+        "100 km/h"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

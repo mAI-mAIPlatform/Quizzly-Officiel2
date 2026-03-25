@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Modélisation 3D",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie l'acronyme CAO ?",
+      "options": [
+        "Conception Assistée par Ordinateur",
+        "Calcul des Algorithmes Ordinaires",
+        "Création d'Applications Originales",
+        "Construction d'Avions en Or"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La modélisation 3D permet de tester virtuellement l'assemblage des pièces avant de les fabriquer.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un fichier 3D peut être envoyé à une {{1}} (imprimante) 3D pour créer un prototype physique.",
+      "reponsesAttendues": [
+        "imprimante"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'action au bon outil logiciel.",
+      "pairs": [
+        {
+          "left": "Modéliser un volume",
+          "right": "Logiciel de CAO (ex: Tinkercad, SolidWorks)"
+        },
+        {
+          "left": "Préparer l'impression",
+          "right": "Logiciel de 'slicing' (tranchage)"
+        },
+        {
+          "left": "Animer un robot",
+          "right": "Logiciel de programmation"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage principal de la 3D par rapport au dessin papier ?",
+      "options": [
+        "On peut voir l'objet sous tous les angles et simuler son fonctionnement",
+        "C'est plus lourd à transporter",
+        "Ça consomme moins de papier donc c'est magique",
+        "Le papier n'existe plus en 3D"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Pobreza y Riqueza",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Pauvreté' ?",
+      "options": [
+        "Pobreza",
+        "Riqueza",
+        "Hambre",
+        "Dinero"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Los sin techo' son personas que no tienen casa.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Richesse' se dice '{{1}}'.",
+      "reponsesAttendues": [
+        "riqueza"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Sociedad.",
+      "pairs": [
+        {
+          "left": "Hambre",
+          "right": "Faim"
+        },
+        {
+          "left": "Desigualdad",
+          "right": "Inégalité"
+        },
+        {
+          "left": "Desarrollo",
+          "right": "Développement"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué es una ONG?",
+      "options": [
+        "Una organización no gubernamental",
+        "Un tipo de comida",
+        "Un país",
+        "Un deporte"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

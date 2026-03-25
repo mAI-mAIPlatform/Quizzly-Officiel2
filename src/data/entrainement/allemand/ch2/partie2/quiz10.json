@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Zusammenfassung Kapitel 2 Teil 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Ich esse ein ... (pain) mit ... (fromage).",
+      "options": [
+        "Brot / Käse",
+        "Käse / Brot",
+        "Brot / Milch",
+        "Wurst / Brot"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Der Kellner bringt die Speisekarte.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich {{1}} (aimer) Pizza.",
+      "reponsesAttendues": [
+        "mag"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Essen & Trinken.",
+      "pairs": [
+        {
+          "left": "Obst",
+          "right": "Fruits"
+        },
+        {
+          "left": "Gemüse",
+          "right": "Légumes"
+        },
+        {
+          "left": "Saft",
+          "right": "Jus"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Hast du Durst?",
+      "options": [
+        "Ja, ich habe Durst",
+        "Ja, ich habe Hunger",
+        "Ich bin Max",
+        "Nein"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

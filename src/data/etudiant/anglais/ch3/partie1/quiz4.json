@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Space Exploration",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What do you call a person who travels into space?",
+      "options": [
+        "Astronaut",
+        "Sailor",
+        "Pilot",
+        "Driver"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Mars is often called the 'Red Planet'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A vehicle used to launch things into space is a {{1}}.",
+      "reponsesAttendues": [
+        "rocket"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the space object with its description.",
+      "pairs": [
+        {
+          "left": "Satellite",
+          "right": "An object that orbits a planet"
+        },
+        {
+          "left": "Galaxy",
+          "right": "A huge system of stars"
+        },
+        {
+          "left": "Black hole",
+          "right": "A place with gravity so strong even light can't escape"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is 'NASA'?",
+      "options": [
+        "The US space agency",
+        "A type of space food",
+        "The name of the first moon colony",
+        "A special kind of telescope"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Substitutions complexes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Calcule x² - 2x + 1 pour x = -1 :",
+      "options": [
+        "0",
+        "2",
+        "4",
+        "-2"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si x = 1/2, alors 4x = 2.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour x = 10, l'expression (x + 1)(x - 1) est égale à {{1}}.",
+      "reponsesAttendues": [
+        "99"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Calcule pour x = 2.",
+      "pairs": [
+        {
+          "left": "3x²",
+          "right": "12"
+        },
+        {
+          "left": "(3x)²",
+          "right": "36"
+        },
+        {
+          "left": "3 + x²",
+          "right": "7"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si a = 5 et b = -2, que vaut ab + a + b ?",
+      "options": [
+        "-7",
+        "-17",
+        "13",
+        "3"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

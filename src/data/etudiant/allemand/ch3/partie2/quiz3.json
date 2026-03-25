@@ -1,0 +1,63 @@
+{
+  "id": "quiz13",
+  "titre": "Reisen & Fahren",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Completa: 'Er {{1}} nach Berlin gefahren'.",
+      "options": [
+        "ist",
+        "hat",
+        "bin",
+        "sind"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Fliegen' (volar) usa el auxiliar 'sein'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Wir sind nach Spanien {{1}} (voyagé - gereist).",
+      "reponsesAttendues": [
+        "gereist"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el viaje.",
+      "pairs": [
+        {
+          "left": "Mit dem Auto",
+          "right": "fahren"
+        },
+        {
+          "left": "Mit dem Flugzeug",
+          "right": "fliegen"
+        },
+        {
+          "left": "Nach Deutschland",
+          "right": "reisen"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cuál es el participio de 'fliegen'?",
+      "options": [
+        "geflogen",
+        "gefliegt",
+        "gefliegen",
+        "flog"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Voyage et Mer",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'La mer' ?",
+      "options": [
+        "hé thalatta (ἡ θάλαττα)",
+        "ho pontos",
+        "ho limên",
+        "ho potamos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Ho limên' (ὁ λιμήν) signifie 'Le port'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le navire se dit 'hé {{1}}' (naus / ναῦς).",
+      "reponsesAttendues": [
+        "naus"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme maritime.",
+      "pairs": [
+        {
+          "left": "ho nautês",
+          "right": "Le marin"
+        },
+        {
+          "left": "ho ploios",
+          "right": "Le bateau / La navigation"
+        },
+        {
+          "left": "hé nêsos",
+          "right": "L'île"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'ho kybernetês' (racine de cybernétique) ?",
+      "options": [
+        "Le pilote / Le timonier",
+        "Le rameur",
+        "Le marchand",
+        "Le poisson"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "L'Éco-Conception",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "En quoi consiste l'éco-conception ?",
+      "options": [
+        "Intégrer les aspects environnementaux dès la conception d'un produit",
+        "Dessiner des feuilles sur le produit",
+        "Le rendre plus fragile pour en racheter",
+        "Fabriquer à la main uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Éviter les mélanges de matières facilite le recyclage futur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'obsolescence {{1}} est le fait de réduire volontairement la durée de vie d'un objet.",
+      "reponsesAttendues": [
+        "programmée"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Choix Éco.",
+      "pairs": [
+        {
+          "left": "Matériau local",
+          "right": "Moins de transport (CO2)"
+        },
+        {
+          "left": "Démontabilité",
+          "right": "Réparation plus facile"
+        },
+        {
+          "left": "Minimalisme",
+          "right": "Moins de matière utilisée"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi privilégier les matériaux bio-sourcés ?",
+      "options": [
+        "Ils sont issus de ressources renouvelables (bois, amidon, chanvre)",
+        "Ils sont toujours bleus",
+        "Ils ne brûlent pas",
+        "Ils coûtent toujours moins cher"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

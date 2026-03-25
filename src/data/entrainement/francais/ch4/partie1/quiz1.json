@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "La Phrase Simple et la Phrase Complexe",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une phrase simple ?",
+      "options": [
+        "Une phrase qui ne contient qu'un seul verbe conjugué",
+        "Une phrase très courte",
+        "Une phrase sans adjectif",
+        "Une phrase avec plusieurs propositions"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une phrase complexe contient au moins deux verbes conjugués.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans 'Le chat dort', il y a une seule {{1}}.",
+      "reponsesAttendues": [
+        "proposition"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Identifie le type.",
+      "pairs": [
+        {
+          "left": "Il pleut.",
+          "right": "Phrase simple"
+        },
+        {
+          "left": "Il pleut et le vent souffle.",
+          "right": "Phrase complexe"
+        },
+        {
+          "left": "Viens !",
+          "right": "Phrase simple (impérative)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on les parties d'une phrase complexe ?",
+      "options": [
+        "Des propositions",
+        "Des paragraphes",
+        "Des strophes",
+        "Des adjectifs"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

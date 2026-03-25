@@ -1,0 +1,63 @@
+{
+  "id": "quiz12",
+  "titre": "Microbiote et Santé",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel lien existe-t-il entre microbiote et obésité ?",
+      "options": [
+        "Un déséquilibre du microbiote peut favoriser le stockage des graisses",
+        "Il n'y a aucun lien prouvé",
+        "Les microbes mangent les graisses à notre place",
+        "Le microbiote rend les gens allergiques aux légumes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le microbiote influence notre humeur et notre comportement alimentaire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une alimentation riche en {{1}} favorise un microbiote diversifié et sain.",
+      "reponsesAttendues": [
+        "fibres"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le terme à sa définition.",
+      "pairs": [
+        {
+          "left": "Probiotiques",
+          "right": "Micro-organismes vivants bénéfiques ingérés"
+        },
+        {
+          "left": "Prébiotiques",
+          "right": "Aliments (fibres) nourrissant les bonnes bactéries"
+        },
+        {
+          "left": "Dysbiose",
+          "right": "Déséquilibre de la flore intestinale"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel organe est souvent appelé le 'deuxième cerveau' ?",
+      "options": [
+        "L'intestin",
+        "Le cœur",
+        "Le foie",
+        "Le rein"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

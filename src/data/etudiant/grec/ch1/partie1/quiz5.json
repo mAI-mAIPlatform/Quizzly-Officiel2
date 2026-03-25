@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Le verbe 'être' (eimi)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Je suis' en grec ?",
+      "options": [
+        "eimi (εἰμί)",
+        "ei (εἶ)",
+        "esti (ἐστί)",
+        "esmen (ἐσμέν)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Esti' (ἐστί) signifie 'Il/Elle est'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ils sont se dit {{1}} (eisi / εἰσί).",
+      "reponsesAttendues": [
+        "eisi"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la personne.",
+      "pairs": [
+        {
+          "left": "ei (εἶ)",
+          "right": "Tu es"
+        },
+        {
+          "left": "esmen (ἐσμέν)",
+          "right": "Nous sommes"
+        },
+        {
+          "left": "este (ἐστέ)",
+          "right": "Vous êtes"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'L'homme est bon' ?",
+      "options": [
+        "ho anthrôpos agathos esti",
+        "ho anthrôpos eimi agathos",
+        "agathos ei ho anthrôpos",
+        "ho anthrôpos esmen agathoi"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

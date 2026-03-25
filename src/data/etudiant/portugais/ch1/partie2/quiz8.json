@@ -1,0 +1,63 @@
+{
+  "id": "quiz18",
+  "titre": "Artigos indefinidos",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es el artículo indefinido masculino singular?",
+      "options": [
+        "Um",
+        "Uma",
+        "Uns",
+        "Umas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El plural de 'Uma' es 'Umas'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu tenho {{1}} ideia (une).",
+      "reponsesAttendues": [
+        "uma"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el artículo.",
+      "pairs": [
+        {
+          "left": "Um livro",
+          "right": "Un livre"
+        },
+        {
+          "left": "Uma caneta",
+          "right": "Un stylo"
+        },
+        {
+          "left": "Uns amigos",
+          "right": "Des amis"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'unas manzanas'?",
+      "options": [
+        "Umas maçãs",
+        "Uns maçãs",
+        "Uma maçãs",
+        "As maçãs"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

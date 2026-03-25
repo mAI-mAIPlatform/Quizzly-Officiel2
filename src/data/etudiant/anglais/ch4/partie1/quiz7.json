@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Climate Change Vocab",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is the 'Greenhouse Effect'?",
+      "options": [
+        "Heat being trapped in the atmosphere by certain gases",
+        "A way to build very green houses",
+        "The effect of plants growing in a room",
+        "A type of special green lighting"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Carbon dioxide (CO2) is a common greenhouse gas.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "The layer around the Earth that protects us from UV rays is the {{1}} layer.",
+      "reponsesAttendues": [
+        "ozone"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the term with its definition.",
+      "pairs": [
+        {
+          "left": "Emissions",
+          "right": "Gases released into the air"
+        },
+        {
+          "left": "Fossil fuels",
+          "right": "Coal, oil, and gas"
+        },
+        {
+          "left": "Atmosphere",
+          "right": "The envelope of gases surrounding Earth"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What does 'Net Zero' mean?",
+      "options": [
+        "Removing as much carbon as you produce",
+        "Having no money in the bank",
+        "Winning a sports game without scoring",
+        "Turning off the internet completely"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "quiz4",
+  "titre": "La Famille des Percussions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces instruments peut jouer des mélodies (percussion mélodique) ?",
+      "options": [
+        "La caisse claire",
+        "Le xylophone",
+        "La grosse caisse",
+        "Le triangle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les cymbales sont des instruments à percussion.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les {{1}} sont de grandes percussions en forme de chaudron, réglables avec des pédales.",
+      "reponsesAttendues": [
+        "timbales"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Glockenspiel",
+          "right": "Lames en métal"
+        },
+        {
+          "left": "Marimba",
+          "right": "Lames en bois"
+        },
+        {
+          "left": "Célesta",
+          "right": "À clavier"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel accessoire utilise-t-on pour frapper les tambours ou le xylophone ?",
+      "options": [
+        "Un archet",
+        "Des baguettes ou des mailloches",
+        "Une anche",
+        "Un plectre"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

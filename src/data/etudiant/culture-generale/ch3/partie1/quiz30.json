@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Ch. 3 Synthèse (Spectacles)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel pays a inventé le cinéma en 1895 ?",
+      "options": [
+        "La France",
+        "Les États-Unis",
+        "L'Italie",
+        "Le Japon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un 'Travelling' est un zoom électronique sans bouger la caméra.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le festival de cinéma le plus célèbre en France se déroule dans la ville de {{1}} (Cannes).",
+      "reponsesAttendues": [
+        "Cannes"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'objet à son média.",
+      "pairs": [
+        {
+          "left": "Écran géant / Popcorn",
+          "right": "Cinéma"
+        },
+        {
+          "left": "Micro / Ondes FM",
+          "right": "Radio"
+        },
+        {
+          "left": "Papier / Encre / Kiosque",
+          "right": "Presse"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le '7ème Art' ?",
+      "options": [
+        "Le Cinéma",
+        "La Bande-Dessinée",
+        "La Musique",
+        "La Peinture"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

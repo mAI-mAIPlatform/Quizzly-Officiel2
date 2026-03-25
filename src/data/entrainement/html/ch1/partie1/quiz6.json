@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Les Listes en HTML",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise crée une liste à puces (non ordonnée) ?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<dl>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "<ol> crée une liste numérotée (ordonnée).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Chaque élément d'une liste doit être entouré par la balise {{1}}.",
+      "reponsesAttendues": [
+        "li"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Type de liste.",
+      "pairs": [
+        {
+          "left": "ul",
+          "right": "Puces"
+        },
+        {
+          "left": "ol",
+          "right": "Nombres"
+        },
+        {
+          "left": "dl",
+          "right": "Définitions"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on mettre une liste à l'intérieur d'une autre liste ?",
+      "options": [
+        "Oui, c'est une liste imbriquée",
+        "Non",
+        "Seulement pour les listes ordonnées",
+        "Seulement 2 niveaux max"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

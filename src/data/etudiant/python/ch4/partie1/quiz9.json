@@ -1,0 +1,66 @@
+{
+  "id": "quiz9",
+  "titre": "Projet 1 : Refactoring",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Refactoring' ?",
+      "options": [
+        "Améliorer la structure du code sans changer son comportement",
+        "Refaire tout le projet de zéro",
+        "Changer le nom du fichier",
+        "Supprimer les commentaires"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut mettre toute la logique du jeu dans une fonction 'jouer_partie()'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une fonction 'demander_nombre()' pourrait utiliser un 'try/except' pour éviter que le jeu ne {{1}} si l'utilisateur tape du texte (plante / s'arrête).",
+      "reponsesAttendues": [
+        "plante",
+        "s'arrête",
+        "s'arrete",
+        "crash"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la fonction à son rôle possible.",
+      "pairs": [
+        {
+          "left": "generer_secret()",
+          "right": "Renvoie un nombre aléatoire"
+        },
+        {
+          "left": "donner_indice(e, s)",
+          "right": "Affiche Plus ou Moins"
+        },
+        {
+          "left": "main()",
+          "right": "Point d'entrée du programme"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi refactoriser notre projet avec des fonctions ?",
+      "options": [
+        "Pour le rendre plus lisible, testable et facile à faire évoluer",
+        "Pour qu'il soit plus lourd",
+        "Pour utiliser toutes les couleurs de l'éditeur",
+        "C'est une tradition"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Ch. 2 P. 2 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Le diagramme 'Bête à cornes' sert à l'analyse du {{1}}.",
+      "options": [
+        "besoin",
+        "prix",
+        "poids",
+        "climat"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le CDCF liste les exigences d'un produit.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La CAO permet de créer des modèles en {{1}} (3D).",
+      "reponsesAttendues": [
+        "3D"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les outils de conception.",
+      "pairs": [
+        {
+          "left": "Croquis",
+          "right": "Dessin à la main"
+        },
+        {
+          "left": "Pieuvre",
+          "right": "Diagramme des fonctions"
+        },
+        {
+          "left": "ACV",
+          "right": "Impact environnemental"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une contrainte ?",
+      "options": [
+        "Une limite obligatoire à respecter",
+        "Une option facultative",
+        "Un type de peinture",
+        "Le nom du patron"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

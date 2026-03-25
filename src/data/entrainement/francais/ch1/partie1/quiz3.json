@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Les Auxiliaires : Être et Avoir",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la forme de 'Être' avec 'Vous' ?",
+      "options": [
+        "Êtes",
+        "Sont",
+        "Sommes",
+        "Avons"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Ils ont' est le verbe Être.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Nous {{1}} (avoir) faim.",
+      "reponsesAttendues": [
+        "avons"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les formes.",
+      "pairs": [
+        {
+          "left": "Je suis",
+          "right": "Être"
+        },
+        {
+          "left": "J'ai",
+          "right": "Avoir"
+        },
+        {
+          "left": "Ils sont",
+          "right": "Être"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Complète : 'Tu _____ très gentil.'",
+      "options": [
+        "es",
+        "as",
+        "est",
+        "ai"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

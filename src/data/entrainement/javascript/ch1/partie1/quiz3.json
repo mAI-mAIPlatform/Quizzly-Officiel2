@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Les types de données de base",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel type représente un nombre en JavaScript ?",
+      "options": [
+        "String",
+        "Number",
+        "Boolean",
+        "Digit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En JavaScript, les nombres à virgule et les entiers sont tous de type 'Number'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'opérateur {{1}} permet de connaître le type d'une variable.",
+      "reponsesAttendues": [
+        "typeof"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la valeur à son type.",
+      "pairs": [
+        {
+          "left": "42",
+          "right": "Number"
+        },
+        {
+          "left": "'Bonjour'",
+          "right": "String"
+        },
+        {
+          "left": "true",
+          "right": "Boolean"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que retourne 'typeof true' ?",
+      "options": [
+        "'true'",
+        "'boolean'",
+        "'string'",
+        "'undefined'"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Gostos Alimentares",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Je n'aime pas' ?",
+      "options": [
+        "Não gosto de",
+        "Não como de",
+        "Não quero de",
+        "Não sou de"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Tenho fome' significa 'J'ai faim'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu tenho {{1}} (soif).",
+      "reponsesAttendues": [
+        "sede"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Sensações.",
+      "pairs": [
+        {
+          "left": "Delicioso",
+          "right": "Délicieux"
+        },
+        {
+          "left": "Picante",
+          "right": "Épicé"
+        },
+        {
+          "left": "Salgado",
+          "right": "Salé"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Queres lanchar?",
+      "options": [
+        "Sim, tenho muita fome",
+        "Não, sou de França",
+        "Dez horas",
+        "Olá"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

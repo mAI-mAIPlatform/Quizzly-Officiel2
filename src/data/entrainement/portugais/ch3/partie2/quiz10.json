@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Resumo Capítulo 3 Parte 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Eu apanho o ... (bus) para ir ao ... (centre commercial).",
+      "options": [
+        "autocarro / centro comercial",
+        "comboio / hospital",
+        "metro / banco",
+        "elétrico / mercado"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Vire à esquerda' significa 'Tournez à gauche'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Onde {{1}} (se trouve) a paragem?",
+      "reponsesAttendues": [
+        "fica"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Cidade e Transportes.",
+      "pairs": [
+        {
+          "left": "Bilhete",
+          "right": "Billet"
+        },
+        {
+          "left": "Farmácia",
+          "right": "Pharmacie"
+        },
+        {
+          "left": "Perto de",
+          "right": "Près de"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Como se vai para a biblioteca?",
+      "options": [
+        "Siga em frente e vire à direita",
+        "Fica dentro do meu bolso",
+        "Sou uma biblioteca",
+        "Até logo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

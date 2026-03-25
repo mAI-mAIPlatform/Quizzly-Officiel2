@@ -1,0 +1,65 @@
+{
+  "id": "quiz25",
+  "titre": "Ajouter une clé",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment ajouter une nouvelle propriété 'vitesse' à un objet 'voiture' qui ne l'a pas encore ?",
+      "options": [
+        "voiture.vitesse = 200;",
+        "voiture.add(\"vitesse\", 200);",
+        "voiture += {vitesse: 200};",
+        "Impossible après la création"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En JS, on peut ajouter des propriétés à un objet à n'importe quel moment du programme.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si j'assigne une valeur à une clé qui n'existe pas, JS la {{1}} automatiquement (crée / rajoute).",
+      "reponsesAttendues": [
+        "crée",
+        "cree",
+        "rajoute"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le but au code JS.",
+      "pairs": [
+        {
+          "left": "Ajouter un email",
+          "right": "user.email = 'a@b.com';"
+        },
+        {
+          "left": "Ajouter un ami",
+          "right": "user.amis.push('Luc');"
+        },
+        {
+          "left": "Initialiser",
+          "right": "let user = {};"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi ajouter des propriétés dynamiquement ?",
+      "options": [
+        "Pour stocker des infos au fur et à mesure (ex: inventaire d'un joueur, score d'un match)",
+        "Pour ralentir le script",
+        "Pour masquer les anciennes données",
+        "Pour changer de fichier"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

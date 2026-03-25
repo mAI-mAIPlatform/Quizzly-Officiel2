@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Développer (Simple distributivité)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Développer k(a + b) revient à écrire :",
+      "options": [
+        "ka + kb",
+        "k + a + b",
+        "kab",
+        "k × (a+b)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "3(x + 2) est égal à 3x + 2.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Développe : 5(x - 4) = 5x - {{1}}",
+      "reponsesAttendues": [
+        "20"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'expression à sa forme développée.",
+      "pairs": [
+        {
+          "left": "2(x + 3)",
+          "right": "2x + 6"
+        },
+        {
+          "left": "x(x + 1)",
+          "right": "x² + x"
+        },
+        {
+          "left": "-2(x - 5)",
+          "right": "-2x + 10"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Développe : -3(2x + 4)",
+      "options": [
+        "-6x + 12",
+        "-6x - 12",
+        "6x - 12",
+        "-5x - 7"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

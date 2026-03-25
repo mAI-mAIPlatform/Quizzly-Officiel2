@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Les Accents et l'Intonation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Sur quelle syllabe l'accent tonique tombe-t-il le plus souvent en italien ?",
+      "options": [
+        "La dernière",
+        "L'avant-dernière (la penultima)",
+        "La première",
+        "Aucune"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si l'accent est écrit (ex: Caffè), il tombe obligatoirement sur cette lettre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot 'Sì' (Oui) prend un accent {{1}}.",
+      "reponsesAttendues": [
+        "grave"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le mot à son accentuation.",
+      "pairs": [
+        {
+          "left": "Città",
+          "right": "Accent final obligatoire"
+        },
+        {
+          "left": "Tavolo",
+          "right": "Accent sur la 1ère (Sdricciola)"
+        },
+        {
+          "left": "Pizza",
+          "right": "Accent classique sur l'avant-dernière"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie l'apostrophe dans 'L'amico' ?",
+      "options": [
+        "C'est une décoration",
+        "Élision de la voyelle de l'article",
+        "C'est un mot pluriel",
+        "Accent tonique"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

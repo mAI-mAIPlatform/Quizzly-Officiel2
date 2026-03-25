@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Traditional Food Culture",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Which country is famous for Sushi?",
+      "options": [
+        "Japan",
+        "China",
+        "Italy",
+        "Mexico"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Pizza' originated in Italy.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Tacos are a traditional dish from {{1}}.",
+      "reponsesAttendues": [
+        "Mexico"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match food.",
+      "pairs": [
+        {
+          "left": "Baguette",
+          "right": "France"
+        },
+        {
+          "left": "Hamburger",
+          "right": "USA"
+        },
+        {
+          "left": "Curry",
+          "right": "India"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What are 'Chopsticks' used for?",
+      "options": [
+        "To eat Chinese and Japanese food",
+        "To carry suitcases",
+        "To play music",
+        "To paint"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

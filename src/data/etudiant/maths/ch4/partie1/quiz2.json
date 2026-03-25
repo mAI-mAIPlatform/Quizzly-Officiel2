@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Simplifier les écritures",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Peut-on supprimer le signe '×' entre un nombre et une lettre ?",
+      "options": [
+        "Oui, 3 × x devient 3x",
+        "Non, c'est interdit",
+        "Uniquement si le nombre est 0",
+        "Uniquement pour les divisions"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'expression 1x s'écrit plus simplement x.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Simplifie l'écriture : a × b = {{1}}",
+      "reponsesAttendues": [
+        "ab"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'expression à sa forme simplifiée.",
+      "pairs": [
+        {
+          "left": "x × x",
+          "right": "x²"
+        },
+        {
+          "left": "2 × x × 3",
+          "right": "6x"
+        },
+        {
+          "left": "x + x",
+          "right": "2x"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que devient 4 × (x + 2) ?",
+      "options": [
+        "4x + 2",
+        "4(x + 2)",
+        "4x + 8",
+        "4x + 2 ou 4(x + 2)"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

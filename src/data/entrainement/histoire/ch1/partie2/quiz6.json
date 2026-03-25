@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Art et Architecture de l'Islam",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces éléments n'est PAS autorisé dans la décoration religieuse musulmane ?",
+      "options": [
+        "L'arabesque",
+        "La calligraphie",
+        "La représentation de figures humaines et animales",
+        "La figure géométrique"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'minaret' est la tour du haut de laquelle le muezzin appelle à la prière.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'art d'écrire magnifiquement les versets du Coran s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "calligraphie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la partie de la mosquée à son rôle.",
+      "pairs": [
+        {
+          "left": "Mihrab",
+          "right": "Niche indiquant la direction de La Mecque"
+        },
+        {
+          "left": "Minbar",
+          "right": "Chaire pour le sermon"
+        },
+        {
+          "left": "Sahn",
+          "right": "La cour intérieure"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel monument célèbre de Jérusalem possède une coupole dorée ?",
+      "options": [
+        "La Mosquée Bleue",
+        "Le Dôme du Rocher",
+        "L'Alhambra",
+        "La Giralda"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Presente: Regulares",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Conjuga 'Hablar' (AR) en la primera persona del plural (Nosotros) :",
+      "options": [
+        "Hablamos",
+        "Habláis",
+        "Hablan",
+        "Hablo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La terminación de 'Yo' es siempre 'o' para los verbos regulares en -AR, -ER y -IR.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ellos {{1}} (comer) una paella deliciosa.",
+      "reponsesAttendues": [
+        "comen"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el pronombre con la terminación -AR.",
+      "pairs": [
+        {
+          "left": "Tú",
+          "right": "-as"
+        },
+        {
+          "left": "Él/Ella/Usted",
+          "right": "-a"
+        },
+        {
+          "left": "Vosotros",
+          "right": "-áis"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cuál es la forma correcta de 'Vivir' para 'Nosotros'?",
+      "options": [
+        "Vivimos",
+        "Vivemos",
+        "Vivís",
+        "Viven"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

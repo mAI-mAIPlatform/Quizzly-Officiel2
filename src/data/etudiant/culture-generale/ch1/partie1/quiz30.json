@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Ch. 1 Synthèse (H/G)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le passage brutal du Moyen Âge vers l'ère des grandes découvertes et de l'art ?",
+      "options": [
+        "La Renaissance",
+        "La Révolution",
+        "L'Antiquité",
+        "L'Époque Contemporaine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Asie est le continent le plus peuplé du monde.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le traité de {{1}} (Maastricht) a créé l'Union Européenne en 1992.",
+      "reponsesAttendues": [
+        "Maastricht"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le pays à son continent.",
+      "pairs": [
+        {
+          "left": "Égypte",
+          "right": "Afrique"
+        },
+        {
+          "left": "Mexique",
+          "right": "Amérique"
+        },
+        {
+          "left": "Italie",
+          "right": "Europe"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel grand navigateur a mené le premier tour du monde ?",
+      "options": [
+        "Magellan",
+        "Colomb",
+        "Vasco de Gama",
+        "Marco Polo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

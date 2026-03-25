@@ -1,0 +1,63 @@
+{
+  "id": "quiz14",
+  "titre": "Family Traditions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is a 'Sunday Roast' in the UK?",
+      "options": [
+        "A traditional meal with meat, potatoes and vegetables",
+        "A race held on Sundays",
+        "A type of loud music",
+        "A burning of old books"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Game nights are a common tradition where families play board games together.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A meal eaten in the late morning, combining breakfast and lunch, is called {{1}}.",
+      "reponsesAttendues": [
+        "brunch"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la tradition familiale à son moment.",
+      "pairs": [
+        {
+          "left": "Family Reunion",
+          "right": "Gathering of relatives from far away"
+        },
+        {
+          "left": "Bedtime story",
+          "right": "Reading to children before sleep"
+        },
+        {
+          "left": "Holiday dinner",
+          "right": "Special meal for Christmas or Thanksgiving"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What are 'heirlooms'?",
+      "options": [
+        "Valuable objects passed down from generation to generation",
+        "Types of garden tools",
+        "Small flying animals",
+        "Special kinds of hair"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz18",
+  "titre": "Les Marginaux en littérature",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un personnage marginal ?",
+      "options": [
+        "Un personnage qui vit à l'écart de la société",
+        "Un personnage qui a beaucoup d'argent",
+        "Le roi de l'histoire",
+        "Un sportif professionnel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Jean Valjean dans 'Les Misérables' est un exemple de marginal devenu héros.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un personnage qui possède des défauts et n'est pas idéal est un {{1}}.",
+      "reponsesAttendues": [
+        "anti-héros"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le marginal à son type.",
+      "pairs": [
+        {
+          "left": "Quasimodo",
+          "right": "Marginal physique (monstre)"
+        },
+        {
+          "left": "Gavroche",
+          "right": "Enfant des rues"
+        },
+        {
+          "left": "Fantine",
+          "right": "Mère déchue"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le but de mettre un marginal comme héros ?",
+      "options": [
+        "Éveiller la pitié et dénoncer l'injustice",
+        "Faire peur aux enfants",
+        "Vendre plus de livres",
+        "Apprendre à tricher"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

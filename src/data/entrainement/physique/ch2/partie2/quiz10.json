@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan : Le modèle particulaire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quel état les molécules sont-elles les plus agitées ?",
+      "options": [
+        "Solide",
+        "Liquide",
+        "Gazeux",
+        "Mortier"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'air est composé de molécules qui sont en mouvement permanent.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'unité légale de pression est le {{1}}.",
+      "reponsesAttendues": [
+        "Pascal"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dernier défi du chapitre 2 :",
+      "pairs": [
+        {
+          "left": "Aqueux",
+          "right": "Qui contient de l'eau"
+        },
+        {
+          "left": "Baromètre",
+          "right": "Pression atmosphérique"
+        },
+        {
+          "left": "Compressible",
+          "right": "Propriété des gaz"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour le Chapitre 3 sur la masse et le volume avancés ?",
+      "options": [
+        "Oui, mesurons tout !",
+        "Un petit break avant",
+        "C'est quoi la masse déjà ?",
+        "Je préfère les molécules"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

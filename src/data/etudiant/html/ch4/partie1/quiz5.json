@@ -1,0 +1,70 @@
+{
+  "id": "quiz5",
+  "titre": "Hiérarchie des titres (H1-H6)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Combien de balises <h1> est-il recommandé d'avoir par page ?",
+      "options": ["0", "1", "5", "Autant que possible"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'ordre des titres est important (ex: ne pas passer de H1 à H3 directement).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise {{1}} est le titre principal du contenu de la page.",
+      "reponsesAttendues": ["h1"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est l'impact des titres sur le SEO ?",
+      "options": ["Aucun", "Ils aident les moteurs à comprendre la structure et les thèmes de la page", "Ils changent la couleur", "Ils ralentissent l'indexation"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une balise <h2> est moins importante qu'une balise <h3>.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que faut-il mettre dans ses titres ?",
+      "options": ["Des numéros", "Des mots-clés pertinents", "Des images", "Rien"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "vrai_faux",
+      "enonce": "Les titres servent aussi à l'accessibilité pour faciliter la navigation au clavier.",
+      "reponse": true
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "Il existe {{1}} niveaux de titres en HTML.",
+      "reponsesAttendues": ["6"]
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment styliser un titre sans changer son niveau hiérarchique ?",
+      "options": ["Changer la balise (ex: H1 -> H4)", "Utiliser du CSS", "Mettre en gras", "Mettre en majuscules"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Un <h1> trop long peut nuire à l'expérience utilisateur.",
+      "reponse": true
+    }
+  ]
+}

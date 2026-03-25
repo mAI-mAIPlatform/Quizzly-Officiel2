@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Preferir y Comida",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "En 'Preferir' (e->ie), ¿cuál es la forma de 'Él'?",
+      "options": [
+        "prefiere",
+        "prefiera",
+        "prefere",
+        "prefirió"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Se dice 'Prefiero el arroz al pan' (Je préfère le riz au pain).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Nosotros {{1}} (preferir) comer sano.",
+      "reponsesAttendues": [
+        "preferimos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la preferencia.",
+      "pairs": [
+        {
+          "left": "Preferir",
+          "right": "Préférer"
+        },
+        {
+          "left": "Odiar",
+          "right": "Détester"
+        },
+        {
+          "left": "Interesar",
+          "right": "Intéresser"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué prefieres comer de postre?",
+      "options": [
+        "Fruta o pastel",
+        "Sopa",
+        "Pescado",
+        "Ensalada"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

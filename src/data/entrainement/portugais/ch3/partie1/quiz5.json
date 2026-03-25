@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "A Casa de Banho",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'La douche' ?",
+      "options": [
+        "O duche / O chuveiro",
+        "A banheira",
+        "A sanita",
+        "O lavatório"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Espelho' significa 'Miroir'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu lavo as mãos no {{1}} (lavabo).",
+      "reponsesAttendues": [
+        "lavatório"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Casa de banho.",
+      "pairs": [
+        {
+          "left": "Toalha",
+          "right": "Serviette"
+        },
+        {
+          "left": "Sabonete",
+          "right": "Savon"
+        },
+        {
+          "left": "Pasta de dentes",
+          "right": "Dentifrice"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "O que usas para tomar banho?",
+      "options": [
+        "O gel de banho",
+        "O frigorífico",
+        "A secretária",
+        "Dez horas"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

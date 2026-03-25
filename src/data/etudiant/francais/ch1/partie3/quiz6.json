@@ -1,0 +1,63 @@
+{
+  "id": "quiz26",
+  "titre": "Vocabulaire des sentiments",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel mot désigne une attirance soudaine et forte ?",
+      "options": [
+        "L'inclinaison",
+        "Le coup de foudre",
+        "L'estime",
+        "La complaisance"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'dépit amoureux' désigne la colère ou la déception après une querelle.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un sentiment de jalousie mêlé de souffrance s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "jalousie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le sentiment à son intensité.",
+      "pairs": [
+        {
+          "left": "Affection",
+          "right": "Modérée"
+        },
+        {
+          "left": "Passion",
+          "right": "Extrême"
+        },
+        {
+          "left": "Indifférence",
+          "right": "Nulle"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie le mot 'exaltation' ?",
+      "options": [
+        "Un état de grand enthousiasme",
+        "Une grande fatigue",
+        "Un manque de goût",
+        "Un secret bien gardé"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

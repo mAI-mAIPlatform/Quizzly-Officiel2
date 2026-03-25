@@ -1,0 +1,64 @@
+{
+  "id": "quiz3",
+  "titre": "Le Président",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pour quelle durée le Président de la République est-il élu ?",
+      "options": [
+        "5 ans (Quinquennat)",
+        "7 ans (Septennat)",
+        "4 ans",
+        "10 ans"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Président de la République est le chef des armées.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le lieu de résidence officielle du Président à Paris est le Palais de l'{{1}} (Élysée).",
+      "reponsesAttendues": [
+        "Élysée",
+        "Elysee"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la fonction à son titulaire.",
+      "pairs": [
+        {
+          "left": "Président",
+          "right": "Élu au suffrage universel direct"
+        },
+        {
+          "left": "Premier Ministre",
+          "right": "Nommé par le Président pour diriger le gouvernement"
+        },
+        {
+          "left": "Ministre",
+          "right": "Responsable d'un domaine précis (Éducation, Santé...)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le rôle principal du Gouvernement ?",
+      "options": [
+        "Déterminer et conduire la politique de la Nation",
+        "Voter les lois",
+        "Juger les coupables",
+        "Organiser les vacances"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

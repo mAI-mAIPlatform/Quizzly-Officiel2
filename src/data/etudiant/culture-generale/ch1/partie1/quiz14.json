@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "La Renaissance",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où la Renaissance a-t-elle commencé au XIVème siècle ?",
+      "options": [
+        "En Italie (Florence, Venise)",
+        "En France (Paris)",
+        "En Angleterre (Londres)",
+        "En Chine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Humanisme est un courant de pensée qui place l'homme au centre des préoccupations.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'invention révolutionnaire qui a permis de diffuser les livres en masse est l'{{1}} (imprimerie).",
+      "reponsesAttendues": [
+        "imprimerie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la découverte de la Renaissance à son domaine.",
+      "pairs": [
+        {
+          "left": "Héliocentrisme (Copernic)",
+          "right": "Astronomie (La Terre tourne autour du soleil)"
+        },
+        {
+          "left": "Perspective",
+          "right": "Peinture (Donner de la profondeur)"
+        },
+        {
+          "left": "Anatomie",
+          "right": "Médecine (Mieux comprendre le corps humain)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Mécène' à la Renaissance ?",
+      "options": [
+        "Une personne riche qui soutient financièrement les artistes",
+        "Un type de pinceau",
+        "Un général d'armée",
+        "Un habitant de Florence"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

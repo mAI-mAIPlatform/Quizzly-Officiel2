@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Solidaridad y Ayuda",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Aider' ?",
+      "options": [
+        "Ayudar",
+        "Donar",
+        "Compartir",
+        "Reciclar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un 'voluntario' trabaja gratis para ayudar.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Donner' se dice '{{1}}'.",
+      "reponsesAttendues": [
+        "donar"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Acciones.",
+      "pairs": [
+        {
+          "left": "Colaborar",
+          "right": "Collaborer"
+        },
+        {
+          "left": "Comprometerse",
+          "right": "S'engager"
+        },
+        {
+          "left": "Solidaridad",
+          "right": "Solidarité"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué puedes hacer para ayudar?",
+      "options": [
+        "Puedo donar ropa vieja",
+        "Puedo dormir",
+        "Puedo comer chocolate",
+        "No puedo hacer nada"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Le Présent : Verbes du 3ème groupe (S-S-T)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelles sont les terminaisons classiques du 3ème groupe au singulier ?",
+      "options": [
+        "-s, -s, -t",
+        "-e, -es, -e",
+        "-x, -x, -t",
+        "-s, -s, -d"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le verbe 'Aller' est du 1er groupe car il finit en -ER.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Je {{1}} (voir) le chat.",
+      "reponsesAttendues": [
+        "vois"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Conjugue 'Lire'.",
+      "pairs": [
+        {
+          "left": "Tu",
+          "right": "Lis"
+        },
+        {
+          "left": "Il",
+          "right": "Lit"
+        },
+        {
+          "left": "Nous",
+          "right": "Lisons"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Forme correcte de 'Faire' avec 'Vous' ?",
+      "options": [
+        "Faites",
+        "Faisez",
+        "Font",
+        "Fasons"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

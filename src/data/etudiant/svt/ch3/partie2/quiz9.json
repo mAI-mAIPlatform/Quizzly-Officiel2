@@ -1,0 +1,63 @@
+{
+  "id": "quiz19",
+  "titre": "Hygiène et Prévention",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la mesure d'hygiène la plus simple pour éviter les maladies ?",
+      "options": [
+        "Se laver les mains régulièrement",
+        "Porter une armure",
+        "Manger uniquement des fruits rouges",
+        "Changer de chaussures toutes les heures"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Se laver les mains pendant 5 secondes suffit à éliminer tous les microbes.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le savon dégrade la membrane des {{1}}, ce qui les inactive.",
+      "reponsesAttendues": [
+        "virus"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le geste à son utilité.",
+      "pairs": [
+        {
+          "left": "Éternuer dans son coude",
+          "right": "Éviter de projeter des microbes sur les mains"
+        },
+        {
+          "left": "Brossage des dents",
+          "right": "Éliminer la plaque dentaire (bactéries)"
+        },
+        {
+          "left": "Cuisiner des aliments frais",
+          "right": "Limiter le risque d'intoxication alimentaire"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie être porteur sain ?",
+      "options": [
+        "Avoir des microbes pathogènes sans présenter de symptômes",
+        "Être allergique au savon",
+        "Avoir des muscles très forts",
+        "Vivre dans un endroit propre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

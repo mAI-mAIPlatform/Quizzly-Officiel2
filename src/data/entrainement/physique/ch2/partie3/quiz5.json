@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Tester le dioxyde de carbone",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel réactif utilise-t-on pour tester le dioxyde de carbone ?",
+      "options": [
+        "L'eau salée",
+        "L'eau de chaux",
+        "Le vinaigre",
+        "L'eau distillée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En présence de CO2, l'eau de chaux se trouble (devient laiteuse).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le gaz rejeté par notre respiration contient du {{1}} de carbone.",
+      "reponsesAttendues": [
+        "dioxyde"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'observation au test.",
+      "pairs": [
+        {
+          "left": "Eau de chaux limpide",
+          "right": "Pas de CO2"
+        },
+        {
+          "left": "Trouble blanc",
+          "right": "Présence de CO2"
+        },
+        {
+          "left": "Expiration dans le tube",
+          "right": "Test de la respiration"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi l'eau de chaux se trouble-t-elle ?",
+      "options": [
+        "Elle a peur du gaz",
+        "Une réaction chimique forme un précipité blanc solide (calcaire)",
+        "Elle se salit",
+        "C'est de l'eau magique"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

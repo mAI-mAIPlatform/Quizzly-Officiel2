@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Lesen und Bücher",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'La bande dessinée' ?",
+      "options": [
+        "Der Comic",
+        "Der Roman",
+        "Die Zeitung",
+        "Das Magazin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Lesen' ist ein unregelmäßiges Verb (ich lese, du liest).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Liest {{1}} (tu) gern Bücher?",
+      "reponsesAttendues": [
+        "du"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Genres.",
+      "pairs": [
+        {
+          "left": "Krimi",
+          "right": "Polar"
+        },
+        {
+          "left": "Märchen",
+          "right": "Conte"
+        },
+        {
+          "left": "Sachbuch",
+          "right": "Documentaire"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Was liest du gerade?",
+      "options": [
+        "Ich lese einen Roman",
+        "Ich esse einen Roman",
+        "Ein Roman ist blau",
+        "Hallo Buch"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

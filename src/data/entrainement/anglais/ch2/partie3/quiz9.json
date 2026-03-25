@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Grammar : Adverbs of Frequency",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "I _____ play football because I hate it.",
+      "options": [
+        "never",
+        "always",
+        "often",
+        "usually"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Always' means 100% of the time.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "I {{1}} go swimming (50% of the time).",
+      "reponsesAttendues": [
+        "sometimes"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the scale.",
+      "pairs": [
+        {
+          "left": "Always",
+          "right": "100%"
+        },
+        {
+          "left": "Often",
+          "right": "70%"
+        },
+        {
+          "left": "Never",
+          "right": "0%"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Where do adverbs usually go?",
+      "options": [
+        "Before the verb (ex: I often play)",
+        "After the verb (ex: I play often)",
+        "At the end of the sentence",
+        "At the beginning only"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

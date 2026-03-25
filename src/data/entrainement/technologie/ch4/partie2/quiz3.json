@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "La Triangulation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi utilise-t-on le triangle dans les structures (ponts, grues) ?",
+      "options": [
+        "C'est la seule forme indéformable",
+        "C'est moins cher en métal",
+        "C'est plus joli",
+        "Ça prend moins de vent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un carré est une forme géométrique déformable si on appuie sur ses coins.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une traverse ajoutée dans une structure pour former des triangles s'appelle une {{1}}.",
+      "reponsesAttendues": [
+        "diagonale"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Structures.",
+      "pairs": [
+        {
+          "left": "Treillis",
+          "right": "Assemblage de barres triangulées"
+        },
+        {
+          "left": "Nœud",
+          "right": "Point de liaison des barres"
+        },
+        {
+          "left": "Contreventement",
+          "right": "Assure la rigidité face au vent"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où voit-on le plus souvent de la triangulation ?",
+      "options": [
+        "Les pylônes haute tension et les charpentes",
+        "Les murs en briques",
+        "Le papier des cahiers",
+        "Les assiettes"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

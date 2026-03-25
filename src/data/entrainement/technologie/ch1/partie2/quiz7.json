@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Chaîne d'énergie et Conversion",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel composant transforme l'énergie mécanique en énergie électrique ?",
+      "options": [
+        "L'alternateur",
+        "Le moteur",
+        "La pile",
+        "Le levier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une ampoule transforme l'énergie électrique en rayonnement (lumière).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Lorsqu'un système fonctionne, une partie de l'énergie est perdue sous forme de {{1}}.",
+      "reponsesAttendues": [
+        "chaleur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Convertisseurs communs.",
+      "pairs": [
+        {
+          "left": "Moteur électrique",
+          "right": "Élec -> Mécanique"
+        },
+        {
+          "left": "Panneau solaire",
+          "right": "Solaire -> Élec"
+        },
+        {
+          "left": "Radiateur",
+          "right": "Élec -> Thermique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le rapport entre l'énergie utile et l'énergie absorbée ?",
+      "options": [
+        "Le rendement",
+        "La vitesse",
+        "La force",
+        "Le prix"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

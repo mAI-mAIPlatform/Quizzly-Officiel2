@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Les Nombres Entiers (int)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'int' ?",
+      "options": [
+        "Internal",
+        "Integer (Entier)",
+        "Into",
+        "Interactive"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les nombres entiers en Python peuvent être positifs ou négatifs.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si x = 5, alors type(x) renvoie {{1}}.",
+      "reponsesAttendues": [
+        "int"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Vrai ou Faux Entier ?",
+      "pairs": [
+        {
+          "left": "-100",
+          "right": "int"
+        },
+        {
+          "left": "0",
+          "right": "int"
+        },
+        {
+          "left": "4.0",
+          "right": "Pas un int (c'est un float)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la limite de taille des entiers en Python 3 ?",
+      "options": [
+        "2^31 - 1",
+        "2^63 - 1",
+        "Illimitée (selon la mémoire disponible)",
+        "1 trillion"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

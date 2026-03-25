@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Le 'Lei' de politesse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel pronom utilise-t-on pour vouvoyer une personne (homme ou femme) ?",
+      "options": [
+        "Voi",
+        "Lei",
+        "Tu",
+        "Noi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Quand on utilise 'Lei' pour la politesse, on l'écrit souvent avec une majuscule.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "En italien, le vouvoiement de politesse singulier se fait à la {{1}}ème personne du féminin.",
+      "reponsesAttendues": [
+        "3"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la situation au pronom.",
+      "pairs": [
+        {
+          "left": "Un ami",
+          "right": "Tu"
+        },
+        {
+          "left": "Un inconnu / Professeur",
+          "right": "Lei"
+        },
+        {
+          "left": "Un groupe",
+          "right": "Voi"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Et vous ?' (politesse) ?",
+      "options": [
+        "E tu?",
+        "E Lei?",
+        "E voi?",
+        "E noi?"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

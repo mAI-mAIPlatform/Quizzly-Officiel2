@@ -1,0 +1,63 @@
+{
+  "id": "quiz24",
+  "titre": "Vida social",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Fiesta'?",
+      "options": [
+        "Festa",
+        "Jantar",
+        "Almoço",
+        "Cinema"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Convidar' significa invitar.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vamos {{1}} com os amigos? (sortir/sair).",
+      "reponsesAttendues": [
+        "sair"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la expresión social.",
+      "pairs": [
+        {
+          "left": "Fazer um brinde",
+          "right": "Porter un toast"
+        },
+        {
+          "left": "Divertir-se",
+          "right": "S'amuser"
+        },
+        {
+          "left": "Bater um papo",
+          "right": "Bavarder"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'aniversário'?",
+      "options": [
+        "Cumpleaños",
+        "Aniversario de bodas",
+        "Bautizo",
+        "Boda"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Présent : Verbes en -ô",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison de la 1ère personne du singulier au présent actif ?",
+      "options": [
+        "-ô (ω)",
+        "-eis (εις)",
+        "-ei (ει)",
+        "-omen (ομεν)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Legô' (λέγω) signifie 'Je dis / Je parle'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ils disent se dit {{1}} (legousi / λέγουσι).",
+      "reponsesAttendues": [
+        "legousi"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la personne.",
+      "pairs": [
+        {
+          "left": "legeis",
+          "right": "Tu dis"
+        },
+        {
+          "left": "legomen",
+          "right": "Nous disons"
+        },
+        {
+          "left": "legete",
+          "right": "Vous dites"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'akouô' ?",
+      "options": [
+        "J'entends / J'écoute",
+        "Je vois",
+        "Je mange",
+        "Je cours"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

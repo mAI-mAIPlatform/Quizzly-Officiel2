@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "La famille des Bois",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans un orchestre symphonique, à quelle grande famille appartiennent la flûte, la clarinette et le hautbois ?",
+      "options": [
+        "Les Bois",
+        "Les Cuivres",
+        "Les Percussions",
+        "Les Cordes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un instrument peut appartenir à la famille des Bois même s'il est fabriqué en métal (comme la flûte traversière).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La petite lamelle de roseau qui vibre pour produire le son s'appelle une {{1}} (anche).",
+      "reponsesAttendues": [
+        "anche"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'instrument à son type d'embouchure.",
+      "pairs": [
+        {
+          "left": "Flûte traversière",
+          "right": "Biseau (on souffle sur un trou)"
+        },
+        {
+          "left": "Clarinette",
+          "right": "Anche simple"
+        },
+        {
+          "left": "Hautbois",
+          "right": "Anche double"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi appelle-t-on ces instruments 'les Bois' ?",
+      "options": [
+        "À cause de leur origine historique (ils étaient tous en bois)",
+        "Parce qu'ils poussent dans la forêt",
+        "Parce qu'on les frappe avec du bois",
+        "Parce qu'ils servent à faire du feu"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

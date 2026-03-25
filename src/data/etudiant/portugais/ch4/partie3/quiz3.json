@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "O Futuro do Brasil",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué sector es fundamental para la economía brasileña actual?",
+      "options": [
+        "Agronegócio",
+        "Turismo espacial",
+        "Mineração de ouro",
+        "Indústria têxtil antiga"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Brasil investe cada vez mais em fontes de energia renovável.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O Brasil {{1}} (ser) uma potência mundial no futuro (será).",
+      "reponsesAttendues": [
+        "será"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el desafío futuro.",
+      "pairs": [
+        {
+          "left": "Desigualdade social",
+          "right": "Inégalité sociale"
+        },
+        {
+          "left": "Preservação ambiental",
+          "right": "Préservation de l'env."
+        },
+        {
+          "left": "Inovação digital",
+          "right": "Innovation digitale"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'desenvolvimento sustentável'?",
+      "options": [
+        "Desarrollo sostenible",
+        "Crecimiento rápido",
+        "Crisis económica",
+        "Aumento de población"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

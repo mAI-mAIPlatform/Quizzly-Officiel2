@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Cap. 3 P. 1 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "César a vaincu Vercingétorix en {{1}} à la bataille d'{{2}}.",
+      "options": [
+        "52 av. J.-C. / Alésia",
+        "44 av. J.-C. / Rome",
+        "753 av. J.-C. / Palatin",
+        "27 av. J.-C. / Actium"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Alea jacta est' veut dire que rien n'est décidé.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'armée romaine au combat est l'{{1}} (exercitus).",
+      "reponsesAttendues": [
+        "exercitus"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les acquis.",
+      "pairs": [
+        {
+          "left": "Guerre des Gaules",
+          "right": "César"
+        },
+        {
+          "left": "4ème déclinaison",
+          "right": "Manus / Exercitus"
+        },
+        {
+          "left": "Rubicon",
+          "right": "Guerre civile"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel pronom signifie 'Nous' ?",
+      "options": [
+        "Nos",
+        "Vos",
+        "Ego",
+        "Tu"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

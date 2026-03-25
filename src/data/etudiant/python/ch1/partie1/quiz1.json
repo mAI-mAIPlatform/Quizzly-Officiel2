@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Introduction à Python",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que Python ?",
+      "options": [
+        "Un langage de programmation",
+        "Un type d'ordinateur",
+        "Un navigateur web",
+        "Une marque de chaussures"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Python est un langage facile à lire et très populaire chez les débutants.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le créateur de Python s'appelle Guido van {{1}} (Rossum).",
+      "reponsesAttendues": [
+        "Rossum"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'élément à son rôle.",
+      "pairs": [
+        {
+          "left": "Code Source",
+          "right": "Le texte écrit par le programmeur"
+        },
+        {
+          "left": "Interpréteur",
+          "right": "Le logiciel qui exécute le code Python"
+        },
+        {
+          "left": "Console",
+          "right": "L'endroit où s'affiche le résultat du code"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi utilise-t-on Python ?",
+      "options": [
+        "Pour créer des sites web, des jeux, de l'IA et analyser des données",
+        "Uniquement pour faire des additions",
+        "Pour dessiner des serpents",
+        "Pour remplacer le papier et le crayon"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

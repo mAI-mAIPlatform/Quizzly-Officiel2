@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Cultural Habits",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What do people often do when they meet in the UK?",
+      "options": [
+        "Shake hands",
+        "Hug three times",
+        "Bow",
+        "Dance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "In Japan, it is polite to bow when you meet someone.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "People in the UK always queue (stand in {{1}}).",
+      "reponsesAttendues": [
+        "line"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match greetings.",
+      "pairs": [
+        {
+          "left": "Hello / Hi",
+          "right": "General"
+        },
+        {
+          "left": "Good morning",
+          "right": "8 AM"
+        },
+        {
+          "left": "Good evening",
+          "right": "7 PM"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is 'Tipping'?",
+      "options": [
+        "Giving extra money to waitstaff",
+        "Falling over",
+        "Buying souvenirs",
+        "Eating fast"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

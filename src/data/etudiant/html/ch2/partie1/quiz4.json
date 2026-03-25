@@ -1,0 +1,70 @@
+{
+  "id": "quiz4",
+  "titre": "Chemins d'accès",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on un chemin qui commence par http:// ou https:// ?",
+      "options": ["Chemin relatif", "Chemin absolu", "Chemin direct", "Lien mort"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un chemin relatif dépend de l'emplacement du fichier HTML.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans src=\"../img/logo.png\", les deux points permettent de {{1}} d'un dossier.",
+      "reponsesAttendues": ["remonter"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Si l'image est dans le même dossier, quel src est correct ?",
+      "options": ["src=\"C:/images/pic.jpg\"", "src=\"pic.jpg\"", "src=\"/root/pic.jpg\"", "src=\"../pic.jpg\""],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Il est déconseillé d'utiliser des espaces dans les noms de fichiers images.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel est un chemin relatif correct ?",
+      "options": ["https://img.com/a.jpg", "img/photo.jpg", "C:\\Users\\Desktop\\p.jpg", "image.png"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "vrai_faux",
+      "enonce": "Un chemin commençant par '/' repart de la racine du site.",
+      "reponse": true
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "Si mon image est dans un sous-dossier nommé 'media', le chemin sera {{1}}/monimage.jpg.",
+      "reponsesAttendues": ["media"]
+    },
+    {
+      "id": "q9",
+      "type": "vrai_faux",
+      "enonce": "Les noms de fichiers sont sensibles à la casse sur la plupart des serveurs (Linux).",
+      "reponse": true
+    },
+    {
+      "id": "q10",
+      "type": "qcm",
+      "enonce": "Pourquoi éviter les chemins absolus locaux (type C:\\...) ?",
+      "options": ["Ils sont trop courts", "Ils ne marcheront pas sur le site en ligne", "Ils sont interdits par le HTML", "Ils ralentissent le PC"],
+      "correctIndex": 1
+    }
+  ]
+}

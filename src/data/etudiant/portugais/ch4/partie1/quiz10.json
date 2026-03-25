@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Cap. 4 P. 1 Síntese",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Na minha {{1}}, a educação {{2}} ser gratuita para todos.",
+      "options": [
+        "opinião / deve",
+        "notícia / pode",
+        "foto / vai",
+        "saudade / tem"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'IA' significa Inteligência Artificial.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu sinto muita {{1}} (nostalgie) do Brasil.",
+      "reponsesAttendues": [
+        "saudade"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el resumen.",
+      "pairs": [
+        {
+          "left": "Mídia",
+          "right": "Jornal, Notícia, Rede Social"
+        },
+        {
+          "left": "Educação",
+          "right": "Vestibular, Diploma, Matrícula"
+        },
+        {
+          "left": "Gramática",
+          "right": "Voz Passiva, Opinião"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'À mon avis, les réseaux sociaux ont beaucoup d'influence'?",
+      "options": [
+        "Na minha opinião, as redes sociais têm muita influência",
+        "Na minha opinião, os jornais têm muita influência",
+        "Eu concordo que as redes sociais não têm influência",
+        "Eu acho que a educação tem"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Conditions Complexes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces codes teste si x est compris entre 1 et 10 (inclus) ?",
+      "options": [
+        "if x >= 1 and x <= 10:",
+        "if x >= 1 or x <= 10:",
+        "if 1 < x < 10:",
+        "if x is between 1 and 10:"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans un 'if condition1 or condition2:', le code s'exécute si au moins l'une des deux est vraie.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour tester si une condition n'est PAS vraie, on utilise le mot-clé {{1}} (not).",
+      "reponsesAttendues": [
+        "not"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'expression à son utilité.",
+      "pairs": [
+        {
+          "left": "if a and b:",
+          "right": "Exige que les deux soient vrais"
+        },
+        {
+          "left": "if a or b:",
+          "right": "Exige qu'un des deux soit vrai"
+        },
+        {
+          "left": "if not a:",
+          "right": "Exige que a soit faux"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si on mélange 'and' et 'or' sans parenthèses ?",
+      "options": [
+        "Python suit un ordre de priorité (and avant or), mais il vaut mieux mettre des parenthèses pour être clair",
+        "Le programme produit une erreur",
+        "Il choisit au hasard",
+        "Il ignore le 'or'"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "At the Airport",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Where do you go first when you arrive at the airport?",
+      "options": [
+        "Check-in desk",
+        "Duty-free shop",
+        "Security control",
+        "The gate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A 'boarding pass' is the ticket that allows you to get onto the plane.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "The place where planes take off and land is called the {{1}}.",
+      "reponsesAttendues": [
+        "runway"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the airport sign with its meaning.",
+      "pairs": [
+        {
+          "left": "Departures",
+          "right": "Flights leaving the airport"
+        },
+        {
+          "left": "Arrivals",
+          "right": "Flights coming into the airport"
+        },
+        {
+          "left": "Baggage claim",
+          "right": "Where you pick up your luggage"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is 'hand luggage'?",
+      "options": [
+        "Small bags you take with you inside the plane",
+        "Big suitcases for the hold",
+        "Bags you carry with your feet",
+        "A type of glove"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

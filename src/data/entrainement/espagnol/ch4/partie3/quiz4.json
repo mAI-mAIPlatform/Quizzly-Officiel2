@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Surrealismo: Dalí y Frida Kahlo",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Quién pintó 'La persistencia de la memoria' (los relojes blandos)?",
+      "options": [
+        "Salvador Dalí",
+        "Joan Miró",
+        "Frida Kahlo",
+        "Diego Rivera"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Frida Kahlo es una pintora mexicana famosa por sus autorretratos.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A Dalí le gustaba mucho su propio {{1}} (elemento facial).",
+      "reponsesAttendues": [
+        "bigote"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Surrealismo.",
+      "pairs": [
+        {
+          "left": "Casa Azul",
+          "right": "Frida Kahlo"
+        },
+        {
+          "left": "Figueras",
+          "right": "Museo Dalí"
+        },
+        {
+          "left": "Sueños",
+          "right": "Inspiración surrealista"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué animal solía acompañar a Dalí en público?",
+      "options": [
+        "Un ocelote",
+        "Un perro",
+        "Un gato",
+        "Un elefante"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

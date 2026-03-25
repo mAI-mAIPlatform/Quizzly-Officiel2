@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "El Verbo Ir (Aller)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Je vais' ?",
+      "options": [
+        "Voy",
+        "Vas",
+        "Va",
+        "Vamos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Tú vas' significa 'Tu vas'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Nous allons' se dice '{{1}}'.",
+      "reponsesAttendues": [
+        "Vamos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Verbo Ir.",
+      "pairs": [
+        {
+          "left": "Él va",
+          "right": "Il va"
+        },
+        {
+          "left": "Ellos van",
+          "right": "Ils vont"
+        },
+        {
+          "left": "Vosotros vais",
+          "right": "Vous allez"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿A dónde vas de vacaciones?",
+      "options": [
+        "Voy a España",
+        "Soy español",
+        "Tengo una maleta",
+        "Como paella"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz17",
+  "titre": "Gender Equality",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is 'gender equality'?",
+      "options": [
+        "Men and women having the same rights, responsibilities and opportunities",
+        "Men and women being exactly the same size",
+        "Everyone wearing the same type of shoes",
+        "A type of very complicated math"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Gender equality is only about women's rights.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ensuring girls can go to school is a key part of gender {{1}}.",
+      "reponsesAttendues": [
+        "equality"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the goal with the action.",
+      "pairs": [
+        {
+          "left": "Equal pay",
+          "right": "Same salary for the same job"
+        },
+        {
+          "left": "Representation",
+          "right": "Women in positions of leadership"
+        },
+        {
+          "left": "Education",
+          "right": "Ensuring all children can finish school"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What does 'empowerment' mean?",
+      "options": [
+        "Giving people the power and confidence to do something",
+        "Turning on a light switch",
+        "Charging a phone battery",
+        "Buying a very fast car"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

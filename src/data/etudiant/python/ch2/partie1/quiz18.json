@@ -1,0 +1,64 @@
+{
+  "id": "quiz18",
+  "titre": "Boucles Imbriquées",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une boucle imbriquée ?",
+      "options": [
+        "Une boucle à l'intérieur d'une autre boucle",
+        "Une boucle qui s'arrête tout de suite",
+        "Une boucle qui ne finit jamais",
+        "Une boucle sans variable"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si la boucle extérieure fait 3 tours et la boucle intérieure 2 tours, le code au centre s'exécutera 6 fois.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans une boucle imbriquée, la boucle {{1}} doit finir tous ses tours avant que la boucle {{2}} ne passe au tour suivant (intérieure / extérieure).",
+      "reponsesAttendues": [
+        "intérieure",
+        "extérieure"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'usage à la structure.",
+      "pairs": [
+        {
+          "left": "Afficher une grille",
+          "right": "Boucles imbriquées (lignes/colonnes)"
+        },
+        {
+          "left": "Table de multiplication",
+          "right": "Boucles imbriquées (nombres x nombres)"
+        },
+        {
+          "left": "Liste simple",
+          "right": "Boucle unique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le danger des boucles trop imbriquées (ex: 4 ou 5 niveaux) ?",
+      "options": [
+        "Le programme peut devenir très lent et difficile à lire",
+        "L'ordinateur va exploser",
+        "C'est interdit",
+        "Le code change de couleur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

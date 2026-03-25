@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Découverte des variables",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel mot-clé moderne utilise-t-on pour déclarer une variable dont la valeur peut changer ?",
+      "options": [
+        "const",
+        "let",
+        "var",
+        "variable"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En JavaScript, une variable déclarée avec 'const' ne peut pas être réassignée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour déclarer une variable, on utilise le mot-clé {{1}}.",
+      "reponsesAttendues": [
+        "let"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le mot-clé à son usage.",
+      "pairs": [
+        {
+          "left": "let",
+          "right": "Variable modifiable"
+        },
+        {
+          "left": "const",
+          "right": "Constante (fixe)"
+        },
+        {
+          "left": "var",
+          "right": "Ancienne méthode (à éviter)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel symbole utilise-t-on pour l'assignation d'une valeur ?",
+      "options": [
+        "==",
+        "=",
+        ":",
+        "->"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

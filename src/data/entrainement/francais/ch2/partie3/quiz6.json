@@ -1,0 +1,64 @@
+{
+  "id": "quiz6",
+  "titre": "Homophones : ces / ses / c'est / s'est",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel signifie 'les siens' ?",
+      "options": [
+        "ses",
+        "ces",
+        "c'est",
+        "s'est"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On utilise 'ces' pour montrer des objets au pluriel.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "{{1}} (Ces/Ses) livres appartiennent à Paul : ce sont {{2}} (ces/ses) affaires.",
+      "reponsesAttendues": [
+        "Ces",
+        "ses"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Choisis l'usage.",
+      "pairs": [
+        {
+          "left": "C'est génial",
+          "right": "Présentation"
+        },
+        {
+          "left": "Il s'est levé",
+          "right": "Passé composé pronominal"
+        },
+        {
+          "left": "Ses mains",
+          "right": "Possession"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Complète : '_____ l'heure où il _____ endormi.'",
+      "options": [
+        "C'est / s'est",
+        "S'est / c'est",
+        "C'est / c'est",
+        "Ses / ces"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

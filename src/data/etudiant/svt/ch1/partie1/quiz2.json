@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Structure interne de la Terre",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la couche la plus superficielle de la Terre ?",
+      "options": [
+        "La croûte terrestre",
+        "Le manteau",
+        "Le noyau externe",
+        "L'atmosphère"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le noyau de la Terre est principalement composé de fer et de nickel.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La couche située entre la croûte et le noyau s'appelle le {{1}}.",
+      "reponsesAttendues": [
+        "manteau"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la couche à son état physique probable.",
+      "pairs": [
+        {
+          "left": "Lithosphère",
+          "right": "Solide et rigide"
+        },
+        {
+          "left": "Asthénosphère",
+          "right": "Solide mais ductile (déformable)"
+        },
+        {
+          "left": "Noyau externe",
+          "right": "Liquide"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on l'augmentation de la température avec la profondeur ?",
+      "options": [
+        "Le gradient géothermique",
+        "La météo souterraine",
+        "L'effet de serre",
+        "La convection d'air"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

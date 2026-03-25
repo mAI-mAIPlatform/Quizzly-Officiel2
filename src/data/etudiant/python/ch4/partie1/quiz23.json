@@ -1,0 +1,66 @@
+{
+  "id": "quiz23",
+  "titre": "Révision : Boucles for",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que fait : for i in range(3): print(i) ?",
+      "options": [
+        "Affiche 0, 1, 2",
+        "Affiche 1, 2, 3",
+        "Affiche 0, 1, 2, 3",
+        "Affiche 3 trois fois"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "range(10, 0, -1) permet de compter à rebours.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour parcourir chaque lettre d'un texte, on utilise : for {{1}} in texte: (lettre / car / x).",
+      "reponsesAttendues": [
+        "lettre",
+        "car",
+        "x",
+        "c"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'appel range() aux nombres générés.",
+      "pairs": [
+        {
+          "left": "range(2)",
+          "right": "0, 1"
+        },
+        {
+          "left": "range(1, 3)",
+          "right": "1, 2"
+        },
+        {
+          "left": "range(0, 10, 5)",
+          "right": "0, 5"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le fait de mettre une boucle dans une boucle ?",
+      "options": [
+        "L'imbrication",
+        "La fusion",
+        "La répétition",
+        "La récursion"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

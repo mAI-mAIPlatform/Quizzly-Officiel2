@@ -1,0 +1,62 @@
+{
+  "id": "quiz3",
+  "titre": "L'Époque Romantique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel compositeur est célèbre pour ses Nocturnes au piano ?",
+      "options": [
+        "Frédéric Chopin",
+        "Franz Liszt",
+        "Robert Schumann",
+        "Giuseppe Verdi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La musique romantique privilégie l'expression des sentiments et des émotions.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Franz {{1}} est célèbre pour ses nombreux Lieder (poèmes chantés).",
+      "reponsesAttendues": [
+        "Schubert"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Liszt",
+          "right": "Virtuose du piano"
+        },
+        {
+          "left": "Wagner",
+          "right": "Drames lyriques"
+        },
+        {
+          "left": "Berlioz",
+          "right": "Symphonie fantastique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle famille d'instruments s'agrandit énormément à l'époque romantique ?",
+      "options": [
+        "L'orchestre symphonique entier",
+        "Seulement les flûtes",
+        "Uniquement les harpes",
+        "Les clavecins"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Fruits and Vegetables",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Which fruit is yellow and long?",
+      "options": [
+        "Banana",
+        "Apple",
+        "Orange",
+        "Strawberry"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A 'Carrot' is a fruit.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "An {{1}} a day keeps the doctor away.",
+      "reponsesAttendues": [
+        "apple"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match colors.",
+      "pairs": [
+        {
+          "left": "Tomato",
+          "right": "Red"
+        },
+        {
+          "left": "Broccoli",
+          "right": "Green"
+        },
+        {
+          "left": "Lemon",
+          "right": "Yellow"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Which vegetable is used to make French Fries?",
+      "options": [
+        "Potato",
+        "Onion",
+        "Cucumber",
+        "Tomato"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

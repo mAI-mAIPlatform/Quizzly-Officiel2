@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "L'Homme et la Biodiversité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle action humaine favorise la reproduction des espèces menacées ?",
+      "options": [
+        "La création de réserves naturelles et de parcs",
+        "L'utilisation massive d'insecticides",
+        "Le bétonnage des zones humides",
+        "L'introduction d'espèces invasives"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Homme peut influencer la reproduction des plantes en créant de nouvelles variétés par sélection.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La lutte contre les insectes nuisibles sans produits chimiques s'appelle la lutte {{1}}.",
+      "reponsesAttendues": [
+        "biologique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'impact à son effet sur la reproduction.",
+      "pairs": [
+        {
+          "left": "Destruction des haies",
+          "right": "Perte de nids et d'abris pour les oiseaux"
+        },
+        {
+          "left": "Lumière nocturne intense",
+          "right": "Perturbation de la reproduction des papillons de nuit"
+        },
+        {
+          "left": "Barrages fluviaux",
+          "right": "Obstacle à la remontée des poissons migrateurs (saumons)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'insémination artificielle utilisée en élevage ?",
+      "options": [
+        "Une technique pour aider à la fécondation sans rencontre directe des parents",
+        "Une façon de nourrir les vaches",
+        "Le fait de peindre les animaux",
+        "La création d'animaux en plastique"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

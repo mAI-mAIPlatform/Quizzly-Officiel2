@@ -1,0 +1,66 @@
+{
+  "id": "quiz28",
+  "titre": "Créer son Module",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pour transformer un fichier Python en module importable, quelle extension doit-il avoir ?",
+      "options": [
+        ".py",
+        ".txt",
+        ".mod",
+        ".exe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si j'ai un fichier 'mes_fonctions.py', je peux l'importer dans un autre fichier avec 'import mes_fonctions'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour que l'import fonctionne simplement, le module doit être dans le même {{1}} que le script principal (dossier / répertoire).",
+      "reponsesAttendues": [
+        "dossier",
+        "répertoire",
+        "repertoire",
+        "folder"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le fichier à son rôle.",
+      "pairs": [
+        {
+          "left": "main.py",
+          "right": "Script principal qui lance le programme"
+        },
+        {
+          "left": "outils.py",
+          "right": "Module contenant des fonctions d'aide"
+        },
+        {
+          "left": "data.json",
+          "right": "Fichier de données (pas un module)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel avantage y a-t-il à séparer son code en plusieurs fichiers (modules) ?",
+      "options": [
+        "C'est plus organisé, plus facile à tester et les modules sont réutilisables",
+        "Le code s'exécute plus vite",
+        "Python compresse les fichiers tout seul",
+        "C'est obligatoire pour dépasser 100 lignes"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

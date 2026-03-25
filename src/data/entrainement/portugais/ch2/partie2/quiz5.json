@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "No Restaurante 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se pede 'La carte / Le menu' ?",
+      "options": [
+        "O menu / A ementa",
+        "A conta",
+        "O garfo",
+        "O prato"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'A conta, por favor' é para pedir para pagar.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O {{1}} (serveur) é simpático.",
+      "reponsesAttendues": [
+        "empregado"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Restaurante.",
+      "pairs": [
+        {
+          "left": "Mesa",
+          "right": "Table"
+        },
+        {
+          "left": "Reserva",
+          "right": "Réservation"
+        },
+        {
+          "left": "Gorjeta",
+          "right": "Pourboire"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Deseja mais alguma coisa?",
+      "options": [
+        "A conta, por favor",
+        "Sou o Pedro",
+        "Dez horas",
+        "Vou dormir"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

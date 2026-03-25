@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "EXAMEN : Structures et Mouvements",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Une équerre de menuisier posée au coin d'un cadre est un...",
+      "options": [
+        "Contreventement / Renfort de structure",
+        "Décoration",
+        "Moteur",
+        "Capteur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'engrenage est une transformation de mouvement.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une maison qui résiste aux tremblements de terre est dite {{1}}.",
+      "reponsesAttendues": [
+        "parasismique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Mix Structure.",
+      "pairs": [
+        {
+          "left": "Traction",
+          "right": "Tirer sur l'objet"
+        },
+        {
+          "left": "Compression",
+          "right": "Appuyer sur l'objet"
+        },
+        {
+          "left": "Translation",
+          "right": "Mouvement en ligne droite"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Félicitations ! Prêt pour la Fin du Programme (P3) ?",
+      "options": [
+        "Oui !",
+        "C'est parti !",
+        "Absolument !",
+        "Révisions P2"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Les Matières Plastiques (Polymères)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "D'où proviennent majoritairement les matières plastiques ?",
+      "options": [
+        "Du pétrole",
+        "De la terre",
+        "Des arbres",
+        "De l'eau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un plastique thermoplastique peut être fondu et remodelé plusieurs fois.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le {{1}} (PolyChlorure de Vinyle) est utilisé pour les tuyaux.",
+      "reponsesAttendues": [
+        "PVC"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Types de plastiques.",
+      "pairs": [
+        {
+          "left": "Thermoplastique",
+          "right": "Recyclable par chaleur"
+        },
+        {
+          "left": "Thermodurcissable",
+          "right": "Rigide, ne fond plus"
+        },
+        {
+          "left": "Élastomère",
+          "right": "Élastique (caoutchouc)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi cherche-t-on à remplacer les plastiques ?",
+      "options": [
+        "Car ils mettent des siècles à se décomposer (pollution)",
+        "Car ils sont trop chers",
+        "Car ils sont trop lourds",
+        "Car ils sont interdits partout"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Música brasileira",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué género musical es famoso por artistas como Tom Jobim?",
+      "options": [
+        "Bossa Nova",
+        "Samba",
+        "Funk",
+        "Rock"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "O 'Samba' nasceu no Rio de Janeiro.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Carmen Miranda era famosa pelo seu chapéu de {{1}} (fruits).",
+      "reponsesAttendues": [
+        "frutas"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el instrumento.",
+      "pairs": [
+        {
+          "left": "Pandeiro",
+          "right": "Tambourin (Samba)"
+        },
+        {
+          "left": "Berimbau",
+          "right": "Capoeira"
+        },
+        {
+          "left": "Cavaquinho",
+          "right": "Petite guitare"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cuál es la canción más emblemática de la Bossa Nova?",
+      "options": [
+        "Garota de Ipanema",
+        "Aquarela do Brasil",
+        "Mas que nada",
+        "Ai se eu te pego"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

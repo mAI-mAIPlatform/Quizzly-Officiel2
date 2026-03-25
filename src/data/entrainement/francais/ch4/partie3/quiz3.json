@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Synthèse : Lexique et Figures",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un synonyme ?",
+      "options": [
+        "Un mot qui a le même sens",
+        "Un mot de sens contraire",
+        "Un mot qui se prononce pareil",
+        "Un mot de 10 lettres"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une métaphore utilise 'comme'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le contraire de 'grand' est {{1}}.",
+      "reponsesAttendues": [
+        "petit"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Identifie la figure.",
+      "pairs": [
+        {
+          "left": "Fort comme un lion",
+          "right": "Comparaison"
+        },
+        {
+          "left": "Une mer de larmes",
+          "right": "Hyperbole"
+        },
+        {
+          "left": "Le vent siffle",
+          "right": "Personnification"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est un antonyme de 'clair' ?",
+      "options": [
+        "Sombre",
+        "Lumineux",
+        "Transparent",
+        "Blanc"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

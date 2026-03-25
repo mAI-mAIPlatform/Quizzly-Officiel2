@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "What time is it?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "How do you say 8:00?",
+      "options": [
+        "Eight o'clock",
+        "Eight hours",
+        "Eight time",
+        "Eight sharp"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "8:30 is 'half past eight'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "8:15 is 'a {{1}} past eight'.",
+      "reponsesAttendues": [
+        "quarter"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the times.",
+      "pairs": [
+        {
+          "left": "8:45",
+          "right": "Quarter TO nine"
+        },
+        {
+          "left": "8:15",
+          "right": "Quarter PAST eight"
+        },
+        {
+          "left": "12:00 (day)",
+          "right": "Midday / Noon"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What time _____ school start?",
+      "options": [
+        "does",
+        "do",
+        "is",
+        "are"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

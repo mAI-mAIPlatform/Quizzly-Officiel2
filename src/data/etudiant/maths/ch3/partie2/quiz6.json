@@ -1,0 +1,63 @@
+{
+  "id": "quiz16",
+  "titre": "Polygones de fréquences",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pour tracer un polygone de fréquences, on relie :",
+      "options": [
+        "Les sommets des bâtons",
+        "Les centres des classes",
+        "Les bases des rectangles",
+        "L'origine à chaque point"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le polygone de fréquences permet de mieux voir la forme de la distribution.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On relie les points par des segments de {{1}}.",
+      "reponsesAttendues": [
+        "droite"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe chaque élément graphique à son rôle.",
+      "pairs": [
+        {
+          "left": "Point",
+          "right": "Couple (Valeur, Effectif)"
+        },
+        {
+          "left": "Segment",
+          "right": "Lien visuel"
+        },
+        {
+          "left": "Axe X",
+          "right": "Le caractère étudié"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si le polygone monte puis descend, cela signifie :",
+      "options": [
+        "Une erreur",
+        "Une valeur centrale plus fréquente",
+        "Que toutes les valeurs sont égales",
+        "Rien"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "quiz6",
+  "titre": "Grandes Découvertes Scientifiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a formulé la théorie de la relativité (E=mc²) ?",
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Stephen Hawking",
+        "Charles Darwin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Charles Darwin est à l'origine de la théorie de l'évolution.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La molécule qui porte notre information génétique est l'{{1}}.",
+      "reponsesAttendues": [
+        "ADN"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Marie Curie",
+          "right": "Radioactivité"
+        },
+        {
+          "left": "Newton",
+          "right": "Gravitation universelle"
+        },
+        {
+          "left": "Galilée",
+          "right": "Héliocentrisme (la Terre tourne)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel domaine étudie les particules infiniment petites (électrons, protons...) ?",
+      "options": [
+        "L'astronomie",
+        "La physique quantique",
+        "La géologie",
+        "La zoologie"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

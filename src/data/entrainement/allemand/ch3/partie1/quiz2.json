@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Möbel 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Le lit' ?",
+      "options": [
+        "Das Bett",
+        "Der Tisch",
+        "Der Stuhl",
+        "Der Schrank"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Der Tisch' ist maskulin.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich sitze auf dem {{1}} (chaise).",
+      "reponsesAttendues": [
+        "Stuhl"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Einrichtung.",
+      "pairs": [
+        {
+          "left": "Regal",
+          "right": "Étagère"
+        },
+        {
+          "left": "Schrank",
+          "right": "Armoire"
+        },
+        {
+          "left": "Lampe",
+          "right": "Lampe"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Wo schläfst du?",
+      "options": [
+        "Im Bett",
+        "Auf dem Tisch",
+        "Im Schrank",
+        "In der Lampe"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

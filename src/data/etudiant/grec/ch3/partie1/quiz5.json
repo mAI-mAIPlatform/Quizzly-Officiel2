@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "L'Expression de la Volonté",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel mode utilise-t-on pour exprimer une invitation (Ex: 'Écrivons !') ?",
+      "options": [
+        "Le subjonctif (hortatif)",
+        "L'indicatif",
+        "L'infinitif",
+        "Le participe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La négation utilisée avec le subjonctif est 'mê' (μή).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ne craignez pas se dit 'Mê {{1}}' (phobêtheîte).",
+      "reponsesAttendues": [
+        "phobêtheîte"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'usage du subjonctif.",
+      "pairs": [
+        {
+          "left": "Graphômen!",
+          "right": "Écrivons ! (Hortatif)"
+        },
+        {
+          "left": "Ti pô?",
+          "right": "Que dirai-je ? (Délibératif)"
+        },
+        {
+          "left": "Mê graphêis",
+          "right": "N'écris pas (Défense)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la négation de 'ômen' (soyons) ?",
+      "options": [
+        "mê ômen",
+        "ou ômen",
+        "oukh ômen",
+        "oude ômen"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "La Nationalité Française",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'droit du sang' ?",
+      "options": [
+        "On est Français si au moins l'un des parents est Français",
+        "On est Français si on donne son sang",
+        "On est Français si on est né dans un hôpital",
+        "C'est une règle de médecine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'droit du sol' permet à un enfant né en France de parents étrangers de devenir Français sous conditions.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Posséder la nationalité française donne le droit de {{1}} (voter).",
+      "reponsesAttendues": [
+        "voter"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le mode d'acquisition à sa définition.",
+      "pairs": [
+        {
+          "left": "Filiation",
+          "right": "Par les parents (droit du sang)"
+        },
+        {
+          "left": "Mariage",
+          "right": "Après 4 ans de vie commune avec un(e) Français(e)"
+        },
+        {
+          "left": "Naissance en France",
+          "right": "Droit du sol (sous conditions de résidence)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "À quel âge la nationalité française s'acquiert-elle automatiquement par le droit du sol ?",
+      "options": [
+        "18 ans (si résidence en France depuis ses 11 ans)",
+        "Dès la naissance",
+        "À 10 ans",
+        "À 30 ans"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

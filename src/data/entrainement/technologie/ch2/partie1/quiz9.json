@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Design et Esthétique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le design industriel ?",
+      "options": [
+        "Lier l'esthétique, la fonction et la fabrication de l'objet",
+        "Juste dessiner des jolies formes",
+        "Vendre des produits chers",
+        "Le plan de l'usine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'apparence d'un objet (couleur, forme) influe sur le choix du consommateur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'objet doit être {{1}} (facile et intuitif à utiliser).",
+      "reponsesAttendues": [
+        "ergonomique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Styles Design.",
+      "pairs": [
+        {
+          "left": "Minimalisme",
+          "right": "Épuré, simple (Apple)"
+        },
+        {
+          "left": "Futurisme",
+          "right": "Formes dynamiques, technologiques"
+        },
+        {
+          "left": "Rétro",
+          "right": "Inspiré du passé"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel métier s'occupe de l'aspect extérieur de l'objet ?",
+      "options": [
+        "Le designer",
+        "L'ingénieur structure",
+        "Le comptable",
+        "L'ouvrier de chaîne"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

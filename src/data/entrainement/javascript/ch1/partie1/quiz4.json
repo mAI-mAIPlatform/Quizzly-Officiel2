@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Arithmétique simple",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel symbole utilise-t-on pour la multiplication ?",
+      "options": [
+        "x",
+        "*",
+        "&",
+        "multi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'opérateur '/' permet de calculer le quotient d'une division.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'opération 10 + 5 donne {{1}}.",
+      "reponsesAttendues": [
+        "15"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'opérateur à son nom.",
+      "pairs": [
+        {
+          "left": "+",
+          "right": "Addition"
+        },
+        {
+          "left": "-",
+          "right": "Soustraction"
+        },
+        {
+          "left": "**",
+          "right": "Exposant (Puissance)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que vaut 2 * 3 + 4 ?",
+      "options": [
+        "14",
+        "10",
+        "24",
+        "9"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

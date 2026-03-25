@@ -1,0 +1,63 @@
+{
+  "id": "quiz12",
+  "titre": "Tech at Home",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is a 'voice assistant'?",
+      "options": [
+        "A device that responds to spoken commands (ex: Alexa)",
+        "A person who helps you speak",
+        "A type of microphone used in recording studios",
+        "A robot that only cleans floors"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A 'smart fridge' can tell you when you are low on milk.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "The technology that connects all home devices to the internet is the {{1}} of Things (IoT).",
+      "reponsesAttendues": [
+        "Internet"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the home tech with its function.",
+      "pairs": [
+        {
+          "left": "Smart thermostat",
+          "right": "Controls the temperature automatically"
+        },
+        {
+          "left": "Smart lock",
+          "right": "Allows you to open your door with a phone"
+        },
+        {
+          "left": "Robot vacuum",
+          "right": "Cleans the floor without help"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is a disadvantage of a smart home?",
+      "options": [
+        "Risks of hacking and privacy issues",
+        "It is too quiet",
+        "It uses too many plants",
+        "The light is too bright"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

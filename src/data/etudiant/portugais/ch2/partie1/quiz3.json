@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "O Gerúndio",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es la terminación del gerundio para -AR (es. Falando)?",
+      "options": [
+        "-ando",
+        "-endo",
+        "-indo",
+        "-ondo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El gerundio se forma con ESTAR + gerundio (es. Estou comendo).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Maria está {{1}} um livro (lire/ler).",
+      "reponsesAttendues": [
+        "lendo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el gerundio.",
+      "pairs": [
+        {
+          "left": "Trabalhar",
+          "right": "Trabalhando"
+        },
+        {
+          "left": "Dormir",
+          "right": "Dormindo"
+        },
+        {
+          "left": "Partir",
+          "right": "Partindo"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice '¿Qué estás haciendo?'?",
+      "options": [
+        "O que você está fazendo?",
+        "O que você faz?",
+        "O que você estará fazendo?",
+        "O que você tem fazendo?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

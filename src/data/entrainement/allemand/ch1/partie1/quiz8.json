@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Höfliche Anrede (Politesse formelle)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie fragt man 'Comment allez-vous ?' (poli)",
+      "options": [
+        "Wie geht es Ihnen?",
+        "Wie geht es dir?",
+        "Wie geht es euch?",
+        "Wie geht es uns?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Frau' bedeutet 'Madame'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Monsieur' se dice Herr {{1}}.",
+      "reponsesAttendues": [
+        "Schmidt"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Formen.",
+      "pairs": [
+        {
+          "left": "Du",
+          "right": "Tu (familier)"
+        },
+        {
+          "left": "Sie",
+          "right": "Vous (formel)"
+        },
+        {
+          "left": "Euch",
+          "right": "Vous (pluriel familier)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Kennen Sie Herrn Müller?'",
+      "options": [
+        "Connaissez-vous M. Müller ?",
+        "Connais-tu M. Müller ?",
+        "Qui est M. Müller ?",
+        "Où est M. Müller ?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

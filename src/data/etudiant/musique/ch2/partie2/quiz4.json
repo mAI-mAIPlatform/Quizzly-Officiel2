@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "La Clarinette",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel type d'anche possède la clarinette ?",
+      "options": [
+        "Une anche simple",
+        "Une anche double",
+        "Un biseau",
+        "Des cordes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La clarinette est un instrument très polyvalent, utilisé aussi bien dans le classique que dans le jazz.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La grande clarinette courbe qui descend très bas dans les graves est la clarinette {{1}} (basse).",
+      "reponsesAttendues": [
+        "basse"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la partie de la clarinette à son rôle.",
+      "pairs": [
+        {
+          "left": "Bec",
+          "right": "Partie où l'on pose l'anche et que l'on met en bouche"
+        },
+        {
+          "left": "Pavillon",
+          "right": "Extrémité évasée qui diffuse le son"
+        },
+        {
+          "left": "Ligature",
+          "right": "Bague servant à fixer l'anche sur le bec"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel bois précieux est souvent utilisé pour fabriquer les clarinettes professionnelles ?",
+      "options": [
+        "L'ébène",
+        "Le sapin",
+        "Le chêne",
+        "Le bambou"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

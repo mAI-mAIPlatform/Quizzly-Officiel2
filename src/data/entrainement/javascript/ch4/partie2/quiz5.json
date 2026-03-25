@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Récupérer le résultat",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment stocker le résultat d'une fonction dans une variable ?",
+      "options": [
+        "let x = maFonction()",
+        "maFonction() = let x",
+        "let x == maFonction()",
+        "get maFonction() in x"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une fonction peut renvoyer n'importe quel type de donnée (objet, tableau, etc.).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour utiliser le résultat, il faut que la fonction utilise le mot-clé {{1}}.",
+      "reponsesAttendues": [
+        "return"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'expression.",
+      "pairs": [
+        {
+          "left": "alert(f())",
+          "right": "Affiche le retour de f"
+        },
+        {
+          "left": "let s = sum(2, 2)",
+          "right": "s vaudra 4"
+        },
+        {
+          "left": "if(check())",
+          "right": "Condition basée sur le retour (booléen)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on mettre plusieurs 'return' dans une fonction ?",
+      "options": [
+        "Non, un seul",
+        "Oui, par exemple dans des blocs if/else",
+        "Seulement si on utilise switch",
+        "Uniquement au début"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

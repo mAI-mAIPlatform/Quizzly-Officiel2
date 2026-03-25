@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "La structure de la pièce",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Combien d'actes compte une grande tragédie classique ?",
+      "options": [
+        "5",
+        "3",
+        "1",
+        "10"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'acte 1 contient la scène d'exposition.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le moment où l'action bascule inévitablement s'appelle le {{1}}.",
+      "reponsesAttendues": [
+        "nœud"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'étape de la pièce à son rôle.",
+      "pairs": [
+        {
+          "left": "Exposition",
+          "right": "Informe sur la situation"
+        },
+        {
+          "left": "Péripéties",
+          "right": "Action et obstacles"
+        },
+        {
+          "left": "Dénouement",
+          "right": "Fin (souvent funeste)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie le mot 'dénouement' ?",
+      "options": [
+        "Dénouer les fils de l'intrigue",
+        "Attacher les personnages",
+        "Le début de l'histoire",
+        "Le repos des acteurs"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

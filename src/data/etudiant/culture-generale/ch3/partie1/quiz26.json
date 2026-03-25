@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Télévision et Séries",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans les années 1950, quelle était la principale caractéristique de la télévision dans les foyers ?",
+      "options": [
+        "Elle était en noir et blanc",
+        "Elle était en 4K Ultra HD",
+        "Elle était portable dans la poche",
+        "Elle n'existait pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le terme 'Série TV' désigne une œuvre de fiction composée de plusieurs épisodes liés entre eux.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le moment où un épisode se termine sur un suspense insupportable pour donner envie de voir la suite est un {{1}} (cliffhanger).",
+      "reponsesAttendues": [
+        "cliffhanger"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme à son domaine.",
+      "pairs": [
+        {
+          "left": "Audimat / Médiamétrie",
+          "right": "Mesure du nombre de téléspectateurs"
+        },
+        {
+          "left": "Prime Time",
+          "right": "Début de soirée, moment de plus forte audience"
+        },
+        {
+          "left": "Replay",
+          "right": "Service permettant de revoir une émission après sa diffusion"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Spin-off' ?",
+      "options": [
+        "Une nouvelle série dérivée d'une série existante centrée sur un personnage",
+        "Une télécommande cassée",
+        "Le dernier épisode d'une série",
+        "Une publicité très longue"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

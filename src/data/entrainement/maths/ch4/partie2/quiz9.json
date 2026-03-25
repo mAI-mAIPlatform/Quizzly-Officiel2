@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Problèmes mis en équation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Un nombre 'n' augmenté de 10 est égal à 25. Quelle est l'équation ?",
+      "options": [
+        "10n = 25",
+        "n + 10 = 25",
+        "n - 10 = 25",
+        "25 + n = 10"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si x est l'âge d'un enfant, son âge dans 5 ans est x + 5.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le triple d'un nombre x est l'expression {{1}}x.",
+      "reponsesAttendues": [
+        "3"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Traduis l'énoncé.",
+      "pairs": [
+        {
+          "left": "La moitié de x",
+          "right": "x / 2"
+        },
+        {
+          "left": "Le double de x",
+          "right": "2x"
+        },
+        {
+          "left": "Le carré de x",
+          "right": "x²"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "J'achète x stylos à 2€ l'un et un carnet à 5€. Quel est le prix total ?",
+      "options": [
+        "7x",
+        "2x + 5",
+        "5x + 2",
+        "10x"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

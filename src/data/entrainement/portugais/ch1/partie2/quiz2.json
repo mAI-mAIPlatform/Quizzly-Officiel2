@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Números 20-100",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Cinquante' ?",
+      "options": [
+        "Cinquenta",
+        "Quarenta",
+        "Sessenta",
+        "Setenta"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Cem' significa 100.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vinte e {{1}} (un).",
+      "reponsesAttendues": [
+        "um"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dezenas.",
+      "pairs": [
+        {
+          "left": "Trinta",
+          "right": "30"
+        },
+        {
+          "left": "Oitenta",
+          "right": "80"
+        },
+        {
+          "left": "Noventa",
+          "right": "90"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qual é maior?",
+      "options": [
+        "Setenta",
+        "Sessenta",
+        "Cinquenta",
+        "Quarenta"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

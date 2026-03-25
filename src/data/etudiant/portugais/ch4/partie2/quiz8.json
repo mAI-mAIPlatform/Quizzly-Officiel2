@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Gírias e Expressões",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué significa la expresión 'E aí?'?",
+      "options": [
+        "¿Qué pasa? / ¿Cómo estás?",
+        "Adiós",
+        "Gracias",
+        "Dámelo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Legal' quer dizer 'Cool' ou 'Muito bom'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Em Minas Gerais, as pessoas dizem: {{1}} (uai).",
+      "reponsesAttendues": [
+        "uai"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la expressão.",
+      "pairs": [
+        {
+          "left": "Valeu!",
+          "right": "Merci ! (Slang)"
+        },
+        {
+          "left": "Cara",
+          "right": "Mec / Type"
+        },
+        {
+          "left": "Massa!",
+          "right": "Super ! / Génial !"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'pão-duro'?",
+      "options": [
+        "Tacaño / Agarrado",
+        "Pan viejo",
+        "Fuerte",
+        "Simpático"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

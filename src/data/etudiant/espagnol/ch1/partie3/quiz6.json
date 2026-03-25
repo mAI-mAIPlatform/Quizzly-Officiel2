@@ -1,0 +1,63 @@
+{
+  "id": "quiz26",
+  "titre": "Los comparativos",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Plus que' en español?",
+      "options": [
+        "Más ... que",
+        "Menos ... que",
+        "Tan ... como",
+        "Muy que"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Para la igualdad, se usa 'Tan ... como' con un adjetivo.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Este hotel es {{1}} caro que el otro (moins).",
+      "reponsesAttendues": [
+        "menos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el comparativo.",
+      "pairs": [
+        {
+          "left": "Mejor que",
+          "right": "Meilleur que"
+        },
+        {
+          "left": "Peor que",
+          "right": "Pire que"
+        },
+        {
+          "left": "Mayor que",
+          "right": "Plus grand / âgé que"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cuál es la forma correcta de igualdad ?",
+      "options": [
+        "Tan divertido como",
+        "Tanto divertido como",
+        "Más divertido como",
+        "Muy divertido que"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

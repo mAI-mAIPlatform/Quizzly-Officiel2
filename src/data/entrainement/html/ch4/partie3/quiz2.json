@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Les Attributs ARIA",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie ARIA ?",
+      "options": [
+        "Accessible Rich Internet Applications",
+        "Advanced Responsive Interface Area",
+        "Array React Interface Accessibility",
+        "Aucune idée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "aria-label donne une description textuelle à un élément qui n'en a pas (ex: icône).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour cacher un élément aux lecteurs d'écran, on utilise aria-{{1}}='true'.",
+      "reponsesAttendues": [
+        "hidden"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "ARIA Propriétés.",
+      "pairs": [
+        {
+          "left": "aria-labelledby",
+          "right": "Lie à un ID de texte"
+        },
+        {
+          "left": "aria-describedby",
+          "right": "Fournit une info longue"
+        },
+        {
+          "left": "aria-live",
+          "right": "Annonce les changements en direct"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la 'première règle d'ARIA' ?",
+      "options": [
+        "Si tu peux utiliser une balise HTML native (ex: <button>), fais-le !",
+        "Utilise ARIA partout",
+        "Change toutes les div en span",
+        "Ne l'utilise jamais"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

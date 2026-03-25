@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Racines de la Politique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'Demos' dans 'Démocratie' ?",
+      "options": [
+        "Le peuple",
+        "Le pouvoir",
+        "La cité",
+        "La loi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Kratos' signifie 'Le pouvoir' ou 'La force'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La cité grecque se dit la {{1}} (Polis).",
+      "reponsesAttendues": [
+        "Polis"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la racine au régime.",
+      "pairs": [
+        {
+          "left": "Monos",
+          "right": "Seul (Monarchie)"
+        },
+        {
+          "left": "Oligos",
+          "right": "Peu nombreux (Oligarchie)"
+        },
+        {
+          "left": "Aristos",
+          "right": "Les meilleurs (Aristocratie)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Nomos' ?",
+      "options": [
+        "La loi",
+        "Le nom",
+        "Le territoire",
+        "Le temple"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

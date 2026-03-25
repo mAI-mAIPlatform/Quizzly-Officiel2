@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Souvenirs und Shopping",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Cadeau' ?",
+      "options": [
+        "Das Geschenk",
+        "Das Souvenir",
+        "Die Tasche",
+        "Der Euro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Andenken' ist ein anderes Wort für Souvenir.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich kaufe eine {{1}} (carte postale).",
+      "reponsesAttendues": [
+        "Postkarte"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Shopping.",
+      "pairs": [
+        {
+          "left": "Kaufen",
+          "right": "Acheter"
+        },
+        {
+          "left": "Verkaufen",
+          "right": "Vendre"
+        },
+        {
+          "left": "Bezahlen",
+          "right": "Payer"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Was kaufst du für deine Familie?",
+      "options": [
+        "Ich kaufe Magnete",
+        "Ich kaufe einen Stuhl",
+        "Ich bin ein Geschenk",
+        "Hallo Familie"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

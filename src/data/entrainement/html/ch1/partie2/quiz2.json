@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "En-têtes et Titres de tableaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise définit une cellule d'en-tête ?",
+      "options": [
+        "<th>",
+        "<head>",
+        "<thead>",
+        "<title>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Par défaut, le texte dans <th> est centré et en gras.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise {{1}} permet de donner un titre visible au tableau.",
+      "reponsesAttendues": [
+        "caption"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Signification des balises.",
+      "pairs": [
+        {
+          "left": "th",
+          "right": "Table Header"
+        },
+        {
+          "left": "caption",
+          "right": "Légende du tableau"
+        },
+        {
+          "left": "td",
+          "right": "Table Data"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où se place généralement la balise <caption> ?",
+      "options": [
+        "Juste après l'ouverture de <table>",
+        "Avant de fermer </table>",
+        "À l'intérieur d'un <td>",
+        "Dans le <head> de la page"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

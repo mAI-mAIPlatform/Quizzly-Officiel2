@@ -1,0 +1,70 @@
+{
+  "id": "quiz4",
+  "titre": "Header and Footer",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise représente l'en-tête d'une page ou d'une section ?",
+      "options": ["<head>", "<header>", "<top>", "<banner>"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un <header> peut contenir le logo et le menu de navigation.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise {{1}} se trouve généralement tout en bas de la page.",
+      "reponsesAttendues": ["footer"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que met-on habituellement dans un <footer> ?",
+      "options": ["Le titre principal", "Les mentions légales, copyrights et liens de contact", "Les publicités", "Le menu principal uniquement"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Il ne peut y avoir qu'un seul <header> par page.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "On peut mettre un <header> à l'intérieur d'un <article>.",
+      "options": ["Oui", "Non", "Seulement en HTML4", "Uniquement sur mobile"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "vrai_faux",
+      "enonce": "Le <footer> peut contenir une balise <address>.",
+      "reponse": true
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "Le <header> ne doit pas être confondu avec la balise <{{1}}> qui contient les métadonnées.",
+      "reponsesAttendues": ["head"]
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "L'usage de <header> et <footer> aide-t-il le SEO ?",
+      "options": ["Non", "Oui, en clarifiant la structure globale du document", "Seulement pour Google Images", "Uniquement pour le mode sombre"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut mettre un formulaire dans un <header>.",
+      "reponse": true
+    }
+  ]
+}

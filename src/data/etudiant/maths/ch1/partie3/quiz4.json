@@ -1,0 +1,63 @@
+{
+  "id": "quiz24",
+  "titre": "Fractions et proportions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans un mélange de 10 litres, il y a 2 litres de sirop. Quelle est la proportion de sirop ?",
+      "options": [
+        "1/10",
+        "1/5",
+        "1/2",
+        "2/5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si 3 personnes sur 10 fument, la proportion est de 30%.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un quart de 100 est {{1}}.",
+      "reponsesAttendues": [
+        "25"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la proportion à la fraction irréductible.",
+      "pairs": [
+        {
+          "left": "25 sur 100",
+          "right": "1/4"
+        },
+        {
+          "left": "2 sur 10",
+          "right": "1/5"
+        },
+        {
+          "left": "50 sur 200",
+          "right": "1/4"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Une urne contient 3 boules rouges et 7 boules bleues. Proportion de boules rouges ?",
+      "options": [
+        "3/7",
+        "3/10",
+        "7/10",
+        "1/3"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

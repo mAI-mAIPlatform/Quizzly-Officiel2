@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Trabalho e Escola",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Aller au travail' ?",
+      "options": [
+        "Ir para o trabalho",
+        "Ir para a cama",
+        "Ir para a escola",
+        "Ir para casa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Estudar' é o que os alunos fazem.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu apanho o {{1}} (bus) para a escola.",
+      "reponsesAttendues": [
+        "autocarro"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Locais.",
+      "pairs": [
+        {
+          "left": "Escritório",
+          "right": "Bureau"
+        },
+        {
+          "left": "Sala de aula",
+          "right": "Salle de classe"
+        },
+        {
+          "left": "Universidade",
+          "right": "Université"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Onde trabalhas?",
+      "options": [
+        "Trabalho num banco",
+        "Trabalho na cozinha",
+        "Sou estudante",
+        "Olá"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

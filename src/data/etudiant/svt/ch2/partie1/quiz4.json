@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "La Pollinisation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la pollinisation ?",
+      "options": [
+        "Le transport des grains de pollen de l'étamine vers le pistil",
+        "La fabrication de miel par les abeilles",
+        "Le fait de planter des graines dans le sol",
+        "La chute des feuilles en automne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le vent est un agent de pollinisation pour certaines plantes comme le blé.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les insectes qui transportent le pollen sont appelés des insectes {{1}}.",
+      "reponsesAttendues": [
+        "pollinisateurs"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la partie de la fleur à sa fonction.",
+      "pairs": [
+        {
+          "left": "Pétale",
+          "right": "Attire les insectes par sa couleur"
+        },
+        {
+          "left": "Sépale",
+          "right": "Protège le bouton floral"
+        },
+        {
+          "left": "Nectar",
+          "right": "Récompense sucrée pour le pollinisateur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi la disparition des abeilles inquiète-t-elle les scientifiques ?",
+      "options": [
+        "Parce qu'elles assurent la reproduction de 80 % des plantes à fleurs",
+        "Parce que le miel va devenir bleu",
+        "Parce qu'elles empêchent le vent de souffler",
+        "Elles n'ont aucun rôle important"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

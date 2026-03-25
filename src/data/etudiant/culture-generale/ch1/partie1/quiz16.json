@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "L'Invention de l'Imprimerie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a inventé l'imprimerie à caractères mobiles en Europe vers 1450 ?",
+      "options": [
+        "Johannes Gutenberg",
+        "Léonard de Vinci",
+        "Marco Polo",
+        "Bill Gates"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Avant l'imprimerie, les livres étaient recopiés à la main par des moines (les moines copistes).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le premier livre majeur imprimé par Gutenberg a été la {{1}} (Bible).",
+      "reponsesAttendues": [
+        "Bible"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'élément technique de l'imprimerie à son rôle.",
+      "pairs": [
+        {
+          "left": "Caractère mobile",
+          "right": "Lettre en métal réutilisable pour former des mots"
+        },
+        {
+          "left": "Presse",
+          "right": "Machine servant à écraser la feuille sur les lettres encrées"
+        },
+        {
+          "left": "Encre grasse",
+          "right": "Substance qui adhère bien au métal pour marquer le papier"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle fut la conséquence majeure de cette invention ?",
+      "options": [
+        "La diffusion rapide des connaissances et des idées nouvelles",
+        "L'arrêt total de la lecture",
+        "L'augmentation du prix des livres",
+        "La fin de l'écriture"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

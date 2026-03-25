@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Autres Couleurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'Marrone' ?",
+      "options": [
+        "Marron",
+        "Mauve",
+        "Magenta",
+        "Marine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Arancione' vient du mot 'arancia' (orange).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le 'Gris' se dit '{{1}}'.",
+      "reponsesAttendues": [
+        "grigio"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la couleur.",
+      "pairs": [
+        {
+          "left": "Rose",
+          "right": "Rosa"
+        },
+        {
+          "left": "Violet",
+          "right": "Viola"
+        },
+        {
+          "left": "Argent",
+          "right": "Argento"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Céleste' (bleu ciel) ?",
+      "options": [
+        "Celeste",
+        "Azzurro",
+        "Blu chiaro",
+        "Tous sont possibles"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

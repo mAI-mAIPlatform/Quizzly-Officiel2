@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Biodiversité et équilibre",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi la biodiversité est-elle importante pour un écosystème ?",
+      "options": [
+        "Pour faire de jolies photos",
+        "Elle assure la stabilité et le bon fonctionnement de l'ensemble",
+        "Pour qu'il y ait plus d'animaux à manger",
+        "Elle n'est pas importante"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si une espèce disparaît, tout l'écosystème peut être déséquilibré.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La disparition d'un grand prédateur peut entraîner la {{1}} de ses proies.",
+      "reponsesAttendues": [
+        "prolifération"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le rôle à l'espèce.",
+      "pairs": [
+        {
+          "left": "Plante verte",
+          "right": "Producteur (crée de la matière)"
+        },
+        {
+          "left": "Loup",
+          "right": "Régulateur des populations"
+        },
+        {
+          "left": "Abeille",
+          "right": "Pollinisateur (reproduction)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qui menace le plus la biodiversité aujourd'hui ?",
+      "options": [
+        "Les activités humaines (pollution, destruction d'habitats)",
+        "Le mauvais temps",
+        "Les tremblements de terre",
+        "Le chant du coq"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

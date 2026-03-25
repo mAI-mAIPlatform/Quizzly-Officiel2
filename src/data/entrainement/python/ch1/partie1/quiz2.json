@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "L'Indentation : La règle d'or",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert l'indentation (le décalage) en Python ?",
+      "options": [
+        "C'est juste pour faire joli",
+        "Elle définit les blocs de code",
+        "Elle remplace les points-virgules",
+        "Elle ralentit le programme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une mauvaise indentation provoque une erreur en Python.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'indentation standard en Python est de {{1}} espaces.",
+      "reponsesAttendues": [
+        "4"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Vrai ou Faux Indentation ?",
+      "pairs": [
+        {
+          "left": "Correct",
+          "right": "Décalage régulier"
+        },
+        {
+          "left": "Incorrect",
+          "right": "Mélange d'espaces et tabulations"
+        },
+        {
+          "left": "Obligatoire",
+          "right": "Après un colon (:)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel symbole précède souvent un bloc indenté ?",
+      "options": [
+        ":",
+        ";",
+        "{",
+        "("
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

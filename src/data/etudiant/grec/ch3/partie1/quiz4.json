@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Le Subjonctif présent",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la particularité visuelle du subjonctif présent ?",
+      "options": [
+        "L'allongement de la voyelle de liaison (ô / ê)",
+        "L'ajout d'un préfixe e-",
+        "L'ajout d'un sigma",
+        "Il n'y a pas de voyelle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Graphêis' (γράφῃς) est la 2ème personne du singulier du subjonctif présent.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Que nous écrivions se dit {{1}} (graphômen / γράφωμεν).",
+      "reponsesAttendues": [
+        "graphômen"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la personne (subjonctif).",
+      "pairs": [
+        {
+          "left": "graphêi",
+          "right": "Qu'il écrive"
+        },
+        {
+          "left": "graphête",
+          "right": "Que vous écriviez"
+        },
+        {
+          "left": "graphôsi",
+          "right": "Qu'ils écrivent"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le subjonctif de 'eimi' (être) à la 1ère personne du singulier ?",
+      "options": [
+        "ô (ὦ)",
+        "ês",
+        "êi",
+        "ômen"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Le Suffrage Universel",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le suffrage universel ?",
+      "options": [
+        "Le droit de vote pour tous les citoyens majeurs",
+        "Le droit de vote réservé aux plus riches",
+        "L'obligation de voter pour un seul parti",
+        "Une taxe sur les élections"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En France, les femmes ont obtenu le droit de vote en 1944.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'âge de la majorité civile et du droit de vote en France est de {{1}} (18) ans.",
+      "reponsesAttendues": [
+        "18"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'étape du vote à son nom.",
+      "pairs": [
+        {
+          "left": "L'Isoloir",
+          "right": "Lieu pour choisir son bulletin en secret"
+        },
+        {
+          "left": "L'Urne",
+          "right": "Boîte où l'on dépose son enveloppe"
+        },
+        {
+          "left": "L'Émargement",
+          "right": "Signature sur la liste après avoir voté"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le fait de ne pas aller voter ?",
+      "options": [
+        "L'abstention",
+        "Le vote blanc",
+        "Le vote nul",
+        "La démission"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

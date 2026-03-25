@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Impact des ressources sur les cycles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi certaines espèces ne se reproduisent-elles qu'au printemps ?",
+      "options": [
+        "Parce qu'ils sont fatigués avant",
+        "Pour que les petits bénéficient de ressources abondantes (nourriture)",
+        "Par hasard",
+        "À cause du calendrier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les variations saisonnières influencent les cycles de reproduction.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le moment où l'ovule est prêt à être fécondé s'appelle l'{{1}}.",
+      "reponsesAttendues": [
+        "ovulation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la stratégie de reproduction.",
+      "pairs": [
+        {
+          "left": "Beaucoup de petits",
+          "right": "Peu de soins parentaux (ex: poisson)"
+        },
+        {
+          "left": "Peu de petits",
+          "right": "Grands soins parentaux (ex: mammifère)"
+        },
+        {
+          "left": "Saisonnier",
+          "right": "Adapté aux ressources du milieu"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le but des stratégies de reproduction ?",
+      "options": [
+        "Devenir célèbre",
+        "Assurer la survie d'au moins quelques descendants",
+        "Faire plaisir à la nature",
+        "S'amuser"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

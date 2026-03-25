@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Avverbi di frequenza",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Siempre'?",
+      "options": [
+        "Sempre",
+        "Spesso",
+        "Raramente",
+        "Mai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Mai' (nunca) se suele usar con 'non' (es. Non mangio mai...).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vado {{1}} al cinema (souvent).",
+      "reponsesAttendues": [
+        "spesso"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la frecuencia.",
+      "pairs": [
+        {
+          "left": "Qualche volta",
+          "right": "Quelquefois"
+        },
+        {
+          "left": "Di solito",
+          "right": "D'habitude"
+        },
+        {
+          "left": "Ogni giorno",
+          "right": "Chaque jour"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'raramente'?",
+      "options": [
+        "Rara vez",
+        "A menudo",
+        "Siempre",
+        "Nunca"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

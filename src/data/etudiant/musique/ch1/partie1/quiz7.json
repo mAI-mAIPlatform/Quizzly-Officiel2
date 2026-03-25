@@ -1,0 +1,64 @@
+{
+  "id": "quiz7",
+  "titre": "L. van Beethoven",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Ludwig van Beethoven marque la transition entre quelles époques ?",
+      "options": [
+        "Le Classicisme et le Romantisme",
+        "Le Baroque et le Classicisme",
+        "Le Moyen-Âge et la Renaissance",
+        "Le Jazz et le Rock"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Beethoven a continué de composer alors qu'il devenait sourd.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La 9ème symphonie de Beethoven se termine par l'Hymne à la {{1}} (joie), devenu l'hymne européen.",
+      "reponsesAttendues": [
+        "joie",
+        "Joie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'œuvre de Beethoven à son détail.",
+      "pairs": [
+        {
+          "left": "La 5ème Symphonie",
+          "right": "Le célèbre thème 'Pom pom pom pom...'"
+        },
+        {
+          "left": "La 6ème Symphonie",
+          "right": "La 'Pastorale', évoquant la nature"
+        },
+        {
+          "left": "Lettre à Élise",
+          "right": "Une pièce courte pour piano très célèbre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Combien de symphonies Beethoven a-t-il composées ?",
+      "options": [
+        "9",
+        "41",
+        "104",
+        "32"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

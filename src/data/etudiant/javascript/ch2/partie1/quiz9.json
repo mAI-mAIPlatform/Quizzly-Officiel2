@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Listes vs Tableaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le type d'objet renvoyé par querySelectorAll ?",
+      "options": [
+        "Une NodeList",
+        "Un Array (Tableau)",
+        "Une String",
+        "Un Number"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une NodeList possède la méthode forEach() comme les tableaux.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour transformer une NodeList en vrai Tableau, on utilise Array.{{1}}(maListe) (from).",
+      "reponsesAttendues": [
+        "from"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la méthode au type de retour.",
+      "pairs": [
+        {
+          "left": "querySelectorAll",
+          "right": "NodeList"
+        },
+        {
+          "left": "getElementsByTagName",
+          "right": "HTMLCollection"
+        },
+        {
+          "left": "[1, 2, 3]",
+          "right": "Array"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la différence majeure d'une HTMLCollection ?",
+      "options": [
+        "Elle est 'vivante' (se met à jour si le DOM change) mais n'a pas forEach",
+        "Elle est plus rapide",
+        "Elle est en couleur",
+        "Elle n'existe plus"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

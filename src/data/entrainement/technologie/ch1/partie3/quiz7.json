@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Variables et Conditions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une variable ?",
+      "options": [
+        "Une mémoire nommée qui stocke une valeur",
+        "Un fil électrique",
+        "Une roue",
+        "Une boîte vide"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une condition (Si... Alors) permet au système de s'adapter.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'instruction '{{1}}' permet d'attendre un certain temps.",
+      "reponsesAttendues": [
+        "attendre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Logique Programmation.",
+      "pairs": [
+        {
+          "left": "Si bouton pressé",
+          "right": "Test conditionnel"
+        },
+        {
+          "left": "Répéter indéfiniment",
+          "right": "Boucle infinie"
+        },
+        {
+          "left": "Score = Score + 1",
+          "right": "Incrémentation"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si la condition du losange est fausse ?",
+      "options": [
+        "Le programme suit le chemin 'Non'",
+        "Le programme s'arrête",
+        "Le programme redémarre",
+        "Rien ne change"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

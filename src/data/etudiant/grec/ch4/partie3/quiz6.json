@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Examen : Parfait et Modes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Le redoublement signale quel temps ?",
+      "options": [
+        "Le parfait",
+        "Le présent",
+        "L'imparfait",
+        "L'aoriste"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le subjonctif se reconnaît à l'allongement de sa voyelle thématique (ô, ê).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'optatif se reconnaît par la présence d'un {{1}} (iota) dans sa terminaison.",
+      "reponsesAttendues": [
+        "iota"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la forme au mode.",
+      "pairs": [
+        {
+          "left": "paideuômen",
+          "right": "Subjonctif (Que nous éduquions)"
+        },
+        {
+          "left": "paideuoimen",
+          "right": "Optatif (Pussions-nous éduquer)"
+        },
+        {
+          "left": "paideuête",
+          "right": "Indicatif (Ou Subjonctif)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'exprime l'optatif seul (sans 'an') ?",
+      "options": [
+        "Le souhait",
+        "L'ordre",
+        "La certitude",
+        "L'interdiction"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Titre : title",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où s'affiche le contenu de la balise <title> ?",
+      "options": [
+        "Sur l'onglet du navigateur",
+        "En haut de la page en grand",
+        "Dans l'adresse du site (URL)",
+        "Au survol d'une image"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Chaque page d'un site doit avoir un titre unique pour aider Google.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise <title> doit obligatoirement se placer dans le <{{1}}> (head).",
+      "reponsesAttendues": [
+        "head"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Nom de l'onglet -> Code ?",
+      "pairs": [
+        {
+          "left": "Page d'accueil",
+          "right": "<title>Page d'accueil</title>"
+        },
+        {
+          "left": "Boutique",
+          "right": "<title>Boutique</title>"
+        },
+        {
+          "left": "Erreur",
+          "right": "<title></title> (Vide)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que voient les moteurs de recherche en premier ?",
+      "options": [
+        "La balise <title>",
+        "Les images",
+        "Le menu",
+        "La couleur de fond"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

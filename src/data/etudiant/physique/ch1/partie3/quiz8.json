@@ -1,0 +1,63 @@
+{
+  "id": "quiz28",
+  "titre": "Sécurité au Labo",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie le pictogramme avec une flamme ?",
+      "options": [
+        "Produit inflammable (peut brûler)",
+        "Produit explosif",
+        "Produit toxique",
+        "Chauffage central"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le pictogramme avec une tête de mort signifie 'Produit Toxique'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un produit qui attaque la peau ou les métaux est dit {{1}}.",
+      "reponsesAttendues": [
+        "corrosif"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'équipement à son rôle.",
+      "pairs": [
+        {
+          "left": "Blouse",
+          "right": "Protection du corps et des vêtements"
+        },
+        {
+          "left": "Lunettes",
+          "right": "Protection des yeux contre les projections"
+        },
+        {
+          "left": "Hotte",
+          "right": "Évacuation des gaz dangereux"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le premier réflexe en cas de produit chimique dans l'œil ?",
+      "options": [
+        "Rincer abondamment à l'eau pendant 15 minutes",
+        "Frotter fort avec les mains",
+        "Mettre un pansement tout de suite",
+        "Ne rien faire et attendre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

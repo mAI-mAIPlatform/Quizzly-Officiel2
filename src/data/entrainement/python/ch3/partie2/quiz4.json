@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Renvoyer plusieurs valeurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment une fonction peut-elle renvoyer deux valeurs ?",
+      "options": [
+        "En les séparant par une virgule après return",
+        "On ne peut pas",
+        "En utilisant deux fois return",
+        "En utilisant print"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "return x, y renvoie techniquement un seul objet : un Tuple.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour récupérer les deux valeurs, on peut faire : a, b = {{1}}().",
+      "reponsesAttendues": [
+        "ma_fonction"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "return 1, 2",
+          "right": "Renvoi multiple"
+        },
+        {
+          "left": "res = f()",
+          "right": "res vaut (1, 2)"
+        },
+        {
+          "left": "x, y = f()",
+          "right": "Déballage (Unpacking)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on renvoyer une liste ou un dictionnaire ?",
+      "options": [
+        "Oui, n'importe quel objet",
+        "Non, seulement des nombres",
+        "Seulement des tuples",
+        "Seulement des textes"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

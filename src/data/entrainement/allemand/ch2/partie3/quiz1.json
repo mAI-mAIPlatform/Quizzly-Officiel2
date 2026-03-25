@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Hobbys und Freizeit 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Le sport' ?",
+      "options": [
+        "Der Sport",
+        "Das Spiel",
+        "Die Musik",
+        "Das Hobby"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Fußball' ist in Deutschland sehr beliebt.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich {{1}} (faire) gern Sport.",
+      "reponsesAttendues": [
+        "mache"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Sportarten.",
+      "pairs": [
+        {
+          "left": "Schwimmen",
+          "right": "Nager"
+        },
+        {
+          "left": "Radfahren",
+          "right": "Faire du vélo"
+        },
+        {
+          "left": "Laufen",
+          "right": "Courir"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Was ist dein Hobby?",
+      "options": [
+        "Mein Hobby ist Reiten",
+        "Ich bin Reiten",
+        "Hobby ist mein Freund",
+        "Hallo Hobby"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Erreurs fréquentes de syntaxe",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle erreur est faite ici : 'if score > 10 { ... }' ?",
+      "options": [
+        "Trop d'espaces",
+        "Manque de parenthèses autour de la condition",
+        "Le mot 'score' est interdit",
+        "Le point-virgule manque"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Confondre '=' et '===' dans un if peut causer des bugs difficiles à trouver.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "S'il n'y a pas de {, seul le prochain {{1}} est conditionnel.",
+      "reponsesAttendues": [
+        "point-virgule"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'erreur au symptôme.",
+      "pairs": [
+        {
+          "left": "if (a = 5)",
+          "right": "Assignation au lieu de comparaison"
+        },
+        {
+          "left": "if (a); { ... }",
+          "right": "Bloc s'exécute toujours (point-virgule parasite)"
+        },
+        {
+          "left": "else if (a) ;",
+          "right": "Rien ne se passe"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment tester l'égalité correctement ?",
+      "options": [
+        "if (a = b)",
+        "if (a == b)",
+        "if (a === b)",
+        "Les options 2 et 3 sont valides (mais 3 est recommandée)"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

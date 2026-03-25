@@ -1,0 +1,64 @@
+{
+  "id": "quiz3",
+  "titre": "Homophones : son / sont",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel est un pluriel du verbe 'Être' ?",
+      "options": [
+        "sont",
+        "son",
+        "sons",
+        "sommes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut remplacer 'son' par 'le sien'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ses amis {{1}} (son/sont) dans {{2}} (son/sont) jardin.",
+      "reponsesAttendues": [
+        "sont",
+        "son"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Choisis la nature.",
+      "pairs": [
+        {
+          "left": "Son",
+          "right": "Détérminant possessif"
+        },
+        {
+          "left": "Sont",
+          "right": "Verbe être"
+        },
+        {
+          "left": "Le son",
+          "right": "Nom commun (bruit)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle phrase est correcte ?",
+      "options": [
+        "Ils sont partis avec son chien.",
+        "Ils son partis avec sont chien.",
+        "Ils sont partis avec sont chien.",
+        "Ils son partis avec son chien."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

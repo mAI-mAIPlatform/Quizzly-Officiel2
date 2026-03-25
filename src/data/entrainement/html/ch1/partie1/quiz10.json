@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "EXAMEN : Structure de base",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel est un document HTML valide ?",
+      "options": [
+        "Celui avec <html>, <head> et <body>",
+        "Celui avec juste du texte",
+        "Celui avec uniquement des balises <div>",
+        "Un fichier .css"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'lang' dans <html> définit la langue de la page.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise {{1}} définit les métadonnées de la page.",
+      "reponsesAttendues": [
+        "meta"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Mix Bases.",
+      "pairs": [
+        {
+          "left": "<a>",
+          "right": "Lien"
+        },
+        {
+          "left": "<img>",
+          "right": "Image"
+        },
+        {
+          "left": "<ul>",
+          "right": "Liste"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour les Tableaux et Table-based layout (non, Formulaires) ?",
+      "options": [
+        "Oui !",
+        "C'est parti !",
+        "Absolument !",
+        "Révisions P1"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

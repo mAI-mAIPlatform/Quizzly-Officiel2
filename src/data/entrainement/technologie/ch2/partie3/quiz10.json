@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "EXAMEN : Conception et Prototype",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel outil permet de passer de la 3D numérique au réel ?",
+      "options": [
+        "L'imprimante 3D (ou machine à commande numérique)",
+        "Le marteau",
+        "La photocopieuse",
+        "L'écran"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En conception industrielle, on ne dessine jamais rien au crayon.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La nomenclature liste les pièces, leur nombre et leur {{1}}.",
+      "reponsesAttendues": [
+        "matière"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Mix Conception.",
+      "pairs": [
+        {
+          "left": "Tinkercad / Onshape",
+          "right": "Logiciels de CAO"
+        },
+        {
+          "left": "Éclaté",
+          "right": "Guide de montage"
+        },
+        {
+          "left": "Cotation",
+          "right": "Précision des mesures"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Félicitations ! Prêt pour le Chapitre 3 (Communication et Réseaux) ?",
+      "options": [
+        "Oui !",
+        "C'est parti !",
+        "Absolument !",
+        "Révisions Ch2"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

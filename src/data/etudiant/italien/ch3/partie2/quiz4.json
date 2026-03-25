@@ -1,0 +1,63 @@
+{
+  "id": "quiz14",
+  "titre": "La natura",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'El río'?",
+      "options": [
+        "Il fiume",
+        "Il mare",
+        "Il lago",
+        "Il bosco"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Fiore' significa 'flor'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vado nel {{1}} per vedere gli alberi (forêt).",
+      "reponsesAttendues": [
+        "bosco"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el elemento natural.",
+      "pairs": [
+        {
+          "left": "La montagna",
+          "right": "La montagne"
+        },
+        {
+          "left": "La spiaggia",
+          "right": "La plage"
+        },
+        {
+          "left": "La collina",
+          "right": "La colline"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'campagna'?",
+      "options": [
+        "Campo / Campiña",
+        "Ciudad",
+        "Montaña",
+        "Desierto"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

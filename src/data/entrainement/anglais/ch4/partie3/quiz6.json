@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Skills and Success",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What are 'Skills'?",
+      "options": [
+        "Things you are good at / Abilités",
+        "Clothes you wear",
+        "Types of food",
+        "Travel documents"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "To 'Succeed' means to reach your goal.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Working {{1}} is the key to success.",
+      "reponsesAttendues": [
+        "hard"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match.",
+      "pairs": [
+        {
+          "left": "Talent",
+          "right": "Natural ability"
+        },
+        {
+          "left": "Practice",
+          "right": "Improving skills"
+        },
+        {
+          "left": "Patience",
+          "right": "Waiting and trying"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "How do you say 'Bonne chance'?",
+      "options": [
+        "Good luck!",
+        "Good happy!",
+        "Nice chance!",
+        "Better goal!"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

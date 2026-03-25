@@ -1,0 +1,63 @@
+{
+  "id": "quiz23",
+  "titre": "Lire : getItem",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet de récupérer une donnée enregistrée ?",
+      "options": [
+        "localStorage.getItem(\"clé\")",
+        "localStorage.read(\"clé\")",
+        "localStorage.find(\"clé\")",
+        "localStorage.pull(\"clé\")"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "getItem(\"clé\") renvoie 'null' si la clé n'existe pas.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour récupérer mon score, j'écris : const highscore = localStorage.{{1}}(\"score\") (getItem).",
+      "reponsesAttendues": [
+        "getItem"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Action -> Méthode.",
+      "pairs": [
+        {
+          "left": "Écrire",
+          "right": "setItem"
+        },
+        {
+          "left": "Lire",
+          "right": "getItem"
+        },
+        {
+          "left": "Vérifier",
+          "right": "if (localStorage.getItem(...))"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment récupérer un nombre stocké ?",
+      "options": [
+        "let n = Number(localStorage.getItem(\"nb\"))",
+        "let n = localStorage.getItem(\"nb\")",
+        "n = n + 1",
+        "C'est déjà un nombre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

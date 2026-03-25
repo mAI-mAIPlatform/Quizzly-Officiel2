@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Lire un tableau d'effectifs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans un tableau, la ligne du bas indique souvent :",
+      "options": [
+        "Les valeurs",
+        "Les effectifs",
+        "Les titres",
+        "Les noms"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'effectif cumulé croissant s'obtient en ajoutant les effectifs au fur et à mesure.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si 3 personnes ont 10 ans et 5 ont 11 ans, l'effectif cumulé à 11 ans est {{1}}.",
+      "reponsesAttendues": [
+        "8"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le terme à sa ligne typique.",
+      "pairs": [
+        {
+          "left": "Caractère (ex: Note)",
+          "right": "1re ligne"
+        },
+        {
+          "left": "Effectif (ex: Nb élèves)",
+          "right": "2e ligne"
+        },
+        {
+          "left": "Fréquence",
+          "right": "3e ligne"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment trouver le mode (valeur la plus fréquente) dans un tableau ?",
+      "options": [
+        "Valeur avec le plus grand effectif",
+        "Valeur du milieu",
+        "Ligne du haut",
+        "Calcul complexe"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

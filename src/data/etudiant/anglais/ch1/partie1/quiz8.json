@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Travel Experiences",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "How do you ask about someone's past travel?",
+      "options": [
+        "Have you ever been to London?",
+        "Do you go to London tomorrow?",
+        "Are you London?",
+        "Why London?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "We use 'been' to say someone visited a place and returned.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Last year, I {{1}} to Rome. (Verb: to go)",
+      "reponsesAttendues": [
+        "went"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the sentence to its tense.",
+      "pairs": [
+        {
+          "left": "I visited New York in 2022",
+          "right": "Past Simple"
+        },
+        {
+          "left": "I have traveled to Tokyo",
+          "right": "Present Perfect"
+        },
+        {
+          "left": "I'm traveling next week",
+          "right": "Present Continuous (Future meaning)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is the past participle of 'fly'?",
+      "options": [
+        "Flown",
+        "Flyed",
+        "Flew",
+        "Flying"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

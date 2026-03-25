@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Les Adjectifs de Nationalité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Italien' ?",
+      "options": [
+        "Italiano",
+        "Italico",
+        "Italish",
+        "Italio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Francese' (Français) finit par -e, il est donc mixte au singulier.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Espagnol se dit '{{1}}'.",
+      "reponsesAttendues": [
+        "spagnolo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la nationalité.",
+      "pairs": [
+        {
+          "left": "Inglese",
+          "right": "Anglais"
+        },
+        {
+          "left": "Tedesco",
+          "right": "Allemand"
+        },
+        {
+          "left": "Americano",
+          "right": "Américain"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Allemande' ?",
+      "options": [
+        "Tedesca",
+        "Tedescana",
+        "Allemanda",
+        "Germana"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

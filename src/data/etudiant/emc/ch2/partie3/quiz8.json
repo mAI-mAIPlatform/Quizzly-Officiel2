@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Vocabulaire : Éthique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'éthique ?",
+      "options": [
+        "La réflexion sur ce qui est bon ou juste de faire",
+        "La peur des sciences",
+        "L'obligation de payer pour travailler",
+        "Le nom d'une plante"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'intégrité scientifique signifie que les chercheurs ne doivent pas tricher avec leurs résultats.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La capacité d'un milieu naturel à rester équilibré est son éco-{{1}} (système).",
+      "reponsesAttendues": [
+        "système"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le mot à son sens.",
+      "pairs": [
+        {
+          "left": "Dignité",
+          "right": "Respect dû à tout être humain"
+        },
+        {
+          "left": "Biodiversité",
+          "right": "Diversité des espèces vivantes"
+        },
+        {
+          "left": "Éco-responsable",
+          "right": "Qui agit pour minimiser son impact environnemental"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie le mot 'éthique' lors d'un achat (commerce équitable) ?",
+      "options": [
+        "Que les producteurs sont payés au juste prix",
+        "Que c'est un produit très cher",
+        "Que c'est un produit fait par des machines",
+        "Que c'est un cadeau gratuit"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

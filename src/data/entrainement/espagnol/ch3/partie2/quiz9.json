@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Ayer vs Antes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuándo usas el Indefinido?",
+      "options": [
+        "Para una acción terminada en un momento concreto (ayer)",
+        "Para una rutina habitual en el pasado (siempre)",
+        "Para describir el decorado",
+        "Para hablar del futuro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Estudiaba cuando sonó el teléfono' (Acción interrumpida).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La interrupción usa el pretérito {{1}}.",
+      "reponsesAttendues": [
+        "indefinido"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Contrastes.",
+      "pairs": [
+        {
+          "left": "De repente",
+          "right": "Indefinido"
+        },
+        {
+          "left": "Mientras",
+          "right": "Imperfecto"
+        },
+        {
+          "left": "Todos los años",
+          "right": "Imperfecto"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Ayer, mientras...",
+      "options": [
+        "Mientras caminaba, vi a Pedro",
+        "Vi a Pedro ayer",
+        "Caminaba por la calle",
+        "Estamos aquí"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

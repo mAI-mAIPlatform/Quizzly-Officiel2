@@ -1,0 +1,63 @@
+{
+  "id": "quiz15",
+  "titre": "Début et Fin (range)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que génère range(2, 5) ?",
+      "options": [
+        "2, 3, 4",
+        "2, 3, 4, 5",
+        "2, 5",
+        "3, 4, 5"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans range(début, fin), le nombre de 'début' est inclus mais celui de 'fin' est exclu.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour obtenir les nombres de 10 à 15 (inclus), il faut écrire : range(10, {{1}}) (16).",
+      "reponsesAttendues": [
+        "16"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'appel aux nombres produits.",
+      "pairs": [
+        {
+          "left": "range(5, 8)",
+          "right": "5, 6, 7"
+        },
+        {
+          "left": "range(1, 2)",
+          "right": "1"
+        },
+        {
+          "left": "range(10, 10)",
+          "right": "(rien)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel de ces codes affiche les nombres de 0 à 9 ?",
+      "options": [
+        "range(10)",
+        "range(0, 9)",
+        "range(1, 10)",
+        "range(0/9)"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

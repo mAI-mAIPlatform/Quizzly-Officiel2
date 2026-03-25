@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Liaison et Point",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est l'effet d'un point placé juste après une note (ex: noire pointée) ?",
+      "options": [
+        "Il augmente la durée de la note de sa moitié",
+        "Il baisse la note d'un ton",
+        "Il arrête le morceau",
+        "Il multiplie la durée par 10"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une Noire pointée vaut l'équivalent de 3 Croches.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le signe courbe qui additionne la durée de deux notes de même nom est la {{1}} (liaison) de prolongation.",
+      "reponsesAttendues": [
+        "liaison"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la note pointée à sa durée.",
+      "pairs": [
+        {
+          "left": "Blanche pointée",
+          "right": "3 temps (2 + 1)"
+"        },
+        {
+          "left": "Noire pointée",
+          "right": "1,5 temps (1 + 0,5)"
+        },
+        {
+          "left": "Ronde pointée",
+          "right": "6 temps (4 + 2)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie une liaison placée au-dessus de plusieurs notes de noms différents ?",
+      "options": [
+        "Il faut les jouer liées (Legato), sans interruption de son",
+        "Il faut les jouer toutes en même temps",
+        "Il faut faire une pause entre chaque note",
+        "C'est une erreur d'impression"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

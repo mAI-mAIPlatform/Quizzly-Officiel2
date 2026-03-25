@@ -1,0 +1,63 @@
+{
+  "id": "quiz22",
+  "titre": "Enregistrer : setItem",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet d'enregistrer une donnée dans le localStorage ?",
+      "options": [
+        "localStorage.setItem(\"clé\", \"valeur\")",
+        "localStorage.save(\"clé\", \"valeur\")",
+        "localStorage.write(\"clé\", \"valeur\")",
+        "localStorage.add(\"clé\", \"valeur\")"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La valeur doit obligatoirement être entre guillemets (String).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour enregistrer le pseudo 'Mathias', on fait : localStorage.{{1}}(\"pseudo\", \"Mathias\") (setItem).",
+      "reponsesAttendues": [
+        "setItem"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'argument à son rôle.",
+      "pairs": [
+        {
+          "left": "\"score\"",
+          "right": "La Clé (l'étiquette)"
+        },
+        {
+          "left": "\"500\"",
+          "right": "La Valeur (la donnée)"
+        },
+        {
+          "left": "setItem",
+          "right": "L'action d'enregistrer"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si j'utilise une clé déjà existante ?",
+      "options": [
+        "L'ancienne valeur est écrasée par la nouvelle",
+        "Il y a une erreur",
+        "Cela crée une deuxième copie",
+        "L'ordinateur explose"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

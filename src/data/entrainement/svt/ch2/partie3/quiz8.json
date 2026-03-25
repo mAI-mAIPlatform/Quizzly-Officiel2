@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Les risques planétaires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un séisme ?",
+      "options": [
+        "Une tempête",
+        "Une rupture brutale des roches en profondeur",
+        "Une marée haute",
+        "L'explosion d'un volcan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les tsunamis sont des vagues géantes souvent provoquées par des séismes sous-marins.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'endroit en surface où les vibrations d'un séisme sont les plus fortes est l'{{1}}.",
+      "reponsesAttendues": [
+        "épicentre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'échelle à sa mesure.",
+      "pairs": [
+        {
+          "left": "Échelle de Richter",
+          "right": "Magnitude (énergie libérée)"
+        },
+        {
+          "left": "Échelle MSK / Mercalli",
+          "right": "Intensité (dégâts observés)"
+        },
+        {
+          "left": "Sismogramme",
+          "right": "Enregistrement du séisme"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on prévoir l'heure exacte d'un séisme ?",
+      "options": [
+        "Oui, avec une montre",
+        "Non, c'est impossible actuellement",
+        "Seulement s'il pleut",
+        "Oui, les oiseaux nous le disent"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

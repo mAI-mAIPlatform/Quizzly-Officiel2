@@ -1,0 +1,63 @@
+{
+  "id": "quiz11",
+  "titre": "Perfekt mit SEIN",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué tipo de verbos suelen usar 'sein' como auxiliar?",
+      "options": [
+        "Movimiento / Cambio de estado",
+        "Acción estática",
+        "Posesión",
+        "Sentimientos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El verbo 'gehen' usa el auxiliar 'sein'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich {{1}} gestern ins Kino gegangen (être).",
+      "reponsesAttendues": [
+        "bin"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el auxiliar.",
+      "pairs": [
+        {
+          "left": "Laufen",
+          "right": "Ist gelaufen (Sein)"
+        },
+        {
+          "left": "Essen",
+          "right": "Hat gegessen (Haben)"
+        },
+        {
+          "left": "Schwimmen",
+          "right": "Ist geschwommen (Sein)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cuál es el participio de 'gehen'?",
+      "options": [
+        "gegangen",
+        "geggehen",
+        "gegeh",
+        "gegangent"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

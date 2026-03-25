@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Cases à cocher (Checkbox)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel type d'input permet de cocher PLUSIEURS choix ?",
+      "options": [
+        "checkbox",
+        "radio",
+        "check",
+        "list"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Deux cases à cocher peuvent avoir le même name tout en étant indépendantes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut pour cocher d'office une case est {{1}}.",
+      "reponsesAttendues": [
+        "checked"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Radio ou Checkbox ?",
+      "pairs": [
+        {
+          "left": "Civilité (M/Mme)",
+          "right": "Radio"
+        },
+        {
+          "left": "Loisirs (plusieurs)",
+          "right": "Checkbox"
+        },
+        {
+          "left": "Accepter les CGU",
+          "right": "Checkbox"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pour envoyer une liste de choix cochés, qu'ajoute-t-on souvent au name ?",
+      "options": [
+        "Des crochets [] (ex: loisirs[])",
+        "Des parenthèses ()",
+        "Rien",
+        "Un point"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

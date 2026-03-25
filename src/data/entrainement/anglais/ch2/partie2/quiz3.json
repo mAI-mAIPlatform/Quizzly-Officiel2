@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Healthy Habits",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "How many hours of sleep do teenagers need roughly?",
+      "options": [
+        "8 to 10 hours",
+        "2 hours",
+        "15 hours",
+        "5 hours"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Drinking water is better than drinking soda for your health.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "You should eat {{1}} fruits and vegetables every day.",
+      "reponsesAttendues": [
+        "five"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the habits.",
+      "pairs": [
+        {
+          "left": "Exercise",
+          "right": "Keep fit"
+        },
+        {
+          "left": "Sleep",
+          "right": "Rest"
+        },
+        {
+          "left": "Fruit",
+          "right": "Health"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is 'Junk food'?",
+      "options": [
+        "Unhealthy food (ex: fast food)",
+        "Organic vegetables",
+        "Gourmet food",
+        "Japanese food"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

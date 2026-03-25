@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Le Jazz Moderne",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle le style de Jazz rapide et complexe apparu dans les années 1940 ?",
+      "options": [
+        "Le Bebop",
+        "Le Reggae",
+        "La Valse",
+        "Le Twist"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Miles Davis est une figure majeure du 'Cool Jazz', un style plus calme et mélodique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le saxophoniste virtuose associé au Bebop est Charlie {{1}} (Parker).",
+      "reponsesAttendues": [
+        "Parker"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'artiste de Jazz à son instrument.",
+      "pairs": [
+        {
+          "left": "Miles Davis",
+          "right": "Trompette"
+        },
+        {
+          "left": "Thelonious Monk",
+          "right": "Piano"
+        },
+        {
+          "left": "Ella Fitzgerald",
+          "right": "Voix (Scat)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Scat' en Jazz ?",
+      "options": [
+        "Une improvisation vocale avec des onomatopées sans paroles",
+        "Un type de batterie",
+        "Une danse russe",
+        "Le nom d'un club de jazz à Londres"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

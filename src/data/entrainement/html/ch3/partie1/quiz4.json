@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Aside et Contenu Complémentaire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise contient des infos liées mais pas indispensables (sidebar) ?",
+      "options": [
+        "<aside>",
+        "<margin>",
+        "<sidebar>",
+        "<extra>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une publicité peut être placée dans un <aside>.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'aside est souvent placé sur le {{1}} (côté) de la page.",
+      "reponsesAttendues": [
+        "bord"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Usage de aside.",
+      "pairs": [
+        {
+          "left": "Glossaire rapide",
+          "right": "Dans aside"
+        },
+        {
+          "left": "Lien vers articles liés",
+          "right": "Dans aside"
+        },
+        {
+          "left": "Texte principal",
+          "right": "Pas dans aside !"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Est-ce qu'un <aside> peut se trouver à l'intérieur d'un <article> ?",
+      "options": [
+        "Oui, s'il complète spécifiquement l'article",
+        "Non, seulement dans body",
+        "C'est interdit",
+        "Seulement s'il est vide"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

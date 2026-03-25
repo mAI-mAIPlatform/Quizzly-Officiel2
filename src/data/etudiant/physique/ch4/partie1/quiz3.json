@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Son dans les milieux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quel milieu le son se déplace-t-il le plus vite ?",
+      "options": [
+        "Dans les solides (ex: acier)",
+        "Dans les liquides (ex: eau)",
+        "Dans les gaz (ex: air)",
+        "Dans tous les milieux à la même vitesse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La vitesse du son dans l'eau est d'environ 1500 m/s.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans l'acier, le son file à environ {{1}} m/s.",
+      "reponsesAttendues": [
+        "5000"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le milieu à sa vitesse d'ordre de grandeur.",
+      "pairs": [
+        {
+          "left": "Air",
+          "right": "340 m/s"
+        },
+        {
+          "left": "Eau",
+          "right": "1 500 m/s"
+        },
+        {
+          "left": "Verre",
+          "right": "5 300 m/s"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi met-on l'oreille sur les rails pour entendre le train arriver ?",
+      "options": [
+        "Car le son va plus vite et plus loin dans le métal que dans l'air",
+        "Pour ne pas avoir froid",
+        "Parce que c'est une tradition",
+        "Pour mieux voir le train"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

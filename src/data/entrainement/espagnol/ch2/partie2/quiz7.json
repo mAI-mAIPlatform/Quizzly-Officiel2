@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Los Colores",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Rouge' ?",
+      "options": [
+        "Rojo",
+        "Azul",
+        "Verde",
+        "Amarillo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Negro' y 'Blanco' son colores opuestos.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Bleu' se dice '{{1}}'.",
+      "reponsesAttendues": [
+        "azul"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Colores.",
+      "pairs": [
+        {
+          "left": "Naranja",
+          "right": "Orange"
+        },
+        {
+          "left": "Morado",
+          "right": "Violet"
+        },
+        {
+          "left": "Gris",
+          "right": "Gris"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿De qué color es el cielo?",
+      "options": [
+        "El cielo es azul",
+        "El cielo es rojo",
+        "El cielo es verde",
+        "El cielo es negro"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

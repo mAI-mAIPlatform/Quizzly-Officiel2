@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Computer Hardware",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What do you use to click on things on the screen?",
+      "options": [
+        "A mouse",
+        "A keyboard",
+        "A printer",
+        "A speaker"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "The 'Monitor' is the screen of the computer.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "I use the {{1}} to type text.",
+      "reponsesAttendues": [
+        "keyboard"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the hardware.",
+      "pairs": [
+        {
+          "left": "Printer",
+          "right": "Paper"
+        },
+        {
+          "left": "Speakers",
+          "right": "Sound"
+        },
+        {
+          "left": "Webcam",
+          "right": "Video"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Where do you plug your USB drive?",
+      "options": [
+        "In the USB port",
+        "In the monitor",
+        "In the mouse",
+        "In the keyboard"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

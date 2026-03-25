@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Sport und Bewegung",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Faire du jogging' ?",
+      "options": [
+        "Joggen gehen",
+        "Schlafen gehen",
+        "Kochen gehen",
+        "Essen gehen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Sport ist wichtig für den Körper.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Bewegung ist {{1}} (saine).",
+      "reponsesAttendues": [
+        "gesund"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Fitness.",
+      "pairs": [
+        {
+          "left": "Muskeln",
+          "right": "Muscles"
+        },
+        {
+          "left": "Kondition",
+          "right": "Condition"
+        },
+        {
+          "left": "Training",
+          "right": "Entraînement"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Wie oft machst du Sport?",
+      "options": [
+        "Zweimal pro Woche",
+        "Einmal pro Schrank",
+        "Ich bin Sport",
+        "Hallo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

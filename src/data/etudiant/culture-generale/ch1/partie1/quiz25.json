@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "L'Union Européenne",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Combien d'étoiles figurent sur le drapeau européen ?",
+      "options": [
+        "12",
+        "27",
+        "50",
+        "6"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Euro est la monnaie unique utilisée par tous les pays de l'Union Européenne sans exception.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le traité fondateur signé en 1992 qui a créé l'Union Européenne actuelle est le traité de {{1}} (Maastricht).",
+      "reponsesAttendues": [
+        "Maastricht"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'institution à sa ville principale.",
+      "pairs": [
+        {
+          "left": "Parlement Européen",
+          "right": "Strasbourg"
+        },
+        {
+          "left": "Commission Européenne",
+          "right": "Bruxelles"
+        },
+        {
+          "left": "Banque Centrale Européenne",
+          "right": "Francfort"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel pays a officiellement quitté l'Union Européenne en 2020 (Brexit) ?",
+      "options": [
+        "Le Royaume-Uni",
+        "La Norvège",
+        "La Suisse",
+        "La Grèce"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

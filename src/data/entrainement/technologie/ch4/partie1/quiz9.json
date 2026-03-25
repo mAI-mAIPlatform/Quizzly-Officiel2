@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "L'Énergie Grise",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'énergie grise ?",
+      "options": [
+        "L'énergie nécessaire pour fabriquer, transporter et recycler un objet",
+        "L'énergie de la pollution",
+        "L'énergie des nuages",
+        "Une énergie de mauvaise qualité"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'énergie grise d'une voiture est très élevée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'analyse du {{1}} de vie (ACV) permet de calculer tout l'impact d'un objet.",
+      "reponsesAttendues": [
+        "cycle"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Impact Chiffré.",
+      "pairs": [
+        {
+          "left": "Fabrication",
+          "right": "Énergie des usines"
+        },
+        {
+          "left": "Transport",
+          "right": "Kérosène ou gasoil"
+        },
+        {
+          "left": "Utilisation",
+          "right": "Consommation électrique directe"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi faut-il prendre en compte l'énergie grise ?",
+      "options": [
+        "Pour avoir une image réelle de la pollution totale d'un produit",
+        "Pour augmenter son prix",
+        "Parce que c'est une loi mathématique",
+        "Pour choisir la couleur de l'objet"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

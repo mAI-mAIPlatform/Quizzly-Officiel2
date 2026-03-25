@@ -1,0 +1,42 @@
+{
+  "id": "quiz27",
+  "titre": "Abréviations : abbr",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise définit une abréviation ?",
+      "options": ["<abbr>", "<acro>", "<span>", "<short>"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'title' affiche la signification au survol.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour HTML, on utilise l'attribut {{1}} (title).",
+      "reponsesAttendues": ["title"]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Action -> Résultat ?",
+      "pairs": [
+        {"left": "Survol", "right": "Bulle d'info"},
+        {"left": "Balise <abbr>", "right": "Pointillés"},
+        {"left": "Attribut title", "right": "Explication"}
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qui utilise ces infos ?",
+      "options": ["Lecteurs d'écran", "Serveurs", "Images", "Vidéos"],
+      "correctIndex": 0
+    }
+  ]
+}

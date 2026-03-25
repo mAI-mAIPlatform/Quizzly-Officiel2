@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Les verbes en -IRE (3ème groupe)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison pour 'Voi' pour les verbes en -IRE ?",
+      "options": [
+        "-ate",
+        "-ete",
+        "-ite",
+        "-iamo"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Partire (Partir) est un verbe régulier en -IRE.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Je pars se dit 'Io {{1}}'.",
+      "reponsesAttendues": [
+        "parto"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe pour Partire.",
+      "pairs": [
+        {
+          "left": "Tu",
+          "right": "Parti"
+        },
+        {
+          "left": "Lui / Lei",
+          "right": "Parte"
+        },
+        {
+          "left": "Loro",
+          "right": "Partono"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Vous partez demain' ?",
+      "options": [
+        "Partiamo domani",
+        "Partite domani",
+        "Partono domani",
+        "Parti domani"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

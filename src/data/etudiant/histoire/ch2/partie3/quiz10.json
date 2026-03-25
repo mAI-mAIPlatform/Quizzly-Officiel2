@@ -1,0 +1,63 @@
+{
+  "id": "quiz30",
+  "titre": "Bilan : L'organisation urbaine",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la principale caractéristique du territoire français ?",
+      "options": [
+        "Un territoire fortement urbanisé et organisé par les métropoles",
+        "Un territoire uniquement composé de forêts et de loups",
+        "Une égalité parfaite entre toutes les villes",
+        "L'absence totale de banlieues"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Paris reste la seule ville à rayonnement mondial en France.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le dynamisme urbain se déplace aujourd'hui vers le {{1}} et l'Ouest (littoraux).",
+      "reponsesAttendues": [
+        "Sud"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'espace urbain à sa dynamique actuelle.",
+      "pairs": [
+        {
+          "left": "Métropoles",
+          "right": "Concentration des richesses et fonctions"
+        },
+        {
+          "left": "Périurbain",
+          "right": "Croissance forte des familles et maisons"
+        },
+        {
+          "left": "Petits centres",
+          "right": "Défis de revitalisation commerciale"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'habiter la ville' aujourd'hui en France ?",
+      "options": [
+        "C'est avoir des modes de vie diversifiés et mobiles",
+        "C'est rester enfermé chez soi",
+        "C'est ne jamais sortir de son quartier",
+        "C'est vivre exactement comme au XIXe siècle"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

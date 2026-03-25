@@ -1,0 +1,64 @@
+{
+  "id": "quiz4",
+  "titre": "Recyclage Métaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces métaux est le plus facile à recycler à l'infini sans perdre ses propriétés ?",
+      "options": [
+        "L'aluminium (ou l'acier)",
+        "Le plastique",
+        "Le bois",
+        "Le verre (mais ce n'est pas un métal)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Recycler de l'aluminium consomme beaucoup moins d'énergie que d'en extraire du sol (bauxite).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un aimant permet de séparer facilement les métaux {{1}} (ferreux / magnétiques) des autres déchets.",
+      "reponsesAttendues": [
+        "ferreux",
+        "magnétiques"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'objet en métal à son futur après recyclage.",
+      "pairs": [
+        {
+          "left": "Canette en alu",
+          "right": "Nouvel objet en alu (ex: cadre de vélo)"
+        },
+        {
+          "left": "Boîte de conserve",
+          "right": "Pièce de carrosserie ou outil en acier"
+        },
+        {
+          "left": "Câble cuivre",
+          "right": "Nouveau câble électrique performant"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage du recyclage des métaux pour l'industrie ?",
+      "options": [
+        "Éviter d'ouvrir de nouvelles mines et réduire les coûts d'énergie",
+        "Rendre les objets plus brillants",
+        "Changer le nom des métaux",
+        "Le recyclage n'a pas d'avantage"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

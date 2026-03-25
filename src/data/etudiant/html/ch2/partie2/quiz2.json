@@ -1,0 +1,70 @@
+{
+  "id": "quiz2",
+  "titre": "Sources Audio Multiples",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise utilise-t-on à l'intérieur de <audio> pour proposer plusieurs formats ?",
+      "options": ["<src>", "<source>", "<file>", "<link>"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le navigateur choisit le premier format qu'il arrive à lire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut 'type' dans <source> précise le type {{1}} du fichier.",
+      "reponsesAttendues": ["MIME"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel de ces formats audio est le plus courant sur le web ?",
+      "options": ["WAV", "MP3", "FLAC", "AIFF"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'src' peut être mis directement sur la balise <audio>.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie le type MIME 'audio/ogg' ?",
+      "options": ["C'est un fichier MP3", "C'est un fichier au format Ogg Vorbis", "C'est une erreur", "C'est pour la vidéo"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "vrai_faux",
+      "enonce": "Le format WAV est compressé et très léger pour le web.",
+      "reponse": false
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "Pour une compatibilité maximale, on propose souvent MP3 et {{1}}.",
+      "reponsesAttendues": ["Ogg"]
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "L'attribut 'codecs' dans le type MIME sert à :",
+      "options": ["Chiffrer le son", "Préciser l'algorithme de compression utilisé", "Changer la langue", "Supprimer le bruit"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Si aucune balise <source> ne fonctionne, le texte de secours s'affiche.",
+      "reponse": true
+    }
+  ]
+}

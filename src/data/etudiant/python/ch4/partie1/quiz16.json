@@ -1,0 +1,63 @@
+{
+  "id": "quiz16",
+  "titre": "Jeu de Dés : Lancer",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment simuler le lancer d'un dé à 6 faces ?",
+      "options": [
+        "random.randint(1, 6)",
+        "random.choices(1, 6)",
+        "random.random(6)",
+        "math.randint(1, 6)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "randint(1, 6) peut renvoyer soit 1, soit 6, soit n'importe quel nombre entier entre les deux.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour lancer deux dés et faire la somme, on écrit : somme = de1 {{1}} de2 (+).",
+      "reponsesAttendues": [
+        "+"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le code à son dé.",
+      "pairs": [
+        {
+          "left": "randint(1, 6)",
+          "right": "Dé standard"
+        },
+        {
+          "left": "randint(1, 2)",
+          "right": "Pile ou Face (2 faces)"
+        },
+        {
+          "left": "randint(1, 20)",
+          "right": "Dé de JDR (20 faces)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle fonction permet d'afficher 'Lancement du dé...' et d'attendre un peu pour le suspense ?",
+      "options": [
+        "time.sleep(1)",
+        "wait(1)",
+        "pause(1)",
+        "stop(1)"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

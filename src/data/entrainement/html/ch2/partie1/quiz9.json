@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "DataList (Suggestions)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise propose une liste de suggestions tout en laissant la saisie libre ?",
+      "options": [
+        "<datalist>",
+        "<select>",
+        "<suggestion>",
+        "<list>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour lier un input à une datalist, on utilise l'attribut 'list'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Chaque suggestion dans une datalist est définie par une balise {{1}}.",
+      "reponsesAttendues": [
+        "option"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Lien Input / DataList.",
+      "pairs": [
+        {
+          "left": "input list='browsers'",
+          "right": "Appelle la liste 'browsers'"
+        },
+        {
+          "left": "datalist id='browsers'",
+          "right": "Définit les suggestions"
+        },
+        {
+          "left": "option value='Chrome'",
+          "right": "Une suggestion possible"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre <select> et <datalist> ?",
+      "options": [
+        "Datalist permet de saisir une valeur absente de la liste",
+        "Datalist est plus jolie",
+        "Select est plus rapide",
+        "Il n'y en a pas"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

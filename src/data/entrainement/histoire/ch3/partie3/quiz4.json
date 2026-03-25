@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Baillis et Sénéchaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui sont les représentants du roi dans les provinces ?",
+      "options": [
+        "Les ducs",
+        "Les baillis (au Nord) et les sénéchaux (au Sud)",
+        "Les maires",
+        "Les curés"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le bailli ne s'occupe que de la chasse du roi.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le bailli collecte les {{1}} et commande l'armée locale au nom du roi.",
+      "reponsesAttendues": [
+        "impôts"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le lieu à son agent royal.",
+      "pairs": [
+        {
+          "left": "Nord de la France",
+          "right": "Bailli"
+        },
+        {
+          "left": "Sud de la France",
+          "right": "Sénéchal"
+        },
+        {
+          "left": "Paris",
+          "right": "Prévôt de Paris"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel était l'avantage de ces agents pour le roi ?",
+      "options": [
+        "Ils coûtaient cher",
+        "Ils permettaient au roi d'être présent partout sans se déplacer",
+        "Ils étaient tous de la famille du roi",
+        "Ils n'avaient aucun pouvoir réel"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

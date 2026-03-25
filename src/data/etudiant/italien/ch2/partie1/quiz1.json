@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "La routine giornaliera",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Despertarse'?",
+      "options": [
+        "Svegliarsi",
+        "Alzarsi",
+        "Lavarsi",
+        "Vestirsi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Alzarsi' significa 'levantarse'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Mi {{1}} alle sette (levanto).",
+      "reponsesAttendues": [
+        "alzo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la acción diaria.",
+      "pairs": [
+        {
+          "left": "Lavarsi i denti",
+          "right": "Se laver les dents"
+        },
+        {
+          "left": "Fare la doccia",
+          "right": "Prendre une douche"
+        },
+        {
+          "left": "Vestirsi",
+          "right": "S'habiller"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'pettinarsi'?",
+      "options": [
+        "Peinarse",
+        "Maquillarse",
+        "Afeitarse",
+        "Dormir"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

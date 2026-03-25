@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Le Retour Implicite",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un retour implicite ?",
+      "options": [
+        "Une erreur de retour",
+        "Renvoyer une valeur sans utiliser le mot-clé 'return' ni d'accolades",
+        "Renvoyer null par défaut",
+        "Une fonction qui ne renvoie rien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "(a, b) => a + b renvoie automatiquement le résultat de l'addition.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si on utilise des {{1}}, le retour implicite ne fonctionne plus (il faut écrire 'return').",
+      "reponsesAttendues": [
+        "accolades"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'équivalent.",
+      "pairs": [
+        {
+          "left": "x => x * 2",
+          "right": "Simple et compact"
+        },
+        {
+          "left": "x => { return x * 2 }",
+          "right": "Version avec accolades"
+        },
+        {
+          "left": "Avantage",
+          "right": "Code plus lisible pour des calculs simples"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on faire un retour implicite sur plusieurs lignes ?",
+      "options": [
+        "Non, une seule expression",
+        "Oui, avec des parenthèses () autour du bloc",
+        "Seulement si c'est du texte",
+        "Les options 1 et 2 sont valides"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

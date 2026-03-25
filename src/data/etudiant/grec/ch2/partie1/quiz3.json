@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "L'Aoriste sigmatique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle lettre caractérise l'aoriste sigmatique ?",
+      "options": [
+        "Sigma (σ)",
+        "Alpha (α)",
+        "Beta (β)",
+        "Gamma (γ)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'aoriste exprime une action passée ponctuelle (comme le passé simple).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "J'ai éduqué se dit 'e-{{1}}-sa' (epaideusa / ἐπαίδευσα).",
+      "reponsesAttendues": [
+        "paideu"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la forme (aoriste sigmatique).",
+      "pairs": [
+        {
+          "left": "epaideusa",
+          "right": "J'ai éduqué"
+        },
+        {
+          "left": "epaideusas",
+          "right": "Tu as éduqué"
+        },
+        {
+          "left": "epaideuse",
+          "right": "Il a éduqué"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que devient le verbe 'akouô' à l'aoriste ?",
+      "options": [
+        "êkousa (ἤκουσα)",
+        "êkouon",
+        "akousô",
+        "akouê"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "quiz4",
+  "titre": "Géographie de la France",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la plus haute montagne de France et d'Europe de l'Ouest ?",
+      "options": [
+        "Le Mont Blanc",
+        "Le Puy de Dôme",
+        "Le Canigou",
+        "Le Mont Saint-Michel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Loire est le plus long fleuve de France.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La France est baignée par quatre façades maritimes : la Mer du Nord, la Manche, l'Océan Atlantique et la Mer {{1}} (Méditerranée).",
+      "reponsesAttendues": [
+        "Méditerranée",
+        "Mediterranee"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la chaîne de montagnes à sa situation.",
+      "pairs": [
+        {
+          "left": "Alpes",
+          "right": "Sud-Est (Frontière Italie/Suisse)"
+        },
+        {
+          "left": "Pyrénées",
+          "right": "Sud (Frontière Espagne)"
+        },
+        {
+          "left": "Massif Central",
+          "right": "Centre de la France (Volcans)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on la France en raison de sa forme géométrique ?",
+      "options": [
+        "L'Hexagone",
+        "Le Pentagone",
+        "Le Triangle",
+        "Le Carré"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

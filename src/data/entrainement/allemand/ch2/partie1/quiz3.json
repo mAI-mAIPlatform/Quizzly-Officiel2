@@ -1,0 +1,64 @@
+{
+  "id": "quiz3",
+  "titre": "Trennbare Verben (Verbes à particule)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Ich ... um 7 Uhr ... (aufstehen).",
+      "options": [
+        "stehe / auf",
+        "aufstehe / --",
+        "stehe / --",
+        "bin / stehe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "In German, the particle goes to the end of the sentence.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Er {{1}} das Fenster {{2}} (ouvrir - aufmachen).",
+      "reponsesAttendues": [
+        "macht",
+        "auf"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Verben.",
+      "pairs": [
+        {
+          "left": "Anrufen",
+          "right": "Téléphoner"
+        },
+        {
+          "left": "Einladen",
+          "right": "Inviter"
+        },
+        {
+          "left": "Fernsehen",
+          "right": "Regarder la télé"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Il regarde la télé' ?",
+      "options": [
+        "Er sieht fern",
+        "Er fernsieht",
+        "Er hat fern",
+        "Er ist fern"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

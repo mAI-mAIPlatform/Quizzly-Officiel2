@@ -1,0 +1,62 @@
+{
+  "id": "quiz3",
+  "titre": "La 2ème Déclinaison (Dominus)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Les noms comme 'Dominus' (le maître) font partie de quelle déclinaison ?",
+      "options": [
+        "1ère",
+        "2ème",
+        "3ème",
+        "4ème"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le nominatif pluriel de 'Dominus' est 'Domini'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'accusatif singulier de 'Dominus' est {{1}}.",
+      "reponsesAttendues": [
+        "Dominum"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "-us",
+          "right": "Nom. sing. masc."
+        },
+        {
+          "left": "-orum",
+          "right": "Gén. plur."
+        },
+        {
+          "left": "-os",
+          "right": "Acc. plur. masc."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison du Génitif Singulier de la 2ème déclinaison ?",
+      "options": [
+        "-i",
+        "-is",
+        "-ae",
+        "-o"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

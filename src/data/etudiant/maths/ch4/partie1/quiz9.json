@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Programmes de calcul (1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Programme : Choisir x, multiplier par 3, ajouter 2. L'expression est :",
+      "options": [
+        "3(x + 2)",
+        "3x + 2",
+        "x + 5",
+        "x³ + 2"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si on choisit 5 dans le programme précédent, on obtient 17.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Programme : x -> x + 4 -> 2(x + 4). Pour x = 10, on obtient {{1}}.",
+      "reponsesAttendues": [
+        "28"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le programme à son expression.",
+      "pairs": [
+        {
+          "left": "Choisir x, ajouter 5, multiplier par 2",
+          "right": "2(x + 5)"
+        },
+        {
+          "left": "Choisir x, multiplier par 2, ajouter 5",
+          "right": "2x + 5"
+        },
+        {
+          "left": "Choisir x, mettre au carré, ôter 1",
+          "right": "x² - 1"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel programme donne toujours 0 pour x = 1 ?",
+      "options": [
+        "x + 1",
+        "x - 1",
+        "2x",
+        "x² + 1"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

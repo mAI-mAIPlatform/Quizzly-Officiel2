@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "EXAMEN : Sémantique Structurelle",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel est un schéma sémantique propre ?",
+      "options": [
+        "header > nav / main / footer",
+        "div > div > div > footer",
+        "body > div > table",
+        "nav > footer > header"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Utiliser un <h1> dans un <footer> est une bonne pratique.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La sémantique rend le web plus {{1}}.",
+      "reponsesAttendues": [
+        "accessible"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Mix Sémantique.",
+      "pairs": [
+        {
+          "left": "article",
+          "right": "Post autonome"
+        },
+        {
+          "left": "aside",
+          "right": "Sidebar"
+        },
+        {
+          "left": "nav",
+          "right": "Menu"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour le SEO et les Métadonnées (P2) ?",
+      "options": [
+        "Oui !",
+        "C'est parti !",
+        "Absolument !",
+        "Révisions P1"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

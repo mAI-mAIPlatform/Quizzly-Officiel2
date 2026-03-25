@@ -1,0 +1,63 @@
+{
+  "id": "quiz18",
+  "titre": "Nuages de points (Intro)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Un nuage de points permet de comparer :",
+      "options": [
+        "Deux caractères en même temps",
+        "Seulement la moyenne",
+        "Rien du tout",
+        "Les couleurs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Chaque point représente un individu de la population.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si les points sont presque alignés, il y a une {{1}} entre les deux variables.",
+      "reponsesAttendues": [
+        "corrélation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la forme du nuage à l'interprétation.",
+      "pairs": [
+        {
+          "left": "Points éparpillés",
+          "right": "Pas de lien"
+        },
+        {
+          "left": "Points qui montent",
+          "right": "Lien positif"
+        },
+        {
+          "left": "Points qui descendent",
+          "right": "Lien négatif"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Un point A(5, 10) dans un nuage signifie :",
+      "options": [
+        "Valeur 1 vaut 5 et Valeur 2 vaut 10",
+        "Somme vaut 15",
+        "Moyenne vaut 7,5",
+        "Rien"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

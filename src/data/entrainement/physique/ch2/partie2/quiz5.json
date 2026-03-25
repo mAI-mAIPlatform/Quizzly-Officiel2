@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "L'état gazeux au microscope",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment sont les molécules dans un gaz ?",
+      "options": [
+        "Serrées et immobiles",
+        "Espacées (dispersées) et en mouvement rapide (désordonnées)",
+        "Elles forment des petits tas",
+        "Elles sont liées par des fils"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un gaz est un état dispersé et désordonné.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Entre les molécules d'un gaz, il y a beaucoup de {{1}}.",
+      "reponsesAttendues": [
+        "vide"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la propriété du gaz à sa cause microscopique.",
+      "pairs": [
+        {
+          "left": "Compressible",
+          "right": "On peut réduire l'espace vide entre les molécules"
+        },
+        {
+          "left": "Expansible",
+          "right": "Les molécules s'éloignent pour occuper tout l'espace"
+        },
+        {
+          "left": "Invisible (souvent)",
+          "right": "Molécules très petites et très espacées"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi un gaz n'a-t-il pas de volume propre ?",
+      "options": [
+        "Parce qu'il est léger",
+        "Parce que ses molécules sont en mouvement perpétuel et s'éparpillent partout",
+        "Parce qu'il est chaud",
+        "À cause du vent"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

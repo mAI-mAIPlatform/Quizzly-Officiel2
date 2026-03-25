@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Postais e Mensagens",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Carte postale' ?",
+      "options": [
+        "Postal",
+        "Carta",
+        "Mensagem",
+        "Email"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Beijinhos' é uma forma comum de terminar uma mensagem para amigos.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu estou a {{1}} (écrire) um postal.",
+      "reponsesAttendues": [
+        "escrever"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Comunicação.",
+      "pairs": [
+        {
+          "left": "Saudações",
+          "right": "Salutations"
+        },
+        {
+          "left": "Endereço",
+          "right": "Adresse"
+"        },
+        {
+          "left": "Selo",
+          "right": "Timbre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "O que escreves no postal?",
+      "options": [
+        "Digo que o tempo está ótimo",
+        "Escrevo a receita da sopa",
+        "Sou o carteiro",
+        "Dez anos"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

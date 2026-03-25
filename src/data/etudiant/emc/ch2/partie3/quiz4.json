@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Bioéthique (Définition)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la bioéthique ?",
+      "options": [
+        "La réflexion sur les règles à respecter face aux progrès des sciences de la vie",
+        "L'étude de la biologie des insectes",
+        "Une technique pour fabriquer des robots",
+        "L'interdiction de toute recherche médicale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En France, les lois de bioéthique sont régulièrement discutées et votées au Parlement.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le Comité Consultatif National d'{{1}} (Éthique) donne des avis sur ces sujets.",
+      "reponsesAttendues": [
+        "Éthique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le sujet bioéthique au débat.",
+      "pairs": [
+        {
+          "left": "Anonymat des dons",
+          "right": "Droit de connaître ses origines biologiques"
+        },
+        {
+          "left": "Fin de vie",
+          "right": "Soins palliatifs et aide à mourir"
+        },
+        {
+          "left": "Tests génétiques",
+          "right": "Respect de la vie privée et risques de discrimination"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le but principal de la bioéthique ?",
+      "options": [
+        "Protéger la dignité humaine face au progrès technique",
+        "Gagner le plus d'argent possible",
+        "Accélérer les inventions dangereuses",
+        "Rendre tout le monde éternel"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

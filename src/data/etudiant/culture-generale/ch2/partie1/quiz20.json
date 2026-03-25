@@ -1,0 +1,65 @@
+{
+  "id": "quiz10",
+  "titre": "Ch. 2 P. 2 Synthèse Univers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces astres n'est pas une planète ?",
+      "options": [
+        "Le Soleil (c'est une étoile)",
+        "Mars",
+        "Neptune",
+        "Vénus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le cycle de l'eau est alimenté par l'énergie du Soleil.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La force qui nous empêche de nous envoler dans l'espace est la {{1}} (gravité / pesanteur).",
+      "reponsesAttendues": [
+        "gravité",
+        "gravite",
+        "pesanteur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le record à son astre.",
+      "pairs": [
+        {
+          "left": "Plus grande planète",
+          "right": "Jupiter"
+        },
+        {
+          "left": "Planète avec les plus beaux anneaux",
+          "right": "Saturne"
+        },
+        {
+          "left": "Notre galaxie",
+          "right": "La Voie Lactée"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le mouvement de la Terre autour du Soleil ?",
+      "options": [
+        "La révolution",
+        "La rotation",
+        "Le jogging",
+        "La sieste"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

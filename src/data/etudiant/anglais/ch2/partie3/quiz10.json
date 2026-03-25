@@ -1,0 +1,63 @@
+{
+  "id": "quiz30",
+  "titre": "Ch2 Culture Review",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is the importance of global traditions?",
+      "options": [
+        "They connect people across generations and locations",
+        "They are useful for shops to sell things",
+        "They make people fight",
+        "They are only for old people"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Multiculturalism means everyone must follow only one culture.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A person who belongs to many cultures at once is {{1}}.",
+      "reponsesAttendues": [
+        "multicultural"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the cultural element to its effect.",
+      "pairs": [
+        {
+          "left": "Festivals",
+          "right": "Creating joy and community"
+        },
+        {
+          "left": "Heritage",
+          "right": "Remembering the past"
+        },
+        {
+          "left": "Language",
+          "right": "Enabling communication and thought"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "In the sentence 'I used to live in Paris', do I live in Paris now?",
+      "options": [
+        "No",
+        "Yes",
+        "Maybe",
+        "Only during holidays"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

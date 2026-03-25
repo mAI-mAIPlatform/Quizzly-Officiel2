@@ -1,0 +1,63 @@
+{
+  "id": "quiz30",
+  "titre": "Cap. 2 Sintesi",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Io {{1}} (devoir) andare {{2}} (en) Italia per lavoro.",
+      "options": [
+        "devo / in",
+        "posso / a",
+        "voglio / di",
+        "deve / in"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Piacere: 'A me piace il caffè' es correcto.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Quanto {{1}}? (coûte).",
+      "reponsesAttendues": [
+        "costa"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el resumen.",
+      "pairs": [
+        {
+          "left": "Modali",
+          "right": "Dovere, Potere, Volere"
+        },
+        {
+          "left": "Acquisti",
+          "right": "Prezzo, Sconto, Cassa"
+        },
+        {
+          "left": "Possessivi",
+          "right": "Mio, Tuo, Suo"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Je veux acheter un nouveau maillot car mon maillot est vieux'?",
+      "options": [
+        "Voglio comprare una nuova maglia perché la mia maglia è vecchia",
+        "Voglio compra una nuova maglia perché la mia maglia è vecchia",
+        "Voglio comprare un nuovo maglia perché il mio maglia è vecchia",
+        "Voglio comprare una nuova maglia perché mio maglia è vecchia"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

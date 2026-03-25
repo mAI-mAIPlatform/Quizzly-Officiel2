@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Récapitulatif : Les Bases (Ch1-Ch2)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment affiche-t-on 'Hello' ?",
+      "options": [
+        "print('Hello')",
+        "echo 'Hello'",
+        "console.log('Hello')",
+        "Hello"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Python utilise l'indentation pour définir les blocs de code.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le type pour un nombre décimal est le {{1}}.",
+      "reponsesAttendues": [
+        "float"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Opérateurs.",
+      "pairs": [
+        {
+          "left": "==",
+          "right": "Comparaison"
+        },
+        {
+          "left": "=",
+          "right": "Assignation"
+        },
+        {
+          "left": "//",
+          "right": "Division entière"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel mot-clé pour une boucle conditionnelle ?",
+      "options": [
+        "while",
+        "for",
+        "loop",
+        "repeat"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

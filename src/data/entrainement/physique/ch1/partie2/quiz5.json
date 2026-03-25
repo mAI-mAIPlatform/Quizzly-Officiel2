@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "La solubilité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la solubilité ?",
+      "options": [
+        "La capacité d'un liquide à geler",
+        "La masse maximale de soluté que l'on peut dissoudre dans un litre de solvant",
+        "La vitesse de mélange",
+        "La couleur de la solution"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le sel est plus soluble dans l'eau chaude que dans l'eau froide.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Quand on ne peut plus dissoudre de soluté, on dit que la solution est {{1}}.",
+      "reponsesAttendues": [
+        "saturée"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe les termes de la dissolution.",
+      "pairs": [
+        {
+          "left": "Soluté",
+          "right": "Corps qui est dissous (ex: sucre)"
+        },
+        {
+          "left": "Solvant",
+          "right": "Liquide qui dissout (ex: eau)"
+        },
+        {
+          "left": "Solution",
+          "right": "Résultat du mélange soluté + solvant"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que devient la masse totale lors d'une dissolution ?",
+      "options": [
+        "Elle augmente",
+        "Elle diminue",
+        "Elle se conserve (Masse finale = Masse soluté + Masse solvant)",
+        "Elle disparaît"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Verbos en -ER / -IR",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Je mange' (Comer) ?",
+      "options": [
+        "Como",
+        "Comes",
+        "Come",
+        "Comemos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Los verbos en -IR terminan en '-emos' para 'Nosotros'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Tu écris' (Escribir) se dice 'Tú {{1}}'.",
+      "reponsesAttendues": [
+        "escribes"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Verbos ER/IR.",
+      "pairs": [
+        {
+          "left": "Beber",
+          "right": "Boire"
+        },
+        {
+          "left": "Leer",
+          "right": "Lire"
+        },
+        {
+          "left": "Vivir",
+          "right": "Vivre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Como se dice 'Ils mangent' ?",
+      "options": [
+        "Comen",
+        "Comemos",
+        "Como",
+        "Coméis"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

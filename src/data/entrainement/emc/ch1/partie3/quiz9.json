@@ -1,0 +1,62 @@
+{
+  "id": "quiz9",
+  "titre": "Construire son Opinion",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un débat ?",
+      "options": [
+        "Le fait de crier le plus fort",
+        "Un échange d'arguments différents pour confronter des idées",
+        "Le moment où tout le monde est d'accord",
+        "Un silence prolongé"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il est important d'écouter ceux qui ne pensent pas comme nous.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour avoir une opinion solide, il faut se baser sur des {{1}}.",
+      "reponsesAttendues": [
+        "faits / arguments / preuves"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Préjugé",
+          "right": "Idée toute faite sans connaître"
+        },
+        {
+          "left": "Tolérance",
+          "right": "Respect des opinions d'autrui"
+        },
+        {
+          "left": "Persuasion",
+          "right": "Chercher à convaincre par l'émotion"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'esprit critique ?",
+      "options": [
+        "Toujours tout critiquer de façon méchante",
+        "Prendre du recul et analyser une info avant de l'accepter",
+        "Ne jamais rien croire",
+        "Croire tout ce que disent les amis"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

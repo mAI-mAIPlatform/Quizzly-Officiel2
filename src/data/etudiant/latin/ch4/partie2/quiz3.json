@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Architecture : Arcs et Voûtes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel élément architectural a permis aux Romains de construire de vastes espaces ?",
+      "options": [
+        "L'arc en plein cintre",
+        "Le poteau en bois",
+        "La pyramide",
+        "La grotte naturelle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'mortier' ou 'béton romain' (opus caementicium) était très résistant.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'architecte célèbre de l'Antiquité est {{1}} (Vitruve).",
+      "reponsesAttendues": [
+        "Vitruve"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le type de construction.",
+      "pairs": [
+        {
+          "left": "Opus reticulatum",
+          "right": "Pierres en forme de filet"
+        },
+        {
+          "left": "Opus testaceum",
+          "right": "Briques"
+        },
+        {
+          "left": "Opus incertum",
+          "right": "Pierres irrégulières"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel monument possède la plus grande coupole en béton de l'Antiquité ?",
+      "options": [
+        "Le Panthéon",
+        "Le Colisée",
+        "La Curie",
+        "Le Théâtre de Pompée"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

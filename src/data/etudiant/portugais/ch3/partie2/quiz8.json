@@ -1,0 +1,63 @@
+{
+  "id": "quiz18",
+  "titre": "Meio ambiente",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Bosque / Selva'?",
+      "options": [
+        "Floresta / Selva",
+        "Praia",
+        "Deserto",
+        "Rio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Preservar a natureza' es importante para el turismo sustentable.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu amo visitar as {{1}} (cascadas/cachoeiras).",
+      "reponsesAttendues": [
+        "cachoeiras"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el elemento natural.",
+      "pairs": [
+        {
+          "left": "O mar",
+          "right": "La mer"
+        },
+        {
+          "left": "A montanha",
+          "right": "La montagne"
+        },
+        {
+          "left": "O lago",
+          "right": "Le lac"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'poluição'?",
+      "options": [
+        "Contaminación",
+        "Población",
+        "Policía",
+        "Poder"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

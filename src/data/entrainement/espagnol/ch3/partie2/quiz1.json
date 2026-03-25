@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Pretérito Imperfecto: -AR",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Je parlais' (Hablar) ?",
+      "options": [
+        "Hablaba",
+        "Hablabas",
+        "Hablábamos",
+        "Hablaban"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Hablabas' es la forma de 'Tú' en imperfecto.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Ils chantaient' se dice '{{1}}' (Cantar).",
+      "reponsesAttendues": [
+        "Cantaban"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Terminaciones -AR.",
+      "pairs": [
+        {
+          "left": "-aba",
+          "right": "Yo / Él"
+        },
+        {
+          "left": "-ábamos",
+          "right": "Nosotros"
+        },
+        {
+          "left": "-aban",
+          "right": "Ellos"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Antes, nosotros...",
+      "options": [
+        "Jugábamos al fútbol",
+        "Jugamos al fútbol",
+        "Jugabas al fútbol",
+        "Juegan al fútbol"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

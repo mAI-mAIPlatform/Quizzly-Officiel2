@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Jacqueries et tensions sociales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelait-on les grandes révoltes paysannes au Moyen Âge ?",
+      "options": [
+        "Les grèves",
+        "Les jacqueries",
+        "Les croisades",
+        "Les tournois"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les paysans se révoltaient souvent contre l'excès d'impôts et la misère.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un paysan était parfois appelé '{{1}}' d'où le nom de jacquerie.",
+      "reponsesAttendues": [
+        "Jacques"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la cause à la révolte.",
+      "pairs": [
+        {
+          "left": "Famine",
+          "right": "Manque de nourriture"
+        },
+        {
+          "left": "Guerre",
+          "right": "Destruction des récoltes"
+        },
+        {
+          "left": "Taxes",
+          "right": "Poids de la taille et du cens"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment finissaient généralement ces révoltes ?",
+      "options": [
+        "Par la victoire des paysans",
+        "Elles étaient réprimées sévèrement par les seigneurs",
+        "Par un accord amiable",
+        "Elles n'existaient pas"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

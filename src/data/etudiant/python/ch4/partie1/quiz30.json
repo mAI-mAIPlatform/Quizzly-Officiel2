@@ -1,0 +1,63 @@
+{
+  "id": "quiz30",
+  "titre": "GRAND QUIZ FINAL PYTHON",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "relier",
+      "question": "Associe chaque symbole à sa fonction.",
+      "pairs": [
+        {
+          "left": "=",
+          "right": "Affectation d'une variable"
+        },
+        {
+          "left": "==",
+          "right": "Comparaison d'égalité"
+        },
+        {
+          "left": ":",
+          "right": "Début d'un bloc indenté"
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "qcm",
+      "enonce": "Comment récupérer un nombre decimal aléatoire entre 0 et 1 ?",
+      "options": [
+        "random.random()",
+        "random.randint()",
+        "random.uniform()",
+        "math.random()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour arrêter une boucle infinie de l'extérieur, on fait Ctrl + {{1}} (C).",
+      "reponsesAttendues": [
+        "C"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "vrai_faux",
+      "enonce": "Python est l'un des langages les plus populaires au monde pour la Data Science et l'IA.",
+      "reponse": true
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est ta récompense pour avoir fini ce cursus ?",
+      "options": [
+        "Des bases solides pour coder tes propres projets !",
+        "Un sandwich",
+        "Une nouvelle souris",
+        "Rien du tout"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

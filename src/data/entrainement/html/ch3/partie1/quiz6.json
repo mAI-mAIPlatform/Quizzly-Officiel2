@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Adresses et Temps",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise contient des informations de contact ?",
+      "options": [
+        "<address>",
+        "<contact>",
+        "<mail>",
+        "<footer>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "<time> permet d'indiquer une date machine-readable (attribut datetime).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} dans <time> est au format YYYY-MM-DD.",
+      "reponsesAttendues": [
+        "datetime"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Sémantique du texte.",
+      "pairs": [
+        {
+          "left": "address",
+          "right": "Auteur / Contact"
+        },
+        {
+          "left": "time",
+          "right": "Date de publication / Évènement"
+        },
+        {
+          "left": "cite",
+          "right": "Titre d'une œuvre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'effet visuel par défaut de <address> ?",
+      "options": [
+        "Texte en italique",
+        "Texte en gras",
+        "Texte en bleu",
+        "Aucun"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

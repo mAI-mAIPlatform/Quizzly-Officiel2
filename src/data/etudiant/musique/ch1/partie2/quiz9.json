@@ -1,0 +1,65 @@
+{
+  "id": "quiz9",
+  "titre": "Cas pratique : Romantique vs Moderne",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Tu écoutes une musique avec de grandes envolées de piano, très expressive et lyrique. C'est sûrement...",
+      "options": [
+        "Du Romantisme (ex: Chopin)",
+        "Du Modernisme (ex: Stravinsky)",
+        "Du Baroque",
+        "Du Rock"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une œuvre moderne du début du XXème siècle est souvent plus dissonante et rythmée qu'une œuvre romantique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le 'Sacre du printemps' de Stravinsky a été accueilli par des {{1}} (cris / huées) lors de sa création car il était trop moderne.",
+      "reponsesAttendues": [
+        "cris",
+        "huées",
+        "scandales"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'ambiance à l'époque.",
+      "pairs": [
+        {
+          "left": "Émotion, passion, nature",
+          "right": "Romantisme"
+        },
+        {
+          "left": "Atmosphère, brume, couleurs sonores",
+          "right": "Impressionnisme"
+        },
+        {
+          "left": "Rythme percutant, discordance volontaire",
+          "right": "Modernisme"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel de ces opéras est célèbre pour son usage de 'leitmotivs' ?",
+      "options": [
+        "L'Anneau du Nibelung de Wagner",
+        "La Flûte enchantée de Mozart",
+        "Le Mariage de Figaro",
+        "Don Giovanni"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

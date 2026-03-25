@@ -1,0 +1,63 @@
+{
+  "id": "quiz28",
+  "titre": "Le Code Civil (1804)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le Code Civil ?",
+      "options": [
+        "Un recueil unifiant les lois pour tous les Français",
+        "Une liste de recettes",
+        "Le règlement de l'armée",
+        "Le carnet de bord de l'Empereur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Code Civil confirme l'égalité de tous devant la loi.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le Code Civil consacre aussi le droit de {{1}} privée.",
+      "reponsesAttendues": [
+        "propriété"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le domaine au changement du Code Civil.",
+      "pairs": [
+        {
+          "left": "Famille",
+          "right": "Autorité du père et du mari renforcée"
+        },
+        {
+          "left": "Religion",
+          "right": "Liberté de culte maintenue"
+        },
+        {
+          "left": "Travail",
+          "right": "Suppression des corporations"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle a été l'influence du Code Civil dans le monde ?",
+      "options": [
+        "Il a servi de modèle à de nombreux pays européens",
+        "Il a été tout de suite oublié",
+        "Il n'a jamais été appliqué hors de Paris",
+        "Il a été traduit en chinois uniquement"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

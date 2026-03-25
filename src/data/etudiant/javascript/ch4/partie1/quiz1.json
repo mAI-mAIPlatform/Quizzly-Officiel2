@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Structure Projet",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans un projet web standard, quel fichier s'occupe de l'interactivité ?",
+      "options": [
+        "Le fichier .js",
+        "Le fichier .html",
+        "Le fichier .css",
+        "Le fichier .png"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il est préférable de séparer le JavaScript du HTML pour avoir un code plus propre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On relie le script au HTML avec la balise <{{1}} src=\"script.js\"></script> (script).",
+      "reponsesAttendues": [
+        "script"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'extension à son rôle.",
+      "pairs": [
+        {
+          "left": ".html",
+          "right": "Squelette / Contenu"
+        },
+        {
+          "left": ".css",
+          "right": "Habillage / Style"
+        },
+        {
+          "left": ".js",
+          "right": "Cerveau / Logique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi placer la balise <script> tout en bas du <body> ?",
+      "options": [
+        "Pour s'assurer que le HTML est chargé avant que le JS ne commence à le manipuler",
+        "Pour que le fichier soit plus léger",
+        "Parce que c'est interdit en haut",
+        "Pour changer la police"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz22",
+  "titre": "Boucle Infinie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une boucle infinie ?",
+      "options": [
+        "Une boucle dont la condition reste toujours True et qui ne s'arrête jamais",
+        "Une boucle qui dure 1 minute",
+        "Une boucle très longue",
+        "Une erreur de syntaxe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut créer une boucle infinie exprès avec : while True:.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si votre programme est bloqué dans une boucle infinie, on utilise souvent le raccourci clavier Ctrl + {{1}} pour l'arrêter (C).",
+      "reponsesAttendues": [
+        "C"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la cause à sa boucle.",
+      "pairs": [
+        {
+          "left": "i = 0; while i < 5: print(i)",
+          "right": "Infinie (i ne change jamais)"
+        },
+        {
+          "left": "while x > 0:",
+          "right": "Dépend de la valeur de x"
+        },
+        {
+          "left": "while False:",
+          "right": "0 tour (ne commence jamais)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le principal danger d'une boucle infinie involontaire ?",
+      "options": [
+        "Elle consomme toute la puissance de l'ordinateur et le fait ramer",
+        "Elle efface le disque dur",
+        "Elle change le mot de passe",
+        "Elle éteint la lumière"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

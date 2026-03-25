@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Genre et terminaisons",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "En général, les mots finissant en -o sont de quel genre ?",
+      "options": [
+        "Masculin",
+        "Féminin",
+        "Neutre",
+        "Pluriel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les mots finissant en -a sont généralement féminins.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les mots finissant en -e peuvent être soit masculins, soit {{1}}.",
+      "reponsesAttendues": [
+        "féminins"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le mot à son genre probable.",
+      "pairs": [
+        {
+          "left": "Ragazzo",
+          "right": "Masculin (o)"
+        },
+        {
+          "left": "Ragazza",
+          "right": "Féminin (a)"
+        },
+        {
+          "left": "Padre / Madre",
+          "right": "Mixte (e)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel de ces mots est masculin ?",
+      "options": [
+        "Mano (Exception)",
+        "Treno",
+        "Casa",
+        "Isola"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

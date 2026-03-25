@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "La Niñez (L'enfance)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Quand j'étais petit' ?",
+      "options": [
+        "Cuando era pequeño / De niño",
+        "Soy pequeño",
+        "Tengo pequeño",
+        "Fui pequeño"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Cuando tenía 5 años' usa el imperfecto.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Jouets' se dice '{{1}}'.",
+      "reponsesAttendues": [
+        "juguetes"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Infancia.",
+      "pairs": [
+        {
+          "left": "Dibujos animados",
+          "right": "Dessins animés"
+        },
+        {
+          "left": "Caramelos",
+          "right": "Bonbons"
+        },
+        {
+          "left": "Escondite",
+          "right": "Cache-cache"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿A qué jugabas de niño?",
+      "options": [
+        "Jugaba con mis coches de juguete",
+        "Juego con la consola",
+        "Soy un niño",
+        "Tengo un coche"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Das Frühstück",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Le pain' ?",
+      "options": [
+        "Das Brot",
+        "Der Käse",
+        "Die Milch",
+        "Das Ei"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Milch' ist ein Getränk.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich esse ein {{1}} (œuf) zum Frühstück.",
+      "reponsesAttendues": [
+        "Ei"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Frühstückssachen.",
+      "pairs": [
+        {
+          "left": "Kaffee",
+          "right": "Café"
+        },
+        {
+          "left": "Tee",
+          "right": "Thé"
+        },
+        {
+          "left": "Marmelade",
+          "right": "Confiture"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Was trinkst du morgens?",
+      "options": [
+        "Ich trinke Orangensaft",
+        "Ich esse Orangensaft",
+        "Orangensaft ist ein Brot",
+        "Hallo Saft"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

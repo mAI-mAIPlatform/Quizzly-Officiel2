@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Boutons Radio (Choix unique)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel type d'input permet un choix UNIQUE parmi plusieurs ?",
+      "options": [
+        "radio",
+        "checkbox",
+        "toggle",
+        "one"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour lier des boutons radio entre eux, ils doivent avoir le même 'name'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour sélectionner un bouton radio par défaut, on utilise {{1}}.",
+      "reponsesAttendues": [
+        "checked"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Attributs Radio.",
+      "pairs": [
+        {
+          "left": "name",
+          "right": "Groupe de choix"
+        },
+        {
+          "left": "value",
+          "right": "Donnée envoyée"
+        },
+        {
+          "left": "checked",
+          "right": "Séléction initiale"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si deux radios ont des 'name' différents ?",
+      "options": [
+        "On pourra cocher les deux en même temps",
+        "Le site plante",
+        "Un seul sera visible",
+        "Rien ne change"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

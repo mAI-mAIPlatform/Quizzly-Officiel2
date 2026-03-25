@@ -1,0 +1,64 @@
+{
+  "id": "quiz4",
+  "titre": "Civilisations Amérindiennes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quelle partie du monde se situaient les Empires Inca et Aztèque ?",
+      "options": [
+        "En Amérique (Centrale et du Sud)",
+        "En Afrique",
+        "En Australie",
+        "En Europe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les Mayas ont construit d'immenses pyramides à degrés et possédaient un calendrier très précis.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La capitale de l'Empire Inca, située dans les montagnes du Pérou, s'appelle {{1}} (Cuzco).",
+      "reponsesAttendues": [
+        "Cuzco",
+        "Cusco"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la civilisation à son lieu géographique emblématique.",
+      "pairs": [
+        {
+          "left": "Incas",
+          "right": "Montagnes des Andes (Pérou)"
+        },
+        {
+          "left": "Aztèques",
+          "right": "Mexique (Ténochitlan)"
+        },
+        {
+          "left": "Mayas",
+          "right": "Péninsule du Yucatan"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel de ces aliments a été découvert par ces civilisations et ramené en Europe après 1492 ?",
+      "options": [
+        "Le chocolat (cacao)",
+        "Le blé",
+        "Le riz",
+        "Le vin"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

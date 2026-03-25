@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Estilo e Descrição",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Élégant' ?",
+      "options": [
+        "Elegante",
+        "Desportivo",
+        "Moderno",
+        "Antigo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Está na moda' significa 'C'est à la mode'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Este casaco é muito {{1}} (confortable).",
+      "reponsesAttendues": [
+        "confortável"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Estilo.",
+      "pairs": [
+        {
+          "left": "Colorido",
+          "right": "Coloré"
+        },
+        {
+          "left": "Simples",
+          "right": "Simple"
+        },
+        {
+          "left": "Caro",
+          "right": "Cher"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Gostas do meu estilo?",
+      "options": [
+        "Sim, és muito elegante",
+        "Sim, sou um estilo",
+        "Não, sou de Faro",
+        "Olá"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

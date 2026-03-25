@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Trouver un côté de l'angle droit",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Si BC est l'hypoténuse, comment calcule-t-on AB² ?",
+      "options": [
+        "BC² + AC²",
+        "BC² - AC²",
+        "AC² - BC²",
+        "AB + BC"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour trouver un côté de l'angle droit, on doit faire une soustraction.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans ABC rectangle en A, si BC=10 et AB=6, alors AC vaut {{1}}.",
+      "reponsesAttendues": [
+        "8"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe les mesures d'un triangle rectangle (hypoténuse en gras).",
+      "pairs": [
+        {
+          "left": "3 ; 4",
+          "right": "5"
+        },
+        {
+          "left": "6 ; 10",
+          "right": "8"
+        },
+        {
+          "left": "12 ; 13",
+          "right": "5"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "L'hypoténuse vaut 5cm et un côté vaut 3cm. L'autre côté vaut :",
+      "options": [
+        "2cm",
+        "4cm",
+        "8cm",
+        "racine de 34"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

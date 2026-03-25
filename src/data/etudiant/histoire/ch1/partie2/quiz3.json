@@ -1,0 +1,63 @@
+{
+  "id": "quiz13",
+  "titre": "Les États Généraux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quand s'ouvrent les États Généraux à Versailles ?",
+      "options": [
+        "5 mai 1789",
+        "14 juillet 1789",
+        "21 septembre 1792",
+        "1er janvier 1800"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Tiers-État veut que le vote se fasse par tête (un vote par député).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le Roi souhaite que le vote reste par {{1}} (un vote pour chaque groupe).",
+      "reponsesAttendues": [
+        "ordre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le groupe à son attitude lors de l'ouverture.",
+      "pairs": [
+        {
+          "left": "Le Roi",
+          "right": "Veut juste de nouveaux impôts"
+        },
+        {
+          "left": "Le Tiers-État",
+          "right": "Déçu par le manque de réformes politiques"
+        },
+        {
+          "left": "La Noblesse",
+          "right": "Soutient majoritairement le Roi"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi les États Généraux sont-ils un échec pour le Roi ?",
+      "options": [
+        "Parce qu'ils se transforment en Assemblée Nationale",
+        "Parce que personne n'est venu",
+        "Parce qu'il a plu tout le temps",
+        "Parce qu'ils ont voté contre les impôts"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

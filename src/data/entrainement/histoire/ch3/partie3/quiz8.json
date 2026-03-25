@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Louis XI contre les Grands Seigneurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle la révolte des grands seigneurs contre Louis XI ?",
+      "options": [
+        "La ligue du Bien Public",
+        "La Fronde",
+        "La Révolution",
+        "La Jacquerie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Louis XI préférait la diplomatie et la ruse à la guerre directe.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Après la mort de Charles le Téméraire, Louis XI récupère le duché de {{1}}.",
+      "reponsesAttendues": [
+        "Bourgogne"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la province à l'action de Louis XI.",
+      "pairs": [
+        {
+          "left": "Bourgogne",
+          "right": "Conquête et rattachement"
+        },
+        {
+          "left": "Provence",
+          "right": "Héritage au profit du roi"
+        },
+        {
+          "left": "Anjou",
+          "right": "Récupération par la force ou la ruse"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel était le surnom de Louis XI auprès de ses ennemis ?",
+      "options": [
+        "Le Juste",
+        "L'universelle Aragne (l'araignée)",
+        "Le Débonnaire",
+        "Le Saint"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

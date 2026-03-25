@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Lumières et Révolutions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle grande révolution hors de France a été influencée par les Lumières ?",
+      "options": [
+        "La Révolution Américaine (1776)",
+        "La Révolution Industrielle",
+        "La Révolution Verte",
+        "La Révolution des oeillets"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Constitution des États-Unis reprend la séparation des pouvoirs.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La Déclaration d'Indépendance américaine affirme que tous les hommes naissent {{1}}.",
+      "reponsesAttendues": [
+        "égaux"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la date à l'événement.",
+      "pairs": [
+        {
+          "left": "1776",
+          "right": "Indépendance des États-Unis"
+        },
+        {
+          "left": "1789",
+          "right": "Début de la Révolution française"
+        },
+        {
+          "left": "1751",
+          "right": "Début de l'Encyclopédie"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel était le principal 'ennemi' dénoncé par les révolutions du XVIIIe ?",
+      "options": [
+        "La tyrannie et l'arbitraire",
+        "La science",
+        "L'agriculture",
+        "L'hiver"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

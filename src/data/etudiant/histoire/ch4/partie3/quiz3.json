@@ -1,0 +1,63 @@
+{
+  "id": "quiz23",
+  "titre": "Paris, Ville Mondiale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi Paris est-elle classée comme 'ville mondiale' (global city) ?",
+      "options": [
+        "Elle concentre des fonctions de commandement dans tous les domaines",
+        "Elle a le plus grand nombre de boulangeries",
+        "Elle est la seule ville de France",
+        "Elle est située exactement au centre du monde"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Paris est la seule métropole française au rayonnement international de premier rang.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le quartier d'affaires de Paris, l'un des premiers en Europe, est {{1}}.",
+      "reponsesAttendues": [
+        "La Défense"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le haut lieu parisien à son influence.",
+      "pairs": [
+        {
+          "left": "Bourse de Paris (Euronext)",
+          "right": "Influence Financière"
+        },
+        {
+          "left": "Le Louvre / Tour Eiffel",
+          "right": "Influence Touristique / Culturelle"
+        },
+        {
+          "left": "Palais de l'Élysée",
+          "right": "Influence Diplomatique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel défi Paris doit-elle relever pour rester une ville mondiale ?",
+      "options": [
+        "S'adapter aux enjeux écologiques et améliorer ses transports (Grand Paris)",
+        "Supprimer tous les musées",
+        "Interdire aux étrangers de venir",
+        "Ne plus rien construire du tout"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

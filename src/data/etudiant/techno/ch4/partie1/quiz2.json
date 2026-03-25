@@ -1,0 +1,64 @@
+{
+  "id": "quiz2",
+  "titre": "Opérateurs Logiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel opérateur logique renvoie VRAI seulement si les deux conditions sont vraies ?",
+      "options": [
+        "L'opérateur ET (AND)",
+        "L'opérateur OU (OR)",
+        "L'opérateur NON (NOT)",
+        "L'opérateur PEUT-ÊTRE"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'opérateur NON (NOT) inverse la valeur d'une condition (Vrai devient Faux).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'opérateur {{1}} (OU / OR) est vrai si au moins une des deux conditions est vraie.",
+      "reponsesAttendues": [
+        "OU",
+        "OR"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'opération à son résultat (A=Vrai, B=Faux).",
+      "pairs": [
+        {
+          "left": "A ET B",
+          "right": "Faux (car B est faux)"
+        },
+        {
+          "left": "A OU B",
+          "right": "Vrai (car A est vrai)"
+        },
+        {
+          "left": "NON A",
+          "right": "Faux (inverse du vrai)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Dans quel cas utilise-t-on les opérateurs logiques ?",
+      "options": [
+        "Pour créer des conditions complexes (ex: Si bouton appuyé ET batterie > 10%)",
+        "Pour changer la vitesse du robot au hasard",
+        "Pour colorer les blocs de code",
+        "Pour compter jusqu'à 10"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

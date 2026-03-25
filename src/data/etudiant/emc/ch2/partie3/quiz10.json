@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Cap. 2 P. 3 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "L'éco-{{1}} protège la terre et la {{2}} aide les personnes.",
+      "options": [
+        "citoyen / solidarité",
+        "logic / peur",
+        "nomie / richesse",
+        "système / météo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le don d'organes est payant en France.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La réflexion sur les sciences de la vie est la {{1}} (bioéthique).",
+      "reponsesAttendues": [
+        "bioéthique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les engagements.",
+      "pairs": [
+        {
+          "left": "GIEC",
+          "right": "Climat et expertise"
+        },
+        {
+          "left": "Don du sang",
+          "right": "Solidarité médicale"
+        },
+        {
+          "left": "Accord de Paris",
+          "right": "Lutte mondiale pour la température"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le principe d'un acte éthique ?",
+      "options": [
+        "Agir de manière juste et responsable",
+        "Agir pour soi-même uniquement",
+        "Ignorer les conséquences de ses actes",
+        "Toujours faire comme les autres"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

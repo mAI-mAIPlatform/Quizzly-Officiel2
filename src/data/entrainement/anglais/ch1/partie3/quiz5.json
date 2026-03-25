@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Instructions : The Imperative",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "How do you give an order like 'Ouvre ton livre'?",
+      "options": [
+        "Open your book!",
+        "You open your book",
+        "Do open your book",
+        "Opening your book"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "To make a negative instruction, we use 'Don't' (ex: Don't talk).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "{{1}} down, please.",
+      "reponsesAttendues": [
+        "Sit"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match instructions.",
+      "pairs": [
+        {
+          "left": "Listen!",
+          "right": "Ecoutez!"
+        },
+        {
+          "left": "Look!",
+          "right": "Regardez!"
+        },
+        {
+          "left": "Write!",
+          "right": "Ecrivez!"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Which one is an instruction?",
+      "options": [
+        "Close the door!",
+        "The door is closed",
+        "Do you close the door?",
+        "A closed door"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

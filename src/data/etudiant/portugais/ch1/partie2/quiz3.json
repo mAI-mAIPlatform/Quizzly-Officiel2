@@ -1,0 +1,63 @@
+{
+  "id": "quiz13",
+  "titre": "Verbos em -ER",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Conjugación de 'Ele' para los verbos en -ER (es. Comer)?",
+      "options": [
+        "come",
+        "como",
+        "comemos",
+        "comem"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Las terminaciones de -ER son muy parecidas a las de -AR, cambiando 'a' por 'e'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu {{1}} um suco de laranja (beber).",
+      "reponsesAttendues": [
+        "bebo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la conjugación de LER (irregular intro).",
+      "pairs": [
+        {
+          "left": "Eu",
+          "right": "leio"
+        },
+        {
+          "left": "Você",
+          "right": "lê"
+        },
+        {
+          "left": "Eles",
+          "right": "leem"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Nosotros comemos'?",
+      "options": [
+        "Nós comemos",
+        "Nós comão",
+        "Nós come",
+        "Nós comiamo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

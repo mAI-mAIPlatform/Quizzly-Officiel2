@@ -1,0 +1,63 @@
+{
+  "id": "quiz22",
+  "titre": "L'énergie électrique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la relation entre l'énergie (E), la puissance (P) et le temps (t) ?",
+      "options": [
+        "E = P x t",
+        "E = P / t",
+        "E = t / P",
+        "E = P + t"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans le système international, l'unité légale d'énergie est le Joule (J).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'unité d'énergie utilisée sur les factures d'électricité est le {{1}}.",
+      "reponsesAttendues": [
+        "kilowattheure"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'unité à sa définition.",
+      "pairs": [
+        {
+          "left": "Joule (J)",
+          "right": "Watt x Seconde"
+        },
+        {
+          "left": "Wattheure (Wh)",
+          "right": "Watt x Heure"
+        },
+        {
+          "left": "kilowattheure (kWh)",
+          "right": "1000 Wattheures"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Une ampoule de 10W allumée pendant 5 heures consomme :",
+      "options": [
+        "50 Wh",
+        "2 Wh",
+        "15 Wh",
+        "500 Wh"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Grammar : Love, Like, Hate + -ing",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "I enjoy _____ video games after school.",
+      "options": [
+        "playing",
+        "to play",
+        "play",
+        "played"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "After 'hate', we usually use the -ing form (ex: I hate running).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "She loves {{1}} to the park.",
+      "reponsesAttendues": [
+        "going"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match feelings to -ing.",
+      "pairs": [
+        {
+          "left": "I'm fond of",
+          "right": "Cooking"
+        },
+        {
+          "left": "I can't stand",
+          "right": "Waiting"
+        },
+        {
+          "left": "I'm crazy about",
+          "right": "Dancing"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What comes after 'I like'?",
+      "options": [
+        "Swimming or To swim",
+        "Only swim",
+        "Swimmed",
+        "Swimmingto"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

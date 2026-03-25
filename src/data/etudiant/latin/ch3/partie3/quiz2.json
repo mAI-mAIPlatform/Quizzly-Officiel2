@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "La triade capitoline",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quels dieux composent la triade capitoline ?",
+      "options": [
+        "Jupiter, Junon et Minerve",
+        "Mars, Vénus et Mercure",
+        "Neptune, Pluton et Vesta",
+        "Cérès, Diane et Apollon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le grand temple de la triade se trouvait sur le mont Capitole.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La déesse protectrice des femmes et du mariage est {{1}} (Junon).",
+      "reponsesAttendues": [
+        "Junon"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la déesse à son attribut.",
+      "pairs": [
+        {
+          "left": "Minerve",
+          "right": "Chouette / Sagesse"
+        },
+        {
+          "left": "Junon",
+          "right": "Paon / Mariage"
+        },
+        {
+          "left": "Vesta",
+          "right": "Feu sacré"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que représentait Minerve en plus de la sagesse ?",
+      "options": [
+        "L'artisanat et la guerre stratégique",
+        "Le jardinage",
+        "La fête",
+        "La navigation"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

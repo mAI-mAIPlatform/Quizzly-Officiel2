@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Aves e Insetos",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'L'oiseau' ?",
+      "options": [
+        "O pássaro",
+        "A borboleta",
+        "A abelha",
+        "A formiga"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Borboleta' significa 'Papillon'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A {{1}} (abeille) faz mel.",
+      "reponsesAttendues": [
+        "abelha"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Pequenos seres.",
+      "pairs": [
+        {
+          "left": "Aranha",
+          "right": "Araignée"
+        },
+        {
+          "left": "Mosca",
+          "right": "Mouche"
+        },
+        {
+          "left": "Papagaio",
+          "right": "Perroquet"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qual inseto faz teias?",
+      "options": [
+        "A aranha",
+        "A borboleta",
+        "A formiga",
+        "O pássaro"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

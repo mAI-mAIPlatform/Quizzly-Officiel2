@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Vérifier presence",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode renvoie un booléen pour savoir si un élément est dans le tableau ?",
+      "options": [
+        "includes()",
+        "contains()",
+        "has()",
+        "isInside()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "includes() renvoie true si l'élément est trouvé, sinon false.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour tester si 10 est dans 'notes', on peut écrire : if (notes.{{1}}(10)) { ... } (includes).",
+      "reponsesAttendues": [
+        "includes"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la méthode au type de retour.",
+      "pairs": [
+        {
+          "left": "indexOf",
+          "right": "Number (L'index ou -1)"
+        },
+        {
+          "left": "includes",
+          "right": "Boolean (true ou false)"
+        },
+        {
+          "left": "push",
+          "right": "Number (Nouvelle longueur)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est équivalent à : tab.indexOf(\"test\") !== -1 ?",
+      "options": [
+        "tab.includes(\"test\")",
+        "tab.has(\"test\")",
+        "tab.find(\"test\")",
+        "tab == \"test\""
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

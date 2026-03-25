@@ -1,0 +1,64 @@
+{
+  "id": "quiz7",
+  "titre": "Vérifier la sélection",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si vous essayez de modifier un élément qui n'a pas été trouvé (null) ?",
+      "options": [
+        "Le script s'arrête avec une erreur 'Cannot read property...'",
+        "Il ne se passe rien, JS ignore l'erreur",
+        "L'élément est créé automatiquement",
+        "La page se recharge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il est recommandé de vérifier si 'element !== null' avant de le manipuler.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On peut écrire : if ({{1}}) { ... } pour vérifier simplement si l'élément existe (monElement / element).",
+      "reponsesAttendues": [
+        "monElement",
+        "element"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'état au test.",
+      "pairs": [
+        {
+          "left": "L'élément existe",
+          "right": "if (el)"
+        },
+        {
+          "left": "L'élément n'existe pas",
+          "right": "if (!el)"
+        },
+        {
+          "left": "Test d'absence",
+          "right": "el === null"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi une sélection peut-elle échouer (renvoyer null) ?",
+      "options": [
+        "L'ID est mal orthographié ou l'élément n'est pas encore chargé",
+        "L'ordinateur est trop lent",
+        "Il y a trop de texte dans la page",
+        "Le JavaScript est désactivé"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

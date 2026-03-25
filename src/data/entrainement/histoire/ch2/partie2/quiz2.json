@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Devenir Chevalier : L'adoubement",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle la cérémonie où un jeune noble devient chevalier ?",
+      "options": [
+        "Le sacre",
+        "L'adoubement",
+        "L'hommage",
+        "Le tournoi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le futur chevalier passe la nuit à prier avant la cérémonie (la veillée d'armes).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le guerrier à cheval, lourdement armé, s'appelle le {{1}}.",
+      "reponsesAttendues": [
+        "chevalier"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'équipement à son nom.",
+      "pairs": [
+        {
+          "left": "Haubert",
+          "right": "Cotte de mailles"
+        },
+        {
+          "left": "Heaume",
+          "right": "Casque protégeant le visage"
+        },
+        {
+          "left": "Écu",
+          "right": "Bouclier"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel animal est le compagnon indispensable du chevalier ?",
+      "options": [
+        "Le chien",
+        "Le cheval (destrier)",
+        "Le faucon",
+        "Le chat"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

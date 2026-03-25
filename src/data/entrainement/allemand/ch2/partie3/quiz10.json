@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Zusammenfassung Kapitel 2 Teil 3",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Ich spiele gern ... (guitare) und ... (football).",
+      "options": [
+        "Gitarre / Fußball",
+        "Klavier / Tennis",
+        "Singen / Laufen",
+        "Buch / Film"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Man kann im Park spazieren gehen.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich {{1}} (regarder la télé) gern Serien.",
+      "reponsesAttendues": [
+        "sehe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Hobbys.",
+      "pairs": [
+        {
+          "left": "Reisen",
+          "right": "Voyager"
+        },
+        {
+          "left": "Backen",
+          "right": "Cuisiner (gâteaux)"
+        },
+        {
+          "left": "Malen",
+          "right": "Dessiner"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Was machst du am Wochenende?",
+      "options": [
+        "Ich treffe meine Freunde",
+        "Ich bin ein Wochenende",
+        "Wochenende ist ein Brot",
+        "Hallo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

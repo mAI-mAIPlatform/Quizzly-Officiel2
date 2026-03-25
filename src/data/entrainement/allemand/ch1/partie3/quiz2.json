@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Schulsachen 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Les ciseaux' ?",
+      "options": [
+        "Die Schere",
+        "Der Kleber",
+        "Das Lineal",
+        "Der Spitzer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Das Lineal' bedeutet 'La règle'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'La colle' se dice 'der {{1}}'.",
+      "reponsesAttendues": [
+        "Kleber"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Werkzeuge.",
+      "pairs": [
+        {
+          "left": "Spitzer",
+          "right": "Taille-crayon"
+        },
+        {
+          "left": "Taschenrechner",
+          "right": "Calculatrice"
+        },
+        {
+          "left": "Rucksack",
+          "right": "Sac à dos"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Was brauchst du für Mathe?",
+      "options": [
+        "Einen Taschenrechner",
+        "Einen Hund",
+        "Eine Gitarre",
+        "Ein Brot"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

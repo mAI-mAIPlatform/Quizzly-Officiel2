@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Les Adjectifs en -EL, -EIL, -EN, -ET",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le féminin de 'Cruel' ?",
+      "options": [
+        "Cruelle",
+        "Cruèle",
+        "Cruellee",
+        "Cruel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le féminin de 'Complet' est 'Complette'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une musique {{1}} (ancien).",
+      "reponsesAttendues": [
+        "ancienne"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Trouve le féminin.",
+      "pairs": [
+        {
+          "left": "Pareil",
+          "right": "Pareille"
+        },
+        {
+          "left": "Muet",
+          "right": "Muette"
+        },
+        {
+          "left": "Secret",
+          "right": "Secrète"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel prend un accent grave au féminin ?",
+      "options": [
+        "Inquiet (Inquiète)",
+        "Net (Nette)",
+        "Gris (Grise)",
+        "Bel (Belle)"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

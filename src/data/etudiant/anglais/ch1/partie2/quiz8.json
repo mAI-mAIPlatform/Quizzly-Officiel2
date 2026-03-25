@@ -1,0 +1,63 @@
+{
+  "id": "quiz18",
+  "titre": "Useful Phrases",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "How do you ask for the price of something?",
+      "options": [
+        "How much is it?",
+        "What is your name?",
+        "Why is it?",
+        "How many is it?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Could you help me, please?' is a formal way to ask for assistance.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Can I {{1}} by credit card?",
+      "reponsesAttendues": [
+        "pay"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the phrase to the location.",
+      "pairs": [
+        {
+          "left": "A table for two, please",
+          "right": "Restaurant"
+        },
+        {
+          "left": "What gate is my flight?",
+          "right": "Airport"
+        },
+        {
+          "left": "Does this bus go to the center?",
+          "right": "Bus stop"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What do you say when you don't understand?",
+      "options": [
+        "I'm sorry, I don't understand",
+        "You are wrong",
+        "Speak louder!",
+        "Stop talking"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "quiz9",
+  "titre": "Cas pratique : Robot",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Un petit robot mobile doit fonctionner sans fil. Quel élément assure la fonction 'Stocker' l'énergie ?",
+      "options": [
+        "La batterie",
+        "Le moteur",
+        "Les roues",
+        "Le capteur de distance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le moteur du robot assure la fonction 'Convertir' l'énergie électrique en énergie mécanique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour que le robot avance plus vite, on doit lui envoyer plus de {{1}} (puissance / courant) électrique.",
+      "reponsesAttendues": [
+        "puissance",
+        "courant",
+        "tension"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'élément du robot à sa fonction dans la chaîne d'énergie.",
+      "pairs": [
+        {
+          "left": "Fils électriques",
+          "right": "Transmettre l'énergie"
+        },
+        {
+          "left": "Carte de contrôle",
+          "right": "Distribuer l'énergie au moteur"
+        },
+        {
+          "left": "Engrenages",
+          "right": "Transmettre le mouvement aux roues"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il important de calculer l'autonomie du robot ?",
+      "options": [
+        "Pour savoir combien de temps il pourra fonctionner avant que la batterie soit vide",
+        "Pour savoir s'il peut parler",
+        "Pour connaître son prix de vente",
+        "Pour savoir s'il est gentil"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

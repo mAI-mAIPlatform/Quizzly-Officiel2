@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Ceux qui travaillent : Les paysans",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelait-on les paysans qui dépendaient entièrement d'un seigneur ?",
+      "options": [
+        "Les vilains",
+        "Les serfs",
+        "Les chevaliers",
+        "Les moines"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La majorité de la population au Moyen Âge vit à la campagne.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le travail gratuit que le paysan doit au seigneur s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "corvée"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la partie de la seigneurie à son usage.",
+      "pairs": [
+        {
+          "left": "Réserve",
+          "right": "Terre que le seigneur garde pour lui"
+        },
+        {
+          "left": "Tenures",
+          "right": "Terres louées aux paysans"
+        },
+        {
+          "left": "Communs",
+          "right": "Forêts et pâturages partagés"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelait-on les paysans libres (par opposition aux serfs) ?",
+      "options": [
+        "Les bourgeois",
+        "Les vilains",
+        "Les nobles",
+        "Les clercs"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

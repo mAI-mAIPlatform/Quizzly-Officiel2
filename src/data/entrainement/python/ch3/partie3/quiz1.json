@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Qu'est-ce qu'un module ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un module en Python ?",
+      "options": [
+        "Un fichier contenant du code Python (.py)",
+        "Un petit ordinateur",
+        "Une erreur de programme",
+        "Un commentaire long"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On utilise les modules pour organiser le code en plusieurs fichiers.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La bibliothèque {{1}} de Python contient des milliers de modules prêts à l'emploi.",
+      "reponsesAttendues": [
+        "standard"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "Module",
+          "right": "Un fichier .py"
+        },
+        {
+          "left": "Package",
+          "right": "Un dossier de modules"
+        },
+        {
+          "left": "Réutilisation",
+          "right": "Évite de réécrire des outils"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le fait de charger un module ?",
+      "options": [
+        "L'importation",
+        "Le chargement",
+        "L'installation",
+        "La lecture"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

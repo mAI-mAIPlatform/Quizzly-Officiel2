@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Outdoor Hobbies",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is 'Hiking'?",
+      "options": [
+        "Walking in nature/mountains",
+        "Driving a car",
+        "Swimming in a pool",
+        "Sleeping in a tent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Gardening' is about taking care of flowers and plants.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "We go {{1}} in the summer at the campsite.",
+      "reponsesAttendues": [
+        "camping"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match.",
+      "pairs": [
+        {
+          "left": "Skating",
+          "right": "Ice or Rollers"
+        },
+        {
+          "left": "Cycling",
+          "right": "Bicycle"
+        },
+        {
+          "left": "Fishing",
+          "right": "River / Lake"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Where do you go to play football with friends?",
+      "options": [
+        "To the park or pitch",
+        "To the library",
+        "To the cinema",
+        "To the kitchen"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

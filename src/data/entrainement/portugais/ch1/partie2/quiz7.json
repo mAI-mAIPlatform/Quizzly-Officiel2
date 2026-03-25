@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "As Cores 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Orange' ?",
+      "options": [
+        "Laranja",
+        "Rosa",
+        "Castanho",
+        "Cinzento"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Cinzento' significa 'Gris'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O chocolate é {{1}} (marron).",
+      "reponsesAttendues": [
+        "castanho"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Cores mistas.",
+      "pairs": [
+        {
+          "left": "Roxo",
+          "right": "Violet"
+        },
+        {
+          "left": "Rosa",
+          "right": "Rose"
+        },
+        {
+          "left": "Dourado",
+          "right": "Doré"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "De que cor é o porco?",
+      "options": [
+        "Rosa",
+        "Azul",
+        "Verde",
+        "Dourado"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

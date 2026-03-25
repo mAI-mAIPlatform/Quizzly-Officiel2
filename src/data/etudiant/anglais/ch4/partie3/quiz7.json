@@ -1,0 +1,63 @@
+{
+  "id": "quiz27",
+  "titre": "Expressing Opinions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "How do you start an opinion about a social issue?",
+      "options": [
+        "In my opinion, we should help more...",
+        "I am helping more...",
+        "Where is the help?",
+        "Help is here!"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "To disagree politely, you can say 'I see your point, but I think...'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "I {{1}} with you because we need to act now. (Accepting an idea)",
+      "reponsesAttendues": [
+        "agree"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the phrase with its role.",
+      "pairs": [
+        {
+          "left": "I'm not sure about that",
+          "right": "Doubt / Soft disagreement"
+"        },
+        {
+          "left": "That's a great point",
+          "right": "Strong agreement"
+        },
+        {
+          "left": "What do you think?",
+          "right": "Asking for an opinion"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Why should we use 'because' when giving an opinion?",
+      "options": [
+        "To provide reasons and evidence for our thoughts",
+        "To make the sentence longer",
+        "Because it is a funny word",
+        "To confuse the other person"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

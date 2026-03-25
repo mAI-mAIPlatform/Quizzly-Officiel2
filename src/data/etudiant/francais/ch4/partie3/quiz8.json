@@ -1,0 +1,63 @@
+{
+  "id": "quiz28",
+  "titre": "Les Valeurs du Conditionnel",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que peut exprimer le conditionnel présent ?",
+      "options": [
+        "Le souhait, l'hypothèse ou la politesse",
+        "Une certitude absolue dans le futur",
+        "Un ordre brutal",
+        "Une habitude passée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans 'Si j'étudiais, je réussirais', 'réussirais' est une hypothèse.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Aurais-tu {{1}} gentillesse de m'aider ? (valeur de politesse)",
+      "reponsesAttendues": [
+        "la"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la phrase à la valeur du conditionnel.",
+      "pairs": [
+        {
+          "left": "Un accident aurait eu lieu",
+          "right": "Information incertaine"
+        },
+        {
+          "left": "J'aimerais partir",
+          "right": "Souhait"
+        },
+        {
+          "left": "Pourrais-tu m'aider ?",
+          "right": "Politesse"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Le conditionnel peut aussi servir de :",
+      "options": [
+        "Futur dans le passé",
+        "Passé dans le futur",
+        "Présent éternel",
+        "Mode d'emploi"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

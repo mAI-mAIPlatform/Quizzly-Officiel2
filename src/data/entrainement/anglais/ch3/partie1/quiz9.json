@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Accommodation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Where can you sleep if you go camping?",
+      "options": [
+        "In a tent",
+        "In a hotel",
+        "In a castle",
+        "In a library"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A 'Youth Hostel' is usually cheaper than a hotel.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "I want to reserve a {{1}} for two nights.",
+      "reponsesAttendues": [
+        "room"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match.",
+      "pairs": [
+        {
+          "left": "Hotel",
+          "right": "Luxury / Comfort"
+        },
+        {
+          "left": "Campsite",
+          "right": "Nature"
+        },
+        {
+          "left": "Airbnb",
+          "right": "Private house"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is 'Bed and Breakfast' (B&B)?",
+      "options": [
+        "A small hotel with breakfast included",
+        "Only a bed",
+        "Only breakfast",
+        "A large restaurant"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

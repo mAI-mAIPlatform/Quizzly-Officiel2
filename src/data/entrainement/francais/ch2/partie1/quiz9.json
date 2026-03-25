@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Les Consonnes Doubles (Règles générales)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "En général, devant quel son double-t-on la consonne ?",
+      "options": [
+        "Devant un 'e' muet pour faire le son 'è'",
+        "À la fin des mots",
+        "Devant une voyelle",
+        "Jamais"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Apparaître' prend deux 'p'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Il est {{1}} (terrible).",
+      "reponsesAttendues": [
+        "terrible"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Trouve l'orthographe.",
+      "pairs": [
+        {
+          "left": "Nouvelle",
+          "right": "Deux L"
+        },
+        {
+          "left": "Mariage",
+          "right": "Un R"
+        },
+        {
+          "left": "Nourriture",
+          "right": "Deux R"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est mal écrit ?",
+      "options": [
+        "Déveloper",
+        "Développer",
+        "Envelopper",
+        "Galloper"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "quiz10",
+  "titre": "Récapitulatif Histoire de la Musique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pendant quelle période a vécu Mozart ?",
+      "options": [
+        "Baroque",
+        "Classique",
+        "Romantique",
+        "Moderne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Bach était un sourd qui communiquait par la musique.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le 'Boléro' a été composé par Maurice {{1}}.",
+      "reponsesAttendues": [
+        "Ravel"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Western",
+          "right": "Morricone"
+        },
+        {
+          "left": "Quatre Saisons",
+          "right": "Vivaldi"
+        },
+        {
+          "left": "La Flûte Enchantée",
+          "right": "Mozart"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Dans quel style range-t-on les Beatles ?",
+      "options": [
+        "Jazz",
+        "Pop-Rock",
+        "Musique classique",
+        "Claquettes"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

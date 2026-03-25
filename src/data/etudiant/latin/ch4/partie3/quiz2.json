@@ -1,0 +1,64 @@
+{
+  "id": "quiz2",
+  "titre": "Mots latins en français",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'Agenda' à l'origine ?",
+      "options": [
+        "Les choses à faire",
+        "Un petit carnet",
+        "L'heure du goûter",
+        "Réunion de famille"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un 'Album' était à l'origine une tablette blanche à Rome.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un mot utilisé tel quel, comme 'via', est un {{1}} (latinisme).",
+      "reponsesAttendues": [
+        "latinisme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le mot au sens d'origine.",
+      "pairs": [
+        {
+          "left": "Vidéo",
+          "right": "Je vois"
+        },
+        {
+          "left": "Audio",
+          "right": "J'entends"
+"
+        },
+        {
+          "left": "Veto",
+          "right": "Je m'oppose"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Infus' en médecine (du mot latin infusus) ?",
+      "options": [
+        "Versé dans / Répandu",
+        "Qui ne sait rien",
+        "Très fort",
+        "Fou"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

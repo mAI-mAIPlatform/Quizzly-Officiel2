@@ -1,0 +1,63 @@
+{
+  "id": "quiz13",
+  "titre": "Contamination et Infection",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la contamination ?",
+      "options": [
+        "La pénétration des micro-organismes dans le milieu intérieur",
+        "La multiplication des bactéries dans le sang",
+        "Le fait de se laver les mains",
+        "La guérison d'une maladie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'infection est la multiplication des micro-organismes dans l'organisme.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'ensemble des méthodes pour empêcher la contamination est l'{{1}}.",
+      "reponsesAttendues": [
+        "asepsie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la méthode à son action.",
+      "pairs": [
+        {
+          "left": "Antisepsie",
+          "right": "Éliminer les microbes sur une plaie (ex: désinfectant)"
+        },
+        {
+          "left": "Asepsie",
+          "right": "Prévenir la contamination (ex: gants, masque)"
+        },
+        {
+          "left": "Préservatif",
+          "right": "Empêcher la contamination par voie sexuelle"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la principale voie de contamination pour la grippe ?",
+      "options": [
+        "La voie respiratoire (gouttelettes)",
+        "La voie digestive (aliments)",
+        "La voie sanguine (piqûres)",
+        "La voie cutanée (peau saine)"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

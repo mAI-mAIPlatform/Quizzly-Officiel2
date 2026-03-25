@@ -1,0 +1,63 @@
+{
+  "id": "quiz27",
+  "titre": "Révision : Modules",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'import qui permet d'utiliser 'sin(10)' directement sans 'math.' devant ?",
+      "options": [
+        "from math import sin",
+        "import sin from math",
+        "import math",
+        "from sin import math"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un module Python est simplement un fichier '.py' que l'on peut importer.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'alias pour raccourcir le nom d'un module à l'import se fait avec le mot-clé {{1}} (as).",
+      "reponsesAttendues": [
+        "as"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le module à sa fonction phare.",
+      "pairs": [
+        {
+          "left": "math",
+          "right": "sqrt(), pi, sin()"
+        },
+        {
+          "left": "random",
+          "right": "randint(), choice()"
+        },
+        {
+          "left": "os",
+          "right": "Gestion des fichiers et dossiers"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel évite que du code s'exécute lors d'un simple import ?",
+      "options": [
+        "if __name__ == \"__main__\":",
+        "import only functions",
+        "stop execution",
+        "if module == True:"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

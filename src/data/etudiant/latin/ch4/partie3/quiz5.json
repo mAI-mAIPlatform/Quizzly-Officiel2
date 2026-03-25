@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Le latin scientifique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi utilise-t-on le latin pour nommer les espèces (animaux, plantes) ?",
+      "options": [
+        "C'est une langue universelle et stable",
+        "Parce que c'était obligatoire au Moyen Âge seulement",
+        "Parce qu'on ne connaît pas d'autres langues",
+        "Pour faire compliqué"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans 'Homo sapiens', 'sapiens' signifie 'sage / intelligent'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le nom latin du loup est 'Canis {{1}}' (lupus).",
+      "reponsesAttendues": [
+        "lupus"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme scientifique.",
+      "pairs": [
+        {
+          "left": "Nebula",
+          "right": "Nuage / Nébuleuse"
+        },
+        {
+          "left": "Stellaris",
+          "right": "Étoilé"
+        },
+        {
+          "left": "Bacillus",
+          "right": "Petit bâton / Bactérie"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Placebo' (du verbe placere) ?",
+      "options": [
+        "Je plairai",
+        "Je guérirai",
+        "C'est faux",
+        "Bonbons"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

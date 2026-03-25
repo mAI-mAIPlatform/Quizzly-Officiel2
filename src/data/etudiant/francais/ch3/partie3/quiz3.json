@@ -1,0 +1,63 @@
+{
+  "id": "quiz23",
+  "titre": "Convaincre vs Persuader",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Convaincre fait appel à :",
+      "options": [
+        "La raison et la logique",
+        "L'émotion et les sentiments",
+        "La force physique",
+        "La chance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Persuader consiste à toucher la sensibilité de l'autre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Chercher à provoquer la pitié s'appelle de la {{1}}.",
+      "reponsesAttendues": [
+        "persuasion"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la méthode à son but.",
+      "pairs": [
+        {
+          "left": "Démontrer",
+          "right": "Convaincre par des faits"
+        },
+        {
+          "left": "Émouvoir",
+          "right": "Persuader par le cœur"
+        },
+        {
+          "left": "Susciter l'indignation",
+          "right": "Persuader par la colère"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel de ces textes est purement pour convaincre ?",
+      "options": [
+        "Un traité scientifique",
+        "Un poème d'amour",
+        "Une publicité humoristique",
+        "Un conte de fées"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

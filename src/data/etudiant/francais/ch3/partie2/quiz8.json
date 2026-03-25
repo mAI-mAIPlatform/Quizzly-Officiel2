@@ -1,0 +1,63 @@
+{
+  "id": "quiz18",
+  "titre": "Le Mal du Siècle",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'mal du siècle' ?",
+      "options": [
+        "Un désenchantement et une mélancolie profonde",
+        "Une épidémie de grippe",
+        "Une allergie aux fleurs",
+        "Le manque d'argent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le héros romantique se sent inadapté au monde qui l'entoure.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ce sentiment est lié à la chute de l'Empire de {{1}}.",
+      "reponsesAttendues": [
+        "Napoléon"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'émotion à sa définition.",
+      "pairs": [
+        {
+          "left": "Spleen",
+          "right": "Ennui profond"
+        },
+        {
+          "left": "Enthousiasme",
+          "right": "Élan vers l'idéal"
+        },
+        {
+          "left": "Solitude",
+          "right": "Sentiment d'isolement"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel auteur a le mieux décrit ce mal dans 'La Confession d'un enfant du siècle' ?",
+      "options": [
+        "Alfred de Musset",
+        "Chateaubriand",
+        "Lamartine",
+        "Nerval"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

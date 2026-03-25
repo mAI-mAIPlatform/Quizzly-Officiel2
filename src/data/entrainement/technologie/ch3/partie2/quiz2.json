@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Le Binaire (0 et 1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel langage l'ordinateur comprend-il réellement ?",
+      "options": [
+        "Le binaire (0 et 1)",
+        "Le français",
+        "L'anglais",
+        "L'italien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un 'bit' peut prendre la valeur 0 ou 1.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un groupe de 8 bits s'appelle un {{1}}.",
+      "reponsesAttendues": [
+        "octet"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Symbolique binaire.",
+      "pairs": [
+        {
+          "left": "0",
+          "right": "Courant coupé (Faux)"
+        },
+        {
+          "left": "1",
+          "right": "Courant passe (Vrai)"
+        },
+        {
+          "left": "Bit",
+          "right": "Binary Digit"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi utilise-t-on le binaire ?",
+      "options": [
+        "Car c'est facile à réaliser techniquement avec des circuits électriques",
+        "Pour embêter les élèves",
+        "Parce que les chiffres 2 à 9 n'existent pas en informatique",
+        "Pour aller moins vite"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

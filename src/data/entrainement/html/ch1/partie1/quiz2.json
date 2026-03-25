@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Structure d'un document HTML",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise est la racine de tout document HTML ?",
+      "options": [
+        "<html>",
+        "<head>",
+        "<body>",
+        "<!DOCTYPE html>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le contenu visible de la page se trouve dans la balise <head>.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise {{1}} contient le titre de la page affiché dans l'onglet.",
+      "reponsesAttendues": [
+        "title"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Hiérarchie HTML.",
+      "pairs": [
+        {
+          "left": "<!DOCTYPE html>",
+          "right": "Déclaration du type de document"
+        },
+        {
+          "left": "<head>",
+          "right": "Métadonnées"
+        },
+        {
+          "left": "<body>",
+          "right": "Contenu principal"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où place-t-on l'encodage (charset) ?",
+      "options": [
+        "Dans le <head>",
+        "Dans le <body>",
+        "Au début du fichier",
+        "À la fin du fichier"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

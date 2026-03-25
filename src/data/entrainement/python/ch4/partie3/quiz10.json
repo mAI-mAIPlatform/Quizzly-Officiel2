@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "EXAMEN FINAL : Certifié Pythoniste !",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Félicitations ! Tu as fini le parcours Python. Qu'est-ce que 'Zen of Python' ?",
+      "options": [
+        "Un ensemble de principes de design pour Python",
+        "Un plugin pour dormir",
+        "Une erreur système",
+        "Le nom du créateur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Python est l'un des langages les plus populaires au monde.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour voir le 'Zen of Python', tape 'import {{1}}'.",
+      "reponsesAttendues": [
+        "this"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Niveaux franchis :",
+      "pairs": [
+        {
+          "left": "Ch 1",
+          "right": "Bases et Variables"
+        },
+        {
+          "left": "Ch 2",
+          "right": "Logique et Boucles"
+        },
+        {
+          "left": "Ch 3 & 4",
+          "right": "Fonctions et Données"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la prochaine étape ?",
+      "options": [
+        "Pratiquer, pratiquer, pratiquer !",
+        "Dormir",
+        "Apprendre le binaire",
+        "Tout oublier"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

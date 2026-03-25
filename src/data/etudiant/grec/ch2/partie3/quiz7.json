@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Les Démonstratifs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Celui-ci' (proche) ?",
+      "options": [
+        "houtos (οὗτος)",
+        "ekeinos (ἐκεῖνος)",
+        "autos",
+        "tis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Ekeinos' (ἐκεῖνος) désigne ce qui est éloigné (celui-là).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Cette femme-ci se dit {{1}} (hautê / αὕτη).",
+      "reponsesAttendues": [
+        "hautê"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le démonstratif.",
+      "pairs": [
+        {
+          "left": "houtos",
+          "right": "Celui-ci (important)"
+        },
+        {
+          "left": "ekeinos",
+          "right": "Celui-là (distant)"
+        },
+        {
+          "left": "hode",
+          "right": "Celui-ci (présentation)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'touto' ?",
+      "options": [
+        "Ceci (neutre)",
+        "Cela",
+        "Ici",
+        "Là-bas"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

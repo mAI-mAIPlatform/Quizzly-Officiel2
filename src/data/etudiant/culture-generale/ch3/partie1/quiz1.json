@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Chefs-d'œuvre Peinture",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces tableaux a été peint par Léonard de Vinci ?",
+      "options": [
+        "La Joconde (Mona Lisa)",
+        "Les Nymphéas",
+        "Guernica",
+        "Le Cri"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le tableau 'La Nuit Étoilée' est l'une des œuvres les plus célèbres de Vincent van Gogh.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'artiste espagnol qui a peint l'immense fresque 'Guernica' en noir et blanc est Pablo {{1}} (Picasso).",
+      "reponsesAttendues": [
+        "Picasso"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le tableau à son auteur.",
+      "pairs": [
+        {
+          "left": "La Liberté guidant le peuple",
+          "right": "Eugène Delacroix"
+        },
+        {
+          "left": "Impression, soleil levant",
+          "right": "Claude Monet"
+        },
+        {
+          "left": "La Naissance de Vénus",
+          "right": "Sandro Botticelli"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où peut-on admirer 'La Joconde' aujourd'hui ?",
+      "options": [
+        "Au Musée du Louvre (Paris)",
+        "Au Musée d'Orsay",
+        "Au Vatican",
+        "À Madrid"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

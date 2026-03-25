@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Vocabulaire : Notes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une octave ?",
+      "options": [
+        "L'intervalle entre deux notes de même nom (ex: do - do)",
+        "Une petite flûte",
+        "Un groupe de 8 musiciens",
+        "Une mesure à 8 temps"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'intervalle est la distance séparant deux notes (ex: une seconde, une tierce).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Lorsqu'on joue deux notes en même temps, on produit un {{1}} (accord).",
+      "reponsesAttendues": [
+        "accord"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme à sa définition.",
+      "pairs": [
+        {
+          "left": "Unisson",
+          "right": "Plusieurs personnes jouant la même note"
+        },
+        {
+          "left": "Transposition",
+          "right": "Écrire ou jouer un morceau dans une autre gamme"
+        },
+        {
+          "left": "Soliste",
+          "right": "Instrumentiste jouant seul (ou mis en avant)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le système de notation anglo-saxon (A, B, C...) ?",
+      "options": [
+        "La notation littérale",
+        "Le code binaire",
+        "L'alphabet Mozart",
+        "La notation spatiale"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

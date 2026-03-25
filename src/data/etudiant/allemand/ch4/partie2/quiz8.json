@@ -1,0 +1,63 @@
+{
+  "id": "quiz18",
+  "titre": "Dativ-Fragen",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se pregunta '¿Te gusta la película?'?",
+      "options": [
+        "Gefällt dir der Film?",
+        "Magst du der Film?",
+        "Gefällt dich der Film?",
+        "Schmeckt dir der Film?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Se usa 'schmecken' solo para comida y bebida.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "{{1}} (gustar) euch die Suppe?",
+      "reponsesAttendues": [
+        "Schmeckt"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la pregunta y respuesta dativa.",
+      "pairs": [
+        {
+          "left": "Gefällt dir das?",
+          "right": "Ja, es gefällt mir"
+        },
+        {
+          "left": "Schmeckt es ihm?",
+          "right": "Nein, es schmeckt ihm nicht"
+        },
+        {
+          "left": "Gehört es dir?",
+          "right": "Ja, es gehört mir"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice '¿Os gusta el postre?' (Plural vosotros)?",
+      "options": [
+        "Schmeckt euch der Nachtisch?",
+        "Schmeckt dir der Nachtisch?",
+        "Schmeckt ihnen der Nachtisch?",
+        "Schmecken euch der Nachtisch?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

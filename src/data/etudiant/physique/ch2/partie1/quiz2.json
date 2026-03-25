@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Intensité du courant",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle grandeur physique correspond au 'débit' du courant ?",
+      "options": [
+        "L'intensité",
+        "La tension",
+        "La résistance",
+        "La puissance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'unité de l'intensité est le Volt.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'intensité se note avec la lettre {{1}}.",
+      "reponsesAttendues": [
+        "I"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la valeur à son unité.",
+      "pairs": [
+        {
+          "left": "1 Ampère (A)",
+          "right": "1000 mA"
+        },
+        {
+          "left": "0.5 A",
+          "right": "500 mA"
+        },
+        {
+          "left": "0.02 A",
+          "right": "20 mA"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Par quoi est provoqué le mouvement des électrons ?",
+      "options": [
+        "Le générateur",
+        "L'interrupteur",
+        "Le fil de cuivre",
+        "L'ampoule"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

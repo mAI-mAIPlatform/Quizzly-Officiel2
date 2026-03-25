@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "La Vraisemblance",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la vraisemblance au théâtre ?",
+      "options": [
+        "Ce qui paraît croyable pour le public",
+        "La vérité historique absolue",
+        "Un mensonge convaincant",
+        "Une photo de la réalité"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'unité de temps (24h) aide à la vraisemblance.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une action trop incroyable est dite {{1}}.",
+      "reponsesAttendues": [
+        "invraisemblable"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'élément à sa fonction de vraisemblance.",
+      "pairs": [
+        {
+          "left": "Un seul lieu",
+          "right": "Évite les déplacements irréels"
+        },
+        {
+          "left": "Langage noble",
+          "right": "Cohérence avec le rang des héros"
+        },
+        {
+          "left": "L'exposition",
+          "right": "Explique la situation de départ"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Au XVIIe siècle, on préfère :",
+      "options": [
+        "Le vraisemblable au vrai",
+        "Le vrai au vraisemblable",
+        "L'imaginaire total",
+        "On ne préfère rien"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

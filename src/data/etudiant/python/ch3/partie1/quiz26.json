@@ -1,0 +1,64 @@
+{
+  "id": "quiz26",
+  "titre": "Le module random",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle fonction permet de générer un nombre entier aléatoire entre 1 et 10 inclus ?",
+      "options": [
+        "random.randint(1, 10)",
+        "random.choice(1, 10)",
+        "random.random(1, 10)",
+        "random.int(1, 10)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La fonction random.choice(liste) choisit un élément au hasard dans une liste.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La fonction random.random() renvoie un nombre décimal entre 0.0 et {{1}} (1.0).",
+      "reponsesAttendues": [
+        "1.0",
+        "1"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la fonction random à son effet.",
+      "pairs": [
+        {
+          "left": "random.shuffle(L)",
+          "right": "Mélange la liste L sur place"
+        },
+        {
+          "left": "random.choice(L)",
+          "right": "Prend un élément au hasard"
+        },
+        {
+          "left": "random.uniform(a, b)",
+          "right": "Nombre décimal aléatoire entre a et b"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle commande permet d'obtenir une 'graine' pour reproduire les mêmes nombres aléatoires ?",
+      "options": [
+        "random.seed()",
+        "random.start()",
+        "random.set()",
+        "random.lock()"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

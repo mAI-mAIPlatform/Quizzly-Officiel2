@@ -1,0 +1,64 @@
+{
+  "id": "quiz7",
+  "titre": "Données Factices",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'mock' (données factices) dans un projet ?",
+      "options": [
+        "Un échantillon de données pour tester le code sans base de données réelle",
+        "Une erreur de serveur",
+        "Un type de bouton",
+        "Une image de fond"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En commençant un projet, on crée souvent un tableau d'objets pour simuler les données.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Afficher dynamiquement ces données s'appelle le {{1}} (rendu / rendering).",
+      "reponsesAttendues": [
+        "rendu",
+        "rendering"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Soit data = [item1, item2]. Relie l'action au code.",
+      "pairs": [
+        {
+          "left": "Lire les données",
+          "right": "data.forEach(...)"
+        },
+        {
+          "left": "Ajouter un item",
+          "right": "data.push(newItem)"
+        },
+        {
+          "left": "Vider la liste",
+          "right": "data = []"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser des mocks ?",
+      "options": [
+        "Pour travailler l'apparence et la logique avant d'avoir un vrai serveur",
+        "Pour économiser de l'électricité",
+        "Pour cacher le code aux autres",
+        "C'est obligatoire en HTML"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

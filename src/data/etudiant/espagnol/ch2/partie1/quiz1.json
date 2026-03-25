@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "La rutina diaria",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué haces primero al despertar?",
+      "options": [
+        "Levantarse",
+        "Cenar",
+        "Ir al colegio",
+        "Dormir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Desayunar' significa 'dîner'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Yo me {{1}} (duchar) todas las mañanas.",
+      "reponsesAttendues": [
+        "ducho"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la actividad con su traducción.",
+      "pairs": [
+        {
+          "left": "Lavarse los dientes",
+          "right": "Se laver les dents"
+        },
+        {
+          "left": "Peinarse",
+          "right": "Se coiffer"
+        },
+        {
+          "left": "Afeitarse",
+          "right": "Se raser"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Se réveiller'?",
+      "options": [
+        "Despertarse",
+        "Levantarse",
+        "Dormirse",
+        "Acostarse"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

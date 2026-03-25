@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Docstrings : Documenter ses fonctions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une Docstring ?",
+      "options": [
+        "Un commentaire spécial pour expliquer la fonction",
+        "Une chaîne de caractères de docteur",
+        "Un type de variable pour les textes longs",
+        "Une erreur de documentation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On écrit les Docstrings entre triples guillemets \"\"\"...\"\"\".",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La Docstring se place juste {{1}} la ligne du 'def'.",
+      "reponsesAttendues": [
+        "sous"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "\"\"\" Doc \"\"\"",
+          "right": "Aide intégrée"
+        },
+        {
+          "left": "help(f)",
+          "right": "Affiche la Docstring"
+        },
+        {
+          "left": "# Com",
+          "right": "Commentaire simple"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi documenter ses fonctions ?",
+      "options": [
+        "Pour aider les autres développeurs (ou soi-même plus tard)",
+        "Pour que Python aille plus vite",
+        "C'est décoratif",
+        "C'est requis par Microsoft"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

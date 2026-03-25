@@ -1,0 +1,62 @@
+{
+  "id": "quiz10",
+  "titre": "Récapitulatif Grammaire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle terminaison indique le pluriel des neutres (ex: Templa) ?",
+      "options": [
+        "-i",
+        "-a",
+        "-ae",
+        "-os"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Amant' signifie 'Il aime'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le cas qui exprime le COD est l'{{1}}.",
+      "reponsesAttendues": [
+        "Accusatif"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Sumus",
+          "right": "Nous sommes"
+        },
+        {
+          "left": "Amas",
+          "right": "Tu aimes"
+        },
+        {
+          "left": "Rosae",
+          "right": "De la rose (Gén. sing.)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Vous voyez' (videre) ?",
+      "options": [
+        "Videtis",
+        "Vidatis",
+        "Vident",
+        "Videmus"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Don de Soi",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le principe majeur du don d'organes en France ?",
+      "options": [
+        "Le don est gratuit, anonyme et volontaire",
+        "Le don est payé cher à la famille",
+        "Le don est obligatoire pour tout le monde sans exception",
+        "Le don est réservé aux célébrités"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En France, nous sommes tous présumés donneurs d'organes sauf si on s'y oppose officiellement.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le don de {{1}} (sang) est essentiel pour sauver des vies lors d'accidents ou de maladies.",
+      "reponsesAttendues": [
+        "sang"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme au principe.",
+      "pairs": [
+        {
+          "left": "Gratuité",
+          "right": "Pas d'argent échangé"
+        },
+        {
+          "left": "Anonymat",
+          "right": "Le donneur et le receveur ne se connaissent pas"
+        },
+        {
+          "left": "Liberté",
+          "right": "Droit de refuser d'être donneur (Registre national)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où peut-on s'inscrire si l'on ne veut pas donner ses organes ?",
+      "options": [
+        "Le Registre national des refus",
+        "Le carnet de santé",
+        "La liste électorale",
+        "Les réseaux sociaux"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz17",
+  "titre": "Articolate: In e Da",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué resulta de 'In + Il'?",
+      "options": [
+        "Nel",
+        "Nello",
+        "Nella",
+        "Nello"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Da + Il = Dal.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Mio padre è {{1}} ufficio (dans le).",
+      "reponsesAttendues": [
+        "nell'"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la combinación.",
+      "pairs": [
+        {
+          "left": "In + Lo",
+          "right": "Nello"
+        },
+        {
+          "left": "Da + La",
+          "right": "Dalla"
+        },
+        {
+          "left": "In + I",
+          "right": "Nei"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Vengo del médico'?",
+      "options": [
+        "Vengo dal medico",
+        "Vengo nel medico",
+        "Vengo al medico",
+        "Vengo del medico"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

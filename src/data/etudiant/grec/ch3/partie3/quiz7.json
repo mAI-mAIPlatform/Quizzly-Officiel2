@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Les Participes présents",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment se termine généralement le nominatif masculin singulier du participe présent actif ?",
+      "options": [
+        "-ôn (ων)",
+        "-ousa (ουσα)",
+        "-on (ον)",
+        "-as (ας)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Legôn' (λέγων) signifie 'Disant / Celui qui dit'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Celle qui éduque se dit '{{1}}' (paideuousa / παιδεύουσα).",
+      "reponsesAttendues": [
+        "paideuousa"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le participe présent.",
+      "pairs": [
+        {
+          "left": "ôn (ὤν)",
+          "right": "Étant"
+        },
+        {
+          "left": "akouôn",
+          "right": "Écoutant"
+        },
+        {
+          "left": "graphôn",
+          "right": "Écrivant"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le participe utilisé avec l'article (ex: 'ho legôn') ?",
+      "options": [
+        "Participe substantivé (celui qui dit)",
+        "Participe absolu",
+        "Participe futur",
+        "Participe passif"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

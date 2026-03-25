@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "iFrames et Accessibilité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel attribut est ESSENTIEL pour décrire le contenu de l'iFrame aux aveugles ?",
+      "options": [
+        "title",
+        "alt",
+        "description",
+        "label"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les lecteurs d'écran lisent la valeur du 'title' pour annoncer le contenu du cadre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Chaque iFrame doit avoir un titre {{1}} (spécifique).",
+      "reponsesAttendues": [
+        "unique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Bons vs Mauvais Titres.",
+      "pairs": [
+        {
+          "left": "title='Carte de Paris'",
+          "right": "Bon"
+        },
+        {
+          "left": "title='iFrame 1'",
+          "right": "Mauvais (pas clair)"
+        },
+        {
+          "left": "pas de title",
+          "right": "Très mauvais"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le risque d'une overdose d'iFrames sur une page ?",
+      "options": [
+        "Perdre l'utilisateur et ralentir le site",
+        "Gagner trop d'argent",
+        "Changer le design",
+        "Rien du tout"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

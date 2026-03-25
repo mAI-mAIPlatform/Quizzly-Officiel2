@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Continents et Océans",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces continents est le plus vaste en superficie ?",
+      "options": [
+        "L'Asie",
+        "L'Afrique",
+        "L'Amérique",
+        "L'Europe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Océan Pacifique est le plus grand océan de la planète.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le continent situé au Pôle Sud et recouvert de glace est l'{{1}} (Antarctique).",
+      "reponsesAttendues": [
+        "Antarctique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le record géographique à son nom.",
+      "pairs": [
+        {
+          "left": "Plus haute montagne",
+          "right": "Mont Everest (Himalaya)"
+        },
+        {
+          "left": "Plus long fleuve",
+          "right": "Le Nil (ou l'Amazone)"
+        },
+        {
+          "left": "Plus grand désert chaud",
+          "right": "Le Sahara"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Combien y a-t-il traditionnellement de continents (selon le modèle le plus courant en France) ?",
+      "options": [
+        "6 (ou 5 selon les modèles)",
+        "12",
+        "2",
+        "50"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

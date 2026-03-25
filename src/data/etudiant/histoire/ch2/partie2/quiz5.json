@@ -1,0 +1,63 @@
+{
+  "id": "quiz15",
+  "titre": "Le Rayonnement Mondial",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment une ville peut-elle rayonner dans le monde ?",
+      "options": [
+        "Par sa culture, son économie et ses événements internationaux",
+        "Par la puissance de sa lampe municipale",
+        "En repeignant tous les murs en blanc",
+        "En interdisant les langues étrangères"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Organiser les Jeux Olympiques est un moyen de renforcer son rayonnement.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La capacité d'influence d'une ville sans utiliser la force s'appelle le {{1}} power.",
+      "reponsesAttendues": [
+        "soft"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'élément de rayonnement à son type.",
+      "pairs": [
+        {
+          "left": "Siège de l'UNESCO",
+          "right": "Rayonnement Politique / Culturel"
+        },
+        {
+          "left": "Semaine de la Mode (Fashion Week)",
+          "right": "Rayonnement Économique / Prestige"
+        },
+        {
+          "left": "Congrès mondial",
+          "right": "Rayonnement Scientifique / Technique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la ville française la plus rayonnante ?",
+      "options": [
+        "Paris",
+        "Limoges",
+        "Dunkerque",
+        "Clermont-Ferrand"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

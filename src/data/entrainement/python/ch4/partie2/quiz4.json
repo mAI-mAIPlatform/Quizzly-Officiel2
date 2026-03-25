@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Supprimer des éléments",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode supprime une clé et renvoie sa valeur ?",
+      "options": [
+        "pop()",
+        "remove()",
+        "delete()",
+        "discard()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "popitem() supprime et renvoie la DERNIÈRE paire insérée (en Python 3.7+).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot-clé générique pour supprimer un élément par sa clé est {{1}}.",
+      "reponsesAttendues": [
+        "del"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la suppression.",
+      "pairs": [
+        {
+          "left": "del dico['x']",
+          "right": "Supprime x"
+        },
+        {
+          "left": "dico.pop('x')",
+          "right": "Supprime et récupère"
+        },
+        {
+          "left": "dico.clear()",
+          "right": "Vide tout"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que renvoie : dico.pop('introuvable', 'Rien') ?",
+      "options": [
+        "Rien",
+        "None",
+        "Une erreur",
+        "0"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

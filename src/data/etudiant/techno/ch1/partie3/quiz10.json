@@ -1,0 +1,64 @@
+{
+  "id": "quiz10",
+  "titre": "Ch. 1 P. 3 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "L'IoT désigne des objets connectés à {{1}}.",
+      "options": [
+        "Internet",
+        "une pile",
+        "un moteur",
+        "une ampoule"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un capteur prélève l'info, l'actionneur agit.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La maison du futur s'appelle la maison {{1}} (connectée / domotique).",
+      "reponsesAttendues": [
+        "connectée",
+        "domotique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les composants IoT.",
+      "pairs": [
+        {
+          "left": "Thermostat",
+          "right": "Capteur de température"
+        },
+        {
+          "left": "Bluetooth / LoRa",
+          "right": "Réseaux de communication"
+        },
+        {
+          "left": "Serveur / Cloud",
+          "right": "Stockage et traitement des données"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la règle d'or pour la sécurité des objets IoT ?",
+      "options": [
+        "Mettre à jour régulièrement et utiliser des mots de passe complexes",
+        "Ne jamais les brancher",
+        "Les peindre en rouge",
+        "Les cacher sous le lit"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

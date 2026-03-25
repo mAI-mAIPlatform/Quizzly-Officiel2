@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Los Reyes Magos",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuándo llegan los Reyes Magos a España?",
+      "options": [
+        "El 6 de enero",
+        "El 25 de diciembre",
+        "El 1 de mayo",
+        "El 31 de octubre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Los niños malos reciben carbón (dulce).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Los Reyes traen {{1}} a los niños buenos (cadeaux).",
+      "reponsesAttendues": [
+        "regalos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el nombre del Rey Mago.",
+      "pairs": [
+        {
+          "left": "Melchor",
+          "right": "Oro"
+        },
+        {
+          "left": "Gaspar",
+          "right": "Incienso"
+        },
+        {
+          "left": "Baltasar",
+          "right": "Mirra"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué dulce típico se come este día?",
+      "options": [
+        "El Roscón de Reyes",
+        "El Turrón",
+        "El Mazapán",
+        "La Paella"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

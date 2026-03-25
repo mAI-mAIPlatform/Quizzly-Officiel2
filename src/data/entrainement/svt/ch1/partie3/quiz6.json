@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "La circulation sanguine",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel organe agit comme une pompe pour faire circuler le sang ?",
+      "options": [
+        "Le poumon",
+        "Le cœur",
+        "Le foie",
+        "L'estomac"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les artères transportent le sang qui part du cœur vers les organes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les vaisseaux très fins où se font les échanges avec les organes sont les {{1}}.",
+      "reponsesAttendues": [
+        "capillaires"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le vaisseau à sa direction.",
+      "pairs": [
+        {
+          "left": "Artère",
+          "right": "Cœur vers organes"
+        },
+        {
+          "left": "Veine",
+          "right": "Organes vers cœur"
+        },
+        {
+          "left": "Vaisseau coronaire",
+          "right": "Alimente le muscle cardiaque lui-même"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi dit-on que la circulation est close ?",
+      "options": [
+        "Parce qu'elle s'arrête la nuit",
+        "Car le sang reste toujours à l'intérieur de vaisseaux",
+        "Car on ne peut pas la voir",
+        "Car il n'y a pas de sortie"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

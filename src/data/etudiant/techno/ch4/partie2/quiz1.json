@@ -1,0 +1,64 @@
+{
+  "id": "quiz1",
+  "titre": "Structure d'un Système",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelles sont les deux parties principales d'un système automatisé ?",
+      "options": [
+        "La Partie Commande (PC) et la Partie Opérative (PO)",
+        "Le haut et le bas",
+        "La partie électrique et la partie en bois",
+        "Le cerveau et le cœur uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Partie Commande (PC) reçoit les informations des capteurs et donne des ordres.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La Partie {{1}} (Opérative) contient les actionneurs qui effectuent le travail physique.",
+      "reponsesAttendues": [
+        "Opérative",
+        "operative"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'élément à sa partie du système.",
+      "pairs": [
+        {
+          "left": "Microcontrôleur (Cerveau)",
+          "right": "Partie Commande (PC)"
+        },
+        {
+          "left": "Moteur / Vérin",
+          "right": "Partie Opérative (PO)"
+        },
+        {
+          "left": "Capteurs",
+          "right": "Liaison vers la Partie Commande"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le rôle du pupitre de commande ?",
+      "options": [
+        "Permettre à l'utilisateur de donner des ordres (Boutons, écrans)",
+        "Ranger les outils dans l'atelier",
+        "Recharger les batteries",
+        "Décorer la salle de contrôle"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

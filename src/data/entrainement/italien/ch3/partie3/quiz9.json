@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "À Table !",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'La serviette' (de table) ?",
+      "options": [
+        "Il tovagliolo",
+        "Il piatto",
+        "Il bicchiere",
+        "La tavola"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Versare' signifie 'Verser'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'huile d'olive se dit '{{1}} d'oliva'.",
+      "reponsesAttendues": [
+        "Olio"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'action.",
+      "pairs": [
+        {
+          "left": "Mangiare",
+          "right": "Manger"
+        },
+        {
+          "left": "Bere",
+          "right": "Boire"
+        },
+        {
+          "left": "Cucinare",
+          "right": "Cuisiner"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Santé !' (en trinquant) ?",
+      "options": [
+        "Salute!",
+        "Cin cin!",
+        "Prosit!",
+        "Toutes ces réponses (Salute et Cin cin étant les meilleures)"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

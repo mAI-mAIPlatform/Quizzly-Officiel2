@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "L'Imparfait : Être et Avoir",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la forme de 'Être' à l'imparfait avec 'Il' ?",
+      "options": [
+        "Était",
+        "Est",
+        "Sera",
+        "Étais"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le radical de 'Avoir' à l'imparfait est 'av-'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vous {{1}} (avoir) un beau vélo.",
+      "reponsesAttendues": [
+        "aviez"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Lien sujet / auxiliaire.",
+      "pairs": [
+        {
+          "left": "J'",
+          "right": "Avais"
+        },
+        {
+          "left": "Nous",
+          "right": "Étions"
+        },
+        {
+          "left": "Elles",
+          "right": "Étaient"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Complète : 'Autrefois, nous _____ très jeunes.'",
+      "options": [
+        "étions",
+        "sommes",
+        "serons",
+        "avez"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

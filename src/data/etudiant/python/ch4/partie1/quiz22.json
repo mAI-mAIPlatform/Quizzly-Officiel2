@@ -1,0 +1,64 @@
+{
+  "id": "quiz22",
+  "titre": "Révision : Conditions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la structure correcte pour tester plusieurs conditions ?",
+      "options": [
+        "if ... elif ... else",
+        "if ... or ... then",
+        "if ... then ... else",
+        "while ... if ... stop"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'indentation (le décalage) est obligatoire après un 'if'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour vérifier si x est compris entre 1 et 10, on peut écrire : if x > 1 {{1}} x < 10: (and).",
+      "reponsesAttendues": [
+        "and",
+        "et"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'opérateur à son nom.",
+      "pairs": [
+        {
+          "left": "==",
+          "right": "Égalité"
+        },
+        {
+          "left": "!=",
+          "right": "Différence"
+        },
+        {
+          "left": ">=",
+          "right": "Supérieur ou égal"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que contient la variable 'reponse' après : x=5; reponse = (x > 0) ?",
+      "options": [
+        "True",
+        "False",
+        "5",
+        "Erreur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

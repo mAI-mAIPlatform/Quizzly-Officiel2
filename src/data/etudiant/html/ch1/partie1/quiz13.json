@@ -1,0 +1,63 @@
+{
+  "id": "quiz13",
+  "titre": "Saut de ligne",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise permet de forcer un retour à la ligne à l'intérieur d'un texte ?",
+      "options": [
+        "<br>",
+        "<hr>",
+        "<break>",
+        "<enter>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La balise <br> est auto-fermante (elle n'a pas de </br>).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour séparer deux paragraphes, on utilise deux balises <{{1}}> (p).",
+      "reponsesAttendues": [
+        "p"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Action -> Balise ?",
+      "pairs": [
+        {
+          "left": "Saut de ligne léger",
+          "right": "<br>"
+        },
+        {
+          "left": "Nouveau paragraphe",
+          "right": "<p>"
+        },
+        {
+          "left": "Trait horizontal",
+          "right": "<hr>"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi faut-il éviter d'utiliser trop de <br> pour faire de l'espace ?",
+      "options": [
+        "Il vaut mieux utiliser le CSS (margins / paddings) pour gérer les espaces proprement",
+        "Parce que ça fait chauffer le pc",
+        "C'est une balise interdite",
+        "Ça rend le texte invisible"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

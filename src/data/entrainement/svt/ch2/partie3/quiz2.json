@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Qu'est-ce qu'une plaque ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "De quoi est constituée une plaque lithosphérique ?",
+      "options": [
+        "De sable",
+        "De la croûte et de la partie supérieure du manteau",
+        "Seulement de l'océan",
+        "De fer liquide"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La lithosphère est rigide et repose sur l'asthénosphère qui est plus ductile (déformable).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les plaques se déplacent de quelques {{1}} par an.",
+      "reponsesAttendues": [
+        "centimètres"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la couche à sa propriété.",
+      "pairs": [
+        {
+          "left": "Lithosphère",
+          "right": "Rigide et cassante"
+        },
+        {
+          "left": "Asthénosphère",
+          "right": "Moins rigide (ductile)"
+        },
+        {
+          "left": "Moho",
+          "right": "Limite entre croûte et manteau"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on les plaques qui ne portent que de l'océan ?",
+      "options": [
+        "Plaques terrestres",
+        "Plaques océaniques",
+        "Plaques mixtes",
+        "Plaques d'eau"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

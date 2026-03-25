@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Les dieux de l'Olympe",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est le roi des dieux de l'Olympe ?",
+      "options": [
+        "Zeus",
+        "Apollon",
+        "Arès",
+        "Hermès"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Héra est la femme de Zeus et la reine des dieux.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le dieu du soleil et des arts est {{1}} (Apollon).",
+      "reponsesAttendues": [
+        "Apollon"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le dieu à son domaine.",
+      "pairs": [
+        {
+          "left": "Poséidon",
+          "right": "La mer"
+        },
+        {
+          "left": "Hadès",
+          "right": "Les Enfers"
+        },
+        {
+          "left": "Arès",
+          "right": "La guerre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qui est la déesse de l'amour et de la beauté ?",
+      "options": [
+        "Aphrodite",
+        "Artémis",
+        "Déméter",
+        "Hestia"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

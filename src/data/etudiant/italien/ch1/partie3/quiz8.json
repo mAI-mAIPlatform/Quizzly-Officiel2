@@ -1,0 +1,63 @@
+{
+  "id": "quiz28",
+  "titre": "Preposizioni semplici",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'De / Desde'?",
+      "options": [
+        "Da",
+        "Di",
+        "A",
+        "In"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'In' se usa a menudo para países y regiones (es. In Italia).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vado {{1}} Roma (à).",
+      "reponsesAttendues": [
+        "a"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la preposición.",
+      "pairs": [
+        {
+          "left": "Di",
+          "right": "De / Pertenencia"
+        },
+        {
+          "left": "In",
+          "right": "En"
+        },
+        {
+          "left": "Su",
+          "right": "Sur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Vengo de España'?",
+      "options": [
+        "Vengo dalla Spagna",
+        "Vengo di Spagna",
+        "Vengo in Spagna",
+        "Vengo su Spagna"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Na Estação",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Le billet' ?",
+      "options": [
+        "O bilhete",
+        "O horário",
+        "O destino",
+        "A partida"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Plataforma' ou 'Cais' é onde se espera o comboio.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O comboio chega ao {{1}} (midi).",
+      "reponsesAttendues": [
+        "meio-dia"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Viagem.",
+      "pairs": [
+        {
+          "left": "Chegada",
+          "right": "Arrivée"
+        },
+        {
+          "left": "Atraso",
+          "right": "Retard"
+        },
+        {
+          "left": "Bilheteira",
+          "right": "Guichet"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Queria um bilhete para Lisboa, por favor.",
+      "options": [
+        "Sim, de ida ou de ida e volta?",
+        "Não, sou do Porto",
+        "Obrigado, até amanhã",
+        "Bonjour"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

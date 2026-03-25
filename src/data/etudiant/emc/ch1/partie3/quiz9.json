@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Vocabulaire de la Justice",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on la personne qui demande réparation lors d'un procès ?",
+      "options": [
+        "La partie civile (la victime)",
+        "Le coupable",
+        "Le témoin",
+        "Le greffier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un 'litige' est un désaccord entre deux personnes porté devant un juge.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La personne soupçonnée d'avoir commis une infraction est le {{1}} (prévenu).",
+      "reponsesAttendues": [
+        "prévenu"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le mot à son sens.",
+      "pairs": [
+        {
+          "left": "Verdict",
+          "right": "Décision finale du jury"
+        },
+        {
+          "left": "Audience",
+          "right": "Séance publique où l'affaire est examinée"
+        },
+        {
+          "left": "Peine",
+          "right": "Sanction prononcée par le juge"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie le mot 'impartial' pour un juge ?",
+      "options": [
+        "Il ne prend pas parti et juge selon la loi",
+        "Il aide son ami à gagner",
+        "Il est très sévère",
+        "Il dort pendant le procès"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

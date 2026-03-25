@@ -1,0 +1,63 @@
+{
+  "id": "quiz16",
+  "titre": "Le Poids",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le poids d'un corps sur Terre ?",
+      "options": [
+        "La force d'attraction exercée par la Terre sur ce corps",
+        "La quantité de matière du corps",
+        "La vitesse de chute du corps",
+        "Le volume qu'il occupe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La formule du poids est P = m x g.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Sur Terre, l'intensité de la pesanteur 'g' vaut environ {{1}} N/kg.",
+      "reponsesAttendues": [
+        "9.8"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Calcule le poids d'un objet (g = 10 N/kg).",
+      "pairs": [
+        {
+          "left": "Masse = 1 kg",
+          "right": "Poids = 10 N"
+        },
+        {
+          "left": "Masse = 0.5 kg",
+          "right": "Poids = 5 N"
+        },
+        {
+          "left": "Masse = 10 kg",
+          "right": "Poids = 100 N"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi le poids est-il une action à distance ?",
+      "options": [
+        "Parce qu'il s'exerce même sans contact direct avec le sol",
+        "Parce qu'il ne s'arrête jamais",
+        "Parce qu'il vient du Soleil",
+        "Parce qu'il n'existe que dans le vide"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

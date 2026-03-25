@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Les Paroles Rapportées (Direct)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel signe de ponctuation annonce souvent le discours direct ?",
+      "options": [
+        "Les deux-points et les guillemets",
+        "Le point d'exclamation",
+        "La virgule seulement",
+        "Les parenthèses"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Au discours direct, les paroles sont rapportées exactement telles qu'elles ont été dites.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un verbe comme 'dire', 'répondre' ou 'écrier' est un verbe de {{1}}.",
+      "reponsesAttendues": [
+        "parole"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Identifie le discours direct.",
+      "pairs": [
+        {
+          "left": "Il a dit : 'Je viens.'",
+          "right": "Discours direct"
+        },
+        {
+          "left": "Il a dit qu'il venait.",
+          "right": "Discours indirect"
+        },
+        {
+          "left": "Arriverait-il ?",
+          "right": "Discours indirect libre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où se place souvent le verbe de parole dans un dialogue ?",
+      "options": [
+        "En incise (ex: dit-il)",
+        "Au début du livre",
+        "À la fin du chapitre",
+        "Il n'y en a jamais"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

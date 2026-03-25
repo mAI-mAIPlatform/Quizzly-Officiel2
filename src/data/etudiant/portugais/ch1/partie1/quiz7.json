@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Nacionalidades",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Brasileño'?",
+      "options": [
+        "Brasileiro",
+        "Brasileira",
+        "Brasiliano",
+        "Brasil"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Las nacionalidades en -ês (es. português) son iguales para masculino y femenino.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ela é {{1}} (portuguesa).",
+      "reponsesAttendues": [
+        "portuguesa"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el país con la nacionalidad.",
+      "pairs": [
+        {
+          "left": "Brasil",
+          "right": "Brasileiro"
+        },
+        {
+          "left": "França",
+          "right": "Francês"
+        },
+        {
+          "left": "Angola",
+          "right": "Angolano"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'estrangeiro'?",
+      "options": [
+        "Extranjero",
+        "Extraño",
+        "Viajero",
+        "Turista"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

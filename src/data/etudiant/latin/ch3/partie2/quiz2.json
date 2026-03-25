@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Auguste, premier empereur",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel était le nom de naissance d'Auguste ?",
+      "options": [
+        "Octave",
+        "César",
+        "Pompée",
+        "Cicéron"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Auguste a reçu son titre du Sénat en 27 av. J.-C.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Auguste s'appelait lui-même le {{1}} (Princeps / premier des citoyens).",
+      "reponsesAttendues": [
+        "Princeps"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les titres d'Auguste.",
+      "pairs": [
+        {
+          "left": "Augustus",
+          "right": "Sacré / Vénérable"
+        },
+        {
+          "left": "Imperator",
+          "right": "Chef militaire victorieux"
+        },
+        {
+          "left": "Pontifex Maximus",
+          "right": "Grand prêtre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle célèbre bataille a permis à Octave de vaincre Marc Antoine ?",
+      "options": [
+        "La bataille d'Actium",
+        "La bataille d'Alésia",
+        "La bataille de Zama",
+        "La bataille de Cannes"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

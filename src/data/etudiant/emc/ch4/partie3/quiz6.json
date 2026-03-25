@@ -1,0 +1,64 @@
+{
+  "id": "quiz6",
+  "titre": "Droits Fondamentaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel texte regroupe tous les droits des citoyens européens depuis l'an 2000 ?",
+      "options": [
+        "La Charte des droits fondamentaux de l'UE",
+        "Le code civil français",
+        "Le dictionnaire de l'Europe",
+        "La liste des courses de la Commission"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Charte interdit toute discrimination fondée sur le sexe, la race ou la religion.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La Charte protège aussi la liberté de {{1}} (pensée / expression) et de culte.",
+      "reponsesAttendues": [
+        "pensée",
+        "expression"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la catégorie de droit à un exemple.",
+      "pairs": [
+        {
+          "left": "Dignité",
+          "right": "Interdiction de la torture"
+        },
+        {
+          "left": "Liberté",
+          "right": "Droit au respect de la vie privée"
+        },
+        {
+          "left": "Solidarité",
+          "right": "Droit à la sécurité sociale"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi cette charte est-elle importante ?",
+      "options": [
+        "Elle a une valeur juridique obligatoire pour les institutions et les États",
+        "C'est un simple conseil",
+        "Pour faire de jolies affiches",
+        "Elle ne sert qu'aux avocats"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

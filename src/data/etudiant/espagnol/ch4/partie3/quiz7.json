@@ -1,0 +1,63 @@
+{
+  "id": "quiz27",
+  "titre": "Distancia y Ubicación",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Loin de'?",
+      "options": [
+        "Lejos de",
+        "Cerca de",
+        "Al lado de",
+        "Dentro de"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Cerca de' significa 'près de'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Mi casa está {{1}} (tout près) del colegio.",
+      "reponsesAttendues": [
+        "cerquísima"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la posición.",
+      "pairs": [
+        {
+          "left": "A la derecha",
+          "right": "À droite"
+        },
+        {
+          "left": "A la izquierda",
+          "right": "À gauche"
+        },
+        {
+          "left": "Todo recto",
+          "right": "Tout droit"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa '¿A qué distancia está?'?",
+      "options": [
+        "À quelle distance se trouve-t-il ?",
+        "Où est le restaurant ?",
+        "Combien ça coûte ?",
+        "Comment vas-tu ?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

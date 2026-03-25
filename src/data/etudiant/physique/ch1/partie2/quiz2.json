@@ -1,0 +1,63 @@
+{
+  "id": "quiz12",
+  "titre": "Combustion du butane",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la formule chimique du butane ?",
+      "options": [
+        "C4H10",
+        "CH4",
+        "C3H8",
+        "C2H6"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La combustion complète du butane produit de l'eau.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les deux produits d'une combustion complète du butane sont le dioxyde de carbone et la {{1}} d'eau.",
+      "reponsesAttendues": [
+        "vapeur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le test à ce qu'il identifie lors de la combustion du butane.",
+      "pairs": [
+        {
+          "left": "Eau de chaux trouble",
+          "right": "Dioxyde de carbone"
+        },
+        {
+          "left": "Buée sur les parois",
+          "right": "Eau"
+        },
+        {
+          "left": "Dépôt noir (suie)",
+          "right": "Carbone (combustion incomplète)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la couleur de la flamme lors d'une combustion complète ?",
+      "options": [
+        "Bleue",
+        "Jaune",
+        "Rouge",
+        "Verte"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

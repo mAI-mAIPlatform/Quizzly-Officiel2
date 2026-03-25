@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan du Chapitre 1 : Nutrition",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quels sont les deux grands types de nutrition ?",
+      "options": [
+        "Végétale et Animale",
+        "Producteurs primaires (autotrophes) et Consommateurs (hétérotrophes)",
+        "Solide et Liquide",
+        "Matin et Soir"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Tous les organes du corps coopèrent pour assurer la nutrition des cellules.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le sang transporte le dioxygène et les {{1}} vers toutes les cellules.",
+      "reponsesAttendues": [
+        "nutriments"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dernier défi du chapitre 1 :",
+      "pairs": [
+        {
+          "left": "Respiration",
+          "right": "Apport d'O2 et rejet de CO2"
+        },
+        {
+          "left": "Digestion",
+          "right": "Apport de nutriments"
+        },
+        {
+          "left": "Excrétion",
+          "right": "Élimination des déchets"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Bravo ! Prêt pour le Chapitre 2 sur les Séismes et les Volcans ?",
+      "options": [
+        "Oui, direction le centre de la Terre !",
+        "Pas encore",
+        "C'est quoi un volcan ?",
+        "Je préfère rester sur l'humain"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

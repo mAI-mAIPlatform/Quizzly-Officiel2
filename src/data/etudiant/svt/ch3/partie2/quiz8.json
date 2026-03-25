@@ -1,0 +1,63 @@
+{
+  "id": "quiz18",
+  "titre": "L'Antibiorésistance",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une bactérie résistante ?",
+      "options": [
+        "Une bactérie sur laquelle l'antibiotique n'a plus d'effet",
+        "Une bactérie qui court très vite",
+        "Une bactérie très grosse",
+        "Une bactérie qui n'est pas vivante"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le mauvais usage des antibiotiques accélère l'apparition de résistances.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les bactéries multirésistantes sont souvent appelées des {{1}}.",
+      "reponsesAttendues": [
+        "super-bactéries"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la cause à la conséquence.",
+      "pairs": [
+        {
+          "left": "Usage excessif en élevage",
+          "right": "Propagation de résistances par l'alimentation"
+        },
+        {
+          "left": "Arrêt précoce du traitement",
+          "right": "Survie des bactéries les plus fortes"
+        },
+        {
+          "left": "Automédication",
+          "right": "Risque de traitement inadapté"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi l'antibiorésistance est-elle un danger ?",
+      "options": [
+        "Certaines infections simples pourraient devenir mortelles si on ne peut plus les soigner",
+        "Parce que les bactéries vont devenir géantes",
+        "Parce que l'eau va bouillir",
+        "Parce que les hôpitaux vont fermer tous en même temps"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

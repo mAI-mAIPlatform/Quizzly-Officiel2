@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Le Diagramme Pieuvre (APTE)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert le diagramme Pieuvre ?",
+      "options": [
+        "À identifier les relations entre l'objet et son environnement",
+        "À compter les pattes d'un robot",
+        "À nager plus vite",
+        "À faire un schéma électrique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une Fonction Principale (FP) relie deux éléments de l'environnement via l'objet.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les fonctions de {{1}} (FC) sont les obligations imposées à l'objet.",
+      "reponsesAttendues": [
+        "contrainte"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Types de Fonctions.",
+      "pairs": [
+        {
+          "left": "FP",
+          "right": "Fonction Principale"
+        },
+        {
+          "left": "FC",
+          "right": "Fonction Contrainte / Complémentaire"
+        },
+        {
+          "left": "Milieu extérieur",
+          "right": "Un élément qui entoure l'objet"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est un exemple de milieu extérieur pour un vélo ?",
+      "options": [
+        "L'utilisateur",
+        "Le sol",
+        "Le code de la route",
+        "Toutes ces réponses sont justes"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Modifier un élément",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment changer la valeur du premier élément d'un tableau 't' ?",
+      "options": [
+        "t[0] = 'Nouveau'",
+        "t.change(0, 'Nouveau')",
+        "t[1] = 'Nouveau'",
+        "t = 'Nouveau'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On accède en lecture et en écriture de la même façon (via l'index).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Assigner t[5] = 10 alors que t.length est 2 crée des {{1}} vides (trous) dans le tableau.",
+      "reponsesAttendues": [
+        "index"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'opération.",
+      "pairs": [
+        {
+          "left": "Lecture",
+          "right": "let x = tab[i]"
+        },
+        {
+          "left": "Écriture",
+          "right": "tab[i] = x"
+        },
+        {
+          "left": "Incrémentation",
+          "right": "tab[i]++"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "tab = [10]. tab[0] = 20. log(tab).",
+      "options": [
+        "[10, 20]",
+        "[20]",
+        "[10]",
+        "Error"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

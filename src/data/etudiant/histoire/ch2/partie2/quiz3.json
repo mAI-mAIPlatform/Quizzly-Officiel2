@@ -1,0 +1,63 @@
+{
+  "id": "quiz13",
+  "titre": "Métropoles du Sud",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le principal problème des métropoles des pays les moins avancés ?",
+      "options": [
+        "L'insalubrité et le manque d'infrastructures de base",
+        "Le trop grand nombre de musées",
+        "La gratuité totale des logements",
+        "Le silence excessif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans certaines villes du Sud, plus de la moitié des habitants vivent dans des bidonvilles.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'habitat construit avec des matériaux de récupération s'appelle un {{1}}.",
+      "reponsesAttendues": [
+        "bidonville"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le manque à sa conséquence.",
+      "pairs": [
+        {
+          "left": "Absence d'égouts",
+          "right": "Risques de maladies (choléra...)"
+        },
+        {
+          "left": "Absence d'électricité",
+          "right": "Inconvénients pour le travail et la sécurité"
+        },
+        {
+          "left": "Logement précaire",
+          "right": "Danger en cas d'intempéries"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le secteur économique non déclaré très présent dans ces villes ?",
+      "options": [
+        "Le secteur informel",
+        "La haute technologie",
+        "La fonction publique",
+        "L'agriculture de rente"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

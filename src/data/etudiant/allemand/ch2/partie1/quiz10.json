@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Kap. 2 P. 1 Synthese",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Es ist Viertel nach acht. ¿Qué hora es?",
+      "options": [
+        "8:15",
+        "7:45",
+        "8:45",
+        "9:15"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En 'Ich rufe dich an', el verbo es 'anrufen'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich {{1}} um ein Uhr zu Mittag (manger).",
+      "reponsesAttendues": [
+        "esse"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el resumen.",
+      "pairs": [
+        {
+          "left": "Uhrzeit",
+          "right": "Viertel, Halb, Vor, Nach"
+        },
+        {
+          "left": "Alltag",
+          "right": "Aufstehen, Essen, Schlafen"
+        },
+        {
+          "left": "Grammatik",
+          "right": "Trennbare Verben"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Excellent / Délicieux'?",
+      "options": [
+        "Lecker",
+        "Schlecht",
+        "Müde",
+        "Spät"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

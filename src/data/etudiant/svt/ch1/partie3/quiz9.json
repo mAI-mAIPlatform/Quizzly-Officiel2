@@ -1,0 +1,63 @@
+{
+  "id": "quiz29",
+  "titre": "L'Anthropocène",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'Anthropocène (terme discuté par les scientifiques) ?",
+      "options": [
+        "Une époque où l'Homme est la force dominante transformant la Terre",
+        "Le nom d'un nouveau dinosaure",
+        "La peur des êtres humains",
+        "L'étude des fourmis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Homme a modifié la composition chimique de l'atmosphère depuis 1850.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le principal traceur de l'activité humaine dans les roches futures sera le {{1}}.",
+      "reponsesAttendues": [
+        "plastique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'impact à son domaine.",
+      "pairs": [
+        {
+          "left": "Émission de CO2",
+          "right": "Changement de l'Atmosphère"
+        },
+        {
+          "left": "Barrages et Villes",
+          "right": "Modification de la Géosphère"
+        },
+        {
+          "left": "Surpêche",
+          "right": "Impact sur la Biosphère"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la responsabilité de l'Homme dans cette époque ?",
+      "options": [
+        "Trouver des solutions pour limiter son impact et préserver la planète",
+        "Continuer sans rien changer",
+        "Attendre que la nature se répare toute seule sans aide",
+        "Partir vivre sur Mars immédiatement"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

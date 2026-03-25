@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Teachers and Classrooms",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Where do students eat lunch?",
+      "options": [
+        "In the canteen",
+        "In the gym",
+        "In the library",
+        "In the playground"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "The 'Headteacher' is the person in charge of the school.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "We play sports in the {{1}}.",
+      "reponsesAttendues": [
+        "gym"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the places.",
+      "pairs": [
+        {
+          "left": "Library",
+          "right": "Books"
+        },
+        {
+          "left": "Playground",
+          "right": "Break time"
+        },
+        {
+          "left": "Staffroom",
+          "right": "Teachers"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What do you find in a classroom?",
+      "options": [
+        "Desks and a whiteboard",
+        "Beds and a kitchen",
+        "Cars and trees",
+        "Swimming pool"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

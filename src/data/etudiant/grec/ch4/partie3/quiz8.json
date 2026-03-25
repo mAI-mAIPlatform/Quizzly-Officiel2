@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Examen : Histoire Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle guerre a opposé Athènes et Sparte au Ve siècle av. J.-C. ?",
+      "options": [
+        "La Guerre du Péloponnèse",
+        "Les Guerres Médiques",
+        "La Guerre de Troie",
+        "La Guerre des Gaules"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Périclès est l'homme d'État qui a dirigé Athènes durant son 'Âge d'Or'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La victoire finale des Grecs sur les Perses a eu lieu à la bataille de {{1}} (Platées).",
+      "reponsesAttendues": [
+        "Platées"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'événement à sa date.",
+      "pairs": [
+        {
+          "left": "Bataille de Marathon",
+          "right": "490 av. J.-C."
+        },
+        {
+          "left": "Mort d'Alexandre",
+          "right": "323 av. J.-C."
+        },
+        {
+          "left": "Siècle de Périclès",
+          "right": "Ve siècle av. J.-C."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel roi macédonien a conquis l'Empire Perse ?",
+      "options": [
+        "Alexandre le Grand",
+        "Philippe II",
+        "Léonidas",
+        "Xerxès"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Actividades de vacaciones",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué haces en la playa?",
+      "options": [
+        "Tomar el sol y nadar",
+        "Esquiar",
+        "Estudiar matemáticas",
+        "Limpiar la casa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Descansar' significa 'sortir faire la fête'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Me gusta muchisimo {{1}} monumentos históricos.",
+      "reponsesAttendues": [
+        "visitar"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la actividad.",
+      "pairs": [
+        {
+          "left": "Sacar fotos",
+          "right": "Prendre des photos"
+        },
+        {
+          "left": "Dar un paseo",
+          "right": "Faire une balade"
+        },
+        {
+          "left": "Ir de compras",
+          "right": "Faire du shopping"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'probar la comida local'?",
+      "options": [
+        "Goûter la nourriture locale",
+        "Acheter des souvenirs",
+        "Cuisiner pour ses amis",
+        "Vendre des plats"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

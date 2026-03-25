@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Le Système Solaire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la planète la plus proche du Soleil ?",
+      "options": [
+        "Vénus",
+        "Mercure",
+        "Mars",
+        "La Terre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Jupiter est la plus grande planète du système solaire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La 'planète rouge' est le surnom de {{1}}.",
+      "reponsesAttendues": [
+        "Mars"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Planètes et Caractéristiques.",
+      "pairs": [
+        {
+          "left": "Saturne",
+          "right": "Célèbre pour ses anneaux"
+        },
+        {
+          "left": "Neptune",
+          "right": "La plus éloignée du Soleil"
+        },
+        {
+          "left": "Venus",
+          "right": "La plus chaude"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on l'astre au centre de notre système ?",
+      "options": [
+        "La Lune",
+        "Le Soleil",
+        "Sirius",
+        "Alpha du Centaure"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

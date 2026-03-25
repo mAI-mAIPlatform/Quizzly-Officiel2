@@ -1,0 +1,74 @@
+{
+  "id": "quiz10",
+  "titre": "Révision Partie 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel n'est PAS un attribut de <video> ?",
+      "options": ["controls", "poster", "href", "autoplay"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser plusieurs balises <source> dans une balise <video>.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise track s'utilise avec l'attribut {{1}} pour pointer vers le fichier .vtt.",
+      "reponsesAttendues": ["src"]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'élément à son rôle :",
+      "pairs": [
+        {"left": "<audio>", "right": "Fichiers son"},
+        {"left": "<iframe>", "right": "Inclusion externe"},
+        {"left": "<poster>", "right": "Aperçu vidéo"}
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si un navigateur ne connaît pas <video> ?",
+      "options": ["Écran noir", "Il affiche le texte alternatif de secours", "Il plante", "Rien"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q6",
+      "type": "vrai_faux",
+      "enonce": "La balise <video> peut être utilisée sans contrôles pour un fond animé.",
+      "reponse": true
+    },
+    {
+      "id": "q7",
+      "type": "qcm",
+      "enonce": "Quelle est l'unité par défaut des dimensions d'une vidéo ?",
+      "options": ["px", "%", "em", "vw"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "L'attribut 'kind' sur <track> permet de distinguer les sous-titres des {{1}}.",
+      "reponsesAttendues": ["chapitres"]
+    },
+    {
+      "id": "q9",
+      "type": "vrai_faux",
+      "enonce": "Il est possible de mettre deux audios en même temps sur une page.",
+      "reponse": true
+    },
+    {
+      "id": "q10",
+      "type": "qcm",
+      "enonce": "Quel élément est indispensable pour qu'une vidéo YouTube s'affiche ?",
+      "options": ["src", "alt", "href", "value"],
+      "correctIndex": 0
+    }
+  ]
+}

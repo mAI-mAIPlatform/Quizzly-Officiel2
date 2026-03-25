@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Essen am Mittag",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'La cantine' ?",
+      "options": [
+        "Die Mensa",
+        "Der Tisch",
+        "Das Brot",
+        "Das Wasser"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Das Mittagessen findet meistens um 12 Uhr statt.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich {{1}} (boire) ein Wasser.",
+      "reponsesAttendues": [
+        "trinke"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Essen.",
+      "pairs": [
+        {
+          "left": "Apfelsaft",
+          "right": "Jus de pomme"
+        },
+        {
+          "left": "Wurst",
+          "right": "Saucisse"
+        },
+        {
+          "left": "Käse",
+          "right": "Fromage"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Was isst du gern?",
+      "options": [
+        "Ich esse gern Pizza",
+        "Ich trinke gern Pizza",
+        "Pizza isst mich",
+        "Hallo Pizza"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

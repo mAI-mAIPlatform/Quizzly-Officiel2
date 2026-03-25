@@ -1,0 +1,64 @@
+{
+  "id": "quiz1",
+  "titre": "Créer un Tableau",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel symbole utilise-t-on pour créer un tableau (Array) en JavaScript ?",
+      "options": [
+        "Les crochets [ ]",
+        "Les accolades { }",
+        "Les parenthèses ( )",
+        "Les chevrons < >"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un tableau peut contenir plusieurs types de données en même temps (textes et nombres).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour déclarer la liste des courses, on écrit : const courses = {{1}} \"pomme\", \"lait\" {{2}}; ([ / ]).",
+      "reponsesAttendues": [
+        "[",
+        "]"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'exemple au type.",
+      "pairs": [
+        {
+          "left": "\"Banane\"",
+          "right": "String"
+        },
+        {
+          "left": "10",
+          "right": "Number"
+        },
+        {
+          "left": "[\"a\", \"b\"]",
+          "right": "Array"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on une liste ordonnée de données en JS ?",
+      "options": [
+        "Un Array (Tableau)",
+        "Un Object",
+        "Un String",
+        "Un Script"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

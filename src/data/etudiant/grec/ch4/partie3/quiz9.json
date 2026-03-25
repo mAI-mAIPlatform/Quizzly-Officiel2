@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Examen : Culture Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'allégorie de la Caverne ?",
+      "options": [
+        "Une image de Platon sur la connaissance",
+        "Une technique de combat",
+        "Un rite religieux",
+        "Une pièce de théâtre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Parthénon est un temple d'ordre dorique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le dieu du théâtre et du vin est {{1}} (Dionysos).",
+      "reponsesAttendues": [
+        "Dionysos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le personnage à sa fonction.",
+      "pairs": [
+        {
+          "left": "Phidias",
+          "right": "Sculpteur"
+        },
+        {
+          "left": "Aristophane",
+          "right": "Auteur de comédies"
+        },
+        {
+          "left": "Hippocrate",
+          "right": "Médecin"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où se réunissait l'Ecclesia (assemblée du peuple) à Athènes ?",
+      "options": [
+        "Sur la Pnyx",
+        "À l'Acropole",
+        "Au Pirée",
+        "Au Théâtre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

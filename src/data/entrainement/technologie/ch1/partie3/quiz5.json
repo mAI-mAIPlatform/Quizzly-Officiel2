@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "L'Algorigramme (Logigramme)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel symbole représente une question / un test ?",
+      "options": [
+        "Le Losange",
+        "Le Rectangle",
+        "L'Ovale",
+        "Le Parallélogramme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le rectangle représente une action à effectuer.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les flèches indiquent le sens de l'{{1}} du programme.",
+      "reponsesAttendues": [
+        "exécution"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Symboles Algo.",
+      "pairs": [
+        {
+          "left": "Rectangle",
+          "right": "Instruction (Action)"
+        },
+        {
+          "left": "Losange",
+          "right": "Décision (Oui/Non)"
+        },
+        {
+          "left": "Ovale",
+          "right": "Début / Fin"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on une répétition d'actions dans un algo ?",
+      "options": [
+        "Une boucle",
+        "Un virage",
+        "Un saut",
+        "Un point"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

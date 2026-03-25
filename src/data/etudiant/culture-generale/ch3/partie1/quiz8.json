@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Femmes Artistes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle artiste mexicaine est célèbre pour ses nombreux autoportraits et sa force de caractère ?",
+      "options": [
+        "Frida Kahlo",
+        "Madonna",
+        "Marie Curie",
+        "Shakira"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Rosa Bonheur était une immense peintre d'animaux au XIXème siècle.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La sculptrice française, élève et compagne de Rodin, s'appelait Camille {{1}} (Claudel).",
+      "reponsesAttendues": [
+        "Claudel"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'artiste à son œuvre ou style.",
+      "pairs": [
+        {
+          "left": "Berthe Morisot",
+          "right": "Impressionnisme (scènes de vie douce)"
+        },
+        {
+          "left": "Yayoi Kusama",
+          "right": "Art contemporain (pois et miroirs)"
+        },
+        {
+          "left": "Louise Bourgeois",
+          "right": "Araignées géantes (Maman)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel animal Frida Kahlo représentait-elle souvent à ses côtés sur ses tableaux ?",
+      "options": [
+        "Un singe",
+        "Un éléphant",
+        "Une vache",
+        "Un crocodile"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

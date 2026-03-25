@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "At Home : Hobbies",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Where do you watch TV?",
+      "options": [
+        "In the living room",
+        "In the kitchen",
+        "In the bathroom",
+        "In the garden"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A 'Board game' is played on a table (ex: Monopoly).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "My hobby is {{1}} comics.",
+      "reponsesAttendues": [
+        "reading"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match activities.",
+      "pairs": [
+        {
+          "left": "Watching",
+          "right": "Series / Cartoons"
+        },
+        {
+          "left": "Playing",
+          "right": "Guitar / Piano"
+        },
+        {
+          "left": "Surfing",
+          "right": "The web"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "If you are a 'Bookworm', you like...",
+      "options": [
+        "Reading a lot",
+        "Eating books",
+        "Nature",
+        "Gaming"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Appeler une fonction",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment 'appeler' (exécuter) une fonction nommée 'start' ?",
+      "options": [
+        "call start",
+        "start;",
+        "start();",
+        "run start()"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut appeler la même fonction plusieurs fois dans un programme.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'action d'exécuter une fonction s'appelle aussi l'{{1}}.",
+      "reponsesAttendues": [
+        "invocation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'état de la fonction.",
+      "pairs": [
+        {
+          "left": "Déclaration",
+          "right": "On définit le code"
+        },
+        {
+          "left": "Appel",
+          "right": "On utilise le code"
+        },
+        {
+          "left": "Paramètres",
+          "right": "On donne des infos à la fonction"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si on écrit le nom de la fonction sans () ?",
+      "options": [
+        "Elle s'exécute",
+        "JS renvoie la définition de la fonction (sans l'exécuter)",
+        "Erreur fatale",
+        "Rien"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

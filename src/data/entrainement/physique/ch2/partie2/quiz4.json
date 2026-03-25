@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "L'état liquide au microscope",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment sont les molécules dans un liquide ?",
+      "options": [
+        "Très loin les unes des autres",
+        "Proches (compact) mais désordonnées (elles peuvent glisser les unes sur les autres)",
+        "Fixes et rangées",
+        "Elles volent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un liquide est compact mais désordonné.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les molécules d'un liquide sont en mouvement {{1}}.",
+      "reponsesAttendues": [
+        "constant"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la propriété du liquide à sa cause microscopique.",
+      "pairs": [
+        {
+          "left": "Incompressible",
+          "right": "Molécules très proches"
+        },
+        {
+          "left": "Coule (fluide)",
+          "right": "Molécules qui glissent les unes sur les autres"
+        },
+        {
+          "left": "Prend la forme du récipient",
+          "right": "Molécules non liées fixement"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi peut-on transvaser un liquide ?",
+      "options": [
+        "Parce que c'est de l'eau",
+        "Parce que ses molécules peuvent se déplacer les unes par rapport aux autres",
+        "Parce qu'il est transparent",
+        "Parce qu'il est humide"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

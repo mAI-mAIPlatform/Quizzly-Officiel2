@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Viande et Poisson",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'La viande' ?",
+      "options": [
+        "La carne",
+        "Il pesce",
+        "Il pollo",
+        "Il manzo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Il pesce' signifie 'Le poisson'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le poulet se dit 'Il {{1}}'.",
+      "reponsesAttendues": [
+        "pollo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la protéine.",
+      "pairs": [
+        {
+          "left": "Maiale",
+          "right": "Porc"
+        },
+        {
+          "left": "Manzo",
+          "right": "Bœuf"
+        },
+        {
+          "left": "Frutti di mare",
+          "right": "Fruits de mer"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Prosciutto' ?",
+      "options": [
+        "Jambon",
+        "Poulet",
+        "Saucisse",
+        "Fromage"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

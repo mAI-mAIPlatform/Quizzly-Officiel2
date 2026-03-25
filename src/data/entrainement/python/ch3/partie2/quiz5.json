@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Passage par Référence (Objets muables)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Si on passe une LISTE à une fonction et qu'on la modifie dedans...",
+      "options": [
+        "La liste originale est modifiée",
+        "Seule une copie est modifiée",
+        "Une erreur survient",
+        "Python plante"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les nombres (int) sont immuables : ils ne changent pas à l'extérieur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les listes et dictionnaires sont dits {{1}} (modifiables).",
+      "reponsesAttendues": [
+        "muables"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le comportement.",
+      "pairs": [
+        {
+          "left": "Liste",
+          "right": "Référence (modifie org)"
+        },
+        {
+          "left": "Entier",
+          "right": "Valeur (ne modifie pas org)"
+        },
+        {
+          "left": "Tuple",
+          "right": "Immuable (ne modifie pas)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment passer une copie d'une liste 'L' pour éviter les modifications ?",
+      "options": [
+        "f(L[:]) ou f(L.copy())",
+        "f(L)",
+        "f(copy(L))",
+        "f(L.clone())"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

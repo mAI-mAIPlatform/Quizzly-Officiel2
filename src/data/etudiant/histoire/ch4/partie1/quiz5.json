@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Migrations internationales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un migrant international ?",
+      "options": [
+        "Une personne qui quitte son pays pour s'installer dans un autre",
+        "Quelqu'un qui change de rue dans sa ville",
+        "Un oiseau qui voyage en hiver",
+        "Un touriste qui part une semaine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La majorité des migrants aujourd'hui se déplacent pour des raisons économiques (travail).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une personne fuyant son pays à cause de la guerre ou de persécutions est un {{1}}.",
+      "reponsesAttendues": [
+        "réfugié"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le terme migratoire à son sens.",
+      "pairs": [
+        {
+          "left": "Émigration",
+          "right": "Fait de quitter son pays"
+        },
+        {
+          "left": "Immigration",
+          "right": "Fait d'arriver dans un pays étranger"
+        },
+        {
+          "left": "Remises",
+          "right": "Argent envoyé par le migrant à sa famille restée au pays"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on la fuite des personnes très qualifiées (médecins, ingénieurs) ?",
+      "options": [
+        "La fuite des cerveaux (brain drain)",
+        "Le voyage des diplômes",
+        "L'excursion des savants",
+        "Le départ des retraités"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "quiz7",
+  "titre": "Le Cloud et Stockage",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Cloud Computing' ?",
+      "options": [
+        "L’accès à des services et à des données via Internet au lieu de son propre disque dur",
+        "Un système pour faire voler les ordinateurs",
+        "Utiliser la vapeur d'eau pour chauffer le PC",
+        "Un jeu vidéo sur la météo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Cloud permet de retrouver ses fichiers sur n'importe quel appareil connecté.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'espace de stockage en ligne s'appelle souvent un {{1}} (Drive / Espace Cloud).",
+      "reponsesAttendues": [
+        "Drive",
+        "Cloud"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'avantage du Cloud à sa situation.",
+      "pairs": [
+        {
+          "left": "Accessibilité",
+          "right": "Consulter ses photos depuis son téléphone ou sa tablette"
+        },
+        {
+          "left": "Sauvegarde",
+          "right": "Retrouver ses documents même si l'ordinateur est cassé"
+        },
+        {
+          "left": "Collaboration",
+          "right": "Plusieurs personnes peuvent modifier le même fichier en direct"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le principal risque lié au stockage Cloud ?",
+      "options": [
+        "Le vol de données ou le piratage du compte",
+        "Que les fichiers s'évaporent",
+        "Que ça pèse trop lourd dans les nuages",
+        "Devoir payer pour chaque clic"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

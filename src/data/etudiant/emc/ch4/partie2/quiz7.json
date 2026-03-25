@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Villes d'Europe",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelles sont les trois villes 'capitales' de l'UE où siègent les institutions ?",
+      "options": [
+        "Bruxelles, Strasbourg et Luxembourg",
+        "Paris, Berlin et Madrid",
+        "Londres, Rome et Athènes",
+        "Marseille, Lyon et Bordeaux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Parlement européen a deux lieux de travail : Strasbourg et Bruxelles.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le siège du Parlement en France se trouve à {{1}} (Strasbourg).",
+      "reponsesAttendues": [
+        "Strasbourg"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'institution à sa ville principale.",
+      "pairs": [
+        {
+          "left": "Commission",
+          "right": "Bruxelles"
+        },
+        {
+          "left": "Cour de Justice",
+          "right": "Luxembourg"
+        },
+        {
+          "left": "Parlement (siège)",
+          "right": "Strasbourg"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi avoir plusieurs villes pour les institutions ?",
+      "options": [
+        "Pour montrer que l'Europe n'est pas concentrée dans un seul pays",
+        "Parce qu'une seule ville serait trop petite",
+        "Pour faire plaisir aux agences de voyage",
+        "C'est un hasard historique total"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

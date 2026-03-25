@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Accéder aux éléments",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quel numéro commence l'index d'un tableau ?",
+      "options": [
+        "0",
+        "1",
+        " -1",
+        "Ça dépend"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le deuxième élément d'un tableau 't' est t[2].",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour lire la valeur à l'index 0, on écrit tab[{{1}}].",
+      "reponsesAttendues": [
+        "0"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'index à l'élément (tab = ['R', 'G', 'B']).",
+      "pairs": [
+        {
+          "left": "tab[0]",
+          "right": "'R'"
+        },
+        {
+          "left": "tab[1]",
+          "right": "'G'"
+        },
+        {
+          "left": "tab[2]",
+          "right": "'B'"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que renvoie tab[10] si le tableau n'a que 3 éléments ?",
+      "options": [
+        "Une erreur",
+        "undefined",
+        "null",
+        "0"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

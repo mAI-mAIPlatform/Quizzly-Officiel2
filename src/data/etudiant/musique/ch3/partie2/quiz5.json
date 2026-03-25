@@ -1,0 +1,64 @@
+{
+  "id": "quiz5",
+  "titre": "Le Tempo",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel terme italien désigne un tempo rapide et joyeux ?",
+      "options": [
+        "Allegro",
+        "Lento",
+        "Adagio",
+        "Piano"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'Lento' est un tempo plus lent que l' 'Andante'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'appareil qui donne la pulsation exacte avec des bips ou des cliquetis est le {{1}} (métronome).",
+      "reponsesAttendues": [
+        "métronome",
+        "metronome"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme à sa vitesse.",
+      "pairs": [
+        {
+          "left": "Presto",
+          "right": "Très rapide"
+        },
+        {
+          "left": "Moderato",
+          "right": "Vitesse modérée"
+        },
+        {
+          "left": "Adagio",
+          "right": "Lent et majestueux"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Accelerando' sur une partition ?",
+      "options": [
+        "Accélérer progressivement le tempo",
+        "S'arrêter net",
+        "Jouer plus fort",
+        "Ralentir"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

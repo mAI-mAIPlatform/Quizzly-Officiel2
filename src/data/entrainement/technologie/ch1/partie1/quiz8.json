@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Propriétés Physiques (Chaleur/Elec)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on un matériau qui laisse passer l'électricité ?",
+      "options": [
+        "Conducteur",
+        "Isolant",
+        "Neutre",
+        "Transparent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le plastique est un bon isolant thermique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les métaux sont généralement de bons conducteurs de {{1}}.",
+      "reponsesAttendues": [
+        "chaleur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Propriétés Phys.",
+      "pairs": [
+        {
+          "left": "Densité",
+          "right": "Masse par unité de volume"
+        },
+        {
+          "left": "Opacité",
+          "right": "Arrête la lumière"
+        },
+        {
+          "left": "Dilatation",
+          "right": "Grossit avec la chaleur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel métal est le meilleur conducteur électrique usuel ?",
+      "options": [
+        "Le cuivre",
+        "Le fer",
+        "L'acier",
+        "Le plomb"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

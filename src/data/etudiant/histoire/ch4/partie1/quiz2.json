@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Les Acteurs mondiaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une FTN (Firme Transnationale) ?",
+      "options": [
+        "Une entreprise qui réalise une grande partie de son activité dans plusieurs pays",
+        "Une association de quartier pour le sport",
+        "Une petite boutique de fleurs locale",
+        "Le nom d'un gouvernement mondial"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'OMC (Organisation Mondiale du Commerce) fixe les règles des échanges internationaux.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les organisations privées à but non lucratif comme Greenpeace sont des {{1}}.",
+      "reponsesAttendues": [
+        "ONG"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'acteur à son rôle.",
+      "pairs": [
+        {
+          "left": "États",
+          "right": "Aménagent les territoires et signent des accords"
+        },
+        {
+          "left": "Consommateurs",
+          "right": "Achètent les produits du monde entier"
+        },
+        {
+          "left": "FTN (ex: Apple, Toyota)",
+          "right": "Produisent et vendent à l'échelle mondiale"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Généralement, où les FTN placent-elles leur siège social ?",
+      "options": [
+        "Dans les grandes métropoles des pays riches",
+        "Dans les déserts pour être tranquilles",
+        "Uniquement sur des bateaux",
+        "Elles n'en ont pas"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

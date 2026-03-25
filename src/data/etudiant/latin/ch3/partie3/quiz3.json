@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Hercule (Hercules)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Combien de travaux Hercule a-t-il dû accomplir ?",
+      "options": [
+        "12",
+        "7",
+        "3",
+        "10"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Hercule est un demi-dieu, fils de Jupiter.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le premier travail d'Hercule fut de tuer le {{1}} de Némée (lion).",
+      "reponsesAttendues": [
+        "lion"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le travail d'Hercule.",
+      "pairs": [
+        {
+          "left": "Hydre de Lerne",
+          "right": "Monstre à plusieurs têtes"
+        },
+        {
+          "left": "Cerbère",
+          "right": "Chien des Enfers"
+        },
+        {
+          "left": "Écuries d'Augias",
+          "right": "Nettoyage géant"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment est mort Hercule (selon la légende) ?",
+      "options": [
+        "Brûlé par une tunique empoisonnée",
+        "De vieillesse",
+        "Au combat contre un dragon",
+        "Noyé"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

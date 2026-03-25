@@ -1,0 +1,64 @@
+{
+  "id": "quiz6",
+  "titre": "Opérateurs Arithmétiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel symbole utilise-t-on pour la multiplication en Python ?",
+      "options": [
+        "*",
+        "x",
+        "x",
+        "mul"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le symbole '/' est utilisé pour la division.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'opération qui permet de calculer le reste d'une division s'appelle le {{1}} (%) (modulo).",
+      "reponsesAttendues": [
+        "modulo",
+        "%"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'opérateur à son action.",
+      "pairs": [
+        {
+          "left": "+",
+          "right": "Addition"
+        },
+        {
+          "left": "-",
+          "right": "Soustraction"
+        },
+        {
+          "left": "//",
+          "right": "Division entière (sans la virgule)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment calcule-t-on une puissance (ex: 2 au cube) en Python ?",
+      "options": [
+        "2 ** 3",
+        "2 ^ 3",
+        "2 p 3",
+        "pow(2, 3)"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

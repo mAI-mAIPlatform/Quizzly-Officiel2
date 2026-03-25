@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "La lettre d'amour",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi écrit-on une lettre d'amour ?",
+      "options": [
+        "Pour avouer ses sentiments à distance",
+        "Pour donner un rendez-vous secret",
+        "Pour laisser une trace durable",
+        "Toutes ces réponses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La lettre d'amour n'utilise jamais de métaphores.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un recueil de lettres s'appelle une {{1}}.",
+      "reponsesAttendues": [
+        "correspondance"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la formule à son registre.",
+      "pairs": [
+        {
+          "left": "Je vous aime passionnément",
+          "right": "Soutenu"
+        },
+        {
+          "left": "T'es trop cool",
+          "right": "Familier"
+        },
+        {
+          "left": "Daignez agréer...",
+          "right": "Formel"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle célèbre marquise écrivait des lettres à sa fille ?",
+      "options": [
+        "Mme de Sévigné",
+        "Mme de Lafayette",
+        "Mme Bovary",
+        "Mme Sans-Gêne"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

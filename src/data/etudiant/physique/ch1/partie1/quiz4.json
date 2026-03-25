@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Molécules et modèles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "De quoi est constituée une molécule ?",
+      "options": [
+        "D'un assemblage d'atomes",
+        "D'un seul gros atome",
+        "De petits grains de sable",
+        "De vide uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans une transformation physique, les molécules changent de nature.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'eau est constituée de molécules d'eau, notées {{1}}.",
+      "reponsesAttendues": [
+        "H2O"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la molécule à sa composition.",
+      "pairs": [
+        {
+          "left": "Eau",
+          "right": "2 atomes d'hydrogène et 1 d'oxygène"
+        },
+        {
+          "left": "Dioxyde de carbone",
+          "right": "1 atome de carbone et 2 d'oxygène"
+        },
+        {
+          "left": "Dioxygène",
+          "right": "2 atomes d'oxygène"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Au cours d'un mélange (ex: sucre et eau), que deviennent les molécules ?",
+      "options": [
+        "Elles se mélangent mais ne disparaissent pas",
+        "Elles fusionnent pour devenir une seule grosse molécule",
+        "Les molécules de sucre deviennent des molécules d'eau",
+        "Elles sont détruites"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

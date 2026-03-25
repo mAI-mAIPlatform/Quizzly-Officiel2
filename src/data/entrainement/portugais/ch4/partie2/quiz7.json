@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Materiais",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Coton' ?",
+      "options": [
+        "Algodão",
+        "Lã",
+        "Seda",
+        "Couro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Couro' significa 'Cuir'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A minha camisola é de {{1}} (laine).",
+      "reponsesAttendues": [
+        "lã"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Materiais.",
+      "pairs": [
+        {
+          "left": "Sintético",
+          "right": "Synthétique"
+        },
+        {
+          "left": "Linho",
+          "right": "Lin"
+        },
+        {
+          "left": "Veludo",
+          "right": "Velours"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "De que material são os teus sapatos?",
+      "options": [
+        "São de couro",
+        "São de vidro",
+        "São de sopa",
+        "Olá"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

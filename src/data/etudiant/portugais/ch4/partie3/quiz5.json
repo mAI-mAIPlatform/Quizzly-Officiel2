@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Problemas Globais",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Cambio climático'?",
+      "options": [
+        "Mudança climática",
+        "Aquecimento global",
+        "Chuva ácida",
+        "Efeito estufa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A 'sustentabilidade' é vital para o futuro da Amazônia.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Devemos {{1}} (réduire) o consumo de plástico (reduzir).",
+      "reponsesAttendues": [
+        "reduzir"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el término global.",
+      "pairs": [
+        {
+          "left": "Poluição",
+          "right": "Pollution"
+        },
+        {
+          "left": "Reciclagem",
+          "right": "Recyclage"
+        },
+        {
+          "left": "Energia limpa",
+          "right": "Énergie propre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'conscientização'?",
+      "options": [
+        "Concienciación / Toma de conciencia",
+        "Confusión",
+        "Construcción",
+        "Celebración"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

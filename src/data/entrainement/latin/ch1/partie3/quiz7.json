@@ -1,0 +1,62 @@
+{
+  "id": "quiz7",
+  "titre": "Les Divertissements",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où se déroulaient les combats de gladiateurs à Rome ?",
+      "options": [
+        "Le Grand Cirque",
+        "Le Colisée (Amphithéâtre Flavien)",
+        "Le Panthéon",
+        "Le Forum"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les courses de chars avaient lieu au Circus Maximus.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'expression 'Panem et {{1}}' signifie 'Du pain et des jeux'.",
+      "reponsesAttendues": [
+        "circenses"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Rétiaire",
+          "right": "Filet et trident"
+        },
+        {
+          "left": "Mirmillon",
+          "right": "Épée et bouclier lourd"
+        },
+        {
+          "left": "Thrace",
+          "right": "Petit bouclier et dague courbe"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie le pouce levé ou baissé de l'empereur à la fin d'un combat ?",
+      "options": [
+        "L'ordre de tuer ou de gracier",
+        "Le prix du billet",
+        "Le début de l'entracte",
+        "Le choix du prochain combat"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

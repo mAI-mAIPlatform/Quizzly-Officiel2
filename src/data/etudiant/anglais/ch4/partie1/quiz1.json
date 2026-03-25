@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Environmental Problems",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is 'global warming'?",
+      "options": [
+        "A gradual increase in the overall temperature of the earth's atmosphere",
+        "A type of very hot summer",
+        "The heat inside a volcano",
+        "A way to cook food faster"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pollution can affect air, water, and soil.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "The cutting down of large areas of forests is called {{1}}.",
+      "reponsesAttendues": [
+        "deforestation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the problem with its category.",
+      "pairs": [
+        {
+          "left": "Smog",
+          "right": "Air pollution"
+        },
+        {
+          "left": "Oil spill",
+          "right": "Water pollution"
+        },
+        {
+          "left": "Acid rain",
+          "right": "Atmospheric pollution"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What happens when Ice Caps melt?",
+      "options": [
+        "Sea levels rise and habitats are lost",
+        "The water becomes much cleaner",
+        "It stops raining completely",
+        "The sun becomes brighter"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

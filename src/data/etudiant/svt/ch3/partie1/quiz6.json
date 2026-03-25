@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "La Circulation Sanguine",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel organe assure la mise en mouvement du sang ?",
+      "options": [
+        "Le cœur (muscle creux)",
+        "Le poumon",
+        "Le foie",
+        "L'estomac"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le sang circule dans un système clos de vaisseaux sanguins.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les vaisseaux qui partent du cœur vers les organes sont les {{1}}.",
+      "reponsesAttendues": [
+        "artères"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le vaisseau à sa direction.",
+      "pairs": [
+        {
+          "left": "Artère",
+          "right": "Cœur vers Organes"
+        },
+        {
+          "left": "Veine",
+          "right": "Organes vers Cœur"
+        },
+        {
+          "left": "Capillaire",
+          "right": "Lieu des échanges au cœur des tissus"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi dit-on que le cœur est une double pompe ?",
+      "options": [
+        "Parce qu'il envoie le sang vers les poumons ET vers le reste du corps",
+        "Parce qu'il a deux batteries de secours",
+        "Parce qu'il bat deux fois par seconde",
+        "C'est une image pour dire qu'il est gros"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

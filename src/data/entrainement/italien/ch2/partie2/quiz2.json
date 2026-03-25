@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Le verbe Mangiare (Manger)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la particularité des verbes en -IARE comme Mangiare ?",
+      "options": [
+        "Ils sont irréguliers",
+        "On ne double pas le 'i' au pluriel (ex: Noi mangiamo)",
+        "Ils n'existent pas",
+        "Ils prennent un accent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Io mangio' signifie 'Je mange'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Tu manges se dit 'Tu {{1}}' (une seule lettre 'i' !).",
+      "reponsesAttendues": [
+        "mangi"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la conjugaison de Mangiare.",
+      "pairs": [
+        {
+          "left": "Lui / Lei",
+          "right": "Mangia"
+        },
+        {
+          "left": "Voi",
+          "right": "Mangiate"
+        },
+        {
+          "left": "Loro",
+          "right": "Mangiano"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Nous mangeons une pizza' ?",
+      "options": [
+        "Mangiamo una pizza",
+        "Mangiate una pizza",
+        "Mangiano una pizza",
+        "Mangio una pizza"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Contrôle Qualité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert le contrôle qualité en usine ?",
+      "options": [
+        "À vérifier que les produits fabriqués sont conformes au cahier des charges",
+        "À compter le nombre d'employés",
+        "À choisir la couleur des cartons",
+        "À éteindre les lumières le soir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un produit avec un défaut de fabrication est appelé un 'rebut' s'il ne peut pas être réparé.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour vérifier les dimensions d'une pièce avec précision, on utilise un pied à {{1}} (coulisse).",
+      "reponsesAttendues": [
+        "coulisse"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'outil de mesure à sa fonction.",
+      "pairs": [
+        {
+          "left": "Réglet",
+          "right": "Mesure simple de longueurs"
+        },
+        {
+          "left": "Pied à coulisse",
+          "right": "Mesure précise (diamètres, profondeurs)"
+        },
+        {
+          "left": "Balance de précision",
+          "right": "Mesure de la masse"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie être 'hors tolérance' pour une pièce ?",
+      "options": [
+        "Que ses dimensions s'écartent trop de la valeur prévue",
+        "Qu'elle est trop belle pour être vendue",
+        "Qu'elle a été fabriquée trop vite",
+        "Qu'elle a changé de forme toute seule"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

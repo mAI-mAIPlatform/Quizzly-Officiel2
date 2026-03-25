@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Patrimoine Commun",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le patrimoine immatériel ?",
+      "options": [
+        "Les traditions, les savoir-faire et les fêtes",
+        "Les châteaux et les monuments en pierre",
+        "Les comptes en banque de l'État",
+        "Le vent et la pluie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La gastronomie française est inscrite au patrimoine mondial de l'UNESCO.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le patrimoine permet de transmettre une {{1}} (histoire) commune à travers les siècles.",
+      "reponsesAttendues": [
+        "histoire"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le monument à sa ville.",
+      "pairs": [
+        {
+          "left": "Louvre",
+          "right": "Paris"
+        },
+        {
+          "left": "Cité de Carcassonne",
+          "right": "Carcassonne"
+        },
+        {
+          "left": "Château d'If",
+          "right": "Marseille"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel événement annuel permet de visiter gratuitement de nombreux monuments ?",
+      "options": [
+        "Les Journées Européennes du Patrimoine",
+        "La Fête de la Musique",
+        "Le 14 Juillet",
+        "Noël"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

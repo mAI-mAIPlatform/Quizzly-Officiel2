@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Cerveau et 5 Sens",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel organe central traite les informations envoyées par nos sens ?",
+      "options": [
+        "Le cerveau",
+        "L'estomac",
+        "Le genou",
+        "La main"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les signaux circulent entre le cerveau et le reste du corps via les 'Nerfs'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le sens qui nous permet de percevoir les odeurs est l'{{1}} (odorat).",
+      "reponsesAttendues": [
+        "odorat"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le sens à son organe correspondant.",
+      "pairs": [
+        {
+          "left": "Goût",
+          "right": "Langue"
+        },
+        {
+          "left": "Ouïe",
+          "right": "Oreille"
+        },
+        {
+          "left": "Toucher",
+          "right": "Peau"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle partie de l'œil change de taille selon la luminosité ?",
+      "options": [
+        "La pupille",
+        "Le sourcil",
+        "La paupière",
+        "Le cil"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

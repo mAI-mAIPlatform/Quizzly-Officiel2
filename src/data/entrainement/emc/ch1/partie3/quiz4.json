@@ -1,0 +1,62 @@
+{
+  "id": "quiz4",
+  "titre": "Identifier les Fake News",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'Fake News' ?",
+      "options": [
+        "Une nouvelle un peu triste",
+        "Une fausse information créée volontairement pour tromper",
+        "Une publicité humoristique",
+        "Un poème moderne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une information qui semble trop spectaculaire pour être vraie est souvent fausse.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vérifier la fiabilité d'une source s'appelle le {{1}} (en anglais).",
+      "reponsesAttendues": [
+        "fact-checking / fact checking"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Source fiable",
+          "right": "Agence de presse, journal reconnu"
+        },
+        {
+          "left": "Complotisme",
+          "right": "Croire que tout est caché par des puissants"
+        },
+        {
+          "left": "Esprit critique",
+          "right": "Analyser avant de croire et partager"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le danger principal de la désinformation ?",
+      "options": [
+        "Manipuler l'opinion et créer des tensions dans la société",
+        "Faire rire tout le monde",
+        "Améliorer la culture générale",
+        "Gagner des abonnés"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

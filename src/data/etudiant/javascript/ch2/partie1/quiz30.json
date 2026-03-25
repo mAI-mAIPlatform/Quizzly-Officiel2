@@ -1,0 +1,64 @@
+{
+  "id": "quiz30",
+  "titre": "Synthèse Ch. 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la suite d'étapes logique pour rendre un bouton interactif ?",
+      "options": [
+        "1. Sélectionner l'élément, 2. Lui ajouter un écouteur, 3. Définir l'action dans une fonction",
+        "1. Écrire le code, 2. Créer le bouton, 3. Prier",
+        "1. Changer le style, 2. Cliquer, 3. Recharger",
+        "Il n'y a pas d'ordre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le DOM permet de modifier le contenu HTML d'un élément sans recharger la page.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La propriété pour changer la couleur CSS en JS est element.style.{{1}} (color / backgroundColor).",
+      "reponsesAttendues": [
+        "color",
+        "backgroundColor"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'outil à son action.",
+      "pairs": [
+        {
+          "left": "querySelectorAll",
+          "right": "Trouver plusieurs éléments"
+        },
+        {
+          "left": "classList",
+          "right": "Modifier l'apparence via CSS"
+        },
+        {
+          "left": "addEventListener",
+          "right": "Réagir aux actions utilisateur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Félicitations ! Quel est le but ultime de JavaScript dans le DOM ?",
+      "options": [
+        "Créer des expériences utilisateur fluides et réactives",
+        "Remplacer le HTML et le CSS",
+        "Complexifier le web",
+        "Vendre des ordinateurs"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

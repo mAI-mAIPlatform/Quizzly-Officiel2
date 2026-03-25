@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Ch. 3 P. 1 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel code crée une liste vide ?",
+      "options": [
+        "ma_liste = []",
+        "ma_liste = list()",
+        "Les deux sont corrects",
+        "ma_liste = {}"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si L = [10, 20], alors L[0] + L[1] donne 30.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour l'ajouter 'Z' à la fin de 'alphabet', on écrit alphabet.{{1}}(\"Z\") (append).",
+      "reponsesAttendues": [
+        "append"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le code à l'effet final.",
+      "pairs": [
+        {
+          "left": "L.pop()",
+          "right": "Enlève le dernier"
+        },
+        {
+          "left": "L[0] = 5",
+          "right": "Change le premier"
+        },
+        {
+          "left": "len(L)",
+          "right": "Donne la taille"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment tester si la liste L est vide ?",
+      "options": [
+        "if len(L) == 0:",
+        "if not L:",
+        "Les deux sont des méthodes courantes",
+        "if L is empty:"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

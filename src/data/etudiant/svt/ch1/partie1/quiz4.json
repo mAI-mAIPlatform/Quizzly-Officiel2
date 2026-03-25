@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Mouvements des Plaques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le mouvement de deux plaques qui s'écartent ?",
+      "options": [
+        "La divergence",
+        "La convergence",
+        "La subduction",
+        "Le frottement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La lithosphère océanique est créée au niveau des dorsales océaniques.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'enfoncement d'une plaque sous une autre s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "subduction"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le mouvement à sa conséquence géologique.",
+      "pairs": [
+        {
+          "left": "Éloignement (Divergence)",
+          "right": "Ouverture d'un océan / Dorsale"
+        },
+        {
+          "left": "Collision (Convergence)",
+          "right": "Formation d'une chaîne de montagnes"
+        },
+        {
+          "left": "Coulissage",
+          "right": "Failles transformantes (séismes)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel phénomène est à l'origine du mouvement des plaques ?",
+      "options": [
+        "Les courants de convection dans le manteau",
+        "La force des vagues",
+        "L'attraction de la Lune",
+        "La rotation des éoliennes"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

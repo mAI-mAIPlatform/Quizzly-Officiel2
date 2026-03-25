@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Parts of the Body",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is on top of your neck?",
+      "options": [
+        "Head",
+        "Feet",
+        "Hands",
+        "Knees"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "You have ten 'fingers' on your hands.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "I see with my {{1}}.",
+      "reponsesAttendues": [
+        "eyes"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the body parts.",
+      "pairs": [
+        {
+          "left": "Ear",
+          "right": "Hearing"
+        },
+        {
+          "left": "Nose",
+          "right": "Smelling"
+        },
+        {
+          "left": "Mouth",
+          "right": "Tasting / Speaking"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Which part is between your head and shoulders?",
+      "options": [
+        "Neck",
+        "Back",
+        "Arm",
+        "Leg"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

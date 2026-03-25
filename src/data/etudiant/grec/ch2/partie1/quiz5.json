@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "L'Usage de l'Aoriste",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la différence principale entre l'imparfait et l'aoriste ?",
+      "options": [
+        "Durée (imparfait) vs Ponctuel (aoriste)",
+        "Futur vs Passé",
+        "Vrai vs Faux",
+        "Il n'y en a pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'aoriste porte toujours l'augmentation (ἐ-) à l'indicatif.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une action répétée dans le passé se met à l'{{1}} (imparfait).",
+      "reponsesAttendues": [
+        "imparfait"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la traduction.",
+      "pairs": [
+        {
+          "left": "Egraphon",
+          "right": "J'écrivais (Imparfait)"
+        },
+        {
+          "left": "Egrapsa",
+          "right": "J'écrivis / J'ai écrit (Aoriste)"
+        },
+        {
+          "left": "Graphô",
+          "right": "J'écris (Présent)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "'Esti' (être) a-t-il un aoriste sigmatique régulier ?",
+      "options": [
+        "Non, il est irrégulier",
+        "Oui, esisa",
+        "Oui, esasa",
+        "Oui, esô"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

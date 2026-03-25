@@ -1,0 +1,63 @@
+{
+  "id": "quiz26",
+  "titre": "Societal Diversity",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Why is diversity important in a society?",
+      "options": [
+        "It brings different perspectives and enriches the culture",
+        "It makes everything the same",
+        "It is too complicated to manage",
+        "It only exists in big cities"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Inclusion means ensuring everyone feels welcome and valued.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A society with many different cultures is {{1}}.",
+      "reponsesAttendues": [
+        "multicultural"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the value with its social impact.",
+      "pairs": [
+        {
+          "left": "Respect",
+          "right": "Fewer conflicts and more peace"
+        },
+        {
+          "left": "Empathy",
+          "right": "Stronger community bonds"
+        },
+        {
+          "left": "Cooperation",
+          "right": "Solving collective problems together"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is the 'global village' concept?",
+      "options": [
+        "The world considered as a single community connected by tech",
+        "A small town where everyone is from another country",
+        "A theme park about the world",
+        "A type of very large garden"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

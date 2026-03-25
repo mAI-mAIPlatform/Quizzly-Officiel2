@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Fanatisme et Obscurantisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le fanatisme ?",
+      "options": [
+        "Le refus de l'autre et l'extrémisme dans ses idées",
+        "Le fait d'aimer beaucoup un chanteur",
+        "L'étude des fossiles anciens",
+        "Un sport de combat pratiqué en groupe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'obscurantisme est le rejet du savoir et de la science au profit de croyances aveugles.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'école aide à lutter contre ces phénomènes en développant l'esprit {{1}} (critique).",
+      "reponsesAttendues": [
+        "critique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le comportement à son danger.",
+      "pairs": [
+        {
+          "left": "Intolérance",
+          "right": "Rejet violent de celui qui pense différemment"
+        },
+        {
+          "left": "Endoctrinement",
+          "right": "Manipulation servant à imposer des idées"
+        },
+        {
+          "left": "Terrorisme",
+          "right": "Usage de la violence pour semer la terreur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel siècle est connu comme le 'Siècle des Lumières' pour avoir combattu l'obscurantisme ?",
+      "options": [
+        "XVIIIe siècle",
+        "XIIe siècle",
+        "XXIe siècle",
+        "XVe siècle"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

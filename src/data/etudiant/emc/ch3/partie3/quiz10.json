@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Cap. 3 P. 3 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "La liberté de la {{1}} est un pilier de la {{2}}.",
+      "options": [
+        "presse / démocratie",
+        "pêche / piscine",
+        "route / forêt",
+        "danse / musique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le pluralisme des médias permet d'accéder à des points de vue variés.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vérifier ses sources développe l'esprit {{1}} (critique).",
+      "reponsesAttendues": [
+        "critique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les rôles.",
+      "pairs": [
+        {
+          "left": "Journaliste",
+          "right": "Vérifie et diffuse l'information"
+        },
+        {
+          "left": "Algorithme",
+          "right": "Classe et recommande les contenus"
+        },
+        {
+          "left": "Citoyen",
+          "right": "S'informe et débat de manière responsable"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel n'est pas une 'Fake News' ?",
+      "options": [
+        "Une enquête sourcée et vérifiée",
+        "Une rumeur sans preuve",
+        "Un montage photo truqué",
+        "Un titre mensonger pour attirer le clic"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

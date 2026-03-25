@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Kleidung",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Le pantalon'?",
+      "options": [
+        "Die Hose",
+        "Der Rock",
+        "Das Kleid",
+        "Das Hemd"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Kleid' es neutro (Das Kleid).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich trage ein {{1}} (t-shirt).",
+      "reponsesAttendues": [
+        "T-Shirt"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la prenda.",
+      "pairs": [
+        {
+          "left": "Die Jacke",
+          "right": "La veste / blouson"
+        },
+        {
+          "left": "Der Pullover",
+          "right": "Le pull"
+        },
+        {
+          "left": "Die Schuhe",
+          "right": "Les chaussures"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'tragen'?",
+      "options": [
+        "Porter / Mettre",
+        "Acheter",
+        "Vendre",
+        "Coudre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

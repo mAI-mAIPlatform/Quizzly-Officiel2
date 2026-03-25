@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "La Mort et les Rites",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment les Grecs appelaient-ils l'ombre des défunts ?",
+      "options": [
+        "L'eidôlon (εἴδωλον)",
+        "Le sôma",
+        "La psukhê",
+        "Le daimôn"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Charon est le passeur qui fait traverser le Styx aux morts.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le dieu des Enfers est {{1}} (Hadès).",
+      "reponsesAttendues": [
+        "Hadès"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le rite funéraire.",
+      "pairs": [
+        {
+          "left": "Prothésis",
+          "right": "Exposition du mort"
+        },
+        {
+          "left": "Ekphora",
+          "right": "Convoi funèbre"
+        },
+        {
+          "left": "Obole",
+          "right": "Pièce pour le passeur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où allaient les âmes des héros après la mort ?",
+      "options": [
+        "Aux Champs Élysées",
+        "Au Tartare",
+        "Dans l'espace",
+        "Ils revenaient sur Terre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

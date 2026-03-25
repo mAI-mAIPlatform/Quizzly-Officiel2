@@ -1,0 +1,64 @@
+{
+  "id": "quiz19",
+  "titre": "Logique : NON",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel symbole représente l'opérateur logique NON (NOT) ?",
+      "options": [
+        "!",
+        "NOT",
+        "~",
+        "?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'opérateur '!' inverse la valeur booléenne (vrai devient faux, faux devient vrai).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'expression !true renvoie {{1}} (false).",
+      "reponsesAttendues": [
+        "false",
+        "faux"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Vrai ou Faut ?",
+      "pairs": [
+        {
+          "left": "!false",
+          "right": "true"
+        },
+        {
+          "left": "!!true",
+          "right": "true (double négation)"
+        },
+        {
+          "left": "!(10 > 5)",
+          "right": "false"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser '!' ?",
+      "options": [
+        "Pour vérifier si quelque chose n'est PAS vrai (ex: !connecté)",
+        "Pour afficher un message important",
+        "Pour poser une question au code",
+        "Pour vider une variable"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -15,9 +15,19 @@ export default async function ChapitrePage({
   const resolvedParams = await params;
   const [matiereId, niveau] = resolvedParams.id.split("-"); // ex: maths-6 -> maths, 6
   
-  const normalizedNiveau = niveau === "6" ? "6eme" : niveau === "5" ? "5eme" : niveau === "4" ? "4eme" : niveau === "3" ? "3eme" : niveau;
+  const levelMap: Record<string, string> = {
+    "6": "debutant", "6eme": "debutant", "debutant": "debutant",
+    "5": "entrainement", "5eme": "entrainement", "entrainement": "entrainement",
+    "4": "etudiant", "4eme": "etudiant", "etudiant": "etudiant",
+    "3": "difficile", "3eme": "difficile", "difficile": "difficile",
+    "2": "expert", "2nde": "expert", "expert": "expert",
+    "1": "savant", "1ere": "savant", "savant": "savant",
+    "T": "genie", "terminale": "genie", "genie": "genie"
+  };
+
+  const normalizedNiveau = levelMap[niveau] || levelMap[niveau.toLowerCase()] || niveau;
   const dataRoot = path.resolve(process.cwd(), "src/data");
-  const basePath = path.join(dataRoot, normalizedNiveau || "6eme", matiereId || "maths");
+  const basePath = path.join(dataRoot, normalizedNiveau, matiereId || "maths");
   let metadata, quizFiles = [];
   let quizzes = [];
 
@@ -26,16 +36,41 @@ export default async function ChapitrePage({
     metadata = JSON.parse(metaStr);
     
     const chapDir = path.join(basePath, resolvedParams.chapitre);
-    const files = await fs.readdir(chapDir);
-    quizFiles = files.filter(f => f.endsWith(".json"));
+    const parties = ["partie1", "partie2", "partie3"];
     
-    // Lire le contenu de chaque quiz
-    for (const f of quizFiles) {
-      const qStr = await fs.readFile(path.join(chapDir, f), "utf8");
-      quizzes.push(JSON.parse(qStr));
+    // Détection de l'ancienne structure (fichiers JSON à la racine du chapitre)
+    const rootFiles = await fs.readdir(chapDir);
+    const rootQuizzes = rootFiles.filter(f => f.endsWith(".json"));
+
+    if (rootQuizzes.length > 0) {
+      // Ancienne structure : charger les quiz directement
+      for (const f of rootQuizzes) {
+        const qStr = await fs.readFile(path.join(chapDir, f), "utf8");
+        quizzes.push({ ...JSON.parse(qStr), partie: 1 });
+      }
+    } else {
+      // Nouvelle structure : charger par parties
+      for (let i = 0; i < parties.length; i++) {
+        const part = parties[i];
+        const partDir = path.join(chapDir, part);
+        
+        try {
+          const files = await fs.readdir(partDir);
+          const partFiles = files.filter(f => f.endsWith(".json"));
+          
+          for (const f of partFiles) {
+            const qStr = await fs.readFile(path.join(partDir, f), "utf8");
+            quizzes.push({ ...JSON.parse(qStr), partie: i + 1 });
+          }
+        } catch (e) {
+          // Dossier de partie absent, on ignore
+        }
+      }
     }
-    // Trier par numéro de quiz (quiz1, quiz2...)
+
+    // Trier les quiz : d'abord par partie, puis par numéro de quiz dans l'ID
     quizzes.sort((a, b) => {
+      if (a.partie !== b.partie) return a.partie - b.partie;
       const numA = parseInt(a.id.replace("quiz", "")) || 0;
       const numB = parseInt(b.id.replace("quiz", "")) || 0;
       return numA - numB;
@@ -82,49 +117,69 @@ export default async function ChapitrePage({
         {/* Ligne pointillée centrale */}
         <div className="absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-emerald-400/40 via-cyan-400/40 to-transparent -translate-x-1/2 border-l-2 border-dashed border-emerald-500/20"></div>
         
-        <div className="flex flex-col gap-24 relative z-10 pt-10">
-          {quizzes.map((quiz, index) => {
-            const isLeft = index % 2 === 0;
+        <div className="flex flex-col gap-16 relative z-10 pt-10">
+          {[1, 2, 3].map((partieNum) => {
+            const partieQuizzes = quizzes.filter(q => q.partie === partieNum);
+            if (partieQuizzes.length === 0) return null;
 
             return (
-              <div 
-                key={quiz.id} 
-                className={`flex items-center w-full ${isLeft ? 'justify-start md:pr-[50%]' : 'justify-end md:pl-[50%]'}`}
-              >
-                <div className="relative group mx-auto md:mx-0">
-                  {/* Numero du Quiz */}
-                  <div className={`absolute -top-4 ${isLeft ? '-right-4' : '-left-4'} w-8 h-8 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black z-20 shadow-lg border-2 border-white/20`}>
-                    {index + 1}
-                  </div>
+              <div key={`partie-${partieNum}`} className="flex flex-col gap-12">
+                <div className="flex items-center gap-4 px-4 sm:px-0">
+                  <div className="h-px flex-1 bg-gradient-to-r from-transparent to-primary/30"></div>
+                  <h2 className="text-xl font-black uppercase tracking-tighter text-primary/60">
+                    Partie {partieNum}
+                  </h2>
+                  <div className="h-px flex-1 bg-gradient-to-l from-transparent to-primary/30"></div>
+                </div>
 
-                  <Link href={`/play/${niveau}/${matiereId}/${resolvedParams.chapitre}/${quiz.id}`}>
-                    <motion.div 
-                      whileHover={{ scale: 1.1, rotate: isLeft ? -5 : 5 }}
-                      whileTap={{ scale: 0.9 }}
-                      className={`
-                        relative flex flex-col items-center justify-center 
-                        w-32 h-32 md:w-36 md:h-36 rounded-full 
-                        bg-white border-4 border-emerald-100 shadow-2xl transition-all duration-300
-                        overflow-hidden
-                      `}
-                    >
-                       {/* Background glossy Ocean */}
-                       <div className="absolute inset-0 bg-gradient-to-br from-emerald-50 to-cyan-50 opacity-50"></div>
-                       <div className="absolute top-0 right-0 w-24 h-24 bg-emerald-400/10 rounded-full blur-2xl -mr-12 -mt-12"></div>
-                       
-                       {/* Étoile ou Icone */}
-                       <div className="text-4xl md:text-5xl mb-1 relative z-10 filter drop-shadow-sm">⭐</div>
-                       
-                       <div className="text-[9px] font-black uppercase tracking-widest text-emerald-700 relative z-10 px-4 text-center leading-tight">
-                         {quiz.titre}
-                       </div>
+                <div className="flex flex-col gap-24">
+                  {partieQuizzes.map((quiz, index) => {
+                    const globalIndex = quizzes.indexOf(quiz);
+                    const isLeft = globalIndex % 2 === 0;
 
-                       {/* Bulle de questions */}
-                       <div className="absolute -bottom-1 bg-cyan-600 text-white text-[8px] font-black px-2 py-0.5 rounded-full shadow-lg">
-                         {quiz.questions.length} QUESTIONS
-                       </div>
-                    </motion.div>
-                  </Link>
+                    return (
+                      <div 
+                        key={quiz.id} 
+                        className={`flex items-center w-full ${isLeft ? 'justify-start md:pr-[50%]' : 'justify-end md:pl-[50%]'}`}
+                      >
+                        <div className="relative group mx-auto md:mx-0">
+                          {/* Numero du Quiz */}
+                          <div className={`absolute -top-4 ${isLeft ? '-right-4' : '-left-4'} w-8 h-8 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs font-black z-20 shadow-lg border-2 border-white/20`}>
+                            {globalIndex + 1}
+                          </div>
+
+                          <Link href={`/play/${niveau}/${matiereId}/${resolvedParams.chapitre}/${quiz.id}?partie=${partieNum}`}>
+                            <motion.div 
+                              whileHover={{ scale: 1.1, rotate: isLeft ? -5 : 5 }}
+                              whileTap={{ scale: 0.9 }}
+                              className={`
+                                relative flex flex-col items-center justify-center 
+                                w-32 h-32 md:w-36 md:h-36 rounded-full 
+                                bg-white border-4 border-emerald-100 shadow-2xl transition-all duration-300
+                                overflow-hidden
+                              `}
+                            >
+                               {/* Background glossy Ocean */}
+                               <div className="absolute inset-0 bg-gradient-to-br from-emerald-50 to-cyan-50 opacity-50"></div>
+                               <div className="absolute top-0 right-0 w-24 h-24 bg-emerald-400/10 rounded-full blur-2xl -mr-12 -mt-12"></div>
+                               
+                               {/* Étoile ou Icone */}
+                               <div className="text-4xl md:text-5xl mb-1 relative z-10 filter drop-shadow-sm">⭐</div>
+                               
+                               <div className="text-[9px] font-black uppercase tracking-widest text-emerald-700 relative z-10 px-4 text-center leading-tight">
+                                 {quiz.titre}
+                               </div>
+
+                               {/* Bulle de questions */}
+                               <div className="absolute -bottom-1 bg-cyan-600 text-white text-[8px] font-black px-2 py-0.5 rounded-full shadow-lg">
+                                 {quiz.questions.length} QUESTIONS
+                               </div>
+                            </motion.div>
+                          </Link>
+                        </div>
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             );

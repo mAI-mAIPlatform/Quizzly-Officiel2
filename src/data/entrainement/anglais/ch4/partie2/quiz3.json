@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Social Media",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What do you do with a photo on Instagram?",
+      "options": [
+        "Post and Share",
+        "Delete and Hide",
+        "Print and Mail",
+        "Paint"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "To 'Follow' someone means to see their updates.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "I received many {{1}} on my new post.",
+      "reponsesAttendues": [
+        "likes"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match icons.",
+      "pairs": [
+        {
+          "left": "Heart",
+          "right": "Like"
+        },
+        {
+          "left": "Arrow",
+          "right": "Share"
+        },
+        {
+          "left": "Bubble",
+          "right": "Comment"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is a 'Hashtag' (#) used for?",
+      "options": [
+        "To categorize posts",
+        "To lock a phone",
+        "To call someone",
+        "To skip a video"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

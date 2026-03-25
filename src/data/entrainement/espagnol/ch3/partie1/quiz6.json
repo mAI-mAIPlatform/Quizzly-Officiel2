@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Irregulares en 'U' (Pasado)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'J'ai eu' (Tener) ?",
+      "options": [
+        "Tuve",
+        "Tuviste",
+        "Tuvo",
+        "Tuvimos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Pude' significa 'Je pouvais' (acción puntual).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Savoir' (Saber) se dice '{{1}}' en pasado.",
+      "reponsesAttendues": [
+        "Supe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Raíces Fuertes U.",
+      "pairs": [
+        {
+          "left": "Estuve",
+          "right": "Estar"
+        },
+        {
+          "left": "Puse",
+          "right": "Poner"
+        },
+        {
+          "left": "Anduve",
+          "right": "Andar"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Pudiste terminar el examen?",
+      "options": [
+        "Sí, pude terminarlo pronto",
+        "Soy el examen",
+        "Tengo un bolígrafo",
+        "Vivo en Francia"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

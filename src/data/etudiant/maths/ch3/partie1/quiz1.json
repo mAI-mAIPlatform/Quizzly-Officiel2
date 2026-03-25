@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Calculer une moyenne",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pour calculer une moyenne, on fait :",
+      "options": [
+        "Somme des valeurs / Effectif total",
+        "Plus grande valeur - Plus petite",
+        "La valeur du milieu",
+        "On multiplie tout"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La moyenne peut être supérieure à la plus grande valeur de la série.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La moyenne de 10, 12 et 14 est {{1}}.",
+      "reponsesAttendues": [
+        "12"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la série à sa moyenne.",
+      "pairs": [
+        {
+          "left": "2 ; 4 ; 6",
+          "right": "4"
+        },
+        {
+          "left": "10 ; 20",
+          "right": "15"
+        },
+        {
+          "left": "5 ; 5 ; 5 ; 5",
+          "right": "5"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si j'ai 12 et 14 aux deux premiers tests, quelle note dois-je avoir au 3e pour avoir 13 de moyenne ?",
+      "options": [
+        "13",
+        "15",
+        "12",
+        "14"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

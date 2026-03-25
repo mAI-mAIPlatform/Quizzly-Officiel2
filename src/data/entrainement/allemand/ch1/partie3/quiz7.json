@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Mein Stundenplan (Emploi du temps)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Les mathématiques' ?",
+      "options": [
+        "Mathe",
+        "Deutsch",
+        "Englisch",
+        "Kunst"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Erdkunde' bedeutet 'Géographie'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Mein Lieblingsfach ist {{1}} (l'allemand).",
+      "reponsesAttendues": [
+        "Deutsch"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Fächer.",
+      "pairs": [
+        {
+          "left": "Sport",
+          "right": "EPS"
+        },
+        {
+          "left": "Geschichte",
+          "right": "Histoire"
+        },
+        {
+          "left": "Musik",
+          "right": "Musique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Wann hast du Mathe?",
+      "options": [
+        "Am Montag",
+        "Ich habe ein Buch",
+        "Mathe ist gut",
+        "Hallo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

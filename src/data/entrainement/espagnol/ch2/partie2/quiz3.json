@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "En el Restaurante",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como pides la cuenta ?",
+      "options": [
+        "La cuenta, por favor",
+        "Hola, cómo estás",
+        "Me llamo Juan",
+        "Tengo diez años"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'El camarero' es la persona que te sirve.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Fourchette' se dice '{{1}}'.",
+      "reponsesAttendues": [
+        "tenedor"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Cubiertos.",
+      "pairs": [
+        {
+          "left": "Cuchillo",
+          "right": "Couteau"
+        },
+        {
+          "left": "Cuchara",
+          "right": "Cuillère"
+        },
+        {
+          "left": "Servilleta",
+          "right": "Serviette"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que pides de postre ?",
+      "options": [
+        "Un flan o fruta",
+        "Una sopa",
+        "Un chuletón",
+        "Un vaso de agua"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

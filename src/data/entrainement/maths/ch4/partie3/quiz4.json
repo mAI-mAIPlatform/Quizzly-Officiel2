@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Calculs avec des nombres relatifs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Si x = -3, calcule 2x + 5 :",
+      "options": [
+        "-11",
+        "-1",
+        "1",
+        "11"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le carré d'un nombre négatif est toujours positif.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si y = -2, y² est égal à {{1}}.",
+      "reponsesAttendues": [
+        "4"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Calcule pour x = -1.",
+      "pairs": [
+        {
+          "left": "x + 5",
+          "right": "4"
+        },
+        {
+          "left": "10 - x",
+          "right": "11"
+        },
+        {
+          "left": "2x",
+          "right": "-2"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Calcule -3x - 4 pour x = -2 :",
+      "options": [
+        "10",
+        "2",
+        "-10",
+        "-2"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

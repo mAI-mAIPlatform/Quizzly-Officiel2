@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "A Negativa",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Je ne suis pas' ?",
+      "options": [
+        "Eu não sou",
+        "Eu sou não",
+        "Não eu sou",
+        "Sou não eu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "O 'não' vem antes do verbo.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu {{1}} (pas) tenho fome.",
+      "reponsesAttendues": [
+        "não"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Frases negativas.",
+      "pairs": [
+        {
+          "left": "Não percebo",
+          "right": "Je ne comprends pas"
+        },
+        {
+          "left": "Não sei",
+          "right": "Je ne sais pas"
+        },
+        {
+          "left": "Nunca",
+          "right": "Jamais"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Tu falas inglês?",
+      "options": [
+        "Não, não falo",
+        "Sim, não falo",
+        "Não falo sim",
+        "Olá"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "L'Innovation au XXIe siècle",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle technologie permet de fabriquer des maisons en un temps record ?",
+      "options": [
+        "L'impression 3D béton",
+        "La peinture magique",
+        "Les Lego géants",
+        "Le carton"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Utiliser des drones pour livrer des colis est une innovation en test.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le {{1}} est l'étude de la nature pour inventer des technologies (ex: velcro).",
+      "reponsesAttendues": [
+        "biomimétisme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Innovations Futur.",
+      "pairs": [
+        {
+          "left": "Hyperloop",
+          "right": "Train ultra-rapide sous vide"
+        },
+        {
+          "left": "Vertical Farming",
+          "right": "Agriculture en ville dans des tours"
+        },
+        {
+          "left": "Ordinateur Quantique",
+          "right": "Puissance de calcul démesurée"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'objectif d'une innovation 'Low-tech' ?",
+      "options": [
+        "Être simple, utile, durable et réparable localement",
+        "Aller sur Mars",
+        "Utiliser le plus d'électronique possible",
+        "Être la plus chère du marché"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

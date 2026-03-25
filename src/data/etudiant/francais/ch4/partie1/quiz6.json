@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "La règle du 5 WH",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelles sont les questions de base d'un article (5 WH) ?",
+      "options": [
+        "Qui, Quoi, Où, Quand, Pourquoi ?",
+        "Comment, Combien, Pourquoi, Qui, Quel ?",
+        "Où, Quand, Comment, Pourquoi, Qui ?",
+        "Toutes ces réponses (selon la langue)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On doit trouver les réponses à ces questions dès le début de l'article.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La question 'Quand ?' précise le cadre {{1}} de l'info.",
+      "reponsesAttendues": [
+        "temporel"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la question à son but.",
+      "pairs": [
+        {
+          "left": "Qui ?",
+          "right": "Les acteurs de l'événement"
+        },
+        {
+          "left": "Où ?",
+          "right": "Le lieu"
+        },
+        {
+          "left": "Pourquoi ?",
+          "right": "Les causes ou motifs"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi cette règle est-elle importante ?",
+      "options": [
+        "Pour être complet et clair rapidement",
+        "Pour faire de la poésie",
+        "Pour vendre des journaux",
+        "Ce n'est pas important"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

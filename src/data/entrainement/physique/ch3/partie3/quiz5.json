@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "L'énergie éolienne",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle ressource utilise l'énergie éolienne ?",
+      "options": [
+        "L'eau",
+        "Le vent (mouvement de l'air)",
+        "Le soleil",
+        "Le feu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une éolienne transforme l'énergie mécanique du vent en électricité.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'énergie éolienne est une énergie {{1}}.",
+      "reponsesAttendues": [
+        "renouvelable"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'éolienne à son emplacement.",
+      "pairs": [
+        {
+          "left": "Éolienne terrestre",
+          "right": "Sur terre ferme"
+        },
+        {
+          "left": "Éolienne offshore",
+          "right": "En mer (plus de vent)"
+        },
+        {
+          "left": "Grandes pales",
+          "right": "Capte plus d'énergie"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la difficulté principale de l'éolien ?",
+      "options": [
+        "Le vent souffle tout le temps",
+        "La météo est intermittente (le vent ne souffle pas toujours)",
+        "Les éoliennes s'envolent",
+        "Ça coûte 1 euro"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

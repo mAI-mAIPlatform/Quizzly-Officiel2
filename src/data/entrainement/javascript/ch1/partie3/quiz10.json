@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan du Chapitre 1 : Les Fondamentaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel est un type primitif complet ?",
+      "options": [
+        "let, const, var",
+        "Number, String, Boolean, null, undefined, BigInt, Symbol",
+        "if, for, console",
+        "HTML, CSS, JS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "JavaScript utilise le garbage collector pour libérer la mémoire automatiquement.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une valeur de type primitive est {{1}} (on ne peut pas la modifier directement).",
+      "reponsesAttendues": [
+        "immuable"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dernier défi du chapitre 1 :",
+      "pairs": [
+        {
+          "left": "typeof undefined",
+          "right": "'undefined'"
+        },
+        {
+          "left": "typeof null",
+          "right": "'object'"
+        },
+        {
+          "left": "typeof 42n",
+          "right": "'bigint'"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Chapitre 1 validé ! Prêt pour le Chapitre 2 sur la Logique ?",
+      "options": [
+        "Oui, go !",
+        "C'était intense",
+        "Vite, la logique !",
+        "Encore des variables ?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

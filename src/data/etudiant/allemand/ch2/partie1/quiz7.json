@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Verben: essen & trinken",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo cambia 'essen' para 'Du'?",
+      "options": [
+        "isst",
+        "esst",
+        "essen",
+        "esses"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El verbo 'trinken' es regular en presente.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Was {{1}} (manger) er zum Frühstück?",
+      "reponsesAttendues": [
+        "isst"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el pronombre con 'trinken'.",
+      "pairs": [
+        {
+          "left": "Ich",
+          "right": "trinke"
+        },
+        {
+          "left": "Du",
+          "right": "trinkst"
+        },
+        {
+          "left": "Ihr",
+          "right": "trinkt"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Ils mangent'?",
+      "options": [
+        "Sie essen",
+        "Sie esst",
+        "Sie isst",
+        "Sie esset"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

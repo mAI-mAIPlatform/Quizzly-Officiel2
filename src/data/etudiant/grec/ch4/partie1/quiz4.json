@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Le Plus-que-parfait",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel élément s'ajoute avant le redoublement pour former le plus-que-parfait ?",
+      "options": [
+        "L'augmentation (e- / ἐ-)",
+        "Un sigma",
+        "Un alpha",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le plus-que-parfait exprime une action déjà accomplie dans le passé par rapport à une autre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "J'avais éduqué se dit 'e-pe-{{1}}-kein' (epepaideukein / ἐπεπαιδεύκειν).",
+      "reponsesAttendues": [
+        "paideu"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la personne (plus-que-parfait).",
+      "pairs": [
+        {
+          "left": "epepaideukein",
+          "right": "J'avais éduqué"
+        },
+        {
+          "left": "epepaideukeis",
+          "right": "Tu avais éduqué"
+        },
+        {
+          "left": "epepaideukeimen",
+          "right": "Nous avions éduqué"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison de la 3ème pers. pluriel du plus-que-parfait actif ?",
+      "options": [
+        "-kesan (κεσαν)",
+        "-ka",
+        "-onta",
+        "-ôsi"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Manners and Etiquette",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "How do you greet a friend in the UK or USA?",
+      "options": [
+        "Say 'Hi' or wave your hand",
+        "Bow deeply three times",
+        "Give them a very high kick",
+        "Stay silent and look at the floor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "In some cultures, it is polite to take off your shoes before entering a house.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "When you want something, you should say {{1}}.",
+      "reponsesAttendues": [
+        "please"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the custom with the country.",
+      "pairs": [
+        {
+          "left": "Bowing",
+          "right": "Japan / Korea"
+        },
+        {
+          "left": "Handshake",
+          "right": "Western countries (Europe, USA)"
+        },
+        {
+          "left": "Kiss on the cheek",
+          "right": "France / Spain / Italy"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What does 'being punctual' mean?",
+      "options": [
+        "Arriving at the exact time agreed",
+        "Always being 10 minutes late",
+        "Talking very loudly",
+        "Wearing a colorful tie"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

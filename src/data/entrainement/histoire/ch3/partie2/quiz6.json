@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Jeanne d'Arc : La rencontre de Chinon",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "D'où vient Jeanne d'Arc ?",
+      "options": [
+        "De Paris",
+        "De Domrémy (Lorraine)",
+        "De Marseille",
+        "De Lyon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Jeanne affirme avoir entendu des voix divines lui demandant de 'bouter les Anglais hors de France'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Elle rencontre le Dauphin Charles à {{1}} en 1429.",
+      "reponsesAttendues": [
+        "Chinon"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le personnage à son action.",
+      "pairs": [
+        {
+          "left": "Jeanne d'Arc",
+          "right": "Délivre Orléans"
+        },
+        {
+          "left": "Yolande d'Aragon",
+          "right": "Soutient Jeanne auprès du roi"
+        },
+        {
+          "left": "Charles VII",
+          "right": "Le 'Petit Roi de Bourges'"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment Jeanne a-t-elle reconnu le Dauphin à Chinon ?",
+      "options": [
+        "Il portait sa couronne",
+        "Il s'était caché parmi ses courtisans mais elle est allée droit vers lui",
+        "Il lui a dit son nom tout de suite",
+        "Elle ne l'a pas reconnu"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

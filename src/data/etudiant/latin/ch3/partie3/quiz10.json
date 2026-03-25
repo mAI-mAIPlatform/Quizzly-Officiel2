@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Cap. 3 P. 3 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Le protecteur des arts s'appelle un {{1}} et le roi des dieux est {{2}}.",
+      "options": [
+        "Mécène / Jupiter",
+        "Sénateur / Mars",
+        "Auguste / Neptune",
+        "Prêtre / Pluton"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Amaverat' est du plus-que-parfait.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'ancêtre troyen des Romains est {{1}} (Énée).",
+      "reponsesAttendues": [
+        "Énée"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les dieux.",
+      "pairs": [
+        {
+          "left": "Junon",
+          "right": "Mariage"
+        },
+        {
+          "left": "Minerve",
+          "right": "Sagesse"
+        },
+        {
+          "left": "Vesta",
+          "right": "Foyer"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Melior' ?",
+      "options": [
+        "Meilleur",
+        "Moins bien",
+        "Le plus grand",
+        "Très petit"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

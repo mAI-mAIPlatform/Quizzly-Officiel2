@@ -1,0 +1,63 @@
+{
+  "id": "quiz12",
+  "titre": "Los Reyes Católicos",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se llamaba la Reina de Castilla?",
+      "options": [
+        "Isabel",
+        "Victoria",
+        "Catalina",
+        "Juana"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Fernando era el Rey de Aragón.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Los Reyes {{1}} (conquérir) el Reino de Granada en 1492.",
+      "reponsesAttendues": [
+        "conquistaron"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el concepto con el reinado.",
+      "pairs": [
+        {
+          "left": "Unión",
+          "right": "Castilla y Aragón"
+        },
+        {
+          "left": "Religión",
+          "right": "Catolicismo"
+        },
+        {
+          "left": "Toma de",
+          "right": "Granada"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'reconquista'?",
+      "options": [
+        "Reconquête",
+        "Perte",
+        "Mariage",
+        "Voyage"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

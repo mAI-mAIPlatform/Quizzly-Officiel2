@@ -1,0 +1,63 @@
+{
+  "id": "quiz27",
+  "titre": "Habiter la ville en France",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la forme d'habitat préférée de nombreux Français ?",
+      "options": [
+        "La maison individuelle avec jardin",
+        "Le studio au 20ème étage",
+        "La yourte",
+        "La tente de camping"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Habiter en centre-ville offre un accès facile aux services et à la culture.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le fait d'habiter loin de son travail impose l'usage de la {{1}}.",
+      "reponsesAttendues": [
+        "voiture"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'avantage au lieu d'habitation.",
+      "pairs": [
+        {
+          "left": "Centre-ville",
+          "right": "Proximité, animation, transports"
+        },
+        {
+          "left": "Banlieue",
+          "right": "Logements plus grands, loyers modérés"
+        },
+        {
+          "left": "Périurbain",
+          "right": "Calme, espace vert, jardin"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le principal frein à l'installation en centre-ville ?",
+      "options": [
+        "Le prix très élevé de l'immobilier",
+        "L'absence de boulangeries",
+        "Le manque de trottoirs",
+        "L'interdiction des chats"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

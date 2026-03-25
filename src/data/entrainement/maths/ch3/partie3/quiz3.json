@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Calculs de durée et Horaires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Un train part à 14h45 et arrive à 16h10. Quelle est la durée du trajet ?",
+      "options": [
+        "1h 25min",
+        "1h 35min",
+        "2h 25min",
+        "1h 15min"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour soustraire des durées, on peut convertir tout en minutes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "3h 20min est égal à {{1}} minutes.",
+      "reponsesAttendues": [
+        "200"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la durée équivalente.",
+      "pairs": [
+        {
+          "left": "90 min",
+          "right": "1h 30min"
+        },
+        {
+          "left": "150 min",
+          "right": "2h 30min"
+        },
+        {
+          "left": "45 min",
+          "right": "0h 45min"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si je cours 45 min à 8 km/h, quelle distance ai-je parcourue ?",
+      "options": [
+        "4 km",
+        "6 km",
+        "8 km",
+        "10 km"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

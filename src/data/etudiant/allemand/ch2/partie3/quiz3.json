@@ -1,0 +1,63 @@
+{
+  "id": "quiz23",
+  "titre": "Modalverb: WOLLEN",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es la forma de 'Ich' para 'wollen'?",
+      "options": [
+        "will",
+        "wollst",
+        "wolle",
+        "wollen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Wollen' expresa una voluntad fuerte o intención.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Wir {{1}} ins Schwimmbad gehen (vouloir).",
+      "reponsesAttendues": [
+        "wollen"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el pronombre con 'wollen'.",
+      "pairs": [
+        {
+          "left": "Du",
+          "right": "willst"
+        },
+        {
+          "left": "Er / Sie",
+          "right": "will"
+        },
+        {
+          "left": "Ihr",
+          "right": "wollt"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'Was willst du machen?'?",
+      "options": [
+        "¿Qué quieres hacer?",
+        "¿Qué puedes hacer?",
+        "¿Qué debes hacer?",
+        "¿Qué haces?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "La régénération",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si l'on coupe une étoile de mer en deux ?",
+      "options": [
+        "Elle meurt",
+        "Chaque morceau peut régénérer les parties manquantes pour donner une nouvelle étoile",
+        "Elle devient bleue",
+        "Rien ne se passe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le lézard peut régénérer sa queue, mais pas un membre entier.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La capacité de reconstruire un organe perdu s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "régénération"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'animal à sa prouesse.",
+      "pairs": [
+        {
+          "left": "Planaire (ver)",
+          "right": "Peut redevenir entier à partir d'un minuscule morceau"
+        },
+        {
+          "left": "Lézard",
+          "right": "Régénère sa queue par défense"
+        },
+        {
+          "left": "Étoile de mer",
+          "right": "Peut produire un nouveau bras"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi la régénération est-elle utile ?",
+      "options": [
+        "Pour faire de la magie",
+        "Pour survivre à une attaque ou se multiplier",
+        "Pour changer de forme",
+        "C'est inutile"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

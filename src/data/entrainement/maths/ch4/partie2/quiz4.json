@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Factorisation (Niveau 1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Factoriser, c'est transformer une somme en :",
+      "options": [
+        "Une soustraction",
+        "Un produit",
+        "Une division",
+        "Un nombre seul"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans 3x + 3y, le facteur commun est 3.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Factorise 5x + 10. On obtient 5(x + {{1}}).",
+      "reponsesAttendues": [
+        "2"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Trouve le facteur commun.",
+      "pairs": [
+        {
+          "left": "4x + 4y",
+          "right": "4"
+        },
+        {
+          "left": "ax + bx",
+          "right": "x"
+        },
+        {
+          "left": "10x - 5",
+          "right": "5"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Factorise x² + 2x :",
+      "options": [
+        "x(x + 2)",
+        "2x(x + 1)",
+        "x(1 + 2)",
+        "x²(1 + 2)"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

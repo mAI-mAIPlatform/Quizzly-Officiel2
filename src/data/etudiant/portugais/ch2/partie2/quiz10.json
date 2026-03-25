@@ -1,0 +1,63 @@
+{
+  "id": "quiz20",
+  "titre": "Cap. 2 P. 2 Síntese",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Eu {{1}} (ter) 20 anos e {{2}} (trabalhar) em um escritório.",
+      "options": [
+        "tenho / trabalho",
+        "tem / trabalha",
+        "temos / trabalhamos",
+        "tenho / trabalha"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Estou com dor de cabeça' significa 'Me duele la cabeza'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Nesta estação, as flores caem (outono/automme).",
+      "reponsesAttendues": [
+        "outono"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el resumen.",
+      "pairs": [
+        {
+          "left": "Corpo",
+          "right": "Cabeça, Braço, Perna"
+        },
+        {
+          "left": "Roupa",
+          "right": "Camiseta, Calça, Meias"
+        },
+        {
+          "left": "Tarefas",
+          "right": "Varrer, Lavar, Limpar"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'J'ai soif, je porte un chapeau parce qu'il fait très chaud en été'?",
+      "options": [
+        "Estou com sede, estou usando um chapéu porque está muito calor no verão",
+        "Tenho sede, estou usando um casaco porque está frio no inverno",
+        "Estou com sede, estou usando óculos porque está sol na primavera",
+        "Estou com sede, estou usando um chapéu porque está chovendo no outono"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

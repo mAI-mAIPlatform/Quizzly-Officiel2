@@ -1,0 +1,63 @@
+{
+  "id": "quiz25",
+  "titre": "Idiomi",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se desea 'Mucha suerte'?",
+      "options": [
+        "In bocca al lupo",
+        "Buona notte",
+        "Prego",
+        "Salute"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Crepi (il lupo)' es la respuesta tradicional a 'In bocca al lupo'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Lui non ha peli sulla {{1}} (dice lo que piensa).",
+      "reponsesAttendues": [
+        "lingua"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el idioma.",
+      "pairs": [
+        {
+          "left": "Essere al settimo cielo",
+          "right": "Être aux anges / très heureux"
+        },
+        {
+          "left": "Prendere in giro",
+          "right": "Se moquer / taquiner"
+        },
+        {
+          "left": "Un pezzo di pane",
+          "right": "Une crème d'homme / très gentil"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'fare un salto'?",
+      "options": [
+        "Pasar rápidamente por un sitio",
+        "Saltar una valla",
+        "Hacer deporte",
+        "Caerse"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Pintar e Desenhar",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Peindre' ?",
+      "options": [
+        "Pintar",
+        "Desenhar",
+        "Cantar",
+        "Dançar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Lápis' significa 'Crayon'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu uso um {{1}} (pinceau) para pintar.",
+      "reponsesAttendues": [
+        "pincel"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Arte.",
+      "pairs": [
+        {
+          "left": "Quadro",
+          "right": "Tableau"
+        },
+        {
+          "left": "Cor",
+          "right": "Couleur"
+        },
+        {
+          "left": "Papel",
+          "right": "Papier"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Gostas de desenhar?",
+      "options": [
+        "Sim, desenho todos os dias",
+        "Sim, sou um desenho",
+        "Não, sou de Lisboa",
+        "Bom dia"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

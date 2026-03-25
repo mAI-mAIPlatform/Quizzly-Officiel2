@@ -1,0 +1,63 @@
+{
+  "id": "quiz28",
+  "titre": "Greffes et Rejet",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une greffe d'organe ?",
+      "options": [
+        "Le remplacement d'un organe défaillant par un organe sain venant d'un donneur",
+        "Le fait de planter un arbre",
+        "Une opération pour devenir plus grand",
+        "Une transfusion de glucose"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le rejet est dû à la reconnaissance de l'organe greffé comme 'non-soi' par le système immunitaire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour éviter le rejet, le receveur doit prendre des médicaments {{1}}.",
+      "reponsesAttendues": [
+        "immunosuppresseurs"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le terme au don d'organes.",
+      "pairs": [
+        {
+          "left": "Compatibilité",
+          "right": "Proximité génétique entre donneur et receveur"
+        },
+        {
+          "left": "Donneur universel",
+          "right": "Terme utilisé pour le groupe sanguin O négatif"
+        },
+        {
+          "left": "Autogreffe",
+          "right": "Greffe de sa propre peau (aucun rejet)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la règle par défaut en France concernant le don d'organes après la mort ?",
+      "options": [
+        "Nous sommes tous présumés donneurs (sauf si inscrits sur le registre des refus)",
+        "Il faut payer une taxe",
+        "C'est interdit par la loi",
+        "C'est tiré au sort"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

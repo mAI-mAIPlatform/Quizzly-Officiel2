@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Apresentar-se",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Mi nombre es...'?",
+      "options": [
+        "Meu nome é...",
+        "Eu sou o...",
+        "Chamo-me...",
+        "Todas las anteriores"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Como você se chama?' es la pregunta para saber el nombre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu {{1}} brasileiro (soia/ser).",
+      "reponsesAttendues": [
+        "sou"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la presentación.",
+      "pairs": [
+        {
+          "left": "Eu sou...",
+          "right": "Je suis..."
+        },
+        {
+          "left": "Quem é você?",
+          "right": "Qui es-tu ?"
+        },
+        {
+          "left": "Muito prazer",
+          "right": "Ravi de faire ta connaissance"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'De onde você é?'?",
+      "options": [
+        "¿De dónde eres?",
+        "¿Cómo estás?",
+        "¿Cuántos años tienes?",
+        "¿Qué haces?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "L'Art Abstrait",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'art abstrait ?",
+      "options": [
+        "Un art qui ne cherche pas à représenter fidèlement la réalité visible",
+        "Un art qui utilise uniquement la couleur bleue",
+        "Un art qui se mange",
+        "Un art invisible"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Vassily Kandinsky est considéré comme l'un des pionniers de l'art abstrait.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'artiste américain célèbre pour sa technique du 'dripping' (faire couler la peinture) est Jackson {{1}} (Pollock).",
+      "reponsesAttendues": [
+        "Pollock"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'artiste abstrait à son style.",
+      "pairs": [
+        {
+          "left": "Piet Mondrian",
+          "right": "Grilles noires et carrés de couleurs primaires"
+        },
+        {
+          "left": "Kazimir Malevitch",
+          "right": "Carré noir sur fond blanc (Suprématisme)"
+        },
+        {
+          "left": "Jackson Pollock",
+          "right": "Action Painting (mouvement et projections)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel sentiment l'art abstrait cherche-t-il souvent à provoquer ?",
+      "options": [
+        "Une émotion pure à travers les formes et les couleurs",
+        "L'envie de dormir",
+        "La faim",
+        "La peur des fantômes"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

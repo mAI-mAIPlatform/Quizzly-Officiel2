@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "El Medio Ambiente (Futuro)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Pollution' ?",
+      "options": [
+        "Contaminación",
+        "Reciclaje",
+        "Energía",
+        "Basura"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Cuidaremos el planeta' significa 'Nous prendrons soin de la planète'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Les énergies renouvelables' son las energías {{1}}.",
+      "reponsesAttendues": [
+        "renovables"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Ecología.",
+      "pairs": [
+        {
+          "left": "Reciclar",
+          "right": "Recycler"
+        },
+        {
+          "left": "Plantar árboles",
+          "right": "Planter des arbres"
+        },
+        {
+          "left": "Ahorrar agua",
+          "right": "Économiser l'eau"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué pasará con el hielo de los polos?",
+      "options": [
+        "Se derretirá si no hacemos nada",
+        "Es frío",
+        "Tengo hielo",
+        "Vivo en el polo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

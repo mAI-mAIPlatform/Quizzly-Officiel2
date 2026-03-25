@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "L'impact humain sur les cycles nutritionnels",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle peut être une conséquence de l'excès d'engrais dans les rivières ?",
+      "options": [
+        "L'eau devient plus propre",
+        "La prolifération d'algues (eutrophisation)",
+        "Les poissons grossissent plus vite",
+        "Il n'y a aucune conséquence"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'élevage intensif produit beaucoup de déchets organiques riches en azote.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La pollution des {{1}} souterraines par les nitrates est un problème de santé publique.",
+      "reponsesAttendues": [
+        "nappes"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'action humaine à son risque écologique.",
+      "pairs": [
+        {
+          "left": "Surpêche",
+          "right": "Épuisement des stocks de poissons"
+        },
+        {
+          "left": "Déforestation",
+          "right": "Érosion des sols et perte de biodiversité"
+        },
+        {
+          "left": "Monoculture",
+          "right": "Appauvrissement spécifique du sol"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment peut-on préserver la qualité du sol ?",
+      "options": [
+        "En mettant toujours les mêmes plantes",
+        "En pratiquant la rotation des cultures",
+        "En le recouvrant de goudron",
+        "En ne faisant rien"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Le mot-clé RETURN",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert 'return' ?",
+      "options": [
+        "À renvoyer une valeur au code qui a appelé la fonction",
+        "À afficher un message",
+        "À recommencer la fonction",
+        "À supprimer la fonction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'instruction return arrête immédiatement la fonction.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si une fonction n'a pas de return, elle renvoie {{1}} par défaut.",
+      "reponsesAttendues": [
+        "None"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Différence Print/Return.",
+      "pairs": [
+        {
+          "left": "print()",
+          "right": "Affiche pour l'humain"
+        },
+        {
+          "left": "return",
+          "right": "Donne pour le programme"
+        },
+        {
+          "left": "x = f()",
+          "right": "Nécessite un return"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où peut-on utiliser le résultat d'un return ?",
+      "options": [
+        "Dans une variable",
+        "Dans un calcul",
+        "Dans une autre fonction",
+        "Toutes ces réponses"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

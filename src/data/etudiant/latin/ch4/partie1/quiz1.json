@@ -1,0 +1,64 @@
+{
+  "id": "quiz1",
+  "titre": "Cicéron (Cicero)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quel domaine Cicéron excellait-il particulièrement ?",
+      "options": [
+        "L'éloquence (art de bien parler)",
+        "La cuisine",
+        "La danse",
+        "La peinture"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Cicéron a écrit de célèbres discours contre Catilina (Les Catilinaires).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Cicéron était un grand {{1}} (orateur).",
+      "reponsesAttendues": [
+        "orateur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'aspect de Cicéron.",
+      "pairs": [
+        {
+          "left": "Orationes",
+          "right": "Discours"
+        },
+        {
+          "left": "Epistulae",
+          "right": "Lettres"
+"
+        },
+        {
+          "left": "Philosophia",
+          "right": "Traités de sagesse"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel était le rôle politique de Cicéron en 63 av. J.-C. ?",
+      "options": [
+        "Consul",
+        "Esclave",
+        "Gladiateur",
+        "Roi"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

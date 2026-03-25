@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Cas pratique : L'Indignation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Tu es témoin d'une moquerie méchante envers un camarade handicapé. Quelle est la meilleure attitude ?",
+      "options": [
+        "Informer un adulte et soutenir ton camarade",
+        "Rire avec le groupe pour ne pas être exclu",
+        "Filmer la scène sans rien dire",
+        "Partir en courant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Ne rien dire quand on est témoin d'une injustice peut être considéré comme de la complicité morale.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Celui qui agit pour défendre les autres fait preuve de {{1}} (courage) civil.",
+      "reponsesAttendues": [
+        "courage"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la réaction à la situation.",
+      "pairs": [
+        {
+          "left": "Harcèlement",
+          "right": "En parler à un délégué ou un professeur"
+        },
+        {
+          "left": "Petit désaccord",
+          "right": "Médiation et discussion calme"
+        },
+        {
+          "left": "Agression",
+          "right": "Alerter les secours ou les surveillants"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle liberté permet de s'opposer pacifiquement à une loi ou une situation injuste ?",
+      "options": [
+        "La liberté de manifester et d'expression",
+        "La liberté de voler",
+        "La liberté de ne pas aller à l'école",
+        "La liberté de cacher la vérité"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

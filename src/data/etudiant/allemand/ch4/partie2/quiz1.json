@@ -1,0 +1,63 @@
+{
+  "id": "quiz11",
+  "titre": "Lieblingsessen",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se pregunta '¿Cuál es tu comida favorita?'?",
+      "options": [
+        "Was ist dein Lieblingsessen?",
+        "Wie ist dein Essen?",
+        "Wo ist dein Essen?",
+        "Wer ist dein Essen?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Pizza' es un plato muy popular en Alemania.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Mein Lieblingsessen ist {{1}} mit Tomatensoße (pâtes).",
+      "reponsesAttendues": [
+        "Pasta"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la comida.",
+      "pairs": [
+        {
+          "left": "Hähnchen",
+          "right": "Poulet"
+        },
+        {
+          "left": "Pommes",
+          "right": "Frites"
+        },
+        {
+          "left": "Salat",
+          "right": "Salade"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'Hauptgericht'?",
+      "options": [
+        "Plat principal",
+        "Dessert",
+        "Entrée",
+        "Boisson"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Socrate (Sôkratês)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle était la méthode de Socrate pour faire découvrir la vérité à ses interlocuteurs ?",
+      "options": [
+        "La maïeutique (l'accouchement des âmes)",
+        "Le cours magistral",
+        "La menace",
+        "La lecture de livres"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Socrate n'a laissé aucun écrit de sa propre main.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La célèbre phrase de Socrate est : 'Je sais seulement que je ne {{1}} rien'.",
+      "reponsesAttendues": [
+        "sais"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'élément de la vie de Socrate.",
+      "pairs": [
+        {
+          "left": "La Cigüe",
+          "right": "Le poison de son exécution"
+        },
+        {
+          "left": "Xanthippe",
+          "right": "Son épouse réputée difficile"
+        },
+        {
+          "left": "Le Daimôn",
+          "right": "Sa voix intérieure divine"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "De quoi Socrate a-t-il été accusé lors de son procès ?",
+      "options": [
+        "Corruption de la jeunesse et impiété",
+        "Vol de marbre",
+        "Espionnage pour les Perses",
+        "Défaut de paiement d'impôts"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Proverbes Italiens",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'Meglio tardi che mai' ?",
+      "options": [
+        "Mieux vaut tard que jamais",
+        "Tôt ou tard",
+        "Jamais deux sans trois",
+        "Le temps c'est de l'argent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Patti chiari, amicizia lunga' signifie 'Les bons comptes font les bons amis'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'appétit vient en mangeant se dit 'L'appetito vien {{1}}'.",
+      "reponsesAttendues": [
+        "mangiando"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "In bocca al lupo!",
+          "right": "Bonne chance ! (litt: dans la gueule du loup)"
+        },
+        {
+          "left": "Crepi!",
+          "right": "Réponse à 'In bocca al lupo'"
+        },
+        {
+          "left": "Tutto è bene quel che finisce bene",
+          "right": "Tout est bien qui finit bien"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Chi dorme non piglia pesci' ?",
+      "options": [
+        "Qui dort ne prend pas de poissons",
+        "Le monde appartient à ceux qui se lèvent tôt",
+        "Il ne faut pas dormir en pêchant",
+        "Les poissons dorment aussi"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

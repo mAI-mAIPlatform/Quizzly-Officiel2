@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Propriétés Physiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la masse volumique d'un matériau ?",
+      "options": [
+        "C'est la masse du matériau par unité de volume (permet de savoir s'il est lourd ou léger)",
+        "C'est la taille de l'objet",
+        "C'est la couleur du matériau",
+        "C'est le prix au kilo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les métaux sont généralement de bons conducteurs thermiques et électriques.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un matériau qui ne laisse pas passer l'électricité est un {{1}} (isolant).",
+      "reponsesAttendues": [
+        "isolant"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la propriété à son test.",
+      "pairs": [
+        {
+          "left": "Perméabilité",
+          "right": "Laisser passer l'eau ou l'air"
+        },
+        {
+          "left": "Magnétisme",
+          "right": "Être attiré par un aimant (ex: fer)"
+        },
+        {
+          "left": "Conductivité",
+          "right": "Laisser passer la chaleur ou l'électricité"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel de ces matériaux est un excellent isolant électrique ?",
+      "options": [
+        "Le plastique (ou le caoutchouc)",
+        "Le cuivre",
+        "L'aluminium",
+        "Le fer"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

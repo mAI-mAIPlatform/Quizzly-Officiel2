@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Les sept rois de Rome",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Combien de rois ont régné sur Rome avant la République ?",
+      "options": [
+        "7",
+        "10",
+        "3",
+        "12"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le premier roi de Rome était Romulus.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le dernier roi de Rome était Tarquin le {{1}} (Superbus).",
+      "reponsesAttendues": [
+        "Superbe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le roi à son origine.",
+      "pairs": [
+        {
+          "left": "Romulus",
+          "right": "Latin"
+        },
+        {
+          "left": "Numa Pompilius",
+          "right": "Sabin"
+        },
+        {
+          "left": "Tarquin l'Ancien",
+          "right": "Étrusque"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "En quelle année la royauté prend-elle fin ?",
+      "options": [
+        "509 av. J.-C.",
+        "753 av. J.-C.",
+        "27 av. J.-C.",
+        "476 apr. J.-C."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

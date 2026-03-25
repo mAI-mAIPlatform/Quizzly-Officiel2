@@ -1,0 +1,62 @@
+{
+  "id": "quiz9",
+  "titre": "Phrases Simples",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Dominus servum vocat.'",
+      "options": [
+        "Le maître appelle l'esclave",
+        "L'esclave appelle le maître",
+        "Le maître et l'esclave parlent",
+        "L'esclave est avec le maître"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En latin, le verbe se place souvent à la fin de la phrase.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour dire 'La fille aime la rose', on dit : 'Puella {{1}} amat'.",
+      "reponsesAttendues": [
+        "rosam"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Servus laborat",
+          "right": "L'esclave travaille"
+        },
+        {
+          "left": "Puer ridet",
+          "right": "L'enfant rit"
+        },
+        {
+          "left": "Puella canit",
+          "right": "La fille chante"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Magna villa est.'",
+      "options": [
+        "C'est une grande maison",
+        "La maison est petite",
+        "Il y a beaucoup de maisons",
+        "La ville est grande"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

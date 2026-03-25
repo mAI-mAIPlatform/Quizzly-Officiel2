@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Les Beatles et la Pop",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "De quelle ville anglaise sont originaires les Beatles ?",
+      "options": [
+        "Liverpool",
+        "Londres",
+        "Manchester",
+        "Birmingham"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les Beatles ont révolutionné la musique pop en utilisant des instruments classiques et des techniques de studio innovantes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le groupe était composé de John Lennon, Paul McCartney, George Harrison et Ringo {{1}} (Starr).",
+      "reponsesAttendues": [
+        "Starr"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'album des Beatles à son importance.",
+      "pairs": [
+        {
+          "left": "Sgt. Pepper's Lonely Hearts Club Band",
+          "right": "Considéré comme l'un des premiers albums 'concept'"
+        },
+        {
+          "left": "Abbey Road",
+          "right": "Célèbre pour sa pochette montrant le groupe sur un passage piéton"
+        },
+        {
+          "left": "Please Please Me",
+          "right": "Leur tout premier album (1963)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelait-on l'hystérie des fans qui suivait le groupe partout ?",
+      "options": [
+        "La Beatlemania",
+        "Le Rock n Roll",
+        "Le Disco",
+        "La Jazz-attitude"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

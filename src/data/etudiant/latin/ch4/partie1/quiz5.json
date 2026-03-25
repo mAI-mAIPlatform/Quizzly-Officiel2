@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Sénèque (Seneca)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "De quel courant de philosophie Sénèque était-il le représentant ?",
+      "options": [
+        "Le stoïcisme",
+        "L'épicurisme",
+        "Le scepticisme",
+        "Le sophisme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Sénèque a été le précepteur de l'empereur Néron.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Sénèque prônait la maîtrise de soi et la {{1}} (vertu / virtus).",
+      "reponsesAttendues": [
+        "vertu"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'œuvre de Sénèque.",
+      "pairs": [
+        {
+          "left": "Lettres à Lucilius",
+          "right": "Conseils de vie"
+        },
+        {
+          "left": "Médée",
+          "right": "Tragédie"
+        },
+        {
+          "left": "De la brièveté de la vie",
+          "right": "Traité philosophique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment Sénèque est-il mort ?",
+      "options": [
+        "Il a été forcé de se suicider par Néron",
+        "De vieillesse",
+        "Au combat",
+        "Noyé"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

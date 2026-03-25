@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Les Modalisateurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi servent les modalisateurs ?",
+      "options": [
+        "À exprimer l'avis ou le degré de certitude de l'auteur",
+        "À décrire un paysage",
+        "À compter les mots",
+        "À conjuguer les verbes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le conditionnel est un mode modalisateur (exprime le doute).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un adjectif comme 'magnifique' est un modalisateur {{1}} (positif).",
+      "reponsesAttendues": [
+        "mélioratif"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Sens du modalisateur.",
+      "pairs": [
+        {
+          "left": "Peut-être",
+          "right": "Doute"
+"        },
+        {
+          "left": "Certainement",
+          "right": "Certitude"
+        },
+        {
+          "left": "Hélas",
+          "right": "Sentiment (Regret)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel mot est un modalisateur péjoratif (négatif) ?",
+      "options": [
+        "Affreux",
+        "Joli",
+        "Grand",
+        "Rapide"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

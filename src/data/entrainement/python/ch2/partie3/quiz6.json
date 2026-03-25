@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "For avec un Dictionnaire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Par défaut, sur quoi itère 'for x in dico' ?",
+      "options": [
+        "Sur les clés",
+        "Sur les valeurs",
+        "Sur les paires (clé, valeur)",
+        "Sur rien du tout"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "dico.values() permet de boucler uniquement sur les valeurs.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour avoir les clés ET les valeurs, on utilise dico.{{1}}().",
+      "reponsesAttendues": [
+        "items"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "for k, v in dico.items():",
+          "right": "Récupère Clé et Valeur"
+        },
+        {
+          "left": "for k in dico.keys():",
+          "right": "Récupère les Clés"
+        },
+        {
+          "left": "for v in dico.values():",
+          "right": "Récupère les Valeurs"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le résultat de : for x in {'a': 1}: print(x) ?",
+      "options": [
+        "a",
+        "1",
+        "('a', 1)",
+        "Erreur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

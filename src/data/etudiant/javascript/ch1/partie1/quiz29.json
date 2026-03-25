@@ -1,0 +1,63 @@
+{
+  "id": "quiz29",
+  "titre": "Debug fonctions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où est l'erreur : function saluer { console.log(\"Salut\"); }",
+      "options": [
+        "Il manque les parenthèses ( ) après saluer",
+        "Il manque le mot-clé def",
+        "Il faut mettre une majuscule à saluer",
+        "Il n'y a pas d'erreur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si une fonction est appelée avant d'être déclarée, cela peut poser des problèmes selon la façon dont on l'a écrite.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le message 'ReferenceError: x is not defined' signifie souvent que x est une variable {{1}} utilisée hors de sa fonction (locale).",
+      "reponsesAttendues": [
+        "locale"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le symptôme à sa cause probable.",
+      "pairs": [
+        {
+          "left": "La fonction ne fait rien",
+          "right": "Oubli de l'appeler avec ( )"
+        },
+        {
+          "left": "Résultat 'undefined'",
+          "right": "Oubli du mot-clé 'return'"
+        },
+        {
+          "left": "Erreur de syntaxe",
+          "right": "Accolade { ou } manquante"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si je mets du code APRÈS un 'return' à l'intérieur d'une fonction ?",
+      "options": [
+        "Ce code ne sera jamais exécuté (code mort)",
+        "Il est exécuté normalement",
+        "Il est exécuté en premier",
+        "Il génère une erreur fatale"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

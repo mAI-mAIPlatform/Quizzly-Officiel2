@@ -1,0 +1,63 @@
+{
+  "id": "quiz22",
+  "titre": "Verabredungen",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se pregunta '¿Tienes ganas?'?",
+      "options": [
+        "Hast du Lust?",
+        "Hast du Zeit?",
+        "Gehen wir?",
+        "Was machst du?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Am Samstag um acht' significa el sábado a las ocho.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Gehen wir ins {{1}}? (cinéma)",
+      "reponsesAttendues": [
+        "Kino"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la propuesta.",
+      "pairs": [
+        {
+          "left": "Hast du Zeit?",
+          "right": "As-tu du temps ?"
+        },
+        {
+          "left": "Wann treffen wir uns?",
+          "right": "Quand se voit-on ?"
+        },
+        {
+          "left": "Vielleicht",
+          "right": "Peut-être"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se responde 'D'accord'?",
+      "options": [
+        "Einverstanden / Abgemacht",
+        "Nein danke",
+        "Keine Ahnung",
+        "Ich weiß nicht"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

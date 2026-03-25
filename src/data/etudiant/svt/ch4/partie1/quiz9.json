@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Villosités Intestinales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une villosité intestinale ?",
+      "options": [
+        "Un petit repli de la paroi interne de l'intestin grêle",
+        "Une bactérie amie",
+        "Un type de dent",
+        "Une cellule musculaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les villosités augmentent considérablement la surface d'échange.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La paroi d'une villosité est extrêmement {{1}} pour faciliter le passage.",
+      "reponsesAttendues": [
+        "fine"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la structure à son avantage.",
+      "pairs": [
+        {
+          "left": "Multiples replis",
+          "right": "Surface de contact géante (équivalent terrain de tennis)"
+        },
+        {
+          "left": "Nombreux capillaires",
+          "right": "Récupération immédiate des nutriments par le sang"
+        },
+        {
+          "left": "Paroi fine",
+          "right": "Traversée rapide des molécules"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle pathologie détruit les villosités intestinales (intolérance au gluten) ?",
+      "options": [
+        "La maladie cœliaque",
+        "Le rhume des foins",
+        "La myopie",
+        "L'asthme"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

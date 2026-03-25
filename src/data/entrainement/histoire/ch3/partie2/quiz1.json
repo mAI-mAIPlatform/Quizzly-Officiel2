@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Les origines de la guerre de Cent Ans",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi la guerre de Cent Ans a-t-elle éclaté en 1337 ?",
+      "options": [
+        "Pour une dispute sur le prix du pain",
+        "Pour un problème de succession au trône de France",
+        "À cause d'une invasion extraterrestre",
+        "Pour le contrôle de l'Italie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le roi d'Angleterre, Édouard III, prétendait être le héritier légitime du trône de France.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La loi {{1}} interdisait aux femmes de succéder au trône de France.",
+      "reponsesAttendues": [
+        "salique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le roi à son royaume en 1337.",
+      "pairs": [
+        {
+          "left": "Philippe VI de Valois",
+          "right": "France"
+        },
+        {
+          "left": "Édouard III",
+          "right": "Angleterre"
+        },
+        {
+          "left": "Guyenne",
+          "right": "Terre du roi d'Angleterre en France"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Combien de temps cette guerre a-t-elle duré réellement ?",
+      "options": [
+        "100 ans pile",
+        "116 ans (avec des trêves)",
+        "50 ans",
+        "200 ans"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

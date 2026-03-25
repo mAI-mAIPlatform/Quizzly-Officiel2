@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "La classe defaultdict (Module Collections)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un defaultdict ?",
+      "options": [
+        "Un dictionnaire qui fournit une valeur par défaut automatique pour les nouvelles clés",
+        "Un dictionnaire qui ne change jamais",
+        "Un dictionnaire lent",
+        "Une erreur de dictionnaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il faut importer 'collections' pour l'utiliser.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On précise le type de base à la création : d = defaultdict({{1}}).",
+      "reponsesAttendues": [
+        "int"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Avantages.",
+      "pairs": [
+        {
+          "left": "defaultdict(int)",
+          "right": "Défaut = 0"
+        },
+        {
+          "left": "defaultdict(list)",
+          "right": "Défaut = []"
+        },
+        {
+          "left": "Plus besoin de IF",
+          "right": "Simplifie le code"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Est-ce un vrai dictionnaire ?",
+      "options": [
+        "Oui, c'est une sous-classe de dict",
+        "Non, c'est totalement différent",
+        "Seulement en apparence",
+        "C'est une liste déguisée"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

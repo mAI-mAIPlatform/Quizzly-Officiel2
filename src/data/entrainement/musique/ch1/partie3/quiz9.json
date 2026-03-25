@@ -1,0 +1,62 @@
+{
+  "id": "quiz9",
+  "titre": "Rock et Pop",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel groupe britannique a chanté 'Hey Jude' et 'Let It Be' ?",
+      "options": [
+        "The Rolling Stones",
+        "The Beatles",
+        "Queen",
+        "Pink Floyd"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Freddie Mercury était le chanteur du groupe Queen.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Michael Jackson est surnommé le Roi de la {{1}}.",
+      "reponsesAttendues": [
+        "Pop"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Elvis Presley",
+          "right": "Le King du Rock"
+        },
+        {
+          "left": "David Bowie",
+          "right": "Le Caméléon de la Pop"
+        },
+        {
+          "left": "Pink Floyd",
+          "right": "Rock Progressif"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel instrument est le symbole du Rock 'n' Roll ?",
+      "options": [
+        "La guitare électrique",
+        "Le violon",
+        "La flûte à bec",
+        "Le clavecin"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

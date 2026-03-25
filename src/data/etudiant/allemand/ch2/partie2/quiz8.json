@@ -1,0 +1,63 @@
+{
+  "id": "quiz18",
+  "titre": "Modal-Fragen",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se pregunta '¿Puedes ayudarme?'?",
+      "options": [
+        "Kannst du mir helfen?",
+        "Du kannst mir helfen?",
+        "Hilfst du mir können?",
+        "Wie kannst du mir helfen?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En las preguntas de modal, el modal va en la 1ª posición.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "{{1}} wir jetzt gehen? (devons-nous)",
+      "reponsesAttendues": [
+        "Müssen"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la pregunta y respuesta.",
+      "pairs": [
+        {
+          "left": "Kannst du kochen?",
+          "right": "Ja, ich kann kochen"
+        },
+        {
+          "left": "Musst du lernen?",
+          "right": "Ja, ich muss lernen"
+        },
+        {
+          "left": "Können wir spielen?",
+          "right": "Nein, ihr müsst lernen"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se pregunta 'Que dois-je faire'?",
+      "options": [
+        "Was muss ich machen?",
+        "Wie muss ich machen?",
+        "Muss ich was machen?",
+        "Was mache ich muss?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

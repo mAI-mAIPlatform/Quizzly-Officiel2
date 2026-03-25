@@ -1,0 +1,70 @@
+{
+  "id": "quiz8",
+  "titre": "Accessibilité Formulaires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment indiquer un champ invalide aux aveugles ?",
+      "options": ["aria-invalid=\"true\"", "color=\"red\"", "title=\"erreur\"", "alt=\"invalide\""],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "aria-required s'utilise avec required.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour lier un message d'erreur, on utilise aria-{{1}}.",
+      "reponsesAttendues": ["describedby"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que faire après une erreur à l'envoi ?",
+      "options": ["Effacer", "Focus sur le champ en erreur", "Rien", "Fermer"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les couleurs ne suffisent pas pour indiquer une erreur.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Autocomplete aide l'accessibilité car :",
+      "options": ["Évite de taper", "Change la police", "Plus beau", "Supprime les erreurs"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "vrai_faux",
+      "enonce": "aria-live annonce les erreurs dynamiques.",
+      "reponse": true
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "On doit pouvoir remplir au {{1}}.",
+      "reponsesAttendues": ["clavier"]
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Attribut pour sauter l'ordre de tabulation ?",
+      "options": ["tabindex", "jump", "order", "index"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'accessibilité est souvent obligatoire.",
+      "reponse": true
+    }
+  ]
+}

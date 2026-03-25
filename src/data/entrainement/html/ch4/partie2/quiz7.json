@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "L'API History",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode ajoute une entrée à l'historique sans recharger la page ?",
+      "options": [
+        "history.pushState()",
+        "history.add()",
+        "view.change()",
+        "url.update()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "history.back() simule un clic sur le bouton 'Précédent' du navigateur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La méthode replaceState modifie l'URL {{1}} actuelle au lieu d'en créer une nouvelle.",
+      "reponsesAttendues": [
+        "entr"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Navigation JS.",
+      "pairs": [
+        {
+          "left": "back()",
+          "right": "Précédent"
+        },
+        {
+          "left": "forward()",
+          "right": "Suivant"
+        },
+        {
+          "left": "go(-2)",
+          "right": "Recule de 2 pages"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi est-ce vital pour les 'Single Page Applications' (SPA) ?",
+      "options": [
+        "Pour changer d'URL alors que l'on reste sur la même page",
+        "Pour effacer le cache",
+        "Pour sécuriser le site",
+        "Pour aller plus vite"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

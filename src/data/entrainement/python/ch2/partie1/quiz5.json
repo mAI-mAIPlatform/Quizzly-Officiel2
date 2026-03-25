@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Conditions avec AND",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Avec 'and', quand le bloc est-il exécuté ?",
+      "options": [
+        "Quand TOUTES les conditions sont vraies",
+        "Quand au moins une est vraie",
+        "Quand elles sont toutes fausses",
+        "Quand la première est vraie uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "(5 > 3 and 10 > 20) renvoie True.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'opérateur logique 'Et' s'écrit '{{1}}' en Python.",
+      "reponsesAttendues": [
+        "and"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Vrai ou Faux (and) ?",
+      "pairs": [
+        {
+          "left": "True and True",
+          "right": "True"
+        },
+        {
+          "left": "True and False",
+          "right": "False"
+        },
+        {
+          "left": "False and False",
+          "right": "False"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est correct pour vérifier si x est entre 0 et 10 ?",
+      "options": [
+        "x >= 0 and x <= 10",
+        "x > 0 and 10",
+        "0 < x < 10 (Python autorise ça !)",
+        "Les options 1 et 3 sont valides"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

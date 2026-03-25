@@ -1,0 +1,63 @@
+{
+  "id": "quiz26",
+  "titre": "Fragen stellen",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es la estructura de una pregunta de 'Sí/No'?",
+      "options": [
+        "Verb + Subjekt + ...?",
+        "Subjekt + Verb + ...?",
+        "W-Wort + Verb + Subjekt?",
+        "Verb + Subjekt!"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En las preguntas con 'W-Wort' (Wie, Was...), el verbo va en la 2ª posición.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "{{1}} du gern Fußball? (joues-tu)",
+      "reponsesAttendues": [
+        "Spielst"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el tipo de pregunta.",
+      "pairs": [
+        {
+          "left": "W-Frage",
+          "right": "Wo wohnst du?"
+        },
+        {
+          "left": "Ja/Nein-Frage",
+          "right": "Wohnst du in Paris?"
+        },
+        {
+          "left": "Antwort",
+          "right": "Ich wohne in Berlin"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se pregunta 'Aimes-tu lire'?",
+      "options": [
+        "Liest du gern?",
+        "Du liest gern?",
+        "Was liest du?",
+        "Wie liest du?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

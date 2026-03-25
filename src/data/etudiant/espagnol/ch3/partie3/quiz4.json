@@ -1,0 +1,63 @@
+{
+  "id": "quiz24",
+  "titre": "Obligación: Cocina",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Para hacer una sopa, ¿qué hay que hacer primero?",
+      "options": [
+        "Hay que hervir el agua",
+        "Hay que comer el pan",
+        "Hay que dormir",
+        "Hay que bailar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Hay que' se usa para dar instrucciones generales (on doit / il faut).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Antes de comer una fruta, {{1}} que lavarla.",
+      "reponsesAttendues": [
+        "hay"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la instrucción.",
+      "pairs": [
+        {
+          "left": "Hay que pelar",
+          "right": "Il faut éplucher"
+        },
+        {
+          "left": "Hay que batir",
+          "right": "Il faut battre (les oeufs)"
+        },
+        {
+          "left": "Hay que probar",
+          "right": "Il faut goûter"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cuál es la obligación personal en: 'Tengo que cocinar'?",
+      "options": [
+        "JE dois cuisiner",
+        "IL FAUT cuisiner (tout le monde)",
+        "Ils doivent cuisiner",
+        "On ne peut pas cuisiner"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

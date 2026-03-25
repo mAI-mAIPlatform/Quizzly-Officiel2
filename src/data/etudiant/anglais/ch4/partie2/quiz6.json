@@ -1,0 +1,63 @@
+{
+  "id": "quiz16",
+  "titre": "Education for All",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is 'literacy'?",
+      "options": [
+        "The ability to read and write",
+        "The ability to run very fast",
+        "A type of very old book",
+        "The study of flowers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Access to education is considered a human right.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "When people are unable to go to school because of cost or location, they lack {{1}}.",
+      "reponsesAttendues": [
+        "access"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the education level with its common age.",
+      "pairs": [
+        {
+          "left": "Primary school",
+          "right": "6 to 11 years old"
+        },
+        {
+          "left": "Secondary school",
+          "right": "11 to 18 years old"
+        },
+        {
+          "left": "Higher education",
+          "right": "University level (18+)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Why is education important for a country?",
+      "options": [
+        "It helps people get better jobs and improves the economy",
+        "It makes people very quiet",
+        "It allows people to buy more clothes",
+        "It doesn't change anything"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

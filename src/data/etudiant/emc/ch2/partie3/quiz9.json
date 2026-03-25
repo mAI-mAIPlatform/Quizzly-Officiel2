@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Cas pratique : Projet Local",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Vous voulez organiser un ramassage de déchets dans votre quartier. Quel outil utiliser pour mobiliser ?",
+      "options": [
+        "Les réseaux sociaux et les affiches",
+        "Crier tout seul dans la rue",
+        "Attendre que la mairie le fasse toute seule",
+        "Rien, les gens n'aideront pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Demander l'autorisation à la Mairie est nécessaire pour une action publique groupée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un projet mené à plusieurs montre que l'union fait la {{1}} (force).",
+      "reponsesAttendues": [
+        "force"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'étape du projet à son action.",
+      "pairs": [
+        {
+          "left": "Conception",
+          "right": "Définir le but et le matériel nécessaire"
+        },
+        {
+          "left": "Communication",
+          "right": "Informer et inviter les participants"
+        },
+        {
+          "left": "Réalisation",
+          "right": "Agir sur le terrain (ramassage, plantation...)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il gratifiant de s'engager localement ?",
+      "options": [
+        "Pour voir l'effet concret de son action sur son environnement",
+        "Pour passer à la télévision obligatoirement",
+        "Pour gagner de l'argent",
+        "Pour ne pas avoir à réviser ses cours"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

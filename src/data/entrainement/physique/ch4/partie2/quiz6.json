@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Interactions et Forces",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une interaction ?",
+      "options": [
+        "Une discussion",
+        "L'action réciproque de deux objets l'un sur l'autre",
+        "Un choc",
+        "Une couleur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une interaction peut être de contact ou à distance.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'interaction entre la Terre et la Lune est une interaction à {{1}}.",
+      "reponsesAttendues": [
+        "distance"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le type d'interaction.",
+      "pairs": [
+        {
+          "left": "Pied qui frappe un ballon",
+          "right": "Contact"
+        },
+        {
+          "left": "Aimant qui attire un clou",
+          "right": "À distance (magnétique)"
+        },
+        {
+          "left": "Objet qui tombe",
+          "right": "À distance (gravitation)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment modélise-t-on une action mécanique en physique ?",
+      "options": [
+        "Par un point",
+        "Par une force (représentée par une flèche)",
+        "Par un nombre",
+        "Par un cercle"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "quiz5",
+  "titre": "Recyclage Plastique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il difficile de recycler tous les plastiques ?",
+      "options": [
+        "Parce qu'il existe de nombreuses familles de plastiques qui ne se mélangent pas",
+        "Parce qu'ils sont trop légers pour être attrapés",
+        "Parce qu'ils fondent trop vite",
+        "Parce qu'ils ne brûlent pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un plastique 'thermodurcissable' (ex: résine) est très difficile à recycler car il ne refond pas.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le logo avec trois flèches et un chiffre indique le type de {{1}} (résine / plastique) pour faciliter le tri.",
+      "reponsesAttendues": [
+        "résine",
+        "plastique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'objet recyclé à sa nouvelle vie.",
+      "pairs": [
+        {
+          "left": "Bouteilles PET",
+          "right": "Transformées en fibres textiles (pulls polaires)"
+        },
+        {
+          "left": "Bouchons PEHD",
+          "right": "Bac à fleurs ou mobilier urbain"
+        },
+        {
+          "left": "Sacs plastiques",
+          "right": "Granulés pour nouveaux films plastiques"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la meilleure solution pour l'environnement concernant le plastique ?",
+      "options": [
+        "Réduire sa consommation (moins d'emballages inutiles)",
+        "Le jeter dans la mer",
+        "Le brûler dans son jardin",
+        "En fabriquer toujours plus"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

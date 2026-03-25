@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Musiques d'Afrique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel élément est au cœur de la plupart des musiques d'Afrique subsaharienne ?",
+      "options": [
+        "Le rythme et la percussion",
+        "Le piano à queue",
+        "Les synthétiseurs",
+        "Le silence absolu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'Griot' est un musicien-poète africain chargé de transmettre l'histoire et les traditions de son peuple.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'instrument à 21 cordes, mélange de harpe et de luth, très répandu en Afrique de l'Ouest, est la {{1}} (kora).",
+      "reponsesAttendues": [
+        "kora"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'instrument africain à sa catégorie.",
+      "pairs": [
+        {
+          "left": "Djembé",
+          "right": "Tambour en forme de calice (Membranophone)"
+        },
+        {
+          "left": "Balafon",
+          "right": "Xylophone sur gourdes (Idiophone)"
+        },
+        {
+          "left": "Kalimba",
+          "right": "Piano à pouces (Lamellophone)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l' 'Appel et Réponse' (Call and Response) ?",
+      "options": [
+        "Un leader chante une phrase et le groupe lui répond",
+        "Un téléphone qui sonne en concert",
+        "Une technique pour accorder les tambours",
+        "Un type de danse"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

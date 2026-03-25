@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan : Paramètres et Retours",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel duo d'arguments rend vos fonctions super flexibles ?",
+      "options": [
+        "*args et **kwargs",
+        "if et else",
+        "print et return",
+        "int et str"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les fonctions sont le socle du code propre (DRY: Don't Repeat Yourself).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un return peut renvoyer du vide, c'est-à-dire {{1}}.",
+      "reponsesAttendues": [
+        "None"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Synthèse avancée :",
+      "pairs": [
+        {
+          "left": "*args",
+          "right": "Positionnel multiple (Tuple)"
+        },
+        {
+          "left": "**kwargs",
+          "right": "Nommé multiple (Dict)"
+        },
+        {
+          "left": "->",
+          "right": "Type de retour"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour la partie 3 sur les Modules ?",
+      "options": [
+        "Oui!",
+        "Andiamo!",
+        "Let's go Python!",
+        "Vérifions les Paramètres"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

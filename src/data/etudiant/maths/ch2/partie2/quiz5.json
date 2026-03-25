@@ -1,0 +1,63 @@
+{
+  "id": "quiz15",
+  "titre": "Démontrer qu'il est rectangle (2)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Un triangle de côtés 6 cm, 8 cm et 10 cm est-il rectangle ?",
+      "options": [
+        "Oui",
+        "Non",
+        "Seulement s'il est isocèle",
+        "On ne sait pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si on multiplie les côtés d'un triangle rectangle par 2, il reste rectangle.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ici, le côté le plus long est {{1}} cm.",
+      "reponsesAttendues": [
+        "10"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe les carrés.",
+      "pairs": [
+        {
+          "left": "6²",
+          "right": "36"
+        },
+        {
+          "left": "8²",
+          "right": "64"
+        },
+        {
+          "left": "10²",
+          "right": "100"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le sommet de l'angle droit si [BC] est le plus long ?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "Aucun"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Zola et le Naturalisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le principe du naturalisme selon Zola ?",
+      "options": [
+        "Appliquer la méthode scientifique au roman",
+        "Parler uniquement de la nature sauvage",
+        "Écrire des contes de fées",
+        "Supprimer toutes les descriptions"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les Rougon-Macquart est une fresque de 20 romans.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Zola s'intéresse à l'influence de l'{{1}} (famille) sur les personnages.",
+      "reponsesAttendues": [
+        "hérédité"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'œuvre au milieu social décrit.",
+      "pairs": [
+        {
+          "left": "Germinal",
+          "right": "Les mineurs"
+        },
+        {
+          "left": "L'Assommoir",
+          "right": "Le milieu ouvrier et l'alcool"
+        },
+        {
+          "left": "Au Bonheur des Dames",
+          "right": "Les grands magasins"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Zola compare son travail à celui d'un :",
+      "options": [
+        "Médecin expérimentateur",
+        "Artiste peintre abstrait",
+        "Musicien classique",
+        "Magicien"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

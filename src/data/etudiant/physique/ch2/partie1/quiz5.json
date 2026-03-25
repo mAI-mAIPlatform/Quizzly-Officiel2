@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Circuit en dérivation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le point de connexion de trois fils ou plus ?",
+      "options": [
+        "Un nœud",
+        "Une branche",
+        "Une boucle",
+        "Une borne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans un circuit en dérivation, l'intensité dans la branche principale est la somme des intensités des branches dérivées.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La loi d'additivité des intensités est aussi appelée Loi des {{1}}.",
+      "reponsesAttendues": [
+        "nœuds"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la branche à son intensité (I_p = I_1 + I_2).",
+      "pairs": [
+        {
+          "left": "Branche principale (I_p)",
+          "right": "100 mA"
+        },
+        {
+          "left": "Branche 1 (I_1)",
+          "right": "60 mA"
+        },
+        {
+          "left": "Branche 2 (I_2)",
+          "right": "40 mA"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si on dévisse une ampoule dans un circuit en dérivation ?",
+      "options": [
+        "L'autre ampoule continue de briller normalement",
+        "L'autre ampoule s'éteint",
+        "Le circuit grille",
+        "La pile explose"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

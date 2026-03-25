@@ -1,0 +1,63 @@
+{
+  "id": "quiz26",
+  "titre": "Les capteurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le rôle d'un capteur ?",
+      "options": [
+        "Mesurer une grandeur physique et la transformer en signal",
+        "Fournir de l'énergie à un circuit",
+        "Modifier la couleur d'un objet",
+        "Servir de haut-parleur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une photorésistance est un capteur qui réagit à la lumière.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un thermostat utilise un capteur de {{1}}.",
+      "reponsesAttendues": [
+        "température"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le capteur à son application.",
+      "pairs": [
+        {
+          "left": "Détecteur de mouvement",
+          "right": "Allumage automatique d'une lampe"
+        },
+        {
+          "left": "Microphone",
+          "right": "Enregistrement sonore"
+        },
+        {
+          "left": "Capteur de fumée",
+          "right": "Sécurité incendie"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel n'est pas un système automatisé utilisant des capteurs ?",
+      "options": [
+        "Un marteau manuel",
+        "Un store qui descend avec le soleil",
+        "Une porte de magasin automatique",
+        "Un distributeur de savon sans contact"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

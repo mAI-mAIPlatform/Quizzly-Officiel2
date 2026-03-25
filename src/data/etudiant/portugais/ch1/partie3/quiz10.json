@@ -1,0 +1,63 @@
+{
+  "id": "quiz30",
+  "titre": "Cap. 1 P. 3 Síntese",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que horas são? {{1}} (12:00) e eu {{2}} (estar) com fome.",
+      "options": [
+        "É meio-dia / estou",
+        "São meio-dia / está",
+        "São meia-noite / estamos",
+        "É uma hora / sou"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Vou 'ao banco' es correcto (ir + a + o).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O mercado fica {{1}} de casa (cerca/près).",
+      "reponsesAttendues": [
+        "perto"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el resumen final.",
+      "pairs": [
+        {
+          "left": "Tempo",
+          "right": "Horas, Meio-dia"
+        },
+        {
+          "left": "Verbo",
+          "right": "Estar, Acordar, Ir"
+        },
+        {
+          "left": "Cidade",
+          "right": "Banco, Escola, Praça"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Il est deux heures, je vais à l'école en bus et je suis toujours en avance'?",
+      "options": [
+        "São duas horas, vou para a escola de ônibus et estou sempre adiantado",
+        "São duas horas, vou para a escola de trem e estou sempre adiantado",
+        "É duas horas, vou para a escola de ônibus e sou sempre adiantado",
+        "São duas horas, vou para a escola a pé e estou nunca adiantado"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

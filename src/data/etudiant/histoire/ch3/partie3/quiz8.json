@@ -1,0 +1,63 @@
+{
+  "id": "quiz28",
+  "titre": "L'Impressionnisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces peintres est un célèbre impressionniste ?",
+      "options": [
+        "Claude Monet",
+        "Léonard de Vinci",
+        "Pablo Picasso",
+        "Salvador Dalí"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les impressionnistes peignaient souvent en plein air pour capter la lumière.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le tableau 'Impression, {{1}} levant' a donné son nom au mouvement.",
+      "reponsesAttendues": [
+        "soleil"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le peintre à son sujet favori.",
+      "pairs": [
+        {
+          "left": "Monet",
+          "right": "Les paysages, les cathédrales, les nymphéas"
+        },
+        {
+          "left": "Renoir",
+          "right": "Les scènes de joie de vivre et les bals populaires"
+        },
+        {
+          "left": "Degas",
+          "right": "Les danseuses d'opéra"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle invention technique a poussé les peintres à être plus créatifs ?",
+      "options": [
+        "La photographie",
+        "Le téléphone",
+        "Le train électrique",
+        "La télévision"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Groupes d'Aliments",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quel groupe classe-t-on la viande, les œufs et le poisson ?",
+      "options": [
+        "Les aliments bâtisseurs (riches en protéines)",
+        "Les aliments énergétiques (sucres)",
+        "Les produits laitiers uniquement",
+        "Les fruits et légumes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le beurre et l'huile appartiennent au groupe des matières grasses.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les fruits et légumes apportent des {{1}} et des fibres.",
+      "reponsesAttendues": [
+        "vitamines"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'aliment à son groupe.",
+      "pairs": [
+        {
+          "left": "Pâtes / Riz",
+          "right": "Féculents (Énergétiques)"
+        },
+        {
+          "left": "Yaourt / Fromage",
+          "right": "Produits laitiers (Bâtisseurs - Calcium)"
+        },
+        {
+          "left": "Pomme / Carotte",
+          "right": "Fruits et Légumes (Protecteurs)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel groupe d'aliments faut-il consommer avec le plus de modération ?",
+      "options": [
+        "Les produits sucrés et les matières grasses ajoutées",
+        "L'eau",
+        "Les légumes verts",
+        "Le pain complet"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

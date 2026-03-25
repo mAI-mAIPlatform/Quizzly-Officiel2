@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "EXAMEN : Systèmes Automatisés",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Un robot qui suit une ligne noire utilise quoi principalement ?",
+      "options": [
+        "Un capteur infrarouge et deux moteurs",
+        "Un GPS",
+        "Un haut-parleur",
+        "Un thermomètre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'automatisation permet d'effectuer des tâches dangereuses ou répétitives pour l'humain.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le losange dans un algorigramme correspond au mot-clé '{{1}}'.",
+      "reponsesAttendues": [
+        "si"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Mix Automatisation.",
+      "pairs": [
+        {
+          "left": "Capteur",
+          "right": "Cerveau sensoriel"
+        },
+        {
+          "left": "Programme",
+          "right": "Logique interne"
+        },
+        {
+          "left": "Actionneur",
+          "right": "Muscle du système"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Félicitations ! Prêt pour le Chapitre 2 (Évolution et Conception) ?",
+      "options": [
+        "Oui !",
+        "C'est parti !",
+        "Absolument !",
+        "Révisions Ch1"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

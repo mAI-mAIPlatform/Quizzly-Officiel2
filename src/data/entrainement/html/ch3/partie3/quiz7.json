@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Schéma de Recette et FAQ",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel @type permet d'afficher les étapes de préparation sur Google ?",
+      "options": [
+        "Recipe",
+        "Cook",
+        "Food",
+        "Kitchen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le type 'FAQPage' permet d'afficher des questions/réponses directement dans les résultats.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans une recette, cook{{1}} indique le temps de cuisson.",
+      "reponsesAttendues": [
+        "Time"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "FAQ Page.",
+      "pairs": [
+        {
+          "left": "Question",
+          "right": "L'intitulé"
+        },
+        {
+          "left": "Answer",
+          "right": "La réponse associée"
+        },
+        {
+          "left": "text",
+          "right": "Le contenu de la réponse"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi Google limite-t-il parfois l'affichage des FAQs ?",
+      "options": [
+        "Pour éviter que l'internaute ne quitte jamais Google (Zero-Click search)",
+        "Car c'est trop moche",
+        "Car c'est trop long",
+        "C'est un bug"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Frozenset : L'ensemble gelé",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un frozenset ?",
+      "options": [
+        "Un set immuable (non modifiable)",
+        "Un set qui a planté",
+        "Un set très rapide",
+        "Un set pour stocker des glaces"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser un frozenset comme clé de dictionnaire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On ne peut pas utiliser la méthode {{1}}() sur un frozenset.",
+      "reponsesAttendues": [
+        "add"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Comparaison.",
+      "pairs": [
+        {
+          "left": "set",
+          "right": "Muable"
+        },
+        {
+          "left": "frozenset",
+          "right": "Immuable (Hashable)"
+        },
+        {
+          "left": "tuple",
+          "right": "Liste immuable"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment créer un frozenset ?",
+      "options": [
+        "frozenset([1, 2])",
+        "frozen{1, 2}",
+        "set.freeze({1, 2})",
+        "static set {1, 2}"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

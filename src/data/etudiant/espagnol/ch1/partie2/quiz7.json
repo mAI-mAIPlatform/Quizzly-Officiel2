@@ -1,0 +1,63 @@
+{
+  "id": "quiz17",
+  "titre": "Consejos y Prohibición",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Il faut aider' (obligation générale) ?",
+      "options": [
+        "Hay que ayudar",
+        "Tiene que ayudar",
+        "Va a ayudar",
+        "Debes ayudar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'No se puede' se usa para indicar una prohibición.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Para viajar al extranjero, {{1}} que tener pasaporte.",
+      "reponsesAttendues": [
+        "hay"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la expresión.",
+      "pairs": [
+        {
+          "left": "Hay que + infinitivo",
+          "right": "Il faut (général)"
+        },
+        {
+          "left": "Se prohíbe",
+          "right": "Il est interdit de"
+        },
+        {
+          "left": "Te aconsejo",
+          "right": "Je te conseille"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'No fumes'?",
+      "options": [
+        "Ne fume pas",
+        "Fume ici",
+        "Tu peux fumer",
+        "Il faut fumer"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

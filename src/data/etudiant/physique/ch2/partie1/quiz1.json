@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Rappels électricité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le symbole d'une lampe dans un schéma électrique ?",
+      "options": [
+        "Un cercle avec une croix (X)",
+        "Un rectangle vide",
+        "Un trait avec une flèche",
+        "Un cercle avec un M"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le courant électrique circule de la borne positive (+) vers la borne négative (-) du générateur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un composant qui laisse passer le courant est appelé {{1}}.",
+      "reponsesAttendues": [
+        "conducteur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le composant à son symbole.",
+      "pairs": [
+        {
+          "left": "Pile / Générateur",
+          "right": "Deux traits parallèles (un long +, un court -)"
+        },
+        {
+          "left": "Interrupteur fermé",
+          "right": "Un trait continu reliant deux points"
+        },
+        {
+          "left": "Moteur",
+          "right": "Un cercle avec un M à l'intérieur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une boucle de courant ?",
+      "options": [
+        "Un chemin fermé emprunté par le courant",
+        "Un type de pile ronde",
+        "Un fil enroulé comme un ressort",
+        "Un court-circuit volontaire"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

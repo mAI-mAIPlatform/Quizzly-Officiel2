@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Le Conseil Européen",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui fait partie du Conseil Européen ?",
+      "options": [
+        "Les chefs d'État ou de gouvernement des 27 pays membres",
+        "Les professeurs de collège",
+        "Les capitaines de navires",
+        "Les directeurs de banques uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Conseil Européen fixe les grandes orientations politiques de l'UE.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les réunions du Conseil Européen sont souvent appelées des {{1}} (sommets).",
+      "reponsesAttendues": [
+        "sommets"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'institution à son public.",
+      "pairs": [
+        {
+          "left": "Conseil Européen",
+          "right": "Chefs d'État (Macron, Scholz, etc.)"
+        },
+        {
+          "left": "Conseil de l'UE",
+          "right": "Ministres spécialisés"
+        },
+        {
+          "left": "Commission",
+          "right": "Commissaires européens"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où se réunit généralement le Conseil Européen ?",
+      "options": [
+        "Bruxelles",
+        "Paris",
+        "Berlin",
+        "Rome"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

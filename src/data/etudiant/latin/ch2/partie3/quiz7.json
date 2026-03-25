@@ -1,0 +1,64 @@
+{
+  "id": "quiz7",
+  "titre": "Les verbes de volonté",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Vouloir' en latin ?",
+      "options": [
+        "Velle",
+        "Nolle",
+        "Malle",
+        "Posse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Nolle' signifie 'Ne pas vouloir'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Je veux se dit {{1}} et tu veux {{2}} (volo/vis).",
+      "reponsesAttendues": [
+        "volo",
+        "vis"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le verbe à son sens.",
+      "pairs": [
+        {
+          "left": "Velle",
+          "right": "Vouloir"
+        },
+        {
+          "left": "Nolle",
+          "right": "Ne pas vouloir"
+        },
+        {
+          "left": "Malle",
+          "right": "Préférer"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Il veut' ?",
+      "options": [
+        "Vult",
+        "Volo",
+        "Vis",
+        "Volumus"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

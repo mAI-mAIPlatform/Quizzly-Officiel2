@@ -1,0 +1,74 @@
+{
+  "id": "quiz10",
+  "titre": "Révision Finale Chapitre 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Bravo ! Quel est l'élément le plus important pour qu'une image soit accessible ?",
+      "options": ["src", "alt", "width", "figure"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La balise <video> supporte le streaming adaptatif.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le prochain chapitre portera sur les {{1}}.",
+      "reponsesAttendues": ["formulaires"]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dernier test :",
+      "pairs": [
+        {"left": "<img>", "right": "Image simple"},
+        {"left": "<figure>", "right": "Bloc sémantique"},
+        {"left": "<video>", "right": "Contenu animé"}
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie MP4 ?",
+      "options": ["Media Player 4", "MPEG-4 Part 14", "Music Point 4", "My Personal 4"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q6",
+      "type": "vrai_faux",
+      "enonce": "Le format WebP est supporté par tous les navigateurs modernes.",
+      "reponse": true
+    },
+    {
+      "id": "q7",
+      "type": "qcm",
+      "enonce": "Comment proposer une image alternative si le WebP n'est pas supporté ?",
+      "options": ["Avec <img> seul", "En utilisant <picture> avec plusieurs <source>", "En mettant deux balises <img>", "On ne peut pas"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "L'attribut 'controlslist' sur <video> permet de masquer certaines {{1}} (ex: téléchargement).",
+      "reponsesAttendues": ["options"]
+    },
+    {
+      "id": "q9",
+      "type": "vrai_faux",
+      "enonce": "Un fichier SVG peut être animé avec du CSS.",
+      "reponse": true
+    },
+    {
+      "id": "q10",
+      "type": "qcm",
+      "enonce": "Quel est le but ultime de bien gérer ses médias ?",
+      "options": ["Faire joli", "Allier esthétique, performance et accessibilité", "Prendre toute la place", "Cacher le texte"],
+      "correctIndex": 1
+    }
+  ]
+}

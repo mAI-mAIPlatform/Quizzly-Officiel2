@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Christophe Colomb et 1492",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Au service de quel pays Christophe Colomb a-t-il navigué ?",
+      "options": [
+        "Le Portugal",
+        "L'Espagne (Rois Catholiques)",
+        "La France",
+        "L'Italie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Colomb pensait être arrivé en Inde alors qu'il était en Amérique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les trois navires de Colomb étaient la Pinta, la Niña et la {{1}} Maria.",
+      "reponsesAttendues": [
+        "Santa"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le nom à son rôle en 1492.",
+      "pairs": [
+        {
+          "left": "Isabelle de Castille",
+          "right": "Reine d'Espagne finançant le voyage"
+        },
+        {
+          "left": "San Salvador",
+          "right": "Première île découverte par Colomb"
+        },
+        {
+          "left": "Guanahani",
+          "right": "Nom indigène de San Salvador"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment Colomb a-t-il appelé les habitants qu'il a rencontrés ?",
+      "options": [
+        "Les Américains",
+        "Les Indiens",
+        "Les Africains",
+        "Les Chinois"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

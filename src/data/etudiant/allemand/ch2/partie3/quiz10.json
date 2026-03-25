@@ -1,0 +1,63 @@
+{
+  "id": "quiz30",
+  "titre": "Kap. 2 P. 3 Synthese",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Ich {{1}} gerne ins Kino gehen (vouloir/voudrais).",
+      "options": [
+        "möchte",
+        "muss",
+        "kann",
+        "bin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Nach rechts' significa a la derecha.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Der Bahnhof ist in der {{1}} (ville).",
+      "reponsesAttendues": [
+        "Stadt"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el resumen final.",
+      "pairs": [
+        {
+          "left": "Freizeit",
+          "right": "Kino, Park, Disco"
+        },
+        {
+          "left": "Stadt",
+          "right": "Supermarkt, Post, Bahnhof"
+        },
+        {
+          "left": "Verkehr",
+          "right": "Bus, Bahn, Auto"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Je voudrais une glace'?",
+      "options": [
+        "Ich möchte ein Eis",
+        "Ich will ein Eis",
+        "Ich habe ein Eis",
+        "Ich bin ein Eis"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

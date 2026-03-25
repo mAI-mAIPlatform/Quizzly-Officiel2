@@ -1,0 +1,65 @@
+{
+  "id": "quiz27",
+  "titre": "Pourquoi des fonctions ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel principe fondamental les fonctions permettent-elles d'appliquer ?",
+      "options": [
+        "DRY (Don't Repeat Yourself - Ne vous répétez pas)",
+        "WET (Write Everything Twice)",
+        "ABC (Always Be Coding)",
+        "XYZ (Extra Yield Zone)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Utiliser des fonctions permet de modifier un comportement à un seul endroit pour tout le programme.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les fonctions permettent de découper un gros problème en petits {{1}} faciles à gérer (morceaux / blocs / modules).",
+      "reponsesAttendues": [
+        "morceaux",
+        "blocs",
+        "modules"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'avantage à son explication.",
+      "pairs": [
+        {
+          "left": "Lisibilité",
+          "right": "On comprend ce que fait le code grâce au nom"
+        },
+        {
+          "left": "Maintenance",
+          "right": "Plus facile de corriger un bug"
+        },
+        {
+          "left": "Réutilisation",
+          "right": "Utiliser le même code 10 fois sans le réécrire"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si je dois faire 10 fois le même calcul dans mon script, que dois-je faire ?",
+      "options": [
+        "Créer une fonction qui fait le calcul et l'appeler 10 fois",
+        "Copier-coller le calcul 10 fois",
+        "Demander à l'utilisateur de calculer",
+        "Supprimer le calcul"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "quiz7",
+  "titre": "Vocabulaire Civique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Suffrage Universel' ?",
+      "options": [
+        "Le droit de vote accordé à tous les citoyens majeurs",
+        "Une vieille punition à l'école",
+        "Le nom d'un célèbre politicien",
+        "Une maladie du cœur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un 'Décret' est une décision prise par le pouvoir exécutif (Président ou Premier Ministre).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La règle de droit votée par le Parlement s'appelle la {{1}} (loi).",
+      "reponsesAttendues": [
+        "loi"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme à sa définition.",
+      "pairs": [
+        {
+          "left": "Abstention",
+          "right": "Le fait de ne pas aller voter lors d'une élection"
+"
+        },
+        {
+          "left": "Référendum",
+          "right": "Question posée directement aux citoyens qui répondent par Oui ou Non"
+        },
+        {
+          "left": "Amendement",
+          "right": "Modification proposée à un texte de loi en cours d'examen"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la 'Majorité Civile' en France ?",
+      "options": [
+        "L'âge à partir duquel on est considéré comme un adulte aux yeux de la loi (18 ans)",
+        "Le plus grand nombre de voix lors d'un vote",
+        "Le nom d'une rue à Paris",
+        "Un groupe de musique"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

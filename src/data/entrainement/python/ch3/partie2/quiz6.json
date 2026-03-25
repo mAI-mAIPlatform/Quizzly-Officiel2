@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "L'instruction PASS",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert 'pass' ?",
+      "options": [
+        "À ne rien faire (remplissage pour éviter une erreur de syntaxe)",
+        "À sauter au tour suivant",
+        "À terminer la fonction",
+        "À valider un test"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une fonction vide (sans code) provoque une erreur si on ne met pas 'pass'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On utilise 'pass' comme un {{1}} en attendant d'écrire le vrai code.",
+      "reponsesAttendues": [
+        "place-holder"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "break",
+          "right": "Sort"
+        },
+        {
+          "left": "continue",
+          "right": "Saute"
+        },
+        {
+          "left": "pass",
+          "right": "Attend / Rien"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Puis-je utiliser 'pass' dans une condition IF vide ?",
+      "options": [
+        "Oui",
+        "Non",
+        "Seulement en Python 2",
+        "Seulement avec else"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

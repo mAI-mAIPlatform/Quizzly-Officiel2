@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "EXAMEN : iFrames et Intégrations",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la meilleure pratique pour l'accessibilité ?",
+      "options": [
+        "<iframe src='...' title='Vidéo de présentation'></iframe>",
+        "<iframe src='...'>",
+        "<iframe hidden>",
+        "<iframe border='0'>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut sandbox peut empêcher une iFrame d'ouvrir des popups.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut {{1}}='lazy' est bon pour la performance.",
+      "reponsesAttendues": [
+        "loading"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Mix Integration.",
+      "pairs": [
+        {
+          "left": "Google Maps",
+          "right": "Points d'intérêt"
+        },
+        {
+          "left": "YouTube",
+          "right": "Contenu Vidéo"
+        },
+        {
+          "left": "Sandbox",
+          "right": "Sécurité"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Félicitations ! Prêt pour le Chapitre 3 (Sémantique et SEO) ?",
+      "options": [
+        "Oui !",
+        "C'est parti !",
+        "Absolument !",
+        "Révisions P3"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

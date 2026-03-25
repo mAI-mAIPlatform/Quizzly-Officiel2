@@ -1,0 +1,70 @@
+{
+  "id": "quiz8",
+  "titre": "Réinitialisation : Reset",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel type d'input efface tous les champs du formulaire ?",
+      "options": ["clear", "delete", "reset", "erase"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation du bouton reset est aujourd'hui déconseillée (risque d'erreur).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le bouton reset remet les champs à leurs valeurs par {{1}}.",
+      "reponsesAttendues": ["défaut"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Où se place généralement le bouton reset ?",
+      "options": ["Tout en haut", "À côté du bouton submit", "Dans le head", "Il est invisible"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le bouton reset envoie aussi les données au serveur.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Peut-on personnaliser le texte d'un bouton reset ?",
+      "options": ["Non", "Oui, avec l'attribut value", "Seulement en JS", "Unique via CSS"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "vrai_faux",
+      "enonce": "Le bouton reset demande une confirmation avant d'effacer.",
+      "reponse": false
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "Le bouton reset agit sur tous les éléments à l'intérieur de la balise <{{1}}>.",
+      "reponsesAttendues": ["form"]
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle alternative moderne au reset est préférée ?",
+      "options": ["Un lien 'Annuler'", "Rien (l'utilisateur efface lui-même)", "Rafraîchir la page", "Une alerte Windows"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut aussi faire un bouton reset avec la balise <button type=\"reset\">.",
+      "reponse": true
+    }
+  ]
+}

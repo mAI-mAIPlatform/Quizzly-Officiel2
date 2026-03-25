@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Réduire une expression",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Réduis : 3x + 5x",
+      "options": [
+        "8",
+        "8x",
+        "15x",
+        "x^8"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut additionner des x avec des nombres sans x (ex: 2x + 3 = 5x).",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Réduis : 10a - 4a = {{1}}a",
+      "reponsesAttendues": [
+        "6"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'expression à sa forme réduite.",
+      "pairs": [
+        {
+          "left": "2x + 5 + 3x",
+          "right": "5x + 5"
+        },
+        {
+          "left": "x + x + y",
+          "right": "2x + y"
+        },
+        {
+          "left": "10 - 2x + 5x",
+          "right": "10 + 3x"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Réduis : 3x² + 2x + x²",
+      "options": [
+        "6x",
+        "4x² + 2x",
+        "5x²",
+        "x^5"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

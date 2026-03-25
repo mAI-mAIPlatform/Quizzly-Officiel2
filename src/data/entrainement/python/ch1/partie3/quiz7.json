@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Convertir les entrées (input)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le type de donnée renvoyé par input() ?",
+      "options": [
+        "str (toujours du texte)",
+        "int si on tape un chiffre",
+        "float si on tape un décimal",
+        "bool si on tape True"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si on tape 10 dans un input, Python pourra l'additionner directement avec un autre nombre.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour transformer une saisie en nombre entier, on utilise {{1}}(input()).",
+      "reponsesAttendues": [
+        "int"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la conversion correcte.",
+      "pairs": [
+        {
+          "left": "Âge",
+          "right": "int(input())"
+        },
+        {
+          "left": "Prix",
+          "right": "float(input())"
+        },
+        {
+          "left": "Nom",
+          "right": "input() suffit"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si on fait int('Bonjour') ?",
+      "options": [
+        "Une erreur (ValueError)",
+        "Ça donne 0",
+        "Ça donne la longueur du mot",
+        "Ça ne fait rien"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz30",
+  "titre": "Bilan Ch.4 : Équations",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Résoudre une équation, c'est :",
+      "options": [
+        "Trouver toutes les valeurs de l'inconnue",
+        "Supprimer les lettres",
+        "Écrire n'importe quoi",
+        "Simplifier les nombres"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut multiplier les deux membres par un même nombre non nul.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La solution de 3x = 12 est {{1}}.",
+      "reponsesAttendues": [
+        "4"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'étape à son but.",
+      "pairs": [
+        {
+          "left": "Isoler x",
+          "right": "Résoudre"
+        },
+        {
+          "left": "Réduire",
+          "right": "Simplifier"
+        },
+        {
+          "left": "Remplacer x",
+          "right": "Vérifier"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que vaut x si 2x + 1 = 2x + 1 ?",
+      "options": [
+        "0",
+        "1",
+        "N'importe quel nombre",
+        "Aucune solution"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

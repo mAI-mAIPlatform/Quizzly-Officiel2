@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Le dessin de presse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le but d'un dessin de presse ?",
+      "options": [
+        "Faire rire ou réfléchir sur l'actualité",
+        "Faire de l'art abstrait",
+        "Remplacer les photographies uniquement",
+        "Apprendre à dessiner"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La caricature consiste à amplifier les traits d'une personne.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un dessin qui se moque par l'ironie s'appelle un dessin {{1}}.",
+      "reponsesAttendues": [
+        "satirique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la technique au dessin.",
+      "pairs": [
+        {
+          "left": "Bulle / Phylactère",
+          "right": "Parole d'un personnage"
+        },
+        {
+          "left": "Symbole",
+          "right": "Objet représentant une idée (ex: colombe)"
+        },
+        {
+          "left": "Ironie",
+          "right": "Dire le contraire pour se moquer"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Le dessin de presse fait-il partie de la liberté d'expression ?",
+      "options": [
+        "Oui, c'est un droit fondamental",
+        "Non, c'est interdit",
+        "Seulement s'il n'est pas drôle",
+        "On ne sait pas"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

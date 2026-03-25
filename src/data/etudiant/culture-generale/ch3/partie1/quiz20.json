@@ -1,0 +1,64 @@
+{
+  "id": "quiz10",
+  "titre": "Ch. 3 P. 2 Synthèse Lettres",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est l'auteur célèbre de 'L'Avare' et du 'Médecin malgré lui' ?",
+      "options": [
+        "Molière",
+        "Victor Hugo",
+        "Jules Verne",
+        "Jean de La Fontaine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un vers de 10 syllabes s'appelle un 'Décasyllabe'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le récit de vie d'une personne écrit par elle-même est une {{1}} (autobiographie).",
+      "reponsesAttendues": [
+        "autobiographie",
+        "auto-biographie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'auteur à son livre.",
+      "pairs": [
+        {
+          "left": "Antoine de Saint-Exupéry",
+          "right": "Le Petit Prince"
+        },
+        {
+          "left": "Jules Verne",
+          "right": "Le Tour du monde en quatre-vingts jours"
+        },
+        {
+          "left": "Victor Hugo",
+          "right": "Notre-Dame de Paris"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le dieu de l'Amour chez les Romains (petit bébé ailé avec un arc) ?",
+      "options": [
+        "Cupidon",
+        "Zeus",
+        "Mars",
+        "Mercure"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

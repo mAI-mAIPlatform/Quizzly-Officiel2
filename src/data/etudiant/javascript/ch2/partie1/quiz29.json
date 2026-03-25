@@ -1,0 +1,64 @@
+{
+  "id": "quiz29",
+  "titre": "Debug Événements",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi mon bouton ne réagit-il pas au clic ?",
+      "options": [
+        "L'élément n'a pas été bien sélectionné (null) ou l'événement est mal écrit",
+        "Le bouton est trop petit",
+        "Le JavaScript est trop rapide",
+        "Il n'y a plus de batterie dans la souris"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut tester si l'événement fonctionne en mettant un 'console.log' dans la fonction de rappel.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si je clique sur un enfant, l'événement remonte aux parents : c'est la {{1}} (propagation / bulle).",
+      "reponsesAttendues": [
+        "propagation",
+        "bulle"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'erreur à la solution.",
+      "pairs": [
+        {
+          "left": "e is not defined",
+          "right": "Ajouter (e) dans les parenthèses de la fonction"
+        },
+        {
+          "left": "La page se recharge",
+          "right": "Ajouter e.preventDefault()"
+        },
+        {
+          "left": "Rien ne se passe",
+          "right": "Vérifier l'ID du bouton"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment arrêter la propagation d'un événement vers les parents ?",
+      "options": [
+        "e.stopPropagation()",
+        "e.stop()",
+        "e.break()",
+        "return false"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

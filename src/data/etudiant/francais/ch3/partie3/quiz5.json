@@ -1,0 +1,64 @@
+{
+  "id": "quiz25",
+  "titre": "La Subordonnée de Cause",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle conjonction introduit une subordonnée de cause ?",
+      "options": [
+        "Puisque",
+        "Si",
+        "Bien que",
+        "Alors que"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La subordonnée de cause répond à la question 'Pourquoi ?'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans 'Comme il pleut, je reste', la cause est introduite par '{{1}}'.",
+      "reponsesAttendues": [
+        "Comme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la phrase à sa nuance de cause.",
+      "pairs": [
+        {
+          "left": "Parce qu'il est malade",
+          "right": "Cause réelle / inconnue"
+"
+        },
+        {
+          "left": "Puisqu'il est là",
+          "right": "Cause connue / évidente"
+        },
+        {
+          "left": "Étant donné que...",
+          "right": "Cause administrative / formelle"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on mettre une subordonnée de cause au début d'une phrase ?",
+      "options": [
+        "Oui, surtout avec 'Comme' ou 'Puisque'",
+        "Non, jamais",
+        "Seulement après un point",
+        "Uniquement à l'oral"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

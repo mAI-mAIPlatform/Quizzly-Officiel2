@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan du Chapitre 3 : La reproduction",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quels sont les deux grands modes de reproduction vus dans ce chapitre ?",
+      "options": [
+        "Rapide et Lente",
+        "Sexuée et Asexuée",
+        "Aquatique et Terrestre",
+        "Individuelle et Collective"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'homme a une influence majeure, souvent négative mais parfois positive, sur la reproduction des espèces.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La reproduction assure le {{1}} de l'espèce dans son milieu.",
+      "reponsesAttendues": [
+        "maintien"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dernier défi du chapitre 3 :",
+      "pairs": [
+        {
+          "left": "Fécondation",
+          "right": "Rencontre mâle/femelle"
+        },
+        {
+          "left": "Clone",
+          "right": "Copie identique"
+        },
+        {
+          "left": "Équilibre",
+          "right": "Natalité vs Mortalité"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Félicitations ! Prêt pour le Chapitre 4 sur les Écosystèmes ?",
+      "options": [
+        "Oui, explorons la nature !",
+        "Pas encore",
+        "C'est quoi un écosystème ?",
+        "Je préfère rester sur les bébés"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

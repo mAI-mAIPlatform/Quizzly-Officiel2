@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Gustar y Comida",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo dices 'J'aime le fromage'?",
+      "options": [
+        "Me gusta el queso",
+        "Me gustan el queso",
+        "Yo gusto el queso",
+        "Me gusta queso"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Se dice 'Me gustaN las manzanas' porque el sujeto es plural.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "¿A ti {{1}} gusta el pescado? - No, prefiero la carne.",
+      "reponsesAttendues": [
+        "te"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el grado de gusto.",
+      "pairs": [
+        {
+          "left": "Me encanta",
+          "right": "J'adore"
+        },
+        {
+          "left": "No me gusta nada",
+          "right": "Je n'aime pas du todo"
+        },
+        {
+          "left": "No me gusta mucho",
+          "right": "Je n'aime pas beaucoup"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Nous aimons les légumes'?",
+      "options": [
+        "Nos gustan las verduras",
+        "Nos gusta las verduras",
+        "Nos gustamos las verduras",
+        "Les gustan las verduras"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

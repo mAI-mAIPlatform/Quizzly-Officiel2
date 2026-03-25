@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Besoins des Muscles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "De quoi un muscle a-t-il besoin pour fonctionner ?",
+      "options": [
+        "De dioxygène (O2) et de nutriments (glucose)",
+        "De dioxyde de carbone (CO2) uniquement",
+        "De lumière du soleil",
+        "De sable fin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un muscle au repos ne consomme aucune énergie.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le principal nutriment énergétique utilisé par le muscle est le {{1}}.",
+      "reponsesAttendues": [
+        "glucose"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'élément à son rôle dans le muscle.",
+      "pairs": [
+        {
+          "left": "Dioxygène (O2)",
+          "right": "Permet de 'brûler' les nutriments"
+        },
+        {
+          "left": "Glucose",
+          "right": "Carburant de la cellule musculaire"
+        },
+        {
+          "left": "Sang",
+          "right": "Moyen de transport des besoins"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel déchet est rejeté par le muscle dans le sang ?",
+      "options": [
+        "Le dioxyde de carbone (CO2)",
+        "L'hélium",
+        "Le fer",
+        "L'azote pur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

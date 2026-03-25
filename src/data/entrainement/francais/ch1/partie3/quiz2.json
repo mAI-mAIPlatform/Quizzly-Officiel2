@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Le Passé Composé avec ÊTRE",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces verbes se conjugue avec 'Être' au passé composé ?",
+      "options": [
+        "Aller",
+        "Manger",
+        "Finir",
+        "Dire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Avec 'Être', le participe passé s'accorde toujours avec le SUJET.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Elle {{1}} (partir) trop tôt.",
+      "reponsesAttendues": [
+        "est partie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Lien sujet / participe.",
+      "pairs": [
+        {
+          "left": "Ils sont",
+          "right": "Vénus"
+        },
+        {
+          "left": "Elle est",
+          "right": "Vénue"
+        },
+        {
+          "left": "Nous sommes",
+          "right": "Vénus (ou Vénues)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "'Maison d'Être' : Lequel n'en fait pas partie ?",
+      "options": [
+        "Boire",
+        "Monter",
+        "Descendre",
+        "Entrer"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

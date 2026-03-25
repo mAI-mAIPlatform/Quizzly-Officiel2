@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Milieu et Reproduction",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel facteur peut limiter la reproduction d'une espèce ?",
+      "options": [
+        "Le manque de nourriture",
+        "La couleur des nuages",
+        "La présence de sable",
+        "Le jour de la semaine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Certaines espèces ne se reproduisent que lorsque la photopériode (durée du jour) est favorable.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "En hiver, la raréfaction des ressources peut stopper la {{1}}.",
+      "reponsesAttendues": [
+        "reproduction"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la perturbation à son effet.",
+      "pairs": [
+        {
+          "left": "Pollution chimique (pesticides)",
+          "right": "Baisse de la fertilité ou malformations"
+        },
+        {
+          "left": "Réchauffement climatique",
+          "right": "Décalage des dates de floraison ou de ponte"
+        },
+        {
+          "left": "Surpêche",
+          "right": "Diminution du nombre de reproducteurs"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment les espèces survivent-elles si les conditions sont trop mauvaises ?",
+      "options": [
+        "Elles entrent en vie ralentie (spores, graines, hibernation)",
+        "Elles décident de changer de planète",
+        "Elles mangent deux fois plus",
+        "Elles arrêtent de respirer pendant 3 mois"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Monstres et Créatures",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel monstre avait un corps de lion, une tête de chèvre et une queue de serpent ?",
+      "options": [
+        "La Chimère",
+        "Le Sphinx",
+        "L'Hydre",
+        "Le Minotaure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Sphinx posait des énigmes aux passagers à Thèbes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le gardien des Enfers à trois têtes est {{1}} (Cerbère).",
+      "reponsesAttendues": [
+        "Cerbère"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la créature.",
+      "pairs": [
+        {
+          "left": "Centaure",
+          "right": "Mi-homme mi-cheval"
+        },
+        {
+          "left": "Satyre",
+          "right": "Compagnon de Dionysos (bouc)"
+        },
+        {
+          "left": "Sirène",
+          "right": "Femme-oiseau (chant fatal)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qui a tué la Méduse ?",
+      "options": [
+        "Persée",
+        "Héraclès",
+        "Bellerophon",
+        "Jason"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

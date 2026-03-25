@@ -1,0 +1,63 @@
+{
+  "id": "quiz22",
+  "titre": "Formes de signaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces signaux ne nécessite PAS de milieu matériel ?",
+      "options": [
+        "Le signal lumineux",
+        "Le signal sonore",
+        "La vibration d'un solide",
+        "Le cri d'un animal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un signal radio est une onde électromagnétique invisible.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le signal circulant dans les fils de cuivre d'un téléphone est un signal {{1}}.",
+      "reponsesAttendues": [
+        "électrique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la forme à son utilisation quotidienne.",
+      "pairs": [
+        {
+          "left": "Électrique",
+          "right": "Ordinateur ou câbles"
+        },
+        {
+          "left": "Radio",
+          "right": "WiFi ou Télévision"
+        },
+        {
+          "left": "Sonore",
+          "right": "Alarme ou parole"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel type de signal utilise la fibre optique ?",
+      "options": [
+        "Lumineux",
+        "Électrique",
+        "Sonore",
+        "Thermique"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

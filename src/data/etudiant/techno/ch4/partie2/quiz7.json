@@ -1,0 +1,65 @@
+{
+  "id": "quiz7",
+  "titre": "Protocoles / Réseaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une adresse IP ?",
+      "options": [
+        "Un numéro unique qui identifie un appareil sur un réseau informatique",
+        "Le nom du propriétaire du PC",
+        "Le code secret du WiFi",
+        "L'adresse postale de l'usine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le WiFi permet de transporter des données par ondes radio à travers les murs.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour l'Internet des Objets (IoT), on utilise souvent des protocoles basse consommation comme {{1}} (LoRa / Sigfox).",
+      "reponsesAttendues": [
+        "LoRa",
+        "Sigfox",
+        "Zigbee"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la technologie à sa portée.",
+      "pairs": [
+        {
+          "left": "NFC",
+          "right": "Très courte (quelques centimètres)"
+        },
+        {
+          "left": "Bluetooth",
+          "right": "Courte (quelques mètres)"
+        },
+        {
+          "left": "4G / 5G",
+          "right": "Longue (plusieurs kilomètres)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi sécuriser son réseau WiFi avec un mot de passe ?",
+      "options": [
+        "Pour éviter que des inconnus accèdent à nos données ou à notre connexion",
+        "Pour que l'Internet soit plus bleu",
+        "Pour compter le nombre d'amis",
+        "Ce n'est pas nécessaire"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

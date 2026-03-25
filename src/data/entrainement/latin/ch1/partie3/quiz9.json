@@ -1,0 +1,62 @@
+{
+  "id": "quiz9",
+  "titre": "Pompéi et le Vésuve",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "En quelle année Pompéi a-t-elle été détruite ?",
+      "options": [
+        "79 après J.-C.",
+        "44 avant J.-C.",
+        "100 après J.-C.",
+        "1492"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pompéi a été ensevelie sous les cendres et la lave du Vésuve.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le volcan responsable de la destruction de Pompéi est le {{1}}.",
+      "reponsesAttendues": [
+        "Vésuve"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Pompéi",
+          "right": "Ville ensevelie"
+        },
+        {
+          "left": "Pline le Jeune",
+          "right": "Témoin de la catastrophe"
+        },
+        {
+          "left": "Herculanum",
+          "right": "Autre ville détruite par le volcan"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi Pompéi est-elle si célèbre aujourd'hui ?",
+      "options": [
+        "Elle est très bien conservée sous les cendres",
+        "Elle possédait de l'électricité",
+        "Elle était la capitale de l'Empire",
+        "Elle n'a jamais été retrouvée"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

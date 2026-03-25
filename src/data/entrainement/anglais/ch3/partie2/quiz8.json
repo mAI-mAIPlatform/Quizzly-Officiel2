@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Oceania : Down Under",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is the nicknamed 'Land Down Under'?",
+      "options": [
+        "Australia",
+        "New Zealand",
+        "Fiji",
+        "Antarctica"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Sydney is the capital of Australia.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "The capital of Australia is {{1}}.",
+      "reponsesAttendues": [
+        "Canberra"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match symbols.",
+      "pairs": [
+        {
+          "left": "Kangaroo",
+          "right": "Australia"
+        },
+        {
+          "left": "Kiwi bird",
+          "right": "New Zealand"
+        },
+        {
+          "left": "Opera House",
+          "right": "Sydney"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is the main language in Oceania?",
+      "options": [
+        "English",
+        "French",
+        "Spanish",
+        "German"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Marcadores del Pasado",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Hier' ?",
+      "options": [
+        "Ayer",
+        "Mañana",
+        "Hoy",
+        "Anoche"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Anoche' significa 'Hier soir'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'La semaine dernière' se dice 'La semana {{1}}'.",
+      "reponsesAttendues": [
+        "pasada"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Tiempo pasado.",
+      "pairs": [
+        {
+          "left": "El año pasado",
+          "right": "L'année dernière"
+        },
+        {
+          "left": "Hace un siglo",
+          "right": "Il y a un siècle"
+        },
+        {
+          "left": "El otro día",
+          "right": "L'autre jour"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Cuando estudiaste ?",
+      "options": [
+        "Estudié anoche",
+        "Estudio ahora",
+        "Estudiaré mañana",
+        "No estudio"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

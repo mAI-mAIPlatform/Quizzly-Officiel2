@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Les impôts et les taxes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel impôt le paysan doit-il payer à l'Église ?",
+      "options": [
+        "La taille",
+        "La dîme (un dixième des récoltes)",
+        "Le cens",
+        "Les banalités"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les 'banalités' sont des taxes payées pour utiliser le four, le moulin ou le pressoir du seigneur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'impôt payé au seigneur en échange de sa protection s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "taille"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la taxe à son bénéficiaire.",
+      "pairs": [
+        {
+          "left": "Dîme",
+          "right": "L'Église"
+        },
+        {
+          "left": "Taille",
+          "right": "Le Seigneur"
+        },
+        {
+          "left": "Cens",
+          "right": "Le Seigneur (loyer de la terre)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi les paysans acceptaient-ils de payer ces taxes ?",
+      "options": [
+        "Ils aimaient donner leur argent",
+        "En échange de protection et du droit de cultiver la terre",
+        "Parce qu'ils n'avaient pas le choix de partir",
+        "Les deux dernières réponses"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

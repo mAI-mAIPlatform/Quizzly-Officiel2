@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Les Espaces Moteurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la 'Triade' historique ?",
+      "options": [
+        "Amérique du Nord, Europe de l'Ouest, Japon/Asie Pacifique",
+        "France, Belgique, Luxembourg",
+        "Afrique, Océanie, Antarctique",
+        "Russie, Inde, Chine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Chine est aujourd'hui la deuxième puissance économique mondiale.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le groupe des grands pays émergents (Brésil, Russie, Inde, Chine, Afrique du Sud) s'appelle les {{1}}.",
+      "reponsesAttendues": [
+        "BRICS"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le pôle à son atout.",
+      "pairs": [
+        {
+          "left": "États-Unis",
+          "right": "Puissance financière et technologique (GAFAM)"
+        },
+        {
+          "left": "Chine",
+          "right": "Atelier du monde et puissance montante"
+        },
+        {
+          "left": "Union Européenne",
+          "right": "Grand marché commercial et normatif"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le moteur de la croissance des pays émergents ?",
+      "options": [
+        "Les exportations massives et une main-d'œuvre abondante",
+        "L'absence totale de technologie",
+        "Le refus de vendre à l'étranger",
+        "Le retour à l'herbe"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

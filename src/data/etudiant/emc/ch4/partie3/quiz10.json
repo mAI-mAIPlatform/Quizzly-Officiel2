@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Synthèse Finale EMC",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "L'UE permet de voyager, travailler et étudier librement grâce à :",
+      "options": [
+        "L'espace Schengen et la citoyenneté européenne",
+        "Un ticket de bus spécial",
+        "Un secret bien gardé",
+        "L'autorisation des parents uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La citoyenneté européenne donne des droits politiques (vote) et civils.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le programme phare pour la mobilité des jeunes est {{1}} (Erasmus+).",
+      "reponsesAttendues": [
+        "Erasmus+"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les rôles institutionnels.",
+      "pairs": [
+        {
+          "left": "Commission",
+          "right": "Propose les lois"
+        },
+        {
+          "left": "Parlement",
+          "right": "Élu par nous, vote les lois"
+        },
+        {
+          "left": "Conseil",
+          "right": "Représente les États, vote les lois"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel symbole rappelle l'unité de l'Europe ?",
+      "options": [
+        "Le drapeau aux 12 étoiles",
+        "La tour Eiffel",
+        "Le dictionnaire",
+        "La baguette de pain"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

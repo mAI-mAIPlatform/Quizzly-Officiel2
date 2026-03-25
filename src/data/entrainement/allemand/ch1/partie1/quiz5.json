@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Wie heißt du? (Identität)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie fragt man 'Comment t'appelles-tu ?'",
+      "options": [
+        "Wie heißt du?",
+        "Wo wohnst du?",
+        "Wie alt bist du?",
+        "Wer bist du?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Mein Name ist...' bedeutet 'Mon nom est...'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich {{1}} Max.",
+      "reponsesAttendues": [
+        "heiße"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Identität.",
+      "pairs": [
+        {
+          "left": "Nachname",
+          "right": "Nom de famille"
+        },
+        {
+          "left": "Vorname",
+          "right": "Prénom"
+        },
+        {
+          "left": "Alter",
+          "right": "Âge"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Wer ist das?",
+      "options": [
+        "Das ist Herr Müller",
+        "Das heißt Herr Müller",
+        "Das kommt Herr Müller",
+        "Das wohnt Herr Müller"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

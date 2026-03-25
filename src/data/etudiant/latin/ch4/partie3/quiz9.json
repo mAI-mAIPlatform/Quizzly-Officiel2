@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Latin et Pop Culture",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans Harry Potter, quel sort utilise la racine 'Expellere' (chasser) et 'Arma' ?",
+      "options": [
+        "Expelliarmus",
+        "Expecto Patronum",
+        "Lumos",
+        "Nox"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le mot 'Lumos' vient du latin 'Lumen' (lumière).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La devise du Royaume-Uni est 'Dieu et mon {{1}}' (droit / directum).",
+      "reponsesAttendues": [
+        "droit"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le sort au latin.",
+      "pairs": [
+        {
+          "left": "Crucio",
+          "right": "Je torture"
+        },
+        {
+          "left": "Accio",
+          "right": "Je fais venir / J'appelle"
+        },
+        {
+          "left": "Levicorpus",
+          "right": "Lève le corps"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Alea jacta est' dans Astérix ?",
+      "options": [
+        "Le sort en est jeté",
+        "Il va pleuvoir",
+        "Mangeons du sanglier",
+        "Ils sont fous ces Romains"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

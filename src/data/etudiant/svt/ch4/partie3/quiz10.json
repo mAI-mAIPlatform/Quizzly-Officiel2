@@ -1,0 +1,63 @@
+{
+  "id": "quiz30",
+  "titre": "Bilan Global SVT (4ème)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la vision globale des SVT en 4ème ?",
+      "options": [
+        "Comprendre le fonctionnement de la Terre et du Vivant pour agir de façon responsable",
+        "Apprendre par cœur tous les noms de cailloux",
+        "Savoir uniquement comment faire la cuisine",
+        "Se préparer à devenir astronaute uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La science est un ensemble de connaissances qui évolue avec les découvertes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'étude de la planète Terre et de la vie s'appelle les {{1}}.",
+      "reponsesAttendues": [
+        "géosiences"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le chapitre au concept clé.",
+      "pairs": [
+        {
+          "left": "Ch1 : La Planète Terre",
+          "right": "Risques, Érosions et Ressources"
+        },
+        {
+          "left": "Ch2 : Evolution et Vivant",
+          "right": "ADN, Reproduction et Sélection naturelle"
+        },
+        {
+          "left": "Ch3 & 4 : Corps et Santé",
+          "right": "Immunité, Effort physique et Digestion"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel comportement SVT enseigne-t-il pour le futur ?",
+      "options": [
+        "L'esprit critique et le respect de l'environnement et de sa propre santé",
+        "Le mépris des autres opinions",
+        "L'utilisation illimitée de toutes les ressources",
+        "Le refus de toute technologie"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

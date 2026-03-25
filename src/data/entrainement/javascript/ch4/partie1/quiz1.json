@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Qu'est-ce qu'une fonction ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une fonction en programmation ?",
+      "options": [
+        "Une variable qui ne change jamais",
+        "Un bloc de code réutilisable qui effectue une tâche",
+        "Une erreur de calcul",
+        "Un bouton sur le clavier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une fonction permet d'éviter de répéter le même code plusieurs fois.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot-clé pour créer une fonction en JS est {{1}}.",
+      "reponsesAttendues": [
+        "function"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'avantage de la fonction.",
+      "pairs": [
+        {
+          "left": "Réutilisabilité",
+          "right": "Appeler le code n'importe où"
+        },
+        {
+          "left": "Organisation",
+          "right": "Découper le programme en petits blocs"
+        },
+        {
+          "left": "Maintenance",
+          "right": "Corriger le code à un seul endroit"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Une fonction s'exécute-t-elle toute seule dès sa création ?",
+      "options": [
+        "Oui, toujours",
+        "Non, il faut l'appeler",
+        "Seulement si elle est vide",
+        "Uniquement le lundi"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

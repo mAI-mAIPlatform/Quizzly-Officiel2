@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Énergie Hydraulique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle force utilise un barrage hydraulique ?",
+      "options": [
+        "La force de l'eau en mouvement",
+        "Le soleil",
+        "Le vent",
+        "Le feu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'énergie hydraulique est la première source d'électricité renouvelable au monde.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'eau fait tourner une {{1}} qui entraîne l'alternateur.",
+      "reponsesAttendues": [
+        "turbine"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Installations Eau.",
+      "pairs": [
+        {
+          "left": "Barrage",
+          "right": "Grande retenue d'eau"
+        },
+        {
+          "left": "Marémotrice",
+          "right": "Utilise les marées"
+        },
+        {
+          "left": "Hydrolienne",
+          "right": "Turbine sous-marine"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage majeur d'un barrage ?",
+      "options": [
+        "On peut stocker l'énergie (l'eau) et produire à la demande",
+        "Il ne prend pas de place",
+        "Il ne change pas l'environnement",
+        "Il est facile à démonter"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

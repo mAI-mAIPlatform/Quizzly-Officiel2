@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "while vs for",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la principale différence visuelle entre 'for' et 'while' ?",
+      "options": [
+        "Le 'for' regroupe init/cond/maj sur une ligne",
+        "Le 'while' est plus rapide",
+        "Le 'for' est seulement pour les nombres",
+        "Aucune différence"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut transformer n'importe quelle boucle 'for' en boucle 'while'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans un while, l'initialisation se fait {{1}} la boucle.",
+      "reponsesAttendues": [
+        "avant"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le meilleur choix.",
+      "pairs": [
+        {
+          "left": "Compteur connu (ex: 10 tours)",
+          "right": "for"
+        },
+        {
+          "left": "Tant qu'un joueur est vivant",
+          "right": "while"
+        },
+        {
+          "left": "Tant qu'on n'a pas trouvé la solution",
+          "right": "while"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où place-t-on généralement l'incrémentation (i++) dans un while ?",
+      "options": [
+        "En haut, avant le code",
+        "À l'intérieur des parenthèses",
+        "À la fin du bloc de code (corps)",
+        "On n'en met jamais"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Inégalités et tensions urbaines",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui forme le groupe le plus puissant de la ville ?",
+      "options": [
+        "Les pauvres",
+        "Le patriciat (grands marchands et riches bourgeois)",
+        "Les serfs",
+        "Les paysans de passage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les plus pauvres sont souvent exclus du gouvernement de la ville.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les personnes qui demandent l'aumône sont très nombreuses, on les appelle les {{1}}.",
+      "reponsesAttendues": [
+        "mendiants"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la réaction à la crise.",
+      "pairs": [
+        {
+          "left": "Révolte",
+          "right": "Soulèvement contre la hausse des prix"
+        },
+        {
+          "left": "Charité",
+          "right": "Aide aux pauvres par l'Église"
+        },
+        {
+          "left": "Exclusion",
+          "right": "Mise à l'écart des lépreux"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle maladie terrible a dévasté les villes en 1348 ?",
+      "options": [
+        "La grippe",
+        "La Peste Noire",
+        "Le choléra",
+        "La rougeole"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

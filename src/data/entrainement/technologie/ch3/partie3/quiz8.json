@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Numérique et Société",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on l'exclusion de certains citoyens du numérique ?",
+      "options": [
+        "L'illectronisme ou fracture numérique",
+        "L'illettrisme classique",
+        "Le manque d'écran",
+        "La déconnexion forcée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le télétravail a été facilité par les outils collaboratifs numériques.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'open source signifie que le {{1}} du logiciel est libre et modifiable.",
+      "reponsesAttendues": [
+        "code"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Transformations.",
+      "pairs": [
+        {
+          "left": "Cours en ligne",
+          "right": "Apprentissage à distance"
+        },
+        {
+          "left": "E-commerce",
+          "right": "Achat par Internet"
+        },
+        {
+          "left": "Dématérialisation",
+          "right": "Fin des formulaires papier"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est un avantage majeur du numérique pour la société ?",
+      "options": [
+        "L'accès instantané à une immense quantité de connaissances",
+        "Ne plus avoir besoin de réfléchir",
+        "Pouvoir acheter tout le temps",
+        "Réduire le nombre de livres"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

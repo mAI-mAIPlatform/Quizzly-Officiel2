@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "La Fondation de Rome",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Selon la légende, qui a fondé la ville de Rome ?",
+      "options": [
+        "Jules César",
+        "Romulus",
+        "Auguste",
+        "Énée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Romulus et Rémus ont été élevés par une louve.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Rome a été fondée en l'an {{1}} avant J.-C.",
+      "reponsesAttendues": [
+        "753"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Légende de Rome.",
+      "pairs": [
+        {
+          "left": "Mars",
+          "right": "Père des jumeaux"
+"        },
+        {
+          "left": "Rémus",
+          "right": "Frère de Romulus"
+        },
+        {
+          "left": "Palatin",
+          "right": "Colline de la fondation"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Sur combien de collines Rome a-t-elle été bâtie ?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "10"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

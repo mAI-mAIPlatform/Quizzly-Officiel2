@@ -1,0 +1,63 @@
+{
+  "id": "quiz17",
+  "titre": "La Conteneurisation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'unite de mesure standard d'un conteneur ?",
+      "options": [
+        "L'EVP (Équivalent Vingt Pieds)",
+        "Le mètre-vapeur",
+        "La tonne-marine",
+        "Le kilopotier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les conteneurs peuvent passer facilement du bateau au camion ou au train.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le passage d'un mode de transport à un autre s'appelle l'{{1}}.",
+      "reponsesAttendues": [
+        "intermodalité"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le type de navire à sa cargaison.",
+      "pairs": [
+        {
+          "left": "Méthanier",
+          "right": "Gaz naturel liquéfié"
+        },
+        {
+          "left": "Vraquier",
+          "right": "Marchandises en vrac (graines, minerai)"
+        },
+        {
+          "left": "Pétrolier",
+          "right": "Pétrole brut"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage principal de la conteneurisation ?",
+      "options": [
+        "Réduire drastiquement le temps et le coût de manutention",
+        "Faire des jolies boîtes colorées dans le port",
+        "Empêcher le vent de souffler",
+        "Cacher les produits pour qu'on ne puisse pas les voir"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

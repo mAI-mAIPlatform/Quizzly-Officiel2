@@ -1,0 +1,64 @@
+{
+  "id": "quiz2",
+  "titre": "Les voix de femmes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on la voix de femme la plus aiguë ?",
+      "options": [
+        "Soprano",
+        "Mezzo-soprano",
+        "Alto",
+        "Basse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La voix d'alto (ou contralto) est la voix de femme la plus grave.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La voix intermédiaire entre l'alto et la soprano est la {{1}} (mezzo-soprano).",
+      "reponsesAttendues": [
+        "mezzo-soprano",
+        "mezzo soprano"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la voix à son registre.",
+      "pairs": [
+        {
+          "left": "Soprano",
+          "right": "Très aigu"
+        },
+        {
+          "left": "Mezzo-soprano",
+          "right": "Medium / Central"
+        },
+        {
+          "left": "Alto",
+          "right": "Grave et charnu"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel de ces rôles d'opéra célèbre est souvent chanté par une soprano ?",
+      "options": [
+        "La Reine de la Nuit (Mozart)",
+        "Darth Vader",
+        "Le Fantôme de l'Opéra",
+        "Un pirate"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

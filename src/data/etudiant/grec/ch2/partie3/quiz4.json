@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Les Perses (Persai)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelait-on le dirigeant suprême de l'Empire Perse ?",
+      "options": [
+        "Le Grand Roi (Basileus)",
+        "Le Pharaon",
+        "L'Empereur",
+        "Le Sultan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les provinces de l'Empire Perse étaient appelées des satrapies.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La capitale de l'Empire Perse brûlée par Alexandre était {{1}} (Persépolis).",
+      "reponsesAttendues": [
+        "Persépolis"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le chef perse.",
+      "pairs": [
+        {
+          "left": "Cyrus le Grand",
+          "right": "Fondateur de l'Empire"
+        },
+        {
+          "left": "Darius Ier",
+          "right": "Battu à Marathon"
+        },
+        {
+          "left": "Xerxès Ier",
+          "right": "Envahisseur de 480 av. J.-C."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle était l'élite de l'armée perse ?",
+      "options": [
+        "Les Immortels",
+        "Les Hoplites",
+        "Les Légionnaires",
+        "Les Samouraïs"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

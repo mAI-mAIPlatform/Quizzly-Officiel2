@@ -1,0 +1,63 @@
+{
+  "id": "quiz29",
+  "titre": "Alergias Alimentarias",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo dices 'Je suis allergique au lait'?",
+      "options": [
+        "Soy alérgico a la leche",
+        "Tengo alérgico a la leche",
+        "Estoy alérgico a la leche",
+        "No me gusta la leche"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Intolerancia al gluten' se dice igual en español.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "No puedo comer {{1}} porque soy alérgico (noix).",
+      "reponsesAttendues": [
+        "frutos secos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la advertencia.",
+      "pairs": [
+        {
+          "left": "Peligro",
+          "right": "Danger"
+        },
+        {
+          "left": "Sin azúcar",
+          "right": "Sans sucre"
+        },
+        {
+          "left": "Vegano",
+          "right": "Sin productos animales"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'hacer daño' (referido a comida)?",
+      "options": [
+        "Rendre malade / Ne pas supporter",
+        "Être méchant",
+        "Cuisiner mal",
+        "Avoir faim"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

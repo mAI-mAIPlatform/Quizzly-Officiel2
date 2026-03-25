@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Faux-amis et racines",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'Infans' en latin (racine d'enfant) ?",
+      "options": [
+        "Celui qui ne parle pas encore",
+        "Le fils du roi",
+        "Un petit soldat",
+        "Celui qui joue"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Patientia' signifie à la fois patience et endurance/souffrance.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot 'travail' vient du latin '{{1}}' (instrument de torture) (tripalium).",
+      "reponsesAttendues": [
+        "tripalium"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la racine au sens moderne.",
+      "pairs": [
+        {
+          "left": "Manus",
+          "right": "Main (Manuel / Manucure)"
+        },
+        {
+          "left": "Pedes",
+          "right": "Pied (Pédestre / Pédicure)"
+        },
+        {
+          "left": "Oculus",
+          "right": "Œil (Oculaire / Oculiste)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Hostis' ?",
+      "options": [
+        "L'ennemi (public)",
+        "L'invité",
+        "L'ami",
+        "Le prêtre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

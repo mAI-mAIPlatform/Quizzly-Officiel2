@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Examen : Aoriste et Futur",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle lettre marque le futur et l'aoriste sigmatique ?",
+      "options": [
+        "Sigma (σ)",
+        "Alpha",
+        "Theta",
+        "Kappa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le futur n'a jamais d'augmentation (e-).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "J'éduquerai se dit '{{1}}' (paideusô / παιδεύσω).",
+      "reponsesAttendues": [
+        "paideusô"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la forme.",
+      "pairs": [
+        {
+          "left": "epaideusa",
+          "right": "Aoriste (J'ai éduqué)"
+        },
+        {
+          "left": "paideuô",
+          "right": "Présent"
+        },
+        {
+          "left": "esomai",
+          "right": "Futur de être"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'aoriste thématique de 'lambanô' (prendre) ?",
+      "options": [
+        "elabon (ἔλαβον)",
+        "elambanon",
+        "elambanosa",
+        "elapsa"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

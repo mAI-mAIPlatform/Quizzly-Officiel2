@@ -1,0 +1,62 @@
+{
+  "id": "quiz3",
+  "titre": "L'Empire et Jules César",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est considéré comme le premier Empereur romain ?",
+      "options": [
+        "Jules César",
+        "Auguste (Octave)",
+        "Néron",
+        "Marc Aurèle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Jules César a conquis la Gaule.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Jules César a été assassiné aux {{1}} de mars (en 44 av. J.-C.).",
+      "reponsesAttendues": [
+        "ides"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Veni, vidi, vici",
+          "right": "Je suis venu, j'ai vu, j'ai vaincu"
+        },
+        {
+          "left": "Alea jacta est",
+          "right": "Le sort en est jeté"
+        },
+        {
+          "left": "Pax Romana",
+          "right": "Paix imposée par Rome"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment s'appelait le fils adoptif de César qui devint Empereur ?",
+      "options": [
+        "Brutus",
+        "Octave",
+        "Marc Antoine",
+        "Cicéron"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

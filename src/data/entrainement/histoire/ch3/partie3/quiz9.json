@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "L'État moderne se dessine",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qui caractérise l'État à la fin du XVe siècle par rapport au début ?",
+      "options": [
+        "Il est plus morcelé",
+        "Il est plus centralisé et organisé autour du roi",
+        "Il a disparu",
+        "Il est devenu une démocratie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le roi n'a plus besoin du consentement des seigneurs pour lever l'impôt à la fin du siècle.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La ville de {{1}} devient le cœur administratif permanent du royaume.",
+      "reponsesAttendues": [
+        "Paris"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'outil du pouvoir à son utilité.",
+      "pairs": [
+        {
+          "left": "Diplomatie",
+          "right": "Ambassadeurs permanents"
+        },
+        {
+          "left": "Finance",
+          "right": "Contrôle des recettes et dépenses"
+        },
+        {
+          "left": "Information",
+          "right": "Création de la Poste royale par Louis XI"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qui sont les plus grands serviteurs du roi désormais ?",
+      "options": [
+        "Les paysans",
+        "Les officiers (souvent issus de la bourgeoisie instruite)",
+        "Les chevaliers errants",
+        "Les rois étrangers"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

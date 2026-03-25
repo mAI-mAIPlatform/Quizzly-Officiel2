@@ -1,0 +1,63 @@
+{
+  "id": "quiz25",
+  "titre": "Nuevas Tecnologías",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Le portable'?",
+      "options": [
+        "El móvil",
+        "El ordenador",
+        "La televisión",
+        "La radio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Redes sociales' significa 'réseaux sociaux'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Subo mis fotos a {{1}} (Instagram/Tik Tok).",
+      "reponsesAttendues": [
+        "Internet"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la acción digital.",
+      "pairs": [
+        {
+          "left": "Enviar un mensaje",
+          "right": "Envoyer un message"
+        },
+        {
+          "left": "Descargar",
+          "right": "Télécharger"
+        },
+        {
+          "left": "Compartir",
+          "right": "Partager"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'borrar'?",
+      "options": [
+        "Effacer",
+        "Écrire",
+        "Lire",
+        "Écouter"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

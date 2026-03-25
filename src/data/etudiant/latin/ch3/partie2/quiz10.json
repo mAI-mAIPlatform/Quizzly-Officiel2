@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Cap. 3 P. 2 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Le premier empereur est {{1}} et son règne commence la {{2}}.",
+      "options": [
+        "Auguste / Pax Romana",
+        "César / Guerre civile",
+        "Octave / Guerre des Gaules",
+        "Néron / Fin du monde"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Rerum' est le génitif pluriel de 'Res'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'empereur porte le titre de {{1}} (sacré) (Augustus).",
+      "reponsesAttendues": [
+        "Auguste"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les notions.",
+      "pairs": [
+        {
+          "left": "Urbs",
+          "right": "Rome"
+        },
+        {
+          "left": "5ème déclinaison",
+          "right": "Dies / Res"
+        },
+        {
+          "left": "Actium",
+          "right": "Bataille navale"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Hodie' ?",
+      "options": [
+        "Aujourd'hui",
+        "Demain",
+        "Hier",
+        "Bientôt"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

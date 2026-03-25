@@ -1,0 +1,63 @@
+{
+  "id": "quiz30",
+  "titre": "Bilan : Le XIXe Siècle",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qui caractérise le mieux le XIXe siècle en Europe ?",
+      "options": [
+        "Une accélération des transformations techniques, sociales et culturelles",
+        "Une période de calme plat sans aucun changement",
+        "La fin de l'intelligence humaine",
+        "Le retour au système de la féodalité"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "À la veille de 1914, l'Europe domine le monde par son industrie et sa culture.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La foi dans le progrès et le bonheur par la science s'appelle le {{1}}.",
+      "reponsesAttendues": [
+        "positivisme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la révolution à son domaine.",
+      "pairs": [
+        {
+          "left": "Vapeur / Charbon",
+          "right": "Révolution Industrielle"
+        },
+        {
+          "left": "Pasteur / Vaccins",
+          "right": "Révolution Scientifique"
+        },
+        {
+          "left": "Impressionnisme",
+          "right": "Révolution Artistique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle sera la prochaine étape majeure de l'histoire européenne ?",
+      "options": [
+        "La Première Guerre mondiale",
+        "La conquête de la Lune",
+        "L'invention d'Internet",
+        "La fin du monde"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

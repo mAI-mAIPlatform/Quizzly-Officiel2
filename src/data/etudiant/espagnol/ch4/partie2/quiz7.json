@@ -1,0 +1,63 @@
+{
+  "id": "quiz17",
+  "titre": "Miguel de Cervantes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es la obra más famosa de Cervantes?",
+      "options": [
+        "Don Quijote de la Mancha",
+        "La Celestina",
+        "Poeta en Nueva York",
+        "Cien años de soledad"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Don Quijote luchó contra gigantes que eran en realidad molinos.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Cervantes murió el 23 de {{1}} de 1616 (avril).",
+      "reponsesAttendues": [
+        "abril"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el personaje con su descripción.",
+      "pairs": [
+        {
+          "left": "Don Quijote",
+          "right": "Caballero idealista"
+        },
+        {
+          "left": "Sancho Panza",
+          "right": "Escudero realista"
+        },
+        {
+          "left": "Dulcinea",
+          "right": "Amada imaginaria"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'escritor'?",
+      "options": [
+        "Écrivain",
+        "Lecteur",
+        "Peinte",
+        "Chanteur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

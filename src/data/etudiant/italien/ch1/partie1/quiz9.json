@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "La famiglia",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'La madre'?",
+      "options": [
+        "La madre / La mamma",
+        "Il padre",
+        "Il fratello",
+        "La sorella"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Fratello' significa 'hermano'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Mio {{1}} si chiama Paolo (père).",
+      "reponsesAttendues": [
+        "padre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el pariente.",
+      "pairs": [
+        {
+          "left": "Nonna",
+          "right": "Grand-mère"
+        },
+        {
+          "left": "Zio",
+          "right": "Oncle"
+        },
+        {
+          "left": "Cugino",
+          "right": "Cousin"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'Figlio'?",
+      "options": [
+        "Hijo",
+        "Nieto",
+        "Sobrino",
+        "Abuelo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

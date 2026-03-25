@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Vie Privée et Données",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel organisme français protège nos données personnelles et notre vie privée ?",
+      "options": [
+        "La CNIL",
+        "L'UNESCO",
+        "La Poste",
+        "La gendarmerie nationale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le RGPD est un règlement européen qui renforce la protection des données des citoyens.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le droit de faire supprimer des informations nous concernant sur Google s'appelle le droit à l'{{1}} (oubli).",
+      "reponsesAttendues": [
+        "oubli"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme à un exemple.",
+      "pairs": [
+        {
+          "left": "Donnée personnelle",
+          "right": "Nom, adresse, numéro de téléphone"
+        },
+        {
+          "left": "Cookie",
+          "right": "Fichier traçant la navigation web"
+        },
+        {
+          "left": "Donnée sensible",
+          "right": "Opinions religieuses ou état de santé"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il risqué de donner son mot de passe à un ami ?",
+      "options": [
+        "Pour protéger son identité et sa vie privée",
+        "Parce que c'est fatigant à écrire",
+        "Pour économiser de la batterie",
+        "Parce que les amis n'ont pas de mémoire"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

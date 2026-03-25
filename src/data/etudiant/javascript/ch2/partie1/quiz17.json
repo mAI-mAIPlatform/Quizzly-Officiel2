@@ -1,0 +1,63 @@
+{
+  "id": "quiz17",
+  "titre": "Modifier les Attributs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet de modifier ou d'ajouter n'importe quel attribut HTML (ex: href, title) ?",
+      "options": [
+        "setAttribute(\"nom\", \"valeur\")",
+        "changeAttribute(\"nom\", \"valeur\")",
+        "attr(\"nom\", \"valeur\")",
+        "update(\"nom\", \"valeur\")"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser setAttribute pour changer la cible d'un lien <a> (le href).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour désactiver un bouton, on peut écrire : monBouton.{{1}}(\"disabled\", \"true\") (setAttribute).",
+      "reponsesAttendues": [
+        "setAttribute"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'attribut à son usage fréquent.",
+      "pairs": [
+        {
+          "left": "href",
+          "right": "Lien vers une autre page"
+        },
+        {
+          "left": "src",
+          "right": "Source d'une image"
+        },
+        {
+          "left": "title",
+          "right": "Texte au survol de la souris"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment supprimer un attribut (ex: 'disabled') ?",
+      "options": [
+        "removeAttribute(\"disabled\")",
+        "deleteAttribute(\"disabled\")",
+        "setAttribute(\"disabled\", null)",
+        "clear(\"disabled\")"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

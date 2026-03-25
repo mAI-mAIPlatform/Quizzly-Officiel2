@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Lutte contre le Racisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi le racisme est-il contraire aux valeurs de la République ?",
+      "options": [
+        "Parce qu'il nie l'égalité entre tous les êtres humains",
+        "Parce qu'il coûte trop cher",
+        "Parce qu'il est démodé",
+        "Parce qu'il fait pleuvoir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'État a le devoir de combattre activement les discriminations dans l'emploi ou le logement.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Signaler un tag raciste sur un mur est un acte {{1}} (citoyen).",
+      "reponsesAttendues": [
+        "citoyen"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'acteur à son action.",
+      "pairs": [
+        {
+          "left": "Défenseur des droits",
+          "right": "Aide les victimes de discrimination"
+        },
+        {
+          "left": "LICRA",
+          "right": "Association luttant contre le racisme"
+        },
+        {
+          "left": "Tribunal",
+          "right": "Juge les auteurs de délits racistes"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'testing' ?",
+      "options": [
+        "Un test pour prouver une discrimination en comparant des dossiers identiques",
+        "Un examen de maths",
+        "Un essai de voiture",
+        "Un concours de cuisine"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

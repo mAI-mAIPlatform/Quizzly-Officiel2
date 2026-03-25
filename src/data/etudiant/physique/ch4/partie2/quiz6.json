@@ -1,0 +1,63 @@
+{
+  "id": "quiz16",
+  "titre": "Ombres et lumière",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on la zone non éclairée sur l'objet lui-même ?",
+      "options": [
+        "L'ombre propre",
+        "L'ombre portée",
+        "Le cône d'ombre",
+        "La pénombre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'ombre portée se trouve sur l'écran ou le sol derrière l'objet.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le volume situé derrière l'objet où il fait noir est le {{1}} d'ombre.",
+      "reponsesAttendues": [
+        "cône"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la zone à son nom.",
+      "pairs": [
+        {
+          "left": "Zone sombre sur le sol",
+          "right": "Ombre portée"
+        },
+        {
+          "left": "Espace derrière l'objet",
+          "right": "Cône d'ombre"
+        },
+        {
+          "left": "Partie de l'objet non éclairée",
+          "right": "Ombre propre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi les bords d'une ombre sont-ils parfois flous ?",
+      "options": [
+        "Car la source de lumière est étendue (pas ponctuelle)",
+        "Car l'air bouge trop",
+        "À cause de la poussière",
+        "C'est un défaut de nos yeux"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

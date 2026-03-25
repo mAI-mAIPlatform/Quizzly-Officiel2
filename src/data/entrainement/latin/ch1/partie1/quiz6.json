@@ -1,0 +1,62 @@
+{
+  "id": "quiz6",
+  "titre": "Les Couleurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'Albus' ?",
+      "options": [
+        "Noir",
+        "Blanc",
+        "Rouge",
+        "Bleu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Niger' signifie la couleur noire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le rouge se dit {{1}} en latin.",
+      "reponsesAttendues": [
+        "Ruber / Rufus"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Flavus",
+          "right": "Jaune"
+        },
+        {
+          "left": "Viridis",
+          "right": "Vert"
+        },
+        {
+          "left": "Caeruleus",
+          "right": "Bleu"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle couleur signifie 'Aureus' ?",
+      "options": [
+        "Argenté",
+        "Doré",
+        "Violet",
+        "Marron"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

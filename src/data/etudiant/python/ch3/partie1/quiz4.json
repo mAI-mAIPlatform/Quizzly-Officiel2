@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Ajouter (.append)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet d'ajouter un élément à la fin d'une liste ?",
+      "options": [
+        ".append()",
+        ".add()",
+        ".insert()",
+        ".plus()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'instruction L.append(10) place le nombre 10 au début de la liste.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si L = [1, 2] et que je fais L.{{1}}(3), alors L devient [1, 2, 3] (append).",
+      "reponsesAttendues": [
+        "append"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la méthode au but.",
+      "pairs": [
+        {
+          "left": ".append(val)",
+          "right": "Ajoute à la fin"
+        },
+        {
+          "left": ".insert(0, val)",
+          "right": "Ajoute à l'index 0 (au début)"
+        },
+        {
+          "left": ".extend(autre_liste)",
+          "right": "Ajoute tous les éléments d'une autre liste"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Combien d'arguments prend la méthode .append() ?",
+      "options": [
+        "Un seul argument (l'élément à ajouter)",
+        "Zéro",
+        "Deux",
+        "Autant qu'on veut"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

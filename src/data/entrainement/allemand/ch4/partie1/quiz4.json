@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Koffer packen (Koffer)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'La valise' ?",
+      "options": [
+        "Der Koffer",
+        "Die Tasche",
+        "Der Rucksack",
+        "Der Beutel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Packen' bedeutet 'Faire sa valise'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich {{1}} (faire la valise) meinen Koffer.",
+      "reponsesAttendues": [
+        "packe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Reisedinge.",
+      "pairs": [
+        {
+          "left": "Reisepass",
+          "right": "Passeport"
+        },
+        {
+          "left": "Ticket",
+          "right": "Billet"
+        },
+        {
+          "left": "Geldbeutel",
+          "right": "Porte-monnaie"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Hast du alles gepackt?",
+      "options": [
+        "Ja, mein Koffer ist voll",
+        "Ja, ich bin ein Koffer",
+        "Koffer ist blau",
+        "Hallo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

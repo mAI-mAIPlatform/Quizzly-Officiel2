@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Projet 1 : Statistiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment afficher le nombre de coups joués à la fin ?",
+      "options": [
+        "print(f\"Tu as réussi en {essais} coups !\")",
+        "print(\"Score :\", essais)",
+        "print(essais)",
+        "Toutes ces options affichent le nombre de coups"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le nombre d'essais est un excellent indicateur de la performance du joueur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour calculer le score (ex: 100 points moins 5 par essai), on écrit : score = 100 - ({{1}} * 5) (essais).",
+      "reponsesAttendues": [
+        "essais"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'affichage à son type.",
+      "pairs": [
+        {
+          "left": "print(essais)",
+          "right": "Affichage brut"
+        },
+        {
+          "left": "f\"Coups : {essais}\"",
+          "right": "f-string (formatté)"
+        },
+        {
+          "left": "\"Score : \" + str(points)",
+          "right": "Concatenation"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la meilleure stratégie pour gagner en un minimum de coups ?",
+      "options": [
+        "La dichotomie (toujours proposer le milieu de l'intervalle restant)",
+        "Taper des nombres au hasard",
+        "Commencer par 1 et faire +1",
+        "Taper son âge"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

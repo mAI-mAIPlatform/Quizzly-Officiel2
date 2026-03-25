@@ -1,0 +1,63 @@
+{
+  "id": "quiz18",
+  "titre": "Futuro di probabilità",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Si oyes un ruido y dices '¿Quién será?', ¿qué tiempo usas?",
+      "options": [
+        "Futuro",
+        "Presente",
+        "Passato",
+        "Condizionale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Saranno le tre' significa 'Deben ser las tres'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "{{1}} stanco (Probablemente esté/Estará).",
+      "reponsesAttendues": [
+        "Sarà"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la suposición.",
+      "pairs": [
+        {
+          "left": "Quanti anni ha?",
+          "right": "Ne avrà venti (Tendrá 20)"
+        },
+        {
+          "left": "Dov'è Maria?",
+          "right": "Sarà a casa (Estará en casa)"
+        },
+        {
+          "left": "Che ore sono?",
+          "right": "Sarà l'una (Será la una)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice '¿Será verdad?'?",
+      "options": [
+        "Sarà vero?",
+        "È vero?",
+        "Era vero?",
+        "Sarebbe vero?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

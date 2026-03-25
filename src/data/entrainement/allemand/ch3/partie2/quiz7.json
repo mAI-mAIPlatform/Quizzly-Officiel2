@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Kultur in der Stadt",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Le musée' ?",
+      "options": [
+        "Das Museum",
+        "Das Theater",
+        "Die Bibliothek",
+        "Die Galerie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Im Museum sieht man oft Kunst.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich gehe heute ins {{1}} (théâtre).",
+      "reponsesAttendues": [
+        "Theater"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Kultur.",
+      "pairs": [
+        {
+          "left": "Konzert",
+          "right": "Concert"
+        },
+        {
+          "left": "Oper",
+          "right": "Opéra"
+"        },
+        {
+          "left": "Ausstellung",
+          "right": "Exposition"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Gibt es hier ein Kino?",
+      "options": [
+        "Ja, direkt um die Ecke",
+        "Nein, ich bin ein Kino",
+        "Kino ist ein Buch",
+        "Hallo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

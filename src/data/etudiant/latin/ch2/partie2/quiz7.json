@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "La 3ème déclinaison (Thèmes en -i)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la particularité des thèmes en -i au génitif pluriel ?",
+      "options": [
+        "Ils se terminent en -ium",
+        "Ils se terminent en -arum",
+        "Ils se terminent en -orum",
+        "Ils se terminent en -is"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le mot 'Civis' (citoyen) est un thème en -i.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le génitif pluriel de 'Civis' est {{1}} (Civium).",
+      "reponsesAttendues": [
+        "civium"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le mot à son type.",
+      "pairs": [
+        {
+          "left": "Civis",
+          "right": "Parisyllabique (Thème en -i)"
+        },
+        {
+          "left": "Urbs",
+          "right": "Faux parisyllabique"
+        },
+        {
+          "left": "Miles",
+          "right": "Imparisyllabique (Thème consonne)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Parisyllabique' ?",
+      "options": [
+        "Même nombre de syllabes au nom. et au gén. singulier",
+        "Nombre de syllabes différent",
+        "Même terminaison",
+        "Mot court"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

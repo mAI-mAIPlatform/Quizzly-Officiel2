@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Transformations chimiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on les corps qui disparaissent lors d'une réaction ?",
+      "options": [
+        "Les réactifs",
+        "Les produits",
+        "Les spectateurs",
+        "Les catalyseurs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une transformation chimique produit de nouvelles substances.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La combustion du carbone produit du {{1}} de carbone.",
+      "reponsesAttendues": [
+        "dioxyde"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'action à son type de transformation.",
+      "pairs": [
+        {
+          "left": "La glace qui fond",
+          "right": "Transformation physique"
+        },
+        {
+          "left": "Un clou qui rouille",
+          "right": "Transformation chimique"
+        },
+        {
+          "left": "Le sucre qui brûle",
+          "right": "Transformation chimique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pour qu'une combustion ait lieu, il faut un combustible et... ?",
+      "options": [
+        "Un comburant (souvent le dioxygène)",
+        "De l'azote liquide",
+        "De la vapeur d'eau",
+        "Uniquement une allumette"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

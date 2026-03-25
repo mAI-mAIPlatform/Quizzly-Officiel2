@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Le Parlement Européen",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment sont choisis les députés européens ?",
+      "options": [
+        "Élus au suffrage universel direct par les citoyens de chaque pays",
+        "Nommés par les présidents des pays",
+        "Tirés au sort dans l'annuaire",
+        "Ils héritent de leur place"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Parlement européen vote les lois européennes avec le Conseil de l'Union.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le Parlement siège principalement dans la ville de {{1}} (Strasbourg).",
+      "reponsesAttendues": [
+        "Strasbourg"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le rôle à son institution (ici le Parlement).",
+      "pairs": [
+        {
+          "left": "Législatif",
+          "right": "Vote les lois (directives et règlements)"
+        },
+        {
+          "left": "Budgétaire",
+          "right": "Adopte le budget annuel de l'UE"
+        },
+        {
+          "left": "Contrôle",
+          "right": "Surveille la Commission européenne"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Tous les combien d'années ont lieu les élections européennes ?",
+      "options": [
+        "Tous les 5 ans",
+        "Tous les 10 ans",
+        "Tous les ans",
+        "Tous les 2 ans"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

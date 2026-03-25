@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Predicciones y Horóscopo",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué signo zodiacal es 'León'?",
+      "options": [
+        "Leo",
+        "Aries",
+        "Tauro",
+        "Géminis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Tendrás suerte' significa 'Tu auras de la chance'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Il y aura' se dice '{{1}}'.",
+      "reponsesAttendues": [
+        "Habrá"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Futuro Próximo.",
+      "pairs": [
+        {
+          "left": "Conocerás a alguien",
+          "right": "Tu rencontreras quelqu'un"
+        },
+        {
+          "left": "Ganarás dinero",
+          "right": "Tu gagneras de l'argent"
+        },
+        {
+          "left": "Estarás sano",
+          "right": "Tu seras en bonne santé"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué pasará mañana según el horóscopo?",
+      "options": [
+        "Mañana será un día fantástico",
+        "Mañana es lunes",
+        "Mañana fue domingo",
+        "Mañana tengo sueño"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

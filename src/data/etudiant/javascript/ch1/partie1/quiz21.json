@@ -1,0 +1,63 @@
+{
+  "id": "quiz21",
+  "titre": "Définir une fonction",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel mot-clé utilise-t-on pour créer une fonction en JavaScript ?",
+      "options": [
+        "function",
+        "def",
+        "create",
+        "task"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le nom d'une fonction est suivi de parenthèses ( ) puis d'accolades { }.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour créer la fonction 'direBonjour', on écrit : {{1}} direBonjour() { ... } (function).",
+      "reponsesAttendues": [
+        "function"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'élément à son rôle.",
+      "pairs": [
+        {
+          "left": "function",
+          "right": "Mot-clé de déclaration"
+        },
+        {
+          "left": "( )",
+          "right": "Contient les paramètres"
+        },
+        {
+          "left": "{ }",
+          "right": "Contient le code de la fonction"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une fonction en programmation ?",
+      "options": [
+        "Un bloc de code réutilisable qui effectue une tâche précise",
+        "Une erreur de calcul",
+        "Une variable qui ne change jamais",
+        "Un bouton sur la page"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

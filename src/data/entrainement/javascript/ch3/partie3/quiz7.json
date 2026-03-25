@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Ajouter des éléments (push)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet d'ajouter un élément à la FIN d'un tableau ?",
+      "options": [
+        "add()",
+        "push()",
+        "append()",
+        "plus()"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "tab.push('X') augmente la longueur du tableau de 1.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour ajouter 10, on écrit t.{{1}}(10).",
+      "reponsesAttendues": [
+        "push"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'action.",
+      "pairs": [
+        {
+          "left": "let t = []",
+          "right": "Tableau vide"
+        },
+        {
+          "left": "t.push(1)",
+          "right": "Contient [1]"
+        },
+        {
+          "left": "t.push(2)",
+          "right": "Contient [1, 2]"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on faire push de plusieurs éléments d'un coup ?",
+      "options": [
+        "Non, un seul à la fois",
+        "Oui : tab.push(1, 2, 3)",
+        "Seulement avec une boucle",
+        "Interdit"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

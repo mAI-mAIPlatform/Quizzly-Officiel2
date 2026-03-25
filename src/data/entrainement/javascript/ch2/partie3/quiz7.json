@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Logique Complexe",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'assurer que (A ou B) soit vrai ET que C soit vrai ?",
+      "options": [
+        "A || B && C",
+        "(A || B) && C",
+        "A || (B && C)",
+        "&& C A || B"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les parenthèses sont inutiles en logique informatique.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un code trop complexe doit être décomposé en {{1}} plus simples.",
+      "reponsesAttendues": [
+        "variables"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Analyse de cas :",
+      "pairs": [
+        {
+          "left": "x > 0 && x < 10",
+          "right": "Intervalle entre 0 et 10"
+        },
+        {
+          "left": "x < 0 || x > 10",
+          "right": "Hors de l'intervalle"
+        },
+        {
+          "left": "!(x > 0)",
+          "right": "x <= 0"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que vaut !!(true || false) && (false || true) ?",
+      "options": [
+        "true",
+        "false",
+        "null",
+        "undefined"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

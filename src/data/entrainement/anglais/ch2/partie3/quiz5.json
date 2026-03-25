@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Places for Sports",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Where do you play football?",
+      "options": [
+        "On a pitch / field",
+        "On a court",
+        "On a track",
+        "In a pool"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Tennis is played on a 'court'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Athletes run on a {{1}}.",
+      "reponsesAttendues": [
+        "track"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match places.",
+      "pairs": [
+        {
+          "left": "Swimming",
+          "right": "Pool"
+        },
+        {
+          "left": "Golf",
+          "right": "Course"
+        },
+        {
+          "left": "Boxe",
+          "right": "Ring"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is a 'Gym'?",
+      "options": [
+        "A place for indoor exercise",
+        "A mountain for climbing",
+        "A type of sport",
+        "A school subject only"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

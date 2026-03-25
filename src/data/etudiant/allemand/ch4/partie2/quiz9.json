@@ -1,0 +1,63 @@
+{
+  "id": "quiz19",
+  "titre": "Mengenangaben",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Un vaso de agua'?",
+      "options": [
+        "Ein Glas Wasser",
+        "Eine Flasche Wasser",
+        "Ein Kilo Wasser",
+        "Ein Stück Wasser"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Ein Stück Kuchen' significa 'un trozo de pastel'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich brauche ein {{1}} Äpfel (kilo).",
+      "reponsesAttendues": [
+        "Kilo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la medida.",
+      "pairs": [
+        {
+          "left": "Eine Packung",
+          "right": "Un paquet / boîte"
+        },
+        {
+          "left": "Eine Dose",
+          "right": "Une canette / conserve"
+        },
+        {
+          "left": "Eine Tasse",
+          "right": "Une tasse"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'eine Scheibe Brot'?",
+      "options": [
+        "Une tranche de pain",
+        "Une miche de pain",
+        "Un morceau de pain",
+        "Un sac de pain"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

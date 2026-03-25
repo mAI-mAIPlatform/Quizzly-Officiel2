@@ -1,0 +1,63 @@
+{
+  "id": "quiz23",
+  "titre": "Figures complexes (1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Deux triangles rectangles ABC et BCD partagent l'hypoténuse [BC]. Si AB=3, AC=4 et BD=2, que vaut CD ?",
+      "options": [
+        "racine de 21",
+        "racine de 29",
+        "3",
+        "5"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans une figure complexe, il faut toujours identifier le côté commun.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si un losange a des diagonales de 6 et 8, son côté mesure {{1}}.",
+      "reponsesAttendues": [
+        "5"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la figure à son triangle rectangle interne.",
+      "pairs": [
+        {
+          "left": "Losange",
+          "right": "Demi-diagonales et côté"
+        },
+        {
+          "left": "Triangle isocèle",
+          "right": "Hauteur, demi-base et côté"
+        },
+        {
+          "left": "Trapèze rectangle",
+          "right": "Hauteur, différence bases et côté oblique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Un cerf-volant a des diagonales de 10 cm et 24 cm. Quel est le périmètre si les côtés sont égaux deux à dos ?",
+      "options": [
+        "68 cm",
+        "Autour de 60 cm",
+        "On ne peut pas savoir",
+        "Autre"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

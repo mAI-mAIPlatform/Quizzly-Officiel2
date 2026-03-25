@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Les Pères de l'Europe",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est Robert Schuman ?",
+      "options": [
+        "Un ministre français auteur de la déclaration du 9 mai 1950",
+        "Un célèbre chanteur d'opéra",
+        "L'inventeur de la machine à vapeur",
+        "Le premier roi de Belgique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Jean Monnet est considéré comme un 'père de l'Europe' pour son rôle d'organisateur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Konrad {{1}} (Adenauer) était le représentant de l'Allemagne lors de la fondation.",
+      "reponsesAttendues": [
+        "Adenauer"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la personnalité à son pays d'origine.",
+      "pairs": [
+        {
+          "left": "Robert Schuman",
+          "right": "France"
+        },
+        {
+          "left": "Jean Monnet",
+          "right": "France"
+        },
+        {
+          "left": "Alcide De Gasperi",
+          "right": "Italie"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel était le rêve de ces personnalités ?",
+      "options": [
+        "Rendre la guerre impossible entre les pays européens",
+        "Créer une armée pour attaquer le monde",
+        "Devenir les chefs de tous les pays",
+        "Interdire aux gens de voyager"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

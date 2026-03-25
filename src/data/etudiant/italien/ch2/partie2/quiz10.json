@@ -1,0 +1,63 @@
+{
+  "id": "quiz20",
+  "titre": "Cap. 2 P. 2 Sintesi",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "I ragazzi {{1}} (venir) al bar con {{2}} (plural de il) amici.",
+      "options": [
+        "vengono / gli",
+        "viene / i",
+        "veniamo / gli",
+        "vengono / i"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Plural de 'L'amica' es 'Le amiche'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vado {{1}} casa in macchina (à).",
+      "reponsesAttendues": [
+        "a"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el resumen.",
+      "pairs": [
+        {
+          "left": "Hobby",
+          "right": "Leggere, Viaggiare"
+        },
+        {
+          "left": "Città",
+          "right": "Piazza, Ristorante"
+        },
+        {
+          "left": "Articoli",
+          "right": "I, Gli, Le"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Ils viennent de la pharmacie et vont au restaurant'?",
+      "options": [
+        "Vengono dalla farmacia e vanno al ristorante",
+        "Vengono della farmacia e vanno nel ristorante",
+        "Va dalla farmacia e vanno al ristorante",
+        "Vengono dalla farmacia e va al ristorante"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

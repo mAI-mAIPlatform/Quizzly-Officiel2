@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Intégration Vidéos (YouTube)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel service propose un code iFrame prêt à l'emploi pour ses vidéos ?",
+      "options": [
+        "YouTube",
+        "Google Images",
+        "Wikipedia",
+        "GitHub"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut empêcher la lecture en plein écran avec l'attribut 'allowfullscreen'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'URL d'intégration YouTube contient toujours le mot '/{{1}}/' et l'ID de la vidéo.",
+      "reponsesAttendues": [
+        "embed"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Options d'intégration.",
+      "pairs": [
+        {
+          "left": "autoplay=1",
+          "right": "Lecture automatique"
+        },
+        {
+          "left": "mute=1",
+          "right": "Sans son"
+        },
+        {
+          "left": "controls=0",
+          "right": "Cache les boutons YouTube"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi intégrer une vidéo via une iFrame plutôt que <video> ?",
+      "options": [
+        "Pour économiser de la bande passante (hébergé ailleurs)",
+        "Parce que c'est plus rapide à charger",
+        "Parce que YouTube l'oblige",
+        "Pour changer le format"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

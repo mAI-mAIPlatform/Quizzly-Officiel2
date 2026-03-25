@@ -1,0 +1,63 @@
+{
+  "id": "quiz23",
+  "titre": "Prévention Dangers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'Addiction' ?",
+      "options": [
+        "Un besoin irrépressible de consommer une substance ou de faire une activité malgré les dommages",
+        "Une opération mathématique",
+        "Le titre d'une chanson",
+        "Une nouvelle sorte de sport"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le tabac est la première cause de cancers et de maladies respiratoires évitables dans le monde.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le fait de respirer la fumée des autres sans fumer soi-même s'appelle le tabagisme {{1}} (passif).",
+      "reponsesAttendues": [
+        "passif"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la substance à un de ses dangers.",
+      "pairs": [
+        {
+          "left": "Alcool",
+          "right": "Troubles du foie et perte de contrôle de soi"
+        },
+        {
+          "left": "Sucre (excès)",
+          "right": "Obésité et caries dentaires"
+        },
+        {
+          "left": "Écrans (excès le soir)",
+          "right": "Troubles du sommeil et fatigue visuelle"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le meilleur moyen d'éviter une addiction ?",
+      "options": [
+        "Ne jamais commencer à consommer des produits dangereux ou addictifs",
+        "Essayer juste une seule fois",
+        "En parler uniquement quand on a un problème",
+        "Cacher le problème à ses parents"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

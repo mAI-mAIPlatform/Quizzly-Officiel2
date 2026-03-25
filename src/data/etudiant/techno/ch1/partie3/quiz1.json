@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Qu'est-ce que l'IoT ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie l'acronyme IoT (Internet of Things) ?",
+      "options": [
+        "L'Internet des Objets",
+        "L'Informatique de Terrain",
+        "L'Intelligence des Ordinateurs",
+        "L'Internet de Tout"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un objet connecté est capable de capter, traiter et transmettre des données via un réseau.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La maison intelligente s'appelle aussi la {{1}} (domotique).",
+      "reponsesAttendues": [
+        "domotique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'objet à son usage connecté.",
+      "pairs": [
+        {
+          "left": "Montre connectée",
+          "right": "Suivi de l'activité physique et du sommeil"
+        },
+        {
+          "left": "Réfrigérateur connecté",
+          "right": "Gestion des stocks et des dates de péremption"
+        },
+        {
+          "left": "Enceinte intelligente",
+          "right": "Assistant vocal pour contrôler la maison"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel de ces objets N'EST PAS un objet connecté typique ?",
+      "options": [
+        "Une chaise en bois classique",
+        "Une ampoule pilotable par smartphone",
+        "Un thermostat intelligent",
+        "Un collier pour chien avec GPS"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

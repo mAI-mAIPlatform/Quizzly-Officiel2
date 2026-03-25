@@ -1,0 +1,64 @@
+{
+  "id": "quiz1",
+  "titre": "Les Accords dans le Groupe Nominal",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'accorde l'adjectif dans le groupe nominal ?",
+      "options": [
+        "En genre (m/f) et en nombre (s/p) avec le nom",
+        "Seulement en genre",
+        "Seulement en nombre",
+        "Il ne s'accorde jamais"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans 'De belles fleurs rouges', tous les mots sont au pluriel.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une {{1}} (petit) fille {{2}} (gentil).",
+      "reponsesAttendues": [
+        "petite",
+        "gentille"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Met au pluriel.",
+      "pairs": [
+        {
+          "left": "Un chat noir",
+          "right": "Des chats noirs"
+        },
+        {
+          "left": "Une table ronde",
+          "right": "Des tables rondes"
+        },
+        {
+          "left": "Le grand arbre",
+          "right": "Les grands arbres"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la forme correcte ?",
+      "options": [
+        "Des journaux locaux",
+        "Des journals locals",
+        "Des journaux locals",
+        "Des journals locaux"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

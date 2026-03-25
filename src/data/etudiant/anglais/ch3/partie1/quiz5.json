@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Future Cities",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is a 'smart home'?",
+      "options": [
+        "A house where systems like heating and lights are automated",
+        "A house built with very clever bricks",
+        "A house for geniuses only",
+        "A house that can walk"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Green energy comes from renewable sources like wind and sun.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A city that uses technology to improve efficiency is a {{1}} city.",
+      "reponsesAttendues": [
+        "smart"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the future tech with its environmental goal.",
+      "pairs": [
+        {
+          "left": "Solar panels",
+          "right": "Reduce use of fossil fuels"
+        },
+        {
+          "left": "Vertical gardens",
+          "right": "Increase greenery in small city spaces"
+        },
+        {
+          "left": "Electric buses",
+          "right": "Reduce air pollution in cities"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What does 'sustainable' mean?",
+      "options": [
+        "Involving methods that do not harm the environment",
+        "Something that lasts only one day",
+        "Very expensive to build",
+        "Fast and loud"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

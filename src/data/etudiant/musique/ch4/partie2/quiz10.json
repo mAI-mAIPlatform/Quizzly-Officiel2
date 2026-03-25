@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Ch. 4 P. 2 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on la musique que les personnages entendent dans le film ?",
+      "options": [
+        "Musique diégétique",
+        "Musique extra-diégétique",
+        "Musique fantôme",
+        "Musique muette"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le leitmotiv est une mélodie courte associée à un personnage ou une idée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le compositeur de Star Wars et Indiana Jones est John {{1}} (Williams).",
+      "reponsesAttendues": [
+        "Williams"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'effet au terme technique.",
+      "pairs": [
+        {
+          "left": "Illustrer chaque geste",
+          "right": "Mickeymousing"
+        },
+        {
+          "left": "Musique de source",
+          "right": "Diégétique"
+        },
+        {
+          "left": "Musique originale",
+          "right": "Score"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel de ces compositeurs est célèbre pour ses musiques de films d'animation Ghibli ?",
+      "options": [
+        "Joe Hisaishi",
+        "Hans Zimmer",
+        "David Bowie",
+        "Igor Stravinsky"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

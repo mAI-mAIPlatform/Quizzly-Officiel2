@@ -1,0 +1,63 @@
+{
+  "id": "quiz12",
+  "titre": "Écologie et Durable",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que 'l'Effet de Serre' ?",
+      "options": [
+        "Un phénomène naturel qui piège la chaleur du soleil (accentué par la pollution)",
+        "Une technique pour faire pousser des tomates",
+        "Un gaz qui sent mauvais",
+        "Une pièce de la maison"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'Développement Durable' cherche à répondre aux besoins d'aujourd'hui sans compromettre ceux des générations futures.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La somme de toutes les émissions de CO2 causées par une personne ou une activité s'appelle l'empreinte {{1}} (carbone).",
+      "reponsesAttendues": [
+        "carbone"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le déchet à sa durée de décomposition (environ).",
+      "pairs": [
+        {
+          "left": "Trognon de pomme",
+          "right": "Quelques semaines"
+        },
+        {
+          "left": "Sac en plastique",
+          "right": "450 ans"
+        },
+        {
+          "left": "Bouteille en verre",
+          "right": "Plusieurs milliers d'années"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le but principal de l'Accord de Paris sur le climat ?",
+      "options": [
+        "Limiter l'augmentation de la température mondiale en dessous de 2°C",
+        "Construire de nouvelles routes",
+        "Augmenter le prix du pétrole",
+        "Organiser des vacances écologiques"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

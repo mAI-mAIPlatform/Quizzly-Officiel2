@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Révision : Vocabulaire Général",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Lundi' ?",
+      "options": [
+        "Lunedì",
+        "Martedì",
+        "Mercoledì",
+        "Giovedì"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Giallo' signifie 'Vert'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le chiffre 10 se dit '{{1}}'.",
+      "reponsesAttendues": [
+        "dieci"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le vocabulaire.",
+      "pairs": [
+        {
+          "left": "Padre",
+          "right": "Père"
+        },
+        {
+          "left": "Cucina",
+          "right": "Cuisine"
+        },
+        {
+          "left": "Pane",
+          "right": "Pain"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Arrivederci' ?",
+      "options": [
+        "Au revoir",
+        "Bonjour",
+        "Merci",
+        "S'il vous plaît"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

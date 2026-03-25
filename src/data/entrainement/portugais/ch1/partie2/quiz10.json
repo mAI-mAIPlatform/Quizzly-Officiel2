@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Resumo Capítulo 1 Parte 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "O meu ... (père) e a minha ... (grand-mère) moram aqui.",
+      "options": [
+        "pai / avó",
+        "irmão / tia",
+        "tio / prima",
+        "filho / neta"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Vinte e cinco' é o número 25.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Tenho {{1}} (trente) anos.",
+      "reponsesAttendues": [
+        "trinta"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Cores e Família.",
+      "pairs": [
+        {
+          "left": "Amarelo",
+          "right": "Jaune"
+        },
+        {
+          "left": "Irmão",
+          "right": "Frère"
+        },
+        {
+          "left": "Casado",
+          "right": "Marié"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quantas cores tem o arco-íris?",
+      "options": [
+        "Sete",
+        "Cinco",
+        "Dez",
+        "Vinte"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

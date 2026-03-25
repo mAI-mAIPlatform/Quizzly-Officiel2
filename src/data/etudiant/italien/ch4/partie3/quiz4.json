@@ -1,0 +1,63 @@
+{
+  "id": "quiz24",
+  "titre": "Sport in Italia",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es el deporte nacional de Italia?",
+      "options": [
+        "Calcio",
+        "Ciclismo",
+        "Scherma",
+        "Nuoto"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El 'Giro d'Italia' es una famosa competición de ciclismo.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La squadra {{1}} è la nazionale di calcio (azul).",
+      "reponsesAttendues": [
+        "azzurra"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el término deportivo.",
+      "pairs": [
+        {
+          "left": "La partita",
+          "right": "Le match"
+        },
+        {
+          "left": "Il tifo",
+          "right": "Le supporterisme"
+        },
+        {
+          "left": "L'arbitro",
+          "right": "L'arbitre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'pareggio'?",
+      "options": [
+        "Empate",
+        "Victoria",
+        "Derrota",
+        "Penalti"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

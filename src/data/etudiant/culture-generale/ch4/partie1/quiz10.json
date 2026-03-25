@@ -1,0 +1,64 @@
+{
+  "id": "quiz10",
+  "titre": "Ch. 4 P. 1 Synthèse Citoyen",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le premier mot de la devise française ?",
+      "options": [
+        "Liberté",
+        "Égalité",
+        "Fraternité",
+        "Justice"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Sénat et l'Assemblée Nationale forment ensemble le Parlement.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le Président de la République est élu pour un mandat de {{1}} ans (5).",
+      "reponsesAttendues": [
+        "5",
+        "cinq"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le symbole à son nom.",
+      "pairs": [
+        {
+          "left": "Drapeau",
+          "right": "Tricolore (Bleu, Blanc, Rouge)"
+        },
+        {
+          "left": "Hymne",
+          "right": "La Marseillaise"
+        },
+        {
+          "left": "Allégorie",
+          "right": "Marianne"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'âge de la majorité civile et électorale en France ?",
+      "options": [
+        "18 ans",
+        "16 ans",
+        "21 ans",
+        "15 ans"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

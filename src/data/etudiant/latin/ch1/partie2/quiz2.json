@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Numa Pompilius et la religion",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel roi a organisé la religion romaine et ses calendriers ?",
+      "options": [
+        "Numa Pompilius",
+        "Romulus",
+        "Tullus Hostilius",
+        "Tarquin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Numa Pompilius était un roi guerrier perpétuel.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Numa aurait été conseillé par la nymphe {{1}} (Egeria).",
+      "reponsesAttendues": [
+        "Égérie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'institution à son rôle.",
+      "pairs": [
+        {
+          "left": "Pontifes",
+          "right": "Prêtres suprêmes"
+        },
+        {
+          "left": "Vestales",
+          "right": "Gardiennes du feu sacré"
+        },
+        {
+          "left": "Augures",
+          "right": "Interprètes des signes"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel temple Numa a-t-il fait construire pour le temps de paix ?",
+      "options": [
+        "Le temple de Janus",
+        "Le temple de Jupiter",
+        "Le temple de Mars",
+        "Le Panthéon"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

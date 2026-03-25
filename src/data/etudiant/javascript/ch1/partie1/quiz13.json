@@ -1,0 +1,63 @@
+{
+  "id": "quiz13",
+  "titre": "La Différence",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel symbole signifie 'est différent de' (non égal) ?",
+      "options": [
+        "!=",
+        "!==",
+        "Les deux dépendent de la précision voulue",
+        "!"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "(5 !== \"5\") renvoie true car ils sont bien différents en type.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'opérateur de différence stricte est {{1}} (!==).",
+      "reponsesAttendues": [
+        "!=="
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Vrai ou Faux ?",
+      "pairs": [
+        {
+          "left": "10 != 5",
+          "right": "true"
+        },
+        {
+          "left": "10 != 10",
+          "right": "false"
+        },
+        {
+          "left": "10 !== \"10\"",
+          "right": "true"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie le point d'exclamation '!' dans ces opérateurs ?",
+      "options": [
+        "La négation (non)",
+        "Une erreur",
+        "Une priorité haute",
+        "Un cri de joie"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

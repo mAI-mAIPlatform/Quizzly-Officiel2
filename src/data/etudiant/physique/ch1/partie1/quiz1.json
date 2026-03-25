@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Composition de l'air",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quels sont les deux principaux gaz qui composent l'air ?",
+      "options": [
+        "Le diazote (80%) et le dioxygène (20%)",
+        "L'hydrogène (50%) et l'hélium (50%)",
+        "Le dioxyde de carbone (90%) et l'argon (10%)",
+        "Le méthane et la vapeur d'eau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le dioxyde de carbone représente moins de 1% de l'air sec.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le gaz essentiel à la respiration des êtres vivants est le {{1}}.",
+      "reponsesAttendues": [
+        "dioxygène"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le gaz à sa proportion approximative dans l'air.",
+      "pairs": [
+        {
+          "left": "Diazote",
+          "right": "78% (environ 4/5)"
+        },
+        {
+          "left": "Dioxygène",
+          "right": "21% (environ 1/5)"
+        },
+        {
+          "left": "Autres gaz (Argon, CO2...)",
+          "right": "Environ 1%"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "L'air a-t-il une masse ?",
+      "options": [
+        "Oui, 1 litre d'air pèse environ 1,2 g à 1,3 g (conditions normales)",
+        "Non, l'air est immatériel",
+        "Oui, mais seulement s'il est très froid",
+        "Non, car il flotte au-dessus de nous"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

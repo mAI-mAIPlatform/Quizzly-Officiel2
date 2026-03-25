@@ -1,0 +1,64 @@
+{
+  "id": "quiz27",
+  "titre": "Vocabulaire Santé",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la 'Prévention' en santé ?",
+      "options": [
+        "L'ensemble des mesures pour éviter l'apparition de maladies",
+        "Le nom d'un médicament",
+        "Une opération chirurgicale",
+        "Une cure de vitamines"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'Dépistage' consiste à rechercher une maladie chez une personne qui ne présente pas encore de symptômes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'ensemble des règles de propreté pour rester en bonne santé s'appelle l'{{1}} (hygiène).",
+      "reponsesAttendues": [
+        "hygiène",
+        "hygiene"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme à son sens.",
+      "pairs": [
+        {
+          "left": "Épidémie",
+          "right": "Maladie qui se propage rapidement à beaucoup de personnes"
+        },
+        {
+          "left": "Sédentarité",
+          "right": "Fait de rester trop assis ou couché sans bouger"
+        },
+        {
+          "left": "Convalescence",
+          "right": "Période de repos après une maladie pour retrouver ses forces"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie être 'Asymptomatique' ?",
+      "options": [
+        "Être porteur d'une maladie mais ne présenter aucun signe visible",
+        "Avoir très mal à la gorge",
+        "Être allergique aux fraises",
+        "Avoir fini de grandir"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

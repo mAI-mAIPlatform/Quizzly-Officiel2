@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "L'Énergie Éolienne",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment une éolienne produit-elle de l'électricité ?",
+      "options": [
+        "Le vent fait tourner des pales qui entraînent un alternateur",
+        "Elle aspire le vent pour le brûler",
+        "Elle capte la foudre",
+        "Elle vibre avec le bruit du vent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une éolienne 'Offshore' est installée en mer.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'orientation des {{1}} permet de capter au mieux la force du vent.",
+      "reponsesAttendues": [
+        "pales"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Composants Éolienne.",
+      "pairs": [
+        {
+          "left": "Mât",
+          "right": "Supporte la nacelle en hauteur"
+        },
+        {
+          "left": "Nacelle",
+          "right": "Contient l'alternateur et les engrenages"
+        },
+        {
+          "left": "Rotor",
+          "right": "Ensemble des pales en mouvement"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'inconvénient principal de l'éolien ?",
+      "options": [
+        "L'intermittence (on ne produit que quand il y a du vent)",
+        "Ça consomme trop d'eau",
+        "Le vent s'use",
+        "C'est trop lourd pour le sol"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

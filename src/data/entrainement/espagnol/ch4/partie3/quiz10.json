@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "EXAMEN FINAL : ESPAÑOL",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": " 'El arte hispánico es rico, variado y mundialmente famoso' ",
+      "options": [
+        "L'art hispanique est riche, varié et mondialement célèbre",
+        "J'aime le fromage",
+        "L'espagnol est difficile",
+        "Demain il fera beau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Has completado 120 quiz de español.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "El Quijote luchaba contra los {{1}}.",
+      "reponsesAttendues": [
+        "molinos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Resumen Final.",
+      "pairs": [
+        {
+          "left": "Salvador Dalí",
+          "right": "Surrealismo"
+        },
+        {
+          "left": "Gabriel García Márquez",
+          "right": "Realismo Mágigo"
+        },
+        {
+          "left": "Antoni Gaudí",
+          "right": "Modernismo"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¡ENHORABUENA! ¿Qué materia quieres ahora?",
+      "options": [
+        "¡Alemán!",
+        "¡Portugués!",
+        "¡Chino!",
+        "¡Fin!"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

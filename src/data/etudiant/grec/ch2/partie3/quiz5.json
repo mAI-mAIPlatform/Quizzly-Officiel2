@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Alexandre le Grand",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "De quel royaume Alexandre était-il le souverain ?",
+      "options": [
+        "La Macédoine",
+        "Athènes",
+        "Sparte",
+        "L'Égypte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Alexandre a été l'élève du philosophe Aristote.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le cheval célèbre d'Alexandre s'appelait {{1}} (Bucéphale).",
+      "reponsesAttendues": [
+        "Bucéphale"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la bataille d'Alexandre.",
+      "pairs": [
+        {
+          "left": "Granique",
+          "right": "Première victoire en Asie"
+        },
+        {
+          "left": "Issos",
+          "right": "Darius III s'enfuit"
+        },
+        {
+          "left": "Gaugamèles",
+          "right": "Victoire décisive finale"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Jusqu'où Alexandre a-t-il mené ses armées à l'Est ?",
+      "options": [
+        "L'Inde",
+        "La Chine",
+        "Le Japon",
+        "L'Australie"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Drinks",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "How do you say 'Eau' in English?",
+      "options": [
+        "Water",
+        "Milk",
+        "Juice",
+        "Soda"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Tea is very popular in the UK.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Orange {{1}} is good for breakfast.",
+      "reponsesAttendues": [
+        "juice"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match drinks.",
+      "pairs": [
+        {
+          "left": "Hot",
+          "right": "Coffee"
+        },
+        {
+          "left": "Cold",
+          "right": "Iced Tea"
+        },
+        {
+          "left": "Fizzy",
+          "right": "Cola"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Where does milk come from?",
+      "options": [
+        "Cows",
+        "Flowers",
+        "Trees",
+        "Rocks"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

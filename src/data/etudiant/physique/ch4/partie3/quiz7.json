@@ -1,0 +1,63 @@
+{
+  "id": "quiz27",
+  "titre": "Signaux invisibles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle onde est utilisée par les télécommandes de TV ?",
+      "options": [
+        "L'infrarouge",
+        "L'ultraviolet",
+        "La lumière rouge visible",
+        "Le son"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les rayons X sont des signaux invisibles utilisés pour voir à travers le corps.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le GPS utilise des ondes {{1}} émises par des satellites.",
+      "reponsesAttendues": [
+        "radio"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'onde à son danger potentiel.",
+      "pairs": [
+        {
+          "left": "Ultraviolet (UV)",
+          "right": "Brûlures de la peau (coups de soleil)"
+        },
+        {
+          "left": "Rayons X",
+          "right": "Mutation des cellules (en dose forte)"
+        },
+        {
+          "left": "Infrarouge (IR)",
+          "right": "Échauffement à distance"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "L'infrarouge peut-il traverser un mur épais ?",
+      "options": [
+        "Non, il est facilement arrêté",
+        "Oui, sans aucun problème",
+        "Seulement s'il fait très chaud",
+        "Oui, si on utilise un miroir"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

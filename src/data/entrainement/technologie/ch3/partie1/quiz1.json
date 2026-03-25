@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Qu'est-ce qu'un réseau ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le but principal d'un réseau informatique ?",
+      "options": [
+        "Partager des ressources (fichiers, imprimantes) et communiquer",
+        "Éteindre les ordinateurs",
+        "Augmenter le prix du matériel",
+        "Décorer le bureau avec des câbles"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un réseau LAN (Local Area Network) couvre un bâtiment ou une maison.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'équipement qui connecte plusieurs appareils dans un même réseau local est le {{1}} (ou commutateur).",
+      "reponsesAttendues": [
+        "switch"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Types de Réseaux.",
+      "pairs": [
+        {
+          "left": "LAN",
+          "right": "Réseau Local (Maison, Collège)"
+        },
+        {
+          "left": "WAN",
+          "right": "Réseau Grande Distance (Internet)"
+        },
+        {
+          "left": "WLAN",
+          "right": "Réseau sans fil (Wi-Fi)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on la structure physique d'un réseau (façon dont ils sont reliés) ?",
+      "options": [
+        "La topologie",
+        "La géographie",
+        "L'anatomie",
+        "Le design"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

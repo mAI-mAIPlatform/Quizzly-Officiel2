@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Largeur et Alignement (Attributs)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel attribut définissait autrefois la largeur ?",
+      "options": [
+        "width",
+        "size",
+        "length",
+        "pixel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'align' permettait de centrer le tableau sur la page.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour qu'un tableau prenne toute la largeur, on mettait width='{{1}}%'.",
+      "reponsesAttendues": [
+        "100"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Valeurs d'alignement.",
+      "pairs": [
+        {
+          "left": "left",
+          "right": "Gauche"
+        },
+        {
+          "left": "center",
+          "right": "Centre"
+        },
+        {
+          "left": "right",
+          "right": "Droite"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi ces attributs sont-ils marqués 'dépréciés' ?",
+      "options": [
+        "Car le CSS gère mieux le design",
+        "Car ils cassent le site",
+        "Car ils sont trop courts",
+        "Car personne ne les aime"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

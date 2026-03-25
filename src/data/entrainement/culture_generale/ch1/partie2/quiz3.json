@@ -1,0 +1,62 @@
+{
+  "id": "quiz3",
+  "titre": "Peintures et Musées",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quel célèbre musée parisien se trouve 'La Joconde' ?",
+      "options": [
+        "Musée d'Orsay",
+        "Musée du Louvre",
+        "Centre Pompidou",
+        "Musée Rodin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Vincent van Gogh a peint 'La Nuit étoilée'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le peintre espagnol célèbre pour ses œuvres cubistes est Pablo {{1}}.",
+      "reponsesAttendues": [
+        "Picasso"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Claude Monet",
+          "right": "Impressionnisme"
+        },
+        {
+          "left": "Salvador Dalí",
+          "right": "Surréalisme"
+        },
+        {
+          "left": "Johannes Vermeer",
+          "right": "La Jeune Fille à la perle"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel mouvement artistique utilise de petites touches de couleur pour capturer la lumière ?",
+      "options": [
+        "L'Impressionnisme",
+        "Le Cubisme",
+        "L'Expressionnisme",
+        "Le Baroque"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

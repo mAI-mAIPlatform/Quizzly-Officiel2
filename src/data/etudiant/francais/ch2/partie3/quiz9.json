@@ -1,0 +1,63 @@
+{
+  "id": "quiz29",
+  "titre": "Le Plus-que-parfait",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'exprime le plus-que-parfait ?",
+      "options": [
+        "Une action passée avant une autre action passée",
+        "Une action future",
+        "Une action présente",
+        "Un secret"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le plus-que-parfait se forme avec l'auxiliaire à l'imparfait + participe passé.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Il {{1}} (avoir) fini son travail quand je suis arrivé.",
+      "reponsesAttendues": [
+        "avait"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la forme conjuguée à son temps.",
+      "pairs": [
+        {
+          "left": "J'avais mangé",
+          "right": "Plus-que-parfait"
+        },
+        {
+          "left": "J'ai mangé",
+          "right": "Passé composé"
+        },
+        {
+          "left": "Je mangeais",
+          "right": "Imparfait"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Dans 'Elle s'était perdue', quel est l'auxiliaire ?",
+      "options": [
+        "être (à l'imparfait)",
+        "avoir",
+        "perdre",
+        "aller"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Couleurs et Dégradés",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel attribut change la couleur de remplissage ?",
+      "options": [
+        "fillStyle",
+        "color",
+        "paintColor",
+        "bgStyle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "createLinearGradient crée un dégradé entre deux points.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On ajoute une couleur au dégradé avec addColor{{1}}().",
+      "reponsesAttendues": [
+        "Stop"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Styles de ligne.",
+      "pairs": [
+        {
+          "left": "lineWidth",
+          "right": "Épaisseur"
+        },
+        {
+          "left": "strokeStyle",
+          "right": "Couleur du trait"
+        },
+        {
+          "left": "lineCap",
+          "right": "Forme des extrémités (round, butt...)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment définir une couleur avec transparence ?",
+      "options": [
+        "rgba(255, 0, 0, 0.5)",
+        "transparent(0.5)",
+        "alpha(red, 0.5)",
+        "C'est impossible"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

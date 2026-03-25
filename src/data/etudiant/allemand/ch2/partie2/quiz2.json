@@ -1,0 +1,63 @@
+{
+  "id": "quiz12",
+  "titre": "Hausarbeit",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Ranger'?",
+      "options": [
+        "Aufräumen",
+        "Putzen",
+        "Kochen",
+        "Waschen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Putzen' significa 'limpiar'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Meine Mutter {{1}} das Essen (cuisiner).",
+      "reponsesAttendues": [
+        "kocht"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la tarea doméstica.",
+      "pairs": [
+        {
+          "left": "Wäsche waschen",
+          "right": "Laver le linge"
+        },
+        {
+          "left": "Bügeln",
+          "right": "Repasser"
+        },
+        {
+          "left": "Staub saugen",
+          "right": "Passer l'aspirateur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'sauber machen'?",
+      "options": [
+        "Nettoyer / Faire propre",
+        "Salir",
+        "Dormir",
+        "Cantar"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Projet 1 : La Défaite",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment limiter le nombre d'essais à 10 ?",
+      "options": [
+        "while gagne == False and essais < 10:",
+        "if essais == 10: lock()",
+        "for i in range(10): try()",
+        "limit essais to 10"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si la boucle s'arrête parce que 'essais == 10' et non parce que 'gagne == True', alors le joueur a perdu.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans le message de défaite, on affiche souvent le nombre qu'il fallait trouver avec : print(\"Dommage, c'était {{1}}\") (secret).",
+      "reponsesAttendues": [
+        "secret"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la condition à l'issue de la partie.",
+      "pairs": [
+        {
+          "left": "gagne == True",
+          "right": "Victoire"
+        },
+        {
+          "left": "essais == max_essais",
+          "right": "Défaite"
+        },
+        {
+          "left": "while conditions:",
+          "right": "Partie en cours"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si 'essais' dépasse la limite sans condition de sortie ?",
+      "options": [
+        "Le jeu continue à l'infini tant que le joueur ne trouve pas",
+        "Python s'arrête tout seul",
+        "Le score devient négatif",
+        "L'ordinateur redémarre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

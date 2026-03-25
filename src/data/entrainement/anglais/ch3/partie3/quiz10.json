@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Chapter 3 Review : World Culture",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What makes a country's culture?",
+      "options": [
+        "Food, language, and traditions",
+        "Only the weather",
+        "Only the money",
+        "Nothing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Traveling helps to understand other people.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "I love visiting new {{1}}.",
+      "reponsesAttendues": [
+        "places"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Match.",
+      "pairs": [
+        {
+          "left": "Monument",
+          "right": "History"
+        },
+        {
+          "left": "Dish",
+          "right": "Food"
+        },
+        {
+          "left": "Custom",
+          "right": "Habit"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Ready for Chapter 4 about Hobbies?",
+      "options": [
+        "Yes!",
+        "Definitely!",
+        "Let's go!",
+        "Review Chapter 3"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

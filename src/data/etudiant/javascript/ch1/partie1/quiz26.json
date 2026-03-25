@@ -1,0 +1,65 @@
+{
+  "id": "quiz26",
+  "titre": "Fonctions Fléchées",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la syntaxe d'une fonction fléchée (Arrow function) ?",
+      "options": [
+        "const f = () => { ... }",
+        "function f => { ... }",
+        "let f = -> { ... }",
+        "const f() { => ... }"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les fonctions fléchées sont une syntaxe plus courte apparue avec les versions récentes de JS.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le symbole de la 'flèche' est composé d'un égal et d'un signe {{1}} (supérieur / >).",
+      "reponsesAttendues": [
+        ">",
+        "supérieur",
+        "superieur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la syntaxe au type.",
+      "pairs": [
+        {
+          "left": "function() { }",
+          "right": "Fonction classique"
+        },
+        {
+          "left": "() => { }",
+          "right": "Fonction fléchée"
+        },
+        {
+          "left": "x => x * 2",
+          "right": "Fléchée ultra-courte"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage d'une fonction fléchée sur une seule ligne ?",
+      "options": [
+        "Elle renvoie le résultat automatiquement sans écrire 'return'",
+        "Elle fait clignoter le bouton",
+        "Elle est plus rapide pour l'ordinateur",
+        "Il n'y a aucun avantage"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Casting : Changer de type",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Casting' ?",
+      "options": [
+        "Changer le type d'une variable",
+        "Supprimer une variable",
+        "Renommer une variable",
+        "Filmer le code"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "str(5) transforme le nombre 5 en texte '5'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour transformer un texte en nombre entier, on utilise {{1}}().",
+      "reponsesAttendues": [
+        "int"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la fonction de casting.",
+      "pairs": [
+        {
+          "left": "float()",
+          "right": "Vers nombre décimal"
+        },
+        {
+          "left": "int()",
+          "right": "Vers nombre entier"
+        },
+        {
+          "left": "str()",
+          "right": "Vers texte (chaîne)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que donnera int(3.9) ?",
+      "options": [
+        "3",
+        "4",
+        "3.9",
+        "Erreur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

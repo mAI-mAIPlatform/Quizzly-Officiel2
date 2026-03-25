@@ -1,0 +1,63 @@
+{
+  "id": "quiz22",
+  "titre": "Atouts du territoire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la position géographique stratégique de la France en Europe ?",
+      "options": [
+        "Un 'isthme' entre la mer du Nord, la Manche, l'Atlantique et la Méditerranée",
+        "Une île isolée au milieu de l'Océan Indien",
+        "Un pays enclavé sans aucun accès à la mer",
+        "Le point le plus au nord du continent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le réseau de TGV français est l'un des plus performants au monde.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'aéroport parisien qui est un 'hub' mondial majeur est {{1}}-Charles de Gaulle.",
+      "reponsesAttendues": [
+        "Roissy"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'infrastructure à son utilité.",
+      "pairs": [
+        {
+          "left": "Tunnel sous la Manche",
+          "right": "Lien direct avec le Royaume-Uni"
+        },
+        {
+          "left": "Port du Havre",
+          "right": "Porte d'entrée maritime sur l'Atlantique"
+        },
+        {
+          "left": "Autoroutes",
+          "right": "Maillage interne et transit européen"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel de ces éléments attire le plus de visiteurs étrangers en France ?",
+      "options": [
+        "Le patrimoine culturel et historique",
+        "L'absence totale de restaurants",
+        "Le prix très bas de l'essence",
+        "Le silence radio dans les villes"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

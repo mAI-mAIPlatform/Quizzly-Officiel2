@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Besitz (Dativ)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'A mi hermano' (dativo)?",
+      "options": [
+        "Meinem Bruder",
+        "Meiner Bruder",
+        "Meinen Bruder",
+        "Meinm Bruder"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En femenino dativo, el posesivo termina en '-er' (meiner Mutter).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich gebe {{1}} (ta-fem) Schwester das Geschenk.",
+      "reponsesAttendues": [
+        "deiner"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el posesivo dativo.",
+      "pairs": [
+        {
+          "left": "Maskulin",
+          "right": "-em (meinem)"
+        },
+        {
+          "left": "Feminin",
+          "right": "-er (meiner)"
+        },
+        {
+          "left": "Plural",
+          "right": "-en (meinen)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'De mis padres' (dativo plural)?",
+      "options": [
+        "Meinen Eltern",
+        "Meiner Eltern",
+        "Meinem Eltern",
+        "Meine Eltern"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

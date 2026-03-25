@@ -1,0 +1,63 @@
+{
+  "id": "quiz25",
+  "titre": "Possessivartikel",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Mon père'?",
+      "options": [
+        "Mein Vater",
+        "Meine Vater",
+        "Meinen Vater",
+        "Meinm Vater"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Se añade una '-e' si el sustantivo es femenino o plural.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Das ist {{1}} Mutter (ma).",
+      "reponsesAttendues": [
+        "meine"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el posesivo con el pronombre.",
+      "pairs": [
+        {
+          "left": "Ich",
+          "right": "Mein"
+        },
+        {
+          "left": "Du",
+          "right": "Dein"
+        },
+        {
+          "left": "Er / Es",
+          "right": "Sein"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Ta sœur'?",
+      "options": [
+        "Deine Schwester",
+        "Dein Schwester",
+        "Deiner Schwester",
+        "Meine Schwester"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

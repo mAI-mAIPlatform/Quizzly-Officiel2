@@ -1,0 +1,63 @@
+{
+  "id": "quiz22",
+  "titre": "Fermentation Lactique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel type de micro-organisme fabrique le yaourt ?",
+      "options": [
+        "Des bactéries lactiques",
+        "Des virus de l'air",
+        "Des morceaux de coton",
+        "Des algues de mer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pendant la fermentation, les bactéries transforment le sucre du lait en acide lactique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'acidité produite permet de faire {{1}} le lait (devenir solide).",
+      "reponsesAttendues": [
+        "coaguler"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'étape de fabrication du yaourt à son action.",
+      "pairs": [
+        {
+          "left": "Pasteurisation",
+          "right": "Élimination des microbes indésirables avant ajout"
+        },
+        {
+          "left": "Ensemencement",
+          "right": "Ajout des bactéries lactiques choisies"
+        },
+        {
+          "left": "Étuvage",
+          "right": "Maintien à 45°C pour favoriser la fermentation"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi un yaourt se conserve-t-il plus longtemps que du lait frais ?",
+      "options": [
+        "L'acidité empêche le développement des bactéries pathogènes",
+        "Parce qu'il est dans un pot en plastique",
+        "Parce qu'il a été mélangé avec du sucre",
+        "C'est un mystère de la science"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

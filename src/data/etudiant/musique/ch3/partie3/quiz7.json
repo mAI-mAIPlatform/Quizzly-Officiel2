@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "La Fugue",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la principale caractéristique d'une fugue ?",
+      "options": [
+        "C'est une forme polyphonique complexe basée sur l'imitation d'un sujet",
+        "C'est une musique qui fait peur",
+        "C'est un morceau très court (moins de 10 secondes)",
+        "C'est un chant pour une seule personne sans instrument"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une fugue commence toujours par l'exposition du 'sujet' par une seule voix.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le thème principal d'une fugue s'appelle le {{1}} (sujet).",
+      "reponsesAttendues": [
+        "sujet"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la partie de la fugue à son rôle.",
+      "pairs": [
+        {
+          "left": "Épisode (ou Divertissement)",
+          "right": "Partie libre entre deux entrées du sujet"
+        },
+        {
+          "left": "Strette",
+          "right": "Moment où les entrées du sujet se précipitent"
+        },
+        {
+          "left": "Contre-sujet",
+          "right": "Mélodie qui accompagne toujours le sujet"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel adjectif qualifie le mieux l'écoute d'une fugue ?",
+      "options": [
+        "Intellectuelle et entrelacée",
+        "Simple et répétitive",
+        "Minimaliste",
+        "Désordonnée"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

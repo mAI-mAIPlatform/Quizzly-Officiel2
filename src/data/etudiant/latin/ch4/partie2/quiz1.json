@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "L'ingénierie romaine",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel était le secret de la solidité des routes romaines ?",
+      "options": [
+        "La superposition de plusieurs couches de matériaux",
+        "Elles étaient en caoutchouc",
+        "Elles étaient simplement posées sur l'herbe",
+        "Il n'y avait pas de secret"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les routes romaines étaient construites pour durer et faciliter le mouvement des légions.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le pont se dit {{1}} en latin (pons).",
+      "reponsesAttendues": [
+        "pons"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'élément de construction.",
+      "pairs": [
+        {
+          "left": "Via",
+          "right": "Route"
+        },
+        {
+          "left": "Milliarium",
+          "right": "Borne milliaire (distance)"
+        },
+        {
+          "left": "Pavimentum",
+          "right": "Pavage de surface"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle expression souligne l'importance du réseau routier ?",
+      "options": [
+        "Tous les chemins mènent à Rome",
+        "Rome ne s'est pas faite en un jour",
+        "Veni Vidi Vici",
+        "Carpe Diem"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

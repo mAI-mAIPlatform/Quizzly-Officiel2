@@ -1,0 +1,63 @@
+{
+  "id": "quiz21",
+  "titre": "Geografía de España",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es la capital de España?",
+      "options": [
+        "Madrid",
+        "Barcelona",
+        "Sevilla",
+        "Valencia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "España está dividida en 17 Comunidades Autónomas.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "El río más largo de la península ibérica es el {{1}} (Tage).",
+      "reponsesAttendues": [
+        "Tajo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la región con su ciudad principal.",
+      "pairs": [
+        {
+          "left": "Cataluña",
+          "right": "Barcelona"
+        },
+        {
+          "left": "Andalucía",
+          "right": "Sevilla"
+        },
+        {
+          "left": "Galicia",
+          "right": "Santiago de Compostela"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué picos son los más altos de la península?",
+      "options": [
+        "Los Pirineos / Sierra Nevada",
+        "Los Alpes",
+        "Los Andes",
+        "Los Urales"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

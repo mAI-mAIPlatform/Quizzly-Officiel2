@@ -1,0 +1,70 @@
+{
+  "id": "quiz4",
+  "titre": "Nombres et curseurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel type d'input est optimisé pour les chiffres ?",
+      "options": ["text", "number", "digit", "calc"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut définir un minimum et un maximum avec 'min' et 'max'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} définit le pas d'incrémentation (ex: de 2 en 2).",
+      "reponsesAttendues": ["step"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel type d'input affiche un curseur coulissant ?",
+      "options": ["slider", "range", "scroll", "move"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'input 'range' affiche par défaut la valeur sélectionnée à côté.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle est la valeur par défaut de 'step' pour un input number ?",
+      "options": ["0", "1", "0.1", "10"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "vrai_faux",
+      "enonce": "Sur mobile, type=\"number\" affiche un clavier numérique.",
+      "reponse": true
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "Pour permettre les nombres décimaux (ex: 1.5), on peut mettre step=\"{{1}}\".",
+      "reponsesAttendues": ["any"]
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "L'attribut 'list' sur un input range permet de :",
+      "options": ["Changer la couleur", "Afficher des graduations (points de repère)", "Lister les valeurs déjà saisies", "Désactiver le curseur"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Un input type=\"number\" accepte les lettres 'e' et 'E' (notation scientifique).",
+      "reponse": true
+    }
+  ]
+}

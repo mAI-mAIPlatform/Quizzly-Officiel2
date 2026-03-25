@@ -1,0 +1,63 @@
+{
+  "id": "quiz21",
+  "titre": "Comparaison et Métaphore",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel outil est nécessaire dans une comparaison ?",
+      "options": [
+        "Un outil de comparaison (comme, tel que...)",
+        "Un point d'exclamation",
+        "Un verbe d'action",
+        "Un adjectif qualificatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une métaphore est une comparaison sans outil de comparaison.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans 'Tes yeux sont des étoiles', la figure de style est une {{1}}.",
+      "reponsesAttendues": [
+        "métaphore"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la phrase à sa figure de style.",
+      "pairs": [
+        {
+          "left": "Il est fort comme un lion",
+          "right": "Comparaison"
+        },
+        {
+          "left": "Cet homme est un lion",
+          "right": "Métaphore"
+        },
+        {
+          "left": "Le soleil rit",
+          "right": "Personnification"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le but d'une métaphore en poésie amoureuse ?",
+      "options": [
+        "Créer une image frappante et poétique",
+        "Remplacer le dictionnaire",
+        "Faire des économies de mots",
+        "Expliquer la science"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

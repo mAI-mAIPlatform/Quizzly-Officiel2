@@ -1,0 +1,63 @@
+{
+  "id": "quiz27",
+  "titre": "L'inertie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'inertie d'un corps ?",
+      "options": [
+        "Sa tendance à conserver son état de repos ou de mouvement",
+        "Sa facilité à s'arrêter vite",
+        "Son poids sur la Lune",
+        "La vitesse maximale qu'il peut atteindre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Plus un objet est massif, plus il a d'inertie.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le principe d'inertie a été énoncé par {{1}}.",
+      "reponsesAttendues": [
+        "Newton"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'événement à son explication.",
+      "pairs": [
+        {
+          "left": "Freinage brusque",
+          "right": "Corps projeté vers l'avant (inertie)"
+        },
+        {
+          "left": "Virage à gauche",
+          "right": "Corps déporté vers la droite"
+        },
+        {
+          "left": "Démarrage rapide",
+          "right": "Corps plaqué contre le siège"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Dans l'espace lointain (sans forces), un objet lancé à 50 km/h :",
+      "options": [
+        "Continuera tout droit à 50 km/h indéfiniment",
+        "Finira par s'arrêter car il n'est plus poussé",
+        "Tombera vers le bas",
+        "Tournera en rond"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

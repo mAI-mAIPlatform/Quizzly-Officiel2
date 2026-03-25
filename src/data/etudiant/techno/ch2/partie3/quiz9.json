@@ -1,0 +1,64 @@
+{
+  "id": "quiz9",
+  "titre": "Cas pratique : Plastique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "On veut fabriquer une coque de smartphone en grande série (10 000 pièces). Quel procédé est le plus rentable ?",
+      "options": [
+        "L'injection plastique (moulage)",
+        "L'impression 3D",
+        "L'usinage d'un bloc de plastique",
+        "Le découpage à la main"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le thermoformage permet de fabriquer des formes creuses à partir d'une plaque de plastique chauffée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si on veut personnaliser une coque avec un nom unique pour chaque client, on utilise l'{{1}} (impression / gravure) 3D ou laser.",
+      "reponsesAttendues": [
+        "impression",
+        "gravure"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le besoin à la solution de fabrication.",
+      "pairs": [
+        {
+          "left": "Prototype unique",
+          "right": "Impression 3D"
+        },
+        {
+          "left": "Grande série identique",
+          "right": "Moule d'injection"
+        },
+        {
+          "left": "Forme simple plane",
+          "right": "Découpe laser"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle vérification faire sur la pièce après sa sortie du moule ?",
+      "options": [
+        "Le contrôle des dimensions (pour vérifier le retrait du plastique)",
+        "Compter le nombre de molécules",
+        "Vérifier si elle flotte dans le café",
+        "Attendre qu'elle change de couleur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

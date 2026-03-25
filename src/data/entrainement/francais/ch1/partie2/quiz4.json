@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Quand utiliser l'Imparfait ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle situation demande l'imparfait ?",
+      "options": [
+        "Une description physique ou un décor",
+        "Une action brève et soudaine",
+        "Une consigne",
+        "Une action future"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On utilise l'imparfait pour une habitude passée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le ciel {{1}} bleu et les oiseaux chantaient.",
+      "reponsesAttendues": [
+        "était"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Usage de l'imparfait.",
+      "pairs": [
+        {
+          "left": "Portrait",
+          "right": "Il avait les yeux verts"
+        },
+        {
+          "left": "Habitude",
+          "right": "Chaque soir, il lisait"
+        },
+        {
+          "left": "Décor",
+          "right": "La mer était calme"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Dans 'Il entra alors qu'il pleuvait', quel verbe est à l'imparfait ?",
+      "options": [
+        "Pleuvait",
+        "Entra",
+        "Alors",
+        "Qu'il"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

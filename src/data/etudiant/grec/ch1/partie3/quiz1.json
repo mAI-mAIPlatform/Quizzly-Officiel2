@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "La 3ème déclinaison",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quel type de thèmes correspond principalement la 3ème déclinaison ?",
+      "options": [
+        "Thèmes en consonne",
+        "Thèmes en -a",
+        "Thèmes en -o",
+        "Thèmes en -u"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le génitif singulier de la 3ème déclinaison se termine souvent par -os (ος).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le nom 'hé poie' (la ville) au génitif est 'tês {{1}}' (poleôs / πόλεως).",
+      "reponsesAttendues": [
+        "poleôs"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le mot de la 3ème décl.",
+      "pairs": [
+        {
+          "left": "ho gunaika",
+          "right": "La femme (Acc.)"
+        },
+        {
+          "left": "to sôma",
+          "right": "Le corps"
+        },
+        {
+          "left": "ho anêr",
+          "right": "L'homme / Le mari"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le génitif de 'to sôma' ?",
+      "options": [
+        "tous sômatos (τοῦ σώματος)",
+        "tês sômas",
+        "tous sômou",
+        "tous sômaton"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

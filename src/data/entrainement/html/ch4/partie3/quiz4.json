@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Formulaires et Accessibilité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment lier correctement un label à son input ?",
+      "options": [
+        "label for='id_input' et input id='id_input'",
+        "Juste en les mettant à côté",
+        "En mettant du texte dans l'input",
+        "En utilisant une div"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "<fieldset> et <legend> permettent de grouper des champs liés sémantiquement.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour indiquer une erreur sur un champ, on utilise aria-in{{1}}='true'.",
+      "reponsesAttendues": [
+        "valid"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Aide Formulaire.",
+      "pairs": [
+        {
+          "left": "required",
+          "right": "Indication native d'obligation"
+        },
+        {
+          "left": "aria-required",
+          "right": "Indication pour lecteur d'écran"
+        },
+        {
+          "left": "placeholder",
+          "right": "PAS un remplaçant de label"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "L'attribut 'autocomplete' aide-t-il l'accessibilité ?",
+      "options": [
+        "Oui, il réduit l'effort cognitif et de saisie moteur",
+        "Non, c'est pour la pub",
+        "Uniquement sur mobile",
+        "C'est un risque de sécurité"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

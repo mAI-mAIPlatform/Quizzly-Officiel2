@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Les Chaînes de caractères (str)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment définit-on une chaîne de caractères ?",
+      "options": [
+        "Entre guillemets simples ' '",
+        "Entre guillemets doubles \" \"",
+        "Entre triples guillemets",
+        "Toutes ces réponses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'123' est considéré comme un nombre entier par Python.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La concaténation se fait avec l'opérateur '{{1}}'.",
+      "reponsesAttendues": [
+        "+"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le code str.",
+      "pairs": [
+        {
+          "left": "\"L'arbre\"",
+          "right": "Correct (mélange de guillemets)"
+"        },
+        {
+          "left": "'C'est'",
+          "right": "Erreur s'il n'y a pas d'échappement"
+        },
+        {
+          "left": "str(10)",
+          "right": "Nombre vers texte"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment obtenir la longueur d'une chaîne ?",
+      "options": [
+        "len(ma_chaine)",
+        "size(ma_chaine)",
+        "length(ma_chaine)",
+        "count(ma_chaine)"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

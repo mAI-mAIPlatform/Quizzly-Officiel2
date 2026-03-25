@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "La Contaminación",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Pollution de l'air' ?",
+      "options": [
+        "Contaminación del aire",
+        "Contaminación del mar",
+        "Ruido",
+        "Reciclaje"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'El humo' de las fábricas contamina.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Déchets' se dice '{{1}}' en plural.",
+      "reponsesAttendues": [
+        "residuos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Problemas.",
+      "pairs": [
+        {
+          "left": "Smog",
+          "right": "Niebla contaminante"
+        },
+        {
+          "left": "Marea negra",
+          "right": "Petróleo en el mar"
+        },
+        {
+          "left": "Basura",
+          "right": "Ordures / Déchets"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Por qué hay calentamiento global?",
+      "options": [
+        "Por el efecto invernadero",
+        "Por la lluvia",
+        "Por el viento",
+        "Porque hace sol"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

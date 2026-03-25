@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan : Les Conditions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment vérifier si une liste 'L' n'est pas vide ?",
+      "options": [
+        "if L:",
+        "if len(L) > 0:",
+        "if L != []:",
+        "Toutes ces réponses sont valides"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser IF pour créer des programmes interactifs.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'instruction IF sert à faire des {{1}} dans le code.",
+      "reponsesAttendues": [
+        "choix"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Synthèse conditions :",
+      "pairs": [
+        {
+          "left": "if",
+          "right": "Indispensable"
+        },
+        {
+          "left": "elif",
+          "right": "Optionnel (entre)"
+        },
+        {
+          "left": "else",
+          "right": "Optionnel (fin)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour la partie 2 sur les Boucles While ?",
+      "options": [
+        "Oui!",
+        "Andiamo!",
+        "Let's go Python!",
+        "Pas encore"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

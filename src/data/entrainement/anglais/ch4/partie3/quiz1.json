@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Dream Jobs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What does an 'Astronaut' do?",
+      "options": [
+        "Travels to space",
+        "Cooks food",
+        "Drives a train",
+        "Teaches art"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "An 'Architect' designs buildings.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "I want to be a {{1}} so I can help sick animals.",
+      "reponsesAttendues": [
+        "vet"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the dream jobs.",
+      "pairs": [
+        {
+          "left": "Pilot",
+          "right": "Flying planes"
+        },
+        {
+          "left": "Artist",
+          "right": "Creating art"
+        },
+        {
+          "left": "Engineer",
+          "right": "Designing machines"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Which job involves writing stories?",
+      "options": [
+        "Author / Writer",
+        "Baker",
+        "Dentist",
+        "Police officer"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "La Traite Négrière",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où sont emmenés la majorité des esclaves africains ?",
+      "options": [
+        "Dans les plantations en Amérique",
+        "En Europe pour travailler dans les bureaux",
+        "En Asie",
+        "En Australie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'Code Noir' réglait la vie des esclaves dans les colonies françaises.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le voyage forcé à travers l'Océan Atlantique s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "traversée"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le terme à sa définition.",
+      "pairs": [
+        {
+          "left": "Négrier",
+          "right": "Navire ou marchand d'esclaves"
+        },
+        {
+          "left": "Plantation",
+          "right": "Grande exploitation agricole"
+        },
+        {
+          "left": "Abolition",
+          "right": "Suppression de l'esclavage"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quels étaient les principaux travaux des esclaves aux Antilles ?",
+      "options": [
+        "La culture de la canne à sucre",
+        "La construction de gratte-ciels",
+        "La vente de voitures",
+        "Le jardinage public"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

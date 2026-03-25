@@ -1,0 +1,63 @@
+{
+  "id": "quiz20",
+  "titre": "Bilan : Évolution des Paysages",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le moteur principal de l'évolution des paysages à la surface ?",
+      "options": [
+        "L'énergie solaire (climat, eau, vent)",
+        "Les tremblements de terre uniquement",
+        "La rotation de la Lune",
+        "L'attraction terrestre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un paysage est en évolution permanente, même si cela paraît lent à l'échelle humaine.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'étude de la forme des paysages s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "géomorphologie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'étape au cycle géologique.",
+      "pairs": [
+        {
+          "left": "Érosion",
+          "right": "Altération des roches sur les reliefs"
+        },
+        {
+          "left": "Transport",
+          "right": "Déplacement des débris vers les points bas"
+        },
+        {
+          "left": "Sédimentation",
+          "right": "Dépôt et formation de nouvelles roches"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le rôle de l'Homme dans cette dynamique ?",
+      "options": [
+        "Il est devenu un agent géologique majeur qui modifie les cycles naturels",
+        "Il ne fait que regarder sans rien changer",
+        "Il empêche la Terre de tourner",
+        "Il a arrêté l'érosion partout"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

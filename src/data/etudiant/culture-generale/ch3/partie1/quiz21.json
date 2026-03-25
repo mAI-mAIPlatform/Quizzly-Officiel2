@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Histoire du Cinéma",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quels frères français sont considérés comme les inventeurs du cinéma en 1895 ?",
+      "options": [
+        "Les Frères Lumière",
+        "Les Frères Montgolfier",
+        "Les Frères Kennedy",
+        "Les Frères Wright"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le tout premier film projeté s'appelait 'La Sortie des usines Lumière à Lyon'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'immense star du cinéma muet, célèbre pour son personnage de 'Charlot', est Charlie {{1}} (Chaplin).",
+      "reponsesAttendues": [
+        "Chaplin"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'invention à sa date (environ).",
+      "pairs": [
+        {
+          "left": "Arrivée du parlant",
+          "right": "Fin des années 1920 (1927)"
+        },
+        {
+          "left": "Arrivée de la couleur",
+          "right": "Années 1930 - 1940"
+        },
+        {
+          "left": "Première projection publique",
+          "right": "1895"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel magicien est devenu un pionnier des effets spéciaux au cinéma (ex: Le Voyage dans la Lune) ?",
+      "options": [
+        "Georges Méliès",
+        "Harry Houdini",
+        "David Copperfield",
+        "Gandalf"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

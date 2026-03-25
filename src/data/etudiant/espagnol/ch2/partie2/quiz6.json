@@ -1,0 +1,63 @@
+{
+  "id": "quiz16",
+  "titre": "JUGAR vs TOCAR",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué verbo usas para un deporte con pelota?",
+      "options": [
+        "Jugar (a)",
+        "Tocar",
+        "Hacer",
+        "Ver"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Se dice 'Tocar la guitarra'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Mis amigos {{1}} (jugar) al fútbol todos los domingos.",
+      "reponsesAttendues": [
+        "juegan"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el verbo con la actividad.",
+      "pairs": [
+        {
+          "left": "Jugar",
+          "right": "Videojuegos / Ajedrez"
+        },
+        {
+          "left": "Tocar",
+          "right": "Piano / Flauta"
+        },
+        {
+          "left": "Hacer",
+          "right": "Surf / Gimnasia"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Je joue du piano'?",
+      "options": [
+        "Toco el piano",
+        "Juego al piano",
+        "Hago el piano",
+        "Toco piano"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Discours Indirect Libre",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le discours indirect libre ?",
+      "options": [
+        "Un mélange du direct et de l'indirect sans verbe de parole ni que",
+        "Un discours sans fautes",
+        "Un poème sans rimes",
+        "Un dialogue de théâtre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le discours indirect libre permet de glisser les pensées d'un personnage dans le récit.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans 'Il était triste. Reviendrait-elle un jour ?', la question est au discours {{1}} libre.",
+      "reponsesAttendues": [
+        "indirect"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Identifie le style.",
+      "pairs": [
+        {
+          "left": "'Vais-je réussir ?', pensa-t-il.",
+          "right": "Direct"
+        },
+        {
+          "left": "Il se demandait s'il réussirait.",
+          "right": "Indirect"
+        },
+        {
+          "left": "Réussirait-il enfin ?",
+          "right": "Indirect libre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel auteur est célèbre pour l'usage du discours indirect libre ?",
+      "options": [
+        "Gustave Flaubert",
+        "Jean de La Fontaine",
+        "Molière",
+        "Pierre Corneille"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

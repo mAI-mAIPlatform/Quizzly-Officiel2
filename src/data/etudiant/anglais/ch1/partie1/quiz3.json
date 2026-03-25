@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Staying in a Hotel",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What do you call the person who works at the hotel entrance?",
+      "options": [
+        "Receptionist",
+        "Chef",
+        "Gardener",
+        "Teacher"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A 'double room' is for two people.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "When you leave the hotel, you have to {{1}} out.",
+      "reponsesAttendues": [
+        "check"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the hotel service with its name.",
+      "pairs": [
+        {
+          "left": "Room service",
+          "right": "Food brought to your room"
+        },
+        {
+          "left": "Housekeeping",
+          "right": "Cleaning of the room"
+        },
+        {
+          "left": "Wake-up call",
+          "right": "A phone call to wake you up"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What does 'full board' mean?",
+      "options": [
+        "Breakfast, lunch, and dinner are included",
+        "Only breakfast is included",
+        "The hotel is full of people",
+        "You sleep on a wooden board"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

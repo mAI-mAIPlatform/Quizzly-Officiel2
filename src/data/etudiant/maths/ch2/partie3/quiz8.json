@@ -1,0 +1,63 @@
+{
+  "id": "quiz28",
+  "titre": "Problème : Câble et tyrolienne",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "On tend un câble entre deux sommets distants de 40m. L'un est à 10m de haut, l'autre à 40m. Longueur du câble ?",
+      "options": [
+        "30 m",
+        "50 m",
+        "70 m",
+        "racine de 2500 m (soit 50 m)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Ici, on doit utiliser la différence de hauteur (30m) comme côté du triangle.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le triangle rectangle a pour côtés 30m et {{1}}m.",
+      "reponsesAttendues": [
+        "40"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe chaque longueur à son nom.",
+      "pairs": [
+        {
+          "left": "Distance horizontale",
+          "right": "Base"
+        },
+        {
+          "left": "Différence d'altitude",
+          "right": "Hauteur"
+        },
+        {
+          "left": "Longueur du câble",
+          "right": "Hypoténuse"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si le câble a du mou et pend :",
+      "options": [
+        "Il est plus court",
+        "Il est plus long",
+        "Pythagore ne s'applique plus direct.",
+        "Plus long et Pythagore ne s'applique plus direct."
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

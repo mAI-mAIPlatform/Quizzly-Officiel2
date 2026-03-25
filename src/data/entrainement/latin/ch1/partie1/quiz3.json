@@ -1,0 +1,62 @@
+{
+  "id": "quiz3",
+  "titre": "Salutations et Politesse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Bonjour' à une seule personne ?",
+      "options": [
+        "Salve",
+        "Salvete",
+        "Vale",
+        "Valete"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Vale' signifie 'Au revoir' ou 'Porte-toi bien'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour dire 'Bonjour' à plusieurs personnes, on utilise le pluriel {{1}}.",
+      "reponsesAttendues": [
+        "Salvete"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Salve",
+          "right": "Bonjour (sing.)"
+        },
+        {
+          "left": "Vale",
+          "right": "Au revoir (sing.)"
+        },
+        {
+          "left": "Gratias ago",
+          "right": "Je remercie"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle expression signifie 'S'il te plaît' ?",
+      "options": [
+        "Si vis",
+        "Si vales",
+        "Quid agis ?",
+        "Ave"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

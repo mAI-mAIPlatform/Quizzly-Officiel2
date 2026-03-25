@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Krankheit und Schmerzen",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'J'ai mal à la tête' ?",
+      "options": [
+        "Ich habe Kopfschmerzen",
+        "Ich habe Hunger",
+        "Ich habe Durst",
+        "Ich habe Glück"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Weh tun' bedeutet 'Faire mal'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich bin {{1}} (malade).",
+      "reponsesAttendues": [
+        "krank"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Symptome.",
+      "pairs": [
+        {
+          "left": "Fieber",
+          "right": "Fièvre"
+        },
+        {
+          "left": "Husten",
+          "right": "Toux"
+        },
+        {
+          "left": "Schnupfen",
+          "right": "Rhume"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Was fehlt dir?",
+      "options": [
+        "Ich habe Bauchschmerzen",
+        "Ich bin eine Bauchschmerze",
+        "Bauch ist Hunger",
+        "Hallo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Cap. 1 P. 3 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Le génitif de 'sôma' est {{1}} et l'imparfait de 'eimi' est {{2}}.",
+      "options": [
+        "sômatos / ên",
+        "sômou / esti",
+        "sômas / eimi",
+        "sômati / esmen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Tis' signifie 'Qui ?'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La démocratie signifie le pouvoir du {{1}} (peuple / Démos).",
+      "reponsesAttendues": [
+        "peuple"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les rôles.",
+      "pairs": [
+        {
+          "left": "Ecclésia",
+          "right": "Assemblée"
+        },
+        {
+          "left": "Thalatta",
+          "right": "La mer"
+        },
+        {
+          "left": "Egô",
+          "right": "Moi / Je"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'pros' + accusatif ?",
+      "options": [
+        "Vers / En direction de",
+        "Dans",
+        "Sous",
+        "Derrière"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

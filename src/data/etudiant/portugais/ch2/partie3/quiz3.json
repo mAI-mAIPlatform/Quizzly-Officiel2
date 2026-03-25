@@ -1,0 +1,63 @@
+{
+  "id": "quiz23",
+  "titre": "Contrações",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "De + o = ?",
+      "options": [
+        "Do",
+        "Da",
+        "No",
+        "Pelo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Em + a = Na.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu vou {{1}} cinema (a + o = ao).",
+      "reponsesAttendues": [
+        "ao"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la contracción.",
+      "pairs": [
+        {
+          "left": "De + ela",
+          "right": "Dela"
+        },
+        {
+          "left": "Em + este",
+          "right": "Neste"
+        },
+        {
+          "left": "A + aquele",
+          "right": "Àquele"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'En la escuela'?",
+      "options": [
+        "Na escola",
+        "No escola",
+        "Da escola",
+        "Em escola"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

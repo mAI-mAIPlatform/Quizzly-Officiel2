@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Articles indéfinis masculins",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Un' devant une consonne simple (ex: Un livre) ?",
+      "options": [
+        "Un",
+        "Uno",
+        "Una",
+        "Un'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On utilise 'Uno' devant Z ou S + consonne (ex: Uno zaino).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Devant une voyelle au MASCULIN, on écrit {{1}} (sans apostrophe).",
+      "reponsesAttendues": [
+        "un"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'article indéfini discret.",
+      "pairs": [
+        {
+          "left": "Un",
+          "right": "Ragazzo"
+        },
+        {
+          "left": "Uno",
+          "right": "Specchio (Mirroir)"
+        },
+        {
+          "left": "Un",
+          "right": "Albero (Arbre)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est INCORRECT ?",
+      "options": [
+        "Un amico",
+        "Uno zaino",
+        "Un'amico",
+        "Un libro"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

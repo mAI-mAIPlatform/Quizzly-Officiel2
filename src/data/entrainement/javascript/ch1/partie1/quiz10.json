@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan : Variables et Types",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Laquelle est une déclaration valide ?",
+      "options": [
+        "let 1erPrix = 10;",
+        "const prix final = 20;",
+        "let mon_prix_2 = 30;",
+        "var -prix = 5;"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "JavaScript est un langage dynamiquement typé (une variable peut changer de type).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le type d'une valeur entre guillemets est une {{1}}.",
+      "reponsesAttendues": [
+        "chaîne"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dernier défi pour la partie 1 :",
+      "pairs": [
+        {
+          "left": "Assignation",
+          "right": "="
+        },
+        {
+          "left": "Addition",
+          "right": "+"
+        },
+        {
+          "left": "Échange de variable",
+          "right": "Variable temporaire nécessaire"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour la partie 2 sur les chaînes et booléens ?",
+      "options": [
+        "Oui !",
+        "Pas encore",
+        "C'est quoi un booléen ?",
+        "Je veux du Python"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Le verbe Guardare (Regarder)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Je regarde la télé' ?",
+      "options": [
+        "Guardo la TV",
+        "Guardate la TV",
+        "Guardano la TV",
+        "Guardiamo la TV"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Guardami!' signifie 'Regarde-moi !'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vous regardez se dit 'Voi {{1}}'.",
+      "reponsesAttendues": [
+        "guardate"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe pour Guardare.",
+      "pairs": [
+        {
+          "left": "Tu",
+          "right": "Guardi"
+        },
+        {
+          "left": "Noi",
+          "right": "Guardiamo"
+        },
+        {
+          "left": "Loro",
+          "right": "Guardano"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Ils regardent un film' ?",
+      "options": [
+        "Guardano un film",
+        "Guarda un film",
+        "Guardate un film",
+        "Guardiamo un film"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

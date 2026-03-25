@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Miguel de Cervantes y El Quijote",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es el título completo de la obra maestra de Cervantes?",
+      "options": [
+        "Don Quijote de la Mancha",
+        "El ingenioso hidalgo",
+        "Sancho Panza",
+        "Molinillos de viento"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Sancho Panza es el escudero de Don Quijote.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Don Quijote confundía los molinos con {{1}}.",
+      "reponsesAttendues": [
+        "gigantes"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Personajes.",
+      "pairs": [
+        {
+          "left": "Don Quijote",
+          "right": "Caballero andante"
+        },
+        {
+          "left": "Rocinante",
+          "right": "Caballo"
+        },
+        {
+          "left": "Dulcinea",
+          "right": "La dama amada"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿En qué año se publicó la primera parte?",
+      "options": [
+        "1605",
+        "1492",
+        "1789",
+        "1936"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

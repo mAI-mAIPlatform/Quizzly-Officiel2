@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Tagesablauf (L'emploi du temps)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Ich gehe ... Schule.",
+      "options": [
+        "zur",
+        "in die",
+        "nach",
+        "bei"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Mittagessen' ist eine warme Mahlzeit.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Nach der Schule {{1}} (faire) ich Hausaufgaben.",
+      "reponsesAttendues": [
+        "mache"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Routine.",
+      "pairs": [
+        {
+          "left": "Bus fahren",
+          "right": "Prendre le bus"
+        },
+        {
+          "left": "Lernen",
+          "right": "Apprendre"
+        },
+        {
+          "left": "Schlafen",
+          "right": "Dormir"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Wann kommst du nach Hause?",
+      "options": [
+        "Um vier Uhr",
+        "Mit dem Fahrrad",
+        "Das ist mein Haus",
+        "Hallo Haus"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

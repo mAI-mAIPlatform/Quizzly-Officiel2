@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Les Aqueducs (Aquaeductus)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle était la fonction principale d'un aqueduc ?",
+      "options": [
+        "Amener l'eau des sources vers les villes",
+        "Servir de mur de défense",
+        "Transporter le courrier",
+        "Élever du bétail"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'eau s'écoulait grâce à une légère pente constante.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'eau se dit {{1}} en latin (aqua).",
+      "reponsesAttendues": [
+        "aqua"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les termes techniques.",
+      "pairs": [
+        {
+          "left": "Specus",
+          "right": "Canal d'écoulement"
+        },
+        {
+          "left": "Castellum aquae",
+          "right": "Château d'eau / Répartiteur"
+        },
+        {
+          "left": "Siphon",
+          "right": "Système pour franchir les vallées"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel célèbre pont-aqueduc romain se trouve en France ?",
+      "options": [
+        "Le Pont du Gard",
+        "Le Pont d'Avignon",
+        "Le Viaduc de Millau",
+        "Le Pont Neuf"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

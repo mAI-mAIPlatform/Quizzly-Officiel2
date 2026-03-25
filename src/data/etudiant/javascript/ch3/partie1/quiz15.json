@@ -1,0 +1,63 @@
+{
+  "id": "quiz15",
+  "titre": "for...of",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la syntaxe simplifiée pour parcourir les VALEURS d'un tableau ?",
+      "options": [
+        "for (let item of monTableau)",
+        "for (let item in monTableau)",
+        "for (items : monTableau)",
+        "foreach (monTableau)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Avec 'for...of', on n'a plus besoin du compteur 'i' ni de '.length'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot-clé crucial ici est {{1}} (of).",
+      "reponsesAttendues": [
+        "of"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Compare for et for...of.",
+      "pairs": [
+        {
+          "left": "for (let i...)",
+          "right": "Permet de connaître l'index"
+        },
+        {
+          "left": "for (... of ...)",
+          "right": "Plus lisible et court"
+        },
+        {
+          "left": "Utilitaire",
+          "right": "Parcours complet"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que contient la variable 'fruit' dans 'for (let fruit of fruits)' ?",
+      "options": [
+        "Le contenu direct de chaque case du tableau (ex: 'Pomme')",
+        "Le numéro de la case (0, 1, 2...)",
+        "La longueur du tableau",
+        "Rien du tout"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

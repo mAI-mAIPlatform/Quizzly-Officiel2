@@ -1,0 +1,63 @@
+{
+  "id": "quiz11",
+  "titre": "Social Issues",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is 'poverty'?",
+      "options": [
+        "The state of being extremely poor and lacking basic needs",
+        "A type of very expensive car",
+        "The name of a large city",
+        "A feeling of being very happy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Homelessness describes the condition of people without a permanent place to live.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "An unfair difference in the way people are treated is {{1}}.",
+      "reponsesAttendues": [
+        "inequality"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the social issue with its description.",
+      "pairs": [
+        {
+          "left": "Unemployment",
+          "right": "Not having a job"
+        },
+        {
+          "left": "Illiteracy",
+          "right": "Not being able to read or write"
+        },
+        {
+          "left": "Discrimination",
+          "right": "Unfair treatment based on race, gender, etc."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is the goal of 'social justice'?",
+      "options": [
+        "To ensure everyone has equal rights and opportunities",
+        "To make everyone follow the same rules as me",
+        "To win every argument",
+        "To have the most money"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

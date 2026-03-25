@@ -1,0 +1,63 @@
+{
+  "id": "quiz17",
+  "titre": "Les Écoquartiers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un écoquartier ?",
+      "options": [
+        "Un quartier conçu pour respecter l'environnement et favoriser le social",
+        "Un quartier où l'on ne mange que des légumes",
+        "Un quartier sans aucune lumière la nuit",
+        "Un quartier construit uniquement en plastique recyclé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un écoquartier cherche à réduire la consommation d'énergie des bâtiments.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'un des buts de l'écoquartier est de favoriser les transports {{1}} (vélo, marche).",
+      "reponsesAttendues": [
+        "doux"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la solution à l'enjeu climatique.",
+      "pairs": [
+        {
+          "left": "Panneaux solaires",
+          "right": "Production d'énergie renouvelable"
+        },
+        {
+          "left": "Récupération d'eau de pluie",
+          "right": "Gestion durable de la ressource"
+        },
+        {
+          "left": "Isolation thermique forte",
+          "right": "Économie de chauffage"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel de ces principes est aussi présent dans un écoquartier ?",
+      "options": [
+        "La mixité sociale et générationnelle",
+        "L'interdiction des enfants",
+        "L'obligation d'avoir une piscine individuelle",
+        "La suppression des magasins"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

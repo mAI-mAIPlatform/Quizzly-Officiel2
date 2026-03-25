@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Cap. 2 P. 2 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Aux thermes, on passe du {{1}} (chaud) au {{2}} (froid).",
+      "options": [
+        "caldarium / frigidarium",
+        "atrium / hortus",
+        "domus / amphitheatrum",
+        "forum / circus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Amabunt' est au futur (Ils aimeront).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'arène des gladiateurs est l'{{1}} (amphithéâtre).",
+      "reponsesAttendues": [
+        "amphithéâtre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les concepts.",
+      "pairs": [
+        {
+          "left": "Aurige",
+          "right": "Cirque (courses)"
+        },
+        {
+          "left": "Strigile",
+          "right": "Thermes (hygiène)"
+        },
+        {
+          "left": "Rétiaire",
+          "right": "Amphithéâtre (gladiateurs)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la forme de 'Eritis' ?",
+      "options": [
+        "Futur (Vous serez)",
+        "Présent (Vous êtes)",
+        "Imparfait (Vous étiez)",
+        "Infinitif"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

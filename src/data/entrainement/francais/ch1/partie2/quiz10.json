@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Récapitulatif : Imparfait vs Futur",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle terminaison appartient au futur ?",
+      "options": [
+        "-ra",
+        "-ait",
+        "-ais",
+        "-ients"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Ils iront' est du futur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Avant, il {{1}} (être) timide, mais demain il parlera.",
+      "reponsesAttendues": [
+        "était"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Match.",
+      "pairs": [
+        {
+          "left": "Aura",
+          "right": "Futur"
+        },
+        {
+          "left": "Avait",
+          "right": "Imparfait"
+        },
+        {
+          "left": "Sera",
+          "right": "Futur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour la Partie 3 sur les temps composés ?",
+      "options": [
+        "Oui !",
+        "Absolument !",
+        "Let's go !",
+        "Révision Ch1 P2"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

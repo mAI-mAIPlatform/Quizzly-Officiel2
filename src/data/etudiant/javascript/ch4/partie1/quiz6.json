@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Gérer Formulaires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi utilise-t-on souvent 'preventDefault()' dans un projet JS de type 'To-Do List' ?",
+      "options": [
+        "Pour traiter la saisie en JS sans que la page ne se recharge",
+        "Pour vider l'input automatiquement",
+        "Pour sécuriser le mot de passe",
+        "Pour ajouter une animation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'événement 'submit' est préférable à un 'click' sur le bouton car il gère aussi la touche Entrée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On accède au texte saisi avec la propriété {{1}} d'un champ input (value).",
+      "reponsesAttendues": [
+        "value"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'élément de formulaire à son usage.",
+      "pairs": [
+        {
+          "left": "<input type='text'>",
+          "right": "Saisie de texte"
+        },
+        {
+          "left": "<button type='submit'>",
+          "right": "Validation"
+        },
+        {
+          "left": "<form>",
+          "right": "Conteneur global"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel sert à valider si l'input n'est pas vide ?",
+      "options": [
+        "if (input.value !== \"\")",
+        "if (input == null)",
+        "if (form.isValid())",
+        "if (user.isHappy())"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

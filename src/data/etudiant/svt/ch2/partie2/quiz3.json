@@ -1,0 +1,63 @@
+{
+  "id": "quiz13",
+  "titre": "Influence du Milieu",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces 'caractères' est uniquement dû à l'influence du milieu ?",
+      "options": [
+        "Le bronzage de la peau",
+        "Le groupe sanguin",
+        "La couleur naturelle des yeux",
+        "La forme des oreilles"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le bronzage acquis durant l'été sera transmis aux enfants à la naissance.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Certains caractères résultent de l'interaction entre les gènes et l'{{1}}.",
+      "reponsesAttendues": [
+        "environnement"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le facteur à son effet non héréditaire.",
+      "pairs": [
+        {
+          "left": "Alimentation riche",
+          "right": "Prise de poids / Surpoids"
+        },
+        {
+          "left": "Sport intense",
+          "right": "Augmentation de la masse musculaire"
+        },
+        {
+          "left": "Exposition au soleil",
+          "right": "Production de mélanine (teint plus foncé)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi les vrais jumeaux ne sont-ils pas 100 % identiques à l'âge adulte ?",
+      "options": [
+        "À cause de leurs expériences et environnements différents",
+        "Parce qu'ils n'ont pas les mêmes gènes",
+        "Parce qu'un des deux a été adopté",
+        "C'est un mystère inexpliqué"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

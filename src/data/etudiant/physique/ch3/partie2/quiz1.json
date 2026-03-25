@@ -1,0 +1,63 @@
+{
+  "id": "quiz11",
+  "titre": "Les interactions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une interaction en physique ?",
+      "options": [
+        "L'action mutuelle de deux objets l'un sur l'autre",
+        "Une conversation entre deux personnes",
+        "Le mouvement d'un objet seul",
+        "La couleur d'un aimant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attraction d'un aimant sur un clou est une action de contact.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Lorsqu'un pied frappe un ballon, l'interaction est une action de {{1}}.",
+      "reponsesAttendues": [
+        "contact"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'action à son type.",
+      "pairs": [
+        {
+          "left": "Main qui pousse une porte",
+          "right": "Action de contact localisée"
+        },
+        {
+          "left": "Terre qui attire la Lune",
+          "right": "Action à distance"
+        },
+        {
+          "left": "Vent qui pousse une voile",
+          "right": "Action de contact répartie"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quels sont les deux effets possibles d'une interaction ?",
+      "options": [
+        "Mettre en mouvement ou déformer un objet",
+        "Changer la couleur ou l'odeur",
+        "Rendre l'objet plus lourd ou plus léger",
+        "Il n'y a aucun effet visible"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

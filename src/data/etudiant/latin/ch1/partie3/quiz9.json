@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "La vie aux champs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Le champ' ?",
+      "options": [
+        "Ager",
+        "Villa",
+        "Vicus",
+        "Hortus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les Romains considéraient l'agriculture comme une activité noble.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le paysan se dit {{1}} (agricola).",
+      "reponsesAttendues": [
+        "agricola"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le mot de la ferme.",
+      "pairs": [
+        {
+          "left": "Aratrum",
+          "right": "Charrue"
+        },
+        {
+          "left": "Pecus",
+          "right": "Bétail"
+        },
+        {
+          "left": "Messis",
+          "right": "Moisson"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle plante est essentielle à l'économie romaine ?",
+      "options": [
+        "Le blé (frumentum)",
+        "Le maïs",
+        "Le riz",
+        "Le coton"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

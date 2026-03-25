@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Équations complexes (ax + b = c)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Résous 2x + 3 = 11 :",
+      "options": [
+        "x = 4",
+        "x = 7",
+        "x = 8",
+        "x = 3"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour résoudre 3x - 5 = 10, on ajoute d'abord 5 puis on divise par 3.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La solution de 5x + 10 = 0 est x = {{1}}.",
+      "reponsesAttendues": [
+        "-2"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Trouve la solution x.",
+      "pairs": [
+        {
+          "left": "2x = 20",
+          "right": "10"
+        },
+        {
+          "left": "x/2 = 20",
+          "right": "40"
+        },
+        {
+          "left": "x + 2 = 20",
+          "right": "18"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Résous 4x - 2 = 10 :",
+      "options": [
+        "x = 2",
+        "x = 3",
+        "x = 4",
+        "x = 12"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Großeltern und Verwandte",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Le grand-père' ?",
+      "options": [
+        "Der Großvater",
+        "Die Großmutter",
+        "Der Onkel",
+        "Die Tante"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Oma' ist die Kurzform für Großmutter.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'L'oncle' se dice 'der {{1}}'.",
+      "reponsesAttendues": [
+        "Onkel"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Verwandtschaft.",
+      "pairs": [
+        {
+          "left": "Tante",
+          "right": "Tante"
+        },
+        {
+          "left": "Cousin",
+          "right": "Cousin"
+        },
+        {
+          "left": "Nichte",
+          "right": "Nièce"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Wer ist der Vater meines Vaters?",
+      "options": [
+        "Mein Opa",
+        "Mein Onkel",
+        "Mein Bruder",
+        "Mein Sohn"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

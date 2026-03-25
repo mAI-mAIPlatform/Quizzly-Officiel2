@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Sportausrüstung",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué necesitas para jugar al fútbol?",
+      "options": [
+        "Den Ball",
+        "Das Buch",
+        "Den Stift",
+        "Das Rad"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Tennisschläger' significa 'raqueta de tenis'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich brauche meine {{1}} zum Laufen (chaussures).",
+      "reponsesAttendues": [
+        "Schuhe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el equipo.",
+      "pairs": [
+        {
+          "left": "Das Trikot",
+          "right": "Le maillot / t-shirt"
+        },
+        {
+          "left": "Die Sportschuhe",
+          "right": "Les baskets"
+        },
+        {
+          "left": "Die Wasserflasche",
+          "right": "La gourde"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'Helm'?",
+      "options": [
+        "Casque",
+        "Gants",
+        "Sac",
+        "Lunettes"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

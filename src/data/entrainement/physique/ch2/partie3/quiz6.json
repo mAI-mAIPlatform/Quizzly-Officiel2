@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Dangers des combustions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une combustion incomplète ?",
+      "options": [
+        "Une combustion qui ne finit jamais",
+        "Une combustion où le dioxygène est en quantité insuffisante",
+        "Une combustion dans l'eau",
+        "Une combustion sans flamme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le monoxyde de carbone (CO) est un gaz incolore, inodore et mortel.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une flamme jaune est souvent le signe d'une combustion {{1}}.",
+      "reponsesAttendues": [
+        "incomplète"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le danger à sa cause.",
+      "pairs": [
+        {
+          "left": "Asphyxie",
+          "right": "Manque de dioxygène"
+        },
+        {
+          "left": "Intoxication au CO",
+          "right": "Combustion incomplète"
+        },
+        {
+          "left": "Incendie",
+          "right": "Chaleur intense de la réaction"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel gaz à effet de serre est produit par la plupart des combustions ?",
+      "options": [
+        "Le dioxygène",
+        "Le dioxyde de carbone (CO2)",
+        "Le diazote",
+        "L'hélium"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

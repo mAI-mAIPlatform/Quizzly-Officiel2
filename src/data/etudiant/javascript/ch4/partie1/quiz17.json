@@ -1,0 +1,63 @@
+{
+  "id": "quiz17",
+  "titre": "Le temps : setTimeout",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle fonction permet d'exécuter un code APRÈS un certain délai ?",
+      "options": [
+        "setTimeout()",
+        "wait()",
+        "delay()",
+        "sleep()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le délai dans setTimeout s'exprime en millisecondes (1000 ms = 1 seconde).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour attendre 2 secondes, on écrit : setTimeout(fonction, {{1}}) (2000).",
+      "reponsesAttendues": [
+        "2000"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Code -> Action.",
+      "pairs": [
+        {
+          "left": "setTimeout(f, 3000)",
+          "right": "Attend 3 secondes"
+        },
+        {
+          "left": "f()",
+          "right": "Exécute tout de suite"
+        },
+        {
+          "left": "clearTimeout()",
+          "right": "Annule l'attente"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Dans quel cas est-ce utile en jeu ?",
+      "options": [
+        "Afficher un message de victoire pendant 5 secondes puis revenir au menu",
+        "Faire bouger un personnage en continu",
+        "Créer une variable",
+        "Changer le nom du site"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

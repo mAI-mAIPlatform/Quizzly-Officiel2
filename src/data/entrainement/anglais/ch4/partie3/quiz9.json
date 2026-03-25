@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Grammar : Comparative and Superlative Review",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Mt. Everest is the _____ mountain in the world.",
+      "options": [
+        "highest",
+        "higher",
+        "most high",
+        "high"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A plane is 'faster than' a car.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "English is {{1}} than French. (according to some).",
+      "reponsesAttendues": [
+        "easier"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match.",
+      "pairs": [
+        {
+          "left": "Big",
+          "right": "The biggest"
+        },
+        {
+          "left": "Small",
+          "right": "Smaller than"
+        },
+        {
+          "left": "Good",
+          "right": "The best (irregular)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Which one is the correct superlative?",
+      "options": [
+        "The most intelligent",
+        "The intelligentest",
+        "The more intelligent",
+        "The most intelligently"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

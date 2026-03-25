@@ -1,0 +1,74 @@
+{
+  "id": "quiz10",
+  "titre": "Révision Partie 1 Formulaires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel est un attribut valide de la balise <form> ?",
+      "options": ["href", "action", "src", "alt"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La balise <form> peut être imbriquée dans une autre balise <form>.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le type '{{1}}' permet de masquer le champ à l'utilisateur tout en envoyant une valeur au serveur.",
+      "reponsesAttendues": ["hidden"]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe les types :",
+      "pairs": [
+        {"left": "text", "right": "Saisie libre"},
+        {"left": "password", "right": "Saisie masquée"},
+        {"left": "email", "right": "Saisie vérifiée"}
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie URL encoding ?",
+      "options": ["Coder la page en HTML", "Transformer les caractères spéciaux pour l'envoi en GET", "Changer le mot de passe", "Mettre une image dans l'URL"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q6",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'enctype' par défaut est 'application/x-www-form-urlencoded'.",
+      "reponse": true
+    },
+    {
+      "id": "q7",
+      "type": "qcm",
+      "enonce": "Quel élément sémantique permet de donner un titre à un groupe de champs ?",
+      "options": ["<header>", "<caption>", "<legend>", "<title>"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "La balise <{{1}}> regroupe logiquement les champs d'un formulaire.",
+      "reponsesAttendues": ["fieldset"]
+    },
+    {
+      "id": "q9",
+      "type": "vrai_faux",
+      "enonce": "Un bouton type=\"button\" envoie le formulaire par défaut.",
+      "reponse": false
+    },
+    {
+      "id": "q10",
+      "type": "qcm",
+      "enonce": "Quel attribut aide le remplissage automatique du navigateur ?",
+      "options": ["autosave", "autocomplete", "autofill", "remember"],
+      "correctIndex": 1
+    }
+  ]
+}

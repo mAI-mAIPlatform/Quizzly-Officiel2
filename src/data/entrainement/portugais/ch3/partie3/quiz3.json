@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Animais Selvagens",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Le lion' ?",
+      "options": [
+        "O leão",
+        "O tigre",
+        "O elefante",
+        "O urso"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Tigre' escreve-se igual em português e francês.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A {{1}} (girafe) tem o pescoço comprido.",
+      "reponsesAttendues": [
+        "girafa"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Selva.",
+      "pairs": [
+        {
+          "left": "Macaco",
+          "right": "Singe"
+        },
+        {
+          "left": "Zebra",
+          "right": "Zèbre"
+        },
+        {
+          "left": "Cobra",
+          "right": "Serpent"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Onde vive o urso pola?",
+      "options": [
+        "No gelo / Ártico",
+        "Na selva",
+        "No deserto",
+        "Em Lisboa"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

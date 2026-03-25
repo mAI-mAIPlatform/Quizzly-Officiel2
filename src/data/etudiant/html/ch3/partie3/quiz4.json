@@ -1,0 +1,70 @@
+{
+  "id": "quiz4",
+  "titre": "La Pseudo-classe :invalid",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle pseudo-classe CSS cible un champ invalide ?",
+      "options": [":error", ":invalid", ":wrong", ":bad"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut mettre les bordures en rouge avec 'input:invalid'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'inverse de :invalid est :{{1}}.",
+      "reponsesAttendues": ["valid"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quand :invalid s'applique-t-il ?",
+      "options": ["Dès le chargement de la page", "Après l'envoi", "Quand on clique", "Jamais"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La pseudo-classe :in-range s'applique aux inputs number/range.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Pourquoi styliser les champs invalides ?",
+      "options": ["Pour faire joli", "Pour un retour immédiat", "C'est obligatoire", "Pour ralentir"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "vrai_faux",
+      "enonce": "On peut styliser le formulaire entier avec 'form:invalid'.",
+      "reponse": true
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "La pseudo-classe :{{1}} cible un champ optionnel.",
+      "reponsesAttendues": ["optional"]
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel problème avec :invalid au chargement ?",
+      "options": ["Rien", "Les champs vides obligatoires sont rouges tout de suite", "C'est trop lent", "Les couleurs sont fades"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser :out-of-range pour les dates.",
+      "reponse": true
+    }
+  ]
+}

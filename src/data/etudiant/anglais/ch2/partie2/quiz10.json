@@ -1,0 +1,63 @@
+{
+  "id": "quiz20",
+  "titre": "Cultural Synthesis 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Culture is living and changing because...?",
+      "options": [
+        "People exchange ideas and adapt to new technology",
+        "It is in a book",
+        "The sun makes it grow",
+        "Governments force it"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Family and school are important places where traditions are passed on.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Learning a new {{1}} is a great way to understand a new culture.",
+      "reponsesAttendues": [
+        "language"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the concept to its importance.",
+      "pairs": [
+        {
+          "left": "Legend",
+          "right": "Story that helps build identity"
+        },
+        {
+          "left": "Etiquette",
+          "right": "Rules for better social living"
+        },
+        {
+          "left": "Innovation",
+          "right": "How culture creates new things"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What represents a culture's identity?",
+      "options": [
+        "Its people, language, food, and traditions",
+        "Only its bank accounts",
+        "The number of cars it has",
+        "Its geographical size"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Mesure de l'intensité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel appareil mesure l'intensité du courant électrique ?",
+      "options": [
+        "L'ampèremètre",
+        "Le voltmètre",
+        "L'ohmmètre",
+        "Le wattmètre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un ampèremètre se branche en dérivation.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le courant doit entrer par la borne '10A' ou {{1}} et sortir par la borne 'COM'.",
+      "reponsesAttendues": [
+        "mA"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le réglage au besoin.",
+      "pairs": [
+        {
+          "left": "Sélecteur sur 'A'",
+          "right": "Mesurer des fortes intensités"
+        },
+        {
+          "left": "Sélecteur sur 'mA'",
+          "right": "Mesurer des faibles intensités avec précision"
+        },
+        {
+          "left": "Borne COM",
+          "right": "Borne de sortie commune à toutes les mesures"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si vous choisissez un calibre trop petit ?",
+      "options": [
+        "Vous risquez de griller le fusible de l'appareil",
+        "L'appareil mesure plus vite",
+        "La pile se décharge",
+        "La lampe brille plus fort"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

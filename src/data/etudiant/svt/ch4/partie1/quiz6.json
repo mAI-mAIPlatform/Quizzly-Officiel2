@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Digestion Chimique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelles substances assurent la digestion chimique ?",
+      "options": [
+        "Les enzymes digestives",
+        "Les microbes",
+        "Le sang",
+        "L'oxygène"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La salive contient une enzyme qui commence la digestion du sucre (amidon).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'estomac produit du suc {{1}} très acide.",
+      "reponsesAttendues": [
+        "gastrique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le suc digestif à son lieu d'action.",
+      "pairs": [
+        {
+          "left": "Salive",
+          "right": "Bouche"
+        },
+        {
+          "left": "Suc gastrique",
+          "right": "Estomac"
+        },
+        {
+          "left": "Bile / Suc pancréatique",
+          "right": "Intestin grêle"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Une enzyme agit comme un 'ciseau moléculaire'. Que coupe-t-elle ?",
+      "options": [
+        "Les grosses molécules des aliments en petites molécules (nutriments)",
+        "Les dents",
+        "Les parois de l'estomac",
+        "Les bulles de gaz"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

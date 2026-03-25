@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Verbos con Alternancia (e->i)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Je demande / Je commande' (Pedir) ?",
+      "options": [
+        "Pido",
+        "Pedes",
+        "Pedimos",
+        "Peden"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En 'Servir', 'Nosotros' mantiene la 'e' (Servimos).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Tu sers' se dice 'Tú {{1}}'.",
+      "reponsesAttendues": [
+        "sirves"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Cambio e->i.",
+      "pairs": [
+        {
+          "left": "Él pide",
+          "right": "Il demande"
+        },
+        {
+          "left": "Ellos sirven",
+          "right": "Ils servent"
+        },
+        {
+          "left": "Yo mido",
+          "right": "Je mesure"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué pides en el restaurante?",
+      "options": [
+        "Pido la cuenta",
+        "Soy la cuenta",
+        "Tengo la cuenta",
+        "Vivo la cuenta"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

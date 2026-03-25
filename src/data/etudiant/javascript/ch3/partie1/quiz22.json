@@ -1,0 +1,63 @@
+{
+  "id": "quiz22",
+  "titre": "Clés et Valeurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans {age: 15}, comment appelle-t-on 'age' ?",
+      "options": [
+        "La clé (ou propriété)",
+        "La valeur",
+        "La variable",
+        "L'index"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On sépare la clé de la valeur par un signe égale '='.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On sépare la clé de la valeur par deux points '{{1}}' (:).",
+      "reponsesAttendues": [
+        ":"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'élément de {pseudo: 'Max'} à son nom.",
+      "pairs": [
+        {
+          "left": "pseudo",
+          "right": "La clé"
+        },
+        {
+          "left": "'Max'",
+          "right": "La valeur (String)"
+        },
+        {
+          "left": ",",
+          "right": "Sépare les propriétés"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est un objet correctement écrit ?",
+      "options": [
+        "{ nom: \"Mathias\", profession: \"Dev\" }",
+        "{ nom = \"Mathias\" }",
+        "[ nom : \"Mathias\" ]",
+        "{ nom ; \"Mathias\" }"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

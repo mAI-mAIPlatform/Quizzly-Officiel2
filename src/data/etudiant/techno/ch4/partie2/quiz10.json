@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Ch. 4 P. 2 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Une DEL (LED) est un {{1}}.",
+      "options": [
+        "actionneur",
+        "capteur",
+        "cerveau",
+        "bouton"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'automatisation permet de d'aider au maintien à domicile des personnes fragiles.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le WiFi et le Bluetooth utilisent des {{1}} (ondes) radio.",
+      "reponsesAttendues": [
+        "ondes"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les parties d'un système.",
+      "pairs": [
+        {
+          "left": "Partie Commande",
+          "right": "Cerveau / Traitement"
+        },
+        {
+          "left": "Partie Opérative",
+          "right": "Actionneurs / Travail"
+        },
+        {
+          "left": "Capteurs",
+          "right": "Acquisition d'informations"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un scénario domotique ?",
+      "options": [
+        "Une suite d'actions automatisées déclenchées par un événement",
+        "Le script d'un film sur les robots",
+        "Une décoration de salon",
+        "Un mode d'emploi papier"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "La fonction range() - Base",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert range(5) ?",
+      "options": [
+        "À générer une suite de nombres de 0 à 4",
+        "À générer de 0 à 5",
+        "À générer de 1 à 5",
+        "À créer une liste de 5 mots"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "range(10) contient 10 nombres au total.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le dernier nombre de range(N) est {{1}}.",
+      "reponsesAttendues": [
+        "N-1"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "range(3)",
+          "right": "0, 1, 2"
+        },
+        {
+          "left": "range(1)",
+          "right": "0"
+        },
+        {
+          "left": "range(0)",
+          "right": "Vide"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment transformer un range en vraie liste pour l'afficher ?",
+      "options": [
+        "list(range(5))",
+        "print(range(5))",
+        "str(range(5))",
+        "range.to_list()"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

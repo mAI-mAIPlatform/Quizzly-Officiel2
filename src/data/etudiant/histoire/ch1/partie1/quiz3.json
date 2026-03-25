@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Les principes des Lumières",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le but principal des philosophes des Lumières ?",
+      "options": [
+        "Éclairer le monde par la raison et la science",
+        "Développer l'usage des bougies",
+        "Renforcer le pouvoir absolu des rois",
+        "Interdire la lecture"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les Lumières défendent la liberté de culte et la tolérance.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'usage de son propre jugement sans préjugés s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "raison"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la valeur à son sens.",
+      "pairs": [
+        {
+          "left": "Liberté",
+          "right": "Droit d'agir sans contrainte injuste"
+        },
+        {
+          "left": "Égalité",
+          "right": "Mêmes droits pour tous les citoyens"
+        },
+        {
+          "left": "Progrès",
+          "right": "Amélioration de l'humanité"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "À quoi s'opposent principalement les Lumières ?",
+      "options": [
+        "Le fanatisme et l'obscurantisme",
+        "Le progrès scientifique",
+        "La liberté individuelle",
+        "Le bonheur des gens"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

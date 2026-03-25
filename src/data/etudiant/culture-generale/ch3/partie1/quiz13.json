@@ -1,0 +1,65 @@
+{
+  "id": "quiz3",
+  "titre": "La Mythologie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est le roi des dieux dans la mythologie grecque, maniant la foudre ?",
+      "options": [
+        "Zeus",
+        "Hercule",
+        "Poséidon",
+        "Hadès"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Vénus est le nom romain de la déesse grecque de l'amour, Aphrodite.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le héros grec célèbre pour ses douze travaux s'appelle {{1}} (Héraclès / Hercule).",
+      "reponsesAttendues": [
+        "Héraclès",
+        "Heracles",
+        "Hercule"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le dieu à son domaine.",
+      "pairs": [
+        {
+          "left": "Poséidon",
+          "right": "La Mer et les séismes"
+        },
+        {
+          "left": "Athéna",
+          "right": "La Sagesse et la Guerre juste"
+        },
+        {
+          "left": "Hadès",
+          "right": "Le Royaume des Morts (Enfers)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel animal mythique renaît de ses cendres ?",
+      "options": [
+        "Le Phénix",
+        "Le Dragon",
+        "La Licorne",
+        "Le Centaure"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

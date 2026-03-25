@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Cap. 2 P. 1 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans une domus, l'eau tombe dans l'{{1}} et on dîne dans le {{2}}.",
+      "options": [
+        "impluvium / triclinium",
+        "atrium / culina",
+        "hortus / tablinum",
+        "fauces / cubiculum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Dona' est le pluriel de 'Donum'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La robe des femmes romaines est la {{1}} (stola).",
+      "reponsesAttendues": [
+        "stola"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les concepts.",
+      "pairs": [
+        {
+          "left": "Laraire",
+          "right": "Autel domestique"
+        },
+        {
+          "left": "Atrium",
+          "right": "Maison romaine"
+        },
+        {
+          "left": "Toga",
+          "right": "Citoyenneté"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le nominatif pluriel de 'Rosa' ?",
+      "options": [
+        "Rosae",
+        "Rosas",
+        "Rosam",
+        "Rosarum"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

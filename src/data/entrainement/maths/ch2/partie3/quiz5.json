@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Comparaison de fractions complexes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Laquelle de ces fractions est la plus proche de 1 ?",
+      "options": [
+        "7/8",
+        "9/10",
+        "2/3",
+        "11/12"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "2/3 est plus grand que 3/4.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour comparer 1/2 et 3/5, on les met sur 10 : 5/10 et {{1}}/10.",
+      "reponsesAttendues": [
+        "6"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Range ces fractions par ordre croissant.",
+      "pairs": [
+        {
+          "left": "1ère",
+          "right": "1/4"
+        },
+        {
+          "left": "2ème",
+          "right": "1/3"
+        },
+        {
+          "left": "3ème",
+          "right": "1/2"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle fraction est égale à 1.5 ?",
+      "options": [
+        "1/2",
+        "3/2",
+        "5/2",
+        "2/3"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

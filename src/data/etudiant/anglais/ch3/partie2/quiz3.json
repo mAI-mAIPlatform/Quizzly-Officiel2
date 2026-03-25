@@ -1,0 +1,63 @@
+{
+  "id": "quiz13",
+  "titre": "Online Safety",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What makes a password 'strong'?",
+      "options": [
+        "A mix of letters, numbers, and symbols",
+        "Your name and birthday",
+        "The word 'password123'",
+        "Only four numbers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Cyberbullying is using the internet to hurt or frighten someone.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "You should never share your personal {{1}} with strangers online.",
+      "reponsesAttendues": [
+        "information"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the online risk with its description.",
+      "pairs": [
+        {
+          "left": "Phishing",
+          "right": "Emails trying to steal your data"
+        },
+        {
+          "left": "Malware",
+          "right": "Harmful software like viruses"
+        },
+        {
+          "left": "Identity theft",
+          "right": "Stealing someone's personal info to pretend to be them"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What should you do if you see something upsetting online?",
+      "options": [
+        "Tell a trusted adult and block the person",
+        "Ignore it and keep playing",
+        "Send an angry message back",
+        "Show it to all your friends"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

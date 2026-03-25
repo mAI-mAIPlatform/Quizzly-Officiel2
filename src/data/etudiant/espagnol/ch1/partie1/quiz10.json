@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Síntesis Vacaciones 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Mañana, Carmen {{1}} a la playa en barco.",
+      "options": [
+        "va",
+        "vamos",
+        "vuelven",
+        "piensa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En 'Nosotros preferimos', no hay diptongo.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "¿Qué {{1}} (preferir - e->ie) tú: la playa o la montaña?",
+      "reponsesAttendues": [
+        "prefieres"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la frase con su sentido.",
+      "pairs": [
+        {
+          "left": "Me lo paso bomba",
+          "right": "Je m'amuse super bien"
+        },
+        {
+          "left": "¡Qué guay!",
+          "right": "C'est trop cool !"
+        },
+        {
+          "left": "Buen viaje",
+          "right": "Bon voyage"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Completa: 'A Juan le {{1}} las ciudades históricas'.",
+      "options": [
+        "gustan",
+        "gusta",
+        "encanta",
+        "gustamos"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

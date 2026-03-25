@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Les Participes Passés irréguliers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le participe passé de 'Faire' ?",
+      "options": [
+        "Fait",
+        "Fas",
+        "Fais",
+        "Faité"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le participe passé de 'Prendre' est 'Pris'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "J'ai {{1}} (mettre) mon manteau.",
+      "reponsesAttendues": [
+        "mis"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'infinitif au participe.",
+      "pairs": [
+        {
+          "left": "Dire",
+          "right": "Dit"
+        },
+        {
+          "left": "Écrire",
+          "right": "Écrit"
+        },
+        {
+          "left": "Boire",
+          "right": "Bu"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le participe passé de 'Savoir' ?",
+      "options": [
+        "Su",
+        "Sut",
+        "Savais",
+        "Savé"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

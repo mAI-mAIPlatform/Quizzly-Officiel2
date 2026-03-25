@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "EXAMEN FINAL : CAPÍTULO 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": " 'A los españoles les encanta comer tapas en la plaza' ",
+      "options": [
+        "Les espagnols adorent manger des tapas sur la place",
+        "Les espagnols mangent du paella",
+        "J'aime les churros",
+        "La fête est finie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En España, las tiendas cierran a mediodía para la comida.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Fête' se dice '{{1}}'.",
+      "reponsesAttendues": [
+        "fiesta"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Mix Ch2.",
+      "pairs": [
+        {
+          "left": "Tortilla",
+          "right": "Patatas y huevo"
+        },
+        {
+          "left": "Tenis",
+          "right": "Zapatos de deporte"
+        },
+        {
+          "left": "Quiero",
+          "right": "Je veux"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Felicidades ! Has terminado el Capítulo 2. ¿Listo para el Pasado (Ch3)?",
+      "options": [
+        "¡Sí!",
+        "¡Adelante!",
+        "¡Perfecto!",
+        "¡Claro!"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

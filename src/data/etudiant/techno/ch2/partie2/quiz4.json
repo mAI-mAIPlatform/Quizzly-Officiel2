@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Le C.D.C.F.",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que contient le Cahier des Charges Fonctionnel (CDCF) ?",
+      "options": [
+        "L'ensemble des fonctions et des contraintes avec leurs critères et niveaux",
+        "La liste des employés de l'usine",
+        "Les plans de construction détaillés",
+        "Le prix de l'électricité"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le CDCF sert de contrat entre le client et le concepteur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour chaque fonction, on définit un {{1}} (critère) d'appréciation (ex: le poids).",
+      "reponsesAttendues": [
+        "critère"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'élément du CDCF à sa définition.",
+      "pairs": [
+        {
+          "left": "Critère",
+          "right": "Ce qui permet de mesurer la fonction (ex: la masse)"
+        },
+        {
+          "left": "Niveau",
+          "right": "La valeur attendue (ex: moins de 500g)"
+        },
+        {
+          "left": "Tolérance",
+          "right": "La variation acceptée (ex: +/- 10g)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "À quel moment du projet rédige-t-on le CDCF ?",
+      "options": [
+        "Au tout début (phase de conception)",
+        "À la fin, une fois l'objet vendu",
+        "En plein milieu de la fabrication",
+        "Jamais, c'est optionnel"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

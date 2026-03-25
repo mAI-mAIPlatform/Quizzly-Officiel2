@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Soustraction de nombres relatifs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Soustraire un nombre revient à :",
+      "options": [
+        "Ajouter son opposé",
+        "Multiplier par son opposé",
+        "Diviser par son opposé",
+        "Le supprimer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le résultat de (-5) - (-3) est -8.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Calcule : (+10) - (+15) = {{1}}",
+      "reponsesAttendues": [
+        "-5"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la soustraction à l'addition équivalente.",
+      "pairs": [
+        {
+          "left": "5 - (-2)",
+          "right": "5 + 2"
+        },
+        {
+          "left": "-3 - 4",
+          "right": "-3 + (-4)"
+        },
+        {
+          "left": "10 - (+7)",
+          "right": "10 + (-7)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Calcule : (-8) - (+2)",
+      "options": [
+        "-6",
+        "-10",
+        "+6",
+        "+10"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

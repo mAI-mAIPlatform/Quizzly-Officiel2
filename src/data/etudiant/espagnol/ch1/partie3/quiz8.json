@@ -1,0 +1,63 @@
+{
+  "id": "quiz28",
+  "titre": "Expresar la duración",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'Desde hace tres días'?",
+      "options": [
+        "Depuis trois jours",
+        "Il y a trois jours",
+        "Dans trois jours",
+        "Jusqu'à trois jours"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Se usa 'Hace ... que' seguido del presente para una acción que continúa.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vivo en Madrid {{1}} 2010 (depuis).",
+      "reponsesAttendues": [
+        "desde"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la expresión de tiempo.",
+      "pairs": [
+        {
+          "left": "Desde",
+          "right": "Point de départ précis (ex: 2020)"
+        },
+        {
+          "left": "Desde hace",
+          "right": "Durée (ex: 2 meses)"
+        },
+        {
+          "left": "Hace ... que",
+          "right": "Structure alternative pour la durée"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Je suis ici depuis une heure'?",
+      "options": [
+        "Estoy aquí desde hace una hora",
+        "Estoy aquí hace una hora",
+        "He estado aquí desde una hora",
+        "Soy aquí desde hace una hora"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "quiz4",
+  "titre": "Diversité Culturelle",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces éléments fait partie de la diversité culturelle française ?",
+      "options": [
+        "Les langues régionales (breton, basque, etc.)",
+        "L'obligation de manger la même chose partout",
+        "L'interdiction des musiques étrangères",
+        "Le refus de la cuisine du monde"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Constitution française reconnaît les langues régionales comme appartenant au patrimoine de la France.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La France est une République indivisible mais elle respecte la diversité de ses {{1}} (territoires / régions).",
+      "reponsesAttendues": [
+        "territoires",
+        "régions"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la région à sa langue ou tradition.",
+      "pairs": [
+        {
+          "left": "Bretagne",
+          "right": "Langue bretonne et musique celtique"
+        },
+        {
+          "left": "Alsace",
+          "right": "Dialecte alsacien et influences rhénanes"
+        },
+        {
+          "left": "Corse",
+          "right": "Langue corse et chants polyphoniques"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage du pluralisme culturel ?",
+      "options": [
+        "Il enrichit la société par le partage des savoirs et des traditions",
+        "Il rend tout le monde identique",
+        "Il crée des murs entre les gens",
+        "Il est interdit par la loi"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

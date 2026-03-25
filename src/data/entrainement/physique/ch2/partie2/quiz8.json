@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Compression et Expansion",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi un gaz est-il compressible ?",
+      "options": [
+        "Parce que les molécules sont souples",
+        "Parce qu'il y a beaucoup de vide entre les molécules",
+        "Parce qu'il est léger",
+        "Parce qu'il s'en va"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Quand on tire sur le piston d'une seringue bouchée, on réalise une expansion.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Lors d'une expansion, la pression du gaz {{1}}.",
+      "reponsesAttendues": [
+        "diminue"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'action à son effet microscopique.",
+      "pairs": [
+        {
+          "left": "Compresser",
+          "right": "Rapprocher les molécules"
+        },
+        {
+          "left": "Dilater (Expansion)",
+          "right": "Éloigner les molécules"
+        },
+        {
+          "left": "Chauffer",
+          "right": "Accélérer les molécules"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que devient la masse du gaz enfermé quand on appuie sur le piston d'une seringue bouchée ?",
+      "options": [
+        "Elle augmente",
+        "Elle diminue",
+        "Elle reste la même (le nombre de molécules ne change pas)",
+        "Elle devient nulle"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

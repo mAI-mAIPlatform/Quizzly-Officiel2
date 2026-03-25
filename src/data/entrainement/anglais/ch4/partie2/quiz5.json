@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Online Safety",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "You should never share your _____ with strangers.",
+      "options": [
+        "Password",
+        "Username",
+        "Favorite color",
+        "Hobbies"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "It is safe to click on every pop-up you see.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Keep your personal {{1}} private.",
+      "reponsesAttendues": [
+        "information"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match safety tips.",
+      "pairs": [
+        {
+          "left": "Privacy settings",
+          "right": "Control who sees your stuff"
+        },
+        {
+          "left": "Cyberbullying",
+          "right": "Bad behavior online"
+        },
+        {
+          "left": "Strong password",
+          "right": "Security"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What should you do if you feel unsafe online?",
+      "options": [
+        "Tell an adult / parent",
+        "Keep it a secret",
+        "Argue with the stranger",
+        "Delete your computer"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

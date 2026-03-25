@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Rome, Urbs aeterna",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on la ville de Rome simplement ?",
+      "options": [
+        "Urbs",
+        "Domus",
+        "Castra",
+        "Villa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Rome comptait environ un million d'habitants sous Auguste.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le centre de la vie romaine s'appelle le {{1}} (forum).",
+      "reponsesAttendues": [
+        "forum"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le monument romain.",
+      "pairs": [
+        {
+          "left": "Pantheon",
+          "right": "Temple de tous les dieux"
+        },
+        {
+          "left": "Curia",
+          "right": "Lieu de séance du Sénat"
+        },
+        {
+          "left": "Rostra",
+          "right": "Tribune aux harangues"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Urbs aeterna' ?",
+      "options": [
+        "La Ville éternelle",
+        "La ville de l'herbe",
+        "La ville du futur",
+        "La vieille ville"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

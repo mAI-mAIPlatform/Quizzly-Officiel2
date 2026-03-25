@@ -1,0 +1,62 @@
+{
+  "id": "quiz7",
+  "titre": "Vocabulaire : La Nature",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'Phusis' ?",
+      "options": [
+        "La physique",
+        "La nature",
+        "La plante",
+        "La terre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Hêlios' est le dieu du soleil.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La lune se dit {{1}} en grec (pensez à la sélénite).",
+      "reponsesAttendues": [
+        "Selênê / σελήνη"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Aster",
+          "right": "Étoile"
+        },
+        {
+          "left": "Ouranos",
+          "right": "Ciel"
+        },
+        {
+          "left": "Thalassa",
+          "right": "Mer"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Arbre' ?",
+      "options": [
+        "Dendron",
+        "Anthos",
+        "Karpos",
+        "Phullon"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

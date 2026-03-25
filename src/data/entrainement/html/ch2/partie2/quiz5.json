@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Boucle et Préchargement",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel attribut permet de recommencer la lecture à l'infini ?",
+      "options": [
+        "loop",
+        "repeat",
+        "again",
+        "infinite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'preload' permet de charger la vidéo en arrière-plan avant le clic.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La valeur preload='{{1}}' indique de ne rien charger par avance.",
+      "reponsesAttendues": [
+        "none"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Valeurs de preload.",
+      "pairs": [
+        {
+          "left": "none",
+          "right": "Aucun préchargement"
+        },
+        {
+          "left": "metadata",
+          "right": "Charge juste la durée/taille"
+        },
+        {
+          "left": "auto",
+          "right": "Charge tout le fichier"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quand utiliser 'loop' ?",
+      "options": [
+        "Pour une animation de fond (background video)",
+        "Pour un film d'une heure",
+        "Pour une pub intrusives",
+        "Jamais"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

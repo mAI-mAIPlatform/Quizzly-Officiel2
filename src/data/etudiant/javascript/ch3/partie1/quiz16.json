@@ -1,0 +1,63 @@
+{
+  "id": "quiz16",
+  "titre": "for...in",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert principalement la boucle 'for...in' en JavaScript ?",
+      "options": [
+        "À parcourir les propriétés (clés) d'un objet",
+        "À parcourir les valeurs d'un tableau",
+        "À créer une fonction",
+        "À arrêter le script"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour un tableau, 'for...in' renvoie les INDEX (0, 1, 2...) et non les valeurs.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot-clé pour cette boucle est {{1}} (in).",
+      "reponsesAttendues": [
+        "in"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la boucle à ce qu'elle renvoie pour un tableau.",
+      "pairs": [
+        {
+          "left": "for...of",
+          "right": "La Valeur ('Pomme')"
+        },
+        {
+          "left": "for...in",
+          "right": "L'Index (0)"
+        },
+        {
+          "left": "forEach",
+          "right": "L'Élément complet"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi utilise-t-on 'for...in' sur un objet {nom: 'Mathias'} ?",
+      "options": [
+        "Pour récupérer les étiquettes (clés) comme 'nom'",
+        "Pour changer la couleur",
+        "Pour supprimer l'objet",
+        "C'est inutile"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

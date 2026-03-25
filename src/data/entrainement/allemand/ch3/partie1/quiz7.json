@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Adjektive für das Haus",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Grand' ?",
+      "options": [
+        "Groß",
+        "Klein",
+        "Alt",
+        "Neu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Gemütlich' bedeutet 'Confortable'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Mein Zimmer ist {{1}} (propre).",
+      "reponsesAttendues": [
+        "sauber"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Gegenteile.",
+      "pairs": [
+        {
+          "left": "Hell",
+          "right": "Sombre"
+        },
+        {
+          "left": "Ruhig",
+          "right": "Bruyant"
+        },
+        {
+          "left": "Billig",
+          "right": "Cher"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Wie ist dein Zimmer?",
+      "options": [
+        "Es ist sehr schön",
+        "Es ist ein Buch",
+        "Ich bin ein Zimmer",
+        "Hallo Zimmer"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

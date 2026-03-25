@@ -1,0 +1,70 @@
+{
+  "id": "quiz8",
+  "titre": "Open Graph (Réseaux Sociaux)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi servent les balises Open Graph (og:) ?",
+      "options": ["À sécuriser le site", "À contrôler l'apparence du site lors d'un partage sur les réseaux sociaux (Facebook, etc.)", "À accélérer Google", "À changer de langue"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les balises Open Graph commencent toutes par l'attribut property=\"og:...\".",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise og:{{1}} définit l'image qui s'affiche lors du partage.",
+      "reponsesAttendues": ["image"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle balise meta est utilisée spécifiquement pour Twitter ?",
+      "options": ["tw:card", "twitter:card", "bird:image", "tweet:title"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Si on ne met pas de balise og:title, Facebook utilise le <title> HTML.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage de l'Open Graph ?",
+      "options": ["Meilleur design du site", "Plus d'engagement (lics) sur les partages sociaux", "Un meilleur ranking Google", "C'est obligatoire en HTML"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "vrai_faux",
+      "enonce": "On place les balises Open Graph dans le <body>.",
+      "reponse": false
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "La balise og:{{1}} permet de donner un titre différent pour les réseaux sociaux.",
+      "reponsesAttendues": ["title"]
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est un exemple d'og:type ?",
+      "options": ["website", "blue", "slow", "heavy"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il existe des simulateurs pour prévisualiser le partage.",
+      "reponse": true
+    }
+  ]
+}

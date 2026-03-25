@@ -1,0 +1,62 @@
+{
+  "id": "quiz5",
+  "titre": "Numérique et Internet",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie le sigle 'WWW' ?",
+      "options": [
+        "World Wide Web",
+        "World Water Way",
+        "War Wide World",
+        "Web Wide World"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un moteur de recherche sert à trouver des informations sur Internet.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le langage de base pour créer des pages web est l'{{1}}.",
+      "reponsesAttendues": [
+        "HTML"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Email",
+          "right": "Courrier électronique"
+        },
+        {
+          "left": "Navigateur",
+          "right": "Chrome, Firefox, Safari"
+        },
+        {
+          "left": "URL",
+          "right": "Adresse d'un site web"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle invention a permis de démocratiser l'informatique personnelle dans les années 80 ?",
+      "options": [
+        "Le PC (Personal Computer)",
+        "Le Minitel",
+        "Le Smartphone",
+        "La Télévision"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

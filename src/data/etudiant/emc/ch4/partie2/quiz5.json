@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Justice et Droit UE",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle institution veille au respect du droit européen par tous les pays ?",
+      "options": [
+        "La Cour de Justice de l'Union Européenne (CJUE)",
+        "Le tribunal Correctionnel",
+        "La cour d'Assises",
+        "Le commissariat de quartier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Toutes les lois nationales doivent respecter le droit européen.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le siège de la CJUE se trouve au {{1}} (Luxembourg).",
+      "reponsesAttendues": [
+        "Luxembourg"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'acte juridique à sa définition.",
+      "pairs": [
+        {
+          "left": "Règlement",
+          "right": "S'applique directement dans tous les pays"
+        },
+        {
+          "left": "Directive",
+          "right": "Fixe un but, les pays choisissent comment l'atteindre"
+        },
+        {
+          "left": "Recommandation",
+          "right": "Avis non obligatoire envoyé aux pays"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si un pays ne respecte pas une loi européenne ?",
+      "options": [
+        "Il peut être condamné à payer des amendes très lourdes",
+        "Il gagne une médaille",
+        "Rien du tout, c'est facultatif",
+        "Il est supprimé de la carte"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

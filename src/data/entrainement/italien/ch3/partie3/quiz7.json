@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Saveurs et Goûts",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Sucré' ?",
+      "options": [
+        "Dolce",
+        "Salato",
+        "Amaro",
+        "Piccante"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Amaro' signifie 'Amer'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Salé se dit '{{1}}'.",
+      "reponsesAttendues": [
+        "salato"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la saveur.",
+      "pairs": [
+        {
+          "left": "Piccante",
+          "right": "Piquant / Épicé"
+        },
+        {
+          "left": "Acido",
+          "right": "Acide"
+        },
+        {
+          "left": "Squisito",
+          "right": "Exquis / Délicieux"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Bon appétit !' ?",
+      "options": [
+        "Buon appetito!",
+        "Buona mangiata!",
+        "Buona colazione!",
+        "Ciaoo!"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Paragraphes et Sauts de ligne",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise définit un paragraphe ?",
+      "options": [
+        "<p>",
+        "<pa>",
+        "<text>",
+        "<div>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La balise <br> a besoin d'une balise de fermeture.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour créer un trait horizontal séparateur, on utilise {{1}}.",
+      "reponsesAttendues": [
+        "hr"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Effet de la balise.",
+      "pairs": [
+        {
+          "left": "<p>",
+          "right": "Bloc de texte"
+        },
+        {
+          "left": "<br>",
+          "right": "Retour à la ligne"
+        },
+        {
+          "left": "<hr>",
+          "right": "Ligne horizontale"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que fait le navigateur avec les espaces multiples dans le code HTML ?",
+      "options": [
+        "Il les réduit à un seul espace",
+        "Il les affiche tous",
+        "Il génère une erreur",
+        "Il supprime tout le texte"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

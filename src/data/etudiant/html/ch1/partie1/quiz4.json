@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Le head : invisible",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert la balise <head> ?",
+      "options": [
+        "À donner des informations au navigateur et aux moteurs de recherche",
+        "À afficher le titre de l'article sur la page",
+        "À mettre une image en haut",
+        "À créer une navigation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le contenu du <head> n'apparaît pas directement dans la fenêtre du site.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans le head, on trouve souvent les liens vers les fichiers {{1}} et JS (CSS).",
+      "reponsesAttendues": [
+        "CSS"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Que trouve-t-on dans le <head> ?",
+      "pairs": [
+        {
+          "left": "<title>",
+          "right": "Titre onglet"
+        },
+        {
+          "left": "<meta>",
+          "right": "Encodage / Mobile"
+        },
+        {
+          "left": "<link>",
+          "right": "Lien vers CSS"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si j'écris du texte Brut dans le <head>, que se passe-t-il ?",
+      "options": [
+        "C'est une mauvaise pratique, le texte doit être dans le <body>",
+        "Il s'affiche en grand",
+        "Il devient invisible",
+        "Le site s'arrête"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

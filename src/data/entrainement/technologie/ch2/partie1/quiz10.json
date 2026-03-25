@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "EXAMEN : Évolution Technique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment résumer l'évolution technique au cours du temps ?",
+      "options": [
+        "Vers plus d'efficacité, de rapidité et de complexité",
+        "Vers l'immobilisme",
+        "Vers la disparition des machines",
+        "C'est une régression constante"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un besoin peut être vital (manger) ou de confort (se divertir).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La {{1}} de l'objet est sa capacité à assurer son service sans panne.",
+      "reponsesAttendues": [
+        "fiabilité"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Mix Évolution.",
+      "pairs": [
+        {
+          "left": "Machine à écrire",
+          "right": "Remplacée par l'ordinateur"
+        },
+        {
+          "left": "Bougie",
+          "right": "Remplacée par l'ampoule"
+        },
+        {
+          "left": "Cheval de trait",
+          "right": "Remplacé par le tracteur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour le Design, la Modélisation et le Prototype (P2) ?",
+      "options": [
+        "Oui !",
+        "C'est parti !",
+        "Absolument !",
+        "Révisions P1"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

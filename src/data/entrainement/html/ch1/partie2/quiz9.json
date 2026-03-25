@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Couleurs et Fond (Anciennes méthodes)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel attribut permettait de changer la couleur de fond d'une cellule ?",
+      "options": [
+        "bgcolor",
+        "color",
+        "background",
+        "paint"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut mettre une image de fond à un tableau avec l'attribut background.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La couleur #{{1}} correspond au blanc (en hexadécimal).",
+      "reponsesAttendues": [
+        "FFFFFF"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Application de la couleur.",
+      "pairs": [
+        {
+          "left": "Dans table",
+          "right": "Tout le tableau"
+        },
+        {
+          "left": "Dans tr",
+          "right": "Toute la ligne"
+        },
+        {
+          "left": "Dans td",
+          "right": "Juste la cellule"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la meilleure façon de changer les couleurs aujourd'hui ?",
+      "options": [
+        "Utiliser la propriété CSS 'background-color'",
+        "Utiliser bgcolor",
+        "Changer les réglages du moniteur",
+        "Il n'y a pas d'autre moyen"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

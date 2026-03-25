@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Introduction aux Ensembles (set)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la particularité d'un 'set' ?",
+      "options": [
+        "Il ne peut pas y avoir de doublons",
+        "Il est toujours trié",
+        "Il ne contient que des nombres",
+        "Il est entouré de parenthèses"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un set se crée avec des accolades { } mais sans les paires clé:valeur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour supprimer les doublons d'une liste, on peut la transformer en {{1}}.",
+      "reponsesAttendues": [
+        "set"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la structure.",
+      "pairs": [
+        {
+          "left": "[1, 1, 2]",
+          "right": "Liste (doublon autorisé)"
+        },
+        {
+          "left": "{1, 2}",
+          "right": "Set (unique)"
+        },
+        {
+          "left": "{1: 'un'}",
+          "right": "Dict (cle:valeur)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Les sets sont-ils ordonnés ?",
+      "options": [
+        "Non (l'ordre n'est pas garanti)",
+        "Oui",
+        "Seulement en Python 3.7+",
+        "Toujours alphabétique"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

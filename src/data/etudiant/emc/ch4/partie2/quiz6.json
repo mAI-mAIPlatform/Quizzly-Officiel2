@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "La Banque Centrale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle institution gère la politique monétaire de l'Euro ?",
+      "options": [
+        "La Banque Centrale Européenne (BCE)",
+        "Le bureau de tabac",
+        "La police municipale",
+        "Une petite banque de village"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le but premier de la BCE est de maintenir la stabilité des prix (lutter contre l'inflation).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le siège de la BCE se trouve à {{1}} (Francfort) en Allemagne.",
+      "reponsesAttendues": [
+        "Francfort"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme économique à sa définition.",
+      "pairs": [
+        {
+          "left": "Inflation",
+          "right": "Hausse générale des prix"
+        },
+        {
+          "left": "Pouvoir d'achat",
+          "right": "Quantité de biens qu'on peut acheter avec son argent"
+        },
+        {
+          "left": "Taux d'intérêt",
+          "right": "Coût de l'argent prêté par la banque"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il important de lutter contre une trop forte inflation ?",
+      "options": [
+        "Pour protéger le pouvoir d'achat des citoyens",
+        "Pour que les gens achètent moins de bonbons",
+        "Parce que c'est une règle de sport",
+        "C'est un secret bancaire"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

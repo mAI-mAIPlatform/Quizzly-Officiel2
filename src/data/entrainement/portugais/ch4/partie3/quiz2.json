@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "O Rosto e Extremidades",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Les yeux' ?",
+      "options": [
+        "Os olhos",
+        "Os ouvidos",
+        "O nariz",
+        "A boca"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Mão' significa 'Main'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu ouço com os {{1}} (oreilles/ouïe).",
+      "reponsesAttendues": [
+        "ouvidos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Rosto.",
+      "pairs": [
+        {
+          "left": "Cabelo",
+          "right": "Cheveux"
+        },
+        {
+          "left": "Dentes",
+          "right": "Dents"
+        },
+        {
+          "left": "Língua",
+          "right": "Langue"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quantos dedos tem uma mão?",
+      "options": [
+        "Tem cinco dedos",
+        "Tem dez dedos",
+        "Não tem dedos",
+        "Olá"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

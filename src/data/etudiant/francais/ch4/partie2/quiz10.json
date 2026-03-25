@@ -1,0 +1,63 @@
+{
+  "id": "quiz20",
+  "titre": "Synthèse : Esprit Critique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'esprit critique ?",
+      "options": [
+        "Capacité à analyser et évaluer avant de croire",
+        "Dire du mal de tout le monde",
+        "Être toujours en colère",
+        "Avoir une bonne mémoire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Douter de tout systématiquement est la même chose qu'avoir l'esprit critique.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Savoir distinguer le fait de l'{{1}} est essentiel.",
+      "reponsesAttendues": [
+        "opinion"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'attitude à sa valeur.",
+      "pairs": [
+        {
+          "left": "Curiosité",
+          "right": "Chercher à comprendre"
+        },
+        {
+          "left": "Prudence",
+          "right": "Ne pas partager trop vite"
+        },
+        {
+          "left": "Honnêteté",
+          "right": "Reconnaître qu'on a pu se tromper"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le danger d'une société sans esprit critique ?",
+      "options": [
+        "Elle est facilement manipulable",
+        "Elle est trop heureuse",
+        "Elle ne connaît pas l'histoire",
+        "Aucun danger"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

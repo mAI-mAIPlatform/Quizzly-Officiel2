@@ -1,0 +1,70 @@
+{
+  "id": "quiz4",
+  "titre": "Attributs Vidéo",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment définit-on la largeur de la vidéo ?",
+      "options": ["largeur=\"500\"", "width=\"500\"", "size=\"500\"", "x=\"500\""],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut spécifier à la fois 'width' et 'height'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} indique au navigateur s'il doit charger la vidéo au chargement de la page.",
+      "reponsesAttendues": ["preload"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle valeur de 'preload' ne charge rien avant le clic ?",
+      "options": ["auto", "metadata", "none", "lazy"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les vidéos en ligne de fond (background) utilisent souvent 'loop' et 'muted'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que contient l'attribut 'poster' ?",
+      "options": ["Du texte", "L'URL d'une image", "Le nom de l'auteur", "La date"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "vrai_faux",
+      "enonce": "Si on ne met pas width/height, le navigateur prend la taille réelle du fichier.",
+      "reponse": true
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} permet d'afficher les contrôles de lecture.",
+      "reponsesAttendues": ["controls"]
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Valeur 'metadata' pour preload signifie :",
+      "options": ["Charger toute la vidéo", "Charger uniquement les infos (durée, taille)", "Ne rien charger", "Charger les sous-titres"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'autoplay' est ignoré si l'utilisateur a désactivé le son sur son système.",
+      "reponse": false
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Le Syndicalisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un syndicat ?",
+      "options": [
+        "Une association qui défend les intérêts des travailleurs",
+        "Un groupe d'amis qui part en vacances",
+        "Une entreprise qui vend des voitures",
+        "Une équipe de football professionnel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le droit de grève est un droit fondamental garanti par la Constitution.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La discussion entre syndicats et employeurs s'appelle le {{1}} (dialogue) social.",
+      "reponsesAttendues": [
+        "dialogue"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme à son action.",
+      "pairs": [
+        {
+          "left": "Grève",
+          "right": "Cessation collective du travail"
+        },
+        {
+          "left": "Manifestation",
+          "right": "Défilé dans la rue pour exprimer une opinion"
+        },
+        {
+          "left": "Négociation",
+          "right": "Recherche d'un accord par la discussion"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Depuis quand les syndicats sont-ils autorisés en France ?",
+      "options": [
+        "1884 (Loi Waldeck-Rousseau)",
+        "1789",
+        "1945",
+        "2010"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

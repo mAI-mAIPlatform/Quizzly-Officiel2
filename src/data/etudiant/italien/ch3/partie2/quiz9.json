@@ -1,0 +1,63 @@
+{
+  "id": "quiz19",
+  "titre": "Verbi in -isc- (Passato)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es el participio de 'Capire'?",
+      "options": [
+        "Capito",
+        "Capiscito",
+        "Caputo",
+        "Cape"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Los verbos en -isc- no llevan el sufijo -isc- en el participio pasado.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Hai {{1}} la camera? (nettoyé/pulire).",
+      "reponsesAttendues": [
+        "pulito"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el participio.",
+      "pairs": [
+        {
+          "left": "Finire",
+          "right": "Finito"
+        },
+        {
+          "left": "Pulire",
+          "right": "Pulito"
+        },
+        {
+          "left": "Capire",
+          "right": "Capito"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'He terminado los deberes'?",
+      "options": [
+        "Ho finito i compiti",
+        "Ho finiscito i compiti",
+        "Sono finito i compiti",
+        "Ho finire i compiti"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

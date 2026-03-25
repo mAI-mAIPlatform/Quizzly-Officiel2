@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Maupassant et le Réalisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel genre littéraire Maupassant privilégie-t-il ?",
+      "options": [
+        "La nouvelle",
+        "L'épopée",
+        "La tragédie en vers",
+        "Le manuel scolaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Maupassant cherche à donner une 'illusion complète du vrai'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le récit de Maupassant qui raconte la vie d'une femme s'appelle '{{1}}'.",
+      "reponsesAttendues": [
+        "Une vie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le titre à son sujet.",
+      "pairs": [
+        {
+          "left": "Bel-Ami",
+          "right": "L'ambition sociale"
+        },
+        {
+          "left": "Boule de Suif",
+          "right": "La guerre de 1870"
+        },
+        {
+          "left": "Le Horla",
+          "right": "La folie (Fantastique)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Selon Maupassant, le romancier doit-il tout dire ?",
+      "options": [
+        "Non, il doit choisir les faits significatifs",
+        "Oui, absolument tout sans exception",
+        "Seulement ce qui est joyeux",
+        "Rien du tout"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

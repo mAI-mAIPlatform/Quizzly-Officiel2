@@ -1,0 +1,63 @@
+{
+  "id": "quiz12",
+  "titre": "Schulfächer",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Mathématiques'?",
+      "options": [
+        "Mathe",
+        "Deutsch",
+        "Englisch",
+        "Sport"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Deutsch' significa 'Allemand'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Mein Lieblingsfach ist {{1}} (histoire).",
+      "reponsesAttendues": [
+        "Geschichte"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la asignatura.",
+      "pairs": [
+        {
+          "left": "Kunst",
+          "right": "Arts plastiques"
+        },
+        {
+          "left": "Musik",
+          "right": "Musique"
+        },
+        {
+          "left": "Erdkunde",
+          "right": "Géographie"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'Erdkunde'?",
+      "options": [
+        "Géographie",
+        "Sciences",
+        "Langues",
+        "Dessin"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz12",
+  "titre": "La Bataille d'Hernani",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la 'bataille d'Hernani' ?",
+      "options": [
+        "Une querelle violente entre partisans du classicisme et du romantisme",
+        "Une véritable guerre en Espagne",
+        "Un concours de poésie",
+        "Une dispute entre acteurs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La bataille a eu lieu lors de la première représentation de la pièce en 1830.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le gilet porté par Théophile Gautier lors de cette soirée était de couleur {{1}}.",
+      "reponsesAttendues": [
+        "rouge"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le camp à sa vision de l'art.",
+      "pairs": [
+        {
+          "left": "Les Classiques",
+          "right": "Respect des règles et de la tradition"
+        },
+        {
+          "left": "Les Romantiques",
+          "right": "Liberté totale de création"
+        },
+        {
+          "left": "Le public",
+          "right": "Spectateur du conflit"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel était le principal reproche fait au texte d'Hernani ?",
+      "options": [
+        "Ses entorses à l'alexandrin et aux règles",
+        "Son manque d'action",
+        "Sa trop grande longueur",
+        "L'absence de musique"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

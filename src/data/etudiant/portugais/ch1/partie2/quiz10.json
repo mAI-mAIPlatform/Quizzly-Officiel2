@@ -1,0 +1,63 @@
+{
+  "id": "quiz20",
+  "titre": "Cap. 1 P. 2 Síntese",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Eu {{1}} (morar) com minha família e nós {{2}} (comer) muito bem.",
+      "options": [
+        "moro / comemos",
+        "mora / comem",
+        "moramos / comemos",
+        "moro / colhemos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Estou com sede' significa 'Tengo sed'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Hoje é {{1}} (domingo).",
+      "reponsesAttendues": [
+        "domingo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el resumen.",
+      "pairs": [
+        {
+          "left": "Família",
+          "right": "Pai, Mãe, Irmão"
+        },
+        {
+          "left": "Verbo",
+          "right": "Falar, Comer, Abrir"
+        },
+        {
+          "left": "Estado",
+          "right": "Cansado, Feliz, Fome"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Le vendredi, je mange avec mon frère et nous sommes heureux'?",
+      "options": [
+        "Na sexta-feira, como com meu irmão e somos felizes",
+        "Na sexta-feira, come com meu irmão e somos felizes",
+        "Na sexta-feira, comer com meu irmão e somos felizes",
+        "Na sexta-feira, como com meu irmão e são felizes"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

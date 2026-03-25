@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Les Thermes (Thermae)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi les Romains allaient-ils aux thermes ?",
+      "options": [
+        "Pour se laver et socialiser",
+        "Pour dormir",
+        "Pour voter",
+        "Pour faire la guerre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les thermes étaient réservés uniquement aux très riches.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le système de chauffage par le sol s'appelle l'{{1}} (hypocaustum).",
+      "reponsesAttendues": [
+        "hypocauste"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la pièce des thermes.",
+      "pairs": [
+        {
+          "left": "Apodyterium",
+          "right": "Vestiaire"
+        },
+        {
+          "left": "Caldarium",
+          "right": "Bain chaud"
+        },
+        {
+          "left": "Frigidarium",
+          "right": "Bain froid"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que faisait-on dans la 'palaestra' ?",
+      "options": [
+        "Des exercices physiques / Sport",
+        "Prendre un bain de vapeur",
+        "Manger la cena",
+        "Lire des livres"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

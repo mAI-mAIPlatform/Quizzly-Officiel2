@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Zusammenfassung Kapitel 2 Teil 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Um wie viel Uhr stehst du auf?",
+      "options": [
+        "Ich stehe um sieben Uhr auf",
+        "Ich bin sieben Uhr",
+        "Ich habe sieben Uhr",
+        "Es ist sieben Uhr"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Halb acht ist 7:30.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Zuerst frühstücke ich, {{1}} gehe ich zur Schule.",
+      "reponsesAttendues": [
+        "dann"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Tageszeiten.",
+      "pairs": [
+        {
+          "left": "Morgen",
+          "right": "Matin"
+        },
+        {
+          "left": "Nachmittag",
+          "right": "Après-midi"
+        },
+        {
+          "left": "Abend",
+          "right": "Soir"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Wie geht es dir?",
+      "options": [
+        "Mir geht es super",
+        "Ich heiße super",
+        "Ich komme aus super",
+        "Super ist gut"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

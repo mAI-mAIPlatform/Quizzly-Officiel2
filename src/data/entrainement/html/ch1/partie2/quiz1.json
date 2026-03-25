@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Structure d'un tableau HTML",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise encadre tout un tableau ?",
+      "options": [
+        "<table>",
+        "<tab>",
+        "<grid>",
+        "<tbody>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La balise <tr> définit une ligne de tableau (Table Row).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise {{1}} définit une cellule de données simple (Table Data).",
+      "reponsesAttendues": [
+        "td"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Lien vers la fonction.",
+      "pairs": [
+        {
+          "left": "table",
+          "right": "Conteneur"
+        },
+        {
+          "left": "tr",
+          "right": "Ligne"
+        },
+        {
+          "left": "td",
+          "right": "Cellule"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "L'ordre correct d'imbrication est :",
+      "options": [
+        "table > tr > td",
+        "tr > table > td",
+        "td > tr > table",
+        "table > td > tr"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

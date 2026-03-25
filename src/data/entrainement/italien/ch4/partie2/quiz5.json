@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Les Prépositions articulées (Base)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une préposition articulée ?",
+      "options": [
+        "La fusion d'une préposition et d'un article",
+        "Une préposition qui s'articule bien",
+        "Un verbe déguisé",
+        "Une ponctuation spéciale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Di + Il = Del.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "À la (A + La) se dit '{{1}}'.",
+      "reponsesAttendues": [
+        "alla"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la fusion.",
+      "pairs": [
+        {
+          "left": "In + Il",
+          "right": "Nel"
+        },
+        {
+          "left": "Su + Il",
+          "right": "Sul"
+        },
+        {
+          "left": "Da + Il",
+          "right": "Dal"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Des' (De + Les fém. plur.) ?",
+      "options": [
+        "Delle",
+        "Dello",
+        "Degli",
+        "Dei"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

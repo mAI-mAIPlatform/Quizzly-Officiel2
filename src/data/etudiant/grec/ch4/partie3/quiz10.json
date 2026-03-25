@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "GRAND EXAMEN FINAL",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Le radical de 'sôma' est {{1}} et son pluriel nominatif est {{2}}.",
+      "options": [
+        "sômat- / sômata",
+        "sôm- / sôma",
+        "sômatos / sômaton",
+        "sômati / sômatei"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Laboi' est une 3ème pers. sing. de l'optatif aoriste.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'éducation grecque (idéal de formation) s'appelle la {{1}} (Paideia).",
+      "reponsesAttendues": [
+        "Paideia"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les époques.",
+      "pairs": [
+        {
+          "left": "Archaïque",
+          "right": "VIIe-VIe s. av. J.-C. (Kouros)"
+        },
+        {
+          "left": "Classique",
+          "right": "Ve-IVe s. av. J.-C. (Parthénon)"
+        },
+        {
+          "left": "Hellénistique",
+          "right": "IIIe-Ier s. av. J.-C. (Alexandre)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Kalos kagathos' (idéal grec) ?",
+      "options": [
+        "Beau et bon",
+        "Riche et puissant",
+        "Vieux et sage",
+        "Fort et cruel"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

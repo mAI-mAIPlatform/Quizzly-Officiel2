@@ -1,0 +1,63 @@
+{
+  "id": "quiz26",
+  "titre": "Polite Requests",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "How do you ask for a map politely?",
+      "options": [
+        "Could you give me a map, please?",
+        "Give me a map!",
+        "I need a map",
+        "Where is your map?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Could' is more polite than 'Can'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "{{1}} you help me find my way, please?",
+      "reponsesAttendues": [
+        "Could"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the request with the response.",
+      "pairs": [
+        {
+          "left": "Could you tell me the time?",
+          "right": "Yes, it is half past three"
+        },
+        {
+          "left": "Could you open the window?",
+          "right": "Certainly, here you go"
+        },
+        {
+          "left": "Could I borrow your pen?",
+          "right": "Of course, no problem"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Which word makes a sentence more polite?",
+      "options": [
+        "Please",
+        "Now",
+        "Quickly",
+        "Maybe"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

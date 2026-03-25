@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Égalité Homme-Femme (Aujourd'hui)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie l'égalité salariale ?",
+      "options": [
+        "À travail égal, salaire égal pour les hommes et les femmes",
+        "Payer tout le monde le même salaire peu importe le métier",
+        "Donner plus d'argent aux hommes",
+        "Supprimer les salaires"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il existe encore des stéréotypes sexistes dans les choix d'orientation scolaire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les violences faites aux femmes sont un obstacle majeur à l'{{1}} (égalité).",
+      "reponsesAttendues": [
+        "égalité"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'action à son but.",
+      "pairs": [
+        {
+          "left": "Lutter contre le sexisme",
+          "right": "Changer les mentalités et les préjugés"
+        },
+        {
+          "left": "Promouvoir les métiers techniques",
+          "right": "Encourager les filles dans les sciences"
+        },
+        {
+          "left": "Partager les tâches ménagères",
+          "right": "Équilibrer la vie domestique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le fait de traiter différemment une personne en raison de son sexe ?",
+      "options": [
+        "Une discrimination",
+        "Une faveur",
+        "Une élection",
+        "Une tradition obligatoire"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "quiz24",
+  "titre": "Événements Souris",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel événement se déclenche quand la souris 'entre' sur un élément ?",
+      "options": [
+        "mouseenter / mouseover",
+        "click",
+        "mouseout",
+        "mousedown"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'mousedown' se déclenche dès que l'on appuie sur le bouton de la souris (avant de relâcher).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'événement {{1}} se déclenche quand la souris quitte un élément (mouseout / mouseleave).",
+      "reponsesAttendues": [
+        "mouseout",
+        "mouseleave"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'action au nom précis.",
+      "pairs": [
+        {
+          "left": "Clic gauche",
+          "right": "click"
+        },
+        {
+          "left": "Double clic",
+          "right": "dblclick"
+        },
+        {
+          "left": "Clic droit",
+          "right": "contextmenu"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel sert de base pour faire du 'Drag and Drop' (glisser-déposer) ?",
+      "options": [
+        "mousemove",
+        "mouseover",
+        "static",
+        "scroll"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

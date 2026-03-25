@@ -1,0 +1,70 @@
+{
+  "id": "quiz8",
+  "titre": "Accessibilité Avancée",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment l'attribut aria-labelledby peut-il aider ?",
+      "options": ["En liant l'image à sa légende pour les lecteurs d'écran", "En changeant la police", "En traduisant le texte", "Il ne sert à rien"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les personnes aveugles lisent la légende après le alt de l'image.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut 'role=\"{{1}}\"' peut être ajouté à figure pour plus de clarté.",
+      "reponsesAttendues": ["group"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Si la légende décrit déjà TOUT le contenu, que mettre dans le alt ?",
+      "options": ["Le même texte", "alt=\"\"", "alt=\"image\"", "alt=\"voir légende\""],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Favoriser <figure> aide à la navigation au clavier.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'attribut 'aria-hidden' ?",
+      "options": ["Cache l'image à tout le monde", "Cache l'élément uniquement aux lecteurs d'écran", "Supprime l'image", "Change la taille"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "vrai_faux",
+      "enonce": "Le duo figure/figcaption est le standard W3C pour l'accessibilité des illustrations.",
+      "reponse": true
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "Un lecteur d'écran annonce 'Figure' en entrant dans la balise <{{1}}>.",
+      "reponsesAttendues": ["figure"]
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Si une figure contient un long tableau, que doit dire la légende ?",
+      "options": ["Rien", "Le titre du tableau", "Tout le contenu du tableau", "Le nombre de colonnes"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'accessibilité ne profite qu'aux personnes handicapées.",
+      "reponse": false
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz28",
+  "titre": "L'Évolution de l'Homme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel groupe d'animaux possède les caractères les plus proches de l'Humain ?",
+      "options": [
+        "Les Grands Singes (Chimpanzés, Bonobos, Gorilles)",
+        "Les oiseaux chanteurs",
+        "Les reptiles sauriens",
+        "Les dauphins"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La bipédie (marche sur deux jambes) est un caractère clé de la lignée humaine.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'espèce humaine actuelle s'appelle Homo {{1}}.",
+      "reponsesAttendues": [
+        "sapiens"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'espèce humaine à son attribut.",
+      "pairs": [
+        {
+          "left": "Australopithèque (ex: Lucy)",
+          "right": "Bipédie partielle, encore arboricole"
+        },
+        {
+          "left": "Homo habilis",
+          "right": "Premiers outils en pierre taillée réguliers"
+        },
+        {
+          "left": "Néandertal",
+          "right": "Cousin proche ayant vécu en Europe"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où sont nés les plus anciens ancêtres de la lignée humaine ?",
+      "options": [
+        "En Afrique",
+        "En Australie",
+        "Au Pôle Nord",
+        "En Amérique"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

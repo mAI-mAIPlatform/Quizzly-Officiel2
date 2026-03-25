@@ -1,0 +1,64 @@
+{
+  "id": "quiz10",
+  "titre": "Ch. 4 P. 1 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Une structure 'Si... Alors... Sinon' est une {{1}}.",
+      "options": [
+        "condition",
+        "boucle",
+        "variable",
+        "fonction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une liste peut contenir plusieurs variables.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour répéter une action tant qu'une condition est vraie, on utilise une boucle {{1}} (Tant que / While).",
+      "reponsesAttendues": [
+        "Tant que",
+        "While"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les types de données.",
+      "pairs": [
+        {
+          "left": "Entier",
+          "right": "Nombre sans virgule"
+        },
+        {
+          "left": "Booléen",
+          "right": "Vrai ou Faux"
+        },
+        {
+          "left": "Chaîne",
+          "right": "Texte"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une boucle infinie ?",
+      "options": [
+        "Une boucle qui ne s'arrête jamais",
+        "Une boucle très longue",
+        "Une boucle qui trie les nombres",
+        "Une erreur de coloration"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

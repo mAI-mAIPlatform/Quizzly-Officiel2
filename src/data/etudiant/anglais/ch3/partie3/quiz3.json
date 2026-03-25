@@ -1,0 +1,63 @@
+{
+  "id": "quiz23",
+  "titre": "Great Inventions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Who is credited with inventing the lightbulb?",
+      "options": [
+        "Thomas Edison",
+        "Isaac Newton",
+        "Charles Darwin",
+        "Albert Einstein"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "The printing press was invented by Johannes Gutenberg.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Alexander Graham Bell is famous for inventing the {{1}}.",
+      "reponsesAttendues": [
+        "telephone"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the invention with its impact.",
+      "pairs": [
+        {
+          "left": "The Steam Engine",
+          "right": "Industrial Revolution and faster trains"
+        },
+        {
+          "left": "The Internet",
+          "right": "Global communication and info sharing"
+        },
+        {
+          "left": "Vaccines",
+          "right": "Prevention of serious diseases"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What does it mean to 'patent' an invention?",
+      "options": [
+        "To get official legal rights to own and sell the idea",
+        "To break the invention",
+        "To give it away for free",
+        "To hide it in a box"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

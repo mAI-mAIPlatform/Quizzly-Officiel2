@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Wie alt bist du? (Âge)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie fragt man 'Quel âge as-tu ?'",
+      "options": [
+        "Wie alt bist du?",
+        "Wie heißt du?",
+        "Wo wohnst du?",
+        "Wer bist du?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Ich bin 15 Jahre alt' bedeutet 'J'ai 15 ans'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Wie alt {{1}} du?",
+      "reponsesAttendues": [
+        "bist"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Alter.",
+      "pairs": [
+        {
+          "left": "Kind",
+          "right": "Enfant"
+        },
+        {
+          "left": "Erwachsene",
+          "right": "Adulte"
+        },
+        {
+          "left": "Jahr",
+          "right": "An"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Ich bin zwölf. Wie alt bist du?",
+      "options": [
+        "Ich bin dreizehn",
+        "Ich bin Max",
+        "Ich komme aus Berlin",
+        "Ich habe Hunger"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

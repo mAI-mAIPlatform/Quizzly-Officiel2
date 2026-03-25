@@ -1,0 +1,63 @@
+{
+  "id": "quiz13",
+  "titre": "Mesurer une résistance",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel appareil permet de mesurer directement une résistance ?",
+      "options": [
+        "L'ohmmètre",
+        "L'ampèremètre",
+        "Le voltmètre",
+        "Le chronomètre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut mesurer une résistance alors qu'elle est traversée par le courant du circuit.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour mesurer une résistance, on la branche seule aux bornes 'COM' et {{1}} du multimètre.",
+      "reponsesAttendues": [
+        "Ω"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'état du multimètre en ohmmètre.",
+      "pairs": [
+        {
+          "left": "Liaison directe par un fil",
+          "right": "0 Ω (environ)"
+        },
+        {
+          "left": "Circuit ouvert (air)",
+          "right": "1 ou OL (Résistance infinie)"
+        },
+        {
+          "left": "Résistance de 220 Ω",
+          "right": "Affichage de la valeur 220"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi faut-il débrancher la résistance pour la mesurer ?",
+      "options": [
+        "Car l'ohmmètre possède sa propre pile pour la mesure",
+        "Car elle risque de brûler",
+        "C'est plus facile pour lire l'écran",
+        "La couleur ne changerait pas sinon"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

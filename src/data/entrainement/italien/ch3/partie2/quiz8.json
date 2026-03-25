@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Les sorties : Restaurant et Bar",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Le menu' en italien ?",
+      "options": [
+        "Il menù",
+        "La lista",
+        "Il pranzo",
+        "La cena"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En Italie, on demande 'Il conto' pour avoir l'addition.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le serveur se dit 'Il {{1}}'.",
+      "reponsesAttendues": [
+        "cameriere"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le moment.",
+      "pairs": [
+        {
+          "left": "Pranzo",
+          "right": "Déjeuner"
+        },
+        {
+          "left": "Cena",
+          "right": "Dîner"
+        },
+        {
+          "left": "Colazione",
+          "right": "Petit-déjeuner"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que commande-t-on souvent au bar le matin ?",
+      "options": [
+        "Un cornetto e un caffè",
+        "Una pizza",
+        "Una bistecca",
+        "Un gelato"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

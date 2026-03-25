@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "L'Église au Moyen Âge",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on l'ensemble des chrétiens d'Occident au Moyen Âge ?",
+      "options": [
+        "L'Islam",
+        "La Chrétienté",
+        "Le Protestantisme",
+        "Le Bouddhisme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Église joue un rôle très important dans la vie quotidienne des gens.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le chef de l'Église catholique est le {{1}}.",
+      "reponsesAttendues": [
+        "Pape"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le clerc à son lieu de vie.",
+      "pairs": [
+        {
+          "left": "Moine",
+          "right": "Abbaye / Monastère"
+        },
+        {
+          "left": "Prêtre",
+          "right": "Paroisse (Église du village)"
+        },
+        {
+          "left": "Évêque",
+          "right": "Cathédrale (Ville)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'excommunication ?",
+      "options": [
+        "Une fête religieuse",
+        "L'exclusion d'une personne de la communauté des chrétiens",
+        "Le sacre d'un roi",
+        "Une école pour prêtres"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

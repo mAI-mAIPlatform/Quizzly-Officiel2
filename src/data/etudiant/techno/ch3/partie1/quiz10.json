@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Ch. 3 P. 1 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Le pétrole est une énergie {{1}}.",
+      "options": [
+        "fossile",
+        "renouvelable",
+        "gratuite",
+        "inépuisable"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une batterie stocke de l'énergie chimique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Transformer l'électricité en mouvement est une fonction de {{1}} (conversion).",
+      "reponsesAttendues": [
+        "conversion"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les types d'énergie.",
+      "pairs": [
+        {
+          "left": "Cinétique",
+          "right": "Mouvement"
+        },
+        {
+          "left": "Thermique",
+          "right": "Chaleur"
+        },
+        {
+          "left": "Rayonnante",
+          "right": "Lumière"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle unité mesure la puissance ?",
+      "options": [
+        "Le Watt",
+        "Le Volt",
+        "L'Ampère",
+        "Le Litre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

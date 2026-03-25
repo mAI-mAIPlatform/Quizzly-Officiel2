@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "No restaurante",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo pides la cuenta en Brasil?",
+      "options": [
+        "A conta, por favor",
+        "O conta, por favor",
+        "A nota, por favor",
+        "O menu, por favor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Garçom' es el camarero.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu queria {{1}} uma mesa (réserver).",
+      "reponsesAttendues": [
+        "reservar"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el término del restaurante.",
+      "pairs": [
+        {
+          "left": "O cardápio",
+          "right": "Le menu / La carte"
+        },
+        {
+          "left": "O prato",
+          "right": "L'assiette / Le plat"
+        },
+        {
+          "left": "A faca",
+          "right": "Le couteau"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'suco'? (es. suco de uva)",
+      "options": [
+        "Zumo / Jugo",
+        "Sopa",
+        "Salsa",
+        "Vino"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

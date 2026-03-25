@@ -1,0 +1,64 @@
+{
+  "id": "quiz8",
+  "titre": "Arts et Lettres (Litterae)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Le livre' ?",
+      "options": [
+        "Liber",
+        "Carmen",
+        "Poeta",
+        "Inscriptio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Carmen' signifie un chant ou un poème.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le poète se dit {{1}} et l'écrivain {{2}} (poeta/scriptor).",
+      "reponsesAttendues": [
+        "poeta",
+        "scriptor"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le genre littéraire.",
+      "pairs": [
+        {
+          "left": "Poesis",
+          "right": "Poésie"
+        },
+        {
+          "left": "Eloquencia",
+          "right": "Éloquence"
+        },
+        {
+          "left": "Historia",
+          "right": "Histoire"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Sur quoi les Romains écrivaient-ils couramment ?",
+      "options": [
+        "Des tablettes de cire ou des rouleaux de papyrus",
+        "Sur des écrans",
+        "Uniquement sur de la pierre",
+        "Sur du métal précieux"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

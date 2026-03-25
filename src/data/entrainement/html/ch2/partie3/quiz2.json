@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Bordures et Style d'iFrame",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel attribut (déprécié) permettait d'enlever la bordure d'une iFrame ?",
+      "options": [
+        "frameborder='0'",
+        "border='none'",
+        "border='0'",
+        "noborder"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il est recommandé d'utiliser CSS (border: none) plutôt que frameborder.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut scrolling='{{1}}' permettait de cacher les barres de défilement (déprécié).",
+      "reponsesAttendues": [
+        "no"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Style et Visuel.",
+      "pairs": [
+        {
+          "left": "style='border:none'",
+          "right": "Pas de bordure (propre)"
+        },
+        {
+          "left": "width='100%'",
+          "right": "Pleine largeur"
+        },
+        {
+          "left": "loading='lazy'",
+          "right": "Chargement différé"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si la page intégrée est plus grande que l'iFrame ?",
+      "options": [
+        "Des barres de défilement apparaissent",
+        "La page est coupée",
+        "L'iFrame s'agrandit toute seule",
+        "Le site plante"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Ajouter au DOM",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet d'insérer un élément à l'intérieur d'un autre (le placer à la fin) ?",
+      "options": [
+        "appendChild()",
+        "insertInside()",
+        "put()",
+        "attach()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "appendChild() place le nouvel élément comme le dernier enfant du parent.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour mettre 'monBtn' dans 'maDiv', on fait : maDiv.{{1}}(monBtn) (appendChild).",
+      "reponsesAttendues": [
+        "appendChild"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la méthode au rôle.",
+      "pairs": [
+        {
+          "left": "appendChild",
+          "right": "Ajoute à la fin"
+        },
+        {
+          "left": "prepend",
+          "right": "Ajoute au début"
+        },
+        {
+          "left": "before",
+          "right": "Insère juste avant"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si j'ajoute un élément qui est déjà présent ailleurs dans le DOM ?",
+      "options": [
+        "Il est déplacé d'un endroit à l'autre (pas dupliqué)",
+        "Il est copié",
+        "Il provoque une erreur",
+        "Rien ne change"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

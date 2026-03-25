@@ -1,0 +1,64 @@
+{
+  "id": "quiz2",
+  "titre": "Thème et Variations",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Thème et Variations' en musique ?",
+      "options": [
+        "Un thème exposé puis transformé de plusieurs façons",
+        "Un morceau où l'on change d'instrument à chaque note",
+        "Une musique sans mélodie",
+        "Un concert de 24 heures"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Mozart a écrit des variations très célèbres sur l'air 'Ah ! vous dirai-je, maman'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans une variation, on peut changer le rythme, la vitesse ou la décoration de la {{1}} (mélodie).",
+      "reponsesAttendues": [
+        "mélodie",
+        "melodie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le type de transformation à son effet.",
+      "pairs": [
+        {
+          "left": "Variation ornementale",
+          "right": "On ajoute beaucoup de petites notes rapides"
+        },
+        {
+          "left": "Variation rythmique",
+          "right": "Le thème change de rythme (ex: valse)"
+        },
+        {
+          "left": "Variation de mode",
+          "right": "Le thème passe de majeur à mineur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel de ces compositeurs est célèbre pour ses 'Variations Goldberg' ?",
+      "options": [
+        "Jean-Sébastien Bach",
+        "Ludwig van Beethoven",
+        "Elvis Presley",
+        "Claude Debussy"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

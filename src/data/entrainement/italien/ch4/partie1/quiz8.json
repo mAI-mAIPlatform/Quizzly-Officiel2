@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Les Prépositions de base",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Avec' ?",
+      "options": [
+        "Con",
+        "Senza",
+        "Per",
+        "Tra"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Per' signifie 'Pour'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Sans se dit '{{1}}'.",
+      "reponsesAttendues": [
+        "senza"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la préposition.",
+      "pairs": [
+        {
+          "left": "Tra / Fra",
+          "right": "Entre / Parmi"
+        },
+        {
+          "left": "Di",
+          "right": "De"
+        },
+        {
+          "left": "Su",
+          "right": "Sur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Sotto' ?",
+      "options": [
+        "Sous",
+        "Sur",
+        "Devant",
+        "Derrière"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

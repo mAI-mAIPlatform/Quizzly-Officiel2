@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Introduction aux Fractions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans la fraction 3/4, comment s'appelle le nombre 4 ?",
+      "options": [
+        "Le numérateur",
+        "Le dénominateur",
+        "Le diviseur",
+        "Le quotient"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une fraction est une autre façon d'écrire une division.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si je mange 2 parts d'un gâteau coupé en 6, la fraction restante est {{1}}/6.",
+      "reponsesAttendues": [
+        "4"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la fraction à sa valeur décimale.",
+      "pairs": [
+        {
+          "left": "1/2",
+          "right": "0.5"
+        },
+        {
+          "left": "1/4",
+          "right": "0.25"
+        },
+        {
+          "left": "3/4",
+          "right": "0.75"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle fraction est égale à 1 ?",
+      "options": [
+        "1/2",
+        "2/1",
+        "4/4",
+        "0/4"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

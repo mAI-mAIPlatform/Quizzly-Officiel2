@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Articles définis féminins (Singulier)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est l'article défini féminin singulier ?",
+      "options": [
+        "La",
+        "Le",
+        "Li",
+        "Lo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Contrairement au masculin, 'La' devient 'L'' devant TOUtes les voyelles.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'amie se dit 'L'{{1}}'.",
+      "reponsesAttendues": [
+        "amica"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'article au mot féminin.",
+      "pairs": [
+        {
+          "left": "La",
+          "right": "Casa"
+        },
+        {
+          "left": "La",
+          "right": "Pizza"
+        },
+        {
+          "left": "L'",
+          "right": "Isola"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'La porte' ?",
+      "options": [
+        "La porta",
+        "Il porta",
+        "Lo porta",
+        "Le porta"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

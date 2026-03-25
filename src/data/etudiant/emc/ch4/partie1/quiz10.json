@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Cap. 4 P. 1 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "L'UE est née pour garantir la {{1}} et la {{2}}.",
+      "options": [
+        "paix / prospérité",
+        "famine / guerre",
+        "neige / pluie",
+        "vitesse / peur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 9 mai est la journée de l'Europe.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le traité fondateur de la CEE en 1957 est le traité de {{1}} (Rome).",
+      "reponsesAttendues": [
+        "Rome"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les acquis européens.",
+      "pairs": [
+        {
+          "left": "Schengen",
+          "right": "Libre circulation des personnes"
+        },
+        {
+          "left": "Maastricht",
+          "right": "Création de la citoyenneté européenne"
+        },
+        {
+          "left": "Euro",
+          "right": "Stabilité économique et commerciale"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la devise de l'UE ?",
+      "options": [
+        "Unie dans la diversité",
+        "Liberté, Égalité, Fraternité",
+        "L'union fait la force",
+        "Travail, Famille, Patrie"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

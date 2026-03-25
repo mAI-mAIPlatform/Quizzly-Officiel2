@@ -1,0 +1,63 @@
+{
+  "id": "quiz18",
+  "titre": "Child Rights",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is 'child labor'?",
+      "options": [
+        "Work that deprives children of their childhood and education",
+        "Children helping with chores at home",
+        "Children doing their homework",
+        "A type of very small workshop"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "UNICEF is a United Nations organization focused on protecting children's rights.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Every child has the right to play and {{1}}.",
+      "reponsesAttendues": [
+        "learn"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the child right to its objective.",
+      "pairs": [
+        {
+          "left": "Right to protection",
+          "right": "Safety from violence and harm"
+        },
+        {
+          "left": "Right to health",
+          "right": "Access to doctors and clean water"
+        },
+        {
+          "left": "Right to participate",
+          "right": "Having a voice in matters that affect them"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is the 'CRC'?",
+      "options": [
+        "The Convention on the Rights of the Child",
+        "A type of computer code",
+        "The name of a famous school",
+        "A button on a television remote"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

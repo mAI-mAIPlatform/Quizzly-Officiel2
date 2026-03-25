@@ -1,0 +1,63 @@
+{
+  "id": "quiz26",
+  "titre": "Foi et Science au XIXe",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel savant a provoqué une crise religieuse avec sa théorie de l'évolution ?",
+      "options": [
+        "Charles Darwin",
+        "Isaac Newton",
+        "Louis Pasteur",
+        "Albert Einstein"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Au XIXe siècle, les églises restent des lieux centraux pour la vie sociale et morale.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mouvement qui refuse l'influence de la religion dans l'État s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "laïcité"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la vision du monde au groupe.",
+      "pairs": [
+        {
+          "left": "Scientisme",
+          "right": "La science peut résoudre tous les problèmes humains"
+        },
+        {
+          "left": "Traditionnalisme",
+          "right": "Attachement aux valeurs religieuses anciennes"
+        },
+        {
+          "left": "Anticléricalisme",
+          "right": "Opposition à l'influence politique du clergé"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment la religion s'adapte-t-elle à la modernité ?",
+      "options": [
+        "Par le catholicisme social et l'aide aux pauvres",
+        "En interdisant les machines à vapeur",
+        "En fermant toutes les églises",
+        "En déclarant la guerre à la science"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

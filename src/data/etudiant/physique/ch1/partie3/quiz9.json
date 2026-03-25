@@ -1,0 +1,63 @@
+{
+  "id": "quiz29",
+  "titre": "Éco-gestes au Labo",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où doit-on jeter les produits chimiques après une expérience ?",
+      "options": [
+        "Dans des bidons de récupération spécifiques",
+        "Dans l'évier systématiquement",
+        "Dans la poubelle à papier",
+        "Par la fenêtre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il est important d'utiliser uniquement la quantité de produit nécessaire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le recyclage du papier et du {{1}} est possible aussi au labo.",
+      "reponsesAttendues": [
+        "verre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'éco-geste à son impact.",
+      "pairs": [
+        {
+          "left": "Éteindre les plaques de cuisson",
+          "right": "Économie d'énergie"
+        },
+        {
+          "left": "Récupérer les métaux",
+          "right": "Limiter la pollution des eaux"
+        },
+        {
+          "left": "Utiliser moins d'eau distillée",
+          "right": "Préserver les ressources"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi ne doit-on pas gâcher les réactifs ?",
+      "options": [
+        "Pour limiter le coût et l'impact environnemental",
+        "Parce qu'ils sont tous rares et précieux",
+        "Parce qu'ils sentent mauvais",
+        "Parce que le stock est fermé à clé"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

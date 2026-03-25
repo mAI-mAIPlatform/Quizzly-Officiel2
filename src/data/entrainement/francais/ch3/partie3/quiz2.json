@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Les Indices de l'Énonciateur",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces pronoms indique que l'énonciateur parle de lui ?",
+      "options": [
+        "Moi",
+        "Lui",
+        "Eux",
+        "Toi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les mots comme 'ici', 'hier' et 'maintenant' dépendent de la situation d'énonciation.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un indice qui montre le sentiment de celui qui parle est une {{1}}.",
+      "reponsesAttendues": [
+        "modalisation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Type de déictique.",
+      "pairs": [
+        {
+          "left": "Ici",
+          "right": "Lieu"
+        },
+        {
+          "left": "Maintenant",
+          "right": "Temps"
+        },
+        {
+          "left": "Je",
+          "right": "Personne"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Dans 'Nous irons vous voir demain', qui est l'énonciateur ?",
+      "options": [
+        "Nous",
+        "Vous",
+        "Demain",
+        "Le narrateur omniscient"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

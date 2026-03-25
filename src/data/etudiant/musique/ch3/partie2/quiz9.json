@@ -1,0 +1,64 @@
+{
+  "id": "quiz9",
+  "titre": "Cas pratique : Calculs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans une mesure à 4/4, combien de temps me reste-t-il si j'ai déjà une Blanche et une Noire ?",
+      "options": [
+        "1 temps",
+        "2 temps",
+        "0 temps",
+        "4 temps"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Deux Croches durent exactement le même temps qu'une Noire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour remplir une mesure entière à 3/4 avec une seule note, je dois utiliser une Blanche {{1}} (pointée).",
+      "reponsesAttendues": [
+        "pointée",
+        "pointee"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la combinaison à sa durée totale.",
+      "pairs": [
+        {
+          "left": "2 Noires + 1 Blanche",
+          "right": "4 temps"
+        },
+        {
+          "left": "4 Croches",
+          "right": "2 temps"
+        },
+        {
+          "left": "1 Noire pointée + 1 Croche",
+          "right": "2 temps"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si je suis en 2/4, laquelle de ces mesures est 'trop pleine' ?",
+      "options": [
+        "Une Blanche + une Noire",
+        "Une Blanche",
+        "Deux Noires",
+        "Quatre Croches"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

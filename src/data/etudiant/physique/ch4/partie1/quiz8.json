@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Calcul par écho",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Un sonar émet un signal qui revient après 2 secondes. Pourquoi divise-t-on le temps par 2 pour la distance ?",
+      "options": [
+        "Car le signal fait un aller-retour",
+        "Car la vitesse est divisée par 2 sous l'eau",
+        "C'est une règle arbitraire",
+        "Pour avoir un chiffre plus petit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La formule de distance avec écho est : d = (v x t) / 2.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si v = 1500 m/s et l'écho revient en 4s, le fond est à {{1}} mètres.",
+      "reponsesAttendues": [
+        "3000"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Calcule la profondeur.",
+      "pairs": [
+        {
+          "left": "v = 1500 m/s, t = 1 s",
+          "right": "d = 750 m"
+        },
+        {
+          "left": "v = 1500 m/s, t = 10 s",
+          "right": "d = 7500 m"
+        },
+        {
+          "left": "v = 1500 m/s, t = 0.2 s",
+          "right": "d = 150 m"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "L'écho permet-il de mesurer une distance dans le vide ?",
+      "options": [
+        "Non, car le son ne s'y propage pas",
+        "Oui, si on utilise des lampes",
+        "Oui, les échos sont très forts dans le vide",
+        "Non, le vide absorbe les échos"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

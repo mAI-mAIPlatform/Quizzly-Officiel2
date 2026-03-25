@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Les Participes aoristes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment se forme le participe aoriste sigmatique (masc. sing.) ?",
+      "options": [
+        "Radical + -sas (σας)",
+        "Radical + -as",
+        "Radical + -ôn",
+        "Radical + -ousa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Paideusas' (παιδεύσας) signifie 'Ayant éduqué'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ayant pris (aoriste thématique) se dit '{{1}}' (labôn / λαβών).",
+      "reponsesAttendues": [
+        "labôn"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le participe aoriste.",
+      "pairs": [
+        {
+          "left": "eipôn",
+          "right": "Ayant dit"
+        },
+        {
+          "left": "grapsas",
+          "right": "Ayant écrit"
+        },
+        {
+          "left": "idôn",
+          "right": "Ayant vu"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Y a-t-il une augmentation (e-) au participe aoriste ?",
+      "options": [
+        "Non, l'augmentation ne se trouve qu'à l'indicatif",
+        "Oui, toujours",
+        "Seulement au pluriel",
+        "Seulement au neutre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

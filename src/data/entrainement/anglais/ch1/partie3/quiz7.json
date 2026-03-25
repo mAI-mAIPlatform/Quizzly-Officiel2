@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Present Simple : Negatives",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "I _____ like history, it's boring.",
+      "options": [
+        "don't",
+        "doesn't",
+        "not",
+        "no"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "He 'don't' have a schoolbag.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "She {{1}} like wearing a uniform.",
+      "reponsesAttendues": [
+        "doesn't"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match negatives.",
+      "pairs": [
+        {
+          "left": "I / We / They",
+          "right": "Don't"
+        },
+        {
+          "left": "He / She / It",
+          "right": "Doesn't"
+        },
+        {
+          "left": "Does not",
+          "right": "Doesn't"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "We _____ have school on Sundays.",
+      "options": [
+        "don't",
+        "doesn't",
+        "isn't",
+        "haven't"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

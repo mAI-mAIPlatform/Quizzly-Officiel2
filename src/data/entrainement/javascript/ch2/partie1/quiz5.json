@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "If et Blocs de code",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si on oublie les accolades pour un 'if' ?",
+      "options": [
+        "Erreur immédiate",
+        "Seule la première ligne suivante est conditionnelle",
+        "Tout le programme devient conditionnel",
+        "Rien ne change"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il est recommandé de toujours utiliser des accolades, même pour une seule ligne.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les {{1}} définissent la portée des variables avec 'let' et 'const'.",
+      "reponsesAttendues": [
+        "blocs"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le symbole au bloc.",
+      "pairs": [
+        {
+          "left": "{",
+          "right": "Ouverture du bloc"
+        },
+        {
+          "left": "}",
+          "right": "Fermeture du bloc"
+        },
+        {
+          "left": "Indentation",
+          "right": "Aide visuelle à la lecture"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est le plus 'propre' ?",
+      "options": [
+        "if (c) alert();",
+        "if (c) { alert(); }",
+        "if (c) \n alert();",
+        "if c alert();"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

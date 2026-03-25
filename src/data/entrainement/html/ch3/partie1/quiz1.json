@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Header, Main et Footer",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise définit l'en-tête d'une page ou d'une section ?",
+      "options": [
+        "<header>",
+        "<head>",
+        "<top>",
+        "<nav>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "<main> contient le contenu unique et principal de la page.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise {{1}} se trouve généralement tout en bas de la page.",
+      "reponsesAttendues": [
+        "footer"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Structure globale.",
+      "pairs": [
+        {
+          "left": "header",
+          "right": "Logo / Titre / Nav"
+        },
+        {
+          "left": "main",
+          "right": "Article / Section unique"
+        },
+        {
+          "left": "footer",
+          "right": "Copyright / Contact"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on mettre plusieurs <header> sur une page ?",
+      "options": [
+        "Oui, un pour la page et un par article/section",
+        "Non, un seul par page",
+        "Seulement dans le footer",
+        "Uniquement au début"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

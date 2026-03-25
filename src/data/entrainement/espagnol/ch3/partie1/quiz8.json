@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Alternancia en 3ª persona (e->i)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Il a demandé' (Pedir, e->i) ?",
+      "options": [
+        "Pidió",
+        "Pedió",
+        "Pido",
+        "Pidieron"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En 'Morir', la 'o' cambia a 'u' en 3ª persona (Murió).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Ellos durmieron' (Dormir) tiene alternancia {{1}}.",
+      "reponsesAttendues": [
+        "o/u"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "3ª Persona.",
+      "pairs": [
+        {
+          "left": "Prefirió",
+          "right": "Preferencia"
+        },
+        {
+          "left": "Sirvió",
+          "right": "Servicio"
+        },
+        {
+          "left": "Siguió",
+          "right": "Seguir"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué pidió María en el bar?",
+      "options": [
+        "Pidió un refresco",
+        "Es un refresco",
+        "Tengo un refresco",
+        "Vivo en un bar"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

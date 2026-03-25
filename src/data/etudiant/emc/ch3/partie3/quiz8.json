@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Vocabulaire : Médias",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'éditorial' ?",
+      "options": [
+        "Un texte qui exprime l'opinion ou l'engagement du journal",
+        "Une petite annonce pour vendre un vélo",
+        "La liste des fautes d'orthographe",
+        "La météo du lendemain"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un 'scoop' est une information exclusive et spectaculaire publiée avant les autres.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Supprimer ou interdire des propos avant leur publication est la {{1}} (censure).",
+      "reponsesAttendues": [
+        "censure"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme à son sens.",
+      "pairs": [
+        {
+          "left": "Audience",
+          "right": "Nombre de personnes qui suivent un média"
+        },
+        {
+          "left": "Manchette",
+          "right": "Titre écrit en gros en haut de la une"
+        },
+        {
+          "left": "Rédaction",
+          "right": "Équipe de journalistes d'un média"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie être 'impartial' ?",
+      "options": [
+        "Traiter une information sans prendre parti ni favoriser un camp",
+        "N'en dire qu'une partie seulement",
+        "Être très fâché contre quelqu'un",
+        "Choisir son camp le plus vite possible"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Musées Célèbres",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le musée le plus visité au monde, célèbre pour sa pyramide de verre ?",
+      "options": [
+        "Le Musée du Louvre (Paris)",
+        "Le British Museum (Londres)",
+        "Le Musée du Prado (Madrid)",
+        "Le Met (New York)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Musée d'Orsay à Paris est installé dans une ancienne gare.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le célèbre musée de New York dédié à l'art moderne est le {{1}} (MoMA).",
+      "reponsesAttendues": [
+        "MoMA"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le musée à sa ville.",
+      "pairs": [
+        {
+          "left": "Musée du Prado",
+          "right": "Madrid"
+        },
+        {
+          "left": "Uffizi (Offices)",
+          "right": "Florence"
+        },
+        {
+          "left": "Ermitage",
+          "right": "Saint-Pétersbourg"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la principale mission d'un musée ?",
+      "options": [
+        "Conserver, étudier et exposer des œuvres d'art ou des objets historiques",
+        "Vendre des tableaux aux passants",
+        "Servir de restaurant géant",
+        "Occuper les gens le dimanche"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

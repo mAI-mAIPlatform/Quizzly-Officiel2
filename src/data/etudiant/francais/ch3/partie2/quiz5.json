@@ -1,0 +1,63 @@
+{
+  "id": "quiz15",
+  "titre": "La Liberté vs Les Règles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle règle romantique remplace l'unité de lieu ?",
+      "options": [
+        "La liberté totale (on change de lieu selon l'action)",
+        "Une règle de deux lieux",
+        "L'obligation de rester dans une forêt",
+        "Il n'y a plus de lieu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le drame romantique peut s'étendre sur plusieurs années.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La seule unité conservée par Hugo est l'unité d'{{1}}.",
+      "reponsesAttendues": [
+        "action"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'unité à son rejet romantique.",
+      "pairs": [
+        {
+          "left": "Temps",
+          "right": "Passage des mois ou années"
+        },
+        {
+          "left": "Lieu",
+          "right": "Plusieurs décors variés"
+        },
+        {
+          "left": "Ton",
+          "right": "Mélange du rire et des pleurs"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi refuser les règles classiques ?",
+      "options": [
+        "Pour être plus proche de la complexité de la vie réelle",
+        "Par paresse",
+        "Pour faire plus court",
+        "Pour plaire au Roi"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

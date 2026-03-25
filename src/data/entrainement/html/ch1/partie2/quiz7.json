@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Accessibilité des tableaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel attribut aide les lecteurs d'écran à associer un en-tête à sa colonne/ligne ?",
+      "options": [
+        "scope",
+        "alt",
+        "title",
+        "label"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un tableau ne devrait être utilisé que pour des données tabulaires (pas pour la mise en page).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La valeur scope='{{1}}' indique que l'en-tête concerne toute la colonne.",
+      "reponsesAttendues": [
+        "col"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Attributs avancés.",
+      "pairs": [
+        {
+          "left": "scope='row'",
+          "right": "En-tête de ligne"
+        },
+        {
+          "left": "summary",
+          "right": "Description (déprécié)"
+        },
+        {
+          "left": "headers",
+          "right": "Référence à un ID d'en-tête"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage du <caption> pour l'accessibilité ?",
+      "options": [
+        "Donner un titre clair au tableau pour les malvoyants",
+        "Changer la couleur du texte",
+        "Rendre le tableau plus rapide",
+        "Permettre le copier-coller"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

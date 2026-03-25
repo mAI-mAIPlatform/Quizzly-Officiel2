@@ -1,0 +1,63 @@
+{
+  "id": "quiz13",
+  "titre": "Irregular: SER / IR",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pretérito Perfeito de SER / IR para 'Eu'?",
+      "options": [
+        "fui",
+        "foi",
+        "fomos",
+        "foram"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "SER e IR tienen la misma conjugación en el pasado perfecto.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Nós {{1}} ao mercado ontem (ir/fuimos).",
+      "reponsesAttendues": [
+        "fomos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la conjugación de FUI.",
+      "pairs": [
+        {
+          "left": "Eu",
+          "right": "fui"
+        },
+        {
+          "left": "Ele / Ela",
+          "right": "foi"
+        },
+        {
+          "left": "Eles / Elas",
+          "right": "foram"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'El viaje fue maravilloso'?",
+      "options": [
+        "A viagem foi maravilhosa",
+        "A viagem fui maravilhosa",
+        "A viagem fomos maravilhosa",
+        "A viagem foram maravilhosa"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

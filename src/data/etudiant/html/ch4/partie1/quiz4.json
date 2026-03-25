@@ -1,0 +1,70 @@
+{
+  "id": "quiz4",
+  "titre": "Balises Meta techniques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise meta est cruciale pour l'affichage sur mobile ?",
+      "options": ["description", "viewport", "robots", "charset"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La meta charset=\"UTF-8\" définit l'encodage des caractères.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} dans la meta viewport empêche le zoom déformé sur mobile.",
+      "reponsesAttendues": ["initial-scale"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle meta indique aux robots de NE PAS indexer une page ?",
+      "options": ["noindex", "robots content=\"noindex\"", "stop", "hide"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La meta 'author' permet de citer le créateur du site.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Où se trouvent toutes les balises <meta> ?",
+      "options": ["Dans le <body>", "Dans le <head>", "Dans le <footer>", "N'importe où"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'http-equiv' permet de simuler des en-têtes HTTP (ex: rafraîchir la page).",
+      "reponse": true
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "La meta viewport doit être configurée pour un design {{1}}.",
+      "reponsesAttendues": ["responsive"]
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que fait <meta name=\"robots\" content=\"nofollow\"> ?",
+      "options": ["Empêche de voir la page", "Empêche les robots de suivre les liens présents sur la page", "Supprime les robots", "Accelère le site"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les balises meta sont visibles par les utilisateurs sur la page web finale.",
+      "reponse": false
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "L'Empire Romain",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel titre portait le chef suprême de l'Empire Romain ?",
+      "options": [
+        "L'Empereur",
+        "Le Pharaon",
+        "Le Président",
+        "Le Sultan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Colisée de Rome servait à organiser des combats de gladiateurs.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La langue parlée par les Romains, qui a donné naissance au français, s'appelle le {{1}} (latin).",
+      "reponsesAttendues": [
+        "latin"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'invention romaine à son utilité.",
+      "pairs": [
+        {
+          "left": "Aqueduc",
+          "right": "Transporter de l'eau sur de longues distances"
+        },
+        {
+          "left": "Voie romaine",
+          "right": "Route pavée pour relier l'empire"
+        },
+        {
+          "left": "Thermes",
+          "right": "Bains publics pour l'hygiène et le lien social"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qui fut le premier empereur de Rome  après la mort de Jules César ?",
+      "options": [
+        "Auguste",
+        "Néron",
+        "Napoléon",
+        "Astérix"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

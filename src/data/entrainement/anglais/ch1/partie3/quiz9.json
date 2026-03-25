@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Values and Behavior",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What does 'Bullying' mean?",
+      "options": [
+        "Hurting or scaring others (Forbidden)",
+        "Helping friends",
+        "Studying in the library",
+        "Playing football"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Respecting others is a major school value.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "We must be {{1}} to everyone.",
+      "reponsesAttendues": [
+        "kind"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match values.",
+      "pairs": [
+        {
+          "left": "Honesty",
+          "right": "Telling the truth"
+        },
+        {
+          "left": "Hard work",
+          "right": "Doing your best"
+        },
+        {
+          "left": "Respect",
+          "right": "Listening to others"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "If you see a problem, you should...",
+      "options": [
+        "Tell a teacher",
+        "Run away",
+        "Laugh",
+        "Do nothing"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

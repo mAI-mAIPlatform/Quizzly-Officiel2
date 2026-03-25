@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Découvrir la poésie lyrique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le lyrisme en poésie ?",
+      "options": [
+        "L'expression des sentiments personnels du poète",
+        "Une poésie qui raconte une guerre",
+        "Un texte sans rimes",
+        "Une pièce de théâtre uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le mot 'lyrisme' vient de la 'lyre', l'instrument d'Orphée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le poète lyrique utilise souvent le pronom personnel '{{1}}'.",
+      "reponsesAttendues": [
+        "je"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le thème à son exemple lyrique.",
+      "pairs": [
+        {
+          "left": "La fuite du temps",
+          "right": " 'Mignonne, allons voir si la rose...'"
+        },
+        {
+          "left": "La tristesse",
+          "right": "Les larmes et les soupirs"
+        },
+        {
+          "left": "La nature",
+          "right": "Reflet des émotions du poète"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel adjectif qualifie une poésie qui chante l'amour ?",
+      "options": [
+        "Amoureuse",
+        "Élégiaque",
+        "Satirique",
+        "Didactique"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

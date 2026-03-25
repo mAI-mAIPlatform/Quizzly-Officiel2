@@ -1,0 +1,64 @@
+{
+  "id": "quiz7",
+  "titre": "La Zone Euro",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle la zone regroupant les pays utilisant l'Euro ?",
+      "options": [
+        "La Zone Euro",
+        "La Zone Franc",
+        "L'Espace Schengen",
+        "La zone dollar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Tous les pays de l'Union Européenne utilisent l'Euro.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'Euro a été créé pour faciliter les {{1}} (échanges / commerces) entre pays membres.",
+      "reponsesAttendues": [
+        "échanges",
+        "commerces"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le pays à sa monnaie (s'il n'a pas l'Euro).",
+      "pairs": [
+        {
+          "left": "Pologne",
+          "right": "Zloty"
+        },
+        {
+          "left": "Hongrie",
+          "right": "Forint"
+        },
+        {
+          "left": "Suède",
+          "right": "Couronne suédoise"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle institution gère l'Euro ?",
+      "options": [
+        "La Banque Centrale Européenne (BCE)",
+        "Le Parlement européen",
+        "Le FMI",
+        "La CAF"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

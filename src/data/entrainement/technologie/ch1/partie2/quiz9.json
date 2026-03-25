@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Économies et Efficacité Énergétique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le meilleur moyen de réduire la consommation d'une maison ?",
+      "options": [
+        "Améliorer l'isolation thermique (murs, toit, vitrages)",
+        "Repeindre les murs en blanc",
+        "Laisser les fenêtres ouvertes",
+        "Changer les tapis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les ampoules LED consomment beaucoup moins que les anciennes ampoules à filament.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'étiquette {{1}} permet de connaître la consommation d'un appareil ménager (A, B, C...).",
+      "reponsesAttendues": [
+        "énergie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Eco-gestes.",
+      "pairs": [
+        {
+          "left": "Mode veille",
+          "right": "Consomme encore (à éviter)"
+        },
+        {
+          "left": "Interrupteur",
+          "right": "Coupe totalement"
+        },
+        {
+          "left": "Thermostat",
+          "right": "Régule la température"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle expression désigne l'énergie que l'on ne consomme pas ?",
+      "options": [
+        "La sobriété énergétique",
+        "L'énergie magique",
+        "La perte thermique",
+        "La facture gratuite"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

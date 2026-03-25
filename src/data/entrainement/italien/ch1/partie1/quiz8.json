@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "L'accentuation et les Doubles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment prononce-t-on les doubles consonnes (ex: Mammma, Pizza) ?",
+      "options": [
+        "Comme une seule lettre",
+        "En insistant sur le son (plus long)",
+        "On ne les prononce pas",
+        "Seulement la première"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une double consonne peut changer le sens d'un mot (ex: Caro/Carro).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot 'Anno' signifie '{{1}}' (attention à ne pas oublier un N !).",
+      "reponsesAttendues": [
+        "An"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le son double.",
+      "pairs": [
+        {
+          "left": "Bello",
+          "right": "Beau (insister sur L)"
+        },
+        {
+          "left": "Palla",
+          "right": "Balle"
+        },
+        {
+          "left": "Pala",
+          "right": "Pelle (une seule L)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si vous ne prononcez pas bien les doubles ?",
+      "options": [
+        "On ne vous comprendra pas",
+        "On peut confondre deux mots différents",
+        "Rien, c'est pas grave",
+        "Les Italiens riront"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

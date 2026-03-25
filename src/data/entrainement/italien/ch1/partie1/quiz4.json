@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Politesse et Mots magiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que répond-on quand quelqu'un nous dit 'Grazie' ?",
+      "options": [
+        "Grazie",
+        "Prego",
+        "Scusa",
+        "Piacere"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Scusa' s'utilise pour s'excuser auprès d'un ami.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour s'excuser formellement (Vouvoiement), on dit '{{1}}'.",
+      "reponsesAttendues": [
+        "Scusi"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le mot de politesse.",
+      "pairs": [
+        {
+          "left": "Merci beaucoup",
+          "right": "Grazie mille"
+        },
+        {
+          "left": "De rien",
+          "right": "Di niente"
+        },
+        {
+          "left": "Pardon (bousculade)",
+          "right": "Permesso"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Prego' à l'entrée d'un magasin ?",
+      "options": [
+        "Je vous en prie / Entrez",
+        "C'est gratuit",
+        "Au revoir",
+        "Fermé"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

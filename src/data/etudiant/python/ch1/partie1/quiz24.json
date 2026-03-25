@@ -1,0 +1,64 @@
+{
+  "id": "quiz24",
+  "titre": "L'Indentation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'indentation en Python ?",
+      "options": [
+        "Les espaces ou tabulations au début d'une ligne de code",
+        "Le fait de mettre des commentaires",
+        "Le nom d'une fonction",
+        "Une façon de colorier le texte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En Python, l'indentation est facultative et sert uniquement à faire joli.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'erreur qui se produit si on oublie un décalage obligatoire est l'{{1}} (IndentationError).",
+      "reponsesAttendues": [
+        "IndentationError",
+        "Indentation Error"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'élément à son rôle par rapport à l'indentation.",
+      "pairs": [
+        {
+          "left": "Bloc de code",
+          "right": "Ensemble de lignes indentées au même niveau"
+        },
+        {
+          "left": "Le signe deux-points (: )",
+          "right": "Indique qu'un bloc indenté va suivre"
+        },
+        {
+          "left": "Touche Tab",
+          "right": "Raccourci pour créer un décalage standard (4 espaces)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi Python utilise-t-il l'indentation ?",
+      "options": [
+        "Pour structurer le code et définir quels morceaux vont ensemble",
+        "Pour rendre le code plus difficile à lire",
+        "Pour économiser de l'encre à l'impression",
+        "C'est une erreur du créateur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

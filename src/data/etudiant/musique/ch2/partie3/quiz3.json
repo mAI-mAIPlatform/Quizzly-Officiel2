@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "La Batterie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "De quel genre musical la batterie est-elle l'instrument central ?",
+      "options": [
+        "Le Rock et le Jazz",
+        "Le Baroque",
+        "Le Grégorien",
+        "La musique de chambre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un batteur utilise ses quatre membres (mains et pieds) pour jouer.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le tambour le plus grand, posé au sol et joué avec le pied, est la grosse {{1}} (caisse).",
+      "reponsesAttendues": [
+        "caisse"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'élément de la batterie à sa description.",
+      "pairs": [
+        {
+          "left": "Caisse claire",
+          "right": "Tambour au son sec placé entre les jambes"
+        },
+        {
+          "left": "Charleston (Hi-hat)",
+          "right": "Deux cymbales horizontales actionnées par le pied"
+        },
+        {
+          "left": "Tom-tom",
+          "right": "Tambours de tailles variées fixés sur la grosse caisse"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel accessoire permet d'étouffer le son d'une cymbale ?",
+      "options": [
+        "La main du batteur",
+        "Une sourdine en plomb",
+        "De la colle",
+        "Rien, elle sonne toujours à fond"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

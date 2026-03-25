@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "EXAMEN : Canvas et Dessin",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la séquence correcte pour dessiner un carré rouge ?",
+      "options": [
+        "ctx.fillStyle = 'red'; ctx.fillRect(0,0,50,50);",
+        "ctx.drawBox('red')",
+        "canvas.color = 'red'; canvas.paint();",
+        "fillRect.red(0,0,50,50)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "SVG est préférable à Canvas pour les très grands dessins complexes mais statiques.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Canvas travaille en mode {{1}} (pixels).",
+      "reponsesAttendues": [
+        "raster"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Mix Canvas.",
+      "pairs": [
+        {
+          "left": "beginPath",
+          "right": "Démarre forme"
+        },
+        {
+          "left": "save",
+          "right": "Mémoire d'état"
+        },
+        {
+          "left": "toDataURL",
+          "right": "Vers Image"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour le stockage local et les API (P2) ?",
+      "options": [
+        "Oui !",
+        "C'est parti !",
+        "Absolument !",
+        "Révisions P1"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

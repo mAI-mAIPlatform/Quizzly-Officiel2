@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Qu'est-ce qu'un écosystème ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la définition d'un écosystème ?",
+      "options": [
+        "Uniquement les animaux d'une forêt",
+        "L'ensemble formé par un milieu (biotope) et les êtres vivants qui y habitent (biocénose)",
+        "Uniquement les roches et l'eau",
+        "Le ciel et les nuages"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un écosystème comprend à la fois des éléments vivants et des éléments non-vivants.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'écosystème est l'unité de base de l'{{1}}.",
+      "reponsesAttendues": [
+        "écologie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe les termes de l'écosystème.",
+      "pairs": [
+        {
+          "left": "Biotope",
+          "right": "Le milieu physique (eau, sol, air)"
+        },
+        {
+          "left": "Biocénose",
+          "right": "L'ensemble des êtres vivants"
+        },
+        {
+          "left": "Interactions",
+          "right": "Les relations entre vivant et non-vivant"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel de ces exemples est un écosystème ?",
+      "options": [
+        "Un grain de sable",
+        "Une mare",
+        "Un tournevis",
+        "Une pile"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

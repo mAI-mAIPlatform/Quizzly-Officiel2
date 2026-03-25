@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Ser vs. Estar",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "O céu ... (est) azul (habituellement).",
+      "options": [
+        "é",
+        "está",
+        "tem",
+        "são"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Usamos 'Estar' para coisas temporárias.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A sopa {{1}} (est) quente (maintenant).",
+      "reponsesAttendues": [
+        "está"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Escolha o verbo.",
+      "pairs": [
+        {
+          "left": "Nacionalidade",
+          "right": "Ser"
+        },
+        {
+          "left": "Localização",
+          "right": "Estar"
+        },
+        {
+          "left": "Profissão",
+          "right": "Ser"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Onde ... (est) o livro?",
+      "options": [
+        "está",
+        "é",
+        "são",
+        "estou"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

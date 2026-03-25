@@ -1,0 +1,63 @@
+{
+  "id": "quiz13",
+  "titre": "Sédimentation et Roches",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la sédimentation ?",
+      "options": [
+        "Le dépôt de sédiments en couches appelées strates",
+        "L'explosion d'une étoile",
+        "La fonte des glaces",
+        "Le mouvement des nuages"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La sédimentation a généralement lieu dans les zones basses (mers, lacs).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La transformation de sédiments meubles en roches dures s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "diagenèse"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le sédiment à la roche qu'il devient.",
+      "pairs": [
+        {
+          "left": "Sable",
+          "right": "Grès"
+        },
+        {
+          "left": "Boue / Vase",
+          "right": "Argilite / Schiste"
+        },
+        {
+          "left": "Débris de coquillages",
+          "right": "Calcaire"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Dans quel ordre se déposent les sédiments quand le courant ralentit ?",
+      "options": [
+        "Les plus gros d'abord, puis les plus fins",
+        "Les plus légers d'abord",
+        "Tous en même temps",
+        "C'est totalement aléatoire"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

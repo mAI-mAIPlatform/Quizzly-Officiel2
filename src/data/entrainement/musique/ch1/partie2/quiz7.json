@@ -1,0 +1,62 @@
+{
+  "id": "quiz7",
+  "titre": "Les Nuances",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie le terme 'Forte' (f) ?",
+      "options": [
+        "Doux/Faible",
+        "Fort",
+        "Très lent",
+        "Très vite"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Piano' (p) signifie jouer doucement.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un {{1}} est un signe qui indique qu'il faut augmenter le volume progressivement.",
+      "reponsesAttendues": [
+        "crescendo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Mezzo-forte",
+          "right": "Moyennement fort"
+        },
+        {
+          "left": "Pianissimo",
+          "right": "Très doux"
+        },
+        {
+          "left": "Decrescendo",
+          "right": "Diminuer le volume"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment note-t-on 'Très fort' en musique ?",
+      "options": [
+        "f",
+        "ff",
+        "mp",
+        "p"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

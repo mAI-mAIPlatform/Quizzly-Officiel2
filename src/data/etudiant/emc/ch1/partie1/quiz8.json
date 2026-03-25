@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Symboles au quotidien",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel bâtiment public arbore obligatoirement le drapeau tricolore ?",
+      "options": [
+        "La mairie",
+        "Le supermarché",
+        "La boulangerie",
+        "Le stade de foot"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La devise de la République est souvent inscrite au-dessus de la porte des écoles publiques.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Sur les timbres et les pièces, on retrouve souvent le profil de {{1}} (Marianne).",
+      "reponsesAttendues": [
+        "Marianne"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le lieu au symbole qu'on y trouve.",
+      "pairs": [
+        {
+          "left": "Bureau du Maire",
+          "right": "Le portrait du Président"
+        },
+        {
+          "left": "Salle de mariage",
+          "right": "Le buste de Marianne"
+        },
+        {
+          "left": "Sommet des églises",
+          "right": "Le coq (souvent)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "À quoi servent les symboles de la République ?",
+      "options": [
+        "À unir les citoyens autour de valeurs communes",
+        "À faire joli sur les photos",
+        "À dépenser le papier des impôts",
+        "À rien du tout"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

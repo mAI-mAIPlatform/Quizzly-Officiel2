@@ -1,0 +1,70 @@
+{
+  "id": "quiz6",
+  "titre": "Formulaires accessibles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel élément est INDISPENSABLE pour qu'un input soit accessible ?",
+      "options": ["Un placeholder", "Un label lié", "Une div", "Une icône"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'for' du label doit correspondre à l'ID de l'input.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le {{1}} ne remplace pas un label car il disparaît dès qu'on commence à taper.",
+      "reponsesAttendues": ["placeholder"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment regrouper sémantiquement des champs liés (ex: une adresse) ?",
+      "options": ["<div>", "<fieldset> et <legend>", "<group>", "<section>"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'required' est annoncé vocalement par les navigateurs modernes.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que faire si un champ est en erreur ?",
+      "options": ["L'effacer", "Afficher un message clair et lier le message au champ via aria-describedby", "Le mettre en rouge seulement", "Bloquer le clavier"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "vrai_faux",
+      "enonce": "Cliquer sur un label lié à une checkbox doit cocher la case.",
+      "reponse": true
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "L'attribut aria-{{1}} permet de forcer la lecture d'un message important aux aveugles.",
+      "reponsesAttendues": ["live"]
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Pourquoi donner des noms d'inputs clairs (ex: 'email') ?",
+      "options": ["Pour les robots", "Pour faciliter l'auto-remplissage et la compréhension par les outils d'assistance", "Pour le style", "C'est inutile"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Un formulaire sans label est impossible à remplir efficacement pour un aveugle.",
+      "reponse": true
+    }
+  ]
+}

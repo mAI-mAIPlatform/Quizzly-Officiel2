@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Appeler une fonction",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on une fonction nommée 'saluer' ?",
+      "options": [
+        "saluer()",
+        "call saluer",
+        "run saluer()",
+        "saluer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si on oublie les parenthèses, la fonction ne s'exécute pas.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Appeler une fonction déclenche l'exécution de son bloc {{1}}.",
+      "reponsesAttendues": [
+        "indenté"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "L'appel",
+          "right": "Se fait après la définition"
+        },
+        {
+          "left": "Les parenthèses",
+          "right": "Contiennent les arguments"
+        },
+        {
+          "left": "L'ordre",
+          "right": "Définir d'abord, appeler ensuite"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si on appelle une fonction avant de l'avoir définie ?",
+      "options": [
+        "Une erreur (NameError)",
+        "Rien du tout",
+        "Python la cherche tout seul",
+        "Le programme ralentit"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

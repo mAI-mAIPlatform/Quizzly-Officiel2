@@ -1,0 +1,42 @@
+{
+  "id": "quiz30",
+  "titre": "Synthèse Chapitre 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel trio de balises forme le squelette de base ?",
+      "options": ["html, head, body", "h1, p, div", "doctype, meta, title", "header, main, footer"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le HTML5 favorise le sens sémantique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Chaque page commence par <!{{1}} html> (DOCTYPE).",
+      "reponsesAttendues": ["DOCTYPE"]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Concept -> Résumé ?",
+      "pairs": [
+        {"left": "Contenu", "right": "<body>"},
+        {"left": "Structure", "right": "h1-h6, p, div"},
+        {"left": "Sémantique", "right": "strong, em, blockquote"}
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Bravo ! Que va-t-on voir au Chapitre 2 ?",
+      "options": ["Liens, images, attributs", "CSS", "Bases de données", "Hacking"],
+      "correctIndex": 0
+    }
+  ]
+}

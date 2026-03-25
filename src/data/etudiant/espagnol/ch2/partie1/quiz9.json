@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Ubicación espacial",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'debajo de'?",
+      "options": [
+        "Sous / en-dessous",
+        "Sur / au-dessus",
+        "À côté de",
+        "Derrière"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Al lado de' significa 'à côté de'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "El gato está {{1}} de la silla (sur).",
+      "reponsesAttendues": [
+        "encima"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la posición.",
+      "pairs": [
+        {
+          "left": "Delante de",
+          "right": "Devant"
+        },
+        {
+          "left": "Detrás de",
+          "right": "Derrière"
+        },
+        {
+          "left": "Entre",
+          "right": "Entre / au milieu"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'À gauche'?",
+      "options": [
+        "A la izquierda",
+        "A la derecha",
+        "Cerca",
+        "Lejos"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

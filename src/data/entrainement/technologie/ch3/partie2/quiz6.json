@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Objets Connectés et IoT",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le but d'un objet connecté ?",
+      "options": [
+        "Échanger des informations avec d'autres objets ou serveurs via Internet",
+        "Fonctionner sans électricité",
+        "Être relié physiquement par une corde",
+        "Remplacer le Wi-Fi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un thermostat connecté permet de régler le chauffage à distance depuis un smartphone.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les objets connectés utilisent souvent des {{1}} pour capter des données réelles.",
+      "reponsesAttendues": [
+        "capteurs"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Exemples IoT.",
+      "pairs": [
+        {
+          "left": "Montre connectée",
+          "right": "Suivi d'activité physique"
+        },
+        {
+          "left": "Ampoule intelligente",
+          "right": "Gestion de l'éclairage par application"
+        },
+        {
+          "left": "Réfrigérateur connecté",
+          "right": "Gestion des stocks alimentaires"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'un des enjeux majeurs de l'IoT ?",
+      "options": [
+        "Le respect de la vie privée et la sécurité des données",
+        "Le prix des piles",
+        "La couleur des objets",
+        "Leur poids"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

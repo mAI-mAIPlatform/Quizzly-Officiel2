@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Amerigo Vespucci et le nom de l'Amérique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a compris le premier que les terres découvertes par Colomb étaient un 'Nouveau Monde' ?",
+      "options": [
+        "Christophe Colomb lui-même",
+        "Amerigo Vespucci",
+        "Magellan",
+        "Vasco da Gama"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le nom 'Amérique' vient du prénom d'Amerigo Vespucci.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vespucci a publié ses récits de voyage dans un livre intitulé Mundus {{1}}.",
+      "reponsesAttendues": [
+        "Novus"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'idée à son auteur.",
+      "pairs": [
+        {
+          "left": "Colomb",
+          "right": "Pense être en Asie jusqu'à sa mort"
+        },
+        {
+          "left": "Vespucci",
+          "right": "Identifie un quatrième continent"
+        },
+        {
+          "left": "Waldseemüller",
+          "right": "Cartographe qui inscrira 'America' pour la première fois"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Sur quelle partie du continent Vespucci a-t-il principalement navigué ?",
+      "options": [
+        "Le Groenland",
+        "Les côtes de l'Amérique du Sud (Brésil, Argentine)",
+        "Le futur New York",
+        "Le Pacifique"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

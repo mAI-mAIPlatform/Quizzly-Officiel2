@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "&& en profondeur",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quel cas A && B renvoie-t-il true ?",
+      "options": [
+        "Si l'un des deux est true",
+        "Si les deux sont true",
+        "Si les deux sont false",
+        "Toujours"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En JavaScript, && ne renvoie pas forcément un booléen, il renvoie la valeur d'un des opérandes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "true && \"Hello\" renvoie la chaîne {{1}}.",
+      "reponsesAttendues": [
+        "Hello"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'expression au résultat.",
+      "pairs": [
+        {
+          "left": "true && 5",
+          "right": "5"
+        },
+        {
+          "left": "false && 5",
+          "right": "false"
+        },
+        {
+          "left": "0 && \"Ok\"",
+          "right": "0"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi dit-on que && est restrictif ?",
+      "options": [
+        "Il coûte cher",
+        "Il s'arrête dès qu'il trouve un false",
+        "Il ne marche que sur les booléens",
+        "Il est très lent"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

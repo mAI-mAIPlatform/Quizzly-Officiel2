@@ -1,0 +1,70 @@
+{
+  "id": "quiz9",
+  "titre": "Performance et Médias",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le risque majeur des médias ?",
+      "options": ["Ils sont invisibles", "Ils ralentissent la page", "Ils consomment du texte", "Ils ne sont pas sémantiques"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il vaut mieux héberger ses propres vidéos qu'utiliser YouTube pour la performance brute.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Compresser un fichier réduit son {{1}} sans trop perdre en qualité.",
+      "reponsesAttendues": ["poids"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Le streaming permet :",
+      "options": ["De télécharger tout le fichier avant de lire", "De lire pendant le téléchargement", "De transformer une vidéo en image", "De changer le format"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'attribut preload=\"none\" est le plus performant au démarrage.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle technologie permet de varier la qualité de la vidéo selon la connexion ?",
+      "options": ["Adaptive Streaming (HLS/DASH)", "MP4 simple", "YouTube basic", "FTP stream"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "vrai_faux",
+      "enonce": "Une vidéo de 1 Go est acceptable pour une page web standard.",
+      "reponse": false
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "Le format d'image animé {{1}} est très lourd par rapport à une vidéo MP4 muette.",
+      "reponsesAttendues": ["GIF"]
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Un CDN sert à :",
+      "options": ["Compresser les vidéos", "Distribuer les fichiers médias depuis des serveurs proches de l'utilisateur", "Coder en HTML", "Créer des sous-titres"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Optimiser les médias est crucial pour le SEO.",
+      "reponse": true
+    }
+  ]
+}

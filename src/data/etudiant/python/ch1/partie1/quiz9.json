@@ -1,0 +1,65 @@
+{
+  "id": "quiz9",
+  "titre": "Les Commentaires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel symbole utilise-t-on pour écrire un commentaire sur une seule ligne en Python ?",
+      "options": [
+        "#",
+        "//",
+        "/*",
+        "--"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'interpréteur Python ignore totalement les commentaires lors de l'exécution du code.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un commentaire sert à expliquer le code pour les {{1}} (humains / programmeurs).",
+      "reponsesAttendues": [
+        "humains",
+        "programmeurs",
+        "lecteurs"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'usage à la bonne pratique.",
+      "pairs": [
+        {
+          "left": "Expliquer une ligne complexe",
+          "right": "Commentaire juste au-dessus ou à la fin de la ligne"
+        },
+        {
+          "left": "Désactiver temporairement du code",
+          "right": "Mettre la ligne en commentaire"
+        },
+        {
+          "left": "Triple guillemets (\"\" \")",
+          "right": "Utilisé pour les longs commentaires sur plusieurs lignes"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il important de commenter son code ?",
+      "options": [
+        "Pour aider les autres (ou soi-même plus tard) à comprendre ce que fait le programme",
+        "Pour que le programme soit plus lourd",
+        "Pour que l'ordinateur travaille plus vite",
+        "Pour décorer le texte avec des hashtags"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

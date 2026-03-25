@@ -1,0 +1,64 @@
+{
+  "id": "quiz1",
+  "titre": "Qu'est-ce qu'une variable ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans l'expression 3x + 5, comment s'appelle la lettre 'x' ?",
+      "options": [
+        "Une constante",
+        "Une variable ou inconnue",
+        "Un résultat",
+        "Un exposant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une variable peut prendre différentes valeurs numériques.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si x = 5, alors 2x vaut {{1}}.",
+      "reponsesAttendues": [
+        "10"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la phrase à son expression littérale.",
+      "pairs": [
+        {
+          "left": "Le double de x",
+          "right": "2x"
+        },
+        {
+          "left": "Le carré de x",
+          "right": "x²"
+"
+        },
+        {
+          "left": "La somme de x et 3",
+          "right": "x + 3"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "L'expression 'trois de moins que x' s'écrit :",
+      "options": [
+        "3 - x",
+        "x - 3",
+        "x / 3",
+        "3x"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

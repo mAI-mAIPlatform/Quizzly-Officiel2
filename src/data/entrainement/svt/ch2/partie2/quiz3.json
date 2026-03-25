@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Les éruptions explosives",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi les éruptions explosives sont-elles dangereuses ?",
+      "options": [
+        "À cause des jolies couleurs",
+        "À cause des nuées ardentes et des projections de cendres",
+        "Parce qu'elles font trop de bruit",
+        "Elles ne sont pas dangereuses"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans un volcan gris, le magma est très visqueux (pâteux).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un mélange de gaz et de cendres brûlantes qui dévale les pentes est une {{1}} ardente.",
+      "reponsesAttendues": [
+        "nuée"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le phénomène explosif.",
+      "pairs": [
+        {
+          "left": "Dôme de lave",
+          "right": "Bouchon de lave visqueuse"
+        },
+        {
+          "left": "Panache de cendres",
+          "right": "Nuage montant très haut"
+        },
+        {
+          "left": "Bombes volcaniques",
+          "right": "Blocs de roche projetés"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel volcan célèbre a détruit Pompéi en 79 ?",
+      "options": [
+        "Le Mont-Blanc",
+        "Le Vésuve",
+        "L'Etna",
+        "Le Kilimandjaro"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

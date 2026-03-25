@@ -1,0 +1,63 @@
+{
+  "id": "quiz20",
+  "titre": "Synthèse Mouvement 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Une force de 5N est représentée par une flèche de 2.5cm. Quelle est l'échelle ?",
+      "options": [
+        "1 cm pour 2 N",
+        "1 cm pour 1 N",
+        "1 cm pour 5 N",
+        "2.5 cm pour 1 N"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Terre et la Lune s'attirent mutuellement avec la même force (en valeur).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un objet qui ne subit aucune force ou des forces qui se compensent est soit immobile, soit en mouvement rectiligne {{1}}.",
+      "reponsesAttendues": [
+        "uniforme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la loi à son auteur.",
+      "pairs": [
+        {
+          "left": "Loi de la gravitation",
+          "right": "Newton"
+        },
+        {
+          "left": "Poids P = m x g",
+          "right": "Relation de pesanteur"
+        },
+        {
+          "left": "Diagramme DOI",
+          "right": "Outil d'analyse des actions"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si vous lâchez une plume et un marteau dans le vide (sans air) :",
+      "options": [
+        "Ils tombent exactement à la même vitesse",
+        "Le marteau tombe plus vite",
+        "La plume s'envole",
+        "Ils flottent sans bouger"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

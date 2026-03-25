@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Voz Passiva",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se forma la voz pasiva analítica?",
+      "options": [
+        "SER + Particípio",
+        "ESTAR + Gerúndio",
+        "TER + Infinitivo",
+        "IR + Particípio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En 'O livro foi lido por mim', 'por' introduce al agente.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A ponte {{1}} construída no ano passado (fue/foi).",
+      "reponsesAttendues": [
+        "foi"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona activo vs pasivo.",
+      "pairs": [
+        {
+          "left": "Ele fez o bolo",
+          "right": "O bolo foi feito por ele"
+        },
+        {
+          "left": "Nós vimos o filme",
+          "right": "O filme foi visto por nós"
+        },
+        {
+          "left": "Eu li a notícia",
+          "right": "A notícia foi lida por mim"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'La casa fue vendida'?",
+      "options": [
+        "A casa foi vendida",
+        "A casa foi vendido",
+        "A casa era vendido",
+        "A casa estive vendida"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

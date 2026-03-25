@@ -1,0 +1,63 @@
+{
+  "id": "quiz23",
+  "titre": "Volerci & Metterci",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué verbo indica el tiempo necesario de forma objetiva?",
+      "options": [
+        "Volerci",
+        "Metterci",
+        "Fare",
+        "Stare"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Ci metto un'ora' significa que YO tardo una hora.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Per andare a Roma {{1}} vuole un'ora (se necesita).",
+      "reponsesAttendues": [
+        "ci"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la expresión de tiempo.",
+      "pairs": [
+        {
+          "left": "Ci vogliono due ore",
+          "right": "Il faut deux heures"
+        },
+        {
+          "left": "Ci mettiamo tre giorni",
+          "right": "Nous mettons trois jours"
+        },
+        {
+          "left": "Ci vuole pazienza",
+          "right": "Il faut de la patience"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'He tardado mucho'?",
+      "options": [
+        "Ci ho messo molto",
+        "Ci ha voluto molto",
+        "Ci sono messo molto",
+        "Ci siamo voluto molto"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

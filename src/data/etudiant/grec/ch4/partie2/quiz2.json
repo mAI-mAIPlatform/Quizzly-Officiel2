@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Racines de la Médecine",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie la racine 'Pathos' dans 'Pathologie' ?",
+      "options": [
+        "Souffrance / Maladie",
+        "Guérison",
+        "Médecin",
+        "Médicament"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Iatros' (ex: Pédiatre) signifie 'Médecin'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La racine signifiant 'le corps' est {{1}} (Sôma).",
+      "reponsesAttendues": [
+        "Sôma"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la racine à son sens.",
+      "pairs": [
+        {
+          "left": "Psyche",
+          "right": "L'esprit / L'âme"
+        },
+        {
+          "left": "Cardia",
+          "right": "Le cœur"
+        },
+        {
+          "left": "Derma",
+          "right": "La peau"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Ophthalmos' ?",
+      "options": [
+        "L'oeil",
+        "L'oreille",
+        "Le nez",
+        "La gorge"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

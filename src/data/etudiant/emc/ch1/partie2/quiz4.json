@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "La Liberté d'Association",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle loi célèbre de 1901 garantit la liberté d'association en France ?",
+      "options": [
+        "La loi 1901",
+        "La loi 1905",
+        "La loi 1789",
+        "La loi 2000"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une association doit obligatoirement avoir un but lucratif (gagner de l'argent).",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le rassemblement temporaire de citoyens pour une cause s'appelle une {{1}} (manifestation).",
+      "reponsesAttendues": [
+        "manifestation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'organisation à son but.",
+      "pairs": [
+        {
+          "left": "Club de sport",
+          "right": "Pratique d'une activité physique"
+        },
+        {
+          "left": "Association caritative",
+          "right": "Aider les personnes en difficulté"
+        },
+        {
+          "left": "Syndicat",
+          "right": "Défendre les droits des travailleurs"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie être 'bénévole' ?",
+      "options": [
+        "Agir gratuitement pour une cause",
+        "Être payé très cher",
+        "Être obligé de travailler",
+        "Être le chef de l'État"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

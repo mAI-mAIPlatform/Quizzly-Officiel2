@@ -1,0 +1,63 @@
+{
+  "id": "quiz24",
+  "titre": "Pretérito Imperfeito -ER",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Conjugación de 'Eu' para -ER en Imperfeito (es. Comer)?",
+      "options": [
+        "comia",
+        "comia",
+        "comíamos",
+        "comiam"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La terminación para -ER es -ia (es. Bebia).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Quando eu era criança, eu {{1}} (beber) muito leite (bebía).",
+      "reponsesAttendues": [
+        "bebia"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el imperfeito de COMER.",
+      "pairs": [
+        {
+          "left": "Eu",
+          "right": "comia"
+        },
+        {
+          "left": "Nós",
+          "right": "comíamos"
+        },
+        {
+          "left": "Eles",
+          "right": "comiam"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Nosotros comíamos en el hotel todos los días'?",
+      "options": [
+        "Nós comíamos no hotel todos os dias",
+        "Nós comemos no hotel todos os dias",
+        "Nós comiam no hotel todos os dias",
+        "Nós comeríamos no hotel todos os dias"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz26",
+  "titre": "Pronombres COD",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué pronombre sustituye a 'el libro'?",
+      "options": [
+        "lo",
+        "la",
+        "los",
+        "las"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El pronombre de complemento directo se coloca delante del verbo conjugado.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "¿Ves la tele? - Sí, {{1}} veo cada noche.",
+      "reponsesAttendues": [
+        "la"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el objeto con su pronombre.",
+      "pairs": [
+        {
+          "left": "Las llaves",
+          "right": "las"
+        },
+        {
+          "left": "Los zapatos",
+          "right": "los"
+        },
+        {
+          "left": "Un secreto",
+          "right": "lo"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se traduce 'Je t'aime'?",
+      "options": [
+        "Te quiero",
+        "Me quieres",
+        "Se quiere",
+        "Lo quiero"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

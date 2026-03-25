@@ -1,0 +1,63 @@
+{
+  "id": "quiz26",
+  "titre": "Le Premier Empire (1804)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quelle date Napoléon se sacre-t-il Empereur ?",
+      "options": [
+        "2 décembre 1804",
+        "14 juillet 1804",
+        "1er janvier 1800",
+        "18 juin 1815"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le sacre a eu lieu en présence du Pape à la cathédrale Notre-Dame de Paris.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le nom de l'Empereur est Napoléon {{1}}.",
+      "reponsesAttendues": [
+        "Ier"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le symbole au régime impérial.",
+      "pairs": [
+        {
+          "left": "L'Aigle",
+          "right": "Référence à l'Empire Romain"
+        },
+        {
+          "left": "Les Abeilles",
+          "right": "Symbole de travail et d'ordre"
+        },
+        {
+          "left": "La Courue",
+          "right": "Souveraineté suprême"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment Napoléon gouverne-t-il durant l'Empire ?",
+      "options": [
+        "De façon autoritaire (suppression des libertés, presse censurée)",
+        "De façon totalement démocratique",
+        "Il laisse le peuple décider de tout",
+        "Il ne gouverne pas"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

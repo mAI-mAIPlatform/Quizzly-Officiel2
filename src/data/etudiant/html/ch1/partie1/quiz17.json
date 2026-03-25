@@ -1,0 +1,64 @@
+{
+  "id": "quiz17",
+  "titre": "Groupage",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi regrouper des balises dans une <div> ou une <section> ?",
+      "options": [
+        "Pour structurer le document et faciliter le design (CSS) par blocs",
+        "Pour cacher le texte aux robots",
+        "Pour que les images soient plus belles",
+        "Pour changer la langue"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On utilise souvent des classes ou des ID sur ces conteneurs pour les repérer.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le conteneur le plus large d'un site web est souvent appelé le '{{1}}' (wrapper / container).",
+      "reponsesAttendues": [
+        "wrapper",
+        "container"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Logique de groupage.",
+      "pairs": [
+        {
+          "left": "En-tête",
+          "right": "<header>"
+        },
+        {
+          "left": "Corps de texte",
+          "right": "<main>"
+        },
+        {
+          "left": "Pied de page",
+          "right": "<footer>"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est un exemple de mauvaise pratique ?",
+      "options": [
+        "Mettre des <div> partout sans raison, au lieu d'utiliser des balises sémantiques",
+        "Mettre un titre dans une section",
+        "Fermer ses balises",
+        "Utiliser un éditeur de texte"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz23",
+  "titre": "Precios y Pesos",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo preguntas el precio de un kilo de tomates?",
+      "options": [
+        "¿Cuánto cuesta un kilo de tomates?",
+        "¿Dónde están los tomates?",
+        "¿Cómo se llaman los tomates?",
+        "¿Quién quiere tomates?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Medio kilo' se traduce como 'un demi kilo'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Quiero doscientos {{1}} (grammes) de queso manchego.",
+      "reponsesAttendues": [
+        "gramos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la medida.",
+      "pairs": [
+        {
+          "left": "Un litro de",
+          "right": "Un litre de"
+        },
+        {
+          "left": "Un cuarto de kilo",
+          "right": "250 gramos"
+        },
+        {
+          "left": "Una docena de",
+          "right": "Doce unidades (ex: huevos)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'está muy caro'?",
+      "options": [
+        "C'est très cher",
+        "C'est bon marché",
+        "C'est gratuit",
+        "C'est joli"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

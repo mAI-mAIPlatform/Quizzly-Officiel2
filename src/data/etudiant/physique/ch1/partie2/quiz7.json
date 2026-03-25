@@ -1,0 +1,63 @@
+{
+  "id": "quiz17",
+  "titre": "Le triangle du feu",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quels sont les trois sommets du triangle du feu ?",
+      "options": [
+        "Combustible, Comburant, Source d'énergie (chaleur)",
+        "Eau, Air, Terre",
+        "Carbone, Azote, Oxygène",
+        "Allumette, Papier, Bois"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour éteindre un feu, il suffit de supprimer l'un des trois éléments du triangle.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'essence est un {{1}} car c'est elle qui brûle.",
+      "reponsesAttendues": [
+        "combustible"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'action de pompier à l'élément supprimé.",
+      "pairs": [
+        {
+          "left": "Arroser d'eau",
+          "right": "Supprime la chaleur (Énergie)"
+        },
+        {
+          "left": "Utiliser une couverture",
+          "right": "Supprime l'oxygène (Comburant)"
+        },
+        {
+          "left": "Fermer la vanne de gaz",
+          "right": "Supprime le combustible"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que 'l'énergie d'activation' ?",
+      "options": [
+        "L'étincelle ou la chaleur nécessaire pour démarrer le feu",
+        "L'énergie produite par le feu une fois lancé",
+        "Le mouvement des molécules de gaz",
+        "La vitesse du vent"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

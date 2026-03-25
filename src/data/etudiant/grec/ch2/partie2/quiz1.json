@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "La Condition Féminine",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle était la place principale de la femme citoyenne à Athènes ?",
+      "options": [
+        "Le gynécée (partie privée de la maison)",
+        "L'assemblée politique",
+        "Le commandement de l'armée",
+        "Le commerce lointain"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les femmes athéniennes n'avaient pas de droits politiques.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La femme gère le foyer, c'est-à-dire l'{{1}} (oikos).",
+      "reponsesAttendues": [
+        "oikos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme au statut féminin.",
+      "pairs": [
+        {
+          "left": "Khoris oikousa",
+          "right": "Femme vivant à part (travail)"
+        },
+        {
+          "left": "Epiklêros",
+          "right": "Fille héritière (sans frère)"
+        },
+        {
+          "left": "Hétaïre",
+          "right": "Compagne cultivée (hors mariage)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle fête religieuse était réservée aux femmes à Athènes ?",
+      "options": [
+        "Les Thesmophories",
+        "Les Grandes Dionysies",
+        "Les Jeux Olympiques",
+        "Les Panathénées"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

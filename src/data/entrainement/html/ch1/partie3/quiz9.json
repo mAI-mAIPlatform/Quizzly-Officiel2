@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Champs de type Date et Email",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel type d'input affiche un calendrier ?",
+      "options": [
+        "date",
+        "time",
+        "calendar",
+        "year"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "<input type='email'> vérifie automatiquement si le format est correct (@ présent).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour saisir un nombre uniquement, on utilise type='{{1}}'.",
+      "reponsesAttendues": [
+        "number"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Types HTML5.",
+      "pairs": [
+        {
+          "left": "tel",
+          "right": "Téléphone"
+        },
+        {
+          "left": "url",
+          "right": "Site web"
+        },
+        {
+          "left": "color",
+          "right": "Sélecteur de couleur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "L'attribut 'required' sert à :",
+      "options": [
+        "Rendre le champ obligatoire",
+        "Colorer le champ en rouge",
+        "Désactiver le champ",
+        "Cacher le champ"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

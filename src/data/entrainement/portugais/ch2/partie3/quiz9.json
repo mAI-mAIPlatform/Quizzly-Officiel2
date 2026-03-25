@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Ver e Ouvir (Média)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Écouter un podcast' ?",
+      "options": [
+        "Ouvir um podcast",
+        "Ver um podcast",
+        "Ler um podcast",
+        "Comer um podcast"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Série' significa 'Série' (télévisée).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu vi um {{1}} (film) ontem.",
+      "reponsesAttendues": [
+        "filme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Média.",
+      "pairs": [
+        {
+          "left": "Rádio",
+          "right": "Radio"
+        },
+        {
+          "left": "Televisão",
+          "right": "Télévision"
+        },
+        {
+          "left": "Computador",
+          "right": "Ordinateur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qual é a tua série favorita?",
+      "options": [
+        "A minha favorita é La Casa de Papel",
+        "Tenho dez anos",
+        "Sou um computador",
+        "Até logo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

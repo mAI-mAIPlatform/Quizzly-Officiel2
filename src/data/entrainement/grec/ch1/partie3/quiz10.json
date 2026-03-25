@@ -1,0 +1,62 @@
+{
+  "id": "quiz10",
+  "titre": "Récapitulatif - Fin du Grec",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est la déesse de la sagesse et protectrice d'Athènes ?",
+      "options": [
+        "Athéna",
+        "Héra",
+        "Artémis",
+        "Aphrodite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Homère est l'auteur de l'Odyssée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot 'Philosophie' signifie l'amour de la {{1}}.",
+      "reponsesAttendues": [
+        "sagesse"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Zeus",
+          "right": "Dieu du ciel et de la foudre"
+        },
+        {
+          "left": "Léonidas",
+          "right": "Roi de Sparte"
+        },
+        {
+          "left": "Périclès",
+          "right": "Démocrate athénien"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie littéralement 'Démocratie' ?",
+      "options": [
+        "Le pouvoir du peuple",
+        "La loi du plus fort",
+        "Le conseil des anciens",
+        "Le règne de Dieu"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

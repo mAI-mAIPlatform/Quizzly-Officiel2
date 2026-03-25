@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Cité des Arts",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a financé la reconstruction de l'Acropole au Ve s. av. J.-C. ?",
+      "options": [
+        "Périclès",
+        "Alexandre",
+        "Solon",
+        "Clisthène"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les Propylées sont l'entrée monumentale de l'Acropole.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le petit temple ionique dédié à la victoire est le temple d'Athéna {{1}} (Nikê).",
+      "reponsesAttendues": [
+        "Nikê"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le monument.",
+      "pairs": [
+        {
+          "left": "Erechthéion",
+          "right": "Temple aux Cariatides"
+        },
+        {
+          "left": "Parthénon",
+          "right": "Temple de la Vierge (Athéna)"
+        },
+        {
+          "left": "Tholos",
+          "right": "Bâtiment circulaire"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "De quel matériau est construit le Parthénon ?",
+      "options": [
+        "Marbre du Pentélique",
+        "Brique",
+        "Bois de cèdre",
+        "Calcaire simple"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

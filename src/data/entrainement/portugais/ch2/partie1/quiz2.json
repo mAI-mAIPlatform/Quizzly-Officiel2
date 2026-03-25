@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Refeições (Repas)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Le petit-déjeuner' ?",
+      "options": [
+        "O pequeno-almoço",
+        "O almoço",
+        "O jantar",
+        "O lanche"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Almoço' é a refeição do meio-dia.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu {{1}} (dîne) às oito da noite.",
+      "reponsesAttendues": [
+        "janto"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Verbos de comer.",
+      "pairs": [
+        {
+          "left": "Almoçar",
+          "right": "Déjeuner"
+        },
+        {
+          "left": "Jantar",
+          "right": "Dîner"
+        },
+        {
+          "left": "Lanchar",
+          "right": "Goûter"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "O que comes ao pequeno-almoço?",
+      "options": [
+        "Pão com manteiga",
+        "Sopa de peixe",
+        "Pizza",
+        "Nada"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

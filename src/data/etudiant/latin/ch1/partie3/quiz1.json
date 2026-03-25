@@ -1,0 +1,64 @@
+{
+  "id": "quiz1",
+  "titre": "Les débuts de la République",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "En quelle année la République romaine est-elle née ?",
+      "options": [
+        "509 av. J.-C.",
+        "753 av. J.-C.",
+        "44 av. J.-C.",
+        "27 av. J.-C."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La République remplace le pouvoir d'un roi par celui de deux consuls.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La République se dit en latin {{1}} {{2}} (Res publica).",
+      "reponsesAttendues": [
+        "Res",
+        "publica"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme républicain.",
+      "pairs": [
+        {
+          "left": "SPQR",
+          "right": "Le Sénat et le Peuple Romain"
+        },
+        {
+          "left": "Libertas",
+          "right": "La liberté"
+        },
+        {
+          "left": "Consul",
+          "right": "Chef annuel"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Combien de temps dure le mandat d'un consul ?",
+      "options": [
+        "1 an",
+        "5 ans",
+        "A vie",
+        "6 mois"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

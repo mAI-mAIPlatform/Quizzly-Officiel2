@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Vocabulaire : Citoyenneté",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie être 'éligible' ?",
+      "options": [
+        "Avoir le droit de se porter candidat à une élection",
+        "Avoir une peau très fragile",
+        "Être allergique au pollen",
+        "Avoir gagné à la loterie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un 'ressortissant' est une personne qui possède la nationalité d'un pays donné.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Demander officiellement quelque chose au Parlement est une {{1}} (pétition).",
+      "reponsesAttendues": [
+        "pétition"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme à son sens.",
+      "pairs": [
+        {
+          "left": "Diplomatie",
+          "right": "Relations politiques entre les États"
+        },
+        {
+          "left": "Consulat",
+          "right": "Bureau qui aide les ressortissants à l'étranger"
+        },
+        {
+          "left": "Législation",
+          "right": "Ensemble des lois d'un pays ou de l'UE"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'lobby' en Europe ?",
+      "options": [
+        "Un groupe d'intérêt qui cherche à influencer les décisions des députés",
+        "Le hall d'entrée d'un hôtel",
+        "Une nouvelle danse à la mode",
+        "Un animal de compagnie"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

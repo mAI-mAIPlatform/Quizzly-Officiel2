@@ -1,0 +1,62 @@
+{
+  "id": "quiz5",
+  "titre": "Les Dieux Romains",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est le roi des dieux chez les Romains ?",
+      "options": [
+        "Jupiter",
+        "Neptune",
+        "Pluton",
+        "Mars"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Vénus est la déesse de l'amour et de la beauté.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "{{1}} est le dieu romain de la mer, reconnaissable à son trident.",
+      "reponsesAttendues": [
+        "Neptune"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Mars",
+          "right": "Dieu de la guerre"
+        },
+        {
+          "left": "Junon",
+          "right": "Déesse du mariage / protectrice"
+        },
+        {
+          "left": "Minerve",
+          "right": "Déesse de la sagesse"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel dieu romain est le messager aux pieds ailés ?",
+      "options": [
+        "Vulcain",
+        "Apollon",
+        "Mercure",
+        "Bacchus"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Los muebles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se llama el mueble donde guardas la ropa?",
+      "options": [
+        "El armario",
+        "La silla",
+        "La mesa",
+        "El espejo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Cama' significa 'chaise'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Estoy sentado en una {{1}} (chaise).",
+      "reponsesAttendues": [
+        "silla"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el mueble.",
+      "pairs": [
+        {
+          "left": "El sofá",
+          "right": "Le canapé"
+        },
+        {
+          "left": "La estantería",
+          "right": "L'étagère"
+        },
+        {
+          "left": "La alfombra",
+          "right": "Le tapis"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Dónde pones la lámpara normalmente?",
+      "options": [
+        "En la mesita de noche",
+        "En el suelo siempre",
+        "En el techo solamente",
+        "En el armario"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

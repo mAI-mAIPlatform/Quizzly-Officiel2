@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Grundkleidung (Vêtements de base)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Le pantalon' ?",
+      "options": [
+        "Die Hose",
+        "Das T-Shirt",
+        "Die Jacke",
+        "Der Pulli"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'T-Shirt' ist ein Neutrum (das T-Shirt).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich trage eine blaue {{1}} (veste).",
+      "reponsesAttendues": [
+        "Jacke"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Vêtements.",
+      "pairs": [
+        {
+          "left": "Pulli",
+          "right": "Pull"
+        },
+        {
+          "left": "Hemd",
+          "right": "Chemise"
+        },
+        {
+          "left": "Kleid",
+          "right": "Robe"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Was trägst du, wenn es kalt ist?",
+      "options": [
+        "Eine Jacke",
+        "Ein T-Shirt",
+        "Badehose",
+        "Nichts"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

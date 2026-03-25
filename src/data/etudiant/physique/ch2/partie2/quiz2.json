@@ -1,0 +1,63 @@
+{
+  "id": "quiz12",
+  "titre": "La résistance",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le rôle d'une résistance dans un circuit ?",
+      "options": [
+        "S'opposer au passage du courant (le freiner)",
+        "Accélérer les électrons",
+        "Produire de l'électricité comme une pile",
+        "Stocker de la lumière"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'unité de résistance est le Watt.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le symbole de l'unité de résistance (Ohm) est la lettre grecque {{1}}.",
+      "reponsesAttendues": [
+        "oméga"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la valeur à son équivalent.",
+      "pairs": [
+        {
+          "left": "1 kΩ",
+          "right": "1 000 Ω"
+        },
+        {
+          "left": "1 MΩ",
+          "right": "1 000 000 Ω"
+        },
+        {
+          "left": "0.1 kΩ",
+          "right": "100 Ω"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que devient l'énergie électrique consommée par une résistance ?",
+      "options": [
+        "Elle est convertie en chaleur (Effet Joule)",
+        "Elle disparaît totalement",
+        "Elle devient de l'énergie chimique",
+        "Elle se transforme en atomes"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "quiz1",
+  "titre": "Qu'est-ce que l'Accessibilité (a11y) ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie l'abréviation 'a11y' ?",
+      "options": ["Accessibility (11 lettres entre a et y)", "Always Online", "AI and You", "App security"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'accessibilité web permet aux personnes en situation de handicap d'utiliser le web.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les personnes aveugles utilisent un logiciel appelé lecteur d'{{1}}.",
+      "reponsesAttendues": ["écran"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel n'est PAS un type de handicap impactant l'usage du web ?",
+      "options": ["Visuel", "Moteur", "Auditif", "Allergique"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'accessibilité ne profite qu'aux personnes handicapées.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Un exemple d'accessibilité pour une personne handicapée du bras ?",
+      "options": ["Changer les couleurs", "Permettre la navigation complète au clavier", "Mettre des sous-titres", "Augmenter la police"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "vrai_faux",
+      "enonce": "Le W3C a créé les règles WCAG pour l'accessibilité.",
+      "reponse": true
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "Rendre un site accessible améliore aussi son référencement {{1}} (SEO).",
+      "reponsesAttendues": ["naturel"]
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie être 'accessible' ?",
+      "options": ["Le site est gratuit", "Le site est consultable par tous, peu importent les capacités physiques ou le matériel", "Le site est rapide", "Le site a beaucoup de liens"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'accessibilité est un droit fondamental reconnu par l'ONU.",
+      "reponse": true
+    }
+  ]
+}

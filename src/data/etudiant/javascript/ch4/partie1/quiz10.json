@@ -1,0 +1,64 @@
+{
+  "id": "quiz10",
+  "titre": "Synthèse Projets 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces codes crée une balise <li> avec du texte dedans ?",
+      "options": [
+        "const li = document.createElement('li'); li.innerText = 'Tâche';",
+        "const li = '<li>Tâche</li>';",
+        "document.addLi('Tâche');",
+        "li.create('Tâche');"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut ajouter des classes CSS aux éléments créés en JS avec classList.add().",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le conteneur HTML dans le fichier index.html sert de point d'{{1}} pour le JS (ancrage / insertion).",
+      "reponsesAttendues": [
+        "ancrage",
+        "insertion"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'outil à son action dans le projet.",
+      "pairs": [
+        {
+          "left": "createElement",
+          "right": "Générer un nouvel objet HTML"
+        },
+        {
+          "left": "appendChild",
+          "right": "Le rendre visible dans la page"
+        },
+        {
+          "left": "value",
+          "right": "Lire ce que l'utilisateur veut"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'intérêt de vider l'input après l'ajout d'une tâche ?",
+      "options": [
+        "Expérience utilisateur (User Experience) : c'est plus propre et prêt pour la suite",
+        "Pour économiser de la mémoire",
+        "Pour que le bouton disparaisse",
+        "Ce n'est pas important"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

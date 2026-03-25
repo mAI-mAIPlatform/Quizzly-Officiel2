@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Les dieux du foyer",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on les esprits protecteurs du foyer ?",
+      "options": [
+        "Les Lares",
+        "Les Titans",
+        "Les Cyclopes",
+        "Les Muses"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Lararium est l'autel dédié aux dieux de la maison.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les déesses du garde-manger s'appellent les {{1}} (Penates).",
+      "reponsesAttendues": [
+        "Pénates"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'esprit protecteur.",
+      "pairs": [
+        {
+          "left": "Lares",
+          "right": "Maison / Famille"
+        },
+        {
+          "left": "Pénates",
+          "right": "Nourriture"
+        },
+        {
+          "left": "Manes",
+          "right": "Ancêtres"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Vesta' ?",
+      "options": [
+        "La déesse du feu sacré",
+        "La déesse de la mer",
+        "La déesse de la chasse",
+        "La déesse des fleurs"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

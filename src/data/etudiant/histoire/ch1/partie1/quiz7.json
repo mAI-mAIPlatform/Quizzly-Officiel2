@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Diffusion des idées",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où les intellectuels se réunissent-ils pour discuter des idées nouvelles ?",
+      "options": [
+        "Les salons et les cafés",
+        "Les salles de sport",
+        "Les gares",
+        "Les supermarchés"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'opinion publique naît au XVIIIe siècle grâce aux journaux et aux débats.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le pays qui sert de modèle de liberté pour les Lumières est l'{{1}}.",
+      "reponsesAttendues": [
+        "Angleterre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le lieu à son rôle.",
+      "pairs": [
+        {
+          "left": "Salons",
+          "right": "Réunions privées chez des femmes nobles/bourgeoises"
+        },
+        {
+          "left": "Cafés",
+          "right": "Lieux de discussion publics et ouverts"
+        },
+        {
+          "left": "Académies",
+          "right": "Sociétés savantes"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment les idées circulaient-elles malgré la censure ?",
+      "options": [
+        "Par des livres imprimés à l'étranger et introduits clandestinement",
+        "Par télépathie",
+        "Elles ne circulaient pas",
+        "Uniquement par chansons"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

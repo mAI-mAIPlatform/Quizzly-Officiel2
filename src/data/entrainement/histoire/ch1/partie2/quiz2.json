@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Les cinq piliers de l'Islam",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces éléments n'est PAS un pilier de l'Islam ?",
+      "options": [
+        "La profession de foi",
+        "Le voyage à Rome",
+        "La prière",
+        "Le jeûne du Ramadan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'aumône (Zakat) est un don obligatoire pour les pauvres.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le pèlerinage à La Mecque doit être fait au moins {{1}} fois dans sa vie si on le peut.",
+      "reponsesAttendues": [
+        "une"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le pilier à sa pratique.",
+      "pairs": [
+        {
+          "left": "Salat",
+          "right": "La prière (5 fois par jour)"
+        },
+        {
+          "left": "Sawn",
+          "right": "Le jeûne"
+        },
+        {
+          "left": "Hajj",
+          "right": "Le pèlerinage"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment s'appelle la profession de foi musulmane ?",
+      "options": [
+        "La Shahada",
+        "La Fatiha",
+        "Le Credo",
+        "La Torah"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

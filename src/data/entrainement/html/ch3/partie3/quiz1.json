@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Schema.org et Sémantique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que Schema.org ?",
+      "options": [
+        "Un vocabulaire standardisé pour décrire les données sur le web",
+        "Un site pour apprendre le CSS",
+        "Un moteur de recherche",
+        "Un logiciel de dessin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Schema.org est soutenu par Google, Microsoft, Yahoo et Yandex.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les données structurées aident les robots à comprendre le {{1}} des informations.",
+      "reponsesAttendues": [
+        "sens"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Vocabulaire Schema.",
+      "pairs": [
+        {
+          "left": "Person",
+          "right": "Une personne physique"
+        },
+        {
+          "left": "Event",
+          "right": "Un concert, une conférence"
+        },
+        {
+          "left": "Recipe",
+          "right": "Une recette de cuisine"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'intérêt principal pour le SEO ?",
+      "options": [
+        "Obtenir des 'Rich Snippets' (résultats enrichis avec étoiles, photos...)",
+        "Réduire la taille du code",
+        "Changer la police sur Google",
+        "Il n'y en a pas"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

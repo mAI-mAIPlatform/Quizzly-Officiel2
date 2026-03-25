@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "La pression des gaz",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi est due la pression d'un gaz sur une paroi ?",
+      "options": [
+        "Au poids des molécules",
+        "Aux chocs continus des molécules sur la paroi",
+        "Au vent",
+        "À l'électricité statique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Plus on ajoute de molécules dans un ballon, plus la pression augmente.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'appareil qui mesure la pression d'un gaz enfermé est le {{1}}.",
+      "reponsesAttendues": [
+        "manomètre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'unité de pression.",
+      "pairs": [
+        {
+          "left": "Pascal (Pa)",
+          "right": "Unité internationale"
+        },
+        {
+          "left": "Bar",
+          "right": "Environ 100 000 Pa"
+        },
+        {
+          "left": "Hectopascal (hPa)",
+          "right": "Unité météo (100 Pa)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si on réduit le volume d'un gaz (compression), que devient la pression ?",
+      "options": [
+        "Elle diminue",
+        "Elle augmente (car les chocs sont plus fréquents)",
+        "Elle reste stable",
+        "Elle disparaît"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

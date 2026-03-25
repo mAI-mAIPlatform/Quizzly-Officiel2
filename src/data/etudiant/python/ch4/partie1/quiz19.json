@@ -1,0 +1,63 @@
+{
+  "id": "quiz19",
+  "titre": "Synthèse Projet 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces thèmes n'a PAS été abordé dans le Projet 2 ?",
+      "options": [
+        "La lecture de fichiers",
+        "Le hasard avec 'random'",
+        "Les conditions complexes",
+        "L'utilisation de listes pour les choix"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Utiliser 'input().lower()' permet de rendre le jeu moins sensible aux majuscules.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour importer le module qui permet de faire une pause dans le programme, on utilise : import {{1}} (time).",
+      "reponsesAttendues": [
+        "time"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le but au module approprié.",
+      "pairs": [
+        {
+          "left": "Générer un nombre",
+          "right": "random"
+        },
+        {
+          "left": "Patienter",
+          "right": "time"
+        },
+        {
+          "left": "Faire une racine carrée",
+          "right": "math"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il important de tester son jeu plusieurs fois ?",
+      "options": [
+        "Pour s'assurer que toutes les conditions (victoire, défaite, nul) fonctionnent correctement",
+        "Pour s'amuser",
+        "Pour user le clavier",
+        "Pour changer de couleur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

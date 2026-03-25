@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Les Transports",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'La voiture' ?",
+      "options": [
+        "La macchina",
+        "L'autobus",
+        "Il treno",
+        "La bici"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Il treno' signifie 'Le train'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le vélo se dit 'La {{1}}' (abréviation).",
+      "reponsesAttendues": [
+        "bici"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le transport.",
+      "pairs": [
+        {
+          "left": "Aereo",
+          "right": "Avion"
+        },
+        {
+          "left": "Nave",
+          "right": "Bateau"
+        },
+        {
+          "left": "Metropolitana",
+          "right": "Métro"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'À pied' ?",
+      "options": [
+        "A piedi",
+        "In piedi",
+        "Con piedi",
+        "Piedi"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

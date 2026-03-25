@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "La répartition des êtres vivants",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi ne trouve-t-on pas de manchots dans le désert ?",
+      "options": [
+        "Ils sont perdus",
+        "Car les caractéristiques du biotope ne correspondent pas à leurs besoins",
+        "Ils n'aiment pas le sable",
+        "Ils ont peur du soleil"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les êtres vivants se répartissent dans un milieu en fonction des facteurs physiques.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une plante qui aime l'ombre est une plante {{1}}.",
+      "reponsesAttendues": [
+        "sciaphile"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le besoin à l'adaptation.",
+      "pairs": [
+        {
+          "left": "Froid polaire",
+          "right": "Épaisse couche de graisse"
+        },
+        {
+          "left": "Manque d'eau",
+          "right": "Feuilles transformées en épines"
+        },
+        {
+          "left": "Manque de lumière",
+          "right": "Grandes feuilles pour capter le peu de rayons"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on l'endroit précis où vit une espèce ?",
+      "options": [
+        "L'adresse postale",
+        "L'habitat",
+        "Le jardin",
+        "La niche"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

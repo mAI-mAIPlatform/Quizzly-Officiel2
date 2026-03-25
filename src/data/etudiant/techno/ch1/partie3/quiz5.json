@@ -1,0 +1,64 @@
+{
+  "id": "quiz5",
+  "titre": "Transports Connectés",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une voiture autonome ?",
+      "options": [
+        "Un véhicule capable de se déplacer sans conducteur humain grâce à des capteurs et l'IA",
+        "Une voiture qui roule à l'eau",
+        "Une voiture sans roues",
+        "Une voiture que l'on doit pousser"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le GPS utilise des satellites pour localiser un véhicule n'importe où sur Terre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour communiquer avec les autres véhicules, les voitures utilisent des ondes {{1}} (radio / sans fil).",
+      "reponsesAttendues": [
+        "radio",
+        "sans fil"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la technologie à son usage dans le transport.",
+      "pairs": [
+        {
+          "left": "Lidar / Radar",
+          "right": "Détecter les obstacles autour du véhicule"
+        },
+        {
+          "left": "GPS",
+          "right": "Calculer l'itinéraire et la position"
+        },
+        {
+          "left": "Caméra",
+          "right": "Lire la signalisation et les feux rouges"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le but de la 'V2V' (Vehicle-to-Vehicle communication) ?",
+      "options": [
+        "Que les voitures s'échangent des infos pour éviter les accidents",
+        "Que les voitures choisissent leur musique ensemble",
+        "Que les voitures fassent la course",
+        "C'est une nouvelle marque de pneus"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

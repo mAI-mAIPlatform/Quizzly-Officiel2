@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Dates et Heures Avancées",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel type d'entrée permet de choisir seulement un mois et une année ?",
+      "options": [
+        "month",
+        "year",
+        "date",
+        "time"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "<input type='time'> permet de choisir une heure et des minutes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le type {{1}} permet de sélectionner une semaine entière.",
+      "reponsesAttendues": [
+        "week"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Format renvoyé.",
+      "pairs": [
+        {
+          "left": "date",
+          "right": "YYYY-MM-DD"
+        },
+        {
+          "left": "time",
+          "right": "HH:MM"
+        },
+        {
+          "left": "month",
+          "right": "YYYY-MM"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel attribut peut limiter le choix à une date future uniquement (en théorie) ?",
+      "options": [
+        "min",
+        "max",
+        "start",
+        "limit"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

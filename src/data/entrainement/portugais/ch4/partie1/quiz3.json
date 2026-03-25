@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Meios de Transporte para Viajar",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Le bateau' ?",
+      "options": [
+        "O barco",
+        "O comboio",
+        "O autocarro",
+        "O carro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Alugar um carro' significa 'Louer une voiture'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Nós vamos de {{1}} (train) para o Algarve.",
+      "reponsesAttendues": [
+        "comboio"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Viagens.",
+      "pairs": [
+        {
+          "left": "Boleia",
+          "right": "Auto-stop"
+        },
+        {
+          "left": "Táxi",
+          "right": "Taxi"
+        },
+        {
+          "left": "Caminhada",
+          "right": "Randonnée"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Como vais para Londres?",
+      "options": [
+        "Vou de avião",
+        "Vou de bicicleta",
+        "Vou a pé",
+        "Sou de Londres"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

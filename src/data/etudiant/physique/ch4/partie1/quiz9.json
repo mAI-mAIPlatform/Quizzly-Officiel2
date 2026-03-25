@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Risques auditifs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel comportement est risqué pour l'audition ?",
+      "options": [
+        "Écouter de la musique très forte au casque longtemps",
+        "Entendre un oiseau chanter",
+        "Chuchoter à l'oreille",
+        "Mettre des bouchons de protection"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une perte auditive due au bruit est souvent irréversible (définititive).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les bourdonnements ou sifflements permanents dans l'oreille s'appellent des {{1}}.",
+      "reponsesAttendues": [
+        "acouphènes"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le risque à sa protection.",
+      "pairs": [
+        {
+          "left": "Concert bruyant",
+          "right": "Bouchons d'oreilles (filtres)"
+        },
+        {
+          "left": "Travaux (marteau-piqueur)",
+          "right": "Casque anti-bruit"
+        },
+        {
+          "left": "Baladeur",
+          "right": "Limiter le volume et la durée"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "À quel niveau sonore le port de protections est-il conseillé au travail ?",
+      "options": [
+        "Dès 80 - 85 dB",
+        "À partir de 10 dB",
+        "Seulement si ça fait mal",
+        "Jamais avant 200 dB"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

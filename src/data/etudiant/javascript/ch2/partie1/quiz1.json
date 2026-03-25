@@ -1,0 +1,65 @@
+{
+  "id": "quiz1",
+  "titre": "Qu'est-ce que le DOM ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie l'acronyme DOM ?",
+      "options": [
+        "Document Object Model",
+        "Data On Memory",
+        "Digital Online Mode",
+        "Direct Object Module"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le DOM est une représentation de la page HTML sous forme d'un arbre d'objets modifiables par JS.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Chaque élément HTML (balise) devient un {{1}} dans l'arbre du DOM (nœud / objet).",
+      "reponsesAttendues": [
+        "nœud",
+        "noeud",
+        "objet"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'élément à son rôle.",
+      "pairs": [
+        {
+          "left": "L'objet 'window'",
+          "right": "La fenêtre du navigateur"
+        },
+        {
+          "left": "L'objet 'document'",
+          "right": "La page HTML elle-même"
+        },
+        {
+          "left": "Un élément <h1>",
+          "right": "Un nœud de titre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi le DOM est-il important ?",
+      "options": [
+        "Il permet au JavaScript de lire et modifier le contenu et le style de la page",
+        "Il sert à stocker les mots de passe",
+        "Il accélère la connexion internet",
+        "C'est une nouvelle version de HTML"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

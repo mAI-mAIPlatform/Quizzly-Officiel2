@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Priorités logiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel est le plus prioritaire ?",
+      "options": [
+        "&& (ET)",
+        "|| (OU)",
+        "! (NON)",
+        "Ils sont égaux"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "&& est traité avant || (comme * avant +).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Expression A || B && C est équivalente à A || ({{1}}).",
+      "reponsesAttendues": [
+        "B && C"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Ordre de traitement :",
+      "pairs": [
+        {
+          "left": "1er",
+          "right": "! (Inversion)"
+        },
+        {
+          "left": "2ème",
+          "right": "&& (ET)"
+        },
+        {
+          "left": "3ème",
+          "right": "|| (OU)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que vaut true || true && false ?",
+      "options": [
+        "true",
+        "false",
+        "NaN",
+        "undefined"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Atmosphère et Météo",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle couche d'air entoure et protège la Terre ?",
+      "options": [
+        "L'atmosphère",
+        "La biosphère",
+        "L'hydrosphère",
+        "La croûte terrestre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'air est composé principalement d'azote (78%) et d'oxygène (21%).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le vent est un déplacement d'air causé par des différences de {{1}} (pression).",
+      "reponsesAttendues": [
+        "pression"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'instrument météo à ce qu'il mesure.",
+      "pairs": [
+        {
+          "left": "Thermomètre",
+          "right": "Température"
+        },
+        {
+          "left": "Baromètre",
+          "right": "Pression atmosphérique"
+        },
+        {
+          "left": "Anémomètre",
+          "right": "Vitesse du vent"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi le ciel est-il bleu ?",
+      "options": [
+        "À cause de la diffusion de la lumière solaire par les molécules d'air",
+        "Parce qu'il reflète l'océan",
+        "Parce qu'il est peint en bleu",
+        "C'est la couleur de l'oxygène"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

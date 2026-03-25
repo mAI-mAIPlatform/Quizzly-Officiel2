@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Intégration de Cartes (Maps)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel service est le plus utilisé pour intégrer une carte interactive ?",
+      "options": [
+        "Google Maps",
+        "Google Photos",
+        "Instagram",
+        "OpenTable"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une carte intégrée est en fait une iFrame pointant vers le serveur de cartes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut allow{{1}} permet d'utiliser le capteur GPS si nécessaire.",
+      "reponsesAttendues": [
+        "geolocation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Détails cartographie.",
+      "pairs": [
+        {
+          "left": "src",
+          "right": "Lien vers le lieu"
+        },
+        {
+          "left": "loading='lazy'",
+          "right": "Charge si visible"
+        },
+        {
+          "left": "referrerpolicy",
+          "right": "Gestion de la vie privée"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on changer la taille d'une carte intégrée ?",
+      "options": [
+        "Oui, en modifiant width et height de l'iFrame",
+        "Non, c'est fixe",
+        "Seulement en payant",
+        "Seulement pour les pros"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

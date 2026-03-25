@@ -1,0 +1,63 @@
+{
+  "id": "quiz11",
+  "titre": "Superstitions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Which day is considered unlucky in many Western cultures?",
+      "options": [
+        "Friday the 13th",
+        "Monday the 1st",
+        "Saturday the 5th",
+        "Wednesday the 20th"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "In the UK, a black cat crossing your path is often seen as good luck.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "If you spill {{1}}, you should throw some over your left shoulder.",
+      "reponsesAttendues": [
+        "salt"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the action with the superstition.",
+      "pairs": [
+        {
+          "left": "Opening an umbrella indoors",
+          "right": "Bad luck"
+        },
+        {
+          "left": "Finding a four-leaf clover",
+          "right": "Good luck"
+        },
+        {
+          "left": "Walking under a ladder",
+          "right": "Bad luck"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What do people say when they want to avoid bad luck after saying something good?",
+      "options": [
+        "Touch wood / Knock on wood",
+        "Wash your hands",
+        "Close your eyes",
+        "Jump three times"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Les verbes en -IRE à'isc'",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'Capire' ?",
+      "options": [
+        "Partir",
+        "Comprendre",
+        "Finir",
+        "Dormir"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Beaucoup de verbes en -IRE ajoutent '-isc' entre le radical et la terminaison (ex: Capisco).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Je finis se dit 'Io {{1}}'.",
+      "reponsesAttendues": [
+        "finisco"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la personne (Finire).",
+      "pairs": [
+        {
+          "left": "Io",
+          "right": "Finisco"
+        },
+        {
+          "left": "Noi",
+          "right": "Finiamo (sans -isc)"
+        },
+        {
+          "left": "Voi",
+          "right": "Finite (sans -isc)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel utilise '-isc' ?",
+      "options": [
+        "Partire",
+        "Dormire",
+        "Aprire",
+        "Preferire"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

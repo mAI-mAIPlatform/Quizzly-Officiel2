@@ -1,0 +1,63 @@
+{
+  "id": "quiz17",
+  "titre": "Präpositionen: Wohin?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué caso se usa para indicar destino/movimiento?",
+      "options": [
+        "Akkusativ",
+        "Dativ",
+        "Nominativ",
+        "Genitiv"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Para ir a un país sin artículo se usa 'nach'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich fahre {{1}} (en/dans) die Schweiz.",
+      "reponsesAttendues": [
+        "in"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la dirección.",
+      "pairs": [
+        {
+          "left": "Nach",
+          "right": "Berlin (Ciudad/País)"
+        },
+        {
+          "left": "Ans",
+          "right": "Meer (Agua)"
+        },
+        {
+          "left": "In den",
+          "right": "Wald (Espacio 3D)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Je vais à la piscine'?",
+      "options": [
+        "Ich gehe ins Schwimmbad",
+        "Ich gehe im Schwimmbad",
+        "Ich gehe nach Schwimmbad",
+        "Ich bin im Schwimmbad"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

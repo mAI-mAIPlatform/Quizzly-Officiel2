@@ -1,0 +1,63 @@
+{
+  "id": "quiz19",
+  "titre": "Länder & Sprachen",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'La España'?",
+      "options": [
+        "Spanien",
+        "Deutschland",
+        "Frankreich",
+        "Italien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Österreich' significa 'Suiza'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich spreche ein bisschen {{1}} (allemand).",
+      "reponsesAttendues": [
+        "Deutsch"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el país con su capital.",
+      "pairs": [
+        {
+          "left": "Deutschland",
+          "right": "Berlin"
+        },
+        {
+          "left": "Frankreich",
+          "right": "Paris"
+        },
+        {
+          "left": "Spanien",
+          "right": "Madrid"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué idioma se habla en Österreich?",
+      "options": [
+        "Deutsch",
+        "Englisch",
+        "Französisch",
+        "Italienisch"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

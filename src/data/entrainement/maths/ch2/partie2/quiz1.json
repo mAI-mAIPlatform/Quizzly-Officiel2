@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Construction du Symétrique d'un Point",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "O est le centre de symétrie. Le symétrique de A par rapport à O est A' tel que :",
+      "options": [
+        "O est le milieu de [AA']",
+        "A est le milieu de [OA']",
+        "A' est le milieu de [OA]",
+        "OA = OA'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour construire le symétrique, on trace la demi-droite [AO) et on reporte la distance OA.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si OA = 5 cm, alors OA' = {{1}} cm.",
+      "reponsesAttendues": [
+        "5"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'élément à son symétrique.",
+      "pairs": [
+        {
+          "left": "Segment",
+          "right": "Segment de même longueur"
+        },
+        {
+          "left": "Droite",
+          "right": "Droite parallèle"
+        },
+        {
+          "left": "Cercle",
+          "right": "Cercle de même rayon"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Le symétrique du centre O par rapport à lui-même est :",
+      "options": [
+        "Un point à l'infini",
+        "Le point O",
+        "N'existe pas",
+        "Le point O'"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

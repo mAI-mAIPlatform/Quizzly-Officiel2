@@ -1,0 +1,74 @@
+{
+  "id": "quiz10",
+  "titre": "Révision Partie 1 SEO",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise est le titre de l'onglet ?",
+      "options": ["<header>", "<title>", "<h1>", "<meta>"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le SEO est un travail sur le long terme.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le robot de Google s'appelle Google{{1}}.",
+      "reponsesAttendues": ["bot"]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Fais les paires SEO :",
+      "pairs": [
+        {"left": "Title", "right": "Onglet"},
+        {"left": "Meta Desc", "right": "Résumé"},
+        {"left": "Alt", "right": "Image"}
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que veut dire Responsive ?",
+      "options": ["Le site est rapide", "Le site s'adapte à tous les écrans (mobile/tablette/PC)", "Le site est sécurisé", "Le site est payant"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q6",
+      "type": "vrai_faux",
+      "enonce": "Être en 1ère position sur Google est garanti avec du bon HTML.",
+      "reponse": false
+    },
+    {
+      "id": "q7",
+      "type": "qcm",
+      "enonce": "Quel fichier liste les URLs pour Google ?",
+      "options": ["robots.txt", "index.html", "sitemap.xml", "main.css"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "Le protocole {{1}} est sécurisé pour les formulaires et le SEO.",
+      "reponsesAttendues": ["HTTPS"]
+    },
+    {
+      "id": "q9",
+      "type": "vrai_faux",
+      "enonce": "L'expérience utilisateur (UX) fait partie du SEO moderne.",
+      "reponse": true
+    },
+    {
+      "id": "q10",
+      "type": "qcm",
+      "enonce": "Quelle est la meilleure stratégie SEO ?",
+      "options": ["Tricher", "Contenu de qualité et code HTML propre", "Acheter des domaines au hasard", "Ne rien faire"],
+      "correctIndex": 1
+    }
+  ]
+}

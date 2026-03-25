@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Review : Health and Body",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Which body part do you use to walk?",
+      "options": [
+        "Legs",
+        "Arms",
+        "Hair",
+        "Elbows"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "You should smoke to stay healthy.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Wash your {{1}} before eating.",
+      "reponsesAttendues": [
+        "hands"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Match.",
+      "pairs": [
+        {
+          "left": "Head",
+          "right": "Brain"
+        },
+        {
+          "left": "Chest",
+          "right": "Heart / Lungs"
+        },
+        {
+          "left": "Abdomen",
+          "right": "Stomach"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Congratulations! Ready for Part 3 about Sports?",
+      "options": [
+        "Yes!",
+        "Absolutely!",
+        "Let's move!",
+        "Review Part 2"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

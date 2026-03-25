@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Multiples paramètres",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment sépare-t-on plusieurs paramètres dans une fonction ?",
+      "options": [
+        "Avec des points-virgules",
+        "Avec des virgules",
+        "Avec des espaces",
+        "Avec des tirets"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'ordre des arguments lors de l'appel doit correspondre à l'ordre des paramètres.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si on passe 3 arguments pour 2 paramètres, le 3ème sera {{1}} par la fonction.",
+      "reponsesAttendues": [
+        "ignoré"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la logique (function sum(a, b)).",
+      "pairs": [
+        {
+          "left": "sum(1, 2)",
+          "right": "a=1, b=2"
+        },
+        {
+          "left": "sum(5, 10)",
+          "right": "a=5, b=10"
+        },
+        {
+          "left": "sum(1)",
+          "right": "a=1, b=undefined"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que vaut un paramètre si on ne lui passe pas d'argument lors de l'appel ?",
+      "options": [
+        "0",
+        "null",
+        "undefined",
+        "Une erreur"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

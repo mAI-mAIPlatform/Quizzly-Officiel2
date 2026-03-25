@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Les Adverbes de quantité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Beaucoup' ?",
+      "options": [
+        "Molto",
+        "Poco",
+        "Troppo",
+        "Abbastanza"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Troppo' signifie 'Trop'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un peu se dit '{{1}}'.",
+      "reponsesAttendues": [
+        "poco"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la quantité.",
+      "pairs": [
+        {
+          "left": "Abbastanza",
+          "right": "Assez"
+        },
+        {
+          "left": "Niente",
+          "right": "Rien"
+        },
+        {
+          "left": "Tutto",
+          "right": "Tout"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Plus' et 'Moins' ?",
+      "options": [
+        "Più / Meno",
+        "Molto / Poco",
+        "Sì / No",
+        "Bene / Male"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

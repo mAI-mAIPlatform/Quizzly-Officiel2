@@ -1,0 +1,64 @@
+{
+  "id": "quiz9",
+  "titre": "Cas pratique : Caméra",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Tu installes une caméra de surveillance connectée. À quel appareil de la maison doit-elle se connecter pour accéder à Internet ?",
+      "options": [
+        "À la box WiFi (Routeur)",
+        "Au réfrigérateur",
+        "Directement à la prise de courant pour Internet",
+        "À l'antenne télé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La caméra envoie l'alerte sur ton smartphone grâce au Cloud.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour éviter que n'importe qui accède à la caméra, il faut changer le {{1}} (mot de passe) par défaut.",
+      "reponsesAttendues": [
+        "mot de passe",
+        "password"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'étape de configuration à son but.",
+      "pairs": [
+        {
+          "left": "Scanner le QR Code",
+          "right": "Identifier l'appareil sur l'application"
+"        },
+        {
+          "left": "Saisir la clé WPA",
+          "right": "Connecter la caméra au réseau local sans fil"
+        },
+        {
+          "left": "Activer les notifications",
+          "right": "Recevoir une alerte en cas de mouvement"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où sont généralement stockées les vidéos si on n'a pas de carte mémoire dans la caméra ?",
+      "options": [
+        "Sur un serveur distant (Cloud) du fabricant",
+        "Dans l'écran du smartphone",
+        "Elles disparaissent instantanément",
+        "Chez le voisin"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

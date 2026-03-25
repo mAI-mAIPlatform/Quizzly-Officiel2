@@ -1,0 +1,64 @@
+{
+  "id": "quiz16",
+  "titre": "Longueur de Chaîne",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle fonction permet de compter le nombre de caractères dans un texte ?",
+      "options": [
+        "len()",
+        "count()",
+        "size()",
+        "length()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "len(\"Python\") renverra le nombre 6.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La fonction len() compte aussi les espaces. len(\"A B\") renverra {{1}} (3).",
+      "reponsesAttendues": [
+        "3",
+        "trois"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'appel au résultat.",
+      "pairs": [
+        {
+          "left": "len(\"\")",
+          "right": "0 (Chaîne vide)"
+        },
+        {
+          "left": "len(\" \")",
+          "right": "1 (Un espace)"
+        },
+        {
+          "left": "len(\"OK\")",
+          "right": "2"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que renvoie len(123) ?",
+      "options": [
+        "Une erreur (TypeError) car len() ne marche pas sur les nombres entiers",
+        "3",
+        "123",
+        "None"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

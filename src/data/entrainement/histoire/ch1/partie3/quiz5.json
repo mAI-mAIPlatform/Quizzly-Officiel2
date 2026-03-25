@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Les Croisades : Chrétiens et Musulmans",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel pape appelle à la première croisade en 1095 ?",
+      "options": [
+        "Urbain II",
+        "Grégoire IX",
+        "Innocent III",
+        "Léon X"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le but initial des croisades était de reprendre Jérusalem aux musulmans.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les croisés cousaient une {{1}} rouge sur leurs vêtements.",
+      "reponsesAttendues": [
+        "croix"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le terme à son sens.",
+      "pairs": [
+        {
+          "left": "Terre Sainte",
+          "right": "Région de Jérusalem"
+        },
+        {
+          "left": "États Latins d'Orient",
+          "right": "Territoires occupés par les croisés"
+        },
+        {
+          "left": "Saladin",
+          "right": "Chef musulman qui reprend Jérusalem"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Combien de grandes croisades ont eu lieu au Moyen Âge ?",
+      "options": [
+        "Une seule",
+        "Quatre",
+        "Huit",
+        "Douze"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

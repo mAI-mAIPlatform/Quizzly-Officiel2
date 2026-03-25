@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Biodiversidad",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Animales en peligro de extinción' ?",
+      "options": [
+        "Animales en peligro de extinción",
+        "Animales salvajes",
+        "Animales domésticos",
+        "Animales de granja"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El Lince Ibérico es un animal protegido en España.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Espèces protégées' se dice 'especies {{1}}'.",
+      "reponsesAttendues": [
+        "protegidas"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Animales.",
+      "pairs": [
+        {
+          "left": "Tortuga",
+          "right": "Tortue"
+        },
+        {
+          "left": "Lobo",
+          "right": "Loup"
+        },
+        {
+          "left": "Oso",
+          "right": "Ours"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Por qué desaparecen los animales?",
+      "options": [
+        "Por la pérdida de su hábitat",
+        "Porque tienen sueño",
+        "Porque no hay televisión",
+        "Porque escuchan música"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

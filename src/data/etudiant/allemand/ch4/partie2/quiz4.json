@@ -1,0 +1,63 @@
+{
+  "id": "quiz14",
+  "titre": "Adjektiv: Akkusativ",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Ich kaufe einen {{1}} (nuevo) Rock.",
+      "options": [
+        "neuen",
+        "neuer",
+        "neues",
+        "neue"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En Akkusativ masculino con 'ein', el adjetivo termina en '-en'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Er isst einen {{1}} (rojo) Apfel.",
+      "reponsesAttendues": [
+        "roten"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la terminación Akkusativ (con 'ein').",
+      "pairs": [
+        {
+          "left": "Maskulin (einen...)",
+          "right": "-en"
+        },
+        {
+          "left": "Feminin (eine...)",
+          "right": "-e"
+        },
+        {
+          "left": "Neutrum (ein...)",
+          "right": "-es"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Je vois un beau livre' (Das Buch)?",
+      "options": [
+        "Ich sehe ein schönes Buch",
+        "Ich sehe einen schönen Buch",
+        "Ich sehe eine schöne Buch",
+        "Ich sehe ein schöne Buch"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

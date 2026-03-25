@@ -1,0 +1,64 @@
+{
+  "id": "quiz16",
+  "titre": "Changer de Scène",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment masquer un élément HTML 'menu' pour afficher le jeu ?",
+      "options": [
+        "menu.style.display = 'none';",
+        "menu.remove();",
+        "menu.hide();",
+        "menu.invisible = true;"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On utilise souvent des classes comme '.hidden { display: none; }' pour gérer les scènes plus proprement.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour afficher une section cachée, on peut lui mettre style.display = \"{{1}}\" (block / flex).",
+      "reponsesAttendues": [
+        "block",
+        "flex"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Action -> Méthode recommandée.",
+      "pairs": [
+        {
+          "left": "Masquer",
+          "right": "el.classList.add('hidden')"
+        },
+        {
+          "left": "Afficher",
+          "right": "el.classList.remove('hidden')"
+        },
+        {
+          "left": "Alterner",
+          "right": "el.classList.toggle('hidden')"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il préférable d'utiliser les classes CSS pour changer de scène ?",
+      "options": [
+        "Pour garder le style dans le CSS et la logique dans le JS (séparation des rôles)",
+        "Parce que c'est plus rapide pour le processeur",
+        "Parce que le HTML ne comprend pas le style direct",
+        "C'est une règle de sécurité"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

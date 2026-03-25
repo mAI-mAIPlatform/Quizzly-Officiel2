@@ -1,0 +1,64 @@
+{
+  "id": "quiz6",
+  "titre": "L'Énergie Électrique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est l'unité de mesure de la tension électrique ?",
+      "options": [
+        "Le Volt (V)",
+        "L'Ampère (A)",
+        "Le Watt (W)",
+        "L'Ohm (Ω)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'intensité du courant électrique se mesure avec un ampèremètre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La puissance d'un appareil électrique (sa consommation) se mesure en {{1}} (Watts).",
+      "reponsesAttendues": [
+        "Watts",
+        "W"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la grandeur à son unité.",
+      "pairs": [
+        {
+          "left": "Tension",
+          "right": "Volt"
+        },
+        {
+          "left": "Intensité",
+          "right": "Ampère"
+        },
+        {
+          "left": "Puissance",
+          "right": "Watt"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment calcule-t-on l'énergie consommée (E) par un appareil ?",
+      "options": [
+        "Énergie = Puissance x Temps (E = P x t)",
+        "Énergie = Poids / Taille",
+        "Énergie = Vitesse + Distance",
+        "Énergie = Tension - Intensité"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

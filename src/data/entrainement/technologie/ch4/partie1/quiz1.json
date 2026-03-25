@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Sources et Formes d'énergie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une énergie renouvelable ?",
+      "options": [
+        "Une source qui se renouvelle naturellement et rapidement à l'échelle humaine",
+        "Une énergie qui ne s'éteint jamais la nuit",
+        "Une énergie qui coûte 0 euro",
+        "Une énergie faite par des robots"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le charbon, le gaz et le pétrole sont des énergies fossiles (non renouvelables).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'énergie du mouvement est appelée énergie {{1}}.",
+      "reponsesAttendues": [
+        "cinétique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Sources Énergie.",
+      "pairs": [
+        {
+          "left": "Uranium",
+          "right": "Énergie Nucléaire"
+        },
+        {
+          "left": "Biomasse",
+          "right": "Déchets organiques, bois"
+        },
+        {
+          "left": "Géothermie",
+          "right": "Chaleur de la Terre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle forme d'énergie est stockée dans une pile ?",
+      "options": [
+        "Énergie chimique",
+        "Énergie lumineuse",
+        "Énergie thermique",
+        "Énergie sonore"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz13",
+  "titre": "Travel Problems",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What happens if your flight is 'delayed'?",
+      "options": [
+        "It leaves later than scheduled",
+        "It leaves earlier",
+        "It is cancelled",
+        "It is free"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "If you lose your luggage, you should go to the 'Lost and Found' desk.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "When you are too late for a train, we say you {{1}} it.",
+      "reponsesAttendues": [
+        "missed"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the problem with the solution.",
+      "pairs": [
+        {
+          "left": "I'm lost",
+          "right": "Look at a map or ask for directions"
+        },
+        {
+          "left": "Flight cancelled",
+          "right": "Talk to the airline for a new flight"
+        },
+        {
+          "left": "Hotel room is dirty",
+          "right": "Complain at the reception"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is 'jet lag'?",
+      "options": [
+        "Tiredness after traveling across time zones",
+        "The speed of the airplane",
+        "A type of bag",
+        "A problem with the engine"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

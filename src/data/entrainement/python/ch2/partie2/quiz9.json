@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Boucles While imbriquées",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une boucle While imbriquée ?",
+      "options": [
+        "Une boucle à l'intérieur d'une autre",
+        "Une boucle très compliquée",
+        "Une boucle qui s'arrête mal",
+        "Une boucle pour les oiseaux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "À chaque tour de la boucle externe, la boucle interne s'exécute COMPLÈTEMENT.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour une grille de 3x3, le code sera exécuté {{1}} fois.",
+      "reponsesAttendues": [
+        "9"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "Boucle Externe",
+          "right": "Se répète N fois"
+        },
+        {
+          "left": "Boucle Interne",
+          "right": "Se répète M fois par tour externe"
+        },
+        {
+          "left": "Total",
+          "right": "N * M"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'indentation pour une boucle au 2ème niveau ?",
+      "options": [
+        "Double indentation",
+        "Indentation simple",
+        "Indentation imbriquée",
+        "Pas besoin"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

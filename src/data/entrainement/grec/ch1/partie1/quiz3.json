@@ -1,0 +1,62 @@
+{
+  "id": "quiz3",
+  "titre": "Les Esprits et les Accents",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'esprit rude' en grec ?",
+      "options": [
+        "Un accent très fort",
+        "Une marque sur la voyelle initiale qui indique une aspiration (h)",
+        "Une ponctuation de fin de phrase",
+        "Une majuscule particulière"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'esprit doux n'influence pas la prononciation.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le point d'interrogation en grec ressemble à un {{1}} en français.",
+      "reponsesAttendues": [
+        "point-virgule / ;"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "῾",
+          "right": "Esprit rude (h)"
+        },
+        {
+          "left": "᾿",
+          "right": "Esprit doux"
+        },
+        {
+          "left": "´",
+          "right": "Accent aigu"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Combien y a-t-il d'accents différents en grec ancien ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

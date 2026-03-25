@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "The Human Body : Internal",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What pumps blood around the body?",
+      "options": [
+        "The heart",
+        "The brain",
+        "The lungs",
+        "The stomach"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "The 'lungs' are for breathing.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "The {{1}} is for thinking.",
+      "reponsesAttendues": [
+        "brain"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match.",
+      "pairs": [
+        {
+          "left": "Stomach",
+          "right": "Digestion"
+        },
+        {
+          "left": "Bones",
+          "right": "Structure"
+        },
+        {
+          "left": "Muscles",
+          "right": "Movement"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What protects the brain?",
+      "options": [
+        "The skull",
+        "The skin",
+        "The hair",
+        "The hat"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Diversidade",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Brasil tiene la mayor población afrodescendiente fuera de África. ¿Verdadero?",
+      "options": [
+        "Sim, verdadeiro",
+        "Não, falso",
+        "Talvez",
+        "Não se aplica"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Existem centenas de povos indígenas no Brasil hoje.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O Brasil é fruto de muitas {{1}} (mezclas/migrações).",
+      "reponsesAttendues": [
+        "migrações"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la herencia.",
+      "pairs": [
+        {
+          "left": "Indígena",
+          "right": "Nomes de lugares/Natureza"
+        },
+        {
+          "left": "Africana",
+          "right": "Culinária e Ritmos"
+        },
+        {
+          "left": "Imigrante",
+          "right": "Diversidade urbana"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'povo'?",
+      "options": [
+        "Pueblo / Gente",
+        "Ciudad",
+        "Estado",
+        "País"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

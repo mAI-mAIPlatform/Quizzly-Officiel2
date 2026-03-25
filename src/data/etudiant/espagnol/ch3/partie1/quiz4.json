@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Bebidas",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué bebes cuando tienes mucha sed?",
+      "options": [
+        "Agua",
+        "Pan",
+        "Arroz",
+        "Carne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Zumo' es la palabra para 'jus' en España.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Me gusta el café con {{1}} (lait).",
+      "reponsesAttendues": [
+        "leche"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la bebida.",
+      "pairs": [
+        {
+          "left": "Vino",
+          "right": "Vin"
+        },
+        {
+          "left": "Cerveza",
+          "right": "Bière"
+        },
+        {
+          "left": "Refresco",
+          "right": "Soda / Boisson gazeuse"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Jus d'orange'?",
+      "options": [
+        "Zumo de naranja",
+        "Jugo de naranja",
+        "Agua de naranja",
+        "Leche de naranja"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

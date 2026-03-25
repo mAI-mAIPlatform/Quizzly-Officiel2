@@ -1,0 +1,63 @@
+{
+  "id": "quiz27",
+  "titre": "Compteur Persistant",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment faire pour qu'un compteur ne revienne pas à 0 après F5 ?",
+      "options": [
+        "Lire la valeur dans localStorage au démarrage et l'assigner à la variable 'score'",
+        "Utiliser une constante",
+        "Ne jamais rafraîchir la page",
+        "Changer de navigateur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser localStorage.getItem(\"score\") || 0 pour gérer le cas où il n'y a pas encore de score.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'affichage doit être mis à jour au {{1}} et à chaque clic (chargement).",
+      "reponsesAttendues": [
+        "chargement"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'action à son moment.",
+      "pairs": [
+        {
+          "left": "getItem",
+          "right": "Ouverture du site"
+        },
+        {
+          "left": "setItem",
+          "right": "Après chaque clic (+1)"
+        },
+        {
+          "left": "score = 0",
+          "right": "Bouton Reset"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel permet de stocker proprement un score numérique ?",
+      "options": [
+        "localStorage.setItem(\"score\", score.toString())",
+        "localStorage.set(\"score\")",
+        "score = localStorage",
+        "save(score)"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

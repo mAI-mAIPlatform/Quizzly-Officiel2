@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Baudelaire : Beauté et Douleur",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le titre du recueil le plus célèbre de Baudelaire ?",
+      "options": [
+        "Les Fleurs du Mal",
+        "Le Pain de la Musique",
+        "Le Ciel étoilé",
+        "Poèmes pour Marie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour Baudelaire, la beauté peut naître de la douleur ou du mal.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Baudelaire compare le poète à un animal blessé : l'{{1}}.",
+      "reponsesAttendues": [
+        "albatros"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le mot à son sens baudelairien.",
+      "pairs": [
+        {
+          "left": "Spleen",
+          "right": "Angoisse, ennui"
+        },
+        {
+          "left": "Idéal",
+          "right": "Beauté pure"
+        },
+        {
+          "left": "Boue",
+          "right": "Laideur du monde"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle figure féminine a inspiré les 'Vénus noire' de Baudelaire ?",
+      "options": [
+        "Jeanne Duval",
+        "Marie Daubrun",
+        "Apollonie Sabatier",
+        "George Sand"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

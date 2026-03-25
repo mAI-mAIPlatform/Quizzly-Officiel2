@@ -1,0 +1,63 @@
+{
+  "id": "quiz26",
+  "titre": "Supprimer : delete",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel mot-clé permet de supprimer définitivement une propriété d'un objet ?",
+      "options": [
+        "delete",
+        "remove",
+        "clear",
+        "unset"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "delete joueur.score supprimera à la fois la clé 'score' et sa valeur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Après un delete, si on essaie d'accéder à la clé, on obtient {{1}} (undefined).",
+      "reponsesAttendues": [
+        "undefined"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'instruction à son effet.",
+      "pairs": [
+        {
+          "left": "delete user.age",
+          "right": "Supprime la clé age"
+        },
+        {
+          "left": "user.age = null",
+          "right": "Garde la clé mais vide la valeur"
+        },
+        {
+          "left": "user = {}",
+          "right": "Vider tout l'objet"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on supprimer une variable entière avec 'delete' ?",
+      "options": [
+        "Non, delete ne fonctionne que sur les propriétés d'objets",
+        "Oui, n'importe quoi",
+        "Seulement les constantes",
+        "Seulement les fonctions"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

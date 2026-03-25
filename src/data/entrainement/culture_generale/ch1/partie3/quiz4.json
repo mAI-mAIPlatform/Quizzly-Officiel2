@@ -1,0 +1,62 @@
+{
+  "id": "quiz4",
+  "titre": "Espace et Conquête Spatiale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a été le premier homme à marcher sur la Lune en 1969 ?",
+      "options": [
+        "Youri Gagarine",
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "Thomas Pesquet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'ISS est une station spatiale internationale en orbite autour de la Terre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le premier homme dans l'espace était le Russe Youri {{1}}.",
+      "reponsesAttendues": [
+        "Gagarine"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Apollo 11",
+          "right": "Mission vers la Lune"
+        },
+        {
+          "left": "NASA",
+          "right": "Agence spatiale américaine"
+        },
+        {
+          "left": "ESA",
+          "right": "Agence spatiale européenne"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle entreprise privée, dirigée par Elon Musk, envoie des fusées dans l'espace ?",
+      "options": [
+        "Blue Origin",
+        "SpaceX",
+        "Virgin Galactic",
+        "Arianespace"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

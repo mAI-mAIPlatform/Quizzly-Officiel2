@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Prazer em conhecer-te",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Enchanté de faire ta connaissance' ?",
+      "options": [
+        "Prazer em conhecer-te",
+        "Adeus",
+        "Bom dia",
+        "Como estás?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Muito prazer' é uma forma curta de dizer enchanté.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O prazer é {{1}} (mien).",
+      "reponsesAttendues": [
+        "meu"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Expressões.",
+      "pairs": [
+        {
+          "left": "Igualmente",
+          "right": "Également"
+        },
+        {
+          "left": "Tudo de bom",
+          "right": "Tout le meilleur"
+        },
+        {
+          "left": "Até breve",
+          "right": "À bientôt"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Muito prazer!",
+      "options": [
+        "Igualmente",
+        "Obrigado",
+        "Não",
+        "Adeus"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

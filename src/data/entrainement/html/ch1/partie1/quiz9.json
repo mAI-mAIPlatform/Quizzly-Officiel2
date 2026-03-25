@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Les Commentaires en HTML",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment écrit-on un commentaire en HTML ?",
+      "options": [
+        "<!-- Commentaire -->",
+        "// Commentaire",
+        "/* Commentaire */",
+        "# Commentaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les commentaires sont visibles par l'utilisateur sur la page.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un commentaire commence par <!-- et se finit par {{1}}.",
+      "reponsesAttendues": [
+        "-->"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Syntaxe de commentaire.",
+      "pairs": [
+        {
+          "left": "HTML",
+          "right": "<!-- -->"
+        },
+        {
+          "left": "JS",
+          "right": "//"
+        },
+        {
+          "left": "CSS",
+          "right": "/* */"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "À quoi servent les commentaires ?",
+      "options": [
+        "Expliquer le code aux développeurs",
+        "Changer la couleur du texte",
+        "Accélérer le site",
+        "Cacher des erreurs"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

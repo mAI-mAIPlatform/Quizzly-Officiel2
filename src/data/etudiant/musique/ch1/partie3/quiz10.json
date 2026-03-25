@@ -1,0 +1,64 @@
+{
+  "id": "quiz10",
+  "titre": "Ch. 1 P. 3 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle invention a bouleversé la musique au XXème siècle ?",
+      "options": [
+        "L'enregistrement sonore",
+        "L'invention de la harpe",
+        "La construction des cathédrales",
+        "L'invention du papier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Jazz et le Rock sont deux genres nés aux États-Unis.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mélange de styles et l'utilisation de la technologie caractérisent la musique de la fin du {{1}} (XXème) siècle.",
+      "reponsesAttendues": [
+        "XXème",
+        "XX"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'icône à son genre de prédilection.",
+      "pairs": [
+        {
+          "left": "Louis Armstrong",
+          "right": "Jazz"
+        },
+        {
+          "left": "Elvis Presley",
+          "right": "Rock n' Roll"
+        },
+        {
+          "left": "Pierre Schaeffer",
+          "right": "Musique Concrète"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel groupe a révolutionné la Pop mondiale dans les années 60 ?",
+      "options": [
+        "Les Beatles",
+        "Les Ménestrels",
+        "Les Troubadours",
+        "Les Compagnons de la Chanson"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

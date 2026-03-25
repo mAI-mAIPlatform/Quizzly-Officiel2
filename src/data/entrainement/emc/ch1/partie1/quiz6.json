@@ -1,0 +1,62 @@
+{
+  "id": "quiz6",
+  "titre": "Citoyenneté",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quel âge obtient-on le droit de vote en France ?",
+      "options": [
+        "16 ans",
+        "18 ans",
+        "21 ans",
+        "25 ans"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un citoyen français est aussi un citoyen européen.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le citoyen a le droit de voter, mais aussi le devoir de payer ses {{1}}.",
+      "reponsesAttendues": [
+        "impôts"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Recensement",
+          "right": "Obligatoire à 16 ans"
+        },
+        {
+          "left": "Élections",
+          "right": "Moment du choix des représentants"
+        },
+        {
+          "left": "Engagement",
+          "right": "S'impliquer dans la cité"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel document prouve notre identité et notre citoyenneté ?",
+      "options": [
+        "La carte de bus",
+        "Le permis de pêche",
+        "La carte nationale d'identité",
+        "Le carnet de santé"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "La Domotique Énergétique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert un compteur intelligent (ex: Linky) ?",
+      "options": [
+        "À suivre sa consommation en temps réel pour mieux la gérer",
+        "À couper le courant quand il fait nuit",
+        "À allumer la télé tout seul",
+        "À payer moins cher automatiquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut programmer son lave-linge pour qu'il démarre en 'heures creuses'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le {{1}} de chauffage intelligent réduit la température quand il n'y a personne.",
+      "reponsesAttendues": [
+        "thermostat"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Économies Maison.",
+      "pairs": [
+        {
+          "left": "Capteur de présence",
+          "right": "Éteint la lumière dans les pièces vides"
+        },
+        {
+          "left": "Délesteur",
+          "right": "Coupe temporairement les appareils non prioritaires"
+        },
+        {
+          "left": "Prise connectée",
+          "right": "Mesure la conso d'un appareil précis"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le but de la domotique énergétique ?",
+      "options": [
+        "Réduire le gaspillage et la facture tout en gardant du confort",
+        "Utiliser plus d'électricité",
+        "Supprimer tous les chauffages",
+        "Rendre la maison plus bruyante"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

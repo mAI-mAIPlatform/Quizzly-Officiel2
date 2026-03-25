@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Preposições de Lugar",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Sur' (la table) ?",
+      "options": [
+        "Em cima de",
+        "Debaixo de",
+        "Atrás de",
+        "À frente de"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Entre' significa 'Entre'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O gato está {{1}} (sous) a mesa.",
+      "reponsesAttendues": [
+        "debaixo de"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Posições.",
+      "pairs": [
+        {
+          "left": "Ao lado de",
+          "right": "À côté de"
+        },
+        {
+          "left": "Dentro de",
+          "right": "Dans / À l'intérieur"
+        },
+        {
+          "left": "Longe de",
+          "right": "Loin de"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Onde estão as chaves?",
+      "options": [
+        "Estão em cima do móvel",
+        "Estão debaixo do céu",
+        "Estão sou Pedro",
+        "Olá"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

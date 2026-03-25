@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Ronsard : La rose et le temps",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans 'Mignonne, allons voir si la rose', la rose symbolise :",
+      "options": [
+        "La jeunesse éphémère",
+        "La force de la nature",
+        "La fidélité",
+        "Le printemps éternel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Ronsard appartient au groupe de la Pléiade.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'expression latine signifiant 'Cueille le jour' est '{{1}}'.",
+      "reponsesAttendues": [
+        "Carpe diem"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le vers à sa signification.",
+      "pairs": [
+        {
+          "left": "Vivez, si m'en croyez",
+          "right": "Profitez de la vie maintenant"
+        },
+        {
+          "left": "N'attendez pas à demain",
+          "right": "Urgence du temps"
+        },
+        {
+          "left": "Cueillez dès aujourd'hui",
+          "right": "Carpe Diem"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "À quelle femme Ronsard dédie-t-il ses sonnets célèbres ?",
+      "options": [
+        "Cassandre et Hélène",
+        "Laura et Béatrice",
+        "Juliette et Marie",
+        "Iseut et Guenièvre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

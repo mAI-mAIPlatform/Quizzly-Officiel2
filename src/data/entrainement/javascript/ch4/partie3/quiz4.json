@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "La portée Globale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le Global Scope ?",
+      "options": [
+        "La zone hors de toute fonction (accessible partout)",
+        "Un oeil global",
+        "Un type de variable",
+        "Un plugin Chrome"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une variable globale peut être modifiée par n'importe quelle fonction du script.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On doit {{1}} au maximum les variables globales pour éviter les conflits.",
+      "reponsesAttendues": [
+        "limiter"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le danger.",
+      "pairs": [
+        {
+          "left": "Variables Globales",
+          "right": "Dangers de collision de noms"
+        },
+        {
+          "left": "Dépendance",
+          "right": "Difficile de debugger plusieurs fonctions"
+        },
+        {
+          "left": "Objet window",
+          "right": "Où sont stockées les globales au navigateur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment déclarer une variable globale ?",
+      "options": [
+        "Dans une boucle",
+        "Hors de tout bloc { } ou de toute fonction",
+        "Avec global let",
+        "Uniquement avec var"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

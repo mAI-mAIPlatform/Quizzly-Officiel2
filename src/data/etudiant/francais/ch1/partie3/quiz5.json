@@ -1,0 +1,63 @@
+{
+  "id": "quiz25",
+  "titre": "Les Strophes et le Sonnet",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on une strophe de 4 vers ?",
+      "options": [
+        "Un quatrain",
+        "Un tercet",
+        "Un dizain",
+        "Un carré"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un sonnet est composé de deux quatrains et deux tercets.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une strophe de deux vers s'appelle un {{1}}.",
+      "reponsesAttendues": [
+        "distique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le nombre de vers au nom de la strophe.",
+      "pairs": [
+        {
+          "left": "3 vers",
+          "right": "Tercet"
+        },
+        {
+          "left": "6 vers",
+          "right": "Sizain"
+        },
+        {
+          "left": "10 vers",
+          "right": "Dizain"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel poète a souvent utilisé le sonnet à la Renaissance ?",
+      "options": [
+        "Ronsard",
+        "Molière",
+        "Zola",
+        "Balzac"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

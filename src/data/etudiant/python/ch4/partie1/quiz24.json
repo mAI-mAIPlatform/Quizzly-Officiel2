@@ -1,0 +1,63 @@
+{
+  "id": "quiz24",
+  "titre": "Révision : Boucles while",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quand est-il préférable d'utiliser 'while' plutôt que 'for' ?",
+      "options": [
+        "Quand on ne connaît pas à l'avance le nombre de répétitions",
+        "Quand on veut aller plus vite",
+        "Quand on travaille avec des listes",
+        "Quand on n'aime pas les chiffres"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une boucle 'while True:' ne s'arrêtera jamais sauf si on utilise 'break'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'instruction pour passer immédiatement au tour suivant sans finir le tour actuel est {{1}} (continue).",
+      "reponsesAttendues": [
+        "continue"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le mot-clé à son action.",
+      "pairs": [
+        {
+          "left": "while",
+          "right": "Tant que..."
+        },
+        {
+          "left": "break",
+          "right": "Sortir de la boucle"
+        },
+        {
+          "left": "continue",
+          "right": "Sauter au tour suivant"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Laquelle de ces erreurs est typique du 'while' ?",
+      "options": [
+        "La boucle infinie (oubli de modifier la condition)",
+        "Oublier le range()",
+        "Utiliser des parenthèses",
+        "Mettre des commentaires"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

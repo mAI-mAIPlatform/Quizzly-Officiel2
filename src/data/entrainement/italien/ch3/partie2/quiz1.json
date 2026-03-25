@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Les pièces de la Maison",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'La cuisine' ?",
+      "options": [
+        "La cucina",
+        "Il salotto",
+        "La camera",
+        "Il bagno"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Il salotto' signifie 'Le salon'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La chambre à coucher se dit 'La {{1}} da letto'.",
+      "reponsesAttendues": [
+        "camera"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la pièce.",
+      "pairs": [
+        {
+          "left": "Bagno",
+          "right": "Salle de bain"
+        },
+        {
+          "left": "Ingresso",
+          "right": "Entrée"
+        },
+        {
+          "left": "Cantina",
+          "right": "Cave"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où dort-on ?",
+      "options": [
+        "In camera da letto",
+        "In cucina",
+        "In bagno",
+        "In garage"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

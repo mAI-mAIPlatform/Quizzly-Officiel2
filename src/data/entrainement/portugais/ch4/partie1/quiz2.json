@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "No Hotel",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'La chambre' ?",
+      "options": [
+        "O quarto",
+        "A cama",
+        "A receção",
+        "A chave"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Pequeno-almoço incluído' significa 'Petit-déjeuner inclus'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu preciso da {{1}} (clé) do quarto.",
+      "reponsesAttendues": [
+        "chave"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Hotel.",
+      "pairs": [
+        {
+          "left": "Reserva",
+          "right": "Réservation"
+        },
+        {
+          "left": "Andar",
+          "right": "Étage"
+        },
+        {
+          "left": "Hóspede",
+          "right": "Client / Hôte"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Fiz uma reserva em nome de Silva.",
+      "options": [
+        "Sim, um momento por favor",
+        "Não, sou de Braga",
+        "Obrigado, adeus",
+        "Bonjour"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

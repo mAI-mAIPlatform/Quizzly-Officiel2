@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "La boucle ZIP()",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert zip(liste1, liste2) ?",
+      "options": [
+        "À parcourir deux listes en même temps par paires",
+        "À compresser les listes",
+        "À fusionner les listes définitivement",
+        "À trier les deux listes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La boucle s'arrête dès que la plus courte des deux listes est terminée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La syntaxe est : for x, y in {{1}}(L1, L2):.",
+      "reponsesAttendues": [
+        "zip"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe (noms=['A'], ages=[20]).",
+      "pairs": [
+        {
+          "left": "zip(noms, ages)",
+          "right": "('A', 20)"
+        },
+        {
+          "left": "noms=['A', 'B'], ages=[20]",
+          "right": "S'arrête après 'A'"
+        },
+        {
+          "left": "zip",
+          "right": "Fermeture éclair"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on zipper plus de 2 listes ?",
+      "options": [
+        "Oui, autant qu'on veut",
+        "Non, maximum 2",
+        "Maximum 3",
+        "Seulement avec une bibliothèque spéciale"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

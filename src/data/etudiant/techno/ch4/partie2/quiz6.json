@@ -1,0 +1,65 @@
+{
+  "id": "quiz6",
+  "titre": "La Domotique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la domotique ?",
+      "options": [
+        "L'automatisation et la gestion intelligente de l'habitat (maison)",
+        "L'art de construire des dômes",
+        "La réparation des voitures",
+        "La cuisine traditionnelle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un scénario domotique permet de déclencher plusieurs actions en un seul clic (ex: 'Départ').",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour contrôler sa maison à distance, on utilise souvent une application sur {{1}} (smartphone).",
+      "reponsesAttendues": [
+        "smartphone",
+        "téléphone",
+        "ordinateur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le système domotique à son but.",
+      "pairs": [
+        {
+          "left": "Chauffage connecté",
+          "right": "Économies d'énergie et confort"
+        },
+        {
+          "left": "Volets roulants auto",
+          "right": "Gestion de la luminosité et sécurité"
+        },
+        {
+          "left": "Alarme WiFi",
+          "right": "Sécurité et surveillance à distance"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage principal de la domotique pour les personnes âgées ?",
+      "options": [
+        "Le maintien à domicile grâce à l'assistance et à la sécurité",
+        "Pouvoir jouer à des jeux vidéo plus vite",
+        "Changer la couleur des murs",
+        "La domotique ne sert à rien"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz15",
+  "titre": "Global Health",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is 'hygiene'?",
+      "options": [
+        "Conditions and practices that help to maintain health and prevent disease",
+        "A type of very tall mountain",
+        "A difficult dance move",
+        "The study of stars"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Vaccination is a primary tool for preventing the spread of infectious diseases.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A widespread disease that affects a whole country or the world is a {{1}}.",
+      "reponsesAttendues": [
+        "pandemic"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the health issue with its solution.",
+      "pairs": [
+        {
+          "left": "Dirty water",
+          "right": "Filtration and sanitation systems"
+        },
+        {
+          "left": "Malnutrition",
+          "right": "Food aid and balanced diet education"
+        },
+        {
+          "left": "Polio / Measles",
+          "right": "Global vaccination programs"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is the role of the WHO?",
+      "options": [
+        "World Health Organization (coordinates international public health)",
+        "A band that plays rock music",
+        "A question about a person",
+        "A type of fast food burger"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

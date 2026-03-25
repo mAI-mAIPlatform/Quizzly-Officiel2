@@ -1,0 +1,63 @@
+{
+  "id": "quiz24",
+  "titre": "Literatura Contemporânea",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Quién es el autor de 'O Alquimista'?",
+      "options": [
+        "Paulo Coelho",
+        "Jorge Amado",
+        "Machado de Assis",
+        "Clarice Lispector"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Clarice Lispector é conhecida por seu estilo introspectivo.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A literatura nos ajuda a {{1}} o mundo (entender/comprendre).",
+      "reponsesAttendues": [
+        "entender"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el autor a su obra/estilo.",
+      "pairs": [
+        {
+          "left": "Jorge Amado",
+          "right": "Cultura da Bahia"
+        },
+        {
+          "left": "Clarice Lispector",
+          "right": "Fluxo de consciência"
+        },
+        {
+          "left": "Machado de Assis",
+          "right": "Realismo / Ironia"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'clássico' na literatura?",
+      "options": [
+        "Obra de valor universal e atemporal",
+        "Um livro novo",
+        "Um livro didático",
+        "Um livro de poemas"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

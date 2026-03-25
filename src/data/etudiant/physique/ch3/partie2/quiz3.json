@@ -1,0 +1,63 @@
+{
+  "id": "quiz13",
+  "titre": "La notion de force",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Par quoi modélise-t-on une action mécanique en physique ?",
+      "options": [
+        "Par une force",
+        "Par un nuage",
+        "Par un chiffre seul",
+        "Par un dessin de main"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une force est représentée par un segment fléché appelé vecteur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On note une force s'exerçant de A sur B par la notation F {{1}}.",
+      "reponsesAttendues": [
+        "A/B"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'élément du vecteur force à sa propriété.",
+      "pairs": [
+        {
+          "left": "Origine de la flèche",
+          "right": "Point d'application (où s'exerce la force)"
+        },
+        {
+          "left": "Longueur de la flèche",
+          "right": "Valeur (intensité) de la force"
+        },
+        {
+          "left": "Pointe de la flèche",
+          "right": "Sens de l'action"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est l'unité de mesure de la valeur d'une force ?",
+      "options": [
+        "Le Newton (N)",
+        "Le Joule (J)",
+        "Le Kilogramme (kg)",
+        "Le Watt (W)"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Resumo Capítulo 1 Parte 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Olá, eu ... (suis) a Ana e ... (ai) dez anos.",
+      "options": [
+        "sou / tenho",
+        "tenho / sou",
+        "estou / chamo",
+        "chamo / sou"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Adeus' é usado para dizer olá.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Moro em {{1}} (Portugal).",
+      "reponsesAttendues": [
+        "Portugal"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Básico.",
+      "pairs": [
+        {
+          "left": "Obrigado",
+          "right": "Merci"
+        },
+        {
+          "left": "Por favor",
+          "right": "S'il vous plaît"
+        },
+        {
+          "left": "Como estás?",
+          "right": "Comment vas-tu ?"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Tudo bem?",
+      "options": [
+        "Sim, tudo bem",
+        "Não, sou Maria",
+        "Tenho um cão",
+        "Lá fora"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

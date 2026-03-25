@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Pratiques agricoles et production",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le but principal de l'agriculture ?",
+      "options": [
+        "Décorer la campagne",
+        "Produire de la matière organique pour nourrir les humains",
+        "Utiliser le plus de tracteurs possible",
+        "Chasser les animaux sauvages"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation d'engrais apporte des sels minéraux aux plantes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les produits chimiques utilisés pour tuer les insectes nuisibles sont les {{1}}.",
+      "reponsesAttendues": [
+        "pesticides"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la pratique à son effet.",
+      "pairs": [
+        {
+          "left": "Irrigation",
+          "right": "Apport d'eau aux cultures"
+        },
+        {
+          "left": "Labour",
+          "right": "Retournement de la terre pour l'aérer"
+        },
+        {
+          "left": "Sélection",
+          "right": "Choix des meilleures variétés"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle pratique alternative limite l'usage de produits chimiques ?",
+      "options": [
+        "L'agriculture intensive",
+        "L'agriculture biologique",
+        "L'industrie lourde",
+        "La déforestation"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

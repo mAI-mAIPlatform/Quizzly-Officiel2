@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Pourcentages (Calculer un taux)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans une classe de 25 élèves, 5 portent des lunettes. Quel est le pourcentage ?",
+      "options": [
+        "5%",
+        "20%",
+        "25%",
+        "50%"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un taux de 100% signifie que la valeur a doublé.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "12 élèves sur 24 représentent {{1}}% de l'effectif.",
+      "reponsesAttendues": [
+        "50"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Trouve le pourcentage correspondant.",
+      "pairs": [
+        {
+          "left": "1/4",
+          "right": "25%"
+        },
+        {
+          "left": "1/10",
+          "right": "10%"
+        },
+        {
+          "left": "3/5",
+          "right": "60%"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si un gâteau de 500g contient 100g de sucre, le taux de sucre est de :",
+      "options": [
+        "10%",
+        "20%",
+        "25%",
+        "40%"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

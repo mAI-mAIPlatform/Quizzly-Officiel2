@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Le Présent : Pouvoir et Vouloir (X-X-T)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison de 'Je' pour 'Pouvoir' ?",
+      "options": [
+        "-x",
+        "-s",
+        "-e",
+        "-t"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Tu veux' s'écrit avec un 's'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ils {{1}} (pouvoir) venir.",
+      "reponsesAttendues": [
+        "peuvent"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Lien sujet / verbe.",
+      "pairs": [
+        {
+          "left": "Je",
+          "right": "Veux"
+        },
+        {
+          "left": "Il",
+          "right": "Veut"
+        },
+        {
+          "left": "Nous",
+          "right": "Voulons"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Forme correcte : 'Vous _____ (pouvoir)'.",
+      "options": [
+        "Pouvez",
+        "Pouvons",
+        "Peuvent",
+        "Puisse"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

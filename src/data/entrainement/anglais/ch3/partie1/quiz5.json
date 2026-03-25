@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Grammar : Present Continuous for Travel",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Which one describes an action happening NOW?",
+      "options": [
+        "I am traveling to London",
+        "I travel to London",
+        "I to travel to London",
+        "I am travel to London"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "We use 'am/is/are + verb-ing' for the Present Continuous.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Look! The plane is {{1}} off.",
+      "reponsesAttendues": [
+        "taking"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the people.",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "Am walking"
+        },
+        {
+          "left": "He / She",
+          "right": "Is flying"
+        },
+        {
+          "left": "They",
+          "right": "Are driving"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Where are you _____?",
+      "options": [
+        "going",
+        "go",
+        "goes",
+        "to go"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

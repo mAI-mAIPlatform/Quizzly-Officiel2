@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Sécurité sur le Réseau",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie le petit cadenas dans la barre d'adresse ?",
+      "options": [
+        "La connexion est sécurisée (chiffrée via HTTPS)",
+        "Le site est interdit",
+        "L'ordinateur est cassé",
+        "Il n'y a plus de batterie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Utiliser le même mot de passe pour tous ses comptes est une bonne pratique.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le {{1}} est une technique de fraude pour voler des identifiants par e-mail.",
+      "reponsesAttendues": [
+        "phishing"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Menaces.",
+      "pairs": [
+        {
+          "left": "Virus",
+          "right": "Programme malveillant"
+        },
+        {
+          "left": "Spam",
+          "right": "Courrier indésirable"
+        },
+        {
+          "left": "Ransomware",
+          "right": "Bloque tes fichiers contre de l'argent"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment se protéger efficacement sur Internet ?",
+      "options": [
+        "Mots de passe complexes, antivirus et vigilance",
+        "Ne jamais allumer l'écran",
+        "Cliquer sur toutes les publicités",
+        "Donner son code de carte bleue"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Temps et Rythme du récit",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une ellipse temporelle ?",
+      "options": [
+        "Un bond dans le temps (on passe des années)",
+        "Un retour en arrière",
+        "Un ralentissement de l'action",
+        "Une pause descriptive"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le sommaire résume une longue période en quelques lignes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une scène de dialogue donne l'impression que le temps du récit est {{1}} au temps de l'histoire.",
+      "reponsesAttendues": [
+        "égal"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le procédé à son effet sur le rythme.",
+      "pairs": [
+        {
+          "left": "Ellipse",
+          "right": "Accélération maximale"
+        },
+        {
+          "left": "Sommaire",
+          "right": "Accélération"
+        },
+        {
+          "left": "Pause (description)",
+          "right": "Arrêt du temps"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on un retour en arrière dans le passé ?",
+      "options": [
+        "Une analepse (flashback)",
+        "Une prolepse",
+        "Une ellipse",
+        "Une chute"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

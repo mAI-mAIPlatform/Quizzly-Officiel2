@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Mobilité et Transports",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le mode de transport principal lié à l'étalement urbain ?",
+      "options": [
+        "L'automobile",
+        "Le vélo",
+        "La marche à pied",
+        "Le cheval"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les 'migrations pendulaires' sont les trajets quotidiens entre domicile et travail.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le transport qui permet de relier le centre-ville à ses banlieues lointaines s'appelle le {{1}} (en France).",
+      "reponsesAttendues": [
+        "RER"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'enjeu au transport.",
+      "pairs": [
+        {
+          "left": "Pollution / Embouteillages",
+          "right": "Voiture individuelle"
+        },
+        {
+          "left": "Rapidité / Masse",
+          "right": "Métros / Train"
+        },
+        {
+          "left": "Écologie / Proximité",
+          "right": "Modes doux (vélo, marche)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'objectif des villes durables concernant les transports ?",
+      "options": [
+        "Développer les transports en commun et les pistes cyclables",
+        "Interdire tous les déplacements",
+        "Multiplier les autoroutes en centre-ville",
+        "Donner une voiture à chaque enfant"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

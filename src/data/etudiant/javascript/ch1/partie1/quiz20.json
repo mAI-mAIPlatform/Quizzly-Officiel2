@@ -1,0 +1,63 @@
+{
+  "id": "quiz20",
+  "titre": "Synthèse Partie 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est l'égalité recommandée en JavaScript ?",
+      "options": [
+        "===",
+        "==",
+        "=",
+        "is"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un 'if' peut fonctionner sans 'else'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'opérateur pour 'OU' est {{1}} (||).",
+      "reponsesAttendues": [
+        "||"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le code à son sens.",
+      "pairs": [
+        {
+          "left": "&&",
+          "right": "ET"
+        },
+        {
+          "left": "||",
+          "right": "OU"
+        },
+        {
+          "left": "!",
+          "right": "NON"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel bloc est exécuté si : (age >= 18) est faux ?",
+      "options": [
+        "Le bloc else (s'il existe)",
+        "Le bloc if quand même",
+        "Une erreur est générée",
+        "Rien ne se passe"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

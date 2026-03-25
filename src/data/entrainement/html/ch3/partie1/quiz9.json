@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Les Balises de Citation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise entoure une citation longue (bloc) ?",
+      "options": [
+        "<blockquote>",
+        "<cite>",
+        "<q>",
+        "<quote>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La balise <q> est utilisée pour les citations courtes en ligne (rajoute des guillemets).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} dans <blockquote> donne l'URL de la source.",
+      "reponsesAttendues": [
+        "cite"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Citations.",
+      "pairs": [
+        {
+          "left": "blockquote",
+          "right": "Paragraphe entier"
+        },
+        {
+          "left": "q",
+          "right": "Quelques mots"
+        },
+        {
+          "left": "cite",
+          "right": "Titre du livre/site cité"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'effet de <q> ?",
+      "options": [
+        "Affiche des guillemets adaptés à la langue (ex: « » ou \" \")",
+        "Met en gras",
+        "Change la couleur",
+        "Rien"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

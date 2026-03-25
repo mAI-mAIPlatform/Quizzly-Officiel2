@@ -1,0 +1,64 @@
+{
+  "id": "quiz6",
+  "titre": "La 5ème déclinaison (-e)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison du nominatif singulier de la 5ème déclinaison ?",
+      "options": [
+        "-es",
+        "-us",
+        "-a",
+        "-is"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Dies' (le jour) et 'Res' (la chose) sont les mots les plus fréquents de cette déclinaison.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La chose se dit {{1}} et l'espoir {{2}} (res/spes).",
+      "reponsesAttendues": [
+        "res",
+        "spes"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le cas (5ème décl.).",
+      "pairs": [
+        {
+          "left": "Res",
+          "right": "Nom. / Acc. Singulier"
+        },
+        {
+          "left": "Rei",
+          "right": "Génitif / Datif Singulier"
+        },
+        {
+          "left": "Rerum",
+          "right": "Génitif Pluriel"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le genre habituel de la 5ème déclinaison ?",
+      "options": [
+        "Féminin (sauf Dies)",
+        "Masculin",
+        "Neutre",
+        "Inconnu"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

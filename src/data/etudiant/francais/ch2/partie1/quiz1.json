@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Qu'est-ce que le Réalisme ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Le but du réalisme est de peindre la réalité :",
+      "options": [
+        "Sans l'idéaliser",
+        "En la rendant plus belle",
+        "En inventant des monstres",
+        "En ne parlant que des rois"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le réalisme s'intéresse souvent aux classes moyennes et populaires.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le réalisme se développe principalement au milieu du {{1}}e siècle.",
+      "reponsesAttendues": [
+        "XIX"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'auteur à son œuvre réaliste.",
+      "pairs": [
+        {
+          "left": "Flaubert",
+          "right": "Madame Bovary"
+        },
+        {
+          "left": "Stendhal",
+          "right": "Le Rouge et le Noir"
+        },
+        {
+          "left": "Balzac",
+          "right": "La Comédie Humaine"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel adjectif définit un récit qui semble vrai ?",
+      "options": [
+        "Vraisemblable",
+        "Fantastique",
+        "Merveilleux",
+        "Utopique"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "quiz9",
+  "titre": "Les Sentiments (Animi motus)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment se dit 'L'amour' ?",
+      "options": [
+        "Amor",
+        "Odium",
+        "Timor",
+        "Ira"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Ira' signifie la colère.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La peur se dit {{1}} et la haine {{2}} (timor/odium).",
+      "reponsesAttendues": [
+        "timor",
+        "odium"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le sentiment.",
+      "pairs": [
+        {
+          "left": "Laetitia",
+          "right": "Joie"
+        },
+        {
+          "left": "Tristitia",
+          "right": "Tristesse"
+        },
+        {
+          "left": "Spes",
+          "right": "Espoir"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Odi et amo' (Catulle) ?",
+      "options": [
+        "Je hais et j'aime",
+        "J'aime tout le monde",
+        "Je ne sais pas",
+        "C'est fini"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

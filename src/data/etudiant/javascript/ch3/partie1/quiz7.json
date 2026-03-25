@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Retirer : shift",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet de retirer le PREMIER élément d'un tableau ?",
+      "options": [
+        "shift()",
+        "pop()",
+        "removeFirst()",
+        "delete(0)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La méthode shift() réduit la longueur (length) du tableau de 1.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Comme pop(), la méthode {{1}} renvoie aussi l'élément supprimé (shift).",
+      "reponsesAttendues": [
+        "shift"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Soit t = ['A', 'B', 'C']. Relie l'action au résultat.",
+      "pairs": [
+        {
+          "left": "t.shift()",
+          "right": "Renvoie 'A'"
+        },
+        {
+          "left": "t.pop()",
+          "right": "Renvoie 'C'"
+        },
+        {
+          "left": "t après shift()",
+          "right": "['B', 'C']"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser shift() ?",
+      "options": [
+        "Pour gérer une file d'attente (traiter le premier arrivé)",
+        "Pour vider tout le tableau d'un coup",
+        "Pour trier par ordre alphabétique",
+        "Pour changer la couleur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

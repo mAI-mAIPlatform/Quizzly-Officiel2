@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Synthese Kap.1 P.1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Hallo, ich {{1}} Lukas y hoy es {{2}}.",
+      "options": [
+        "bin / Montag",
+        "ist / Mittwoch",
+        "bist / Freitag",
+        "sind / Sonntag"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La palabra 'Ei' se pronuncia 'ai'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "{{1}} heißt du? - Ich heiße Maria (comment).",
+      "reponsesAttendues": [
+        "Wie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el resumen.",
+      "pairs": [
+        {
+          "left": "Zahlen",
+          "right": "Eins, zwei, drei"
+        },
+        {
+          "left": "Farben",
+          "right": "Blau, Rot, Gelb"
+        },
+        {
+          "left": "Pronomen",
+          "right": "Ich, du, er/sie/es"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Bonne nuit' al ir a dormir?",
+      "options": [
+        "Gute Nacht",
+        "Guten Abend",
+        "Hallo",
+        "Bis bald"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Carácter y Adjetivos",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Sympathique' ?",
+      "options": [
+        "Simpático",
+        "Serio",
+        "Timido",
+        "Alegre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Triste' es lo opuesto de 'Alegre'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Intelligent' se dice '{{1}}'.",
+      "reponsesAttendues": [
+        "inteligente"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Carácter.",
+      "pairs": [
+        {
+          "left": "Trabajador",
+          "right": "Travailleur"
+        },
+        {
+          "left": "Perezoso",
+          "right": "Paresseux"
+        },
+        {
+          "left": "Divertido",
+          "right": "Amusant"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Como se dice 'Il est très sérieux' ?",
+      "options": [
+        "Es muy serio",
+        "Está muy serio",
+        "Tiene muy serio",
+        "Se llama muy serio"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

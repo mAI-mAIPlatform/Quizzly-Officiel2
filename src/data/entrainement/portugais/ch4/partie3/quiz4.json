@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Na Farmácia",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Le médicament' ?",
+      "options": [
+        "O medicamento / O remédio",
+        "A receita",
+        "A farmácia",
+        "O xarope"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Receita médica' é necessária para certos remédios.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu preciso de um {{1}} (pansement) para o corte.",
+      "reponsesAttendues": [
+        "penso"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Farmácia.",
+      "pairs": [
+        {
+          "left": "Pastilhas",
+          "right": "Comprimés / Pastilles"
+        },
+        {
+          "left": "Pomada",
+          "right": "Pommade"
+        },
+        {
+          "left": "Vitamina",
+          "right": "Vitamine"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Tem alguma coisa para a tosse?",
+      "options": [
+        "Sim, este xarope é muito bom",
+        "Não, sou de Braga",
+        "Obrigado, adeus",
+        "Bom dia"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

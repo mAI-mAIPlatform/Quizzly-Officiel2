@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Bordures et Espacement (Concepts)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel attribut (déprécié) permettait d'afficher des bordures ?",
+      "options": [
+        "border",
+        "outline",
+        "frame",
+        "line"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Aujourd'hui, on préfère utiliser du CSS pour styler les tableaux.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'espace entre les bordures des cellules s'appelle le cell{{1}} (en HTML ancien).",
+      "reponsesAttendues": [
+        "spacing"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Espace et vide.",
+      "pairs": [
+        {
+          "left": "Cellpadding",
+          "right": "Espace INTERNE à la cellule"
+        },
+        {
+          "left": "Cellspacing",
+          "right": "Espace ENTRE les cellules"
+        },
+        {
+          "left": "Border-collapse",
+          "right": "Fusion des bordures (CSS)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle propriété CSS permet de coller les bordures du tableau entre elles ?",
+      "options": [
+        "border-collapse",
+        "border-sticky",
+        "border-glue",
+        "margin-none"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

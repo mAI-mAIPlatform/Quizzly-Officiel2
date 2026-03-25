@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Qu'est-ce qu'un transfert d'énergie ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment l'énergie passe-t-elle d'un objet à un autre ?",
+      "options": [
+        "Par magie",
+        "Par un transfert d'énergie",
+        "Elle ne bouge jamais",
+        "En changeant de couleur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un transfert d'énergie nécessite un émetteur et un récepteur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'énergie ne peut être ni créée ni {{1}}, elle se transfère.",
+      "reponsesAttendues": [
+        "détruite"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'acteur du transfert.",
+      "pairs": [
+        {
+          "left": "Pile",
+          "right": "Émetteur (source d'énergie)"
+        },
+        {
+          "left": "Lampe",
+          "right": "Récepteur (convertisseur)"
+        },
+        {
+          "left": "Fils électriques",
+          "right": "Support du transfert"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le schéma qui montre le trajet de l'énergie ?",
+      "options": [
+        "Un dessin animé",
+        "Une chaîne énergétique",
+        "Une carte postale",
+        "Un plan de métro"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

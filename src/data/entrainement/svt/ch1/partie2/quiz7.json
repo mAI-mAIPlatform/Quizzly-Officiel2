@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Organisation des organismes pluricellulaires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on un ensemble de cellules identiques assurant une même fonction ?",
+      "options": [
+        "Un organe",
+        "Un tissu",
+        "Un système",
+        "Une colonie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le cœur est un organe composé de plusieurs tissus (musculaire, nerveux...).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Chez les végétaux, la {{1}} est un organe dédié à la photosynthèse.",
+      "reponsesAttendues": [
+        "feuille"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le niveau d'organisation à son exemple.",
+      "pairs": [
+        {
+          "left": "Cellule",
+          "right": "Neurone"
+        },
+        {
+          "left": "Organe",
+          "right": "Estomac"
+        },
+        {
+          "left": "Appareil/Système",
+          "right": "Digestif"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un être pluricellulaire ?",
+      "options": [
+        "Un être sans cellule",
+        "Un être formé de nombreuses cellules spécialisées",
+        "Un être qui vit dans plusieurs cellules",
+        "Une bactérie"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

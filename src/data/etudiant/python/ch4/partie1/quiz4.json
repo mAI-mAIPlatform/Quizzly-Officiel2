@@ -1,0 +1,64 @@
+{
+  "id": "quiz4",
+  "titre": "Projet 1 : Saisie Joueur",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle fonction utilise-t-on pour récupérer le nombre tapé par le joueur ?",
+      "options": [
+        "int(input())",
+        "input()",
+        "read()",
+        "get_number()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il est indispensable de convertir l'input en 'int' pour pouvoir faire des comparaisons mathématiques.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si l'utilisateur tape du texte au lieu d'un nombre, l'instruction 'int(input())' provoquera une {{1}} (erreur / ValueError).",
+      "reponsesAttendues": [
+        "erreur",
+        "ValueError"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le code à son action.",
+      "pairs": [
+        {
+          "left": "proposition = input()",
+          "right": "Reçoit du texte"
+        },
+        {
+          "left": "int(proposition)",
+          "right": "Transforme en entier"
+        },
+        {
+          "left": "print(\"Essaie :\", end=\" \")",
+          "right": "Demande proprement"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi utilise-t-on 'int()' ?",
+      "options": [
+        "Car input() renvoie toujours du texte (str) par défaut",
+        "Pour changer la couleur du texte",
+        "Pour arrondir le nombre",
+        "Pour économiser de la place"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

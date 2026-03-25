@@ -1,0 +1,63 @@
+{
+  "id": "quiz14",
+  "titre": "Les premières lois sociales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est l'une des premières grandes victoires sociales en France ?",
+      "options": [
+        "La limitation du temps de travail (ex: 10h en 1900)",
+        "Le droit de voter pour tous les bébés",
+        "La suppression de toutes les usines",
+        "L'obligation de porter un uniforme bleu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le repos hebdomadaire (dimanche) n'est devenu obligatoire qu'en 1906.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La loi sur les accidents du travail date de {{1}}.",
+      "reponsesAttendues": [
+        "1898"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la loi à son progrès.",
+      "pairs": [
+        {
+          "left": "Loi de 1841",
+          "right": "Âge minimum au travail (8 ans)"
+        },
+        {
+          "left": "Loi de 1864",
+          "right": "Droit de grève (fin du délit de coalition)"
+        },
+        {
+          "left": "Loi de 1892",
+          "right": "Interdiction du travail de nuit pour les femmes et enfants"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi ces lois ont-elles mis du temps à être votées ?",
+      "options": [
+        "À cause de l'opposition des patrons libéraux au nom de la liberté économique",
+        "Parce que les députés dormaient",
+        "Parce que personne ne voulait travailler moins",
+        "Parce qu'il n'y avait plus de papier"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Accessoires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Le chapeau' ?",
+      "options": [
+        "Der Hut",
+        "Die Mütze",
+        "Die Kappe",
+        "Der Schal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Schal' trägt man um den Hals.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich trage eine {{1}} (casquette).",
+      "reponsesAttendues": [
+        "Kappe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Accessoires.",
+      "pairs": [
+        {
+          "left": "Gürtel",
+          "right": "Ceinture"
+        },
+        {
+          "left": "Handschuhe",
+          "right": "Gants"
+        },
+        {
+          "left": "Tasche",
+          "right": "Sac"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Wo ist mein Gürtel?",
+      "options": [
+        "Er ist an der Hose",
+        "Er ist am Baum",
+        "Er ist ein Hut",
+        "Hallo Gürtel"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

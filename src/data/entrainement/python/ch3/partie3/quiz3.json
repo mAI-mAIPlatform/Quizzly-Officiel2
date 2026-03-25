@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Import spécifique (FROM ... IMPORT)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert 'from math import sqrt' ?",
+      "options": [
+        "À importer uniquement la fonction sqrt",
+        "À importer tout le module math",
+        "À renommer sqrt",
+        "À supprimer sqrt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Avec cet import, on peut écrire sqrt(16) directement sans mettre 'math.'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour tout importer d'un coup sans préfixe, on fait : from math import {{1}}.",
+      "reponsesAttendues": [
+        "*"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "import math",
+          "right": "math.pi"
+        },
+        {
+          "left": "from math import pi",
+          "right": "pi"
+        },
+        {
+          "left": "Import *",
+          "right": "Risque de conflits (Déconseillé)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage de l'import spécifique ?",
+      "options": [
+        "Code plus court et lecture plus facile",
+        "Chargement plus rapide en mémoire",
+        "Moins de mémoire utilisée",
+        "Il n'y a pas d'avantage"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Découvertes Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a mis au point le premier vaccin contre la rage en 1885 ?",
+      "options": [
+        "Louis Pasteur",
+        "Marie Curie",
+        "Charles Darwin",
+        "Albert Einstein"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Marie Curie a reçu deux prix Nobel pour ses travaux sur la radioactivité.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le découvreur de la pénicilline (le premier antibiotique) est Sir Alexander {{1}} (Fleming).",
+      "reponsesAttendues": [
+        "Fleming"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le chercheur à sa découverte.",
+      "pairs": [
+        {
+          "left": "William Harvey",
+          "right": "La circulation sanguine"
+        },
+        {
+          "left": "Edward Jenner",
+          "right": "Premier vaccin (contre la variole)"
+        },
+        {
+          "left": "Wilhelm Röntgen",
+          "right": "Les Rayons X (radiographie)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "À quoi servent les travaux de Marie Curie en médecine aujourd'hui ?",
+      "options": [
+        "Au diagnostic (radios) et au traitement de certains cancers",
+        "À fabriquer des médicaments au chocolat",
+        "À colorer les cheveux",
+        "À faire briller les montres"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Verbos pronominales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es el pronombre para 'Nosotros' en los verbos reflexivos?",
+      "options": [
+        "nos",
+        "os",
+        "se",
+        "me"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El pronombre reflexivo se coloca delante del verbo conjugado.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Tú {{1}} (lavarse) las manos antes de comer.",
+      "reponsesAttendues": [
+        "te lavas"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el pronombre con la persona.",
+      "pairs": [
+        {
+          "left": "Yo",
+          "right": "me"
+        },
+        {
+          "left": "Vosotros",
+          "right": "os"
+        },
+        {
+          "left": "Ellos",
+          "right": "se"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se conjuga 'Acostarse' (o->ue) para 'Él'?",
+      "options": [
+        "Se acuesta",
+        "Me acuesto",
+        "Te acuestas",
+        "Nos acostamos"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

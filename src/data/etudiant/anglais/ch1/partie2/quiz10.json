@@ -1,0 +1,63 @@
+{
+  "id": "quiz20",
+  "titre": "Holiday Synthesis",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Which sentence is a good summary of a holiday?",
+      "options": [
+        "It was a fantastic experience and we saw many landmarks",
+        "The cat is on the table",
+        "I have a blue pen",
+        "It is 5 o'clock"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "An 'adventure' is a simple and boring trip.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "To travel without much money is to travel on a {{1}}.",
+      "reponsesAttendues": [
+        "budget"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the holiday type with its description.",
+      "pairs": [
+        {
+          "left": "City break",
+          "right": "A short visit to a famous city"
+        },
+        {
+          "left": "Beach holiday",
+          "right": "Sunbathing and swimming"
+        },
+        {
+          "left": "Backpacking",
+          "right": "Traveling with a rucksack and staying in hostels"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is the collective name for planes, trains and buses?",
+      "options": [
+        "Public transport",
+        "Flying objects",
+        "Kitchen tools",
+        "Musical instruments"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

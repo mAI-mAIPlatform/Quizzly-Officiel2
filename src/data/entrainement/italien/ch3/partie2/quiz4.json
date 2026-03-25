@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "En Ville : Lieux importants",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'La place' ?",
+      "options": [
+        "La piazza",
+        "La strada",
+        "Il negozio",
+        "La chiesa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Il comune' signifie 'La mairie'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le magasin se dit 'Il {{1}}'.",
+      "reponsesAttendues": [
+        "negozio"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le lieu.",
+      "pairs": [
+        {
+          "left": "Ospedale",
+          "right": "Hôpital"
+        },
+        {
+          "left": "Scuola",
+          "right": "École"
+        },
+        {
+          "left": "Banca",
+          "right": "Banque"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où achète-t-on le pain ?",
+      "options": [
+        "In panetteria",
+        "In farmacia",
+        "In banca",
+        "In chiesa"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

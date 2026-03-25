@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "L'Immigration en France",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi la France a-t-elle souvent eu besoin d'immigration au cours du XXe siècle ?",
+      "options": [
+        "Pour reconstruire le pays et compenser le manque de main-d'œuvre",
+        "Pour changer la langue nationale",
+        "Pour vider les autres pays",
+        "C'était une obligation de l'ONU"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La France est historiquement une terre d'accueil pour de nombreuses vagues migratoires.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le fait de s'installer durablement dans un pays étranger est l'{{1}} (immigration).",
+      "reponsesAttendues": [
+        "immigration"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la période à l'origine principale des migrants.",
+      "pairs": [
+        {
+          "left": "Années 1920",
+          "right": "Polonais, Italiens (Mines et agriculture)"
+        },
+        {
+          "left": "Années 1960",
+          "right": "Maghrébins (Trente Glorieuses)"
+        },
+        {
+          "left": "Années 1970",
+          "right": "Régime du regroupement familial"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on une personne qui fuit son pays pour échapper à une persécution ?",
+      "options": [
+        "Un réfugié",
+        "Un touriste",
+        "Un explorateur",
+        "Un ambassadeur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

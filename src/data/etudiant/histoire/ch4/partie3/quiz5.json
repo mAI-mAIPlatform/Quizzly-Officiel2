@@ -1,0 +1,63 @@
+{
+  "id": "quiz25",
+  "titre": "Entreprises Françaises",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces groupes est une Firme Transnationale (FTN) française ?",
+      "options": [
+        "LVMH (Luxe)",
+        "Une petite ferme du Cantal",
+        "Le syndicat des boulangers de Lille",
+        "Le journal de l'école"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Airbus est un exemple de réussite industrielle en coopération européenne (siège à Toulouse).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le secteur où la France est le leader mondial incontesté est le {{1}}.",
+      "reponsesAttendues": [
+        "luxe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la FTN à son domaine.",
+      "pairs": [
+        {
+          "left": "TotalEnergies",
+          "right": "Pétrole et Gaz"
+        },
+        {
+          "left": "Renault / Peugeot",
+          "right": "Automobile"
+        },
+        {
+          "left": "Danone",
+          "right": "Agroalimentaire"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi ces entreprises sont-elles importantes pour la France ?",
+      "options": [
+        "Elles créent des richesses et assurent le rayonnement économique",
+        "Elles permettent de ne plus payer d'impôts",
+        "Elles obligent tout le monde à parler français",
+        "Elles n'ont aucune influence"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

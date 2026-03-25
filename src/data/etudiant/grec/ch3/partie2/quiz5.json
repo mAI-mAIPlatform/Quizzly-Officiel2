@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "L'Optatif Aoriste",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment se forme l'optatif de l'aoriste sigmatique ?",
+      "options": [
+        "Radical de l'aoriste (sans augm.) + -sai- (σαι)",
+        "Présent + -oi-",
+        "Présent + -ê-",
+        "Il n'existe pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'augmentation (e-) disparaît à l'optatif.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Puisse-t-il avoir éduqué se dit '{{1}}' (paideuseie / παιδεύσειε).",
+      "reponsesAttendues": [
+        "paideuseie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'optatif aoriste.",
+      "pairs": [
+        {
+          "left": "paideusaimi",
+          "right": "Puisse-je avoir éduqué"
+        },
+        {
+          "left": "laboimi",
+          "right": "Puisse-je prendre (Aor. Thématique)"
+        },
+        {
+          "left": "eipoimi",
+          "right": "Puisse-je dire (Aor. Thématique)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'optatif thématique de 'bên' (aller) ?",
+      "options": [
+        "boimi / bãiên (ba-)",
+        "baisô",
+        "basa",
+        "beô"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz19",
+  "titre": "Coding and Logic",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is 'coding'?",
+      "options": [
+        "Writing instructions for a computer in a specific language",
+        "Breaking a secret code",
+        "Repairing a physical computer screen",
+        "A type of fast typing competition"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "An 'algorithm' is a step-by-step set of rules to solve a problem.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A mistake in a computer program is called a {{1}}.",
+      "reponsesAttendues": [
+        "bug"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the coding term with its meaning.",
+      "pairs": [
+        {
+          "left": "Loop",
+          "right": "A part of code that repeats"
+        },
+        {
+          "left": "Variable",
+          "right": "A container for storing data"
+        },
+        {
+          "left": "Conditional",
+          "right": "A choice in the code (ex: if... then)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Which language is commonly used for beginner coding?",
+      "options": [
+        "Python or Scratch",
+        "Latin",
+        "Morse code",
+        "Hieroglyphs"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

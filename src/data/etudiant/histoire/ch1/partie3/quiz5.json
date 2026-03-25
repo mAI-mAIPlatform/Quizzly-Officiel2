@@ -1,0 +1,63 @@
+{
+  "id": "quiz25",
+  "titre": "Le Consulat : Réorganiser la France",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'accord signé avec le Pape en 1801 ?",
+      "options": [
+        "Le Concordat",
+        "Le Traité de paix",
+        "La Constitution civile",
+        "L'Édit de Nantes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Bonaparte crée les préfets pour représenter l'État dans chaque département.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour former les futures élites de l'État, il crée les {{1}}.",
+      "reponsesAttendues": [
+        "lycées"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la création de Bonaparte à son domaine.",
+      "pairs": [
+        {
+          "left": "Franc Germinal",
+          "right": "Économie / Monnaie"
+        },
+        {
+          "left": "Légion d'honneur",
+          "right": "Récompense des mérites"
+        },
+        {
+          "left": "Banque de France",
+          "right": "Stabilité financière"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est l'ambition de Bonaparte durant le Consulat ?",
+      "options": [
+        "Rétablir l'ordre et la paix civile",
+        "Partir vivre sur une île",
+        "Détruire toutes les églises",
+        "Supprimer les impôts"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

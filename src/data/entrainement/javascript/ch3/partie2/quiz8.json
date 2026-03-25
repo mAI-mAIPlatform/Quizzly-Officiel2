@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Boucle while et prompt()",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi while est-il utile avec prompt() ?",
+      "options": [
+        "C'est plus rapide",
+        "Pour redemander tant que la saisie est invalide",
+        "C'est obligatoire",
+        "prompt ne marche qu'avec while"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "while (nom === '') { nom = prompt('Nom ?'); } est un usage correct.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Cette méthode permet de {{1}} les entrées utilisateur.",
+      "reponsesAttendues": [
+        "valider"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le comportement.",
+      "pairs": [
+        {
+          "left": "Saisie correcte",
+          "right": "Sortie de boucle"
+        },
+        {
+          "left": "Saisie vide",
+          "right": "Répétition"
+        },
+        {
+          "left": "Cliquer 'Annuler'",
+          "right": "Renvoie null"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle boucle est souvent préférée pour demander une saisie au moins une fois ?",
+      "options": [
+        "for",
+        "while",
+        "do...while",
+        "if"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

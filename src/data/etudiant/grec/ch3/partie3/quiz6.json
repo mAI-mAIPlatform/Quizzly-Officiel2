@@ -1,0 +1,64 @@
+{
+  "id": "quiz6",
+  "titre": "La Médecine (Hippokratês)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est considéré comme le père de la médecine occidentale ?",
+      "options": [
+        "Hippocrate",
+        "Galien",
+        "Asclépios",
+        "Hérodote"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le serment d'Hippocrate est encore prêté par les médecins aujourd'hui.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'île célèbre pour son école de médecine était l'île de {{1}} (Cos).",
+      "reponsesAttendues": [
+        "Cos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme médical.",
+      "pairs": [
+        {
+          "left": "Asclépios",
+          "right": "Dieu de la médecine"
+"
+        },
+        {
+          "left": "Kadhukéion",
+          "right": "Le caducée (symbole)"
+        },
+        {
+          "left": "Pharmakon",
+          "right": "Le remède / médicament"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Sur quoi Hippocrate basait-il sa médecine ?",
+      "options": [
+        "L'observation clinique et la nature",
+        "La magie uniquement",
+        "Les sacrifices d'animaux",
+        "Il n'était pas médecin"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

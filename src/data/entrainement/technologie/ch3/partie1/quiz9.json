@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Les Réseaux Sociaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": " Quel est le principe d'un réseau social ?",
+      "options": [
+        "Partager du contenu et interagir avec une communauté",
+        "Calculer des fonctions mathématiques",
+        "Réparer des ordinateurs",
+        "Jouer uniquement seul"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Tout ce que l'on publie sur un réseau social peut laisser une trace indélébile (Identité numérique).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le {{1}} est le droit de demander la suppression de données personnelles.",
+      "reponsesAttendues": [
+        "retrait"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dangers Réseaux.",
+      "pairs": [
+        {
+          "left": "Cyber-harcèlement",
+          "right": "Moqueries répétées en ligne"
+        },
+        {
+          "left": "Fake News",
+          "right": "Fausses informations"
+        },
+        {
+          "left": "Addiction",
+          "right": "Temps d'écran excessif"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que faut-il vérifier avant de partager une information ?",
+      "options": [
+        "La source et la date de l'information",
+        "Le nombre de 'J'aime'",
+        "Si c'est rigolo",
+        "Si tout le monde le dit"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

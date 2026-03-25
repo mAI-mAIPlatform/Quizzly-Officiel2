@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Le Matériel du Collège (ENT)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie ENT ?",
+      "options": [
+        "Espace Numérique de Travail",
+        "Écran National de Technologie",
+        "Environnement Nouveau de Travail",
+        "Entrée Numérique Territoriale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour se connecter au réseau du collège, il faut un identifiant et un mot de passe personnels.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On enregistre ses documents sur son {{1}} (espace personnel sur le serveur).",
+      "reponsesAttendues": [
+        "lecteur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Services ENT.",
+      "pairs": [
+        {
+          "left": "Pronote / EcoleDirecte",
+          "right": "Notes et devoirs"
+        },
+        {
+          "left": "Messagerie",
+          "right": "Contacter les professeurs"
+        },
+        {
+          "left": "Ressources",
+          "right": "Livres numériques et exercices"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "À quoi sert la 'Charte informatique' du collège ?",
+      "options": [
+        "À définir les droits et les devoirs de l'utilisateur sur le réseau",
+        "À décorer les murs",
+        "À punir tout le monde d'avance",
+        "C'est un manuel de montage"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

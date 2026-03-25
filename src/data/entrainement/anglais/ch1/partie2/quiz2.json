@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "My Favorite Subject",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "I _____ English, it's my favorite subject!",
+      "options": [
+        "love",
+        "am love",
+        "loving",
+        "loves"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "You say 'I doesn't like Maths' to say you hate it.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "He {{1}} PE because he is very athletic.",
+      "reponsesAttendues": [
+        "likes"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the feelings.",
+      "pairs": [
+        {
+          "left": "I love",
+          "right": "❤❤"
+        },
+        {
+          "left": "I like",
+          "right": "❤"
+        },
+        {
+          "left": "I hate",
+          "right": "✖"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Which sentence is correct?",
+      "options": [
+        "What is your favorite subject?",
+        "Which is your favorites subject?",
+        "What are your favorite subject?",
+        "Where is your favorite subject?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

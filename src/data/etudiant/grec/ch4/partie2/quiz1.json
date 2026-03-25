@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Préfixes Grecs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie le préfixe 'Para-' ?",
+      "options": [
+        "À côté de / contre",
+        "Après / changement",
+        "À travers",
+        "En haut"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le préfixe 'Meta-' (ex: Métamorphose) indique souvent une idée de changement ou de succession.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le préfixe signifiant 'à travers' est {{1}} (Dia-).",
+      "reponsesAttendues": [
+        "Dia"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le préfixe à son sens.",
+      "pairs": [
+        {
+          "left": "Ana-",
+          "right": "En haut / de nouveau"
+        },
+        {
+          "left": "Kata-",
+          "right": "En bas / complètement"
+        },
+        {
+          "left": "Anti-",
+          "right": "En face / contre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Epi-' ?",
+      "options": [
+        "Sur / au-dessus",
+        "Sous",
+        "Autour",
+        "Loin de"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

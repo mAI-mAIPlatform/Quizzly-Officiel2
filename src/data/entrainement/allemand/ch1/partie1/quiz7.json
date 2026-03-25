@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Wie geht es dir? (État)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie fragt man 'Comment vas-tu ?'",
+      "options": [
+        "Wie geht es dir?",
+        "Wie heißt du?",
+        "Was machst du?",
+        "Wer bist du?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Gut, danke' bedeutet 'Bien, merci'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Mir geht es {{1}} (très bien).",
+      "reponsesAttendues": [
+        "super"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Zustand.",
+      "pairs": [
+        {
+          "left": "Schlecht",
+          "right": "Mal"
+        },
+        {
+          "left": "Müde",
+          "right": "Fatigué"
+        },
+        {
+          "left": "So lala",
+          "right": "Comme ci comme ça"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Und dir?",
+      "options": [
+        "Et toi?",
+        "Et lui?",
+        "Et nous?",
+        "Et vous?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

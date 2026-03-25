@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "L'Héritage d'Homère",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle épopée raconte la colère d'Achille lors du siège de Troie ?",
+      "options": [
+        "L'Iliade",
+        "L'Odyssée",
+        "L'Énéide",
+        "La Théogonie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Odyssée raconte le retour d'Ulysse vers son île d'Ithaque.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'instrument privilégié des aèdes (poètes) pour chanter Homère était la {{1}} (lyre).",
+      "reponsesAttendues": [
+        "lyre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le personnage à l'œuvre.",
+      "pairs": [
+        {
+          "left": "Achille",
+          "right": "L'Iliade"
+        },
+        {
+          "left": "Pénélope",
+          "right": "L'Odyssée (épouse d'Ulysse)"
+        },
+        {
+          "left": "Hector",
+          "right": "L'Iliade (héros de Troie)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel adjectif qualifie le vers utilisé par Homère ?",
+      "options": [
+        "L'hexamètre dactylique",
+        "L'alexandrin",
+        "Le haïku",
+        "Le vers libre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

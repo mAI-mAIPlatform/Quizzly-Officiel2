@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Au Petit-déjeuner",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Le petit-déjeuner' ?",
+      "options": [
+        "La colazione",
+        "Il pranzo",
+        "La merenda",
+        "La cena"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un 'Cornetto' italien ressemble à un croissant français.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le beurre se dit 'Il {{1}}'.",
+      "reponsesAttendues": [
+        "burro"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'aliment du matin.",
+      "pairs": [
+        {
+          "left": "Marmellata",
+          "right": "Confiture"
+        },
+        {
+          "left": "Biscotto",
+          "right": "Biscuit"
+        },
+        {
+          "left": "Miele",
+          "right": "Miel"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Succo d'arancia' ?",
+      "options": [
+        "Jus d'orange",
+        "Jus de pomme",
+        "Lait d'amande",
+        "Eau plate"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

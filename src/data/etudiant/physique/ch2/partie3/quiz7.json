@@ -1,0 +1,63 @@
+{
+  "id": "quiz27",
+  "titre": "Continu vs Alternatif",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel type de courant est fourni par une pile ?",
+      "options": [
+        "Courant continu (DC)",
+        "Courant alternatif (AC)",
+        "Courant intermittent",
+        "Courant rotatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le courant des prises murales est un courant alternatif.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "En courant alternatif, le sens du courant change de façon {{1}}.",
+      "reponsesAttendues": [
+        "périodique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la source au type de courant.",
+      "pairs": [
+        {
+          "left": "Panneau solaire",
+          "right": "Continu"
+        },
+        {
+          "left": "Alternateur d'usine",
+          "right": "Alternatif"
+        },
+        {
+          "left": "Batterie USB",
+          "right": "Continu"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la fréquence du courant alternatif en France ?",
+      "options": [
+        "50 Hertz (50 changements par seconde)",
+        "60 Hertz",
+        "230 Hertz",
+        "0 Hertz"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

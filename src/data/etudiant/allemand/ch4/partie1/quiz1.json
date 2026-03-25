@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Feste im Jahr",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué se celebra en diciembre?",
+      "options": [
+        "Weihnachten",
+        "Ostern",
+        "Karneval",
+        "Oktoberfest"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Ostern' significa 'Pascua'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Im Februar feiern wir {{1}} (carnaval).",
+      "reponsesAttendues": [
+        "Karneval"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la festividad.",
+      "pairs": [
+        {
+          "left": "Silvester",
+          "right": "Réveillon (Nouvel An)"
+        },
+        {
+          "left": "Nikolaustag",
+          "right": "Saint-Nicolas"
+        },
+        {
+          "left": "Muttertag",
+          "right": "Fête des mères"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'feiern'?",
+      "options": [
+        "Célébrer / Fêter",
+        "Dormir",
+        "Manger",
+        "Travailler"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

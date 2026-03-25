@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "La Cellule : Unité du vivant",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quels sont les trois constituants de base d'une cellule ?",
+      "options": [
+        "Noyau, Mur, Racine",
+        "Membrane, Cytoplasme, Noyau",
+        "Tête, Jambe, Bras",
+        "Feuille, Tige, Fleur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Tous les êtres vivants sont constitués d'au moins une cellule.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un être vivant formé d'une seule cellule est dit {{1}}.",
+      "reponsesAttendues": [
+        "unicellulaire"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la partie de la cellule à sa description.",
+      "pairs": [
+        {
+          "left": "Membrane",
+          "right": "Enveloppe de la cellule"
+        },
+        {
+          "left": "Noyau",
+          "right": "Contient les informations"
+        },
+        {
+          "left": "Cytoplasme",
+          "right": "Intérieur gélatineux"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel instrument est indispensable pour observer des cellules ?",
+      "options": [
+        "Des lunettes de soleil",
+        "Le microscope",
+        "Un télescope",
+        "Une loupe simple"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

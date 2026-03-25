@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "L'oreille humaine",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la plage de fréquences audibles pour un humain en bonne santé ?",
+      "options": [
+        "Entre 20 Hz et 20 000 Hz (20 kHz)",
+        "Entre 0 Hz et 1 000 Hz",
+        "Entre 100 Hz et 500 Hz",
+        "Toutes les fréquences sans limite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Avec l'âge, l'oreille humaine perd la capacité d'entendre les sons très aigus.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La membrane de l'oreille qui vibre sous l'effet du son est le {{1}}.",
+      "reponsesAttendues": [
+        "tympan"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la partie à son rôle.",
+      "pairs": [
+        {
+          "left": "Pavillon",
+          "right": "Collecte les ondes sonores"
+        },
+        {
+          "left": "Osselets",
+          "right": "Amplifient les vibrations vers l'oreille interne"
+        },
+        {
+          "left": "Cochlée",
+          "right": "Transforme les vibrations en signal électrique pour le cerveau"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi avons-nous deux oreilles ?",
+      "options": [
+        "Pour localiser la provenance d'un son",
+        "Au cas où une oreille tombe en panne",
+        "Pour équilibrer le visage",
+        "Pour entendre deux fois plus fort"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

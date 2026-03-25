@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Classer les êtres vivants",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Sur quoi se base-t-on pour classer les êtres vivants aujourd'hui ?",
+      "options": [
+        "Sur ce qu'ils font (voler, nager...)",
+        "Sur les caractères physiques qu'ils partagent (attributs)",
+        "Sur leur couleur préférée",
+        "Sur leur utilité pour l'homme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une classification en groupes emboîtés montre les liens de parenté.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'ensemble des êtres vivants qui se ressemblent et peuvent se reproduire forment une {{1}}.",
+      "reponsesAttendues": [
+        "espèce"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'attribut au groupe.",
+      "pairs": [
+        {
+          "left": "Squelette interne osseux",
+          "right": "Vertébrés"
+        },
+        {
+          "left": "Squelette externe et pattes articulées",
+          "right": "Arthropodes"
+        },
+        {
+          "left": "Plumes",
+          "right": "Oiseaux"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel groupe possède des mamelles et des poils ?",
+      "options": [
+        "Les reptiles",
+        "Les mammifères",
+        "Les batraciens",
+        "Les poissons"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

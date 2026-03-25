@@ -1,0 +1,63 @@
+{
+  "id": "quiz11",
+  "titre": "Tempo libero",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Leer'?",
+      "options": [
+        "Leggere",
+        "Scrivere",
+        "Dormire",
+        "Mangiare"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Suonare' se usa tanto para tocar un instrumento como para tocar el timbre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Mi piace {{1}} con gli amici (sortir).",
+      "reponsesAttendues": [
+        "uscire"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el hobby.",
+      "pairs": [
+        {
+          "left": "Ascoltare musica",
+          "right": "Écouter de la musique"
+        },
+        {
+          "left": "Guardare la TV",
+          "right": "Regarder la télé"
+        },
+        {
+          "left": "Viaggiare",
+          "right": "Voyager"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'ballare'?",
+      "options": [
+        "Bailar",
+        "Cantar",
+        "Pintar",
+        "Correr"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

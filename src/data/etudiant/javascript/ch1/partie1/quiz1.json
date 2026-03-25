@@ -1,0 +1,64 @@
+{
+  "id": "quiz1",
+  "titre": "Introduction à JS",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert principalement le JavaScript sur une page web ?",
+      "options": [
+        "À ajouter de l'interactivité (boutons, animations, calculs)",
+        "À définir la structure de la page",
+        "À mettre de la couleur sur le texte",
+        "À envoyer des emails sans internet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le JavaScript est le même langage que le Java.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le JavaScript s'exécute directement dans le {{1}} de l'utilisateur (navigateur).",
+      "reponsesAttendues": [
+        "navigateur",
+        "browser"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le langage à son rôle.",
+      "pairs": [
+        {
+          "left": "HTML",
+          "right": "Structure et contenu"
+        },
+        {
+          "left": "CSS",
+          "right": "Design et mise en forme"
+        },
+        {
+          "left": "JavaScript",
+          "right": "Logique et action"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on un programme écrit en JavaScript ?",
+      "options": [
+        "Un script",
+        "Un style",
+        "Un squelette",
+        "Un serveur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "quiz5",
+  "titre": "Le Stockage d'Énergie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces objets permet de stocker de l'énergie électrique sous forme chimique ?",
+      "options": [
+        "Une batterie (ou un accumulateur)",
+        "Un fil de cuivre",
+        "Un interrupteur",
+        "Une ampoule"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un barrage hydraulique stocke de l'énergie potentielle grâce au volume d'eau en hauteur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour l'hiver, on stocke souvent du bois ou du fioul qui contiennent de l'énergie {{1}} (chimique / calorifique).",
+      "reponsesAttendues": [
+        "chimique",
+        "calorifique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'énergie à son moyen de stockage.",
+      "pairs": [
+        {
+          "left": "Électricité (mobile)",
+          "right": "Batterie Lithium-Ion"
+        },
+        {
+          "left": "Lumière du soleil",
+          "right": "Difficile à stocker directement (nécessite conversion)"
+        },
+        {
+          "left": "Gaz / Essence",
+          "right": "Cuve ou réservoir"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il crucial de savoir stocker l'énergie renouvelable (soleil, vent) ?",
+      "options": [
+        "Parce qu'elle est produite par intermittence (pas de soleil la nuit)",
+        "Pour la rendre moins chère",
+        "Pour qu'elle ne s'envole pas",
+        "Pour changer sa couleur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

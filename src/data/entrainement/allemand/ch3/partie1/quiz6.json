@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Mein Schlafzimmer",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Le bureau' (meuble) ?",
+      "options": [
+        "Der Schreibtisch",
+        "Der Stuhl",
+        "Die Lampe",
+        "Das Buch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Schreibtisch' bedeutet Schreibtisch.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich lerne an meinem {{1}}.",
+      "reponsesAttendues": [
+        "Schreibtisch"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Sachen.",
+      "pairs": [
+        {
+          "left": "Computer",
+          "right": "Ordinateur"
+        },
+        {
+          "left": "Poster",
+          "right": "Poster"
+        },
+        {
+          "left": "Wecker",
+          "right": "Réveil"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Was hängt an der Wand?",
+      "options": [
+        "Ein Bild",
+        "Ein Fisch",
+        "Ein Tisch",
+        "Ein Brot"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

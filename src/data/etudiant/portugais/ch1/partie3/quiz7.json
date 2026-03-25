@@ -1,0 +1,63 @@
+{
+  "id": "quiz27",
+  "titre": "Preposições de lugar",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Al lado de'?",
+      "options": [
+        "Ao lado de",
+        "Em cima de",
+        "Debaixo de",
+        "Entre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Debaixo de' significa debajo de.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O gato está {{1}} da mesa (encima).",
+      "reponsesAttendues": [
+        "em cima"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la preposición.",
+      "pairs": [
+        {
+          "left": "Entre",
+          "right": "Entre"
+        },
+        {
+          "left": "Na frente de",
+          "right": "Devant"
+        },
+        {
+          "left": "Atrás de",
+          "right": "Derrière"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'perto de'?",
+      "options": [
+        "Cerca de",
+        "Lejos de",
+        "Dentro de",
+        "Fuera de"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

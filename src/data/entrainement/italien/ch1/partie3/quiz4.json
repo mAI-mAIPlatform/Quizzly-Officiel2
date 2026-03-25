@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Les Couleurs Primaires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Rouge' ?",
+      "options": [
+        "Rosso",
+        "Blu",
+        "Giallo",
+        "Verde"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Giallo' signifie 'Vert'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La couleur 'Bleu' se dit '{{1}}'.",
+      "reponsesAttendues": [
+        "blu"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la couleur à sa traduction.",
+      "pairs": [
+        {
+          "left": "Jaune",
+          "right": "Giallo"
+        },
+        {
+          "left": "Vert",
+          "right": "Verde"
+        },
+        {
+          "left": "Blanc",
+          "right": "Bianco"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Noir' ?",
+      "options": [
+        "Nero",
+        "Grigio",
+        "Marrone",
+        "Viola"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

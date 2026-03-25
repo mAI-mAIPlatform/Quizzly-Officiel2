@@ -1,0 +1,64 @@
+{
+  "id": "quiz5",
+  "titre": "Homophones : ce / se",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel se place devant un verbe pronominal (ex: _____ laver) ?",
+      "options": [
+        "se",
+        "ce",
+        "ceux",
+        "ces"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On utilise 'ce' devant un nom pour désigner quelque chose.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Il {{1}} (ce/se) promène dans {{2}} (ce/se) parc.",
+      "reponsesAttendues": [
+        "se",
+        "ce"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Choisis la bonne forme.",
+      "pairs": [
+        {
+          "left": "Ce chat",
+          "right": "Détérminant démostratif"
+        },
+        {
+          "left": "Se laver",
+          "right": "Pronom réfléchi"
+        },
+        {
+          "left": "C'est",
+          "right": "Ce + est"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Complète : '_____ matin, il _____ demande s'il va sortir.'",
+      "options": [
+        "Ce / se",
+        "Se / ce",
+        "Ce / ce",
+        "Se / se"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

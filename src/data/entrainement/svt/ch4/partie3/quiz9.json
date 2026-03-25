@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Restaurer un écosystème dégradé",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la restauration écologique ?",
+      "options": [
+        "Faire des travaux dans sa maison",
+        "Aider un écosystème abîmé ou détruit à retrouver sa santé et son fonctionnement",
+        "Nettoyer la plage une fois par an",
+        "Cuisiner bio"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le retour du loup dans le parc de Yellowstone a permis de restaurer tout l'écosystème.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La dépollution des sols par les plantes s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "phytoremédiation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'action de restauration.",
+      "pairs": [
+        {
+          "left": "Remander une rivière",
+          "right": "Lui redonner ses virages naturels (méandres)"
+        },
+        {
+          "left": "Reforestation",
+          "right": "Planter des arbres là où ils ont disparu"
+        },
+        {
+          "left": "Suppression de barrages",
+          "right": "Permettre aux poissons de remonter le courant"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on toujours tout restaurer ?",
+      "options": [
+        "Oui, avec assez d'argent",
+        "Non, certaines destructions sont irréversibles ou prennent des siècles",
+        "Oui, les robots vont le faire",
+        "Non, la nature n'en a pas besoin"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

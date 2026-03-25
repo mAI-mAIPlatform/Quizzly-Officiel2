@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "De quoi est faite la matière ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel modèle utilise-t-on pour expliquer le comportement de la matière ?",
+      "options": [
+        "Le modèle du Lego",
+        "Le modèle particulaire (ou moléculaire)",
+        "Le modèle du puzzle",
+        "Le modèle du gâteau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans un corps pur, toutes les molécules sont identiques.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les molécules sont des particules extrêmement {{1}}.",
+      "reponsesAttendues": [
+        "petites"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la molécule à la substance (en 5ème).",
+      "pairs": [
+        {
+          "left": "Molécule d'eau",
+          "right": "Eau"
+        },
+        {
+          "left": "Dioxygène + Diazote",
+          "right": "Air"
+        },
+        {
+          "left": "Sucre",
+          "right": "Saccharose"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il entre les molécules ?",
+      "options": [
+        "Il y a de l'air",
+        "Il n'y a rien (c'est du vide)",
+        "Il y a de la colle",
+        "Les molécules se touchent tout le temps"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

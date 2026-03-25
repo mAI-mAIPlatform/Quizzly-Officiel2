@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Images et Contenu Complexe",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que mettre dans l'attribut alt d'une image purement décorative ?",
+      "options": [
+        "Le laisser vide (alt='')",
+        "Écrire 'décoration'",
+        "Mettre un espace (alt=' ')",
+        "Ne pas mettre d'attribut alt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour un graphique complexe, on peut utiliser un lien vers une description longue.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On utilise <figure> et {{1}} pour donner un contexte sémantique à l'image.",
+      "reponsesAttendues": [
+        "figcaption"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Texte Alternatif.",
+      "pairs": [
+        {
+          "left": "Logo entreprise",
+          "right": "alt='[Nom entreprise]'"
+        },
+        {
+          "left": "Photo de profil",
+          "right": "alt='Photo de [Nom]'"
+        },
+        {
+          "left": "Flèche suivante",
+          "right": "alt='Suivant'"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "L'attribut 'title' sur une image remplace-t-il le 'alt' ?",
+      "options": [
+        "Non jamais, le 'title' est une info au survol, pas pour l'accessibilité",
+        "Oui il est mieux",
+        "Ils sont identiques",
+        "Seulement sur Firefox"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

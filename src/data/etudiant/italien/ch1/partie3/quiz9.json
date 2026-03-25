@@ -1,0 +1,63 @@
+{
+  "id": "quiz29",
+  "titre": "Nazionalità",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Francés'?",
+      "options": [
+        "Francese",
+        "Italiano",
+        "Spagnolo",
+        "Tedesco"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Tedesco' significa 'alemán'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Lei è {{1}} (espagnole).",
+      "reponsesAttendues": [
+        "spagnola"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la nacionalidad.",
+      "pairs": [
+        {
+          "left": "Inglese",
+          "right": "Anglais"
+        },
+        {
+          "left": "Canadese",
+          "right": "Canadien"
+        },
+        {
+          "left": "Americano",
+          "right": "Américain"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Suiza' (país)?",
+      "options": [
+        "Svizzera",
+        "Svezia",
+        "Spagna",
+        "Slovenia"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

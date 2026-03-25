@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "L'Image de Poster",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert l'attribut 'poster' dans la balise <video> ?",
+      "options": [
+        "À afficher une image d'attente avant la lecture",
+        "À mettre une image après la fin",
+        "À décorer le site",
+        "À cacher la vidéo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'image du poster disparaît dès que l'utilisateur appuie sur lecture.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si aucun poster n'est défini, le navigateur affiche souvent la {{1}}ière image de la vidéo.",
+      "reponsesAttendues": [
+        "pre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Fichiers et Postes.",
+      "pairs": [
+        {
+          "left": "video.mp4",
+          "right": "Contenu animé"
+        },
+        {
+          "left": "image.jpg",
+          "right": "Poster"
+        },
+        {
+          "left": "audio.mp3",
+          "right": "Pas de poster ici !"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel format d'image est déconseillé pour un poster ?",
+      "options": [
+        "BMP (trop lourd)",
+        "JPG",
+        "PNG",
+        "WebP"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

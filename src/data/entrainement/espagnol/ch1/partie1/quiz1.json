@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Saludos y Despedidas",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Bonjour' por la mañana en español ?",
+      "options": [
+        "Buenos días",
+        "Buenas tardes",
+        "Buenas noches",
+        "Hola"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Adiós' significa 'Au revoir' o 'Adieu'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Enchanté' se dice 'Mucho {{1}}'.",
+      "reponsesAttendues": [
+        "gusto"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Saludos y Despedidas.",
+      "pairs": [
+        {
+          "left": "Hola",
+          "right": "Salut / Bonjour"
+        },
+        {
+          "left": "Hasta luego",
+          "right": "À plus tard"
+        },
+        {
+          "left": "Buenas tardes",
+          "right": "Bon après-midi / Bonsoir"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que respondes a '¿Qué tal?' ?",
+      "options": [
+        "Muy bien, gracias",
+        "Me llamo Juan",
+        "Tengo diez años",
+        "Soy español"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

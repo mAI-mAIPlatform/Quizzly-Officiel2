@@ -1,0 +1,63 @@
+{
+  "id": "quiz18",
+  "titre": "Wohin? 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Je vais en Allemagne'?",
+      "options": [
+        "Ich fahre nach Deutschland",
+        "Ich fahre in Deutschland",
+        "Ich fahre an Deutschland",
+        "Ich bin in Deutschland"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Para ir 'al mar' se usa 'ans Meer'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich gehe in {{1}} Supermarkt (masc-destination).",
+      "reponsesAttendues": [
+        "den"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la preposición de destino.",
+      "pairs": [
+        {
+          "left": "In den",
+          "right": "Park (masc)"
+        },
+        {
+          "left": "In die",
+          "right": "Stadt (fem)"
+        },
+        {
+          "left": "Ins",
+          "right": "Kino (neutre)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'Ich fahre in die Berge'?",
+      "options": [
+        "Voy a las montañas",
+        "Voy a la playa",
+        "Voy al bosque",
+        "Voy al lago"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

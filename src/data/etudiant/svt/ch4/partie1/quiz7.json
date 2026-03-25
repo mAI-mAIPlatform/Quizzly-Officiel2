@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Les Nutriments",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un nutriment ?",
+      "options": [
+        "Une petite molécule soluble issue de la digestion des aliments",
+        "Le nom d'un aliment non cuisiné",
+        "Une bactérie du tube digestif",
+        "Un gaz produit par l'intestin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'amidon est découpé en molécules de glucose.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les protéines sont découpées en {{1}} aminés.",
+      "reponsesAttendues": [
+        "acides"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'aliment à son nutriment final.",
+      "pairs": [
+        {
+          "left": "Pain / Pâtes (Amidon)",
+          "right": "Glucose"
+        },
+        {
+          "left": "Viande / Œufs (Protéines)",
+          "right": "Acides aminés"
+        },
+        {
+          "left": "Huile / Beurre (Lipides)",
+          "right": "Acides gras"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi les fibres alimentaires ne sont-elles pas des nutriments ?",
+      "options": [
+        "Parce que notre corps ne possède pas les enzymes pour les digérer",
+        "Parce qu'elles sont de couleur verte",
+        "Parce qu'elles sont trop petites",
+        "Parce qu'elles s'évaporent"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

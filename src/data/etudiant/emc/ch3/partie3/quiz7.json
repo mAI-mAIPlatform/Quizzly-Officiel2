@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Droit de Savoir vs Secret",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Secret Défense' ?",
+      "options": [
+        "Des informations protégées pour la sécurité nationale",
+        "Une recette de cuisine de l'armée",
+        "Le code Wifi de l'Élysée",
+        "L'interdiction de parler aux militaires"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le respect de la vie privée limite parfois le droit des journalistes à tout publier.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une personne qui révèle des fautes graves de son entreprise ou de l'État est un lanceur d'{{1}} (alerte).",
+      "reponsesAttendues": [
+        "alerte"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le secret à sa protection.",
+      "pairs": [
+        {
+          "left": "Secret médical",
+          "right": "Protège la santé du patient"
+        },
+        {
+          "left": "Secret professionnel",
+          "right": "Obligation pour certains métiers de ne pas trahir les confidences"
+        },
+        {
+          "left": "Secret d'instruction",
+          "right": "Garantit le bon déroulement d'une enquête judiciaire"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle liberté permet de briser le secret s'il y a un intérêt général supérieur ?",
+      "options": [
+        "La liberté d'information et d'expression",
+        "La liberté de voler",
+        "Le droit de dormir",
+        "Aucune liberté ne permet cela"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

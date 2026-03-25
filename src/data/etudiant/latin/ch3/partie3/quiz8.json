@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "La Religion (Religio)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle le prêtre chargé de lire l'avenir dans les entrailles ?",
+      "options": [
+        "L'haruspice",
+        "L'augure",
+        "Le flamine",
+        "Le pontife"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un 'templum' est un espace sacré délimité par l'augure.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'autel sur lequel on fait les sacrifices est l'{{1}} (ara).",
+      "reponsesAttendues": [
+        "ara"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les fonctions sacrées.",
+      "pairs": [
+        {
+          "left": "Sacerdos",
+          "right": "Prêtre"
+        },
+        {
+          "left": "Vestales",
+          "right": "Prêtresses de Vesta"
+        },
+        {
+          "left": "Augures",
+          "right": "Lecture du vol des oiseaux"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que font les Romains lors d'un sacrifice ?",
+      "options": [
+        "Ils offrent un animal ou de la nourriture aux dieux",
+        "Ils dansent sans arrêt",
+        "Ils dorment dans le temple",
+        "Ils partent en voyage"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

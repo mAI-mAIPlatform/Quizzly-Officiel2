@@ -1,0 +1,64 @@
+{
+  "id": "quiz4",
+  "titre": "Prix et Festivals",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la récompense suprême décernée au Festival de Cannes ?",
+      "options": [
+        "La Palme d'Or",
+        "L'Oscar",
+        "Le César",
+        "Le Lion d'Argent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les 'Oscars' sont les récompenses américaines remises chaque année à Hollywood.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les prix récompensant le cinéma français chaque année s'appellent les {{1}} (César).",
+      "reponsesAttendues": [
+        "César",
+        "Cesar"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le festival à sa ville.",
+      "pairs": [
+        {
+          "left": "La Mostra",
+          "right": "Venise"
+        },
+        {
+          "left": "La Berlinale",
+          "right": "Berlin"
+        },
+        {
+          "left": "Festival de l'Alpe d'Huez",
+          "right": "Isère (Comédie)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "À quoi sert le 'Jury' d'un festival de cinéma ?",
+      "options": [
+        "À visionner les films en compétition et à choisir les gagnants",
+        "À nettoyer la salle de cinéma",
+        "À vendre des tickets",
+        "À chanter pendant les entractes"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

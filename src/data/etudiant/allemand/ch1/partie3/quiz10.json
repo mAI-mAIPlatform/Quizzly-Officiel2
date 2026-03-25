@@ -1,0 +1,63 @@
+{
+  "id": "quiz30",
+  "titre": "Synthese Kap.1 P.3",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Mein Vater {{1}} gern Zeitungen (lire).",
+      "options": [
+        "liest",
+        "lest",
+        "lesen",
+        "lesest"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Inversion: 'Heute spiele ich' es correcto.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "{{1}} ist deine Katze? (comment)",
+      "reponsesAttendues": [
+        "Wie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el resumen final.",
+      "pairs": [
+        {
+          "left": "Familie",
+          "right": "Mutter, Vater, Bruder"
+        },
+        {
+          "left": "Hobbys",
+          "right": "Singen, Malen, Lesen"
+        },
+        {
+          "left": "Satzbau",
+          "right": "Verb an Position 2"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'C'est mon chien'?",
+      "options": [
+        "Das ist mein Hund",
+        "Das ist meine Hund",
+        "Ich bin mein Hund",
+        "Hund ist mein das"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

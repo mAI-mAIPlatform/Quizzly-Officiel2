@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Le Roi et l'Église : Le Gallicanisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le fait que le roi de France veuille contrôler l'Église de son pays ?",
+      "options": [
+        "L'Islam",
+        "Le Gallicanisme",
+        "Le Protestantisme",
+        "Le Féodalisme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Pragmatique Sanction de Bourges (1438) limite le pouvoir du Pape en France.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le roi veut pouvoir nommer lui-même les {{1}} et les abbés.",
+      "reponsesAttendues": [
+        "évêques"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'autorité à son rôle revendiqué.",
+      "pairs": [
+        {
+          "left": "Le Pape",
+          "right": "Chef universel de l'Église"
+        },
+        {
+          "left": "Le Roi",
+          "right": "Protecteur de l'Église de France"
+        },
+        {
+          "left": "Le Clergé français",
+          "right": "Doit obéir aux lois du royaume"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel était l'intérêt pour le roi de contrôler l'Église ?",
+      "options": [
+        "Pour devenir prêtre lui-même",
+        "Pour s'assurer le soutien et les richesses de l'institution la plus puissante",
+        "Parce qu'il n'aimait pas le Pape",
+        "C'était une demande des paysans"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

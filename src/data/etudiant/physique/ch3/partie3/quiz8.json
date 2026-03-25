@@ -1,0 +1,63 @@
+{
+  "id": "quiz28",
+  "titre": "Inertie et Sécurité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi la ceinture de sécurité est-elle obligatoire ?",
+      "options": [
+        "Pour vaincre l'inertie du passager lors d'un choc",
+        "Pour ne pas tomber par terre",
+        "Pour faire plaisir aux policiers",
+        "Pour ne pas avoir froid"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Airbag sert à ralentir plus doucement le corps emporté par son inertie.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "En cas de choc, un objet non taché sur la plage arrière devient un {{1}} dangereux.",
+      "reponsesAttendues": [
+        "projectile"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'équipement à son but.",
+      "pairs": [
+        {
+          "left": "Ceinture de sécurité",
+          "right": "Retenir le passager au siège"
+        },
+        {
+          "left": "Appuie-tête",
+          "right": "Éviter le coup du lapin au démarrage ou choc arrière"
+        },
+        {
+          "left": "Casque",
+          "right": "Protéger la tête contre l'impact"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "L'énergie cinétique (vitesse) augmente avec le carré de la vitesse. Si on roule 2 fois plus vite, l'impact est :",
+      "options": [
+        "4 fois plus violent",
+        "2 fois plus violent",
+        "Pareil",
+        "10 fois plus violent"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

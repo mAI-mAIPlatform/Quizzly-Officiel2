@@ -1,0 +1,63 @@
+{
+  "id": "quiz14",
+  "titre": "Lexique de la peur",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel mot désigne une peur soudaine et violente ?",
+      "options": [
+        "L'effroi",
+        "L'inquiétude",
+        "Le souci",
+        "Le doute"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le mot 'angoisse' vient d'une racine signifiant 'étroit, serré'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le sentiment de peur face à un danger inconnu est l'{{1}}.",
+      "reponsesAttendues": [
+        "appréhension"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le mot à son intensité de peur.",
+      "pairs": [
+        {
+          "left": "Inquiétude",
+          "right": "Faible"
+        },
+        {
+          "left": "Terreur",
+          "right": "Maximale"
+        },
+        {
+          "left": "Épouvante",
+          "right": "Très forte"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'être pétrifié' de peur ?",
+      "options": [
+        "Être comme changé en pierre (immobile)",
+        "Avoir très chaud",
+        "Se mettre à courir",
+        "Se mettre à rire"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

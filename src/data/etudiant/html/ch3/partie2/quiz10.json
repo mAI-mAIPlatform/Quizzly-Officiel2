@@ -1,0 +1,74 @@
+{
+  "id": "quiz10",
+  "titre": "Révision Partie 2 Formulaires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel permet de choisir une couleur ?",
+      "options": ["hue", "color", "paint", "canvas"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un select multiple permet de sélectionner plusieurs lignes avec CTRL/CMD.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'input type=\"{{1}}\" permet de choisir une tranche de valeurs avec un curseur.",
+      "reponsesAttendues": ["range"]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Fais les paires :",
+      "pairs": [
+        {"left": "file", "right": "Upload"},
+        {"left": "date", "right": "Calendrier"},
+        {"left": "number", "right": "Chiffres"}
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment s'appelle le groupe d'options dans un select ?",
+      "options": ["<group>", "<optgroup>", "<optionlist>", "<folder>"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q6",
+      "type": "vrai_faux",
+      "enonce": "Le type 'tel' impose un format de numéro de téléphone strict au navigateur.",
+      "reponse": false
+    },
+    {
+      "id": "q7",
+      "type": "qcm",
+      "enonce": "Que contient l'attribut 'list' d'un input ?",
+      "options": ["Le texte des suggestions", "L'ID d'un datalist", "Une URL", "Une liste CSV"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "L'attribut step=\"{{1}}\" permet de choisir n'importe quel chiffre à virgule.",
+      "reponsesAttendues": ["any"]
+    },
+    {
+      "id": "q9",
+      "type": "vrai_faux",
+      "enonce": "L'input type=\"hidden\" est utile pour la sécurité contre les robots (système de pot de miel).",
+      "reponse": true
+    },
+    {
+      "id": "q10",
+      "type": "qcm",
+      "enonce": "Quel est le principal avantage des nouveaux types d'inputs HTML5 ?",
+      "options": ["Ils sont plus jolis", "Ils simplifient la validation et améliorent l'expérience utilisateur mobile", "Ils suppriment le besoin de serveur", "Ils sont obligatoires pour Vercel"],
+      "correctIndex": 1
+    }
+  ]
+}

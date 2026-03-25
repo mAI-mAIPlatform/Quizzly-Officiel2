@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "La chaîne énergétique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une chaîne énergétique ?",
+      "options": [
+        "Une chaîne en métal",
+        "Une suite de réservoirs et de convertisseurs d'énergie",
+        "Un collier magique",
+        "Le réseau électrique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans un diagramme énergétique, les réservoirs sont représentés par des rectangles.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les convertisseurs sont représentés par des {{1}} dans le diagramme.",
+      "reponsesAttendues": [
+        "ovales"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'élément de la chaîne.",
+      "pairs": [
+        {
+          "left": "Soleil",
+          "right": "Réservoir d'énergie"
+        },
+        {
+          "left": "Moteur",
+          "right": "Convertisseur"
+        },
+        {
+          "left": "Flèche",
+          "right": "Transfert d'énergie"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "D'où provient presque toute l'énergie sur Terre ?",
+      "options": [
+        "Du pétrole",
+        "Du Soleil",
+        "Du vent",
+        "Du centre de la Terre"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

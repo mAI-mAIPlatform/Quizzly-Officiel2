@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Präpositionen (In, auf, unter)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Das Buch liegt ... dem Tisch.",
+      "options": [
+        "auf",
+        "in",
+        "hinter",
+        "unter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Unter' bedeutet 'Sous'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Die Katze ist {{1}} (dans) der Kiste.",
+      "reponsesAttendues": [
+        "in"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Prepositionen.",
+      "pairs": [
+        {
+          "left": "Vor",
+          "right": "Devant"
+        },
+        {
+          "left": "Neben",
+          "right": "À côté de"
+        },
+        {
+          "left": "Zwischen",
+          "right": "Entre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Wo ist mein Handy?",
+      "options": [
+        "Es liegt auf dem Sofa",
+        "Es ist ein Sofa",
+        "Ich bin ein Handy",
+        "Hallo Handy"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

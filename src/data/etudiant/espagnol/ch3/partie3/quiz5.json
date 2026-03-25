@@ -1,0 +1,63 @@
+{
+  "id": "quiz25",
+  "titre": "Comida sana vs basura",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es un ejemplo de comida sana?",
+      "options": [
+        "Una ensalada y fruta",
+        "Una hamburguesa con patatas fritas",
+        "Caramelos y refrescos",
+        "Pizza cada día"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Comida basura' se traduce como 'junk food' o 'malbouffe'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Es importante beber mucha {{1}} (eau) al día.",
+      "reponsesAttendues": [
+        "agua"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el alimento con su categoría.",
+      "pairs": [
+        {
+          "left": "Pescado azul",
+          "right": "Sano (proteína)"
+        },
+        {
+          "left": "Refrescos azucarados",
+          "right": "No sano (azúcar)"
+        },
+        {
+          "left": "Frutas",
+          "right": "Sano (vitaminas)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué recomiendan los médicos?",
+      "options": [
+        "Una dieta equilibrada",
+        "Comer solo pasteles",
+        "No comer nada",
+        "Beber solo refrescos"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

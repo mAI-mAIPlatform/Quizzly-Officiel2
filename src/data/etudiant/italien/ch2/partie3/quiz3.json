@@ -1,0 +1,63 @@
+{
+  "id": "quiz23",
+  "titre": "Fare acquisti",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se pregunta el precio?",
+      "options": [
+        "Quanto costa?",
+        "Come sta?",
+        "Dove sei?",
+        "Che ora è?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Scontrino' significa 'el recibo / tique de compra'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vorrei comprare un {{1}} (cadeau).",
+      "reponsesAttendues": [
+        "regalo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el término de compra.",
+      "pairs": [
+        {
+          "left": "Lo sconto",
+          "right": "La réduction / remise"
+        },
+        {
+          "left": "La borsa",
+          "right": "Sac / Sac à main"
+        },
+        {
+          "left": "Cassa",
+          "right": "Caisse"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'vorrei'?",
+      "options": [
+        "Querría / Me gustaría",
+        "Quiero (fuerte)",
+        "Tengo",
+        "Soy"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

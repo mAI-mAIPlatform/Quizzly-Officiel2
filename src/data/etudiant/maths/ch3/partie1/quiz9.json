@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Calculer avec des classes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que représente la classe [10 ; 20[ ?",
+      "options": [
+        "Nombres entre 10 inclus et 20 exclus",
+        "Nombres 10 et 20 seulement",
+        "Nombres entre 10 et 20 exclus",
+        "Nombres 10 et 20 inclus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour calculer la moyenne avec des classes, on utilise le centre de chaque classe.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le centre de la classe [15 ; 25[ est {{1}}.",
+      "reponsesAttendues": [
+        "20"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la classe à son centre.",
+      "pairs": [
+        {
+          "left": "[0 ; 10[",
+          "right": "5"
+        },
+        {
+          "left": "[40 ; 60[",
+          "right": "50"
+        },
+        {
+          "left": "[100 ; 110[",
+          "right": "105"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "L'amplitude de la classe [20 ; 50[ est :",
+      "options": [
+        "30",
+        "35",
+        "70",
+        "20"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

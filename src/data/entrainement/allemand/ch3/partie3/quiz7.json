@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Tiere im Wasser",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Le poisson' ?",
+      "options": [
+        "Der Fisch",
+        "Der Hai",
+        "Der Wal",
+        "Die Qualle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Wale sind Säugetiere.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Der {{1}} (requin) ist gefährlich.",
+      "reponsesAttendues": [
+        "Hai"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Wassertiere.",
+      "pairs": [
+        {
+          "left": "Schildkröte",
+          "right": "Tortue"
+        },
+        {
+          "left": "Delfin",
+          "right": "Dauphin"
+        },
+        {
+          "left": "Krake",
+          "right": "Pieuvre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Wo leben Fische?",
+      "options": [
+        "Im Wasser",
+        "Im Wald",
+        "In der Wüste",
+        "Auf dem Baum"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

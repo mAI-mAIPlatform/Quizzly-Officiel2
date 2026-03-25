@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Protection Diplomatique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Tu es en vacances au Japon et tu perds tes papiers. Il n'y a pas d'ambassade française. Que peux-tu faire ?",
+      "options": [
+        "Demander de l'aide à l'ambassade de n'importe quel autre pays de l'UE",
+        "Rentrer à pied",
+        "Attendre que la France en construise une",
+        "Appeler la police japonaise uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La protection diplomatique est un droit garanti à tout citoyen de l'Union hors de l'UE.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ce droit s'applique quand ton propre pays n'est pas {{1}} (représenté) sur place.",
+      "reponsesAttendues": [
+        "représenté"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'aide apportée à sa situation.",
+      "pairs": [
+        {
+          "left": "Papiers perdus",
+          "right": "Délivrance d'un titre de voyage provisoire"
+        },
+        {
+          "left": "Accident grave",
+          "right": "Aide à l'hospitalisation et contact des proches"
+        },
+        {
+          "left": "Arrestation",
+          "right": "Visite d'un consul et aide juridique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi ce droit existe-t-il ?",
+      "options": [
+        "Pour montrer la solidarité entre les pays membres partout dans le monde",
+        "Parce que les ambassades s'ennuient",
+        "Pour économiser le prix des billets d'avion",
+        "C'est une règle de politesse"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

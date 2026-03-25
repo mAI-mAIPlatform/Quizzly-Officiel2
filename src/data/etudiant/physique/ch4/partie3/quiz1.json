@@ -1,0 +1,63 @@
+{
+  "id": "quiz21",
+  "titre": "Signaux et infos",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un signal en physique ?",
+      "options": [
+        "Un phénomène physique qui transporte une information",
+        "Une couleur vive",
+        "Un bruit très fort",
+        "Une pile électrique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un signal peut transporter une information sans se déplacer.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un sémaphore utilise des signaux {{1}} pour communiquer.",
+      "reponsesAttendues": [
+        "visuels"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le signal à son type.",
+      "pairs": [
+        {
+          "left": "Sifflet",
+          "right": "Signal sonore"
+        },
+        {
+          "left": "Phare",
+          "right": "Signal lumineux"
+        },
+        {
+          "left": "Télécommande",
+          "right": "Signal infrarouge"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi utilise-t-on des codes (comme le Morse) ?",
+      "options": [
+        "Pour donner un sens précis aux signaux émis",
+        "Pour faire joli",
+        "Pour ralentir la transmission",
+        "Pour cacher la lumière"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

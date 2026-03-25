@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Obsolescence",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'obsolescence programmée ?",
+      "options": [
+        "Une stratégie visant à réduire délibérément la durée de vie d'un produit pour en vendre un nouveau",
+        "Un programme informatique très ancien",
+        "Le fait qu'un objet devienne plus beau avec le temps",
+        "Un mode de fonctionnement ultra-rapide"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'indice de réparabilité (note de 1 à 10) aide à savoir si un produit est facile à réparer.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Lorsqu'un logiciel ne fonctionne plus sur un vieil appareil, on parle d'obsolescence {{1}} (logicielle).",
+      "reponsesAttendues": [
+        "logicielle"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le type d'obsolescence à son exemple.",
+      "pairs": [
+        {
+          "left": "Technique",
+          "right": "Une pièce fragile qui casse et n'est pas remplaçable"
+        },
+        {
+          "left": "Esthétique / Psychologique",
+          "right": "Avoir envie du nouveau modèle car il est plus à la mode"
+        },
+        {
+          "left": "Logicielle",
+          "right": "Une mise à jour qui ralentit l'ancien téléphone"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que faire pour lutter contre l'obsolescence ?",
+      "options": [
+        "Privilégier les produits réparables et durables",
+        "Acheter le modèle le moins cher possible",
+        "Changer de téléphone tous les 6 mois",
+        "Ne jamais faire de mise à jour de sécurité"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

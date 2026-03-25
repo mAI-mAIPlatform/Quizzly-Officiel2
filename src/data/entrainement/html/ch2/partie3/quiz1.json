@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "La Balise iFrame",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert une iFrame ?",
+      "options": [
+        "À intégrer une autre page web dans la page actuelle",
+        "À créer un cadre photo",
+        "À accélérer le chargement",
+        "À envoyer des emails"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'src' définit l'URL de la page à afficher dans l'iFrame.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour définir la largeur d'une iFrame, on utilise l'attribut {{1}}.",
+      "reponsesAttendues": [
+        "width"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Attributs d'iFrame.",
+      "pairs": [
+        {
+          "left": "src",
+          "right": "Source de la page"
+        },
+        {
+          "left": "height",
+          "right": "Hauteur du cadre"
+        },
+        {
+          "left": "name",
+          "right": "Nom pour ciblage (target)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le fait d'imbriquer des pages ?",
+      "options": [
+        "L'inclusion ou l'intégration",
+        "Le formatage",
+        "Le stylage",
+        "L'ancrage"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

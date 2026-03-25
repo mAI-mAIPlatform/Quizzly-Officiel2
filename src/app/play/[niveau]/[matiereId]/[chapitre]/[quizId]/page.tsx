@@ -7,28 +7,55 @@ import Link from "next/link";
 
 export default async function PlayQuizPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ niveau: string; matiereId: string; chapitre: string; quizId: string }>;
+  searchParams: Promise<{ partie?: string }>;
 }) {
   const resolvedParams = await params;
+  const resolvedSearchParams = await searchParams;
   const { niveau, matiereId, chapitre, quizId } = resolvedParams;
+  const partie = resolvedSearchParams.partie;
+  
+  const levelMap: Record<string, string> = {
+    "6": "debutant", "6eme": "debutant", "debutant": "debutant",
+    "5": "entrainement", "5eme": "entrainement", "entrainement": "entrainement",
+    "4": "etudiant", "4eme": "etudiant", "etudiant": "etudiant",
+    "3": "difficile", "3eme": "difficile", "difficile": "difficile",
+    "2": "expert", "2nde": "expert", "expert": "expert",
+    "1": "savant", "1ere": "savant", "savant": "savant",
+    "T": "genie", "terminale": "genie", "genie": "genie"
+  };
 
-  const normalizedNiveau = niveau === "6" ? "6eme" : niveau === "5" ? "5eme" : niveau === "4" ? "4eme" : niveau === "3" ? "3eme" : niveau;
+  const normalizedNiveau = levelMap[niveau] || levelMap[niveau.toLowerCase()] || niveau;
 
   const dataDir = path.resolve(process.cwd(), "src/data");
-  const quizPath = path.join(
-    dataDir,
-    normalizedNiveau,
-    matiereId,
-    chapitre,
-    `${quizId}.json`
-  );
+  
+  // Essayer d'abord avec le dossier de partie si spécifié
+  let quizPath = "";
+  if (partie) {
+    quizPath = path.join(dataDir, normalizedNiveau, matiereId, chapitre, `partie${partie}`, `${quizId}.json`);
+  } else {
+    quizPath = path.join(dataDir, normalizedNiveau, matiereId, chapitre, `${quizId}.json`);
+  }
 
   let quizData = null;
 
   try {
-    const fileContent = await fs.readFile(quizPath, "utf8");
-    quizData = JSON.parse(fileContent);
+    // Tentative de lecture (avec fallback sur le chemin racine si partie échoue ou n'est pas fournie)
+    try {
+      const fileContent = await fs.readFile(quizPath, "utf8");
+      quizData = JSON.parse(fileContent);
+    } catch (e) {
+      if (partie) {
+        // Fallback : essayer à la racine du chapitre au cas où
+        const fallbackPath = path.join(dataDir, normalizedNiveau, matiereId, chapitre, `${quizId}.json`);
+        const fileContent = await fs.readFile(fallbackPath, "utf8");
+        quizData = JSON.parse(fileContent);
+      } else {
+        throw e;
+      }
+    }
   } catch (error) {
     console.error("Erreur lors de la lecture du quiz :", error);
   }

@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Les gamètes : Mâles et Femelles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces gamètes est généralement le plus gros et immobile ?",
+      "options": [
+        "Le spermatozoïde",
+        "L'ovule",
+        "Le pollen",
+        "La spore"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le spermatozoïde possède un flagelle pour se déplacer.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les gamètes sont produits par les organes {{1}}.",
+      "reponsesAttendues": [
+        "reproducteurs"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'organe à son produit.",
+      "pairs": [
+        {
+          "left": "Testicules",
+          "right": "Spermatozoïdes"
+        },
+        {
+          "left": "Ovaires",
+          "right": "Ovules"
+        },
+        {
+          "left": "Étamines (fleur)",
+          "right": "Pollen"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi les spermatozoïdes sont-ils produits en très grand nombre ?",
+      "options": [
+        "Parce qu'ils sont très grands",
+        "Pour augmenter les chances qu'un seul rencontre l'ovule",
+        "Pour faire joli",
+        "Ils ne sont pas nombreux"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

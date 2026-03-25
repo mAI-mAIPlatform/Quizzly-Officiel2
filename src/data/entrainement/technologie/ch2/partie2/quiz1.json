@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "L'Analyse du Besoin (Bête à Cornes)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert l'outil 'Bête à cornes' ?",
+      "options": [
+        "À énoncer le besoin d'un objet technique",
+        "À dessiner un animal",
+        "À calculer le prix de vente",
+        "À choisir les matériaux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La question 'Sur quoi l'objet agit-il ?' fait partie de la bête à cornes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'outil demande aussi : 'À qui l'objet rend-il {{1}} ?'.",
+      "reponsesAttendues": [
+        "service"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Questions clés.",
+      "pairs": [
+        {
+          "left": "À qui ?",
+          "right": "L'utilisateur"
+        },
+        {
+          "left": "Sur quoi ?",
+          "right": "La matière d'œuvre (le sujet)"
+        },
+        {
+          "left": "Dans quel but ?",
+          "right": "La fonction globale"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il vital de bien définir le besoin ?",
+      "options": [
+        "Pour éviter de créer un objet inutile",
+        "Pour faire plaisir au professeur",
+        "Pour utiliser plus de papier",
+        "C'est une étape facultative"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

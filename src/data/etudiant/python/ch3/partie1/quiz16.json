@@ -1,0 +1,64 @@
+{
+  "id": "quiz16",
+  "titre": "Plusieurs Paramètres",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment sépare-t-on plusieurs paramètres dans la définition d'une fonction ?",
+      "options": [
+        "Par une virgule ,",
+        "Par un point-virgule ;",
+        "Par un espace",
+        "Par le mot-clé 'and'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Lors de l'appel, il faut donner les arguments dans le même ordre que les paramètres définis.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour calculer l'aire d'un rectangle, la fonction pourrait être : def aire({{1}}, {{2}}): (longueur, largeur).",
+      "reponsesAttendues": [
+        "longueur",
+        "largeur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le code à l'appel possible.",
+      "pairs": [
+        {
+          "left": "def f(a, b):",
+          "right": "f(10, 20)"
+        },
+        {
+          "left": "def f(a, b, c):",
+          "right": "f(1, 2, 3)"
+        },
+        {
+          "left": "def f():",
+          "right": "f()"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on mélanger des paramètres obligatoires et des paramètres par défaut ?",
+      "options": [
+        "Oui, mais les paramètres par défaut doivent être placés à la FIN",
+        "Non, c'est l'un ou l'autre",
+        "Oui, n'importe comment",
+        "Seulement pour les nombres"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

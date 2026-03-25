@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Images et Canvas",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode affiche une image sur le canvas ?",
+      "options": [
+        "drawImage(img, x, y)",
+        "loadImage()",
+        "putImage()",
+        "paint()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On doit attendre que l'image soit chargée (onload) avant de l'afficher.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "drawImage peut prendre 3, 5 ou {{1}} paramètres pour le recadrage.",
+      "reponsesAttendues": [
+        "9"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Sources d'images.",
+      "pairs": [
+        {
+          "left": "Balise <img>",
+          "right": "Image HTML existante"
+        },
+        {
+          "left": "Balise <video>",
+          "right": "Capture d'un flux vidéo"
+        },
+        {
+          "left": "Autre <canvas>",
+          "right": "Dessin sur dessin"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on exporter le contenu du canvas en image ?",
+      "options": [
+        "Oui, avec canvas.toDataURL()",
+        "Non, c'est impossible",
+        "Seulement en prenant une photo de l'écran",
+        "En faisant un clic droit 'enregistrer'"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

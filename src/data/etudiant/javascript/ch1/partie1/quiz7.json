@@ -1,0 +1,64 @@
+{
+  "id": "quiz7",
+  "titre": "Types : Boolean",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelles sont les deux valeurs possibles d'un Boolean ?",
+      "options": [
+        "true et false",
+        "oui et non",
+        "1 et -1",
+        "high et low"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les booleens sont essentiels pour prendre des décisions dans le code (conditions).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'opérateur '!' (point d'exclamation) permet d'{{1}} une valeur booléenne (inverser / nier).",
+      "reponsesAttendues": [
+        "inverser",
+        "nier"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le test au résultat.",
+      "pairs": [
+        {
+          "left": "10 > 5",
+          "right": "true"
+        },
+        {
+          "left": "10 < 5",
+          "right": "false"
+        },
+        {
+          "left": "5 === 5",
+          "right": "true"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel de ces tests renvoie 'false' ?",
+      "options": [
+        "10 != 10",
+        "10 == 10",
+        "true",
+        "!false"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

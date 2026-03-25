@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Réchauffement climatique et reproduction",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment la température du nid influence-t-elle les tortues marines ?",
+      "options": [
+        "Elle change la couleur des écailles",
+        "Elle détermine le sexe des futurs bébés",
+        "Elle les rend plus rapides",
+        "Elle n'a aucun effet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si le sable est trop chaud, il nait presque uniquement des femelles tortues, ce qui menace l'espèce.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le réchauffement global perturbe les {{1}} biologiques de nombreux animaux.",
+      "reponsesAttendues": [
+        "cycles"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'impact climatique.",
+      "pairs": [
+        {
+          "left": "Printemps précoce",
+          "right": "Décalage entre naissance et nourriture disponible"
+        },
+        {
+          "left": "Canicule",
+          "right": "Mortalité élevée des jeunes embryons"
+        },
+        {
+          "left": "Acidification des océans",
+          "right": "Difficulté à former les coquilles des larves"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi est-ce un problème pour la biodiversité ?",
+      "options": [
+        "Parce que les animaux ont chaud",
+        "Car de nombreuses espèces ne peuvent pas s'adapter assez vite",
+        "Parce que les plantes poussent trop",
+        "Ce n'est pas un problème"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

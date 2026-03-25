@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Le Pluriel des Articles (Masculin)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le pluriel de l'article 'Il' (ex: I libri) ?",
+      "options": [
+        "I",
+        "Gli",
+        "Le",
+        "Li"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le pluriel de 'Lo' et de 'L'' (masculin) est 'Gli'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les amis se dit '{{1}} amici'.",
+      "reponsesAttendues": [
+        "Gli"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le singulier au pluriel masculin.",
+      "pairs": [
+        {
+          "left": "Il libro",
+          "right": "I libri"
+        },
+        {
+          "left": "Lo zaino",
+          "right": "Gli zaini"
+        },
+        {
+          "left": "L'albero",
+          "right": "Gli alberi"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Les étudiants' ?",
+      "options": [
+        "I studenti",
+        "Gli studenti",
+        "Le studenti",
+        "Li studenti"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

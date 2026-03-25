@@ -1,0 +1,63 @@
+{
+  "id": "quiz13",
+  "titre": "Modalverb: KÖNNEN",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es la forma de 'Ich' para 'können'?",
+      "options": [
+        "kann",
+        "kannst",
+        "könne",
+        "können"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La forma de 'Ich' y 'Er/Sie/Es' es la misma en los verbos modales (kann).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Du {{1}} sehr gut singen (pouvoir/savoir).",
+      "reponsesAttendues": [
+        "kannst"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el pronombre con 'können'.",
+      "pairs": [
+        {
+          "left": "Ich / Er / Sie",
+          "right": "kann"
+        },
+        {
+          "left": "Wir / sie / Sie",
+          "right": "können"
+        },
+        {
+          "left": "Ihr",
+          "right": "könnt"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'Ich kann das nicht'?",
+      "options": [
+        "No puedo hacerlo",
+        "No quiero hacerlo",
+        "No debo hacerlo",
+        "Sé hacerlo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

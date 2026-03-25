@@ -1,0 +1,63 @@
+{
+  "id": "quiz29",
+  "titre": "La chute de l'Empire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle défaite marque la fin définitive de Napoléon ?",
+      "options": [
+        "Waterloo (18 juin 1815)",
+        "Austerlitz",
+        "Valmy",
+        "Bérézina"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Napoléon meurt en exil sur l'île de Sainte-Hélène en 1821.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La période entre le retour de l'île d'Elbe et Waterloo s'appelle les {{1}} Jours.",
+      "reponsesAttendues": [
+        "Cent"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le lieu à l'exil de Napoléon.",
+      "pairs": [
+        {
+          "left": "Île d'Elbe",
+          "right": "Premier exil (1814)"
+        },
+        {
+          "left": "Sainte-Hélène",
+          "right": "Exil définitif (1815)"
+        },
+        {
+          "left": "Paris",
+          "right": "Retour triomphal (1815)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qui remplace Napoléon sur le trône de France après 1815 ?",
+      "options": [
+        "Louis XVIII",
+        "Napoléon II",
+        "Robespierre",
+        "La Fayette"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

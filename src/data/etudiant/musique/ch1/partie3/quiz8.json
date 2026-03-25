@@ -1,0 +1,64 @@
+{
+  "id": "quiz8",
+  "titre": "Vocabulaire Moderne",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Sample' en musique ?",
+      "options": [
+        "Un échantillon de son prélevé d'un morceau existant",
+        "Une nouvelle guitare",
+        "Le nom d'un chanteur",
+        "Un instrument à cordes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En Jazz, faire un 'Chorus' signifie improviser en solo sur la structure du morceau.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une courte phrase musicale qui se répète régulièrement dans une chanson moderne s'appelle un {{1}} (riff / gimmick).",
+      "reponsesAttendues": [
+        "riff",
+        "gimmick"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme à son domaine.",
+      "pairs": [
+        {
+          "left": "Standard",
+          "right": "Morceau de Jazz incontournable que tout musicien connaît"
+        },
+        {
+          "left": "Single",
+          "right": "Chanson isolée destinée à être vendue ou diffusée"
+        },
+        {
+          "left": "Mixage",
+          "right": "Équilibrer les différents sons d'un enregistrement"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le fait d'écrire la musique par ordinateur ?",
+      "options": [
+        "La MAO (Musique Assistée par Ordinateur)",
+        "Le Solfège",
+        "La Peinture",
+        "Le jardinage"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

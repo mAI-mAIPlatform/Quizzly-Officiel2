@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Fil d'Ariane (Breadcrumbs)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel type décrit le chemin de navigation (ex: Accueil > Blog > Art) ?",
+      "options": [
+        "BreadcrumbList",
+        "NavList",
+        "PathList",
+        "Ariane"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Chaque étape du fil d'Ariane est un 'ListItem'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La propriété {{1}} indique l'ordre de l'élément dans la liste (1, 2, 3...).",
+      "reponsesAttendues": [
+        "position"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Structure Ariane.",
+      "pairs": [
+        {
+          "left": "item",
+          "right": "L'URL de la page"
+        },
+        {
+          "left": "name",
+          "right": "Le texte du lien"
+        },
+        {
+          "left": "ListItem",
+          "right": "Une étape du chemin"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage du fil d'Ariane sur Google ?",
+      "options": [
+        "Il remplace l'URL brute par un chemin lisible",
+        "Il change la couleur du lien",
+        "Il ajoute une photo",
+        "Rien"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

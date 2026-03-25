@@ -1,0 +1,62 @@
+{
+  "id": "quiz5",
+  "titre": "Le Rythme et la Mesure",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie le chiffre du haut dans une signature rythmique (ex: 4/4) ?",
+      "options": [
+        "Le nombre de temps par mesure",
+        "Le type de note utilisé",
+        "Le tempo du morceau",
+        "Le nombre de portées"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une barre de mesure sert à séparer les mesures les unes des autres.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une mesure à {{1}} temps est aussi appelée valse.",
+      "reponsesAttendues": [
+        "trois / 3"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "4/4",
+          "right": "4 noires par mesure"
+        },
+        {
+          "left": "3/4",
+          "right": "3 noires par mesure"
+        },
+        {
+          "left": "6/8",
+          "right": "6 croches par mesure"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'anacrouse ?",
+      "options": [
+        "Une mesure incomplète au début",
+        "Une fin de morceau brutale",
+        "Un instrument à vent",
+        "Une clé particulière"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz15",
+  "titre": "La Caractéristique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la forme de la 'caractéristique' d'un conducteur ohmique (graphe U en fonction de I) ?",
+      "options": [
+        "Une droite passant par l'origine",
+        "Un cercle",
+        "Une courbe qui descend",
+        "Un escalier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le coefficient de proportionnalité de cette droite est égal à la résistance R.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si le graphe U = f(I) n'est pas une droite, le dipôle n'est pas un conducteur {{1}}.",
+      "reponsesAttendues": [
+        "ohmique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'axe à sa grandeur.",
+      "pairs": [
+        {
+          "left": "Axe horizontal (abscisses)",
+          "right": "Intensité I (en A)"
+        },
+        {
+          "left": "Axe vertical (ordonnées)",
+          "right": "Tension U (en V)"
+        },
+        {
+          "left": "Pente de la droite",
+          "right": "Résistance R (en Ω)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Une résistance de 100 Ω aura une droite :",
+      "options": [
+        "Plus pentue (plus verticale) qu'une résistance de 10 Ω",
+        "Plus couchée qu'une résistance de 10 Ω",
+        "Exactement horizontale",
+        "En forme de zigzag"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Examen : Déclinaisons (I & II)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison du génitif singulier masculin en 2ème déclinaison ?",
+      "options": [
+        "-ou (ου)",
+        "-on",
+        "-ô",
+        "-os"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le datif singulier se reconnaît souvent à son iota souscrit (ᾳ, ῃ, ῳ).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les noms féminins en -a pur gardent le 'a' à tous les cas du {{1}} (singulier).",
+      "reponsesAttendues": [
+        "singulier"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le mot à son cas (2ème déclinaison).",
+      "pairs": [
+        {
+          "left": "logon",
+          "right": "Accusatif singulier"
+        },
+        {
+          "left": "logôi",
+          "right": "Datif singulier"
+        },
+        {
+          "left": "logois",
+          "right": "Datif pluriel"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le pluriel neutre nominatif de 'dôron' (le don) ?",
+      "options": [
+        "dôra (δῶρα)",
+        "dôroi",
+        "dôrôn",
+        "dôras"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

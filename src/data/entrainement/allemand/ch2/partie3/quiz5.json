@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Freizeitorte (Lieux de loisirs)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Le parc' ?",
+      "options": [
+        "Der Park",
+        "Das Stadion",
+        "Das Café",
+        "Die Schule"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Stadion' ist ein Ort für Sport.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich gehe {{1}} (à la) Schwimmbad.",
+      "reponsesAttendues": [
+        "ins"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Orte.",
+      "pairs": [
+        {
+          "left": "Jugendzentrum",
+          "right": "MJC"
+        },
+        {
+          "left": "Bibliothek",
+          "right": "Bibliothèque"
+        },
+        {
+          "left": "Pizzeria",
+          "right": "Pizzeria"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Wo triffst du deine Freunde?",
+      "options": [
+        "Im Park",
+        "Im Heft",
+        "Auf dem Stift",
+        "Hinter dem Lehrer"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

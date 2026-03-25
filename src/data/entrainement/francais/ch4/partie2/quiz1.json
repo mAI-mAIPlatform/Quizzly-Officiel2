@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "La Ponctuation Forte",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces signes termine une phrase déclarative ?",
+      "options": [
+        "Le point (.)",
+        "La virgule (,)",
+        "Les deux-points (:)",
+        "Le point-virgule (;)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le point d'exclamation (!) exprime une émotion forte ou un ordre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les points de {{1}} (...) indiquent que la phrase est inachevée.",
+      "reponsesAttendues": [
+        "suspension"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Lien signe / sens.",
+      "pairs": [
+        {
+          "left": "?",
+          "right": "Interrogation"
+        },
+        {
+          "left": "!",
+          "right": "Exclamation"
+        },
+        {
+          "left": ".",
+          "right": "Fin de pensée"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il après un point fort ?",
+      "options": [
+        "On met une majuscule",
+        "On met une minuscule",
+        "On change de livre",
+        "On souligne le mot"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

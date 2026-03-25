@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "querySelectorAll",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment récupérer TOUS les éléments d'une même classe (ex: .item) ?",
+      "options": [
+        "document.querySelectorAll(\".item\")",
+        "document.getEvery(\".item\")",
+        "document.querySelector(\".item\")",
+        "document.getAll(\".item\")"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "querySelectorAll renvoie une 'NodeList', qui ressemble à un tableau d'éléments.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour connaître le nombre d'éléments trouvés, on utilise la propriété {{1}} (length).",
+      "reponsesAttendues": [
+        "length"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la méthode au nombre de résultats.",
+      "pairs": [
+        {
+          "left": "querySelector",
+          "right": "1 seul élément (le premier)"
+        },
+        {
+          "left": "querySelectorAll",
+          "right": "Tous les éléments (une liste)"
+        },
+        {
+          "left": "getElementById",
+          "right": "1 seul élément (par ID)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment accéder au 3ème élément d'une liste 'mesItems' récupérée avec querySelectorAll ?",
+      "options": [
+        "mesItems[2]",
+        "mesItems[3]",
+        "mesItems.get(3)",
+        "mesItems.third()"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

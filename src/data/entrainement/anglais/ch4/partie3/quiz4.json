@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "The Future Planet",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What should we do to protect the future planet?",
+      "options": [
+        "Recycle and save energy",
+        "Throw trash in the ocean",
+        "Cut down all trees",
+        "Use more plastic"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Environment' means the natural world around us.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "We must reduce {{1}} to save the earth.",
+      "reponsesAttendues": [
+        "pollution"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match symbols.",
+      "pairs": [
+        {
+          "left": "Solar power",
+          "right": "Sun"
+        },
+        {
+          "left": "Wind power",
+          "right": "Wind"
+        },
+        {
+          "left": "Recycling",
+          "right": "Waste"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "How do you say 'Chauffage global'?",
+      "options": [
+        "Global warming",
+        "Earth heating",
+        "World hot",
+        "Nature fire"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,5 +1,5 @@
-export const ranked5emeExt3_60 = {
-  id: "ranked_5eme_ext3_60",
+export const ranked5emeExt3_50 = {
+  id: "ranked_5eme_ext3_50",
   titre: "Français : Les Types de Narrateurs",
   questions: [
     { type: "qcm", question: "Si le narrateur dit 'Je', il est un narrateur...", options: ["Externe", "Interne / Personnage", "Omniscient"], answer: "Interne / Personnage" },

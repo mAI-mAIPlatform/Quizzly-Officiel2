@@ -1,0 +1,63 @@
+{
+  "id": "quiz19",
+  "titre": "La Rumeur",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une rumeur ?",
+      "options": [
+        "Un bruit qui court sans source vérifiée",
+        "Une chanson de rap",
+        "Un cri d'animal",
+        "Un secret bien gardé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La rumeur se transforme et s'amplifie souvent en circulant.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le 'bouche à {{1}}' est le mode de propagation classique de la rumeur.",
+      "reponsesAttendues": [
+        "oreille"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'acteur de la rumeur à son rôle.",
+      "pairs": [
+        {
+          "left": "Source",
+          "right": "L'inventeur de l'histoire"
+        },
+        {
+          "left": "Relais",
+          "right": "Celui qui répète sans vérifier"
+        },
+        {
+          "left": "Cible",
+          "right": "Celui dont on parle"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment stopper une rumeur ?",
+      "options": [
+        "En demandant des preuves et en nuançant",
+        "En la criant plus fort",
+        "En la transformant",
+        "On ne peut pas"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

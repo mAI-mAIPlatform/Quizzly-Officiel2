@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "La Maison (Oikos)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'espace central à ciel ouvert d'une maison grecque ?",
+      "options": [
+        "L'aulê (αὐλή / cour)",
+        "Le mégaron",
+        "L'andron",
+        "Le gynécée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Andrôn est la pièce réservée aux hommes et aux banquets.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La partie de la maison réservée aux femmes est le {{1}} (gynécée).",
+      "reponsesAttendues": [
+        "gynécée"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la pièce à sa fonction.",
+      "pairs": [
+        {
+          "left": "Thalamus",
+          "right": "Chambre à coucher"
+        },
+        {
+          "left": "Andrôn",
+          "right": "Salle de réception (hommes)"
+        },
+        {
+          "left": "Aulê",
+          "right": "Cour intérieure"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "En quoi étaient principalement construites les maisons ordinaires ?",
+      "options": [
+        "Briques de terre crue (adobe) et bois",
+        "Marbre précieux",
+        "Acier",
+        "Verre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

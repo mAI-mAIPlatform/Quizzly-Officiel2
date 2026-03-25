@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Ultrasons",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un ultrason ?",
+      "options": [
+        "Un son dont la fréquence est supérieure à 20 000 Hz",
+        "Un son très très fort",
+        "Un son qui va plus vite que 340 m/s",
+        "Une image médicale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les chauves-souris utilisent les ultrasons pour se déplacer et chasser.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "En médecine, on utilise des ultrasons pour faire une {{1}}.",
+      "reponsesAttendues": [
+        "échographie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le domaine à l'utilisation.",
+      "pairs": [
+        {
+          "left": "Marine",
+          "right": "Sonar pour détecter le fond ou les poissons"
+        },
+        {
+          "left": "Santé",
+          "right": "Échographie (observer un bébé ou organe)"
+        },
+        {
+          "left": "Industrie",
+          "right": "Nettoyage de pièces fragiles (bac ultra-sons)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on un son trop grave pour l'oreille humaine (f < 20Hz) ?",
+      "options": [
+        "Un infrason",
+        "Un subsonic",
+        "Un silence profond",
+        "Un son de base"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

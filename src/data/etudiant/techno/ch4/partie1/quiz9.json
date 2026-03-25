@@ -1,0 +1,64 @@
+{
+  "id": "quiz9",
+  "titre": "Cas pratique : Tri",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "On veut trier une liste de nombres du plus petit au plus grand. Quel est le nom générique de cette opération ?",
+      "options": [
+        "Un algorithme de tri",
+        "Une opération de multiplication",
+        "Un affichage aléatoire",
+        "Une recherche binaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour trier une liste de 10 nombres, on utilisera probablement une ou plusieurs boucles.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour comparer deux nombres A et B dans un algorithme de tri, on utilise un bloc de {{1}} (condition / test).",
+      "reponsesAttendues": [
+        "condition",
+        "test"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'étape de tri à son action.",
+      "pairs": [
+        {
+          "left": "Comparer",
+          "right": "Vérifier quel nombre est le plus grand"
+        },
+        {
+          "left": "Échanger (Swap)",
+          "right": "Inverser la position de deux nombres"
+        },
+        {
+          "left": "Parcourir",
+          "right": "Lire les éléments de la liste un par un"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'un des algorithmes de tri les plus connus (enseigné au collège/lycée) ?",
+      "options": [
+        "Le tri à bulles (ou tri par insertion)",
+        "Le tri par hasard",
+        "Le tri par couleur de texte",
+        "Le tri par poids d'usine"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan du Chapitre 2 : Logique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel n'est pas une structure de contrôle conditionnel ?",
+      "options": [
+        "if",
+        "switch",
+        "while",
+        "ternaire (? :)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En JS, on peut utiliser des conditions pour diriger le flux du programme.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le symbole pour la négation logique est {{1}}.",
+      "reponsesAttendues": [
+        "!"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dernier défi du chapitre 2 :",
+      "pairs": [
+        {
+          "left": "Court-circuit",
+          "right": "&& et || malins"
+        },
+        {
+          "left": "Ternaire",
+          "right": "Choix rapide de valeur"
+        },
+        {
+          "left": "Default",
+          "right": "Filet de sécurité du switch"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour le Chapitre 3 sur les Boucles ?",
+      "options": [
+        "Oui !",
+        "Un dernier switch",
+        "C'est parti",
+        "Vite, les boucles"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

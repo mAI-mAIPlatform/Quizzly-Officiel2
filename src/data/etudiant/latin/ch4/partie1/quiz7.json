@@ -1,0 +1,64 @@
+{
+  "id": "quiz7",
+  "titre": "La proposition infinitive",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quels sont les deux éléments essentiels d'une proposition infinitive ?",
+      "options": [
+        "Un sujet à l'accusatif et un verbe à l'infinitif",
+        "Un sujet au nominatif et un verbe conjugué",
+        "Un adjectif et un nom",
+        "Un ordre et une question"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On traduit souvent l'infinitive par 'que' en français.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dico {{1}} {{2}} (Je dis que le maître vient - dominum venire).",
+      "reponsesAttendues": [
+        "dominum",
+        "venire"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'infinitif.",
+      "pairs": [
+        {
+          "left": "Amare",
+          "right": "Aimer (Présent)"
+        },
+        {
+          "left": "Amavisse",
+          "right": "Avoir aimé (Parfait)"
+        },
+        {
+          "left": "Amaturum esse",
+          "right": "Devoir aimer (Futur)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Audio eum dicere' ?",
+      "options": [
+        "J'entends qu'il parle / Je l'entends parler",
+        "Je dis qu'il entend",
+        "Il entend ce que je dis",
+        "J'ai entendu parler"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

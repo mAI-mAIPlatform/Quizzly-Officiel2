@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Interrogativa",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se pergunta 'As-tu un frère ?' ?",
+      "options": [
+        "Tens um irmão?",
+        "Tens não um irmão?",
+        "Um irmão tens?",
+        "Quem é irmão?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Em português, a entonação é fundamental para perguntas.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "{{1}} (qui) é ele?",
+      "reponsesAttendues": [
+        "Quem"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Perguntas.",
+      "pairs": [
+        {
+          "left": "Onde estás?",
+          "right": "Où es-tu ?"
+        },
+        {
+          "left": "Como estás?",
+          "right": "Comment vas-tu ?"
+        },
+        {
+          "left": "Quantos são?",
+          "right": "Combien sont-ils ?"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "É verdade?",
+      "options": [
+        "Sim, é verdade",
+        "Não, sou Pedro",
+        "Olá",
+        "Dez anos"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

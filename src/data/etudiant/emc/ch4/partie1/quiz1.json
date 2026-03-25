@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Origines de l'UE",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel était le but premier de la construction européenne après 1945 ?",
+      "options": [
+        "Garantir une paix durable entre les pays européens",
+        "Conquérir d'autres continents",
+        "Interdire toutes les langues sauf une",
+        "Créer une équipe de football unique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le traité de Rome en 1957 a créé la Communauté Économique Européenne (CEE).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La CECA (1951) concernait la mise en commun du {{1}} (charbon) et de l'acier.",
+      "reponsesAttendues": [
+        "charbon"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'étape à sa date.",
+      "pairs": [
+        {
+          "left": "Déclaration Schuman",
+          "right": "9 mai 1950"
+        },
+        {
+          "left": "Traité de Rome",
+          "right": "1957"
+        },
+        {
+          "left": "Traité de Maastricht",
+          "right": "1992"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Combien de pays étaient présents au début de l'aventure (les pays fondateurs) ?",
+      "options": [
+        "6 pays",
+        "12 pays",
+        "27 pays",
+        "3 pays"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz24",
+  "titre": "Validation de Saisie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi utilise-t-on 'while' pour demander un mot de passe ?",
+      "options": [
+        "Pour recommencer tant que l'utilisateur se trompe",
+        "Pour que ce soit plus rapide",
+        "Pour l'afficher en majuscules",
+        "Parce que c'est obligatoire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une boucle 'while' est parfaite quand on ne sait pas à l'avance combien de fois l'utilisateur va se tromper.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La condition 'while reponse {{1}} \"secret\":' permet de boucler tant que la réponse est différente du secret (!=).",
+      "reponsesAttendues": [
+        "!="
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le code à l'interaction.",
+      "pairs": [
+        {
+          "left": "input() avant la boucle",
+          "right": "Première demande"
+        },
+        {
+          "left": "while condition_fausse:",
+          "right": "Boucle de correction"
+        },
+        {
+          "left": "input() dans la boucle",
+          "right": "Nouvelle tentative"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si l'utilisateur donne la bonne réponse dès la première fois ?",
+      "options": [
+        "Le bloc 'while' n'est jamais exécuté et le programme continue",
+        "Il doit quand même la retaper une fois",
+        "Le programme produit une erreur",
+        "Le programme s'éteint"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

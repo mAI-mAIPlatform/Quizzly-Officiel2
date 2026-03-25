@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "L'Alphabet Latin et Prononciation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "L'alphabet latin est-il le même que l'alphabet français actuel ?",
+      "options": [
+        "Oui, exactement le même",
+        "Presque, mais il manquait certaines lettres comme le W ou le J à l'origine",
+        "Non, il ressemblait à l'alphabet grec",
+        "Non, c'étaient des hiéroglyphes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En latin classique, la lettre 'V' se prononce comme un 'ou' (ex: Vinum -> Winum).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La lettre 'C' se prononce toujours {{1}} en latin classique (comme dans 'cabane').",
+      "reponsesAttendues": [
+        "dur / k / [k]"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Prononciation classique.",
+      "pairs": [
+        {
+          "left": "C",
+          "right": "[k] toujours"
+        },
+        {
+          "left": "V",
+          "right": "[w]"
+        },
+        {
+          "left": "G",
+          "right": "[g] toujours"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment prononce-t-on le 'u' en latin ?",
+      "options": [
+        "Comme en français (u)",
+        "Comme le 'ou' français",
+        "Il ne se prononce pas",
+        "Comme un 'a'"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

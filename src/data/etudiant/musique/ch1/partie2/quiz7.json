@@ -1,0 +1,64 @@
+{
+  "id": "quiz7",
+  "titre": "Igor Stravinsky",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quel domaine Igor Stravinsky a-t-il provoqué un scandale historique en 1913 ?",
+      "options": [
+        "Le Ballet (Le Sacre du printemps)",
+        "L'Opéra baroque",
+        "La Musique de chambre",
+        "Le Chant grégorien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Sacre du printemps a choqué le public par son rythme saccadé et ses harmonies dissonantes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les œuvres de Stravinsky marquant le début du XXème siècle appartiennent souvent au courant du {{1}} (Primitivisme / Modernisme).",
+      "reponsesAttendues": [
+        "Primitivisme",
+        "Modernisme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'œuvre de Stravinsky à son détail.",
+      "pairs": [
+        {
+          "left": "L'Oiseau de feu",
+          "right": "Inspiré d'un conte populaire russe"
+"        },
+        {
+          "left": "Petrouchka",
+          "right": "L'histoire d'une marionnette qui prend vie"
+        },
+        {
+          "left": "Le Sacre du printemps",
+          "right": "Évoque des rituels de la Russie païenne"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "De quelle nationalité était Igor Stravinsky ?",
+      "options": [
+        "Russe (puis naturalisé Français et Américain)",
+        "Anglaise",
+        "Italienne",
+        "Espagnole"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

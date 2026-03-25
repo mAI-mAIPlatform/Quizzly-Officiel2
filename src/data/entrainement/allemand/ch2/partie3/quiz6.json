@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Verben der Freizeit",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Rencontrer' ?",
+      "options": [
+        "Treffen",
+        "Spielen",
+        "Machen",
+        "Gehen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Tanzen' bedeutet 'Danser'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich {{1}} (jouer) gern Fußball.",
+      "reponsesAttendues": [
+        "spiele"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Aktionen.",
+      "pairs": [
+        {
+          "left": "Reisen",
+          "right": "Voyager"
+        },
+        {
+          "left": "Fotografieren",
+          "right": "Photographier"
+        },
+        {
+          "left": "Kochen",
+          "right": "Cuisiner"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Was machst du in deiner Freizeit?",
+      "options": [
+        "Ich treffe meine Freunde",
+        "Ich bin eine Freizeit",
+        "Ich heiße Freizeit",
+        "Freizeit ist gut"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

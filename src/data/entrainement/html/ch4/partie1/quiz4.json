@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Les Chemins (Paths)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode commence un nouveau chemin ?",
+      "options": [
+        "beginPath()",
+        "startPath()",
+        "newPath()",
+        "reset()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "lineTo(x, y) dessine immédiatement une ligne à l'écran.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On utilise {{1}}() pour rendre le contour du chemin visible.",
+      "reponsesAttendues": [
+        "stroke"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Etapes de dessin.",
+      "pairs": [
+        {
+          "left": "moveTo",
+          "right": "Lève le stylo et le place"
+        },
+        {
+          "left": "lineTo",
+          "right": "Trace une ligne invisible"
+        },
+        {
+          "left": "closePath",
+          "right": "Revient au point de départ"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment remplir la forme créée par un chemin ?",
+      "options": [
+        "ctx.fill()",
+        "ctx.paint()",
+        "ctx.stroke()",
+        "ctx.addHeader()"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "De onde és? (D'où viens-tu ?)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Je viens de France' ?",
+      "options": [
+        "Sou de França",
+        "Sou do Brasil",
+        "Sou de Portugal",
+        "Sou de Angola"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Português' é a nacionalidade de quem nasce em Portugal.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu moro em {{1}} (Lisbonne).",
+      "reponsesAttendues": [
+        "Lisboa"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Países e Cidades.",
+      "pairs": [
+        {
+          "left": "Porto",
+          "right": "Ville au Portugal"
+        },
+        {
+          "left": "Rio de Janeiro",
+          "right": "Cidade no Brasil"
+        },
+        {
+          "left": "Luanda",
+          "right": "Capital de Angola"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qual é a tua nacionalidade?",
+      "options": [
+        "Sou francês",
+        "Sou de Paris",
+        "Tenho passaporte",
+        "Olá"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Partes do Corpo 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'La tête' ?",
+      "options": [
+        "A cabeça",
+        "O pescoço",
+        "O ombro",
+        "O peito"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Braço' significa 'Bras'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu tenho duas {{1}} (jambes).",
+      "reponsesAttendues": [
+        "pernas"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Corpo humano.",
+      "pairs": [
+        {
+          "left": "Costas",
+          "right": "Dos"
+        },
+        {
+          "left": "Barriga",
+          "right": "Ventre / Ventre"
+        },
+        {
+          "left": "Joelho",
+          "right": "Genou"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Onde fica o coração?",
+      "options": [
+        "No peito",
+        "Na perna",
+        "No braço",
+        "Dez horas"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

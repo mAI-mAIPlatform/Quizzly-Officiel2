@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "La Stabilité des Objets",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où doit se situer le centre de gravité pour qu'un objet soit stable ?",
+      "options": [
+        "Au-dessus de sa base (surface de sustentation)",
+        "Tout en haut",
+        "À l'extérieur de l'objet",
+        "Dans un coin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Plus la base d'un objet est large, plus il est stable.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour stabiliser une grue, on utilise des poids appelés {{1}}.",
+      "reponsesAttendues": [
+        "contrepoids"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Stabilité.",
+      "pairs": [
+        {
+          "left": "Lest",
+          "right": "Poids ajouté en bas pour abaisser le G"
+        },
+        {
+          "left": "Surface de sustentation",
+          "right": "Surface délimitée par les appuis au sol"
+        },
+        {
+          "left": "Basculement",
+          "right": "Sortie du G de la base"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment abaisser le centre de gravité d'un objet ?",
+      "options": [
+        "En mettant les masses les plus lourdes le plus bas possible",
+        "En l'allongeant vers le haut",
+        "En le peignant en noir",
+        "En augmentant sa vitesse"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

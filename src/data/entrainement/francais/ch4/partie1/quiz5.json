@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "La Proposition Complétive",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que complète la proposition subordonnée complétive ?",
+      "options": [
+        "Un verbe",
+        "Un nom",
+        "Un adjectif",
+        "La ponctuation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans 'Je veux qu'il vienne', 'qu'il vienne' est une complétive.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Elle espère {{1}} le soleil brillera.",
+      "reponsesAttendues": [
+        "que"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Identifie la nature de 'que'.",
+      "pairs": [
+        {
+          "left": "Le gâteau QUE j'aime",
+          "right": "Pronom relatif (suit un nom)"
+        },
+        {
+          "left": "Je sais QUE tu aimes",
+          "right": "Conjonction (suit un verbe)"
+        },
+        {
+          "left": "Dis-moi QUE c'est vrai",
+          "right": "Conjonction"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la fonction courante de la complétive ?",
+      "options": [
+        "COD du verbe de la principale",
+        "Sujet",
+        "CC de temps",
+        "Épithète"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

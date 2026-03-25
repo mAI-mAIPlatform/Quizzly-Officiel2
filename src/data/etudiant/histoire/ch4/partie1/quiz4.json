@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Flux immatériels",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un flux immatériel ?",
+      "options": [
+        "Un échange d'argent ou d'information (sans transport d'objet physique)",
+        "L'envoi de lettres par la poste",
+        "Le transport de charbon par train",
+        "Le déplacement de touristes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les câbles sous-marins de fibre optique assurent l'essentiel du trafic Internet mondial.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'ensemble des bourses mondiales reliées entre elles 24h/24 forme le marché {{1}}.",
+      "reponsesAttendues": [
+        "financier"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'usage à l'outil numérique.",
+      "pairs": [
+        {
+          "left": "Réseaux sociaux",
+          "right": "Partage d'informations et d'images"
+        },
+        {
+          "left": "Streaming vidéo",
+          "right": "Consommation massive de données"
+        },
+        {
+          "left": "Cloud",
+          "right": "Stockage de données à distance"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la conséquence de la rapidité des flux d'information ?",
+      "options": [
+        "L'instantanéité des échanges à l'autre bout de la Terre",
+        "La fin de la lecture des livres",
+        "L'obligation de parler une seule langue",
+        "Le ralentissement de la vie économique"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

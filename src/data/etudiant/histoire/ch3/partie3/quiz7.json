@@ -1,0 +1,63 @@
+{
+  "id": "quiz27",
+  "titre": "Réalisme et Naturalisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le but des écrivains réalistes comme Balzac ou Flaubert ?",
+      "options": [
+        "Décrire la société de leur temps de manière fidèle et précise",
+        "Écrire des contes de fées avec des dragons",
+        "Inventer des mondes futuristes",
+        "Ne jamais parler des pauvres"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Émile Zola, chef de file du naturalisme, a étudié les ouvriers pour écrire ses romans.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le célèbre roman de Zola sur la mine et les mineurs s'appelle {{1}}.",
+      "reponsesAttendues": [
+        "Germinal"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'oeuvre à l'aspect social décrit.",
+      "pairs": [
+        {
+          "left": "Germinal (Zola)",
+          "right": "La condition ouvrière et la mine"
+        },
+        {
+          "left": "Au Bonheur des Dames (Zola)",
+          "right": "L'essor des grands magasins"
+        },
+        {
+          "left": "Comédie Humaine (Balzac)",
+          "right": "L'ambition et l'argent dans la bourgeoisie"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi ces romans sont-ils importants pour l'historien ?",
+      "options": [
+        "Ils sont des témoignages précieux sur la vie quotidienne de l'époque",
+        "Ils sont écrits en une langue magique",
+        "Ils ne contiennent que des mensonges",
+        "Ils sont très courts et faciles à lire"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

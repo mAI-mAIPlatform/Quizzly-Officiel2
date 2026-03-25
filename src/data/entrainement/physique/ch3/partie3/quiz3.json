@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "L'énergie nucléaire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel minéral utilise-t-on pour produire de l'énergie nucléaire ?",
+      "options": [
+        "Le fer",
+        "L'uranium",
+        "L'or",
+        "Le sel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'énergie nucléaire est considérée comme non-renouvelable car l'atome d'uranium est présent en quantité finie.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans une centrale nucléaire, on utilise la {{1}} des atomes pour chauffer de l'eau.",
+      "reponsesAttendues": [
+        "fission"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe les avantages/inconvénients du nucléaire.",
+      "pairs": [
+        {
+          "left": "Pas de CO2",
+          "right": "Avantage pour le climat"
+        },
+        {
+          "left": "Déchets radioactifs",
+          "right": "Inconvénient (gestion sur long terme)"
+        },
+        {
+          "left": "Vapeur d'eau",
+          "right": "Rejet des tours de refroidissement"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que produit majoritairement le nucléaire en France ?",
+      "options": [
+        "De l'essence",
+        "De l'électricité",
+        "Du gaz",
+        "De la nourriture"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "quiz8",
+  "titre": "Génies de la Renaissance",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est l'auteur de 'La Joconde' et de 'La Cène' ?",
+      "options": [
+        "Léonard de Vinci",
+        "Michel-Ange",
+        "Raphaël",
+        "Picasso"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Michel-Ange a peint le plafond de la Chapelle Sixtine au Vatican.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'artiste italien célèbre pour sa statue géante de 'David' en marbre est {{1}} (Michel-Ange).",
+      "reponsesAttendues": [
+        "Michel-Ange",
+        "Michel Ange"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'artiste à son œuvre emblématique.",
+      "pairs": [
+        {
+          "left": "Léonard de Vinci",
+          "right": "L'Homme de Vitruve (études anatomiques)"
+        },
+        {
+          "left": "Raphaël",
+          "right": "L'École d'Athènes"
+        },
+        {
+          "left": "Botticelli",
+          "right": "La Naissance de Vénus"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel adjectif qualifie une personne capable d'exceller dans de nombreux domaines (art, science, technique) ?",
+      "options": [
+        "Une personne universelle (ou polymathe)",
+        "Un spécialiste",
+        "Un magicien",
+        "Un ermite"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

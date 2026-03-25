@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Das Perfekt: Intro",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué verbo auxiliar se usa mayoritariamente en el Perfekt?",
+      "options": [
+        "Haben",
+        "Sein",
+        "Werden",
+        "Machen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El Perfekt se usa para hablar de acciones pasadas.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich {{1}} Fußball gespielt (avoir).",
+      "reponsesAttendues": [
+        "habe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el elemento del Perfekt.",
+      "pairs": [
+        {
+          "left": "Haben / Sein",
+          "right": "Verbo auxiliar (Pos. 2)"
+        },
+        {
+          "left": "Partizip II",
+          "right": "Verbo principal (Final)"
+        },
+        {
+          "left": "Ich habe",
+          "right": "J'ai..."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cuál de estas frases está en Perfekt?",
+      "options": [
+        "Ich habe gelernt",
+        "Ich lerne",
+        "Ich will lernen",
+        "Lerne ich?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Garten und Außenbereich",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Le jardin' ?",
+      "options": [
+        "Der Garten",
+        "Der Park",
+        "Der Wald",
+        "Der Hof"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Blumen' wachsen im Garten.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Der Baum ist {{1}} (vert).",
+      "reponsesAttendues": [
+        "grün"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Natur am Haus.",
+      "pairs": [
+        {
+          "left": "Baum",
+          "right": "Arbre"
+        },
+        {
+          "left": "Rasen",
+          "right": "Pelouse"
+        },
+        {
+          "left": "Zaun",
+          "right": "Clôture"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Was machst du im Garten?",
+      "options": [
+        "Ich spiele Fußball",
+        "Ich koche Suppe",
+        "Ich schlafe im Schrank",
+        "Ich lerne Mathe"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz20",
+  "titre": "Síntesis Vida Diaria 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pienso que la {{1}} es muy importante para el futuro.",
+      "options": [
+        "tecnología",
+        "flauta",
+        "película",
+        "raqueta"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Juego al piano' es gramaticalmente correcto.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "¿A qué hora {{1}} (quedar) nosotros con Pablo?",
+      "reponsesAttendues": [
+        "quedamos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el resumen.",
+      "pairs": [
+        {
+          "left": "Opinion",
+          "right": "Creo que, para mí"
+        },
+        {
+          "left": "Deporte",
+          "right": "Jugar al tenis"
+        },
+        {
+          "left": "Salidas",
+          "right": "Ir de tapas"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Completa: 'Para escribir, saco mi {{1}} del {{2}}'.",
+      "options": [
+        "bolígrafo / estuche",
+        "mochila / silla",
+        "cuaderno / pizarra",
+        "goma / basura"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

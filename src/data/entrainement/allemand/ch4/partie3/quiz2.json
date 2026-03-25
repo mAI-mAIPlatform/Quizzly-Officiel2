@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Körperteile 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'La main' ?",
+      "options": [
+        "Die Hand",
+        "Der Fuß",
+        "Der Bauch",
+        "Die Schulter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Fuß' bedeutet 'Pied'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Mein {{1}} (ventre) tut weh.",
+      "reponsesAttendues": [
+        "Bauch"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Teile.",
+      "pairs": [
+        {
+          "left": "Finger",
+          "right": "Doigt"
+        },
+        {
+          "left": "Zeh",
+          "right": "Orteil"
+        },
+        {
+          "left": "Knie",
+          "right": "Genou"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Was trägst du am Fuß?",
+      "options": [
+        "Einen Schuh",
+        "Einen Hut",
+        "Einen Schal",
+        "Ein Brot"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

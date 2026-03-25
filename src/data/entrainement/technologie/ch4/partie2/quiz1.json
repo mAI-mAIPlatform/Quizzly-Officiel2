@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Les Efforts sur les Structures",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel effort subit une corde sur laquelle on tire ?",
+      "options": [
+        "La traction",
+        "La compression",
+        "La flexion",
+        "La torsion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'assise d'une chaise subit principalement de la compression quand on s'assoit.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'effort qui consiste à tordre un objet s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "torsion"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Types d'Efforts.",
+      "pairs": [
+        {
+          "left": "Flexion",
+          "right": "Courber l'objet (poutre)"
+        },
+        {
+          "left": "Cisaillement",
+          "right": "Couper ou faire glisser (ciseaux)"
+        },
+        {
+          "left": "Flambage",
+          "right": "Poutre trop fine qui plie sous le poids"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel matériau résiste très bien à la compression mais mal à la traction ?",
+      "options": [
+        "Le béton",
+        "L'acier",
+        "Le caoutchouc",
+        "La ficelle"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

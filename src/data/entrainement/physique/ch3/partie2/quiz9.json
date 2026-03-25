@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Économies d'énergie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi faut-il économiser l'énergie ?",
+      "options": [
+        "Pour s'ennuyer",
+        "Pour réduire l'impact sur l'environnement et le coût",
+        "Parce qu'elle s'use",
+        "C'est une mode"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Isoler sa maison permet de réduire les transferts thermiques vers l'extérieur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Éteindre les veilles des appareils permet d'éviter la {{1}} inutile d'électricité.",
+      "reponsesAttendues": [
+        "consommation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'action à son bénéfice.",
+      "pairs": [
+        {
+          "left": "Utiliser des LED",
+          "right": "Moins de chaleur perdue (meilleur rendement)"
+        },
+        {
+          "left": "Preendre le vélo",
+          "right": "Pas d'énergie fossile consommée"
+        },
+        {
+          "left": "Baisser le chauffage",
+          "right": "Moins de transfert thermique nécessaire"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel appareil consomme souvent le plus d'énergie dans une maison ?",
+      "options": [
+        "Le téléphone",
+        "Le chauffage",
+        "La console",
+        "La lampe de chevet"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

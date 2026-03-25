@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Cas pratique : Disposition",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Tu veux placer les percussions sur scène. Où les mets-tu pour ne pas couvrir les violons ?",
+      "options": [
+        "Tout au fond de la scène",
+        "Juste devant le chef",
+        "Dans le public",
+        "Au milieu des flûtes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les instruments les plus puissants (cuivres, percussions) sont généralement placés à l'arrière.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le chef d'orchestre se tient sur une petite estrade appelée le {{1}} (podium).",
+      "reponsesAttendues": [
+        "podium"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la famille à sa disposition classique semi-circulaire.",
+      "pairs": [
+        {
+          "left": "1er cercle (intérieur)",
+          "right": "Cordes"
+        },
+        {
+          "left": "2ème cercle (milieu)",
+          "right": "Bois"
+        },
+        {
+          "left": "3ème cercle (extérieur/fond)",
+          "right": "Cuivres et Percussions"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "À quoi sert la disposition en demi-cercle ?",
+      "options": [
+        "Pour que tous les musiciens voient bien le chef",
+        "Pour faire une jolie photo",
+        "Pour pouvoir sortir plus vite à la fin",
+        "C'est un hasard historique"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

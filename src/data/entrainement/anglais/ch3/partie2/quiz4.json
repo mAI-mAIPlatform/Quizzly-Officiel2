@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "World Languages",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Which language is spoken in Brazil?",
+      "options": [
+        "Portuguese",
+        "Spanish",
+        "Brazilian",
+        "English"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "English is the official language in Australia.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "In Mexico, people speak {{1}}.",
+      "reponsesAttendues": [
+        "Spanish"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match languages.",
+      "pairs": [
+        {
+          "left": "China",
+          "right": "Mandarin"
+        },
+        {
+          "left": "Russia",
+          "right": "Russian"
+        },
+        {
+          "left": "Germany",
+          "right": "German"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "How do you say 'Quelle langue parles-tu ?'?",
+      "options": [
+        "What language do you speak?",
+        "Which language speak you?",
+        "What is your language?",
+        "Do you have a language?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

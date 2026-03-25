@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "School Rules : Must and Mustn't",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "You _____ be on time for school.",
+      "options": [
+        "must",
+        "mustn't",
+        "can",
+        "don't"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Mustn't' indicates that something is forbidden.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "You {{1}} eat in the classroom.",
+      "reponsesAttendues": [
+        "mustn't"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the rules.",
+      "pairs": [
+        {
+          "left": "Must",
+          "right": "Obligation"
+        },
+        {
+          "left": "Mustn't",
+          "right": "Prohibition"
+        },
+        {
+          "left": "Uniform",
+          "right": "Must wear"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "You _____ listen to the teacher.",
+      "options": [
+        "must",
+        "mustn't",
+        "can't",
+        "don't"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

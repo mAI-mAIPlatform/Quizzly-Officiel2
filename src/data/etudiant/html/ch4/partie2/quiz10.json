@@ -1,0 +1,74 @@
+{
+  "id": "quiz10",
+  "titre": "Révision Sémantique SEO",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise pour le contenu principal ?",
+      "options": ["<center>", "<main>", "<middle>", "<entry>"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "<article> est mieux que <div> pour un post Instagram (partagé sur web).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La légende d'une image est dans la balise <{{1}}>.",
+      "reponsesAttendues": ["figcaption"]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Fais les paires sémantiques :",
+      "pairs": [
+        {"left": "nav", "right": "Menu"},
+        {"left": "aside", "right": "Sidebar"},
+        {"left": "footer", "right": "Pied"}
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quand utiliser Schema.org ?",
+      "options": ["Pour les couleurs", "Pour enrichir la compréhension des robots (avis, prix)", "Pour masquer le code", "Jamais"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q6",
+      "type": "vrai_faux",
+      "enonce": "og:image est une balise meta.",
+      "reponse": true
+    },
+    {
+      "id": "q7",
+      "type": "qcm",
+      "enonce": "Comment définir une date valide pour les robots ?",
+      "options": ["<span>12/12</span>", "<time datetime=\"2024-12-12\">", "<p>Maintenant</p>", "<date>hier</date>"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "Une balise sans sens particulier est une {{1}}.",
+      "reponsesAttendues": ["div"]
+    },
+    {
+      "id": "q9",
+      "type": "vrai_faux",
+      "enonce": "Le SEO sémantique est une base solide pour tout site moderne.",
+      "reponse": true
+    },
+    {
+      "id": "q10",
+      "type": "qcm",
+      "enonce": "Quel est le but ultime de la sémantique ?",
+      "options": ["Faire plaisir à W3C", "Rendre le web plus compréhensible par l'humain et la machine", "Augmenter le nombre de fichiers", "Supprimer le CSS"],
+      "correctIndex": 1
+    }
+  ]
+}

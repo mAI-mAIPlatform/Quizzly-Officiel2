@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Descrizione 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Simpático'?",
+      "options": [
+        "Simpatico",
+        "Antipatico",
+        "Serio",
+        "Pigro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Chiacchierone' significa hablador.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Lui è molto {{1}} (généreux).",
+      "reponsesAttendues": [
+        "generoso"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el adjetivo de carattere.",
+      "pairs": [
+        {
+          "left": "Gentile",
+          "right": "Gentil"
+        },
+        {
+          "left": "Sincero",
+          "right": "Sincère"
+        },
+        {
+          "left": "Ottimista",
+          "right": "Optimiste"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'egoista'?",
+      "options": [
+        "Egoísta",
+        "Altruista",
+        "Timido",
+        "Valiente"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

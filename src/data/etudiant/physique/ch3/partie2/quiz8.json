@@ -1,0 +1,63 @@
+{
+  "id": "quiz18",
+  "titre": "La Gravitation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la gravitation universelle ?",
+      "options": [
+        "L'attraction invisible entre deux objets possédant une masse",
+        "La rotation des planètes sur elles-mêmes",
+        "Le nom d'une galaxie",
+        "L'explosion d'une étoile"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Isaac Newton est le premier à avoir formulé la loi de la gravitation.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La gravitation maintient les planètes en {{1}} autour du Soleil.",
+      "reponsesAttendues": [
+        "orbite"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'astre à l'objet qu'il retient.",
+      "pairs": [
+        {
+          "left": "Terre",
+          "right": "La Lune et les satellites"
+        },
+        {
+          "left": "Soleil",
+          "right": "Les planètes et comètes"
+        },
+        {
+          "left": "Lune",
+          "right": "Les rochers à sa surface"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi la Lune ne 'tombe'-t-elle pas sur la Terre ?",
+      "options": [
+        "Parce qu'elle a une vitesse latérale suffisante",
+        "Parce qu'elle est trop légère",
+        "Parce qu'elle est faite de fromage",
+        "Parce que l'espace est vide"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

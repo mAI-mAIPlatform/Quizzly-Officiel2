@@ -1,0 +1,63 @@
+{
+  "id": "quiz22",
+  "titre": "Móveis",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Cama'?",
+      "options": [
+        "Cama",
+        "Sofá",
+        "Mesa",
+        "Cadeira"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Geladeira' es la nevera / refrigerador.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu sento na {{1}} (chaise/cadeira).",
+      "reponsesAttendues": [
+        "cadeira"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el mueble.",
+      "pairs": [
+        {
+          "left": "O fogão",
+          "right": "La cuisinière / Le four"
+        },
+        {
+          "left": "O guarda-roupa",
+          "right": "L'armoire / La penderie"
+        },
+        {
+          "left": "A poltrona",
+          "right": "Le fauteuil"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'tapete'?",
+      "options": [
+        "Alfombra",
+        "Cortina",
+        "Lámpara",
+        "Mesa"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

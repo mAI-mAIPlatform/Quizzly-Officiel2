@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "L'Orthographe des Nombres",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Depuis 1990, quelle est la règle pour les traits d'union ?",
+      "options": [
+        "On peut en mettre entre tous les mots des nombres composés",
+        "On n'en met plus du tout",
+        "Seulement entre les dizaines et les unités",
+        "Seulement pour les nombres inférieurs à 100"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Vingt' et 'Cent' prennent un 's' s'ils sont multipliés et qu'il n'y a rien après.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Quatre-{{1}}-dix-huit.",
+      "reponsesAttendues": [
+        "vingt"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Écritures correctes.",
+      "pairs": [
+        {
+          "left": "80",
+          "right": "Quatre-vingts"
+        },
+        {
+          "left": "82",
+          "right": "Quatre-vingt-deux"
+        },
+        {
+          "left": "200",
+          "right": "Deux-cents"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est invariable (ne prend jamais de 's') ?",
+      "options": [
+        "Mille",
+        "Cent",
+        "Vingt",
+        "Million"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

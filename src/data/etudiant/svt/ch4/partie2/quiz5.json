@@ -1,0 +1,63 @@
+{
+  "id": "quiz15",
+  "titre": "L'Obésité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'obésité ?",
+      "options": [
+        "Une accumulation excessive de graisse corporelle nuisant à la santé",
+        "Le fait d'être très grand",
+        "Une maladie contagieuse",
+        "Un surplus de muscle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Indice de Masse Corporelle (IMC) permet d'évaluer la corpulence.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La sédentarité et la consommation d'aliments ultra-{{1}} favorisent l'obésité.",
+      "reponsesAttendues": [
+        "transformés"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'IMC à sa catégorie (chez l'adulte).",
+      "pairs": [
+        {
+          "left": "Entre 18,5 et 25",
+          "right": "Corpulence normale"
+        },
+        {
+          "left": "Entre 25 et 30",
+          "right": "Surpoids"
+        },
+        {
+          "left": "Au-dessus de 30",
+          "right": "Obésité"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelles maladies sont liées à l'obésité ?",
+      "options": [
+        "Diabète de type 2 et hypertension artérielle",
+        "Grippe et rhume",
+        "Myopie et astigmatisme",
+        "Fractures des dents"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

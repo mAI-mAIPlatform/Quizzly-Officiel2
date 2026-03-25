@@ -1,0 +1,63 @@
+{
+  "id": "quiz21",
+  "titre": "Système de Santé",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la 'Sécurité Sociale' en France ?",
+      "options": [
+        "Un système qui aide à payer les frais de santé (médecin, médicaments)",
+        "Une police spéciale pour les hôpitaux",
+        "Un coffre-fort pour garder ses économies",
+        "Le nom d'un grand hôpital à Paris"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La 'Carte Vitale' contient toutes les informations nécessaires pour le remboursement des soins.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'assurance complémentaire qui aide à payer ce que la Sécu ne rembourse pas s'appelle la {{1}} (mutuelle).",
+      "reponsesAttendues": [
+        "mutuelle"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme de santé à sa définition.",
+      "pairs": [
+        {
+          "left": "Pharmacie",
+          "right": "Lieu où l'on achète les médicaments"
+        },
+        {
+          "left": "Ordonnance",
+          "right": "Papier écrit par le médecin listant les soins nécessaires"
+        },
+        {
+          "left": "Carnet de santé",
+          "right": "Document qui suit toute l'histoire médicale d'une personne"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le numéro pour appeler les urgences médicales (SAMU) en France ?",
+      "options": [
+        "15",
+        "17",
+        "18",
+        "114"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

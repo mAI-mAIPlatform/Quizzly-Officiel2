@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Qu'est-ce qu'une fonction ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert une fonction en programmation ?",
+      "options": [
+        "À regrouper un bloc de code pour le réutiliser",
+        "À décorer le programme",
+        "À remplacer les variables",
+        "À éteindre l'ordinateur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une fonction ne s'exécute que lorsqu'on l'appelle.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Créer une fonction permet d'éviter la {{1}} de code.",
+      "reponsesAttendues": [
+        "répétition"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "Définition",
+          "right": "Écrire le code de la fonction"
+        },
+        {
+          "left": "Appel",
+          "right": "Exécuter la fonction"
+        },
+        {
+          "left": "Réutilisation",
+          "right": "Appeler plusieurs fois"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Donner un nom clair à une fonction aide à...",
+      "options": [
+        "Comprendre ce qu'elle fait",
+        "Accélérer le code",
+        "Réduire la taille du fichier",
+        "Éviter les virus"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

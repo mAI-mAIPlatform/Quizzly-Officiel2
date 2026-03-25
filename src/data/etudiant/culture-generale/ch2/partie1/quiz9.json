@@ -1,0 +1,64 @@
+{
+  "id": "quiz9",
+  "titre": "Premiers Secours",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le numéro d'urgence européen à appeler en cas de besoin ?",
+      "options": [
+        "112",
+        "911",
+        "18",
+        "15"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Devant une personne qui s'étouffe totalement, il faut lui donner de grandes claques dans le dos.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La position pour mettre une personne inconsciente qui respire sur le côté est la {{1}} (PLS).",
+      "reponsesAttendues": [
+        "PLS",
+        "Position Latérale de Sécurité"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le geste au problème.",
+      "pairs": [
+        {
+          "left": "Massage cardiaque",
+          "right": "Cœur arrêté"
+        },
+        {
+          "left": "Compression directe",
+          "right": "Saignement abondant (hémorragie)"
+        },
+        {
+          "left": "Arroser à l'eau tempérée",
+          "right": "Brûlure thermique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la première chose à faire quand on arrive sur un accident ?",
+      "options": [
+        "Sécuriser les lieux (Protéger)",
+        "Appeler ses amis",
+        "Prendre une photo",
+        "Partir en courant"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz15",
+  "titre": "School Life Traditions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is a 'Prom' in US schools?",
+      "options": [
+        "A formal dance party at the end of the year",
+        "A difficult math test",
+        "A type of school lunch",
+        "A sports competition"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A 'yearbook' is a book where students' photos and memories are kept.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "When you finish your studies and receive your diploma, it's called {{1}}.",
+      "reponsesAttendues": [
+        "graduation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the school term with its meaning.",
+      "pairs": [
+        {
+          "left": "Uniform",
+          "right": "Set of clothes worn by all students"
+        },
+        {
+          "left": "Homecoming",
+          "right": "Tradition of welcoming back former students"
+        },
+        {
+          "left": "Science fair",
+          "right": "Event where students show their projects"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What do students in the UK often call the 'headmaster' or 'headmistress'?",
+      "options": [
+        "The Headteacher",
+        "The CEO",
+        "The Captain",
+        "The Master"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Debug Projet",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "L'erreur 'Cannot read property addEventListener of null' signifie généralement :",
+      "options": [
+        "L'élément ciblé par l'ID ou la Classe n'a pas été trouvé dans le HTML",
+        "La souris est débranchée",
+        "Le navigateur est trop vieux",
+        "JavaScript est désactivé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il faut toujours vérifier si le fichier JS est bien lié avec console.log('JS chargé').",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'onglet de l'inspecteur pour voir les erreurs de code s'appelle la {{1}} (Console).",
+      "reponsesAttendues": [
+        "Console"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le symptôme à la cause probable.",
+      "pairs": [
+        {
+          "left": "Rien ne se passe au clic",
+          "right": "Écouteur mal attaché ou ID faux"
+        },
+        {
+          "left": "Calcul étrange (10 + 1 = 101)",
+          "right": "L'input renvoie du texte (String)"
+        },
+        {
+          "left": "Page blanche",
+          "right": "Erreur de syntaxe grave"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment transformer le texte d'un input en nombre pour un calcul ?",
+      "options": [
+        "Number(input.value) ou parseInt()",
+        "String(input.value)",
+        "input.value + 0",
+        "On ne peut pas"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

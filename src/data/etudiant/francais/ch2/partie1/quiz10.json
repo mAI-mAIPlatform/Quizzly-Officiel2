@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Synthèse : Réalisme (1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel écrivain a comparé le roman à 'un miroir que l'on promène le long d'un chemin' ?",
+      "options": [
+        "Stendhal",
+        "Zola",
+        "Hugo",
+        "Baudelaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le réalisme évite les sujets tabous ou laids.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le naturalisme est souvent considéré comme une forme de réalisme {{1}}.",
+      "reponsesAttendues": [
+        "poussé"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la citation à l'auteur.",
+      "pairs": [
+        {
+          "left": "J'accuse !",
+          "right": "Zola"
+        },
+        {
+          "left": "La vie, voyez-vous...",
+          "right": "Maupassant"
+        },
+        {
+          "left": "Il n'y a pas de belle littérature sans vérité",
+          "right": "Balzac"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel de ces éléments n'est PAS réaliste ?",
+      "options": [
+        "Une fée transformant une citrouille",
+        "Une description de cuisine",
+        "Un dialogue en patois",
+        "Un portrait de mineur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

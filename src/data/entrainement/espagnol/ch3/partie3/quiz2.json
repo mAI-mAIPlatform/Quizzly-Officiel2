@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Futuro Simple: Regulares",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Je parlerai' (Hablar) ?",
+      "options": [
+        "Hablaré",
+        "Hablaras",
+        "Hablará",
+        "Hablaremos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En el futuro simple se usa el infinitivo completo + terminación.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Ils mangeront' se dice '{{1}}' (Comer).",
+      "reponsesAttendues": [
+        "Comerán"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Terminaciones Futuro.",
+      "pairs": [
+        {
+          "left": "-é",
+          "right": "Yo"
+        },
+        {
+          "left": "-á",
+          "right": "Él / Ella"
+        },
+        {
+          "left": "-emos",
+          "right": "Nosotros"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Dónde vivirás en el futuro?",
+      "options": [
+        "Viviré en Madrid",
+        "Vivo en Madrid",
+        "Viví en Madrid",
+        "Soy Madrid"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

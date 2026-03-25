@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan : Initiation au Littéral",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le facteur commun dans 5x + 15 ?",
+      "options": [
+        "x",
+        "5",
+        "15",
+        "10"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour multiplier deux lettres entre elles (a × b), on peut écrire ab.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si x = 2, x² + x + 1 = {{1}}.",
+      "reponsesAttendues": [
+        "7"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Factorise.",
+      "pairs": [
+        {
+          "left": "2x + 6",
+          "right": "2(x + 3)"
+        },
+        {
+          "left": "x² + 5x",
+          "right": "x(x + 5)"
+        },
+        {
+          "left": "10x - 10",
+          "right": "10(x - 1)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "L'expression 3(x + 2) est égale à :",
+      "options": [
+        "3x + 2",
+        "3x + 6",
+        "5x",
+        "x + 6"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

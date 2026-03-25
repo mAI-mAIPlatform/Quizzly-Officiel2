@@ -1,0 +1,65 @@
+{
+  "id": "quiz9",
+  "titre": "Cas pratique : Empreintes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Si tu vois une empreinte avec 4 doigts et des griffes non rétractiles (qui restent sorties), c'est probablement un...",
+      "options": [
+        "Canidé (Chien, Loup, Renard)",
+        "Félidé (Chat, Lion)",
+        "Oiseau",
+        "Poisson"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une empreinte de main avec un pouce opposable indique souvent la présence d'un primate (Singe).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'empreinte en forme de cœur fendu en deux est typique des animaux à sabots comme le {{1}} (chevreuil / cerf).",
+      "reponsesAttendues": [
+        "chevreuil",
+        "cerf",
+        "sanglier"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'indice à l'animal.",
+      "pairs": [
+        {
+          "left": "Coquilles de noisettes rongées",
+          "right": "Écureuil / Mulot"
+        },
+        {
+          "left": "Nid de brindilles haut dans l'arbre",
+          "right": "Oiseau / Corneille"
+        },
+        {
+          "left": "Traces de dents sur un tronc près de l'eau",
+          "right": "Castor"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le pistage des animaux par leurs traces ?",
+      "options": [
+        "Le tracking ou pistage",
+        "La photographie",
+        "Le jardinage",
+        "La cuisine"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Sommes et produits littéraux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Réduis le produit : 2x × 3x",
+      "options": [
+        "5x",
+        "6x",
+        "6x²",
+        "5x²"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'expression x + x + x est égale à x³.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Réduis : 4a × 5 = {{1}}a",
+      "reponsesAttendues": [
+        "20"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'opération à son résultat.",
+      "pairs": [
+        {
+          "left": "3x + 4x",
+          "right": "7x"
+        },
+        {
+          "left": "3x × 4x",
+          "right": "12x²"
+        },
+        {
+          "left": "3 × 4x",
+          "right": "12x"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que vaut x² × x ?",
+      "options": [
+        "2x²",
+        "x³",
+        "2x³",
+        "x^2"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

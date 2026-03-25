@@ -1,0 +1,63 @@
+{
+  "id": "quiz15",
+  "titre": "Satzbau mit Modalen",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿En qué posición va el segundo verbo (infinitivo) con un modal?",
+      "options": [
+        "Al final de la frase",
+        "En la 2ª posición",
+        "Junto al modal",
+        "No hay segundo verbo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El verbo modal se conjuga y va en la 2ª posición.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Kannst du mir {{1}}? (aider)",
+      "reponsesAttendues": [
+        "helfen"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la frase correcta.",
+      "pairs": [
+        {
+          "left": "Müssen",
+          "right": "Ich muss jetzt gehen"
+        },
+        {
+          "left": "Können",
+          "right": "Wir können Deutsch sprechen"
+        },
+        {
+          "left": "Frage",
+          "right": "Kannst du schwimmen?"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Je dois ranger ma chambre'?",
+      "options": [
+        "Ich muss mein Zimmer aufräumen",
+        "Ich muss aufräumen mein Zimmer",
+        "Ich aufräumen muss mein Zimmer",
+        "Mein Zimmer muss ich aufräumen"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

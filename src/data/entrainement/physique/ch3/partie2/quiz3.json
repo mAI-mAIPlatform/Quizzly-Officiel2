@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Le transfert mécanique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment se réalise un transfert mécanique ?",
+      "options": [
+        "Par un courant électrique",
+        "Par une action de contact ou de mouvement (force)",
+        "Par la lumière",
+        "Par le son"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un moteur transfère de l'énergie mécanique aux roues d'une voiture.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le vent transfère de l'énergie {{1}} aux pales d'une éolienne.",
+      "reponsesAttendues": [
+        "mécanique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'appareil à la production de mouvement.",
+      "pairs": [
+        {
+          "left": "Hélice",
+          "right": "Transfère l'énergie à l'air ou l'eau"
+        },
+        {
+          "left": "Élastique tendu",
+          "right": "Stocke de l'énergie mécanique"
+        },
+        {
+          "left": "Freins",
+          "right": "Transforment le mouvement en chaleur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la conséquence d'un frottement lors d'un transfert mécanique ?",
+      "options": [
+        "Rien ne se passe",
+        "Une partie de l'énergie est perdue sous forme de chaleur",
+        "L'objet va plus vite",
+        "L'objet change de couleur"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "América Latina y Comida",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿De qué país son los 'Tacos'?",
+      "options": [
+        "México",
+        "Argentina",
+        "Chile",
+        "España"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Empanadas' son una especie de chaussons farcis.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'L'avocat' (fruit) se dice {{1}} en México.",
+      "reponsesAttendues": [
+        "aguacate"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Platos Latinos.",
+      "pairs": [
+        {
+          "left": "Arepas",
+          "right": "Venezuela / Colombia"
+        },
+        {
+          "left": "Ceviche",
+          "right": "Perú"
+        },
+        {
+          "left": "Mate",
+          "right": "Argentina / Uruguay"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué es el guacamole?",
+      "options": [
+        "Una salsa de aguacate",
+        "Un postre de leche",
+        "Una sopa fría",
+        "Un tipo de pan"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

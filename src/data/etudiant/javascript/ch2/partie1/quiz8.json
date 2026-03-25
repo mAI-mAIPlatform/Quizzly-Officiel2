@@ -1,0 +1,64 @@
+{
+  "id": "quiz8",
+  "titre": "Sélecteurs complexes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment sélectionner tous les <p> qui sont à l'intérieur d'un <article> ?",
+      "options": [
+        "document.querySelectorAll(\"article p\")",
+        "document.get(\"article > p\")",
+        "document.find(\"article p\")",
+        "article.getParagraphs()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser les sélecteurs d'attributs comme '[type=\"text\"]' dans querySelector.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour sélectionner le premier enfant direct, on utilise le symbole {{1}} (>) (chevron).",
+      "reponsesAttendues": [
+        ">",
+        "chevron"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le sélecteur à sa cible précise.",
+      "pairs": [
+        {
+          "left": "\".box.red\"",
+          "right": "Élément ayant les DEUX classes"
+        },
+        {
+          "left": "\".box .red\"",
+          "right": "Élément .red DANS un élément .box"
+        },
+        {
+          "left": "\"button:disabled\"",
+          "right": "Bouton désactivé"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "querySelector(\"h1, h2\") sélectionne :",
+      "options": [
+        "Le premier élément qui est soit un h1, soit un h2",
+        "Tous les h1 et tous les h2",
+        "Seulement les h1",
+        "Rien du tout, c'est invalide"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

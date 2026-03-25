@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Conditions et Boîtes de dialogue",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle fonction affiche une boîte avec 'OK' et 'Annuler' ?",
+      "options": [
+        "alert()",
+        "confirm()",
+        "prompt()",
+        "ask()"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "confirm() renvoie un booléen (true pour OK, false pour Annuler).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour demander du texte, on utilise {{1}}().",
+      "reponsesAttendues": [
+        "prompt"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la fonction à son usage.",
+      "pairs": [
+        {
+          "left": "alert",
+          "right": "Afficher une info"
+        },
+        {
+          "left": "confirm",
+          "right": "Demander une validation (boolean)"
+        },
+        {
+          "left": "prompt",
+          "right": "Demander une saisie (string)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment tester si l'utilisateur a cliqué sur 'Annuler' dans confirm() ?",
+      "options": [
+        "if (confirm())",
+        "if (!confirm())",
+        "if (confirm() == 'Annuler')",
+        "On ne peut pas"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

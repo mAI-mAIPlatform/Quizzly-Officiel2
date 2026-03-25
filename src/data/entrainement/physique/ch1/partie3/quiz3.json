@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Identifier l'eau (Test chimique)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel produit chimique utilise-t-on pour détecter la présence d'eau ?",
+      "options": [
+        "Le sel de cuisine",
+        "Le sulfate de cuivre anhydre",
+        "Le vinaigre",
+        "L'iode"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le sulfate de cuivre anhydre (sans eau) est de couleur blanche.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "En présence d'eau, le sulfate de cuivre anhydre devient de couleur {{1}}.",
+      "reponsesAttendues": [
+        "bleue"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le résultat au test du sulfate de cuivre.",
+      "pairs": [
+        {
+          "left": "Reste blanc",
+          "right": "Absence d'eau"
+        },
+        {
+          "left": "Devient bleu",
+          "right": "Présence d'eau"
+        },
+        {
+          "left": "Anhydre",
+          "right": "Qui ne contient pas d'eau"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on prouver que l'eau est pure avec ce test ?",
+      "options": [
+        "Oui, s'il devient bleu c'est de l'eau pure",
+        "Non, il indique juste la présence d'eau (même dans un mélange)",
+        "Oui, s'il reste blanc",
+        "Ce test ne marche que pour l'eau salée"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

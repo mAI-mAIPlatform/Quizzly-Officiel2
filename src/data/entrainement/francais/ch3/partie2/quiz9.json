@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Assonance et Allitération",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une allitération ?",
+      "options": [
+        "La répétition d'un son de consonne",
+        "La répétition d'un son de voyelle",
+        "Une comparaison",
+        "Une fin de vers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans 'Tout m'afflige et me nuit et conspire à me nuire', il y a une allitération en [n].",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'{{1}} est la répétition d'un même son de voyelle (ex: [a] ou [o]).",
+      "reponsesAttendues": [
+        "assonance"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Identifie le son répété.",
+      "pairs": [
+        {
+          "left": "Pour qui sont ces serpents...",
+          "right": "Allitération en [s]"
+        },
+        {
+          "left": "Je fais souvent ce rêve étrange...",
+          "right": "Assonance en [an]"
+        },
+        {
+          "left": "Belles voitures bleues",
+          "right": "Allitération en [b]"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "À quoi servent ces figures ?",
+      "options": [
+        "À créer une harmonie musicale ou un effet sonore",
+        "À expliquer une règle",
+        "À dessiner un schéma",
+        "À rien du tout"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

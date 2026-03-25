@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Síntesis Cultura 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "En 2019, mi familia {{1}} (ir) a la Tomatina.",
+      "options": [
+        "fue",
+        "va",
+        "iba",
+        "fuiste"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Las Fallas se celebran en marzo.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "¡{{1}} (dar) tú el regalo a tu abuela!",
+      "reponsesAttendues": [
+        "Da"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el concepto.",
+      "pairs": [
+        {
+          "left": "Flamenco",
+          "right": "Zapateado y palmas"
+        },
+        {
+          "left": "Reyes Magos",
+          "right": "6 de enero"
+        },
+        {
+          "left": "Indefinido",
+          "right": "Ayer, anoche, pasado"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Traduce: 'Hier, j'ai mangé des turrones'.",
+      "options": [
+        "Ayer comí turrones",
+        "Mañana como turrones",
+        "Ayer como turrones",
+        "Hoy comí turrones"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

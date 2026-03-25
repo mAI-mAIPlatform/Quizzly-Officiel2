@@ -1,0 +1,63 @@
+{
+  "id": "quiz22",
+  "titre": "Haustiere",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Le chien'?",
+      "options": [
+        "Der Hund",
+        "Die Katze",
+        "Das Kaninchen",
+        "Der Vogel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Die Katze' es femenino en alemán.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Mein Haustier ist ein {{1}} (lapin).",
+      "reponsesAttendues": [
+        "Kaninchen"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el animal.",
+      "pairs": [
+        {
+          "left": "Das Meerschweinchen",
+          "right": "Cochon d'Inde"
+        },
+        {
+          "left": "Das Pferd",
+          "right": "Cheval"
+        },
+        {
+          "left": "Der Fisch",
+          "right": "Poisson"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'süß' referido a un animal?",
+      "options": [
+        "Mignon",
+        "Grand",
+        "Méchant",
+        "Vieux"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

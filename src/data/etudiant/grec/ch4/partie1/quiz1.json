@@ -1,0 +1,64 @@
+{
+  "id": "quiz1",
+  "titre": "Les Dialectes Grecs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel dialecte est devenu la base de la langue 'commune' (Koinê) et du grec littéraire classique ?",
+      "options": [
+        "L'Attique (Athènes)",
+        "Le Dorien (Sparte)",
+        "L'Eolien (Lesbos)",
+        "Le Chypriote"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Homère a écrit l'Iliade et l'Odyssée dans un mélange de dialectes (principalement ionien-éolien).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le dialecte parlé à Sparte et dans le Péloponnèse est le {{1}} (dorien).",
+      "reponsesAttendues": [
+        "dorien"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la région au dialecte.",
+      "pairs": [
+        {
+          "left": "Athènes",
+          "right": "Attique"
+        },
+        {
+          "left": "Ionie (Asie Mineure)",
+          "right": "Ionien"
+"
+        },
+        {
+          "left": "Lesbos",
+          "right": "Éolien"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle lettre est souvent remplacée par un 'a' long (alpha) en dorien alors qu'en attique c'est un 'ê' (êta) ?",
+      "options": [
+        "Eta (η)",
+        "Sigma (σ)",
+        "Omega (ω)",
+        "Pi (π)"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan du Chapitre 4 : Écosystèmes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la leçon finale de ce chapitre ?",
+      "options": [
+        "La nature est solide comme le roc",
+        "Les écosystèmes sont fragiles et précieux, nous devons en prendre soin",
+        "L'homme n'a aucun impact",
+        "Les animaux mangent tout"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Préserver la biodiversité, c'est aussi préserver l'avenir de l'humanité.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Chaque geste compte pour limiter notre {{1}} écologique.",
+      "reponsesAttendues": [
+        "empreinte"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dernier défi du cours :",
+      "pairs": [
+        {
+          "left": "Écosystème",
+          "right": "Biotope + Biocénose"
+        },
+        {
+          "left": "Réseau",
+          "right": "Qui mange quoi"
+        },
+        {
+          "left": "Impact",
+          "right": "Influence humaine"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Bravo ! Vous avez terminé le programme de SVT de 5ème !",
+      "options": [
+        "Je suis un expert en nature !",
+        "C'était trop facile",
+        "On recommence ?",
+        "À bientôt pour la 4ème !"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

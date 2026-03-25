@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "querySelector",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode moderne permet de sélectionner un élément avec un sélecteur CSS (ex: .maClasse) ?",
+      "options": [
+        "document.querySelector()",
+        "document.selectCSS()",
+        "document.getElementByClass()",
+        "document.find(\".classe\")"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "querySelector ne renvoie que le PREMIER élément qui correspond au sélecteur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour sélectionner une classe 'rouge', on écrit : document.querySelector(\"{{1}}\") (.rouge).",
+      "reponsesAttendues": [
+        ".rouge"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le sélecteur à sa cible.",
+      "pairs": [
+        {
+          "left": "\"h1\"",
+          "right": "Le premier titre h1"
+        },
+        {
+          "left": "\".menu\"",
+          "right": "Le premier élément de classe menu"
+        },
+        {
+          "left": "\"#valider\"",
+          "right": "L'élément d'ID valider"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage de querySelector par rapport à getElementById ?",
+      "options": [
+        "Il est plus flexible car il utilise la syntaxe des sélecteurs CSS",
+        "Il est plus rapide",
+        "Il n'a pas besoin de guillemets",
+        "Il fonctionne sans document"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

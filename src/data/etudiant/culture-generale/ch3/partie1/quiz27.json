@@ -1,0 +1,65 @@
+{
+  "id": "quiz7",
+  "titre": "Vocabulaire Ciné/Image",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Travelling' au cinéma ?",
+      "options": [
+        "Un déplacement réel de la caméra pendant la prise de vue",
+        "Un zoom avec l'objectif",
+        "Le voyage des acteurs par avion",
+        "Le nom du réalisateur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'Hors-champ' désigne tout ce qui n'est pas vu à l'écran mais qui existe dans l'espace de l'histoire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La transition où une image disparaît progressivement tandis qu'une autre apparaît s'appelle un {{1}} (fondu enchaîné).",
+      "reponsesAttendues": [
+        "fondu enchaîné",
+        "fondu enchaine",
+        "fondu"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'angle de vue à son effet.",
+      "pairs": [
+        {
+          "left": "Plongée (de haut en bas)",
+          "right": "Donne une impression de faiblesse ou d'écrasement du sujet"
+        },
+        {
+          "left": "Contre-plongée (de bas en haut)",
+          "right": "Donne une impression de puissance ou de grandeur au sujet"
+        },
+        {
+          "left": "Gros Plan",
+          "right": "Sert à montrer l'émotion sur le visage d'un personnage"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Plan-séquence' ?",
+      "options": [
+        "Une scène filmée en une seule prise, sans aucune coupure",
+        "La liste des acteurs",
+        "Un dessin du décor",
+        "Une photo prise sur le plateau"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

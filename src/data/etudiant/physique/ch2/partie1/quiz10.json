@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Synthèse Élec 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle combinaison appareil/unité est correcte ?",
+      "options": [
+        "Ampèremètre / Ampère",
+        "Voltmètre / Ampère",
+        "Ohmmètre / Volt",
+        "Ampèremètre / Volt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'intensité se mesure aux bornes du dipôle sans débrancher de fils.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La borne {{1}} est la borne de sortie pour le voltmètre et l'ampèremètre.",
+      "reponsesAttendues": [
+        "COM"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la loi au type de circuit.",
+      "pairs": [
+        {
+          "left": "Unicité de l'intensité",
+          "right": "Circuit en série"
+        },
+        {
+          "left": "Unicité de la tension",
+          "right": "Circuit en dérivation"
+        },
+        {
+          "left": "Additivité des intensités",
+          "right": "Circuit en dérivation"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si on branche un voltmètre en série...",
+      "options": [
+        "Il affiche la tension mais bloque presque tout le courant",
+        "Il grille instantanément",
+        "La lampe brille plus fort",
+        "Le générateur explose"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Le Contexte de Dessin",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode JS permet d'obtenir l'objet de dessin ?",
+      "options": [
+        "getContext('2d')",
+        "draw('2d')",
+        "startDrawing()",
+        "initContext()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'objet 'ctx' (contexte) contient toutes les méthodes pour dessiner.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour dessiner en 3D (WebGL), on utilise getContext('{{1}}').",
+      "reponsesAttendues": [
+        "webgl"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Setup JS.",
+      "pairs": [
+        {
+          "left": "canvas.getContext('2d')",
+          "right": "Récupère le 'stylo'"
+        },
+        {
+          "left": "canvas.width",
+          "right": "Largeur réelle"
+        },
+        {
+          "left": "ctx.fillStyle",
+          "right": "Couleur de remplissage"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'axe des coordonnées par défaut ?",
+      "options": [
+        "L'origine (0,0) est en haut à gauche",
+        "L'origine est au centre",
+        "L'origine est en bas à droite",
+        "Il n'y a pas d'axe"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

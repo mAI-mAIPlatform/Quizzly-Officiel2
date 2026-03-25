@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Types : Number",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment écrit-on un nombre décimal en JavaScript ?",
+      "options": [
+        "Avec un point (ex: 10.5)",
+        "Avec une virgule (ex: 10,5)",
+        "Avec un d (ex: 10d5)",
+        "JavaScript ne gère pas les décimaux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le type 'Number' gère à la fois les entiers et les nombres à virgule.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La valeur spéciale {{1}} signifie 'Not a Number' (Pas un nombre) (NaN).",
+      "reponsesAttendues": [
+        "NaN"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'opération au résultat.",
+      "pairs": [
+        {
+          "left": "10 / 2",
+          "right": "5"
+        },
+        {
+          "left": "2 ** 3",
+          "right": "8 (puissance)"
+        },
+        {
+          "left": "10 % 3",
+          "right": "1 (reste)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si on divise par zéro en JavaScript ?",
+      "options": [
+        "On obtient 'Infinity'",
+        "Le programme s'arrête net",
+        "L'ordinateur explose",
+        "On obtient 0"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

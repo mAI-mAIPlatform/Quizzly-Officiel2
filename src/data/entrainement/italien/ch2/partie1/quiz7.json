@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Les expressions avec Avere",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'J'ai faim' ?",
+      "options": [
+        "Ho fame",
+        "Sono faim",
+        "Ho fette",
+        "Sono fame"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Avere sete' signifie 'Avoir soif'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Avoir peur se dit 'Avere {{1}}'.",
+      "reponsesAttendues": [
+        "paura"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'expression.",
+      "pairs": [
+        {
+          "left": "Avere sonno",
+          "right": "Avoir sommeil"
+        },
+        {
+          "left": "Avere caldo",
+          "right": "Avoir chaud"
+        },
+        {
+          "left": "Avere freddo",
+          "right": "Avoir froid"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'J'ai besoin de...' ?",
+      "options": [
+        "Ho bisogno di...",
+        "Ho necessita...",
+        "Sono besoin de...",
+        "Ho voglia di..."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

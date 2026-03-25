@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Prix Littéraires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le plus prestigieux prix littéraire français, attribué chaque année en novembre ?",
+      "options": [
+        "Le Prix Goncourt",
+        "Le Prix Renaudot",
+        "Le Prix Fémina",
+        "La Palme d'Or"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Prix Nobel de Littérature est une récompense internationale remise chaque année en Suède.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'académie qui décerne le prix Goncourt s'appelle l'Académie {{1}} (Goncourt).",
+      "reponsesAttendues": [
+        "Goncourt"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le prix à sa particularité.",
+      "pairs": [
+        {
+          "left": "Prix Goncourt",
+          "right": "Ne peut être reçu qu'une seule fois par un auteur"
+        },
+        {
+          "left": "Prix Nobel",
+          "right": "Récompense l'ensemble d'une œuvre"
+        },
+        {
+          "left": "Goncourt des lycéens",
+          "right": "Le jury est composé d'élèves de seconde, première et terminale"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi un prix littéraire est-il important pour un livre ?",
+      "options": [
+        "Il apporte une grande visibilité et multiplie souvent les ventes",
+        "Il rend le livre plus lourd",
+        "Il change la couleur de la couverture",
+        "Il permet de ne plus payer d'impôts"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

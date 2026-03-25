@@ -1,0 +1,63 @@
+{
+  "id": "quiz23",
+  "titre": "Diviser par un décimal",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Diviser par 0,5 revient à :",
+      "options": [
+        "Diviser par 2",
+        "Multiplier par 2",
+        "Soustraire 0,5",
+        "Diviser par 5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "10 / 0,1 est égal à 1.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Calcule : 6 / 0,2 = {{1}}",
+      "reponsesAttendues": [
+        "30"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la division à sa multiplication équivalente.",
+      "pairs": [
+        {
+          "left": "/ 0,1",
+          "right": "× 10"
+        },
+        {
+          "left": "/ 0,5",
+          "right": "× 2"
+        },
+        {
+          "left": "/ 0,25",
+          "right": "× 4"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Calcule : 1,2 / 0,3",
+      "options": [
+        "0,4",
+        "4",
+        "40",
+        "400"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

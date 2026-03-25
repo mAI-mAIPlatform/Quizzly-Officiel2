@@ -1,0 +1,65 @@
+{
+  "id": "quiz25",
+  "titre": "Le mot-clé break",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert le mot-clé 'break' ?",
+      "options": [
+        "À sortir immédiatement d'une boucle",
+        "À faire une pause de 10 secondes",
+        "À casser l'ordinateur",
+        "À recommencer au début"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On utilise souvent 'break' à l'intérieur d'une condition 'if' placée dans une boucle.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'instruction 'break' permet d'arrêter une boucle même si sa condition de départ est encore {{1}} (Vraie / True).",
+      "reponsesAttendues": [
+        "Vraie",
+        "True",
+        "vraie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la situation à l'usage de break.",
+      "pairs": [
+        {
+          "left": "while True:",
+          "right": "Nécessite souvent un break pour s'arrêter"
+        },
+        {
+          "left": "Objet trouvé dans une liste",
+          "right": "break pour ne pas continuer à chercher inutilement"
+        },
+        {
+          "left": "Erreur critique",
+          "right": "break pour stopper le processus"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il pour le code situé APRÈS la boucle quand on fait un break ?",
+      "options": [
+        "Il s'exécute normalement",
+        "Il est ignoré",
+        "Il produit une erreur",
+        "Il est supprimé"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

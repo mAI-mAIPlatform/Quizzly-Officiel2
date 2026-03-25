@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "La Légion Romaine",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est l'unité de base de l'armée romaine ?",
+      "options": [
+        "La légion",
+        "La cohorte",
+        "La centurie",
+        "Le manipule"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un légionnaire était un citoyen romain engagé pour plusieurs années.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le chef d'une centurie s'appelle le {{1}} (centurio).",
+      "reponsesAttendues": [
+        "centurion"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le grade militaire.",
+      "pairs": [
+        {
+          "left": "Legatus",
+          "right": "Général de légion"
+        },
+        {
+          "left": "Signifer",
+          "right": "Porte-enseigne"
+        },
+        {
+          "left": "Optio",
+          "right": "Adjoint du centurion"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'enseigne de la légion avec un aigle ?",
+      "options": [
+        "L'aquila",
+        "Le signum",
+        "Le vexillum",
+        "Le scutum"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

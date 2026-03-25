@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Sentimentos",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Felicidad'?",
+      "options": [
+        "Felicidade",
+        "Tristeza",
+        "Raiva",
+        "Medo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Saudade' es una palabra única del portugués para referirse a la nostalgia.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu estou com {{1}} (sorrow/saudades) de você.",
+      "reponsesAttendues": [
+        "saudades"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el sentimiento.",
+      "pairs": [
+        {
+          "left": "Alegria",
+          "right": "Joie"
+        },
+        {
+          "left": "Orgulho",
+          "right": "Fierté"
+        },
+        {
+          "left": "Vergonha",
+          "right": "Honte"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'apaixonado'?",
+      "options": [
+        "Enamorado / Apasionado",
+        "Enfadado",
+        "Aburrido",
+        "Cansado"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

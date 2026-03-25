@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Applications des mélanges",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel mélange de la vie courante est indispensable à la respiration ?",
+      "options": [
+        "L'eau",
+        "L'air (mélange de gaz)",
+        "Le sirop",
+        "Le café"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le bronze est un mélange homogène de métaux (alliage).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les produits d'entretien sont souvent des solutions {{1}}.",
+      "reponsesAttendues": [
+        "aqueuses"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'usage au type de mélange.",
+      "pairs": [
+        {
+          "left": "Acier",
+          "right": "Construction (solide homogène)"
+        },
+        {
+          "left": "Serum physiologique",
+          "right": "Santé (solution saline)"
+        },
+        {
+          "left": "Lait",
+          "right": "Alimentation (mélange complexe)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il important de lire les étiquettes des produits chimiques ?",
+      "options": [
+        "Pour apprendre à lire",
+        "Pour connaître les dangers et les précautions d'emploi",
+        "Pour savoir combien ça coûte",
+        "Pour voir les jolis dessins"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Instrumentos Musicais",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Le piano' ?",
+      "options": [
+        "O piano",
+        "A guitarra",
+        "A flauta",
+        "A bateria"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Guitarra portuguesa' é essencial no Fado.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu toco {{1}} (violon).",
+      "reponsesAttendues": [
+        "violino"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Instrumentos.",
+      "pairs": [
+        {
+          "left": "Tocar",
+          "right": "Jouer (instrument)"
+        },
+        {
+          "left": "Cantar",
+          "right": "Chanter"
+        },
+        {
+          "left": "Ouvir",
+          "right": "Écouter"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Sabes tocar algum instrumento?",
+      "options": [
+        "Sim, toco guitarra",
+        "Sim, sou um piano",
+        "Não, sou dez anos",
+        "Olá"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

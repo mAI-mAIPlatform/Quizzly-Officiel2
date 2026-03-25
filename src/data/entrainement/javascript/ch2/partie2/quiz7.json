@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Ternaires imbriquées",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Peut-on mettre un ternaire dans un autre ternaire ?",
+      "options": [
+        "Non, JS explose",
+        "Oui, mais c'est déconseillé pour la lisibilité",
+        "Oui, c'est la meilleure pratique",
+        "Uniquement dans le else"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un ternaire imbriqué peut souvent être remplacé par un 'if...else if' plus clair.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La règle d'or : si le code devient {{1}}, évitez le ternaire.",
+      "reponsesAttendues": [
+        "illisible"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la structure au conseil.",
+      "pairs": [
+        {
+          "left": "Ternaire simple",
+          "right": "Parfait pour x = c ? a : b"
+        },
+        {
+          "left": "Ternaire imbriqué",
+          "right": "À éviter si possible"
+        },
+        {
+          "left": "If / Else",
+          "right": "À utiliser pour la logique complexe"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que vaut '(1 > 2) ? 'A' : (3 > 2) ? 'B' : 'C' ?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "false"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

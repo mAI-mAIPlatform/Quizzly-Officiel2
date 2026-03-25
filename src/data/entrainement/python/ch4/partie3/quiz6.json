@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Performance et Usages",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle structure est la plus rapide pour vérifier si un élément existe ?",
+      "options": [
+        "Set (ou Dict)",
+        "Liste",
+        "Tuple",
+        "Chaîne de caractères"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Chercher dans une liste peut prendre du temps si elle est énorme.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La complexité de recherche dans un set est O({{1}}).",
+      "reponsesAttendues": [
+        "1"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Usage idéal.",
+      "pairs": [
+        {
+          "left": "Liste",
+          "right": "Garder l'ordre"
+        },
+        {
+          "left": "Set",
+          "right": "Unicité / Recherche"
+        },
+        {
+          "left": "Dict",
+          "right": "Association par Label"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment supprimer les doublons d'une liste 'L' ?",
+      "options": [
+        "list(set(L))",
+        "L.unique()",
+        "L.clean()",
+        "set.from_list(L)"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

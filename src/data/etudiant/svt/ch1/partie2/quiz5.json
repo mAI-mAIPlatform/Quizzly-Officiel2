@@ -1,0 +1,63 @@
+{
+  "id": "quiz15",
+  "titre": "Ressources Naturelles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un granulat utilisé dans la construction ?",
+      "options": [
+        "Un mélange de sable et de graviers",
+        "Un type de peinture",
+        "Une plante décorative",
+        "Un gaz combustible"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'exploitation des carrières peut modifier durablement le paysage.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La roche sédimentaire utilisée pour fabriquer du ciment est le {{1}}.",
+      "reponsesAttendues": [
+        "calcaire"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la ressource à son utilisation.",
+      "pairs": [
+        {
+          "left": "Argile",
+          "right": "Fabrication de tuiles et briques"
+        },
+        {
+          "left": "Sable / Gravier",
+          "right": "Fabrication du béton"
+        },
+        {
+          "left": "Charbon / Pétrole",
+          "right": "Énergies fossiles"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est l'obligation d'un exploitant de carrière après la fin de l'activité ?",
+      "options": [
+        "Remettre le site en état (réaménagement écologique)",
+        "Abandonner tout en l'état",
+        "Construire un centre commercial",
+        "Remplir le trou avec des ordures"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

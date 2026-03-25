@@ -46,7 +46,7 @@ export default function Home() {
         <div className="lg:col-span-2 flex flex-col gap-6">
           
           {/* Reprendre où vous en étiez */}
-          <Link href="/matiere/maths-6/ch2" className="glass p-6 group hover:border-primary/60 transition-colors duration-500 cursor-pointer relative overflow-hidden block">
+          <Link href="/matiere/maths-debutant/ch2" className="glass p-6 group hover:border-primary/60 transition-colors duration-500 cursor-pointer relative overflow-hidden block">
             <div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 rounded-full blur-3xl -mr-16 -mt-16 transition-transform group-hover:scale-150 duration-700"></div>
             <h2 className="text-2xl font-space font-bold mb-4">Reprendre l'apprentissage</h2>
             <div className="flex items-center gap-6">
@@ -54,7 +54,7 @@ export default function Home() {
                 <span className="text-3xl">📐</span>
               </div>
               <div className="flex-1">
-                <h3 className="text-xl font-bold">Mathématiques - 6ème</h3>
+                <h3 className="text-xl font-bold">Mathématiques - Débutant</h3>
                 <p className="opacity-70 mb-3">Chapitre en cours</p>
                 <div className="w-full h-2 bg-foreground/10 rounded-full overflow-hidden">
                   <div className="h-full bg-gradient-to-r from-blue to-cyan rounded-full transition-all duration-1000" style={{ width: `${mathsProgressPercent}%` }}></div>

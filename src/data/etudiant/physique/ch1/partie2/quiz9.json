@@ -1,0 +1,63 @@
+{
+  "id": "quiz19",
+  "titre": "Révisions transformations",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Laquelle de ces transformations est chimique ?",
+      "options": [
+        "La combustion du bois",
+        "La condensation de la vapeur sur une vitre",
+        "Le découpage d'une feuille de papier",
+        "La dissolution du sel dans l'eau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'eau de mer est un corps pur.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un mélange où l'on ne distingue pas les constituants à l'œil nu est dit {{1}}.",
+      "reponsesAttendues": [
+        "homogène"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'action au bon test.",
+      "pairs": [
+        {
+          "left": "Vérifier si un gaz est du CO2",
+          "right": "Eau de chaux"
+        },
+        {
+          "left": "Vérifier si un liquide est de l'eau",
+          "right": "Sulfate de cuivre anhydre"
+        },
+        {
+          "left": "Vérifier si un gaz est du O2",
+          "right": "Bûchette incandescente"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lors d'une combustion, le combustible est :",
+      "options": [
+        "Le corps qui brûle",
+        "Le corps qui fait brûler",
+        "Le gaz résiduel",
+        "La cendre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

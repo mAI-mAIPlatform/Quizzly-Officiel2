@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Pourcentages de réduction",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Un pull à 40€ est soldé à -20%. Quel est le nouveau prix ?",
+      "options": [
+        "20€",
+        "32€",
+        "38€",
+        "30€"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Réduire de 50% revient à diviser le prix par 2.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si je retire 10% de 500, il me reste {{1}}.",
+      "reponsesAttendues": [
+        "450"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la réduction au multiplicateur.",
+      "pairs": [
+        {
+          "left": "-10%",
+          "right": "× 0.9"
+        },
+        {
+          "left": "-25%",
+          "right": "× 0.75"
+        },
+        {
+          "left": "-50%",
+          "right": "× 0.5"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Une remise de 5€ sur un article de 20€ correspond à :",
+      "options": [
+        "5%",
+        "10%",
+        "20%",
+        "25%"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

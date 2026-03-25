@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Pythagore : L'hypoténuse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans un triangle rectangle, le plus long côté s'appelle :",
+      "options": [
+        "Le côté adjacent",
+        "L'hypoténuse",
+        "Le côté opposé",
+        "La diagonale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le théorème de Pythagore ne s'applique que dans les triangles rectangles.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si ABC est rectangle en A, alors BC² = AB² + {{1}}²",
+      "reponsesAttendues": [
+        "AC"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le triangle à son hypoténuse.",
+      "pairs": [
+        {
+          "left": "ABC rectangle en A",
+          "right": "[BC]"
+        },
+        {
+          "left": "DEF rectangle en E",
+          "right": "[DF]"
+        },
+        {
+          "left": "IJK rectangle en K",
+          "right": "[IJ]"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si AB=3 et AC=4 dans un triangle ABC rectangle en A, alors BC vaut :",
+      "options": [
+        "5",
+        "7",
+        "25",
+        "1"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

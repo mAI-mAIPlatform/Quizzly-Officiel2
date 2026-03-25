@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Mots Polysémiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un mot polysémique ?",
+      "options": [
+        "Un mot qui a plusieurs sens",
+        "Un mot qui n'a aucun sens",
+        "Un mot qui s'écrit de plusieurs façons",
+        "Un mot très long"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le mot 'Pièce' est polysémique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une {{1}} peut être un meuble ou un groupe au collège.",
+      "reponsesAttendues": [
+        "classe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Différents sens de 'Carte'.",
+      "pairs": [
+        {
+          "left": "Carte de jeu",
+          "right": "Poker / Belote"
+        },
+        {
+          "left": "Carte routière",
+          "right": "Géographie"
+        },
+        {
+          "left": "Carte bancaire",
+          "right": "Paiement"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel sens a 'Avocat' dans la phrase : 'Il a mangé un avocat' ?",
+      "options": [
+        "Un fruit",
+        "Un métier de justice",
+        "Une couleur",
+        "Un animal"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

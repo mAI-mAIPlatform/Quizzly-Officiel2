@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Reconnaître la Proportionnalité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans un tableau de proportionnalité, on passe d'une ligne à l'autre en :",
+      "options": [
+        "Ajoutant le même nombre",
+        "Multipliant par le même nombre",
+        "Soustrayant le même nombre",
+        "Divisant par des nombres différents"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le prix payé est toujours proportionnel au poids des fruits achetés au kilo.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le nombre par lequel on multiplie la première ligne pour obtenir la seconde s'appelle le {{1}} de proportionnalité.",
+      "reponsesAttendues": [
+        "coefficient"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Proportionnel ou non ?",
+      "pairs": [
+        {
+          "left": "Âge et Taille",
+          "right": "Non proportionnel"
+        },
+        {
+          "left": "Distance et Temps (vitesse constante)",
+          "right": "Proportionnel"
+        },
+        {
+          "left": "Quantité et Prix total",
+          "right": "Proportionnel"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel de ces tableaux est proportionnel ? (L1: 2, 4 | L2: 6, ?)",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "6"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

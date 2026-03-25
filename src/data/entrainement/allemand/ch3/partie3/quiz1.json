@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Haustiere (Animaux domestiques)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Le chien' ?",
+      "options": [
+        "Der Hund",
+        "Die Katze",
+        "Das Kaninchen",
+        "Der Vogel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Katze' ist feminin.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Mein {{1}} (lapin) ist weiß.",
+      "reponsesAttendues": [
+        "Kaninchen"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Haustiere.",
+      "pairs": [
+        {
+          "left": "Meerschweinchen",
+          "right": "Cochon d'Inde"
+        },
+        {
+          "left": "Schildkröte",
+          "right": "Tortue"
+"        },
+        {
+          "left": "Goldfisch",
+          "right": "Poisson rouge"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Hast du ein Haustier?",
+      "options": [
+        "Ja, ich habe einen Hund",
+        "Ja, ich bin ein Hund",
+        "Hund ist ein Brot",
+        "Hallo Hund"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

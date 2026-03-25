@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Los Dulces Españoles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué se suele mojar en el chocolate caliente?",
+      "options": [
+        "Churros",
+        "Pan",
+        "Carne",
+        "Patatas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El 'Turrón' es un dulce típico de Navidad.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La crema catalana lleva una capa de {{1}} quemado.",
+      "reponsesAttendues": [
+        "azúcar"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Postres.",
+      "pairs": [
+        {
+          "left": "Arroz con leche",
+          "right": "Riz au lait"
+        },
+        {
+          "left": "Flan",
+          "right": "Flan au caramel"
+        },
+        {
+          "left": "Polvorones",
+          "right": "Biscuits de Noël friables"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿A qué hora se suelen comer los churros?",
+      "options": [
+        "Desayuno o Merienda",
+        "Cena",
+        "Almuerzo",
+        "Medianoche"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

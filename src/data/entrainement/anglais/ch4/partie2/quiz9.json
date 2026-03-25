@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Grammar : Adverbs of Manner",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "She types very _____.",
+      "options": [
+        "quickly",
+        "quick",
+        "quickest",
+        "more quick"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Most adverbs end in -ly (ex: slow -> slowly).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "He speaks English {{1}}. (Parfaitement).",
+      "reponsesAttendues": [
+        "perfectly"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match adjective to adverb.",
+      "pairs": [
+        {
+          "left": "Happy",
+          "right": "Happily"
+        },
+        {
+          "left": "Quiet",
+          "right": "Quietly"
+        },
+        {
+          "left": "Fast",
+          "right": "Fast (irregular)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Which one is an adverb?",
+      "options": [
+        "Carefully",
+        "Careful",
+        "Care",
+        "Cared"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

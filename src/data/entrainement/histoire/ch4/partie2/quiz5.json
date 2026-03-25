@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Le partage du monde : Tordesillas",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le traité de Tordesillas (1494) ?",
+      "options": [
+        "Un traité de paix entre la France et l'Espagne",
+        "Un partage du monde entre l'Espagne et le Portugal",
+        "L'invention d'une nouvelle monnaie",
+        "La fin de la guerre de Cent Ans"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Pape a arbitré ce partage entre les deux puissances catholiques.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La ligne imaginaire séparant les zones espagnoles et portugaises s'appelle le {{1}}.",
+      "reponsesAttendues": [
+        "méridien"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le pays à sa zone d'influence.",
+      "pairs": [
+        {
+          "left": "Espagne",
+          "right": "La majeure partie de l'Amérique"
+        },
+        {
+          "left": "Portugal",
+          "right": "Le Brésil, l'Afrique et les Indes"
+        },
+        {
+          "left": "Ligne de partage",
+          "right": "370 lieues à l'ouest du Cap-Vert"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi les autres pays (France, Angleterre) ont-ils protesté ?",
+      "options": [
+        "Ils ne voulaient pas voyager",
+        "Ils voulaient aussi leur part du 'gâteau' mondial",
+        "Ils n'aimaient pas le Pape",
+        "Ils trouvaient le traité trop long"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

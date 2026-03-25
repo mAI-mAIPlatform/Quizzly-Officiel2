@@ -1,0 +1,63 @@
+{
+  "id": "quiz22",
+  "titre": "Alimentation et Sport",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "D'après les recommandations de santé, combien de fruits et légumes devrions-nous manger par jour ?",
+      "options": [
+        "Au moins 5",
+        "Seulement 1",
+        "Aucun, les bonbons suffisent",
+        "Exactement 12"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pratiquer une activité physique régulière aide à prévenir de nombreuses maladies (cœur, diabète...).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le carburant du corps, apporté par l'alimentation et mesuré en unités d'énergie, s'appelle les {{1}} (calories).",
+      "reponsesAttendues": [
+        "calories"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'aliment à son apport principal.",
+      "pairs": [
+        {
+          "left": "Viande / Poisson / Œufs",
+          "right": "Protéines (muscles)"
+        },
+        {
+          "left": "Pâtes / Riz / Pain",
+          "right": "Glucides (énergie)"
+        },
+        {
+          "left": "Produits laitiers",
+          "right": "Calcium (os)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il important de bien s'hydrater (boire de l'eau) ?",
+      "options": [
+        "Parce que notre corps est composé à environ 60% d'eau et en perd chaque jour",
+        "Pour devenir invisible",
+        "Pour faire pousser des plantes sur son dos",
+        "Pour ne plus avoir faim"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

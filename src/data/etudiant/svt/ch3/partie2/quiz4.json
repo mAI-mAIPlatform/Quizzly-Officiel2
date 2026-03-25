@@ -1,0 +1,63 @@
+{
+  "id": "quiz14",
+  "titre": "Barrières Naturelles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la première barrière de protection du corps ?",
+      "options": [
+        "La peau",
+        "Le sang",
+        "Les muscles",
+        "Le cerveau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les muqueuses (bouche, nez) sont des barrières fragiles car elles sont fines et humides.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les larmes et la salive contiennent des substances chimiques {{1}}.",
+      "reponsesAttendues": [
+        "antibactériennes"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la barrière à son type.",
+      "pairs": [
+        {
+          "left": "Peau saine",
+          "right": "Barrière physique efficace"
+        },
+        {
+          "left": "Acidité de l'estomac",
+          "right": "Barrière chimique détruisant les microbes"
+        },
+        {
+          "left": "Cils vibratiles (poumons)",
+          "right": "Barrière mécanique expulsant les impuretés"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment un microbe peut-il traverser la peau ?",
+      "options": [
+        "Grâce à une coupure, une brûlure ou une piqûre",
+        "En attendant que la personne s'endorme",
+        "En chantant très fort",
+        "Il passe toujours à travers, sans exception"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

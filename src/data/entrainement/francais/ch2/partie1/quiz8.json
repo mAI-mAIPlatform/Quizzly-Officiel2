@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Le Genre des Noms (Masculin ou Féminin ?)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le genre du mot 'Pétale' ?",
+      "options": [
+        "Masculin (un pétale)",
+        "Féminin (une pétale)",
+        "Les deux",
+        "Neutre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Épitaphe' est un mot masculin.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un {{1}} (espace/horloge) immense.",
+      "reponsesAttendues": [
+        "espace"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie au bon article.",
+      "pairs": [
+        {
+          "left": "Un",
+          "right": "Abysse"
+        },
+        {
+          "left": "Une",
+          "right": "Amulette"
+        },
+        {
+          "left": "Un",
+          "right": "Aéronef"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est féminin ?",
+      "options": [
+        "Oasis",
+        "Hymne",
+        "Atmosphère",
+        "Planisphère"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

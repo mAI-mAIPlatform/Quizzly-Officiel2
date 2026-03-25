@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Régions et Rôles ARIA",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel attribut définit la nature sémantique d'un élément générique ?",
+      "options": [
+        "role",
+        "type",
+        "mode",
+        "nature"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "role='button' sur une <div> lui donne l'apparence d'un bouton.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour une zone d'alerte urgente, on utilise role='{{1}}'.",
+      "reponsesAttendues": [
+        "alert"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Rôles courants.",
+      "pairs": [
+        {
+          "left": "dialog",
+          "right": "Fenêtre modale"
+        },
+        {
+          "left": "tablist",
+          "right": "Groupe d'onglets"
+        },
+        {
+          "left": "navigation",
+          "right": "Zone de liens"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'effet de role='presentation' ?",
+      "options": [
+        "Il retire tout sens sémantique à l'élément (ex: tableau de mise en page)",
+        "Il affiche en plein écran",
+        "Il lance un diaporama",
+        "Rien"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

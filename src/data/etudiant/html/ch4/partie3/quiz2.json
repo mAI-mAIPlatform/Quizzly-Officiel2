@@ -1,0 +1,70 @@
+{
+  "id": "quiz2",
+  "titre": "L'attribut Alt (Révision)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi l'attribut 'alt' est-il vital pour l'accessibilité ?",
+      "options": ["Pour charger plus vite", "Pour que le lecteur d'écran lise la description de l'image aux aveugles", "Pour changer la couleur", "C'est décoratif"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si une image est purement décorative, on doit quand même mettre une description longue.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour une image décorative, on laisse l'attribut {{1}} vide (alt=\"\").",
+      "reponsesAttendues": ["alt"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si un lecteur d'écran rencontre une image SANS attribut alt ?",
+      "options": ["Il saute l'image", "Il lit souvent le nom du fichier (ex: DCIM001.jpg), ce qui n'aide pas", "Il s'arrête de lire", "Il demande à l'utilisateur"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un bon texte alt doit être court et descriptif.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que faut-il éviter de mettre dans un attribut 'alt' ?",
+      "options": ["Une description d'action", "Les mots 'Image de...' ou 'Photo de...'", "Le texte écrit dans l'image", "Des mots-clés"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'alt' aide aussi les personnes ayant une mauvaise connexion internet.",
+      "reponse": true
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "Si l'image contient du texte important, ce texte DOIT être dans l'attribut {{1}}.",
+      "reponsesAttendues": ["alt"]
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "L'attribut 'title' remplace-t-il l'attribut 'alt' ?",
+      "options": ["Oui", "Non, ils ont des rôles différents", "Seulement sur Safari", "Seulement pour les icônes"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Toutes les balises <img> devraient avoir un attribut 'alt' (même vide).",
+      "reponse": true
+    }
+  ]
+}

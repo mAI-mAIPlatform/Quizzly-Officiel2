@@ -1,0 +1,63 @@
+{
+  "id": "quiz13",
+  "titre": "Pronomi indiretti",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué pronombre significa 'Le' (a ella)?",
+      "options": [
+        "Le",
+        "Gli",
+        "La",
+        "Lo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Gli' significa 'a él'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Paolo {{1}} ha regalato un libro (me).",
+      "reponsesAttendues": [
+        "mi"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el pronombre indirecto.",
+      "pairs": [
+        {
+          "left": "Ci",
+          "right": "À nous"
+        },
+        {
+          "left": "Vi",
+          "right": "À vous"
+        },
+        {
+          "left": "Gli (plural)",
+          "right": "À eux / À elles"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Te digo la verdad'?",
+      "options": [
+        "Ti dico la verità",
+        "Mi dico la verità",
+        "Ci dico la verità",
+        "Vi dico la verità"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

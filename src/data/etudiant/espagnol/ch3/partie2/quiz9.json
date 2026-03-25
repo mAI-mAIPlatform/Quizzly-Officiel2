@@ -1,0 +1,63 @@
+{
+  "id": "quiz19",
+  "titre": "Satisfacción culinaria",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo dices que la comida está muy buena?",
+      "options": [
+        "¡Está rico!",
+        "¡Está mal!",
+        "¡No me gusta!",
+        "¡Qué asco!"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'¡Qué asco!' se usa cuando algo te gusta mucho.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Este pastel está {{1}} (délicieux).",
+      "reponsesAttendues": [
+        "delicioso"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la expresión.",
+      "pairs": [
+        {
+          "left": "¡Buen provecho!",
+          "right": "Bon appétit !"
+        },
+        {
+          "left": "Me encanta",
+          "right": "J'adore"
+        },
+        {
+          "left": "Está para chuparse los dedos",
+          "right": "C'est à s'en lécher les doigts"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'estoy satisfecho'?",
+      "options": [
+        "Je suis rassasié / J'ai bien mangé",
+        "J'ai encore faim",
+        "Je veux boire",
+        "Je suis triste"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

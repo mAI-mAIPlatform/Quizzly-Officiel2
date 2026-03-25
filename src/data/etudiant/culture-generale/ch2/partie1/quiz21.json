@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Les Règnes du Vivant",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces règnes regroupe des êtres qui fabriquent leur propre nourriture grâce à la lumière ?",
+      "options": [
+        "Le règne Végétal",
+        "Le règne Animal",
+        "Le règne des Champignons",
+        "Le règne Minéral"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les Champignons ne sont ni des animaux, ni des végétaux, ils forment un règne à part (les Fungi).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les êtres vivants formés d'une seule cellule, comme les amibes, sont dit {{1}} (unicellulaires).",
+      "reponsesAttendues": [
+        "unicellulaires"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le règne à sa caractéristique principale.",
+      "pairs": [
+        {
+          "left": "Animal",
+          "right": "Doit manger d'autres êtres vivants pour vivre"
+        },
+        {
+          "left": "Végétal",
+          "right": "Possède de la chlorophylle pour la photosynthèse"
+        },
+        {
+          "left": "Bactéries",
+          "right": "Êtres vivants microscopiques sans noyau bien défini"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on la science qui étudie les êtres vivants ?",
+      "options": [
+        "La Biologie",
+        "La Géologie",
+        "La Physique",
+        "L'Astronomie"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

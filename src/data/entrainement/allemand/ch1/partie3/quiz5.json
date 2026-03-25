@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Verben der Schule (Verbes)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Lire' ?",
+      "options": [
+        "Lesen",
+        "Schreiben",
+        "Malen",
+        "Rechnen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Schreiben' bedeutet 'Écrire'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Wir {{1}} (dessiner) ein Bild.",
+      "reponsesAttendues": [
+        "malen"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Aktionen.",
+      "pairs": [
+        {
+          "left": "Rechnen",
+          "right": "Calculer"
+        },
+        {
+          "left": "Hören",
+          "right": "Écouter"
+        },
+        {
+          "left": "Sprechen",
+          "right": "Parler"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Was machst du im Kunstunterricht?",
+      "options": [
+        "Ich male ein Bild",
+        "Ich rechne 5+5",
+        "Ich schlafe",
+        "Ich esse"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

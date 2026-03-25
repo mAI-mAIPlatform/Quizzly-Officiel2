@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "La casa",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Dónde se duerme?",
+      "options": [
+        "In camera da letto",
+        "In cucina",
+        "In bagno",
+        "In soggiorno"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Cucina' es donde se prepara la comida.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vado in {{1}} per lavarmi (salle de bain).",
+      "reponsesAttendues": [
+        "bagno"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la habitación.",
+      "pairs": [
+        {
+          "left": "Il giardino",
+          "right": "Le jardin"
+        },
+        {
+          "left": "Il garage",
+          "right": "Le garage"
+        },
+        {
+          "left": "Il balcone",
+          "right": "Le balcon"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'soggiorno' / 'salotto'?",
+      "options": [
+        "Salón / Cuarto de estar",
+        "Comedor",
+        "Sótano",
+        "Despacho"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

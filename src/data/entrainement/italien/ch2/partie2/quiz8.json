@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Le verbe Comprare (Acheter)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'J'achète du pain' ?",
+      "options": [
+        "Compro il pane",
+        "Compra il pane",
+        "Compriamo il pane",
+        "Comprano il pane"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Dove compri la pasta?' signifie 'Où achètes-tu les pâtes ?'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Nous achetons se dit '{{1}}'.",
+      "reponsesAttendues": [
+        "compriamo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe pour Comprare.",
+      "pairs": [
+        {
+          "left": "Lui / Lei",
+          "right": "Compra"
+        },
+        {
+          "left": "Voi",
+          "right": "Comprate"
+        },
+        {
+          "left": "Loro",
+          "right": "Comprano"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Comprano tutto' ?",
+      "options": [
+        "Ils achètent tout",
+        "Nous achetons tout",
+        "Vous achetez tout",
+        "Je vends tout"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Le Genre Théâtral",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le texte dit par un seul personnage sur scène ?",
+      "options": [
+        "Un monologue",
+        "Une réplique",
+        "Une didascalie",
+        "Un dialogue"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les didascalies sont destinées à être lues par le public pendant la pièce.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une {{1}} est un échange de paroles entre deux ou plusieurs personnages.",
+      "reponsesAttendues": [
+        "réplique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Termes techniques du théâtre.",
+      "pairs": [
+        {
+          "left": "Didascalie",
+          "right": "Indication de mise en scène"
+        },
+        {
+          "left": "Aparté",
+          "right": "Parole dite pour soi et le public"
+        },
+        {
+          "left": "Scène",
+          "right": "Division d'un acte"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le but d'une Comédie ?",
+      "options": [
+        "Faire rire et corriger les mœurs",
+        "Faire pleurer sur le destin",
+        "Informer sur la politique",
+        "Apprendre à cuisiner"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

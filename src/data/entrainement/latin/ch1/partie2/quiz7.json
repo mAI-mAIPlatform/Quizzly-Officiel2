@@ -1,0 +1,62 @@
+{
+  "id": "quiz7",
+  "titre": "Le Présent (2ème conjugaison)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le signe distinctif de la 2ème conjugaison (ex: Moneo) ?",
+      "options": [
+        "Un 'a' devant la terminaison",
+        "Un 'e' long devant la terminaison",
+        "Un 'i' devant la terminaison",
+        "L'absence de voyelle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Videt' signifie 'Il voit'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vous avertissez (du verbe monere) se dit {{1}}.",
+      "reponsesAttendues": [
+        "Monetis"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Moneo",
+          "right": "Je conseille / avertis"
+        },
+        {
+          "left": "Monemus",
+          "right": "Nous conseillons"
+        },
+        {
+          "left": "Monent",
+          "right": "Ils conseillent"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'infinitif de 'Je vois' ?",
+      "options": [
+        "Vidare",
+        "Videre",
+        "Vidire",
+        "Videtis"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

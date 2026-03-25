@@ -1,0 +1,65 @@
+{
+  "id": "quiz5",
+  "titre": "Le Rubicon (Alea jacta est)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel fleuve César franchit-il en déclarant la guerre civile ?",
+      "options": [
+        "Le Rubicon",
+        "Le Tibre",
+        "Le Rhône",
+        "Le Nil"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Franchir le Rubicon en armes était un acte illégal à Rome.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La phrase célèbre de César est '{{1}} {{2}} {{3}}' (Le sort en est jeté).",
+      "reponsesAttendues": [
+        "Alea",
+        "jacta",
+        "est"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les acteurs de la guerre civile.",
+      "pairs": [
+        {
+          "left": "César",
+          "right": "Populares"
+        },
+        {
+          "left": "Pompée",
+          "right": "Optimates (Sénat)"
+        },
+        {
+          "left": "Pharsale",
+          "right": "Bataille décisive"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où Pompée s'est-il enfui après sa défaite ?",
+      "options": [
+        "En Égypte",
+        "En Gaule",
+        "En Espagne",
+        "À Carthage"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

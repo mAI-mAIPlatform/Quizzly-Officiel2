@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Comédie Musicale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la principale différence entre l'opéra et la comédie musicale ?",
+      "options": [
+        "La comédie musicale mélange chant, théâtre parlé et danse",
+        "L'opéra est toujours drôle",
+        "Il n'y a pas d'instruments dans la comédie musicale",
+        "C'est la même chose"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Broadway, à New York, est le quartier mondialement célèbre pour ses comédies musicales.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La comédie musicale 'Le Roi {{1}}' (Lion) est l'une des plus célèbres au monde.",
+      "reponsesAttendues": [
+        "Lion"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'œuvre à son origine.",
+      "pairs": [
+        {
+          "left": "West Side Story",
+          "right": "États-Unis (Broadway)"
+        },
+        {
+          "left": "Notre-Dame de Paris",
+          "right": "France"
+        },
+        {
+          "left": "Les Misérables",
+          "right": "France (puis succès mondial à Londres)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel adjectif qualifie souvent la voix dans la comédie musicale par rapport à l'opéra ?",
+      "options": [
+        "Plus naturelle ou 'poitrinée' (parlée-chantée)",
+        "Beaucoup plus grave",
+        "Uniquement des cris",
+        "Robotique"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

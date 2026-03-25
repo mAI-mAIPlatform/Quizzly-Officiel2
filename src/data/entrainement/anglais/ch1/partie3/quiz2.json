@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Classroom Language",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "_____ I open the window, please?",
+      "options": [
+        "Can",
+        "Do",
+        "Am",
+        "Must"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'I'm sorry, I don't understand' is a useful sentence in class.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Could you {{1}} that, please?",
+      "reponsesAttendues": [
+        "repeat"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the requests.",
+      "pairs": [
+        {
+          "left": "Can I go to the toilet?",
+          "right": "Permission"
+        },
+        {
+          "left": "How do you say...?",
+          "right": "Vocabulary help"
+        },
+        {
+          "left": "Can I borrow a pen?",
+          "right": "Material help"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What do you say if you are late?",
+      "options": [
+        "I'm sorry I'm late",
+        "Hello teacher",
+        "Goodbye",
+        "No problem"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

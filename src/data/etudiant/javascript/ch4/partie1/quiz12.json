@@ -1,0 +1,65 @@
+{
+  "id": "quiz12",
+  "titre": "États du Jeu",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment gérer le passage de l'écran d'accueil au jeu en JS ?",
+      "options": [
+        "En affichant une section (style.display = 'block') et en cachant l'autre",
+        "En supprimant le fichier HTML",
+        "En éteignant l'écran",
+        "En changeant la langue"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser une variable 'state' qui vaut 'menu', 'playing' ou 'gameover'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour recommencer une partie, il faut {{1}} toutes les variables (score = 0, vie = 3...) (réinitialiser / reset).",
+      "reponsesAttendues": [
+        "réinitialiser",
+        "reinitialiser",
+        "reset"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "État -> Action à faire.",
+      "pairs": [
+        {
+          "left": "Menu",
+          "right": "Attendre le clic sur 'Start'"
+        },
+        {
+          "left": "Playing",
+          "right": "Écouter les touches et bouger"
+        },
+        {
+          "left": "GameOver",
+          "right": "Afficher le score final"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel avantage d'avoir des états clairs ?",
+      "options": [
+        "Éviter que le joueur ne bouge pendant qu'il est dans le menu",
+        "Économiser de l'argent",
+        "Faire briller le clavier",
+        "Le code est plus long"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

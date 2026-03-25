@@ -1,0 +1,63 @@
+{
+  "id": "quiz19",
+  "titre": "Global Citizenship",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What does a 'global citizen' believe?",
+      "options": [
+        "That they belong to the world and should help everyone",
+        "That their country is the only one that matters",
+        "That they don't need a passport",
+        "That the earth is flat"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Respect and tolerance are key values of global citizenship.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Sharing the same problems like climate change makes us {{1}}.",
+      "reponsesAttendues": [
+        "interconnected"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the value with its action.",
+      "pairs": [
+        {
+          "left": "Diversity",
+          "right": "Accepting different cultures"
+        },
+        {
+          "left": "Sustainability",
+          "right": "Protecting the environment for the future"
+        },
+        {
+          "left": "Solidarity",
+          "right": "Helping people in other countries"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "How can you be a global citizen today?",
+      "options": [
+        "By learning about world issues and being kind to everyone",
+        "By buying many things online",
+        "By ignoring the news",
+        "By only speaking one language"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan : L'affirmation de l'État",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle dynastie a permis cette affirmation de l'État royal ?",
+      "options": [
+        "Les Carolingiens",
+        "Les Capétiens et les Valois",
+        "Les Mérovingiens",
+        "Les Bonaparte"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "À la fin du Moyen Âge, la France est devenue un État plus uni et puissant.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'État moderne est un État où le pouvoir est {{1}}.",
+      "reponsesAttendues": [
+        "centralisé"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dernière révision du chapitre 3 :",
+      "pairs": [
+        {
+          "left": "XIVe siècle",
+          "right": "Temps des crises (Peste, Guerre)"
+        },
+        {
+          "left": "XVe siècle",
+          "right": "Temps de la reconstruction et de la force"
+        },
+        {
+          "left": "État royal",
+          "right": "Justice, Armée, Impôt"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour le Chapitre 4 et le Nouveau Monde ?",
+      "options": [
+        "Oui, hissez les voiles !",
+        "Pas encore",
+        "Qui est Colomb ?",
+        "Je reste au XVe siècle"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

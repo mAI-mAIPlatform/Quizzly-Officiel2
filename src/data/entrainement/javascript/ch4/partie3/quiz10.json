@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan de JavaScript (5ème)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le rôle de JavaScript sur le web ?",
+      "options": [
+        "Mettre en page (style)",
+        "Structurer le contenu",
+        "Rendre la page interactive et dynamique",
+        "Héberger le site"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "JavaScript est le langage de programmation du navigateur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les 3 piliers du web sont HTML, CSS et {{1}}.",
+      "reponsesAttendues": [
+        "JavaScript"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dernier Bilan JS :",
+      "pairs": [
+        {
+          "left": "Variables",
+          "right": "Mémoire"
+        },
+        {
+          "left": "Conditions/Boucles",
+          "right": "Logique"
+        },
+        {
+          "left": "Fonctions",
+          "right": "Actions"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est votre score estimé sur ces 120 quiz ?",
+      "options": [
+        "100% !",
+        "Pas mal du tout",
+        "Besoin de révisions",
+        "Je suis un pro"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

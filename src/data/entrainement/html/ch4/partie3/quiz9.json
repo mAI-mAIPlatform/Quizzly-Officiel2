@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Outils de Test et Audit",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel outil est intégré à Chrome pour auditer l'accessibilité ?",
+      "options": [
+        "Lighthouse",
+        "Inspecteur",
+        "Debugger",
+        "Network"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un score de 100% sur Lighthouse garantit que le site est parfaitement accessible.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Rien ne remplace un test manuel avec un véritable lecteur d'{{1}} (comme NVDA ou VoiceOver).",
+      "reponsesAttendues": [
+        "écran"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Extensions A11y.",
+      "pairs": [
+        {
+          "left": "WAVE",
+          "right": "Analyse visuelle des erreurs"
+        },
+        {
+          "left": "axe DevTools",
+          "right": "Audit technique poussé"
+        },
+        {
+          "left": "Color Oracle",
+          "right": "Simulation daltonisme"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel pourcentage d'erreurs d'accessibilité sont détectées automatiquement ?",
+      "options": [
+        "Environ 30 à 40%",
+        "100%",
+        "10%",
+        "90%"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

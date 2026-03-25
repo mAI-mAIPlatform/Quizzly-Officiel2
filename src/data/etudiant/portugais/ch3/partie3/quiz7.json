@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Atividades ar livre",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Senderismo / Caminata'?",
+      "options": [
+        "Trilha / Caminhada",
+        "Mergulho",
+        "Surfe",
+        "Escalada"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Mergulho' significa buceo.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu fiz uma {{1}} na montanha (randonnée/trilha).",
+      "reponsesAttendues": [
+        "trilha"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la actividad al aire libre.",
+      "pairs": [
+        {
+          "left": "Acampar",
+          "right": "Camper"
+        },
+        {
+          "left": "Pescar",
+          "right": "Pêcher"
+        },
+        {
+          "left": "Velejar",
+          "right": "Naviguer à la voile"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'rafting' en Brasil?",
+      "options": [
+        "Descenso de ríos en balsa",
+        "Salto en paracaídas",
+        "Escalada en roca",
+        "Ciclismo de montaña"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz14",
+  "titre": "Modalverb: MÜSSEN",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es la forma de 'Du' para 'müssen'?",
+      "options": [
+        "musst",
+        "muss",
+        "müsst",
+        "müssen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En singular (ich, du, er), el verbo 'müssen' pierde la diéresis (ü -> u).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich {{1}} meine Hausaufgaben machen (devoir).",
+      "reponsesAttendues": [
+        "muss"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el pronombre con 'müssen'.",
+      "pairs": [
+        {
+          "left": "Ich / Er / Sie",
+          "right": "muss"
+        },
+        {
+          "left": "Ihr",
+          "right": "müsst"
+        },
+        {
+          "left": "Wir",
+          "right": "müssen"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'Wir müssen gehen'?",
+      "options": [
+        "Tenemos que irnos / debemos irnos",
+        "Podemos irnos",
+        "Queremos irnos",
+        "Vamos a irnos"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

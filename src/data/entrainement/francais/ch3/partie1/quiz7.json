@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Le Registre Satirique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le but premier de la satire ?",
+      "options": [
+        "Critiquer en se moquant",
+        "Raconter une belle histoire de fées",
+        "Faire peur au lecteur",
+        "Donner des ordres"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Molière utilisait souvent la satire pour critiquer la société.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'{{1}} consiste à dire le contraire de ce que l'on pense pour se moquer.",
+      "reponsesAttendues": [
+        "ironie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Moyens de la satire.",
+      "pairs": [
+        {
+          "left": "Caricature",
+          "right": "Exagération des défauts"
+        },
+        {
+          "left": "Pamphlet",
+          "right": "Texte court et violent"
+        },
+        {
+          "left": "Parodie",
+          "right": "Imitation moqueuse"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Laquelle de ces œuvres est satirique ?",
+      "options": [
+        "Les Lettres Persanes (Montesquieu)",
+        "Les Misérables (Hugo)",
+        "Le Cid (Corneille)",
+        "Antigone (Anouilh)"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz20",
+  "titre": "Synthèse Ch.1 (Nombres et calculs)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Calcule : -10 + ( -2 ) × 5",
+      "options": [
+        "-60",
+        "-20",
+        "0",
+        "+10"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le produit de l'inverse de 2 par 2 est égal à 1.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'opposé de -7,5 est {{1}}",
+      "reponsesAttendues": [
+        "7,5"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le nombre à son type.",
+      "pairs": [
+        {
+          "left": " -3 ",
+          "right": "Relatif négatif"
+        },
+        {
+          "left": " 3 / 4 ",
+          "right": "Fraction"
+        },
+        {
+          "left": " 0 ",
+          "right": "Nul"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Calcule : 1/2 + 1/4 + 1/8",
+      "options": [
+        "3/14",
+        "7/8",
+        "1",
+        "1/8"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Las Bebidas",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Eau' ?",
+      "options": [
+        "Agua",
+        "Zumo",
+        "Refresco",
+        "Batido"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'El zumo de naranja' significa 'Le jus d'orange'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Café' se escribe igual pero con {{1}}.",
+      "reponsesAttendues": [
+        "tilda"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Bebidas.",
+      "pairs": [
+        {
+          "left": "Té",
+          "right": "Thé"
+        },
+        {
+          "left": "Chocolate caliente",
+          "right": "Chocolat chaud"
+        },
+        {
+          "left": "Horchata",
+          "right": "Boisson typique de Valence"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué bebes cuando tienes sed?",
+      "options": [
+        "Bebo un vaso de agua",
+        "Bebo una silla",
+        "Bebo un libro",
+        "Bebo un perro"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

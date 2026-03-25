@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Grammar : Where are you from?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Where _____ you from?",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "do"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "I am 'come' from France is correct.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "I {{1}} from the UK.",
+      "reponsesAttendues": [
+        "come"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match.",
+      "pairs": [
+        {
+          "left": "I am",
+          "right": "French"
+        },
+        {
+          "left": "I come from",
+          "right": "France"
+        },
+        {
+          "left": "Where is he from?",
+          "right": "He is Spanish"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Which one is a nationality?",
+      "options": [
+        "Chinese",
+        "China",
+        "Beijing",
+        "Asia"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

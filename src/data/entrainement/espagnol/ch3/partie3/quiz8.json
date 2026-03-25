@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "El Futuro de la Tecnología",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Robot' ?",
+      "options": [
+        "Robot",
+        "Ordenador",
+        "Móvil",
+        "Coche"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Hablarán con máquinas' significa 'Ils parleront avec des machines'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Intelligence Artificielle' se dice Inteligencia {{1}}.",
+      "reponsesAttendues": [
+        "Artificial"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Inventos.",
+      "pairs": [
+        {
+          "left": "Coches voladores",
+          "right": "Voitures volantes"
+        },
+        {
+          "left": "Viajes espaciales",
+          "right": "Voyages spatiaux"
+        },
+        {
+          "left": "Realidad virtual",
+          "right": "Réalité virtuelle"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo será el transporte en 2050?",
+      "options": [
+        "Los coches volarán",
+        "El coche es rojo",
+        "Tengo un coche",
+        "Vivo en 2024"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz19",
+  "titre": "Soustraction de fractions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Calcule : 10/11 - 3/11",
+      "options": [
+        "13/11",
+        "7/11",
+        "7/0",
+        "1"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "5/6 - 1/3 est égal à 1/2.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Calcule : 1 - 2/5 = {{1}}/5",
+      "reponsesAttendues": [
+        "3"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la soustraction au résultat.",
+      "pairs": [
+        {
+          "left": "3/4 - 1/4",
+          "right": "1/2"
+        },
+        {
+          "left": "7/8 - 1/2",
+          "right": "3/8"
+        },
+        {
+          "left": "5/3 - 2/3",
+          "right": "1"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Calcule : 2/3 - 1/9",
+      "options": [
+        "1/3",
+        "5/9",
+        "6/9",
+        "1/9"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

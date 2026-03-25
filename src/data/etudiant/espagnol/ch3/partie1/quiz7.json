@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "El Desayuno",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿A qué hora se suele desayunar en España?",
+      "options": [
+        "Entre las 7h y las 9h",
+        "A las 12h",
+        "A las 15h",
+        "A las 21h"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Tostadas' significa 'pain grillé'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Desayuno cereales con leche en un {{1}} (bol).",
+      "reponsesAttendues": [
+        "tazón"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el alimento del desayuno.",
+      "pairs": [
+        {
+          "left": "Mantequilla",
+          "right": "Beurre"
+        },
+        {
+          "left": "Mermelada",
+          "right": "Confiture"
+        },
+        {
+          "left": "Aceite de oliva",
+          "right": "Huile d'olive"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Je ne déjeune pas' (le matin) ?",
+      "options": [
+        "No desayuno",
+        "No como",
+        "No ceno",
+        "No meriendo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

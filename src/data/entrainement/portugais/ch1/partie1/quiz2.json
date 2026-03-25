@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Como estás? (Comment vas-tu ?)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Ça va ?' ?",
+      "options": [
+        "Tudo bem?",
+        "Qual o teu nome?",
+        "Quantos anos tens?",
+        "De onde és?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Muito bem' significa 'Très bien'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Estou {{1}} (mal).",
+      "reponsesAttendues": [
+        "mal"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Sentimentos.",
+      "pairs": [
+        {
+          "left": "Bem",
+          "right": "Bien"
+        },
+        {
+          "left": "Estou cansado",
+          "right": "Je suis fatigué"
+        },
+        {
+          "left": "Mais ou menos",
+          "right": "Plus ou moins"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "E tu?",
+      "options": [
+        "Et toi ?",
+        "Et moi ?",
+        "Et lui ?",
+        "Et nous ?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

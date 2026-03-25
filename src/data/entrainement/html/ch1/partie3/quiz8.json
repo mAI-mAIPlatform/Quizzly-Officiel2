@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Regrouper avec Fieldset",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise regroupe visuellement et sémantiquement des champs ?",
+      "options": [
+        "<fieldset>",
+        "<group>",
+        "<div>",
+        "<section>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La balise <legend> définit le titre d'un <fieldset>.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attr {{1}} permet de désactiver tout un groupe de champs.",
+      "reponsesAttendues": [
+        "disabled"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Organisation.",
+      "pairs": [
+        {
+          "left": "fieldset",
+          "right": "Le cadre autour"
+        },
+        {
+          "left": "legend",
+          "right": "Le titre sur le cadre"
+        },
+        {
+          "left": "form",
+          "right": "Toute la zone de saisie"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'effet par défaut d'un <fieldset> ?",
+      "options": [
+        "Il dessine une bordure fine autour du groupe",
+        "Il met tout en gras",
+        "Il cache les champs",
+        "Il envoie le formulaire"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

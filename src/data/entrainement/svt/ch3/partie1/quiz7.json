@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "De la cellule-œuf au fœtus",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment la cellule-œuf devient-elle un organisme complet ?",
+      "options": [
+        "Elle grossit simplement",
+        "Elle se divise de nombreuses fois (mitoses)",
+        "Elle explose",
+        "Elle change de couleur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Toutes les cellules d'un individu possèdent le même programme génétique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le stade de développement entre la cellule-œuf et le fœtus s'appelle l'{{1}}.",
+      "reponsesAttendues": [
+        "embryon"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'étape au développement.",
+      "pairs": [
+        {
+          "left": "Zygote",
+          "right": "Cellule unique issue de la fécondation"
+        },
+        {
+          "left": "Embryon",
+          "right": "Formation des organes"
+        },
+        {
+          "left": "Fœtus",
+          "right": "Étape où l'on reconnaît la forme finale de l'espèce"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle durée moyenne dure la gestation chez l'humain ?",
+      "options": [
+        "4 mois",
+        "9 mois",
+        "12 mois",
+        "2 ans"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

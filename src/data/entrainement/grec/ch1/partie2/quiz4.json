@@ -1,0 +1,62 @@
+{
+  "id": "quiz4",
+  "titre": "Grammaire : Noms et Verbes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Combien y a-t-il de déclinaisons en grec ancien ?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "6"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le verbe grec se conjugue selon la personne et le nombre (singulier, duel, pluriel).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le {{1}} est le cas du sujet (comme en latin).",
+      "reponsesAttendues": [
+        "Nominatif"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Accusatif",
+          "right": "COD"
+        },
+        {
+          "left": "Génitif",
+          "right": "Complément du nom"
+        },
+        {
+          "left": "Datif",
+          "right": "COI"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la marque de l'infinitif actif (ex: Lu-...) ?",
+      "options": [
+        "-ein",
+        "-os",
+        "-on",
+        "-ai"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

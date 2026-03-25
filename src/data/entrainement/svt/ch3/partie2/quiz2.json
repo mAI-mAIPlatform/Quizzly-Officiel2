@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Les stolons du fraisier",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un stolon ?",
+      "options": [
+        "Une racine profonde",
+        "Une tige rampante qui s'enracine pour donner un nouveau pied",
+        "Une fleur rouge",
+        "Un fruit sucré"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le fraisier utilise des stolons pour coloniser l'espace autour de lui.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le nouveau fraisier issu du stolon possède exactement le même {{1}} que le pied mère.",
+      "reponsesAttendues": [
+        "programme génétique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la partie du fraisier.",
+      "pairs": [
+        {
+          "left": "Stolon",
+          "right": "Tige de multiplication asexuée"
+        },
+        {
+          "left": "Fleur",
+          "right": "Organe de reproduction sexuée"
+        },
+        {
+          "left": "Pied fils",
+          "right": "Copie du pied mère"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on couper le stolon une fois le nouveau pied enraciné ?",
+      "options": [
+        "Non, la plante meurt",
+        "Oui, il devient indépendant",
+        "Seulement en hiver",
+        "Ça n'a aucun effet"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

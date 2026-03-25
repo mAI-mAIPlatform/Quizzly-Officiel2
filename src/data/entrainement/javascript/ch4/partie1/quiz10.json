@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan : Déclatations et Appels",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la première étape pour utiliser une fonction ?",
+      "options": [
+        "L'appeler",
+        "La déclarer",
+        "L'effacer",
+        "La vendre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les fonctions sont le 'moteur' de votre code en JS.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Appeler une fonction sans la déclarer causera une {{1}}.",
+      "reponsesAttendues": [
+        "erreur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dernière synthèse :",
+      "pairs": [
+        {
+          "left": "()",
+          "right": "Signe de l'appel"
+        },
+        {
+          "left": "{ }",
+          "right": "Définit les limites de la fonction"
+        },
+        {
+          "left": "Nom",
+          "right": "Permet d'y faire référence"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour la partie 2 sur les paramètres et le return ?",
+      "options": [
+        "Oui !",
+        "Un petit rappel avant",
+        "Go !",
+        "Return quoi ?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

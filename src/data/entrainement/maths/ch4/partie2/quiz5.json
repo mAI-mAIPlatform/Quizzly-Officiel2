@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Tester une égalité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "L'égalité 2x + 1 = 5 est-elle vraie pour x = 2 ?",
+      "options": [
+        "Oui",
+        "Non",
+        "On ne peut pas savoir",
+        "Seulement si x est négatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une égalité est vraie si le membre de gauche est égal au membre de droite.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour x = 3, l'expression x² - 4 est égale à {{1}}.",
+      "reponsesAttendues": [
+        "5"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Vrai ou Faux pour x = 1 ?",
+      "pairs": [
+        {
+          "left": "x + 2 = 3",
+          "right": "Vrai"
+        },
+        {
+          "left": "2x = 5",
+          "right": "Faux"
+        },
+        {
+          "left": "x - 1 = 0",
+          "right": "Vrai"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pour quelle valeur de x l'égalité 3x = 12 est-elle vraie ?",
+      "options": [
+        "3",
+        "4",
+        "9",
+        "36"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

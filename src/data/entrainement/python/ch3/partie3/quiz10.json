@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan du Chapitre 3 : Fonctions et Modules",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'écosystème Python ?",
+      "options": [
+        "L'ensemble des modules et bibliothèques disponibles",
+        "La protection des serpents",
+        "La consommation d'énergie du PC",
+        "Un jeu vidéo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Python possède une bibliothèque extrêmement riche.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le gestionnaire de paquets officiel de Python est {{1}}.",
+      "reponsesAttendues": [
+        "pip"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Synthèse Ch3 :",
+      "pairs": [
+        {
+          "left": "Fonctions",
+          "right": "Unités logic"
+        },
+        {
+          "left": "Modules",
+          "right": "Organisation fichiers"
+        },
+        {
+          "left": "Bibliothèques",
+          "right": "Outils externes"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour le chapitre 4 sur les Structures de données avancées ?",
+      "options": [
+        "Oui!",
+        "Andiamo!",
+        "Let's go Python!",
+        "Vérifions le Chapitre 3"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Symétrique d'un Segment",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Le symétrique d'un segment [AB] par rapport à un point O est un segment [A'B'] :",
+      "options": [
+        "Plus grand",
+        "Plus petit",
+        "De même longueur",
+        "Perpendiculaire"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le symétrique d'une droite est une droite parallèle.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si AB = 8 cm, alors son symétrique A'B' mesure {{1}} cm.",
+      "reponsesAttendues": [
+        "8"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe les propriétés.",
+      "pairs": [
+        {
+          "left": "Symétrie axiale",
+          "right": "Pliage"
+        },
+        {
+          "left": "Symétrie centrale",
+          "right": "Demi-tour"
+        },
+        {
+          "left": "Translation",
+          "right": "Glissement"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Combien faut-il de points pour construire le symétrique d'un segment ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

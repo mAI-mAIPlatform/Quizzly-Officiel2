@@ -1,0 +1,63 @@
+{
+  "id": "quiz17",
+  "titre": "Le Principe DRY",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie l'acronyme DRY en programmation ?",
+      "options": [
+        "Don't Repeat Yourself (Ne te répète pas)",
+        "Do Read Yearly",
+        "Data Real Yield",
+        "Digital Robust York"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Utiliser des fonctions permet d'éviter de copier-coller le même code plusieurs fois.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si je dois modifier une règle de calcul, je n'ai qu'à la changer dans la {{1}} plutôt que partout dans le script (fonction).",
+      "reponsesAttendues": [
+        "fonction"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'avantage au terme.",
+      "pairs": [
+        {
+          "left": "Lisibilité",
+          "right": "Le code est plus clair et organisé"
+        },
+        {
+          "left": "Réutilisabilité",
+          "right": "On peut utiliser le code dans d'autres projets"
+        },
+        {
+          "left": "Maintenance",
+          "right": "Plus facile de corriger les erreurs"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il important de donner des noms clairs aux fonctions (ex: 'calculer_prix' au lieu de 'f1') ?",
+      "options": [
+        "Pour que n'importe qui comprenne immédiatement ce que fait la fonction",
+        "Parce que Python l'oblige",
+        "Pour que le fichier soit plus lourd",
+        "C'est une règle de mathématiques"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

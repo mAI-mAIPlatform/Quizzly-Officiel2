@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Computer und Gaming",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Jouer à l'ordinateur' ?",
+      "options": [
+        "Am Computer spielen",
+        "Am Handy spielen",
+        "Musik hören",
+        "Fußball spielen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Zocken' is a colloquial term for gaming.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich {{1}} (surfer) im Internet.",
+      "reponsesAttendues": [
+        "surfe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Technik.",
+      "pairs": [
+        {
+          "left": "Handy",
+          "right": "Portable"
+        },
+        {
+          "left": "Laptop",
+          "right": "Ordinateur portable"
+        },
+        {
+          "left": "E-Mail",
+          "right": "Courriel"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Was machst du am Laptop?",
+      "options": [
+        "Ich schreibe eine E-Mail",
+        "Ich esse Pasta",
+        "Ich schlafe",
+        "Ich schwimme"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

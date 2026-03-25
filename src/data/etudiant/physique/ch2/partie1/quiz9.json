@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Loi d'unicité (Tension)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans un circuit en dérivation, la tension est :",
+      "options": [
+        "La même aux bornes de chaque branche",
+        "Plus forte dans la branche la plus courte",
+        "Partagée entre les branches",
+        "Nulle dans les branches secondaires"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La tension domestique (prises) est en dérivation pour que tous les appareils aient 230V.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La loi d'{{1}} des tensions s'applique aux circuits en parallèle.",
+      "reponsesAttendues": [
+        "unicité"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la tension observée (Générateur = 12V en dérivation).",
+      "pairs": [
+        {
+          "left": "Borne de la lampe 1",
+          "right": "12 V"
+        },
+        {
+          "left": "Borne du moteur",
+          "right": "12 V"
+        },
+        {
+          "left": "Borne de la lampe 2",
+          "right": "12 V"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi branche-t-on les phares d'une voiture en dérivation ?",
+      "options": [
+        "Pour qu'ils aient tous la même tension et ne s'éteignent pas si l'un grille",
+        "Pour économiser des fils",
+        "Pour qu'ils brillent moins fort",
+        "Pour utiliser moins de tension"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

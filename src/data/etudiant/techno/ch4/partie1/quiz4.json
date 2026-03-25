@@ -1,0 +1,64 @@
+{
+  "id": "quiz4",
+  "titre": "Boucles avancées",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la particularité d'une boucle 'TANT QUE' ?",
+      "options": [
+        "Elle se répète indéfiniment tant que la condition reste vraie",
+        "Elle ne se répète qu'une seule fois",
+        "Elle s'arrête dès que la condition est vraie",
+        "Elle change la valeur des variables au hasard"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une boucle infinie est une boucle dont la condition d'arrêt n'est jamais atteinte.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour répéter une action un nombre précis de fois, on utilise la boucle {{1}} (POUR / FOR).",
+      "reponsesAttendues": [
+        "POUR",
+        "FOR"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la boucle à son usage.",
+      "pairs": [
+        {
+          "left": "Répéter 10 fois",
+          "right": "Boucle bornée (FOR)"
+        },
+        {
+          "left": "Tant que Bouton non pressé",
+          "right": "Boucle conditionnelle (WHILE)"
+        },
+        {
+          "left": "Répéter indéfiniment",
+          "right": "Boucle infinie (ex: boucle principale)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si la condition d'une boucle 'TANT QUE' est fausse dès le début ?",
+      "options": [
+        "Le code à l'intérieur n'est jamais exécuté",
+        "Le programme s'arrête avec une erreur",
+        "La boucle s'exécute quand même une fois",
+        "L'ordinateur redémarre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Cap. 3 P. 1 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "La laïcité garantit la liberté de {{1}} et la {{2}} de l'État.",
+      "options": [
+        "conscience / neutralité",
+        "sport / cuisine",
+        "vitesse / peur",
+        "parler / force"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La loi de 1905 sépare les Églises et l'État.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Respecter les avis des autres est la {{1}} (tolérance).",
+      "reponsesAttendues": [
+        "tolérance"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les principes.",
+      "pairs": [
+        {
+          "left": "Neutralité",
+          "right": "Service public sans avis religieux"
+        },
+        {
+          "left": "Pluralisme",
+          "right": "Plusieurs opinions autorisées"
+        },
+        {
+          "left": "Laïcité",
+          "right": "Liberté et égalité des croyances"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le 'contraire' de l'esprit critique ?",
+      "options": [
+        "L'obscurantisme (croire sans réfléchir)",
+        "La politesse",
+        "Le rire",
+        "La lecture"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

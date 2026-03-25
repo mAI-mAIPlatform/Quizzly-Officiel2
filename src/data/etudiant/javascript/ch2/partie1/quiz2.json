@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "getElementById",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet de récupérer un élément grâce à son attribut 'id' ?",
+      "options": [
+        "document.getElementById(\"monId\")",
+        "document.findId(\"monId\")",
+        "window.get(\"monId\")",
+        "document.id(\"monId\")"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'ID fourni à getElementById doit être unique dans la page.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour stocker un bouton d'id 'btn' dans une variable, on écrit : const monBouton = document.{{1}}(\"btn\") (getElementById).",
+      "reponsesAttendues": [
+        "getElementById"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le code à son action.",
+      "pairs": [
+        {
+          "left": "document.",
+          "right": "On cherche dans le document"
+        },
+        {
+          "left": "getElementById",
+          "right": "On cherche par l'identifiant"
+        },
+        {
+          "left": "(\"titre\")",
+          "right": "Le nom de l'id recherché"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que renvoie getElementById si l'ID n'existe pas dans la page ?",
+      "options": [
+        "null",
+        "undefined",
+        "Une erreur Error",
+        "Une chaîne vide \"\""
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

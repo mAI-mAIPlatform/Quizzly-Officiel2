@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Cahier des Charges Fonctionnel (CdCF)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le CdCF ?",
+      "options": [
+        "Un document qui liste les fonctions et contraintes de l'objet",
+        "Un livre de cours",
+        "Une facture d'achat",
+        "Le plan de fabrication"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le CdCF sert de contrat entre le demandeur et le concepteur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour chaque fonction, on définit des {{1}} et des niveaux.",
+      "reponsesAttendues": [
+        "critères"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Structure CdCF.",
+      "pairs": [
+        {
+          "left": "Fonction",
+          "right": "Ce que l'objet doit faire"
+        },
+        {
+          "left": "Critère",
+          "right": "Grandeur mesurable (ex: masse)"
+        },
+        {
+          "left": "Niveau",
+          "right": "Valeur à atteindre (ex: < 1 kg)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où se situe le CdCF dans la démarche de projet ?",
+      "options": [
+        "Au tout début (conception)",
+        "À la fin (vente)",
+        "Pendant la fabrication",
+        "C'est facultatif"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

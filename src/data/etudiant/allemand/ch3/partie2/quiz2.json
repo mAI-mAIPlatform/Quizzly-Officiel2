@@ -1,0 +1,64 @@
+{
+  "id": "quiz12",
+  "titre": "Mouvement 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Completa: 'Wir {{1}} nach Hause gelaufen'.",
+      "options": [
+        "sind",
+        "haben",
+        "werden",
+        "ist"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Laufen' en Perfekt es 'ist gelaufen'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Sie {{1}} schnell {{2}} (elle a couru - gelaufen).",
+      "reponsesAttendues": [
+        "ist",
+        "gelaufen"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el participio.",
+      "pairs": [
+        {
+          "left": "Gehen",
+          "right": "gegangen"
+        },
+        {
+          "left": "Laufen",
+          "right": "gelaufen"
+        },
+        {
+          "left": "Schwimmen",
+          "right": "geschwommen"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Ils sont allés'?",
+      "options": [
+        "Sie sind gegangen",
+        "Sie haben gegangen",
+        "Sie ist gegangen",
+        "Sie gehen"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

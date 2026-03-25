@@ -1,0 +1,63 @@
+{
+  "id": "quiz27",
+  "titre": "L'expérience de Lavoisier",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'a montré Lavoisier avec son expérience sur l'air ?",
+      "options": [
+        "Que l'air est un mélange de plusieurs gaz",
+        "Que l'air est composé uniquement d'oxygène",
+        "Que l'on peut respirer sous l'eau",
+        "Que l'air ne pèse rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Lavoisier a utilisé du mercure pour analyser l'air.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Lavoisier a nommé le gaz 'air vital', qu'on appelle aujourd'hui {{1}}.",
+      "reponsesAttendues": [
+        "dioxygène"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la découverte à son auteur.",
+      "pairs": [
+        {
+          "left": "Analyse de l'air",
+          "right": "Lavoisier"
+        },
+        {
+          "left": "Loi de la poussée",
+          "right": "Archimède"
+        },
+        {
+          "left": "Pression atmosphérique",
+          "right": "Pascal"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie le nom 'Azote' donné par Lavoisier ?",
+      "options": [
+        "Sans vie (car on ne peut pas y respirer)",
+        "Gaz bleu",
+        "Atome géant",
+        "Source d'énergie"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

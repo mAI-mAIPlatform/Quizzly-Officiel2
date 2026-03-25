@@ -1,0 +1,63 @@
+{
+  "id": "quiz30",
+  "titre": "Synthèse Finale Physique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Une force se mesure avec :",
+      "options": [
+        "Un dynamomètre",
+        "Une balance",
+        "Un chronomètre",
+        "Un voltmètre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un mélange hétérogène contient au moins deux constituants visibles à l'œil nu.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans un circuit en série, si une lampe grille, les autres {{1}}.",
+      "reponsesAttendues": [
+        "s'éteignent"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la loi à son domaine.",
+      "pairs": [
+        {
+          "left": "U = R x I",
+          "right": "Électricité"
+        },
+        {
+          "left": "P = m x g",
+          "right": "Gravitation / Poids"
+        },
+        {
+          "left": "v = d / t",
+          "right": "Mouvement"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le constituant principal de l'air (78%) ?",
+      "options": [
+        "Le diazote",
+        "Le dioxygène",
+        "Le dioxyde de carbone",
+        "L'argon"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Nachtisch und Süßes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Le gâteau' ?",
+      "options": [
+        "Der Kuchen",
+        "Das Eis",
+        "Die Schokolade",
+        "Der Keks"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Nachtisch' bedeutet 'Dessert'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich esse gern ein {{1}} (glace).",
+      "reponsesAttendues": [
+        "Eis"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Süßigkeiten.",
+      "pairs": [
+        {
+          "left": "Bonbon",
+          "right": "Bonbon"
+        },
+        {
+          "left": "Gummibärchen",
+          "right": "Oursons en gomme"
+        },
+        {
+          "left": "Sucette",
+          "right": "Lutscher"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Möchtest du einen Nachtisch?",
+      "options": [
+        "Ja, ein Eis bitte",
+        "Nein, ich habe Durst",
+        "Ich bin ein Kuchen",
+        "Hallo Eis"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

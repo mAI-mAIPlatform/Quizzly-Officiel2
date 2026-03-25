@@ -1,0 +1,64 @@
+{
+  "id": "quiz9",
+  "titre": "quel(s) / quelle(s) / qu'elle(s)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel est un adjectif exclamatif ou interrogatif ?",
+      "options": [
+        "Quel",
+        "Qu'elle",
+        "Quelque",
+        "Kelle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut remplacer 'qu'elle' par 'qu'il'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "{{1}} (Quel/Qu'elle) beau temps ! Je pense {{2}} (quel/qu'elle) va venir.",
+      "reponsesAttendues": [
+        "Quel",
+        "qu'elle"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Accorde la bonne forme.",
+      "pairs": [
+        {
+          "left": "Quelle chance !",
+          "right": "Féminin singulier"
+        },
+        {
+          "left": "Quelles fleurs !",
+          "right": "Féminin pluriel"
+        },
+        {
+          "left": "Quels livres !",
+          "right": "Masculin pluriel"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est correct ?",
+      "options": [
+        "Il croit qu'elles sont là.",
+        "Il croit quelles sont là.",
+        "Il croit quels sont là.",
+        "Il croit quelle sont là."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

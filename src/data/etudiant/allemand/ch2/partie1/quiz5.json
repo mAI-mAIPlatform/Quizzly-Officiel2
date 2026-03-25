@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Zeitadverbien",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Le matin' (adverbio)?",
+      "options": [
+        "Morgens",
+        "Vormittags",
+        "Mittags",
+        "Abends"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Los adverbios de tiempo suelen terminar en -s para indicar repetición.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Am {{1}} bin ich müde (soir).",
+      "reponsesAttendues": [
+        "Abend"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el momento del día.",
+      "pairs": [
+        {
+          "left": "Mittags",
+          "right": "À midi"
+        },
+        {
+          "left": "Nachmittags",
+          "right": "L'après-midi"
+        },
+        {
+          "left": "Nachts",
+          "right": "La nuit"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'zuerst'?",
+      "options": [
+        "D'abord / En premier",
+        "Ensuite",
+        "Enfin",
+        "Jamais"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

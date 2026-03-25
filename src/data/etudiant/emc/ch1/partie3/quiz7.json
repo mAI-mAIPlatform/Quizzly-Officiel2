@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Solidarité Internationale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle organisation mondiale s'occupe de la paix et de la solidarité entre les nations ?",
+      "options": [
+        "L'ONU",
+        "Le FBI",
+        "La NASA",
+        "Apple"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une ONG (Organisation Non Gouvernementale) est indépendante des États.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'aide envoyée après une catastrophe naturelle s'appelle l'aide {{1}} (humanitaire).",
+      "reponsesAttendues": [
+        "humanitaire"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'ONG à son domaine d'action.",
+      "pairs": [
+        {
+          "left": "Croix-Rouge",
+          "right": "Santé et aide d'urgence"
+        },
+        {
+          "left": "Greenpeace",
+          "right": "Protection de l'environnement"
+        },
+        {
+          "left": "Amnesty International",
+          "right": "Défense des Droits de l'Homme"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'droit d'ingérence' (humanitaire) ?",
+      "options": [
+        "Le droit d'intervenir dans un pays pour protéger les populations",
+        "Le droit de voler les richesses d'un pays",
+        "Le droit d'interdire les voyages",
+        "Le droit de changer la météo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

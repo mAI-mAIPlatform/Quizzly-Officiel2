@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Les Adjectifs de Lieu",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'Aperto' ?",
+      "options": [
+        "Ouvert",
+        "Fermé",
+        "Libre",
+        "Occupé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Chiuso' signifie 'Cher'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Fermé se dit '{{1}}'.",
+      "reponsesAttendues": [
+        "chiuso"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'état.",
+      "pairs": [
+        {
+          "left": "Libero",
+          "right": "Libre"
+        },
+        {
+          "left": "Occupato",
+          "right": "Occupé"
+        },
+        {
+          "left": "Pieno",
+          "right": "Plein"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Vide' ?",
+      "options": [
+        "Vuoto",
+        "Pieno",
+        "Nuovo",
+        "Vecchio"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

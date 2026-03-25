@@ -1,0 +1,63 @@
+{
+  "id": "quiz29",
+  "titre": "Lenguas del Mundo",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuántas personas hablan español en el mundo (aprox)?",
+      "options": [
+        "Más de 500 millones",
+        "10 millones",
+        "50 millones",
+        "1000 millones"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El quechua es una lengua indígena de los Andes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "En España hay varias lenguas {{1}} (co-officielles) como el catalán.",
+      "reponsesAttendues": [
+        "cooficiales"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la lengua con su zona.",
+      "pairs": [
+        {
+          "left": "Guaraní",
+          "right": "Paraguay"
+        },
+        {
+          "left": "Náhuatl",
+          "right": "México"
+        },
+        {
+          "left": "Euskera",
+          "right": "País Vasco (España)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'bilingüe'?",
+      "options": [
+        "Que habla dos lenguas",
+        "Que habla solo una lengua",
+        "Que no habla",
+        "Que habla muchas lenguas"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

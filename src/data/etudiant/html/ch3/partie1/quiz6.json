@@ -1,0 +1,70 @@
+{
+  "id": "quiz6",
+  "titre": "Textarea : Champs multi-lignes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise permet de saisir un long message ?",
+      "options": ["<input type=\"multiline\">", "<textarea>", "<text>", "<message>"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Contrairement à l'input, <textarea> a une balise de fermeture.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} définit le nombre de lignes visibles.",
+      "reponsesAttendues": ["rows"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "L'attribut 'cols' définit :",
+      "options": ["La couleur", "La largeur en colonnes (caractères)", "La police", "Le nombre de mots"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut empêcher le redimensionnement du textarea avec du CSS.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment définit-on la valeur par défaut d'un textarea ?",
+      "options": ["Avec l'attribut value", "Entre les balises <textarea> et </textarea>", "Avec le placeholder uniquement", "On ne peut pas"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'wrap' définit comment le texte revient à la ligne à l'envoi.",
+      "reponse": true
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "Pour limiter la saisie, on utilise l'attribut {{1}}.",
+      "reponsesAttendues": ["maxlength"]
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle propriété CSS enlève la poignée de redimensionnement ?",
+      "options": ["resize: none;", "handle: hide;", "scale: fixed;", "size: static;"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Un textarea peut avoir un attribut 'placeholder'.",
+      "reponse": true
+    }
+  ]
+}

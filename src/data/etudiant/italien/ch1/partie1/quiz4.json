@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Alfabeto & Pronuncia",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se pronuncia 'Ciao'?",
+      "options": [
+        "Chao",
+        "Tsao",
+        "Ciao (con ch suave como en inglés 'chair')",
+        "Kiao"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En italiano, 'CH' suena como 'K' (es. Bruschetta).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La palabra 'GNocchi' se pronuncia con el sonido de la letra {{1}} (española).",
+      "reponsesAttendues": [
+        "ñ"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el sonido.",
+      "pairs": [
+        {
+          "left": "GL",
+          "right": "Sonido 'lli' (es. Famiglia)"
+        },
+        {
+          "left": "GN",
+          "right": "Sonido 'ñ' (es. Lasagna)"
+        },
+        {
+          "left": "SCI / SCE",
+          "right": "Sonido 'sh' (es. Prosciutto)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se pronuncia 'GE / GI'?",
+      "options": [
+        "Como 'je / ji' en inglés (Jeans)",
+        "Como 'gue / gui'",
+        "Como 'je / ji' en español",
+        "Como 'ke / ki'"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

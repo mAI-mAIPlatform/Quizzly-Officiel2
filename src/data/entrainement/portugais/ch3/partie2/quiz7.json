@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Lojas Específicas",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Onde se compra pão?",
+      "options": [
+        "Na padaria",
+        "Na farmácia",
+        "No talho",
+        "Na livraria"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Talho' significa 'Boucherie'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu vou à {{1}} (pharmacie) comprar remédios.",
+      "reponsesAttendues": [
+        "farmácia"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Comércio.",
+      "pairs": [
+        {
+          "left": "Peixaria",
+          "right": "Poissonnerie"
+        },
+        {
+          "left": "Papelaria",
+          "right": "Papeterie"
+"        },
+        {
+          "left": "Centro comercial",
+          "right": "Centre commercial"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Onde compras livros?",
+      "options": [
+        "Na livraria",
+        "Na padaria",
+        "No banco",
+        "Dez horas"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

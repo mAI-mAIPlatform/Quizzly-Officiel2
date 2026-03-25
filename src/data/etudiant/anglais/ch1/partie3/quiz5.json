@@ -1,0 +1,63 @@
+{
+  "id": "quiz25",
+  "titre": "Emergencies",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is the universal call for help?",
+      "options": [
+        "Help!",
+        "Wait!",
+        "Hello!",
+        "Sing!"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "In the UK, the emergency number is 999.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "If you are hurt, you need to go to the {{1}}.",
+      "reponsesAttendues": [
+        "hospital"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the emergency with the person.",
+      "pairs": [
+        {
+          "left": "Fire",
+          "right": "Firefighter"
+        },
+        {
+          "left": "Crime",
+          "right": "Police officer"
+        },
+        {
+          "left": "Injury",
+          "right": "Doctor / Paramedic"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is a 'first aid kit'?",
+      "options": [
+        "A box with supplies to treat minor injuries",
+        "A set of tools for a car",
+        "A map of the city",
+        "A list of phone numbers"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

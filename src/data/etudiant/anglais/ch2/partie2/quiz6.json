@@ -1,0 +1,63 @@
+{
+  "id": "quiz16",
+  "titre": "Sports Traditions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is the famous tennis tournament in London?",
+      "options": [
+        "Wimbledon",
+        "Roland Garros",
+        "US Open",
+        "Australian Open"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "At Wimbledon, players traditionally wear all blue.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "The final of the American football season is called the {{1}}.",
+      "reponsesAttendues": [
+        "Super Bowl"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the sport to its traditional place.",
+      "pairs": [
+        {
+          "left": "Cricket",
+          "right": "The Village Green (UK)"
+        },
+        {
+          "left": "Sumo",
+          "right": "The Dohyo (Japan)"
+        },
+        {
+          "left": "Baseball",
+          "right": "The Diamond (USA)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is the 'haka'?",
+      "options": [
+        "A traditional Maori dance used by the NZ rugby team",
+        "A type of sushi",
+        "A name for a tennis racket",
+        "A special kind of goal"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

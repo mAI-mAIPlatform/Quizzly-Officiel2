@@ -1,0 +1,63 @@
+{
+  "id": "quiz18",
+  "titre": "O tempo",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Hace sol'?",
+      "options": [
+        "Está sol",
+        "Está chovendo",
+        "Está frio",
+        "Está nublado"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Está ventando' significa que hace viento.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Hoje está muito {{1}} (chaud/calor).",
+      "reponsesAttendues": [
+        "calor"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el clima.",
+      "pairs": [
+        {
+          "left": "A chuva",
+          "right": "La pluie"
+        },
+        {
+          "left": "A neve",
+          "right": "La neige"
+        },
+        {
+          "left": "O trovão",
+          "right": "Le tonnerre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'previsão do tempo'?",
+      "options": [
+        "Pronóstico del tiempo",
+        "Reloj de arena",
+        "Viaje en el tiempo",
+        "Calendario"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

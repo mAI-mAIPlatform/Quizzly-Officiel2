@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Urlaub im Ausland",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'L'avion' ?",
+      "options": [
+        "Das Flugzeug",
+        "Das Schiff",
+        "Der Bus",
+        "Der Zug"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Flughafen' bedeutet 'Aéroport'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich brauche meinen {{1}} (passeport).",
+      "reponsesAttendues": [
+        "Reisepass"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Begriffe.",
+      "pairs": [
+        {
+          "left": "Grenze",
+          "right": "Frontière"
+        },
+        {
+          "left": "Zoll",
+          "right": "Douane"
+        },
+        {
+          "left": "Flug",
+          "right": "Vol"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Wohin fliegst du?",
+      "options": [
+        "Nach Spanien",
+        "In den Schrank",
+        "Auf den Tisch",
+        "Hallo Spanien"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Les Grands Défrichements",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un défrichement au Moyen Âge ?",
+      "options": [
+        "Couper des arbres pour créer de nouvelles terres agricoles",
+        "Construire une ville",
+        "Aller à la guerre",
+        "Creuser des mines"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les seigneurs encourageaient les paysans à défricher pour augmenter leurs revenus (taxes).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "De nombreux noms de villages finissant par '-art' ou '-ay' viennent du mot {{1}}.",
+      "reponsesAttendues": [
+        "essart"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Vrai ou Faux sur les défrichements ?",
+      "pairs": [
+        {
+          "left": "Ils ont eu lieu surtout entre le XIe et le XIIIe siècle",
+          "right": "Vrai"
+        },
+        {
+          "left": "La forêt a presque disparu d'Europe à cette époque",
+          "right": "Faux (elle a diminué mais est restée vaste)"
+        },
+        {
+          "left": "Ils ont permis de nourrir une population plus nombreuse",
+          "right": "Vrai"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelait-on un paysan qui s'installait sur une terre neuve ?",
+      "options": [
+        "Un colon",
+        "Un hôte",
+        "Un intrus",
+        "Un soldat"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

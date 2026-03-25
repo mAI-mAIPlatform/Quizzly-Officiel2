@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Identité et Vie Privée",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'identité numérique ?",
+      "options": [
+        "L'ensemble des traces que l'on laisse sur Internet (avis, photos, comptes)",
+        "Ta carte d'identité scannée",
+        "Ton mot de passe uniquement",
+        "Ton nom"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une loi interdit de publier la photo de quelqu'un sans son accord (droit à l'image).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les {{1}} sont des petits fichiers texte qui suivent ton parcours sur les sites.",
+      "reponsesAttendues": [
+        "cookies"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Droit Français.",
+      "pairs": [
+        {
+          "left": "CNIL",
+          "right": "Gendarme des données personnelles en France"
+        },
+        {
+          "left": "RGPD",
+          "right": "Règlement européen de protection"
+        },
+        {
+          "left": "Droit à l'oubli",
+          "right": "Possibilité d'effacer son passé numérique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment protéger sa vie privée ?",
+      "options": [
+        "Régler ses paramètres de confidentialité et réfléchir avant de poster",
+        "Ne jamais mettre de pseudo",
+        "Mettre son adresse partout pour être livré vite",
+        "Vendre ses données"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

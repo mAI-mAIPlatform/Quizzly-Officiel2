@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "La Koinê : Grec de tous",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la 'Koinê' ?",
+      "options": [
+        "La langue commune simplifiée après les conquêtes d'Alexandre",
+        "Un nouveau dialecte secret",
+        "Une langue morte au Ve siècle",
+        "La langue des esclaves uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Nouveau Testament (Bible) a été écrit en grec Koinê.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot 'Koinê' (κοινή) signifie littéralement {{1}} (commune).",
+      "reponsesAttendues": [
+        "commune"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'évolution.",
+      "pairs": [
+        {
+          "left": "Grec Classique",
+          "right": "Ve et IVe s. av. J.-C. (Attique)"
+        },
+        {
+          "left": "Koinê",
+          "right": "Période hellénistique"
+        },
+        {
+          "left": "Grec Moderne",
+          "right": "Langue actuelle de la Grèce"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'extension de la culture grecque dans tout l'Orient ?",
+      "options": [
+        "L'hellénisme",
+        "La romanisation",
+        "La persification",
+        "L'américanisation"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

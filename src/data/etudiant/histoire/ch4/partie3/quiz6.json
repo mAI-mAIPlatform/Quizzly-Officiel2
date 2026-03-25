@@ -1,0 +1,64 @@
+{
+  "id": "quiz26",
+  "titre": "Territoires en marge",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quels sont les territoires français les moins intégrés à la mondialisation ?",
+      "options": [
+        "Les espaces ruraux isolés ('diagonale du vide') et certains quartiers sensibles",
+        "Paris et Lyon",
+        "Les aéroports et les ports",
+        "Les stations balnéaires de luxe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La 'fracture numérique' désigne l'inégalité d'accès à Internet entre les territoires.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le départ des services publics des zones isolées s'appelle la {{1}} des territoires.",
+      "reponsesAttendues": [
+        "désertification"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le territoire à sa difficulté.",
+      "pairs": [
+        {
+          "left": "Ancienne zone industrielle",
+          "right": "Chômage et besoin de reconversion"
+"
+        },
+        {
+          "left": "Montagne isolée",
+          "right": "Enclavement et manque de services"
+        },
+        {
+          "left": "Banlieue défavorisée",
+          "right": "Ségrégation sociale et précarité"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'objectif de l'aménagement du territoire de l'État ?",
+      "options": [
+        "Réduire les inégalités entre les territoires français",
+        "Aider uniquement les gens très riches",
+        "Supprimer toutes les villes pour faire des champs",
+        "Fermer les routes"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

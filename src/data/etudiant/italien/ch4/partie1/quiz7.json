@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Monumenti e Musei",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿En qué ciudad está el Colosseo?",
+      "options": [
+        "Roma",
+        "Milano",
+        "Venezia",
+        "Firenze"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Galleria degli Uffizi' es el museo más famoso de Florencia.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Voglio visitare la {{1}} di Pisa (tour).",
+      "reponsesAttendues": [
+        "Torre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el monumento.",
+      "pairs": [
+        {
+          "left": "Duomo",
+          "right": "Cathédrale"
+        },
+        {
+          "left": "Fontana",
+          "right": "Fontaine"
+"        },
+        {
+          "left": "Palazzo",
+          "right": "Palais"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'patrimonio'?",
+      "options": [
+        "Patrimonio / Herencia cultural",
+        "Dinero",
+        "Edificio",
+        "Pintura"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

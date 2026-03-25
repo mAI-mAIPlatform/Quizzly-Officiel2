@@ -1,0 +1,63 @@
+{
+  "id": "quiz19",
+  "titre": "Énergies et Dynamique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Laquelle de ces énergies provient de la dynamique externe (soleil/air) ?",
+      "options": [
+        "L'énergie éolienne",
+        "L'énergie nucléaire",
+        "Le charbon",
+        "La géothermie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'énergie solaire est à l'origine du cycle de l'eau et des vents.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'énergie de la Terre (chaleur interne) utilisée pour chauffer est la {{1}}.",
+      "reponsesAttendues": [
+        "géothermie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'énergie à sa source.",
+      "pairs": [
+        {
+          "left": "Panneau Photovoltaïque",
+          "right": "Rayonnement Solaire"
+        },
+        {
+          "left": "Éolienne",
+          "right": "Force du vent"
+        },
+        {
+          "left": "Barrage",
+          "right": "Mouvement de l'eau (gravité/soleil)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi privilégier les énergies renouvelables ?",
+      "options": [
+        "Elles ne s'épuisent pas et émettent peu de gaz à effet de serre",
+        "Elles sont magiques",
+        "Elles ne coûtent jamais rien à construire",
+        "Elles remplacent le soleil"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

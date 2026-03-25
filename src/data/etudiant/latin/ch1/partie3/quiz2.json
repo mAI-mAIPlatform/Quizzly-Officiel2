@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Les institutions républicaines",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle assemblée est composée d'anciens magistrats ?",
+      "options": [
+        "Le Sénat",
+        "Les Comices",
+        "Le Conseil des Plébéiens",
+        "L'Atrium"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le dictateur est nommé pour 10 ans en cas de crise.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les défenseurs de la plèbe sont les {{1}} (tribuns).",
+      "reponsesAttendues": [
+        "tribuns"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la fonction.",
+      "pairs": [
+        {
+          "left": "Questeur",
+          "right": "Finances"
+        },
+        {
+          "left": "Édile",
+          "right": "Urbanisme / Jeux"
+        },
+        {
+          "left": "Préteur",
+          "right": "Justice"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le parcours des magistratures ?",
+      "options": [
+        "Le cursus honorum",
+        "La via sacra",
+        "Le forum",
+        "Le pomerium"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

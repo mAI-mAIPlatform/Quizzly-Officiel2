@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Apresentações (Présentations)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Je m'appelle...' ?",
+      "options": [
+        "Chamo-me...",
+        "Tenho...",
+        "Sou de...",
+        "Gosto de..."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Qual é o teu nome?' é a pergunta correta para o nome.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu {{1}} (suis) o Manuel.",
+      "reponsesAttendues": [
+        "sou"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Apresentações.",
+      "pairs": [
+        {
+          "left": "O meu nome é",
+          "right": "Mon nom est"
+        },
+        {
+          "left": "Sou estudante",
+          "right": "Je suis étudiant"
+        },
+        {
+          "left": "Encantado",
+          "right": "Enchanté"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Como te chamas?",
+      "options": [
+        "Chamo-me Maria",
+        "Tenho dez anos",
+        "Sou brasileira",
+        "Olá"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

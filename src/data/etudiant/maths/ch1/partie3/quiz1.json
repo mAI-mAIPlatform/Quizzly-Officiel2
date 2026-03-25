@@ -1,0 +1,63 @@
+{
+  "id": "quiz21",
+  "titre": "Problèmes de la vie courante",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Un article coûte 15€. Il baisse de 3€. Quel est son nouveau prix ?",
+      "options": [
+        "12€",
+        "18€",
+        "-3€",
+        "45€"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si je gagne 10€ puis j'en dépense 15€, mon bilan est de -5€.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Trois amis se partagent équitablement 45€. Chacun reçoit {{1}}€.",
+      "reponsesAttendues": [
+        "15"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la situation au calcul correspondant.",
+      "pairs": [
+        {
+          "left": "Reculer de 5 pas",
+          "right": "-5"
+        },
+        {
+          "left": "Monter de 3 étages",
+          "right": "+3"
+        },
+        {
+          "left": "Perdre 2 billes",
+          "right": "-2"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "J'ai 20€. Un livre coûte 24,50€. Combien me manque-t-il ?",
+      "options": [
+        "4,50€",
+        "-4,50€",
+        "44,50€",
+        "0€"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

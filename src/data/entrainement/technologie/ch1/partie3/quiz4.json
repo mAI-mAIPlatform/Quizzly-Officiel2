@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "La Chaîne d'Énergie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle fonction permet de stocker l'énergie (piles, réservoir) ?",
+      "options": [
+        "Alimenter",
+        "Distribuer",
+        "Convertir",
+        "Transmettre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le relais ou le contacteur servent à 'Distribuer' l'énergie.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le moteur sert à {{1}} l'énergie électrique en mécanique.",
+      "reponsesAttendues": [
+        "convertir"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Fonctions d'énergie.",
+      "pairs": [
+        {
+          "left": "Alimenter",
+          "right": "Batterie"
+        },
+        {
+          "left": "Distribuer",
+          "right": "Relais / Interrupteur"
+        },
+        {
+          "left": "Transmettre",
+          "right": "Engrenages / Courroies"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où se trouvent les actionneurs dans le système ?",
+      "options": [
+        "À la fin de la chaîne d'énergie",
+        "Au début de la chaîne d'info",
+        "Dans la batterie",
+        "Ils n'y sont pas"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

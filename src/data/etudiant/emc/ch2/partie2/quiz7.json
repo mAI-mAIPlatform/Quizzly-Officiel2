@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Le Droit à l'Image",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Peux-tu publier une photo d'un ami sans son autorisation ?",
+      "options": [
+        "Non, c'est interdit par le droit à l'image",
+        "Oui, si la photo est jolie",
+        "Seulement si il ne s'en rend pas compte",
+        "Oui, les photos appartiennent à celui qui les prend"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans un lieu public, on a le droit de photographier un monument sans demander l'avis des gens autour.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'autorisation écrite d'utiliser l'image de quelqu'un s'appelle le {{1}} (consentement).",
+      "reponsesAttendues": [
+        "consentement"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la situation à la règle.",
+      "pairs": [
+        {
+          "left": "Photo privée",
+          "right": "Autorisation obligatoire pour tout usage"
+        },
+        {
+          "left": "Photo de presse",
+          "right": "Usage possible pour l'information"
+        },
+        {
+          "left": "Photo satirique",
+          "right": "Droit à la caricature (liberté d'expression)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que risques-tu si tu publies une photo dégradante de quelqu'un sans son accord ?",
+      "options": [
+        "Des poursuites judiciaires et une amende",
+        "Rien du tout",
+        "On te donne une médaille",
+        "Une simple excuse suffit"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

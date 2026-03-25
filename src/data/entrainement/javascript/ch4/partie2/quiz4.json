@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "L'instruction return",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert le mot-clé 'return' ?",
+      "options": [
+        "À recommencer la fonction",
+        "À renvoyer une valeur au code qui a appelé la fonction",
+        "À supprimer la fonction",
+        "À afficher un message à l'écran"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'return' arrête immédiatement l'exécution de la fonction.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le code écrit APRÈS un return dans le même bloc ne sera jamais {{1}}.",
+      "reponsesAttendues": [
+        "exécuté"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'usage.",
+      "pairs": [
+        {
+          "left": "return 5;",
+          "right": "Renvoie un nombre"
+        },
+        {
+          "left": "return;",
+          "right": "Arrête la fonction (renvoie undefined)"
+        },
+        {
+          "left": "return x + y;",
+          "right": "Renvoie le résultat d'un calcul"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que renvoie une fonction qui n'a pas de 'return' ?",
+      "options": [
+        "0",
+        "null",
+        "undefined",
+        "Une erreur"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

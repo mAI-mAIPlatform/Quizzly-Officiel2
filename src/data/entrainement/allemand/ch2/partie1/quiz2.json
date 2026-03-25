@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Uhrzeiten (L'heure)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie fragt man nach der Uhrzeit?",
+      "options": [
+        "Wie spät ist es?",
+        "Wie alt ist es?",
+        "Wo ist es?",
+        "Wer ist es?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Viertel vor' bedeutet 'Quart d'heure avant'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Es ist {{1}} (8:30) Uhr.",
+      "reponsesAttendues": [
+        "halb neun"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Uhrzeit.",
+      "pairs": [
+        {
+          "left": "Fünf nach",
+          "right": "5 après"
+        },
+        {
+          "left": "Viertel nach",
+          "right": "Et quart"
+        },
+        {
+          "left": "Punkt",
+          "right": "Pile"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Wie sagt man 10:15?",
+      "options": [
+        "Viertel nach zehn",
+        "Viertel vor zehn",
+        "Halb elf",
+        "Zehn Uhr eins"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

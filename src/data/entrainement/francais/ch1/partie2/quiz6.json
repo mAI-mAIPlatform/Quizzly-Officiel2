@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Le Futur : Être et Avoir",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le radical de 'Être' au futur ?",
+      "options": [
+        "ser-",
+        "êt-",
+        "ét-",
+        "f-"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'J'aurai' prend un 's' à la fin.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Tu {{1}} (avoir) une bonne note.",
+      "reponsesAttendues": [
+        "auras"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Avenir radieux.",
+      "pairs": [
+        {
+          "left": "Il sera",
+          "right": "Être"
+        },
+        {
+          "left": "Nous aurons",
+          "right": "Avoir"
+        },
+        {
+          "left": "Elles auront",
+          "right": "Avoir"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Complète : 'Plus tard, vous _____ grands.'",
+      "options": [
+        "serez",
+        "seriez",
+        "aurez",
+        "étiez"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

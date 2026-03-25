@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Le Subjonctif présent",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle voyelle caractérise le subjonctif présent de la 1ère conjugaison ?",
+      "options": [
+        "-e- (ex: amem)",
+        "-a-",
+        "-i-",
+        "-u-"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le subjonctif s'utilise souvent pour exprimer un souhait ou un ordre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Que je sois se dit {{1}} (sim).",
+      "reponsesAttendues": [
+        "sim"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la forme (subjonctif présent).",
+      "pairs": [
+        {
+          "left": "Amem",
+          "right": "Que j'aime"
+        },
+        {
+          "left": "Ames",
+          "right": "Que tu aimes"
+        },
+        {
+          "left": "Amet",
+          "right": "Qu'il aime"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la forme de 'Sitis' ?",
+      "options": [
+        "Que vous soyez",
+        "Que nous soyons",
+        "Qu'ils soient",
+        "Que je sois"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

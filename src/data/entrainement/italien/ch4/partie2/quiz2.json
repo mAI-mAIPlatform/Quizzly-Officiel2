@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Adverbes de Lieu",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Ici' ?",
+      "options": [
+        "Qui / Qua",
+        "Lì / Là",
+        "Sopra",
+        "Sotto"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Sotto' signifie 'Dessus'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "En haut / Au-dessus se dit '{{1}}'.",
+      "reponsesAttendues": [
+        "sopra"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "Dentro",
+          "right": "Dedans / À l'intérieur"
+        },
+        {
+          "left": "Fuori",
+          "right": "Dehors / À l'extérieur"
+        },
+        {
+          "left": "Dovunque",
+          "right": "Partout"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Accanto' ?",
+      "options": [
+        "À côté",
+        "Loin",
+        "Derrière",
+        "Devant"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

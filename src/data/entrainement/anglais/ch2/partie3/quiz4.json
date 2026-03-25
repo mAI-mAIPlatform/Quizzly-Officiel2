@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Sports Equipment",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What do you need for Tennis?",
+      "options": [
+        "A racket and a ball",
+        "A goal and a bat",
+        "A net and goggles",
+        "A bike and a helmet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "You wear 'goggles' when you swim.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "You wear a {{1}} to protect your head while cycling.",
+      "reponsesAttendues": [
+        "helmet"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match equipment.",
+      "pairs": [
+        {
+          "left": "Bat",
+          "right": "Baseball"
+        },
+        {
+          "left": "Stick",
+          "right": "Hockey"
+        },
+        {
+          "left": "Shuttlecock",
+          "right": "Badminton"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What do you wear on your feet for running?",
+      "options": [
+        "Trainers / Sneakers",
+        "Boots",
+        "Sandals",
+        "Socks only"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

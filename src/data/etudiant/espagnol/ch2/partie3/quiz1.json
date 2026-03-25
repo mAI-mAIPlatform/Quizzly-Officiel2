@@ -1,0 +1,63 @@
+{
+  "id": "quiz21",
+  "titre": "El Futuro Próximo",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es la terminación de 'Yo' para el futuro simple?",
+      "options": [
+        "-é",
+        "-é",
+        "-é",
+        "-o"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En el futuro simple, las terminaciones se añaden al infinitivo completo.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Mañana yo {{1}} (estudiar) para el examen.",
+      "reponsesAttendues": [
+        "estudiaré"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la persona con la terminación del futuro.",
+      "pairs": [
+        {
+          "left": "Tú",
+          "right": "-ás"
+        },
+        {
+          "left": "Nosotros",
+          "right": "-emos"
+        },
+        {
+          "left": "Ellos",
+          "right": "-án"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Ils mangeront'?",
+      "options": [
+        "Comerán",
+        "Comeremos",
+        "Comerás",
+        "Comerán"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

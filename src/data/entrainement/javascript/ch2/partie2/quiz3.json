@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Le cas default",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert le mot-clé 'default' ?",
+      "options": [
+        "C'est la valeur par défaut de la variable",
+        "C'est le code exécuté si aucun 'case' ne correspond",
+        "C'est pour réinitialiser le switch",
+        "C'est le premier cas testé"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On ne peut avoir qu'un seul 'default' par switch.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le 'default' est l'équivalent du {{1}} final dans une structure if/else.",
+      "reponsesAttendues": [
+        "else"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'état de la variable.",
+      "pairs": [
+        {
+          "left": "Variable == Case A",
+          "right": "Bloc A exécuté"
+        },
+        {
+          "left": "Variable == Inconnue",
+          "right": "Bloc Default exécuté"
+        },
+        {
+          "left": "Switch sans Default",
+          "right": "Rien n'est fait si inconnu"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où place-t-on généralement le bloc 'default' ?",
+      "options": [
+        "Tout au début",
+        "Au milieu",
+        "À la toute fin du switch",
+        "Dans un fichier séparé"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

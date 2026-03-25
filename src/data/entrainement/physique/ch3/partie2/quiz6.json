@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Conservation de l'énergie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "L'énergie peut-elle disparaître ?",
+      "options": [
+        "Oui, quand on éteint la lumière",
+        "Non, elle ne peut que se transformer ou se transférer",
+        "Oui, si on attend longtemps",
+        "Seulement dans l'espace"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'énergie consommée par un appareil est toujours égale à l'énergie utile + l'énergie perdue.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans un système fermé, l'énergie totale se {{1}}.",
+      "reponsesAttendues": [
+        "conserve"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le type d'énergie au bilan.",
+      "pairs": [
+        {
+          "left": "Énergie reçue",
+          "right": "Ce qui entre dans le système"
+        },
+        {
+          "left": "Énergie utile",
+          "right": "Ce qui sert à la fonction principale"
+        },
+        {
+          "left": "Énergie dissipée",
+          "right": "Pertes (souvent thermiques)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi dit-on qu'une lampe a un mauvais rendement ?",
+      "options": [
+        "Parce qu'elle brille trop",
+        "Parce qu'elle transforme une grande partie de l'électricité en chaleur au lieu de lumière",
+        "Parce qu'elle est chère",
+        "Parce qu'elle est petite"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Tolérance et Dialogue",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'être tolérant ?",
+      "options": [
+        "Respecter la liberté de pensée et les opinions des autres",
+        "Accepter tout, même ce qui est illégal",
+        "Ne jamais parler à personne",
+        "Obliger les autres à être comme soi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La tolérance a des limites : elle s'arrête là où la loi est enfreinte.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Discuter pour se comprendre s'appelle le {{1}} (dialogue).",
+      "reponsesAttendues": [
+        "dialogue"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'attitude à sa définition.",
+      "pairs": [
+        {
+          "left": "Respect",
+          "right": "Sentiment de considération envers autrui"
+        },
+        {
+          "left": "Ouverture d'esprit",
+          "right": "Curiosité pour les autres cultures"
+        },
+        {
+          "left": "Paix civile",
+          "right": "Etat de concorde entre les citoyens"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi le dialogue est-il vital en démocratie ?",
+      "options": [
+        "Pour éviter les conflits violents et trouver des solutions communes",
+        "Parce que c'est une perte de temps",
+        "Pour faire semblant d'écouter",
+        "C'est une obligation inutile"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

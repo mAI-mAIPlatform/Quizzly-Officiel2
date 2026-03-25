@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "L'enlèvement des Sabines",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi les Romains ont-ils enlevé les femmes sabines ?",
+      "options": [
+        "Pour assurer la descendance de Rome",
+        "Pour faire la guerre",
+        "Pour de l'argent",
+        "Par erreur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les Sabines ont fini par réconcilier les deux peuples.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le roi des Sabins s'appelait Titus {{1}} (Tatius).",
+      "reponsesAttendues": [
+        "Tatius"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les peuples.",
+      "pairs": [
+        {
+          "left": "Romains",
+          "right": "Fondateurs"
+        },
+        {
+          "left": "Sabins",
+          "right": "Peuple voisin"
+        },
+        {
+          "left": "Étrusques",
+          "right": "Peuple de Toscane"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment Romulus a-t-il attiré les Sabins ?",
+      "options": [
+        "En organisant des jeux (Consualia)",
+        "En déclarant la guerre",
+        "En offrant de l'or",
+        "En envoyant des ambassadeurs"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

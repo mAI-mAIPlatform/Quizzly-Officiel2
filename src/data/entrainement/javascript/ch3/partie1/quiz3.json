@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "L'Initialisation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la variable de contrôle la plus utilisée par convention ?",
+      "options": [
+        "x",
+        "i",
+        "counter",
+        "loop"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On utilise généralement 'let' pour déclarer 'i' car sa valeur va changer.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'initialisation ne s'exécute qu'{{1}} seule fois, au début.",
+      "reponsesAttendues": [
+        "une"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le point de départ.",
+      "pairs": [
+        {
+          "left": "let i = 0",
+          "right": "Commence à zéro"
+        },
+        {
+          "left": "let i = 1",
+          "right": "Commence à un"
+        },
+        {
+          "left": "let i = 10",
+          "right": "Peut commencer n'importe où"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on utiliser 'const' pour 'i' dans un for classique (i++) ?",
+      "options": [
+        "Oui",
+        "Non, car i doit changer de valeur",
+        "Seulement si on compte à l'envers",
+        "Ça dépend du navigateur"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

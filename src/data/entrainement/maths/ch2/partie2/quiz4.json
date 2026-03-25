@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Symétrique d'un Cercle",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Le symétrique d'un cercle de centre C par rapport à O est un cercle de centre C' tel que :",
+      "options": [
+        "O est le milieu de [CC']",
+        "C est le milieu de [OC']",
+        "C' est le milieu de [OC]",
+        "C = C'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le rayon du cercle symétrique est le double du rayon initial.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si le rayon est 3 cm, le rayon du cercle symétrique est {{1}} cm.",
+      "reponsesAttendues": [
+        "3"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'élément du cercle à son symétrique.",
+      "pairs": [
+        {
+          "left": "Centre du cercle",
+          "right": "Centre du cercle symétrique"
+        },
+        {
+          "left": "Rayon",
+          "right": "Rayon égal"
+        },
+        {
+          "left": "Diamètre",
+          "right": "Diamètre égal"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si O est le centre du cercle, quel est son symétrique par rapport à O ?",
+      "options": [
+        "Un autre cercle",
+        "Lui-même",
+        "Un point",
+        "Une droite"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

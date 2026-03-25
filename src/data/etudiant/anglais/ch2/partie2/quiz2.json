@@ -1,0 +1,63 @@
+{
+  "id": "quiz12",
+  "titre": "Legends and Myths",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Who is the legendary king of Camelot?",
+      "options": [
+        "King Arthur",
+        "King Kong",
+        "King Burger",
+        "King Tut"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "The Loch Ness Monster is famously nicknamed 'Nessie'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A mythical creature that is half-human and half-fish is a {{1}}.",
+      "reponsesAttendues": [
+        "mermaid"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the legend to its country.",
+      "pairs": [
+        {
+          "left": "Robin Hood",
+          "right": "England"
+        },
+        {
+          "left": "The Leprechaun",
+          "right": "Ireland"
+        },
+        {
+          "left": "Bigfoot",
+          "right": "USA / Canada"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What was the name of King Arthur's sword?",
+      "options": [
+        "Excalibur",
+        "Sting",
+        "Gladius",
+        "Mjölnir"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

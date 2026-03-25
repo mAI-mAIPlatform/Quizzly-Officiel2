@@ -1,0 +1,63 @@
+{
+  "id": "quiz21",
+  "titre": "La France urbaine",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel pourcentage de la population française vit dans une aire urbaine ?",
+      "options": [
+        "Environ 85 %",
+        "Environ 50 %",
+        "Environ 25 %",
+        "100 %"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En France, la population urbaine continue de progresser.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La ville de {{1}} domine largement le réseau urbain français.",
+      "reponsesAttendues": [
+        "Paris"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la période au fait urbain en France.",
+      "pairs": [
+        {
+          "left": "XIXe siècle",
+          "right": "Exode rural massif vers les villes industrielles"
+        },
+        {
+          "left": "1950-1970",
+          "right": "Construction des grands ensembles (banlieues)"
+        },
+        {
+          "left": "Depuis 1990",
+          "right": "Périurbanisation et métropolisation"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le fait que tout soit concentré à Paris ?",
+      "options": [
+        "Le macrocéphalisme urbain",
+        "La décentralisation",
+        "L'équilibrage régional",
+        "La ruralité"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

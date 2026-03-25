@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Vocabulaire : La Langue",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'La langue' (organe et parole) ?",
+      "options": [
+        "hé glôtta (ἡ γλῶττα / glôssa)",
+        "ho logos",
+        "ho mên",
+        "ho arithmos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Gramma' (γράμμα) signifie 'La lettre' ou 'L'écrit'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le nom se dit 'to {{1}}' (onoma / ὄνομα).",
+      "reponsesAttendues": [
+        "onoma"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme linguistique.",
+      "pairs": [
+        {
+          "left": "Glôtta",
+          "right": "Langue"
+        },
+        {
+          "left": "Phônê",
+          "right": "La voix / Le son"
+        },
+        {
+          "left": "Lexis",
+          "right": "Le mot / Le vocabulaire"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Biblion' ?",
+      "options": [
+        "Le livre",
+        "Le stylo",
+        "La table",
+        "Le mur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

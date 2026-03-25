@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Bourgeoisie et Prolétariat",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui fait partie de la grande bourgeoisie au XIXe ?",
+      "options": [
+        "Les banquiers, grands commerçants et patrons d'usines",
+        "Les paysans sans terre",
+        "Les ouvriers agricoles",
+        "Les mendiants"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le prolétariat possède uniquement sa force de travail pour vivre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La bourgeoisie valorise le travail, l'épargne et le {{1}}.",
+      "reponsesAttendues": [
+        "profit"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la classe sociale à son mode de vie.",
+      "pairs": [
+        {
+          "left": "Bourgeoisie",
+          "right": "Domestiques, loisirs, grands appartements"
+        },
+        {
+          "left": "Prolétariat",
+          "right": "Logements insalubres, nourriture simple, travail long"
+        },
+        {
+          "left": "Classes moyennes",
+          "right": "Employés de bureau, petits commerçants"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la principale source de tension entre ces deux classes ?",
+      "options": [
+        "Le partage des richesses et les conditions de travail",
+        "La météo",
+        "La couleur des vêtements",
+        "Le sport"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

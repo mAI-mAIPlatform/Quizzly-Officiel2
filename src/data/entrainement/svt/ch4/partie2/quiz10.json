@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan : Relations dans l'écosystème",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qui maintient l'équilibre d'un réseau trophique ?",
+      "options": [
+        "La météo",
+        "Les multiples interactions entre espèces",
+        "Les clôtures",
+        "Le hasard"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Toutes les espèces sont interdépendantes dans un écosystème.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La flèche rouge symbolise souvent l'action de {{1}}.",
+      "reponsesAttendues": [
+        "manger"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dernier défi de la partie 2 :",
+      "pairs": [
+        {
+          "left": "Prédation",
+          "right": "Manger une proie"
+        },
+        {
+          "left": "Symbiose",
+          "right": "Aide mutuelle durable"
+        },
+        {
+          "left": "Parasitisme",
+          "right": "Vivre aux dépens de l'autre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour la Partie 3 sur l'Homme et l'Équilibre ?",
+      "options": [
+        "Oui, voyons notre impact !",
+        "Pas encore",
+        "C'est quoi un impact ?",
+        "Je préfère rester sur les réseaux"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

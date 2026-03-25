@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Mögen und Gern essen",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'J'aime le chocolat' ?",
+      "options": [
+        "Ich mag Schokolade",
+        "Ich habe Schokolade",
+        "Ich bin Schokolade",
+        "Ich esse Schokolade"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Gern' wird mit einem Verb verwendet, um Vorlieben auszudrücken.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich mag {{1}} (pas) Fisch.",
+      "reponsesAttendues": [
+        "keinen"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Vorlieben.",
+      "pairs": [
+        {
+          "left": "Lieblingsgericht",
+          "right": "Plat préféré"
+        },
+        {
+          "left": "Lecker",
+          "right": "Délicieux"
+        },
+        {
+          "left": "Süß",
+          "right": "Sucré"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Was isst du am liebsten?",
+      "options": [
+        "Am liebsten esse ich Pizza",
+        "Ich mag Pizza",
+        "Pizza ist gut",
+        "Hallo Pizza"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

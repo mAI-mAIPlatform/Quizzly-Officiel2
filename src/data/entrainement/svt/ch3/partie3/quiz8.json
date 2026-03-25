@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Reproduction contrôlée en agriculture",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'insémination artificielle ?",
+      "options": [
+        "Apprendre aux vaches à nager",
+        "Déposer des spermatozoïdes dans l'utérus de la femelle sans rapport direct",
+        "Donner des vitamines",
+        "Changer la couleur du lait"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'homme sélectionne les reproducteurs pour améliorer le rendement (plus de lait, de viande...).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La sélection de caractères intéressants par l'homme s'appelle la sélection {{1}}.",
+      "reponsesAttendues": [
+        "artificielle"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la technique agricole.",
+      "pairs": [
+        {
+          "left": "Hybridation",
+          "right": "Croisement de deux variétés différentes"
+        },
+        {
+          "left": "Pollinisation manuelle",
+          "right": "Féconder les fleurs de vanille à la main"
+        },
+        {
+          "left": "Sélection",
+          "right": "Garder les graines des meilleures plantes"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le risque de la sélection intensive ?",
+      "options": [
+        "Perdre la diversité des anciennes variétés",
+        "Avoir des plantes trop fortes",
+        "Les vaches deviennent bleues",
+        "Il n'y a pas de risque"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

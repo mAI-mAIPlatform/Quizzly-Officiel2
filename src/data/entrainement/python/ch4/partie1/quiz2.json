@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Méthodes de Liste : Ajouter et Insérer",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode ajoute un élément à la FIN de la liste ?",
+      "options": [
+        "append()",
+        "insert()",
+        "extend()",
+        "add()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "insert(0, x) ajoute l'élément x au tout début de la liste.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour fusionner une liste avec une autre, on utilise {{1}}().",
+      "reponsesAttendues": [
+        "extend"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "append(5)",
+          "right": "Ajoute 5"
+        },
+        {
+          "left": "extend([5])",
+          "right": "Ajoute le contenu de la liste"
+        },
+        {
+          "left": "insert(1, 5)",
+          "right": "Place 5 à l'indice 1"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si L=[1]; L.append([2,3]); que vaut L ?",
+      "options": [
+        "[1, [2, 3]]",
+        "[1, 2, 3]",
+        "[[1, 2, 3]]",
+        "Erreur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

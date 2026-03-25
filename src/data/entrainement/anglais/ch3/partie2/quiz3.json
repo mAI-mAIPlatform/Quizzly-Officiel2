@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Nationalities",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "If you are from England, you are...",
+      "options": [
+        "English",
+        "Englander",
+        "Englisian",
+        "British"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "If you are from the USA, you are 'American'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "People from Japan are {{1}}.",
+      "reponsesAttendues": [
+        "Japanese"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match nationalities.",
+      "pairs": [
+        {
+          "left": "France",
+          "right": "French"
+        },
+        {
+          "left": "Spain",
+          "right": "Spanish"
+        },
+        {
+          "left": "China",
+          "right": "Chinese"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Which nationality ends in -ian?",
+      "options": [
+        "Italian",
+        "French",
+        "Spanish",
+        "Greek"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "quiz5",
+  "titre": "Listes et Tableaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une liste (ou un tableau) en programmation ?",
+      "options": [
+        "Une variable unique qui contient plusieurs valeurs organisées",
+        "Une liste de courses sur papier",
+        "Un ensemble de fonctions sans lien",
+        "La mémoire vive de l'ordinateur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'indice d'un élément dans une liste commence souvent par 0.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour accéder au 1er élément d'une liste nommée 'M', on écrit {{1}} (M[0]).",
+      "reponsesAttendues": [
+        "M[0]",
+        "index 0"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'action sur une liste à son but.",
+      "pairs": [
+        {
+          "left": "Ajouter (Append)",
+          "right": "Mettre un nouvel élément à la fin"
+        },
+        {
+          "left": "Supprimer (Pop/Remove)",
+          "right": "Enlever un élément de la liste"
+"        },
+        {
+          "left": "Trier (Sort)",
+          "right": "Ranger les éléments (ex: ordre alphabétique)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser des listes ?",
+      "options": [
+        "Pour stocker un grand nombre de données liées (ex: scores, inventaire)",
+        "Pour rendre le code plus joli",
+        "Parce que c'est obligatoire pour Internet",
+        "Pour économiser de l'électricité"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

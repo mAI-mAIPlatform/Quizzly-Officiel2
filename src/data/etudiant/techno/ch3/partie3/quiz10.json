@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Ch. 3 P. 3 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Le recyclage des DEEE permet de récupérer des {{1}}.",
+      "options": [
+        "métaux précieux",
+        "bois tendres",
+        "aliments",
+        "vêtements"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'obsolescence programmée est légale dans tous les pays.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'économie {{1}} (circulaire) s'oppose à l'économie linéaire.",
+      "reponsesAttendues": [
+        "circulaire"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les concepts environnementaux.",
+      "pairs": [
+        {
+          "left": "Réemploi",
+          "right": "Seconde vie sans transformation"
+        },
+        {
+          "left": "Recyclage",
+          "right": "Transformation de la matière"
+        },
+        {
+          "left": "Éco-conception",
+          "right": "Prise en compte de la planète dès le design"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'indice de réparabilité ?",
+      "options": [
+        "Une note indiquant si l'objet est facile à réparer",
+        "La vitesse de réparation d'un robot",
+        "Le prix d'une réparation",
+        "Un type de colle"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

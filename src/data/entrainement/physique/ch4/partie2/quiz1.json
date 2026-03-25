@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Décrire un mouvement",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pour décrire le mouvement d'un objet, que faut-il choisir en premier ?",
+      "options": [
+        "Un chronomètre",
+        "Un référentiel (objet de référence)",
+        "Une règle",
+        "Une couleur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un passager assis dans un train en marche est immobile par rapport au train.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mouvement d'un objet peut être différent selon le {{1}} choisi.",
+      "reponsesAttendues": [
+        "référentiel"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le référentiel à l'étude.",
+      "pairs": [
+        {
+          "left": "Référentiel terrestre",
+          "right": "Objets sur Terre (ex: voiture)"
+        },
+        {
+          "left": "Référentiel géocentrique",
+          "right": "Satellite autour de la Terre"
+        },
+        {
+          "left": "Référentiel héliocentrique",
+          "right": "Planètes autour du Soleil"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si je marche dans le couloir d'un train, mon mouvement par rapport au sol est-il le même que par rapport au train ?",
+      "options": [
+        "Oui",
+        "Non, il faut additionner ou soustraire les vitesses",
+        "Ça dépend de mes chaussures",
+        "Le train ne compte pas"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

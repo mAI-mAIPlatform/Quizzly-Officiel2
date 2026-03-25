@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Termes Historiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'Dynastie' ?",
+      "options": [
+        "Une succession de rois ou d'empereurs appartenant à la même famille",
+        "Un type de danse antique",
+        "Le nom d'une arme",
+        "Un plat traditionnel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un 'Empire' est un vaste territoire regroupant plusieurs peuples sous une autorité unique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un habitant d'une cité qui possède des droits et des devoirs politiques est un {{1}} (citoyen).",
+      "reponsesAttendues": [
+        "citoyen"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme à son domaine.",
+      "pairs": [
+        {
+          "left": "Archéologie",
+          "right": "Étude des traces matérielles du passé (fouilles)"
+        },
+        {
+          "left": "Chronologie",
+          "right": "Science de la fixation des dates et de l'ordre des faits"
+        },
+        {
+          "left": "Monarchy",
+          "right": "Régime politique dirigé par un seul chef héréditaire"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie le terme 'Nomade' ?",
+      "options": [
+        "Qui n'a pas d'habitat fixe et se déplace sans cesse",
+        "Qui vit uniquement dans les arbres",
+        "Qui refuse de parler",
+        "Qui commande une armée"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

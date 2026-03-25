@@ -1,0 +1,63 @@
+{
+  "id": "quiz18",
+  "titre": "Civilizaciones Antiguas",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué civilización vivía en el actual México?",
+      "options": [
+        "Aztecas y Mayas",
+        "Incas",
+        "Griegos",
+        "Egiptos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Los Incas vivían en la zona de los Andes (Sudamérica).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Los Mayas construyeron grandes {{1}} (pyramides).",
+      "reponsesAttendues": [
+        "pirámides"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la civilización con su dato.",
+      "pairs": [
+        {
+          "left": "Mayas",
+          "right": "Calendario preciso"
+        },
+        {
+          "left": "Aztecas",
+          "right": "Tenochtitlán"
+        },
+        {
+          "left": "Incas",
+          "right": "Machu Picchu"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'imperio'?",
+      "options": [
+        "Empire",
+        "Village",
+        "Forêt",
+        "Mer"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

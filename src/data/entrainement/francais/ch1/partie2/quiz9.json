@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "L'Imparfait : Verbes en -IER (Double i ?)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment écrit-on 'Nous' à l'imparfait pour 'Crier' ?",
+      "options": [
+        "Criions",
+        "Crions",
+        "Criallions",
+        "Criaient"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On met deux 'i' à 'Vous étudiiez' (imparfait).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vous {{1}} (oublier) toujours tout !",
+      "reponsesAttendues": [
+        "oubliiez"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Compare.",
+      "pairs": [
+        {
+          "left": "Nous trions",
+          "right": "Présent"
+        },
+        {
+          "left": "Nous triions",
+          "right": "Imparfait"
+        },
+        {
+          "left": "Nous trierons",
+          "right": "Futur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est à l'imparfait ?",
+      "options": [
+        "Nous pliions",
+        "Nous plions",
+        "Nous plierons",
+        "Nous avons plié"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

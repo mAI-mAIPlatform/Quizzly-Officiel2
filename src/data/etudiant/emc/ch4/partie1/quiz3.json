@@ -1,0 +1,64 @@
+{
+  "id": "quiz3",
+  "titre": "L'Évolution de l'Union",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel traité, signé en 1992, transforme la CEE en 'Union Européenne' ?",
+      "options": [
+        "Le traité de Maastricht",
+        "Le traité de Versailles",
+        "Le traité de Lisbonne",
+        "Le traité de l'Élysée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'acte unique européen (1986) visait à créer un grand marché sans frontières.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le traité de Lisbonne (2007) a été créé pour rendre l'UE plus {{1}} (efficace / démocratique).",
+      "reponsesAttendues": [
+        "efficace",
+        "démocratique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le traité à son apport principal.",
+      "pairs": [
+        {
+          "left": "Rome (1957)",
+          "right": "Marché commun économique"
+        },
+        {
+          "left": "Maastricht (1992)",
+          "right": "Citoyenneté européenne et monnaie unique"
+        },
+        {
+          "left": "Lisbonne (2007)",
+          "right": "Réforme des institutions"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "En quelle année l'Euro est-il entré en circulation dans les banques (billets et pièces) ?",
+      "options": [
+        "2002",
+        "1992",
+        "2010",
+        "1980"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

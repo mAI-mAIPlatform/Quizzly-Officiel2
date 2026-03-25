@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Robotics and AI",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is 'Artificial Intelligence' (AI)?",
+      "options": [
+        "Computer systems that can perform human-like tasks",
+        "A robot that looks exactly like a human",
+        "A type of expensive battery",
+        "An alien from outer space"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Robots are only used in science fiction movies.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A robot uses {{1}} to detect things around it, like obstacles.",
+      "reponsesAttendues": [
+        "sensors"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the AI use with its example.",
+      "pairs": [
+        {
+          "left": "Speech recognition",
+          "right": "Siri or Alexa"
+        },
+        {
+          "left": "Image recognition",
+          "right": "Face ID on a phone"
+        },
+        {
+          "left": "Recommendation",
+          "right": "Netflix or YouTube suggestions"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is a 'drone'?",
+      "options": [
+        "A remote-controlled flying robot",
+        "A type of heavy box",
+        "A person who works very hard",
+        "A musical note"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

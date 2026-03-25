@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "A Família 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Le grand-père' ?",
+      "options": [
+        "O avô",
+        "A avó",
+        "O tio",
+        "O primo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Tia' significa 'Tante'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O meu {{1}} (cousine) chama-se Inês.",
+      "reponsesAttendues": [
+        "prima"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Parentes.",
+      "pairs": [
+        {
+          "left": "Sobrinho",
+          "right": "Neveu"
+        },
+        {
+          "left": "Neta",
+          "right": "Petite-fille"
+        },
+        {
+          "left": "Sogro",
+          "right": "Beau-père"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "O meu pai tem um irmão. Ele é o meu...",
+      "options": [
+        "Tio",
+        "Primo",
+        "Sobrinho",
+        "Avô"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

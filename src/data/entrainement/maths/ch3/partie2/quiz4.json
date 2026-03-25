@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Pourcentages (Calculer une valeur)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment calculer 20% de 50€ ?",
+      "options": [
+        "50 + 20",
+        "50 × 0.20",
+        "50 / 20",
+        "50 × 20"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Prendre 50% d'un nombre revient à le diviser par 2.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "25% de 200 est égal à {{1}}.",
+      "reponsesAttendues": [
+        "50"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Calcule le pourcentage.",
+      "pairs": [
+        {
+          "left": "10% de 300",
+          "right": "30"
+        },
+        {
+          "left": "75% de 100",
+          "right": "75"
+        },
+        {
+          "left": "5% de 200",
+          "right": "10"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Un article à 80€ est soldé à -25%. Quel est le montant de la remise ?",
+      "options": [
+        "15€",
+        "20€",
+        "25€",
+        "10€"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

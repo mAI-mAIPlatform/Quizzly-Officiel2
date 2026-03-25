@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Emergências e Ajuda",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'L'ambulance' ?",
+      "options": [
+        "A ambulância",
+        "Os bombeiros",
+        "A polícia",
+        "O hospital"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Socorro!' é usado para pedir ajuda urgente.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ligue para o {{1}} (112 - número de emergência).",
+      "reponsesAttendues": [
+        "cento e doze"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Ajuda.",
+      "pairs": [
+        {
+          "left": "Acidente",
+          "right": "Accident"
+        },
+        {
+          "left": "Urgências",
+          "right": "Urgences"
+        },
+        {
+          "left": "Perigo",
+          "right": "Danger"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Onde é o hospital mais próximo?",
+      "options": [
+        "Fica a dois quilómetros daqui",
+        "Fica dentro da minha mala",
+        "Sou um hospital",
+        "Bom dia"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

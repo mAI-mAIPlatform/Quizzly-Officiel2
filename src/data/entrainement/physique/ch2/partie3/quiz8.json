@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "L'équation chimique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment symbolise-t-on une transformation chimique ?",
+      "options": [
+        "Avec un dessin",
+        "Avec une équation de réaction",
+        "Avec un poème",
+        "Avec une photo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans une équation, la flèche signifie 'donne' ou 'se transforme en'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Réactifs -> {{1}}.",
+      "reponsesAttendues": [
+        "Produits"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le nom à la formule (initiation).",
+      "pairs": [
+        {
+          "left": "Dioxyde de carbone",
+          "right": "CO2"
+        },
+        {
+          "left": "Dioxygène",
+          "right": "O2"
+        },
+        {
+          "left": "Carbone",
+          "right": "C"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est l'équation de la combustion du carbone ?",
+      "options": [
+        "C + O2 -> CO2",
+        "H2O -> H2 + O2",
+        "C + H2O -> CO2",
+        "O2 -> CO2"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

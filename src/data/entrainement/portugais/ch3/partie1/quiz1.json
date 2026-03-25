@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Divisões da Casa",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'La cuisine' ?",
+      "options": [
+        "A cozinha",
+        "O quarto",
+        "A sala",
+        "A casa de banho"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Quarto' significa 'Chambre'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu vejo televisão na {{1}} (salon).",
+      "reponsesAttendues": [
+        "sala"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Partes da casa.",
+      "pairs": [
+        {
+          "left": "Corredor",
+          "right": "Couloir"
+        },
+        {
+          "left": "Sótão",
+          "right": "Grenier"
+        },
+        {
+          "left": "Garagem",
+          "right": "Garage"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Onde dormes?",
+      "options": [
+        "No quarto",
+        "Na cozinha",
+        "Na garagem",
+        "Olá"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

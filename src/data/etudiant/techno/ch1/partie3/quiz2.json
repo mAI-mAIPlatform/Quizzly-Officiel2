@@ -1,0 +1,65 @@
+{
+  "id": "quiz2",
+  "titre": "Capteurs et Actionneurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans un système automatisé, à quoi sert un 'capteur' ?",
+      "options": [
+        "À prélever une information sur l'environnement (température, luminosité...)",
+        "À effectuer une action physique (bouger, chauffer)",
+        "À donner des ordres à l'utilisateur",
+        "À décorer le boîtier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un moteur ou une lampe sont des exemples d'actionneurs.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le cerveau du système qui reçoit les infos des capteurs et commande les actionneurs est une {{1}} (interface / carte de commande).",
+      "reponsesAttendues": [
+        "carte",
+        "interface",
+        "microcontroleur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'élément à sa catégorie.",
+      "pairs": [
+        {
+          "left": "Capteur d'humidité",
+          "right": "Capteur"
+        },
+        {
+          "left": "Vérin hydraulique",
+          "right": "Actionneur"
+        },
+        {
+          "left": "Bouton poussoir",
+          "right": "Capteur (entrée utilisateur)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel capteur permet à un robot d'aspirer sans tomber dans les escaliers ?",
+      "options": [
+        "Un capteur de vide (infrarouge ou ultrason)",
+        "Un capteur de goût",
+        "Un thermomètre",
+        "Un micro"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

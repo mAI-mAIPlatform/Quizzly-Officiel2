@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Racine : La Passion fatale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Chez Racine, l'amour est perçu comme :",
+      "options": [
+        "Une maladie ou une folie destructrice",
+        "Une force héroïque",
+        "Un jeu amusant",
+        "Un profit financier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Phèdre est amoureuse de son beau-fils Hippolyte.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'héroïne qui refuse d'épouser Pyrrhus pour rester fidèle à son mari mort est {{1}}.",
+      "reponsesAttendues": [
+        "Andromaque"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la pièce à son thème passionnel.",
+      "pairs": [
+        {
+          "left": "Phèdre",
+          "right": "La culpabilité et les dieux"
+        },
+        {
+          "left": "Andromaque",
+          "right": "La chaîne des amours non partagées"
+        },
+        {
+          "left": "Bérénice",
+          "right": "L'adieu politique et amoureux"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel adjectif qualifie le style pur et dépouillé de Racine ?",
+      "options": [
+        "Classique",
+        "Baroque",
+        "Romantique",
+        "Gothique"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

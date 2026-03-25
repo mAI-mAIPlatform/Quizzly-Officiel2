@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Magellan et le premier voyage autour du monde",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a dirigé la première expédition à faire le tour du monde ?",
+      "options": [
+        "Christophe Colomb",
+        "Fernand de Magellan",
+        "Marco Polo",
+        "Jacques Cartier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Magellan a survécu à tout le voyage et est revenu en Espagne.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le passage découvert par Magellan au sud de l'Amérique s'appelle le {{1}} de Magellan.",
+      "reponsesAttendues": [
+        "détroit"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le nom à son rôle dans le voyage.",
+      "pairs": [
+        {
+          "left": "Fernand de Magellan",
+          "right": "Capitaine de l'expédition"
+        },
+        {
+          "left": "Juan Sebastián Elcano",
+          "right": "Ramène le dernier navire en Espagne"
+        },
+        {
+          "left": "La Victoria",
+          "right": "Seul navire sur cinq à terminer le tour"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel océan Magellan a-t-il nommé ainsi en raison de son calme apparent ?",
+      "options": [
+        "L'Océan Atlantique",
+        "L'Océan Pacifique",
+        "L'Océan Indien",
+        "L'Océan Arctique"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

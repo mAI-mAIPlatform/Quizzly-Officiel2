@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Énergies Fossiles (Pétrole, Charbon, Gaz)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi appelle-t-on ces énergies 'fossiles' ?",
+      "options": [
+        "Car elles proviennent de restes de plantes et d'animaux enterrés depuis des millénaires",
+        "Car elles sont vieilles",
+        "Car elles sentent mauvais",
+        "Car elles sont dures comme de la pierre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le gaz naturel est une énergie renouvelable.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La combustion de ces énergies libère du {{1}} (CO2), un gaz à effet de serre.",
+      "reponsesAttendues": [
+        "carbone"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Combustibles Fossiles.",
+      "pairs": [
+        {
+          "left": "Pétrole",
+          "right": "Carburants (Essence, Diesel)"
+        },
+        {
+          "left": "Charbon",
+          "right": "Production d'électricité / Acier"
+        },
+        {
+          "left": "Gaz Naturel",
+          "right": "Chauffage / Usines"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le risque majeur lié à l'utilisation massive des énergies fossiles ?",
+      "options": [
+        "Le réchauffement climatique",
+        "Le manque de lumière",
+        "L'excès de froid",
+        "La disparition de la lune"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

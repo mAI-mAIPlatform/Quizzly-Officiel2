@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Sciences et Culture à Bagdad",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelait le centre de recherche et de traduction à Bagdad ?",
+      "options": [
+        "La Maison de la Sagesse",
+        "La Bibliothèque d'Alexandrie",
+        "Le Louvre",
+        "L'Académie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les savants musulmans ont traduit et conservé les textes des anciens Grecs.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le savant Al-Khwarizmi a donné son nom au mot {{1}} (en mathématiques).",
+      "reponsesAttendues": [
+        "algorithme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le domaine au savant.",
+      "pairs": [
+        {
+          "left": "Médecine",
+          "right": "Avicenne (Ibn Sina)"
+        },
+        {
+          "left": "Mathématiques",
+          "right": "Al-Khwarizmi"
+        },
+        {
+          "left": "Philosophie",
+          "right": "Averroès (Ibn Rushd)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle invention, venue de Chine, a permis aux Arabes de diffuser les connaissances ?",
+      "options": [
+        "L'imprimerie",
+        "Le papier",
+        "La boussole",
+        "La poudre"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

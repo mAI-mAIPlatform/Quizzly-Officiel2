@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Pression des gaz",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est l'unité de pression du système international (SI) ?",
+      "options": [
+        "Le Pascal (Pa)",
+        "Le Kilogramme (kg)",
+        "Le Mètre (m)",
+        "Le Joule (j)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On mesure la pression atmosphérique avec un manomètre.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La pression atmosphérique normale au niveau de la mer est d'environ {{1}} hPa.",
+      "reponsesAttendues": [
+        "1013"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'appareil à ce qu'il mesure.",
+      "pairs": [
+        {
+          "left": "Baromètre",
+          "right": "Pression atmosphérique"
+        },
+        {
+          "left": "Manomètre",
+          "right": "Pression d'un gaz enfermé (ex: pneu)"
+        },
+        {
+          "left": "Thermomètre",
+          "right": "Température"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si le volume d'un gaz enfermé diminue à température constante, sa pression :",
+      "options": [
+        "Augmente",
+        "Diminue",
+        "Reste la même",
+        "Disparaît"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

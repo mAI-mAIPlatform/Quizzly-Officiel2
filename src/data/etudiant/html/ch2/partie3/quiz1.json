@@ -1,0 +1,70 @@
+{
+  "id": "quiz1",
+  "titre": "La balise Figure",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert principalement la balise <figure> ?",
+      "options": ["À faire des calculs", "À regrouper un contenu illustratif (image, code, etc.)", "À créer une bordure", "À insérer un lien"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La balise <figure> est une balise sémantique du HTML5.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On utilise <figure> pour que l'illustration soit {{1}} du texte principal.",
+      "reponsesAttendues": ["indépendante"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Peut-on mettre plusieurs images dans une seule balise <figure> ?",
+      "options": ["Non, une seule", "Oui, autant que nécessaire", "Uniquement deux", "Seulement si elles sont petites"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La balise <figure> remplace totalement la balise <img>.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel type de contenu peut-on aussi mettre dans une <figure> ?",
+      "options": ["Uniquement des images", "Des extraits de code", "Seulement du texte", "Rien d'autre"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "vrai_faux",
+      "enonce": "Une <figure> peut être déplacée vers une autre page sans perdre son sens.",
+      "reponse": true
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "La balise figure est un élément de {{1}} (block).",
+      "reponsesAttendues": ["bloc"]
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel attribut global est souvent utilisé pour identifier une figure ?",
+      "options": ["id", "src", "alt", "href"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le HTML5 recommande d'utiliser <figure> pour toutes les images d'un site.",
+      "reponse": false
+    }
+  ]
+}

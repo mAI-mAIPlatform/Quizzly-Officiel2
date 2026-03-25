@@ -1,0 +1,63 @@
+{
+  "id": "quiz24",
+  "titre": "La France dans le Monde",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la Francophonie ?",
+      "options": [
+        "L'ensemble des personnes et des pays qui utilisent le français",
+        "Le nom d'une nouvelle monnaie",
+        "Le règlement du collège français",
+        "L'interdiction des langues étrangères"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La France possède des bases militaires sur presque tous les océans.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'organisation qui regroupe les pays francophones est l'{{1}} (Organisation Internationale de la Francophonie).",
+      "reponsesAttendues": [
+        "OIF"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le territoire à son intérêt pour la France.",
+      "pairs": [
+        {
+          "left": "Guyane",
+          "right": "Base spatiale européenne (Kourou)"
+        },
+        {
+          "left": "Nouvelle-Calédonie",
+          "right": "Ressources en nickel et grande ZEE"
+        },
+        {
+          "left": "Réunion / Mayotte",
+          "right": "Présence dans l'Océan Indien"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la part du français dans les langues les plus parlées au monde ?",
+      "options": [
+        "C'est la 5ème langue mondiale et elle progresse (notamment en Afrique)",
+        "C'est une langue qui va disparaître demain",
+        "Elle n'est parlée qu'en France",
+        "Elle est la première langue universelle devant l'anglais"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

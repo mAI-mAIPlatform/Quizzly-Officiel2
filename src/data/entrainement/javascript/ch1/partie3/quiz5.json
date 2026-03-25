@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Conversions de types",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle fonction permet de transformer une chaîne en nombre entier ?",
+      "options": [
+        "toString()",
+        "parseInt()",
+        "toNumber()",
+        "makeNumber()"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Number('123') renvoie le nombre 123.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La fonction {{1}}(123) transforme 123 en chaîne '123'.",
+      "reponsesAttendues": [
+        "String"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'action au résultat.",
+      "pairs": [
+        {
+          "left": "String(true)",
+          "right": "'true'"
+        },
+        {
+          "left": "Number('Hi')",
+          "right": "NaN (Not a Number)"
+        },
+        {
+          "left": "Boolean(1)",
+          "right": "true"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que vaut parseInt('10.5') ?",
+      "options": [
+        "10.5",
+        "10",
+        "11",
+        "NaN"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

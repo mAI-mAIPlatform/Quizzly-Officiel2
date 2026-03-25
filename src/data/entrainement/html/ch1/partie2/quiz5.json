@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Fusion de Cellules : Rowspan",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel attribut permet de fusionner plusieurs LIGNES ?",
+      "options": [
+        "rowspan",
+        "colspan",
+        "lineremove",
+        "height"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "rowspan s'applique verticalement.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une cellule avec {{1}}='2' s'étend sur la ligne actuelle et celle du dessous.",
+      "reponsesAttendues": [
+        "rowspan"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Bases de fusion.",
+      "pairs": [
+        {
+          "left": "Horizontale",
+          "right": "colspan"
+        },
+        {
+          "left": "Verticale",
+          "right": "rowspan"
+        },
+        {
+          "left": "Grille",
+          "right": "Combinaison des deux"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si j'utilise rowspan='2', que dois-je faire sur la ligne suivante ?",
+      "options": [
+        "Supprimer une balise <td> pour laisser la place",
+        "Rajouter une balise <td>",
+        "Rien changer",
+        "Colorier la cellule"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

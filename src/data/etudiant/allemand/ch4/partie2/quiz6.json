@@ -1,0 +1,63 @@
+{
+  "id": "quiz16",
+  "titre": "Getränke",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Limonada'?",
+      "options": [
+        "Die Limo",
+        "Der Saft",
+        "Die Milch",
+        "Der Tee"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Kaffee' es masculino (Der Kaffee).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich trinke gern {{1}} ohne Zucker (café).",
+      "reponsesAttendues": [
+        "Kaffee"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la bebida.",
+      "pairs": [
+        {
+          "left": "Das Mineralwasser",
+          "right": "L'eau minérale"
+        },
+        {
+          "left": "Der Apfelsaft",
+          "right": "Le jus de pomme"
+        },
+        {
+          "left": "Die Heiße Schokolade",
+          "right": "Le chocolat chaud"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'Eistee'?",
+      "options": [
+        "Thé glacé",
+        "Crème glacée",
+        "Eau froide",
+        "Vin"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

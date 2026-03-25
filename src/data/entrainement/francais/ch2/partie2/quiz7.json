@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Suffixes et Classes Grammaticales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert souvent un suffixe ?",
+      "options": [
+        "À changer la classe grammaticale du mot",
+        "À changer le genre seulement",
+        "À inverser le sens",
+        "À rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le suffixe '-ment' sert souvent à créer des adverbes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Nom dérivé de 'Laver' avec le suffixe '-age' : {{1}}.",
+      "reponsesAttendues": [
+        "lavage"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Lien suffixe / sens.",
+      "pairs": [
+        {
+          "left": "-ette",
+          "right": "Diminutif (plus petit)"
+        },
+        {
+          "left": "-ier",
+          "right": "Métier / Arbre"
+        },
+        {
+          "left": "-able",
+          "right": "Possibilité"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel suffixe exprime un métier ?",
+      "options": [
+        "-iste (ex: dentiste)",
+        "-age",
+        "-ment",
+        "-ure"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

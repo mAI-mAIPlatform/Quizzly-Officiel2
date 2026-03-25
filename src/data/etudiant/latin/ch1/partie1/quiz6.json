@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "La 1ère déclinaison",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison du nominatif singulier de la 1ère déclinaison ?",
+      "options": [
+        "-a",
+        "-us",
+        "-um",
+        "-is"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La 1ère déclinaison contient principalement des noms féminins.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le génitif singulier de 'Rosa' est {{1}} (Rosae).",
+      "reponsesAttendues": [
+        "Rosae"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le cas à sa fonction.",
+      "pairs": [
+        {
+          "left": "Nominatif",
+          "right": "Sujet"
+        },
+        {
+          "left": "Accusatif",
+          "right": "Complément d'Objet Direct"
+        },
+        {
+          "left": "Génitif",
+          "right": "Complément du Nom"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment se termine l'accusatif singulier de la 1ère déclinaison ?",
+      "options": [
+        "-am",
+        "-as",
+        "-arum",
+        "-is"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

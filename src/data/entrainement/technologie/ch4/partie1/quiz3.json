@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "L'Énergie Solaire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre le solaire thermique et le photovoltaïque ?",
+      "options": [
+        "Le thermique chauffe de l'eau, le photovoltaïque produit de l'électricité",
+        "C'est la même chose",
+        "Le thermique est pour les voitures",
+        "Le photovoltaïque ne marche que le jour"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les panneaux solaires fonctionnent même par temps nuageux (mais moins bien).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'énergie solaire est captée grâce à des cellules en {{1}} (un semi-conducteur).",
+      "reponsesAttendues": [
+        "silicium"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Installations Solaires.",
+      "pairs": [
+        {
+          "left": "Chauffe-eau solaire",
+          "right": "Toiture (production de chaleur)"
+        },
+        {
+          "left": "Ferme solaire",
+          "right": "Champ de panneaux (production d'électricité)"
+        },
+        {
+          "left": "Calculatrice solaire",
+          "right": "Petite cellule intégrée"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage majeur du solaire ?",
+      "options": [
+        "Source d'énergie inépuisable et non polluante à l'usage",
+        "Ça marche mieux la nuit",
+        "C'est plus solide que le béton",
+        "On n'a plus besoin de câbles"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Zusammenfassung Kapitel 3 Teil 3",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Der ... (chien) spielt im ... (jardin).",
+      "options": [
+        "Hund / Garten",
+        "Katze / Wald",
+        "Löwe / Haus",
+        "Fisch / Berg"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Im Sommer scheint oft die Sonne.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Der {{1}} (ours) ist braun.",
+      "reponsesAttendues": [
+        "Bär"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Naturwelt.",
+      "pairs": [
+        {
+          "left": "Umwelt",
+          "right": "Environnement"
+        },
+        {
+          "left": "Wetter",
+          "right": "Météo"
+        },
+        {
+          "left": "Bauernhof",
+          "right": "Ferme"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Welches Tier ist dein Favorit?",
+      "options": [
+        "Mein Favorit ist der Wolf",
+        "Ich bin ein Wolf",
+        "Wolf ist ein Brot",
+        "Hallo Wolf"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

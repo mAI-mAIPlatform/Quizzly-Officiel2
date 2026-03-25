@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Le Salon et la Chambre",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Le lit' ?",
+      "options": [
+        "Il letto",
+        "Il divano",
+        "Le tende",
+        "Il tappeto"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Il divano' signifie 'Le canapé'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'armoire se dit 'L'{{1}}'.",
+      "reponsesAttendues": [
+        "armadio"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'objet du salon.",
+      "pairs": [
+        {
+          "left": "Televisore",
+          "right": "Téléviseur"
+        },
+        {
+          "left": "Lampada",
+          "right": "Lampe"
+        },
+        {
+          "left": "Finestra",
+          "right": "Fenêtre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'L'oreiller' ?",
+      "options": [
+        "Il cuscino",
+        "La coperta",
+        "Il lenzuolo",
+        "La scrivania"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

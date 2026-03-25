@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Ajouter et Supprimer dans un Set",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode ajoute un élément à un Set ?",
+      "options": [
+        "add()",
+        "append()",
+        "insert()",
+        "push()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "discard(x) supprime x et ne fait rien si x n'existe pas (pas d'erreur).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La méthode {{1}}() supprime un élément mais lève une erreur s'il manque.",
+      "reponsesAttendues": [
+        "remove"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "add(5)",
+          "right": "Ajoute 5"
+        },
+        {
+          "left": "pop()",
+          "right": "Supprime un élément au hasard"
+        },
+        {
+          "left": "clear()",
+          "right": "Vide le set"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment ajouter plusieurs éléments d'un coup ?",
+      "options": [
+        "update([1, 2, 3])",
+        "add([1, 2, 3])",
+        "extend([1, 2, 3])",
+        "S + {1, 2}"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

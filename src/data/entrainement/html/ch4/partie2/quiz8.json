@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Web Workers (Calculs lourds)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert un Web Worker ?",
+      "options": [
+        "À exécuter du code en arrière-plan sans bloquer l'interface",
+        "À créer des animations",
+        "À nettoyer le code",
+        "À envoyer des emails"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un Worker n'a pas accès au DOM (document, window...).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On communique avec un worker via la méthode post{{1}}().",
+      "reponsesAttendues": [
+        "Message"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Flux Worker.",
+      "pairs": [
+        {
+          "left": "postMessage",
+          "right": "Envoi de données"
+        },
+        {
+          "left": "onmessage",
+          "right": "Réception de données"
+        },
+        {
+          "left": "terminate",
+          "right": "Arrête le travailleur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quand utiliser un worker ?",
+      "options": [
+        "Pour des calculs mathématiques longs ou du traitement d'image",
+        "Pour faire un bouton",
+        "Pour afficher un texte",
+        "Jamais"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

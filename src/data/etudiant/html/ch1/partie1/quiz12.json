@@ -1,0 +1,64 @@
+{
+  "id": "quiz12",
+  "titre": "Le Paragraphe",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise utilise-t-on pour écrire un bloc de texte normal ?",
+      "options": [
+        "<p>",
+        "<text>",
+        "<span>",
+        "<div>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Par défaut, un paragraphe ajoute un petit espace (marge) au-dessus et en dessous.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un paragraphe est un élément de type '{{1}}', il prend toute la largeur disponible (block).",
+      "reponsesAttendues": [
+        "block",
+        "bloc"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Rôle -> Balise ?",
+      "pairs": [
+        {
+          "left": "Titre",
+          "right": "<h1>"
+        },
+        {
+          "left": "Paragraphe",
+          "right": "<p>"
+        },
+        {
+          "left": "Petit texte",
+          "right": "<small>"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on mettre un titre <h2> À L'INTÉRIEUR d'un paragraphe <p> ?",
+      "options": [
+        "Non, c'est une erreur sémantique",
+        "Oui, sans problème",
+        "Seulement si le titre est petit",
+        "C'est la règle"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

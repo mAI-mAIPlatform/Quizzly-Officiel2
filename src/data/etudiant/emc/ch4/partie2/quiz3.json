@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Conseil de l'Union Européenne",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui siège au Conseil de l'Union Européenne (aussi appelé Conseil des ministres) ?",
+      "options": [
+        "Les ministres des 27 pays membres (selon le sujet traité)",
+        "Les maires des grandes villes",
+        "Les chefs d'entreprises",
+        "Les journalistes sportifs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Conseil de l'Union vote les lois avec le Parlement européen.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La {{1}} (présidence) du Conseil change tous les 6 mois entre les pays membres.",
+      "reponsesAttendues": [
+        "présidence"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le type de conseil au sujet traité.",
+      "pairs": [
+        {
+          "left": "Ecofin",
+          "right": "Économie et finances"
+        },
+        {
+          "left": "Agriculture",
+          "right": "Pêche et monde agricole"
+        },
+        {
+          "left": "Environnement",
+          "right": "Climat et protection de la nature"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'un des rôles majeurs de ce Conseil ?",
+      "options": [
+        "Représenter les intérêts des gouvernements nationaux",
+        "Interdire le fromage",
+        "Changer les drapeaux tous les ans",
+        "Vendre des voitures"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

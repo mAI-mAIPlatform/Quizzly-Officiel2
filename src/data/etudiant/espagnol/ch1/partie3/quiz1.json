@@ -1,0 +1,63 @@
+{
+  "id": "quiz21",
+  "titre": "Pretérito Perfecto",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es el auxiliar para el Pretérito Perfecto?",
+      "options": [
+        "Haber",
+        "Tener",
+        "Ser",
+        "Estar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En español, el auxiliar y el participio nunca se separan.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Este verano, yo {{1}} (haber) viajado a Madrid.",
+      "reponsesAttendues": [
+        "he"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la persona con el auxiliar.",
+      "pairs": [
+        {
+          "left": "Tú",
+          "right": "has"
+        },
+        {
+          "left": "Nosotros",
+          "right": "hemos"
+        },
+        {
+          "left": "Ellos",
+          "right": "han"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Ils ont mangé'?",
+      "options": [
+        "Ellos han comido",
+        "Ellos han comer",
+        "Ellos habéis comido",
+        "Ellos hemos comido"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

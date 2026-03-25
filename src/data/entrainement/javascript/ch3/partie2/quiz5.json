@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Quand choisir do...while ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel cas est idéal pour un do...while ?",
+      "options": [
+        "Calculer une somme connue",
+        "Demander un mot de passe (on doit le demander au moins une fois)",
+        "Parcourir un tableau vide",
+        "Afficher une bannière pub"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "do...while est moins courant que while ou for.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "C'est une boucle à condition {{1}}-test (vérifiée après).",
+      "reponsesAttendues": [
+        "post"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le type de contrôle.",
+      "pairs": [
+        {
+          "left": "while",
+          "right": "Pré-test (vérifié avant)"
+        },
+        {
+          "left": "do...while",
+          "right": "Post-test (vérifié après)"
+        },
+        {
+          "left": "for",
+          "right": "Contrôle par itérateur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que manque-t-il ici : 'do { x++ } while (x < 5)' ?",
+      "options": [
+        "Des parenthèses",
+        "Un point-virgule à la fin",
+        "L'initialisation de x",
+        "Les options 2 et 3 sont valides"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

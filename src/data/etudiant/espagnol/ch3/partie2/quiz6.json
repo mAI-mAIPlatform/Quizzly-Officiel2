@@ -1,0 +1,63 @@
+{
+  "id": "quiz16",
+  "titre": "Imperativo (Tú)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Mange !' (¡Comer!) ?",
+      "options": [
+        "¡Come!",
+        "¡Comes!",
+        "¡Coma!",
+        "¡Comer!"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El imperativo afirmativo de 'Tú' es igual a la 3ª persona del presente (él/ella).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "¡{{1}} (beber) un poco de agua!",
+      "reponsesAttendues": [
+        "Bebe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el infinitivo con su imperativo (Tú).",
+      "pairs": [
+        {
+          "left": "Hablar",
+          "right": "¡Habla!"
+        },
+        {
+          "left": "Escribir",
+          "right": "¡Escribe!"
+        },
+        {
+          "left": "Abrir",
+          "right": "¡Abre!"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cuál es el imperativo de 'Cortar'?",
+      "options": [
+        "¡Corta!",
+        "¡Cortes!",
+        "¡Corte!",
+        "¡Cortas!"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

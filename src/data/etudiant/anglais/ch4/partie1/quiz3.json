@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Wildlife Conservation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What are 'endangered species'?",
+      "options": [
+        "Animals that are at risk of becoming extinct",
+        "Animals that are very dangerous to humans",
+        "Animals that live only in forests",
+        "Animals that are very colorful"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A 'habitat' is the natural home or environment of an animal.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "An animal that no longer exists anywhere on Earth is {{1}}.",
+      "reponsesAttendues": [
+        "extinct"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the animal with its endangered status / cause.",
+      "pairs": [
+        {
+          "left": "Polar Bear",
+          "right": "Losing sea ice due to warming"
+        },
+        {
+          "left": "Elephant",
+          "right": "Poaching for ivory"
+        },
+        {
+          "left": "Sea Turtle",
+          "right": "Ocean plastic pollution"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is a 'National Park'?",
+      "options": [
+        "An area of land protected by the government for wildlife",
+        "A place for people to play football",
+        "A theme park with rollercoasters",
+        "A type of very large grocery store"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

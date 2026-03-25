@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "L'Éclaté d'un objet",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert un dessin en 'vue éclatée' ?",
+      "options": [
+        "À voir tous les composants séparés et leur ordre de montage",
+        "À montrer un objet qui a explosé",
+        "À faire de la publicité",
+        "À cacher les pièces intérieures"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les pointillés (traits d'axe) indiquent le sens de montage des pièces.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La liste des pièces accompagnant un éclaté s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "nomenclature"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Usage de l'éclaté.",
+      "pairs": [
+        {
+          "left": "Notice de montage",
+          "right": "Meubles en kit"
+        },
+        {
+          "left": "Réparation",
+          "right": "Identifier une pièce cassée"
+        },
+        {
+          "left": "Conception",
+          "right": "Vérifier l'assemblage"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel logiciel permet de créer facilement des éclatés 3D ?",
+      "options": [
+        "Un logiciel de CAO (SolidWorks, Onshape)",
+        "Un logiciel de traitement de texte",
+        "Un tableur",
+        "Une calculatrice"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Programmation Robotique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle boucle est souvent utilisée pour qu'un robot surveille ses capteurs ?",
+      "options": [
+        "Répéter indéfiniment",
+        "Répéter 2 fois",
+        "Attendre 10 secondes",
+        "Arrêter tout"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si un robot éviteur d'obstacles capte un objet, il doit s'arrêter ou tourner.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On utilise souvent des blocs '{{1}}... alors' pour réagir aux capteurs.",
+      "reponsesAttendues": [
+        "Si"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Actions Robot.",
+      "pairs": [
+        {
+          "left": "Avancer",
+          "right": "Allumer les deux moteurs"
+        },
+        {
+          "left": "Tourner à droite",
+          "right": "Allumer moteur gauche uniquement"
+        },
+        {
+          "left": "Reculer",
+          "right": "Inverser le sens des moteurs"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi faut-il tester le programme sur un simulateur ou robot réel ?",
+      "options": [
+        "Pour vérifier qu'il réagit correctement aux imprévus du monde réel",
+        "Parce que c'est obligatoire",
+        "Pour s'amuser",
+        "Parce que l'ordinateur ne sait pas lire le code"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

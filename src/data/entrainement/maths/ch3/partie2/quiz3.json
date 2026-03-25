@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Échelles et Plans",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Une échelle de 1/100 signifie que 1 cm sur le plan représente en réalité :",
+      "options": [
+        "1 cm",
+        "10 cm",
+        "100 cm (1m)",
+        "1000 cm"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour agrandir une figure, on utilise une échelle supérieure à 1.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "À l'échelle 1/2000, 5 cm sur la carte représentent {{1}} m dans la réalité.",
+      "reponsesAttendues": [
+        "100"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'échelle à sa signification.",
+      "pairs": [
+        {
+          "left": "1/2",
+          "right": "Réduction de moitié"
+        },
+        {
+          "left": "2/1",
+          "right": "Agrandissement (double)"
+        },
+        {
+          "left": "1/10",
+          "right": "Dix fois plus petit"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Un terrain de 50m est représenté par 5cm. Quelle est l'échelle ?",
+      "options": [
+        "1/10",
+        "1/100",
+        "1/1000",
+        "1/10000"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

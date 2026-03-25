@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Musique et Animation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi la musique est-elle cruciale dans les films d'animation ?",
+      "options": [
+        "Pour donner de la vie et des émotions aux personnages dessinés",
+        "Pour faire de la publicité pour les jouets",
+        "Parce que les dessins animés n'ont pas de dialogues",
+        "C'est une obligation légale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Joe Hisaishi est le compositeur attitré des chefs-d'œuvre du studio Ghibli (Hayao Miyazaki).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les chansons des classiques Disney sont souvent écrites dans le style de la comédie {{1}} (musicale).",
+      "reponsesAttendues": [
+        "musicale"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le compositeur à son univers d'animation.",
+      "pairs": [
+        {
+          "left": "Alan Menken",
+          "right": "Classiques Disney (La Petite Sirène, Aladin)"
+        },
+        {
+          "left": "Joe Hisaishi",
+          "right": "Studio Ghibli (Mon Voisin Totoro)"
+        },
+        {
+          "left": "Randy Newman",
+          "right": "Pixar (Toy Story)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Mickeymousing' ?",
+      "options": [
+        "Illustrer chaque geste d'un personnage par un son musical précis",
+        "Manger du fromage en regardant un dessin animé",
+        "Chanter avec une voix très aiguë",
+        "Dessiner des souris partout"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

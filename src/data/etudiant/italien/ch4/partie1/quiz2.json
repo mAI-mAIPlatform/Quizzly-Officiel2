@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Modali al passato",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué auxiliar usa 'dovere' si el verbo que le sigue usa 'avere'?",
+      "options": [
+        "Avere",
+        "Essere",
+        "Fare",
+        "Stare"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Ho dovuto studiare' es correcto.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Sono {{1}} andare via (podido/poder).",
+      "reponsesAttendues": [
+        "potuto"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el modal pasado.",
+      "pairs": [
+        {
+          "left": "Ho voluto",
+          "right": "J'ai voulu"
+        },
+        {
+          "left": "Siamo dovuti",
+          "right": "Nous avons dû (movimiento)"
+        },
+        {
+          "left": "Avete potuto",
+          "right": "Vous avez pu"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'He tenido que salir'?",
+      "options": [
+        "Sono dovuto uscire",
+        "Ho dovuto uscire",
+        "Sono dovuta uscire",
+        "Ambas (a) y (c) si el sujeto es femenino"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

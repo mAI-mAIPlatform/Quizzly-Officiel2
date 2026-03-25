@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Échanges culturels en Méditerranée",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quels lieux étaient des centres d'échanges majeurs entre chrétiens et musulmans ?",
+      "options": [
+        "Londres et Paris",
+        "L'Espagne (Tolède) et la Sicile (Palerme)",
+        "Moscou et Pékin",
+        "Berlin et Rome"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les textes grecs antiques ont été retraduits de l'arabe vers le latin en Europe.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le roi de Sicile {{1}} II accueillait des savants de toutes les religions à sa cour.",
+      "reponsesAttendues": [
+        "Roger"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le produit à son influence.",
+      "pairs": [
+        {
+          "left": "Papier",
+          "right": "Diffusion du savoir"
+        },
+        {
+          "left": "Méridiens / Cartes",
+          "right": "Al-Idrisi (Géographe)"
+        },
+        {
+          "left": "Chiffres arabes",
+          "right": "Facilitent le calcul"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle mer est le trait d'union entre ces grandes civilisations ?",
+      "options": [
+        "La Mer Noire",
+        "La Mer Méditerranée",
+        "La Mer Rouge",
+        "L'Océan Atlantique"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

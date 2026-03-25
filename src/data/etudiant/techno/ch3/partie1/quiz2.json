@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Formes d'Énergie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle forme d'énergie possède un objet en mouvement ?",
+      "options": [
+        "L'énergie cinétique",
+        "L'énergie thermique",
+        "L'énergie lumineuse",
+        "L'énergie chimique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un aliment ou une pile contiennent de l'énergie chimique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'énergie liée à la chaleur est l'énergie {{1}} (thermique).",
+      "reponsesAttendues": [
+        "thermique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'objet à la forme d'énergie qu'il contient/utilise.",
+      "pairs": [
+        {
+          "left": "Soleil",
+          "right": "Énergie rayonnante (lumineuse)"
+        },
+        {
+          "left": "Radiateur",
+          "right": "Énergie thermique"
+        },
+        {
+          "left": "Batterie de téléphone",
+          "right": "Énergie chimique"
+"        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle forme d'énergie circule dans les câbles de ta maison ?",
+      "options": [
+        "L'énergie électrique",
+        "L'énergie mécanique",
+        "L'énergie sonore",
+        "L'énergie musculaire"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Dictionnaires : Rappels et Clés",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la caractéristique principale d'un dictionnaire ?",
+      "options": [
+        "Il stocke des paires Clé: Valeur",
+        "Il est toujours trié par ordre alphabétique",
+        "Il ne peut contenir que des textes",
+        "Il remplace les listes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une clé de dictionnaire doit être immuable (ex: str, int, tuple).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On crée un dictionnaire vide avec les symboles {{1}}.",
+      "reponsesAttendues": [
+        "{}"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "{'a': 1}",
+          "right": "Dictionnaire"
+        },
+        {
+          "left": "'a'",
+          "right": "Clé"
+        },
+        {
+          "left": "1",
+          "right": "Valeur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si on utilise deux fois la même clé ?",
+      "options": [
+        "La deuxième valeur écrase la première",
+        "Une erreur survient",
+        "Python crée une liste pour les deux valeurs",
+        "La première est conservée, la deuxième ignorée"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

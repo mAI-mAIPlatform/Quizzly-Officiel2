@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Farben",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Rouge'?",
+      "options": [
+        "Rot",
+        "Blau",
+        "Gelb",
+        "Grün"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Schwarz' significa 'blanc'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Der Himmel ist {{1}} (bleu).",
+      "reponsesAttendues": [
+        "blau"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el color.",
+      "pairs": [
+        {
+          "left": "Orange",
+          "right": "Orange"
+        },
+        {
+          "left": "Violett / Lila",
+          "right": "Violet"
+        },
+        {
+          "left": "Grau",
+          "right": "Gris"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cuál es el color del sol?",
+      "options": [
+        "Gelb",
+        "Schwarz",
+        "Blau",
+        "Rot"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

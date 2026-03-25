@@ -1,0 +1,63 @@
+{
+  "id": "quiz12",
+  "titre": "Articoli (Femminile)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué artículo se usa para 'Donna' (consonante)?",
+      "options": [
+        "La",
+        "L'",
+        "Il",
+        "Le"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Se usa 'L'' tanto para masculino como femenino si la palabra empieza por vocal.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "{{1}} amica (l' - vocale).",
+      "reponsesAttendues": [
+        "L'"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el artículo femenino.",
+      "pairs": [
+        {
+          "left": "La",
+          "right": "Ragazza (consonante)"
+        },
+        {
+          "left": "L'",
+          "right": "Aranciata (vocale)"
+        },
+        {
+          "left": "Le",
+          "right": "Donne (plurale)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cuál es el artículo para 'Scuola'?",
+      "options": [
+        "La",
+        "L'",
+        "Lo",
+        "Il"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

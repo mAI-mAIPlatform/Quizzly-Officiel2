@@ -1,0 +1,63 @@
+{
+  "id": "quiz14",
+  "titre": "Verbos em -IR",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Conjugación de 'Nós' para los verbos en -IR (es. Abrir)?",
+      "options": [
+        "abrimos",
+        "abrem",
+        "abre",
+        "abro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La forma de 'Eu' termina en -o (es. Parto).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A que horas vocês {{1}}? (dormir).",
+      "reponsesAttendues": [
+        "dormem"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el verbo con su significado.",
+      "pairs": [
+        {
+          "left": "Partir",
+          "right": "Partir / Quitter"
+        },
+        {
+          "left": "Descobrir",
+          "right": "Découvrir"
+        },
+        {
+          "left": "Sentir",
+          "right": "Sentir / Ressentir"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Él abre la puerta'?",
+      "options": [
+        "Ele abre a porta",
+        "Ele abri a porta",
+        "Ele abro a porta",
+        "Ele abrem a porta"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

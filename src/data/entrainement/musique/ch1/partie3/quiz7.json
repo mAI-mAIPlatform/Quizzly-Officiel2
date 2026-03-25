@@ -1,0 +1,62 @@
+{
+  "id": "quiz7",
+  "titre": "Musique de Film",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a composé la musique de 'Star Wars' et 'Harry Potter' ?",
+      "options": [
+        "Hans Zimmer",
+        "John Williams",
+        "Danny Elfman",
+        "Ennio Morricone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Ennio Morricone est célèbre pour ses musiques de westerns spaghetti.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Hans {{1}} a composé la musique de films comme 'Inception' ou 'Le Roi Lion'.",
+      "reponsesAttendues": [
+        "Zimmer"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Howard Shore",
+          "right": "Le Seigneur des Anneaux"
+"        },
+        {
+          "left": "John Williams",
+          "right": "Indiana Jones"
+        },
+        {
+          "left": "Vladimir Cosma",
+          "right": "Le Grand Blond"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le thème musical associé à un personnage (souvent utilisé par John Williams ou Wagner) ?",
+      "options": [
+        "Le leitmotiv",
+        "Le refrain",
+        "Le gimmick",
+        "Le jingle"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

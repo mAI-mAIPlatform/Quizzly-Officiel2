@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Cap. 2 P. 3 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "La bataille de Marathon a eu lieu en {{1}} et le futur de 'eimi' est {{2}}.",
+      "options": [
+        "490 av. J.-C. / esomai",
+        "480 av. J.-C. / eimi",
+        "334 av. J.-C. / ên",
+        "146 av. J.-C. / esen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'hoplite est un marin.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Alexandre le Grand était roi de {{1}} (Macédoine).",
+      "reponsesAttendues": [
+        "Macédoine"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les termes.",
+      "pairs": [
+        {
+          "left": "Nikê",
+          "right": "Victoire"
+        },
+        {
+          "left": "Houtos",
+          "right": "Celui-ci"
+        },
+        {
+          "left": "Persai",
+          "right": "Les Perses"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Basileus' ?",
+      "options": [
+        "Le Roi",
+        "Le Prêtre",
+        "Le Maître",
+        "L'Esclave"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

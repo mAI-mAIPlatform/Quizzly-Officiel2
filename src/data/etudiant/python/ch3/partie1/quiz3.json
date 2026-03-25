@@ -1,0 +1,67 @@
+{
+  "id": "quiz3",
+  "titre": "Modifier une Liste",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment change-t-on la valeur du premier élément d'une liste nommée 'score' ?",
+      "options": [
+        "score[0] = 50",
+        "score(0) = 50",
+        "score.update(0, 50)",
+        "change score[0] to 50"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Contrairement aux chaînes de caractères, les listes sont 'mutables' (on peut modifier leurs éléments directement).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le code 'nombres[1] = 10' remplace la {{1}} valeur de la liste par 10 (deuxième / 2ème).",
+      "reponsesAttendues": [
+        "deuxième",
+        "deuxieme",
+        "2ème",
+        "2eme",
+        "2"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'action au code.",
+      "pairs": [
+        {
+          "left": "Créer",
+          "right": "L = [1, 2]"
+        },
+        {
+          "left": "Accéder",
+          "right": "val = L[0]"
+        },
+        {
+          "left": "Modifier",
+          "right": "L[0] = 99"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que devient L après : L = [1, 2]; L[0] = L[1] ?",
+      "options": [
+        "[2, 2]",
+        "[1, 1]",
+        "[2, 1]",
+        "[1, 2]"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

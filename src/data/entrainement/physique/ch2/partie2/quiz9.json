@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Masses et Changement d'état",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Si je fais fondre un glaçon de 20g, quelle sera la masse de l'eau obtenue ?",
+      "options": [
+        "15g",
+        "20g",
+        "25g",
+        "On ne peut pas savoir"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le volume de l'eau change quand elle gèle, mais sa masse reste la même.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La masse se conserve car le nombre de {{1}} ne change pas.",
+      "reponsesAttendues": [
+        "molécules"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le changement d'état à sa particularité pour l'eau.",
+      "pairs": [
+        {
+          "left": "Solidification",
+          "right": "Le volume augmente (la glace prend plus de place)"
+        },
+        {
+          "left": "Vaporisation",
+          "right": "Le volume augmente énormément"
+        },
+        {
+          "left": "Fusion",
+          "right": "Le volume diminue légèrement (pour l'eau)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi une bouteille d'eau au congélateur peut-elle exploser ?",
+      "options": [
+        "Parce qu'il fait trop froid",
+        "Parce que le volume de la glace est plus grand que celui de l'eau liquide",
+        "Parce que les molécules gèlent",
+        "C'est un mystère"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

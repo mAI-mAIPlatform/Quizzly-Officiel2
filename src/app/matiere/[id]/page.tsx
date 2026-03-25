@@ -10,10 +10,20 @@ export default async function MatierePage({
 }) {
   const resolvedParams = await params;
   const [matiereId, niveau] = resolvedParams.id.split("-");
+  
+  const levelMap: Record<string, string> = {
+    "6": "debutant", "6eme": "debutant", "debutant": "debutant",
+    "5": "entrainement", "5eme": "entrainement", "entrainement": "entrainement",
+    "4": "etudiant", "4eme": "etudiant", "etudiant": "etudiant",
+    "3": "difficile", "3eme": "difficile", "difficile": "difficile",
+    "2": "expert", "2nde": "expert", "expert": "expert",
+    "1": "savant", "1ere": "savant", "savant": "savant",
+    "T": "genie", "terminale": "genie", "genie": "genie"
+  };
 
-  const normalizedNiveau = niveau === "6" ? "6eme" : niveau === "5" ? "5eme" : niveau === "4" ? "4eme" : niveau === "3" ? "3eme" : niveau;
+  const normalizedNiveau = levelMap[niveau] || levelMap[niveau.toLowerCase()] || niveau;
   const dataRoot = path.resolve(process.cwd(), "src/data");
-  const basePath = path.join(dataRoot, normalizedNiveau || "6eme", matiereId || "maths");
+  const basePath = path.join(dataRoot, normalizedNiveau, matiereId || "maths");
   
   let metadata: any = null;
 

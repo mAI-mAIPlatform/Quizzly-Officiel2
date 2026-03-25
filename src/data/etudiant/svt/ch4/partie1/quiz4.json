@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Le Tube Digestif",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le premier organe du tube digestif ?",
+      "options": [
+        "La bouche",
+        "L'estomac",
+        "L'œsophage",
+        "L'intestin grêle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les aliments passent par le foie et le pancréas lors de la digestion.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le tube qui relie la bouche à l'estomac est l'{{1}}.",
+      "reponsesAttendues": [
+        "œsophage"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'organe à sa fonction.",
+      "pairs": [
+        {
+          "left": "Estomac",
+          "right": "Poche de brassage et début de digestion chimique"
+        },
+        {
+          "left": "Intestin grêle",
+          "right": "Lieu principal de la digestion et de l'absorption"
+        },
+        {
+          "left": "Gros intestin",
+          "right": "Récupération de l'eau et formation des selles"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la longueur approximative du tube digestif chez l'adulte ?",
+      "options": [
+        "8 à 10 mètres",
+        "50 centimètres",
+        "2 mètres",
+        "1 kilomètre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

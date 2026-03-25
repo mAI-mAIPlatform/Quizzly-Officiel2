@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Types de mouvements",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on un mouvement dont la vitesse ne change pas ?",
+      "options": [
+        "Mouvement uniforme",
+        "Mouvement accéléré",
+        "Mouvement ralenti",
+        "Mouvement rectiligne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si la vitesse d'un objet augmente, son mouvement est dit 'accéléré'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un mouvement dont la vitesse diminue est qualifié de {{1}}.",
+      "reponsesAttendues": [
+        "ralenti"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la description à l'évolution de la vitesse.",
+      "pairs": [
+        {
+          "left": "Uniforme",
+          "right": "Vitesse constante"
+        },
+        {
+          "left": "Accéléré",
+          "right": "Vitesse croissante"
+        },
+        {
+          "left": "Ralenti / Décéléré",
+          "right": "Vitesse décroissante"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Dans un mouvement rectiligne uniforme, la trajectoire est :",
+      "options": [
+        "Une droite",
+        "Un cercle",
+        "Une spirale",
+        "Imprévisible"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

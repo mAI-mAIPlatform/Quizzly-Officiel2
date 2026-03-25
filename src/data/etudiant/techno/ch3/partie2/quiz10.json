@@ -1,0 +1,64 @@
+{
+  "id": "quiz10",
+  "titre": "Ch. 3 P. 2 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Un capteur assure la fonction {{1}}.",
+      "options": [
+        "Acquérir",
+        "Traiter",
+        "Communiquer",
+        "Alimenter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le binaire n'utilise que le 0 et le 1.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un octet est composé de {{1}} (8) bits.",
+      "reponsesAttendues": [
+        "8",
+        "huit"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les types de signaux.",
+      "pairs": [
+        {
+          "left": "Analogique",
+          "right": "Continu"
+        },
+        {
+          "left": "Numérique",
+          "right": "Discontinu / Binaire"
+        },
+        {
+          "left": "IHM",
+          "right": "Relation Homme-Machine"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est un support de communication sans fil ?",
+      "options": [
+        "Le Bluetooth",
+        "Le câble Ethernet",
+        "Le fil de fer",
+        "La prise secteur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

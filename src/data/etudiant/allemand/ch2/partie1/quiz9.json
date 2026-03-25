@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Häufigkeit",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Souvent'?",
+      "options": [
+        "Oft",
+        "Nie",
+        "Immer",
+        "Manchmal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Immer' significa 'jamais'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich esse {{1}} Gemüse (jamais).",
+      "reponsesAttendues": [
+        "nie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la frecuencia.",
+      "pairs": [
+        {
+          "left": "Jeden Tag",
+          "right": "Chaque jour"
+        },
+        {
+          "left": "Selten",
+          "right": "Rarement"
+        },
+        {
+          "left": "Meistens",
+          "right": "La plupart du temps"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Completa: 'Ich trinke {{1}} Milch, nur manchmal'.",
+      "options": [
+        "nicht oft",
+        "immer",
+        "nie",
+        "jeden Tag"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

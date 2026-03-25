@@ -1,0 +1,62 @@
+{
+  "id": "quiz6",
+  "titre": "L'Armée Romaine",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'unité de base de l'armée romaine ?",
+      "options": [
+        "Le régiment",
+        "La légion",
+        "L'escadron",
+        "La phalange"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un centurion commandait environ 100 soldats.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le bouclier romain s'appelait le {{1}}.",
+      "reponsesAttendues": [
+        "scutum"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Pilum",
+          "right": "Javelot"
+        },
+        {
+          "left": "Gladius",
+          "right": "Épée courte"
+        },
+        {
+          "left": "Lorica",
+          "right": "Cuirasse"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle célèbre formation permettait aux soldats de se protéger des flèches avec leurs boucliers ?",
+      "options": [
+        "La pyramide",
+        "La tortue",
+        "Le carré",
+        "Le cercle"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

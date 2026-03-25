@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Les Guerres Puniques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle cité ennemie Rome a-t-elle affrontée lors des Guerres Puniques ?",
+      "options": [
+        "Carthage",
+        "Athènes",
+        "Troie",
+        "Alexandrie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il y a eu trois Guerres Puniques au total.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les Carthaginois sont originaires de {{1}} (actuelle Tunisie).",
+      "reponsesAttendues": [
+        "Carthage"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les événements.",
+      "pairs": [
+        {
+          "left": "1ère Guerre",
+          "right": "Sicile et Mer"
+        },
+        {
+          "left": "2ème Guerre",
+          "right": "Hannibal"
+        },
+        {
+          "left": "3ème Guerre",
+          "right": "Destruction finale"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel était le surnom donné aux Carthaginois par les Romains ?",
+      "options": [
+        "Les Poeni (Puniques)",
+        "Les Barbares",
+        "Les Grecs",
+        "Les Slaves"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

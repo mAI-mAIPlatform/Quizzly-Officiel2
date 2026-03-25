@@ -1,0 +1,63 @@
+{
+  "id": "quiz22",
+  "titre": "Comparativos",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Más que'?",
+      "options": [
+        "Mais do que",
+        "Menos do que",
+        "Tão quanto",
+        "Igual que"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Menos do que' significa menos que.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Rio é {{1}} quente do que São Paulo (más).",
+      "reponsesAttendues": [
+        "mais"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el comparativo.",
+      "pairs": [
+        {
+          "left": "Maior que",
+          "right": "Plus grand que"
+        },
+        {
+          "left": "Menor que",
+          "right": "Plus petit que"
+        },
+        {
+          "left": "Melhor que",
+          "right": "Meilleur que"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Tan bueno como'?",
+      "options": [
+        "Tão bom quanto",
+        "Mais bom que",
+        "Menos bom que",
+        "Igual bom que"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

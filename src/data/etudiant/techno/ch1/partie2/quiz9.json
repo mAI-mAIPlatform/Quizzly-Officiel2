@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Cas pratique : Dessiner",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Tu veux programmer un robot pour qu'il dessine un carré de 100 pas de côté. Quel bloc de répétition utiliser ?",
+      "options": [
+        "Répéter 4 fois [Avancer 100, Tourner 90°]",
+        "Répéter 100 fois [Avancer 4, Tourner 90°]",
+        "Répéter 2 fois [Avancer 100, Tourner 180°]",
+        "On ne peut pas dessiner de carré"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour dessiner un triangle équilatéral, il faut répéter l'instruction 3 fois.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si mon robot doit s'arrêter quand il touche un mur, j'utilise une structure {{1}} (conditionnelle).",
+      "reponsesAttendues": [
+        "conditionnelle"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'instruction au résultat visuel.",
+      "pairs": [
+        {
+          "left": "Répéter 4 fois",
+          "right": "Carré"
+        },
+        {
+          "left": "Répéter 360 fois",
+          "right": "Cercle (environ)"
+        },
+        {
+          "left": "Répéter 3 fois",
+          "right": "Triangle"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si je veux que mon carré soit plus grand, quel paramètre dois-je changer ?",
+      "options": [
+        "Le nombre de pas après 'Avancer'",
+        "Le nombre de répétitions",
+        "L'angle de rotation",
+        "La couleur du stylo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

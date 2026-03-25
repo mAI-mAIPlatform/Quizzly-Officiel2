@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan : La civilisation de l'Islam",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces mots n'est PAS d'origine arabe ?",
+      "options": [
+        "Algèbre",
+        "Zénith",
+        "Château",
+        "Sirop"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le monde musulman médiéval était très en avance sur l'Occident chrétien.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La fin du califat abbasside de Bagdad a été causée par les {{1}} en 1258.",
+      "reponsesAttendues": [
+        "Mongols"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dernier défi d'Islam : Qui est quoi ?",
+      "pairs": [
+        {
+          "left": "Calife",
+          "right": "Chef suprême"
+        },
+        {
+          "left": "Vizir",
+          "right": "Premier ministre"
+        },
+        {
+          "left": "Cadis",
+          "right": "Juges"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt à découvrir le monde de la Chrétienté dans la Partie 3 ?",
+      "options": [
+        "Oui, tournons la page !",
+        "Pas encore",
+        "C'est quoi la Chrétienté ?",
+        "Je préfère rester à Bagdad"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

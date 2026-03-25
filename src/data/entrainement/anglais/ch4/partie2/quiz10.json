@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Review : Digital World",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Technology helps us to...",
+      "options": [
+        "Connect, learn, and play",
+        "Only sleep",
+        "Only eat",
+        "Nothing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "You should use your phone 24 hours a day.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Always log {{1}} after using a public computer.",
+      "reponsesAttendues": [
+        "out"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Match.",
+      "pairs": [
+        {
+          "left": "Mouse",
+          "right": "Click"
+        },
+        {
+          "left": "Keyboard",
+          "right": "Type"
+        },
+        {
+          "left": "Screen",
+          "right": "Look"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Ready for Part 3 about the Future?",
+      "options": [
+        "Yes!",
+        "Let's see the future!",
+        "Dreams!",
+        "Review Part 2"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

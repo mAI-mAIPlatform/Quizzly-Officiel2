@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Material Escolar",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Stylo' ?",
+      "options": [
+        "Un bolígrafo (Bolí)",
+        "Un lápiz",
+        "Un cuaderno",
+        "Una goma"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Una goma' sirve para borrar.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Cahier' se dice '{{1}}' en español.",
+      "reponsesAttendues": [
+        "cuaderno"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "En la mochila.",
+      "pairs": [
+        {
+          "left": "Libro",
+          "right": "Livre"
+        },
+        {
+          "left": "Estuche",
+          "right": "Trousse"
+        },
+        {
+          "left": "Mochila",
+          "right": "Sac à dos"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Como se dice 'Crayon' ?",
+      "options": [
+        "Lápiz",
+        "Sacapuntas",
+        "Regla",
+        "Tijeras"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

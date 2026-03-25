@@ -1,0 +1,63 @@
+{
+  "id": "quiz13",
+  "titre": "Schulmaterial",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Le cahier'?",
+      "options": [
+        "Das Heft",
+        "Das Buch",
+        "Der Stift",
+        "Das Lineal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Der Bleistift' significa 'crayon à papier'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich brauche ein {{1}} zum Lesen (livre).",
+      "reponsesAttendues": [
+        "Buch"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el material.",
+      "pairs": [
+        {
+          "left": "Der Kuli",
+          "right": "Le stylo (bille)"
+        },
+        {
+          "left": "Die Schultasche",
+          "right": "Le cartable"
+        },
+        {
+          "left": "Das Mäppchen",
+          "right": "La trousse"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué es un 'Radiergummi'?",
+      "options": [
+        "Una goma de borrar",
+        "Una regla",
+        "Un compás",
+        "Una mochila"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

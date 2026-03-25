@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "EXAMEN : El Pasado Indefinido",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": " 'Ayer fuimos al cine y vimos una película de acción' ",
+      "options": [
+        "Hier nous sommes allés au ciné et avons vu un film d'action",
+        "Hier nous avons mangé au resto",
+        "J'aime le cinéma",
+        "Demain nous irons au ciné"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Casi todos los irregulares en indefinido no llevan tilde.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Hacer' en 3ª persona es '{{1}}'.",
+      "reponsesAttendues": [
+        "hizo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Mix Ch3 P1.",
+      "pairs": [
+        {
+          "left": "Fueron",
+          "right": "Ils sont allés"
+        },
+        {
+          "left": "Dije",
+          "right": "Je dis"
+        },
+        {
+          "left": "Pusiste",
+          "right": "Tu as mis"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Listo para el Pasado Imperfecto (P2)?",
+      "options": [
+        "¡Sí!",
+        "¡Adelante!",
+        "¡Vamos!",
+        "¡Vale!"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

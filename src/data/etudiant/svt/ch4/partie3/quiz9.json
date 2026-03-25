@@ -1,0 +1,63 @@
+{
+  "id": "quiz29",
+  "titre": "L'Étiquetage Alimentaire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie la DLC (Date Limite de Consommation) ?",
+      "options": [
+        "Date impérative après laquelle le produit peut être dangereux ('À consommer jusqu'au...')",
+        "Date de fabrication",
+        "Date d'anniversaire du produit",
+        "C'est une suggestion facultative"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un produit avec une DDM (Date de Durabilité Minimale) peut être mangé après la date sans risque vital.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La liste des ingrédients est classée par ordre de {{1}} décroissant.",
+      "reponsesAttendues": [
+        "poids"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la mention à son utilité.",
+      "pairs": [
+        {
+          "left": "Valeurs nutritionnelles",
+          "right": "Savoir la quantité de sucre, gras et protéines"
+        },
+        {
+          "left": "Origine",
+          "right": "Savoir où le produit a été fabriqué"
+        },
+        {
+          "left": "Allergènes en gras",
+          "right": "Alerter les personnes sensibles (Gluten, Lait, Arachide)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi faut-il lire les étiquettes ?",
+      "options": [
+        "Pour devenir un consommateur averti et responsable de sa santé",
+        "Pour s'occuper dans les rayons du magasin",
+        "Pour apprendre de nouveaux mots latins",
+        "C'est inutile, on peut faire confiance aux couleurs de l'emballage"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

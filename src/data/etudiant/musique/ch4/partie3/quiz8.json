@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Vocabulaire du Monde",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Métissage' musical ?",
+      "options": [
+        "Le mélange de plusieurs styles ou cultures musicales différentes",
+        "Le fait d'accorder deux guitares",
+        "Une musique jouée très vite",
+        "Le nom d'un logiciel de musique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le terme 'Traditionnel' signifie souvent que la musique se transmet de génération en génération.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une musique qui n'est pas écrite mais apprise par l'écoute est dite de tradition {{1}} (orale).",
+      "reponsesAttendues": [
+        "orale"
+    }
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme à sa définition.",
+      "pairs": [
+        {
+          "left": "Bourdon",
+          "right": "Note grave tenue pendant tout le morceau"
+        },
+        {
+          "left": "Hétérophonie",
+          "right": "Plusieurs versions d'une même mélodie jouées ensemble"
+        },
+        {
+          "left": "Ostinato",
+          "right": "Répétition obstinée d'un rythme ou d'un motif"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un instrument 'Vernaculaire' ?",
+      "options": [
+        "Un instrument propre à un pays ou une région précise",
+        "Un instrument qui fonctionne à l'essence",
+        "Un instrument qui brille dans le noir",
+        "Un instrument cassé"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

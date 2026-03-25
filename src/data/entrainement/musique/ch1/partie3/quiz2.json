@@ -1,0 +1,62 @@
+{
+  "id": "quiz2",
+  "titre": "L'Époque Classique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel compositeur est surnommé 'l'enfant prodige' ?",
+      "options": [
+        "Franz Joseph Haydn",
+        "Wolfgang Amadeus Mozart",
+        "Johannes Brahms",
+        "Richard Wagner"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Beethoven a fait le lien entre la période classique et la période romantique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La {{1}} est une forme musicale pour orchestre très populaire à l'époque classique (souvent en 4 mouvements).",
+      "reponsesAttendues": [
+        "symphonie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Mozart",
+          "right": "La flûte enchantée"
+        },
+        {
+          "left": "Haydn",
+          "right": "Le père de la symphonie"
+        },
+        {
+          "left": "Beethoven",
+          "right": "L'Hymne à la joie"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel instrument remplace progressivement le clavecin à cette époque ?",
+      "options": [
+        "Le piano (piano-forte)",
+        "L'orgue",
+        "La harpe",
+        "La flûte"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

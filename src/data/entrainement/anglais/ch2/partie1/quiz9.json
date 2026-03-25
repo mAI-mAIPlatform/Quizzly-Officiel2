@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "British Food",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is 'Fish and Chips'?",
+      "options": [
+        "Fried fish with potatoes",
+        "Grilled fish with rice",
+        "Raw fish with salad",
+        "Fish soup"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A 'Full English Breakfast' includes eggs, bacon and beans.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "The British love drinking {{1}} in the afternoon.",
+      "reponsesAttendues": [
+        "tea"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match traditions.",
+      "pairs": [
+        {
+          "left": "Sunday Roast",
+          "right": "Meat and veggies"
+        },
+        {
+          "left": "Afternoon Tea",
+          "right": "Scones and cakes"
+        },
+        {
+          "left": "Pudding",
+          "right": "Dessert"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What are 'Chips' in the UK?",
+      "options": [
+        "Frites",
+        "Chips (de paquet)",
+        "Pommes de terre vapeur",
+        "Purée"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

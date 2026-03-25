@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Citoyenneté Européenne",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est automatiquement citoyen de l'Union Européenne ?",
+      "options": [
+        "Toute personne possédant la nationalité d'un État membre",
+        "Toute personne habitant sur la planète Terre",
+        "Seulement les personnes qui parlent 5 langues",
+        "Les personnes qui ont un passeport bleu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La citoyenneté européenne s'ajoute à la citoyenneté nationale, elle ne la remplace pas.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un citoyen européen peut circuler et {{1}} (séjourner) librement dans l'UE.",
+      "reponsesAttendues": [
+        "séjourner"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le droit à son explication.",
+      "pairs": [
+        {
+          "left": "Libre circulation",
+          "right": "Voyager, travailler et vivre n'importe où dans l'UE"
+        },
+        {
+          "left": "Droit de vote",
+          "right": "Voter aux élections européennes et municipales"
+        },
+        {
+          "left": "Protection",
+          "right": "Aide de n'importe quelle ambassade de l'UE à l'étranger"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "En quelle année la citoyenneté européenne a-t-elle été créée ?",
+      "options": [
+        "1992 (Traité de Maastricht)",
+        "1957",
+        "2020",
+        "1789"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

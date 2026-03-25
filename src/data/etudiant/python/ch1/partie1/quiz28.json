@@ -1,0 +1,63 @@
+{
+  "id": "quiz28",
+  "titre": "Projet : Devises",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pour convertir des Euros en Dollars avec un taux de 1.10, quelle est la bonne opération ?",
+      "options": [
+        "dollars = euros * 1.10",
+        "dollars = euros / 1.10",
+        "dollars = euros + 1.10",
+        "dollars = euros - 1.10"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si on demande le montant avec input(), il faut le convertir en float() avant de faire le calcul.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour afficher proprement le résultat avec 2 décimales, on peut utiliser {{1}}(resultat, 2) (round).",
+      "reponsesAttendues": [
+        "round"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'étape au code correspondant.",
+      "pairs": [
+        {
+          "left": "Saisie",
+          "right": "montant = float(input(\"Euros ? \"))"
+        },
+        {
+          "left": "Calcul",
+          "right": "total = montant * 1.1"
+        },
+        {
+          "left": "Affichage",
+          "right": "print(f\"Cela fait {total} $\")"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si l'utilisateur tape 'abc' au lieu d'un nombre ?",
+      "options": [
+        "Le programme s'arrête avec une ValueError",
+        "Il affiche 0",
+        "Il transforme magiquement les lettres en chiffres",
+        "Il recommence au début"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

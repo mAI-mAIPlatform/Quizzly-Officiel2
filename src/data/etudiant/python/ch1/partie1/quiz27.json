@@ -1,0 +1,63 @@
+{
+  "id": "quiz27",
+  "titre": "Utiliser l'Aide",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle fonction Python permet d'afficher la documentation d'une autre fonction (ex: pour savoir comment utiliser print) ?",
+      "options": [
+        "help()",
+        "doc()",
+        "info()",
+        "guide()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La documentation officielle de Python est disponible gratuitement sur internet (docs.python.org).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour obtenir de l'aide sur la fonction 'len', on écrit : {{1}}(len) (help).",
+      "reponsesAttendues": [
+        "help"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la ressource à son utilité.",
+      "pairs": [
+        {
+          "left": " help()",
+          "right": "Aide rapide dans la console"
+        },
+        {
+          "left": "Documentation Officielle",
+          "right": "Ressource complète et détaillée"
+        },
+        {
+          "left": "Forums de développeurs",
+          "right": "Poser des questions et trouver des solutions communautaires"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Un bon programmeur est quelqu'un qui...",
+      "options": [
+        "Sait chercher des informations et utiliser la documentation pour résoudre des problèmes",
+        "Apprend tout le code par cœur sans jamais regarder l'aide",
+        "Ne fait jamais d'erreurs",
+        "Écrit le code le plus long possible"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

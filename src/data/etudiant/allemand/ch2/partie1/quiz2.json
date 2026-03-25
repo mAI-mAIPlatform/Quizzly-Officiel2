@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Die Uhrzeit 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Y cuarto' en alemán informal?",
+      "options": [
+        "Viertel nach",
+        "Viertel vor",
+        "Halb",
+        "Viertel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Halb acht' significa las 8:30.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Es ist Viertel {{1}} zehn (neuf heures quarante-cinq).",
+      "reponsesAttendues": [
+        "vor"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la hora informal.",
+      "pairs": [
+        {
+          "left": "8:15",
+          "right": "Viertel nach acht"
+        },
+        {
+          "left": "7:30",
+          "right": "Halb acht"
+        },
+        {
+          "left": "7:45",
+          "right": "Viertel vor acht"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'Um wie viel Uhr?'?",
+      "options": [
+        "¿A qué hora?",
+        "¿Qué hora es?",
+        "¿Cuánto tiempo?",
+        "¿Cuándo?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

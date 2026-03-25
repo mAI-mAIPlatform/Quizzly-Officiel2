@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Vocabulaire : Formes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une symphonie ?",
+      "options": [
+        "Une œuvre pour grand orchestre, généralement en 4 mouvements",
+        "Un chant pour choeur d'enfants",
+        "Une pièce courte pour piano seul",
+        "Une danse traditionnelle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un 'Opéra' mélange musique, théâtre, chant et souvent danse.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un morceau où un instrument soliste dialogue avec l'orchestre s'appelle un {{1}} (concerto).",
+      "reponsesAttendues": [
+        "concerto"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme à son sens.",
+      "pairs": [
+        {
+          "left": "Mouvement",
+          "right": "Une partie d'une œuvre (ex: l'Allegro d'une symphonie)"
+        },
+        {
+          "left": "Ouverture",
+          "right": "Pièce instrumentale jouée au début d'un opéra"
+        },
+        {
+          "left": "Soliste",
+          "right": "Musicien seul ou mis en avant devant l'orchestre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Dans un opéra, comment appelle-t-on le chant soliste très expressif (par opposition au récitatif) ?",
+      "options": [
+        "L'Air (ou Aria)",
+        "Le Refrain",
+        "Le Solo de batterie",
+        "La Fugue"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

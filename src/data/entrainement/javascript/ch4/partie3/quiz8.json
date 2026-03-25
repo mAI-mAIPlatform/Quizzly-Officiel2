@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Variables : locales vs globales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si deux variables ont le même nom (une locale, une globale) ?",
+      "options": [
+        "Erreur",
+        "La locale l'emporte à l'intérieur de la fonction (Shadowing)",
+        "La globale l'emporte",
+        "Mélange aléatoire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'Shadowing' permet d'utiliser localement un nom déjà pris globalement.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On ne peut pas accéder à une globale si une {{1}} locale a le même nom dans la même fonction.",
+      "reponsesAttendues": [
+        "variable"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la règle d'or.",
+      "pairs": [
+        {
+          "left": "Priorité",
+          "right": "La plus proche (locale)"
+        },
+        {
+          "left": "Visibilité",
+          "right": "La globale est vue de loin"
+        },
+        {
+          "left": "Conseil",
+          "right": "Évitez de donner le même nom !"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est le plus 'sûr' ?",
+      "options": [
+        "Tout mettre en global",
+        "Tout mettre en local / bloc autant que possible",
+        "Ne pas déclarer les variables",
+        "Utiliser Window pour tout"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "quiz10",
+  "titre": "Récapitulatif Partie 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces instruments n'utilise pas d'anche ?",
+      "options": [
+        "La clarinette",
+        "La flûte traversière",
+        "Le hautbois",
+        "Le saxophone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'alto est plus grand que le violon.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La famille des {{1}} comprend les trompettes et les cornets.",
+      "reponsesAttendues": [
+        "cuivres"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Harpe",
+          "right": "Cordes pincées"
+        },
+        {
+          "left": "Piano",
+          "right": "Cordes frappées"
+        },
+        {
+          "left": "Violoncelle",
+          "right": "Cordes frottées"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel instrument joue la note de référence pour accorder l'orchestre ?",
+      "options": [
+        "Le piano",
+        "Le hautbois",
+        "La flûte",
+        "Le violon solo"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

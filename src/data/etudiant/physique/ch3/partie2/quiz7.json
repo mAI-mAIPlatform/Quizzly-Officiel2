@@ -1,0 +1,63 @@
+{
+  "id": "quiz17",
+  "titre": "Masse vs Poids",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle grandeur ne change jamais, quel que soit l'endroit dans l'univers ?",
+      "options": [
+        "La masse",
+        "Le poids",
+        "La température",
+        "La force de pesanteur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un astronaute pèse moins lourd sur la Lune que sur la Terre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'unité de la masse est le {{1}}.",
+      "reponsesAttendues": [
+        "kilogramme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la grandeur à sa caractéristique.",
+      "pairs": [
+        {
+          "left": "Masse",
+          "right": "Invariable (quantité de matière)"
+        },
+        {
+          "left": "Poids",
+          "right": "Variable (dépend du lieu/astre)"
+        },
+        {
+          "left": "Balance",
+          "right": "Appareil pour mesurer la masse"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi vous sentiriez-vous 'léger' sur la Lune ?",
+      "options": [
+        "Car l'intensité de pesanteur g y est 6 fois plus faible que sur Terre",
+        "Car il n'y a pas d'air",
+        "Car la Lune est plus petite en taille uniquement",
+        "Car vous avez perdu de la matière en voyageant"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

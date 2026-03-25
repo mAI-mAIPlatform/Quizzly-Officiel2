@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Ch4 P1 Synthesis",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Environmental awareness means...?",
+      "options": [
+        "Understanding how our actions affect the planet",
+        "Knowing the names of all flowers",
+        "Watching the news about weather",
+        "Buying green clothes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Small actions by many people can lead to big changes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Living in a way that doesn't use up all natural resources is called {{1}}.",
+      "reponsesAttendues": [
+        "sustainability"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the goal with the action.",
+      "pairs": [
+        {
+          "left": "Protecting species",
+          "right": "Creating wildlife preserves"
+        },
+        {
+          "left": "Reducing waste",
+          "right": "Recycling and composting"
+        },
+        {
+          "left": "Saving climate",
+          "right": "Switching to renewable energy"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is the most urgent environmental goal today?",
+      "options": [
+        "Limiting global warming to protect the future of the planet",
+        "Making faster cars",
+        "Finding gold in the mountains",
+        "Building more malls"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

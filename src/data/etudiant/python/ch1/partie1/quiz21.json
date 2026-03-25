@@ -1,0 +1,63 @@
+{
+  "id": "quiz21",
+  "titre": "Affectation Combinée",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que fait l'instruction : score += 5 ?",
+      "options": [
+        "Elle ajoute 5 à la valeur actuelle de score",
+        "Elle remplace score par 5",
+        "Elle multiplie score par 5",
+        "Elle produit une erreur de syntaxe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'instruction 'x -= 1' est l'équivalent de 'x = x - 1'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour multiplier une variable par 2 rapidement, on peut écrire : x {{1}} 2 (*=).",
+      "reponsesAttendues": [
+        "*="
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'instruction à son effet.",
+      "pairs": [
+        {
+          "left": "a += 1",
+          "right": "Incrémentation (ajoute 1)"
+        },
+        {
+          "left": "a -= 1",
+          "right": "Décrémentation (enlève 1)"
+        },
+        {
+          "left": "a *= 10",
+          "right": "Multiplie par 10"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel de ces codes est valide pour diviser y par 2 ?",
+      "options": [
+        "y /= 2",
+        "y =/ 2",
+        "y : 2",
+        "y div 2"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

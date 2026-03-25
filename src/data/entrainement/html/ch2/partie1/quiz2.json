@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Entrées Numériques et Range",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel type d'input affiche un curseur coulissant ?",
+      "options": [
+        "range",
+        "slider",
+        "scroll",
+        "number"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'step' définit l'intervalle entre chaque valeur (ex: de 2 en 2).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un input de type {{1}} affiche des flèches pour augmenter/diminuer.",
+      "reponsesAttendues": [
+        "number"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Attributs numériques.",
+      "pairs": [
+        {
+          "left": "min",
+          "right": "Valeur minimale"
+        },
+        {
+          "left": "max",
+          "right": "Valeur maximale"
+        },
+        {
+          "left": "value",
+          "right": "Valeur par défaut"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'intérêt du 'range' par rapport au 'number' ?",
+      "options": [
+        "Plus visuel, idéal pour des réglages approximatifs",
+        "Plus précis pour les calculs",
+        "Il est plus rapide",
+        "Il prend moins de place"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz28",
+  "titre": "Intentions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Completa: 'Ich {{1}} Fußballprofi werden'.",
+      "options": [
+        "will",
+        "muss",
+        "bin",
+        "komme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Se puede usar 'möchte' para pedir un café en el bar.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Was {{1}} du zum Geburtstag? (veux-tu/souhaites-tu)",
+      "reponsesAttendues": [
+        "möchtest"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la intención.",
+      "pairs": [
+        {
+          "left": "Ich will",
+          "right": "Je veux (décision)"
+        },
+        {
+          "left": "Ich möchte",
+          "right": "Je voudrais (politesse)"
+        },
+        {
+          "left": "Ich muss",
+          "right": "Je dois (nécessité)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Je ne veux plus d'exercices'?",
+      "options": [
+        "Ich will keine Übungen mehr",
+        "Ich will nicht Übungen",
+        "Ich möchte Übungen",
+        "Ich will Übungen mehr"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

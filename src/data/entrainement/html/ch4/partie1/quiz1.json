@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "La Balise Canvas",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert la balise <canvas> ?",
+      "options": [
+        "À dessiner des graphiques et des images via JavaScript",
+        "À afficher une image statique",
+        "À encadrer du texte",
+        "À créer un tableau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Par défaut, un canvas est transparent.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On définit la taille du canvas avec les attributs width et {{1}}.",
+      "reponsesAttendues": [
+        "height"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Init Canvas.",
+      "pairs": [
+        {
+          "left": "<canvas>",
+          "right": "La zone de dessin"
+        },
+        {
+          "left": "id",
+          "right": "Pour le sélectionner en JS"
+        },
+        {
+          "left": "Texte de secours",
+          "right": "Affiché si non supporté"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi éviter de changer la taille du canvas en CSS ?",
+      "options": [
+        "Cela étire le dessin (pixellisation) sans changer la résolution réelle",
+        "C'est plus lent",
+        "C'est interdit",
+        "Le CSS ne marche pas sur canvas"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

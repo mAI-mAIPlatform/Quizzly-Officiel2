@@ -1,0 +1,63 @@
+{
+  "id": "quiz30",
+  "titre": "Travel Synthesis",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Which phrase is correct for travel planning?",
+      "options": [
+        "I'm going to travel to Spain next month",
+        "I travel Spain month next",
+        "I'm travel to Spain",
+        "I was travel to Spain"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A 'tour guide' is a book that tells you about a city.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "The place where you can catch a train is the {{1}}.",
+      "reponsesAttendues": [
+        "station"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the location to its typical activity.",
+      "pairs": [
+        {
+          "left": "Airport",
+          "right": "Taking a plane"
+        },
+        {
+          "left": "Museum",
+          "right": "Learning about history/art"
+        },
+        {
+          "left": "Market",
+          "right": "Buying local products"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is the best way to travel far across oceans?",
+      "options": [
+        "By plane",
+        "By bicycle",
+        "By skateboard",
+        "On foot"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

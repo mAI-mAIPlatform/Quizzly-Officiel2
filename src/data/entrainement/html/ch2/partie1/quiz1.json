@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Validation Native HTML5",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel attribut empêche l'envoi du formulaire si le champ est vide ?",
+      "options": [
+        "required",
+        "needed",
+        "lock",
+        "validate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'minlength' définit une longueur minimale de texte.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour un nombre, on utilise min et {{1}} pour définir l'intervalle.",
+      "reponsesAttendues": [
+        "max"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Validation et Contrainte.",
+      "pairs": [
+        {
+          "left": "required",
+          "right": "Obligatoire"
+        },
+        {
+          "left": "step",
+          "right": "Incrémentation (ex: 0.5)"
+        },
+        {
+          "left": "pattern",
+          "right": "Expression régulière"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que fait le navigateur si une contrainte n'est pas respectée ?",
+      "options": [
+        "Il affiche un message d'erreur natif (info-bulle)",
+        "Il recharge la page sans prévenir",
+        "Il supprime les données",
+        "Il ne fait rien"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

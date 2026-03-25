@@ -1,0 +1,70 @@
+{
+  "id": "quiz7",
+  "titre": "Iframe et YouTube",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise utilise-t-on pour intégrer une vidéo YouTube ?",
+      "options": ["<video>", "<iframe>", "<embed>", "<object>"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une iframe permet d'afficher une page web dans une autre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut pour supprimer la bordure de l'iframe est {{1}} (souvent mis à 0).",
+      "reponsesAttendues": ["frameborder"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Indiquer 'allowfullscreen' permet :",
+      "options": ["D'ouvrir en plein écran", "D'autoriser le téléchargement", "De masquer les contrôles", "De changer la langue"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Utiliser une iframe YouTube économise de la bande passante sur votre serveur.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment définit-on la source dans une iframe ?",
+      "options": ["href", "src", "link", "url"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "vrai_faux",
+      "enonce": "Toutes les pages web autorisent leur affichage dans une iframe.",
+      "reponse": false
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} est utilisé pour des raisons de sécurité dans les iframes.",
+      "reponsesAttendues": ["sandbox"]
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Une iframe 'responsive' se fait généralement avec :",
+      "options": ["HTML simple", "CSS (wrapper avec ratio)", "JavaScript uniquement", "C'est impossible"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut intégrer des Google Maps avec des iframes.",
+      "reponse": true
+    }
+  ]
+}

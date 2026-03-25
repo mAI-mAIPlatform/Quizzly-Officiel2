@@ -1,0 +1,62 @@
+{
+  "id": "quiz5",
+  "titre": "Salutations et Bases",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Bonjour / Réjouis-toi' en grec ?",
+      "options": [
+        "Khairé (Χαῖρε)",
+        "Logos",
+        "Nike",
+        "Euros"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le mot 'Biblion' signifie le livre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot 'Anthrôpos' signifie {{1}}.",
+      "reponsesAttendues": [
+        "humain / homme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Aner",
+          "right": "Homme (mâle)"
+        },
+        {
+          "left": "Guné",
+          "right": "Femme"
+        },
+        {
+          "left": "Pais",
+          "right": "Enfant"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Dôron' ?",
+      "options": [
+        "Une porte",
+        "Un cadeau / don",
+        "Une route",
+        "Un repas"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

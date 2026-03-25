@@ -1,0 +1,64 @@
+{
+  "id": "quiz5",
+  "titre": "Prépositions de lieu",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'en' (ἐν) suivi du datif ?",
+      "options": [
+        "Dans / En (lieu où l'on est)",
+        "Vers",
+        "Hors de",
+        "Sous"
+      ],
+      "correctIndex": 0
+)
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Eis' (εἰς) exprime le mouvement vers un lieu.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Hors de se dit {{1}} (ek / ἐκ).",
+      "reponsesAttendues": [
+        "ek"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la préposition.",
+      "pairs": [
+        {
+          "left": "eis",
+          "right": "Vers / Dans (mouvement)"
+        },
+        {
+          "left": "apo",
+          "right": "Depuis / En venant de"
+        },
+        {
+          "left": "pros",
+          "right": "Vers / En direction de"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'hupo' ?",
+      "options": [
+        "Sous",
+        "Sur",
+        "Devant",
+        "Derrière"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

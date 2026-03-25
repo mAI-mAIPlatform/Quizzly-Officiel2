@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Le Parlement",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "De quelles deux chambres le Parlement français est-il composé ?",
+      "options": [
+        "L'Assemblée Nationale et le Sénat",
+        "La Mairie et la Préfecture",
+        "L'Élysée et Matignon",
+        "La Cour des Comptes et le Conseil d'État"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les membres de l'Assemblée Nationale s'appellent des 'Députés'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le Palais où siègent les députés s'appelle le Palais {{1}} (Bourbon).",
+      "reponsesAttendues": [
+        "Bourbon"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la chambre à son mode d'élection.",
+      "pairs": [
+        {
+          "left": "Assemblée Nationale",
+          "right": "Élue au suffrage universel direct"
+        },
+        {
+          "left": "Sénat",
+          "right": "Élu au suffrage universel indirect (par les grands électeurs)"
+        },
+        {
+          "left": "Parlement européen",
+          "right": "Élu par les citoyens de tous les pays de l'UE"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la principale mission du Parlement ?",
+      "options": [
+        "Voter la loi et contrôler l'action du Gouvernement",
+        "Nommer les professeurs",
+        "Arrêter les criminels",
+        "Réparer les routes"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

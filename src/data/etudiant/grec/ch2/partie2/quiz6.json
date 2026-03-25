@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Adjectifs de la 3ème déclinaison",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la caractéristique des adjectifs du type 'alethes' (vrai) ?",
+      "options": [
+        "Thème en -es- (neutre en -es, masc/fém en -ês)",
+        "Se declinent comme rosa",
+        "Pas de flexion",
+        "Uniquement au pluriel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Plêrês' signifie 'Plein'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vrai se dit 'alêthês' (m/f) et '{{1}}' (n) (alêthés / ἀληθές).",
+      "reponsesAttendues": [
+        "alêthés"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'adjectif.",
+      "pairs": [
+        {
+          "left": "eugenês",
+          "right": "Bien né / Noble"
+        },
+        {
+          "left": "asthenes",
+          "right": "Faible / Malade"
+        },
+        {
+          "left": "saphés",
+          "right": "Clair / Précis"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le neutre de 'eugenês' ?",
+      "options": [
+        "eugenés (εὐγενές)",
+        "eugenês",
+        "eugené",
+        "eugena"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

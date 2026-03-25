@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Dias da semana",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Lunes'?",
+      "options": [
+        "Segunda-feira",
+        "Terça-feira",
+        "Quarta-feira",
+        "Quinta-feira"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Sábado' y 'Domingo' no llevan la terminación '-feira'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Hoje é {{1}} (vendredi).",
+      "reponsesAttendues": [
+        "sexta-feira"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el día.",
+      "pairs": [
+        {
+          "left": "Quarta-feira",
+          "right": "Mercredi"
+        },
+        {
+          "left": "Quinta-feira",
+          "right": "Jeudi"
+        },
+        {
+          "left": "Sexta-feira",
+          "right": "Vendredi"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'fim de semana'?",
+      "options": [
+        "Fin de semana",
+        "Día festivo",
+        "Mañana",
+        "Tarde"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

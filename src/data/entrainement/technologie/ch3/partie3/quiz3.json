@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "L'Impact environnemental du Numérique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle étape de la vie d'un smartphone pollue le plus ?",
+      "options": [
+        "Sa fabrication (extraction des métaux rares)",
+        "Son utilisation (recharge)",
+        "Son emballage",
+        "Son transport par avion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les Data Centers consomment énormément d'électricité pour fonctionner et se refroidir.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Envoyer un e-mail avec une grosse pièce jointe consomme de l'{{1}}.",
+      "reponsesAttendues": [
+        "énergie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Éco-numérique.",
+      "pairs": [
+        {
+          "left": "Cloud",
+          "right": "Serveurs allumés 24h/24"
+        },
+        {
+          "left": "Streaming vidéo",
+          "right": "80% du trafic Internet mondial"
+        },
+        {
+          "left": "Matériaux rares",
+          "right": "Lithium, Cobalt, Terres rares"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment réduire son empreinte numérique ?",
+      "options": [
+        "Garder ses appareils plus longtemps et favoriser la réparation",
+        "Acheter le dernier modèle chaque année",
+        "Supprimer son écran",
+        "Utiliser plus de piles jetables"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

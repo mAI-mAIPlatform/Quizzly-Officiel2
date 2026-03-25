@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Schémas et Dessins",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un croquis ?",
+      "options": [
+        "Un dessin rapide à main levée pour exprimer une idée",
+        "Un plan ultra-précis fait à l'ordinateur",
+        "Une photo du prototype",
+        "Une liste de mots"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un schéma technique simplifie la réalité pour montrer comment fonctionne l'objet.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Indiquer les dimensions réelles sur un dessin s'appelle la {{1}} (cotation).",
+      "reponsesAttendues": [
+        "cotation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le type de représentation à son utilité.",
+      "pairs": [
+        {
+          "left": "Dessin d'ensemble",
+          "right": "Montre toutes les pièces assemblées"
+        },
+        {
+          "left": "Vue éclatée",
+          "right": "Montre les composants séparés pour comprendre le montage"
+        },
+        {
+          "left": "Schéma cinématique",
+          "right": "Montre les mouvements possibles (liaisons)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "À quoi servent les échelles sur un dessin technique ?",
+      "options": [
+        "À représenter un objet très grand ou très petit sur une feuille",
+        "À monter sur le toit de l'usine",
+        "À peser les pièces",
+        "À décorer le cadre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

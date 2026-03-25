@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Video Gaming",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What do you use to play games on a TV?",
+      "options": [
+        "A console",
+        "A fridge",
+        "A toaster",
+        "A microwave"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A 'Controller' is the object used to move the character.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "I love playing {{1}} games with my friends.",
+      "reponsesAttendues": [
+        "multiplayer"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match gaming genres.",
+      "pairs": [
+        {
+          "left": "RPG",
+          "right": "Role Playing Game"
+        },
+        {
+          "left": "FPS",
+          "right": "First Person Shooter"
+        },
+        {
+          "left": "Sandbox",
+          "right": "Open world / creative"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What happens when you reach the end of a level?",
+      "options": [
+        "You level up",
+        "You level down",
+        "You sleep",
+        "You exit"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

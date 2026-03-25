@@ -1,0 +1,64 @@
+{
+  "id": "quiz15",
+  "titre": "Bleiben & Sein",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Aunque no hay movimiento, ¿qué auxiliar usa 'bleiben' (quedarse)?",
+      "options": [
+        "Sein",
+        "Haben",
+        "Werden",
+        "Machen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El Perfekt de 'sein' es 'ist gewesen'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich {{1}} zu Hause {{2}} (je suis resté - geblieben).",
+      "reponsesAttendues": [
+        "bin",
+        "geblieben"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el participio especial.",
+      "pairs": [
+        {
+          "left": "Bleiben",
+          "right": "geblieben"
+        },
+        {
+          "left": "Sein",
+          "right": "gewesen"
+        },
+        {
+          "left": "Werden",
+          "right": "geworden"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'J'ai été là'?",
+      "options": [
+        "Ich bin da gewesen",
+        "Ich habe da gewesen",
+        "Ich war da gewesen",
+        "Ich bin da geblieben"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

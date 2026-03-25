@@ -1,0 +1,63 @@
+{
+  "id": "quiz19",
+  "titre": "Facteurs Gravité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "De quels facteurs dépend la force de gravitation ?",
+      "options": [
+        "Les masses des objets et la distance qui les sépare",
+        "La couleur et le prix",
+        "L'âge des planètes",
+        "Leur vitesse de rotation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Plus deux objets sont éloignés, plus la force de gravitation est forte.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Plus la masse d'un objet est grande, plus il {{1}} les autres objets.",
+      "reponsesAttendues": [
+        "attire"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le changement à son effet sur la force.",
+      "pairs": [
+        {
+          "left": "Masse doublée",
+          "right": "Force attirante plus forte"
+        },
+        {
+          "left": "Distance augmentée",
+          "right": "Force attirante plus faible"
+        },
+        {
+          "left": "Vide de l'espace",
+          "right": "Aucun impact (la gravité agit dans le vide)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Est-ce que deux stylos s'attirent par gravitation ?",
+      "options": [
+        "Oui, mais la force est trop faible pour être ressentie",
+        "Non, ça ne marche que pour les planètes",
+        "Oui, ils vont se coller tout de suite",
+        "Non, ils se repoussent"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

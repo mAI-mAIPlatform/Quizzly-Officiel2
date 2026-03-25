@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Tech Verbs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "How do you move down a page on a phone?",
+      "options": [
+        "Scroll down",
+        "Walk down",
+        "Step down",
+        "Climb down"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'To type' means to write using a keyboard.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "{{1}} on the icon to open the app.",
+      "reponsesAttendues": [
+        "Double-click"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match actions.",
+      "pairs": [
+        {
+          "left": "Login",
+          "right": "Enter account"
+        },
+        {
+          "left": "Log out",
+          "right": "Exit account"
+        },
+        {
+          "left": "Search",
+          "right": "Find info"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What happens when you 'Delete' a file?",
+      "options": [
+        "It is removed",
+        "It is saved",
+        "It is printed",
+        "It is shared"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

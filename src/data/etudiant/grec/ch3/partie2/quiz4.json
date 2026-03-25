@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "L'Optatif présent",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle voyelle caractéristique apparaît dans les terminaisons de l'optatif ?",
+      "options": [
+        "Iota (ι)",
+        "Alpha (α)",
+        "Epsilon (ε)",
+        "Omega (ω)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'optatif sert à exprimer un souhait réalisable.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Puisse-t-il écrire se dit '{{1}}' (graphoi / γράφοι).",
+      "reponsesAttendues": [
+        "graphoi"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la personne (optatif).",
+      "pairs": [
+        {
+          "left": "graphoimi",
+          "right": "Puisse-je écrire"
+        },
+        {
+          "left": "graphois",
+          "right": "Puisses-tu écrire"
+        },
+        {
+          "left": "graphoimen",
+          "right": "Puissions-nous écrire"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'optatif de 'eimi' (être) à la 3ème pers. du singulier ?",
+      "options": [
+        "eiê (εἴη)",
+        "oimi",
+        "oiête",
+        "oitô"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

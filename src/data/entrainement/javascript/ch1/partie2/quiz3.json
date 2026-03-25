@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Majuscules et Minuscules",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode transforme une chaîne en majuscules ?",
+      "options": [
+        ".upper()",
+        ".toUpperCase()",
+        ".toCapital()",
+        ".maximum()"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La méthode .toLowerCase() modifie la variable d'origine (elle est destructive).",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour passer en minuscules, on utilise .{{1}}().",
+      "reponsesAttendues": [
+        "toLowerCase"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la méthode au résultat pour \"Abc\".",
+      "pairs": [
+        {
+          "left": ".toUpperCase()",
+          "right": "\"ABC\""
+        },
+        {
+          "left": ".toLowerCase()",
+          "right": "\"abc\""
+        },
+        {
+          "left": ".length",
+          "right": "3"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment écrit-on correctement l'appel de méthode ?",
+      "options": [
+        "nom.toUpperCase",
+        "nom.toUpperCase()",
+        "toUpperCase(nom)",
+        "nomUpperCase()"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

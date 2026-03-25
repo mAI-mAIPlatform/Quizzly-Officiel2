@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "O Quarto",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Le lit' ?",
+      "options": [
+        "A cama",
+        "O roupeiro",
+        "A almofada",
+        "A secretária"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Secretária' significa 'Bureau' (le meuble).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu guardo a roupa no {{1}} (armoire/roupeiro).",
+      "reponsesAttendues": [
+        "roupeiro"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Quarto.",
+      "pairs": [
+        {
+          "left": "Lençóis",
+          "right": "Draps"
+        },
+        {
+          "left": "Mesa de cabeceira",
+          "right": "Table de chevet"
+        },
+        {
+          "left": "Despertador",
+          "right": "Réveil"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Onde estudas no quarto?",
+      "options": [
+        "Na secretária",
+        "Na cama",
+        "No roupeiro",
+        "Olá"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

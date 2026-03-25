@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Échapement et Caractères spéciaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel caractère utilise-t-on pour échapper un symbole ?",
+      "options": [
+        "/",
+        "\\",
+        "|",
+        "!"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "\\n permet de créer un saut de ligne dans une chaîne.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'expression 'C\\'est' utilise l'échappement pour l'{{1}}.",
+      "reponsesAttendues": [
+        "apostrophe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la séquence spéciale.",
+      "pairs": [
+        {
+          "left": "\\n",
+          "right": "Nouvelle ligne"
+        },
+        {
+          "left": "\\t",
+          "right": "Tabulation"
+        },
+        {
+          "left": "\\\\",
+          "right": "Afficher un antislash"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment écrit-on \"L'arbre\" avec des apostrophes internes ?",
+      "options": [
+        "'L'arbre'",
+        "'L\\'arbre'",
+        "\"L'arbre\"",
+        "Les deux dernières options sont valides"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

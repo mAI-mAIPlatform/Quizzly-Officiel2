@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "La Cité (Polis)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on la ville-état grecque ?",
+      "options": [
+        "La polis (πόλις)",
+        "L'agora",
+        "Le dème",
+        "L'acropole"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Agora est la place publique et le marché.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La ville haute, fortifiée, est l'{{1}} (acropole).",
+      "reponsesAttendues": [
+        "acropole"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le lieu de la cité.",
+      "pairs": [
+        {
+          "left": "Oikos",
+          "right": "La maison / Le foyer"
+        },
+        {
+          "left": "Gumnasion",
+          "right": "Le gymnase"
+        },
+        {
+          "left": "Theatron",
+          "right": "Le théâtre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qui sont les 'Politai' ?",
+      "options": [
+        "Les citoyens",
+        "Les esclaves",
+        "Les étrangers",
+        "Les rois"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

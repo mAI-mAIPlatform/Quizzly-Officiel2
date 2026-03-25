@@ -1,0 +1,63 @@
+{
+  "id": "quiz29",
+  "titre": "Distance entre deux points",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pour calculer la distance AB, on fait :",
+      "options": [
+        "x_A + x_B",
+        "x_B - x_A (plus grand - plus petit)",
+        "x_A × x_B",
+        "On mesure à la règle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une distance est toujours un nombre positif.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La distance entre -5 et +2 est égale à {{1}}.",
+      "reponsesAttendues": [
+        "7"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe les points à leur distance.",
+      "pairs": [
+        {
+          "left": " -2 et +3 ",
+          "right": "5"
+        },
+        {
+          "left": " -10 et -4 ",
+          "right": "6"
+        },
+        {
+          "left": " 0 et -8 ",
+          "right": "8"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si la distance AB = 10 et x_A = -3, alors x_B peut être :",
+      "options": [
+        "7",
+        "-13",
+        "13",
+        "7 ou -13"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

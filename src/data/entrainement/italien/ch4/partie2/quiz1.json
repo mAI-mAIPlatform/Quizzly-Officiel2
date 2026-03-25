@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Les Adverbes en -mente",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment forme-t-on généralement un adverbe en italien ?",
+      "options": [
+        "On ajoute -mente à la forme féminine de l'adjectif",
+        "On ajoute -mente à la forme masculine",
+        "On double la dernière lettre",
+        "On change la terminaison en -o"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Velocemente' signifie 'Rapidement'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Heureusement se dit '{{1}}'.",
+      "reponsesAttendues": [
+        "fortunatamente"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'adverbe.",
+      "pairs": [
+        {
+          "left": "Finalmente",
+          "right": "Enfin / Finalement"
+        },
+        {
+          "left": "Chiaramente",
+          "right": "Clairement"
+        },
+        {
+          "left": "Recentemente",
+          "right": "Récemment"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Certamente' ?",
+      "options": [
+        "Certainement",
+        "Peut-être",
+        "Jamais",
+        "Rarement"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

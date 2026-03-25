@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Condicional",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se forma el condicional?",
+      "options": [
+        "Infinitivo + -ia, -ia, -íamos...",
+        "Radical + -ão",
+        "SER + Infinitivo",
+        "TER + Gerúndio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Eu falaria' significa 'Yo hablaría'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Se eu fosse rico, eu {{1}} (viajar) pelo mundo (viajaría).",
+      "reponsesAttendues": [
+        "viajaria"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el condicional de SER.",
+      "pairs": [
+        {
+          "left": "Eu",
+          "right": "seria"
+        },
+        {
+          "left": "Você",
+          "right": "seria"
+        },
+        {
+          "left": "Nós",
+          "right": "seríamos"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice '¿Qué harías tú en esa situación?'?",
+      "options": [
+        "O que você faria nessa situação?",
+        "O que você faz nessa situação?",
+        "O que você fez nessa situação?",
+        "O que você fará nessa situação?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

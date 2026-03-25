@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Oui, Non et Peut-être",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Oui' ?",
+      "options": [
+        "Si",
+        "Sì",
+        "Se",
+        "Sa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'No' s'écrit pareil en italien et en français/anglais.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Peut-être' se dit '{{1}}'.",
+      "reponsesAttendues": [
+        "forse"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'affirmation.",
+      "pairs": [
+        {
+          "left": "Certo!",
+          "right": "Bien sûr !"
+        },
+        {
+          "left": "Va bene",
+          "right": "D'accord / Ça va"
+        },
+        {
+          "left": "Mai",
+          "right": "Jamais"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'D'accordo' ?",
+      "options": [
+        "D'accord",
+        "D'origine",
+        "Déshonoré",
+        "Au revoir"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

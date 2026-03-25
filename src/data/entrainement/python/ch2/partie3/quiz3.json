@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Parcourir une Chaîne (str)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si on fait : for c in 'Python' ?",
+      "options": [
+        "La boucle itère sur chaque lettre",
+        "La boucle s'exécute une seule fois",
+        "Erreur (le texte n'est pas une liste)",
+        "Ça affiche un serpent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les chaînes de caractères sont des itérables.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour compter les 'a' dans un texte, on peut utiliser une boucle {{1}}.",
+      "reponsesAttendues": [
+        "for"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "'Python'",
+          "right": "Itérable"
+        },
+        {
+          "left": "c",
+          "right": "Représente un caractère"
+        },
+        {
+          "left": "6 tours",
+          "right": "Nombre d'itérations"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment sauter les espaces dans une boucle sur un texte ?",
+      "options": [
+        "if char == ' ': continue",
+        "if char == ' ': break",
+        "if char != ' ': stop",
+        "C'est automatique"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

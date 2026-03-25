@@ -1,0 +1,65 @@
+{
+  "id": "quiz8",
+  "titre": "Vocabulaire Cinéma",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'Soundtrack' ?",
+      "options": [
+        "L'ensemble des musiques enregistrées d'un film",
+        "Une piste de course sonore",
+        "Le nom de la caméra",
+        "Le titre du film"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'Score' désigne spécifiquement la musique originale composée pour accompagner l'image.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le moment où l'on 'colle' la musique sur les images s'appelle la {{1}} (post-production / synchronisation).",
+      "reponsesAttendues": [
+        "post-production",
+        "postproduction",
+        "synchronisation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme à sa définition.",
+      "pairs": [
+        {
+          "left": "Temp Track",
+          "right": "Musique provisoire utilisée pendant le montage"
+        },
+        {
+          "left": "Spotting Session",
+          "right": "Réunion pour décider où mettre la musique"
+        },
+        {
+          "left": "Mixing",
+          "right": "Équilibrer le volume de la musique et des voix"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Music Supervisor' ?",
+      "options": [
+        "La personne chargée de choisir et d'acheter les droits des chansons existantes",
+        "Le garde du corps du compositeur",
+        "Un instrument électronique",
+        "Un logiciel de montage"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

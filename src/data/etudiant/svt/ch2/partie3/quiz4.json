@@ -1,0 +1,63 @@
+{
+  "id": "quiz24",
+  "titre": "Origine des Mutations",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une mutation ?",
+      "options": [
+        "Une modification accidentelle et aléatoire de la séquence d'ADN",
+        "Un voyage dans l'espace",
+        "Le passage de l'hiver à l'été",
+        "Un changement de couleur de vêtement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Toutes les mutations sont forcément graves ou mortelles.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Certaines mutations créent de nouveaux {{1}} au sein d'une espèce.",
+      "reponsesAttendues": [
+        "allèles"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'agent mutagène à sa source.",
+      "pairs": [
+        {
+          "left": "Rayons UV (Soleil)",
+          "right": "Peut provoquer des mutations de la peau"
+        },
+        {
+          "left": "Tabac / Produits chimiques",
+          "right": "Agents mutagènes chimiques"
+        },
+        {
+          "left": "Rayons X",
+          "right": "Utilisés avec précaution en médecine"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "À quelle condition une mutation est-elle héréditaire ?",
+      "options": [
+        "Si elle touche les cellules reproductrices (gamètes)",
+        "Si elle touche les muscles du bras",
+        "Si elle a lieu le mardi",
+        "Elle n'est jamais héréditaire"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

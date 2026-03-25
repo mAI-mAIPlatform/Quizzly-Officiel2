@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Match / Case (Python 3.10+)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle nouvelle structure remplace avantageusement une longue série de IF/ELIF ?",
+      "options": [
+        "match / case",
+        "switch / case",
+        "case / default",
+        "select / if"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le symbole _ (underscore) dans un 'case' sert de cas par défaut.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La structure match / case est disponible depuis Python {{1}}.",
+      "reponsesAttendues": [
+        "3.10"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe Match/Case.",
+      "pairs": [
+        {
+          "left": "match x:",
+          "right": "Début de la structure"
+        },
+        {
+          "left": "case 1:",
+          "right": "Si x vaut 1"
+        },
+        {
+          "left": "case _:",
+          "right": "Sinon (cas général)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on mettre plusieurs valeurs dans un 'case' ?",
+      "options": [
+        "Oui, avec le symbole | (pipe)",
+        "Non",
+        "Oui, avec une virgule",
+        "Seulement pour les chaînes"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

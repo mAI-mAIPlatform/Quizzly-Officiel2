@@ -1,0 +1,62 @@
+{
+  "id": "quiz7",
+  "titre": "Collectivités et État",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la plus petite collectivité territoriale ?",
+      "options": [
+        "Le Département",
+        "La Région",
+        "La Commune (ou Mairie)",
+        "Le Pays"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le préfet représente l'État dans le département.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'élu qui dirige la commune est le {{1}}.",
+      "reponsesAttendues": [
+        "maire"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Commune",
+          "right": "Écoles primaires, état civil"
+        },
+        {
+          "left": "Département",
+          "right": "Collèges, routes départementales"
+        },
+        {
+          "left": "Région",
+          "right": "Lycées, transports régionaux (TER)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment sont élus les conseillers municipaux ?",
+      "options": [
+        "Au suffrage universel direct",
+        "Par le Préfet",
+        "Par tirage au sort",
+        "Par le Président"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

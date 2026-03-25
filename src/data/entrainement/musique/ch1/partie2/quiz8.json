@@ -1,0 +1,62 @@
+{
+  "id": "quiz8",
+  "titre": "Le Tempo",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel terme désigne un temple lent et calme ?",
+      "options": [
+        "Allegro",
+        "Adagio",
+        "Presto",
+        "Moderato"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Allegro' signifie jouer rapidement et joyeusement.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'appareil utilisé pour donner le tempo exact est le {{1}}.",
+      "reponsesAttendues": [
+        "métronome"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Largo",
+          "right": "Très lent"
+        },
+        {
+          "left": "Andante",
+          "right": "Allant (vitesse de marche)"
+        },
+        {
+          "left": "Vivace",
+          "right": "Vif et rapide"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Ritardando' ?",
+      "options": [
+        "Accélérer",
+        "Ralentir progressivement",
+        "S'arrêter",
+        "Reprendre au début"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "quiz3",
+  "titre": "Protéger sa Vie Privée",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une donnée personnelle ?",
+      "options": [
+        "Une couleur que j'aime",
+        "Une information qui permet de m'identifier (nom, adresse, tel)",
+        "Le titre d'un film",
+        "Le nom d'un pays"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Mon mot de passe doit être facile à deviner comme '123456'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le sigle de l'organisme qui protège nos données en France est la {{1}}.",
+      "reponsesAttendues": [
+        "CNIL"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Traces numériques",
+          "right": "Historique de navigation, likes, cookies"
+        },
+        {
+          "left": "Paramètres privés",
+          "right": "Limiter qui voit mes photos"
+        },
+        {
+          "left": "Droit au retrait",
+          "right": "Pouvoir supprimer une info me concernant"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi faut-il être prudent avec ce qu'on poste en ligne ?",
+      "options": [
+        "Parce qu'Internet n'oublie rien (pérennité des données)",
+        "Parce que ça use l'écran",
+        "Pour économiser l'électricité",
+        "Parce que personne ne regarde"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

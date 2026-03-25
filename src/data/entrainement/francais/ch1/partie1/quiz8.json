@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Le Présent : Verbes en -INDRE et -SOUDRE",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison de 'Il' pour 'Peindre' ?",
+      "options": [
+        "-t",
+        "-d",
+        "-s",
+        "-e"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les verbes en -INDRE perdent leur 'd' au singulier.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Nous {{1}} (éteindre) la lumière.",
+      "reponsesAttendues": [
+        "éteignons"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Conjugue 'Craindre'.",
+      "pairs": [
+        {
+          "left": "Je",
+          "right": "Crains"
+        },
+        {
+          "left": "Nous",
+          "right": "Craignons"
+        },
+        {
+          "left": "Elle",
+          "right": "Craint"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Conjugaison de 'Résoudre' avec 'Il' ?",
+      "options": [
+        "Résout",
+        "Résoud",
+        "Résoudra",
+        "Résolve"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

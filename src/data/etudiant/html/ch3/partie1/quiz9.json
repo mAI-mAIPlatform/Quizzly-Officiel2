@@ -1,0 +1,70 @@
+{
+  "id": "quiz9",
+  "titre": "Attribut Name vs ID",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel est envoyé au serveur lors de la soumission ?",
+      "options": ["L'ID", "Le Name", "La Class", "L'attribut style"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'ID doit être unique dans toute la page.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'ID sert principalement à lier l'input au {{1}} via l'attribut 'for'.",
+      "reponsesAttendues": ["label"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si un input n'a pas d'attribut 'name' ?",
+      "options": ["Il s'affiche en rouge", "Sa valeur n'est pas envoyée au serveur", "Le formulaire plante", "Le navigateur l'efface"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser le même 'name' pour plusieurs inputs (ex: boutons radio).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "L'ID est utilisé en CSS et JS, alors que le 'name' est utilisé par :",
+      "options": ["L'utilisateur", "Le langage serveur (PHP, etc.)", "Le navigateur uniquement", "Le clavier"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "vrai_faux",
+      "enonce": "Un input peut avoir le même 'name' et le même 'id'.",
+      "reponse": true
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "En méthode GET, les 'name' apparaissent dans l'{{1}}.",
+      "reponsesAttendues": ["URL"]
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment récupérer un input par son name en JS ?",
+      "options": ["getElementById", "getElementsByName", "querySelector('.name')", "On ne peut pas"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'id' est optionnel si on ne fait pas de CSS, de JS ou de label.",
+      "reponse": true
+    }
+  ]
+}

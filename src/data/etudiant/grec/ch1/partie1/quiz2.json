@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Articles et Genres",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est l'article défini masculin singulier (au nominatif) ?",
+      "options": [
+        "ho (ὁ)",
+        "he (ἡ)",
+        "to (τὸ)",
+        "hoi (οἱ)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'article 'to' (τὸ) est utilisé pour le genre neutre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'article féminin singulier est {{1}} (he / ἡ).",
+      "reponsesAttendues": [
+        "he"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'article à son genre.",
+      "pairs": [
+        {
+          "left": "ὁ",
+          "right": "Masculin"
+        },
+        {
+          "left": "ἡ",
+          "right": "Féminin"
+        },
+        {
+          "left": "τὸ",
+          "right": "Neutre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Au pluriel masculin, l'article devient :",
+      "options": [
+        "hoi (οἱ)",
+        "hai (αἱ)",
+        "ta (τὰ)",
+        "tous (τοὺς)"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

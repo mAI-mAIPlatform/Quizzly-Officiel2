@@ -1,0 +1,64 @@
+{
+  "id": "quiz28",
+  "titre": "Bonnes Pratiques (PEP 8)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le PEP 8 ?",
+      "options": [
+        "Le guide de style officiel pour écrire du code Python propre et lisible",
+        "Une nouvelle version de Python",
+        "Un module de sécurité",
+        "Une erreur système"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Selon PEP 8, il est recommandé de mettre des espaces autour des opérateurs (ex: x = 10 + 5).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'indentation recommandée est de {{1}} espaces (4).",
+      "reponsesAttendues": [
+        "4",
+        "quatre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'élément à sa convention de nommage.",
+      "pairs": [
+        {
+          "left": "Variable",
+          "right": "minuscules_et_underscores"
+        },
+        {
+          "left": "Fonction",
+          "right": "minuscules_et_underscores"
+        },
+        {
+          "left": "Classe (objet)",
+          "right": "MajusculeAuDebut"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi suivre ces règles si le code marche sans ?",
+      "options": [
+        "Pour que votre code soit facile à lire par d'autres (et par vous-même plus tard)",
+        "Pour qu'il soit plus rapide",
+        "Pour économiser de l'énergie",
+        "Pour gagner des points sur GitHub"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

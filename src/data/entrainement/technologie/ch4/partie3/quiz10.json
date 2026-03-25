@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "EXAMEN FINAL : Technologie Générale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "L'ensemble du programme est fini ! Quel sujet as-tu préféré ?",
+      "options": [
+        "L'Automatisme et Robotique",
+        "La Conception et 3D",
+        "L'Informatique et Réseaux",
+        "L'Énergie et Durable"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Tu as maintenant les bases pour comprendre les objets qui t'entourent.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La technologie, c'est l'art de transformer le {{1}} pour répondre à l'homme.",
+      "reponsesAttendues": [
+        "réel"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Mix Global.",
+      "pairs": [
+        {
+          "left": "Matériaux",
+          "right": "Propriétés et recyclage"
+        },
+        {
+          "left": "Énergie",
+          "right": "Conversion et renouvelable"
+        },
+        {
+          "left": "Réseau",
+          "right": "Internet et Adresses IP"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Bravo ! Tu as validé tes 120 quiz de Technologie ! 🎉",
+      "options": [
+        "Je suis un Tech-Pro !",
+        "Direction le prochain sujet !",
+        "Vive la Technologie !",
+        "Mission Accomplie !"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

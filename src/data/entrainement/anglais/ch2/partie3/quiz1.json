@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Common Sports",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Which sport is played with a round ball and feet?",
+      "options": [
+        "Football (Soccer)",
+        "Rugby",
+        "Tennis",
+        "Basketball"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "In Basketball, you must throw the ball into a hoop.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "I play {{1}} with a racket and a yellow ball.",
+      "reponsesAttendues": [
+        "tennis"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the sports.",
+      "pairs": [
+        {
+          "left": "Swimming",
+          "right": "Water"
+        },
+        {
+          "left": "Cycling",
+          "right": "Bike"
+        },
+        {
+          "left": "Running",
+          "right": "Track"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Which sport uses an oval ball?",
+      "options": [
+        "Rugby",
+        "Football",
+        "Tennis",
+        "Golf"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

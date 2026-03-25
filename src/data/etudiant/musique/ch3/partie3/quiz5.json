@@ -1,0 +1,64 @@
+{
+  "id": "quiz5",
+  "titre": "La Forme Sonate",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelles sont les trois grandes étapes de la 'Forme Sonate' classique ?",
+      "options": [
+        "Exposition, Développement, Réexposition",
+        "Début, Milieu, Fin",
+        "Chant, Danse, Repos",
+        "Accordage, Jeu, Rangement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans l'exposition, on présente généralement deux thèmes de caractères différents.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La partie centrale où le compositeur triture et transforme les thèmes est le {{1}} (développement).",
+      "reponsesAttendues": [
+        "développement",
+        "developpement"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'étape de la sonate à son rôle.",
+      "pairs": [
+        {
+          "left": "Exposition",
+          "right": "Présentation des thèmes"
+        },
+        {
+          "left": "Développement",
+          "right": "Conflit et transformations musicales"
+        },
+        {
+          "left": "Réexposition",
+          "right": "Retour des thèmes (résolution)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "La forme sonate est la base de quel genre musical ?",
+      "options": [
+        "Le premier mouvement de la Symphonie classique",
+        "Le Jazz Swing",
+        "Le Rap français",
+        "Les chansons de marins"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "L'Opinion Publique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'opinion publique ?",
+      "options": [
+        "Ce que pense la majorité de la population sur un sujet",
+        "L'avis personnel du Président uniquement",
+        "Une loi votée par le Parlement",
+        "Une émission de télévision"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les sondages sont des outils pour mesurer l'opinion publique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'endroit où les citoyens débattent et échangent des idées s'appelle l'espace {{1}} (public).",
+      "reponsesAttendues": [
+        "public"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'élément à son influence.",
+      "pairs": [
+        {
+          "left": "Les réseaux sociaux",
+          "right": "Diffusion rapide d'opinions et d'émotions"
+        },
+        {
+          "left": "Les médias classiques",
+          "right": "Information et analyse approfondie"
+        },
+        {
+          "left": "Les débats",
+          "right": "Confrontation directe des idées"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on une fausse information diffusée pour tromper l'opinion ?",
+      "options": [
+        "Une infox (fake news)",
+        "Un secret d'État",
+        "Une publicité lyrique",
+        "Un poème engagé"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

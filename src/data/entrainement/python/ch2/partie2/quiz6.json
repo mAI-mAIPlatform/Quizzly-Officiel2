@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Else avec While",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Peut-on mettre un 'else' après une boucle while ?",
+      "options": [
+        "Oui (spécificité Python)",
+        "Non",
+        "Seulement avec if",
+        "Seulement en Python 2"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le bloc else de la boucle s'exécute quand la condition devient fausse.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si la boucle est stoppée par un {{1}}, le bloc else n'est PAS exécuté.",
+      "reponsesAttendues": [
+        "break"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "Fin normale",
+          "right": "Bloc else exécuté"
+        },
+        {
+          "left": "Sortie par break",
+          "right": "Bloc else ignoré"
+        },
+        {
+          "left": "Boucle jamais entrée",
+          "right": "Bloc else exécuté quand même"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Utilité du else avec while ?",
+      "options": [
+        "Faire une action finale si la boucle s'est finie 'proprement'",
+        "Gérer les erreurs",
+        "Remplacer le break",
+        "Calculer le nombre de tours"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

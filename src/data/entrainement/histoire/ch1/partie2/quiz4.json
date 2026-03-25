@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "La ville musulmane médiévale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le cœur religieux et social de la ville ?",
+      "options": [
+        "Le château",
+        "La grande mosquée",
+        "Le rempart",
+        "L'école"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'souk' est le marché couvert où les marchands se regroupent par activité.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le quartier d'habitation, souvent entouré de murs, s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "médina"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le bâtiment à son rôle.",
+      "pairs": [
+        {
+          "left": "Hammams",
+          "right": "Bains publics"
+        },
+        {
+          "left": "Fondouks",
+          "right": "Auberges pour marchands"
+        },
+        {
+          "left": "Madrasas",
+          "right": "Écoles religieuses"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle ville était la capitale des Abbassides et un centre scientifique majeur ?",
+      "options": [
+        "Le Caire",
+        "Bagdad",
+        "Tunis",
+        "Alger"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

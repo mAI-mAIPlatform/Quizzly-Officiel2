@@ -1,0 +1,64 @@
+{
+  "id": "quiz1",
+  "titre": "L'appareil vocal",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces éléments est le 'moteur' de la voix (fournit le souffle) ?",
+      "options": [
+        "Les poumons",
+        "Les cordes vocales",
+        "La langue",
+        "Les oreilles"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les cordes vocales se situent à l'intérieur du larynx.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour que le son soit puissant, il doit résonner dans les cavités de la tête appelées des {{1}} (résonateurs).",
+      "reponsesAttendues": [
+        "résonateurs",
+        "resonateurs"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'étape de production du son à son organe.",
+      "pairs": [
+        {
+          "left": "Souffle (énergie)",
+          "right": "Diaphragme / Poumons"
+        },
+        {
+          "left": "Vibration (source du son)",
+          "right": "Cordes vocales"
+        },
+        {
+          "left": "Articulation (parole)",
+          "right": "Langue / Lèvres / Dents"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si les cordes vocales vibrent très vite ?",
+      "options": [
+        "Le son est aigu",
+        "Le son est grave",
+        "Le son s'arrête",
+        "On devient muet"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

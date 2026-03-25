@@ -1,0 +1,63 @@
+{
+  "id": "quiz23",
+  "titre": "L'objet Event",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment récupère-t-on les informations détaillées de l'événement dans la fonction de rappel ?",
+      "options": [
+        "En ajoutant un paramètre (souvent nommé 'e' ou 'event')",
+        "En utilisant 'this'",
+        "En regardant dans la console",
+        "C'est automatique, pas besoin d'argument"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "event.target désigne l'élément HTML qui a déclenché l'événement.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour connaître le type de l'événement, on utilise event.{{1}} (type).",
+      "reponsesAttendues": [
+        "type"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la propriété à l'info fournie.",
+      "pairs": [
+        {
+          "left": "event.target",
+          "right": "L'élément cliqué"
+        },
+        {
+          "left": "event.clientX",
+          "right": "Position X de la souris"
+        },
+        {
+          "left": "event.key",
+          "right": "Touche du clavier pressée"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi l'objet event est-il crucial ?",
+      "options": [
+        "Pour savoir exactement ce qui s'est passé (quelle touche, où on a cliqué, quel bouton exact)",
+        "Pour que le navigateur valide le clic",
+        "Pour changer la couleur de la souris",
+        "Pour fermer la fenêtre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

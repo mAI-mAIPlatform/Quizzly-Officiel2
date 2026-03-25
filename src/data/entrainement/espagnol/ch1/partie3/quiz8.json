@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Me gusta / No me gusta",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'J'aime le chocolat' ?",
+      "options": [
+        "Me gusta el chocolate",
+        "Soy chocolate",
+        "Tengo chocolate",
+        "Como chocolate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Se dice 'Me gustan' si el objeto es plural (las manzanas).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Tu aimes' se dice '{{1}} gusta'.",
+      "reponsesAttendues": [
+        "Te"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Gustos.",
+      "pairs": [
+        {
+          "left": "Me encanta",
+          "right": "J'adore"
+"        },
+        {
+          "left": "No me gusta",
+          "right": "Je n'aime pas"
+        },
+        {
+          "left": "Odio",
+          "right": "Je déteste"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que te gusta hacer ?",
+      "options": [
+        "Me gusta leer libros",
+        "Soy alto",
+        "Tengo 10 años",
+        "Vivo en Madrid"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

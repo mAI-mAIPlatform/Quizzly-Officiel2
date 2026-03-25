@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Pasti della giornata",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'El almuerzo'?",
+      "options": [
+        "Il pranzo",
+        "La colazione",
+        "La cena",
+        "Lo spuntino"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Colazione' es el primer alimento del día (desayuno).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ceno alle otto di {{1}} (soir).",
+      "reponsesAttendues": [
+        "sera"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el momento con el nombre.",
+      "pairs": [
+        {
+          "left": "Mattina",
+          "right": "Colazione"
+        },
+        {
+          "left": "Pomeriggio",
+          "right": "Merenda"
+        },
+        {
+          "left": "Sera",
+          "right": "Cena"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'spuntino'?",
+      "options": [
+        "Snack / Tentempié",
+        "Banquete",
+        "Postre",
+        "Sopa"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

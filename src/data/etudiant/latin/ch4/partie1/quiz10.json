@@ -1,0 +1,64 @@
+{
+  "id": "quiz10",
+  "titre": "Cap. 4 P. 1 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "L'orateur {{1}} s'opposait à Catilina et le poète {{2}} a écrit les Métamorphoses.",
+      "options": [
+        "Cicéron / Ovide",
+        "Auguste / Virgile",
+        "Sénèque / Horace",
+        "César / Tite-Live"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Sim, sis, sit' appartient au subjonctif présent.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le précepteur de Néron était l'philosophe {{1}} (Sénèque).",
+      "reponsesAttendues": [
+        "Sénèque"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les œuvres.",
+      "pairs": [
+        {
+          "left": "Carpe Diem",
+          "right": "Horace"
+        },
+        {
+          "left": "Ab Urbe condita",
+          "right": "Tite-Live"
+"
+        },
+        {
+          "left": "Les Catilinaires",
+          "right": "Cicéron"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la structure de l'infinitive ?",
+      "options": [
+        "Accusatif + Infinitif",
+        "Nominatif + Présent",
+        "Ablatif + Participe",
+        "Génitif + Subjonctif"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

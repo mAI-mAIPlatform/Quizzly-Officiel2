@@ -1,0 +1,63 @@
+{
+  "id": "quiz29",
+  "titre": "Perché?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice '¿Por qué?' y 'Porque'?",
+      "options": [
+        "Perché / Perché",
+        "Come / Come",
+        "Dove / Dove",
+        "Quando / Quando"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En italiano se usa la misma palabra para preguntar y responder.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Mangio {{1}} ho fame (car / parce que).",
+      "reponsesAttendues": [
+        "perché"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la pregunta y respuesta.",
+      "pairs": [
+        {
+          "left": "Perché studi?",
+          "right": "Perché ho un esame"
+        },
+        {
+          "left": "Perché esci?",
+          "right": "Perché vado al cinema"
+        },
+        {
+          "left": "Perché mangi?",
+          "right": "Perché ho fame"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'perché'?",
+      "options": [
+        "Pourquoi / Parce que",
+        "Comment",
+        "Combien",
+        "Lequel"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

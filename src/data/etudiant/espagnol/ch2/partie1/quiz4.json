@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Tareas domésticas",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'hacer la cama'?",
+      "options": [
+        "Faire le lit",
+        "Dormir",
+        "Nettoyer la chambre",
+        "Acheter un lit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Pasar la aspiradora' significa 'faire la vaisselle'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Después de cenar, tengo que {{1}} (faire la vaisselle).",
+      "reponsesAttendues": [
+        "fregar los platos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la tarea.",
+      "pairs": [
+        {
+          "left": "Cocinar",
+          "right": "Cuisiner"
+        },
+        {
+          "left": "Barrer",
+          "right": "Balayer"
+        },
+        {
+          "left": "Planchar",
+          "right": "Repasser"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'tirar la basura'?",
+      "options": [
+        "Jeter la poubelle",
+        "Nettoyer le sol",
+        "Ranger ses vêtements",
+        "Cuisiner le dîner"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

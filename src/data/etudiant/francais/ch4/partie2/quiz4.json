@@ -1,0 +1,63 @@
+{
+  "id": "quiz14",
+  "titre": "Canular vs Fake News",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un canular (hoax) ?",
+      "options": [
+        "Une plaisanterie ou un défi pour tester la crédulité",
+        "Une nouvelle loi",
+        "Une vérité scientifique",
+        "Un secret d'État"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un canular a toujours un but politique malveillant.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le célèbre canular d'Orson Welles à la radio concernait une invasion d'{{1}}.",
+      "reponsesAttendues": [
+        "extraterrestres"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le terme à sa nuance.",
+      "pairs": [
+        {
+          "left": "Canular",
+          "right": "Souvent pour s'amuser / piéger"
+        },
+        {
+          "left": "Infox",
+          "right": "Pour manipuler ou nuire"
+        },
+        {
+          "left": "Légende urbaine",
+          "right": "Rumeur qui circule longtemps"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que faire si l'on découvre qu'une info est un canular ?",
+      "options": [
+        "Prévenir ceux qui l'ont partagée",
+        "Ne rien dire",
+        "Continuer à la partager",
+        "Pleurer"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Liberté de Culte",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Peut-on pratiquer sa religion en France ?",
+      "options": [
+        "Oui, c'est une liberté fondamentale garantie par la Constitution",
+        "Non, c'est interdit par la laïcité",
+        "Seulement à l'intérieur de sa maison",
+        "Seulement si le maire est d'accord"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La seule limite à la liberté de culte est le respect de l'ordre public.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Avoir une religion ou ne pas en avoir relève de la liberté de {{1}} (conscience).",
+      "reponsesAttendues": [
+        "conscience"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le lieu de culte à sa religion.",
+      "pairs": [
+        {
+          "left": "Église",
+          "right": "Christianisme"
+        },
+        {
+          "left": "Mosquée",
+          "right": "Islam"
+        },
+        {
+          "left": "Synagogue",
+          "right": "Judaïsme"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on changer de religion en France ?",
+      "options": [
+        "Oui, tout à fait, ou choisir de ne plus en avoir du tout",
+        "Non, on garde celle de ses parents toute sa vie",
+        "Seulement avec une autorisation préfectorale",
+        "Non, c'est puni par la loi"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

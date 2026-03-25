@@ -1,0 +1,63 @@
+{
+  "id": "quiz19",
+  "titre": "Eau et Déchets en ville",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le défi de l'eau dans les grandes métropoles ?",
+      "options": [
+        "Assurer l'approvisionnement en eau potable et traiter les eaux usées",
+        "Vider les fleuves pour construire des routes",
+        "Transformer l'eau en essence",
+        "Interdire l'usage du savon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le tri sélectif permet de réduire la quantité de déchets enfouis.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le recyclage des déchets organiques pour faire du terreau s'appelle le {{1}}.",
+      "reponsesAttendues": [
+        "compostage"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le déchet à son traitement.",
+      "pairs": [
+        {
+          "left": "Plastique / Verre",
+          "right": "Recyclage"
+        },
+        {
+          "left": "Déchets non recyclables",
+          "right": "Incinération ou enfouissement"
+        },
+        {
+          "left": "Eaux usées",
+          "right": "Station d'épuration"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la priorité de l'économie circulaire ?",
+      "options": [
+        "Réduire, Réutiliser, Recycler",
+        "Consommer le plus possible",
+        "Tout jeter dans la mer",
+        "Acheter des produits jetables"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

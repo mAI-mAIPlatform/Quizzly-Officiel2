@@ -1,0 +1,68 @@
+{
+  "id": "quiz2",
+  "titre": "Les Timbales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la particularité des timbales par rapport à une grosse caisse ?",
+      "options": [
+        "On peut accorder les timbales pour jouer des notes précises",
+        "Elles sont plus petites",
+        "Elles n'ont pas de peau",
+        "Elles sont interdites à l'orchestre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le timbalier utilise des pédales pour changer la tension de la peau et donc la note en plein morceau.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les timbales sont souvent utilisées par paires ou par groupes de {{1}} (4 / quatre).",
+      "reponsesAttendues": [
+        "4",
+        "quatre",
+        "2",
+        "deux",
+        "3",
+        "trois"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'instrument à son rôle sonore.",
+      "pairs": [
+        {
+          "left": "Timbales",
+          "right": "Apportent de la profondeur et des notes de basse"
+        },
+        {
+          "left": "Tambour militaire",
+          "right": "Marque le rythme sec et précis"
+        },
+        {
+          "left": "Grosse caisse",
+          "right": "Sert aux impacts puissants et sourds"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Avec quoi frappe-t-on les timbales ?",
+      "options": [
+        "Des mailloches (tige de bois avec une boule de feutre)",
+        "Des épingles à nourrice",
+        "Ses mains directement",
+        "Un archet de contrebasse"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

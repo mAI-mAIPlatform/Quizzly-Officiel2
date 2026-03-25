@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Viewport et Mobile SEO",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise meta est INDISPENSABLE pour le responsive ?",
+      "options": [
+        "viewport",
+        "screen",
+        "mobile",
+        "responsive"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "width=device-width adapte la largeur à l'écran de l'appareil.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut initial-{{1}}=1.0 définit le zoom de départ.",
+      "reponsesAttendues": [
+        "scale"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Viewport Options.",
+      "pairs": [
+        {
+          "left": "width=device-width",
+          "right": "Largeur fluide"
+        },
+        {
+          "left": "user-scalable=no",
+          "right": "Interdit le zoom (déconseillé)"
+        },
+        {
+          "left": "initial-scale=1",
+          "right": "Zoom normal"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi Google pénalise les sites sans balise viewport ?",
+      "options": [
+        "Car ils sont illisibles sur mobile (écriture trop petite)",
+        "Car il n'aime pas le code court",
+        "Pour vendre des téléphones",
+        "Ce n'est pas pénalisé"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

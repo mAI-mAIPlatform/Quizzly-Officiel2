@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Les Smart Cities (Villes Intelligentes)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est l'objectif d'une ville intelligente ?",
+      "options": [
+        "Utiliser les données pour améliorer la qualité de vie et gérer les ressources",
+        "Construire des bâtiments plus hauts",
+        "Supprimer les voitures",
+        "Mettre des écrans partout pour la pub"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un éclairage public qui s'allume au passage d'un piéton fait partie de la Smart City.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les poubelles connectées permettent d'optimiser le trajet de {{1}}.",
+      "reponsesAttendues": [
+        "ramassage"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Applications Smart City.",
+      "pairs": [
+        {
+          "left": "Gestion trafic",
+          "right": "Feux intelligents selon la circulation"
+        },
+        {
+          "left": "Stationnement",
+          "right": "Application pour trouver une place libre"
+        },
+        {
+          "left": "Environnement",
+          "right": "Capteurs de pollution de l'air"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le défi majeur des Smart Cities ?",
+      "options": [
+        "Assurer la cybersécurité contre les piratages de la ville",
+        "Il n'y a plus de place pour les arbres",
+        "Ça coûte moins cher à construire",
+        "Les gens marchent trop"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

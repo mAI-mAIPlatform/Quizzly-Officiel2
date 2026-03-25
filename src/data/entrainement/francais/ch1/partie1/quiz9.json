@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Synthèse : Les Terminaisons du Présent",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "En général, quelle est la terminaison de 'Tu' ?",
+      "options": [
+        "-s (ou -es)",
+        "-t",
+        "-e",
+        "-x"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Entendre' fait 'Il entend' au présent.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La terminaison de 'Ils/Elles' est {{1}}.",
+      "reponsesAttendues": [
+        "ent"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Lien terminaison / sujet.",
+      "pairs": [
+        {
+          "left": "Je",
+          "right": "-e, -s, -x"
+        },
+        {
+          "left": "Il",
+          "right": "-e, -t, -d"
+        },
+        {
+          "left": "Vous",
+          "right": "-ez (sauf exceptions)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est mal orthographié ?",
+      "options": [
+        "Il dits",
+        "Il dit",
+        "Tu dis",
+        "Je dis"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

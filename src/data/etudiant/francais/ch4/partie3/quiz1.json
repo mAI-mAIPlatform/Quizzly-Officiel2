@@ -1,0 +1,63 @@
+{
+  "id": "quiz21",
+  "titre": "Lexique du journalisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'dépêche' ?",
+      "options": [
+        "Une information brève transmise par une agence de presse",
+        "Une petite voiture de livraison",
+        "Le titre d'un article de sport",
+        "Une faute d'orthographe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un 'marronnier' est un sujet qui revient chaque année à la même date.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le domaine spécialisé d'un journaliste (ex: justice, sport) s'appelle sa {{1}}.",
+      "reponsesAttendues": [
+        "rubrique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le terme à son sens journalistique.",
+      "pairs": [
+        {
+          "left": "Bouclage",
+          "right": "Fin de la rédaction d'un numéro"
+        },
+        {
+          "left": "Scoop",
+          "right": "Information exclusive et frappante"
+        },
+        {
+          "left": "Ours",
+          "right": "Encadré avec les noms des responsables"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'sourcer' un article ?",
+      "options": [
+        "Indiquer d'où proviennent les informations",
+        "Mettre de l'eau sur le papier",
+        "Changer la police d'écriture",
+        "Supprimer les images"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

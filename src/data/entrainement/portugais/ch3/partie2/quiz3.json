@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Os Transportes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Le bus' ?",
+      "options": [
+        "O autocarro",
+        "O comboio",
+        "O metro",
+        "O elétrico"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Comboio' significa 'Train'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu apanho o {{1}} (métro) para o centro.",
+      "reponsesAttendues": [
+        "metro"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Veículos.",
+      "pairs": [
+        {
+          "left": "Carro",
+          "right": "Voiture"
+        },
+        {
+          "left": "Mota",
+          "right": "Moto"
+        },
+        {
+          "left": "Barco",
+          "right": "Bateau"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Como vais para o trabalho?",
+      "options": [
+        "Vou de autocarro",
+        "Vou de frigorífico",
+        "Sou um carro",
+        "Olá"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

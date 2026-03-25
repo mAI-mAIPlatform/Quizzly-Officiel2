@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Le Futur Simple : Verbes en -ER et -IR",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment se forme le futur simple pour les verbes réguliers ?",
+      "options": [
+        "Infinitif + -ai, -as, -a, -ons, -ez, -ont",
+        "Radical + -ais, -ait...",
+        "Infinitif + -e, -es, -e...",
+        "Verbe 'Aller' + infinitif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Au futur, la terminaison de 'Nous' est '-ons'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Je {{1}} (finir) mon travail demain.",
+      "reponsesAttendues": [
+        "finirai"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Conjugue 'Manger'.",
+      "pairs": [
+        {
+          "left": "Tu",
+          "right": "Mangeras"
+        },
+        {
+          "left": "Elle",
+          "right": "Mangera"
+        },
+        {
+          "left": "Ils",
+          "right": "Mangeront"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Forme correcte de 'Partir' avec 'Je' ?",
+      "options": [
+        "Partirai",
+        "Partirais",
+        "Parti",
+        "Partirat"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

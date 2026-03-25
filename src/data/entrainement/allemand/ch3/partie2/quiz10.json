@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Zusammenfassung Kapitel 3 Teil 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Ich fahre mit dem ... (bus) zum ... (gare).",
+      "options": [
+        "Bus / Bahnhof",
+        "Auto / Park",
+        "Fahrrad / Bett",
+        "Zug / Haus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Berlin ist die Hauptstadt von Deutschland.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Gehen Sie {{1}} (tout droit).",
+      "reponsesAttendues": [
+        "geradeaus"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Stadt.",
+      "pairs": [
+        {
+          "left": "Straße",
+          "right": "Rue"
+        },
+        {
+          "left": "Platz",
+          "right": "Place"
+        },
+        {
+          "left": "Stadtplan",
+          "right": "Plan de ville"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Wie gefällt dir die Stadt?",
+      "options": [
+        "Sie ist sehr modern",
+        "Sie ist ein Euro",
+        "Ich bin die Stadt",
+        "Hallo Stadt"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

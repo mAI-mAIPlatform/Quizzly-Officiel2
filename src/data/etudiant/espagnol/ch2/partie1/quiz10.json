@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Síntesis Vida Diaria 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Por las mañanas, yo {{1}} a las siete.",
+      "options": [
+        "me despierto",
+        "suelo cenar",
+        "me acuesto",
+        "barro el suelo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Se dice 'Es las dos' para la hora.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Solemos {{1}} (almorzar) en el jardín cuando hace sol.",
+      "reponsesAttendues": [
+        "almorzar"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la frase.",
+      "pairs": [
+        {
+          "left": "¿Qué hora es?",
+          "right": "Quelle heure est-il ?"
+        },
+        {
+          "left": "Hasta luego",
+          "right": "À plus tard"
+        },
+        {
+          "left": "De nada",
+          "right": "De rien"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Il y a une télévision sur la table'?",
+      "options": [
+        "Hay una tele encima de la mesa",
+        "Está una tele debajo de la mesa",
+        "Hay una tele al lado de la mesa",
+        "Es una tele en la mesa"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

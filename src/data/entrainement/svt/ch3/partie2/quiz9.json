@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Risques de la reproduction asexuée",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le risque majeur du clonage ?",
+      "options": [
+        "Manque de nourriture",
+        "Manque de diversité génétique (tous pareils)",
+        "Ils se battent entre eux",
+        "Le vent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si une maladie apparaît, elle risque de tuer tous les clones car aucun n'a de résistance particulière.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si le milieu change brutalement, les clones peuvent tous {{1}}.",
+      "reponsesAttendues": [
+        "disparaître"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le point faible.",
+      "pairs": [
+        {
+          "left": "Identité",
+          "right": "Même vulnérabilité pour tous"
+        },
+        {
+          "left": "Concurrence",
+          "right": "Ils ont besoin des mêmes ressources au même endroit"
+        },
+        {
+          "left": "Immobilité",
+          "right": "Souvent moins de dispersion lointaine que les graines"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi la diversité génétique est-elle importante ?",
+      "options": [
+        "Pour le style",
+        "Pour permettre l'adaptation aux changements d'environnement",
+        "Pour ne pas se reconnaître",
+        "C'est optionnel"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

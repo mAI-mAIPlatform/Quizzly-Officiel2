@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Robotique et Mouvements",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel organe transforme l'énergie du robot en mouvement ?",
+      "options": [
+        "L'actionneur (ex: moteur)",
+        "Le capteur",
+        "La batterie",
+        "L'antenne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un servomoteur permet de contrôler précisément l'angle de rotation (ex: bras robot).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour éviter de patiner, les robots utilisent souvent des {{1}}.",
+      "reponsesAttendues": [
+        "chenilles"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Chaîne d'Énergie.",
+      "pairs": [
+        {
+          "left": "Alimenter",
+          "right": "Batterie, Secteur"
+        },
+        {
+          "left": "Distribuer",
+          "right": "Carte de puissance (Relais)"
+        },
+        {
+          "left": "Convertir",
+          "right": "Moteur, Vérin"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment un robot peut-il 'voir' la distance ?",
+      "options": [
+        "Avec un capteur à ultrasons ou un LiDAR",
+        "En criant fort",
+        "En touchant les murs",
+        "Avec une boussole"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

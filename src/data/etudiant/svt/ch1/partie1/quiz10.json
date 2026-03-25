@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Synthèse : La Planète Active",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi dit-on que la Terre est une planète active ?",
+      "options": [
+        "À cause de sa dynamique interne (tectonique) et externe (climat)",
+        "Parce qu'elle tourne très vite sur elle-même",
+        "Parce qu'il y a beaucoup d'humains qui bougent",
+        "Parce qu'elle a beaucoup de couleurs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les activités humaines ont un impact direct sur la dynamique externe (climat).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'énergie interne de la Terre provient de la {{1}} naturelle des roches.",
+      "reponsesAttendues": [
+        "radioactivité"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la dynamique à son moteur.",
+      "pairs": [
+        {
+          "left": "Interne",
+          "right": "Chaleur du noyau et radioactivité"
+        },
+        {
+          "left": "Externe",
+          "right": "Énergie solaire"
+        },
+        {
+          "left": "Mixte",
+          "right": "Interaction eau / roches (érosion)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la conclusion majeure sur la gestion des risques ?",
+      "options": [
+        "On ne peut pas empêcher les phénomènes mais on peut réduire les risques",
+        "Il faut arrêter de vivre sur Terre",
+        "On peut tout arrêter par la force",
+        "Il n'y a aucun moyen de se protéger"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

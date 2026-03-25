@@ -1,0 +1,64 @@
+{
+  "id": "quiz8",
+  "titre": "Grandes Figures (1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui était Alexandre le Grand ?",
+      "options": [
+        "Un roi macédonien qui a conquis un immense empire jusqu'en Inde",
+        "Un inventeur romain",
+        "Le premier président des USA",
+        "Un célèbre pirate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Jules César était un général et homme d'État romain très puissant.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La célèbre reine d'Égypte connue pour sa beauté et son intelligence était {{1}} (Cléopâtre).",
+      "reponsesAttendues": [
+        "Cléopâtre",
+        "Cleopatre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la figure historique à son empire.",
+      "pairs": [
+        {
+          "left": "Ramsès II",
+          "right": "Égypte Antique"
+        },
+        {
+          "left": "Périclès",
+          "right": "Grèce (Athènes)"
+        },
+        {
+          "left": "Auguste",
+          "right": "Rome"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel était le principal but des conquêtes d'Alexandre le Grand ?",
+      "options": [
+        "Étendre la culture grecque et unifier le monde connu",
+        "Chercher des épices",
+        "Trouver le Père Noël",
+        "Construire des centres commerciaux"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

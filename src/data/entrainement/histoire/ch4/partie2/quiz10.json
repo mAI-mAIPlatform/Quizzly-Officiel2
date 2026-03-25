@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan de la Partie 2 : Les Voyages",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la conséquence directe des grandes découvertes ?",
+      "options": [
+        "Le monde devient plus petit",
+        "L'élargissement de l'horizon des Européens et le début de la mondialisation",
+        "La fin de tous les voyages",
+        "Le retour au Moyen Âge"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En 1550, les Européens ont une vision beaucoup plus précise de la carte du monde.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'Atlantique remplace la mer {{1}} comme centre des échanges mondiaux.",
+      "reponsesAttendues": [
+        "Méditerranée"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dernier défi sur les voyages :",
+      "pairs": [
+        {
+          "left": "Portugais",
+          "right": "Sud et Est (Afrique, Inde)"
+        },
+        {
+          "left": "Espagnols",
+          "right": "Ouest (Amérique)"
+        },
+        {
+          "left": "Français et Anglais",
+          "right": "Nord-Ouest (Canada, Terre-Neuve)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Bravo ! Prêt pour la Partie 3 sur les Aztèques et les Incas ?",
+      "options": [
+        "Oui, direction le Mexique et le Pérou !",
+        "Pas encore",
+        "C'est quoi un Inca ?",
+        "Je reste sur mon bateau"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Savoirs et Universités",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où sont créées les premières universités en Occident ?",
+      "options": [
+        "Dans les châteaux",
+        "Dans les villes",
+        "Dans les forêts",
+        "Dans les monastères isolés"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Université de Paris était célèbre pour l'enseignement de la Théologie.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La langue universelle utilisée dans toutes les universités est le {{1}}.",
+      "reponsesAttendues": [
+        "latin"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la ville à sa spécialité.",
+      "pairs": [
+        {
+          "left": "Bologne",
+          "right": "Droit"
+        },
+        {
+          "left": "Montpellier",
+          "right": "Médecine"
+        },
+        {
+          "left": "Paris",
+          "right": "Théologie (Religion)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel était le statut des étudiants et des professeurs ?",
+      "options": [
+        "Ils étaient considérés comme des clercs (protégés par l'Église)",
+        "Ils étaient des soldats",
+        "Ils étaient des serfs",
+        "Ils n'avaient aucun statut"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

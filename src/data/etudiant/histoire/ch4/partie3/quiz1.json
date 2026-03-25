@@ -1,0 +1,64 @@
+{
+  "id": "quiz21",
+  "titre": "La France : Puissance Mondiale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le rang économique habituel de la France dans le monde ?",
+      "options": [
+        "Dans les 7 premières puissances mondiales",
+        "Le 50ème rang",
+        "Le dernier rang",
+        "La France n'a pas d'économie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La France possède la 2ème plus grande Zone Économique Exclusive (ZEE) au monde grâce à ses territoires d'outre-mer.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La France est l'un des 5 membres permanents du Conseil de {{1}} de l'ONU.",
+      "reponsesAttendues": [
+        "Sécurité"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'atout français à sa catégorie.",
+      "pairs": [
+        {
+          "left": "Siège de l'UNESCO",
+          "right": "Rayonnement Politique / Culturel"
+"
+        },
+        {
+          "left": "Tourisme de luxe",
+          "right": "Rayonnement Économique"
+        },
+        {
+          "left": "Armée avec arme nucléaire",
+          "right": "Puissance Militaire"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le surnom de la puissance française qui combine influence culturelle et économique ?",
+      "options": [
+        "Une puissance complète",
+        "Un petit pays de province",
+        "Une zone en marge",
+        "Un pays émergent"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

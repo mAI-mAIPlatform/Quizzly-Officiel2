@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "In der Stadt (Plätze)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'La place' ?",
+      "options": [
+        "Der Platz",
+        "Die Straße",
+        "Der Park",
+        "Die Brücke"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Straße' bedeutet 'Street'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Die {{1}} (pont) ist alt.",
+      "reponsesAttendues": [
+        "Brücke"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Stadtbild.",
+      "pairs": [
+        {
+          "left": "Denkmal",
+          "right": "Monument"
+        },
+        {
+          "left": "Brunnen",
+          "right": "Fontaine"
+        },
+        {
+          "left": "Ampel",
+          "right": "Feu rouge"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Wo ist die Haltestelle?",
+      "options": [
+        "Dort drüben an der Ampel",
+        "Haltestelle ist ein Brot",
+        "Ich bin eine Haltestelle",
+        "Hallo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

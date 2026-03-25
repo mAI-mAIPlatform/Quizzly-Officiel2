@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Adjectifs qualificatifs (Base)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Grand' (taille) ?",
+      "options": [
+        "Grande",
+        "Piccolo",
+        "Alto",
+        "Basso"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Piccolo' signifie 'Petit'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Beau se dit '{{1}}'.",
+      "reponsesAttendues": [
+        "bello"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'adjectif à son contraire.",
+      "pairs": [
+        {
+          "left": "Bello",
+          "right": "Brutto (Laid)"
+        },
+        {
+          "left": "Grande",
+          "right": "Piccolo (Petit)"
+        },
+        {
+          "left": "Buono",
+          "right": "Cattivo (Mauvais)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Nuovo' ?",
+      "options": [
+        "Nouveau",
+        "Vieux",
+        "Noir",
+        "Nu"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

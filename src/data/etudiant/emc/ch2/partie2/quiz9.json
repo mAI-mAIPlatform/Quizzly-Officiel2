@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Cas pratique : Haine en ligne",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Tu lis un commentaire raciste sous une vidéo. Que fais-tu ?",
+      "options": [
+        "Tu signales le commentaire à la plateforme",
+        "Tu insultes l'auteur en retour",
+        "Tu partages la vidéo pour rigoler",
+        "Tu ne fais rien, c'est la liberté d'expression"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Signaler un contenu illicite aide à rendre Internet plus sûr pour tous.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le portail officiel pour signaler des contenus illicites en France est {{1}} (Pharos).",
+      "reponsesAttendues": [
+        "Pharos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'action au bon réflexe.",
+      "pairs": [
+        {
+          "left": "Cyber-harcèlement",
+          "right": "Appeler le 3018"
+        },
+        {
+          "left": "Vol de compte",
+          "right": "Prévenir la plateforme et changer ses mots de passe"
+        },
+        {
+          "left": "Témoin de haine",
+          "right": "Signalement interne et soutien"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "La loi Avia vise à lutter contre :",
+      "options": [
+        "La haine sur Internet",
+        "La mauvaise cuisine",
+        "Le prix des forfaits mobiles",
+        "Le bruit dans les rues"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

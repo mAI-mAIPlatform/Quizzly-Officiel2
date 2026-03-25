@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Longueur d'une chaîne",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle propriété permet de connaître le nombre de caractères d'une chaîne ?",
+      "options": [
+        ".size",
+        ".length",
+        ".count",
+        ".width"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les espaces comptent comme des caractères dans la propriété .length.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "\"JS\".length renvoie le nombre {{1}}.",
+      "reponsesAttendues": [
+        "2"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la chaîne à sa longueur.",
+      "pairs": [
+        {
+          "left": "\"\"",
+          "right": "0"
+        },
+        {
+          "left": "\"A B\"",
+          "right": "3"
+        },
+        {
+          "left": "\"Code\"",
+          "right": "4"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la longueur de \"Quizzly\" ?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "5"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

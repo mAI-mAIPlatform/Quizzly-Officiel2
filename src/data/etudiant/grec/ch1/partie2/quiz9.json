@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Les Héros (Hérôes)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel héros grec est célèbre pour ses 12 travaux ?",
+      "options": [
+        "Héraclès (Hercule (latin))",
+        "Achille",
+        "Persée",
+        "Jason"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Persée a vaincu la Méduse.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le héros aux pieds légers qui a combattu à Troie est {{1}} (Achille).",
+      "reponsesAttendues": [
+        "Achille"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le héros à son exploit.",
+      "pairs": [
+        {
+          "left": "Jason",
+          "right": "La Toison d'Or"
+        },
+        {
+          "left": "Bellerophon",
+          "right": "La Chimère"
+        },
+        {
+          "left": "Thésée",
+          "right": "Le Minotaure"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel monstre avait des serpents à la place des cheveux ?",
+      "options": [
+        "Méduse",
+        "L'Hydre",
+        "Le Sphinx",
+        "Charybde"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

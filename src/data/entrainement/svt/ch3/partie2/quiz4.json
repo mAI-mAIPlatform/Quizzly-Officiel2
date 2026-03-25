@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Les rhizomes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un rhizome ?",
+      "options": [
+        "Une tige souterraine horizontale",
+        "Une fleur qui pousse sous terre",
+        "Une graine géante",
+        "Un type de champignon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le bambou et le gingembre se multiplient grâce à des rhizomes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le rhizome permet à la plante de passer l'{{1}} et de repousser au printemps.",
+      "reponsesAttendues": [
+        "hiver"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'organe à sa position.",
+      "pairs": [
+        {
+          "left": "Stolon",
+          "right": "À la surface du sol"
+        },
+        {
+          "left": "Rhizome",
+          "right": "Dans le sol"
+        },
+        {
+          "left": "Tige",
+          "right": "Vers la lumière"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage du rhizome pour une plante ?",
+      "options": [
+        "Il permet de se déplacer très vite",
+        "Il assure la survie et la colonisation souterraine durable",
+        "Il attire les abeilles",
+        "Il produit du miel"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

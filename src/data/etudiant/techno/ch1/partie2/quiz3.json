@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Instructions et Séquences",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quel sens un ordinateur lit-il les instructions d'un programme par défaut ?",
+      "options": [
+        "De haut en bas, ligne par ligne",
+        "De bas en haut",
+        "Toutes en même temps au hasard",
+        "De droite à gauche"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'ordre des instructions est crucial : changer l'ordre peut fausser le résultat.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une suite d'instructions qui s'exécutent les unes après les autres est une {{1}} (séquence).",
+      "reponsesAttendues": [
+        "séquence"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'instruction à son action (exemple robot).",
+      "pairs": [
+        {
+          "left": "Avancer()",
+          "right": "Le robot fait un pas en avant"
+        },
+        {
+          "left": "Tourner(90)",
+          "right": "Le robot tourne à angle droit"
+        },
+        {
+          "left": "S'arrêter()",
+          "right": "Le robot stoppe tout mouvement"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si une instruction est mal écrite (faute de frappe) ?",
+      "options": [
+        "Le programme s'arrête et affiche une erreur de syntaxe",
+        "L'ordinateur devine ce qu'on voulait écrire",
+        "L'ordinateur explose",
+        "L'ordinateur corrige tout seul"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Indefinido: Regulares",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es la terminación de 'Yo' para los verbos en -AR?",
+      "options": [
+        "-é",
+        "-í",
+        "-ó",
+        "-aste"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En el indefinido plural (nosotros), los verbos en -AR terminan en -amos (igual que el presente).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ayer yo {{1}} (comer) una paella deliciosa.",
+      "reponsesAttendues": [
+        "comí"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la terminación de verbos en -ER/-IR.",
+      "pairs": [
+        {
+          "left": "Tú",
+          "right": "-iste"
+        },
+        {
+          "left": "Él / Ella",
+          "right": "-ió"
+        },
+        {
+          "left": "Ellos / Ellas",
+          "right": "-ieron"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Ils parlèrent' (¡Hablar!) ?",
+      "options": [
+        "Hablaron",
+        "Hablamos",
+        "Hablasteis",
+        "Hablaran"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

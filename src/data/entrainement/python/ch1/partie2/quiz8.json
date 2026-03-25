@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Introduction aux Dictionnaires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment créer un dictionnaire ?",
+      "options": [
+        "{'nom': 'Alice'}",
+        "['nom': 'Alice']",
+        "('nom': 'Alice')",
+        "dict 'nom' -> 'Alice'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un dictionnaire stocke des données sous forme de paires 'Clé: Valeur'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les dictionnaires sont entourés d'{{1}}.",
+      "reponsesAttendues": [
+        "accolades"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "Clé",
+          "right": "L'identifiant (ex: 'age')"
+        },
+        {
+          "left": "Valeur",
+          "right": "La donnée (ex: 25)"
+        },
+        {
+          "left": "dict['nom']",
+          "right": "Accès à la valeur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Une clé de dictionnaire peut-elle être une liste ?",
+      "options": [
+        "Non (elle doit être immuable)",
+        "Oui",
+        "Seulement si la liste est vide",
+        "Seulement en Python 2"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

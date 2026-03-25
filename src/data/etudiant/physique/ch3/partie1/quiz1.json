@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "La trajectoire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la trajectoire d'un objet ?",
+      "options": [
+        "L'ensemble des positions successives occupées par l'objet",
+        "La vitesse maximale atteinte par l'objet",
+        "Le temps total du déplacement",
+        "La couleur de l'objet en mouvement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une trajectoire qui forme une ligne droite est dite 'circulaire'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si la trajectoire est un cercle, le mouvement est {{1}}.",
+      "reponsesAttendues": [
+        "circulaire"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la trajectoire à son nom.",
+      "pairs": [
+        {
+          "left": "Ligne droite",
+          "right": "Rectiligne"
+        },
+        {
+          "left": "Cercle",
+          "right": "Circulaire"
+        },
+        {
+          "left": "Ligne courbe quelconque",
+          "right": "Curviligne"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "La trajectoire d'une valve de roue de vélo par rapport au sol est :",
+      "options": [
+        "Une cycloïde (courbe complexe)",
+        "Un cercle parfait",
+        "Une ligne droite",
+        "Un point fixe"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

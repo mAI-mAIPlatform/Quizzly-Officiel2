@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "L'Adaptation Cardiaque",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la fréquence cardiaque ?",
+      "options": [
+        "Le nombre de battements du cœur par minute",
+        "La vitesse à laquelle on court",
+        "Le volume de sang dans le corps",
+        "La couleur du sang"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le débit cardiaque est le volume de sang expulsé par le cœur chaque minute.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Lors d'un effort, le cœur bat plus vite et plus {{1}}.",
+      "reponsesAttendues": [
+        "fort"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le terme à sa définition.",
+      "pairs": [
+        {
+          "left": "Pouls",
+          "right": "Perception tactile du flux sanguin dans une artère"
+        },
+        {
+          "left": "Tachycardie",
+          "right": "Accélération du rythme cardiaque"
+        },
+        {
+          "left": "Stéthoscope",
+          "right": "Instrument pour écouter les bruits du cœur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi le débit sanguin vers les organes digestifs diminue-t-il pendant le sport ?",
+      "options": [
+        "Pour privilégier l'apport de sang vers les muscles en action",
+        "Parce que l'estomac s'endort",
+        "Parce qu'on n'a pas faim quand on court",
+        "C'est un bug du corps humain"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

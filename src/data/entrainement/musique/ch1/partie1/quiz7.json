@@ -1,0 +1,62 @@
+{
+  "id": "quiz7",
+  "titre": "L'Orchestre Symphonique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle famille d'instruments est la plus nombreuse dans un orchestre symphonique ?",
+      "options": [
+        "Les bois",
+        "Les cordes",
+        "Les cuivres",
+        "Les percussions"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le chef d'orchestre utilise une baguette pour battre la mesure.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le musicien assis à gauche du chef d'orchestre, premier violon, est le {{1}} d'orchestre.",
+      "reponsesAttendues": [
+        "violon solo / premier violon"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Cordes",
+          "right": "Devant"
+        },
+        {
+          "left": "Cuivres",
+          "right": "Arrière"
+        },
+        {
+          "left": "Bois",
+          "right": "Milieu"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le livre de musique du chef d'orchestre ?",
+      "options": [
+        "Le livret",
+        "La partition d'orchestre (conducteur)",
+        "Le dictionnaire",
+        "Le mémo"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "quiz3",
+  "titre": "La racine : html",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise englobe tout le reste de votre code (la racine) ?",
+      "options": [
+        "<html>",
+        "<root>",
+        "<body>",
+        "<page>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'lang=\"fr\"' se place sur la balise <html>.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Toutes les autres balises sont des {{1}} de la balise <html> (enfants / descendants).",
+      "reponsesAttendues": [
+        "enfants",
+        "descendants"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Élément racine -> Nom ?",
+      "pairs": [
+        {
+          "left": "Balise de départ",
+          "right": "<html>"
+        },
+        {
+          "left": "Balise de fin",
+          "right": "</html>"
+        },
+        {
+          "left": "Langue du site",
+          "right": "attribut lang"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où se ferme la balise </html> généralement ?",
+      "options": [
+        "À la toute fin du fichier",
+        "Après le <head>",
+        "Avant les images",
+        "C'est une balise auto-fermante"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "L'Argumentation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'Thèse' dans un texte argumentatif ?",
+      "options": [
+        "L'opinion défendue par l'auteur",
+        "Un exemple concret",
+        "La conclusion du texte",
+        "Le titre de l'ouvrage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un 'Argument' sert à prouver que la thèse est juste.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour convaincre, on utilise des {{1}}, comme des faits réels ou des chiffres.",
+      "reponsesAttendues": [
+        "exemples"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Structure argumentative.",
+      "pairs": [
+        {
+          "left": "Convaincre",
+          "right": "Appel à la raison"
+        },
+        {
+          "left": "Persuader",
+          "right": "Appel aux sentiments"
+        },
+        {
+          "left": "Délibérer",
+          "right": "Examiner plusieurs avis"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le fait de réfuter la thèse adverse ?",
+      "options": [
+        "Une contre-argumentation",
+        "Une introduction",
+        "Une illustration",
+        "Une répétition"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

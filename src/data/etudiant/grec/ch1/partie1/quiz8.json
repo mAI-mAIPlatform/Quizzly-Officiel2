@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "La naissance d'Athènes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle divinité a donné son nom à la ville d'Athènes ?",
+      "options": [
+        "Athéna",
+        "Poséidon",
+        "Zeus",
+        "Artémis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Selon la légende, Athéna a offert un olivier aux Athéniens.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le héros fondateur légendaire d'Athènes est {{1}} (Thésée).",
+      "reponsesAttendues": [
+        "Thésée"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'élément mythique d'Athènes.",
+      "pairs": [
+        {
+          "left": "Olivier",
+          "right": "Cadeau d'Athéna"
+        },
+        {
+          "left": "Source d'eau salée",
+          "right": "Cadeau de Poséidon"
+        },
+        {
+          "left": "Chouette",
+          "right": "Animal d'Athéna"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel était le demi-dieu célèbre pour avoir vaincu le Minotaure ?",
+      "options": [
+        "Thésée",
+        "Hercule",
+        "Achille",
+        "Ulysse"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

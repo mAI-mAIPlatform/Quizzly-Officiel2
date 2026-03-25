@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Grands Auteurs Français",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces auteurs a écrit 'Les Misérables' ?",
+      "options": [
+        "Victor Hugo",
+        "Molière",
+        "Gustave Flaubert",
+        "Jules Verne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Jean-Baptiste Poquelin, dit Molière, était un célèbre auteur de comédies au XVIIème siècle.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'auteur des célèbres 'Fables', comme 'Le Lièvre et la Tortue', est Jean de La {{1}} (Fontaine).",
+      "reponsesAttendues": [
+        "Fontaine"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'auteur à son œuvre célèbre.",
+      "pairs": [
+        {
+          "left": "Jules Verne",
+          "right": "Vingt Mille Lieues sous les mers"
+        },
+        {
+          "left": "Antoine de Saint-Exupéry",
+          "right": "Le Petit Prince"
+        },
+        {
+          "left": "Marcel Proust",
+          "right": "À la recherche du temps perdu"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel de ces écrivains appartient au mouvement du Romantisme ?",
+      "options": [
+        "Victor Hugo",
+        "Boileau",
+        "Voltaire",
+        "Raymond Queneau"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

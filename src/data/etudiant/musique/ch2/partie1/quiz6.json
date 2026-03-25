@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Le Piano",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quelle catégorie appartient le piano ?",
+      "options": [
+        "Cordes frappées",
+        "Cordes pincées",
+        "Cordes frottées",
+        "Vents"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le nom original du piano est 'piano-forte' car il permet de jouer aussi bien doucement que fort.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les touches noires et blanches du piano forment ce qu'on appelle le {{1}} (clavier).",
+      "reponsesAttendues": [
+        "clavier"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'élément du piano à sa fonction.",
+      "pairs": [
+        {
+          "left": "Marteau",
+          "right": "Frappe la corde quand on appuie sur une touche"
+        },
+        {
+          "left": "Pédale de droite",
+          "right": "Permet de prolonger le son (résonance)"
+        },
+        {
+          "left": "Table d'harmonie",
+          "right": "Grande plaque de bois qui amplifie le son"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Combien de touches possède un piano de concert standard ?",
+      "options": [
+        "88 touches",
+        "12 touches",
+        "1000 touches",
+        "50 touches"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz20",
+  "titre": "Synthèse : Drame Romantique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le dénouement typique d'un drame romantique ?",
+      "options": [
+        "La mort tragique des héros",
+        "Un mariage heureux",
+        "Une blague finale",
+        "On ne finit pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le drame romantique utilise un langage plus libre que la tragédie.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un vers qui déborde sur le vers suivant s'appelle un {{1}}.",
+      "reponsesAttendues": [
+        "enjambement"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'auteur à son style.",
+      "pairs": [
+        {
+          "left": "Hugo",
+          "right": "Sublime et grandiose"
+        },
+        {
+          "left": "Musset",
+          "right": "Élégiaque et spirituel"
+        },
+        {
+          "left": "Vigny",
+          "right": "Philosophique et sombre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le grand mot d'ordre du Romantisme ?",
+      "options": [
+        "Liberté",
+        "Règle",
+        "Calcul",
+        "Sommeil"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

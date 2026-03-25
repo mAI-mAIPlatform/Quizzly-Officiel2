@@ -1,0 +1,64 @@
+{
+  "id": "quiz14",
+  "titre": "Équations chimiques 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'équation-bilan' ?",
+      "options": [
+        "L'écriture symbolique d'une réaction chimique",
+        "La liste des prix des produits chimiques",
+        "Un dessin des molécules",
+        "Une règle de sécurité"
+      ],
+      "correctIndex": 0
+: 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans une équation équilibrée, on doit avoir le même nombre d'atomes de chaque sorte de chaque côté.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les chiffres placés devant les formules pour équilibrer l'équation sont les coefficients {{1}}.",
+      "reponsesAttendues": [
+        "stoechiométriques"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Identifie les composants de l'équation : C + O2 -> CO2",
+      "pairs": [
+        {
+          "left": "Flèche (->)",
+          "right": "Signifie 'se transforme en'"
+        },
+        {
+          "left": "Signe +",
+          "right": "Signifie 'réagit avec'"
+        },
+        {
+          "left": "CO2",
+          "right": "Le produit final"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi doit-on équilibrer une équation chimique ?",
+      "options": [
+        "Pour respecter la loi de conservation de la matière (Lavoisier)",
+        "Pour que ce soit plus joli à lire",
+        "Parce que les professeurs le demandent",
+        "Pour calculer la vitesse de la réaction"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "EXAMEN : Informatique et Réseaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "L'équipement qui relie le monde extérieur à la maison s'appelle...",
+      "options": [
+        "La box (Modem/Routeur)",
+        "Le serveur central",
+        "Le switch de bureau",
+        "L'écran tactile"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Wi-Fi est plus rapide et plus stable que le câble Ethernet (RJ45).",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le sigle {{1}} désigne le règlement européen sur la protection des données.",
+      "reponsesAttendues": [
+        "RGPD"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Mix Réseau.",
+      "pairs": [
+        {
+          "left": "Switch",
+          "right": "Répartiteur local"
+        },
+        {
+          "left": "IP",
+          "right": "Adresse numérique"
+        },
+        {
+          "left": "Navigateur",
+          "right": "Logiciel pour le Web"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Félicitations ! Prêt pour le Traitement de l'Information (P2) ?",
+      "options": [
+        "Oui !",
+        "C'est parti !",
+        "Absolument !",
+        "Révisions P1"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

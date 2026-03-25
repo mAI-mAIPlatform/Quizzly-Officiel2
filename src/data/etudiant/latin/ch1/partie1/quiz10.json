@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Cap. 1 P. 1 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Rome fut fondée par {{1}} en {{2}}.",
+      "options": [
+        "Romulus / 753 av. J.-C.",
+        "Énée / 1200 av. J.-C.",
+        "Jules César / 44 av. J.-C.",
+        "Auguste / 27 av. J.-C."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Mater est bona' signifie 'La mère est bonne'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le dieu de la foudre est {{1}} (Jupiter).",
+      "reponsesAttendues": [
+        "Jupiter"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les concepts.",
+      "pairs": [
+        {
+          "left": "Troie",
+          "right": "Origine troyenne"
+        },
+        {
+          "left": "Lupa",
+          "right": "Légende des jumeaux"
+        },
+        {
+          "left": "Grammatica",
+          "right": "Esse / 1ère déclinaison"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la colline historique de la fondation ?",
+      "options": [
+        "Le Palatin",
+        "Le Capitole",
+        "L'Aventin",
+        "Le Quirinal"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "EXAMEN : Multimédia en HTML",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la structure minimale pour une vidéo ?",
+      "options": [
+        "<video src='...' controls></video>",
+        "<video playlist='...'>",
+        "<mp4 source='...'>",
+        "<img>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une balise <audio> peut contenir plusieurs <source>.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} est indispensable pour que l'utilisateur puisse interagir.",
+      "reponsesAttendues": [
+        "controls"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Mix Media.",
+      "pairs": [
+        {
+          "left": "audio",
+          "right": "Sons"
+        },
+        {
+          "left": "video",
+          "right": "Images animées"
+        },
+        {
+          "left": "track",
+          "right": "Textes additionnels"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour les iFrames et les Intégrations (P3) ?",
+      "options": [
+        "Oui !",
+        "C'est parti !",
+        "Absolument !",
+        "Révisions P2"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

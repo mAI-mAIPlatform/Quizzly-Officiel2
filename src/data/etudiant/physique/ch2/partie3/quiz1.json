@@ -1,0 +1,63 @@
+{
+  "id": "quiz21",
+  "titre": "Puissance électrique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la relation de la puissance électrique ?",
+      "options": [
+        "P = U x I",
+        "P = U / I",
+        "P = R x I",
+        "P = U + I"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'unité de la puissance est le Watt (W).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La puissance 'nominale' est la puissance pour laquelle l'appareil est conçu pour {{1}} normalement.",
+      "reponsesAttendues": [
+        "fonctionner"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'appareil à sa puissance nominale typique.",
+      "pairs": [
+        {
+          "left": "Lampe LED",
+          "right": "10 W"
+        },
+        {
+          "left": "Four électrique",
+          "right": "3 000 W"
+        },
+        {
+          "left": "Ordinateur portable",
+          "right": "60 W"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si U = 230V et I = 10A, quelle est la puissance P ?",
+      "options": [
+        "2300 W",
+        "23 W",
+        "240 W",
+        "2200 W"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

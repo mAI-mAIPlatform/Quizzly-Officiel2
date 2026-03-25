@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Cas pratique : Vélo",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Tu dois concevoir un vélo de course très performant. Quel matériau privilégier pour le cadre ?",
+      "options": [
+        "Fibre de carbone (Composite)",
+        "Fonte de fer",
+        "Plastique souple",
+        "Bois massif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation de pneus en caoutchouc permet d'absorber les vibrations et d'assurer l'adhérence.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La chaîne du vélo est en {{1}} (acier) pour résister à la tension sans s'étirer.",
+      "reponsesAttendues": [
+        "acier"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la pièce du vélo à sa propriété requise.",
+      "pairs": [
+        {
+          "left": "Jantes de roue",
+          "right": "Légèreté et rigidité"
+        },
+        {
+          "left": "Poignées",
+          "right": "Adhérence et confort (mou)"
+        },
+        {
+          "left": "Câbles de frein",
+          "right": "Flexibilité et résistance à la traction"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi ne fait-on pas des vélos en or ?",
+      "options": [
+        "C'est un métal bien trop lourd, trop mou et trop cher",
+        "Parce que l'or n'est pas brillant",
+        "Parce qu'il fondrait au soleil",
+        "L'or n'existe pas"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

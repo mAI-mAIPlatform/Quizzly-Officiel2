@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Les expressions avec Essere",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Je suis fatigué' (masculin) ?",
+      "options": [
+        "Sono stanco",
+        "Ho stanco",
+        "Sono stanca",
+        "Ho stanca"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'adjectif s'accorde avec le sujet quand on utilise 'Essere'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Nous sommes contents se dit '{{1}} contenti'.",
+      "reponsesAttendues": [
+        "Siamo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'adjectif.",
+      "pairs": [
+        {
+          "left": "Felice",
+          "right": "Heureux"
+        },
+        {
+          "left": "Triste",
+          "right": "Triste"
+        },
+        {
+          "left": "Pronto",
+          "right": "Prêt"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment une femme dit-elle 'Je suis prête' ?",
+      "options": [
+        "Sono pronto",
+        "Sono pronta",
+        "Ho pronto",
+        "Ho pronta"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

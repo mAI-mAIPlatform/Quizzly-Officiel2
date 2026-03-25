@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Récapitulatif : Logique (Ch3-Ch4)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment définir une fonction ?",
+      "options": [
+        "def ma_fonction():",
+        "function ma_fonction():",
+        "ma_fonction() = { }",
+        "create ma_fonction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'return' est obligé de renvoyer quelque chose.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour importer un module on utilise {{1}}.",
+      "reponsesAttendues": [
+        "import"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Structures.",
+      "pairs": [
+        {
+          "left": "[ ]",
+          "right": "Liste"
+        },
+        {
+          "left": "{ }",
+          "right": "Dict / Set"
+        },
+        {
+          "left": "( )",
+          "right": "Tuple"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est l'astuce pour un nombre variable d'arguments ?",
+      "options": [
+        "*args",
+        "&args",
+        "?args",
+        "multiple args"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

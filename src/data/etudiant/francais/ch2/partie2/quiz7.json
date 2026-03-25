@@ -1,0 +1,63 @@
+{
+  "id": "quiz17",
+  "titre": "Critique sociale et Roman",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que critique Zola dans 'L'Assommoir' ?",
+      "options": [
+        "Les ravages de l'alcoolisme chez les ouvriers",
+        "La météo à Paris",
+        "Le prix des légumes",
+        "L'absence de parcs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le roman réaliste sert souvent de témoignage sur une époque.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Défendre une cause à travers la littérature s'appelle être un auteur {{1}}.",
+      "reponsesAttendues": [
+        "engagé"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'œuvre à sa critique.",
+      "pairs": [
+        {
+          "left": "Germinal",
+          "right": "Conditions de travail en mine"
+        },
+        {
+          "left": "Bel-Ami",
+          "right": "Corruption de la presse"
+        },
+        {
+          "left": "Oliver Twist",
+          "right": "Misère des enfants"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel était le surnom de Zola suite à ses critiques ?",
+      "options": [
+        "Le secrétaire de la réalité",
+        "Le poète des fleurs",
+        "Le magicien",
+        "Le roi du rire"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

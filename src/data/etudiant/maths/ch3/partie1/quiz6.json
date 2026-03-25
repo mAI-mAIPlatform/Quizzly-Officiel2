@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Effectifs et Fréquences",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "L'effectif total est :",
+      "options": [
+        "La somme de tous les effectifs",
+        "La valeur maximale",
+        "La moyenne",
+        "Zéro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La fréquence est égale à l'effectif divisé par l'effectif total.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si une valeur apparaît 5 fois sur 20, sa fréquence est {{1}} %.",
+      "reponsesAttendues": [
+        "25"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la fréquence à son écriture.",
+      "pairs": [
+        {
+          "left": "Un quart",
+          "right": "0,25"
+        },
+        {
+          "left": "Une moitié",
+          "right": "50%"
+        },
+        {
+          "left": "Un dixième",
+          "right": "10%"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "La somme des fréquences d'une série est toujours :",
+      "options": [
+        "1 (ou 100%)",
+        "L'effectif total",
+        "La moyenne",
+        "Variable"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

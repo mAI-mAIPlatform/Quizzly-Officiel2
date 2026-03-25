@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Not a Number (NaN)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie NaN ?",
+      "options": [
+        "No any Number",
+        "Not a Number",
+        "Null and None",
+        "New a Number"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le type de NaN est 'number'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'expression 'Hello' / 5 donne {{1}}.",
+      "reponsesAttendues": [
+        "NaN"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'opération.",
+      "pairs": [
+        {
+          "left": "0 / 0",
+          "right": "NaN"
+        },
+        {
+          "left": "5 / 0",
+          "right": "Infinity"
+        },
+        {
+          "left": "isNaN('Hi')",
+          "right": "true"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que vaut NaN === NaN ?",
+      "options": [
+        "true",
+        "false",
+        "NaN",
+        "undefined"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Traitement des eaux usées",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où vont les eaux des égouts pour être nettoyées ?",
+      "options": [
+        "Directement à la mer",
+        "Dans une station d'épuration (STEP)",
+        "Dans un jardin",
+        "Dans une piscine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le dégrillage est la première étape pour retirer les gros déchets (papiers, plastiques).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'étape où les bactéries mangent la pollution s'appelle le traitement {{1}}.",
+      "reponsesAttendues": [
+        "biologique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'étape de la station d'épuration.",
+      "pairs": [
+        {
+          "left": "Dessablage / Déshuilage",
+          "right": "Séparation par différence de densité"
+        },
+        {
+          "left": "Clarification",
+          "right": "Dernière décantation avant rejet"
+        },
+        {
+          "left": "Traitement des boues",
+          "right": "Récupération des résidus solides"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "L'eau qui sort de la station est-elle potable ?",
+      "options": [
+        "Oui, on peut la boire tout de suite",
+        "Non, elle est propre pour la nature mais pas assez pure pour être bue",
+        "Elle est plus sale qu'à l'entrée",
+        "Elle devient bleue"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

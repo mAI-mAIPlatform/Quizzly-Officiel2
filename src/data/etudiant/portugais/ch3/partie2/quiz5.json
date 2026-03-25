@@ -1,0 +1,63 @@
+{
+  "id": "quiz15",
+  "titre": "Irregular: VIR / VER",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pretérito Perfeito de VIR (venir) para 'Eu'?",
+      "options": [
+        "vim",
+        "veio",
+        "viemos",
+        "vieram"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El pasado de VER (ver) para 'Eu' es 'vi'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu {{1}} (ver) o filme ontem (vi).",
+      "reponsesAttendues": [
+        "vi"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el pasado irregular.",
+      "pairs": [
+        {
+          "left": "Ele (Vir)",
+          "right": "veio"
+        },
+        {
+          "left": "Eles (Ver)",
+          "right": "viram"
+        },
+        {
+          "left": "Nós (Vir)",
+          "right": "viemos"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Él vino a mi casa y vimos la televisión'?",
+      "options": [
+        "Ele veio à minha casa e vimos TV",
+        "Ele vêm à minha casa e vemos TV",
+        "Ele vindo à minha casa e viram TV",
+        "Ele vir à minha casa e ver TV"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

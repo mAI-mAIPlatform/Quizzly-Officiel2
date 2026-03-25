@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Jacques Cartier et le Canada",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pour quel roi Jacques Cartier a-t-il exploré l'Amérique du Nord ?",
+      "options": [
+        "Louis XIV",
+        "François Ier",
+        "Henri IV",
+        "Charles V"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Jacques Cartier cherchait un passage vers les Indes par le Nord-Ouest.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le grand fleuve exploré par Cartier au Canada est le Saint-{{1}}.",
+      "reponsesAttendues": [
+        "Laurent"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la découverte à son explorateur.",
+      "pairs": [
+        {
+          "left": "Jacques Cartier",
+          "right": "Canada (Nouvelle-France)"
+        },
+        {
+          "left": "Jean Cabot",
+          "right": "Terre-Neuve (pour l'Angleterre)"
+        },
+        {
+          "left": "Verrazzano",
+          "right": "Baie de New York (pour la France)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment s'appelait initialement la région explorée par Cartier ?",
+      "options": [
+        "La Nouvelle-Angleterre",
+        "La Nouvelle-France",
+        "La Nouvelle-Espagne",
+        "La Louisiane"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

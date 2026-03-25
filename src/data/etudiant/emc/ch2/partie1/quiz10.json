@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Cap. 2 P. 1 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "L'égalité {{1}} est un défi actuel et la lutte contre le {{2}} est un délit.",
+      "options": [
+        "homme-femme / racisme",
+        "enfant-adulte / sport",
+        "riche-pauvre / silence",
+        "roi-peuple / passé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'accessibilité est un droit pour les personnes handicapées.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La Convention qui protège les enfants est la {{1}} (CIDE).",
+      "reponsesAttendues": [
+        "CIDE"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les valeurs.",
+      "pairs": [
+        {
+          "left": "Tolérance",
+          "right": "Respect des différences"
+        },
+        {
+          "left": "Liberté",
+          "right": "Droit d'expression"
+        },
+        {
+          "left": "Fraternité",
+          "right": "Solidarité associative"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une discrimination ?",
+      "options": [
+        "Traiter injustement une personne sur un critère interdit (origine, sexe, etc.)",
+        "Choisir son dessert",
+        "Voter pour un candidat",
+        "Réussir son examen"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "quiz2",
+  "titre": "Le Violon",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quel registre se situe le violon au sein de l'orchestre ?",
+      "options": [
+        "Le plus aigu des cordes frottées",
+        "Le plus grave",
+        "Le registre medium",
+        "Il n'a pas de registre fixe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le violoniste pose l'instrument sur son épaule gauche.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les deux ouvertures en forme de 'f' sur la caisse de résonance du violon s'appellent les {{1}} (ouïes).",
+      "reponsesAttendues": [
+        "ouïes",
+        "ouies"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la pièce du violon à son rôle.",
+      "pairs": [
+        {
+          "left": "Cheville",
+          "right": "Permet d'accorder la corde en la tendant"
+        },
+        {
+          "left": "Chevalet",
+          "right": "Transmet la vibration des cordes à la caisse"
+        },
+        {
+          "left": "Touche",
+          "right": "La plaque de bois où le musicien pose ses doigts"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le fait de pincer les cordes avec les doigts plutôt que d'utiliser l'archet ?",
+      "options": [
+        "Le pizzicato",
+        "Le vibrato",
+        "Le martelé",
+        "Le legato"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

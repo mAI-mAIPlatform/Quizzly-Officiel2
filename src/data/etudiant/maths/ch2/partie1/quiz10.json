@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Synthèse : L'essentiel de Pythagore",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui était Pythagore ?",
+      "options": [
+        "Un mathématicien grec",
+        "Un roi romain",
+        "Un poète français",
+        "Un inventeur moderne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans un triangle rectangle, le carré de l'hypoténuse est égal à la somme des carrés des deux autres côtés.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si a² + b² = c², alors c est l'{{1}}.",
+      "reponsesAttendues": [
+        "hypoténuse"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe les côtés à l'égalité (ABC rect. en A).",
+      "pairs": [
+        {
+          "left": "AB=3, AC=4",
+          "right": "BC²=25"
+        },
+        {
+          "left": "AB=6, AC=8",
+          "right": "BC²=100"
+        },
+        {
+          "left": "AB=5, AC=12",
+          "right": "BC²=169"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Le théorème de Pythagore sert principalement à :",
+      "options": [
+        "Calculer une longueur",
+        "Démontrer qu'un triangle est rectangle",
+        "Calculer un angle",
+        "Calculer une aire"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

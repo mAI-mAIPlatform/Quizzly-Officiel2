@@ -1,0 +1,64 @@
+{
+  "id": "quiz18",
+  "titre": "Inventions du XXIe Siècle",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces objets a révolutionné notre quotidien depuis 2007 (sortie de l'iPhone) ?",
+      "options": [
+        "Le Smartphone",
+        "La machine à vapeur",
+        "Le télégraphe",
+        "La bougie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Intelligence Artificielle (IA) est une technologie qui permet aux machines d'imiter des fonctions humaines comme le raisonnement.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les voitures qui n'utilisent pas d'essence mais une batterie sont des voitures {{1}} (électriques).",
+      "reponsesAttendues": [
+        "électriques",
+        "electriques"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'invention à son usage.",
+      "pairs": [
+        {
+          "left": "Streaming (vidéo)",
+          "right": "Regarder des films en direct sur internet"
+        },
+        {
+          "left": "Imprimante 3D",
+          "right": "Fabriquer des objets en relief couche par couche"
+        },
+        {
+          "left": "Réseaux Sociaux",
+          "right": "Communiquer et partager des contenus avec ses proches"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Big Data' ?",
+      "options": [
+        "L'analyse de quantités immenses de données numériques pour trouver des tendances",
+        "Un très gros livre de mathématiques",
+        "Une montagne de papier",
+        "Le nom d'un robot géant"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

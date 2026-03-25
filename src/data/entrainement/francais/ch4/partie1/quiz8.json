@@ -1,0 +1,64 @@
+{
+  "id": "quiz8",
+  "titre": "La Mise en Relief",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le fait de souligner une partie de la phrase ?",
+      "options": [
+        "La mise en relief (ou emphase)",
+        "La mise en boîte",
+        "L'effacement",
+        "La neutralité"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'C'est moi qui l'ai fait' est une forme emphatique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "{{1}}... {{2}} (présentatif de mise en relief).",
+      "reponsesAttendues": [
+        "c'est",
+        "que"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Identifie la technique.",
+      "pairs": [
+        {
+          "left": "Lui, il ne sait rien.",
+          "right": "Détachement / Reprise"
+        },
+        {
+          "left": "C'est lui qui sait.",
+          "right": "Présentatif (C'est... qui)"
+        },
+        {
+          "left": "Voilà l'homme !",
+          "right": "Présentatif (Voilà)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "À quoi sert la mise en relief ?",
+      "options": [
+        "À attirer l'attention du destinataire sur un élément précis",
+        "À raccourcir la phrase",
+        "À cacher le sujet",
+        "À faire une erreur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

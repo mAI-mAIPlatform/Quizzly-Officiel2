@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Arguments Positionnels vs Nommés",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un argument positionnel ?",
+      "options": [
+        "Un argument passé selon son ordre de définition",
+        "Un argument avec son nom (ex: x=5)",
+        "Un argument qui change de place",
+        "Une erreur de position"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut appeler une fonction en changeant l'ordre des arguments si on utilise leurs noms.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Appeler f(nom='Bob', age=20) utilise des arguments {{1}}.",
+      "reponsesAttendues": [
+        "nommés"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'appel (def f(a, b)).",
+      "pairs": [
+        {
+          "left": "f(1, 2)",
+          "right": "Positionnel"
+        },
+        {
+          "left": "f(b=2, a=1)",
+          "right": "Nommé (Keyword)"
+        },
+        {
+          "left": "f(1, b=2)",
+          "right": "Mixte (Positionnel d'abord)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est INVALIDE ?",
+      "options": [
+        "f(a=1, 2)",
+        "f(1, b=2)",
+        "f(a=1, b=2)",
+        "f(1, 2)"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

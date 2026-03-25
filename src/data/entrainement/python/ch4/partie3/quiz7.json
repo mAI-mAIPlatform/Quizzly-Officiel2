@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Synthèse : Choisir la bonne structure",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Tu veux stocker les notes de 20 élèves dans l'ordre de leur passage. Quoi utiliser ?",
+      "options": [
+        "Une liste",
+        "Un set",
+        "Un frozenset",
+        "Un dictionnaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour associer un mot à sa définition, le dictionnaire est indispensable.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si les données ne doivent plus JAMAIS bouger, on utilise un {{1}}.",
+      "reponsesAttendues": [
+        "tuple"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Structure.",
+      "pairs": [
+        {
+          "left": "[ ]",
+          "right": "Mutabilité et Ordre"
+        },
+        {
+          "left": "( )",
+          "right": "Immuabilité et Ordre"
+        },
+        {
+          "left": "{ }",
+          "right": "Unicité ou Association"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle structure consomme le MOINS de mémoire ?",
+      "options": [
+        "Tuple",
+        "Liste",
+        "Set",
+        "Dictionnaire"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

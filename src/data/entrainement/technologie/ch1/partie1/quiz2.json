@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Les Métaux et Alliages",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "L'acier est un alliage de fer et de...",
+      "options": [
+        "Carbone",
+        "Or",
+        "Plomb",
+        "Cuivre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'aluminium est un métal léger et inoxydable.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le bronze est un alliage de cuivre et d'{{1}}.",
+      "reponsesAttendues": [
+        "étain"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Propriétés métaux.",
+      "pairs": [
+        {
+          "left": "Magnétisme",
+          "right": "Fer (acier)"
+        },
+        {
+          "left": "Conductivité élec",
+          "right": "Cuivre"
+        },
+        {
+          "left": "Légèreté",
+          "right": "Aluminium"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la principale source de pollution lors de l'extraction des métaux ?",
+      "options": [
+        "L'utilisation intensive d'énergie et de produits chimiques (mines)",
+        "Ils sont biodégradables",
+        "Ils n'en causent pas",
+        "La poussière"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

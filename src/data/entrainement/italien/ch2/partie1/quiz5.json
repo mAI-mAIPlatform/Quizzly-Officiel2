@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "L'interrogation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment pose-t-on une question simple en italien ?",
+      "options": [
+        "On inverse le sujet et le verbe",
+        "On utilise 'Est-ce que'",
+        "On change juste l'intonation (la voix monte)",
+        "On ajoute un '?' au début"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Sei italiano?' signifie 'Es-tu italien ?'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour demander 'Est-ce qu'il y a ?', on dit '{{1}} è?'.",
+      "reponsesAttendues": [
+        "C'"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la question au sens.",
+      "pairs": [
+        {
+          "left": "Chi sei?",
+          "right": "Qui es-tu ?"
+        },
+        {
+          "left": "Cos'hai?",
+          "right": "Qu'as-tu ?"
+        },
+        {
+          "left": "Dove siete?",
+          "right": "Où êtes-vous ?"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Pourquoi ?'",
+      "options": [
+        "Perché?",
+        "Quando?",
+        "Quanto?",
+        "Come?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

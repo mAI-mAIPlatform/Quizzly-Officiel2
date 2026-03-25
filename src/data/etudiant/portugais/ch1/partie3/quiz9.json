@@ -1,0 +1,63 @@
+{
+  "id": "quiz29",
+  "titre": "Advérbios freqüência",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Siempre'?",
+      "options": [
+        "Sempre",
+        "Nunca",
+        "Às vezes",
+        "Raramente"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Às vezes' significa a veces.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu {{1}} (jamais) estudo no domingo.",
+      "reponsesAttendues": [
+        "nunca"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el adverbio.",
+      "pairs": [
+        {
+          "left": "Frequentemente",
+          "right": "Fréquemment"
+        },
+        {
+          "left": "Raramente",
+          "right": "Rarement"
+        },
+        {
+          "left": "Todos os dias",
+          "right": "Tous les jours"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'quase sempre'?",
+      "options": [
+        "Casi siempre",
+        "Casi nunca",
+        "Pocas veces",
+        "A menudo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

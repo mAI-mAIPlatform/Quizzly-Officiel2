@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Techniques Vocales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle technique utilise-t-on à l'opéra pour porter la voix loin sans micro ?",
+      "options": [
+        "La voix lyrique (placement de tête et résonance)",
+        "Le cri du coeur",
+        "Le chuchotement",
+        "On utilise un mégaphone caché"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'Scat' est une technique de jazz consistant à chanter des onomatopées sans paroles.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La petite oscillation rapide de la voix sur une note s'appelle le {{1}} (vibrato).",
+      "reponsesAttendues": [
+        "vibrato"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le style à sa caractéristique vocale.",
+      "pairs": [
+        {
+          "left": "Rap",
+          "right": "Paroles scandées et rythmées"
+        },
+        {
+          "left": "Metal / Death Metal",
+          "right": "Guttural (Grawl) / saturé"
+        },
+        {
+          "left": "Gospel",
+          "right": "Puissant et plein d'émotion spirituelle"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la 'voix de fausset' (falsetto) ?",
+      "options": [
+        "Une voix très aiguë produite par une vibration partielle des cordes vocales",
+        "Une voix enregistrée d'avance",
+        "Une voix d'ordinateur",
+        "Le fait de chanter faux"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

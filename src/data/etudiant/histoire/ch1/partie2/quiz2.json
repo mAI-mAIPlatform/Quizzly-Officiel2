@@ -1,0 +1,63 @@
+{
+  "id": "quiz12",
+  "titre": "Les Cahiers de Doléances",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un cahier de doléances ?",
+      "options": [
+        "Un registre où les Français écrivent leurs plaintes et vœux",
+        "Un livre de recettes de cuisine",
+        "La liste des impôts payés au Roi",
+        "Un manuel scolaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Tiers-État demande l'égalité devant l'impôt dans ces cahiers.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les membres du Tiers-État représentent {{1}} % de la population.",
+      "reponsesAttendues": [
+        "98"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'ordre à sa revendication majeure.",
+      "pairs": [
+        {
+          "left": "Tiers-État",
+          "right": "Abolition des privilèges"
+        },
+        {
+          "left": "Noblesse",
+          "right": "Maintien de ses droits seigneuriaux"
+        },
+        {
+          "left": "Paroisses rurales",
+          "right": "Baisse de la taille et de la gabelle"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qui a ordonné la rédaction de ces cahiers ?",
+      "options": [
+        "Louis XVI (pour préparer les États Généraux)",
+        "Napoléon",
+        "Robespierre",
+        "Le Pape"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

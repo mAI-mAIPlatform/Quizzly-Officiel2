@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Indexation des chaînes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quel index commence le premier caractère d'une chaîne ?",
+      "options": [
+        "1",
+        "0",
+        "-1",
+        "A"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour accéder au caractère 'H' de 'Hello', on utilise 'Hello'[0].",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans 'Code', l'index de la lettre 'd' est {{1}}.",
+      "reponsesAttendues": [
+        "2"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'index au caractère de \"JAVASCRIPT\".",
+      "pairs": [
+        {
+          "left": "[0]",
+          "right": "\"J\""
+        },
+        {
+          "left": "[1]",
+          "right": "\"A\""
+        },
+        {
+          "left": "[4]",
+          "right": "\"S\""
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si on accède à un index inexistant (ex: \"Hi\"[10]) ?",
+      "options": [
+        "Erreur fatale",
+        "Renvoie undefined",
+        "Renvoie null",
+        "Renvoie une chaîne vide"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

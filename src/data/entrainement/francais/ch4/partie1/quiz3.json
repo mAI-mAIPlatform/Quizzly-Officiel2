@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "La Subordination (Introduction)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "De quoi se compose une phrase subordonnée ?",
+      "options": [
+        "Une proposition principale et une proposition subordonnée",
+        "Deux propositions indépendantes",
+        "Un verbe et un sujet seulement",
+        "Une liste de noms"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La proposition subordonnée dépend de la principale.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Je pense {{1}} tu as raison.",
+      "reponsesAttendues": [
+        "que"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Identifie la principale.",
+      "pairs": [
+        {
+          "left": "Je crois / qu'il viendra",
+          "right": "Je crois"
+        },
+        {
+          "left": "Dès qu'il pleut / je rentre",
+          "right": "je rentre"
+        },
+        {
+          "left": "Il mange / parce qu'il a faim",
+          "right": "Il mange"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel introduit une subordonnée ?",
+      "options": [
+        "que",
+        "et",
+        "mais",
+        "donc"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

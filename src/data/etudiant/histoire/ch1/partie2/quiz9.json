@@ -1,0 +1,63 @@
+{
+  "id": "quiz19",
+  "titre": "La fin de la Monarchie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel événement en juin 1791 montre que le Roi n'accepte pas la Révolution ?",
+      "options": [
+        "La fuite à Varennes",
+        "La fête de la Bastille",
+        "Le bal de Versailles",
+        "Le départ pour la guerre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 10 août 1792, les Tuileries sont prises et le Roi est arrêté.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le chant guerrier devenu hymne national s'appelle 'La {{1}}'.",
+      "reponsesAttendues": [
+        "Marseillaise"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la date à l'effondrement royal.",
+      "pairs": [
+        {
+          "left": "20 juin 1791",
+          "right": "Arrestation à Varennes"
+        },
+        {
+          "left": "20 avril 1792",
+          "right": "Déclaration de guerre à l'Autriche"
+        },
+        {
+          "left": "10 août 1792",
+          "right": "Chute de la royauté"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la conséquence directe de l'arrestation du Roi ?",
+      "options": [
+        "La proclamation de la République",
+        "Le retour de l'absolutisme",
+        "La paix avec l'Europe",
+        "L'indépendance de la Bretagne"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

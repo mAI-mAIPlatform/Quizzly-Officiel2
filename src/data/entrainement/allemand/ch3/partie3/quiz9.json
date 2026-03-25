@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Verben mit Tieren",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Nourrir' ?",
+      "options": [
+        "Füttern",
+        "Streicheln",
+        "Spielen",
+        "Laufen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Streicheln' bedeutet 'Caresser'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Der Hund {{1}} (aboie).",
+      "reponsesAttendues": [
+        "bellt"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Aktionen.",
+      "pairs": [
+        {
+          "left": "Reiten",
+          "right": "Faire du cheval"
+        },
+        {
+          "left": "Gassi gehen",
+          "right": "Promener le chien"
+        },
+        {
+          "left": "Beobachten",
+          "right": "Observer"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Was macht das Pferd?",
+      "options": [
+        "Es wiehrt",
+        "Es bellt",
+        "Es singt",
+        "Es lacht"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

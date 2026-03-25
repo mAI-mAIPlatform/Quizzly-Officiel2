@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Le mobilier (mobilia)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'La table' ?",
+      "options": [
+        "Mensa",
+        "Lectus",
+        "Arca",
+        "Sella"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'lectus' servait à la fois de lit et de canapé pour manger.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le coffre-fort des Romains s'appelle l'{{1}} (arca).",
+      "reponsesAttendues": [
+        "arca"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le meuble.",
+      "pairs": [
+        {
+          "left": "Sella",
+          "right": "Chaise / Siege"
+        },
+        {
+          "left": "Lucerna",
+          "right": "Lampe à huile"
+        },
+        {
+          "left": "Candelabrum",
+          "right": "Chandelier"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment mangeaient les riches Romains ?",
+      "options": [
+        "Allongés sur des lits",
+        "Assis sur des chaises hautes",
+        "Debout",
+        "Par terre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

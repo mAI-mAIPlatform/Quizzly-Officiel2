@@ -1,0 +1,63 @@
+{
+  "id": "quiz19",
+  "titre": "L'Engagement de l'Artiste",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel rôle Hugo donne-t-il au poète ?",
+      "options": [
+        "Un guide pour le peuple (mage ou prophète)",
+        "Un simple amuseur",
+        "Un comptable de la langue",
+        "Un homme invisible"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le romantisme est un mouvement engagé politiquement (Lutte contre l'oppression).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Hugo dénonce la peine de mort dans 'Le Dernier Jour d'un {{1}}'.",
+      "reponsesAttendues": [
+        "condamné"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la cause à l'œuvre.",
+      "pairs": [
+        {
+          "left": "Misère sociale",
+          "right": "Les Misérables"
+        },
+        {
+          "left": "Injustice politique",
+          "right": "Les Châtiments"
+        },
+        {
+          "left": "Esclavage",
+          "right": "Bug-Jargal"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi écrire pour la société ?",
+      "options": [
+        "Pour faire évoluer les mentalités et les lois",
+        "Pour gagner des élections",
+        "Pour faire plaisir aux profs",
+        "Pour la célébrité pure"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

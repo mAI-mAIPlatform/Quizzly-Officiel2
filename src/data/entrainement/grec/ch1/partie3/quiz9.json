@@ -1,0 +1,62 @@
+{
+  "id": "quiz9",
+  "titre": "Les Jeux Olympiques antiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quelle cité les Jeux Olympiques étaient-ils célébrés ?",
+      "options": [
+        "Olympie",
+        "Athènes",
+        "Sparte",
+        "Delphes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pendant les Jeux, on instaurait une 'trêve sacrée' entre les cités en guerre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le vainqueur recevait une couronne de {{1}}.",
+      "reponsesAttendues": [
+        "laurier / olivier sauvage"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Stadion",
+          "right": "Course à pied (environ 192m)"
+        },
+        {
+          "left": "Pancrace",
+          "right": "Lutte et boxe combinées"
+        },
+        {
+          "left": "Pentathlon",
+          "right": "Épreuve de 5 sports"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Tous les combien d'années les Jeux avaient-ils lieu ?",
+      "options": [
+        "2 ans",
+        "4 ans",
+        "5 ans",
+        "10 ans"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

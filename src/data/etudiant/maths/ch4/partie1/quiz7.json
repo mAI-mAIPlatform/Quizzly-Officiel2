@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Factoriser (Niveau 1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Factoriser, c'est transformer une somme en :",
+      "options": [
+        "Une différence",
+        "Un produit",
+        "Un quotient",
+        "Un nombre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans 3x + 12, le facteur commun le plus simple est 3.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Factorise : 5x + 5y = 5(x + {{1}})",
+      "reponsesAttendues": [
+        "y"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la somme à sa forme factorisée.",
+      "pairs": [
+        {
+          "left": "4x + 8",
+          "right": "4(x + 2)"
+        },
+        {
+          "left": "ax - ay",
+          "right": "a(x - y)"
+        },
+        {
+          "left": "x² + 3x",
+          "right": "x(x + 3)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la forme factorisée de 10x - 15 ?",
+      "options": [
+        "5(2x - 3)",
+        "2(5x - 7)",
+        "10(x - 1,5)",
+        "5(2x + 3)"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

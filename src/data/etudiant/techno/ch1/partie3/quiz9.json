@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Cas pratique : Alarme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Tu installes une alarme connectée. Quel capteur utiliser pour détecter l'ouverture d'une fenêtre ?",
+      "options": [
+        "Un capteur d'ouverture magnétique",
+        "Un thermomètre",
+        "Un capteur de pluie",
+        "Une balance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'alarme doit être reliée à ta box internet pour envoyer une alerte sur ton smartphone.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'élément qui fait du bruit (la sirène) est un {{1}} (actionneur).",
+      "reponsesAttendues": [
+        "actionneur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'élément de l'alarme à son rôle.",
+      "pairs": [
+        {
+          "left": "Capteur de mouvement",
+          "right": "Détecter une présence dans la pièce"
+        },
+        {
+          "left": "Centrale d'alarme",
+          "right": "Traiter l'info et décider de l'alerte"
+        },
+        {
+          "left": "Haut-parleur / Flash",
+          "right": "Actionneur de signalement"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment réagir si l'alarme t'envoie une notification alors que tu es au collège ?",
+      "options": [
+        "Vérifier via les caméras connectées et prévenir les secours si besoin",
+        "Ignorer le message",
+        "Éteindre son téléphone",
+        "Crier dans le micro de la montre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

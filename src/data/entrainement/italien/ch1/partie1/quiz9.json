@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Les sons GLI et GN",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment se prononce 'GN' comme dans 'Montagna' ?",
+      "options": [
+        "Comme Gue + Ne",
+        "Comme le GN de 'agneau'",
+        "Comme un N seul",
+        "Comme un G seul"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le son 'GLI' (ex: Figlio) ressemble au son 'LL' de 'famille' en français.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour dire 'Lapin', on dit '{{1}}'.",
+      "reponsesAttendues": [
+        "Coniglio"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe au bon son.",
+      "pairs": [
+        {
+          "left": "Lasagna",
+          "right": "Son GN"
+        },
+        {
+          "left": "Voglia",
+          "right": "Son GLI"
+        },
+        {
+          "left": "Gatto",
+          "right": "Son G dur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Laquelle de ces villes contient le son 'GN' ?",
+      "options": [
+        "Roma",
+        "Bologna",
+        "Napoli",
+        "Milano"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

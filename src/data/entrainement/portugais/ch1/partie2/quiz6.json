@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "As Cores 1 (Les couleurs)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Rouge' ?",
+      "options": [
+        "Vermelho",
+        "Azul",
+        "Amarelo",
+        "Verde"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Azul' é a cor do céu.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A banana é {{1}} (jaune).",
+      "reponsesAttendues": [
+        "amarela"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Cores.",
+      "pairs": [
+        {
+          "left": "Preto",
+          "right": "Noir"
+        },
+        {
+          "left": "Branco",
+          "right": "Blanc"
+        },
+        {
+          "left": "Verde",
+          "right": "Vert"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qual é a cor da bandeira de Portugal?",
+      "options": [
+        "Verde e Vermelho",
+        "Azul e Branco",
+        "Amarelo e Preto",
+        "Roxo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

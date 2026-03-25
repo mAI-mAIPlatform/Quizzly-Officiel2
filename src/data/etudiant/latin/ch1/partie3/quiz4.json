@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Mucius Scaevola",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'a fait Mucius pour prouver son courage à Porsenna ?",
+      "options": [
+        "Il a mis sa main droite dans le feu",
+        "Il a tué Porsenna",
+        "Il s'est enfui",
+        "Il a donné son or"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Porsenna a été impressionné par le courage de Mucius.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le surnom 'Scaevola' signifie {{1}} (Le Gaucher).",
+      "reponsesAttendues": [
+        "Le Gaucher"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'acte au héros.",
+      "pairs": [
+        {
+          "left": "Brûlure de la main",
+          "right": "Mucius Scaevola"
+        },
+        {
+          "left": "Défense du pont",
+          "right": "Horatius Cocles"
+        },
+        {
+          "left": "Traversée du Tibre",
+          "right": "Cloelia"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi Mucius n'a-t-il pas tué Porsenna ?",
+      "options": [
+        "Il l'a confondu avec son secrétaire",
+        "Il a eu peur",
+        "Son épée s'est brisée",
+        "Il a changé d'avis"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

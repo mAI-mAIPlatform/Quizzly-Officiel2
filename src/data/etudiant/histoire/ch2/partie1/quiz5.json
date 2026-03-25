@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Cas : New York, Centre Mondial",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quel quartier se trouve le centre des affaires de New York (Manhattan) ?",
+      "options": [
+        "Wall Street",
+        "Hollywood",
+        "Harlem",
+        "Queens"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le siège de l'ONU se trouve à New York, ce qui lui donne un rôle politique mondial.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le célèbre parc situé au centre de Manhattan s'appelle {{1}} Park.",
+      "reponsesAttendues": [
+        "Central"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le quartier new-yorkais à sa caractéristique.",
+      "pairs": [
+        {
+          "left": "Manhattan",
+          "right": "Gratte-ciels et CBD"
+        },
+        {
+          "left": "Brooklyn",
+          "right": "Quartier résidentiel et branché"
+        },
+        {
+          "left": "Bronx",
+          "right": "Quartier marqué par des difficultés sociales"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle statue symbolique accueille les visiteurs à l'entrée du port ?",
+      "options": [
+        "La Statue de la Liberté",
+        "La Tour Eiffel",
+        "Le Christ Rédempteur",
+        "La Statue de Lincoln"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

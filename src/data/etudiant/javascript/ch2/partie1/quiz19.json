@@ -1,0 +1,63 @@
+{
+  "id": "quiz19",
+  "titre": "Modifier des Images",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment changer la source d'une image (balise <img>) ?",
+      "options": [
+        "monImage.src = \"nouvelle.jpg\"",
+        "monImage.source = \"nouvelle.jpg\"",
+        "monImage.href = \"nouvelle.jpg\"",
+        "monImage.set(\"nouvelle.jpg\")"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Certaines propriétés comme 'src' ou 'id' peuvent être modifiées directement sans setAttribute.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour changer le texte alternatif d'une image, on utilise : monImage.{{1}} = \"Description\" (alt).",
+      "reponsesAttendues": [
+        "alt"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la propriété à son effet visuel.",
+      "pairs": [
+        {
+          "left": "src",
+          "right": "Change l'image affichée"
+        },
+        {
+          "left": "width",
+          "right": "Change la largeur"
+        },
+        {
+          "left": "title",
+          "right": "Bulle d'info au survol"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est un exemple de manipulation d'image utile ?",
+      "options": [
+        "Faire un diaporama (changer l'image toutes les 3 secondes)",
+        "Masquer l'image si elle ne charge pas",
+        "Agrandir l'image au clic",
+        "Toutes ces options sont correctes"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

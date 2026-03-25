@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Les différentes tailles d'écosystèmes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Un écosystème peut-il être de petite taille ?",
+      "options": [
+        "Non, il faut au moins la taille d'une forêt",
+        "Oui, une simple mare ou un tronc d'arbre mort peut être un écosystème",
+        "Seulement s'il n'y a pas d'animaux",
+        "Non, c'est toujours immense"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'ensemble de tous les écosystèmes de la Terre forme la biosphère.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On peut étudier un écosystème à l'échelle d'une {{1}} d'eau.",
+      "reponsesAttendues": [
+        "goutte"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la taille à l'exemple.",
+      "pairs": [
+        {
+          "left": "Micro-écosystème",
+          "right": "Une souche d'arbre"
+        },
+        {
+          "left": "Méso-écosystème",
+          "right": "Une forêt ou un lac"
+        },
+        {
+          "left": "Macro-écosystème",
+          "right": "Un océan ou un continent"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi divise-t-on la nature en écosystèmes ?",
+      "options": [
+        "Pour mieux l'étudier et comprendre les interactions",
+        "Pour vendre des parcelles",
+        "C'est une obligation légale",
+        "Pour faire des cartes"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

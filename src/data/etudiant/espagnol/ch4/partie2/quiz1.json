@@ -1,0 +1,63 @@
+{
+  "id": "quiz11",
+  "titre": "Cristóbal Colón",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿En qué año llegó Colón a América?",
+      "options": [
+        "1492",
+        "1500",
+        "1789",
+        "1945"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Colón creía que había llegado a las Indias.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Colón viajó con tres {{1}} (bateaux) : la Niña, la Pinta y la Santa María.",
+      "reponsesAttendues": [
+        "barcos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona los datos del viaje.",
+      "pairs": [
+        {
+          "left": "Origen",
+          "right": "Palos de la Frontera"
+        },
+        {
+          "left": "Destino",
+          "right": "América (Guanahani)"
+        },
+        {
+          "left": "Patrocinio",
+          "right": "Reyes Católicos"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'descubrimiento'?",
+      "options": [
+        "Découverte",
+        "Destruction",
+        "Vente",
+        "Achat"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

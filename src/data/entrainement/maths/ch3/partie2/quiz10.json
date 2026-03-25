@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan : Gestion de données",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "La somme des fréquences d'une série est toujours égale à :",
+      "options": [
+        "L'effectif total",
+        "1 (ou 100%)",
+        "0",
+        "La moyenne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un diagramme circulaire permet de visualiser les proportions.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans un diagramme circulaire, l'angle est {{1}} à la fréquence.",
+      "reponsesAttendues": [
+        "proportionnel"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'outil à son usage.",
+      "pairs": [
+        {
+          "left": "Tableau",
+          "right": "Organiser les données"
+        },
+        {
+          "left": "Moyenne",
+          "right": "Résumer la série"
+        },
+        {
+          "left": "Graphique",
+          "right": "Visualiser l'évolution"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si une série a 10 valeurs égales à 5, quelle est sa moyenne ?",
+      "options": [
+        "10",
+        "50",
+        "5",
+        "0"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

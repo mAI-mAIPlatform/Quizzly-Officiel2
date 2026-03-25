@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Gesunde Ernährung (Santé & Food)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Sain' (santé) ?",
+      "options": [
+        "Gesund",
+        "Krank",
+        "Fett",
+        "Süß"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Obst und Gemüse sind gesund.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich trinke viel {{1}} (eau).",
+      "reponsesAttendues": [
+        "Wasser"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Ernährung.",
+      "pairs": [
+        {
+          "left": "Vitamine",
+          "right": "Vitamines"
+        },
+        {
+          "left": "Zucker",
+          "right": "Sucre"
+        },
+        {
+          "left": "Salat",
+          "right": "Salade"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Isst du Äpfel?",
+      "options": [
+        "Ja, sie sind gesund",
+        "Ja, sie sind krank",
+        "Äpfel sind Brot",
+        "Hallo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

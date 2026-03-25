@@ -1,0 +1,63 @@
+{
+  "id": "quiz24",
+  "titre": "Die Konjunktion: DASS",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'dass'?",
+      "options": [
+        "Que (conjunción)",
+        "Eso / Aquello",
+        "Porque",
+        "Pero"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Se usa 'dass' para introducir una opinión o un pensamiento.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich glaube, {{1}} er kommt (que).",
+      "reponsesAttendues": [
+        "dass"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el inicio de frase con 'dass'.",
+      "pairs": [
+        {
+          "left": "Ich finde, dass...",
+          "right": "Je trouve que..."
+        },
+        {
+          "left": "Ich hoffe, dass...",
+          "right": "J'espère que..."
+        },
+        {
+          "left": "Es ist wichtig, dass...",
+          "right": "C'est important que..."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cuál es la función de 'dass'?",
+      "options": [
+        "Unir una frase principal con una subordinada",
+        "Hacer una pregunta",
+        "Negar una frase",
+        "Indicar tiempo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

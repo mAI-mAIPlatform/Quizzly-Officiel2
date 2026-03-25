@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Symétrie et Parallélisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Le symétrique d'une droite (d) par rapport à un point O est une droite (d') qui est :",
+      "options": [
+        "Perpendiculaire à (d)",
+        "Parallèle à (d)",
+        "Sécante à (d)",
+        "La même droite"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si O appartient à la droite (d), alors son symétrique est la droite (d) elle-même.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le symétrique d'une demi-droite [Ax) est une demi-droite [A'y) de sens {{1}}.",
+      "reponsesAttendues": [
+        "opposé"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe les positions relatives.",
+      "pairs": [
+        {
+          "left": "Deux droites parallèles",
+          "right": "Leurs symétriques sont parallèles"
+        },
+        {
+          "left": "Deux droites sécantes",
+          "right": "Leurs symétriques sont sécantes"
+        },
+        {
+          "left": "Deux droites perpendiculaires",
+          "right": "Leurs symétriques sont perpendiculaires"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment sont deux segments symétriques par rapport à un point ?",
+      "options": [
+        "Sécants",
+        "Parallèles et de même longueur",
+        "Perpendiculaires",
+        "De longueurs différentes"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

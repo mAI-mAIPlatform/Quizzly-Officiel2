@@ -1,0 +1,64 @@
+{
+  "id": "quiz7",
+  "titre": "Vocabulaire Terre/Univers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'Galaxie' ?",
+      "options": [
+        "Un immense groupement d'étoiles, de gaz et de poussière",
+        "Une petite voiture de l'espace",
+        "Le nom d'un chocolat",
+        "Une planète habitée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L' 'Orbite' est le chemin courbe suivi par un astre autour d'un autre (ex: la Terre autour du Soleil).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'usure de la surface terrestre par l'eau, le vent ou la glace s'appelle l'{{1}} (érosion).",
+      "reponsesAttendues": [
+        "érosion",
+        "erosion"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme à sa définition.",
+      "pairs": [
+        {
+          "left": "Comète",
+          "right": "Petit corps composé de glace et de poussière avec une queue lumineuse"
+        },
+        {
+          "left": "Atmosphère",
+          "right": "Couche de gaz entourant une planète"
+        },
+        {
+          "left": "Pesanteur / Gravité",
+          "right": "Force qui attire les objets vers le sol"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on notre galaxie ?",
+      "options": [
+        "La Voie Lactée",
+        "Andromède",
+        "Le système solaire",
+        "L'Univers"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

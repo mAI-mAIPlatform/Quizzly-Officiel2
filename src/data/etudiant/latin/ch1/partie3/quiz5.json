@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Cloelia et Cincinnatus",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment Cloelia s'est-elle échappée du camp des Étrusques ?",
+      "options": [
+        "En traversant le Tibre à la nage",
+        "En se déguisant",
+        "En creusant un tunnel",
+        "En volant un cheval"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Cincinnatus a refusé de rendre le pouvoir après sa victoire.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Cincinnatus a quitté sa {{1}} pour devenir dictateur (charrue).",
+      "reponsesAttendues": [
+        "charrue"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la vertu romaine.",
+      "pairs": [
+        {
+          "left": "Virtus",
+          "right": "Courage"
+        },
+        {
+          "left": "Pietas",
+          "right": "Piété / Devoir"
+        },
+        {
+          "left": "Fides",
+          "right": "Loyauté"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Combien de jours Cincinnatus est-il resté dictateur ?",
+      "options": [
+        "16 jours",
+        "6 mois",
+        "1 an",
+        "10 ans"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

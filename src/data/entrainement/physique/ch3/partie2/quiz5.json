@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Le transfert radiatif",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un transfert radiatif ?",
+      "options": [
+        "Un transfert par contact",
+        "Un transfert par rayonnement (lumière, infrarouge, etc.)",
+        "Un transfert par le son",
+        "Un transfert par l'eau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Soleil nous envoie de l'énergie par transfert radiatif à travers le vide.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une ampoule transforme l'énergie électrique en rayonnement {{1}} et en chaleur.",
+      "reponsesAttendues": [
+        "lumineux"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la source au rayonnement.",
+      "pairs": [
+        {
+          "left": "Étoiles",
+          "right": "Lumière visible"
+        },
+        {
+          "left": "Humain",
+          "right": "Infrarouge (chaleur)"
+        },
+        {
+          "left": "Antenne",
+          "right": "Ondes radio"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que devient l'énergie radiative quand elle frappe un mur sombre ?",
+      "options": [
+        "Elle disparaît",
+        "Elle est en grande partie absorbée et transformée en chaleur",
+        "Elle traverse le mur",
+        "Elle devient de l'électricité"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

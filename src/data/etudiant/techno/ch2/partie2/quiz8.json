@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Vocabulaire : Conception",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un prototype ?",
+      "options": [
+        "Le premier exemplaire d'un objet servant à tester le concept",
+        "Une photo publicitaire du produit",
+        "Un client qui achète beaucoup",
+        "Une machine qui ne fonctionne jamais"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La matière d'œuvre est l'élément sur lequel l'objet agit pour le transformer.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une fonction qui exprime une relation entre l'objet et un élément extérieur est une fonction de {{1}} (service).",
+      "reponsesAttendues": [
+        "service"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme à son sens.",
+      "pairs": [
+        {
+          "left": "Ergonomie",
+          "right": "Adaptation de l'objet à l'homme (confort, prise en main)"
+        },
+        {
+          "left": "Esthétique",
+          "right": "Aspect visuel et beauté de l'objet"
+        },
+        {
+          "left": "Standardisation",
+          "right": "Utilisation de pièces identiques pour faciliter la production"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'design' en technologie ?",
+      "options": [
+        "L'ensemble de la conception (forme + fonction + usage)",
+        "Juste faire de jolis dessins colorés",
+        "Le prix de vente de l'objet",
+        "Le nom de l'usine"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

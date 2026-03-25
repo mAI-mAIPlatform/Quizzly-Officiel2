@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Bartolomé de las Casas et la controverse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a pris la défense des Amérindiens face aux violences des colons ?",
+      "options": [
+        "Hernán Cortés",
+        "Bartolomé de las Casas",
+        "Francisco Pizarro",
+        "Philippe II"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Controverse de Valladolid portait sur la question de savoir si les Indiens avaient une âme.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le débat opposait Las Casas à {{1}}, qui défendait la graphique contre les Indiens.",
+      "reponsesAttendues": [
+        "Sepulveda"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'idée à son défenseur.",
+      "pairs": [
+        {
+          "left": "Las Casas",
+          "right": "Égalité des hommes devant Dieu"
+        },
+        {
+          "left": "Sepulveda",
+          "right": "Supériorité naturelle des Espagnols"
+        },
+        {
+          "left": "Charles Quint",
+          "right": "Inquiet du traitement des indigènes"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle fut la conséquence des interventions de Las Casas ?",
+      "options": [
+        "Le retrait immédiat des Espagnols",
+        "Les 'Nouvelles Lois' (Leyes Nuevas) de 1542 limitant l'encomienda",
+        "Rien n'a changé",
+        "Las Casas a été emprisonné"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

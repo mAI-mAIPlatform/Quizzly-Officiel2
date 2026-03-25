@@ -1,0 +1,63 @@
+{
+  "id": "quiz26",
+  "titre": "Abbigliamento",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'La camiseta'?",
+      "options": [
+        "La maglietta",
+        "La gonna",
+        "I pantaloni",
+        "Le scarpe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Scaricare' significa comprar ropa.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Porto una {{1}} rossa (jupe).",
+      "reponsesAttendues": [
+        "gonna"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la prenda.",
+      "pairs": [
+        {
+          "left": "La giacca",
+          "right": "La veste"
+        },
+        {
+          "left": "La camicia",
+          "right": "La chemise"
+        },
+        {
+          "left": "Il cappotto",
+          "right": "Le manteau"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'mettere'?",
+      "options": [
+        "Mettre / Porter",
+        "Acheter",
+        "Laver",
+        "Vendre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

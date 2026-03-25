@@ -1,0 +1,65 @@
+{
+  "id": "quiz7",
+  "titre": "Types de Production",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une production en série ?",
+      "options": [
+        "La fabrication d'un grand nombre d'objets identiques de façon automatisée",
+        "La fabrication d'un seul objet unique à la main",
+        "Le tournage d'un film pour la télévision",
+        "Une liste de numéros de téléphone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La production artisanale (à l'unité) est généralement plus coûteuse que la production en grande série.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le temps nécessaire pour fabriquer un produit s'appelle le temps de {{1}} (cycle / fabrication).",
+      "reponsesAttendues": [
+        "fabrication",
+        "cycle",
+        "prod"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le mode de production à son avantage.",
+      "pairs": [
+        {
+          "left": "Unitaire (Artisanal)",
+          "right": "Unicité et grande qualité sur mesure"
+        },
+        {
+          "left": "Grande série (Industriel)",
+          "right": "Baisse des coûts et rapidité"
+        },
+        {
+          "left": "Petite série",
+          "right": "Flexibilité pour les besoins spécifiques"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le fait d'automatiser une usine avec des robots ?",
+      "options": [
+        "L'automatisation (ou Robotisation)",
+        "La décoration",
+        "La simplification",
+        "L'invention"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

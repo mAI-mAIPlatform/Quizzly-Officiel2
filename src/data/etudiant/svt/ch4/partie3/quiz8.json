@@ -1,0 +1,63 @@
+{
+  "id": "quiz28",
+  "titre": "Risques Alimentaires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que les moisissures sur un aliment ?",
+      "options": [
+        "Des champignons microscopiques qui décomposent la matière",
+        "Des morceaux de poussière colorée",
+        "Des décorations naturelles",
+        "Des vitamines supplémentaires"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Retirer la partie moisie d'un pain suffit à le rendre sûr à manger.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Certains microbes produisent des {{1}} (poisons) invisibles et inodores.",
+      "reponsesAttendues": [
+        "toxines"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le risque à sa cause.",
+      "pairs": [
+        {
+          "left": "Salmonellose",
+          "right": "Bactéries dans les œufs ou la viande mal cuite"
+        },
+        {
+          "left": "Botulisme",
+          "right": "Toxine très grave dans les conserves mal stérilisées"
+        },
+        {
+          "left": "Listeria",
+          "right": "Bactérie capable de se multiplier même au frigo"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel signe indique qu'un produit frais est probablement périmé ?",
+      "options": [
+        "Une odeur fétide, un aspect gluant ou un changement de couleur",
+        "Le fait qu'il pèse toujours le même poids",
+        "Il est devenu trop froid au frigo",
+        "Il n'y a pas d'emballage cadeau"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

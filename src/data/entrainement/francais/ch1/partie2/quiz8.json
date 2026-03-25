@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Futur vs Présent (Confusion fréquente)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle terminaison est au futur pour 'Je' ?",
+      "options": [
+        "-ai",
+        "-e",
+        "-ais",
+        "-as"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Je mangerai' (futur) se prononce comme 'é'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Maintenant, je mange (présent) ; demain, je {{1}}.",
+      "reponsesAttendues": [
+        "mangerai"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les temps.",
+      "pairs": [
+        {
+          "left": "Je chante",
+          "right": "Présent"
+        },
+        {
+          "left": "Je chanterai",
+          "right": "Futur"
+        },
+        {
+          "left": "Je chantais",
+          "right": "Imparfait"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Laquelle de ces phrases est au futur ?",
+      "options": [
+        "Je jouerai bientôt.",
+        "Je jouais souvent.",
+        "Je joue du piano.",
+        "J'ai joué hier."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

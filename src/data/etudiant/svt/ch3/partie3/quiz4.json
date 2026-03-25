@@ -1,0 +1,63 @@
+{
+  "id": "quiz24",
+  "titre": "Mémoire Immunitaire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la mémoire immunitaire ?",
+      "options": [
+        "La capacité du corps à reconnaître et combattre plus vite un microbe déjà rencontré",
+        "Se souvenir du nom de son médecin",
+        "Un stockage d'ADN dans le cerveau",
+        "La peur des aiguilles"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Lors d'un second contact, la production d'anticorps est plus lente.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les cellules responsables de la protection à long terme sont les lymphocytes {{1}}.",
+      "reponsesAttendues": [
+        "mémoires"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le contact à sa réponse immunitaire.",
+      "pairs": [
+        {
+          "left": "Premier contact",
+          "right": "Réponse lente et de faible intensité"
+        },
+        {
+          "left": "Second contact",
+          "right": "Réponse immédiate, massive et durable"
+        },
+        {
+          "left": "Infection foudroyante",
+          "right": "Dépassement des capacités de défense"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Combien de temps peut durer la mémoire immunitaire ?",
+      "options": [
+        "De quelques mois à toute une vie selon le microbe",
+        "Exactement 3 jours",
+        "Juste le temps du repas",
+        "Elle n'existe pas chez l'être humain"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

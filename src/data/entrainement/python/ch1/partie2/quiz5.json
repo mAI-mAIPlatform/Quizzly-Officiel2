@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Les Booléens (bool)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelles sont les deux valeurs possibles d'un booléen ?",
+      "options": [
+        "True et False",
+        "Yes et No",
+        "1 et 0 (mais typés bool)",
+        "Vrai et Faux (en français)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En Python, 'true' (avec un petit t) est un booléen valide.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les booléens doivent commencer par une {{1}}.",
+      "reponsesAttendues": [
+        "majuscule"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "10 > 5",
+          "right": "True"
+        },
+        {
+          "left": "10 < 5",
+          "right": "False"
+        },
+        {
+          "left": "bool(0)",
+          "right": "False"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel renvoie False ?",
+      "options": [
+        "bool('') (chaîne vide)",
+        "bool(1)",
+        "bool('Hello')",
+        "bool(-1)"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

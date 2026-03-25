@@ -1,0 +1,63 @@
+{
+  "id": "quiz25",
+  "titre": "Adaptation au Changement",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'adaptation au changement climatique ?",
+      "options": [
+        "Ajuster nos modes de vie pour réduire notre vulnérabilité aux futurs climats",
+        "Ignorer le problème en espérant qu'il disparaisse",
+        "Changer toutes les montres de la planète",
+        "Vivre uniquement la nuit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Planter des arbres en ville aide à limiter les îlots de chaleur urbains.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'ensemble des mesures pour réduire les émissions de gaz à effet de serre s'appelle l'{{1}}.",
+      "reponsesAttendues": [
+        "atténuation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la mesure à son objectif d'adaptation.",
+      "pairs": [
+        {
+          "left": "Digues mobiles",
+          "right": "Protection contre les submersions marines"
+        },
+        {
+          "left": "Culture de plantes résistantes",
+          "right": "Adaptation à la sécheresse en agriculture"
+        },
+        {
+          "left": "Isolation thermique des maisons",
+          "right": "Confort face aux pics de chaleur et de froid"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qui doit agir pour l'adaptation climatique ?",
+      "options": [
+        "Tout le monde : États, entreprises et citoyens",
+        "Seulement les scientifiques",
+        "Les enfants uniquement",
+        "Personne, c'est impossible"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

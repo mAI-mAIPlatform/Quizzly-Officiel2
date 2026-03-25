@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Types de Ponts",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel type de pont possède des câbles porteurs fixés à des pylônes ?",
+      "options": [
+        "Le pont suspendu (ou à haubans)",
+        "Le pont en arc",
+        "Le pont à poutres",
+        "Le pont-levis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un pont en voûte (arc) transforme le poids en poussée latérale (sur les côtés).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le {{1}} est la partie du pont sur laquelle circulent les voitures.",
+      "reponsesAttendues": [
+        "tablier"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Familles de Ponts.",
+      "pairs": [
+        {
+          "left": "Pont à haubans",
+          "right": "Câbles en éventail (ex: Viaduc de Millau)"
+        },
+        {
+          "left": "Pont en arc",
+          "right": "Compression de la pierre ou pierre (ex: Pont du Gard)"
+        },
+        {
+          "left": "Pont suspendu",
+          "right": "Grands câbles paraboliques (ex: Golden Gate)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la fonction d'un pont ?",
+      "options": [
+        "Franchir un obstacle (rivière, vallée, route) sans s'arrêter",
+        "Ralentir le trafic",
+        "Produire de l'électricité",
+        "Faire joli dans le paysage"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

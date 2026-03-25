@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Le maintien de l'espèce",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qui permet à une espèce de ne pas disparaître ?",
+      "options": [
+        "Le hasard",
+        "La reproduction permettant de compenser les décès",
+        "Le vent",
+        "La pluie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La dynamique d'une population dépend du nombre de naissances et de décès.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'ensemble des étapes de la vie d'un individu de sa naissance à sa reproduction s'appelle le {{1}} de vie.",
+      "reponsesAttendues": [
+        "cycle"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le terme à sa définition.",
+      "pairs": [
+        {
+          "left": "Natalité",
+          "right": "Nombre de naissances"
+        },
+        {
+          "left": "Mortalité",
+          "right": "Nombre de décès"
+        },
+        {
+          "left": "Espèce pérenne",
+          "right": "Espèce qui dure dans le temps"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qui peut briser le cycle de maintien d'une espèce ?",
+      "options": [
+        "La pollution et la destruction des habitats",
+        "Le chant des oiseaux",
+        "La pousse de l'herbe",
+        "Le soleil"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

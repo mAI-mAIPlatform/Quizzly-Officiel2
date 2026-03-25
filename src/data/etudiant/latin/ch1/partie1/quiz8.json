@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Les dieux majeurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est le roi des dieux romains ?",
+      "options": [
+        "Jupiter",
+        "Mars",
+        "Neptune",
+        "Mercure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Vénus est la déesse de la guerre.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le dieu de la mer s'appelle {{1}} (Neptune).",
+      "reponsesAttendues": [
+        "Neptunus"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le dieu à son domaine.",
+      "pairs": [
+        {
+          "left": "Mars",
+          "right": "La guerre"
+        },
+        {
+          "left": "Minerve",
+          "right": "La sagesse"
+        },
+        {
+          "left": "Diane",
+          "right": "La chasse"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qui est la femme de Jupiter et reine des dieux ?",
+      "options": [
+        "Junon",
+        "Vesta",
+        "Cérès",
+        "Proserpine"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

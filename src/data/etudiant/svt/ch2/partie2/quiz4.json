@@ -1,0 +1,63 @@
+{
+  "id": "quiz14",
+  "titre": "Le Noyau Cellulaire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où se situe l'information génétique dans une cellule ?",
+      "options": [
+        "Dans le noyau",
+        "Dans la paroi",
+        "Dans les vacuoles",
+        "Dans le liquide extracellulaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Toutes les cellules d'un individu (sauf les gamètes) possèdent la même information génétique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les filaments visibles dans le noyau lors de la division cellulaire sont les {{1}}.",
+      "reponsesAttendues": [
+        "chromosomes"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la partie de la cellule à son rôle.",
+      "pairs": [
+        {
+          "left": "Noyau",
+          "right": "Contient le programme génétique"
+        },
+        {
+          "left": "Membrane",
+          "right": "Délimite la cellule"
+        },
+        {
+          "left": "Cytoplasme",
+          "right": "Intérieur liquide de la cellule"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment a-t-on prouvé que le noyau contenait l'information (expérience historique) ?",
+      "options": [
+        "Par transfert de noyau entre deux cellules d'espèces différentes",
+        "En regardant avec une loupe de cuisine",
+        "En faisant bouillir des cellules",
+        "Par pur hasard mathématique"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

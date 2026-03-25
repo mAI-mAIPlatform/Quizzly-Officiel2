@@ -1,0 +1,63 @@
+{
+  "id": "quiz16",
+  "titre": "Calculs loi d'Ohm",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Si R = 100 Ω et I = 0.1 A, que vaut U ?",
+      "options": [
+        "10 V",
+        "1 V",
+        "1000 V",
+        "10.1 V"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour trouver R, on utilise la formule R = U / I.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si U = 12 V et R = 4 Ω, l'intensité I vaut {{1}} A.",
+      "reponsesAttendues": [
+        "3"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Calcule la valeur manquante.",
+      "pairs": [
+        {
+          "left": "U = 6V, I = 2A",
+          "right": "R = 3 Ω"
+        },
+        {
+          "left": "R = 50 Ω, I = 0.2A",
+          "right": "U = 10 V"
+        },
+        {
+          "left": "U = 24V, R = 12 Ω",
+          "right": "I = 2 A"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que vaut l'intensité si U = 230V et R = 4600 Ω ?",
+      "options": [
+        "0.05 A (ou 50 mA)",
+        "20 A",
+        "4830 A",
+        "10 A"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "La fonction enumerate()",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert enumerate() ?",
+      "options": [
+        "À obtenir l'indice ET la valeur pendant une boucle",
+        "À compter le nombre d'éléments",
+        "À trier la liste",
+        "À supprimer les doublons"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "for i, v in enumerate(liste): est la syntaxe standard.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'indice 'i' commence par défaut à {{1}}.",
+      "reponsesAttendues": [
+        "0"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe (liste=['A', 'B']).",
+      "pairs": [
+        {
+          "left": "Tour 1",
+          "right": "i=0, v='A'"
+        },
+        {
+          "left": "Tour 2",
+          "right": "i=1, v='B'"
+        },
+        {
+          "left": "enumerate(liste, 1)",
+          "right": "Fait commencer i à 1"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser enumerate plutôt que range(len(liste)) ?",
+      "options": [
+        "C'est plus lisible et 'Pythonic'",
+        "C'est plus rapide",
+        "C'est obligatoire en Python 3",
+        "Il n'y a pas d'avantage"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

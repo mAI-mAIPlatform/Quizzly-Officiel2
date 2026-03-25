@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Seigneurs et Vassaux : L'hommage",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le contrat de fidélité entre un seigneur et son vassal ?",
+      "options": [
+        "Le mariage",
+        "L'hommage",
+        "Le baptême",
+        "Le sacre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le vassal promet aide militaire et conseil à son seigneur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "En échange de sa fidélité, le vassal reçoit une terre appelée le {{1}}.",
+      "reponsesAttendues": [
+        "fief"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'acteur à son rôle.",
+      "pairs": [
+        {
+          "left": "Suzerain",
+          "right": "Seigneur qui a des vassaux"
+        },
+        {
+          "left": "Vassal",
+          "right": "Homme qui sert un seigneur"
+        },
+        {
+          "left": "Félon",
+          "right": "Vassal qui trahit son seigneur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel geste symbolise le passage du vassal sous la protection du seigneur ?",
+      "options": [
+        "Une poignée de main",
+        "La dation des mains (le vassal met ses mains dans celles du seigneur)",
+        "Un baiser sur le front",
+        "Un duel"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

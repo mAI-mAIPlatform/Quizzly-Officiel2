@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "La Une d'un journal",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle le titre en haut de la Une qui donne le nom du journal ?",
+      "options": [
+        "Le bandeau (ou manchette)",
+        "L'éditorial",
+        "L'oreille",
+        "Le pied de page"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La 'Une' est la première page d'un quotidien.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le gros titre qui annonce l'information principale s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "tribune"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le terme technique à son emplacement.",
+      "pairs": [
+        {
+          "left": "Ventre",
+          "right": "Milieu de la page (article phare)"
+        },
+        {
+          "left": "Oreille",
+          "right": "Coins supérieurs (pub ou promo)"
+        },
+        {
+          "left": "Rez-de-chaussée",
+          "right": "Bas de la page"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le but d'une Une de journal ?",
+      "options": [
+        "Donner envie d'acheter et informer rapidement",
+        "Cacher les informations importantes",
+        "Servir de papier à dessin",
+        "Être la plus moche possible"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

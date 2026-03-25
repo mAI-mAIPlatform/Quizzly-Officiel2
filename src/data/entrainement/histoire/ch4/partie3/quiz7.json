@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Le système de l'Encomienda",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une Encomienda ?",
+      "options": [
+        "Une fête espagnole",
+        "Le droit pour un colon d'utiliser le travail des Indiens contre leur 'protection'",
+        "Un navire de guerre",
+        "Un nouveau fruit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans les faits, l'encomienda était une forme d'esclavage déguisé.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le colon espagnol chargé de l'encomienda s'appelle l'{{1}}.",
+      "reponsesAttendues": [
+        "encomendero"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la plantation au produit.",
+      "pairs": [
+        {
+          "left": "Sucre",
+          "right": "Antilles et Brésil"
+        },
+        {
+          "left": "Tabac",
+          "right": "Amérique du Nord et Caraïbes"
+        },
+        {
+          "left": "Coton",
+          "right": "Mexique et Sud de l'Amérique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle était l'obligation théorique de l'encomendero envers les Indiens ?",
+      "options": [
+        "Leur apprendre à nager",
+        "Les évangéliser (leur enseigner la religion chrétienne)",
+        "Leur donner de l'or",
+        "Rien du tout"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

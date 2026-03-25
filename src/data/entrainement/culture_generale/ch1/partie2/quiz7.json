@@ -1,0 +1,62 @@
+{
+  "id": "quiz7",
+  "titre": "Poésie et Passions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel poète a écrit le recueil 'Les Fleurs du Mal' ?",
+      "options": [
+        "Paul Verlaine",
+        "Charles Baudelaire",
+        "Arthur Rimbaud",
+        "Guillaume Apollinaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un sonnet est un poème de 14 vers.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le poète qui a écrit 'Le Dormeur du val' à 16 ans est Arthur {{1}}.",
+      "reponsesAttendues": [
+        "Rimbaud"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Victor Hugo",
+          "right": "Demain, dès l'aube..."
+        },
+        {
+          "left": "Jean de La Fontaine",
+          "right": "Les Fables"
+"        },
+        {
+          "left": "Apollinaire",
+          "right": "Calligrammes"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on un vers de 12 syllabes ?",
+      "options": [
+        "Un décasyllabe",
+        "Un alexandrin",
+        "Un octosyllabe",
+        "Un vers libre"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

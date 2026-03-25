@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "La gamme mineure",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle atmosphère est généralement associée à la gamme mineure ?",
+      "options": [
+        "Tristesse, mélancolie ou mystère",
+        "Joie intense",
+        "Agressivité extrême",
+        "Pas d'atmosphère particulière"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Chaque gamme majeure possède une gamme mineure 'relative' qui utilise les mêmes notes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La relative mineure de Do majeur est la gamme de {{1}} mineur (La).",
+      "reponsesAttendues": [
+        "La"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'intervalle au sentiment habituel.",
+      "pairs": [
+        {
+          "left": "Tierce majeure",
+          "right": "Son brillant et stable"
+        },
+        {
+          "left": "Tierce mineure",
+          "right": "Son plus sombre et mélancolique"
+        },
+        {
+          "left": "Octave",
+          "right": "Même note mais plus aiguë (très pur)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle note est descendue d'un demi-ton pour transformer une gamme majeure en mineure (mélodique) ?",
+      "options": [
+        "La troisième (la tierce)",
+        "La première",
+        "La huitième",
+        "La cinquième"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

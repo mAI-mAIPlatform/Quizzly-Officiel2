@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Futuro Simple: Irregulares",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Je ferai' (Hacer) ?",
+      "options": [
+        "Haré",
+        "Haceré",
+        "Hacerá",
+        "Harás"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El futuro de 'Tener' es 'Tendré'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Je pourrai' (Poder) se dice '{{1}}'.",
+      "reponsesAttendues": [
+        "Podré"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Raíces Futuro.",
+      "pairs": [
+        {
+          "left": "Saldré",
+          "right": "Salir"
+        },
+        {
+          "left": "Vendré",
+          "right": "Venir"
+        },
+        {
+          "left": "Sabré",
+          "right": "Saber"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué harás mañana?",
+      "options": [
+        "Haré una excursión",
+        "Hago una excursión",
+        "Hice una excursión",
+        "Soy una excursión"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

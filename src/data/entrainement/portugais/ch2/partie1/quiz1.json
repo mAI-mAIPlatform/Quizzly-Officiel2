@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Verbos de Rotina",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Se réveiller' ?",
+      "options": [
+        "Acordar",
+        "Dormir",
+        "Comer",
+        "Trabalhar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Levantar-se' significa 'Se lever'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu tomo um {{1}} (douche) de manhã.",
+      "reponsesAttendues": [
+        "banho"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Rotina.",
+      "pairs": [
+        {
+          "left": "Vestir-se",
+          "right": "S'habiller"
+        },
+        {
+          "left": "Lavar os dentes",
+          "right": "Se laver les dents"
+        },
+        {
+          "left": "Pentear-se",
+          "right": "Se peigner"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "A que horas acordas?",
+      "options": [
+        "Acordo às sete",
+        "Dormo às dez",
+        "Sou o Pedro",
+        "Tenho fome"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

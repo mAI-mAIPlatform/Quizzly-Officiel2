@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Ch. 3 P. 3 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "La structure A-B-A est appelée forme...",
+      "options": [
+        "Ternaire",
+        "Binaire",
+        "Symphonique",
+        "Rondo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un Rondo est basé sur l'alternance entre un refrain et des couplets.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'imitation rigoureuse d'une mélodie par d'autres voix s'appelle un {{1}} (canon).",
+      "reponsesAttendues": [
+        "canon"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la forme à son schéma.",
+      "pairs": [
+        {
+          "left": "Binaire",
+          "right": "A - B"
+        },
+        {
+          "left": "Ternaire",
+          "right": "A - B - A"
+        },
+        {
+          "left": "Rondo",
+          "right": "A - B - A - C - A"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Dans une fugue, que cherchent à faire les différentes voix ?",
+      "options": [
+        "S'imiter et se poursuivre",
+        "S'arrêter le plus vite possible",
+        "Faire le moins de bruit possible",
+        "Se battre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "quiz4",
+  "titre": "Mots de passe et Email",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel type d'input masque les caractères saisis ?",
+      "options": ["text", "hidden", "password", "secret"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'input type=\"email\" vérifie automatiquement s'il y a un @.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour un numéro de téléphone, on utilise type=\"{{1}}\".",
+      "reponsesAttendues": ["tel"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il sur mobile avec type=\"email\" ?",
+      "options": ["Rien", "Le clavier affiche la touche @", "Le téléphone vibre", "La page devient bleue"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le type 'password' chiffre les données avant l'envoi.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel attribut permet d'exiger un format précis (ex: 8 caractères) via une expression régulière ?",
+      "options": ["regex", "pattern", "check", "format"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "vrai_faux",
+      "enonce": "L'input type=\"email\" peut accepter plusieurs adresses séparées par des virgules avec l'attribut 'multiple'.",
+      "reponse": true
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "Pour aider le navigateur à remplir le mot de passe, on utilise l'attribut {{1}}.",
+      "reponsesAttendues": ["autocomplete"]
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle valeur de 'autocomplete' est utilisée pour un nouveau mot de passe ?",
+      "options": ["on", "new-password", "secret", "current-password"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le type 'tel' vérifie que le numéro est un vrai numéro français.",
+      "reponse": false
+    }
+  ]
+}

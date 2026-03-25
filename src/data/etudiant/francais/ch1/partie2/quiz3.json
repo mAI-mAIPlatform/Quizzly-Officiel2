@@ -1,0 +1,63 @@
+{
+  "id": "quiz13",
+  "titre": "Le Marivaudage (XVIIIe)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'marivaudage' ?",
+      "options": [
+        "Un jeu de langage raffiné sur les sentiments",
+        "Une danse traditionnelle",
+        "Une façon de s'habiller",
+        "Un combat à l'épée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans 'Le Jeu de l'amour et du hasard', les maîtres et les valets échangent leurs rôles.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'héroïne qui se déguise en Lisette s'appelle {{1}}.",
+      "reponsesAttendues": [
+        "Silvia"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le déguisement à la réalité dans Marivaux.",
+      "pairs": [
+        {
+          "left": "Bourguignon",
+          "right": "Dorante (le maître)"
+        },
+        {
+          "left": "Lisette",
+          "right": "Silvia (la maîtresse)"
+        },
+        {
+          "left": "Arlequin",
+          "right": "Valet de Dorante"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'enjeu principal chez Marivaux ?",
+      "options": [
+        "Découvrir la sincérité du coeur sous le masque",
+        "Gagner beaucoup d'argent",
+        "Devenir Premier Ministre",
+        "Apprendre à cuisiner"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

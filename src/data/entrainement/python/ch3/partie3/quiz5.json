@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Le module MATH",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment obtenir la valeur de PI ?",
+      "options": [
+        "math.pi",
+        "math.PI()",
+        "math.circle",
+        "3.14 (directement)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "math.ceil(4.2) renvoie 5 (arrondi supérieur).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La fonction pour la racine carrée est {{1}}.",
+      "reponsesAttendues": [
+        "sqrt"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la fonction math.",
+      "pairs": [
+        {
+          "left": "math.floor(4.8)",
+          "right": "4 (inférieur)"
+        },
+        {
+          "left": "math.pow(2, 3)",
+          "right": "8.0"
+        },
+        {
+          "left": "math.factorial(5)",
+          "right": "120"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que renvoie math.sqrt(-1) ?",
+      "options": [
+        "Une erreur (ValueError)",
+        "i (imaginaire)",
+        "0",
+        "None"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

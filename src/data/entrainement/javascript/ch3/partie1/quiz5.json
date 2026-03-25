@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "La Mise à jour (Incrémentation)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quand s'exécute la mise à jour (ex: i++) ?",
+      "options": [
+        "Au début du tour",
+        "À la fin de chaque tour",
+        "Seulement à la fin de la boucle",
+        "Jamais"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On est obligé de faire i++, on ne peut pas faire i+=2.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour compter de 2 en 2, on peut écrire i {{1}} 2.",
+      "reponsesAttendues": [
+        "+="
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la progression.",
+      "pairs": [
+        {
+          "left": "i++",
+          "right": "+1 par tour"
+        },
+        {
+          "left": "i--",
+          "right": "-1 par tour"
+        },
+        {
+          "left": "i += 5",
+          "right": "+5 par tour"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'arrive-t-il si on oublie la mise à jour ?",
+      "options": [
+        "La boucle s'arrête",
+        "Boucle infinie (i ne change jamais)",
+        "Syntax error",
+        "JS devine tout seul"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Nacionalidades y Países",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Espagnol' ?",
+      "options": [
+        "Español",
+        "Espagnol",
+        "Spain",
+        "Francia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Francesa' es el femenino de 'Francés'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'D'où viens-tu ?' se dice '¿De {{1}} eres?'.",
+      "reponsesAttendues": [
+        "dónde"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Países.",
+      "pairs": [
+        {
+          "left": "Francia",
+          "right": "Francés"
+        },
+        {
+          "left": "España",
+          "right": "Español"
+        },
+        {
+          "left": "México",
+          "right": "Mexicano"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Como se dice 'Je suis de France' ?",
+      "options": [
+        "Soy de Francia",
+        "Estoy de Francia",
+        "Tengo Francia",
+        "Llamo Francia"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

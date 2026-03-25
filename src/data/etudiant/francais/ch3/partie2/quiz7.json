@@ -1,0 +1,63 @@
+{
+  "id": "quiz17",
+  "titre": "Le Héros et l'Histoire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la place de l'Histoire dans le drame romantique ?",
+      "options": [
+        "Elle est le décor et le moteur de l'action",
+        "Elle est totalement absente",
+        "Elle est racontée dans des livres séparés",
+        "Elle est un personnage vivant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le héros romantique cherche souvent à agir sur le destin de son pays.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'action romantique se passe souvent dans le {{1}} (période).",
+      "reponsesAttendues": [
+        "passé"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le personnage à son époque historique.",
+      "pairs": [
+        {
+          "left": "Lorenzaccio",
+          "right": "Renaissance italienne"
+        },
+        {
+          "left": "Hernani",
+          "right": "Espagne du XVIe"
+        },
+        {
+          "left": "Ruy Blas",
+          "right": "Espagne du XVIIe"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi le passé intéresse-t-il les romantiques ?",
+      "options": [
+        "Pour y trouver un écho aux combats de leur présent",
+        "Parce qu'ils détestent le futur",
+        "Parce que c'est plus facile à écrire",
+        "Pour porter des armures"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

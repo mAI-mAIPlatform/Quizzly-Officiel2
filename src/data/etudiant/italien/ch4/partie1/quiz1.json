@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Vita culturale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿A dónde vas para ver una obra de teatro?",
+      "options": [
+        "A teatro",
+        "Al cinema",
+        "Al museo",
+        "Allo stadio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Mostra d'arte' significa exposición de arte.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vado a un {{1}} di musica rock (concert).",
+      "reponsesAttendues": [
+        "concerto"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el evento cultural.",
+      "pairs": [
+        {
+          "left": "L'opera",
+          "right": "L'opéra"
+        },
+        {
+          "left": "Lo spettacolo",
+          "right": "Le spectacle"
+        },
+        {
+          "left": "Il festival",
+          "right": "Le festival"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'biglietteria'?",
+      "options": [
+        "Taquilla / Venta de billetes",
+        "Entrada",
+        "Salida",
+        "Escenario"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

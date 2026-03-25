@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Ancus Marcius",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Ancus Marcius était le petit-fils de quel autre roi ?",
+      "options": [
+        "Numa Pompilius",
+        "Romulus",
+        "Tullus Hostilius",
+        "Tarquin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Ancus Marcius a fondé le port d'Ostie.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Il a construit le premier pont sur le Tibre : le pont {{1}} (Sublicius).",
+      "reponsesAttendues": [
+        "Sublicius"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les œuvres d'Ancus.",
+      "pairs": [
+        {
+          "left": "Ostie",
+          "right": "Port maritime"
+        },
+        {
+          "left": "Janicule",
+          "right": "Colline fortifiée"
+        },
+        {
+          "left": "Mamertine",
+          "right": "Prison de Rome"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment était surnommé Ancus Marcius ?",
+      "options": [
+        "Le roi bâtisseur et pacifique",
+        "Le guerrier fou",
+        "L'Étranger",
+        "Le Tyran"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

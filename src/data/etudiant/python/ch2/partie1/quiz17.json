@@ -1,0 +1,63 @@
+{
+  "id": "quiz17",
+  "titre": "Accumulation (Somme)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on une variable qui accumule des valeurs dans une boucle (ex: total += i) ?",
+      "options": [
+        "Un accumulateur",
+        "Un distributeur",
+        "Un interrupteur",
+        "Un multiplicateur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il faut initialiser l'accumulateur (ex: total = 0) AVANT de commencer la boucle.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour calculer la somme des nombres de 0 à 4, on écrit dans la boucle : somme {{1}} i (+=).",
+      "reponsesAttendues": [
+        "+="
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'objectif au code.",
+      "pairs": [
+        {
+          "left": "Calculer un total",
+          "right": "total += valeur"
+        },
+        {
+          "left": "Compter des éléments",
+          "right": "compteur += 1"
+        },
+        {
+          "left": "Multiplier (Factorielle)",
+          "right": "produit *= i"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si mon accumulateur est multiplication, à quelle valeur dois-je l'initialiser ?",
+      "options": [
+        "1",
+        "0",
+        "10",
+        "N'importe"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

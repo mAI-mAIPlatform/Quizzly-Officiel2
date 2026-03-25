@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Unités et conversions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est l'unité de vitesse du système international ?",
+      "options": [
+        "Le mètre par seconde (m/s)",
+        "Le kilomètre par heure (km/h)",
+        "Le mille par heure (mph)",
+        "Le mètre par heure (m/h)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour passer des m/s aux km/h, on multiplie par 3,6.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une vitesse de 10 m/s correspond à {{1}} km/h.",
+      "reponsesAttendues": [
+        "36"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe les vitesses équivalentes.",
+      "pairs": [
+        {
+          "left": "20 m/s",
+          "right": "72 km/h"
+        },
+        {
+          "left": "5 m/s",
+          "right": "18 km/h"
+        },
+        {
+          "left": "100 m/s",
+          "right": "360 km/h"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Combien de secondes y a-t-il dans une heure ?",
+      "options": [
+        "3 600 s",
+        "60 s",
+        "100 s",
+        "360 s"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

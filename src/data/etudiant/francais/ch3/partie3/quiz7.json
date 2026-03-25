@@ -1,0 +1,63 @@
+{
+  "id": "quiz27",
+  "titre": "Le Subjonctif Présent (Formation)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison de la 1ère personne du singulier au subjonctif présent ?",
+      "options": [
+        "-e",
+        "-s",
+        "-t",
+        "-ai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour former le subjonctif, on part du radical de la 3e pers. du pluriel du présent.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Que tu {{1}} (finir) ton travail.",
+      "reponsesAttendues": [
+        "finisses"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le verbe irrégulier à sa forme au subjonctif.",
+      "pairs": [
+        {
+          "left": "Être",
+          "right": "Que je sois"
+        },
+        {
+          "left": "Avoir",
+          "right": "Que j'aie"
+        },
+        {
+          "left": "Aller",
+          "right": "Que j'aille"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison des 1ère et 2ème personnes du pluriel ?",
+      "options": [
+        "-ions et -iez",
+        "-ons et -ez",
+        "-ent",
+        "-is et -it"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

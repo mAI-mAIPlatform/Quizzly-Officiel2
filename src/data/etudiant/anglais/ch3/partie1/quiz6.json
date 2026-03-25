@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Future Communication",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is 'Virtual Reality' (VR)?",
+      "options": [
+        "A computer-generated environment seen through a headset",
+        "A dream you have while sleeping",
+        "A very good television",
+        "Speaking to people on the phone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A 'hologram' is a 3D image made with light.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Communicating through brain signals is called {{1}}.",
+      "reponsesAttendues": [
+        "telepathy"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the communication tool with its type.",
+      "pairs": [
+        {
+          "left": "Video call",
+          "right": "Real-time visual communication"
+        },
+        {
+          "left": "Augmented Reality",
+          "right": "Digital info overlaid on the real world"
+        },
+        {
+          "left": "Instant Messaging",
+          "right": "Short text messages sent over the internet"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is the 'metaverse'?",
+      "options": [
+        "A network of 3D virtual worlds focused on social connection",
+        "The collection of all books in the world",
+        "A new type of rocket",
+        "An island in the Pacific"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

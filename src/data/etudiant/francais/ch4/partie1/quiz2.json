@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Le métier de journaliste",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le rôle principal d'un journaliste ?",
+      "options": [
+        "Collecter, vérifier et diffuser l'information",
+        "Exprimer uniquement ses goûts personnels",
+        "Inventer des histoires pour faire peur",
+        "Vendre des publicités"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un journaliste doit toujours vérifier ses sources avant de publier.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le texte qui définit les règles morales des journalistes est la {{1}} de déontologie.",
+      "reponsesAttendues": [
+        "charte"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le type de journaliste à sa fonction.",
+      "pairs": [
+        {
+          "left": "Envoyé spécial",
+          "right": "Se déplace sur un lieu précis"
+        },
+        {
+          "left": "Éditorialiste",
+          "right": "Donne un point de vue engagé"
+        },
+        {
+          "left": "JRI",
+          "right": "Journaliste Reporter d'Images"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le fait de ne pas révéler l'identité d'un témoin ?",
+      "options": [
+        "Le secret des sources",
+        "La censure",
+        "Le plagiat",
+        "La dénonciation"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

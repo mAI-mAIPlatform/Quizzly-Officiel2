@@ -1,0 +1,64 @@
+{
+  "id": "quiz6",
+  "titre": "Introduction aux fractions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans la fraction 3/4, comment appelle-t-on le nombre 4 ?",
+      "options": [
+        "Le numérateur",
+        "Le dénominateur",
+        "Le quotient",
+        "Le diviseur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une fraction avec un numérateur nul est toujours égale à 0.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Simplifie la fraction 10/15 au maximum : {{1}}/{{2}}",
+      "reponsesAttendues": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe les fractions égales.",
+      "pairs": [
+        {
+          "left": "1/2",
+          "right": "5/10"
+        },
+        {
+          "left": "3/4",
+          "right": "9/12"
+        },
+        {
+          "left": "2/5",
+          "right": "4/10"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Laquelle de ces fractions est irréductible ?",
+      "options": [
+        "4/6",
+        "10/12",
+        "7/8",
+        "5/15"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz12",
+  "titre": "Opérateurs Logiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel opérateur nécessite que DEUX conditions soient vraies en même temps ?",
+      "options": [
+        "and",
+        "or",
+        "not",
+        "but"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'opérateur 'or' (ou) renvoie True si au moins une des conditions est vraie.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'opérateur qui inverse une valeur (Vrai devient Faux) est {{1}} (not).",
+      "reponsesAttendues": [
+        "not"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'expression à son résultat.",
+      "pairs": [
+        {
+          "left": "True and False",
+          "right": "False"
+        },
+        {
+          "left": "True or False",
+          "right": "True"
+        },
+        {
+          "left": "not True",
+          "right": "False"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le résultat de : (10 > 5) and (3 < 1) ?",
+      "options": [
+        "False",
+        "True",
+        "10",
+        "Erreur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

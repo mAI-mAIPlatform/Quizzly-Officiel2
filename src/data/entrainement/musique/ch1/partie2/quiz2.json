@@ -1,0 +1,62 @@
+{
+  "id": "quiz2",
+  "titre": "Les Notes de Musique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle note se trouve juste après le 'La' ?",
+      "options": [
+        "Sol",
+        "Si",
+        "Do",
+        "Fa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il existe 7 noms de notes de base en musique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La suite des notes est : Do, Ré, Mi, {{1}}, Sol, La, Si.",
+      "reponsesAttendues": [
+        "Fa"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Do",
+          "right": "C"
+        },
+        {
+          "left": "Ré",
+          "right": "D"
+        },
+        {
+          "left": "La",
+          "right": "A"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle note se trouve entre le Ré et le Fa ?",
+      "options": [
+        "Do",
+        "Mi",
+        "Sol",
+        "La"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

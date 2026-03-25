@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Les Présocratiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel philosophe est considéré comme le 'premier' et affirmait que l'eau est le principe de toutes choses ?",
+      "options": [
+        "Thalès",
+        "Héraclite",
+        "Parménide",
+        "Anaximandre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Héraclite affirmait que 'tout coule' (panta rhei) et que l'on ne se baigne jamais deux fois dans le même fleuve.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le principe fondamental recherché par les présocratiques s'appelle l'{{1}} (arkhê).",
+      "reponsesAttendues": [
+        "arkhê"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le philosophe à son principe.",
+      "pairs": [
+        {
+          "left": "Thalès",
+          "right": "L'eau"
+        },
+        {
+          "left": "Anaximène",
+          "right": "L'air"
+        },
+        {
+          "left": "Héraclite",
+          "right": "Le feu"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Philosophie' ?",
+      "options": [
+        "L'amour de la sagesse",
+        "La peur de la mort",
+        "Le mépris des autres",
+        "La recherche de l'or"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

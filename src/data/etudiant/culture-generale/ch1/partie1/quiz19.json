@@ -1,0 +1,64 @@
+{
+  "id": "quiz9",
+  "titre": "Cas pratique : Blasons",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi servait principalement un blason au Moyen Âge ?",
+      "options": [
+        "À identifier un chevalier ou une famille sur le champ de bataille",
+        "À décorer les assiettes",
+        "À payer les impôts",
+        "À cacher les trous dans les murs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La fleur de lys était le symbole des rois de France.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'étude des blasons et des armoiries s'appelle l'{{1}} (héraldique).",
+      "reponsesAttendues": [
+        "héraldique",
+        "heraldique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la couleur héraldique à son nom technique.",
+      "pairs": [
+        {
+          "left": "Rouge",
+          "right": "Gueules"
+        },
+        {
+          "left": "Bleu",
+          "right": "Azur"
+        },
+        {
+          "left": "Or (Jaune)",
+          "right": "Or"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel animal symbolisait souvent la force et le courage sur un blason ?",
+      "options": [
+        "Le lion",
+        "Le lapin",
+        "Le mouton",
+        "L'escargot"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

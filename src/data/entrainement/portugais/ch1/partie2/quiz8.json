@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Descrição física simples",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Grand' (taille) ?",
+      "options": [
+        "Alto",
+        "Baixo",
+        "Gordo",
+        "Magro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Novo' significa 'Jeune / Nouveau'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ele é muito {{1}} (petit).",
+      "reponsesAttendues": [
+        "baixo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Adjetivos.",
+      "pairs": [
+        {
+          "left": "Forte",
+          "right": "Fort"
+"        },
+        {
+          "left": "Fraco",
+          "right": "Faible"
+        },
+        {
+          "left": "Velho",
+          "right": "Vieux"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Ela é alta ou baixa?",
+      "options": [
+        "Ela é baixa",
+        "Ela é azul",
+        "Ela é dez anos",
+        "Olá"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

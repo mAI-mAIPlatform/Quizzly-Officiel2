@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Asia and Africa",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is the largest continent by population?",
+      "options": [
+        "Asia",
+        "Africa",
+        "Europe",
+        "North America"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Mount Everest is in Africa.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "The Great Wall is in {{1}}.",
+      "reponsesAttendues": [
+        "China"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match.",
+      "pairs": [
+        {
+          "left": "India",
+          "right": "Asia"
+        },
+        {
+          "left": "Kenya",
+          "right": "Africa"
+        },
+        {
+          "left": "Thailand",
+          "right": "Asia"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "In which country can you find Pyramids?",
+      "options": [
+        "Egypt",
+        "Morocco",
+        "Japan",
+        "China"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

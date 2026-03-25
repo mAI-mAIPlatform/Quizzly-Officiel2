@@ -1,0 +1,63 @@
+{
+  "id": "quiz15",
+  "titre": "Modélisation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel modèle utilise-t-on souvent pour représenter les atomes ?",
+      "options": [
+        "Des sphères de couleurs différentes",
+        "Des petits cubes en plastique",
+        "Des dessins de planètes",
+        "Des nuages de fumée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La sphère rouge représente l'atome de carbone.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'atome d'azote est souvent représenté par une sphère de couleur {{1}}.",
+      "reponsesAttendues": [
+        "bleue"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la sphère à son atome.",
+      "pairs": [
+        {
+          "left": "Sphère Blanche",
+          "right": "Hydrogène"
+        },
+        {
+          "left": "Sphère Noire",
+          "right": "Carbone"
+        },
+        {
+          "left": "Sphère Rouge",
+          "right": "Oxygène"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment modélise-t-on une molécule de dioxyde de carbone ?",
+      "options": [
+        "Une bille noire entourée de deux billes rouges",
+        "Deux billes rouges uniquement",
+        "Trois billes noires",
+        "Une bille rouge et deux billes blanches"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

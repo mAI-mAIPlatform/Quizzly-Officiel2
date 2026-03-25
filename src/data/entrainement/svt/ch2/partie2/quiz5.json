@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Les aléas volcaniques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un aléa ?",
+      "options": [
+        "Une chance de gagner",
+        "Le risque qu'un phénomène dangereux se produise",
+        "Une maison",
+        "Le nom d'un volcan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un tsunami peut être provoqué par une éruption volcanique sous-marine.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une coulée de boue volcanique s'appelle un {{1}}.",
+      "reponsesAttendues": [
+        "lahar"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le danger à son effet.",
+      "pairs": [
+        {
+          "left": "Cendres",
+          "right": "Problèmes respiratoires et toits qui s'effondrent"
+        },
+        {
+          "left": "Gaz toxiques",
+          "right": "Asphyxie"
+        },
+        {
+          "left": "Nuée ardente",
+          "right": "Destruction totale sur son passage"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi les populations vivent-elles près des volcans malgré l'aléa ?",
+      "options": [
+        "Elles ne savent pas",
+        "Pour la fertilité des sols et le tourisme",
+        "Pour avoir chaud",
+        "C'est obligatoire"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

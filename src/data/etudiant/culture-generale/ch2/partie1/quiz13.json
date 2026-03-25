@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Séismes et Volcans",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un séisme ?",
+      "options": [
+        "Une vibration brutale du sol causée par le mouvement des plaques tectoniques",
+        "Une grosse tempête de sable",
+        "L'éruption d'un volcan de boue",
+        "Un cri d'animal sauvage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'Magma' est de la roche en fusion située sous la surface de la Terre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'appareil qui enregistre les vibrations de la Terre s'appelle un {{1}} (sismographe).",
+      "reponsesAttendues": [
+        "sismographe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme volcanique à sa définition.",
+      "pairs": [
+        {
+          "left": "Lave",
+          "right": "Magma qui sort à la surface lors d'une éruption"
+        },
+        {
+          "left": "Cratère",
+          "right": "Ouverture au sommet du volcan"
+        },
+        {
+          "left": "Cendres",
+          "right": "Fines particules de roche projetées dans l'air"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on l'échelle qui mesure la magnitude (puissance) d'un séisme ?",
+      "options": [
+        "L'échelle de Richter",
+        "L'échelle de Celsius",
+        "Le mètre",
+        "La règle de 3"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

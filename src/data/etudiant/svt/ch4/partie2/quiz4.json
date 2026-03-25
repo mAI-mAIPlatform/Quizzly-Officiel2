@@ -1,0 +1,63 @@
+{
+  "id": "quiz14",
+  "titre": "La Malnutrition",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la sous-alimentation ?",
+      "options": [
+        "Un apport énergétique insuffisant pour couvrir les besoins vitaux",
+        "Manger uniquement sous la table",
+        "Manger des aliments froids",
+        "Boire trop d'eau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une carence est un manque d'un nutriment spécifique (ex: vitamine).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le manque de vitamine C provoque une maladie appelée le {{1}}.",
+      "reponsesAttendues": [
+        "scorbut"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la carence à son effet.",
+      "pairs": [
+        {
+          "left": "Manque de Calcium",
+          "right": "Fragilité des os"
+        },
+        {
+          "left": "Manque de Fer",
+          "right": "Anémie (fatigue intense)"
+        },
+        {
+          "left": "Manque de Vitamine A",
+          "right": "Troubles de la vision nocturne"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'un des symptômes visibles de la dénutrition sévère ?",
+      "options": [
+        "Une fonte musculaire et une grande fatigue",
+        "Une poussée de cheveux bleus",
+        "Une voix qui devient très aiguë",
+        "Une peau qui devient imperméable"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

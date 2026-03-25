@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Ambitions and Goals",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "How do you say 'Réaliser un rêve'?",
+      "options": [
+        "To achieve a dream",
+        "To make a dream",
+        "To do a dream",
+        "To have a dream realized"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "An 'Ambition' is something you strongly want to do.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "I want to {{1}} English perfectly.",
+      "reponsesAttendues": [
+        "speak"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match goals.",
+      "pairs": [
+        {
+          "left": "Travel",
+          "right": "The world"
+        },
+        {
+          "left": "Learn",
+          "right": "A new language"
+        },
+        {
+          "left": "Win",
+          "right": "A trophy"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What do you say to ask about someone's dream?",
+      "options": [
+        "What is your dream?",
+        "Where is your dream?",
+        "How is your dream?",
+        "Who is your dream?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

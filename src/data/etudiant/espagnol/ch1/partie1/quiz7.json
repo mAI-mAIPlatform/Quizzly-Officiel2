@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Preposiciones de lugar",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es la preposición para indicar destino (aller À) ?",
+      "options": [
+        "a",
+        "en",
+        "por",
+        "de"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Se dice 'Vivir EN España' (posición).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Camino {{1}} la playa (direction/vers).",
+      "reponsesAttendues": [
+        "hacia"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la preposición con su uso.",
+      "pairs": [
+        {
+          "left": "a",
+          "right": "Movimiento hacia un lugar"
+        },
+        {
+          "left": "en",
+          "right": "Lugar donde se está (estática)"
+        },
+        {
+          "left": "de",
+          "right": "Origen o procedencia"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'por la ciudad'?",
+      "options": [
+        "À travers / dans la ville",
+        "Contre la ville",
+        "Sous la ville",
+        "Sans la ville"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

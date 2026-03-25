@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Risques Sanitaires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle attitude citoyenne est attendue lors d'une épidémie grave ?",
+      "options": [
+        "Respecter les gestes barrières et les consignes de santé",
+        "Ignorer le problème et sortir partout",
+        "Crier partout que c'est un complot",
+        "Se cacher dans sa cave sans rien dire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La vaccination est un acte qui protège à la fois la personne et la collectivité.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'organisme mondial de veille sanitaire s'appelle l'{{1}} (OMS).",
+      "reponsesAttendues": [
+        "OMS"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme à sa définition.",
+      "pairs": [
+        {
+          "left": "Pandémie",
+          "right": "Épidémie qui s'étend au monde entier"
+        },
+        {
+          "left": "Quarantaine",
+          "right": "Isolement pour éviter la propagation"
+        },
+        {
+          "left": "Gestes barrières",
+          "right": "Actions préventives (masque, lavage de mains)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle liberté peut être temporairement limitée pour protéger la santé publique ?",
+      "options": [
+        "La liberté d'aller et venir (circulation)",
+        "La liberté de pensée",
+        "Le droit à l'éducation",
+        "Le droit de vote"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

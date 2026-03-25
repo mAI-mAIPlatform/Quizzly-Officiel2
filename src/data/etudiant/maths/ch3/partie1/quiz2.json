@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "La moyenne pondérée",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans une moyenne pondérée, que signifie le 'coefficient' ?",
+      "options": [
+        "L'importance ou le poids de la valeur",
+        "Un nombre au hasard",
+        "La valeur la plus grande",
+        "Le reste de la division"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour calculer la moyenne pondérée, on divise par la somme des coefficients.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une note 10 (coeff 2) et une note 16 (coeff 1) donnent une moyenne de {{1}}.",
+      "reponsesAttendues": [
+        "12"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le calcul au résultat.",
+      "pairs": [
+        {
+          "left": "(10x1 + 20x1) / 2",
+          "right": "15"
+        },
+        {
+          "left": "(10x2 + 20x1) / 3",
+          "right": "13,3"
+        },
+        {
+          "left": "(10x1 + 20x2) / 3",
+          "right": "16,7"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel coefficient donne le plus de poids à une note ?",
+      "options": [
+        "0,5",
+        "1",
+        "2",
+        "5"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

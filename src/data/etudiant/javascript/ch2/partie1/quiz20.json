@@ -1,0 +1,63 @@
+{
+  "id": "quiz20",
+  "titre": "Synthèse Modif.",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment changer la couleur de fond d'un élément d'ID 'fond' ?",
+      "options": [
+        "document.getElementById(\"fond\").style.backgroundColor = \"blue\"",
+        "document.getElementById(\"fond\").backgroundColor = \"blue\"",
+        "fond.color = \"blue\"",
+        "fond.background.style = \"blue\""
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "innerText interprète les balises <b> comme du gras.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La meilleure façon d'ajouter du style complexe est d'utiliser classList.{{1}}(\"mille-couleurs\") (add).",
+      "reponsesAttendues": [
+        "add"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'objectif au code.",
+      "pairs": [
+        {
+          "left": "Changer le texte",
+          "right": "innerText"
+        },
+        {
+          "left": "Gérer les classes",
+          "right": "classList"
+        },
+        {
+          "left": "Modifier attribut",
+          "right": "setAttribute"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle propriété préférez-vous pour la sécurité ?",
+      "options": [
+        "innerText (car elle n'exécute pas de code HTML malveillant)",
+        "innerHTML",
+        "style",
+        "src"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

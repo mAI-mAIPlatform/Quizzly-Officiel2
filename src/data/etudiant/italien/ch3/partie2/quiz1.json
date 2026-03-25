@@ -1,0 +1,63 @@
+{
+  "id": "quiz11",
+  "titre": "Passato Prossimo (Essere)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué pasa con el participio cuando el auxiliar es 'essere'?",
+      "options": [
+        "Concuerda con el sujeto",
+        "Nunca cambia",
+        "Siempre termina en -o",
+        "Siempre termina en -e"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si una chica dice 'he ido', dirá: 'Sono andata'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Noi (maschile) {{1}} arrivati (somos).",
+      "reponsesAttendues": [
+        "siamo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la concordancia del participio.",
+      "pairs": [
+        {
+          "left": "Lui è",
+          "right": "andato"
+        },
+        {
+          "left": "Lei è",
+          "right": "andata"
+        },
+        {
+          "left": "Loro sono",
+          "right": "andati / andate"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo dicen 'vosotras habéis salido'?",
+      "options": [
+        "Siete uscite",
+        "Siete usciti",
+        "Siete uscito",
+        "Siete uscita"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

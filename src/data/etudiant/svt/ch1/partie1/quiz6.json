@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Les Séismes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle le point souterrain d'où part la rupture d'un séisme ?",
+      "options": [
+        "Le foyer (ou hypocentre)",
+        "L'épicentre",
+        "La faille",
+        "Le cratère"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'épicentre est le point à la surface où les secousses sont les plus fortes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'appareil qui enregistre les ondes sismiques s'appelle un {{1}}.",
+      "reponsesAttendues": [
+        "sismographe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'échelle sismique à sa mesure.",
+      "pairs": [
+        {
+          "left": "Échelle de Richter",
+          "right": "Magnétude (énergie libérée)"
+        },
+        {
+          "left": "Échelle MSK (ou Mercalli)",
+          "right": "Intensité (dégâts visibles)"
+        },
+        {
+          "left": "Ondes P",
+          "right": "Ondes les plus rapides"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la cause principale de la majorité des séismes ?",
+      "options": [
+        "La rupture brutale des roches le long d'une faille",
+        "Le vent trop fort",
+        "Le passage d'un train",
+        "La chute d'une météorite"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

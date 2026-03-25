@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Culture Synthesis",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is the best definition of 'culture'?",
+      "options": [
+        "The shared beliefs, customs, and art of a group of people",
+        "The type of money used in a country",
+        "The number of people in a city",
+        "The height of the mountains"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Traditions never change and always stay the same for 1000 years.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A mix of many different cultures in one place is called multi-{{1}}.",
+      "reponsesAttendues": [
+        "culturalism"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the cultural element to its category.",
+      "pairs": [
+        {
+          "left": "Statue of Liberty",
+          "right": "Iconic Monument"
+        },
+        {
+          "left": "Jazz",
+          "right": "Musical Genre"
+        },
+        {
+          "left": "Handshake",
+          "right": "Social Custom"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Why is it important to learn about other cultures?",
+      "options": [
+        "To understand, respect, and connect with people around the world",
+        "To know which country has the best toys",
+        "To learn how to draw maps",
+        "It is not important at all"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

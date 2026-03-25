@@ -1,0 +1,64 @@
+{
+  "id": "quiz13",
+  "titre": "Paramètres et Arguments",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un paramètre dans une fonction ?",
+      "options": [
+        "Une variable locale qui recevra une valeur lors de l'appel",
+        "Le titre de la fonction",
+        "Le nombre de lignes de code",
+        "Une erreur de syntaxe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On appelle 'arguments' les valeurs réelles transmises à la fonction lors de son appel.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si j'ai 'def dire(nom):', le mot 'nom' est le {{1}} (paramètre).",
+      "reponsesAttendues": [
+        "paramètre",
+        "parametre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le but au code.",
+      "pairs": [
+        {
+          "left": "Fonction sans paramètre",
+          "right": "def f():"
+        },
+        {
+          "left": "Fonction avec 1 paramètre",
+          "right": "def f(x):"
+        },
+        {
+          "left": "Appel avec argument",
+          "right": "f(10)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que fait def double(n): print(n * 2) ?",
+      "options": [
+        "Elle affiche le double du nombre passé en argument",
+        "Elle multiplie par 2 tous les nombres du script",
+        "Elle crée une copie du fichier",
+        "Elle ne fait rien"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

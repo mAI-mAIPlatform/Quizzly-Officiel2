@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "La Balise Title",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où se place la balise <title> ?",
+      "options": [
+        "Dans le <head>",
+        "Dans le <body>",
+        "Dans le <header>",
+        "Tout à la fin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le titre s'affiche dans l'onglet du navigateur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le title est l'élément le plus important pour le {{1}} (référencement).",
+      "reponsesAttendues": [
+        "SEO"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Impact du Title.",
+      "pairs": [
+        {
+          "left": "Navigateur",
+          "right": "Nom de l'onglet"
+        },
+        {
+          "left": "Google",
+          "right": "Lien bleu des résultats"
+        },
+        {
+          "left": "Favoris",
+          "right": "Nom enregistré"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la longueur idéale (environ) d'un titre ?",
+      "options": [
+        "50 à 60 caractères",
+        "10 caractères",
+        "200 caractères",
+        "Pas de limite"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

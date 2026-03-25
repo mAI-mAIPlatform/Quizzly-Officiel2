@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Les chiffres de 0 à 10",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Zéro' ?",
+      "options": [
+        "Zero",
+        "Nullo",
+        "Niente",
+        "Zeta"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Tre' s'écrit avec un accent en italien.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le chiffre 5 se dit '{{1}}'.",
+      "reponsesAttendues": [
+        "cinque"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le chiffre à son nom.",
+      "pairs": [
+        {
+          "left": "1",
+          "right": "Uno"
+        },
+        {
+          "left": "2",
+          "right": "Due"
+        },
+        {
+          "left": "4",
+          "right": "Quattro"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Huit' ?",
+      "options": [
+        "Sette",
+        "Nove",
+        "Otto",
+        "Dieci"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

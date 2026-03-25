@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Masse et Volume de l'eau",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la masse d'un litre d'eau pure ?",
+      "options": [
+        "500 g",
+        "1 kg (1000 g)",
+        "2 kg",
+        "800 g"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "1 mL d'eau pure pèse exactement 1 gramme.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour l'eau, la valeur numérique de la masse en g est égale au {{1}} en mL.",
+      "reponsesAttendues": [
+        "volume"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le volume à sa masse (pour l'eau).",
+      "pairs": [
+        {
+          "left": "100 mL",
+          "right": "100 g"
+        },
+        {
+          "left": "0,5 L",
+          "right": "500 g"
+        },
+        {
+          "left": "2 L",
+          "right": "2 kg"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Est-ce vrai pour tous les liquides (ex: huile) ?",
+      "options": [
+        "Oui, 1L pèse toujours 1kg",
+        "Non, chaque liquide a sa propre masse volumique (l'huile est plus légère)",
+        "Seulement pour les liquides transparents",
+        "Seulement si on les chauffe"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

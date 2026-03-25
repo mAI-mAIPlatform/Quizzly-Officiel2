@@ -1,0 +1,62 @@
+{
+  "id": "quiz4",
+  "titre": "Musique Classique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces compositeurs était un enfant prodige ?",
+      "options": [
+        "Johann Sebastian Bach",
+        "Wolfgang Amadeus Mozart",
+        "Ludwig van Beethoven",
+        "Richard Wagner"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Beethoven est devenu sourd à la fin de sa vie.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'auteur des 'Quatre Saisons' est Antonio {{1}}.",
+      "reponsesAttendues": [
+        "Vivaldi"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "9ème Symphonie",
+          "right": "Beethoven"
+        },
+        {
+          "left": "La Flûte enchantée",
+          "right": "Mozart"
+        },
+        {
+          "left": "Le Lac des cygnes",
+          "right": "Tchaïkovski"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel instrument est au cœur de l'œuvre de Frédéric Chopin ?",
+      "options": [
+        "Le Violon",
+        "Le Piano",
+        "La Flûte",
+        "La Trompette"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

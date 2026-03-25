@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "La Pax Romana",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la 'Pax Romana' ?",
+      "options": [
+        "Une longue période de paix et de stabilité",
+        "Une arme romaine",
+        "Un temple célèbre",
+        "Le nom d'un dieu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Pax Romana a favorisé le commerce et les arts.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le célèbre poète protégé d'Auguste est {{1}} (Virgile).",
+      "reponsesAttendues": [
+        "Virgile"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les caractéristiques.",
+      "pairs": [
+        {
+          "left": "Limes",
+          "right": "Frontière fortifiée"
+        },
+        {
+          "left": "Mécène",
+          "right": "Protecteur des arts"
+        },
+        {
+          "left": "Autel de la Paix",
+          "right": "Ara Pacis"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel était le but principal de la Pax Romana ?",
+      "options": [
+        "Unifier l'Empire sous une autorité stable",
+        "Faire la guerre partout",
+        "Détruire Rome",
+        "Arrêter de parler latin"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

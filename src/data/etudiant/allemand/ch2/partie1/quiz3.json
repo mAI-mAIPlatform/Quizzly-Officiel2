@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Mein Tagesablauf",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Se lever'?",
+      "options": [
+        "Aufstehen",
+        "Schlafen",
+        "Essen",
+        "Laufen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Frühstücken' significa 'almorzar'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich {{1}} um sieben Uhr auf (se lever).",
+      "reponsesAttendues": [
+        "stehe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la acción diaria.",
+      "pairs": [
+        {
+          "left": "Zur Schule gehen",
+          "right": "Aller à l'école"
+        },
+        {
+          "left": "Hausaufgaben machen",
+          "right": "Faire les devoirs"
+        },
+        {
+          "left": "Schlafen gehen",
+          "right": "Aller dormir"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'fernsehen'?",
+      "options": [
+        "Vedere la televisión",
+        "Escuchar música",
+        "Leer un libro",
+        "Hablar por teléfono"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

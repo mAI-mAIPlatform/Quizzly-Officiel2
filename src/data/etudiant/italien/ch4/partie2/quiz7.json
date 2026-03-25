@@ -1,0 +1,63 @@
+{
+  "id": "quiz17",
+  "titre": "Futuro (Review)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Mañana será'?",
+      "options": [
+        "Domani sarà",
+        "Domani è",
+        "Domani era",
+        "Domani sarò"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El futuro de 'Dovere' es 'Dovrò'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Loro {{1}} (partirán/partir) lunedì.",
+      "reponsesAttendues": [
+        "partiranno"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el futuro irregular.",
+      "pairs": [
+        {
+          "left": "Vedere",
+          "right": "Vedrò"
+        },
+        {
+          "left": "Potere",
+          "right": "Potrò"
+        },
+        {
+          "left": "Sapere",
+          "right": "Saprò"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Lo haré'?",
+      "options": [
+        "Lo farò",
+        "Il farò",
+        "La farò",
+        "Li farò"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

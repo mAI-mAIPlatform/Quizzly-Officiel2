@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Desportos 1 (Sports)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Le football' ?",
+      "options": [
+        "O futebol",
+        "O ténis",
+        "A natação",
+        "O surf"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Natação' é praticada na piscina ou no mar.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu jogo {{1}} (tennis) ao fim de semana.",
+      "reponsesAttendues": [
+        "ténis"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Desportos.",
+      "pairs": [
+        {
+          "left": "Correr",
+          "right": "Courir"
+        },
+        {
+          "left": "Saltar",
+          "right": "Sauter"
+        },
+        {
+          "left": "Treinar",
+          "right": "S'entraîner"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qual é o desporto nacional de Portugal?",
+      "options": [
+        "O futebol",
+        "O basebol",
+        "O cricket",
+        "O esqui"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

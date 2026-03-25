@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Expressions célèbres",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'Ad hoc' ?",
+      "options": [
+        "Pour cet usage précis",
+        "Vers le haut",
+        "A l'infini",
+        "Sans limite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'A priori' signifie 'D'après ce qui précède / Au premier abord'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'expression pour dire 'de la même manière' est 'Idem {{1}}' (per idem).",
+      "reponsesAttendues": [
+        "per"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'expression.",
+      "pairs": [
+        {
+          "left": "Manu militari",
+          "right": "Par la force"
+        },
+        {
+          "left": "Ipso facto",
+          "right": "Par le fait même"
+        },
+        {
+          "left": "Persona non grata",
+          "right": "Personne non bienvenue"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Sine qua non' ?",
+      "options": [
+        "Indispensable (sans laquelle non...)",
+        "Sans aucun doute",
+        "Rien à faire",
+        "En chantant"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "quiz4",
+  "titre": "La Guerre de Troie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle ruse a permis aux Grecs de gagner la guerre de Troie ?",
+      "options": [
+        "Un immense mur",
+        "Un cheval de bois géant",
+        "Un tunnel sous la ville",
+        "Une attaque de nuit par la mer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Hector était le plus grand héros des Troyens.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'auteur présumé de l'Iliade et de l'Odyssée est {{1}}.",
+      "reponsesAttendues": [
+        "Homère"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Pâris",
+          "right": "A enlevé Hélène"
+        },
+        {
+          "left": "Ménélas",
+          "right": "Mari d'Hélène"
+        },
+        {
+          "left": "Priam",
+          "right": "Roi de Troie"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Combien de temps a duré le siège de Troie ?",
+      "options": [
+        "1 an",
+        "5 ans",
+        "10 ans",
+        "20 ans"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

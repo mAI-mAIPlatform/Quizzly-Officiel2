@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Contestation de l'Absolutisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la monarchie absolue de droit divin ?",
+      "options": [
+        "Le Roi a tous les pouvoirs venant de Dieu",
+        "Le Roi est élu par le peuple",
+        "Le Roi partage son pouvoir avec un Parlement",
+        "Le Roi n'a aucun pouvoir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les philosophes critiquent le fait que le Roi puisse emprisonner sans jugement (lettre de cachet).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le régime politique admiré par les Lumières car il limite le pouvoir du roi est la monarchie {{1}} (en Angleterre).",
+      "reponsesAttendues": [
+        "parlementaire"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la critique à son auteur.",
+      "pairs": [
+        {
+          "left": "Contre le despotisme",
+          "right": "Montesquieu"
+        },
+        {
+          "left": "Contre l'injustice religieuse",
+          "right": "Voltaire"
+        },
+        {
+          "left": "Contre l'inégalité de naissance",
+          "right": "Rousseau"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment les philosophes voient-ils le citoyen ?",
+      "options": [
+        "Comme un individu doué de droits naturels",
+        "Comme un esclave du Roi",
+        "Comme un simple numéro",
+        "Comme un ennemi de l'État"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

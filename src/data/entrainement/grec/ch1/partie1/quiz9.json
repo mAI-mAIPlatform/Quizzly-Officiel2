@@ -1,0 +1,62 @@
+{
+  "id": "quiz9",
+  "titre": "Le Corps Humain",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'Kephalê' ?",
+      "options": [
+        "La tête",
+        "Le cœur",
+        "La main",
+        "Le pied"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Kheir' signifie la main (pensez à chirurgien).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le cœur se dit {{1}} en grec.",
+      "reponsesAttendues": [
+        "Kardia"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Ophthalmos",
+          "right": "Œil"
+        },
+        {
+          "left": "Pous",
+          "right": "Pied"
+        },
+        {
+          "left": "Stoma",
+          "right": "Bouche"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Le sang' ?",
+      "options": [
+        "Haima",
+        "Hydôr",
+        "Pyros",
+        "Gê"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

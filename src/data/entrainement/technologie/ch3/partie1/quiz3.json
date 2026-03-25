@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "L'Adresse IP et DNS",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert l'adresse IP ?",
+      "options": [
+        "À identifier de façon unique chaque machine sur un réseau",
+        "À connaître la vitesse du processeur",
+        "À payer sa facture Internet",
+        "À allumer l'ordinateur à distance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le DNS permet de transformer un nom (ex: google.fr) en adresse IP.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une adresse IP classique (v4) est composée de {{1}} nombres séparés par des points.",
+      "reponsesAttendues": [
+        "4"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Identifiants.",
+      "pairs": [
+        {
+          "left": "Adresse MAC",
+          "right": "Identifiant physique unique (carte réseau)"
+        },
+        {
+          "left": "Adresse IP",
+          "right": "Identifiant logique sur le réseau"
+        },
+        {
+          "left": "Nom de domaine",
+          "right": "Adresse facile à retenir (ex: qui.zzly)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel ressemble à une adresse IP valide ?",
+      "options": [
+        "192.168.1.1",
+        "abc.def.ghi.jkl",
+        "12345678",
+        "admin@reseau.fr"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

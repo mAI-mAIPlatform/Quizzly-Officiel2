@@ -1,0 +1,64 @@
+{
+  "id": "quiz8",
+  "titre": "Vocabulaire Numérique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un algorithme de recommandation ?",
+      "options": [
+        "Un programme qui te propose des contenus selon tes goûts",
+        "Un virus informatique dangereux",
+        "Le nom d'un nouveau réseau social",
+        "Un bouton pour éteindre l'écran"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'phishing' (ou hameçonnage) est une technique pour voler des mots de passe en se faisant passer pour une banque par exemple.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La sécurité d'un site web se reconnaît souvent au petit {{1}} (cadenas) vert.",
+      "reponsesAttendues": [
+        "cadenas"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme technique à son sens.",
+      "pairs": [
+        {
+          "left": "Malware",
+          "right": "Logiciel malveillant (virus)"
+        },
+        {
+          "left": "Cloud",
+          "right": "Stockage de données sur des serveurs distants"
+        },
+        {
+          "left": "Pare-feu",
+          "right": "Système de protection du réseau"
+"correctLink"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'HTTP S' ?",
+      "options": [
+        "Le 'S' signifie Sécurisé",
+        "Le 'S' signifie Super Rapide",
+        "Le 'S' signifie Sans fil",
+        "Le 'S' ne signifie rien"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

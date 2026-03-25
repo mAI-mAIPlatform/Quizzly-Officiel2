@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Calculs de Moyenne pondérée (Intro)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Une note de 10 (coeff 1) et une note de 20 (coeff 1) donnent une moyenne de :",
+      "options": [
+        "10",
+        "15",
+        "20",
+        "30"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le coefficient multiplie l'importance de la note dans le calcul.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour calculer une moyenne pondérée, on divise la somme des produits (note × coeff) par la somme des {{1}}.",
+      "reponsesAttendues": [
+        "coefficients"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Calcule la moyenne.",
+      "pairs": [
+        {
+          "left": "10 (coeff 2) et 20 (coeff 1)",
+          "right": "13.33"
+        },
+        {
+          "left": "10 (coeff 1) et 16 (coeff 2)",
+          "right": "14"
+        },
+        {
+          "left": "5 (coeff 1) et 15 (coeff 1)",
+          "right": "10"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si j'ai 12/20 (coeff 3), quel est le total des points ?",
+      "options": [
+        "12",
+        "24",
+        "36",
+        "60"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

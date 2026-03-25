@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Les Jeux et les Enfants",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Avec quoi jouaient souvent les enfants grecs ?",
+      "options": [
+        "Des osselets, des toupies et des poupées en terre cuite",
+        "Des tablettes numériques",
+        "Des épées en fer réel",
+        "Rien, ils travaillaient tout le temps"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'éducation des garçons à Athènes comprenait la gymnastique et la musique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le maître d'école à Athènes s'appelle le '{{1}}' (grammatistês).",
+      "reponsesAttendues": [
+        "grammatistês"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme d'enfance.",
+      "pairs": [
+        {
+          "left": "ho pais",
+          "right": "L'enfant"
+        },
+        {
+          "left": "paideia",
+          "right": "L'éducation"
+        },
+        {
+          "left": "paidagôgos",
+          "right": "L'esclave chargé de conduire l'enfant"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "À quel âge commençait généralement l'école pour les garçons ?",
+      "options": [
+        "7 ans",
+        "12 ans",
+        "3 ans",
+        "15 ans"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

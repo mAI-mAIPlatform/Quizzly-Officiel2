@@ -1,0 +1,63 @@
+{
+  "id": "quiz14",
+  "titre": "Lorenzaccio (Musset)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quelle ville se déroule l'action de Lorenzaccio ?",
+      "options": [
+        "Florence",
+        "Venise",
+        "Rome",
+        "Paris"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Lorenzo veut assassiner son cousin, le duc Alexandre de Médicis.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Lorenzo porte un masque de vice pour mieux approcher sa {{1}}.",
+      "reponsesAttendues": [
+        "victime"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le personnage à sa caractéristique.",
+      "pairs": [
+        {
+          "left": "Alexandre",
+          "right": "Tyran débauché"
+        },
+        {
+          "left": "Lorenzo",
+          "right": "Héros désabusé et complexe"
+        },
+        {
+          "left": "Strozzi",
+          "right": "Famille républicaine opposée"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la vision de la société dans Lorenzaccio ?",
+      "options": [
+        "Une société corrompue où le sacrifice est inutile",
+        "Une société en marche vers le progrès",
+        "Une société parfaite",
+        "On ne parle pas de société"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

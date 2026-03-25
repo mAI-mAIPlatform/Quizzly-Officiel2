@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Alphabet & Aussprache",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se llama la letra 'ß'?",
+      "options": [
+        "Eszett / Scharfes S",
+        "Beta",
+        "Double S",
+        "Zeta"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Las letras ä, ö, ü se llaman 'Umlaute'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La palabra para 'œuf' es {{1}} (Ei).",
+      "reponsesAttendues": [
+        "Ei"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el sonido del diptongo.",
+      "pairs": [
+        {
+          "left": "ei",
+          "right": "Suena como 'ai' (Mein)"
+        },
+        {
+          "left": "ie",
+          "right": "Suena como una 'i' larga (Wie)"
+        },
+        {
+          "left": "au",
+          "right": "Suena como 'ao' (Haus)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo suena la 'v' en alemán (generalmente)?",
+      "options": [
+        "Como una 'f' (Vater)",
+        "Como una 'v' francesa",
+        "Como una 'b' española",
+        "No tiene sonido"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz15",
+  "titre": "Giorni della settimana",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué día viene después de 'Lunedì'?",
+      "options": [
+        "Martedì",
+        "Mercoledì",
+        "Giovedì",
+        "Venerdì"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Sabato' y 'Domenica' forman el fin de semana.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Oggi è {{1}} (mercredi).",
+      "reponsesAttendues": [
+        "mercoledì"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el día.",
+      "pairs": [
+        {
+          "left": "Giovedì",
+          "right": "Jeudi"
+        },
+        {
+          "left": "Venerdì",
+          "right": "Vendredi"
+        },
+        {
+          "left": "Domenica",
+          "right": "Dimanche"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Semana'?",
+      "options": [
+        "Settimana",
+        "Giorno",
+        "Mese",
+        "Anno"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

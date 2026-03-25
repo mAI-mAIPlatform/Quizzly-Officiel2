@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan : Adjectifs et Contraires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel est un adjectif qualificatif ?",
+      "options": [
+        "Grande",
+        "Oggi",
+        "Molto",
+        "Per"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les adjectifs enrichissent la langue et permettent de mieux décrire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le contraire de 'Brutto' (laid) est '{{1}}' (beau).",
+      "reponsesAttendues": [
+        "bello"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dernière synthèse :",
+      "pairs": [
+        {
+          "left": "Veloce",
+          "right": "Rapide"
+        },
+        {
+          "left": "Lento",
+          "right": "Lent"
+        },
+        {
+          "left": "Sempre",
+          "right": "Toujours"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour la partie 2 sur les Expressions ?",
+      "options": [
+        "Sì!",
+        "Andiamo!",
+        "Vérifions les adjectifs",
+        "Prontissimo"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

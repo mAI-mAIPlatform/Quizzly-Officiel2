@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Les débuts du Jazz",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quelle ville américaine le Jazz est-il né au début du XXème siècle ?",
+      "options": [
+        "La Nouvelle-Orléans",
+        "New York",
+        "Los Angeles",
+        "Chicago"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Jazz tire ses racines des chants de travail (work songs) et du blues des esclaves afro-américains.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'un des plus célèbres trompettistes de Jazz, surnommé 'Satchmo', est Louis {{1}} (Armstrong).",
+      "reponsesAttendues": [
+        "Armstrong"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le style de Jazz à son époque.",
+      "pairs": [
+        {
+          "left": "Blues",
+          "right": "Chants mélancoliques sur 12 mesures"
+        },
+        {
+          "left": "Swing",
+          "right": "Jazz dansant des grands orchestres (Big Bands)"
+        },
+        {
+          "left": "Ragtime",
+          "right": "Style de piano syncopé très populaire (ex: Scott Joplin)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel principe fondamental permet aux musiciens de Jazz d'inventer des mélodies en direct ?",
+      "options": [
+        "L'improvisation",
+        "La lecture stricte de la partition",
+        "Le playback",
+        "Le chant grégorien"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

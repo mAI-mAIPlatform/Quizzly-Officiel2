@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Les spectacles (Spectacula)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où se déroulaient les combats de gladiateurs ?",
+      "options": [
+        "L'amphithéâtre",
+        "Le théâtre",
+        "Le cirque",
+        "Le forum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'Circus Maximus' était utilisé pour les courses de chars.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les Romains aimaient le théâtre, surtout les {{1}} (pièces à masques).",
+      "reponsesAttendues": [
+        "comédies"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le lieu au spectacle.",
+      "pairs": [
+        {
+          "left": "Amphitheatrum",
+          "right": "Gladiateurs"
+        },
+        {
+          "left": "Circus",
+          "right": "Courses de chars"
+        },
+        {
+          "left": "Theatrum",
+          "right": "Tragédies / Comédies"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'arène ovale à Rome ?",
+      "options": [
+        "Le Colisée",
+        "Le Panthéon",
+        "La Curie",
+        "Le Capitole"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

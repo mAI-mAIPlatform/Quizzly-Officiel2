@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Mix Énergétique et Avenir",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le mix énergétique ?",
+      "options": [
+        "Une boisson énergisante",
+        "La répartition des différentes sources d'énergie dans une consommation donnée",
+        "Un mélange de fils électriques",
+        "Un concours de science"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La transition énergétique vise à augmenter la part des énergies renouvelables.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour limiter le réchauffement climatique, il faut réduire les énergies {{1}}.",
+      "reponsesAttendues": [
+        "fossiles"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le défi.",
+      "pairs": [
+        {
+          "left": "Transport",
+          "right": "Se passer du pétrole"
+        },
+        {
+          "left": "Électricité",
+          "right": "Remplacer le gaz/charbon"
+        },
+        {
+          "left": "Chauffage",
+          "right": "Mieux isoler les bâtiments"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la meilleure énergie ?",
+      "options": [
+        "Le pétrole",
+        "Le solaire",
+        "Celle que l'on ne consomme pas !",
+        "Le nucléaire"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

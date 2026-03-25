@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Wohin fährst du?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'À la mer' ?",
+      "options": [
+        "Ans Meer",
+        "In die Berge",
+        "In die Stadt",
+        "Aufs Land"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Urlaub' bedeutet 'Vacances'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich fahre in die {{1}} (montagnes).",
+      "reponsesAttendues": [
+        "Berge"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Ziele.",
+      "pairs": [
+        {
+          "left": "Ausland",
+          "right": "Étranger"
+        },
+        {
+          "left": "Heimat",
+          "right": "Pays d'origine"
+        },
+        {
+          "left": "Insel",
+          "right": "Île"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Wann hast du Urlaub?",
+      "options": [
+        "Im Sommer",
+        "Ich bin Urlaub",
+        "Urlaub ist ein Brot",
+        "Hallo Urlaub"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

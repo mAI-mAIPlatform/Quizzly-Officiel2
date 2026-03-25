@@ -1,0 +1,63 @@
+{
+  "id": "quiz23",
+  "titre": "Identification par Masse Volumique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi la masse volumique est-elle une caractéristique d'une substance ?",
+      "options": [
+        "Parce qu'elle ne dépend pas de la taille de l'échantillon",
+        "Parce qu'elle change tout le temps",
+        "Parce qu'elle est toujours égale à 1",
+        "Parce qu'elle est facile à dessiner"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'huile flotte sur l'eau car sa masse volumique est supérieure à celle de l'eau.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un métal ayant une masse volumique de 7,9 g/cm3 est probablement du {{1}}.",
+      "reponsesAttendues": [
+        "fer"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la substance à sa masse volumique approximative.",
+      "pairs": [
+        {
+          "left": "Aluminium",
+          "right": "2.7 g/cm3"
+        },
+        {
+          "left": "Or",
+          "right": "19.3 g/cm3"
+        },
+        {
+          "left": "Air",
+          "right": "0.0013 g/cm3"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si un liquide a une masse volumique de 0,79 g/cm3, c'est probablement :",
+      "options": [
+        "De l'éthanol (alcool)",
+        "De l'eau salée",
+        "Du mercure liquide",
+        "Du sirop de menthe"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

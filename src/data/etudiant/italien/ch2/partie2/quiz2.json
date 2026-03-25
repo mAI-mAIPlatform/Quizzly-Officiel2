@@ -1,0 +1,63 @@
+{
+  "id": "quiz12",
+  "titre": "Fare sport",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Jugar al fútbol'?",
+      "options": [
+        "Giocare a calcio",
+        "Fare nuoto",
+        "Giocare a tennis",
+        "Fare sci"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Pallavolo' significa 'voleibol'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vado in piscina per {{1}} (nager).",
+      "reponsesAttendues": [
+        "nuotare"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el deporte.",
+      "pairs": [
+        {
+          "left": "Sci",
+          "right": "Ski"
+        },
+        {
+          "left": "Ciclismo",
+          "right": "Cyclisme"
+        },
+        {
+          "left": "Equitazione",
+          "right": "Équitation"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'allenarsi'?",
+      "options": [
+        "Entrenar / Ejercitarse",
+        "Dormir",
+        "Estudiar",
+        "Cuidar"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

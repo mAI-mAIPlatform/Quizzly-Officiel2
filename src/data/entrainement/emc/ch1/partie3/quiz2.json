@@ -1,0 +1,62 @@
+{
+  "id": "quiz2",
+  "titre": "Les Réseaux Sociaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le principal but d'un réseau social ?",
+      "options": [
+        "Acheter des vêtements",
+        "Partager des contenus et interagir avec d'autres personnes",
+        "Réparer des ordinateurs",
+        "Lire uniquement des livres physiques"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Toutes les informations partagées sur les réseaux sociaux sont vraies.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un réseau social est basé sur une {{1}} en ligne d'utilisateurs.",
+      "reponsesAttendues": [
+        "communauté"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Profil",
+          "right": "Ma page personnelle"
+        },
+        {
+          "left": "Abonnés (Followers)",
+          "right": "Ceux qui suivent mes publications"
+        },
+        {
+          "left": "Confidentialité",
+          "right": "Réglages pour protéger mes données"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel danger peut représenter un usage excessif des réseaux sociaux ?",
+      "options": [
+        "L'isolement social et la dépendance",
+        "Devenir trop intelligent",
+        "Gagner trop d'argent",
+        "Mieux dormir"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

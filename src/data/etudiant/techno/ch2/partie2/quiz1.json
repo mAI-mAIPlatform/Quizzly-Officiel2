@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Analyse du Besoin",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel outil graphique permet de définir le besoin d'un objet technique ?",
+      "options": [
+        "Le diagramme 'Bête à cornes'",
+        "Le diagramme 'Pieuvre'",
+        "Une photo du produit",
+        "Un dessin à main levée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La question 'À qui l'objet rend-il service ?' fait partie de l'analyse du besoin.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'objet doit répondre à un {{1}} (besoin) de l'utilisateur.",
+      "reponsesAttendues": [
+        "besoin"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la question de la bête à cornes à son sujet.",
+      "pairs": [
+        {
+          "left": "À qui ?",
+          "right": "L'utilisateur (le client)"
+        },
+        {
+          "left": "Sur quoi ?",
+          "right": "La matière d'œuvre"
+        },
+        {
+          "left": "Dans quel but ?",
+          "right": "La fonction globale"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il important d'analyser le besoin avant de fabriquer ?",
+      "options": [
+        "Pour éviter de créer un objet inutile ou inadapté",
+        "Pour perdre du temps au début",
+        "Pour utiliser plus de papier",
+        "C'est une tradition sans importance"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

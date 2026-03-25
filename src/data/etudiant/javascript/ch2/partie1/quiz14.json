@@ -1,0 +1,63 @@
+{
+  "id": "quiz14",
+  "titre": "Ajouter des Classes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle propriété permet de gérer les classes CSS d'un élément ?",
+      "options": [
+        "classList",
+        "className",
+        "class",
+        "addStyle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La méthode classList.add(\"active\") permet d'ajouter une classe sans supprimer les précédentes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Il est préférable de modifier les {{1}} plutôt que le style direct pour garder un code propre (classes).",
+      "reponsesAttendues": [
+        "classes"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'action au bénéfice.",
+      "pairs": [
+        {
+          "left": "classList.add",
+          "right": "Ajoute une classe"
+        },
+        {
+          "left": "JS modifie la classe",
+          "right": "Le CSS s'occupe du design"
+        },
+        {
+          "left": "Réutilisabilité",
+          "right": "La même classe sert à plusieurs éléments"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on ajouter plusieurs classes en une seule fois ?",
+      "options": [
+        "Oui, en les séparant par des virgules : add(\"c1\", \"c2\")",
+        "Non, une par une",
+        "Seulement si elles se ressemblent",
+        "C'est impossible"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Histoire du son au cinéma",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans les débuts du cinéma (fin XIXème), comment la musique était-elle diffusée lors des projections ?",
+      "options": [
+        "Un pianiste ou un orchestre jouait en direct dans la salle",
+        "On utilisait des cassettes audio",
+        "Les films avaient déjà une bande-son intégrée",
+        "Il n'y avait absolument aucun son"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le film 'Le Chanteur de Jazz' (1927) est considéré comme le premier grand succès du cinéma parlant et sonore.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Avant le son enregistré, les films sans paroles étaient appelés du cinéma {{1}} (muet).",
+      "reponsesAttendues": [
+        "muet"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'époque à sa technologie sonore.",
+      "pairs": [
+        {
+          "left": "1895 - 1927",
+          "right": "Cinéma muet (musique en direct)"
+        },
+        {
+          "left": "Années 1930",
+          "right": "Généralisation du son 'sur piste' (optique)"
+        },
+        {
+          "left": "Aujourd'hui",
+          "right": "Son numérique multicanal (ex: Dolby Atmos)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "À quoi servait principalement la musique au temps du cinéma muet ?",
+      "options": [
+        "Couvrir le bruit du projecteur et souligner l'action",
+        "Vendre des CD à la sortie",
+        "Aider les acteurs à se souvenir de leurs textes",
+        "Remplacer les dialogues par du code morse"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

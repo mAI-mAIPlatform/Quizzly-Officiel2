@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "La Sculpture Grecque",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est le sculpteur célèbre pour la statue d'Athéna dans le Parthénon ?",
+      "options": [
+        "Phidias",
+        "Praxitèle",
+        "Polyclète",
+        "Myron"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'Discobole' est une œuvre célèbre du sculpteur Myron.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La statue d'un jeune homme nu à l'époque archaïque est un {{1}} (kouros).",
+      "reponsesAttendues": [
+        "kouros"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le sculpteur à sa particularité.",
+      "pairs": [
+        {
+          "left": "Phidias",
+          "right": "Maître du Parthénon"
+        },
+        {
+          "left": "Praxitèle",
+          "right": "Grâce et courbes (hanchement)"
+        },
+        {
+          "left": "Polyclète",
+          "right": "Théoricien du Canon (proportions)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel matériau était le plus prestigieux pour une statue divine ?",
+      "options": [
+        "L'or et l'ivoire (chryséléphantine)",
+        "Le plastique",
+        "Le carton-pâte",
+        "Le plomb"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

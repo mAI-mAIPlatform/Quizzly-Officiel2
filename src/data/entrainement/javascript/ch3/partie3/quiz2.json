@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "L'instruction continue",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que fait le mot-clé 'continue' ?",
+      "options": [
+        "Il arrête la boucle",
+        "Il arrête le tour actuel et passe directement au suivant",
+        "Il recommence la boucle au début (i=0)",
+        "Il affiche un message"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Après un 'continue', le code situé après dans le même tour n'est pas exécuté.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans un 'for', le continue déclenche immédiatement la {{1}} de i.",
+      "reponsesAttendues": [
+        "mise à jour"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'usage du continue.",
+      "pairs": [
+        {
+          "left": "Ignorer les nombres pairs",
+          "right": "if(i % 2 === 0) continue"
+        },
+        {
+          "left": "Sauter une valeur précise",
+          "right": "Usage classique"
+        },
+        {
+          "left": "Éviter des 'else' imbriqués",
+          "right": "Avantage de lisibilité"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Un continue dans un while peut-il créer une boucle infinie ?",
+      "options": [
+        "Non",
+        "Oui, si l'incrémentation (i++) est après le continue",
+        "Seulement si i < 0",
+        "Toujours"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

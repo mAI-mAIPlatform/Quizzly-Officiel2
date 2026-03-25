@@ -1,0 +1,63 @@
+{
+  "id": "quiz11",
+  "titre": "Festas populares",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es la fiesta más famosa de Brasil?",
+      "options": [
+        "Carnaval",
+        "Festa Junina",
+        "Natal",
+        "Ano Novo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A 'Festa Junina' celebra santos católicos em junho.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "No Carnaval, as pessoas usam {{1}} (fantasias/déguisements).",
+      "reponsesAttendues": [
+        "fantasias"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la fiesta.",
+      "pairs": [
+        {
+          "left": "Réveillon",
+          "right": "Nouvel An"
+        },
+        {
+          "left": "Carnaval",
+          "right": "Défilés de Samba"
+        },
+        {
+          "left": "Bumba meu boi",
+          "right": "Fête du Nord/Nord-Est"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué color es tradicional usar en el Año Nuevo en Brasil?",
+      "options": [
+        "Branco",
+        "Preto",
+        "Azul",
+        "Vermelho"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

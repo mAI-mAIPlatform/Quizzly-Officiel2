@@ -1,0 +1,62 @@
+{
+  "id": "quiz7",
+  "titre": "Société et Droits",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la devise de la République Française ?",
+      "options": [
+        "Liberté, Égalité, Fraternité",
+        "Travail, Famille, Patrie",
+        "Un pour tous, tous pour un",
+        "Paix et Progrès"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le droit de vote des femmes en France date de 1944.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'organisation dont le but est de maintenir la paix dans le monde est l'{{1}}.",
+      "reponsesAttendues": [
+        "ONU"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Laïcité",
+          "right": "Séparation de l'Église et de l'État"
+        },
+        {
+          "left": "Solidarité",
+          "right": "Aide mutuelle (ex: Sécurité sociale)"
+        },
+        {
+          "left": "Démocratie",
+          "right": "Pouvoir au peuple"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment s'appelle la loi fondamentale d'un pays ?",
+      "options": [
+        "Le Code civil",
+        "La Constitution",
+        "Le Règlement intérieur",
+        "Le Manifeste"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

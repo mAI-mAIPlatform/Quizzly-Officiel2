@@ -1,0 +1,63 @@
+{
+  "id": "quiz25",
+  "titre": "Pythagore et coordonnées",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans un repère, la distance entre A(x1, y1) et B(x2, y2) se calcule par :",
+      "options": [
+        "x1 + x2 + y1 + y2",
+        "racine de [(x2-x1)² + (y2-y1)²]",
+        "(x2-x1) × (y2-y1)",
+        "x2 - x1"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Cette formule de distance est une application directe de Pythagore.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La distance entre O(0,0) et A(3,4) est égale à {{1}}.",
+      "reponsesAttendues": [
+        "5"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe les points à leur distance.",
+      "pairs": [
+        {
+          "left": "A(1,1) et B(4,5)",
+          "right": "5"
+        },
+        {
+          "left": "C(0,0) et D(6,8)",
+          "right": "10"
+        },
+        {
+          "left": "E(-1,-1) et F(2,3)",
+          "right": "5"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Le triangle OAB avec A(2,0) et B(0,2) est-il rectangle ?",
+      "options": [
+        "Oui, en O",
+        "Non",
+        "Équilatéral",
+        "On ne peut pas savoir"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

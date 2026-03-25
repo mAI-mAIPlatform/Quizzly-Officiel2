@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Les Variables : Stocker des données",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment crée-t-on une variable en Python ?",
+      "options": [
+        "variable x = 5",
+        "x := 5",
+        "x = 5",
+        "int x = 5"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On n'a pas besoin de déclarer le type de la variable en Python.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le signe '=' est un opérateur d'{{1}}.",
+      "reponsesAttendues": [
+        "assignation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la variable à sa valeur.",
+      "pairs": [
+        {
+          "left": "nom = 'Alice'",
+          "right": "Chaîne de caractères"
+        },
+        {
+          "left": "age = 25",
+          "right": "Nombre entier"
+        },
+        {
+          "left": "prix = 19.99",
+          "right": "Nombre décimal"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est un nom de variable VALIDE ?",
+      "options": [
+        "ma_variable",
+        "2variable",
+        "ma-variable",
+        "ma variable"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

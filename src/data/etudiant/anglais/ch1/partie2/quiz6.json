@@ -1,0 +1,63 @@
+{
+  "id": "quiz16",
+  "titre": "Adventure Sports",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Which sport is done in the ocean with a board?",
+      "options": [
+        "Surfing",
+        "Golf",
+        "Chess",
+        "Baking"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Scuba diving is done under the water.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "To climb a mountain, you sometimes need a {{1}} for safety.",
+      "reponsesAttendues": [
+        "rope"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the sport to its equipment.",
+      "pairs": [
+        {
+          "left": "Snorkeling",
+          "right": "Mask and tube"
+        },
+        {
+          "left": "Skiing",
+          "right": "Skis and poles"
+        },
+        {
+          "left": "Bungee jumping",
+          "right": "Elastic cord"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "How do you describe someone who loves extreme sports?",
+      "options": [
+        "Adventurous",
+        "Lazy",
+        "Quiet",
+        "Nervous"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz12",
+  "titre": "Pontos cardeais",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Norte'?",
+      "options": [
+        "Norte",
+        "Sul",
+        "Leste",
+        "Oeste"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Leste' es el Este / Oriente.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O Sol nasce no {{1}} (est/leste).",
+      "reponsesAttendues": [
+        "leste"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el punto cardinal.",
+      "pairs": [
+        {
+          "left": "Norte",
+          "right": "Nord"
+        },
+        {
+          "left": "Sul",
+          "right": "Sud"
+        },
+        {
+          "left": "Oeste",
+          "right": "Ouest"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Dónde se encuentra la Amazonia en relación al mapa de Brasil?",
+      "options": [
+        "Norte",
+        "Sul",
+        "Leste",
+        "Centro"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

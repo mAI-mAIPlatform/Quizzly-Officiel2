@@ -1,0 +1,63 @@
+{
+  "id": "quiz23",
+  "titre": "L'Eau : Ressource à Partager",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle activité humaine consomme le plus d'eau douce dans le monde ?",
+      "options": [
+        "L'agriculture (irrigation)",
+        "L'usage domestique (douches, robinets)",
+        "Les piscines des hôtels",
+        "La fabrication de papier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'eau douce ne représente que 3 % environ de l'eau totale sur Terre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le manque d'eau chronique pour une population s'appelle le {{1}} hydrique.",
+      "reponsesAttendues": [
+        "stress"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'action à son but lié à l'eau.",
+      "pairs": [
+        {
+          "left": "Station d'épuration",
+          "right": "Nettoyer les eaux usées avant rejet"
+        },
+        {
+          "left": "Goutte-à-goutte",
+          "right": "Économiser l'eau en agriculture"
+        },
+        {
+          "left": "Récupération d'eau de pluie",
+          "right": "Arrosage et usages non potables"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi l'eau douce est-elle une source de conflits ?",
+      "options": [
+        "Car elle est inégalement répartie et vitale pour tous les pays",
+        "Parce qu'elle change de goût selon les pays",
+        "Parce qu'on ne peut pas la transporter",
+        "C'est uniquement pour le plaisir de se disputer"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

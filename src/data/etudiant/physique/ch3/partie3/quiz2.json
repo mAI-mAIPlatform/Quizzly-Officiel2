@@ -1,0 +1,63 @@
+{
+  "id": "quiz22",
+  "titre": "Poussée d'Archimède",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la poussée d'Archimède ?",
+      "options": [
+        "Une force exercée par un fluide sur un objet immergé",
+        "Le nom d'une vis sans fin",
+        "La vitesse de chute dans l'eau",
+        "Une force qui tire vers le bas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La poussée d'Archimède s'exerce toujours verticalement vers le haut.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Sa valeur est égale au poids du volume de fluide {{1}}.",
+      "reponsesAttendues": [
+        "déplacé"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'action d'Archimède.",
+      "pairs": [
+        {
+          "left": "Point d'application",
+          "right": "Centre de poussée (centre du volume immergé)"
+        },
+        {
+          "left": "Direction",
+          "right": "Verticale"
+        },
+        {
+          "left": "Sens",
+          "right": "Vers le haut"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi un bateau en acier peut-il flotter ?",
+      "options": [
+        "Car sa forme déplace un gros volume d'eau (poussée > poids)",
+        "Car l'acier flotte naturellement",
+        "Car les moteurs le soutiennent",
+        "Car l'eau de mer est très légère"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

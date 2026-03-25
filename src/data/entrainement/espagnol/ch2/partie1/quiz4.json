@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "La Ciudad y Monumentos",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Musée' ?",
+      "options": [
+        "Museo",
+        "Teatro",
+        "Cine",
+        "Parque"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'La Sagrada Familia' está en Madrid.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Place' se dice '{{1}}'.",
+      "reponsesAttendues": [
+        "plaza"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Lugares 2.",
+      "pairs": [
+        {
+          "left": "Iglesia",
+          "right": "Église"
+        },
+        {
+          "left": "Ayuntamiento",
+          "right": "Mairie"
+        },
+        {
+          "left": "Fuente",
+          "right": "Fontaine"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Donde ves cuadros famososo ?",
+      "options": [
+        "En el museo del Prado",
+        "En la calle",
+        "En el coche",
+        "En el avión"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

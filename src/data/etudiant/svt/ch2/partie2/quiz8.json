@@ -1,0 +1,63 @@
+{
+  "id": "quiz18",
+  "titre": "La Division Cellulaire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle la division d'une cellule mère en deux cellules filles ?",
+      "options": [
+        "La mitose",
+        "La méiose",
+        "La photosynthèse",
+        "La digestion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Avant de se diviser, la cellule doit doubler son ADN (réplication).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La mitose permet de conserver l'{{1}} génétique à l'identique.",
+      "reponsesAttendues": [
+        "information"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'étape de la mitose à son action.",
+      "pairs": [
+        {
+          "left": "Prophase",
+          "right": "Condensation des chromosomes"
+        },
+        {
+          "left": "Anaphase",
+          "right": "Séparation des chromatides vers les pôles"
+        },
+        {
+          "left": "Télophase",
+          "right": "Formation de deux nouveaux noyaux"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le but principal de la mitose chez un adolescent ?",
+      "options": [
+        "Assurer la croissance et le renouvellement des cellules",
+        "Produire des spermatozoïdes",
+        "Changer de couleur de cheveux",
+        "Penser plus vite"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

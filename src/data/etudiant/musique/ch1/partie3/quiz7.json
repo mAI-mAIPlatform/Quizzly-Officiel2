@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Rock Progressif",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel groupe est le pilier du Rock Progressif avec l'album 'The Dark Side of the Moon' ?",
+      "options": [
+        "Pink Floyd",
+        "Led Zeppelin",
+        "The Rolling Stones",
+        "AC/DC"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Rock Progressif se caractérise par des morceaux souvent très longs et des structures complexes proches de la musique classique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'album 'The {{1}}' (Wall) de Pink Floyd raconte une histoire sous forme d'opéra-rock.",
+      "reponsesAttendues": [
+        "Wall"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'instrument électronique à son usage fréquent dans le Rock Progressif.",
+      "pairs": [
+        {
+          "left": "Synthétiseur",
+          "right": "Créer des sons futuristes et spatiaux"
+        },
+        {
+          "left": "Mellotron",
+          "right": "Clavier reproduisant des sons d'orchestre sur bandes"
+        },
+        {
+          "left": "Orgue Hammond",
+          "right": "Instrument à clavier au son chaud et puissant"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est l'une des thématiques fréquentes du Rock Progressif ?",
+      "options": [
+        "La science-fiction et la philosophie",
+        "Le surf et la plage",
+        "Le shopping",
+        "La cuisine traditionnelle"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

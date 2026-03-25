@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "La Reproduction des Vivants",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle reproduction nécessite deux parents de sexes différents ?",
+      "options": [
+        "La reproduction sexuée",
+        "La reproduction asexuée",
+        "Le clonage",
+        "La division cellulaire simple"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La reproduction asexuée permet de produire des descendants identiques au parent.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'union d'un gamète mâle et d'un gamète femelle s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "fécondation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le type à sa caractéristique.",
+      "pairs": [
+        {
+          "left": "Reproduction sexuée",
+          "right": "Diversité génétique des descendants"
+        },
+        {
+          "left": "Bouturage",
+          "right": "Exemple de reproduction asexuée (plantes)"
+        },
+        {
+          "left": "Gamètes",
+          "right": "Cellules reproductrices (ovule, spermatozoïde)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage biologique de la reproduction sexuée ?",
+      "options": [
+        "Elle permet l'adaptation de l'espèce aux changements de milieu",
+        "Elle est beaucoup plus rapide que la reproduction asexuée",
+        "Elle ne nécessite aucune énergie",
+        "Elle produit toujours des jumeaux"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

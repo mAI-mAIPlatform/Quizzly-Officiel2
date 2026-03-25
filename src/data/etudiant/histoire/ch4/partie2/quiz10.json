@@ -1,0 +1,63 @@
+{
+  "id": "quiz20",
+  "titre": "Bilan : Mers et Océans",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le rôle des mers dans la mondialisation ?",
+      "options": [
+        "Elles sont le principal vecteur des échanges mondiaux",
+        "Elles sont des obstacles infranchissables",
+        "Elles ne servent qu'au tourisme",
+        "Elles n'ont aucune importance économique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La maîtrise des mers est un enjeu de puissance pour les grands États.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un espace maritime stratégique qui peut être bloqué s'appelle un {{1}} d'étranglement.",
+      "reponsesAttendues": [
+        "goulot"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'espace à son importance.",
+      "pairs": [
+        {
+          "left": "Port géant",
+          "right": "Connexion entre terre et mer"
+        },
+        {
+          "left": "Détroit",
+          "right": "Passage obligé et surveillé"
+        },
+        {
+          "left": "Haute mer",
+          "right": "Espace de circulation libre et de ressources"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la conclusion majeure sur la littoralisation ?",
+      "options": [
+        "La mer est devenue le cœur battant de notre monde industrialisé",
+        "Tout le monde quitte les côtes pour vivre en montagne",
+        "Les ports ferment car les gens n'achètent plus rien",
+        "La mer est une zone sans aucun danger"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

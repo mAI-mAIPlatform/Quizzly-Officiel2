@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "O tempo livre",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Ir al cine'?",
+      "options": [
+        "Ir ao cinema",
+        "Ir ao teatro",
+        "Ir ao museum",
+        "Ir ao parque"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Passar o tempo' significa pasar el tiempo / divertirse.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vamos {{1}} shopping? (au/al).",
+      "reponsesAttendues": [
+        "ao"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona le lieu de loisirs.",
+      "pairs": [
+        {
+          "left": "A praia",
+          "right": "La plage"
+        },
+        {
+          "left": "O concerto",
+          "right": "Le concert"
+        },
+        {
+          "left": "O estádio",
+          "right": "Le stade"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'viajar'?",
+      "options": [
+        "Viajar",
+        "Volar",
+        "Caminar",
+        "Correr"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

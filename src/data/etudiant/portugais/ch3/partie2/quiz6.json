@@ -1,0 +1,63 @@
+{
+  "id": "quiz16",
+  "titre": "Na estrada",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Conducir'?",
+      "options": [
+        "Dirigir",
+        "Caminhar",
+        "Parar",
+        "Sair"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Carteira de motorista' es el permiso de conducir.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu preciso abastecer no {{1}} (gasolinera/posto).",
+      "reponsesAttendues": [
+        "posto"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el término vial.",
+      "pairs": [
+        {
+          "left": "O semáforo",
+          "right": "Le feu rouge"
+        },
+        {
+          "left": "A rodovia",
+          "right": "L'autoroute"
+        },
+        {
+          "left": "O pedágio",
+          "right": "Le péage"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'pneu furado'?",
+      "options": [
+        "Neumático pinchado",
+        "Tanque lleno",
+        "Motor caliente",
+        "Frenos rotos"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

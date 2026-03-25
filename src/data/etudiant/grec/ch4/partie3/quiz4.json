@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Examen : Présent et Imparfait",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la marque caractéristique de l'imparfait à l'indicatif ?",
+      "options": [
+        "L'augmentation (e- / ἐ-)",
+        "Le sigma",
+        "Le redoublement",
+        "La voyelle longue"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'imparfait de 'eimi' (être) à la 1ère pers. singulier est 'ên' (ἦν).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Nous éduquions se dit 'e-{{1}}-omen' (epaideuomen / ἐπαιδεύομεν).",
+      "reponsesAttendues": [
+        "paideu"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la forme à son temps.",
+      "pairs": [
+        {
+          "left": "paideuousi",
+          "right": "Présent (Ils éduquent)"
+        },
+        {
+          "left": "epaideuon",
+          "right": "Imparfait (J'éduquais / Ils éduquaient)"
+        },
+        {
+          "left": "paideuete",
+          "right": "Présent (Vous éduquez)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison de la 3ème pers. pluriel du présent actif ?",
+      "options": [
+        "-ousi (ουσι)",
+        "-on",
+        "-omen",
+        "-ousa"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

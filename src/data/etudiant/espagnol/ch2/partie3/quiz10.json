@@ -1,0 +1,63 @@
+{
+  "id": "quiz30",
+  "titre": "Síntesis Final Ch.2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "En el futuro, yo {{1}} (ser) un gran arquitecto.",
+      "options": [
+        "seré",
+        "era",
+        "seria",
+        "soy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El pronombre COI para 'a nosotros' es 'nos'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "¿Tienes ganas de {{1}} con nosotros esta tarde? (salir).",
+      "reponsesAttendues": [
+        "salir"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el resumen.",
+      "pairs": [
+        {
+          "left": "Futuro",
+          "right": "-é, -ás, -á"
+        },
+        {
+          "left": "COD",
+          "right": "Me, te, lo/la"
+        },
+        {
+          "left": "COI",
+          "right": "Me, te, le"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Je t'enverrai un message'?",
+      "options": [
+        "Te enviaré un mensaje",
+        "Os enviaré un mensaje",
+        "Le enviaré un mensaje",
+        "Nos enviaré un mensaje"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz13",
+  "titre": "Introduction à la réciproque",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "A quoi sert la réciproque du théorème de Pythagore ?",
+      "options": [
+        "Calculer une longueur",
+        "Démontrer qu'un triangle est rectangle",
+        "Calculer une aire",
+        "Dessiner un cercle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour utiliser la réciproque, on doit connaître les trois longueurs du triangle.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On compare le carré du côté le plus {{1}} à la somme des carrés des deux autres.",
+      "reponsesAttendues": [
+        "long"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'outil mathématique à son but.",
+      "pairs": [
+        {
+          "left": "Théorème de Pythagore",
+          "right": "Calculer une longueur"
+        },
+        {
+          "left": "Réciproque de Pythagore",
+          "right": "Démontrer qu'il est rectangle"
+        },
+        {
+          "left": "Contraposée de Pythagore",
+          "right": "Démontrer qu'il n'est pas rectangle"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si a² + b² = c², que peut-on conclure ?",
+      "options": [
+        "Le triangle est isocèle",
+        "Le triangle est rectangle",
+        "Le triangle est équilatéral",
+        "Rien du tout"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

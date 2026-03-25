@@ -1,0 +1,63 @@
+{
+  "id": "quiz25",
+  "titre": "La Portée (Scope)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on une variable créée à l'intérieur d'une fonction ?",
+      "options": [
+        "Une variable locale",
+        "Une variable globale",
+        "Une variable cachée",
+        "Une variable temporaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une variable globale est accessible partout dans le script.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On ne peut pas utiliser une variable {{1}} à l'extérieur de la fonction où elle est née (locale).",
+      "reponsesAttendues": [
+        "locale"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le type de variable à sa zone d'accès.",
+      "pairs": [
+        {
+          "left": "Globale",
+          "right": "Tout le programme"
+        },
+        {
+          "left": "Locale",
+          "right": "Seulement dans le bloc { }"
+        },
+        {
+          "left": "Paramètre",
+          "right": "Seulement dans la fonction"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi préfère-t-on les variables locales ?",
+      "options": [
+        "Pour éviter les conflits de noms et garder le code propre et sécurisé",
+        "Car elles s'écrivent plus vite",
+        "Car elles n'utilisent pas de mémoire",
+        "C'est une règle de politesse"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

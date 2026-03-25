@@ -1,0 +1,64 @@
+{
+  "id": "quiz10",
+  "titre": "Ch. 3 P. 1 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces signes sert à nommer les notes ?",
+      "options": [
+        "La Clef",
+        "La barre de mesure",
+        "Le point d'orgue",
+        "La liaison"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La portée possède 5 lignes et 4 interlignes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le signe qui baisse la note d'un demi-ton est le {{1}} (bémol).",
+      "reponsesAttendues": [
+        "bémol",
+        "bemol"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le signe à sa fonction.",
+      "pairs": [
+        {
+          "left": "Portée",
+          "right": "Support des notes"
+        },
+        {
+          "left": "Armure",
+          "right": "Fixe les altérations du morceau"
+        },
+        {
+          "left": "Octave",
+          "right": "Distance entre deux mêmes notes"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle note se trouve entre Mi et Sol ?",
+      "options": [
+        "Fa",
+        "Do",
+        "Ré",
+        "La"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

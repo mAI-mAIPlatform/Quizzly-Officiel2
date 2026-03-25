@@ -1,0 +1,64 @@
+{
+  "id": "quiz3",
+  "titre": "Internet et Cloud",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Cloud' (nuage) en informatique ?",
+      "options": [
+        "Le stockage et l'accès à des données sur des serveurs distants via Internet",
+        "Le mauvais temps qui ralentit le WiFi",
+        "Une application pour le bulletin météo",
+        "Un ventilateur pour refroidir l'ordinateur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Web et Internet désignent exactement la même chose.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les énormes bâtiments qui contiennent les serveurs du Cloud s'appellent des {{1}} (Data Centers).",
+      "reponsesAttendues": [
+        "Data Centers",
+        "Centres de données"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme à sa fonction.",
+      "pairs": [
+        {
+          "left": "URL / Adresse Web",
+          "right": "L'identifiant d'une page sur Internet"
+        },
+        {
+          "left": "Navigateur",
+          "right": "Logiciel pour afficher les pages Web (Chrome, Firefox...)"
+        },
+        {
+          "left": "Moteur de recherche",
+          "right": "Logiciel pour trouver des infos sur le Web (Google, Qwant...)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment voyage la majorité du trafic Internet mondial entre les continents ?",
+      "options": [
+        "Par des câbles sous-marins de fibre optique",
+        "Par satellite uniquement",
+        "Par WiFi longue portée",
+        "Par des pigeons voyageurs numériques"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

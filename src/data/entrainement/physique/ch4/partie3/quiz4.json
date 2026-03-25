@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Les phases de la Lune",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi la Lune change-t-elle d'aspect au cours du mois ?",
+      "options": [
+        "Parce qu'elle grossit et rétrécit",
+        "À cause de sa position par rapport au Soleil et à la Terre",
+        "À cause des nuages",
+        "Parce qu'elle est coupée en deux"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une lunaison dure environ 29,5 jours.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Quand on voit la Lune entièrement éclairée, c'est la {{1}} Lune.",
+      "reponsesAttendues": [
+        "Pleine"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la phase de la Lune.",
+      "pairs": [
+        {
+          "left": "Nouvelle Lune",
+          "right": "Lune entre la Terre et le Soleil (invisible)"
+        },
+        {
+          "left": "Premier Quartier",
+          "right": "Demi-Lune en forme de 'p'"
+        },
+        {
+          "left": "Dernier Quartier",
+          "right": "Demi-Lune en forme de 'd' (incurvée)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Combien de temps s'écoule entre deux Pleines Lunes ?",
+      "options": [
+        "7 jours",
+        "15 jours",
+        "Environ 29 jours",
+        "365 jours"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

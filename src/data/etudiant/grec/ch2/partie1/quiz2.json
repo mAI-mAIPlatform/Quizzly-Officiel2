@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Le Vêtement (Esthês)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel était le vêtement de base (tunique) porté par les Grecs ?",
+      "options": [
+        "Le khitôn (χιτών)",
+        "Le péplos",
+        "L'himation",
+        "La chlamyde"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'himation est un grand manteau que l'on drape sur l'épaule.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le grand manteau militaire court est la {{1}} (chlamyde).",
+      "reponsesAttendues": [
+        "chlamyde"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le vêtement.",
+      "pairs": [
+        {
+          "left": "Khitôn",
+          "right": "Tunique légère"
+        },
+        {
+          "left": "Péplos",
+          "right": "Tunique féminine en laine"
+        },
+        {
+          "left": "Sandalia",
+          "right": "Sandales"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "De quelle couleur était majoritairement le vêtement grec classique ?",
+      "options": [
+        "Blanc (laine naturelle ou lin)",
+        "Noir",
+        "Rose fluo",
+        "Multicolore à pois"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

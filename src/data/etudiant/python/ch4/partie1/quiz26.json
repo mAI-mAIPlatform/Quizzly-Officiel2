@@ -1,0 +1,63 @@
+{
+  "id": "quiz26",
+  "titre": "Révision : Fonctions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces codes définit une fonction qui multiplie x par y ?",
+      "options": [
+        "def mult(x, y): return x * y",
+        "mult(x, y) = x * y",
+        "function mult(x, y) { return x * y; }",
+        "def mult(x, y): print(x * y)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une fonction peut renvoyer plusieurs valeurs séparées par des virgules.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La documentation d'une fonction, placée entre triples guillemets, s'appelle une {{1}} (docstring).",
+      "reponsesAttendues": [
+        "docstring"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme à son rôle.",
+      "pairs": [
+        {
+          "left": "Paramètre",
+          "right": "Variable dans la définition (def)"
+        },
+        {
+          "left": "Argument",
+          "right": "Valeur passée lors de l'appel"
+        },
+        {
+          "left": "Return",
+          "right": "Sortie de la fonction"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "À quoi sert l'indentation dans une fonction ?",
+      "options": [
+        "À délimiter le corps de la fonction",
+        "À faire joli",
+        "C'est facultatif",
+        "À accélérer le code"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

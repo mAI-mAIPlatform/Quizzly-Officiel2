@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Opérations d'Ensemble",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'Union (s1 | s2) ?",
+      "options": [
+        "Tous les éléments présents dans s1 OU s2",
+        "Les éléments présents dans s1 ET s2",
+        "La soustraction de s2 à s1",
+        "Le mariage des sets"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Intersection (s1 & s2) donne les éléments communs aux deux sets.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le symbole de l'union est le {{1}} (|).",
+      "reponsesAttendues": [
+        "pipe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe (s1={1,2}, s2={2,3}).",
+      "pairs": [
+        {
+          "left": "Union (|)",
+          "right": "{1, 2, 3}"
+        },
+        {
+          "left": "Intersection (&)",
+          "right": "{2}"
+        },
+        {
+          "left": "Méthode",
+          "right": "s1.union(s2)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel symbole pour l'intersection ?",
+      "options": [
+        "& (esperluette)",
+        "|",
+        "-",
+        "^"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

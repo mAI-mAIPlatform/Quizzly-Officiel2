@@ -1,0 +1,62 @@
+{
+  "id": "quiz9",
+  "titre": "Courants Artistiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel courant artistique est célèbre pour ses représentations de 'fondre' (ex: les montres molles) ?",
+      "options": [
+        "Réalisme",
+        "Surréalisme",
+        "Fauvisme",
+        "Pop Art"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Expressionnisme cherche à projeter une émotion subjective.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le Pop Art, représenté par Andy {{1}}, utilise les icônes de la consommation.",
+      "reponsesAttendues": [
+        "Warhol"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Baroque",
+          "right": "Exubérance et contrastes (XVIIe)"
+        },
+        {
+          "left": "Art Nouveau",
+          "right": "Courbes et nature (Belle Époque)"
+        },
+        {
+          "left": "Cubisme",
+          "right": "Géométrisation des formes"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel peintre est le chef de file du Fauvisme (couleurs pures et violentes) ?",
+      "options": [
+        "Henri Matisse",
+        "Edgar Degas",
+        "Rembrandt",
+        "Cézanne"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Relativité du mouvement",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Vous êtes assis dans un train qui roule. Êtes-vous en mouvement ?",
+      "options": [
+        "Oui par rapport au sol, Non par rapport au train",
+        "Oui par rapport à tout",
+        "Non, je suis assis donc je ne bouge pas",
+        "Seulement si je regarde par la fenêtre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un passager immobile dans un avion est en mouvement par rapport au sol.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mouvement d'un objet est défini par sa trajectoire et sa {{1}} par rapport à un référentiel.",
+      "reponsesAttendues": [
+        "vitesse"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Identifie l'état de l'arbre.",
+      "pairs": [
+        {
+          "left": "Arbre / Référentiel Terrestre",
+          "right": "Immobile"
+        },
+        {
+          "left": "Arbre / Passager train en marche",
+          "right": "En mouvement"
+        },
+        {
+          "left": "Passager / Partenaire assis",
+          "right": "Immobile"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si deux voitures roulent à la même vitesse côte à côte sur l'autoroute :",
+      "options": [
+        "Elles sont immobiles l'une par rapport à l'autre",
+        "Elles s'éloignent l'une de l'autre",
+        "Elles vont vers l'arrière",
+        "Elles n'ont pas de référentiel"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

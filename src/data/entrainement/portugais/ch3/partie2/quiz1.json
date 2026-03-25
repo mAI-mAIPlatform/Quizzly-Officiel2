@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Lugares da Cidade (Lieux de la ville)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'La rue' ?",
+      "options": [
+        "A rua",
+        "A praça",
+        "A estrada",
+        "O caminho"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Praça' significa 'Place' (publique).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu ando no {{1}} (trottoir).",
+      "reponsesAttendues": [
+        "passeio"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Cidade.",
+      "pairs": [
+        {
+          "left": "Bairro",
+          "right": "Quartier"
+"        },
+        {
+          "left": "Avenida",
+          "right": "Avenue"
+        },
+        {
+          "left": "Cruzamento",
+          "right": "Carrefour"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Onde fica o centro da cidade?",
+      "options": [
+        "Fica perto da praça principal",
+        "Fica na cozinha",
+        "Sou uma cidade",
+        "Olá"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

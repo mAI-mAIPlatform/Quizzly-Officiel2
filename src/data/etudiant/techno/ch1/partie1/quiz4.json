@@ -1,0 +1,64 @@
+{
+  "id": "quiz4",
+  "titre": "Les Protocoles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'protocole' en informatique ?",
+      "options": [
+        "Un ensemble de règles permettant à deux appareils de se comprendre",
+        "Le nom du constructeur de l'ordinateur",
+        "Une application pour faire des calculs",
+        "Un câble de connexion spécial"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le protocole HTTP est utilisé pour charger des pages web.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le 'S' dans HTTPS signifie {{1}} (Secure / Sécurisé).",
+      "reponsesAttendues": [
+        "Secure",
+        "Sécurisé"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le protocole à son usage.",
+      "pairs": [
+        {
+          "left": "HTTP / HTTPS",
+          "right": "Consultation de pages web"
+        },
+        {
+          "left": "FTP",
+          "right": "Transfert de fichiers entre ordinateurs"
+        },
+        {
+          "left": "SMTP",
+          "right": "Envoi de courriers électroniques (emails)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il conseillé d'utiliser HTTPS plutôt que HTTP ?",
+      "options": [
+        "Pour chiffrer les données et éviter qu'elles ne soient lues par d'autres",
+        "Pour que le site soit plus coloré",
+        "Pour aller deux fois plus vite",
+        "C'est obligatoire pour jouer"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

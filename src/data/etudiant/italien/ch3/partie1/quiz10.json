@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Cap. 3 P. 1 Sintesi",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Ho {{1}} (prenotare) un hotel {{2}} (en) montagna.",
+      "options": [
+        "prenotato / in",
+        "prenotato / a",
+        "prenotato / di",
+        "prenotato / da"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El participio de 'Prendere' es 'Preso'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Cosa hai {{1}}? (fatto/fare).",
+      "reponsesAttendues": [
+        "fatto"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el resumen.",
+      "pairs": [
+        {
+          "left": "Hotel",
+          "right": "Camera, Prenotare"
+        },
+        {
+          "left": "Stazione",
+          "right": "Binario, Treno"
+        },
+        {
+          "left": "Participi",
+          "right": "Mangiato, Scritto"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'J'ai écrit une lettre et j'ai pris le train'?",
+      "options": [
+        "Ho scritto una lettera e ho preso il treno",
+        "Ho scritto una lettera e ho prenduto il treno",
+        "Ho scrivuto una lettera e ho preso il treno",
+        "Ho scrivo una lettera e ho prendo il treno"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz17",
+  "titre": "Les Antibiotiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Contre quel type de micro-organisme les antibiotiques sont-ils efficaces ?",
+      "options": [
+        "Les bactéries uniquement",
+        "Les virus uniquement",
+        "Les virus et les bactéries",
+        "Les champignons uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Prendre un antibiotique pour soigner une grippe (due à un virus) est inutile.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le premier antibiotique découvert s'appelait la {{1}}.",
+      "reponsesAttendues": [
+        "pénicilline"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le test à son but.",
+      "pairs": [
+        {
+          "left": "Antibiogramme",
+          "right": "Tester l'efficacité de plusieurs antibiotiques sur une bactérie"
+        },
+        {
+          "left": "Culture",
+          "right": "Faire pousser des bactéries pour les identifier"
+        },
+        {
+          "left": "Zone d'inhibition",
+          "right": "Espace sans bactéries autour du disque d'antibiotique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi faut-il respecter la durée du traitement antibiotique ?",
+      "options": [
+        "Pour éliminer toutes les bactéries et éviter les rechutes",
+        "Pour faire plaisir au pharmacien",
+        "Parce que c'est une loi mathématique",
+        "Cela n'a pas d'importance réelle"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

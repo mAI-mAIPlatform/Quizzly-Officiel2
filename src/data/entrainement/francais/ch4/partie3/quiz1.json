@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Synthèse : Conjugaison",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel est un temps du passé ?",
+      "options": [
+        "L'imparfait",
+        "Le futur simple",
+        "Le présent",
+        "L'impératif présent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le futur simple a les mêmes terminaisons pour tous les groupes (-rai, -ras, -ra...).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Hier, je {{1}} (manger, passé composé) une pomme.",
+      "reponsesAttendues": [
+        "ai mangé"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Identifie le temps.",
+      "pairs": [
+        {
+          "left": "Je chante",
+          "right": "Présent"
+        },
+        {
+          "left": "Je chantais",
+          "right": "Imparfait"
+        },
+        {
+          "left": "Je chantai",
+          "right": "Passé simple"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison de 'nous' au présent de l'indicatif (groupe 1) ?",
+      "options": [
+        "-ons",
+        "-ez",
+        "-ent",
+        "-issons"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

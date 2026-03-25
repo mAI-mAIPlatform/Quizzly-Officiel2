@@ -1,0 +1,64 @@
+{
+  "id": "quiz10",
+  "titre": "Ch. 2 P. 3 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle famille d'instruments est la plus nombreuse dans un orchestre symphonique ?",
+      "options": [
+        "Les Cordes",
+        "Les Bois",
+        "Les Cuivres",
+        "Les Percussions"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le chef d'orchestre ne sert à rien si les musiciens connaissent bien leur partition.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'instrument à lames de bois frappées avec des mailloches est le {{1}} (xylophone / marimba).",
+      "reponsesAttendues": [
+        "xylophone",
+        "marimba"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'instrument à son mode de jeu vibratoire.",
+      "pairs": [
+        {
+          "left": "Violon",
+          "right": "Vibration d'une corde"
+        },
+        {
+          "left": "Clarinette",
+          "right": "Vibration d'une anche"
+        },
+        {
+          "left": "Timbales",
+          "right": "Vibration d'une peau tendue"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le but d'un orchestre symphonique ?",
+      "options": [
+        "Mélanger tous les timbres pour créer une œuvre riche et puissante",
+        "Faire le plus de bruit possible",
+        "Vendre des instruments",
+        "Apprendre à lire"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

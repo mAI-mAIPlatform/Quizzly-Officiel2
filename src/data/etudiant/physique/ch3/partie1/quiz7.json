@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Chronophotographie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une chronophotographie ?",
+      "options": [
+        "Une succession de photos prises à intervalles de temps réguliers",
+        "Une photo prise avec un chronomètre",
+        "Un film au ralenti",
+        "Une photo très vieille"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans un mouvement uniforme, l'espace entre deux positions successives est constant.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si l'espace entre les positions augmente sur la photo, le mouvement est {{1}}.",
+      "reponsesAttendues": [
+        "accéléré"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'aspect visuel au type de mouvement.",
+      "pairs": [
+        {
+          "left": "Points de plus en plus proches",
+          "right": "Mouvement ralenti"
+        },
+        {
+          "left": "Points régulièrement espacés",
+          "right": "Mouvement uniforme"
+        },
+        {
+          "left": "Points de plus en plus écartés",
+          "right": "Mouvement accéléré"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si on prend 10 photos par seconde, quel est l'intervalle de temps entre deux photos ?",
+      "options": [
+        "0.1 s",
+        "1 s",
+        "10 s",
+        "0.01 s"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz26",
+  "titre": "Ambiente",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Contaminación'?",
+      "options": [
+        "Inquinamento",
+        "Riciclo",
+        "Ambiente",
+        "Natura"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Riscaldamento globale' significa calentamiento global.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dobbiamo {{1}} la plastica (recycler).",
+      "reponsesAttendues": [
+        "riciclare"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el término ambiental.",
+      "pairs": [
+        {
+          "left": "Ecologico",
+          "right": "Écologique"
+        },
+        {
+          "left": "Energia solare",
+          "right": "Énergie solaire"
+        },
+        {
+          "left": "Rifiuti",
+          "right": "Déchets"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'tutelare'?",
+      "options": [
+        "Proteger / Resguardar",
+        "Destruir",
+        "Ignorar",
+        "Ensuciar"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

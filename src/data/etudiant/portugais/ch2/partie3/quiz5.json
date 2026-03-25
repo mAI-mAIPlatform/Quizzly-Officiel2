@@ -1,0 +1,63 @@
+{
+  "id": "quiz25",
+  "titre": "Compra de roupa",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se pregunta '¿Cuánto cuesta?'?",
+      "options": [
+        "Quanto custa?",
+        "Qual é o preço?",
+        "Quanto é?",
+        "Todas las anteriores"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Tamanho' significa tamaño / talla.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu quero {{1}} esta camisa (essayer/provar).",
+      "reponsesAttendues": [
+        "provar"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el término comercial.",
+      "pairs": [
+        {
+          "left": "O desconto",
+          "right": "La remise / La réduction"
+"        },
+        {
+          "left": "O provador",
+          "right": "La cabine d'essayage"
+        },
+        {
+          "left": "Dinheiro",
+          "right": "Espèces / Argent liquide"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'caro'?",
+      "options": [
+        "Caro",
+        "Barato",
+        "Nuevo",
+        "Viejo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

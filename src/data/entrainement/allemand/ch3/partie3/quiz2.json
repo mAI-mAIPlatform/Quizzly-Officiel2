@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Auf dem Bauernhof",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'La vache' ?",
+      "options": [
+        "Die Kuh",
+        "Das Pferd",
+        "Das Schwein",
+        "Das Schaf"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Ein 'Pferd' kann man reiten.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Das {{1}} (cochon) ist rosa.",
+      "reponsesAttendues": [
+        "Schwein"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Hoftiere.",
+      "pairs": [
+        {
+          "left": "Huhn",
+          "right": "Poule"
+        },
+        {
+          "left": "Hahn",
+          "right": "Coq"
+        },
+        {
+          "left": "Ente",
+          "right": "Canard"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Was gibt uns die Kuh?",
+      "options": [
+        "Milch",
+        "Eier",
+        "Wolle",
+        "Geld"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

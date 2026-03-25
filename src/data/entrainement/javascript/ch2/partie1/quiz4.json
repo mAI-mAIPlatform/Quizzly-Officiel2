@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Conditions imbriquées",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une condition imbriquée ?",
+      "options": [
+        "Une condition qui ne marche pas",
+        "Un 'if' à l'intérieur d'un autre 'if'",
+        "Une condition très complexe",
+        "Une condition cachée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut imbriquer des conditions sur plusieurs niveaux.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'imbrication excessive rend le code {{1}} à lire.",
+      "reponsesAttendues": [
+        "difficile"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la logique imbriquée.",
+      "pairs": [
+        {
+          "left": "if externe",
+          "right": "Doit être vrai pour atteindre l'interne"
+        },
+        {
+          "left": "if interne",
+          "right": "Vérification supplémentaire spécifique"
+        },
+        {
+          "left": "Lisibilité",
+          "right": "Attention à l'indentation"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle alternative existe aux conditions imbriquées ?",
+      "options": [
+        "Les supprimer",
+        "Utiliser les opérateurs logiques (&&, ||)",
+        "Utiliser plus de else",
+        "Il n'y a pas d'alternative"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

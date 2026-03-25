@@ -1,0 +1,63 @@
+{
+  "id": "quiz19",
+  "titre": "Debug Texte",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si j'oublie de fermer la balise </h1> ?",
+      "options": [
+        "Tout le reste de la page risque de s'afficher comme un gros titre",
+        "Le navigateur crash",
+        "Le texte disparaît",
+        "C'est automatiquement réparé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'inspecteur d'éléments (clic droit -> Inspecter) aide à visualiser si les balises sont bien imbriquées.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un trait horizontal qui ne s'affiche pas peut venir d'une balise <{{1}}> mal écrite (hr).",
+      "reponsesAttendues": [
+        "hr"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Symptôme -> Erreur ?",
+      "pairs": [
+        {
+          "left": "Texte collé",
+          "right": "Oubli de <p> ou de <br>"
+        },
+        {
+          "left": "Grosse police partout",
+          "right": "Oubli de fermeture de titre"
+        },
+        {
+          "left": "Page blanche",
+          "right": "Structure <html> cassée"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Certains éditeurs colorent le texte en rouge quand il y a une erreur, pourquoi ?",
+      "options": [
+        "Pour alerter le développeur sur une faute de syntaxe",
+        "Parce que c'est la couleur préférée des pros",
+        "Pour faire joli",
+        "C'est un bug de l'éditeur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz26",
+  "titre": "Probabilités : L'urne",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Une urne contient 2 boules rouges et 3 boules vertes. Probabilité de tirer une rouge ?",
+      "options": [
+        "2/3",
+        "2/5",
+        "3/5",
+        "1/2"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Plus il y a de boules d'une couleur, plus la probabilité de tirer cette couleur est grande.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans une urne de 10 boules, si P(Noire) = 0,7, il y a {{1}} boules noires.",
+      "reponsesAttendues": [
+        "7"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'urne à la P(Rouge).",
+      "pairs": [
+        {
+          "left": "1 Rouge, 1 Bleue",
+          "right": "0,5"
+        },
+        {
+          "left": "1 Rouge, 9 Bleues",
+          "right": "0,1"
+        },
+        {
+          "left": "5 Rouges, 0 Bleue",
+          "right": "1"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si je tire une boule sans remise, la probabilité du tirage suivant :",
+      "options": [
+        "Reste la même",
+        "Change",
+        "Devient nulle",
+        "On ne peut pas savoir"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Opérateurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment ajoute-t-on 1 à une variable 'score' ?",
+      "options": [
+        "score++",
+        "score = score + 1",
+        "score += 1",
+        "Toutes ces options sont correctes"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'opérateur '*' sert à la multiplication.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour soustraire une valeur, on utilise l'opérateur {{1}} (-).",
+      "reponsesAttendues": [
+        "-"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'opérateur raccourci à son équivalent.",
+      "pairs": [
+        {
+          "left": "x += 5",
+          "right": "x = x + 5"
+        },
+        {
+          "left": "x -= 2",
+          "right": "x = x - 2"
+        },
+        {
+          "left": "x *= 3",
+          "right": "x = x * 3"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le résultat de : let x = 10; x++; console.log(x); ?",
+      "options": [
+        "11",
+        "10",
+        "12",
+        "Erreur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

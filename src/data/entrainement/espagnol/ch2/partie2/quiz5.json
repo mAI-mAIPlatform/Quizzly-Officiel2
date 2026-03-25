@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Pesos y Cantidades",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Un kilo' ?",
+      "options": [
+        "Un kilo",
+        "Un litro",
+        "Un gramo",
+        "Una tonelada"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Medio kilo' son 500 gramos.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Litre' se dice '{{1}}'.",
+      "reponsesAttendues": [
+        "litro"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Medidas.",
+      "pairs": [
+        {
+          "left": "Una docena",
+          "right": "12 unidades (huevos)"
+        },
+        {
+          "left": "Un paquete",
+          "right": "Un paquet"
+        },
+        {
+          "left": "Una botella",
+          "right": "Une bouteille"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que quieres comprar ?",
+      "options": [
+        "Quiero comprar un kilo de naranjas",
+        "Soy una naranja",
+        "Tengo una naranja",
+        "Vivo en una naranja"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

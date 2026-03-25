@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Futuro Ripasso",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es el futuro de 'Avere' para 'Noi'?",
+      "options": [
+        "Avremo",
+        "Avrete",
+        "Avranno",
+        "Avrai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Andrò' es el futuro de 'Andare'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Domani Maria {{1}} (farà/fare) i compiti.",
+      "reponsesAttendues": [
+        "farà"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el futuro.",
+      "pairs": [
+        {
+          "left": "Io",
+          "right": "mangerò"
+        },
+        {
+          "left": "Voi",
+          "right": "mangerete"
+        },
+        {
+          "left": "Loro",
+          "right": "mangeranno"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Pienso que lloverá'?",
+      "options": [
+        "Penso che pioverà",
+        "Penso che piove",
+        "Penso che ha piovuto",
+        "Penso che pioveva"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

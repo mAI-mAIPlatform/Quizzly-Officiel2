@@ -1,0 +1,63 @@
+{
+  "id": "quiz22",
+  "titre": "Verbi in -ISC-",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Yo entiendo' (Capire)?",
+      "options": [
+        "Capisco",
+        "Capo",
+        "Capiamo",
+        "Capisce"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Las formas de 'Noi' y 'Voi' NO llevan el sufijo -isc-.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Lei {{1}} il lavoro (finit/finir).",
+      "reponsesAttendues": [
+        "finisce"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el verbo con -isc-.",
+      "pairs": [
+        {
+          "left": "Capire",
+          "right": "Comprendre"
+        },
+        {
+          "left": "Finire",
+          "right": "Finir"
+        },
+        {
+          "left": "Pulire",
+          "right": "Nettoyer"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Vosotros limpiáis' (Pulire)?",
+      "options": [
+        "Pulite",
+        "Puliteisc",
+        "Puliscite",
+        "Puliscono"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

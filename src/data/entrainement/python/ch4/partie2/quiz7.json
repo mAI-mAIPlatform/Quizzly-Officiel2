@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "La méthode setdefault()",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que fait dico.setdefault('clé', 0) ?",
+      "options": [
+        "Renvoie la valeur si elle existe, sinon crée la clé avec 0",
+        "Force la valeur à 0",
+        "Supprime la clé",
+        "Ne fait rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "C'est utile pour initialiser des compteurs ou des listes dans un dictionnaire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "setdefault est un mélange entre un 'get' et un '{{1}}'.",
+      "reponsesAttendues": [
+        "ajout"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Scénario.",
+      "pairs": [
+        {
+          "left": "Clé présente",
+          "right": "Retourne valeur actuelle"
+        },
+        {
+          "left": "Clé absente",
+          "right": "Ajoute et retourne défaut"
+        },
+        {
+          "left": "Utilité",
+          "right": "Évite les if/else d'existence"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si on ne précise pas la valeur par défaut ?",
+      "options": [
+        "Elle vaut None par défaut",
+        "Une erreur survient",
+        "Elle vaut 0",
+        "La clé n'est pas créée"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz27",
+  "titre": "Problèmes de mise en équation (2)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Un rectangle a un périmètre de 40m. Sa longueur fait 4m de plus que sa largeur. Largeur ?",
+      "options": [
+        "8 m",
+        "12 m",
+        "10 m",
+        "16 m"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour ce problème, l'équation est 2(x + x + 4) = 40.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si 3 stylos coûtent 4,50 €, alors 1 stylo coûte {{1}} €.",
+      "reponsesAttendues": [
+        "1,5"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la situation à sa solution.",
+      "pairs": [
+        {
+          "left": "Trois entiers consécutifs valent 15",
+          "right": "4, 5, 6"
+        },
+        {
+          "left": "Deux nombres pairs valent 10",
+          "right": "4 et 6"
+        },
+        {
+          "left": "Un nombre et son carré valent 12",
+          "right": "3"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Dans un triangle isocèle, l'angle principal vaut le double des autres. Combien vaut un petit angle ?",
+      "options": [
+        "45°",
+        "90°",
+        "60°",
+        "30°"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

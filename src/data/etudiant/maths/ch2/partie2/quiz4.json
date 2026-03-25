@@ -1,0 +1,63 @@
+{
+  "id": "quiz14",
+  "titre": "Démontrer qu'il est rectangle (1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Un triangle a pour côtés 3 cm, 4 cm et 5 cm. Est-il rectangle ?",
+      "options": [
+        "Oui, en 5",
+        "Oui, face au côté de 5 cm",
+        "Non",
+        "On ne peut pas savoir"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour ce triangle, 3² + 4² = 25.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'égalité de Pythagore est {{1}} (vérifiée/fausse).",
+      "reponsesAttendues": [
+        "vérifiée"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe les calculs séparés.",
+      "pairs": [
+        {
+          "left": "Plus long côté au carré",
+          "right": "5² = 25"
+        },
+        {
+          "left": "Somme des autres carrés",
+          "right": "3² + 4² = 25"
+        },
+        {
+          "left": "Conclusion",
+          "right": "Rectangle"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si un triangle est rectangle de côtés 3, 4, 5, quel est son périmètre ?",
+      "options": [
+        "12 cm",
+        "7 cm",
+        "9 cm",
+        "60 cm"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

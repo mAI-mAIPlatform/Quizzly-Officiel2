@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Comparatifs et Superlatifs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment se forme le comparatif de supériorité régulier ?",
+      "options": [
+        "En ajoutant -ior, -ius au radical",
+        "En ajoutant -issimus",
+        "En ajoutant -rimus",
+        "On ne change rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Altissimus' signifie 'Le plus haut' (Superlatif).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Plus grand se dit {{1}} (maior).",
+      "reponsesAttendues": [
+        "maior"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'adjectif.",
+      "pairs": [
+        {
+          "left": "Doctus",
+          "right": "Savant"
+        },
+        {
+          "left": "Doctior",
+          "right": "Plus savant"
+        },
+        {
+          "left": "Doctissimus",
+          "right": "Très savant / Le plus savant"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Optimus' ?",
+      "options": [
+        "Le meilleur",
+        "Le plus grand",
+        "Le plus petit",
+        "Le plus rapide"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

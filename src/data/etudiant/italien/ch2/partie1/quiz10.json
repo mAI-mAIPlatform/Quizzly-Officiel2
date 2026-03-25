@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Cap. 2 P. 1 Sintesi",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Mi {{1}} alle sette e {{2}} colazione (se lever / prendre).",
+      "options": [
+        "alzo / faccio",
+        "alzo / fa",
+        "alzano / fanno",
+        "alzi / fai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Piacere: Mi piacciono i gatti (plural) es correcto.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vado {{1}} cinema (al - a+il).",
+      "reponsesAttendues": [
+        "al"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el resumen.",
+      "pairs": [
+        {
+          "left": "Riflessivi",
+          "right": "Alzarsi, Svegliarsi"
+        },
+        {
+          "left": "Pasti",
+          "right": "Colazione, Pranzo"
+        },
+        {
+          "left": "Preferenze",
+          "right": "Mi piace, Mi piacciono"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'D'habitude, je vais à la cuisine pour boire de l'eau'?",
+      "options": [
+        "Di solito vado in cucina per bere acqua",
+        "Sempre vado in cucina per bere acqua",
+        "Mai vado in cucina per bere acqua",
+        "Di solito vai in cucina per bere acqua"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

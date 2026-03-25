@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Racines Grecques courantes - 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie la racine 'Bio-' ?",
+      "options": [
+        "Livre",
+        "Vie",
+        "Terre",
+        "Temps"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La racine 'Chrono-' signifie le temps.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La racine '-logie' signifie l'étude ou la {{1}} de quelque chose.",
+      "reponsesAttendues": [
+        "science / parole"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Racines et Sens.",
+      "pairs": [
+        {
+          "left": "Télé-",
+          "right": "Loin"
+        },
+        {
+          "left": "Micro-",
+          "right": "Petit"
+        },
+        {
+          "left": "Macro-",
+          "right": "Grand"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel mot français signifie 'qui écrit sa propre vie' ?",
+      "options": [
+        "Autobiographie",
+        "Biologie",
+        "Chronologie",
+        "Microscope"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

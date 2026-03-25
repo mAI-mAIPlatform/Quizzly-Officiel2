@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Fondations et Sol",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi servent les fondations d'un bâtiment ?",
+      "options": [
+        "À transmettre le poids de la structure au sol de façon stable",
+        "À cacher le trésor",
+        "À faire pousser des plantes",
+        "À isoler du froid uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si le sol est mou, on doit creuser des fondations profondes (pieux).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les fondations classiques en béton s'appellent des {{1}}.",
+      "reponsesAttendues": [
+        "semelles"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Travaux Sol.",
+      "pairs": [
+        {
+          "left": "Terrassement",
+          "right": "Préparer le terrain (creuser)"
+        },
+        {
+          "left": "Drainage",
+          "right": "Évacuer l'eau autour de la maison"
+        },
+        {
+          "left": "Dalle",
+          "right": "Plancher de base en béton"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi ferraille-t-on le béton (béton armé) ?",
+      "options": [
+        "Pour qu'il résiste mieux à la traction (car le béton seul casse)",
+        "Pour qu'il soit plus lourd",
+        "Pour faire circuler l'électricité",
+        "Pour que ce soit plus cher"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

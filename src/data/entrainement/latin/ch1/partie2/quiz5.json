@@ -1,0 +1,62 @@
+{
+  "id": "quiz5",
+  "titre": "Le verbe Être (Sum)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Je suis' en latin ?",
+      "options": [
+        "Sum",
+        "Es",
+        "Est",
+        "Sunt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Est' signifie 'Il/Elle est'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Nous sommes se dit {{1}}.",
+      "reponsesAttendues": [
+        "Sumus"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Es",
+          "right": "Tu es"
+        },
+        {
+          "left": "Estis",
+          "right": "Vous êtes"
+        },
+        {
+          "left": "Sunt",
+          "right": "Ils sont"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la racine du verbe être au présent ?",
+      "options": [
+        "Am-",
+        "S- / Es-",
+        "Hab-",
+        "Vid-"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

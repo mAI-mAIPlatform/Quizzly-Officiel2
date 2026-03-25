@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "L'Interface Homme-Machine (IHM)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert une IHM ?",
+      "options": [
+        "À permettre à l'humain de communiquer avec la machine",
+        "À décorer le robot",
+        "À charger les batteries",
+        "À cacher les fils"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un écran tactile est un exemple d'IHM.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le clavier est un périphérique d'{{1}}.",
+      "reponsesAttendues": [
+        "entrée"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Composants IHM.",
+      "pairs": [
+        {
+          "left": "Émetteur sonore",
+          "right": "Avertisseur"
+        },
+        {
+          "left": "Vibrateur",
+          "right": "Retour haptique"
+        },
+        {
+          "left": "Clavier",
+          "right": "Saisie de texte"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle interface est la plus intuitive pour le grand public ?",
+      "options": [
+        "Interface graphique (icônes, tactile)",
+        "Ligne de commande (texte brut)",
+        "Code binaire (0-1)",
+        "Aucune"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "El Verbo Vivir",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'J'habite' en español ?",
+      "options": [
+        "Vivo",
+        "Como",
+        "Hablo",
+        "Sueño"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Vives' es la forma de 'Tú'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Nous habitons' se dice '{{1}}'.",
+      "reponsesAttendues": [
+        "Vivimos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Verbo Vivir.",
+      "pairs": [
+        {
+          "left": "Él vive",
+          "right": "Il habite"
+        },
+        {
+          "left": "Ellos viven",
+          "right": "Ils habitent"
+        },
+        {
+          "left": "Vosotros vivís",
+          "right": "Vous habitez"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Donde vives ?",
+      "options": [
+        "Vivo en una casa",
+        "Soy un chico",
+        "Tengo un perro",
+        "Como una manzana"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

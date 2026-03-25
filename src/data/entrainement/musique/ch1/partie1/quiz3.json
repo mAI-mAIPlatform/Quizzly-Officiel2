@@ -1,0 +1,62 @@
+{
+  "id": "quiz3",
+  "titre": "La Famille des Cuivres",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel cuivre utilise une coulisse pour changer de note ?",
+      "options": [
+        "La trompette",
+        "Le trombone",
+        "Le cor d'harmonie",
+        "Le tuba"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le tuba est le plus aigu des cuivres.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour produire un son, le musicien doit faire {{1}} ses lèvres dans l'embouchure.",
+      "reponsesAttendues": [
+        "vibrer"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Trompette",
+          "right": "Aigu"
+        },
+        {
+          "left": "Cor d'harmonie",
+          "right": "Doux / Majestueux"
+        },
+        {
+          "left": "Tuba",
+          "right": "Grave"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Combien de pistons possède généralement une trompette moderne ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

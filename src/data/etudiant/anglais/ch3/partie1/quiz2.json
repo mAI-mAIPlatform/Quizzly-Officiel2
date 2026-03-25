@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "The Internet",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What does WWW stand for?",
+      "options": [
+        "World Wide Web",
+        "Welcome Wild World",
+        "Work With Wisdom",
+        "Wait What Where"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A 'search engine' helps you find information on the internet.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Websites like Instagram or TikTok are called {{1}} media.",
+      "reponsesAttendues": [
+        "social"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the internet term with its definition.",
+      "pairs": [
+        {
+          "left": "Browser",
+          "right": "A program used to view websites (ex: Chrome)"
+        },
+        {
+          "left": "Link",
+          "right": "A connection between two web pages"
+        },
+        {
+          "left": "Download",
+          "right": "Copying data from the internet to your device"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is 'Wi-Fi'?",
+      "options": [
+        "A technology for wireless network connection",
+        "A type of fast food",
+        "A button on a microwave",
+        "The name of a famous hacker"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

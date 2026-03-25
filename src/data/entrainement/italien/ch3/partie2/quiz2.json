@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Dans la Cuisine",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'La table' ?",
+      "options": [
+        "Il tavolo",
+        "La sedia",
+        "Il frigo",
+        "Il forno"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Il frigo' est l'abréviation de 'Il frigorifero'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La chaise se dit 'La {{1}}'.",
+      "reponsesAttendues": [
+        "sedia"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'objet.",
+      "pairs": [
+        {
+          "left": "Piatto",
+          "right": "Assiette"
+        },
+        {
+          "left": "Bicchiere",
+          "right": "Verre"
+        },
+        {
+          "left": "Forchetta",
+          "right": "Fourchette"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Le couteau' ?",
+      "options": [
+        "Il coltello",
+        "Il cucchiaio",
+        "La tazza",
+        "Il piatto"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

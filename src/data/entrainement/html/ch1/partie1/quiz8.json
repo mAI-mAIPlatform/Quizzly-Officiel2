@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Les Images en HTML",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise affiche une image ?",
+      "options": [
+        "<img>",
+        "<image>",
+        "<pic>",
+        "<src>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'alt' est facultatif mais recommandé pour l'accessibilité.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'adresse de l'image se définit avec l'attribut {{1}}.",
+      "reponsesAttendues": [
+        "src"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dimensions et détails.",
+      "pairs": [
+        {
+          "left": "width",
+          "right": "Largeur"
+        },
+        {
+          "left": "height",
+          "right": "Hauteur"
+        },
+        {
+          "left": "alt",
+          "right": "Texte alternatif"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "<img> est une balise...",
+      "options": [
+        "Auto-fermante (orpheline)",
+        "Double (avec fermeture)",
+        "Interdite",
+        "Unique par page"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

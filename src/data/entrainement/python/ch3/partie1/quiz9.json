@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Fonctions Lambda (Anonymes)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une fonction Lambda ?",
+      "options": [
+        "Une petite fonction anonyme sur une seule ligne",
+        "Une fonction très longue",
+        "Une erreur mathématique",
+        "Une fonction intégrée au processeur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La syntaxe est : lambda arguments : expression.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une fonction lambda n'a pas de nom (elle est {{1}}).",
+      "reponsesAttendues": [
+        "anonyme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe (double = lambda x: x*2).",
+      "pairs": [
+        {
+          "left": "lambda",
+          "right": "Mot-clé"
+        },
+        {
+          "left": "x",
+          "right": "Argument"
+        },
+        {
+          "left": "x*2",
+          "right": "Résultat renvoyé"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quand utiliser une Lambda ?",
+      "options": [
+        "Pour une opération simple et ponctuelle",
+        "Pour tout le programme",
+        "Quand on ne veut pas définir de fonction avec def",
+        "Les options 1 et 3"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

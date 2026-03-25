@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Le Blason (La Renaissance)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un blason poétique ?",
+      "options": [
+        "L'éloge d'une partie du corps féminin",
+        "Un bouclier de chevalier",
+        "Un poème sur les châteaux",
+        "Une insulte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Clément Marot est l'un des initiateurs du genre des blasons.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le contraire d'un blason (qui critique) s'appelle un {{1}}.",
+      "reponsesAttendues": [
+        "contre-blason"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la métaphore à l'élément du corps.",
+      "pairs": [
+        {
+          "left": "L'ébène",
+          "right": "Les cheveux"
+        },
+        {
+          "left": "Le corail",
+          "right": "Les lèvres"
+        },
+        {
+          "left": "Le lys",
+          "right": "Le teint"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le but principal du blason ?",
+      "options": [
+        "Magnifier la beauté de la femme",
+        "Donner une recette de cuisine",
+        "Expliquer l'anatomie",
+        "Raconter une histoire drôle"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

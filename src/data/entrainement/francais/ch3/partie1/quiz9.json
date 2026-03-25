@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Les Formes de Discours",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel discours sert à donner l'aspect d'un personnage ou d'un lieu ?",
+      "options": [
+        "Descriptif",
+        "Narratif",
+        "Argumentatif",
+        "Explicatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le discours narratif rapporte des actions dans le temps.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le discours {{1}} sert à donner des informations pour faire comprendre quelque chose.",
+      "reponsesAttendues": [
+        "explicatif"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Reconnaître le discours.",
+      "pairs": [
+        {
+          "left": "Il était beau et grand",
+          "right": "Descriptif"
+        },
+        {
+          "left": "Il courut et sauta",
+          "right": "Narratif"
+        },
+        {
+          "left": "Je pense qu'il a tort",
+          "right": "Argumentatif"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel discours est dominant dans une pièce de théâtre ?",
+      "options": [
+        "Le discours dialogué",
+        "Le discours descriptif",
+        "Le discours scientifique",
+        "Le discours poétique"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

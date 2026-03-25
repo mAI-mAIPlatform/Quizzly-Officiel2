@@ -1,0 +1,63 @@
+{
+  "id": "quiz19",
+  "titre": "Anomalies Chromosomiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une trisomie ?",
+      "options": [
+        "La présence de 3 chromosomes au lieu de 2 dans une paire",
+        "L'absence totale de chromosomes",
+        "Une cellule avec 3 noyaux",
+        "Un régime alimentaire particulier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La trisomie 21 est caractérisée par un chromosome 21 supplémentaire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une modification du nombre de chromosomes entraîne souvent des {{1}} importantes.",
+      "reponsesAttendues": [
+        "malformations"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'anomalie à son caryotype.",
+      "pairs": [
+        {
+          "left": "Trisomie 21",
+          "right": "3 chromosomes sur la paire 21"
+        },
+        {
+          "left": "Syndrome de Turner",
+          "right": "Un seul chromosome X (X0)"
+        },
+        {
+          "left": "Syndrome de Klinefelter",
+          "right": "Deux X et un Y (XXY)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "À quel moment ces anomalies se produisent-elles généralement ?",
+      "options": [
+        "Lors d'une mauvaise séparation des chromosomes pendant la formation des gamètes",
+        "À cause d'un rhume pendant la grossesse",
+        "Si on mange trop de sucre",
+        "C'est un choix de l'enfant"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Projet 1 : Structure",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelles sont les trois étapes principales d'un projet informatique comme 'Devine le nombre' ?",
+      "options": [
+        "Préparation, Boucle de jeu, Conclusion",
+        "Achat, Vente, Publicité",
+        "Import, Export, Transport",
+        "Si, Alors, Sinon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La préparation sert à importer les modules et initialiser les variables de départ.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La boucle de jeu permet de répéter les actions tant que le joueur n'a pas gagné ou {{1}} (perdu).",
+      "reponsesAttendues": [
+        "perdu"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'étape au code correspondant.",
+      "pairs": [
+        {
+          "left": "Préparation",
+          "right": "import random; secret = 7"
+        },
+        {
+          "left": "Boucle",
+          "right": "while gagne == False:"
+        },
+        {
+          "left": "Conclusion",
+          "right": "print(\"Bravo !\")"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il utile de schématiser son projet avant de coder ?",
+      "options": [
+        "Pour ne pas se perdre dans la logique et anticiper les erreurs",
+        "Pour que l'ordinateur comprenne mieux",
+        "C'est une perte de temps",
+        "Pour économiser de l'électricité"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

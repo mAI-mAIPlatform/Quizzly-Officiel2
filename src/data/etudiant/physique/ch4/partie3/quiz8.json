@@ -1,0 +1,63 @@
+{
+  "id": "quiz28",
+  "titre": "La Fibre Optique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'y a-t-il à l'intérieur d'une fibre optique ?",
+      "options": [
+        "Du verre ou du plastique très fin",
+        "Un fil de métal",
+        "Du vide",
+        "De l'eau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'information dans la fibre voyage sous forme de flashs lumineux.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le signal lumineux dans la fibre reste prisonnier grâce à la réflexion {{1}}.",
+      "reponsesAttendues": [
+        "totale"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la techno à son débit.",
+      "pairs": [
+        {
+          "left": "ADSL (fil cuivre)",
+          "right": "Débit moyen (signal électrique)"
+        },
+        {
+          "left": "Fibre optique",
+          "right": "Très haut débit (signal lumineux)"
+        },
+        {
+          "left": "Bluetooth",
+          "right": "Débit faible, courte distance (ondes radio)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel avantage a la fibre sur le câble de cuivre ?",
+      "options": [
+        "Elle ne subit pas d'interférences électriques",
+        "Elle est plus lourde",
+        "Elle coûte moins cher à fabriquer",
+        "Elle est plus facile à plier"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

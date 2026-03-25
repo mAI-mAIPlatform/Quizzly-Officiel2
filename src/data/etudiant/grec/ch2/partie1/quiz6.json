@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "La Toilette et les Parfums",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que faisaient les athlètes grecs avant l'effort ?",
+      "options": [
+        "Ils s'enduisaient d'huile d'olive",
+        "Ils mettaient du parfum à la rose",
+        "Ils ne faisaient rien",
+        "Ils s'habillaient chaudement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'strigile' servait à racler l'huile et la poussière sur la peau.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'huile d'olive se dit 'to {{1}}' (elaion / ἔλαιον).",
+      "reponsesAttendues": [
+        "elaion"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'objet de toilette.",
+      "pairs": [
+        {
+          "left": "Lekuthos",
+          "right": "Vase à huile / parfum"
+        },
+        {
+          "left": "Katenês",
+          "right": "Peigne"
+        },
+        {
+          "left": "Esoptron",
+          "right": "Miroir"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel était l'endroit privilégié pour la toilette publique ?",
+      "options": [
+        "Le gymnase ou les bains",
+        "La fontaine du village seule",
+        "Le temple",
+        "Il n'y en avait pas"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

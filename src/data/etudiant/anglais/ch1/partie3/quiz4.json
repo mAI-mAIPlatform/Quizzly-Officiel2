@@ -1,0 +1,63 @@
+{
+  "id": "quiz24",
+  "titre": "Food Vocabulary",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What is the meal you eat in the morning?",
+      "options": [
+        "Breakfast",
+        "Lunch",
+        "Dinner",
+        "Snack"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Beverages' is another word for drinks.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A person who does not eat meat is a {{1}}.",
+      "reponsesAttendues": [
+        "vegetarian"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the food to its category.",
+      "pairs": [
+        {
+          "left": "Beef / Chicken",
+          "right": "Meat"
+        },
+        {
+          "left": "Salmon / Cod",
+          "right": "Fish"
+        },
+        {
+          "left": "Spinach / Peas",
+          "right": "Vegetables"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What does 'spicy' mean?",
+      "options": [
+        "Strong tasting, often hot (like chili)",
+        "Very sweet",
+        "Cold and frozen",
+        "Without any taste"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

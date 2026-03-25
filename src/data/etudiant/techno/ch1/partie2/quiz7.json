@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Scratch vs Python",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que Scratch ?",
+      "options": [
+        "Un langage de programmation visuel par blocs",
+        "Une marque de chaussures",
+        "Un jeu de cartes",
+        "Un type de virus informatique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Python est un langage de programmation textuel utilisé par les professionnels.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "En Scratch, pour faire bouger un personnage, on déplace des {{1}} (blocs).",
+      "reponsesAttendues": [
+        "blocs"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le langage à sa caractéristique.",
+      "pairs": [
+        {
+          "left": "Scratch",
+          "right": "Visuel, manipulation de briques colorées"
+        },
+        {
+          "left": "Python",
+          "right": "Textuel, écriture de lignes de code"
+        },
+        {
+          "left": "HTML",
+          "right": "Utilisé pour créer la structure des pages web"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage de Scratch pour apprendre ?",
+      "options": [
+        "On ne peut pas faire d'erreur de syntaxe car les blocs s'emboîtent",
+        "On peut gagner de l'argent plus vite",
+        "Les ordinateurs préfèrent les couleurs",
+        "C'est un jeu vidéo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

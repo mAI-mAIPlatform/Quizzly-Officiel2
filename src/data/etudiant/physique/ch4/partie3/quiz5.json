@@ -1,0 +1,63 @@
+{
+  "id": "quiz25",
+  "titre": "Vitesse de signal",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces signaux est le plus rapide ?",
+      "options": [
+        "Le signal WiFi (Ondes radio)",
+        "Le signal d'un mégaphone (Son)",
+        "Les vagues sur la mer",
+        "La fumée d'un feu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les ondes radio voyagent à la même vitesse que la lumière.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le son met environ {{1}} secondes pour parcourir 3,4 km.",
+      "reponsesAttendues": [
+        "10"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la vitesse de propagation au signal.",
+      "pairs": [
+        {
+          "left": "300 000 km/s",
+          "right": "Signal lumineux ou WiFi"
+        },
+        {
+          "left": "Un peu moins de 300 000 km/s",
+          "right": "Courant électrique dans un fil"
+        },
+        {
+          "left": "340 m/s",
+          "right": "Signal par ultrasons"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle technologie permet de traverser les murs les plus épais ?",
+      "options": [
+        "Les ondes radio (selon la fréquence)",
+        "La lampe de poche",
+        "Le cri",
+        "Les ultrasons"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

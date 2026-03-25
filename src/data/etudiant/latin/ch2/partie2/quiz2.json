@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Le parcours du baigneur",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Par quelle pièce commence-t-on généralement aux thermes ?",
+      "options": [
+        "L'apodyterium",
+        "Le caldarium",
+        "Le frigidarium",
+        "Le tepidarium"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'tepidarium' est la salle tiède.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les Romains utilisaient un {{1}} pour racler la peau (strigile).",
+      "reponsesAttendues": [
+        "strigile"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'étape.",
+      "pairs": [
+        {
+          "left": "Sudatorium",
+          "right": "Étuve / Sauna"
+        },
+        {
+          "left": "Unctorium",
+          "right": "Salle des onctions (huile)"
+        },
+        {
+          "left": "Natatio",
+          "right": "Piscine"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Avec quoi les Romains se nettoyaient-ils à la place du savon ?",
+      "options": [
+        "De l'huile et du sable",
+        "De l'eau de javel",
+        "Rien du tout",
+        "Des feuilles de rose"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

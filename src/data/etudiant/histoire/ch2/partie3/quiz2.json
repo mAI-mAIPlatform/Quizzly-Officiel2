@@ -1,0 +1,63 @@
+{
+  "id": "quiz22",
+  "titre": "L'Aire Urbaine",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "De quoi se compose une aire urbaine ?",
+      "options": [
+        "Un pôle urbain et une couronne périurbaine",
+        "Uniquement d'un centre historique",
+        "De champs et de forêts uniquement",
+        "D'une gare et d'un aéroport seulement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans la couronne périurbaine, au moins 40 % de la population travaille dans le pôle urbain.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le pôle urbain comprend la ville-centre et ses {{1}}.",
+      "reponsesAttendues": [
+        "banlieues"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la partie de l'aire urbaine à son habitat dominant.",
+      "pairs": [
+        {
+          "left": "Ville-centre",
+          "right": "Immeubles anciens et appartements"
+        },
+        {
+          "left": "Banlieue proche",
+          "right": "Grands ensembles et zones pavillonnaires"
+        },
+        {
+          "left": "Couronne périurbaine",
+          "right": "Maisons individuelles (lotissements)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le moteur spatial de l'aire urbaine aujourd'hui ?",
+      "options": [
+        "L'étalement urbain",
+        "Le rétrécissement des villes",
+        "La destruction des routes",
+        "L'interdiction de construire"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

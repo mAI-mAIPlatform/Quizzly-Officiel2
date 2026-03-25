@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Festivals around the World",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "When is Halloween celebrated?",
+      "options": [
+        "October 31st",
+        "December 25th",
+        "July 4th",
+        "January 1st"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Thanksgiving' is a major holiday in the UK.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "People wear costumes and say 'Trick or {{1}}' on Halloween.",
+      "reponsesAttendues": [
+        "treat"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the festivals.",
+      "pairs": [
+        {
+          "left": "Christmas",
+          "right": "Santa Claus"
+        },
+        {
+          "left": "Diwali",
+          "right": "Festival of Lights"
+        },
+        {
+          "left": "Easter",
+          "right": "Chocolate Eggs"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is celebrated on January 1st?",
+      "options": [
+        "New Year's Day",
+        "Valentine's Day",
+        "St Patrick's Day",
+        "Independence Day"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

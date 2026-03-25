@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Multiplication : Règle des signes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le signe du produit de deux nombres de signes contraires ?",
+      "options": [
+        "Toujours positif",
+        "Toujours négatif",
+        "Cela dépend de la valeur absolue",
+        "Zéro"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le produit de (-4) par (-5) est égal à +20.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Calcule : (-3) × (+7) = {{1}}",
+      "reponsesAttendues": [
+        "-21"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe chaque produit à son résultat.",
+      "pairs": [
+        {
+          "left": "(-2) × (-4)",
+          "right": "8"
+        },
+        {
+          "left": "(+5) × (-3)",
+          "right": "-15"
+        },
+        {
+          "left": "-1 × -1",
+          "right": "1"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le signe de (-1) × (-2) × (-3) × (-4) ?",
+      "options": [
+        "Positif",
+        "Négatif",
+        "Zéro",
+        "Indéterminé"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

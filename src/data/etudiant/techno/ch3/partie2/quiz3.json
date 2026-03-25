@@ -1,0 +1,64 @@
+{
+  "id": "quiz3",
+  "titre": "Les Capteurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le rôle d'un capteur ?",
+      "options": [
+        "Transformer une grandeur physique en un signal (souvent électrique)",
+        "Réaliser un mouvement mécanique",
+        "Calculer des opérations mathématiques",
+        "Stocker l'énergie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un capteur de mouvement (PIR) permet de détecter le passage d'une personne par sa chaleur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour mesurer la luminosité, on utilise souvent une {{1}} (photorésistance / LDR).",
+      "reponsesAttendues": [
+        "photorésistance",
+        "LDR"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le capteur à la grandeur qu'il mesure.",
+      "pairs": [
+        {
+          "left": "Thermistance",
+          "right": "Température"
+        },
+        {
+          "left": "Télémètre ultrason",
+          "right": "Distance"
+        },
+        {
+          "left": "Microphone",
+          "right": "Niveau sonore"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Un capteur 'Tout Ou Rien' (TOR) ne peut envoyer que deux états. Lequel est un capteur TOR ?",
+      "options": [
+        "Un bouton poussoir (appuyé ou non)",
+        "Un thermomètre précis",
+        "Un micro de studio",
+        "Une caméra vidéo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

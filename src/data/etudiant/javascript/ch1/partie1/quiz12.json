@@ -1,0 +1,64 @@
+{
+  "id": "quiz12",
+  "titre": "== vs ===",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces opérateurs vérifie à la fois la valeur ET le type (Égalité stricte) ?",
+      "options": [
+        "===",
+        "==",
+        "=",
+        "!"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'expression (5 == \"5\") renvoie true car JavaScript ignore le type avec '=='.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'expression (5 === \"5\") renvoie {{1}} car les types sont différents (Number vs String) (false).",
+      "reponsesAttendues": [
+        "false",
+        "faux"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'opération au résultat.",
+      "pairs": [
+        {
+          "left": "10 === 10",
+          "right": "true (Même valeur, même type)"
+        },
+        {
+          "left": "10 === \"10\"",
+          "right": "false (Types différents)"
+        },
+        {
+          "left": "true === 1",
+          "right": "false (Types différents)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la recommandation moderne en JavaScript ?",
+      "options": [
+        "Toujours utiliser '===' pour éviter les erreurs bizarres",
+        "Toujours utiliser '=='",
+        "Ne jamais utiliser de comparaisons",
+        "Utiliser '=' pour comparer"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

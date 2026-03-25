@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Phrases de survie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Je ne comprends pas' ?",
+      "options": [
+        "Non capisco",
+        "Non lo so",
+        "Non parlo",
+        "Non c'è"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Non lo so' signifie 'Je ne sais pas'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour demander de répéter, on dit 'Può {{1}}?'.",
+      "reponsesAttendues": [
+        "ripetere"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la question utile.",
+      "pairs": [
+        {
+          "left": "Come si dice?",
+          "right": "Comment dit-on ?"
+        },
+        {
+          "left": "Parla inglese?",
+          "right": "Parlez-vous anglais ?"
+        },
+        {
+          "left": "Più piano, per favore",
+          "right": "Plus doucement, s'il vous plaît"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment demande-t-on 'Où se trouve... ?'",
+      "options": [
+        "Dove sei?",
+        "Dov'è... ?",
+        "Cos'è... ?",
+        "Chi è... ?"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

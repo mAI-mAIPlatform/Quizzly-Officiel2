@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Techniques et progrès agricoles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle technique consiste à laisser une terre au repos un an sur trois ?",
+      "options": [
+        "L'irrigation",
+        "L'assolement triennal",
+        "Le labourage profond",
+        "L'engrais chimique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le collier d'épaule permettait au cheval de tirer des charges plus lourdes sans s'étouffer.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La charrue à roue, plus lourde que l'araire, permet de mieux retourner la {{1}}.",
+      "reponsesAttendues": [
+        "terre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'outil à son usage.",
+      "pairs": [
+        {
+          "left": "Faucille",
+          "right": "Couper le blé à la main"
+        },
+        {
+          "left": "Fléau",
+          "right": "Battre les grains pour les détacher"
+        },
+        {
+          "left": "Moulin à eau",
+          "right": "Moudre le grain en farine"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel a été le résultat de ces progrès techniques au Moyen Âge ?",
+      "options": [
+        "Une baisse de la population",
+        "Une augmentation des récoltes et de la population",
+        "Le début de l'industrie",
+        "La disparition des forêts"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

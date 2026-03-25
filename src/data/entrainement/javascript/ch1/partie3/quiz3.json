@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Les priorités (Parenthèses)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quel ordre les opérations sont-elles effectuées par défaut ?",
+      "options": [
+        "De droite à gauche",
+        "Selon les priorités mathématiques et logiques",
+        "Toujours les additions d'abord",
+        "Au hasard"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les parenthèses permettent de forcer une priorité dans une expression.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'expression (true || false) && false renvoie {{1}}.",
+      "reponsesAttendues": [
+        "false"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'expression au résultat.",
+      "pairs": [
+        {
+          "left": "true || true && false",
+          "right": "true (ET est prioritaire mais OU gagne ici)"
+        },
+        {
+          "left": "(true || true) && false",
+          "right": "false"
+        },
+        {
+          "left": "10 + 5 * 2",
+          "right": "20"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que vaut true || false && false ?",
+      "options": [
+        "true",
+        "false",
+        "null",
+        "NaN"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

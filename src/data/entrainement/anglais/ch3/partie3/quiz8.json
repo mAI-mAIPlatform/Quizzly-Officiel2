@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Grammar : Past Simple (Introduction)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "How do you say 'J'ai visité Londres'?",
+      "options": [
+        "I visited London",
+        "I visit London",
+        "I am visit London",
+        "I to visit London"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Regular verbs in the past end with -ed.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Yesterday, I {{1}} traditional food.",
+      "reponsesAttendues": [
+        "ate"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the past forms.",
+      "pairs": [
+        {
+          "left": "See",
+          "right": "Saw"
+        },
+        {
+          "left": "Go",
+          "right": "Went"
+"        },
+        {
+          "left": "Visit",
+          "right": "Visited"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Which word indicates the past?",
+      "options": [
+        "Yesterday",
+        "Tomorrow",
+        "Now",
+        "Soon"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

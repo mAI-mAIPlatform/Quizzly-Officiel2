@@ -1,0 +1,64 @@
+{
+  "id": "quiz6",
+  "titre": "Le Parfait (Passé composé)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Sur quel radical se forme le parfait latin ?",
+      "options": [
+        "Le radical en -u- ou -v-",
+        "Le radical du présent",
+        "Le radical du futur",
+        "Il n'y a pas de radical"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Amavi' signifie 'J'ai aimé'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Il a aimé se dit {{1}} et ils ont aimé {{2}} (amavit/amaverunt).",
+      "reponsesAttendues": [
+        "amavit",
+        "amaverunt"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la terminaison du parfait.",
+      "pairs": [
+        {
+          "left": "-i",
+          "right": "1ère singulier (J'ai)"
+        },
+        {
+          "left": "-isti",
+          "right": "2ème singulier (Tu as)"
+        },
+        {
+          "left": "-imus",
+          "right": "1ère pluriel (Nous avons)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la célèbre phrase de César au parfait ?",
+      "options": [
+        "Veni, Vidi, Vici",
+        "Sum, Es, Est",
+        "Amo, Amas, Amat",
+        "Bellum est malum"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

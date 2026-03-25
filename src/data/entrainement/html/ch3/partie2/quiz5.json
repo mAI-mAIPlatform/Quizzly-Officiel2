@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "L'Attribut Lang et SEO",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où se place l'attribut 'lang' principal du site ?",
+      "options": [
+        "Dans la balise <html>",
+        "Dans la balise <head>",
+        "Dans <body>",
+        "Dans <footer>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut lang='fr' aide les navigateurs à proposer une traduction.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour l'anglais des États-Unis, on écrit lang='en-{{1}}'.",
+      "reponsesAttendues": [
+        "US"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Importance de Lang.",
+      "pairs": [
+        {
+          "left": "Lecteurs d'écran",
+          "right": "Choix de la prononciation"
+        },
+        {
+          "left": "Moteurs de recherche",
+          "right": "Ciblage géographique"
+        },
+        {
+          "left": "Correction orthographique",
+          "right": "Dictionnaire adapté"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on changer de langue au milieu d'une page ?",
+      "options": [
+        "Oui, en mettant un attribut 'lang' sur un <p> ou un <span>",
+        "Non, c'est interdit",
+        "Seulement dans le footer",
+        "Uniquement via JS"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

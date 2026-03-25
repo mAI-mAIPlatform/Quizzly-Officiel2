@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Hausarbeit (Tâches ménagères)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Ranger' ?",
+      "options": [
+        "Aufräumen",
+        "Putzen",
+        "Waschen",
+        "Kochen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Staubsaugen' bedeutet 'Passer l'aspirateur'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich muss mein Zimmer {{1}} (ranger).",
+      "reponsesAttendues": [
+        "aufräumen"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Aktionen.",
+      "pairs": [
+        {
+          "left": "Spülen",
+          "right": "Faire la vaisselle"
+        },
+        {
+          "left": "Bügeln",
+          "right": "Repasser"
+        },
+        {
+          "left": "Müll rausbringen",
+          "right": "Sortir les poubelles"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Hilfst du zu Hause?",
+      "options": [
+        "Ja, ich räume auf",
+        "Nein, ich bin Aufräumen",
+        "Aufräumen ist blau",
+        "Hallo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

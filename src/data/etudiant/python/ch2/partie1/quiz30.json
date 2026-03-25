@@ -1,0 +1,63 @@
+{
+  "id": "quiz30",
+  "titre": "Ch. 2 Synthèse Globale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Laquelle de ces structures est utilisée pour tester une égalité ?",
+      "options": [
+        "if x == 10:",
+        "if x = 10:",
+        "while x = 10:",
+        "for x is 10:"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'indentation définit la fin d'un bloc de contrôle en Python.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La boucle 'for i in {{1}}(5):' répétera le code 5 fois (range).",
+      "reponsesAttendues": [
+        "range"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le mot-clé à sa fonction.",
+      "pairs": [
+        {
+          "left": "elif",
+          "right": "Ajoute une condition alternative"
+        },
+        {
+          "left": "else",
+          "right": "Exécute si tout le reste est faux"
+        },
+        {
+          "left": "break",
+          "right": "Stoppe la boucle immédiatement"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le résultat de : range(1, 4) ?",
+      "options": [
+        "1, 2, 3",
+        "1, 2, 3, 4",
+        "2, 3, 4",
+        "1, 4"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

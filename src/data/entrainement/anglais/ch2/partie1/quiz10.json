@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Review : Food and Drinks",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Which one is unhealthy if you eat too much?",
+      "options": [
+        "Candy",
+        "Apples",
+        "Water",
+        "Salad"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Vegetarians don't eat meat.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "I'm {{1}}. I need some water.",
+      "reponsesAttendues": [
+        "thirsty"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Match.",
+      "pairs": [
+        {
+          "left": "Hungry",
+          "right": "Want food"
+        },
+        {
+          "left": "Thirsty",
+          "right": "Want drink"
+        },
+        {
+          "left": "Yummy",
+          "right": "Good taste"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Ready for Part 2 about Health?",
+      "options": [
+        "Yes!",
+        "Let's go!",
+        "Of course!",
+        "Review Part 1"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

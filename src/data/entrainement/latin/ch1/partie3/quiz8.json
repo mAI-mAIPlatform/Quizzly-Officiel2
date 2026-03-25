@@ -1,0 +1,62 @@
+{
+  "id": "quiz8",
+  "titre": "Architecture et Génie Civil",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel ouvrage permettait d'amener l'eau des montagnes vers les villes ?",
+      "options": [
+        "L'Odéon",
+        "L'Aqueduc",
+        "La Via Appia",
+        "L'Arc de Triomphe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les Romains utilisaient le béton pour leurs constructions.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La célèbre route reliant Rome au sud de l'Italie s'appelle la Via {{1}}.",
+      "reponsesAttendues": [
+        "Appia"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Voûte",
+          "right": "Forme en arche"
+        },
+        {
+          "left": "Coupole",
+          "right": "Dôme (ex: Panthéon)"
+        },
+        {
+          "left": "Colonnes",
+          "right": "Styles Dorique, Ionique, Corinthien"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle invention romaine permet encore aux ponts de tenir aujourd'hui ?",
+      "options": [
+        "La colle forte",
+        "La clef de voûte",
+        "Le plastique",
+        "Les câbles en acier"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

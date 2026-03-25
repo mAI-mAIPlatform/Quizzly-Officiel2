@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Les Animaux sauvages",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Le lion' ?",
+      "options": [
+        "Il leone",
+        "La tigre",
+        "L'orso",
+        "Il lupo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Orso' signifie 'Ours'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le loup se dit 'Il {{1}}'.",
+      "reponsesAttendues": [
+        "lupo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'animal sauvage.",
+      "pairs": [
+        {
+          "left": "Elefante",
+          "right": "Éléphant"
+        },
+        {
+          "left": "Scimmia",
+          "right": "Singe"
+        },
+        {
+          "left": "Serpente",
+          "right": "Serpent"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Volpe' ?",
+      "options": [
+        "Renard",
+        "Vautour",
+        "Vipère",
+        "Volaille"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Around the School",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What must you do in the library?",
+      "options": [
+        "Be quiet and read",
+        "Run and scream",
+        "Eat pizza",
+        "Play football"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "You can use your mobile phone in class in most British schools.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Don't {{1}} in the corridors!",
+      "reponsesAttendues": [
+        "run"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match rules to places.",
+      "pairs": [
+        {
+          "left": "Wear swimming cap",
+          "right": "Pool"
+        },
+        {
+          "left": "Put trash in the bin",
+          "right": "Playground"
+        },
+        {
+          "left": "No shouting",
+          "right": "Library"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What must you wear for PE?",
+      "options": [
+        "Trainers and shorts",
+        "A suit and tie",
+        "Pajamas",
+        "Nothing"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

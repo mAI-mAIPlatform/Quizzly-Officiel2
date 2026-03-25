@@ -1,0 +1,63 @@
+{
+  "id": "quiz14",
+  "titre": "Développer et Réduire (Mélange)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Développe et réduis : 3x - (x + 2)(x - 1)",
+      "options": [
+        "-x² + 3x + 2",
+        "-x² + 2x + 2",
+        "x² - 3x - 2",
+        "-x² + 4x - 2"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans 10 - 2(x + 3), on doit d'abord faire la soustraction 10 - 2.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Réduis : (x + 1)(x + 2) + (x - 1)(x - 2) = 2x² + {{1}}",
+      "reponsesAttendues": [
+        "4"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'expression à sa forme simplifiée.",
+      "pairs": [
+        {
+          "left": "x(x + 1) + x(x - 1)",
+          "right": "2x²"
+        },
+        {
+          "left": "(x + 1)(x - 1)",
+          "right": "x² - 1"
+        },
+        {
+          "left": "2(x + 1) - 2(x - 1)",
+          "right": "4"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est l'expression réduite de (x + 3)² ?",
+      "options": [
+        "x² + 9",
+        "x² + 6x + 9",
+        "2x + 6",
+        "x² + 3x + 9"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

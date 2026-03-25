@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Present Simple : Everyday School",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "I _____ my homework in the afternoon.",
+      "options": [
+        "do",
+        "does",
+        "doing",
+        "am do"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "She 'go' to school at 7:30.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "My sister {{1}} a uniform for school.",
+      "reponsesAttendues": [
+        "wears"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the verbs.",
+      "pairs": [
+        {
+          "left": "I / You / We",
+          "right": "Base form (play)"
+        },
+        {
+          "left": "He / She / It",
+          "right": "Add -s (plays)"
+        },
+        {
+          "left": "Routine",
+          "right": "Present Simple"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "They _____ to the library on Tuesdays.",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "to go"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "quiz13",
+  "titre": "La Variable de Boucle",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans 'for i in range(5):', que représente 'i' ?",
+      "options": [
+        "Une variable qui prend successivement chaque valeur de la suite",
+        "L'initiale du mot 'Index'",
+        "L'ordinateur",
+        "Un paramètre caché"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut choisir n'importe quel nom pour la variable de boucle (ex: for x in range(3):).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "À chaque tour de boucle, la variable change de valeur automatiquement. On appelle cela une {{1}} (itération).",
+      "reponsesAttendues": [
+        "itération",
+        "iteration"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le code au résultat de l'affichage.",
+      "pairs": [
+        {
+          "left": "for i in range(2): print(i)",
+          "right": "Affiche 0 puis 1"
+        },
+        {
+          "left": "for i in range(1): print(\"Salut\")",
+          "right": "Affiche Salut une fois"
+        },
+        {
+          "left": "for i in range(3): print(i+1)",
+          "right": "Affiche 1, 2, 3"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle lettre est souvent utilisée par convention pour une boucle simple ?",
+      "options": [
+        "i",
+        "b",
+        "z",
+        "l"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

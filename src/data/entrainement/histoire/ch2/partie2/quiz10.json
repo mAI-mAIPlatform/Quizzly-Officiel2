@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan : L'ordre seigneurial",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces mots définit le mieux la société féodale ?",
+      "options": [
+        "Liberté",
+        "Égalité",
+        "Hiérarchie",
+        "Modernité"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Chaque homme au Moyen Âge a une place précise dans la société (ceux qui prient, combattent ou travaillent).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'ensemble de la population qui cultive la terre forme le tiers-{{1}} plus tard.",
+      "reponsesAttendues": [
+        "état"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dernier défi d'ordre seigneurial :",
+      "pairs": [
+        {
+          "left": "Clergé",
+          "right": "Ceux qui prient"
+        },
+        {
+          "left": "Noblesse",
+          "right": "Ceux qui combattent"
+        },
+        {
+          "left": "Paysannerie",
+          "right": "Ceux qui travaillent"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt à découvrir comment les villes se sont développées ?",
+      "options": [
+        "Oui, vers la ville !",
+        "Je reste à la campagne",
+        "Qu'est-ce qu'une ville ?",
+        "Je n'ai pas fini !"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

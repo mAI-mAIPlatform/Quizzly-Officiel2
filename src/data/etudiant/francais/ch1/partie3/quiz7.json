@@ -1,0 +1,63 @@
+{
+  "id": "quiz27",
+  "titre": "L'énonciation : Qui parle ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans un poème, celui qui dit 'Je' s'appelle :",
+      "options": [
+        "Le locuteur (ou le 'je' lyrique)",
+        "L'auteur réel forcément",
+        "Le lecteur",
+        "L'éditeur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'apostrophe consiste à s'adresser directement à quelqu'un ou quelque chose.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le destinataire d'un poème amoureux est souvent désigné par le pronom '{{1}}'.",
+      "reponsesAttendues": [
+        "tu"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le terme à sa définition.",
+      "pairs": [
+        {
+          "left": "Énoncé",
+          "right": "Le texte produit"
+        },
+        {
+          "left": "Énonciation",
+          "right": "L'acte de produire le texte"
+        },
+        {
+          "left": "Embrayeurs",
+          "right": "Mots liés à la situation (ici, maintenant)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'effet de l'utilisation du 'Nous' en poésie ?",
+      "options": [
+        "Inclure le poète et l'être aimé",
+        "Parler d'une troisième personne",
+        "Exclure tout le monde",
+        "Donner un ordre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

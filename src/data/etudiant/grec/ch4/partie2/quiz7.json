@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Révision : Accents et Esprits",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "L'esprit rugueux ( ̔ ) indique :",
+      "options": [
+        "Une aspiration (H aspiré)",
+        "Une absence d'aspiration",
+        "Une voyelle longue",
+        "Un accent aigu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'accent circonflexe ( ͂ ) ne se trouve que sur les voyelles longues.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La virgule inversée marquant l'absence d'aspiration est l'esprit {{1}} (doux).",
+      "reponsesAttendues": [
+        "doux"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'accentuation.",
+      "pairs": [
+        {
+          "left": "Aigu ( ̓ )",
+          "right": "Élévation de la voix"
+        },
+        {
+          "left": "Grave ( ̔ )",
+          "right": "Sur l'ultime (en fin de phrase)"
+        },
+        {
+          "left": "Circonflexe",
+          "right": "Élévation puis flexion"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment se note le point d'interrogation en grec ?",
+      "options": [
+        "Un point-virgule ( ; )",
+        "Un point d'interrogation ( ? )",
+        "Un point en haut ( ˙ )",
+        "Un deux-points ( : )"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

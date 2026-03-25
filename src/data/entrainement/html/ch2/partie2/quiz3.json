@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Plusieurs Sources avec <source>",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser plusieurs fois la balise <source> ?",
+      "options": [
+        "Pour proposer plusieurs formats en cas d'incompatibilité",
+        "Pour jouer plusieurs sons en même temps",
+        "Pour rendre le code plus long",
+        "C'est inutile"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le navigateur s'arrête dès qu'il trouve une source qu'il sait lire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On précise le format du fichier avec l'attribut {{1}} (ex: video/mp4).",
+      "reponsesAttendues": [
+        "type"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Structure de secours.",
+      "pairs": [
+        {
+          "left": "source",
+          "right": "Enfant de audio/video"
+        },
+        {
+          "left": "src (dans source)",
+          "right": "Lien vers un format"
+        },
+        {
+          "left": "Texte de secours",
+          "right": "Affiché si rien n'est supporté"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où place-t-on le texte 'Votre navigateur ne supporte pas la balise...' ?",
+      "options": [
+        "À l'intérieur de <video> ou <audio>, après les <source>",
+        "Dans le <head>",
+        "Dans un commentaire",
+        "Sur une autre page"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

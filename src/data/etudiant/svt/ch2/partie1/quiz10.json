@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Synthèse : Perpétuer la Vie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la fonction biologique de la reproduction ?",
+      "options": [
+        "Assurer la pérennité de l'espèce à travers les générations",
+        "Faire du sport",
+        "Avoir des amis",
+        "Changer de couleur tous les ans"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La reproduction sexuée est à la base de la diversité génétique au sein d'une espèce.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le cycle de vie commence par une {{1}} et se termine par la mort.",
+      "reponsesAttendues": [
+        "naissance"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la notion à sa définition.",
+      "pairs": [
+        {
+          "left": "Pérennité",
+          "right": "Maintien de l'espèce dans le temps"
+        },
+        {
+          "left": "Éclosion",
+          "right": "Sortie de l'œuf (chez les ovipares)"
+        },
+        {
+          "left": "Gestation",
+          "right": "Durée du développement dans le ventre maternel"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle sera la suite logique de notre étude après la reproduction ?",
+      "options": [
+        "La génétique et la transmission des caractères",
+        "La cuisine traditionnelle",
+        "L'histoire de la musique française",
+        "Le fonctionnement d'un moteur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "L'explosion urbaine",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Depuis quelle année plus de la moitié de l'humanité vit-elle en ville ?",
+      "options": [
+        "2007",
+        "1900",
+        "1950",
+        "2020"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'urbanisation progresse le plus vite dans les pays en développement (Afrique, Asie).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le passage d'une population rurale à une population urbaine s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "transition urbaine"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la zone à son taux d'urbanisation moyen.",
+      "pairs": [
+        {
+          "left": "Europe / Amérique du Nord",
+          "right": "Environ 75-80 %"
+        },
+        {
+          "left": "Afrique subsaharienne",
+          "right": "Environ 40 % (en forte hausse)"
+        },
+        {
+          "left": "Moyenne mondiale",
+          "right": "Environ 55 %"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une mégapole ?",
+      "options": [
+        "Une ville de plus de 10 millions d'habitants",
+        "Une petite ville tranquille",
+        "Un parc d'attraction géant",
+        "Une ville sous-marine"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

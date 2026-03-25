@@ -1,0 +1,64 @@
+{
+  "id": "quiz6",
+  "titre": "Masques et Costumes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi les acteurs portaient-ils des masques ?",
+      "options": [
+        "Pour changer de rôle et amplifier la voix",
+        "Parce qu'ils étaient timides",
+        "Pour ne pas prendre de coup de soleil",
+        "Parce que c'était obligatoire par la loi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les 'cothurnes' étaient des chaussures à semelles compensées pour les tragédiens.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le costume rembourré des acteurs de comédie s'appelle le {{1}} (somation).",
+      "reponsesAttendues": [
+        "somation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'accessoire.",
+      "pairs": [
+        {
+          "left": "Prosôpon",
+          "right": "Le masque"
+        },
+        {
+          "left": "Kothornos",
+          "right": "La chaussure montante"
+"
+        },
+        {
+          "left": "Onkos",
+          "right": "La coiffe du masque"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qui jouait tous les rôles au théâtre grec ?",
+      "options": [
+        "Uniquement des hommes",
+        "Uniquement des femmes",
+        "Des enfants",
+        "Des esclaves"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

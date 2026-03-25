@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Einkaufen in der Stadt",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'L'argent' ?",
+      "options": [
+        "Das Geld",
+        "Die Kasse",
+        "Der Preis",
+        "Der Euro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Billig' bedeutet 'Cher'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Das {{1}} (coûte) fünf Euro.",
+      "reponsesAttendues": [
+        "kostet"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Begriffe.",
+      "pairs": [
+        {
+          "left": "Teuer",
+          "right": "Cher"
+        },
+        {
+          "left": "Sonderangebot",
+          "right": "Promotion"
+"        },
+        {
+          "left": "Quittung",
+          "right": "Reçu"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Wie viel kostet das?",
+      "options": [
+        "Es kostet zehn Euro",
+        "Es ist ein Euro",
+        "Ich habe zehn Euro",
+        "Hallo Euro"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

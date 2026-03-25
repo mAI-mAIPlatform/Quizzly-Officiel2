@@ -1,0 +1,63 @@
+{
+  "id": "quiz25",
+  "titre": "Talking about the Past",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Which form of the verb is used for a finished action in the past?",
+      "options": [
+        "Past Simple (Regular: -ed / Irregular: 2nd column)",
+        "Present Continuous",
+        "Future with will",
+        "Infinitive"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "The past of 'go' is 'goed'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Shakespeare {{1}} 'Romeo and Juliet' in 1597. (Verb: to write)",
+      "reponsesAttendues": [
+        "wrote"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the verb with its irregular past form.",
+      "pairs": [
+        {
+          "left": "Buy",
+          "right": "Bought"
+        },
+        {
+          "left": "Eat",
+          "right": "Ate"
+        },
+        {
+          "left": "See",
+          "right": "Saw"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What do we use for questions in the past simple?",
+      "options": [
+        "Did (Did you travel?)",
+        "Do (Do you travel?)",
+        "Does (Does you travel?)",
+        "Have (Have you travel?)"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

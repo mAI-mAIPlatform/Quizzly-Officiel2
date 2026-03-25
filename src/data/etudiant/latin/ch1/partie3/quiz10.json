@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Cap. 1 P. 3 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Le héros romain qui a brûlé sa main droite est {{1}}.",
+      "options": [
+        "Mucius Scaevola",
+        "Horatius Cocles",
+        "Cincinnatus",
+        "Brutus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Legis' est le génitif de 'Lex'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Cincinnatus était {{1}} avant de devenir dictateur (agriculteur).",
+      "reponsesAttendues": [
+        "agriculteur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les héros aux actes.",
+      "pairs": [
+        {
+          "left": "Horatius",
+          "right": "Pont Sublicius"
+        },
+        {
+          "left": "Cloelia",
+          "right": "Traversée du Tibre"
+        },
+        {
+          "left": "Mucius",
+          "right": "Le Gaucher"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la forme de 'Eram' ?",
+      "options": [
+        "Imparfait (J'étais)",
+        "Présent (Je suis)",
+        "Futur (Je serai)",
+        "Parfait (J'ai été)"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

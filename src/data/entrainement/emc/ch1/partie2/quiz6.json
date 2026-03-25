@@ -1,0 +1,62 @@
+{
+  "id": "quiz6",
+  "titre": "La Justice",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le rôle de la justice ?",
+      "options": [
+        "Faire les lois",
+        "Faire respecter la loi et trancher les conflits",
+        "Décider du prix du pain",
+        "Choisir les ministres"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Tout le monde a droit à un avocat pour se défendre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le tribunal qui juge les crimes les plus graves s'appelle la Cour d'{{1}}.",
+      "reponsesAttendues": [
+        "Assises"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Juge",
+          "right": "Tranche le conflit selon la loi"
+        },
+        {
+          "left": "Procureur",
+          "right": "Représente la société et demande une peine"
+        },
+        {
+          "left": "Avocat",
+          "right": "Défend les intérêts de son client"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le principe selon lequel on est innocent tant qu'on n'a pas été jugé coupable ?",
+      "options": [
+        "La présomption d'innocence",
+        "Le droit à l'erreur",
+        "La liberté de culte",
+        "L'égalité des chances"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

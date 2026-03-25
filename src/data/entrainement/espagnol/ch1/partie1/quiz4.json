@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "El Verbo Estar",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Cuando se usa el verbo 'Estar' ?",
+      "options": [
+        "Para estados temporales o localización",
+        "Para la identidad permanente",
+        "Para la edad",
+        "Para el nombre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Yo estoy en casa' es correcto.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Ils sont' (états) se dice 'Ellos {{1}}'.",
+      "reponsesAttendues": [
+        "están"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Verbo Estar.",
+      "pairs": [
+        {
+          "left": "Tú estás",
+          "right": "Tu es (état)"
+        },
+        {
+          "left": "Él está",
+          "right": "Il est (lieu)"
+        },
+        {
+          "left": "Estamos",
+          "right": "Nous sommes"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Como se dice 'Comment vas-tu ?' ?",
+      "options": [
+        "¿Cómo estás?",
+        "¿De dónde eres?",
+        "¿Cómo te llamas?",
+        "¿Cuántos años tienes?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

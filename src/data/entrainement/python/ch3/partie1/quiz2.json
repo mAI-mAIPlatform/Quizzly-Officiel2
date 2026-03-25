@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Définir une fonction (DEF)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel mot-clé utilise-t-on pour définir une fonction ?",
+      "options": [
+        "def",
+        "function",
+        "create",
+        "define"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le nom de la fonction doit être suivi de parenthèses ( ).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La ligne du 'def' se termine par le symbole '{{1}}'.",
+      "reponsesAttendues": [
+        ":"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe les parties.",
+      "pairs": [
+        {
+          "left": "def",
+          "right": "Mot-clé"
+        },
+        {
+          "left": "ma_fonction",
+          "right": "Nom"
+        },
+        {
+          "left": "( )",
+          "right": "Parenthèses"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où doit se trouver le code de la fonction ?",
+      "options": [
+        "Juste en dessous, avec une indentation",
+        "Sur la même ligne",
+        "Dans un autre fichier obligatoirement",
+        "Entre des accolades { }"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

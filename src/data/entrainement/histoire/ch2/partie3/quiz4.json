@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Le Grand Commerce et les Foires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une foire au Moyen Âge ?",
+      "options": [
+        "Un petit marché quotidien",
+        "Un grand marché international qui a lieu à date fixe",
+        "Une fête foraine avec des manèges",
+        "Un tournoi de chevaliers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les foires de Champagne étaient le principal point de rencontre entre marchands du Nord et du Sud.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le nouveau moyen de paiement facilitant le commerce s'appelle la {{1}} de change.",
+      "reponsesAttendues": [
+        "lettre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la région à son produit phare.",
+      "pairs": [
+        {
+          "left": "Flandre",
+          "right": "Drap de laine"
+        },
+        {
+          "left": "Italie",
+          "right": "Épices et Soies"
+        },
+        {
+          "left": "Hanse (mer du Nord)",
+          "right": "Poisson séché et Sel"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le personnage qui prête de l'argent et change les monnaies ?",
+      "options": [
+        "Le serf",
+        "Le banquier (initialement sur son banc)",
+        "Le vizir",
+        "Le missi dominici"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

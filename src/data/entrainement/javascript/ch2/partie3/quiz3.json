@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Le Court-circuit (Short-circuit)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le court-circuit en logique JS ?",
+      "options": [
+        "Une erreur électrique",
+        "L'arrêt de l'évaluation dès que le résultat final est certain",
+        "Un code trop court",
+        "Une fonction anonyme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans 'false && alert()', l'alerte ne sera jamais affichée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour 'true || alert()', l'alerte {{1}} pas affichée car le premier est vrai.",
+      "reponsesAttendues": [
+        "n'est"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le court-circuit.",
+      "pairs": [
+        {
+          "left": "A && B",
+          "right": "N'évalue B que si A est vrai"
+        },
+        {
+          "left": "A || B",
+          "right": "N'évalue B que si A est faux"
+        },
+        {
+          "left": "Utilité",
+          "right": "Performance et sécurité (éviter erreurs)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment tester si un objet 'user' existe avant de lire 'user.name' ?",
+      "options": [
+        "user.name && user",
+        "user && user.name",
+        "user || user.name",
+        "if (user.name)"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz25",
+  "titre": "Meios de transporte",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Autobús'?",
+      "options": [
+        "Ônibus",
+        "Carro",
+        "Trem",
+        "Avião"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Trem' es el tren (en Brasil).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vou de {{1}} para o trabalho (voiture/carro).",
+      "reponsesAttendues": [
+        "carro"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el transporte.",
+      "pairs": [
+        {
+          "left": "Bicicleta",
+          "right": "Vélo"
+        },
+        {
+          "left": "Metrô",
+          "right": "Métro"
+        },
+        {
+          "left": "Navio",
+          "right": "Navire / Bateau"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'pé' en 'Vou a pé'?",
+      "options": [
+        "Pie (Voy a pie / caminando)",
+        "Coche",
+        "Correr",
+        "Volar"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

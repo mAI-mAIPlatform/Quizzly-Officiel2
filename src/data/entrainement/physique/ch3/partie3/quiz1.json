@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Qu'est-ce qu'une ressource d'énergie ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où l'Homme trouve-t-il l'énergie dont il a besoin ?",
+      "options": [
+        "Dans son imagination",
+        "Dans des sources d'énergie naturelles disponibles dans l'environnement",
+        "Dans le vide",
+        "Il la crée de rien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une source d'énergie primaire est exploitée telle qu'elle se trouve dans la nature.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le pétrole et le Soleil sont des sources d'énergie {{1}}.",
+      "reponsesAttendues": [
+        "primaires"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la ressource à son origine.",
+      "pairs": [
+        {
+          "left": "Vent",
+          "right": "Énergie éolienne"
+        },
+        {
+          "left": "Rayonnement solaire",
+          "right": "Énergie solaire"
+        },
+        {
+          "left": "Charbon",
+          "right": "Énergie fossile"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi classe-t-on les ressources en deux grandes catégories ?",
+      "options": [
+        "Pour faire joli",
+        "Selon qu'elles se renouvellent assez vite à l'échelle humaine ou non",
+        "Selon leur couleur",
+        "Selon leur prix"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Déballage (Unpacking)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le déballage ?",
+      "options": [
+        "Assigner les éléments d'un itérable à plusieurs variables",
+        "Ouvrir un fichier zip",
+        "Supprimer une liste",
+        "Afficher une liste sans crochets"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "a, b = [10, 20] assigne 10 à a et 20 à b.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour récupérer le surplus dans une liste, on utilise l'astérisque : a, *reste = {{1}}.",
+      "reponsesAttendues": [
+        "L"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe (L=[1, 2, 3]).",
+      "pairs": [
+        {
+          "left": "a, b, c = L",
+          "right": "Déballage complet"
+        },
+        {
+          "left": "a, *b = L",
+          "right": "a=1, b=[2, 3]"
+        },
+        {
+          "left": "*a, b = L",
+          "right": "a=[1, 2], b=3"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si le nombre de variables ne correspond pas au nombre d'éléments ?",
+      "options": [
+        "Une erreur (ValueError)",
+        "Le reste est mis à None",
+        "Python ignore les derniers",
+        "Le programme s'arrête gentiment"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

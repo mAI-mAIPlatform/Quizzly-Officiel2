@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Portée de bloc (Block Scope)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Une variable déclarée avec 'let' dans un 'if' est-elle accessible dehors ?",
+      "options": [
+        "Oui, toujours",
+        "Non, seulement à l'intérieur du bloc",
+        "Seulement si le if est vrai",
+        "Uniquement sur Chrome"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les variables 'var' ne respectent pas la portée de bloc (elles 'fuient').",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le {{1}} scope protège vos variables d'être modifiées ailleurs.",
+      "reponsesAttendues": [
+        "block"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le mot-clé à sa portée.",
+      "pairs": [
+        {
+          "left": "let / const",
+          "right": "Portée de bloc { }"
+        },
+        {
+          "left": "var",
+          "right": "Portée de fonction (obsolète pour les blocs)"
+        },
+        {
+          "left": "Portée globale",
+          "right": "Déclarée hors de tout bloc"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi privilégier 'let' dans les conditions ?",
+      "options": [
+        "C'est plus court à écrire",
+        "Pour éviter les bugs liés aux fuites de variables",
+        "C'est obligatoire en 2024",
+        "Ça rend le code plus rapide"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

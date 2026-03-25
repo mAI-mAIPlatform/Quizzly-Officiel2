@@ -1,0 +1,63 @@
+{
+  "id": "quiz22",
+  "titre": "Global Influence of English",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Why is English called a 'lingua franca'?",
+      "options": [
+        "Because it is used for communication between people who speak different languages",
+        "Because it comes from France",
+        "Because it is a very difficult language",
+        "Because it is only spoken in England"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "English is the main language of international business and science.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A person who speaks two languages is {{1}}.",
+      "reponsesAttendues": [
+        "bilingual"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the English word with its origin.",
+      "pairs": [
+        {
+          "left": "Safari",
+          "right": "Swahili"
+        },
+        {
+          "left": "Robot",
+          "right": "Czech"
+        },
+        {
+          "left": "Pizza",
+          "right": "Italian"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What are 'loanwords'?",
+      "options": [
+        "Words adopted from one language into another",
+        "Words that you have to pay for",
+        "Words that people forget easily",
+        "A type of dictionary"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

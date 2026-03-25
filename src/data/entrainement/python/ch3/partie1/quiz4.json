@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Les Arguments de base",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi servent les arguments (paramètres) ?",
+      "options": [
+        "À envoyer des données à la fonction",
+        "À donner un nom à la fonction",
+        "À arrêter la fonction",
+        "À compter les lignes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On définit les paramètres entre les parenthèses du 'def'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si une fonction attend un nom, on l'appelle ainsi : ma_fonction('{{1}}').",
+      "reponsesAttendues": [
+        "Alice"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "Paramètre",
+          "right": "Dans le def (la variable)"
+        },
+        {
+          "left": "Argument",
+          "right": "Dans l'appel (la valeur)"
+        },
+        {
+          "left": "Plusieurs",
+          "right": "Séparés par des virgules"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si on oublie un argument obligatoire ?",
+      "options": [
+        "Une erreur (TypeError)",
+        "Python met 0 par défaut",
+        "La fonction est ignorée",
+        "Le programme s'arrête sans erreur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

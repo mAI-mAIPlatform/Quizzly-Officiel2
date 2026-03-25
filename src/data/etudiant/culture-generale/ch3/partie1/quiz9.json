@@ -1,0 +1,64 @@
+{
+  "id": "quiz9",
+  "titre": "Analyser un Tableau",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on la partie du tableau située le plus près de l'observateur ?",
+      "options": [
+        "Le premier plan",
+        "L'arrière-plan",
+        "Le cadre",
+        "Le plan culte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La 'Composition' est la façon dont les éléments sont disposés dans le tableau.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le contraste fort entre les zones claires et les zones sombres s'appelle le {{1}} (clair-obscur).",
+      "reponsesAttendues": [
+        "clair-obscur",
+        "clair obscur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'élément d'analyse à son but.",
+      "pairs": [
+        {
+          "left": "Lignes de force",
+          "right": "Guider le regard vers le sujet principal"
+        },
+        {
+          "left": "Nuancier",
+          "right": "Analyser les choix de couleurs du peintre"
+        },
+        {
+          "left": "Point de fuite",
+          "right": "Créer l'illusion de profondeur (perspective)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie le terme 'Sfumato' (utilisé par de Vinci) ?",
+      "options": [
+        "Une technique de dégradé vaporeux pour adoucir les contours",
+        "Une peinture faite avec de la fumée",
+        "Un type de cadre italien",
+        "Le nom d'un pinceau spécial"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan : Les Types de données",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel est immuable ?",
+      "options": [
+        "Tuple",
+        "Liste",
+        "Dictionnaire",
+        "Set"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Python possède beaucoup d'autres types plus complexes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le type 'float' dérive du mot anglais {{1}}.",
+      "reponsesAttendues": [
+        "floating"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Synthèse types :",
+      "pairs": [
+        {
+          "left": "int",
+          "right": "Entier"
+        },
+        {
+          "left": "str",
+          "right": "Texte"
+        },
+        {
+          "left": "bool",
+          "right": "Logique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour la partie 3 sur les Opérations ?",
+      "options": [
+        "Oui!",
+        "Andiamo!",
+        "Let's go!",
+        "Encore un peu de révision"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

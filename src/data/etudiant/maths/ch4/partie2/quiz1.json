@@ -1,0 +1,63 @@
+{
+  "id": "quiz11",
+  "titre": "Simple Distributivité (Avancé)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Développe : -2x(3x - 5)",
+      "options": [
+        "-6x² + 10x",
+        "-6x² - 10x",
+        "6x² + 10x",
+        "-6x + 10"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "x(x + y + z) est égal à x² + xy + xz.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Développe : 4a(2a + 3) = {{1}}a² + 12a",
+      "reponsesAttendues": [
+        "8"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'expression à sa forme développée.",
+      "pairs": [
+        {
+          "left": "- (2x - 3)",
+          "right": "-2x + 3"
+        },
+        {
+          "left": "3(2x + 4)",
+          "right": "6x + 12"
+        },
+        {
+          "left": "x(3 - x)",
+          "right": "3x - x²"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Simplifie : 2(x + 3) - 3(x - 1)",
+      "options": [
+        "-x + 9",
+        "-x + 3",
+        "5x + 9",
+        "-x - 3"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

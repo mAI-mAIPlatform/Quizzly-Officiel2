@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Introduction aux Tuples",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment créer un tuple ?",
+      "options": [
+        "(1, 2, 3)",
+        "[1, 2, 3]",
+        "{1, 2, 3}",
+        "tuple 1, 2, 3"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un tuple est 'immuable' (on ne peut pas le modifier après création).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les tuples sont entourés de {{1}}.",
+      "reponsesAttendues": [
+        "parenthèses"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Liste vs Tuple.",
+      "pairs": [
+        {
+          "left": "[ ]",
+          "right": "Liste (Modifiable)"
+        },
+        {
+          "left": "( )",
+          "right": "Tuple (Fixe)"
+        },
+        {
+          "left": "performance",
+          "right": "Tuple plus léger"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est un tuple valide ?",
+      "options": [
+        "(1,)",
+        "(1)",
+        "1, 2, 3",
+        "Options 1 et 3"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

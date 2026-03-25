@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Partizip II: Regelm.",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es la estructura del participio regular?",
+      "options": [
+        "ge- + raíz + -t",
+        "ge- + infinitivo",
+        "raíz + -ed",
+        "ge- + raíz + -en"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El participio de 'spielen' es 'gespielt'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich habe Deutsch {{1}} (apprendre - lernen).",
+      "reponsesAttendues": [
+        "gelernt"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el infinitivo con su participio.",
+      "pairs": [
+        {
+          "left": "Machen",
+          "right": "gemacht"
+        },
+        {
+          "left": "Frühstücken",
+          "right": "gefrühstückt"
+        },
+        {
+          "left": "Hören",
+          "right": "gehört"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'J'ai cherché (suchen)'?",
+      "options": [
+        "Ich habe gesucht",
+        "Ich habe gesuchtet",
+        "Ich habe suche",
+        "Ich habe suchen"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz15",
+  "titre": "Articoli femminili plurali",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es el plural del artículo 'La'?",
+      "options": [
+        "Le",
+        "La",
+        "Li",
+        "Gli"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A diferencia del masculino, para el femenino solo hay un artículo plural: 'Le'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'amica -> {{1}} amiche.",
+      "reponsesAttendues": [
+        "Le"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el singular con su plural.",
+      "pairs": [
+        {
+          "left": "La casa",
+          "right": "Le case"
+        },
+        {
+          "left": "L'arancia",
+          "right": "Le arance"
+        },
+        {
+          "left": "La donna",
+          "right": "Le donne"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cuál es el plural de 'La penna'?",
+      "options": [
+        "Le penne",
+        "I penne",
+        "La penne",
+        "Li penne"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

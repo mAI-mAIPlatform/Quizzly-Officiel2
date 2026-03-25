@@ -1,0 +1,62 @@
+{
+  "id": "quiz8",
+  "titre": "La Défense Nationale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle étape est obligatoire pour tous les jeunes Français à 16 ans ?",
+      "options": [
+        "Le permis de conduire",
+        "Le recensement citoyen",
+        "L'examen du bac",
+        "Le service militaire de 2 ans"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La JDC (Journée Défense et Citoyenneté) permet de découvrir les métiers de l'armée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le chef suprême des armées en France est le {{1}} de la République.",
+      "reponsesAttendues": [
+        "Président"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Armée de Terre",
+          "right": "Intervention au sol"
+        },
+        {
+          "left": "Marine Nationale",
+          "right": "Intervention en mer"
+        },
+        {
+          "left": "Armée de l'Air",
+          "right": "Intervention dans le ciel"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le but de la Défense Nationale ?",
+      "options": [
+        "Attaquer les pays voisins",
+        "Protéger le territoire, la population et les intérêts de la France",
+        "Surveiller les écoles",
+        "Organiser le sport national"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

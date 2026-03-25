@@ -1,0 +1,63 @@
+{
+  "id": "quiz15",
+  "titre": "Cyrano de Bergerac (Rostand)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle particularité physique complexe possède Cyrano ?",
+      "options": [
+        "Un nez immense",
+        "Une jambe de bois",
+        "Une cicatrice à l'oeil",
+        "Il est chauve"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Cyrano écrit les lettres d'amour de Christian pour Roxane.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Cyrano est un maître des mots mais aussi un maître de l'{{1}}.",
+      "reponsesAttendues": [
+        "épée"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la citation au personnage qui l'inspire.",
+      "pairs": [
+        {
+          "left": "C'est un roc ! C'est un pic !",
+          "right": "Son propre nez"
+        },
+        {
+          "left": "Je vous aime !",
+          "right": "Déclaration à Roxane"
+        },
+        {
+          "left": "Mon panache",
+          "right": "Le mot de la fin"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi Cyrano ne se déclare-t-il pas à Roxane plus tôt ?",
+      "options": [
+        "Il se trouve trop laid",
+        "Il est déjà marié",
+        "Il a peur de la foudre",
+        "Il a perdu la voix"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

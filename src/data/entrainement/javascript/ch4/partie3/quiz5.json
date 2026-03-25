@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "La portée Locale (Function Scope)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la portée locale ?",
+      "options": [
+        "Une variable accessible dans la ville",
+        "Une variable déclarée et accessible seulement dans une fonction",
+        "Une variable qui pèse peu",
+        "Une variable globale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les paramètres d'une fonction ont une portée locale.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une variable locale est {{1}} une fois la fonction terminée.",
+      "reponsesAttendues": [
+        "supprimée"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le concept local.",
+      "pairs": [
+        {
+          "left": " let x = ... dans f",
+          "right": "Locale à f"
+        },
+        {
+          "left": "Dehors",
+          "right": "Inaccessible"
+        },
+        {
+          "left": "Dangers",
+          "right": "Aucun, car isolée"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser le local scope ?",
+      "options": [
+        "Pour ne pas 'polluer' l'espace global",
+        "C'est plus compliqué",
+        "Ça n'a pas d'intérêt",
+        "Pour ralentir le code"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

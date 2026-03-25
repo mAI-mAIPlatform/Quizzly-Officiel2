@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Développement Durable",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le développement durable ?",
+      "options": [
+        "Répondre aux besoins du présent sans compromettre ceux des générations futures",
+        "Arrêter de construire des objets",
+        "Vivre uniquement dans la forêt",
+        "Acheter des produits chers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le développement durable repose sur 3 piliers : Économique, Social et Environnemental.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le recyclage permet de transformer un déchet en nouvelle {{1}}.",
+      "reponsesAttendues": [
+        "ressource"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Piliers DD.",
+      "pairs": [
+        {
+          "left": "Environnement",
+          "right": "Protéger la biodiversité et le climat"
+        },
+        {
+          "left": "Social",
+          "right": "Garantir l'équité et le bien-être"
+        },
+        {
+          "left": "Économique",
+          "right": "Assurer une viabilité financière saine"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le but des 3R ?",
+      "options": [
+        "Réduire, Réutiliser, Recycler",
+        "Rouler, Rapide, Riche",
+        "Rire, Rêver, Respirer",
+        "Réparer, Repeindre, Revendre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

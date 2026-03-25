@@ -1,0 +1,62 @@
+{
+  "id": "quiz5",
+  "titre": "Genre et Articles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est l'article défini masculin au nominatif singulier (Le) ?",
+      "options": [
+        "Ho (ὁ)",
+        "Hê (ἡ)",
+        "To (τό)",
+        "Oi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Hê' est l'article féminin.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'To' est l'article pour le genre {{1}}.",
+      "reponsesAttendues": [
+        "neutre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Ho",
+          "right": "Masculin sing."
+        },
+        {
+          "left": "Hê",
+          "right": "Féminin sing."
+        },
+        {
+          "left": "To",
+          "right": "Neutre sing."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "L'article s'accorde-t-il avec le nom en grec ?",
+      "options": [
+        "Oui, en genre, nombre et cas",
+        "Non, jamais",
+        "Seulement en genre",
+        "Seulement au pluriel"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz29",
+  "titre": "Culture Postcard",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "How do you start a postcard to a friend?",
+      "options": [
+        "Dear [Name], / Hi [Name],",
+        "To whom it may concern,",
+        "Madam, Sir,",
+        "Give me your news!"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A postcard is usually a very long letter of 10 pages.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "I'm having a {{1}} time here in Rome!",
+      "reponsesAttendues": [
+        "wonderful"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the phrase with its section in a postcard.",
+      "pairs": [
+        {
+          "left": "Greetings from New York!",
+          "right": "Opening"
+        },
+        {
+          "left": "I visited the Statue of Liberty",
+          "right": "Body (What you did)"
+        },
+        {
+          "left": "See you soon!",
+          "right": "Closing"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What do you write on the right side of a postcard?",
+      "options": [
+        "The recipient's name and address",
+        "Your favorite recipe",
+        "The phone number of the police",
+        "A drawing of a cat"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Resumo Capítulo 1 Parte 3",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Eu ... (suis) a Maria, ... (ai) 10 anos e ... (suis - état) feliz.",
+      "options": [
+        "sou / tenho / estou",
+        "estou / sou / tenho",
+        "tenho / estou / sou",
+        "sou / estou / tenho"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dizemos 'Eles têm' com acento circunflexo no plural.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Nós {{1}} (sommes - essence) amigos.",
+      "reponsesAttendues": [
+        "somos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Verbos.",
+      "pairs": [
+        {
+          "left": "Sou",
+          "right": "Je suis (ess.)"
+        },
+        {
+          "left": "Estou",
+          "right": "Je suis (ét.)"
+        },
+        {
+          "left": "Tenho",
+          "right": "J'ai"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Tu ... (travailles) hoje?",
+      "options": [
+        "trabalhas",
+        "trabalha",
+        "trabalhamos",
+        "trabalho"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

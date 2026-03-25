@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Wochentage",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es el primer día de la semana laboral?",
+      "options": [
+        "Montag",
+        "Sonntag",
+        "Samstag",
+        "Dienstag"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Wochenende' significa 'fin de semana' (Samstag y Sonntag).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Heute ist {{1}} (mercredi).",
+      "reponsesAttendues": [
+        "Mittwoch"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el día de la semana.",
+      "pairs": [
+        {
+          "left": "Donnerstag",
+          "right": "Jeudi"
+        },
+        {
+          "left": "Freitag",
+          "right": "Vendredi"
+        },
+        {
+          "left": "Dienstag",
+          "right": "Mardi"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'Mittwoch' literalmente?",
+      "options": [
+        "Mitad de la semana",
+        "Día del medio",
+        "Día de la luna",
+        "Día del sol"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Exemples d'écosystèmes terrestres",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel est un écosystème terrestre ?",
+      "options": [
+        "Un récif corallien",
+        "Une forêt tempérée",
+        "Une fosse marine",
+        "Un lagon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans un désert, le biotope est caractérisé par une très faible humidité.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une zone de transition entre deux écosystèmes (ex: bordure de forêt) est un {{1}}.",
+      "reponsesAttendues": [
+        "écotone"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'animal à son écosystème terrestre.",
+      "pairs": [
+        {
+          "left": "Écureuil",
+          "right": "Forêt"
+        },
+        {
+          "left": "Dromadaire",
+          "right": "Désert"
+        },
+        {
+          "left": "Marmotte",
+          "right": "Montagne"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel élément définit principalement un écosystème terrestre ?",
+      "options": [
+        "La quantité de sel",
+        "Le type de sol et le climat",
+        "La profondeur de l'eau",
+        "Les courants marins"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz23",
+  "titre": "Événements particuliers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Obtenir '7' avec un dé classique à 6 faces est un événement :",
+      "options": [
+        "Certain",
+        "Impossible",
+        "Probable",
+        "Élémentaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un événement élémentaire n'est composé que d'une seule issue.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si la probabilité est proche de 1, l'événement est très {{1}}.",
+      "reponsesAttendues": [
+        "probable"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'événement à sa nature.",
+      "pairs": [
+        {
+          "left": "Obtenir Pile",
+          "right": "Élémentaire"
+        },
+        {
+          "left": "Obtenir Pile ou Face",
+          "right": "Certain"
+        },
+        {
+          "left": "Obtenir 7 (dé)",
+          "right": "Impossible"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si événement A et événement B ne peuvent pas se produire en même temps, ils sont :",
+      "options": [
+        "Incompatibles",
+        "Amis",
+        "Identiques",
+        "Certains"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

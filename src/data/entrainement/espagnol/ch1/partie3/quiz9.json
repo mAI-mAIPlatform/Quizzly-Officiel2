@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Diálogo en clase",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como dices 'Puis-je aller aux toilettes ?' ?",
+      "options": [
+        "¿Puedo ir al baño?",
+        "¿Qué hora es?",
+        "¿Cómo se dice...?",
+        "¿Puedes repetir?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'No entiendo' significa 'Je ne comprends pas'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Comment dit-on...?' se dice '¿Cómo se {{1}}...?'.",
+      "reponsesAttendues": [
+        "dice"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Frases útiles.",
+      "pairs": [
+        {
+          "left": "Más despacio, por favor",
+          "right": "Plus doucement s'il vous plaît"
+        },
+        {
+          "left": "Tengo una pregunta",
+          "right": "J'ai une question"
+        },
+        {
+          "left": "He terminado",
+          "right": "J'ai fini"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Como pides permiso para hablar ?",
+      "options": [
+        "Levanto la mano",
+        "Grito fuerte",
+        "Me duermo",
+        "Como un bocadillo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

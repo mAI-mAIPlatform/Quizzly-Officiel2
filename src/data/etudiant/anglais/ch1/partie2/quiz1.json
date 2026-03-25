@@ -1,0 +1,63 @@
+{
+  "id": "quiz11",
+  "titre": "Describing your Holiday",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What adjective describes a place with many people?",
+      "options": [
+        "Crowded",
+        "Empty",
+        "Quiet",
+        "Tall"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "If a holiday is 'exciting', you are bored.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A place that is very beautiful is sometimes called {{1}}.",
+      "reponsesAttendues": [
+        "stunning"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match the adjective with its opposite.",
+      "pairs": [
+        {
+          "left": "Cheap",
+          "right": "Expensive"
+        },
+        {
+          "left": "Exciting",
+          "right": "Boring"
+        },
+        {
+          "left": "Modern",
+          "right": "Ancient"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What does 'unforgettable' mean?",
+      "options": [
+        "Something you will remember forever",
+        "Something you want to forget",
+        "Something very expensive",
+        "A type of hotel"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

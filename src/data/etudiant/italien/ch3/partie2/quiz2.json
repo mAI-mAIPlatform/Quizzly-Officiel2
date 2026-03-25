@@ -1,0 +1,63 @@
+{
+  "id": "quiz12",
+  "titre": "Verbi con ESSERE",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál de estos verbos usa 'essere' en el pasado?",
+      "options": [
+        "Andare",
+        "Mangiare",
+        "Dormire",
+        "Leggere"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Verbos de movimiento como 'entrare' y 'uscire' suelen usar 'essere'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Maria è {{1}} a casa (venue/venire).",
+      "reponsesAttendues": [
+        "venuta"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el verbo con su auxiliar.",
+      "pairs": [
+        {
+          "left": "Cadere",
+          "right": "Essere"
+        },
+        {
+          "left": "Comprare",
+          "right": "Avere"
+        },
+        {
+          "left": "Nascere",
+          "right": "Essere"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'He nacido en 2010'?",
+      "options": [
+        "Sono nato/a nel 2010",
+        "Ho nato nel 2010",
+        "Sono nasce nel 2010",
+        "Ho nasce nel 2010"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

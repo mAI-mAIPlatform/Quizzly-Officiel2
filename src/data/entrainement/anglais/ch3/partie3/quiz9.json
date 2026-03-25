@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Music and Arts",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Which city is famous for Jazz music?",
+      "options": [
+        "New Orleans",
+        "London",
+        "Tokyo",
+        "Rome"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "The Beatles were a famous American band.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Shakespeare was a very famous English {{1}}.",
+      "reponsesAttendues": [
+        "writer"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match.",
+      "pairs": [
+        {
+          "left": "Opera",
+          "right": "Italy"
+        },
+        {
+          "left": "Pop",
+          "right": "UK / USA"
+        },
+        {
+          "left": "Flamenco",
+          "right": "Spain"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Where do you go to see a play?",
+      "options": [
+        "A theater",
+        "A stadium",
+        "A pool",
+        "A library"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

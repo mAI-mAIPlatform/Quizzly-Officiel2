@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Examen : Les Bases",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la 24ème et dernière lettre de l'alphabet grec ?",
+      "options": [
+        "Oméga (ω)",
+        "Alpha",
+        "Zêta",
+        "Psi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'article 'ho' (ὁ) est l'article masculin singulier nominatif.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La lettre 'X' se prononce comme un 'k' aspiré et se nomme {{1}} (Khi).",
+      "reponsesAttendues": [
+        "Khi"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'article à son genre/nombre (nominatif).",
+      "pairs": [
+        {
+          "left": "Hê (ἡ)",
+          "right": "Féminin singulier"
+        },
+        {
+          "left": "To (τό)",
+          "right": "Neutre singulier"
+        },
+        {
+          "left": "Hoi (οἱ)",
+          "right": "Masculin pluriel"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le signe ' ̔ ' placé sur une voyelle initiale ?",
+      "options": [
+        "L'esprit rugueux",
+        "L'accent aigu",
+        "La cédille",
+        "Le tréma"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Los Grandes Museos",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿En qué ciudad está el Museo del Prado?",
+      "options": [
+        "Madrid",
+        "Barcelona",
+        "Bilbao",
+        "Salamanca"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El museo Guggenheim está en Bilbao.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "El museo de arte moderno de Madrid se llama Reina {{1}}.",
+      "reponsesAttendues": [
+        "Sofía"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Turismo Cultural.",
+      "pairs": [
+        {
+          "left": "La Alhambra",
+          "right": "Granada"
+        },
+        {
+          "left": "La Mezquita",
+          "right": "Córdoba"
+        },
+        {
+          "left": "Acueducto",
+          "right": "Segovia"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué puedes ver en el Museo Altamira?",
+      "options": [
+        "Pinturas rupestres",
+        "Cuadros de Picasso",
+        "Esculturas griegas",
+        "Coches antiguos"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

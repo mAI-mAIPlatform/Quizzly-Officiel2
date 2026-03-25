@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Síntese Final",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Parabéns! Você {{1}} (completar) o nível Etudiant de Português.",
+      "options": [
+        "completou",
+        "completava",
+        "completará",
+        "completaria"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "O português do Brasil é idêntico ao de Portugal.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu agora {{1}} (falar) português melhor do que antes (falo).",
+      "reponsesAttendues": [
+        "falo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona los logros.",
+      "pairs": [
+        {
+          "left": "Nível Etudiant",
+          "right": "120 Quizzes"
+        },
+        {
+          "left": "Gramática",
+          "right": "Passado, Presente, Futuro"
+        },
+        {
+          "left": "Cultura",
+          "right": "Brasil e Portugal"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Je suis très heureux d'avoir appris le portugais com o Quizzly'?",
+      "options": [
+        "Estou muito feliz por ter aprendido português com o Quizzly",
+        "Estou muito triste",
+        "Eu acho que o Quizzly não é bom",
+        "Eu viajarei"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

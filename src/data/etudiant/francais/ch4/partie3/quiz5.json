@@ -1,0 +1,63 @@
+{
+  "id": "quiz25",
+  "titre": "La Subordonnée de Temps",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces mots introduit une subordonnée de temps ?",
+      "options": [
+        "Quand",
+        "Parce que",
+        "Afin que",
+        "Quoique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Elle exprime le moment où l'action de la principale se déroule.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pendant {{1}} tu dors, je travaille.",
+      "reponsesAttendues": [
+        "que"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la nuance temporelle au mot.",
+      "pairs": [
+        {
+          "left": "Simultanéité",
+          "right": "Quand / Pendant que"
+        },
+        {
+          "left": "Antériorité",
+          "right": "Avant que"
+        },
+        {
+          "left": "Postériorité",
+          "right": "Après que / Dès que"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel mode utilise-t-on après 'avant que' ?",
+      "options": [
+        "Le subjonctif",
+        "L'indicatif",
+        "L'impératif",
+        "Le conditionnel"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

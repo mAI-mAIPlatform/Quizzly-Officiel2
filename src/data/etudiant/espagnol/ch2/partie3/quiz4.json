@@ -1,0 +1,63 @@
+{
+  "id": "quiz24",
+  "titre": "Proyectos de futuro",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué harás después del instituto?",
+      "options": [
+        "Iré a la universidad",
+        "He ido al parque",
+        "Como una manzana",
+        "Dormía mucho"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Ganar dinero' significa 'gagner de l'argent'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "En el futuro, quiero {{1}} (travailler) en una empresa grande.",
+      "reponsesAttendues": [
+        "trabajar"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el plan.",
+      "pairs": [
+        {
+          "left": "Vivir solo",
+          "right": "Vivre seul"
+        },
+        {
+          "left": "Viajar por el mundo",
+          "right": "Voyager autour du monde"
+        },
+        {
+          "left": "Formar una familia",
+          "right": "Fonder une famille"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Je serai célèbre'?",
+      "options": [
+        "Seré famoso",
+        "Soy famoso",
+        "Era famoso",
+        "Serás famoso"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

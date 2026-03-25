@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Le corps : body",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise contient tout le contenu VISIBLE d'une page web ?",
+      "options": [
+        "<body>",
+        "<head>",
+        "<html>",
+        "<main>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Tout ce que vous voyez à l'écran (textes, images, boutons) doit être écrit entre <body> et </body>.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise {{1}} suit immédiatement la fermeture du </head> (body).",
+      "reponsesAttendues": [
+        "body"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Contenu -> Balise parente ?",
+      "pairs": [
+        {
+          "left": "Texte visible",
+          "right": "<body>"
+        },
+        {
+          "left": "Titre onglet",
+          "right": "<head>"
+        },
+        {
+          "left": "Page entière",
+          "right": "<html>"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Combien de balises <body> peut-il y avoir dans un document HTML valide ?",
+      "options": [
+        "Une seule",
+        "Deux",
+        "Autant qu'on veut",
+        "Zéro"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

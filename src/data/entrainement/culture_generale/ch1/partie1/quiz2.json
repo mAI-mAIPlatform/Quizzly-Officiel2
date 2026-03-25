@@ -1,0 +1,62 @@
+{
+  "id": "quiz2",
+  "titre": "Continents et Océans",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le plus grand continent du monde en superficie ?",
+      "options": [
+        "Afrique",
+        "Amérique",
+        "Asie",
+        "Océanie"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'océan Pacifique est le plus vaste des océans.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le continent situé au pôle Sud s'appelle l'{{1}}.",
+      "reponsesAttendues": [
+        "Antarctique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Himalaya",
+          "right": "Asie"
+        },
+        {
+          "left": "Amazonie",
+          "right": "Amérique du Sud"
+        },
+        {
+          "left": "Sahara",
+          "right": "Afrique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Combien y a-t-il d'océans principaux sur Terre ?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "9"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

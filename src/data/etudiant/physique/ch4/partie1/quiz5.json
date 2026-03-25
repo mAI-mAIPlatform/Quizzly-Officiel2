@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Niveau sonore",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle unité utilise-t-on pour mesurer le niveau sonore (volume) ?",
+      "options": [
+        "Le décibel (dB)",
+        "Le Hertz (Hz)",
+        "Le Newton (N)",
+        "Le Volt (V)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "À partir de 85 dB, un son peut être dangereux pour l'oreille lors d'expositions prolongées.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'appareil qui mesure le niveau sonore s'appelle un {{1}}.",
+      "reponsesAttendues": [
+        "sonomètre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le niveau sonore à son environnement.",
+      "pairs": [
+        {
+          "left": "10 - 20 dB",
+          "right": "Désert ou chambre très calme"
+        },
+        {
+          "left": "60 dB",
+          "right": "Conversation normale"
+        },
+        {
+          "left": "120 dB",
+          "right": "Marteau-piqueur ou concert (seuil douleur)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Si on double le nombre de sources sonores identiques, le niveau augmente de :",
+      "options": [
+        "3 dB",
+        "20 dB",
+        "Doublement des décibels",
+        "Il ne change pas"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

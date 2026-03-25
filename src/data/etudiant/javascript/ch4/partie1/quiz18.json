@@ -1,0 +1,63 @@
+{
+  "id": "quiz18",
+  "titre": "Répéter : setInterval",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle fonction permet de répéter un code à intervalles réguliers (ex: toutes les secondes) ?",
+      "options": [
+        "setInterval()",
+        "repeat()",
+        "loop()",
+        "every()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "setInterval() continue de s'exécuter indéfiniment tant qu'on ne l'arrête pas.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour stopper un intervalle, on utilise la fonction {{1}}(idIntervalle) (clearInterval).",
+      "reponsesAttendues": [
+        "clearInterval"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Différence temps JS.",
+      "pairs": [
+        {
+          "left": "setTimeout",
+          "right": "Une seule fois (retard)"
+        },
+        {
+          "left": "setInterval",
+          "right": "Plusieurs fois (boucle)"
+        },
+        {
+          "left": "1000 ms",
+          "right": "1 seconde"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est un usage parfait de setInterval ?",
+      "options": [
+        "Créer un compte à rebours (Timer)",
+        "Afficher une image une seule fois",
+        "Déclarer une constante",
+        "Changer de page"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

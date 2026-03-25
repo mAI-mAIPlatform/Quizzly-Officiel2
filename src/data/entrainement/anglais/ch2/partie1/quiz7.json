@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Quantities",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "A _____ of chocolate.",
+      "options": [
+        "bar",
+        "glass",
+        "bottle",
+        "slice"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A 'cup' of water is common.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A {{1}} of bread.",
+      "reponsesAttendues": [
+        "slice"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match containers.",
+      "pairs": [
+        {
+          "left": "Bottle",
+          "right": "Water / Wine"
+        },
+        {
+          "left": "Can",
+          "right": "Soda"
+        },
+        {
+          "left": "Box",
+          "right": "Cereals"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "A _____ of milk.",
+      "options": [
+        "carton",
+        "tube",
+        "loaf",
+        "packet"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

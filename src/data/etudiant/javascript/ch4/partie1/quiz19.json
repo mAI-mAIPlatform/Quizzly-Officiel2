@@ -1,0 +1,65 @@
+{
+  "id": "quiz19",
+  "titre": "Debug Jeu",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi mon personnage continue-t-il de bouger après le Game Over ?",
+      "options": [
+        "Tu n'as pas arrêté l'intervalle (clearInterval) ou la boucle de jeu",
+        "Le clavier est cassé",
+        "JS est trop puissant",
+        "L'écran est sale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'erreur 'Assignment to constant variable' arrive si on tente de modifier un score déclaré avec 'const'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour ralentir un jeu trop rapide, on peut augmenter le {{1}} du setInterval (délai / temps).",
+      "reponsesAttendues": [
+        "délai",
+        "delai",
+        "temps"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Bug -> Solution.",
+      "pairs": [
+        {
+          "left": "Compteur s'emballe",
+          "right": "Vérifier si plusieurs intervalles tournent"
+        },
+        {
+          "left": "Collision ne marche pas",
+          "right": "Vérifier les coordonnées (x, y)"
+        },
+        {
+          "left": "Variables bizarres",
+          "right": "Mettre des console.log() partout"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la meilleure amie du développeur de jeux pour déboguer ?",
+      "options": [
+        "La console du navigateur (F12)",
+        "La calculatrice Windows",
+        "Un cahier de brouillon",
+        "Le bouton de redémarrage"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

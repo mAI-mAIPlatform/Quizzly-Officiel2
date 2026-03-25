@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Esportes e Lazer",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué arte marcial combina danza y lucha?",
+      "options": [
+        "Capoeira",
+        "Jiu-jitsu",
+        "Judô",
+        "Boxe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A seleção brasileira de futebol é a única pentacampeã mundial.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O Brasil joga no estádio do {{1}} (Rio).",
+      "reponsesAttendues": [
+        "Maracanã"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el deporte.",
+      "pairs": [
+        {
+          "left": "Vôlei de praia",
+          "right": "Beach Volley"
+        },
+        {
+          "left": "Natação",
+          "right": "Natation"
+        },
+        {
+          "left": "Futebol",
+          "right": "Football"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'torcedor'?",
+      "options": [
+        "Aficionado / Fan",
+        "Jugador",
+        "Árbitro",
+        "Comentarista"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

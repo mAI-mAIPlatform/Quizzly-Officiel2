@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "L'Instruction IF",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'if' en français ?",
+      "options": [
+        "Si",
+        "Alors",
+        "Sinon",
+        "Pour"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une condition if se termine toujours par deux points (:).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le code exécuté SI la condition est vraie doit être {{1}}.",
+      "reponsesAttendues": [
+        "indenté"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "if x > 0:",
+          "right": "Condition"
+        },
+        {
+          "left": "    print('Positif')",
+          "right": "Bloc exécuté"
+        },
+        {
+          "left": "x = 10",
+          "right": "Initialisation"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si la condition d'un IF est fausse ?",
+      "options": [
+        "Le bloc indenté est ignoré",
+        "Le programme s'arrête",
+        "Le programme affiche une erreur",
+        "Le bloc est exécuté quand même"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "quiz10",
+  "titre": "Récapitulatif - Fin du Lot 4",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel droit fondamental permet de s'informer librement ?",
+      "options": [
+        "Le droit au repos",
+        "La liberté d'expression et de la presse",
+        "Le droit à la propriété",
+        "La liberté de commerce"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le recyclage des données personnelles est obligatoire.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'organisation RSF signifie Reporters {{1}} Frontières.",
+      "reponsesAttendues": [
+        "Sans"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Média",
+          "right": "Moyen de diffusion de l'info"
+        },
+        {
+          "left": "Net Étiquette",
+          "right": "Règles de politesse sur Internet"
+        },
+        {
+          "left": "Algorithme",
+          "right": "Programme qui choisit ce qu'on voit sur les réseaux"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est l'attitude d'un bon citoyen numérique ?",
+      "options": [
+        "Partager tout ce qu'il voit",
+        "Respecter les autres et vérifier les infos avant de poster",
+        "Utiliser des faux profils pour insulter",
+        "Ne jamais se connecter"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

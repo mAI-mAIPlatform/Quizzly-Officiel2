@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Défense Nationale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est le chef des armées en France ?",
+      "options": [
+        "Le Président de la République",
+        "Le Ministre de l'Intérieur",
+        "Le Maire de Paris",
+        "Le chef de la police"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'armée française assure la sécurité du territoire et protège les intérêts de la France.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les opérations militaires françaises à l'étranger s'appellent des {{1}} (OPEX).",
+      "reponsesAttendues": [
+        "OPEX"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le corps d'armée à son domaine.",
+      "pairs": [
+        {
+          "left": "Armée de Terre",
+          "right": "Actions au sol et infanterie"
+        },
+        {
+          "left": "Marine Nationale",
+          "right": "Défense des mers et océans"
+        },
+        {
+          "left": "Armée de l'Air",
+          "right": "Surveillance du ciel et espace"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle organisation internationale de défense la France a-t-elle rejointe (commandement intégré) ?",
+      "options": [
+        "L'OTAN",
+        "L'UNICEF",
+        "L'UNESCO",
+        "L'OMS"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

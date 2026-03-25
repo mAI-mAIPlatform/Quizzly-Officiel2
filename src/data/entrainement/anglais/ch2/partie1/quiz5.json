@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Grammar : Countable & Uncountable",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Which one is countable (we can say 1, 2, 3...)?",
+      "options": [
+        "Apple",
+        "Water",
+        "Milk",
+        "Sugar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "We use 'Some' for uncountable things (ex: some water).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "I want {{1}} orange. (singular countable)",
+      "reponsesAttendues": [
+        "an"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match.",
+      "pairs": [
+        {
+          "left": "A / An",
+          "right": "Countable singular"
+        },
+        {
+          "left": "Some",
+          "right": "Affirmative"
+        },
+        {
+          "left": "Any",
+          "right": "Negative / Question"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Do you have _____ milk?",
+      "options": [
+        "any",
+        "a",
+        "an",
+        "many"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

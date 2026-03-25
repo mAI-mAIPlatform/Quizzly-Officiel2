@@ -1,0 +1,64 @@
+{
+  "id": "quiz3",
+  "titre": "Source vs Score",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une musique 'diégétique' ?",
+      "options": [
+        "Une musique que les personnages du film entendent aussi (ex: un poste radio)",
+        "Une musique que seul le spectateur entend",
+        "Une musique jouée par des fantômes",
+        "Une musique sans notes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La musique 'extra-diégétique' (ou 'score') est celle qui accompagne l'action sans être présente dans la réalité des personnages.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si un acteur se met à chanter et jouer de la guitare à l'écran, on parle de musique {{1}} (diégétique).",
+      "reponsesAttendues": [
+        "diégétique",
+        "diegetique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la scène au type de musique.",
+      "pairs": [
+        {
+          "left": "Un orchestre géant pendant une bataille spatiale",
+          "right": "Extra-diégétique (Score)"
+        },
+        {
+          "left": "Un pianiste dans un salon de western",
+          "right": "Diégétique (Musique de source)"
+        },
+        {
+          "left": "Une chanson dans un casque audio à l'écran",
+          "right": "Diégétique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on l'ensemble des sons d'un film (musique + bruits + dialogues) ?",
+      "options": [
+        "La bande-son (Soundtrack)",
+        "Le script",
+        "Le décor",
+        "Le casting"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Dépannage des boucles while",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Ma boucle while ne s'exécute jamais. Pourquoi ?",
+      "options": [
+        "Elle est en colère",
+        "La condition est fausse dès le départ",
+        "On a oublié de la démarrer",
+        "Il n'y a pas assez de variables"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un point-virgule juste après 'while(cond);' crée une boucle infinie vide.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour debugger, on utilise console.{{1}}() pour voir les valeurs.",
+      "reponsesAttendues": [
+        "log"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le bug à la correction.",
+      "pairs": [
+        {
+          "left": "while(true)",
+          "right": "Ajouter un break interne"
+        },
+        {
+          "left": "Oubli i++",
+          "right": "Ajouter i++ dans le corps"
+        },
+        {
+          "left": "while(x > 0) avec x=0",
+          "right": "Changer x ou la condition"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel bloque le navigateur ?",
+      "options": [
+        "while(false) {}",
+        "while(true) {}",
+        "if(true) {}",
+        "for(let i=0; i<10; i++) {}"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

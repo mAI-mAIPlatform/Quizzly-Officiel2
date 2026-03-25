@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Les Grandes Métropoles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une métropole ?",
+      "options": [
+        "Une ville qui exerce une influence sur un territoire (fonctions de commandement)",
+        "Toutes les villes du monde",
+        "Un quartier de banlieue",
+        "Une ville sans aucun magasin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les métropoles concentrent les activités économiques, politiques et culturelles.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La métropole qui a la plus grande population au monde est {{1}}.",
+      "reponsesAttendues": [
+        "Tokyo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la métropole à sa région.",
+      "pairs": [
+        {
+          "left": "New York",
+          "right": "Amérique du Nord"
+        },
+        {
+          "left": "Shanghai",
+          "right": "Asie de l'Est"
+        },
+        {
+          "left": "Lagos",
+          "right": "Afrique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le moteur de la croissance urbaine dans les pays pauvres ?",
+      "options": [
+        "L'exode rural (arrivée des paysans en ville)",
+        "Le tourisme international",
+        "La diminution de la population",
+        "L'absence de travail en ville"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

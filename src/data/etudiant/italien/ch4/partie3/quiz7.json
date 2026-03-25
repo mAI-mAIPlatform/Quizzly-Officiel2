@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Passato vs Imperfetto",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Ieri {{1}} (andare) al parco perché {{2}} (esserci) il sole.",
+      "options": [
+        "sono andato / c'era",
+        "andavo / c'è stato",
+        "sono andato / c'è stato",
+        "andavo / c'era"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Ho dormito' es una acción puntual, 'Dormivo' es una acción durativa.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Mentre {{1}} (studiare), il telefono ha squillato.",
+      "reponsesAttendues": [
+        "studiavo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el uso.",
+      "pairs": [
+        {
+          "left": "Azione che interrompe",
+          "right": "Passato Prossimo"
+        },
+        {
+          "left": "Azione in corso",
+          "right": "Imperfetto"
+        },
+        {
+          "left": "Descrizione fisica",
+          "right": "Imperfetto"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Cuando era pequeño, me gustaba el chocolate'?",
+      "options": [
+        "Quando ero piccolo, mi piaceva il cioccolato",
+        "Quando sono stato piccolo, mi è piaciuto il cioccolato",
+        "Quando era piccolo, mi piaceva il cioccolato",
+        "Quando ero piccolo, mi piacerà il cioccolato"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

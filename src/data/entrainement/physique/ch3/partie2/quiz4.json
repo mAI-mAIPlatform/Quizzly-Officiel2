@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Le transfert électrique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le support du transfert électrique ?",
+      "options": [
+        "L'air",
+        "Les fils conducteurs",
+        "Le plastique",
+        "Le verre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une pile transforme l'énergie chimique en énergie électrique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'énergie électrique est transférée du générateur vers le {{1}}.",
+      "reponsesAttendues": [
+        "récepteur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le convertisseur à l'effet produit.",
+      "pairs": [
+        {
+          "left": "Radiateur électrique",
+          "right": "Transfert thermique"
+        },
+        {
+          "left": "Moteur électrique",
+          "right": "Transfert mécanique"
+        },
+        {
+          "left": "DEL (LED)",
+          "right": "Transfert radiatif"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi les appareils électriques chauffent-ils ?",
+      "options": [
+        "Pour nous faire plaisir",
+        "L'effet Joule transforme une partie de l'énergie électrique en chaleur",
+        "Parce qu'ils sont vivants",
+        "C'est un bug"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

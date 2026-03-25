@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Les grandes familles de matériaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quelle famille classe-t-on l'Acier ?",
+      "options": [
+        "Matériaux métalliques",
+        "Matériaux organiques",
+        "Matériaux minéraux",
+        "Matériaux composites"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le bois appartient à la famille des matériaux organiques.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le verre fait partie de la famille des matériaux {{1}} ou céramiques.",
+      "reponsesAttendues": [
+        "minéraux"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Familles Matériaux.",
+      "pairs": [
+        {
+          "left": "Métalliques",
+          "right": "Fer, Alu, Cuivre"
+        },
+        {
+          "left": "Organiques",
+          "right": "Plastique, Bois, Papier"
+        },
+        {
+          "left": "Minéraux",
+          "right": "Pierre, Verre, Briques"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un matériau composite ?",
+      "options": [
+        "Un mélange de plusieurs matériaux de familles différentes",
+        "Un matériau recyclé uniquement",
+        "Un métal pur",
+        "Un type de colle"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

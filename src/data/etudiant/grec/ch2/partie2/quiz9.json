@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "L'Honneur et la Honte",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on l'honneur ou la valeur guerrière en grec ?",
+      "options": [
+        "Timê (τιμή)",
+        "Andréia",
+        "Hubris",
+        "Sophrosunê"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Hubris est l'orgueil démesuré puni par les dieux.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La maîtrise de soi, la sagesse pratique est la {{1}} (sophrosunê).",
+      "reponsesAttendues": [
+        "sophrosunê"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la vertu / vice.",
+      "pairs": [
+        {
+          "left": "Andréia",
+          "right": "Courage"
+        },
+        {
+          "left": "Timê",
+          "right": "Honneur"
+        },
+        {
+          "left": "Aidôs",
+          "right": "Pudeur / Honte de mal faire"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Dikaion' ?",
+      "options": [
+        "Ce qui est juste",
+        "Ce qui est beau",
+        "Ce qui est fort",
+        "Ce qui est grand"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

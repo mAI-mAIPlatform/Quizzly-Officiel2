@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "L'Opérateur Ternaire (IF sur une ligne)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la syntaxe de l'opérateur ternaire en Python ?",
+      "options": [
+        "résultat_si_vrai if condition else résultat_si_faux",
+        "condition ? vrai : faux",
+        "if condition: vrai else faux",
+        "vrai if condition"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "x = 5 if y > 10 else 0 est une syntaxe valide.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'opérateur ternaire permet d'assigner une valeur de manière {{1}}.",
+      "reponsesAttendues": [
+        "conditionnelle"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "a if cond else b",
+          "right": "Ternaire"
+        },
+        {
+          "left": "if cond: a else: b",
+          "right": "Bloc classique"
+        },
+        {
+          "left": "a if cond",
+          "right": "Invalide (else manque)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le résultat de : 'Ok' if 5 > 3 else 'No' ?",
+      "options": [
+        "Ok",
+        "No",
+        "True",
+        "Erreur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "EXAMEN : Traitement de l'Information",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel est un exemple de boucle conditionnelle ?",
+      "options": [
+        "Répéter jusqu'à ce que [bouton pressé]",
+        "Afficher 'Bonjour'",
+        "Si score > 10 alors",
+        "Variable X = 0"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En binaire, plus on a d'octets, plus on peut stocker d'informations.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le {{1}} est l'étape où le texte du programme est transformé en langage machine.",
+      "reponsesAttendues": [
+        "compilation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Mix Programmation.",
+      "pairs": [
+        {
+          "left": "Variable",
+          "right": "Stockage temporaire"
+        },
+        {
+          "left": "Boucle",
+          "right": "Répétition d'actions"
+        },
+        {
+          "left": "Condition",
+          "right": "Choix et décisions"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Félicitations ! Prêt pour les Objets Connectés (P3) ?",
+      "options": [
+        "Oui !",
+        "C'est parti !",
+        "Absolument !",
+        "Révisions P2"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

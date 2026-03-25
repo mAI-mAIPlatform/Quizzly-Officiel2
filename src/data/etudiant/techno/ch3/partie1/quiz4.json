@@ -1,0 +1,64 @@
+{
+  "id": "quiz4",
+  "titre": "Les Convertisseurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que convertit une lampe LED ?",
+      "options": [
+        "L'énergie électrique en énergie rayonnante (lumineuse)",
+        "L'énergie thermique en électricité",
+        "L'énergie cinétique en son",
+        "Le plastique en lumière"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un panneau solaire est un convertisseur d'énergie lumineuse en énergie électrique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un moteur électrique convertit l'électricité en énergie {{1}} (mécanique / cinétique).",
+      "reponsesAttendues": [
+        "mécanique",
+        "cinétique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'appareil à la conversion qu'il réalise.",
+      "pairs": [
+        {
+          "left": "Éolienne",
+          "right": "Mécanique (vent) vers Électrique"
+        },
+        {
+          "left": "Radiateur",
+          "right": "Électrique vers Thermique"
+        },
+        {
+          "left": "Haut-parleur",
+          "right": "Électrique vers Sonore"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi dit-on qu'il y a des 'pertes' pendant une conversion ?",
+      "options": [
+        "Parce qu'une partie de l'énergie est transformée en chaleur non voulue (effet Joule)",
+        "Parce que l'énergie s'échappe par les trous de l'appareil",
+        "Parce que le compteur électrique se trompe",
+        "Parce qu'on oublie de l'utiliser"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

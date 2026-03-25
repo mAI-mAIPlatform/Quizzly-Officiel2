@@ -1,0 +1,63 @@
+{
+  "id": "quiz16",
+  "titre": "Verbo VENIRE",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cuál es la forma de 'Io' para el verbo 'venire'?",
+      "options": [
+        "Vengo",
+        "Vieni",
+        "Viene",
+        "Veniamo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La forma de 'Tu' es 'Vieni'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Da dove {{1}}? (vienes).",
+      "reponsesAttendues": [
+        "vieni"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el presente de 'venire'.",
+      "pairs": [
+        {
+          "left": "Lui / Lei",
+          "right": "viene"
+        },
+        {
+          "left": "Noi",
+          "right": "veniamo"
+        },
+        {
+          "left": "Loro",
+          "right": "vengono"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Nosotros venimos de Italia'?",
+      "options": [
+        "Veniamo dall'Italia",
+        "Vengono dall'Italia",
+        "Andiamo dall'Italia",
+        "Venite dall'Italia"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

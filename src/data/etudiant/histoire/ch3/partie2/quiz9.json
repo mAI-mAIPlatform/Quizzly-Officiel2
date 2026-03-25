@@ -1,0 +1,63 @@
+{
+  "id": "quiz19",
+  "titre": "Naissance des Partis",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il avec le droit de vote au cours du XIXe siècle ?",
+      "options": [
+        "Il s'élargit progressivement (vers le suffrage universel masculin)",
+        "Il est supprimé totalement",
+        "Il est réservé uniquement aux militaires",
+        "Il devient obligatoire pour les animaux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La SFIO (1905) est le premier grand parti socialiste unifié en France.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le suffrage universel masculin est définitivement établi en France en {{1}}.",
+      "reponsesAttendues": [
+        "1848"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le camp politique à son idée.",
+      "pairs": [
+        {
+          "left": "Conservateurs / Monarchistes",
+          "right": "Ordre, tradition, influence de l'Église"
+        },
+        {
+          "left": "Libéraux / Républicains",
+          "right": "Libertés, laïcité, progrès"
+        },
+        {
+          "left": "Socialistes",
+          "right": "Égalité sociale et droits ouvriers"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment les partis recrutent-ils leurs membres au XIXe ?",
+      "options": [
+        "Par des meetings, des journaux et des clubs politiques",
+        "Par téléphone",
+        "Par tirage au sort",
+        "ils ne recrutent pas"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

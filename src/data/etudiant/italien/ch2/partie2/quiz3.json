@@ -1,0 +1,63 @@
+{
+  "id": "quiz13",
+  "titre": "Luoghi della città",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'La plaza'?",
+      "options": [
+        "La piazza",
+        "La posta",
+        "Il bar",
+        "La chiesa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Municipio' significa 'gimnasio'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vado al {{1}} per mangiare (restaurant).",
+      "reponsesAttendues": [
+        "ristorante"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el lugar.",
+      "pairs": [
+        {
+          "left": "La banca",
+          "right": "La banque"
+        },
+        {
+          "left": "La biblioteca",
+          "right": "La bibliothèque"
+        },
+        {
+          "left": "L'ospedale",
+          "right": "L'hôpital"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'negozio'?",
+      "options": [
+        "Tienda / Comercio",
+        "Negociación",
+        "Empresa",
+        "Fábrica"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

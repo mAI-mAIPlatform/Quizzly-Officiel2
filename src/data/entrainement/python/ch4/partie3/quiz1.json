@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Introduction aux Ensembles (Set)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Set' en Python ?",
+      "options": [
+        "Une collection non ordonnée d'éléments uniques",
+        "Une liste triée",
+        "Un dictionnaire sans valeurs",
+        "Une erreur de tableau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un Set ne peut pas contenir de doublons.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On crée un set avec les symboles {{1}} (comme les dicos, mais sans les ':').",
+      "reponsesAttendues": [
+        "{}"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe.",
+      "pairs": [
+        {
+          "left": "{1, 2, 3}",
+          "right": "Set"
+"        },
+        {
+          "left": "set([1, 1, 2])",
+          "right": "{1, 2}"
+        },
+        {
+          "left": "set()",
+          "right": "Set vide (impératif)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on accéder à un élément par son indice S[0] dans un set ?",
+      "options": [
+        "Non, les sets ne sont pas ordonnés",
+        "Oui",
+        "Seulement si le set est trié",
+        "Seulement en Python 3"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "La symbiose : vivre ensemble",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la symbiose ?",
+      "options": [
+        "Une lutte à mort",
+        "Une association durable entre deux espèces où chacune tire profit de l'autre",
+        "Un mode de chasse",
+        "Une maladie des plantes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le lichen est une symbiose entre un champignon et une algue.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans une symbiose, les deux partenaires sont {{1}}.",
+      "reponsesAttendues": [
+        "dépendants"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'exemple de symbiose.",
+      "pairs": [
+        {
+          "left": "Poisson-clown",
+          "right": "Protégé par l'anémone de mer"
+        },
+        {
+          "left": "Mycorhize",
+          "right": "Alliance entre champignon et racines d'arbres"
+        },
+        {
+          "left": "Coraux",
+          "right": "Symbiose avec des algues microscopiques (zooxanthelles)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage de la symbiose ?",
+      "options": [
+        "Survivre là où on ne pourrait pas seul",
+        "Devenir plus gros que tout le monde",
+        "Dormir plus longtemps",
+        "Il n'y a pas d'avantage"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz29",
+  "titre": "Problemas de vacaciones",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'Perder el avión'?",
+      "options": [
+        "Rater l'avion",
+        "Acheter l'avion",
+        "Conduire l'avion",
+        "Nettoyer l'avion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Me he puesto enfermo' significa 'Je suis tombé malade'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "He {{1}} mis llaves en la arena (perdre).",
+      "reponsesAttendues": [
+        "perdido"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el problema con su traducción.",
+      "pairs": [
+        {
+          "left": "No hay red",
+          "right": "Il n'y a pas de réseau"
+        },
+        {
+          "left": "Me han robado",
+          "right": "On m'a volé"
+        },
+        {
+          "left": "Está todo lleno",
+          "right": "Tout est complet"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué haces si te queman el brazo en la cocina?",
+      "options": [
+        "Ponerse pomada",
+        "Comer un helado",
+        "Ir de fiesta",
+        "Cantar una canción"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

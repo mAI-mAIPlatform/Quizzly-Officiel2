@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "La poésie romantique (XIXe)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le thème favori des romantiques ?",
+      "options": [
+        "Le surgissement du moi et la nature-miroir",
+        "La science et la technique",
+        "La cuisine traditionnelle",
+        "Les usines de charbon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Victor Hugo est une figure majeure du Romantisme.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans 'Demain dès l'aube', Hugo se rend sur la {{1}} de sa fille.",
+      "reponsesAttendues": [
+        "tombe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'auteur à son oeuvre.",
+      "pairs": [
+        {
+          "left": "Hugo",
+          "right": "Les Contemplations"
+        },
+        {
+          "left": "Lamartine",
+          "right": "Les Méditations"
+        },
+        {
+          "left": "Musset",
+          "right": "Les Nuits"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'mal du siècle' ?",
+      "options": [
+        "Une mélancolie profonde et vague",
+        "Une maladie contagieuse",
+        "Une erreur de calendrier",
+        "La grippe espagnole"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

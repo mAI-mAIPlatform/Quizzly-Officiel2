@@ -1,0 +1,63 @@
+{
+  "id": "quiz16",
+  "titre": "Gestion de l'Eau",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une nappe phréatique ?",
+      "options": [
+        "Une réserve d'eau souterraine contenue dans une roche perméable",
+        "Une nappe de pique-nique bleue",
+        "Un lac à la surface d'une montagne",
+        "L'eau qui coule dans les tuyaux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La pollution des sols par les pesticides peut atteindre les nappes phréatiques.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'eau de pluie s'infiltre dans le sol jusqu'à rencontrer une couche {{1}}.",
+      "reponsesAttendues": [
+        "imperméable"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le terme au cycle de l'eau.",
+      "pairs": [
+        {
+          "left": "Infiltration",
+          "right": "L'eau pénètre dans le sol"
+        },
+        {
+          "left": "Ruissellement",
+          "right": "L'eau coule à la surface"
+        },
+        {
+          "left": "Évapotranspiration",
+          "right": "L'eau retourne dans l'atmosphère par les plantes"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi faut-il économiser l'eau potable ?",
+      "options": [
+        "Parce que c'est une ressource limitée et coûteuse à traiter",
+        "Parce qu'elle va devenir salée",
+        "Parce qu'elle attire les moustiques",
+        "Il n'est pas nécessaire d'économiser"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

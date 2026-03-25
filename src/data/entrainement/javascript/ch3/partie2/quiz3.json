@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "La boucle infinie avec while",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi while est-il plus 'dangereux' que for ?",
+      "options": [
+        "Il prend plus de RAM",
+        "Il est plus facile d'oublier la mise à jour (i++)",
+        "Il ne gère pas les booléens",
+        "Il n'est pas dangereux"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "while(true) crée une boucle infinie qui ne s'arrêtera jamais toute seule.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si la condition reste toujours {{1}}, le programme plante.",
+      "reponsesAttendues": [
+        "vraie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la cause d'erreur.",
+      "pairs": [
+        {
+          "left": "i constant",
+          "right": "Condition i < 5 reste vraie si i = 0"
+        },
+        {
+          "left": "i-- au lieu de i++",
+          "right": "i s'éloigne de la limite"
+        },
+        {
+          "left": "while(1)",
+          "right": "Boucle toujours vraie en JS"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment éviter l'infini ?",
+      "options": [
+        "Ne pas utiliser while",
+        "Vérifier qu'un élément change dans le corps de la boucle",
+        "Prier très fort",
+        "Utiliser un PC plus puissant"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

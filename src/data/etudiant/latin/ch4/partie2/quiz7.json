@@ -1,0 +1,64 @@
+{
+  "id": "quiz7",
+  "titre": "Les verbes déponents",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un verbe déponent ?",
+      "options": [
+        "Un verbe qui a une forme passive mais un sens actif",
+        "Un verbe qui n'a pas de sujet",
+        "Un verbe qui ne se conjugue pas",
+        "Un verbe qui signifie 'partir'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Loquor' signifie 'Je parle' (sens actif).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Suivre se dit {{1}} et parier {{2}} (sequi/hortari).",
+      "reponsesAttendues": [
+        "sequi",
+        "hortari"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le verbe déponent.",
+      "pairs": [
+        {
+          "left": "Hortor",
+          "right": "J'exhorte / J'encourage"
+        },
+        {
+          "left": "Sequor",
+          "right": "Je suis"
+        },
+        {
+          "left": "Morior",
+          "right": "Je meurs"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel de ces verbes est déponent ?",
+      "options": [
+        "Proficiscor (Je pars)",
+        "Amo (J'aime)",
+        "Dico (Je dis)",
+        "Audio (J'entends)"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

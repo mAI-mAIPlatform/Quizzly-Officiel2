@@ -1,0 +1,63 @@
+{
+  "id": "quiz11",
+  "titre": "Lire un diagramme en bâtons",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans un diagramme en bâtons, la hauteur du bâton représente :",
+      "options": [
+        "L'effectif",
+        "La valeur",
+        "Le titre",
+        "La moyenne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Plus le bâton est haut, plus la valeur associée est fréquente.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si le bâton de la valeur '10' arrive à la graduation 15, alors l'effectif est {{1}}.",
+      "reponsesAttendues": [
+        "15"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'axe à son contenu habituel.",
+      "pairs": [
+        {
+          "left": "Axe horizontal (abscisses)",
+          "right": "Valeurs / Caractères"
+        },
+        {
+          "left": "Axe vertical (ordonnées)",
+          "right": "Effectifs / Fréquences"
+        },
+        {
+          "left": "Le sommet du bâton",
+          "right": "Lecture de l'effectif"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Un diagramme montre 3 bâtons de hauteurs 5, 10 et 5. Quel est l'effectif total ?",
+      "options": [
+        "10",
+        "20",
+        "3",
+        "15"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

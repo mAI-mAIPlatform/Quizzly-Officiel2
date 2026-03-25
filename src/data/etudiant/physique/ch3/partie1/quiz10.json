@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Synthèse Mouvement 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Un mouvement peut-être rectiligne ET uniforme. Pourquoi ?",
+      "options": [
+        "Car rectiligne définit la forme et uniforme définit la vitesse",
+        "C'est impossible",
+        "C'est réservé aux fusées",
+        "Car l'objet ne bouge pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La vitesse moyenne est toujours égale à la vitesse maximale.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'instrument servant à mesurer la vitesse sur une voiture est le {{1}}.",
+      "reponsesAttendues": [
+        "tachymètre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le concept à son étude.",
+      "pairs": [
+        {
+          "left": "Trajectoire",
+          "right": "Géométrie du déplacement"
+        },
+        {
+          "left": "Vitesse",
+          "right": "Rapidité du déplacement"
+        },
+        {
+          "left": "Changement de vitesse",
+          "right": "Accélération ou freinage"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'étudie la cinématique ?",
+      "options": [
+        "Le mouvement des objets sans s'occuper des causes (forces)",
+        "Le fonctionnement des caméras de cinéma",
+        "L'histoire des voitures de course",
+        "La chimie des carburants"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

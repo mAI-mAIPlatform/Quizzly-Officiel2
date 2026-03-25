@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Le Gérondif",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le gérondif en latin ?",
+      "options": [
+        "Un nom verbal (ex: l'action d'aimer)",
+        "Un temps du passé",
+        "Un adjectif de couleur",
+        "Un pronom"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le gérondif se termine souvent par -ndum, -ndi, -ndo.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'art de vivre se dit 'Ars {{1}}' (vivendi).",
+      "reponsesAttendues": [
+        "vivendi"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la forme.",
+      "pairs": [
+        {
+          "left": "Amandi",
+          "right": "D'aimer (Génitif)"
+        },
+        {
+          "left": "Amando",
+          "right": "En aimant / Pour aimer"
+        },
+        {
+          "left": "Ad amandum",
+          "right": "Pour aimer (Acc.)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la traduction de 'Docendo discimus' ?",
+      "options": [
+        "C'est en enseignant que nous apprenons",
+        "Nous apprenons à lire",
+        "L'enseignant apprend",
+        "L'école est finie"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

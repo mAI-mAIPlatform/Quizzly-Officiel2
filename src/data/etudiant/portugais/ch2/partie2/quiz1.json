@@ -1,0 +1,63 @@
+{
+  "id": "quiz11",
+  "titre": "O trabalho",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Trabajo'?",
+      "options": [
+        "Trabalho",
+        "Emprego",
+        "Carreira",
+        "Todas las anteriores"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Escritório' significa oficina.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu {{1}} das 9:00 às 18:00 (trabalho).",
+      "reponsesAttendues": [
+        "trabalho"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el término laboral.",
+      "pairs": [
+        {
+          "left": "O chefe",
+          "right": "Le chef / Le patron"
+        },
+        {
+          "left": "O colega",
+          "right": "Le collègue"
+        },
+        {
+          "left": "O salário",
+          "right": "Le salaire"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'desempregado'?",
+      "options": [
+        "Desempleado",
+        "Empleado",
+        "Jubilado",
+        "Estudiante"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

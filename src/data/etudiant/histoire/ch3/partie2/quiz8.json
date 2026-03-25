@@ -1,0 +1,63 @@
+{
+  "id": "quiz18",
+  "titre": "Presse et Idées",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces facteurs permet l'essor de la presse au XIXe ?",
+      "options": [
+        "Le progrès de l'alphabétisation et les nouvelles machines à imprimer",
+        "La fin de l'imprimerie",
+        "Le manque d'intérêt des gens",
+        "L'interdiction de lire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La loi de 1881 proclame la liberté de la presse en France.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le journal devient le principal moyen de diffusion de l'{{1}} publique.",
+      "reponsesAttendues": [
+        "opinion"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le type de presse à son contenu.",
+      "pairs": [
+        {
+          "left": "Journaux d'opinion",
+          "right": "Défendent des idées politiques"
+        },
+        {
+          "left": "Petit Journal (populaire)",
+          "right": "Faits divers et romans-feuilletons"
+        },
+        {
+          "left": "Revue scientifique",
+          "right": "Explique les découvertes techniques"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel auteur célèbre utilise la presse pour son combat (ex: 'J'accuse') ?",
+      "options": [
+        "Émile Zola",
+        "Victor Hugo",
+        "Molière",
+        "Rabelais"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

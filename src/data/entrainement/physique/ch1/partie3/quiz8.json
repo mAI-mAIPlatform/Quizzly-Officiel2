@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Sécurité : Les pictogrammes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie un pictogramme avec une flamme ?",
+      "options": [
+        "Le produit est chaud",
+        "Le produit est inflammable (peut brûler facilement)",
+        "Le produit sent bon",
+        "Il faut l'allumer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un produit 'corrosif' peut ronger les vêtements ou la peau.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le pictogramme avec un crâne signifie que le produit est {{1}}.",
+      "reponsesAttendues": [
+        "toxique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le pictogramme à sa signification.",
+      "pairs": [
+        {
+          "left": "Point d'exclamation",
+          "right": "Produit irritant ou nocif"
+        },
+        {
+          "left": "Poisson et arbre mort",
+          "right": "Dangereux pour l'environnement"
+        },
+        {
+          "left": "Éprouvette qui coule sur une main",
+          "right": "Produit corrosif"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Peut-on mélanger deux produits ménagers différents au hasard ?",
+      "options": [
+        "Oui, ça nettoiera mieux",
+        "Non, ça peut provoquer des réactions chimiques dangereuses (gaz toxiques)",
+        "Seulement si on ajoute de l'eau",
+        "Oui, s'ils ont la même couleur"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

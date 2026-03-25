@@ -1,0 +1,64 @@
+{
+  "id": "quiz15",
+  "titre": "Supprimer des Classes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode retire une classe spécifique d'un élément ?",
+      "options": [
+        "classList.remove(\"maClasse\")",
+        "classList.delete(\"maClasse\")",
+        "classList.off(\"maClasse\")",
+        "el.removeClass(\"maClasse\")"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si la classe n'existe pas sur l'élément, classList.remove ne fera rien et n'affichera pas d'erreur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour supprimer toutes les classes d'un coup, on peut mettre el.className = \"{{1}}\" (vide / \"\").",
+      "reponsesAttendues": [
+        "",
+        "vide"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Compare remove et add.",
+      "pairs": [
+        {
+          "left": "classList.add(\"hi\")",
+          "right": "Bouton devient visible"
+        },
+        {
+          "left": "classList.remove(\"hi\")",
+          "right": "Bouton disparaît (si lié au CSS)"
+        },
+        {
+          "left": "classList",
+          "right": "L'objet qui contient ces méthodes"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser 'remove' ?",
+      "options": [
+        "Pour désactiver un état (ex: fermer un menu, éteindre une lumière)",
+        "Pour supprimer l'élément de la page",
+        "Pour accélérer le chargement",
+        "Pour vider la mémoire"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

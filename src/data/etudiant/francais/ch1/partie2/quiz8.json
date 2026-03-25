@@ -1,0 +1,63 @@
+{
+  "id": "quiz18",
+  "titre": "Le double et le déguisement",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi un amoureux se déguise-t-il souvent au théâtre ?",
+      "options": [
+        "Pour tester la sincérité de l'autre",
+        "Parce qu'il n'a pas de vêtements",
+        "Pour aller au carnaval",
+        "Pour faire peur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le spectateur est souvent complice du déguisement (il sait qui est qui).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le déguisement crée souvent des situations de {{1}}.",
+      "reponsesAttendues": [
+        "quiproquo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la pièce à son déguisement.",
+      "pairs": [
+        {
+          "left": "Le Jeu de l'amour...",
+          "right": "Inversion maître/valet"
+        },
+        {
+          "left": "Barbier de Séville",
+          "right": "Le comte en soldat"
+        },
+        {
+          "left": "Dom Juan",
+          "right": "Le séducteur en paysan"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le fait de parler au public sans que les autres personnages entendent ?",
+      "options": [
+        "Un aparté",
+        "Un monologue",
+        "Une tirade",
+        "Une didascalie"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

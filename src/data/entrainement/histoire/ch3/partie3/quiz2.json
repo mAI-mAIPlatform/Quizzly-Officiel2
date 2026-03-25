@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "L'armée et l'impôt permanent",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle nouveauté Charles VII introduit-il dans l'armée ?",
+      "options": [
+        "Il supprime l'armée",
+        "Il crée une armée permanente de métier",
+        "Il utilise des mercenaires uniquement",
+        "Il demande aux femmes de combattre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La 'compagnie d'ordonnance' est la première unité de l'armée royale régulière.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour payer ses soldats, le roi crée un impôt permanent appelé la {{1}} royale.",
+      "reponsesAttendues": [
+        "taille"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'évolution à son avantage.",
+      "pairs": [
+        {
+          "left": "Armée régulière",
+          "right": "Disponibilité immédiate en cas de guerre"
+        },
+        {
+          "left": "Impôt permanent",
+          "right": "Revenus stables pour l'État"
+        },
+        {
+          "left": "Francs-archers",
+          "right": "Soldats recrutés dans les paroisses"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi cela marque-t-il la fin de la féodalité militaire ?",
+      "options": [
+        "Parce que le roi n'a plus besoin du service militaire de ses vassaux",
+        "Parce que les chevaliers ont tous disparu",
+        "Parce que les châteaux ont été interdits",
+        "C'est une tradition anglaise"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

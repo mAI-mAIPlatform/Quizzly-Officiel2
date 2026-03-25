@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "L'Intelligence Artificielle (IA)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une IA ?",
+      "options": [
+        "Un programme capable d'imiter des fonctions cognitives humaines (apprendre, décider)",
+        "Un robot qui a des sentiments",
+        "Un ordinateur très lourd",
+        "Un moteur électrique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'IA a besoin d'une grande quantité de données pour apprendre (Machine Learning).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un {{1}} conversationnel (comme ChatGPT) peut générer du texte.",
+      "reponsesAttendues": [
+        "agent"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Usages IA.",
+      "pairs": [
+        {
+          "left": "Reconnaissance faciale",
+          "right": "Analyse d'images"
+        },
+        {
+          "left": "Traduction automatique",
+          "right": "Traitement du langage"
+        },
+        {
+          "left": "Véhicule autonome",
+          "right": "Pilotage sans humain"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'un des risques de l'IA ?",
+      "options": [
+        "Les biais (préjugés) dans les résultats et la suppression d'emplois",
+        "Qu'elle tombe en panne d'essence",
+        "Qu'elle devienne invisible",
+        "Qu'elle mange toute la nourriture"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

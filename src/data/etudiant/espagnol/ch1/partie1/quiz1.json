@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Vocabulario: Vacaciones",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'la plage' en español?",
+      "options": [
+        "La playa",
+        "El campo",
+        "La montaña",
+        "La ciudad"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'El campo' significa 'la ville'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Voy a pasar mis vacaciones en la {{1}} para esquiar.",
+      "reponsesAttendues": [
+        "montaña"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el lugar con su traducción.",
+      "pairs": [
+        {
+          "left": "El extranjero",
+          "right": "L'étranger"
+        },
+        {
+          "left": "La selva",
+          "right": "La jungle / forêt tropicale"
+        },
+        {
+          "left": "El pueblo",
+          "right": "Le village"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'hacer la maleta'?",
+      "options": [
+        "Faire sa valise",
+        "Acheter un billet",
+        "Prendre des photos",
+        "Réserver un hôtel"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

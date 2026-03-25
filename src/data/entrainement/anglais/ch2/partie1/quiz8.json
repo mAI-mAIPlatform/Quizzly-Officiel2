@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Tastes and Flavors",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "How is a lemon?",
+      "options": [
+        "Sour",
+        "Sweet",
+        "Salty",
+        "Spicy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Chocolate is usually 'Salty'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Chili is very {{1}}.",
+      "reponsesAttendues": [
+        "spicy"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match flavors.",
+      "pairs": [
+        {
+          "left": "Sugar",
+          "right": "Sweet"
+        },
+        {
+          "left": "Salt",
+          "right": "Salty"
+        },
+        {
+          "left": "Coffee (no sugar)",
+          "right": "Bitter"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "If the food is delicious, it is...",
+      "options": [
+        "Yummy",
+        "Yucky",
+        "Boring",
+        "Cold"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

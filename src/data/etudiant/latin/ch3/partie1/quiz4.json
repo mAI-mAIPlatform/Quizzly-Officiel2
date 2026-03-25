@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Le siège d'Alésia",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle technique César a-t-il utilisée à Alésia ?",
+      "options": [
+        "Un double encerclement (circonvallation et contrevallation)",
+        "Une attaque frontale massive",
+        "Un tunnel sous la ville",
+        "Des éléphants"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les Gaulois ont manqué de vivres pendant le siège.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Alésia se trouvait dans le pays des {{1}} (Mandubiens).",
+      "reponsesAttendues": [
+        "Mandubiens"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les fortifications.",
+      "pairs": [
+        {
+          "left": "Contrevallation",
+          "right": "Contre les assiégés (Gaulois)"
+        },
+        {
+          "left": "Circonvallation",
+          "right": "Contre l'armée de secours"
+        },
+        {
+          "left": "Fossé",
+          "right": "Obstacle creusé"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie la reddition de Vercingétorix pour la Gaule ?",
+      "options": [
+        "La fin de l'indépendance gauloise",
+        "Le début d'une nouvelle guerre",
+        "Un simple trêve",
+        "Aucun changement"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

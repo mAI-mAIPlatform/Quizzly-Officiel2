@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Fonctions de Service",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment commence-t-on toujours l'énoncé d'une fonction ?",
+      "options": [
+        "Par un verbe à l'infinitif",
+        "Par le nom de l'objet",
+        "Par son prix",
+        "Par une couleur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une fonction de contrainte peut concerner la sécurité.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'énoncé d'une fonction doit être indépendant des solutions {{1}}.",
+      "reponsesAttendues": [
+        "techniques"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Analyses.",
+      "pairs": [
+        {
+          "left": "Éclairer l'utilisateur",
+          "right": "Fonction Principale (Lampe)"
+        },
+        {
+          "left": "Être esthétique",
+          "right": "Fonction Contrainte (FC)"
+        },
+        {
+          "left": "Respecter les normes",
+          "right": "Fonction Contrainte (FC)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi dit-on 'Fonction de Service' ?",
+      "options": [
+        "Parce que ce sont les services que l'objet rend à l'utilisateur",
+        "Parce que l'objet doit être servi",
+        "À cause du service après-vente",
+        "C'est le nom du créateur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Entraide Générationnelle",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la solidarité intergénérationnelle ?",
+      "options": [
+        "L'aide et les échanges entre les personnes de différents âges",
+        "L'obligation pour les enfants de travailler",
+        "Le fait que les jeunes vivent sans les vieux",
+        "Une loi sur le prix des maisons"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le système de retraite français repose sur la solidarité entre les actifs et les retraités.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'isolement des personnes {{1}} (âgées) est un problème social que la solidarité peut réduire.",
+      "reponsesAttendues": [
+        "âgées"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'action à son bénéfice.",
+      "pairs": [
+        {
+          "left": "Visite en EHPAD",
+          "right": "Lutte contre la solitude des aînés"
+        },
+        {
+          "left": "Aide informatique",
+          "right": "Transmission de savoir des jeunes vers les anciens"
+        },
+        {
+          "left": "Conseils de vie",
+          "right": "Transmission d'expérience des anciens vers les jeunes"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le fait de s'occuper bénévolement d'un proche dépendant ?",
+      "options": [
+        "Être un aidant (ou aidant familial)",
+        "Être un tuteur légal",
+        "Être un employé de maison",
+        "Être un voisin curieux"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

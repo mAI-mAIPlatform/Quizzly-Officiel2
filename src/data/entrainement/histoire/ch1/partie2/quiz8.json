@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "L'Agriculture et l'Irrigation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment les paysans apportaient-ils l'eau aux cultures dans les zones sèches ?",
+      "options": [
+        "Ils attendaient la pluie",
+        "Grâce à des systèmes d'irrigation complexes (norias, canaux)",
+        "Ils utilisaient des seaux à la main seulement",
+        "Ils ne cultivaient pas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les Arabes ont introduit de nouvelles plantes en Europe, comme le riz ou le coton.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une roue à eau permettant de remonter l'eau des rivières s'appelle une {{1}}.",
+      "reponsesAttendues": [
+        "noria"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le fruit à son origine (via l'empire).",
+      "pairs": [
+        {
+          "left": "Orange",
+          "right": "Introduit par les Arabes"
+        },
+        {
+          "left": "Canne à sucre",
+          "right": "Introduit par les Arabes"
+        },
+        {
+          "left": "Aubergine",
+          "right": "Introduit par les Arabes"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelait-on un jardin clos et irrigué au Moyen Âge musulman ?",
+      "options": [
+        "Un verger",
+        "Un paradis (pairidaēza)",
+        "Un potager",
+        "Une friche"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

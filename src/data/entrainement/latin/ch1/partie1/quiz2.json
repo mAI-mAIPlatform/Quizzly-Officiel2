@@ -1,0 +1,62 @@
+{
+  "id": "quiz2",
+  "titre": "Mots Transparents et Racines",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie le mot latin 'Rosa' ?",
+      "options": [
+        "Une rose",
+        "Une roue",
+        "Un roi",
+        "Une robe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le mot 'Aqua' signifie l'eau.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot 'Schola' a donné le mot français {{1}}.",
+      "reponsesAttendues": [
+        "école"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Amicus",
+          "right": "Ami"
+        },
+        {
+          "left": "Liber",
+          "right": "Livre"
+        },
+        {
+          "left": "Musica",
+          "right": "Musique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel mot français vient du latin 'Manus' ?",
+      "options": [
+        "Manger",
+        "Main",
+        "Maison",
+        "Matin"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

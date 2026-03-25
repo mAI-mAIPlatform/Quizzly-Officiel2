@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Quand utiliser les Arrow Functions ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est l'usage principal aujourd'hui ?",
+      "options": [
+        "Replacer toutes les fonctions",
+        "Pour les fonctions anonymes et les callbacks",
+        "Uniquement pour les calculs de maths",
+        "Pour décorer le code"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les arrow functions ne possèdent pas leur propre mot-clé 'this'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour une fonction complexe de 20 lignes, on préfère la fonction {{1}}.",
+      "reponsesAttendues": [
+        "classique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'usage idéal.",
+      "pairs": [
+        {
+          "left": "Array.map()",
+          "right": "Arrow function idéale"
+        },
+        {
+          "left": "setTimeout",
+          "right": "Arrow function idéale"
+        },
+        {
+          "left": "Méthode d'objet (this)",
+          "right": "Attention, préférez function()"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "L'arrow function est-elle plus performante ?",
+      "options": [
+        "Oui, énormément",
+        "Non, c'est quasiment identique",
+        "Elle est plus lente",
+        "Elle ne marche pas sur mobile"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

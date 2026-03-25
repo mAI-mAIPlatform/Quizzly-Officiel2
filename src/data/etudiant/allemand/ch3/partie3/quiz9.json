@@ -1,0 +1,63 @@
+{
+  "id": "quiz29",
+  "titre": "Warum? - Weil",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice '¿Por qué?'?",
+      "options": [
+        "Warum?",
+        "Wie?",
+        "Wo?",
+        "Was?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En una frase con 'weil' (porque), el verbo conjugado va al final.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich schlafe, weil ich müde {{1}} (suis).",
+      "reponsesAttendues": [
+        "bin"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la pregunta y respuesta.",
+      "pairs": [
+        {
+          "left": "Warum lernst du?",
+          "right": "Weil ich einen Test habe"
+        },
+        {
+          "left": "Warum isst du?",
+          "right": "Weil ich Hunger habe"
+        },
+        {
+          "left": "Warum schläfst du?",
+          "right": "Weil ich müde bin"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'weil'?",
+      "options": [
+        "Porque (Explicación)",
+        "¿Por qué? (Pregunta)",
+        "Cuándo",
+        "Pero"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

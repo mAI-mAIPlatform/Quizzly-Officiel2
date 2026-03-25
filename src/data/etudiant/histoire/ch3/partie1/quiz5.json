@@ -1,0 +1,64 @@
+{
+  "id": "quiz5",
+  "titre": "De l'atelier à l'usine",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre un atelier et une usine ?",
+      "options": [
+        "L'usine utilise de grosses machines et emploie beaucoup d'ouvriers",
+        "L'atelier est plus grand que l'usine",
+        "L'usine est toujours située à l'intérieur d'une maison",
+        "Il n'y a aucune différence"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le travail en usine impose une discipline stricte (horaires, règlements).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'ouvrier à l'usine reçoit un {{1}} en échange de son travail.",
+      "reponsesAttendues": [
+        "salaire"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la caractéristique à son lieu.",
+      "pairs": [
+        {
+          "left": "Savoir-faire artisanal",
+          "right": "Atelier"
+        },
+        {
+          "left": "Production de masse",
+          "right": "Usine"
+"
+        },
+        {
+          "left": "Travail familial",
+          "right": "Atelier / Travail à domicile"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle nouvelle classe sociale naît du travail en usine ?",
+      "options": [
+        "Le prolétariat (les ouvriers)",
+        "La noblesse de robe",
+        "Les paysans indépendants",
+        "Les esclaves coloniaux"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "EXAMEN : Viajes y Ciudad",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": " 'Estoy yendo al museo en taxi' ",
+      "options": [
+        "Je suis en train d'aller au musée en taxi",
+        "Je vais au musée à pied",
+        "J'aime le musée",
+        "Le taxi est rouge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'A la derecha' significa 'À droite'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Vacances' se dice '{{1}}' en plural.",
+      "reponsesAttendues": [
+        "vacaciones"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Mix Ch2 P1.",
+      "pairs": [
+        {
+          "left": "Avión",
+          "right": "Avion"
+        },
+        {
+          "left": "Ilueve",
+          "right": "Il pleut"
+        },
+        {
+          "left": "Cerca",
+          "right": "Près"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Felicidades ! ¿Listo para la comida española (P2)?",
+      "options": [
+        "¡Sí, tengo hambre!",
+        "¡Adelante!",
+        "¡Vale!",
+        "¡Perfecto!"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Entrées et Sorties",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "En programmation, qu'est-ce qu'une 'Entrée' (Input) ?",
+      "options": [
+        "Une information donnée à l'ordinateur par l'utilisateur ou un capteur",
+        "La porte d'entrée de la salle informatique",
+        "Le bouton pour allumer le PC",
+        "Le trou pour brancher le casque"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Afficher un message à l'écran est une 'Sortie' (Output).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le clavier et la souris sont des périphériques d'{{1}} (entrée).",
+      "reponsesAttendues": [
+        "entrée"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'action au bon terme.",
+      "pairs": [
+        {
+          "left": "Demander l'âge",
+          "right": "Entrée (Input)"
+        },
+        {
+          "left": "Afficher 'Bonjour'",
+          "right": "Sortie (Output)"
+        },
+        {
+          "left": "Calculer 2 + 2",
+          "right": "Traitement"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel de ces appareils est un périphérique de sortie ?",
+      "options": [
+        "L'écran",
+        "Le clavier",
+        "La souris",
+        "Le micro"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz20",
+  "titre": "Pythagore : Les pièges",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Un triangle a pour côtés 5, 5, 7. Est-il rectangle ?",
+      "options": [
+        "Oui",
+        "Non (50 ≠ 49)",
+        "Presque",
+        "On ne peut pas savoir"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'égalité a + b = c prouve que le triangle est rectangle.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le carré de 0 est {{1}}.",
+      "reponsesAttendues": [
+        "0"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'erreur à sa correction.",
+      "pairs": [
+        {
+          "left": "Confondre Théorème et Réciproque",
+          "right": "Lire la consigne"
+        },
+        {
+          "left": "Oublier le carré ²",
+          "right": "Vérifier l'égalité"
+        },
+        {
+          "left": "Oublier la racine √",
+          "right": "Calculer la longueur finale"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel de ces triangles n'existe pas ?",
+      "options": [
+        "3, 4, 10",
+        "3, 4, 5",
+        "5, 5, 5",
+        "10, 10, 10"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

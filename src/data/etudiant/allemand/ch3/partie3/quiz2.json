@@ -1,0 +1,63 @@
+{
+  "id": "quiz22",
+  "titre": "Schmerzen",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Me duele la cabeza'?",
+      "options": [
+        "Ich habe Kopfschmerzen",
+        "Mein Kopf tut weh",
+        "Ambas son correctas",
+        "Ich bin Kopfweh"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Wehtun' es un verbo separable.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Mein Bauch {{1}} weh (duele).",
+      "reponsesAttendues": [
+        "tut"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el dolor.",
+      "pairs": [
+        {
+          "left": "Halsschmerzen",
+          "right": "Mal de gorge"
+        },
+        {
+          "left": "Zahnschmerzen",
+          "right": "Mal aux dents"
+        },
+        {
+          "left": "Magenschmerzen",
+          "right": "Mal à l'estomac"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'Was fehlt Ihnen?' (que dice el médico)?",
+      "options": [
+        "¿Qué le pasa? / ¿Qué tiene?",
+        "¿Dónde vive?",
+        "¿Cómo se llama?",
+        "¿Quiere agua?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

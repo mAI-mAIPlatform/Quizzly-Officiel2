@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Problèmes de Géométrie et Littéral",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Un rectangle a pour longueur L et largeur 5. Son périmètre est :",
+      "options": [
+        "5L",
+        "2L + 10",
+        "L + 5",
+        "2L + 5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'aire d'un carré de côté c est c × 4.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'aire d'un triangle de base b et hauteur 4 est {{1}}b.",
+      "reponsesAttendues": [
+        "2"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la figure à son aire.",
+      "pairs": [
+        {
+          "left": "Rectangle (L, l)",
+          "right": "L × l"
+        },
+        {
+          "left": "Carré (c)",
+          "right": "c²"
+        },
+        {
+          "left": "Triangle (b, h)",
+          "right": "(b×h)/2"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Le périmètre d'un triangle équilatéral de côté x est :",
+      "options": [
+        "x + 3",
+        "x³",
+        "3x",
+        "3 + x"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

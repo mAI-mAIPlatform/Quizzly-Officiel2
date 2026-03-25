@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Évolution de la vitesse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on un mouvement dont la vitesse ne change pas ?",
+      "options": [
+        "Accéléré",
+        "Uniforme",
+        "Ralenti",
+        "Stoppé"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si la vitesse augmente, le mouvement est accéléré.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un mouvement dont la vitesse diminue est un mouvement {{1}}.",
+      "reponsesAttendues": [
+        "ralenti"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le type de mouvement.",
+      "pairs": [
+        {
+          "left": "Vitesse constante",
+          "right": "Mouvement uniforme"
+        },
+        {
+          "left": "Vitesse augmente",
+          "right": "Mouvement accéléré"
+        },
+        {
+          "left": "Vitesse diminue",
+          "right": "Mouvement décéléré (ralenti)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Une voiture qui freine à l'approche d'un feu rouge a un mouvement :",
+      "options": [
+        "Uniforme",
+        "Ralenti",
+        "Accéléré",
+        "Circulaire"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

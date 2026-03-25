@@ -1,0 +1,63 @@
+{
+  "id": "quiz23",
+  "titre": "SER vs ESTAR",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué verbo usas para hablar de algo permanente (es. Nacionalidad)?",
+      "options": [
+        "Ser",
+        "Estar",
+        "Fare",
+        "Ter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Se usa 'ESTAR' para estados pasajeros como el cansancio.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu {{1}} brasileiro (soy).",
+      "reponsesAttendues": [
+        "sou"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el uso.",
+      "pairs": [
+        {
+          "left": "Profissão",
+          "right": "SER"
+        },
+        {
+          "left": "Localização",
+          "right": "ESTAR"
+        },
+        {
+          "left": "Nacionalidade",
+          "right": "SER"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Tú eres simpático' (permanente)?",
+      "options": [
+        "Você é simpático",
+        "Você está simpático",
+        "Você sou simpático",
+        "Você é simpatia"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "EXAMEN : Formulaires HTML5",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment créer un champ email obligatoire avec un exemple ?",
+      "options": [
+        "<input type='email' required placeholder='ex@mail.com'>",
+        "<input mode='mail' force='yes'>",
+        "<email name='me'>",
+        "<input text='mail'>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "required='false' rend le champ obligatoire.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut pattern utilise des {{1}} régulières.",
+      "reponsesAttendues": [
+        "expressions"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Mix HTML5 Form.",
+      "pairs": [
+        {
+          "left": "range",
+          "right": "Slider"
+        },
+        {
+          "left": "color",
+          "right": "Pipette"
+        },
+        {
+          "left": "number",
+          "right": "Compteur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour les Médias et Audio/Vidéo (P2) ?",
+      "options": [
+        "Oui !",
+        "C'est parti !",
+        "Absolument !",
+        "Révisions P1"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

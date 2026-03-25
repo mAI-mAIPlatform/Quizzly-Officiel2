@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "La vivienda",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿En qué habitación se cocina?",
+      "options": [
+        "La cocina",
+        "El salón",
+        "El baño",
+        "El garaje"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Dormitorio' es el lugar donde se duerme.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Me lavo las manos en el {{1}} (salle de bain).",
+      "reponsesAttendues": [
+        "baño"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la parte de la casa.",
+      "pairs": [
+        {
+          "left": "El pasillo",
+          "right": "Le couloir"
+        },
+        {
+          "left": "El jardín",
+          "right": "Le jardin"
+        },
+        {
+          "left": "La escalera",
+          "right": "L'escalier"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'vivir en un piso'?",
+      "options": [
+        "Vivre dans un appartement",
+        "Vivre dans une maison",
+        "Vivre dans une tente",
+        "Vivre sur le sol"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

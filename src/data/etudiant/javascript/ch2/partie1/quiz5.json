@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "getElementsByClassName",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode ancienne permet de récupérer des éléments par leur classe (sans le point) ?",
+      "options": [
+        "document.getElementsByClassName(\"maClasse\")",
+        "document.getClass(\"maClasse\")",
+        "document.findClass(\"maClasse\")",
+        "document.select(\"maClasse\")"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Avec getElementsByClassName, on n'écrit PAS de point devant le nom de la classe.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Cette méthode renvoie une {{1}} Collection (HTML).",
+      "reponsesAttendues": [
+        "HTML"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la méthode à son argument.",
+      "pairs": [
+        {
+          "left": "getElementById",
+          "right": "\"mon-identifiant\""
+        },
+        {
+          "left": "getElementsByClassName",
+          "right": "\"ma-classe\""
+        },
+        {
+          "left": "querySelector",
+          "right": "\".ma-classe\" ou \"#mon-id\""
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi préfère-t-on querySelectorAll aujourd'hui ?",
+      "options": [
+        "Car elle est plus polyvalente et permet des sélections complexes",
+        "Car elle est plus courte à écrire",
+        "Car getElementsByClassName est interdite",
+        "Car elle ne renvoie rien"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz28",
+  "titre": "Imparfait vs Passé Simple",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel temps utilise-t-on pour les actions de second plan (description, habitude) ?",
+      "options": [
+        "L'imparfait",
+        "Le passé simple",
+        "Le présent",
+        "Le futur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le passé simple exprime une action brève et soudaine au premier plan.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le temps de l'arrière-plan par excellence est l'{{1}}.",
+      "reponsesAttendues": [
+        "imparfait"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la phrase au temps correct.",
+      "pairs": [
+        {
+          "left": "Il lisait tranquillement",
+          "right": "Imparfait (action longue)"
+        },
+        {
+          "left": "Soudain, il tomba",
+          "right": "Passé simple (action brève)"
+        },
+        {
+          "left": "Le soleil brillait",
+          "right": "Imparfait (décor)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle terminaison est typique du passé simple (3e pers. du singulier) ?",
+      "options": [
+        "-a ou -it",
+        "-ait",
+        "-era",
+        "-aitait"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

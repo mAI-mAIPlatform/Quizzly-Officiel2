@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Laïcité à l'École",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que dit la loi de 2004 sur les signes religieux à l'école publique ?",
+      "options": [
+        "Elle interdit le port de signes religieux ostensibles",
+        "Elle oblige à porter une croix",
+        "Elle interdit de parler de religion",
+        "Elle n'autorise que les chapeaux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La laïcité à l'école protège les élèves de tout prosélytisme.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'école publique est gratuite, obligatoire et {{1}} (laïque).",
+      "reponsesAttendues": [
+        "laïque"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'objectif à son sens.",
+      "pairs": [
+        {
+          "left": "Vivre-ensemble",
+          "right": "Respecter les autres malgré les différences de croyance"
+        },
+        {
+          "left": "Esprit critique",
+          "right": "Formation de citoyens réfléchis"
+        },
+        {
+          "left": "Neutralité",
+          "right": "L'école ne diffuse pas de doctrine"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel texte est affiché dans tous les établissements scolaires ?",
+      "options": [
+        "La Charte de la laïcité à l'école",
+        "Le menu de la cantine",
+        "Le code civil",
+        "La liste des professeurs"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

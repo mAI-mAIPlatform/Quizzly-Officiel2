@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Höflichkeit (Politesse)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'S'il vous plaît / De rien' ?",
+      "options": [
+        "Bitte",
+        "Danke",
+        "Entschuldigung",
+        "Tschüss"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Vielen Dank' bedeutet 'Merci beaucoup'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Pardon' se dice '{{1}}'.",
+      "reponsesAttendues": [
+        "Entschuldigung"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Politesse.",
+      "pairs": [
+        {
+          "left": "Gerne",
+          "right": "Volontiers"
+        },
+        {
+          "left": "Kein Problem",
+          "right": "Pas de problème"
+        },
+        {
+          "left": "Es tut mir leid",
+          "right": "Je suis désolé"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Wie antwortet man auf 'Danke'?",
+      "options": [
+        "Bitte",
+        "Danke",
+        "Hallo",
+        "Tschüss"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

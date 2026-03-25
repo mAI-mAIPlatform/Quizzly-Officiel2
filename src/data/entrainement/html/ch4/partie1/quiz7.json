@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Texte sur Canvas",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode écrit du texte plein ?",
+      "options": [
+        "fillText(text, x, y)",
+        "writeText()",
+        "drawText()",
+        "print()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On définit la police avec ctx.font = '20px Arial'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour dessiner seulement le contour des lettres, on utilise {{1}}Text.",
+      "reponsesAttendues": [
+        "stroke"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Alignement Texte.",
+      "pairs": [
+        {
+          "left": "textAlign",
+          "right": "Horizontale (left, center...)"
+        },
+        {
+          "left": "textBaseline",
+          "right": "Verticale (top, middle...)"
+        },
+        {
+          "left": "measureText",
+          "right": "Calcule la largeur du texte"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Le texte sur canvas est-il sélectionnable avec la souris ?",
+      "options": [
+        "Non, c'est un ensemble de pixels comme une image",
+        "Oui, comme du HTML classique",
+        "Seulement si on utilise 'select'",
+        "Seulement sur Chrome"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

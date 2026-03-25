@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "EXAMEN : Gastronomía y Compras",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": " 'Quiero pagar la cuenta en efectivo' ",
+      "options": [
+        "Je veux payer l'addition en espèces",
+        "Je veux manger de la viande",
+        "J'aime le poisson",
+        "La salade est chère"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En español, 'Me encanta' no necesita 'mucho'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Pomme' se dice '{{1}}'.",
+      "reponsesAttendues": [
+        "manzana"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Final Mix Ch2 P2.",
+      "pairs": [
+        {
+          "left": "Arroz",
+          "right": "Riz"
+        },
+        {
+          "left": "Leche",
+          "right": "Lait"
+        },
+        {
+          "left": "Azul",
+          "right": "Bleu"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Felicidades ! ¿Listo para el Pasado (Ch3)?",
+      "options": [
+        "¡Sí!",
+        "¡Vamos!",
+        "¡Vale!",
+        "¡Claro!"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

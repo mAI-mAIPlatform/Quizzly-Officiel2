@@ -1,0 +1,63 @@
+{
+  "id": "quiz14",
+  "titre": "Irregular: ESTAR / TER",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pretérito Perfeito de ESTAR para 'Eu'?",
+      "options": [
+        "estive",
+        "esteve",
+        "estivemos",
+        "estiveram"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El pasado de TER para 'Eu' es 'tive'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ele {{1}} (ter) muito trabalho ontem (tuvo).",
+      "reponsesAttendues": [
+        "teve"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona la conjugación irregular.",
+      "pairs": [
+        {
+          "left": "Eu (Estar)",
+          "right": "estive"
+        },
+        {
+          "left": "Você (Estar)",
+          "right": "esteve"
+        },
+        {
+          "left": "Eles (Ter)",
+          "right": "tiveram"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Yo estuve en Brasil en enero y tuve mucha suerte'?",
+      "options": [
+        "Eu estive no Brasil em janeiro e tive muita sorte",
+        "Eu esteve no Brasil em janeiro e teve muita sorte",
+        "Eu estava no Brasil em janeiro e tinha muita sorte",
+        "Eu fui no Brasil em janeiro e fui muita sorte"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

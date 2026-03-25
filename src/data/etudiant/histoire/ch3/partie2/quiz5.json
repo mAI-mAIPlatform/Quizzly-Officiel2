@@ -1,0 +1,63 @@
+{
+  "id": "quiz15",
+  "titre": "L'Église et la Question Sociale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel Pape a écrit l'encyclique 'Rerum Novarum' en 1891 ?",
+      "options": [
+        "Léon XIII",
+        "Pie IX",
+        "Benoît XVI",
+        "Jean-Paul II"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans ce texte, l'Église dénonce à la fois le libéralisme sauvage et le socialisme athée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le Pape appelle les patrons à respecter la {{1}} humaine des ouvriers.",
+      "reponsesAttendues": [
+        "dignité"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la position de l'Église au groupe.",
+      "pairs": [
+        {
+          "left": "Aux Ouvriers",
+          "right": "Travailler honnêtement et ne pas détruire les usines"
+        },
+        {
+          "left": "Aux Patrons",
+          "right": "Payer un juste salaire et éviter l'exploitation"
+        },
+        {
+          "left": "À l'État",
+          "right": "Protéger les plus faibles par des lois"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on ce courant de pensée chrétien ?",
+      "options": [
+        "Le catholicisme social",
+        "L'inquisition industrielle",
+        "Le protestantisme libéral",
+        "L'athéisme de combat"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

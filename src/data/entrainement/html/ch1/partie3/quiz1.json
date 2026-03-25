@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "La Balise Formulaire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise encadre un formulaire ?",
+      "options": [
+        "<form>",
+        "<input>",
+        "<select>",
+        "<button>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'action' définit l'URL de destination des données.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} définit la méthode d'envoi (GET ou POST).",
+      "reponsesAttendues": [
+        "method"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Lien attribut / rôle.",
+      "pairs": [
+        {
+          "left": "action",
+          "right": "Où envoyer"
+        },
+        {
+          "left": "method",
+          "right": "Comment envoyer"
+        },
+        {
+          "left": "name",
+          "right": "Nom du formulaire"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle méthode est la plus sûre pour envoyer des mots de passe ?",
+      "options": [
+        "POST",
+        "GET",
+        "FETCH",
+        "SEND"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

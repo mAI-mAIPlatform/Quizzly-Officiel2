@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Cap. 4 P. 2 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Les Romains amenaient l'eau par des {{1}} et construisaient en {{2}}.",
+      "options": [
+        "aqueducs / béton",
+        "tunnels / bois",
+        "avions / plastique",
+        "canaux / verre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Sequor' est un verbe déponent.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'architecte de référence est {{1}} (Vitruve).",
+      "reponsesAttendues": [
+        "Vitruve"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les domaines.",
+      "pairs": [
+        {
+          "left": "Pons",
+          "right": "Génie civil"
+        },
+        {
+          "left": "Medicus",
+          "right": "Santé"
+        },
+        {
+          "left": "Gérondif",
+          "right": "Grammaire"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Aqua' ?",
+      "options": [
+        "L'eau",
+        "Le feu",
+        "L'air",
+        "La terre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "La vie des moines : Cluny et Cîteaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle règle de vie la plupart des moines d'Occident suivent-ils ?",
+      "options": [
+        "La règle d'Umar",
+        "La règle de Saint Benoît",
+        "Le code Justinien",
+        "La règle de Saint François"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La devise des moines bénédictins est 'Ora et labora' (prie et travaille).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'abbaye de {{1}} était la plus puissante d'Europe au XIe siècle.",
+      "reponsesAttendues": [
+        "Cluny"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'ordre à sa caractéristique.",
+      "pairs": [
+        {
+          "left": "Clunisiens",
+          "right": "Richesse et longues prières"
+        },
+        {
+          "left": "Cisterciens",
+          "right": "Pauvreté et travail manuel (Saint Bernard)"
+        },
+        {
+          "left": "Scriptorium",
+          "right": "Lieu où l'on recopie les livres"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi les monastères étaient-ils importants pour la culture ?",
+      "options": [
+        "Ils organisaient des tournois",
+        "Ils conservaient et recopiaient les manuscrits anciens",
+        "Ils fabriquaient des armes",
+        "Ils enseignaient la guerre"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

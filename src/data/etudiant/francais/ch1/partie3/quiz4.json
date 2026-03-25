@@ -1,0 +1,63 @@
+{
+  "id": "quiz24",
+  "titre": "La disposition des rimes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on des rimes de type AABB ?",
+      "options": [
+        "Rimes suivies (ou plates)",
+        "Rimes croisées",
+        "Rimes embrassées",
+        "Rimes libres"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les rimes embrassées suivent le schéma ABBA.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Des rimes qui n'ont qu'un seul son en commun sont des rimes {{1}}.",
+      "reponsesAttendues": [
+        "pauvres"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le schéma à son nom.",
+      "pairs": [
+        {
+          "left": "ABAB",
+          "right": "Croisées"
+        },
+        {
+          "left": "ABBA",
+          "right": "Embrassées"
+        },
+        {
+          "left": "AABB",
+          "right": "Suivies"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Une rime qui a trois sons ou plus en commun est une rime :",
+      "options": [
+        "Riche",
+        "Pauvre",
+        "Suffisante",
+        "Millionnaire"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "iFrames Responsives",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le problème principal des iFrames sur mobile ?",
+      "options": [
+        "Elles ont souvent une largeur fixe en pixels qui dépasse",
+        "Elles ne s'affichent pas",
+        "Elles changent de couleur",
+        "Elles demandent un mot de passe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser CSS (width: 100%) pour rendre une iFrame fluide.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La propriété CSS aspect-{{1}} permet de garder les proportions (ex: 16/9).",
+      "reponsesAttendues": [
+        "ratio"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Taille d'iFrame.",
+      "pairs": [
+        {
+          "left": "560px",
+          "right": "Taille fixe (pas bien)"
+        },
+        {
+          "left": "max-width: 100%",
+          "right": "S'adapte à l'écran"
+        },
+        {
+          "left": "height: 0; padding-bottom: 56.25%",
+          "right": "Astuce ancienne pour le 16/9"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Est-il facile de changer le style INTERNE d'une iFrame ?",
+      "options": [
+        "Non, sauf si elle appartient au même site (Same-Origin Policy)",
+        "Oui, très facile",
+        "Seulement avec du bleu",
+        "Il suffit de demander"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "quiz9",
+  "titre": "Cas pratique : Smartphone",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Ton smartphone est cassé, mais l'écran fonctionne encore. Quelle est la meilleure action selon l'économie circulaire ?",
+      "options": [
+        "Le faire réparer (changer la pièce en panne)",
+        "Le jeter directement à la poubelle",
+        "En acheter un neuf sans réfléchir",
+        "Le garder au fond d'un tiroir à jamais"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Donner son ancien téléphone à une association pour qu'il soit reconditionné est un geste écoresponsable.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un smartphone contient des métaux précieux comme de l'{{1}} (or) et du {{2}} (cuivre) qu'il faut recycler.",
+      "reponsesAttendues": [
+        "or",
+        "cuivre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le composant du smartphone à son futur recyclage.",
+      "pairs": [
+        {
+          "left": "Carte mère",
+          "right": "Récupération des métaux précieux (or, argent)"
+        },
+        {
+          "left": "Batterie Lithium",
+          "right": "Traitement spécifique (métaux rares et chimiques)"
+        },
+        {
+          "left": "Coque aluminium",
+          "right": "Refusion pour fabriquer de nouvelles pièces"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il important d'effacer ses données avant de donner ou recycler son smartphone ?",
+      "options": [
+        "Pour protéger sa vie privée et ses informations personnelles",
+        "Pour que le téléphone soit moins lourd",
+        "Parce que le recyclage ne marche pas avec des photos desssus",
+        "C'est une règle de politesse"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Genres Littéraires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on un récit imaginaire en prose, souvent assez long, racontant les aventures de personnages ?",
+      "options": [
+        "Un roman",
+        "Une pièce de théâtre",
+        "Un dictionnaire",
+        "Un manuel scolaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La poésie se définit souvent par l'utilisation de vers, de rimes et d'un rythme particulier.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un récit très court, se terminant souvent par une leçon de morale, s'appelle une {{1}} (fable).",
+      "reponsesAttendues": [
+        "fable"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le genre à son format.",
+      "pairs": [
+        {
+          "left": "Nouvelle",
+          "right": "Récit court et percutant"
+        },
+        {
+          "left": "Autobiographie",
+          "right": "Récit de sa propre vie par l'auteur"
+        },
+        {
+          "left": "Essai",
+          "right": "Texte de réflexion sur un sujet précis"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'Dystopie' en littérature ?",
+      "options": [
+        "Un récit imaginant une société future sombre et oppressive",
+        "Une histoire d'amour joyeuse",
+        "Un livre de cuisine",
+        "Une BD pour enfants"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

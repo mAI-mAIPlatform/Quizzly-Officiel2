@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "La Mésopotamie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi la Mésopotamie est-elle considérée comme le 'Berceau de la Civilisation' ?",
+      "options": [
+        "C'est là que l'écriture est née (vers 3300 av. J-C)",
+        "C'est là qu'on a inventé le chocolat",
+        "C'est l'endroit le plus froid du monde",
+        "Tout le monde y vivait dans des tentes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'écriture des civilisations de Mésopotamie (Sumer) est appelée écriture 'cunéiforme'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La Mésopotamie se situe entre deux fleuves : le Tigre et l'{{1}} (Euphrate).",
+      "reponsesAttendues": [
+        "Euphrate"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'élément mésopotamien à sa définition.",
+      "pairs": [
+        {
+          "left": "Ziggourat",
+          "right": "Temple en forme de tour à étages"
+        },
+        {
+          "left": "Code d'Hammourabi",
+          "right": "L'un des plus anciens textes de lois au monde"
+        },
+        {
+          "left": "Tablette d'argile",
+          "right": "Support utilisé pour écrire au stylet"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où se situerait la Mésopotamie sur une carte actuelle ?",
+      "options": [
+        "Principalement en Irak",
+        "En France",
+        "Aux États-Unis",
+        "En Chine"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

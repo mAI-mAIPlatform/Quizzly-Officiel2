@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Le Référentiel",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un référentiel en physique ?",
+      "options": [
+        "Un objet de référence par rapport auquel on étudie le mouvement",
+        "Un livre de formules",
+        "Le nom du scientifique qui fait l'expérience",
+        "Une unité de mesure de distance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La trajectoire d'un objet peut changer si on change de référentiel.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour étudier le mouvement d'une voiture sur la route, on utilise le référentiel {{1}}.",
+      "reponsesAttendues": [
+        "terrestre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'étude au bon référentiel.",
+      "pairs": [
+        {
+          "left": "Mouvement des planètes",
+          "right": "Héliocentrique (Soleil)"
+        },
+        {
+          "left": "Mouvement de la Lune",
+          "right": "Géocentrique (Terre)"
+        },
+        {
+          "left": "Course de 100m",
+          "right": "Terrestre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi dit-on que le mouvement est 'relatif' ?",
+      "options": [
+        "Parce qu'il dépend du choix du référentiel",
+        "Parce qu'il concerne souvent la famille",
+        "Parce qu'il n'est pas très important",
+        "Parce qu'il s'arrête tout seul"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Action pour la Planète",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment une association peut-elle agir pour l'environnement ?",
+      "options": [
+        "En nettoyant des plages ou en protégeant des forêts",
+        "En vendant du bois coupé illégalement",
+        "En jetant des déchets dans les rivières",
+        "En interdisant aux gens de respirer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le développement durable prend en compte l'écologie, l'économie et le social.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un citoyen qui s'engage pour la nature est un éco-{{1}} (citoyen).",
+      "reponsesAttendues": [
+        "citoyen"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'initiative à son échelle.",
+      "pairs": [
+        {
+          "left": "Compost collectif",
+          "right": "Échelle du quartier ou de l'immeuble"
+        },
+        {
+          "left": "Loi Climat",
+          "right": "Échelle nationale (État)"
+        },
+        {
+          "left": "COP (Sommet mondial)",
+          "right": "Échelle internationale"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie l'acronyme COP ?",
+      "options": [
+        "Conférence des Parties",
+        "Comité des Ordures Plastiques",
+        "Conseil de l'Oxygène Pur",
+        "Club des Ours Polaires"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

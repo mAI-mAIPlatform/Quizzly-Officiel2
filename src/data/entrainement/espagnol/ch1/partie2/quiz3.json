@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Los Posesivos (Mon, Ton, Son)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Mon père' ?",
+      "options": [
+        "Mi padre",
+        "Tu padre",
+        "Su padre",
+        "Me padre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Tu casa' significa 'Ta maison'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Ses frères' se dice '{{1}} hermanos'.",
+      "reponsesAttendues": [
+        "sus"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Posesivos.",
+      "pairs": [
+        {
+          "left": "Mis hijos",
+          "right": "Mes fils"
+"        },
+        {
+          "left": "Vuestra madre",
+          "right": "Votre mère"
+        },
+        {
+          "left": "Nuestra familia",
+          "right": "Notre famille"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Cual es el posesivo para 'Nous' ?",
+      "options": [
+        "nuestro / nuestra",
+        "vuestro / vuestra",
+        "su / sus",
+        "mi / mis"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

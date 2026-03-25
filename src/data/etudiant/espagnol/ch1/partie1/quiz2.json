@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Medios de transporte",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué transporte se mueve por el mar?",
+      "options": [
+        "El barco",
+        "El tren",
+        "El coche",
+        "El avión"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Coche' es el término común para un coche en España.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Prefiero viajar en {{1}} porque es muy rápido y vuela.",
+      "reponsesAttendues": [
+        "avión"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el transporte.",
+      "pairs": [
+        {
+          "left": "La bicicleta",
+          "right": "Le vélo"
+        },
+        {
+          "left": "El autobús",
+          "right": "Le bus"
+        },
+        {
+          "left": "Ir a pie",
+          "right": "Aller à pied"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'le billet de train'?",
+      "options": [
+        "El billete de tren",
+        "La maleta de tren",
+        "El coche de tren",
+        "La estación de tren"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

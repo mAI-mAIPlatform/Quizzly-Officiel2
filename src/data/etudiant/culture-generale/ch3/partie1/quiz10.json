@@ -1,0 +1,64 @@
+{
+  "id": "quiz10",
+  "titre": "Ch. 3 P. 1 Synthèse Art",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces artistes est célèbre pour ses sculptures en bronze (ex: Le Penseur) ?",
+      "options": [
+        "Auguste Rodin",
+        "Claude Monet",
+        "Vincent van Gogh",
+        "Andy Warhol"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'art abstrait cherche à représenter exactement ce que l'œil voit.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le courant artistique de Monet, Renoir et Degas est l'{{1}} (Impressionnisme).",
+      "reponsesAttendues": [
+        "Impressionnisme",
+        "impressionnisme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'œuvre à sa ville d'exposition.",
+      "pairs": [
+        {
+          "left": "La Joconde",
+          "right": "Paris (Louvre)"
+        },
+        {
+          "left": "David de Michel-Ange",
+          "right": "Florence"
+        },
+        {
+          "left": "Guernica",
+          "right": "Madrid"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel artiste est célèbre pour ses tableaux de boîtes de soupe et de portraits de Marilyn Monroe ?",
+      "options": [
+        "Andy Warhol",
+        "Salvador Dalí",
+        "Léonard de Vinci",
+        "Banksy"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

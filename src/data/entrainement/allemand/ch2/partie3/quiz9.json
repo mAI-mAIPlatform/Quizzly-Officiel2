@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Hobbys im Freien",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Se promener' ?",
+      "options": [
+        "Spazieren gehen",
+        "Wandern",
+        "Klettern",
+        "Zelten"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Wandern' bedeutet 'Faire de la randonnée'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich gehe im Wald {{1}} (marcher).",
+      "reponsesAttendues": [
+        "wandern"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Outdoor.",
+      "pairs": [
+        {
+          "left": "Fahrrad",
+          "right": "Vélo"
+        },
+        {
+          "left": "Zelt",
+          "right": "Tente"
+        },
+        {
+          "left": "Rucksack",
+          "right": "Sac à dos"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Gehst du gern wandern?",
+      "options": [
+        "Ja, ich liebe die Natur",
+        "Nein, ich bin wandern",
+        "Wandern ist ein Brot",
+        "Hallo Wald"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

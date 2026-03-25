@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Accord des Couleurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Une chemise rouge' (Una camicia...) ?",
+      "options": [
+        "rosso",
+        "rossa",
+        "rossi",
+        "rosse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Certaines couleurs comme 'Blu' ou 'Rosa' sont invariables (elles ne changent pas au pluriel).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour 'Des livres jaunes', on dit 'Libri {{1}}'.",
+      "reponsesAttendues": [
+        "gialli"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'accord (Bianco).",
+      "pairs": [
+        {
+          "left": "Masc. Sing.",
+          "right": "Bianco"
+        },
+        {
+          "left": "Fém. Sing.",
+          "right": "Bianca"
+        },
+        {
+          "left": "Masc. Plur.",
+          "right": "Bianchi"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel adjectif de couleur est invariable ?",
+      "options": [
+        "Rosso",
+        "Viola",
+        "Nero",
+        "Verde"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Les explorateurs portugais",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle route les Portugais ont-ils privilégiée pour aller en Inde ?",
+      "options": [
+        "Traverser l'Atlantique vers l'Ouest",
+        "Contourner l'Afrique par le Sud",
+        "Passer par le Pôle Nord",
+        "Traverser le Sahara"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Vasco da Gama est le premier à atteindre l'Inde par mer en 1498.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le point le plus au sud de l'Afrique s'appelle le Cap de {{1}}.",
+      "reponsesAttendues": [
+        "Bonne-Espérance"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'explorateur à son exploit.",
+      "pairs": [
+        {
+          "left": "Bartolomeu Dias",
+          "right": "Passe le Cap de Bonne-Espérance (1488)"
+        },
+        {
+          "left": "Vasco da Gama",
+          "right": "Arrive à Calicut en Inde (1498)"
+        },
+        {
+          "left": "Cabral",
+          "right": "Découvre le Brésil (1500)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel roi portugais a beaucoup encouragé ces expéditions ?",
+      "options": [
+        "Henri le Navigateur",
+        "Louis XIV",
+        "Charles Quint",
+        "Philippe II"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

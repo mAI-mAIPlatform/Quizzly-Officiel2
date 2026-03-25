@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Cap. 3 P. 2 Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Le droit du {{1}} dépend des parents, le droit du {{2}} dépend du lieu de naissance.",
+      "options": [
+        "sang / sol",
+        "sol / sang",
+        "pied / main",
+        "coeur / corps"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La naturalisation est un acte automatique à la naissance.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le processus d'insertion dans la société est l'{{1}} (intégration).",
+      "reponsesAttendues": [
+        "intégration"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie les concepts.",
+      "pairs": [
+        {
+          "left": "Patrimoine",
+          "right": "Monuments et traditions communes"
+        },
+        {
+          "left": "Méritocratie",
+          "right": "Réussite par le travail et le talent"
+        },
+        {
+          "left": "Nationalité",
+          "right": "Appartenance légale à un État"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "La France est une République qui respecte la diversité de ses territoires. Comment appelle-t-on cela ?",
+      "options": [
+        "L'unité dans la diversité",
+        "La séparation totale",
+        "L'obligation d'uniformité",
+        "Le refus de l'autre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

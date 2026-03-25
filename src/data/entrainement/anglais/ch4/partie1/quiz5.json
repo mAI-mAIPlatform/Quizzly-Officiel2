@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Socializing with Friends",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "How do you say 'Sortir avec des amis'?",
+      "options": [
+        "Hang out with friends",
+        "Exit with friends",
+        "Out with friends",
+        "Leave with friends"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A 'Party' is a social gathering for celebration.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "We {{1}} lunch together on Sundays.",
+      "reponsesAttendues": [
+        "have"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match activities.",
+      "pairs": [
+        {
+          "left": "Texting",
+          "right": "Messaging"
+        },
+        {
+          "left": "Chatting",
+          "right": "Talking"
+        },
+        {
+          "left": "Visiting",
+          "right": "Seeing someone"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "What is a 'Sleepover'?",
+      "options": [
+        "When friends stay at your house for the night",
+        "Sleeping during class",
+        "Waking up late",
+        "A type of bed"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

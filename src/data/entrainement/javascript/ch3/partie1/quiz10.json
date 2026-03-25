@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan : La boucle for",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel résume le mieux le 'for' ?",
+      "options": [
+        "Répéter si on ne sait pas combien de fois",
+        "Répéter quand on connaît le nombre d'itérations",
+        "Arrêter le programme",
+        "Créer une fonction"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'for' est la boucle la plus utilisée pour parcourir des listes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot-clé pour cette boucle est {{1}}.",
+      "reponsesAttendues": [
+        "for"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dernière révision :",
+      "pairs": [
+        {
+          "left": ";",
+          "right": "Sépare les 3 parties"
+        },
+        {
+          "left": "Init",
+          "right": "Seulement au début"
+        },
+        {
+          "left": "Mise à jour",
+          "right": "Après chaque bloc de code"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour la partie 2 sur le while et do...while ?",
+      "options": [
+        "Oui !",
+        "Attend un peu",
+        "Go while !",
+        "Bof"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

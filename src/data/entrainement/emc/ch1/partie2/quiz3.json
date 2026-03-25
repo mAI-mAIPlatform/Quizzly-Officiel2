@@ -1,0 +1,62 @@
+{
+  "id": "quiz3",
+  "titre": "Le Gouvernement",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui dirige le gouvernement ?",
+      "options": [
+        "Le Président de la République",
+        "Le Premier Ministre",
+        "Le Président de l'Assemblée",
+        "Le Maire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Hôtel de Matignon est la résidence du Premier Ministre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les membres du gouvernement qui s'occupent d'un domaine précis (ex: Éducation) sont les {{1}}.",
+      "reponsesAttendues": [
+        "ministres"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Conseil des Ministres",
+          "right": "Réunion chaque mercredi à l'Élysée"
+        },
+        {
+          "left": "Décret",
+          "right": "Acte pris par le Premier Ministre ou le Président"
+        },
+        {
+          "left": "Administration",
+          "right": "Services chargés d'appliquer les décisions"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel ministre s'occupe de la police et de la sécurité ?",
+      "options": [
+        "Ministre de la Santé",
+        "Ministre de l'Intérieur",
+        "Ministre de la Justice",
+        "Ministre de l'Économie"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

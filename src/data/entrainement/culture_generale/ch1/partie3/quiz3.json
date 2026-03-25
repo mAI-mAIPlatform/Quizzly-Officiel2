@@ -1,0 +1,62 @@
+{
+  "id": "quiz3",
+  "titre": "Énergies et Environnement",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Laquelle de ces énergies est renouvelable ?",
+      "options": [
+        "Le pétrole",
+        "Le charbon",
+        "L'énergie solaire",
+        "Le gaz naturel"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le recyclage permet de réduire les déchets et d'économiser des ressources.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'énergie produite par le vent s'appelle l'énergie {{1}}.",
+      "reponsesAttendues": [
+        "éolienne"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Hydraulique",
+          "right": "Force de l'eau"
+        },
+        {
+          "left": "Géothermie",
+          "right": "Chaleur de la terre"
+        },
+        {
+          "left": "Biomasse",
+          "right": "Matières organiques"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel gaz est principalement responsable du réchauffement climatique ?",
+      "options": [
+        "L'oxygène",
+        "Le dioxyde de carbone (CO2)",
+        "L'azote",
+        "L'hélium"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

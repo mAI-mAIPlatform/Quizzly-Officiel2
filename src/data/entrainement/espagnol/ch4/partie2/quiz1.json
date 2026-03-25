@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Recursos Naturales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'L'eau' ?",
+      "options": [
+        "El agua",
+        "El sol",
+        "El viento",
+        "La tierra"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'El sol' es una fuente de energía inagotable.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Le vent' se dice 'el {{1}}'.",
+      "reponsesAttendues": [
+        "viento"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Elementos.",
+      "pairs": [
+        {
+          "left": "Río",
+          "right": "Rivière"
+        },
+        {
+          "left": "Bosque",
+          "right": "Forêt"
+        },
+        {
+          "left": "Mar",
+          "right": "Mer"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿De dónde viene la energía del viento?",
+      "options": [
+        "De los aerogeneradores",
+        "De los paneles solares",
+        "De la lluvia",
+        "Del suelo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

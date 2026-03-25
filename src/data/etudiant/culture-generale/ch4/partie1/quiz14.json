@@ -1,0 +1,64 @@
+{
+  "id": "quiz14",
+  "titre": "L'Économie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Budget' ?",
+      "options": [
+        "L'équilibre entre l'argent qui rentre (recettes) et celui qui sort (dépenses)",
+        "Un type de voiture",
+        "Le nom d'un magasin",
+        "Un petit oiseau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'inflation est l'augmentation générale des prix des biens et des services.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'argent qu'on met de côté pour plus tard s'appelle l'{{1}} (épargne).",
+      "reponsesAttendues": [
+        "épargne",
+        "epargne"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'impôt à son usage.",
+      "pairs": [
+        {
+          "left": "TVA",
+          "right": "Taxe sur la consommation (payée lors d'un achat)"
+        },
+        {
+          "left": "Impôt sur le revenu",
+          "right": "Payé sur les salaires gagnés"
+        },
+        {
+          "left": "Services Publics",
+          "right": "Écoles, hôpitaux, routes (financés par les impôts)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'PIB' ?",
+      "options": [
+        "Un indicateur qui mesure la richesse produite par un pays en un an",
+        "Un parti politique",
+        "Un nouveau sport",
+        "Un type de pain"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

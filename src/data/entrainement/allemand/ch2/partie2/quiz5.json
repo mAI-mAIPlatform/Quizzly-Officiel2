@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Im Restaurant",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'La carte / Le menu' ?",
+      "options": [
+        "Die Speisekarte",
+        "Die Tischkarte",
+        "Das Buch",
+        "Der Zettel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "In Deutschland sagt man oft 'Guten Appetit'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich möchte {{1}} (commander) bitte.",
+      "reponsesAttendues": [
+        "bestellen"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Service.",
+      "pairs": [
+        {
+          "left": "Kellner",
+          "right": "Serveur"
+        },
+        {
+          "left": "Rechnung",
+          "right": "Addition"
+        },
+        {
+          "left": "Trinkgeld",
+          "right": "Pourboire"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Was möchten Sie trinken?",
+      "options": [
+        "Ein Wasser, bitte",
+        "Eine Pizza, bitte",
+        "Ich heiße Max",
+        "Ja, danke"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

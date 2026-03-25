@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Resumo Capítulo 2 Parte 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Eu ... (me réveille) às sete e ... (déjeune) ao meio-dia.",
+      "options": [
+        "acordo / almoço",
+        "durmo / janto",
+        "levanto / lanco",
+        "trabalho / estudo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Segunda-feira é um dia de fim de semana.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "São oito e {{1}} (demie).",
+      "reponsesAttendues": [
+        "meia"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Rotina e Horas.",
+      "pairs": [
+        {
+          "left": "Sempre",
+          "right": "Toujours"
+        },
+        {
+          "left": "Meia-noite",
+          "right": "Minuit"
+        },
+        {
+          "left": "Amanhã",
+          "right": "Demain"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que dia é hoje?",
+      "options": [
+        "Hoje é sexta-feira",
+        "São dez horas",
+        "Vou trabalhar",
+        "Olá"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

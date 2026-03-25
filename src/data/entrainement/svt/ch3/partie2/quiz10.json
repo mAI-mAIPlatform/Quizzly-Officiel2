@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan : La reproduction asexuée",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qui résume la reproduction asexuée ?",
+      "options": [
+        "Lien, Fraternité, Liberté",
+        "Un parent, Clonage, Colonisation rapide",
+        "Amour, Bébé, Famille",
+        "Graines, Fleurs, Abeilles"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Beaucoup de plantes cumulent reproduction sexuée (graines) et asexuée (stolons/rhizomes).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le clonage naturel est un moyen efficace pour occuper un {{1}} favorable stable.",
+      "reponsesAttendues": [
+        "milieu"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dernier défi de la partie 2 :",
+      "pairs": [
+        {
+          "left": "Asexuée",
+          "right": "Efficacité et vitesse"
+        },
+        {
+          "left": "Sexuée",
+          "right": "Diversité et adaptation"
+        },
+        {
+          "left": "Mixte",
+          "right": "Le meilleur des deux mondes"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour la Partie 3 sur l'Influence de l'homme sur la reproduction ?",
+      "options": [
+        "Oui, voyons notre impact !",
+        "Pas encore",
+        "C'est quoi un impact ?",
+        "Je reste sur le clonage"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

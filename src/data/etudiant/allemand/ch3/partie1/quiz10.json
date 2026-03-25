@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Synthese Kap.3 P.1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Gestern {{1}} ich Fußball {{2}} (j'ai joué).",
+      "options": [
+        "habe / gespielt",
+        "hast / gespielt",
+        "bin / gespielt",
+        "habe / spielen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Para jugar al tenis necesitas un Schläger.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich finde Klettern {{1}} (fatigant).",
+      "reponsesAttendues": [
+        "anstrengend"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el resumen.",
+      "pairs": [
+        {
+          "left": "Sport",
+          "right": "Fußball, Tennis, Schwimmen"
+        },
+        {
+          "left": "Perfekt",
+          "right": "Haben + Partizip II"
+        },
+        {
+          "left": "Meinung",
+          "right": "Toll, langweilig, klasse"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'J'ai fait du sport'?",
+      "options": [
+        "Ich habe Sport getrieben",
+        "Ich mache Sport",
+        "Ich habe Sport machen",
+        "Ich bin Sport getrieben"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

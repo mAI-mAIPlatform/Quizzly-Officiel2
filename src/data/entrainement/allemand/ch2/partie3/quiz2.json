@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Musik und Instrumente",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'La musique' ?",
+      "options": [
+        "Die Musik",
+        "Der Tanz",
+        "Das Lied",
+        "Der Gesang"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Gitarre spielen' bedeutet 'Jouer de la guitare'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich {{1}} (chanter) ein Lied.",
+      "reponsesAttendues": [
+        "singe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Instrumente.",
+      "pairs": [
+        {
+          "left": "Klavier",
+          "right": "Piano"
+        },
+        {
+          "left": "Flöte",
+          "right": "Flûte"
+        },
+        {
+          "left": "Schlagzeug",
+          "right": "Batterie"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Hörst du gern Musik?",
+      "options": [
+        "Ja, ich höre gern Popmusik",
+        "Nein, ich bin Musik",
+        "Musik ist ein Instrument",
+        "Hallo Musik"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

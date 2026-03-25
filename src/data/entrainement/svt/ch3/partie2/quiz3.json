@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Tubercules et Bulbes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel légume est un exemple de multiplication par tubercule ?",
+      "options": [
+        "La salade",
+        "La pomme de terre",
+        "La tomate",
+        "Le haricot"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un bulbe (comme l'oignon) sert à la fois de réserve de nourriture et de mode de reproduction.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le tubercule est une réserve souterraine capable de donner plusieurs nouveaux {{1}}.",
+      "reponsesAttendues": [
+        "pieds"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la plante à son organe.",
+      "pairs": [
+        {
+          "left": "Pomme de terre",
+          "right": "Tubercule"
+        },
+        {
+          "left": "Tulipe",
+          "right": "Bulbe"
+        },
+        {
+          "left": "Iris",
+          "right": "Rhizome"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment les yeux de la pomme de terre permettent-ils la reproduction ?",
+      "options": [
+        "Ils permettent à la plante de voir",
+        "Ils sont le point de départ de nouveaux germes",
+        "Ils servent à respirer",
+        "Ils n'ont pas d'utilité"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

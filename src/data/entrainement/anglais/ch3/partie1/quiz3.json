@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "At the Airport",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "What do you need to travel to another country?",
+      "options": [
+        "A passport",
+        "A library card",
+        "A notebook",
+        "A backpack only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A 'Flight' is a journey by plane.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "I put my clothes in my {{1}}.",
+      "reponsesAttendues": [
+        "suitcase"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Match airport words.",
+      "pairs": [
+        {
+          "left": "Take off",
+          "right": "Departure"
+        },
+        {
+          "left": "Land",
+          "right": "Arrival"
+        },
+        {
+          "left": "Gate",
+          "right": "Boarding"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Where do you wait for your plane?",
+      "options": [
+        "At the departure lounge",
+        "On the runway",
+        "In the cockpit",
+        "In the kitchen"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

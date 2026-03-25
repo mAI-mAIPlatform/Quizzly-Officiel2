@@ -1,0 +1,63 @@
+{
+  "id": "quiz27",
+  "titre": "Descripción de alimentos",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué significa que el pescado es 'fresco'?",
+      "options": [
+        "Que es del día o recién pescado",
+        "Que está frío",
+        "Que tiene un color azul",
+        "Que está muy salado"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Congelado' significa 'frappé'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Este queso es {{1}} (artisanal), hecho a mano.",
+      "reponsesAttendues": [
+        "artesanal"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el adjetivo.",
+      "pairs": [
+        {
+          "left": "Picante",
+          "right": "Qui pique"
+        },
+        {
+          "left": "Sabroso",
+          "right": "Savoureux / qui a du goût"
+        },
+        {
+          "left": "Crudo",
+          "right": "Cru"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Mûr' (para una fruta)?",
+      "options": [
+        "Maduro",
+        "Verde",
+        "Viejo",
+        "Dulce"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

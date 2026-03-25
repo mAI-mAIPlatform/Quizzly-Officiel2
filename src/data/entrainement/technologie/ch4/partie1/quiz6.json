@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Le Stockage de l'Énergie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il difficile de stocker l'électricité ?",
+      "options": [
+        "Car elle doit être consommée dès qu'elle est produite",
+        "Car elle s'évapore",
+        "Car elle est trop lourde",
+        "Car elle n'existe pas la nuit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une batterie stocke l'énergie sous forme chimique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le {{1}} est un gaz qui pourrait servir à stocker l'énergie du surplus solaire.",
+      "reponsesAttendues": [
+        "hydrogène"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Modes Stockage.",
+      "pairs": [
+        {
+          "left": "Accumulateur",
+          "right": "Batterie rechargeable (Lithium)"
+        },
+        {
+          "left": "STEP (Barrage)",
+          "right": "Pompage de l'eau vers le haut"
+        },
+        {
+          "left": "Volant d'inertie",
+          "right": "Stockage par rotation"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le défi écologique des batteries actuelles ?",
+      "options": [
+        "Leur recyclage et l'extraction des métaux (lithium, cobalt)",
+        "Le fait qu'elles soient trop petites",
+        "Leur couleur souvent grise",
+        "Leur prix qui ne baisse jamais"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

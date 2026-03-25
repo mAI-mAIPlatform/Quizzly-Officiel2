@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "La vitesse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la formule de la vitesse moyenne ?",
+      "options": [
+        "v = d / t",
+        "v = d x t",
+        "v = t / d",
+        "v = d + t"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour calculer la vitesse, le temps doit obligatoirement être en secondes.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si un objet parcourt 100m en 10s, sa vitesse est de {{1}} m/s.",
+      "reponsesAttendues": [
+        "10"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la grandeur à son symbole dans v = d / t.",
+      "pairs": [
+        {
+          "left": "v",
+          "right": "Vitesse"
+        },
+        {
+          "left": "d",
+          "right": "Distance parcourue"
+        },
+        {
+          "left": "t",
+          "right": "Durée du trajet"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la vitesse 'instantanée' ?",
+      "options": [
+        "La vitesse à un moment précis (ex: au compteur)",
+        "La moyenne sur tout le trajet",
+        "La vitesse du son",
+        "Une vitesse qui ne change jamais"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

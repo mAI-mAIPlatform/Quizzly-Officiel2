@@ -1,0 +1,63 @@
+{
+  "id": "quiz1",
+  "titre": "Räume im Haus",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'La cuisine' ?",
+      "options": [
+        "Die Küche",
+        "Das Bad",
+        "Das Zimmer",
+        "Der Flur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Wohnzimmer' ist der Ort, wo man schläft.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich schlafe im {{1}} (chambre).",
+      "reponsesAttendues": [
+        "Schlafzimmer"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Zimmer.",
+      "pairs": [
+        {
+          "left": "Badezimmer",
+          "right": "SDB"
+        },
+        {
+          "left": "Kinderzimmer",
+          "right": "Chambre d'enfant"
+        },
+        {
+          "left": "Keller",
+          "right": "Cave"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Wo ist der Kühlschrank?",
+      "options": [
+        "In der Küche",
+        "Im Bad",
+        "Im Garten",
+        "Auf dem Dach"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

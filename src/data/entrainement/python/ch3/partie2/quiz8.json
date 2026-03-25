@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Introduction à la Récursivité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une fonction récursive ?",
+      "options": [
+        "Une fonction qui s'appelle elle-même",
+        "Une fonction bizarre",
+        "Une fonction qui ne finit jamais",
+        "Une fonction de tri"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une fonction récursive doit avoir un 'cas de base' pour s'arrêter.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si on oublie le cas de base, on obtient un '{{1}} Overflow'.",
+      "reponsesAttendues": [
+        "Stack"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Exemple classique.",
+      "pairs": [
+        {
+          "left": "Factorielle",
+          "right": "Calcul n * fact(n-1)"
+        },
+        {
+          "left": "Cas de base",
+          "right": "if n == 0: return 1"
+        },
+        {
+          "left": "Récursion",
+          "right": "Appel interne"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "La récursivité est-elle toujours plus rapide qu'une boucle ?",
+      "options": [
+        "Non, souvent plus lente et gourmande en mémoire",
+        "Oui, toujours",
+        "Seulement pour les petits calculs",
+        "Seulement en Python"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

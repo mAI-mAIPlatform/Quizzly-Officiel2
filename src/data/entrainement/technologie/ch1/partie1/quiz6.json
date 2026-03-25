@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Matériaux Composites",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "De quoi se compose un matériau composite ?",
+      "options": [
+        "D'une matrice (colle) et d'un renfort (fibres)",
+        "D'un seul métal",
+        "De pur plastique",
+        "Sable et eau uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le béton armé est un matériau composite (Béton + Acier).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La fibre de {{1}} est un renfort très léger et résistant utilisé en aviation.",
+      "reponsesAttendues": [
+        "carbone"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Exemples Composites.",
+      "pairs": [
+        {
+          "left": "Contreplaqué",
+          "right": "Feuilles de bois croisées"
+        },
+        {
+          "left": "Pneu",
+          "right": "Caoutchouc + Fils acier"
+        },
+        {
+          "left": "Fibre de verre",
+          "right": "Résine + Verre"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi fabrique-t-on des composites ?",
+      "options": [
+        "Pour combiner les avantages de plusieurs matériaux (légèreté + solidité)",
+        "Pour faire des économies",
+        "Parce que c'est plus simple",
+        "Pour utiliser moins de couleurs"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

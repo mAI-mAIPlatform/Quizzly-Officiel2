@@ -1,0 +1,63 @@
+{
+  "id": "quiz26",
+  "titre": "Formulaires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel événement se déclenche lorsqu'un utilisateur envoie un formulaire ?",
+      "options": [
+        "submit",
+        "send",
+        "click",
+        "validate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Par défaut, l'envoi d'un formulaire provoque le rechargement de la page.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour empêcher le rechargement de la page, on utilise event.{{1}}() (preventDefault).",
+      "reponsesAttendues": [
+        "preventDefault"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'action au code du formulaire.",
+      "pairs": [
+        {
+          "left": "Écouter l'envoi",
+          "right": "form.addEventListener('submit', ...)"
+        },
+        {
+          "left": "Bloquer l'envoi SQL",
+          "right": "e.preventDefault()"
+        },
+        {
+          "left": "Récupérer une valeur",
+          "right": "input.value"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il important d'utiliser preventDefault() dans une application moderne (Single Page App) ?",
+      "options": [
+        "Pour traiter les données en JavaScript sans quitter la page actuelle",
+        "Pour vider le formulaire",
+        "Pour masquer les erreurs",
+        "C'est une obligation de sécurité"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

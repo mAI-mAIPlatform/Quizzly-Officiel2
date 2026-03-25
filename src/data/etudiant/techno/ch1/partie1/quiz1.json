@@ -1,0 +1,64 @@
+{
+  "id": "quiz1",
+  "titre": "Qu'est-ce qu'un réseau ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un réseau informatique ?",
+      "options": [
+        "Un ensemble d'ordinateurs reliés entre eux pour échanger des données",
+        "Une collection de livres sur l'électronique",
+        "Un groupe de personnes qui jouent au football",
+        "Une prise électrique murale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Internet est le plus grand réseau informatique du monde.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour relier des ordinateurs sans fil, on utilise souvent le {{1}} (Wi-Fi).",
+      "reponsesAttendues": [
+        "Wi-Fi",
+        "wifi"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'équipement à sa fonction.",
+      "pairs": [
+        {
+          "left": "Routeur / Box",
+          "right": "Relie le réseau local à Internet"
+        },
+        {
+          "left": "Switch (Commutateur)",
+          "right": "Relie les appareils entre eux à l'intérieur du réseau"
+        },
+        {
+          "left": "Câble Ethernet",
+          "right": "Support physique pour transmettre les données avec fil"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage principal d'un réseau ?",
+      "options": [
+        "Partager des ressources (fichiers, imprimantes, connexion)",
+        "Rendre l'ordinateur plus lourd",
+        "Consommer moins d'électricité à deux",
+        "Décorer la maison avec des câbles"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

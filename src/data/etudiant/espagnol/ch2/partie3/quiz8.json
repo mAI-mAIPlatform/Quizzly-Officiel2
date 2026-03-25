@@ -1,0 +1,63 @@
+{
+  "id": "quiz28",
+  "titre": "Esperanza y deseos",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'Espero que...'?",
+      "options": [
+        "J'espère que...",
+        "Je sais que...",
+        "Je dis que...",
+        "Je vois que..."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Después de 'Espero que', se debe usar el modo subyuntivo.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "¡Ojalá {{1}} un buen examen! (avoir).",
+      "reponsesAttendues": [
+        "tengas"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el deseo.",
+      "pairs": [
+        {
+          "left": "¡Ojalá!",
+          "right": "Pourvu que ! / J'espère !"
+        },
+        {
+          "left": "¡Que te diviertas!",
+          "right": "Amuse-toi bien !"
+        },
+        {
+          "left": "¡Que tengas suerte!",
+          "right": "Bonne chance !"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Qué significa '¡Que aproveche!'?",
+      "options": [
+        "Bon appétit !",
+        "Bonne nuit !",
+        "Félicitations !",
+        "À tes souhaits !"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "L'instruction else if",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment tester une deuxième condition si la première est fausse ?",
+      "options": [
+        "second if",
+        "else if",
+        "elif",
+        "another if"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut mettre autant de 'else if' que l'on veut à la suite.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si le premier 'if' est vrai, les 'else if' suivants sont {{1}}.",
+      "reponsesAttendues": [
+        "ignorés"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la structure complexe.",
+      "pairs": [
+        {
+          "left": "if",
+          "right": "Première vérification"
+        },
+        {
+          "left": "else if",
+          "right": "Vérification alternative"
+        },
+        {
+          "left": "else",
+          "right": "Cas par défaut final"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Dans quel ordre sont testées les conditions ?",
+      "options": [
+        "Du bas vers le haut",
+        "Du haut vers le bas",
+        "Aléatoirement",
+        "Toutes en même temps"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

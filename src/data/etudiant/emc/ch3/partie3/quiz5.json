@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Algorithmes et Bulles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'bulle de filtres' sur les réseaux sociaux ?",
+      "options": [
+        "Un isolement intellectuel où l'on ne voit que des infos qui confirment nos goûts",
+        "Une protection contre les virus informatiques",
+        "Un petit jeu proposé par la plateforme",
+        "Un système pour décorer ses photos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les algorithmes sont neutres et ne cherchent qu'à aider l'utilisateur.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Face aux algorithmes, il faut savoir varier ses {{1}} (sources) d'information.",
+      "reponsesAttendues": [
+        "sources"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'effet à sa cause numérique.",
+      "pairs": [
+        {
+          "left": "Uniformité de pensée",
+          "right": "Bulle de filtres et algorithmes de recommandation"
+        },
+        {
+          "left": "Polarisation",
+          "right": "Affrontement d'avis extrêmes sur les réseaux"
+        },
+        {
+          "left": "Désinformation",
+          "right": "Propagation rapide de fausses nouvelles (clic-bait)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le risque de resté enfermé dans sa 'bulle' ?",
+      "options": [
+        "Ne plus comprendre les autres et perdre son sens critique",
+        "Devenir trop intelligent",
+        "Avoir une meilleure batterie de téléphone",
+        "Gagner des followers"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

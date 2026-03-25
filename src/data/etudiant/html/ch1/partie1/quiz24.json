@@ -1,0 +1,65 @@
+{
+  "id": "quiz24",
+  "titre": "Barrer : del vs s",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise indique qu'un texte a été supprimé d'un document ?",
+      "options": [
+        "<del>",
+        "<s>",
+        "<strike>",
+        "<remove>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On utilise souvent <del> et <ins> ensemble pour montrer une correction.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise <s> barre un texte qui n'est plus {{1}} (exact / valable).",
+      "reponsesAttendues": [
+        "exact",
+        "valable",
+        "correct"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Correction -> Code ?",
+      "pairs": [
+        {
+          "left": "Ancien prix (barré)",
+          "right": "<s>10€</s>"
+        },
+        {
+          "left": "Nouveau prix",
+          "right": "<span>8€</span>"
+        },
+        {
+          "left": "Correction texte",
+          "right": "<del>Fautte</del><ins>Faute</ins>"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser <del> plutôt que de juste supprimer le texte ?",
+      "options": [
+        "Pour garder une trace de l'historique des modifications (ex: To-Do list, contrat)",
+        "Pour que le fichier soit plus lourd",
+        "C'est obligatoire en HTML",
+        "C'est un bug volontaire"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

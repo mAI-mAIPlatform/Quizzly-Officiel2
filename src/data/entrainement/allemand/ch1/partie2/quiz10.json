@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Zusammenfassung Kapitel 1 Teil 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Wie sagt man 'Vingt-deux' ?",
+      "options": [
+        "zweiundzwanzig",
+        "zwanzigundzwei",
+        "elf",
+        "zwölf"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Mein Vater ist der Mann meiner Mutter.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich {{1}} (avoir) einen kleinen Bruder.",
+      "reponsesAttendues": [
+        "habe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Familie & Farben.",
+      "pairs": [
+        {
+          "left": "Großmutter",
+          "right": "Oma"
+        },
+        {
+          "left": "Großvater",
+          "right": "Opa"
+        },
+        {
+          "left": "Blau",
+          "right": "Bleu"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Wie alt ist dein Bruder?",
+      "options": [
+        "Er ist zehn Jahre alt",
+        "Ich bin zehn Jahre alt",
+        "Er heißt Max",
+        "Er kommt aus Berlin"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

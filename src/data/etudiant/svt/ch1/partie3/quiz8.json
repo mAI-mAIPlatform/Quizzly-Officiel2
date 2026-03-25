@@ -1,0 +1,63 @@
+{
+  "id": "quiz28",
+  "titre": "Crises de la Biodiversité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une crise biologique (ou d'extinction) ?",
+      "options": [
+        "La disparition rapide et massive de très nombreuses espèces",
+        "Un moment où les animaux sont tristes",
+        "L'apparition soudaine de nouvelles fleurs",
+        "Une tempête de neige"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il y a eu 5 grandes extinctions de masse dans l'histoire de la Terre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La crise qui a vu mourir les dinosaures s'est passée il y a {{1}} millions d'années.",
+      "reponsesAttendues": [
+        "66"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la crise à sa cause probable.",
+      "pairs": [
+        {
+          "left": "Crise Permien/Trias",
+          "right": "Volcanisme géant et changement climatique"
+        },
+        {
+          "left": "Crise Crétacé/Paléogène",
+          "right": "Astéroïde et volcanisme (trapps)"
+        },
+        {
+          "left": "Crise actuelle",
+          "right": "Activités humaines (6ème extinction)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'arrive-t-il après une grande extinction ?",
+      "options": [
+        "Les espèces survivantes se diversifient (radiation adaptative)",
+        "La vie s'arrête définitivement",
+        "Toutes les roches fondent",
+        "Rien ne change du tout"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

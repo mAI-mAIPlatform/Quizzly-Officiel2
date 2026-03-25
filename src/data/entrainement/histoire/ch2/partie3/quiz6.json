@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "L'Église dans la ville : Les ordres mendiants",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on les nouveaux ordres religieux qui vivent en ville au contact des pauvres ?",
+      "options": [
+        "Les ordres reclus",
+        "Les ordres mendiants",
+        "Les ordres militaires",
+        "Les anciens ordres"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les Dominicains et les Franciscains sont deux ordres mendiants célèbres.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le fondateur de l'ordre qui prônait la pauvreté absolue est Saint {{1}} d'Assise.",
+      "reponsesAttendues": [
+        "François"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le bâtiment religieux à sa fonction urbaine.",
+      "pairs": [
+        {
+          "left": "Cathédrale",
+          "right": "Siège de l'évêque, symbole de la ville"
+        },
+        {
+          "left": "Hôtel-Dieu",
+          "right": "Hôpital pour les pauvres et malades"
+        },
+        {
+          "left": "Couvent",
+          "right": "Lieu de vie des ordres mendiants"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi l'évêque fait-il construire une cathédrale immense ?",
+      "options": [
+        "Pour stocker du bois",
+        "Pour montrer la puissance de Dieu et de la ville",
+        "Pour y loger les soldats",
+        "Pour en faire un marché couvert"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

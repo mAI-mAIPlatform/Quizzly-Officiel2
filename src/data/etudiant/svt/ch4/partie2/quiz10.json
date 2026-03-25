@@ -1,0 +1,63 @@
+{
+  "id": "quiz20",
+  "titre": "Synthèse : Santé et Assiette",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le secret d'une bonne santé sur le long terme ?",
+      "options": [
+        "Une alimentation variée, équilibrée et une activité physique",
+        "Ne manger que des carottes râpées",
+        "Prendre 10 cafés par jour",
+        "Dormir tout l'après-midi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'éducation à l'alimentation permet de faire des choix conscients pour sa santé.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Bien manger, c'est se protéger et protéger la {{1}}.",
+      "reponsesAttendues": [
+        "planète"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le risque à son origine.",
+      "pairs": [
+        {
+          "left": "Excès de sucre",
+          "right": "Diabète de type 2 / Caries"
+        },
+        {
+          "left": "Manque de vitamines",
+          "right": "Carences et fatigue"
+        },
+        {
+          "left": "Défaut d'hygiène",
+          "right": "Intoxication alimentaire"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle étiquette aide à comparer la qualité nutritionnelle des produits ?",
+      "options": [
+        "Le Nutri-Score",
+        "Le prix au kilo",
+        "Le code-barres",
+        "La photo sur le paquet"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

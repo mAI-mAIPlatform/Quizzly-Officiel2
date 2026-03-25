@@ -1,0 +1,63 @@
+{
+  "id": "quiz20",
+  "titre": "Cap. 3 P. 2 Sintesi",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Ieri {{1}} (se lever) presto e {{2}} (aller) al mare.",
+      "options": [
+        "mi sono alzato / sono andato",
+        "ho alzato / ho andato",
+        "mi sono alzato / ho andato",
+        "mi sono alzato / sono vado"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Se dice 'Lei è tornata' porque el auxiliar es 'essere'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Abbiamo visto molte {{1}} (vaches).",
+      "reponsesAttendues": [
+        "mucche"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el resumen.",
+      "pairs": [
+        {
+          "left": "Ausiliare",
+          "right": "Avere o Essere"
+        },
+        {
+          "left": "Natura",
+          "right": "Fiume, Bosco, Mare"
+        },
+        {
+          "left": "Tempo",
+          "right": "Ieri, Fa, Scorso"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Hier, je me suis amusé(e) avec mes amis dans la forêt'?",
+      "options": [
+        "Ieri mi sono divertito/a con i miei amici nel bosco",
+        "Ieri ho divertito con i miei amici nel bosco",
+        "Ieri mi sono divertito con i miei amici nel bosco",
+        "Ieri sono divertito con i miei amici nel bosco"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz20",
+  "titre": "Bilan : Gérer la ville",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la ville idéale recherchée aujourd'hui ?",
+      "options": [
+        "Une ville inclusive, durable et connectée",
+        "Une ville réservée aux riches",
+        "Une ville sans aucun arbre",
+        "Une ville sans aucune règle de gestion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le développement des smart cities utilise le numérique pour mieux gérer les ressources.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Lutter contre l'{{1}} urbain est nécessaire pour protéger la nature.",
+      "reponsesAttendues": [
+        "étalement"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'enjeu au pilier du développement durable.",
+      "pairs": [
+        {
+          "left": "Mixité sociale",
+          "right": "Pilier Social"
+        },
+        {
+          "left": "Pollution / Énergie",
+          "right": "Pilier Environnemental"
+        },
+        {
+          "left": "Attractivité / Emploi",
+          "right": "Pilier Économique"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la conclusion majeure sur l'urbanisation mondiale ?",
+      "options": [
+        "C'est un défi immense qui nécessite une coopération de tous les acteurs",
+        "C'est une mode passagère",
+        "Ça ne change rien au monde",
+        "C'est déjà fini"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

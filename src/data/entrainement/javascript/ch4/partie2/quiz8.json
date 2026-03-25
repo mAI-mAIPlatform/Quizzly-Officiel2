@@ -1,0 +1,63 @@
+{
+  "id": "quiz8",
+  "titre": "Validation des Arguments",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi faut-il souvent vérifier les arguments dans une fonction ?",
+      "options": [
+        "Pour ralentir le code",
+        "S'assurer que les données reçues sont du bon type",
+        "Pour faire plaisir à JS",
+        "Ce n'est pas nécessaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser 'if' au début de la fonction pour stopper (return) si l'argument est mauvais.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vérifier le type s'appelle le {{1}} checking.",
+      "reponsesAttendues": [
+        "type"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la sécurité.",
+      "pairs": [
+        {
+          "left": "typeof x !== 'number'",
+          "right": "Vérifie si x est un nombre"
+        },
+        {
+          "left": "return null",
+          "right": "Sortie si erreur"
+        },
+        {
+          "left": "throw Error",
+          "right": "Lancer une alerte d'erreur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si la fonction fait '10 / x' et que x vaut 0 ?",
+      "options": [
+        "Erreur fatale",
+        "Donne Infinity",
+        "Donne 0",
+        "Donne NaN"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

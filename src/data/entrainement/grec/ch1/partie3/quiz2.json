@@ -1,0 +1,62 @@
+{
+  "id": "quiz2",
+  "titre": "Les Dieux de l'Olympe - 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle déesse est née de la tête de Zeus, toute armée ?",
+      "options": [
+        "Aphrodite",
+        "Athéna",
+        "Artémis",
+        "Déméter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Apollon est le dieu des arts, de la musique et de la lumière.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "{{1}} est la déesse de l'amour et de la beauté (grecque).",
+      "reponsesAttendues": [
+        "Aphrodite"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Artémis",
+          "right": "Déesse de la chasse"
+        },
+        {
+          "left": "Héphaïstos",
+          "right": "Dieu du feu / forgeron"
+        },
+        {
+          "left": "Hermès",
+          "right": "Messager des dieux"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qui est le dieu grec de la guerre ?",
+      "options": [
+        "Arès",
+        "Dionysos",
+        "Hermès",
+        "Hélios"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

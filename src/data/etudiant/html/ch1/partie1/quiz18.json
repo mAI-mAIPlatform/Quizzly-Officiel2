@@ -1,0 +1,64 @@
+{
+  "id": "quiz18",
+  "titre": "Hiérarchie Titres",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Peut-on passer directement du <h1> au <h3> sans utiliser de <h2> ?",
+      "options": [
+        "Non, ce n'est pas recommandé pour la logique du document",
+        "Oui, sans problème",
+        "Cela dépend de la météo",
+        "Seulement sur mobile"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le titre <h1> doit idéalement résumer le sujet global de la page entière.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La structure des titres ressemble à un {{1}} inversé (plan / sommaire).",
+      "reponsesAttendues": [
+        "plan",
+        "sommaire"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Exemple d'article -> Balise ?",
+      "pairs": [
+        {
+          "left": "Le Sport",
+          "right": "<h1>"
+        },
+        {
+          "left": "Le Football",
+          "right": "<h2>"
+        },
+        {
+          "left": "Règles du jeu",
+          "right": "<h3>"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel outil permet de vérifier si votre hiérarchie est correcte ?",
+      "options": [
+        "L'inspecteur du navigateur ou un validateur HTML",
+        "Un dictionnaire",
+        "La calculatrice",
+        "Le menu Démarrer"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

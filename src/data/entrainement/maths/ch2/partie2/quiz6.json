@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Symétrie des quadrilatères particuliers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le symétrique d'un rectangle par rapport à un point ?",
+      "options": [
+        "Un losange",
+        "Un rectangle de mêmes dimensions",
+        "Un carré",
+        "Un parallélogramme quelconque"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le symétrique d'un carré est un carré de même aire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si un parallélogramme a une aire de 20cm², son symétrique a une aire de {{1}}cm².",
+      "reponsesAttendues": [
+        "20"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la figure à sa propriété conservée.",
+      "pairs": [
+        {
+          "left": "Losange",
+          "right": "Quatre côtés égaux"
+        },
+        {
+          "left": "Rectangle",
+          "right": "Quatre angles droits"
+        },
+        {
+          "left": "Trapèze",
+          "right": "Deux côtés parallèles"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Dans un parallélogramme, le centre de symétrie est :",
+      "options": [
+        "Un sommet",
+        "Le milieu d'un côté",
+        "L'intersection des diagonales",
+        "N'existe pas"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

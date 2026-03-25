@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "La Sculpture",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle célèbre statue grecque sans bras est exposée au Louvre ?",
+      "options": [
+        "La Vénus de Milo",
+        "La Victoire de Samothrace",
+        "Le Penseur",
+        "Le David"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Auguste Rodin est l'auteur de la célèbre sculpture 'Le Penseur'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La statue géante en cuivre offerte par la France aux USA s'appelle la {{1}} (Statue de la Liberté).",
+      "reponsesAttendues": [
+        "Statue de la Liberté"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la matière au type de sculpture.",
+      "pairs": [
+        {
+          "left": "Marbre (ex: Piéta)",
+          "right": "Taille directe dans la roche"
+        },
+        {
+          "left": "Bronze (ex: Rodin)",
+          "right": "Moulage de métal fondu"
+        },
+        {
+          "left": "Argile (Poterie)",
+          "right": "Modelage à la main"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où se trouvent les célèbres statues de l'Île de Pâques (Moaï) ?",
+      "options": [
+        "Dans l'Océan Pacifique (Chili)",
+        "En Grèce",
+        "En Égypte",
+        "Au Japon"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

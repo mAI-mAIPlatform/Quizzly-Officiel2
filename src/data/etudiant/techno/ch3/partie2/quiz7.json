@@ -1,0 +1,64 @@
+{
+  "id": "quiz7",
+  "titre": "Stockage des Données",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la plus petite unité d'information en informatique ?",
+      "options": [
+        "Le bit (0 ou 1)",
+        "L'octet",
+        "Le kilo-gramme",
+        "La lettre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un octet est composé de 8 bits.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour stocker des fichiers sur un ordinateur longuement, on utilise un disque {{1}} (dur / SSD).",
+      "reponsesAttendues": [
+        "dur",
+        "SSD"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'unité à sa valeur.",
+      "pairs": [
+        {
+          "left": "1 Ko (Kilo-octet)",
+          "right": "1000 octets"
+        },
+        {
+          "left": "1 Mo (Méga-octet)",
+          "right": "1 million d'octets"
+        },
+        {
+          "left": "1 Go (Giga-octet)",
+          "right": "1 milliard d'octets"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la mémoire vive (RAM) ?",
+      "options": [
+        "Une mémoire rapide qui s'efface quand on éteint l'appareil",
+        "La mémoire où on range les photos de vacances",
+        "La mémoire des robots anciens",
+        "Le disque dur externe"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "quiz8",
+  "titre": "Vocabulaire : La Cité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on la cité-état grecque ?",
+      "options": [
+        "La Polis",
+        "L'Atrium",
+        "Le Forum",
+        "La Villa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Agora était la place publique et le marché.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La loi se dit {{1}} en grec (pensez aux racines comme 'autonome').",
+      "reponsesAttendues": [
+        "Nomos / νόμος"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Stratêgos",
+          "right": "Général / Chef militaire"
+        },
+        {
+          "left": "Tyrannos",
+          "right": "Maître absolu"
+        },
+        {
+          "left": "Bouleutes",
+          "right": "Conseiller / Membre du conseil"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Où se trouvait la citadelle haute, lieu des temples ?",
+      "options": [
+        "L'Acropole",
+        "Le Pirée",
+        "La Pnyx",
+        "Le Théâtre"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

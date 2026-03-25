@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Pronomes Pessoais",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué pronombre se usa comúnmente en Brasil para 'Tú / Usted'?",
+      "options": [
+        "Você",
+        "Tu",
+        "Vós",
+        "A gente"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'A gente' se usa como 'Nós' pero se conjuga en 3ª persona del singular.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "{{1}} são meus pais (Ellos).",
+      "reponsesAttendues": [
+        "Eles"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el pronombre.",
+      "pairs": [
+        {
+          "left": "Nós",
+          "right": "Nous"
+        },
+        {
+          "left": "Vocês",
+          "right": "Vous / Tu (pluriel)"
+        },
+        {
+          "left": "Elas",
+          "right": "Elles"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Él'?",
+      "options": [
+        "Ele",
+        "Ela",
+        "Elo",
+        "Eu"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

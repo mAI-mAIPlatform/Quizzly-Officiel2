@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "Fonctions et Événements",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quel moment une fonction liée à un bouton s'exécute-t-elle ?",
+      "options": [
+        "Au chargement de la page",
+        "Quand on clique sur le bouton",
+        "Toutes les secondes",
+        "À la fermeture"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut HTML pour le clic est 'onclick'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On appelle cela programmer par {{1}} (actions réagissant à des stimuli).",
+      "reponsesAttendues": [
+        "événements"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'événement au moment.",
+      "pairs": [
+        {
+          "left": "onclick",
+          "right": "Clic souris"
+        },
+        {
+          "left": "onmouseover",
+          "right": "Survole par la souris"
+        },
+        {
+          "left": "onkeydown",
+          "right": "Touche pressée"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment lier une fonction 'sayHi' au clic en HTML ?",
+      "options": [
+        "<button click='sayHi'>",
+        "<button onclick='sayHi()'>",
+        "<button start='sayHi'>",
+        "<button>sayHi()</button>"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

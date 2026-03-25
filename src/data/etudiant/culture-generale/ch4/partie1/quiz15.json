@@ -1,0 +1,65 @@
+{
+  "id": "quiz15",
+  "titre": "Solidarité et Bénévolat",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'Association Loi 1901' ?",
+      "options": [
+        "Un groupement de personnes qui s'unissent pour un projet sans chercher à faire de profit",
+        "Une entreprise qui vend des jouets",
+        "Une école de musique",
+        "Un club de vacances"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un 'Bénévole' est une personne qui donne de son temps gratuitement pour une cause ou une association.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'association créée par Coluche en 1985 pour offrir des repas aux plus démunis s'appelle les {{1}} (Restos du Cœur).",
+      "reponsesAttendues": [
+        "Restos du Cœur",
+        "Restos du Coeur",
+        "restaurants du coeur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'action solidaire à son but.",
+      "pairs": [
+        {
+          "left": "Téléthon",
+          "right": "Récolter des fonds pour la recherche sur les maladies génétiques"
+        },
+        {
+          "left": "Banque Alimentaire",
+          "right": "Collecter des produits pour les redistribuer aux associations d'aide"
+        },
+        {
+          "left": "Secours Populaire",
+          "right": "Lutter contre la pauvreté et l'exclusion"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Pourquoi la solidarité est-elle importante dans une société ?",
+      "options": [
+        "Pour aider les plus fragiles et renforcer le lien entre les citoyens",
+        "Pour devenir célèbre à la télé",
+        "Pour gagner des cadeaux",
+        "Pour ne plus avoir à travailler"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

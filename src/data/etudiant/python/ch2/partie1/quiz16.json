@@ -1,0 +1,64 @@
+{
+  "id": "quiz16",
+  "titre": "Le Pas (step) de range",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans range(0, 10, 2), que représente le chiffre 2 ?",
+      "options": [
+        "Le pas (on saute de 2 en 2)",
+        "Le nombre de tours total",
+        "La fin de la boucle",
+        "Une erreur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "range(5, 0, -1) permet de faire un compte à rebours de 5 à 1.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour afficher les nombres impairs de 1 à 9, on peut utiliser : range(1, 10, {{1}}) (2).",
+      "reponsesAttendues": [
+        "2",
+        "deux"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie l'appel au résultat.",
+      "pairs": [
+        {
+          "left": "range(0, 5, 1)",
+          "right": "0, 1, 2, 3, 4"
+        },
+        {
+          "left": "range(0, 5, 2)",
+          "right": "0, 2, 4"
+        },
+        {
+          "left": "range(10, 0, -5)",
+          "right": "10, 5"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le résultat de : list(range(0, 3, 5)) ?",
+      "options": [
+        "[0]",
+        "[0, 5]",
+        "[] (Liste vide car le pas dépasse la fin)",
+        "Erreur"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

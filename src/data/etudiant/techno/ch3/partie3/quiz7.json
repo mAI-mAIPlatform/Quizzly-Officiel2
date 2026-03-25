@@ -1,0 +1,64 @@
+{
+  "id": "quiz7",
+  "titre": "Économie Circulaire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'économie circulaire ?",
+      "options": [
+        "Un modèle qui vise à limiter le gaspillage des ressources en réutilisant et recyclant",
+        "Une économie où tout le monde gagne la même chose",
+        "Le prix des pièces de monnaie rondes",
+        "Une usine construite en forme de cercle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'économie linéaire 'Produire - Consommer - Jeter' est néfaste pour la planète.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le {{1}} (réemploi / recyclage) consiste à donner une seconde vie à un objet sans le transformer.",
+      "reponsesAttendues": [
+        "réemploi",
+        "reuse"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le mot d'ordre à son action.",
+      "pairs": [
+        {
+          "left": "Réparer",
+          "right": "Changer une pièce pour que l'objet refonctionne"
+        },
+        {
+          "left": "Recycler",
+          "right": "Transformer la matière pour créer de nouveaux objets"
+        },
+        {
+          "left": "Réduire",
+          "right": "Consommer moins de ressources dès le départ"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est un exemple de l'économie de la fonctionnalité ?",
+      "options": [
+        "Louer un service (ex: vélo en libre-service) plutôt que posséder l'objet",
+        "Acheter 10 vélos pour sa famille",
+        "Jeter son vieux vélo",
+        "Peindre son vélo en bleu"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

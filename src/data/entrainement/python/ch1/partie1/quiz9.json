@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Assigner plusieurs valeurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Peut-on assigner plusieurs variables sur une seule ligne ?",
+      "options": [
+        "Oui : x, y = 1, 2",
+        "Non",
+        "Seulement si elles sont égales",
+        "Seulement pour les nombres"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "x = y = z = 'Orange' assigne 'Orange' aux trois variables.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour échanger x et y, on peut écrire : x, y = {{1}}.",
+      "reponsesAttendues": [
+        "y, x"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le code à l'effet.",
+      "pairs": [
+        {
+          "left": "x, y = 5, 10",
+          "right": "Assignation multiple"
+        },
+        {
+          "left": "x = y = 0",
+          "right": "Valeur commune"
+        },
+        {
+          "left": "fruit = ['pomme']",
+          "right": "Liste (une seule var)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que ferait x, y, z = 1, 2 ?",
+      "options": [
+        "Une erreur (pas assez de valeurs)",
+        "x=1, y=2, z=0",
+        "x=1, y=2, z=2",
+        "Tout s'efface"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

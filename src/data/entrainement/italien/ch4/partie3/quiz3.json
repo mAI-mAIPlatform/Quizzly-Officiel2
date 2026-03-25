@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "Les Exclamations célèbres",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie la célèbre exclamation 'Mamma mia' ?",
+      "options": [
+        "Ma mère",
+        "Incroyable / Mon Dieu (surprise, agacement)",
+        "J'ai faim",
+        "Bonjour"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Magari!' signifie 'Peut-être' ou 'Si seulement !'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour dire 'Quel dommage !', on dit 'Che {{1}}!'.",
+      "reponsesAttendues": [
+        "peccato"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'exclamation.",
+      "pairs": [
+        {
+          "left": "Basta!",
+          "right": "Ça suffit !"
+        },
+        {
+          "left": "Dai!",
+          "right": "Allez ! / Viens !"
+        },
+        {
+          "left": "Bravo!",
+          "right": "Félicitations !"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Bien sûr !' ?",
+      "options": [
+        "Certamente!",
+        "Sicuro!",
+        "Ovvio!",
+        "Toutes ces réponses"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

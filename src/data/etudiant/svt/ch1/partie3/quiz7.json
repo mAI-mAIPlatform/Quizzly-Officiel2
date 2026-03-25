@@ -1,0 +1,63 @@
+{
+  "id": "quiz27",
+  "titre": "L'Histoire de la Terre",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est l'âge approximatif de la Terre ?",
+      "options": [
+        "4,6 milliards d'années",
+        "2000 ans",
+        "1 million d'années",
+        "100 milliards d'années"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'histoire de la Terre est découpée en ères géologiques.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'ère des dinosaures est l'ère {{1}} (ou Secondaire).",
+      "reponsesAttendues": [
+        "Mésozoïque"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'ère à son évènement majeur.",
+      "pairs": [
+        {
+          "left": "Précambrien",
+          "right": "Apparition de la vie (cellules)"
+        },
+        {
+          "left": "Paléozoïque",
+          "right": "Sortie des eaux et vie en forêt"
+        },
+        {
+          "left": "Cénozoïque",
+          "right": "Développement des mammifères et de l'Homme"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Sur quoi se basent les scientifiques pour découper le temps géologique ?",
+      "options": [
+        "Sur l'apparition ou la disparition massive d'espèces (crises)",
+        "Sur le calendrier scolaire",
+        "Sur le mouvement des étoiles",
+        "Sur la couleur de la mer"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "quiz8",
+  "titre": "La Famille",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Le Père' ?",
+      "options": [
+        "Patêr",
+        "Mêtêr",
+        "Adelphos",
+        "Huios"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Mêtêr' signifie la mère.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le frère se dit {{1}} en grec.",
+      "reponsesAttendues": [
+        "Adelphos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Huios",
+          "right": "Fils"
+        },
+        {
+          "left": "Thugatêr",
+          "right": "Fille"
+        },
+        {
+          "left": "Adelphê",
+          "right": "Sœur"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Despotês' à l'origine ?",
+      "options": [
+        "Un tyran",
+        "Le maître de maison",
+        "Un soldat",
+        "Un ouvrier"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

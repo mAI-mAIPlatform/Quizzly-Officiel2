@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Preguntar el camino",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se dice 'Tout droit' ?",
+      "options": [
+        "Todo recto",
+        "A la derecha",
+        "A la izquierda",
+        "Al lado"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Girar' significa 'Tourner'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'À gauche' se dice 'A la {{1}}'.",
+      "reponsesAttendues": [
+        "izquierda"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Dirección.",
+      "pairs": [
+        {
+          "left": "Cruzar",
+          "right": "Traverser"
+        },
+        {
+          "left": "Semáforo",
+          "right": "Feu tricolore"
+        },
+        {
+          "left": "Esquina",
+          "right": "Coin / Angle"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Perdón, dónde está el museo?",
+      "options": [
+        "Sigue todo recto y gira a la derecha",
+        "Soy el museo",
+        "Tengo un museo",
+        "Vivo en el museo"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

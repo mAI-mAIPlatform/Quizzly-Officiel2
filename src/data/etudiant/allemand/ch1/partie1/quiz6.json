@@ -1,0 +1,63 @@
+{
+  "id": "quiz6",
+  "titre": "W-Fragen",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "¿Qué significa 'Was'?",
+      "options": [
+        "Quoi / Que",
+        "Qui",
+        "Où",
+        "Quand"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Wer' significa 'Où'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "{{1}} wohnst du? - In München (où).",
+      "reponsesAttendues": [
+        "Wo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el interrogativo.",
+      "pairs": [
+        {
+          "left": "Wie",
+          "right": "Cómo"
+        },
+        {
+          "left": "Woher",
+          "right": "De dónde"
+        },
+        {
+          "left": "Wann",
+          "right": "Cuándo"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se pregunta 'Qui est-ce'?",
+      "options": [
+        "Wer ist das?",
+        "Was ist das?",
+        "Wie ist das?",
+        "Wo ist das?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

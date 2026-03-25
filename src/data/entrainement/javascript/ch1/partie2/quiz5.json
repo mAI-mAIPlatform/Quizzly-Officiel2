@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Les Booléens",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelles sont les deux valeurs possibles d'un booléen ?",
+      "options": [
+        "Oui / Non",
+        "true / false",
+        "1 / 0",
+        "Vrai / Faux"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le type 'boolean' vient du logicien George Boole.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une valeur qui n'est pas fausse est {{1}}.",
+      "reponsesAttendues": [
+        "true"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe la valeur à son type.",
+      "pairs": [
+        {
+          "left": "true",
+          "right": "Boolean"
+        },
+        {
+          "left": "\"true\"",
+          "right": "String"
+        },
+        {
+          "left": "1",
+          "right": "Number"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est un booléen ?",
+      "options": [
+        "\"false\"",
+        "false",
+        "0",
+        "null"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

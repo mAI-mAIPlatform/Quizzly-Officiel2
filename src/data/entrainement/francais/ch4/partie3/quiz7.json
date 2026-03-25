@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Défi Français : Expert",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le participe passé de 'Devoir' au masculin singulier ?",
+      "options": [
+        "dû",
+        "du",
+        "due",
+        "dus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'oxymore rapproche deux mots opposés.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une {{1}} est une énumération qui monte en intensité.",
+      "reponsesAttendues": [
+        "gradation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Trouve le mode.",
+      "pairs": [
+        {
+          "left": "Qu'il vienne",
+          "right": "Subjonctif"
+        },
+        {
+          "left": "Il viendrait",
+          "right": "Conditionnel"
+        },
+        {
+          "left": "Viens",
+          "right": "Impératif"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel est un adverbe de manière ?",
+      "options": [
+        "Gentiment",
+        "Demain",
+        "Ici",
+        "Beaucoup"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

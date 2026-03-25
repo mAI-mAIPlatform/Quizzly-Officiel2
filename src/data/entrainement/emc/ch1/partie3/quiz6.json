@@ -1,0 +1,62 @@
+{
+  "id": "quiz6",
+  "titre": "Cyber-Harcèlement",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le cyber-harcèlement ?",
+      "options": [
+        "Une moquerie une seule fois",
+        "Une violence répétée via les outils numériques (SMS, réseaux)",
+        "Répondre avec humour à un message",
+        "Jouer à un jeu vidéo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'anonymat sur Internet permet de dire ce qu'on veut sans risque.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le numéro d'aide contre les violences numériques est le {{1}}.",
+      "reponsesAttendues": [
+        "3018"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "pairs": [
+        {
+          "left": "Signaler",
+          "right": "Utiliser le bouton du réseau social pour alerter"
+        },
+        {
+          "left": "Bloquer",
+          "right": "Empêcher le harceleur de nous contacter"
+"        },
+        {
+          "left": "Captures d'écran",
+          "right": "Garder des preuves des messages"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle est la règle d'or sur Internet ?",
+      "options": [
+        "Être méchant avec tout le monde",
+        "Ne pas faire en ligne ce qu'on ne ferait pas dans la vraie vie",
+        "Partager ses mots de passe",
+        "Suivre tous les défis (challenges)"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

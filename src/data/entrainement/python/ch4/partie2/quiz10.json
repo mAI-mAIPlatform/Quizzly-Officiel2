@@ -1,0 +1,63 @@
+{
+  "id": "quiz10",
+  "titre": "Bilan : Dictionnaires en profondeur",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la recherche la plus efficace dans un dictionnaire ?",
+      "options": [
+        "Rechercher via une clé",
+        "Rechercher via une valeur",
+        "Parcourir tout le dictionnaire",
+        "Trier puis chercher"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les dictionnaires Python sont basés sur des Tables de Hachage (Hash Tables).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Depuis Python 3.7, l'ordre d'{{1}} des clés est conservé.",
+      "reponsesAttendues": [
+        "insertion"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Synthèse :",
+      "pairs": [
+        {
+          "left": "{ }",
+          "right": "Accolades"
+        },
+        {
+          "left": "get()",
+          "right": "Sécurité"
+        },
+        {
+          "left": "items()",
+          "right": "Accès global"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Prêt pour la partie finale sur les Ensembles et le Bilan ?",
+      "options": [
+        "Oui!",
+        "Andiamo!",
+        "Let's go Python!",
+        "Vérifions les Dictionnaires"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

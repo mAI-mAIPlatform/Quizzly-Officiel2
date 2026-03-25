@@ -1,0 +1,63 @@
+{
+  "id": "quiz2",
+  "titre": "Division entière et Modulo",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que renvoie l'opérateur // ?",
+      "options": [
+        "Le reste de la division",
+        "Le quotient entier (sans la virgule)",
+        "Un commentaire",
+        "La racine carrée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'opérateur % (modulo) renvoie le reste d'une division.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "10 % 3 donnera le résultat {{1}}.",
+      "reponsesAttendues": [
+        "1"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le résultat pour x = 11, y = 3.",
+      "pairs": [
+        {
+          "left": "x // y",
+          "right": "3"
+        },
+        {
+          "left": "x % y",
+          "right": "2"
+        },
+        {
+          "left": "x / y",
+          "right": "3.666..."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment vérifier si un nombre n est PAIR ?",
+      "options": [
+        "n % 2 == 0",
+        "n // 2 == 0",
+        "n / 2 == 0",
+        "n % 2 == 1"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Estado Civil",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Marié' ?",
+      "options": [
+        "Casado",
+        "Solteiro",
+        "Divorciado",
+        "Viúvo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Solteiro' significa 'Célibataire'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eles são {{1}} (mariés).",
+      "reponsesAttendues": [
+        "casados"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Estados.",
+      "pairs": [
+        {
+          "left": "Namorado",
+          "right": "Petit-ami"
+        },
+        {
+          "left": "Viúva",
+          "right": "Veuve"
+        },
+        {
+          "left": "Separado",
+          "right": "Séparé"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "És casado?",
+      "options": [
+        "Não, sou solteiro",
+        "Sim, tenho 20 anos",
+        "Sou de Portugal",
+        "Olá"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

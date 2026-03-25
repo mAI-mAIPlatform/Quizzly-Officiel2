@@ -1,0 +1,63 @@
+{
+  "id": "quiz9",
+  "titre": "Vocabulaire : Le Spectacle",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'L'acteur' ?",
+      "options": [
+        "ho hupokritês (ὁ ὑποκριτής)",
+        "ho poiêtês",
+        "ho tyrannos",
+        "ho politês"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Muthos' (μῦθος) signifie 'L'histoire / Le récit'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'auteur ou poète se dit 'ho {{1}}' (poiêtês / ποιητής).",
+      "reponsesAttendues": [
+        "poiêtês"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie le terme technique.",
+      "pairs": [
+        {
+          "left": "Drâma",
+          "right": "L'action (pièce)"
+        },
+        {
+          "left": "Mimêsis",
+          "right": "L'imitation (du réel)"
+        },
+        {
+          "left": "Opis",
+          "right": "La vue / Le spectacle"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que signifie 'Khomos' (racine de comédie) ?",
+      "options": [
+        "Le cortège joyeux",
+        "La tristesse",
+        "Le silence",
+        "La montagne"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

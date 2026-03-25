@@ -1,0 +1,63 @@
+{
+  "id": "quiz3",
+  "titre": "O Calçado (Chaussures)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se diz 'Les chaussures' ?",
+      "options": [
+        "Os sapatos",
+        "As botas",
+        "As sapatilhas",
+        "Os chinelos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Sapatilhas' é o termo usado em Portugal para ténis (baskets).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Eu calço as {{1}} (bottes) quando chove.",
+      "reponsesAttendues": [
+        "botas"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Pés.",
+      "pairs": [
+        {
+          "left": "Chinelos",
+          "right": "Pantoufles / Tongs"
+        },
+        {
+          "left": "Sandálias",
+          "right": "Sandales"
+        },
+        {
+          "left": "Meias",
+          "right": "Chaussettes"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Que número calças?",
+      "options": [
+        "Calço o 38",
+        "Calço o casaco",
+        "Sou um sapato",
+        "Dez horas"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "quiz2",
+  "titre": "La balise Input",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise crée un champ de saisie ?",
+      "options": ["<entry>", "<input>", "<saisie>", "<box>"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La balise <input> est une balise orpheline (pas de fermeture).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour un champ de texte simple, on utilise type=\"{{1}}\".",
+      "reponsesAttendues": ["text"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel attribut identifie la donnée pour le serveur ?",
+      "options": ["id", "class", "name", "value"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'value' définit la valeur par défaut du champ.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel attribut rend un champ obligatoire ?",
+      "options": ["force", "required", "must-fill", "needed"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'readonly' empêche l'utilisateur de modifier le texte.",
+      "reponse": true
+    },
+    {
+      "id": "q8",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} affiche un texte d'aide gris qui disparaît à la saisie.",
+      "reponsesAttendues": ["placeholder"]
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si un input possède l'attribut 'disabled' ?",
+      "options": ["Il devient rouge", "Il ne peut pas être cliqué ni envoyé au serveur", "Il change de valeur seul", "Rien"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut limiter le nombre de caractères avec l'attribut 'maxlength'.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz25",
+  "titre": "Le module math",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment utilise-t-on la constante PI du module math ?",
+      "options": [
+        "math.pi",
+        "pi()",
+        "math(pi)",
+        "math->pi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La fonction math.sqrt(x) permet de calculer la racine carrée de x.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour arrondir à l'entier supérieur, on utilise math.{{1}}(x) (ceil).",
+      "reponsesAttendues": [
+        "ceil"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relie la fonction à son rôle.",
+      "pairs": [
+        {
+          "left": "math.pow(x, y)",
+          "right": "Puissance (x exposé y)"
+        },
+        {
+          "left": "math.floor(x)",
+          "right": "Arrondi à l'inférieur"
+        },
+        {
+          "left": "math.cos(x)",
+          "right": "Cosinus de x"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le résultat de math.sqrt(16) ?",
+      "options": [
+        "4.0",
+        "8",
+        "16",
+        "256"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Le Transport des Données",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment circulent les informations sur Internet ?",
+      "options": [
+        "Découpées en petits paquets",
+        "En un seul gros bloc",
+        "Par la poste",
+        "Uniquement par satellite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le bit (0 ou 1) est la plus petite unité d'information.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le {{1}} est la quantité de données pouvant circuler par seconde.",
+      "reponsesAttendues": [
+        "débit"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Unités Débit.",
+      "pairs": [
+        {
+          "left": "bit/s",
+          "right": "Unité de base (bps)"
+        },
+        {
+          "left": "Mbit/s",
+          "right": "Millions de bits par seconde"
+        },
+        {
+          "left": "Gbit/s",
+          "right": "Milliards de bits par seconde (Fibre)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Lequel de ces supports offre le meilleur débit ?",
+      "options": [
+        "La fibre optique",
+        "L'ADSL (fil de cuivre)",
+        "Le Wi-Fi public",
+        "La 3G"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

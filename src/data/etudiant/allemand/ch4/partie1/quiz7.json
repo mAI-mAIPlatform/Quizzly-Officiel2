@@ -1,0 +1,63 @@
+{
+  "id": "quiz7",
+  "titre": "Dativ-Objekt",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "En 'Ich schenke meiner Mutter ein Buch', ¿quién es el objeto indirecto?",
+      "options": [
+        "Meiner Mutter",
+        "Ein Buch",
+        "Ich",
+        "Schenke"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "El receptor de un regalo suele ir en Dativo.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ich helfe {{1}} (le-masc) Vater.",
+      "reponsesAttendues": [
+        "dem"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Relaciona el pronombre dativo.",
+      "pairs": [
+        {
+          "left": "Ich",
+          "right": "Mir"
+        },
+        {
+          "left": "Du",
+          "right": "Dir"
+        },
+        {
+          "left": "Er / Es",
+          "right": "Ihm"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "¿Cómo se dice 'Je te donne'?",
+      "options": [
+        "Ich gebe dir",
+        "Ich gebe dich",
+        "Ich gebe du",
+        "Ich gebe mir"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

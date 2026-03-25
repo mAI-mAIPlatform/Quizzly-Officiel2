@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Les Commentaires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi servent les commentaires ?",
+      "options": [
+        "À expliquer le code aux humains",
+        "À faire exécuter des ordres secrets",
+        "À accélérer le programme",
+        "À corriger les bugs automatiquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'ordinateur ignore les lignes commençant par #.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "En Python, un commentaire commence par le symbole '{{1}}'.",
+      "reponsesAttendues": [
+        "#"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe l'usage du commentaire.",
+      "pairs": [
+        {
+          "left": "# Todo",
+          "right": "Chose à faire plus tard"
+        },
+        {
+          "left": "# Fixme",
+          "right": "Bug à corriger"
+        },
+        {
+          "left": "# Descr.",
+          "right": "Description d'une fonction"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Comment faire un commentaire sur plusieurs lignes ?",
+      "options": [
+        "Utiliser plusieurs #",
+        "Utiliser des triples guillemets (Docstring)",
+        "Les deux",
+        "Ce n'est pas possible"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

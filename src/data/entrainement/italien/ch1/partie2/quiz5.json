@@ -1,0 +1,63 @@
+{
+  "id": "quiz5",
+  "titre": "Les Pronoms Personnels Sujets",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Je' ?",
+      "options": [
+        "Io",
+        "Tu",
+        "Me",
+        "Lui"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En italien, on omet souvent le pronom sujet car la terminaison du verbe suffit.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour dire 'Nous', on utilise le mot '{{1}}'.",
+      "reponsesAttendues": [
+        "Noi"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le pronom à sa traduction.",
+      "pairs": [
+        {
+          "left": "Tu",
+          "right": "Tu"
+        },
+        {
+          "left": "Lui / Lei",
+          "right": "Il / Elle"
+        },
+        {
+          "left": "Voi",
+          "right": "Vous"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quel est le pronom pour 'Ils / Elles' ?",
+      "options": [
+        "Loro",
+        "Lui",
+        "Lei",
+        "Noi"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

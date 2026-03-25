@@ -1,0 +1,63 @@
+{
+  "id": "quiz4",
+  "titre": "Charles V et Du Guesclin",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment le roi Charles V a-t-il réussi à reprendre des terres aux Anglais ?",
+      "options": [
+        "En faisant de grandes batailles rangées",
+        "En évitant les grandes batailles et en faisant une guérilla avec Du Guesclin",
+        "En payant les Anglais pour partir",
+        "En se mariant avec la reine d'Angleterre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Bertrand Du Guesclin était le connétable (chef des armées) de Charles V.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Charles V était surnommé Charles le {{1}} car il aimait les livres et le savoir.",
+      "reponsesAttendues": [
+        "Sage"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "relier",
+      "question": "Associe le personnage à son titre.",
+      "pairs": [
+        {
+          "left": "Charles V",
+          "right": "Le Sage"
+        },
+        {
+          "left": "Du Guesclin",
+          "right": "Connétable de France"
+        },
+        {
+          "left": "Le Prince Noir",
+          "right": "Chef anglais (fils d'Édouard III)"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "enonce": "Quelle institution Charles V a-t-il renforcée pour financer la guerre ?",
+      "options": [
+        "La banque de France",
+        "L'impôt permanent",
+        "La bourse de Paris",
+        "Il n'a rien renforcé"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}
