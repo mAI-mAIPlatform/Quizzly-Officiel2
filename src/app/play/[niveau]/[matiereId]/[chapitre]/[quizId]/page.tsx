@@ -30,16 +30,16 @@ export default async function PlayQuizPage({
   const normalizedNiveau = levelMap[niveau] || levelMap[niveau.toLowerCase()] || niveau;
 
   const dataDir = path.resolve(process.cwd(), "src/data");
+  let quizData = null;
+  const levelDir = path.join(dataDir, normalizedNiveau);
   
   // Essayer d'abord avec le dossier de partie si spécifié
   let quizPath = "";
   if (partie) {
-    quizPath = path.join(dataDir, normalizedNiveau, matiereId, chapitre, `partie${partie}`, `${quizId}.json`);
+    quizPath = path.join(levelDir, matiereId, chapitre, `partie${partie}`, `${quizId}.json`);
   } else {
-    quizPath = path.join(dataDir, normalizedNiveau, matiereId, chapitre, `${quizId}.json`);
+    quizPath = path.join(levelDir, matiereId, chapitre, `${quizId}.json`);
   }
-
-  let quizData = null;
 
   try {
     // Tentative de lecture (avec fallback sur le chemin racine si partie échoue ou n'est pas fournie)

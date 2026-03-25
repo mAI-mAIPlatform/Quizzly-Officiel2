@@ -15,11 +15,11 @@ import { ranked3emeExtendedQuizzes } from "./3eme/extended";
 import { ranked3emeExtended2Quizzes } from "./3eme/extended2";
 import { ranked3emeExtended3Quizzes } from "./3eme/extended3";
 
-import { rankedSecondeExtendedQuizzes as ranked2ndeExt1 } from "./seconde/extended";
+import { rankedSecondeExtendedQuizzes as ranked2ndeExt1 } from "./2nde/extended";
 import { ranked2ndeExtended2Quizzes } from "./2nde/extended2";
 import { ranked2ndeExtended3Quizzes } from "./2nde/extended3";
 
-import { rankedPremiereExtendedQuizzes as ranked1ereExt1 } from "./premiere/extended";
+import { rankedPremiereExtendedQuizzes as ranked1ereExt1 } from "./1ere/extended";
 import { ranked1ereExtended2Quizzes } from "./1ere/extended2";
 import { ranked1ereExtended3Quizzes } from "./1ere/extended3";
 

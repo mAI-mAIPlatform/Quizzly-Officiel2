@@ -27,7 +27,8 @@ export default async function ChapitrePage({
 
   const normalizedNiveau = levelMap[niveau] || levelMap[niveau.toLowerCase()] || niveau;
   const dataRoot = path.resolve(process.cwd(), "src/data");
-  const basePath = path.join(dataRoot, normalizedNiveau, matiereId || "maths");
+  const levelDir = path.join(dataRoot, normalizedNiveau);
+  const basePath = path.join(levelDir, matiereId || "maths");
   let metadata;
   let quizzes = [];
 
