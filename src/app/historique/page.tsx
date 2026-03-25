@@ -23,11 +23,8 @@ export default function HistoriquePage() {
   const perfectGames = history.filter(h => h.score === h.maxScore && h.maxScore > 0).length;
 
   return (
-    <div className="flex bg-background min-h-screen text-foreground font-inter selection:bg-primary/30">
-      <Sidebar className="hidden md:flex w-64 flex-col fixed inset-y-0" />
-      <div className="flex-1 md:ml-64 flex flex-col h-screen overflow-hidden">
-        <Navbar />
-        
+    <div className="flex bg-transparent min-h-screen text-foreground font-inter selection:bg-primary/30">
+      <div className="flex-1 flex flex-col h-screen overflow-hidden">
         <main className="flex-1 overflow-y-auto p-4 md:p-8 scrollbar-thin scrollbar-thumb-primary/20">
           <div className="max-w-4xl mx-auto space-y-8 pb-32">
             

@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-// v0.9.2 - Centralisation des modes et déplacement du profil dans la Navbar
+// v1.0.6 - Améliorations globales et corrections de bugs
 "use client";
 
 import Link from 'next/link';

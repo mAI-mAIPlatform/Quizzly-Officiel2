@@ -27,11 +27,23 @@ export default async function PlayQuizPage({
     "T": "genie", "terminale": "genie", "genie": "genie"
   };
 
-  const normalizedNiveau = levelMap[niveau] || levelMap[niveau.toLowerCase()] || niveau;
+  const normalizedNiveau = levelMap[niveau] || levelMap[niveau.toLowerCase()] || "debutant";
+  
+  // v1.1.1 - Utilisation d'une structure plus statique pour aider l'analyse de Turbopack
+  const getLevelPath = (ln: string) => {
+    switch(ln) {
+      case "debutant": return path.join(process.cwd(), "src/data/debutant");
+      case "entrainement": return path.join(process.cwd(), "src/data/entrainement");
+      case "etudiant": return path.join(process.cwd(), "src/data/etudiant");
+      case "difficile": return path.join(process.cwd(), "src/data/difficile");
+      case "expert": return path.join(process.cwd(), "src/data/expert");
+      case "savant": return path.join(process.cwd(), "src/data/savant");
+      case "genie": return path.join(process.cwd(), "src/data/genie");
+      default: return path.join(process.cwd(), "src/data/debutant");
+    }
+  };
 
-  const dataDir = path.resolve(process.cwd(), "src/data");
-  let quizData = null;
-  const levelDir = path.join(dataDir, normalizedNiveau);
+  const levelDir = getLevelPath(normalizedNiveau);
   
   // Essayer d'abord avec le dossier de partie si spécifié
   let quizPath = "";
@@ -49,7 +61,7 @@ export default async function PlayQuizPage({
     } catch (e) {
       if (partie) {
         // Fallback : essayer à la racine du chapitre au cas où
-        const fallbackPath = path.join(dataDir, normalizedNiveau, matiereId, chapitre, `${quizId}.json`);
+        const fallbackPath = path.join(levelDir, matiereId, chapitre, `${quizId}.json`);
         const fileContent = await fs.readFile(fallbackPath, "utf8");
         quizData = JSON.parse(fileContent);
       } else {

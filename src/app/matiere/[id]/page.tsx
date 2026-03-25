@@ -21,9 +21,23 @@ export default async function MatierePage({
     "T": "genie", "terminale": "genie", "genie": "genie"
   };
 
-  const normalizedNiveau = levelMap[niveau] || levelMap[niveau.toLowerCase()] || niveau;
-  const dataRoot = path.resolve(process.cwd(), "src/data");
-  const levelDir = path.join(dataRoot, normalizedNiveau);
+  const normalizedNiveau = levelMap[niveau] || levelMap[niveau.toLowerCase()] || "debutant";
+  
+  // Utilisation d'une structure plus statique pour aider l'analyse de Turbopack
+  const getLevelPath = (ln: string) => {
+    switch(ln) {
+      case "debutant": return path.join(process.cwd(), "src/data/debutant");
+      case "entrainement": return path.join(process.cwd(), "src/data/entrainement");
+      case "etudiant": return path.join(process.cwd(), "src/data/etudiant");
+      case "difficile": return path.join(process.cwd(), "src/data/difficile");
+      case "expert": return path.join(process.cwd(), "src/data/expert");
+      case "savant": return path.join(process.cwd(), "src/data/savant");
+      case "genie": return path.join(process.cwd(), "src/data/genie");
+      default: return path.join(process.cwd(), "src/data/debutant");
+    }
+  };
+
+  const levelDir = getLevelPath(normalizedNiveau);
   const basePath = path.join(levelDir, matiereId || "maths");
   
   let metadata: any = null;

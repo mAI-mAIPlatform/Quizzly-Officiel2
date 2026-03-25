@@ -56,8 +56,8 @@ export default function SeriePage() {
         </motion.div>
 
         {/* Calendar View */}
-        <div className="glass p-8 rounded-[2.5rem] space-y-6">
-          <h2 className="text-lg font-space font-black uppercase italic tracking-tight flex items-center gap-3">
+        <div className="glass p-8 rounded-[2.5rem] space-y-6 bg-white/50 backdrop-blur-2xl border-white/20 shadow-xl">
+          <h2 className="text-xl font-space font-black uppercase italic tracking-tight flex items-center gap-3 text-primary">
              📅 Cette Semaine
           </h2>
           <div className="flex justify-between items-center gap-2">
@@ -66,20 +66,23 @@ export default function SeriePage() {
               const isToday = date.toISOString().split('T')[0] === today.toISOString().split('T')[0];
               
               return (
-                <div key={i} className="flex flex-col items-center gap-3">
-                  <div className="text-[10px] font-black uppercase opacity-40">
+                <div key={i} className="flex flex-col items-center gap-3 group">
+                  <div className={`text-[10px] font-black uppercase transition-opacity ${isToday ? 'opacity-100 text-primary' : 'opacity-40 group-hover:opacity-60'}`}>
                     {date.toLocaleDateString('fr-FR', { weekday: 'short' }).replace('.', '')}
                   </div>
                   <motion.div 
+                    whileHover={{ scale: 1.1 }}
                     initial={played ? { scale: 0 } : {}}
                     animate={played ? { scale: 1 } : {}}
-                    className={`w-10 h-10 rounded-xl flex items-center justify-center text-lg border-2 transition-all ${
+                    className={`w-12 h-12 rounded-2xl flex items-center justify-center text-xl border-2 transition-all duration-300 ${
                       played 
-                        ? 'bg-orange-500 border-orange-400 text-white shadow-lg shadow-orange-500/20' 
-                        : isToday ? 'border-primary border-dashed opacity-100' : 'border-white/10 opacity-30'
+                        ? 'bg-gradient-to-br from-orange-400 to-orange-600 border-orange-300 text-white shadow-lg shadow-orange-500/40 scale-105' 
+                        : isToday 
+                          ? 'border-primary border-dashed bg-primary/5 shadow-[0_0_15px_rgba(var(--primary-rgb),0.2)]' 
+                          : 'border-white/10 bg-white/5 opacity-30 hover:opacity-50'
                     }`}
                   >
-                    {played ? '⚡' : ''}
+                    {played ? '⚡' : isToday ? '📍' : ''}
                   </motion.div>
                 </div>
               );
@@ -88,48 +91,59 @@ export default function SeriePage() {
         </div>
 
         {/* 30 Days Reward Progress */}
-        <div className="glass p-8 rounded-[2.5rem] bg-amber-500/5 border-amber-500/10 space-y-5">
+        <div className="glass p-8 rounded-[2.5rem] bg-gradient-to-br from-amber-500/10 to-transparent border-amber-500/20 space-y-5 shadow-lg">
            <h3 className="font-space font-black uppercase text-sm flex items-center gap-2 text-amber-600">
              🎁 RÉCOMPENSE MENSUELLE
            </h3>
            <div className="flex items-center justify-between gap-4">
-              <div className="flex-1 h-3 bg-amber-500/10 rounded-full overflow-hidden border border-amber-500/10">
+              <div className="flex-1 h-4 bg-amber-500/10 rounded-full overflow-hidden border border-amber-500/20 p-0.5">
                  <motion.div 
                     initial={{ width: 0 }}
                     animate={{ width: `${(progress.streak % 30) / 30 * 100}%` }}
-                    className="h-full bg-gradient-to-r from-amber-400 to-amber-600"
+                    className="h-full bg-gradient-to-r from-amber-400 via-yellow-400 to-amber-600 rounded-full shadow-[0_0_10px_rgba(251,191,36,0.5)]"
                  />
               </div>
-              <span className="text-xs font-black opacity-40">{progress.streak % 30}/30j</span>
+              <span className="text-xs font-black text-amber-700">{progress.streak % 30}/30j</span>
            </div>
-           <p className="text-[10px] leading-relaxed font-bold opacity-60">
-             Chaque palier de **30 jours** t&apos;offre **1 Étoile ⭐** et **5 Gemmes 💎** bonus !
+           <p className="text-[11px] leading-relaxed font-bold opacity-70">
+              <MarkdownText text="Chaque palier de **30 jours** t'offre **1 Étoile ⭐** et **5 Gemmes 💎** bonus !" />
            </p>
         </div>
 
         {/* Info Box */}
-        <div className="glass p-8 rounded-[2.5rem] bg-violet/5 border-violet/20 space-y-4">
-           <h3 className="font-space font-black uppercase text-sm flex items-center gap-2">
+        <div className="glass p-8 rounded-[2.5rem] bg-violet/5 border-violet/20 space-y-4 shadow-lg">
+           <h3 className="font-space font-black uppercase text-sm flex items-center gap-2 text-violet">
              💡 LE SAVAIS-TU ?
            </h3>
-           <p className="text-xs leading-relaxed opacity-70">
-             Une série de **7 jours** te donne un **Coffre Mythique** gratuit ! 📦
-             Si tu n&apos;as plus de **Boucliers**, ta série retombera à zéro si tu manques un jour. ⚠️
-           </p>
+           <div className="text-xs leading-relaxed opacity-80 space-y-1">
+             <MarkdownText text="Une série de **7 jours** te donne un **Coffre Mythique** gratuit ! 📦" />
+             <MarkdownText text="Si tu n'as plus de **Boucliers**, ta série retombera à zéro si tu manques un jour. ⚠️" />
+           </div>
            <div className="flex items-center gap-3 pt-2">
-              <span className="p-2.5 bg-slate-500/10 rounded-xl text-lg">🛡️</span>
+              <div className="p-3 bg-slate-500/10 rounded-2xl text-2xl shadow-inner">🛡️</div>
               <div className="flex flex-col">
-                <span className="text-[10px] font-black uppercase opacity-40">Protection</span>
-                <span className="text-xs font-black">{progress.shields} Boucliers restants</span>
+                <span className="text-[10px] font-black uppercase opacity-40 tracking-widest">Protection Automatique</span>
+                <span className="text-sm font-black text-foreground">{progress.shields} Boucliers disponibles</span>
               </div>
            </div>
         </div>
 
-        {/* Footer info */}
-        <p className="text-center text-[10px] font-black uppercase opacity-30 tracking-widest">
-           v1.0.1 — Étoiles & Ligues activées 🚀
-        </p>
+        {/* Footer info removed as requested */}
       </div>
     </div>
+  );
+}
+
+function MarkdownText({ text }: { text: string }) {
+  const parts = text.split(/(\*\*.*?\*\*)/g);
+  return (
+    <span>
+      {parts.map((part, i) => {
+        if (part.startsWith('**') && part.endsWith('**')) {
+          return <strong key={i} className="text-primary font-black">{part.slice(2, -2)}</strong>;
+        }
+        return part;
+      })}
+    </span>
   );
 }
