@@ -51,12 +51,31 @@ body {
 
 /* Utilitaires pour le verre liquide */
 @utility glass {
-  background-color: var(--card);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid var(--card-border);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05); /* Update shadow color dynamically if possible, or leave default */
-  border-radius: 1.5rem;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+  border-radius: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes liquid-sweep {
+  0% { transform: translateX(-100%) rotate(25deg); }
+  100% { transform: translateX(200%) rotate(25deg); }
+}
+
+.glass::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  animation: liquid-sweep 6s infinite ease-in-out;
+  pointer-events: none;
 }
 
 [data-theme="premium-dark"] {
@@ -105,4 +124,55 @@ body {
 
 [data-theme="neon"] .glass {
   box-shadow: 0 0 20px rgba(0, 255, 204, 0.1), inset 0 0 10px rgba(255, 0, 255, 0.05);
+}
+
+/* Responsive fixes */
+@media (max-width: 768px) {
+  .glass {
+    border-radius: 1rem;
+    padding: 1rem !important;
+  }
+  
+  h1 {
+    font-size: 2.5rem !important;
+  }
+}
+
+@keyframes rainbow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-rainbow {
+  animation: rainbow 3s linear infinite;
+}
+
+@keyframes fire {
+  0%, 100% { opacity: 1; filter: brightness(1.2); }
+  50% { opacity: 0.8; filter: brightness(0.8); }
+}
+
+.pseudo-fire {
+  background: linear-gradient(0deg, #f97316 0%, #ea580c 50%, #facc15 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 8px rgba(249, 115, 22, 0.5));
+  animation: fire 2s ease-in-out infinite;
+}
+
+.pseudo-neon {
+  color: #22d3ee;
+  text-shadow: 0 0 10px rgba(34, 211, 238, 0.8), 0 0 20px rgba(34, 211, 238, 0.4);
+}
+
+.pseudo-frozen {
+  color: #e0f2fe;
+  text-shadow: 0 0 10px rgba(186, 230, 253, 0.8);
+  font-style: italic;
+  background: linear-gradient(135deg, #bae6fd 0%, #06b6d4 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

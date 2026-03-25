@@ -1,7 +1,5 @@
 "use client";
 
-/* eslint-disable react/no-unescaped-entities */
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useProgress } from "@/context/ProgressContext";
 import { motion } from "framer-motion";
 
@@ -15,12 +13,12 @@ export default function PassPage() {
     const rewards: { [key: number]: { reward: string; icon: string; color: string; type: string } } = {
       1: { reward: "50 Diamants", icon: "💎", color: "from-blue-400 to-cyan-500", type: "Cristaux" },
       2: { reward: "Major de Promo", icon: "🎖️", color: "from-violet-400 to-primary", type: "Titre" },
-      3: { reward: "Neurone Bonus", icon: "🧠", color: "from-rose-400 to-red-500", type: "Item" },
+      3: { reward: "Étoile Bonus", icon: "⭐", color: "from-rose-400 to-red-500", type: "Item" },
       4: { reward: "Avatar Diplômé", icon: "🎓", color: "from-emerald-400 to-green-600", type: "Avatar" },
       5: { reward: "100 Diamants", icon: "💎", color: "from-blue-400 to-cyan-500", type: "Cristaux" },
       6: { reward: "Booster XP x1.5", icon: "⚡", color: "from-yellow-400 to-amber-600", type: "Booster" },
       7: { reward: "Petit Génie", icon: "✨", color: "from-violet-400 to-primary", type: "Titre" },
-      8: { reward: "Neurone Bonus", icon: "🧠", color: "from-rose-400 to-red-500", type: "Item" },
+      8: { reward: "Étoile Bonus", icon: "⭐", color: "from-rose-400 to-red-500", type: "Item" },
       9: { reward: "150 Diamants", icon: "💎", color: "from-blue-400 to-cyan-500", type: "Cristaux" },
       10: { reward: "Avatar Cerveau", icon: "🧠", color: "from-cyan-400 to-blue-600", type: "Avatar" },
       // ... (Générer programmatiquement pour les autres si non spécifié, mais restons sur 30)

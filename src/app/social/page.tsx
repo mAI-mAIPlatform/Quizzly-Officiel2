@@ -15,6 +15,9 @@ export default function SocialPage() {
   const [newTribeName, setNewTribeName] = useState("");
   const [selectedChat, setSelectedChat] = useState<string | null>(null);
   const [messageInput, setMessageInput] = useState("");
+  const [searchChat, setSearchChat] = useState("");
+  const [searchTribe, setSearchTribe] = useState("");
+  const [chatFilter, setChatFilter] = useState<'all' | 'user' | 'system'>('all');
   const chatEndRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -166,24 +169,35 @@ export default function SocialPage() {
                 exit={{ opacity: 0, x: 20 }}
                 className="glass p-8 space-y-8 min-h-[500px]"
               >
-                <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 border-b border-primary/10 pb-6">
+                <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 border-b border-cyan/10 pb-6">
                   <h2 className="text-3xl font-space font-black flex items-center gap-3">
-                    <span className="text-4xl text-cyan">🏰</span> Tribus de Connaissances
+                    <span className="text-4xl text-cyan">🏰</span> Tribus
                   </h2>
-                  <form onSubmit={handleCreateTribe} className="flex gap-2">
+                  <div className="flex gap-2">
                     <input 
                       type="text" 
-                      placeholder="Nom de ta tribu..."
-                      value={newTribeName}
-                      onChange={(e) => setNewTribeName(e.target.value)}
+                      placeholder="Rechercher une tribu..."
+                      value={searchTribe}
+                      onChange={(e) => setSearchTribe(e.target.value)}
                       className="bg-foreground/5 px-4 py-3 rounded-xl font-bold text-sm outline-none border-2 border-transparent focus:border-cyan/30 transition-all w-48"
                     />
-                    <button type="submit" className="bg-cyan text-white font-black px-6 py-3 rounded-xl text-sm transition-transform hover:scale-105">OK ✓</button>
-                  </form>
+                    <form onSubmit={handleCreateTribe} className="flex gap-2">
+                      <input 
+                        type="text" 
+                        placeholder="Créer..."
+                        value={newTribeName}
+                        onChange={(e) => setNewTribeName(e.target.value)}
+                        className="bg-foreground/5 px-4 py-3 rounded-xl font-bold text-sm outline-none border-2 border-transparent focus:border-cyan/30 transition-all w-32"
+                      />
+                      <button type="submit" className="bg-cyan text-white font-black px-4 py-3 rounded-xl text-sm transition-transform hover:scale-105">+</button>
+                    </form>
+                  </div>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  {progress.tribes.map((tribe) => (
+                  {progress.tribes
+                    .filter(t => t.name.toLowerCase().includes(searchTribe.toLowerCase()))
+                    .map((tribe) => (
                     <div key={tribe.id} className="glass border-cyan/10 p-8 flex flex-col gap-6 relative overflow-hidden group">
                       <div className="absolute top-0 right-0 w-24 h-24 bg-cyan/5 -mr-12 -mt-12 rounded-full transition-all group-hover:scale-110"></div>
                       <div className="flex justify-between items-start">
@@ -226,30 +240,55 @@ export default function SocialPage() {
                 exit={{ opacity: 0, x: 20 }}
                 className="glass p-8 space-y-10 min-h-[500px]"
               >
-                <div className="border-b border-primary/10 pb-6">
-                  <h2 className="text-3xl font-space font-black flex items-center gap-3">
-                    <span className="text-4xl text-yellow-500">🏆</span> Classement Inter-Tribus
-                  </h2>
-                  <p className="opacity-50 text-[10px] font-black uppercase tracking-widest mt-2">Saison 1 - Classement Mondial</p>
+                <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 border-b border-primary/10 pb-6">
+                  <div>
+                    <h2 className="text-3xl font-space font-black flex items-center gap-3">
+                      <span className="text-4xl text-amber-500">🏆</span> Ligues Hebdomadaires
+                    </h2>
+                    <p className="opacity-50 text-[10px] font-black uppercase tracking-widest mt-2">Saison Régulière — XP de la semaine</p>
+                  </div>
+                  <div className="bg-primary/10 px-6 py-3 rounded-2xl border border-primary/20 text-center">
+                    <div className="text-[10px] font-black uppercase opacity-40">Ma Ligue</div>
+                    <div className="text-lg font-space font-black text-primary uppercase italic">{progress.league}</div>
+                  </div>
                 </div>
 
-                <div className="space-y-4">
-                  {rankingTribes.map((tribe) => (
-                    <div key={tribe.id} className={`glass px-6 py-4 flex items-center justify-between transition-all hover:scale-[1.02] border-l-4 ${tribe.rank === 1 ? 'border-l-yellow-400 bg-yellow-400/5' : tribe.rank === 2 ? 'border-l-slate-400 bg-slate-400/5' : tribe.rank === 3 ? 'border-l-amber-600 bg-amber-600/5' : 'border-l-transparent'}`}>
-                      <div className="flex items-center gap-6">
-                        <div className="text-2xl font-black w-8 text-center opacity-60">#{tribe.rank}</div>
-                        <div className="w-12 h-12 rounded-2xl bg-white/10 flex items-center justify-center text-3xl shadow-sm">
-                          {tribe.mascot}
-                        </div>
+                <div className="grid grid-cols-1 gap-6">
+                  {/* Ma Progression dans la ligue */}
+                  <div className="glass p-8 bg-gradient-to-r from-primary/10 to-transparent border-primary/20 rounded-[2rem]">
+                     <div className="flex justify-between items-end mb-4">
                         <div>
-                          <div className="font-space font-black italic text-lg uppercase">{tribe.name}</div>
+                          <div className="text-xs font-black uppercase opacity-40 mb-1">XP Gagné cette Semaine</div>
+                          <div className="text-4xl font-space font-black tracking-tighter text-primary italic">{progress.weeklyXP} XP</div>
                         </div>
+                     </div>
+                     <div className="w-full h-3 bg-foreground/5 rounded-full overflow-hidden border border-foreground/5 p-0.5">
+                        <motion.div 
+                          initial={{ width: 0 }}
+                          animate={{ width: `${Math.min(100, (progress.weeklyXP % 5000) / 5000 * 100)}%` }}
+                          className="h-full bg-gradient-to-r from-primary to-cyan rounded-full"
+                        />
+                     </div>
+                     <p className="text-[10px] font-bold opacity-50 mt-4 italic uppercase">Reset tous les lundis à 00:00 ⏰</p>
+                  </div>
+
+                  {/* List of leagues */}
+                  <div className="space-y-3">
+                    <h3 className="text-xs font-black uppercase tracking-[0.2em] opacity-40 mb-4">Hiérarchie des Ligues Quizzly</h3>
+                    {['Génie', 'Expert', 'Savant', 'HPI', 'Intello', 'Nouveau', 'Étudiant', 'Apprenti', 'Débutant'].map((l, i) => (
+                      <div key={l} className={`glass px-6 py-4 flex items-center justify-between border-l-4 transition-all ${progress.league === l ? 'border-primary bg-primary/5 scale-105 shadow-xl z-20' : 'border-l-transparent opacity-40'}`}>
+                         <div className="flex items-center gap-4">
+                           <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-xl">
+                             {l === 'Génie' ? '👑' : l === 'Expert' ? '💎' : l === 'Savant' ? '🧪' : '🛡️'}
+                           </div>
+                           <span className="font-space font-black italic uppercase text-lg tracking-tighter">{l}</span>
+                         </div>
+                         {progress.league === l && (
+                           <span className="text-[10px] bg-primary text-white px-3 py-1 rounded-full font-black uppercase shadow-lg shadow-primary/30">Votre Rang</span>
+                         )}
                       </div>
-                      <div className="bg-primary/10 text-primary px-4 py-2 rounded-xl text-xs font-black uppercase tracking-widest mx-4 text-center">
-                        {tribe.score} Pts
-                      </div>
-                    </div>
-                  ))}
+                    ))}
+                  </div>
                 </div>
               </motion.section>
             )}
@@ -294,7 +333,7 @@ export default function SocialPage() {
                   </div>
                 ) : (
                   <>
-                    <div className="p-6 border-b border-primary/10 flex justify-between items-center bg-white/40 backdrop-blur-xl sticky top-0 z-10">
+                    <div className="p-6 border-b border-primary/10 flex flex-col md:flex-row justify-between items-center gap-4 bg-white/40 backdrop-blur-xl sticky top-0 z-10">
                       <div className="flex items-center gap-4">
                         <div className="w-12 h-12 rounded-2xl bg-primary text-white flex items-center justify-center text-xl font-bold">
                           {selectedChat.startsWith('tribe_') ? '🏰' : '👤'}
@@ -309,14 +348,36 @@ export default function SocialPage() {
                           </div>
                         </div>
                       </div>
-                      <button onClick={() => setSelectedChat(null)} className="text-xs font-black opacity-40 hover:opacity-100 transition-opacity uppercase tracking-widest">Fermer ✕</button>
+
+                      <div className="flex items-center gap-2">
+                        <div className="flex bg-foreground/5 p-1 rounded-xl">
+                          <button onClick={() => setChatFilter('all')} className={`px-3 py-1 text-[10px] font-black uppercase rounded-lg transition-all ${chatFilter === 'all' ? 'bg-white shadow-sm opacity-100' : 'opacity-40 hover:opacity-100'}`}>Tous</button>
+                          <button onClick={() => setChatFilter('user')} className={`px-3 py-1 text-[10px] font-black uppercase rounded-lg transition-all ${chatFilter === 'user' ? 'bg-white shadow-sm opacity-100' : 'opacity-40 hover:opacity-100'}`}>Humains</button>
+                          <button onClick={() => setChatFilter('system')} className={`px-3 py-1 text-[10px] font-black uppercase rounded-lg transition-all ${chatFilter === 'system' ? 'bg-white shadow-sm opacity-100' : 'opacity-40 hover:opacity-100'}`}>Crises 🚨</button>
+                        </div>
+                        <input 
+                          type="text" 
+                          placeholder="Filtrer message..."
+                          value={searchChat}
+                          onChange={(e) => setSearchChat(e.target.value)}
+                          className="bg-foreground/5 px-4 py-2 rounded-xl text-xs font-bold outline-none border border-transparent focus:border-primary/20 transition-all w-32"
+                        />
+                        <button onClick={() => setSelectedChat(null)} className="text-xs font-black opacity-40 hover:opacity-100 transition-opacity uppercase tracking-widest ml-2">✕</button>
+                      </div>
                     </div>
 
                     <div className="flex-1 p-8 space-y-4 overflow-y-auto max-h-[450px] scrollbar-hide bg-foreground/[0.02]">
                       {currentMessages.length === 0 && (
                         <div className="text-center py-20 opacity-30 italic font-medium">Début de la conversation... ✨</div>
                       )}
-                      {currentMessages.map((msg, idx) => (
+                      {currentMessages
+                        .filter(msg => {
+                          if (chatFilter === 'user') return !msg.isSystem;
+                          if (chatFilter === 'system') return msg.isSystem;
+                          return true;
+                        })
+                        .filter(msg => msg.text.toLowerCase().includes(searchChat.toLowerCase()))
+                        .map((msg, idx) => (
                         <div key={idx} className={`flex flex-col ${msg.isSystem ? 'items-center' : msg.sender === progress.pseudo ? 'items-end' : 'items-start'}`}>
                           {msg.isSystem ? (
                             <div className="text-[10px] font-bold italic opacity-40 bg-foreground/5 px-4 py-2 rounded-full">

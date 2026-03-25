@@ -6,10 +6,16 @@ import Link from "next/link";
 import QuizEngine from "@/components/quiz/QuizEngine";
 import { allVisuelQuizzes } from "@/data/visuel/allVisuelQuizzes";
 
-export default function VisuelPage() {
-  const [currentQuiz, setCurrentQuiz] = useState<any>(null);
+interface Quiz {
+  id: string;
+  titre: string;
+  questions: unknown[];
+}
 
-  const startQuiz = (quiz: any) => {
+export default function VisuelPage() {
+  const [currentQuiz, setCurrentQuiz] = useState<Quiz | null>(null);
+
+  const startQuiz = (quiz: Quiz) => {
     setCurrentQuiz(quiz);
   };
 

@@ -1,15 +1,27 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-// v1.1.0 - Masque la navbar dans le mode play pour éviter les superpositions avec les headers de quiz
 "use client";
 
 import Link from "next/link";
+import { motion } from "framer-motion";
 import { useProgress } from "@/context/ProgressContext";
-import ThemeToggle from "./ThemeToggle";
 import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 
 export default function Navbar() {
   const { progress } = useProgress();
   const pathname = usePathname();
+  const [timeLeft, setTimeLeft] = useState(0);
+
+  useEffect(() => {
+    const updateTime = () => {
+      if (progress.activeBoosters.length > 0) {
+        const ms = new Date(progress.activeBoosters[0].expiresAt).getTime() - Date.now();
+        setTimeLeft(Math.max(0, Math.floor(ms / 60000)));
+      }
+    };
+    updateTime();
+    const interval = setInterval(updateTime, 60000);
+    return () => clearInterval(interval);
+  }, [progress.activeBoosters]);
 
   if (pathname.includes('/play/') || pathname.includes('/quiz/')) {
     return null;
@@ -28,14 +40,32 @@ export default function Navbar() {
 
       <div className="flex items-center gap-4">
         {/* Neurones */}
-        <Link href="/boutique" className="flex items-center gap-2 font-black text-rose bg-rose/10 px-4 py-2 rounded-2xl border border-rose/10 shadow-sm cursor-pointer hover:scale-105 transition-all">
-          <span className="text-xl">🧠</span> {progress.neurones}/5
-        </Link>
+        <div className="flex items-center gap-2">
+          <Link href="/boutique" className="flex items-center gap-2 font-black text-rose bg-rose/10 px-4 py-2 rounded-2xl border border-rose/10 shadow-sm cursor-pointer hover:scale-105 transition-all">
+            <span className="text-xl">⭐</span> {progress.stars}/5
+          </Link>
+          
+          {progress.activeBoosters.length > 0 && (
+            <motion.div 
+              initial={{ scale: 0, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              className="flex items-center gap-2 font-black text-violet bg-violet/10 px-3 py-2 rounded-2xl border border-violet/10 shadow-sm animate-pulse"
+            >
+              <span className="text-lg">⚡</span>
+              <div className="flex flex-col leading-none">
+                <span className="text-[10px] uppercase tracking-tighter">x{progress.xpBoost}</span>
+                <span className="text-[8px] opacity-60">
+                  {timeLeft}m
+                </span>
+              </div>
+            </motion.div>
+          )}
+        </div>
 
         {/* Streak */}
-        <div className="flex items-center gap-2 font-black text-orange-500 bg-orange-500/10 px-4 py-2 rounded-2xl border border-orange-500/10 shadow-sm">
+        <Link href="/serie" className="flex items-center gap-2 font-black text-orange-500 bg-orange-500/10 px-4 py-2 rounded-2xl border border-orange-500/10 shadow-sm hover:scale-105 transition-all">
           <span className="text-xl">🔥</span> {progress.streak}j
-        </div>
+        </Link>
         
         {/* Cristaux -> Boutique */}
         <Link href="/boutique" className="flex items-center gap-2 font-black text-cyan bg-cyan/10 px-4 py-2 rounded-2xl border border-cyan/10 hover:scale-105 transition-all shadow-sm">

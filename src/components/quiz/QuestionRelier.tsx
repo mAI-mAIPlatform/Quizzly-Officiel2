@@ -19,8 +19,8 @@ export default function QuestionRelier({ question, hasAnswered, onValidate }: an
     const lefts = pairs.map((p: any, i: number) => ({ id: `l_${i}`, text: p.left }));
     const rights = pairs.map((p: any, i: number) => ({ id: `r_${i}`, text: p.right }));
     
-    setLeftItems(lefts.sort(() => Math.random() - 0.5));
-    setRightItems(rights.sort(() => Math.random() - 0.5));
+    setLeftItems([...lefts].sort(() => Math.random() - 0.5));
+    setRightItems([...rights].sort(() => Math.random() - 0.5));
     setConnections([]);
     setSelectedLeft(null);
     setSelectedRight(null);

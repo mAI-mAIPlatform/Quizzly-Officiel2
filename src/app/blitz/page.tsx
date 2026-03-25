@@ -1,14 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import QuizEngine from "@/components/quiz/QuizEngine";
 import { allBlitzQuizzes } from "@/data/blitz/allBlitzQuizzes";
 
 export default function BlitzPage() {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [currentQuiz, setCurrentQuiz] = useState<any>(null);
+  const [currentQuiz, setCurrentQuiz] = useState<{ id: string; titre: string; questions: unknown[] } | null>(null);
 
   const startBlitz = () => {
     // Pick a random quiz from the pool of 20
@@ -49,7 +48,7 @@ export default function BlitzPage() {
         </div>
         <h2 className="text-2xl font-space font-black mb-4">Préparation de ta révision express...</h2>
         <p className="max-w-md mx-auto opacity-60 text-sm font-medium leading-relaxed mb-10">
-          Ce mode est conçu pour tester ta rapidité pure. Moins de temps pour réfléchir, plus d'instinct. Parfait pour réviser avant un cours !
+          Ce mode est conçu pour tester ta rapidité pure. Moins de temps pour réfléchir, plus d&apos;instinct. Parfait pour réviser avant un cours !
         </p>
 
         <button 

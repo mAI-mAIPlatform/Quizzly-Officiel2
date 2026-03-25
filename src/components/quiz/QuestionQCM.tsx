@@ -3,6 +3,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 export default function QuestionQCM({ 
   question, 
@@ -15,13 +16,6 @@ export default function QuestionQCM({
 }) {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
 
-  // Reset quand on change de question
-  const [prevQuestionId, setPrevQuestionId] = useState(question.id);
-  if (question.id !== prevQuestionId) {
-    setPrevQuestionId(question.id);
-    setSelectedIndex(null);
-  }
-
   const handleSelect = (index: number) => {
     if (hasAnswered) return;
     setSelectedIndex(index);
@@ -32,8 +26,13 @@ export default function QuestionQCM({
   return (
     <div className="flex flex-col h-full animate-in slide-in-from-right-8 duration-500">
       {question.image && (
-        <div className="w-full max-w-md mx-auto mb-6 rounded-2xl overflow-hidden glass border-primary/20 shadow-xl shadow-primary/5">
-          <img src={question.image} alt="Quiz Visuel" className="w-full h-auto object-cover max-h-64" />
+        <div className="w-full max-w-md mx-auto mb-6 rounded-2xl overflow-hidden glass border-primary/20 shadow-xl shadow-primary/5 relative aspect-video">
+          <Image 
+            src={question.image} 
+            alt="Quiz Visuel" 
+            fill
+            className="object-cover"
+          />
         </div>
       )}
       <h2 className="text-2xl md:text-3xl font-space font-bold mb-8 text-center mt-4">

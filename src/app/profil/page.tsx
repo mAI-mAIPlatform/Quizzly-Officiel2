@@ -1,7 +1,6 @@
 "use client";
 
-/* eslint-disable react/no-unescaped-entities */
-/* eslint-disable @next/next/no-img-element */
+
 import { useProgress } from "@/context/ProgressContext";
 import { useToast } from "@/components/Toast";
 import { motion } from "framer-motion";
@@ -22,7 +21,7 @@ export default function ProfilePage() {
     { label: "Quiz complétés", value: progress.completedQuizzes.length, icon: "📝", color: "text-blue-400" },
     { label: "Diamants", value: progress.crystals, icon: "💎", color: "text-cyan" },
     { label: "Série", value: `${progress.streak}j`, icon: "🔥", color: "text-orange-400" },
-    { label: "Neurones", value: `${progress.neurones}/5`, icon: "🧠", color: "text-rose-400" },
+    { label: "Étoiles", value: `${progress.stars}/5`, icon: "⭐", color: "text-rose-400" },
     { label: "Niveau", value: progress.level, icon: "⚡", color: "text-violet" },
   ];
 
@@ -125,7 +124,14 @@ export default function ProfilePage() {
           ) : (
             <>
               <div className="flex items-center justify-center md:justify-start gap-4">
-                <h1 className="text-4xl font-space font-extrabold tracking-tighter">{progress.pseudo}</h1>
+                <h1 className={`text-4xl font-space font-extrabold tracking-tighter
+                  ${progress.selectedPseudoEffect === "pseudo_rainbow" ? "animate-rainbow bg-clip-text text-transparent bg-[length:200%_auto] bg-gradient-to-r from-red-500 via-yellow-500 via-green-500 via-blue-500 to-purple-500" : ""}
+                  ${progress.selectedPseudoEffect === "pseudo_neon" ? "text-cyan-400 drop-shadow-[0_0_8px_rgba(34,211,238,0.8)] animate-pulse" : ""}
+                  ${progress.selectedPseudoEffect === "pseudo_fire" ? "text-orange-500 drop-shadow-[0_0_8px_rgba(249,115,22,0.8)] bg-clip-text text-transparent bg-gradient-to-t from-red-600 via-orange-500 to-yellow-400" : ""}
+                  ${progress.selectedPseudoEffect === "pseudo_frozen" ? "text-blue-200 drop-shadow-[0_0_10px_rgba(191,219,254,0.8)] italic" : ""}
+                `}>
+                  {progress.pseudo}
+                </h1>
                 <div className="flex gap-2">
                   <button onClick={() => setIsEditing(true)} className="w-8 h-8 glass flex items-center justify-center rounded-full hover:bg-white/10 transition-colors" title="Modifier le profil">✏️</button>
                   <Link href="/reglages" className="w-8 h-8 glass flex items-center justify-center rounded-full hover:bg-white/10 transition-colors" title="Paramètres">⚙️</Link>
@@ -134,7 +140,7 @@ export default function ProfilePage() {
               {progress.selectedTitle && (
                 <div className="text-xs font-black text-primary uppercase tracking-widest">{progress.selectedTitle}</div>
               )}
-              <p className="text-foreground/60 font-medium italic">"{progress.bio}"</p>
+              <p className="text-foreground/60 font-medium italic">&quot;{progress.bio}&quot;</p>
               
               <div className="flex flex-wrap justify-center md:justify-start gap-3 pt-2">
                  <div className="bg-primary/20 text-primary px-4 py-1.5 rounded-full text-xs font-bold border border-primary/30 uppercase tracking-widest">
@@ -207,6 +213,66 @@ export default function ProfilePage() {
           </motion.div>
         ))}
       </div>
+
+      {/* Sélection Cosmétiques */}
+      <section className="glass p-8 border-violet/10">
+        <h2 className="text-2xl font-space font-black mb-6 flex items-center gap-3 text-violet uppercase italic">
+          <span>✨</span> Personnalisation
+        </h2>
+        
+        <div className="space-y-6">
+          {/* Effets de pseudo */}
+          <div>
+             <h3 className="text-[10px] font-black uppercase tracking-widest opacity-40 mb-3">Effets de pseudo</h3>
+             <div className="flex flex-wrap gap-2">
+                <button 
+                  onClick={() => updateProfile({ selectedPseudoEffect: "" })}
+                  className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${!progress.selectedPseudoEffect ? 'bg-primary text-white shadow-lg' : 'bg-foreground/5 opacity-50'}`}
+                >
+                  Aucun
+                </button>
+                {progress.unlockedPseudoEffects.map(id => (
+                  <button 
+                    key={id}
+                    onClick={() => updateProfile({ selectedPseudoEffect: id })}
+                    className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${progress.selectedPseudoEffect === id ? 'bg-primary text-white shadow-lg' : 'bg-foreground/5 hover:bg-foreground/10'}`}
+                  >
+                    {id === "pseudo_rainbow" && "Arc-en-ciel 🌈"}
+                    {id === "pseudo_neon" && "Néon ⚡"}
+                    {id === "pseudo_fire" && "Brasier 🔥"}
+                    {id === "pseudo_frozen" && "Glace 🧊"}
+                  </button>
+                ))}
+             </div>
+          </div>
+
+          <div className="h-px bg-foreground/5"></div>
+
+          {/* Autres cosmétiques (déjà debloqués mais non équipés) */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+             <div>
+                <h3 className="text-[10px] font-black uppercase tracking-widest opacity-40 mb-3">Bannières</h3>
+                <div className="flex flex-wrap gap-2">
+                  {progress.unlockedBanners.map(id => (
+                    <button key={id} onClick={() => updateProfile({ profileBanner: id })} className={`px-3 py-1.5 rounded-lg text-[10px] font-black uppercase border transition-all ${progress.profileBanner === id ? 'border-primary bg-primary/10 text-primary' : 'border-transparent bg-foreground/5'}`}>
+                      {id.replace('banner_', '')}
+                    </button>
+                  ))}
+                </div>
+             </div>
+             <div>
+                <h3 className="text-[10px] font-black uppercase tracking-widest opacity-40 mb-3">Cadres</h3>
+                <div className="flex flex-wrap gap-2">
+                  {progress.unlockedFrames.map(id => (
+                    <button key={id} onClick={() => updateProfile({ profileFrame: id })} className={`px-3 py-1.5 rounded-lg text-[10px] font-black uppercase border transition-all ${progress.profileFrame === id ? 'border-primary bg-primary/10 text-primary' : 'border-transparent bg-foreground/5'}`}>
+                      {id.replace('frame_', '')}
+                    </button>
+                  ))}
+                </div>
+             </div>
+          </div>
+        </div>
+      </section>
 
       {/* Succès */}
       <section className="glass p-10 border-primary/10 shadow-2xl relative overflow-hidden bg-white/40">

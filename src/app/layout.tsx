@@ -8,6 +8,7 @@ import { ProgressProvider } from "@/context/ProgressContext";
 import ChestModal from "@/components/ChestModal";
 import { ToastProvider } from "@/components/Toast";
 import MusicPlayer from "@/components/MusicPlayer";
+import MobileOverlay from "@/components/MobileOverlay";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space" });
@@ -35,6 +36,7 @@ export default function RootLayout({
             <Navbar />
             <ChestModal />
             <MusicPlayer />
+            <MobileOverlay />
             <div className="flex-1 p-4 md:p-8 scroll-smooth pb-24 md:pb-8">
               {children}
             </div>

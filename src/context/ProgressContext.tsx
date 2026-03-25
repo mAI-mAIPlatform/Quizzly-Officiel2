@@ -20,8 +20,8 @@ type UserProgress = {
   quests: Quest[];
   passTier: number;
   lastPlayDate: string | null;
-  neurones: number;
-  lastNeuroneRegen: string | null;
+  stars: number;
+  lastStarRegen: string | null;
   pseudo: string;
   bio: string;
   avatar: string;
@@ -60,6 +60,14 @@ type UserProgress = {
   streakDays: string[]; // ISO dates of streak days
   history: { id: string; date: string; type: 'classic' | 'ranked' | 'survival' | 'duel' | 'blitz' | 'vrai_faux' | 'visuel'; score: number; maxScore: number; title: string }[];
   selectedTheme: string;
+  // v0.9.7.1 additions
+  selectedPseudoEffect: string;
+  unlockedPseudoEffects: string[];
+  activeBoosters: { id: string; multiplier: number; expiresAt: string }[];
+  lastDailyQuizDate: string | null;
+  weeklyXP: number;
+  league: 'Débutant' | 'Apprenti' | 'Étudiant' | 'Nouveau' | 'Intello' | 'HPI' | 'Savant' | 'Expert' | 'Génie';
+  lastWeeklyReset: string | null;
 };
 
 type ProgressContextType = {
@@ -69,11 +77,11 @@ type ProgressContextType = {
   markQuizCompleted: (quizId: string, matiereId: string) => void;
   isQuizCompleted: (quizId: string) => boolean;
   claimQuestReward: (questId: string) => void;
-  useNeurone: () => boolean;
-  buyNeurones: (amount: number, cost: number) => boolean;
+  useStar: () => boolean;
+  buyStars: (amount: number, cost: number) => boolean;
   buyCosmetic: (type: 'avatar' | 'theme', id: string, cost: number) => boolean;
   claimPassReward: (tier: number) => void;
-  updateProfile: (data: Partial<{ pseudo: string; bio: string; avatar: string; selectedClass: string }>) => void;
+  updateProfile: (data: Partial<UserProgress>) => void;
   buyBooster: (multiplier: number, cost: number) => boolean;
   unlockAchievement: (id: string) => void;
   addFriend: (pseudo: string) => void;
@@ -90,7 +98,6 @@ type ProgressContextType = {
   updateWeekendQuest: () => void;
   activeChest: { type: string; isOpen: boolean } | null;
   closeChest: () => void;
-  // v0.9.4
   claimDailyReward: () => boolean;
   buyRandomChest: (cost: number) => boolean;
   updateSettings: (s: Partial<{ musicEnabled: boolean; soundEnabled: boolean }>) => void;
@@ -99,7 +106,11 @@ type ProgressContextType = {
   buyBanner: (id: string, cost: number) => boolean;
   buyEffect: (id: string, cost: number) => boolean;
   buyMascot: (id: string, cost: number) => boolean;
+  buyShield: (days: number, cost: number) => boolean;
+  buyCustomBooster: (multiplier: number, minutes: number, cost: number) => boolean;
+  buyPseudoEffect: (id: string, cost: number) => boolean;
   addHistoryEntry: (entry: { id: string; type: 'classic' | 'ranked' | 'survival' | 'duel' | 'blitz' | 'vrai_faux' | 'visuel'; score: number; maxScore: number; title: string }) => void;
+  completeDailyQuiz: () => boolean;
 };
 
 const defaultQuests: Quest[] = [
@@ -119,8 +130,8 @@ const defaultProgress: UserProgress = {
   quests: defaultQuests,
   passTier: 1,
   lastPlayDate: null,
-  neurones: 5,
-  lastNeuroneRegen: null,
+  stars: 5,
+  lastStarRegen: null,
   pseudo: "Apprenti Quizzly",
   bio: "Prêt à apprendre !",
   avatar: "🦁",
@@ -158,6 +169,13 @@ const defaultProgress: UserProgress = {
   streakDays: [],
   history: [],
   selectedTheme: "light",
+  selectedPseudoEffect: "",
+  unlockedPseudoEffects: [],
+  activeBoosters: [],
+  lastDailyQuizDate: null,
+  weeklyXP: 0,
+  league: 'Débutant',
+  lastWeeklyReset: null,
 };
 
 const ProgressContext = createContext<ProgressContextType | undefined>(undefined);
@@ -179,21 +197,21 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
       }
     }
     
-    // Check for neurone regeneration
+    // Check for star regeneration
     const checkRegen = () => {
       const now = Date.now();
       const saved = localStorage.getItem("quizzly_progress");
       
       if (saved) {
         const currentProgress = JSON.parse(saved);
-        if (currentProgress.neurones < 5) {
-          const lastTime = currentProgress.lastNeuroneRegen ? new Date(currentProgress.lastNeuroneRegen).getTime() : now;
+        if (currentProgress.stars < 5) {
+          const lastTime = currentProgress.lastStarRegen ? new Date(currentProgress.lastStarRegen).getTime() : now;
           const diffMs = now - lastTime;
-          const neuronesToAdd = Math.floor(diffMs / (30 * 60 * 1000)); // 1 neurone toutes les 30 min pour tester (au lieu de 2h)
+          const starsToAdd = Math.floor(diffMs / (30 * 60 * 1000)); // 1 étoile toutes les 30 min
           
-          if (neuronesToAdd > 0) {
-            currentProgress.neurones = Math.min(5, currentProgress.neurones + neuronesToAdd);
-            currentProgress.lastNeuroneRegen = new Date(now).toISOString();
+          if (starsToAdd > 0) {
+            currentProgress.stars = Math.min(5, currentProgress.stars + starsToAdd);
+            currentProgress.lastStarRegen = new Date(now).toISOString();
             setProgress(currentProgress);
             localStorage.setItem("quizzly_progress", JSON.stringify(currentProgress));
           }
@@ -202,10 +220,62 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     };
 
     checkRegen();
+
+    // Check for expired boosters
+    const checkBoosters = () => {
+      const now = new Date();
+      setProgress(prev => {
+        if (prev.activeBoosters.length === 0) return prev;
+        const validBoosters = prev.activeBoosters.filter(b => new Date(b.expiresAt) > now);
+        if (validBoosters.length === prev.activeBoosters.length) return prev;
+        
+        // Update xpBoost based on highest remaining multiplier
+        const maxMult = validBoosters.reduce((max, b) => Math.max(max, b.multiplier), 1);
+        const updated = { ...prev, activeBoosters: validBoosters, xpBoost: maxMult };
+        localStorage.setItem("quizzly_progress", JSON.stringify(updated));
+        return updated;
+      });
+    };
+
+    checkBoosters();
+    const boosterInt = setInterval(checkBoosters, 10000); // Every 10s
+
     const interval = setInterval(checkRegen, 60000); // Check every minute
-    
+
+    // Check for weekly reset (Monday 00:00)
+    const checkWeeklyReset = () => {
+      const saved = localStorage.getItem("quizzly_progress");
+      if (saved) {
+        const currentProgress = JSON.parse(saved);
+        const lastReset = currentProgress.lastWeeklyReset ? new Date(currentProgress.lastWeeklyReset) : new Date(0);
+        const now = new Date();
+        
+        // Find last monday
+        const lastMonday = new Date(now);
+        lastMonday.setDate(now.getDate() - ((now.getDay() + 6) % 7));
+        lastMonday.setHours(0, 0, 0, 0);
+
+        if (lastReset < lastMonday) {
+          currentProgress.weeklyXP = 0;
+          currentProgress.lastWeeklyReset = now.toISOString();
+          // League doesn't reset, but weeklyXP does. 
+          // One could argue league should drop? User said "classe chaque semaine".
+          // We'll keep the league reached but reset the race.
+          setProgress(currentProgress);
+          localStorage.setItem("quizzly_progress", JSON.stringify(currentProgress));
+        }
+      }
+    };
+
+    checkWeeklyReset();
+    const weeklyResetInt = setInterval(checkWeeklyReset, 3600000); // Every hour
+
     setIsLoaded(true);
-    return () => clearInterval(interval);
+    return () => {
+      if (interval) clearInterval(interval);
+      if (boosterInt) clearInterval(boosterInt);
+      if (weeklyResetInt) clearInterval(weeklyResetInt);
+    };
   }, []);
 
   // Update document root theme attribute
@@ -230,6 +300,21 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
       
       const newProgress = { ...prev, xp: newXP, level: newLevel, crystals: newCrystals };
       
+      // Update weekly XP
+      newProgress.weeklyXP = (prev.weeklyXP || 0) + finalAmount;
+
+      // League logic (simplified threshold for demo)
+      const thresholds: { [key: string]: number } = {
+        'Débutant': 0, 'Apprenti': 500, 'Étudiant': 1500, 'Nouveau': 3000, 
+        'Intello': 5000, 'HPI': 8000, 'Savant': 12000, 'Expert': 18000, 'Génie': 25000
+      };
+      
+      let nextLeague = newProgress.league;
+      Object.entries(thresholds).forEach(([name, val]) => {
+        if (newProgress.weeklyXP >= val) nextLeague = name as UserProgress['league'];
+      });
+      newProgress.league = nextLeague;
+
       // Mini-logique pour le Pass (Tous les 200 XP cumulés - Max 30 paliers)
       const totalXPCumulated = newXP + (newLevel - 1) * 100;
       newProgress.passTier = Math.min(30, Math.floor(totalXPCumulated / 200) + 1);
@@ -263,12 +348,26 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
           if (diffDays === 1) {
             updated.streak += 1;
           } else if (diffDays > 1) {
-            updated.streak = 1;
+            // Check for shields
+            const shieldsNeeded = diffDays - 1;
+            if (updated.shields >= shieldsNeeded) {
+              updated.shields -= shieldsNeeded;
+              updated.streak += 1; // Protected!
+            } else {
+              updated.shields = 0;
+              updated.streak = 1;
+            }
           }
         } else {
           updated.streak = 1;
         }
         updated.lastPlayDate = today;
+
+        // Récompense tous les 30 jours
+        if (updated.streak > 0 && updated.streak % 30 === 0) {
+          updated.stars = Math.min(5, (updated.stars || 0) + 1);
+          updated.crystals += 5;
+        }
       }
 
       // Mettre à jour les quêtes
@@ -309,13 +408,13 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     });
   };
 
-  const useNeurone = () => {
-    if (progress.neurones <= 0) return false;
+  const useStar = () => {
+    if (progress.stars <= 0) return false;
     setProgress(prev => {
       const updated = { 
         ...prev, 
-        neurones: prev.neurones - 1,
-        lastNeuroneRegen: prev.neurones === 5 ? new Date().toISOString() : prev.lastNeuroneRegen 
+        stars: (prev.stars || 0) - 1,
+        lastStarRegen: prev.stars === 5 ? new Date().toISOString() : prev.lastStarRegen 
       };
       localStorage.setItem("quizzly_progress", JSON.stringify(updated));
       return updated;
@@ -323,13 +422,13 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     return true;
   };
 
-  const buyNeurones = (amount: number, cost: number) => {
+  const buyStars = (amount: number, cost: number) => {
     if (progress.crystals < cost) return false;
     setProgress(prev => {
       const updated = { 
         ...prev, 
         crystals: prev.crystals - cost,
-        neurones: Math.min(5, prev.neurones + amount)
+        stars: Math.min(5, (prev.stars || 0) + amount)
       };
       localStorage.setItem("quizzly_progress", JSON.stringify(updated));
       return updated;
@@ -337,7 +436,7 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     return true;
   };
 
-  const updateProfile = (data: Partial<{ pseudo: string; bio: string; avatar: string; selectedClass: string }>) => {
+  const updateProfile = (data: Partial<UserProgress>) => {
     setProgress(prev => {
       const updated = { ...prev, ...data };
       localStorage.setItem("quizzly_progress", JSON.stringify(updated));
@@ -392,32 +491,32 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
       const rewards30: { [key: number]: () => void } = {
         1: () => updated.crystals += 50,
         2: () => updated.unlockedTitles.push("Major de Promo"),
-        3: () => updated.neurones = Math.min(5, updated.neurones + 1),
+        3: () => updated.stars = Math.min(5, (updated.stars || 0) + 1),
         4: () => updated.unlockedAvatars.push("🎓"),
         5: () => updated.crystals += 100,
         6: () => updated.xpBoost = 1.5,
         7: () => updated.unlockedTitles.push("Petit Génie"),
-        8: () => updated.neurones = Math.min(5, updated.neurones + 1),
+        8: () => updated.stars = Math.min(5, (updated.stars || 0) + 1),
         9: () => updated.crystals += 150,
         10: () => updated.unlockedAvatars.push("🧠"),
         11: () => updated.unlockedTitles.push("Chercheur"),
         12: () => updated.crystals += 200,
-        13: () => updated.neurones = Math.min(5, updated.neurones + 1),
+        13: () => updated.stars = Math.min(5, (updated.stars || 0) + 1),
         14: () => updated.unlockedAvatars.push("🦉"),
         15: () => updated.unlockedTitles.push("Expert"),
         16: () => updated.crystals += 250,
         17: () => updated.xpBoost = 2,
-        18: () => updated.neurones = Math.min(5, updated.neurones + 1),
+        18: () => updated.stars = Math.min(5, (updated.stars || 0) + 1),
         19: () => updated.crystals += 300,
         20: () => updated.unlockedAvatars.push("🦁"),
         21: () => updated.unlockedTitles.push("Maître"),
         22: () => updated.crystals += 400,
-        23: () => updated.neurones = Math.min(5, updated.neurones + 1),
+        23: () => updated.stars = Math.min(5, (updated.stars || 0) + 1),
         24: () => updated.unlockedAvatars.push("🐉"),
         25: () => updated.unlockedTitles.push("Légende"),
         26: () => updated.crystals += 500,
         27: () => updated.xpBoost = 3,
-        28: () => updated.neurones = Math.min(5, updated.neurones + 1),
+        28: () => updated.stars = Math.min(5, (updated.stars || 0) + 1),
         29: () => updated.crystals += 1000,
         30: () => updated.unlockedAvatars.push("👑"),
       };
@@ -650,6 +749,38 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
   const buyEffect = (id: string, cost: number) => buyGenericCosmetic("selectedEffect", "unlockedEffects", id, cost);
   const buyMascot = (id: string, cost: number) => buyGenericCosmetic("selectedMascot", "unlockedMascots", id, cost);
 
+  const buyShield = (days: number, cost: number) => {
+    if (progress.crystals < cost) return false;
+    setProgress(prev => {
+      const updated = { ...prev, crystals: prev.crystals - cost, shields: prev.shields + days };
+      localStorage.setItem("quizzly_progress", JSON.stringify(updated));
+      return updated;
+    });
+    return true;
+  };
+
+  const buyCustomBooster = (multiplier: number, minutes: number, cost: number) => {
+    if (progress.crystals < cost) return false;
+    setProgress(prev => {
+      const expiresAt = new Date(Date.now() + minutes * 60 * 1000).toISOString();
+      const newBooster = { id: `boost_${Date.now()}`, multiplier, expiresAt };
+      const updatedBoosters = [...prev.activeBoosters, newBooster];
+      const maxMult = updatedBoosters.reduce((max, b) => Math.max(max, b.multiplier), Math.max(prev.xpBoost, multiplier));
+      
+      const updated = { 
+        ...prev, 
+        crystals: prev.crystals - cost, 
+        activeBoosters: updatedBoosters, 
+        xpBoost: maxMult 
+      };
+      localStorage.setItem("quizzly_progress", JSON.stringify(updated));
+      return updated;
+    });
+    return true;
+  };
+
+  const buyPseudoEffect = (id: string, cost: number) => buyGenericCosmetic("selectedPseudoEffect", "unlockedPseudoEffects", id, cost);
+
   const addHistoryEntry = (entry: { id: string; type: 'classic' | 'ranked' | 'survival' | 'duel' | 'blitz' | 'vrai_faux' | 'visuel'; score: number; maxScore: number; title: string }) => {
     setProgress(prev => {
       const historyEntry = { ...entry, date: new Date().toISOString() };
@@ -657,6 +788,17 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
       localStorage.setItem("quizzly_progress", JSON.stringify(updated));
       return updated;
     });
+  };
+
+  const completeDailyQuiz = () => {
+    const today = new Date().toISOString().split('T')[0];
+    if (progress.lastDailyQuizDate === today) return false;
+    setProgress(prev => {
+      const updated = { ...prev, lastDailyQuizDate: today };
+      localStorage.setItem("quizzly_progress", JSON.stringify(updated));
+      return updated;
+    });
+    return true;
   };
 
   if (!isLoaded) return <div className="min-h-screen bg-background text-foreground flex items-center justify-center font-bold">Chargement de ton cerveau... 🧠</div>;
@@ -669,8 +811,8 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
       markQuizCompleted, 
       isQuizCompleted, 
       claimQuestReward,
-      useNeurone,
-      buyNeurones,
+      useStar,
+      buyStars,
       buyCosmetic,
       claimPassReward,
       updateProfile,
@@ -698,7 +840,11 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
       buyBanner,
       buyEffect,
       buyMascot,
+      buyShield,
+      buyCustomBooster,
+      buyPseudoEffect,
       addHistoryEntry,
+      completeDailyQuiz,
     }}>
       {children}
     </ProgressContext.Provider>

@@ -1,15 +1,21 @@
 "use client";
 
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import Link from "next/link";
 import QuizEngine from "@/components/quiz/QuizEngine";
 import { allVraiFauxQuizzes } from "@/data/vrai_faux/allVraiFauxQuizzes";
 
-export default function VraiFauxPage() {
-  const [currentQuiz, setCurrentQuiz] = useState<any>(null);
+interface Quiz {
+  id: string;
+  titre: string;
+  questions: unknown[];
+}
 
-  const startQuiz = (quiz: any) => {
+export default function VraiFauxPage() {
+  const [currentQuiz, setCurrentQuiz] = useState<Quiz | null>(null);
+
+  const startQuiz = (quiz: Quiz) => {
     setCurrentQuiz(quiz);
   };
 

@@ -5,17 +5,20 @@
 import { useProgress } from "@/context/ProgressContext";
 import { useToast } from "@/components/Toast";
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 export default function BoutiquePage() {
-  const { progress, buyNeurones, buyCosmetic, buyPassPro, buyBooster, buyChest, claimDailyReward, buyRandomChest, buyFrame, buyBanner, buyEffect, buyMascot } = useProgress();
+  const { progress, buyStars, buyCosmetic, buyPassPro, buyBooster, buyChest, claimDailyReward, buyRandomChest, buyFrame, buyBanner, buyEffect, buyMascot, buyShield, buyCustomBooster, buyPseudoEffect } = useProgress();
   const { showToast } = useToast();
+  const [customMultiplier, setCustomMultiplier] = useState(1.5);
+  const [customMinutes, setCustomMinutes] = useState(15);
 
   const today = new Date().toISOString().split('T')[0];
   const canClaimDaily = progress.lastDailyRewardDate !== today;
 
   const packs = [
-    { id: "n1", name: "1 Neurone", price: 50, amount: 1, icon: "🧠", color: "from-rose-400 to-rose-600" },
-    { id: "n5", name: "Pack 5 Neurones", price: 200, amount: 5, icon: "🧠🧠", color: "from-rose-500 to-red-600" },
+    { id: "n1", name: "1 Étoile", price: 50, amount: 1, icon: "⭐", color: "from-rose-400 to-rose-600" },
+    { id: "n5", name: "Pack 5 Étoiles", price: 200, amount: 5, icon: "⭐", color: "from-rose-500 to-red-600" },
   ];
 
   const boosterItems = [
@@ -75,6 +78,19 @@ export default function BoutiquePage() {
     { id: "mascot_dragon", name: "Baby Dragon", price: 600, icon: "🐲", color: "from-red-400 to-orange-600" },
     { id: "mascot_unicorn", name: "Mini Licorne", price: 700, icon: "🦄", color: "from-pink-300 to-fuchsia-500" },
   ];
+  
+  const pseudoEffectItems = [
+    { id: "pseudo_rainbow", name: "Arc-en-ciel", price: 250, icon: "🌈", color: "from-red-400 via-green-400 to-blue-400" },
+    { id: "pseudo_neon", name: "Néon Cyber", price: 200, icon: "⚡", color: "from-cyan-400 to-blue-600" },
+    { id: "pseudo_fire", name: "Brasier", price: 300, icon: "🔥", color: "from-orange-400 to-red-600" },
+    { id: "pseudo_frozen", name: "Glace", price: 200, icon: "🧊", color: "from-blue-200 to-cyan-300" },
+  ];
+
+  const shieldItems = [
+    { id: "shield_1", days: 1, name: "Bouclier 1j", price: 25, icon: "🛡️", color: "from-slate-400 to-slate-600" },
+    { id: "shield_3", days: 3, name: "Bouclier 3j", price: 60, icon: "🛡️🛡️", color: "from-blue-400 to-blue-600" },
+    { id: "shield_7", days: 7, name: "Bouclier 7j", price: 120, icon: "🔱", color: "from-amber-400 to-orange-600" },
+  ];
 
   const themeItems = [
     { id: "premium-dark", type: 'theme', name: "Dark Premium", price: 500, icon: "🌙", color: "from-slate-800 to-slate-900" },
@@ -96,8 +112,8 @@ export default function BoutiquePage() {
       return;
     }
     if (item.id.startsWith('n')) {
-      const success = buyNeurones(item.amount, item.price);
-      if (success) showToast("Neurones achetés ! 🧠", "success");
+      const success = buyStars(item.amount, item.price);
+      if (success) showToast("Étoiles achetées ! ⭐", "success");
       else showToast("Pas assez de diamants ! 💎", "error");
     } else {
       const success = buyCosmetic(item.type, item.id, item.price);
@@ -191,7 +207,8 @@ export default function BoutiquePage() {
       {/* Energy & Boosters */}
       <section className="space-y-8">
         <h2 className="text-3xl font-space font-black flex items-center gap-4 tracking-tight">
-          <span className="p-3 bg-rose/10 rounded-2xl">🧠</span> Énergie & Boosters
+          <span className="p-3 bg-rose/10 rounded-2xl">⭐</span> Énergie & Boosters
+          <span className="text-[10px] bg-rose text-white px-2 py-0.5 rounded-full font-black animate-pulse">NOUVEAU</span>
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {packs.map((item) => (
@@ -207,9 +224,64 @@ export default function BoutiquePage() {
                 else showToast("Pas assez de diamants ! 💎", "error");
               }}
               crystals={progress.crystals}
-              isOwned={progress.xpBoost === item.multiplier}
+              isOwned={progress.xpBoost === item.multiplier && progress.activeBoosters.length > 0}
             />
           ))}
+
+          {/* Booster Personnalisé */}
+          <motion.div className="glass p-6 border-violet/20 bg-violet/5 flex flex-col gap-4 relative overflow-hidden group col-span-1 sm:col-span-2 lg:col-span-1">
+             <div className="absolute top-0 right-0 p-2 bg-violet text-white text-[8px] font-black uppercase tracking-widest rounded-bl-xl">Custom</div>
+             <div className="flex items-center gap-4">
+                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-violet to-primary flex items-center justify-center text-3xl shadow-lg">⚡</div>
+                <div>
+                  <h3 className="font-space font-black text-lg leading-none">Booster Perso</h3>
+                  <p className="text-[10px] opacity-50 uppercase font-black mt-1">Configure ton boost</p>
+                </div>
+             </div>
+             
+             <div className="space-y-3">
+                <div className="flex justify-between items-center text-[10px] font-black uppercase opacity-60">
+                   <span>Multiplicateur</span>
+                   <span className="text-violet">x{customMultiplier}</span>
+                </div>
+                <input type="range" min="1.5" max="5" step="0.5" value={customMultiplier} onChange={(e) => setCustomMultiplier(parseFloat(e.target.value))} className="w-full h-1.5 bg-violet/20 rounded-full appearance-none accent-violet" />
+                
+                <div className="flex justify-between items-center text-[10px] font-black uppercase opacity-60">
+                   <span>Durée (min)</span>
+                   <span className="text-violet">{customMinutes}m</span>
+                </div>
+                <input type="range" min="15" max="120" step="15" value={customMinutes} onChange={(e) => setCustomMinutes(parseInt(e.target.value))} className="w-full h-1.5 bg-violet/20 rounded-full appearance-none accent-violet" />
+             </div>
+
+             <button 
+                onClick={() => {
+                  const cost = Math.floor(customMultiplier * customMinutes * 0.5); // Degressive/Custom cost logic
+                  const ok = buyCustomBooster(customMultiplier, customMinutes, cost);
+                  if (ok) showToast(`Booster x${customMultiplier} activé pour ${customMinutes}m ! ⚡`, "success");
+                  else showToast("Pas assez de diamants ! 💎", "error");
+                }}
+                disabled={progress.crystals < Math.floor(customMultiplier * customMinutes * 0.5)}
+                className="w-full py-3 bg-violet text-white rounded-2xl font-black text-xs hover:scale-105 transition-all flex items-center justify-center gap-2"
+             >
+                ACTIVER ({Math.floor(customMultiplier * customMinutes * 0.5)} 💎)
+             </button>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Boucliers de série */}
+      <section className="space-y-8">
+        <h2 className="text-3xl font-space font-black flex items-center gap-4 tracking-tight">
+          <span className="p-3 bg-slate-500/10 text-slate-500 rounded-2xl">🛡️</span> Boucliers de Série
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+           {shieldItems.map(item => (
+             <BoutiqueItem key={item.id} item={{ ...item, type: 'shield' }} onBuy={() => {
+               const ok = buyShield(item.days, item.price);
+               if (ok) showToast(`Bouclier ${item.days}j ajouté ! 🛡️`, "success");
+               else showToast("Pas assez de diamants ! 💎", "error");
+             }} crystals={progress.crystals} />
+           ))}
         </div>
       </section>
 
@@ -259,6 +331,13 @@ export default function BoutiquePage() {
               else showToast("Pas assez de diamants ! 💎", "error");
             }} crystals={progress.crystals} isOwned={progress.unlockedMascots.includes(item.id)} />
           ))}
+          {pseudoEffectItems.map(item => (
+            <BoutiqueItem key={item.id} item={{ ...item, type: 'pseudo_effect' }} onBuy={() => {
+              const ok = buyPseudoEffect(item.id, item.price);
+              if (ok) showToast(`Effet ${item.name} débloqué ! ✨`, "success");
+              else showToast("Pas assez de diamants ! 💎", "error");
+            }} crystals={progress.crystals} isOwned={progress.unlockedPseudoEffects.includes(item.id)} />
+          ))}
         </div>
       </section>
 
@@ -305,7 +384,7 @@ export default function BoutiquePage() {
   );
 }
 
-function BoutiqueItem({ item, onBuy, crystals, isOwned = false }: any) {
+function BoutiqueItem({ item, onBuy, crystals, isOwned = false }: { item: any; onBuy: (item: any) => void; crystals: number; isOwned?: boolean }) {
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.9 }}

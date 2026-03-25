@@ -18,13 +18,25 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
   const [score, setScore] = useState(0);
   const [combo, setCombo] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
-  const { addXP, markQuizCompleted, isQuizCompleted, progress: userProgress, useNeurone: consumeNeurone, sendMessage, addHistoryEntry } = useProgress();
+  const [finishStep, setFinishStep] = useState<'results' | 'flame' | 'quests'>('results');
+  const { addXP, markQuizCompleted, isQuizCompleted, progress: userProgress, useStar: consumeStar, sendMessage, addHistoryEntry, completeDailyQuiz } = useProgress();
   const hasSavedHistory = useRef(false);
+
+  const encouragementsCorrect = [
+    "Excellent !", "Impérial !", "Bravo !", "Incroyable !", "Quel talent !", 
+    "Tu gères !", "Parfait !", "Magnifique !", "Génie !", "Trop fort !"
+  ];
+  const encouragementsWrong = [
+    "Oups...", "Pas loin !", "Dommage...", "Presque !", "Concentre-toi !",
+    "BOOM ! Perdu...", "Aïe !", "Raté !", "Réessaie !", "Courage !"
+  ];
+
+  const [currentEncouragement, setCurrentEncouragement] = useState("");
 
   // État de la réponse en cours
   const [hasAnswered, setHasAnswered] = useState(false);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
-  const [hasLostNeurone, setHasLostNeurone] = useState(false);
+  const [hasLostStar, setHasLostStar] = useState(false);
 
   useEffect(() => {
     if (isFinished && onComplete) {
@@ -41,8 +53,10 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
     if (correct) {
       setScore(s => s + 1);
       setCombo(c => c + 1);
+      setCurrentEncouragement(encouragementsCorrect[Math.floor(Math.random() * encouragementsCorrect.length)]);
     } else {
       setCombo(0);
+      setCurrentEncouragement(encouragementsWrong[Math.floor(Math.random() * encouragementsWrong.length)]);
       if (isSurvival) {
         // En mode survie, une erreur = fin immédiate après un petit délai pour voir la croix
         setTimeout(() => setIsFinished(true), 1500);
@@ -95,9 +109,9 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
         });
       }
 
-      if (!isSuccess && !hasLostNeurone) {
-        consumeNeurone();
-        setHasLostNeurone(true);
+      if (!isSuccess && !hasLostStar) {
+        consumeStar();
+        setHasLostStar(true);
       }
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -174,12 +188,20 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 w-full max-w-sm px-6">
-          <Link 
-            href={backUrl}
+          <button 
+            onClick={() => {
+              const today = new Date().toISOString().split('T')[0];
+              if (userProgress.lastDailyQuizDate !== today) {
+                setFinishStep('flame');
+                completeDailyQuiz();
+              } else {
+                setFinishStep('quests');
+              }
+            }}
             className="flex-1 px-8 py-5 bg-primary text-white font-black rounded-3xl hover:scale-105 transition-all font-space text-sm uppercase tracking-widest shadow-xl shadow-primary/20 flex items-center justify-center italic"
           >
             Continuer 🚀
-          </Link>
+          </button>
           <button 
             onClick={() => {
               const tribeId = userProgress.tribes[0]?.id || 'social_feed';
@@ -192,6 +214,74 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
             Partager 📣
           </button>
         </div>
+      </div>
+    );
+  }
+
+  if (isFinished && finishStep === 'flame') {
+    return (
+      <div className="flex flex-col items-center justify-center h-full text-center py-20 animate-in fade-in zoom-in duration-500">
+        <motion.div 
+          animate={{ scale: [1, 1.2, 1], rotate: [0, 10, -10, 0] }}
+          transition={{ repeat: Infinity, duration: 2 }}
+          className="text-9xl mb-10 drop-shadow-[0_0_50px_rgba(249,115,22,0.8)]"
+        >
+          🔥
+        </motion.div>
+        <h2 className="text-5xl font-space font-black mb-4 tracking-tighter uppercase italic text-orange-500">Quiz Quotidien !</h2>
+        <p className="text-xl font-bold opacity-70 mb-12">Ta série de {userProgress.streak} jours continue ! ✨</p>
+        
+        <button 
+          onClick={() => setFinishStep('quests')}
+          className="px-12 py-6 bg-orange-500 text-white font-black rounded-3xl hover:scale-110 transition-all font-space text-lg uppercase tracking-widest shadow-2xl shadow-orange-500/30 italic"
+        >
+          Voir mes Quêtes ➜
+        </button>
+      </div>
+    );
+  }
+
+  if (isFinished && finishStep === 'quests') {
+    return (
+      <div className="flex flex-col items-center justify-center h-full text-center py-10 animate-in fade-in slide-in-from-bottom-10 duration-500 w-full max-w-lg mx-auto">
+        <h2 className="text-4xl font-space font-black mb-8 tracking-tighter uppercase italic text-primary">Progression des Quêtes</h2>
+        
+        <div className="w-full space-y-6 mb-12">
+          {userProgress.quests.map((quest, i) => (
+            <motion.div 
+              key={quest.id} 
+              initial={{ x: -50, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ delay: i * 0.2 }}
+              className="glass p-6 rounded-[2rem] border-primary/10 flex flex-col gap-3 relative overflow-hidden"
+            >
+              <div className="flex justify-between items-center mb-1">
+                <span className="font-black text-sm uppercase tracking-tight">{quest.title}</span>
+                <span className="text-xs font-black text-primary bg-primary/10 px-3 py-1 rounded-full">
+                  {quest.current} / {quest.target}
+                </span>
+              </div>
+              <div className="w-full bg-primary/5 h-4 rounded-full overflow-hidden border border-primary/10">
+                <motion.div 
+                  initial={{ width: 0 }}
+                  animate={{ width: `${Math.min(100, (quest.current / quest.target) * 100)}%` }}
+                  transition={{ duration: 1.5, ease: "easeOut", delay: 0.5 + i * 0.2 }}
+                  className={`h-full rounded-full ${quest.isCompleted ? 'bg-green' : 'bg-gradient-to-r from-primary to-cyan shadow-[0_0_10px_rgba(124,58,237,0.3)]'}`}
+                />
+              </div>
+              {quest.isCompleted && (
+                <div className="absolute top-2 right-2 text-green text-xl rotate-12">✅</div>
+              )}
+            </motion.div>
+          ))}
+        </div>
+
+        <Link 
+          href={backUrl}
+          className="px-12 py-6 bg-primary text-white font-black rounded-3xl hover:scale-110 transition-all font-space text-lg uppercase tracking-widest shadow-2xl shadow-primary/30 italic"
+        >
+          Terminer 🚀
+        </Link>
       </div>
     );
   }
@@ -209,6 +299,7 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
       <div className="flex-1 flex flex-col">
         {currentQuestion.type === "qcm" && (
           <QuestionQCM 
+            key={currentQuestion.id}
             question={currentQuestion} 
             hasAnswered={hasAnswered} 
             onValidate={handleValidate} 
@@ -216,6 +307,7 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
         )}
         {currentQuestion.type === "vrai_faux" && (
           <QuestionVraiFaux 
+            key={currentQuestion.id}
             question={currentQuestion} 
             hasAnswered={hasAnswered} 
             onValidate={handleValidate} 
@@ -223,6 +315,7 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
         )}
         {currentQuestion.type === "trous" && (
           <QuestionTrous 
+            key={currentQuestion.id}
             question={currentQuestion} 
             hasAnswered={hasAnswered} 
             onValidate={handleValidate} 
@@ -230,6 +323,7 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
         )}
         {currentQuestion.type === "relier" && (
           <QuestionRelier 
+            key={currentQuestion.id}
             question={currentQuestion} 
             hasAnswered={hasAnswered} 
             onValidate={handleValidate} 
@@ -241,8 +335,17 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
       <AnimatePresence mode="wait">
         {hasAnswered && (
           <motion.div 
-            initial={{ y: 100, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
+            animate={{ 
+              y: 0, 
+              opacity: 1,
+              x: isCorrect ? 0 : [0, -10, 10, -10, 10, 0] 
+            }}
+            transition={{ 
+              type: "spring", 
+              stiffness: 300, 
+              damping: 20,
+              x: isCorrect ? {} : { duration: 0.4 } 
+            }}
             exit={{ y: 100, opacity: 0 }}
             className={`mt-8 p-8 rounded-[2rem] shadow-2xl backdrop-blur-3xl border-2 transition-colors duration-500 ${isCorrect ? 'bg-green/20 border-green/40 shadow-green/20' : 'bg-rose/20 border-rose/40 shadow-rose/20'}`}
           >
@@ -257,19 +360,19 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
                 </motion.div>
                 <div className="text-center sm:text-left">
                   <h3 className={`font-space font-black text-2xl tracking-tighter uppercase italic ${isCorrect ? 'text-green-500' : 'text-rose-500'}`}>
-                    {isCorrect ? 'Excellent !' : 'BOOM ! Perdu...'}
+                    {currentEncouragement || (isCorrect ? 'Excellent !' : 'BOOM ! Perdu...')}
                   </h3>
                   <p className="text-xs font-bold opacity-60 uppercase tracking-widest mt-1">
-                    {isCorrect ? `Combo x${combo} ! 🔥` : 'Ta survie s\'arrête ici.'}
+                    {isCorrect ? `Combo x${combo} ! 🔥` : (isSurvival ? 'Ta survie s\'arrête ici.' : 'Concentration maximale !')}
                   </p>
                 </div>
               </div>
               
               <button 
                 onClick={handleNext}
-                className={`group px-10 py-4 rounded-2xl font-black font-space text-lg transition-all shadow-xl flex items-center gap-3 ${isCorrect ? 'bg-green text-emerald-950 shadow-green/20 hover:scale-105' : 'bg-rose text-rose-950 shadow-rose/20 hover:scale-105'}`}
+                className={`group px-10 py-4 rounded-2xl font-black font-space text-lg transition-all shadow-xl flex items-center gap-3 ${isCorrect ? 'bg-green text-emerald-950 shadow-green/20 hover:scale-105 active:scale-95' : 'bg-rose text-rose-950 shadow-rose/20 hover:scale-105 active:scale-95'}`}
               >
-                {isCorrect ? 'Continuer' : 'Voir mon score'}
+                {isCorrect ? 'Continuer' : (currentIndex < quiz.questions.length - 1 ? 'Suivant' : 'Voir mon score')}
                 <span className="group-hover:translate-x-1 transition-transform">➜</span>
               </button>
             </div>

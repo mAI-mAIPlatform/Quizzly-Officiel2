@@ -28,7 +28,7 @@ export default async function ChapitrePage({
   const normalizedNiveau = levelMap[niveau] || levelMap[niveau.toLowerCase()] || niveau;
   const dataRoot = path.resolve(process.cwd(), "src/data");
   const basePath = path.join(dataRoot, normalizedNiveau, matiereId || "maths");
-  let metadata, quizFiles = [];
+  let metadata;
   let quizzes = [];
 
   try {
@@ -62,7 +62,7 @@ export default async function ChapitrePage({
             const qStr = await fs.readFile(path.join(partDir, f), "utf8");
             quizzes.push({ ...JSON.parse(qStr), partie: i + 1 });
           }
-        } catch (e) {
+        } catch {
           // Dossier de partie absent, on ignore
         }
       }
@@ -133,7 +133,7 @@ export default async function ChapitrePage({
                 </div>
 
                 <div className="flex flex-col gap-24">
-                  {partieQuizzes.map((quiz, index) => {
+                  {partieQuizzes.map((quiz) => {
                     const globalIndex = quizzes.indexOf(quiz);
                     const isLeft = globalIndex % 2 === 0;
 

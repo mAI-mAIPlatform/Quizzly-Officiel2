@@ -26,21 +26,13 @@ export default function DuelPage() {
   useEffect(() => {
     // Connect to WebSocket server running on port 3001
     const newSocket = io("http://localhost:3001");
-    setSocket(newSocket);
+    const timeout = setTimeout(() => setSocket(newSocket), 0);
 
-    return () => {
-      newSocket.close();
-    };
-  }, []);
-
-  useEffect(() => {
-    if (!socket) return;
-
-    socket.on("queue_status", (data) => {
+    newSocket.on("queue_status", () => {
       setStatus("waiting");
     });
 
-    socket.on("match_found", (data) => {
+    newSocket.on("match_found", (data) => {
       const { roomId, quizId, opponent } = data;
       setOpponent(opponent);
       setRoomId(roomId);
@@ -50,28 +42,30 @@ export default function DuelPage() {
       setOpponentScore(0);
     });
 
-    socket.on("opponent_score", (newScore) => {
+    newSocket.on("opponent_score", (newScore) => {
       setOpponentScore(newScore);
     });
 
-    socket.on("game_over", (data) => {
+    newSocket.on("game_over", (data) => {
       setWinner(data);
       setStatus("game_over");
     });
 
-    socket.on("opponent_disconnected", () => {
-      setWinner({ winnerId: socket.id, winnerPseudo: progress.pseudo, reason: "Abandon" });
+    newSocket.on("opponent_disconnected", () => {
+      setWinner({ winnerId: newSocket.id, winnerPseudo: progress.pseudo, reason: "Abandon" });
       setStatus("game_over");
     });
 
     return () => {
-      socket.off("queue_status");
-      socket.off("match_found");
-      socket.off("opponent_score");
-      socket.off("game_over");
-      socket.off("opponent_disconnected");
+      newSocket.off("queue_status");
+      newSocket.off("match_found");
+      newSocket.off("opponent_score");
+      newSocket.off("game_over");
+      newSocket.off("opponent_disconnected");
+      newSocket.close();
+      clearTimeout(timeout);
     };
-  }, [socket, progress.pseudo]);
+  }, [progress.pseudo]);
 
   const joinQueue = () => {
     if (socket) {

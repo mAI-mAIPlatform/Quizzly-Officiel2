@@ -11,8 +11,11 @@ export default function ChestModal() {
 
   useEffect(() => {
     if (activeChest) {
-      setStep("idle");
-      setRewardDetails(null);
+      const timeout = setTimeout(() => {
+        setStep("idle");
+        setRewardDetails(null);
+      }, 0);
+      return () => clearTimeout(timeout);
     }
   }, [activeChest]);
 
