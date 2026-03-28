@@ -1,10 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import QuizEngine from "@/components/quiz/QuizEngine";
 import { allVraiFauxQuizzes } from "@/data/vrai_faux/allVraiFauxQuizzes";
+import { useSearchParams } from "next/navigation";
 
 interface Quiz {
   id: string;
@@ -13,11 +14,21 @@ interface Quiz {
 }
 
 export default function VraiFauxPage() {
+  const searchParams = useSearchParams();
   const [currentQuiz, setCurrentQuiz] = useState<Quiz | null>(null);
 
   const startQuiz = (quiz: Quiz) => {
     setCurrentQuiz(quiz);
   };
+
+  useEffect(() => {
+    const quizId = searchParams.get("quiz");
+    if (!quizId) return;
+    const matchedQuiz = allVraiFauxQuizzes.find((quiz) => quiz.id === quizId);
+    if (matchedQuiz) {
+      setCurrentQuiz(matchedQuiz);
+    }
+  }, [searchParams]);
 
   if (currentQuiz) {
     return (

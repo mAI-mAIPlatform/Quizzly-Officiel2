@@ -58,8 +58,8 @@ export default function QuestionTrous({
             className={`mx-3 inline-block w-40 text-center bg-background/50 border-b-4 border-primary/50 focus:border-primary outline-none text-primary font-bold transition-colors ${
               hasAnswered 
                 ? (question.reponsesAttendues || [question.answer]).some((ans:string) => ans && ans.toLowerCase() === inputValue.trim().toLowerCase())
-                  ? 'border-green text-green bg-green/10'
-                  : 'border-rose text-rose bg-rose/10'
+                  ? 'border-green text-green bg-gradient-to-b from-green/15 to-emerald-500/10 shadow-[0_0_18px_rgba(16,185,129,0.12)]'
+                  : 'border-rose text-rose bg-gradient-to-b from-rose/15 to-red-500/10 shadow-[0_0_18px_rgba(244,63,94,0.12)]'
                 : ''
             }`}
             autoFocus
@@ -79,7 +79,7 @@ export default function QuestionTrous({
           )}
 
           {hasAnswered && !(question.reponsesAttendues || [question.answer]).some((ans:string) => ans && ans.toLowerCase() === inputValue.trim().toLowerCase()) && (
-            <div className="mt-8 text-lg font-sans bg-rose/10 text-rose-200 border border-rose/30 p-4 rounded-xl">
+            <div className="mt-8 text-lg font-sans bg-gradient-to-br from-rose/15 to-red-500/10 text-rose-200 border border-rose/30 p-4 rounded-xl">
               La réponse attendue était : <strong className="text-rose font-bold">{(question.reponsesAttendues || [question.answer])[0]}</strong>
             </div>
           )}

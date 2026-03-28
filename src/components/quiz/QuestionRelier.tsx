@@ -97,8 +97,8 @@ export default function QuestionRelier({ question, hasAnswered, onValidate }: an
             if (hasAnswered) {
                const connectedTo = connections.find(c => c.leftId === item.id)?.rightId;
                const rightAnswerId = `r_${item.id.split('_')[1]}`;
-               if (connectedTo === rightAnswerId) stateClass = "bg-green text-green-950 border-green/50";
-               else stateClass = "bg-rose text-rose-950 border-rose/50";
+               if (connectedTo === rightAnswerId) stateClass = "bg-gradient-to-br from-green/30 via-emerald-500/15 to-cyan/10 text-green-50 border-green/50 ring-2 ring-green/40 shadow-[0_0_24px_rgba(16,185,129,0.14)]";
+               else stateClass = "bg-gradient-to-br from-rose/30 via-red-500/15 to-orange-500/10 text-rose-50 border-rose/50 ring-2 ring-rose/40 shadow-[0_0_24px_rgba(244,63,94,0.14)]";
             } else if (selectedLeft === item.id) {
                stateClass = "bg-primary text-primary-foreground scale-105 shadow-xl shadow-primary/20";
             } else if (isConnected) {
@@ -127,8 +127,8 @@ export default function QuestionRelier({ question, hasAnswered, onValidate }: an
             if (hasAnswered) {
                const connectedFrom = connections.find(c => c.rightId === item.id)?.leftId;
                const correctLeftId = `l_${item.id.split('_')[1]}`;
-               if (connectedFrom === correctLeftId) stateClass = "bg-green text-green-950 border-green/50";
-               else stateClass = "bg-rose text-rose-950 border-rose/50";
+               if (connectedFrom === correctLeftId) stateClass = "bg-gradient-to-br from-green/30 via-emerald-500/15 to-cyan/10 text-green-50 border-green/50 ring-2 ring-green/40 shadow-[0_0_24px_rgba(16,185,129,0.14)]";
+               else stateClass = "bg-gradient-to-br from-rose/30 via-red-500/15 to-orange-500/10 text-rose-50 border-rose/50 ring-2 ring-rose/40 shadow-[0_0_24px_rgba(244,63,94,0.14)]";
             } else if (selectedRight === item.id) {
                stateClass = "bg-primary text-primary-foreground scale-105 shadow-xl shadow-primary/20";
             } else if (isConnected) {

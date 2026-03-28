@@ -5,17 +5,20 @@
 import { useState } from "react";
 
 const OptionButton = ({ value, label, color, bgHover, hasAnswered, questionReponse, selectedResponse, onSelect }: any) => {
+  const isGreen = color === "green";
   let stateClass = "glass";
   if (hasAnswered) {
     if (value === questionReponse) {
-      stateClass = `bg-${color}/20 border-${color} text-${color}-100 ring-2 ring-${color}/50`;
+      stateClass = isGreen
+        ? "bg-gradient-to-br from-green/30 via-emerald-500/20 to-cyan/10 border-green text-green-50 ring-2 ring-green/60 shadow-[0_0_28px_rgba(255,255,255,0.04)]"
+        : "bg-gradient-to-br from-rose/30 via-red-500/20 to-orange-500/10 border-rose text-rose-50 ring-2 ring-rose/60 shadow-[0_0_28px_rgba(255,255,255,0.04)]";
     } else if (value === selectedResponse) {
-      stateClass = "bg-rose/20 border-rose text-rose-100";
+      stateClass = "bg-gradient-to-br from-rose/30 via-red-500/20 to-orange-500/10 border-rose text-rose-50 ring-2 ring-rose/50 shadow-[0_0_28px_rgba(244,63,94,0.16)]";
     } else {
       stateClass = "opacity-50 grayscale";
     }
   } else {
-    stateClass = `${bgHover} border-foreground/10 hover:border-${color}/50`;
+    stateClass = `${bgHover} border-foreground/10 hover:shadow-[0_0_18px_rgba(255,255,255,0.03)] ${isGreen ? "hover:border-green/50" : "hover:border-rose/50"}`;
   }
 
   return (

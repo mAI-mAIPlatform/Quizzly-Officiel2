@@ -11,6 +11,8 @@ const THEME_OPTIONS = [
   { id: "dark", name: "Sombre", icon: "🌙", color: "bg-slate-900 text-white" },
   { id: "premium-dark", name: "Dark Premium", icon: "🌌", color: "bg-indigo-950 text-indigo-200" },
   { id: "neon", name: "Neon Cyberpunk", icon: "⚡", color: "bg-black text-cyan-400" },
+  { id: "aurora", name: "Aurora", icon: "🌌", color: "bg-gradient-to-br from-emerald-300 to-cyan-400 text-emerald-950" },
+  { id: "royal", name: "Royal", icon: "👑", color: "bg-gradient-to-br from-indigo-950 via-violet-800 to-amber-500 text-amber-100" },
 ];
 
 const TIMER_OPTIONS = [0, 15, 30, 45, 60, 90, 120];

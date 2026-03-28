@@ -8,7 +8,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 export default function ProfilePage() {
-  const { progress, updateProfile, sendMessage } = useProgress();
+  const { progress, updateProfile, updateTheme, sendMessage } = useProgress();
   const { showToast } = useToast();
   const [isEditing, setIsEditing] = useState(false);
   const [pseudo, setPseudo] = useState(progress.pseudo);
@@ -52,6 +52,19 @@ export default function ProfilePage() {
     { id: "roi_coffre", nom: "Roi du Coffre", desc: "Ouvrir 10 coffres", icon: "📦", done: progress.chests.length >= 10 },
     { id: "mondialiste", nom: "Mondialiste", desc: "Rejoindre 3 tribus", icon: "🌍", done: progress.tribes.length >= 3 },
     { id: "millionnaire", nom: "Millionnaire", desc: "Accumuler 1000 💎", icon: "💰", done: progress.crystals >= 1000 },
+    { id: "twenty_five", nom: "Vingt-Cinq", desc: "25 quiz complétés", icon: "🏁", done: progress.completedQuizzes.length >= 25 },
+    { id: "stylist", nom: "Styliste", desc: "Équiper un thème premium", icon: "🎨", done: progress.selectedTheme !== "light" },
+    { id: "rank_climber", nom: "Grimpeur", desc: "Atteindre 1000 RP", icon: "🏆", done: progress.rankedPoints >= 1000 },
+    { id: "collector_plus", nom: "Collectionneur+", desc: "Débloquer 6 cosmétique", icon: "🧷", done: progress.unlockedFrames.length + progress.unlockedBanners.length + progress.unlockedEffects.length + progress.unlockedMascots.length >= 6 },
+  ];
+
+  const themeOptions = [
+    { id: "light", name: "Clair", badge: "Base", accent: "from-white to-slate-100" },
+    { id: "dark", name: "Sombre", badge: "Base", accent: "from-slate-900 to-slate-700" },
+    { id: "premium-dark", name: "Dark Premium", badge: "Premium", accent: "from-indigo-950 to-slate-900" },
+    { id: "neon", name: "Neon Cyberpunk", badge: "Premium", accent: "from-pink-500 to-cyan-500" },
+    { id: "aurora", name: "Aurora", badge: "600💎", accent: "from-emerald-300 via-cyan-300 to-sky-400" },
+    { id: "royal", name: "Royal", badge: "700💎", accent: "from-indigo-950 via-violet-800 to-amber-400" },
   ];
 
   return (
@@ -304,6 +317,57 @@ export default function ProfilePage() {
                 </div>
              </div>
           </div>
+        </div>
+      </section>
+
+      <section className="glass p-8 border-primary/10 shadow-xl">
+        <h2 className="text-2xl font-space font-black mb-4 flex items-center gap-3 text-primary uppercase italic">
+          <span>🎨</span> Thème de l'app
+        </h2>
+        <p className="text-sm opacity-70 mb-6">
+          Sélectionne le thème qui accompagne toute ton expérience Quizzly.
+        </p>
+
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          {themeOptions.map((theme) => {
+            const isUnlocked = progress.unlockedThemes.includes(theme.id);
+            const isSelected = progress.selectedTheme === theme.id;
+
+            return (
+              <button
+                key={theme.id}
+                type="button"
+                onClick={() => {
+                  if (!isUnlocked) {
+                    showToast("Ce thème n'est pas encore débloqué !", "error");
+                    return;
+                  }
+                  updateTheme(theme.id);
+                  showToast(`Thème appliqué : ${theme.name}`, "success");
+                }}
+                className={`rounded-3xl p-4 text-left transition-all border-2 relative overflow-hidden ${
+                  isSelected ? "ring-4 ring-primary/20 border-primary shadow-lg scale-[1.01]" : "border-transparent hover:border-primary/20"
+                } ${!isUnlocked ? "opacity-55 grayscale" : "hover:scale-[1.01]"}`}
+              >
+                <div className={`absolute inset-0 bg-gradient-to-br ${theme.accent} opacity-15`} />
+                <div className="relative z-10 flex items-start justify-between gap-4">
+                  <div>
+                    <div className="text-[10px] font-black uppercase tracking-widest opacity-45">{theme.badge}</div>
+                    <div className="font-black text-lg mt-1">{theme.name}</div>
+                    <div className="text-[10px] font-bold uppercase tracking-widest mt-2 opacity-45">
+                      {isSelected ? "Actif" : isUnlocked ? "Débloqué" : "Verrouillé"}
+                    </div>
+                  </div>
+                  <div className={`w-12 h-12 rounded-2xl bg-gradient-to-br ${theme.accent} shadow-lg ${!isUnlocked ? "grayscale" : ""}`} />
+                </div>
+                {!isUnlocked && (
+                  <span className="absolute top-3 right-3 text-[10px] font-black uppercase tracking-widest bg-black/50 text-white px-2 py-1 rounded-full z-10">
+                    🔒
+                  </span>
+                )}
+              </button>
+            );
+          })}
         </div>
       </section>
 

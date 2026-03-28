@@ -46,14 +46,14 @@ export default function QuestionQCM({
           
           if (hasAnswered) {
             if (index === actualCorrectIndex) {
-              stateClass = "bg-green/20 border-green text-green-100 ring-2 ring-green/50";
+              stateClass = "bg-gradient-to-br from-green/30 via-emerald-500/20 to-cyan/10 border-green text-green-50 ring-2 ring-green/60 shadow-[0_0_30px_rgba(16,185,129,0.18)]";
             } else if (index === selectedIndex) {
-              stateClass = "bg-rose/20 border-rose text-rose-100";
+              stateClass = "bg-gradient-to-br from-rose/30 via-red-500/20 to-orange-500/10 border-rose text-rose-50 ring-2 ring-rose/40 shadow-[0_0_30px_rgba(244,63,94,0.16)]";
             } else {
               stateClass = "opacity-50 grayscale";
             }
           } else if (selectedIndex === index) {
-            stateClass = "bg-primary/20 border-primary ring-2 ring-primary/50";
+            stateClass = "bg-primary/20 border-primary ring-2 ring-primary/50 shadow-[0_0_20px_rgba(99,102,241,0.18)]";
           }
 
           return (

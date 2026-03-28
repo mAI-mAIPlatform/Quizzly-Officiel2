@@ -27,7 +27,7 @@ import { rankedTerminaleExtendedQuizzes as rankedTermExt1 } from "./terminale/ex
 import { rankedTerminaleExtended2Quizzes } from "./terminale/extended2";
 import { rankedTerminaleExtended3Quizzes } from "./terminale/extended3";
 
-const allQuizzes: Record<string, any[]> = {
+export const allQuizzes: Record<string, any[]> = {
   "6eme": [...ranked6emeExtendedQuizzes, ...ranked6emeExtended2Quizzes, ...ranked6emeExtended3Quizzes],
   "5eme": [...ranked5emeExtendedQuizzes, ...ranked5emeExtended2Quizzes, ...ranked5emeExtended3Quizzes],
   "4eme": [...ranked4emeExtendedQuizzes, ...ranked4emeExtended2Quizzes, ...ranked4emeExtended3Quizzes],

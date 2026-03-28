@@ -1,11 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import QuizEngine from "@/components/quiz/QuizEngine";
 import { allBlitzQuizzes } from "@/data/blitz/allBlitzQuizzes";
+import { useSearchParams } from "next/navigation";
 
 export default function BlitzPage() {
+  const searchParams = useSearchParams();
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentQuiz, setCurrentQuiz] = useState<{ id: string; titre: string; questions: unknown[] } | null>(null);
 
@@ -15,6 +17,16 @@ export default function BlitzPage() {
     setCurrentQuiz(allBlitzQuizzes[randomIndex]);
     setIsPlaying(true);
   };
+
+  useEffect(() => {
+    const quizId = searchParams.get("quiz");
+    if (!quizId) return;
+    const matchedQuiz = allBlitzQuizzes.find((quiz) => quiz.id === quizId);
+    if (matchedQuiz) {
+      setCurrentQuiz(matchedQuiz);
+      setIsPlaying(true);
+    }
+  }, [searchParams]);
 
   if (isPlaying && currentQuiz) {
     return (

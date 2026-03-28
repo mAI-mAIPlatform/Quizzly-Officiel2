@@ -210,7 +210,6 @@ type ProgressContextType = {
   claimChest: (type: string) => void;
   buyChest: (type: string, cost: number) => boolean;
   addChestRewards: (type: string) => void;
-  updateWeekendQuest: () => void;
   activeChest: { type: string; isOpen: boolean } | null;
   closeChest: () => void;
   claimDailyReward: () => boolean;
@@ -1276,25 +1275,6 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     });
   };
 
-  const updateWeekendQuest = () => {
-    const now = new Date();
-    const day = now.getDay();
-    const hour = now.getHours();
-
-    if ((day === 5 && hour >= 15) || day === 6 || day === 0) {
-      setProgress((prev) => {
-        if (prev.quests.some((quest) => quest.id.startsWith("q_weekend"))) return prev;
-        const weekendQuests = [
-          { id: "q_weekend_xp", title: "Gagner 500 XP ce week-end", target: 500, current: 0, xpReward: 0, isCompleted: false },
-          { id: "q_weekend_perfect", title: "Faire 10 quiz parfaits", target: 10, current: 0, xpReward: 0, isCompleted: false },
-          { id: "q_weekend_level", title: "Monter un niveau ce week-end", target: 1, current: 0, xpReward: 0, isCompleted: false },
-        ] as Quest[];
-        const randomQuest = weekendQuests[Math.floor(Math.random() * weekendQuests.length)];
-        return persist({ ...prev, quests: [...prev.quests, randomQuest] });
-      });
-    }
-  };
-
   const closeChest = () => setActiveChest(null);
 
   const claimDailyReward = () => {
@@ -1581,7 +1561,6 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
         claimChest,
         buyChest,
         addChestRewards,
-        updateWeekendQuest,
         activeChest,
         closeChest,
         claimDailyReward,

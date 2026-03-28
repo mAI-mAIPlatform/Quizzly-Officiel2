@@ -51,6 +51,10 @@ export const KNOWN_PLAYER_SEEDS = [
 ];
 
 export function normalizePseudo(value: string) {
+  return normalizeText(value);
+}
+
+export function normalizeText(value: string) {
   return value
     .trim()
     .toLowerCase()

@@ -22,11 +22,13 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
   const [finishStep, setFinishStep] = useState<'results' | 'flame' | 'quests'>('results');
   const { addXP, markQuizCompleted, isQuizCompleted, progress: userProgress, useStar: consumeStar, sendMessage, addHistoryEntry, completeDailyQuiz } = useProgress();
   const hasSavedHistory = useRef(false);
+  const hasCompletedCallback = useRef(false);
   const hasAnsweredRef = useRef(false);
   const timeoutHandledRef = useRef(false);
   const timerSeconds = userProgress.settings.gameplay.quizTimerSeconds;
   const effectsVolume = userProgress.settings.audio.effectsEnabled ? userProgress.settings.audio.effectsVolume : 0;
   const [timeLeft, setTimeLeft] = useState(timerSeconds);
+  const isRanked = quizType === "ranked";
 
   const encouragementsCorrect = [
     "Excellent !", "Impérial !", "Bravo !", "Incroyable !", "Quel talent !", 
@@ -51,9 +53,9 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
   const [hasLostStar, setHasLostStar] = useState(false);
 
   useEffect(() => {
-    if (isFinished && onComplete) {
-      onComplete(score);
-    }
+    if (!isFinished || !onComplete || hasCompletedCallback.current) return;
+    hasCompletedCallback.current = true;
+    onComplete(score);
   }, [isFinished, onComplete, score]);
 
   const currentQuestion = quiz.questions[currentIndex];
@@ -171,10 +173,6 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
     const successRate = (score / quiz.questions.length) * 100;
     const survivalBonus = isSurvival ? Math.floor(score * 10) : 0;
     const earnedXP = ((score * 2) + survivalBonus) * (userProgress.xpBoost || 1);
-
-    if (onComplete) {
-      onComplete(score);
-    }
     
     let message = "Bien joué !";
     let statusImage = "/images/bien_joue.png";
@@ -191,7 +189,10 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
     }
 
     return (
-      <div className="flex flex-col items-center justify-center h-full text-center animate-in zoom-in-95 duration-700 w-full pb-20">
+      <div className={`flex flex-col items-center justify-center h-full text-center animate-in zoom-in-95 duration-700 w-full pb-20 relative ${isRanked ? "ranked-mode" : ""}`}>
+        {isRanked && (
+          <div className="absolute inset-x-0 top-0 h-56 bg-[radial-gradient(circle_at_top,_rgba(251,191,36,0.22),_transparent_70%)] pointer-events-none" />
+        )}
         <div className="w-48 h-48 mb-6 relative">
            {/* eslint-disable-next-line @next/next/no-img-element */}
            <img src={statusImage} alt={message} className="w-full h-full object-contain" />
@@ -208,6 +209,12 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
           <div className="text-5xl font-space font-black text-transparent bg-clip-text bg-gradient-to-r from-primary to-cyan mb-4 drop-shadow-md">
             +{earnedXP} XP
           </div>
+          {isRanked && (
+            <div className="mb-4 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-500/10 text-amber-600 text-[10px] font-black uppercase tracking-widest border border-amber-500/20">
+              <span>⚔️</span>
+              <span>+{score * 10} RP</span>
+            </div>
+          )}
           <div className="text-lg font-bold opacity-60 flex items-center gap-2">
             <span className="text-2xl">🎯</span> {score} / {quiz.questions.length} correctes
           </div>
@@ -338,6 +345,12 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
 
   return (
     <div className="flex flex-col h-full relative">
+      {isRanked && (
+        <>
+          <div className="pointer-events-none absolute inset-x-0 -top-16 h-44 bg-[radial-gradient(circle_at_top,_rgba(251,191,36,0.16),_transparent_65%)]" />
+          <div className="pointer-events-none absolute -right-10 top-24 h-36 w-36 rounded-full bg-primary/10 blur-3xl" />
+        </>
+      )}
       {/* Barre de progression */}
       <div className="relative mb-8 pt-10">
         {timerSeconds > 0 && (
@@ -395,7 +408,8 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
             animate={{ 
               y: 0, 
               opacity: 1,
-              x: isCorrect ? 0 : [0, -10, 10, -10, 10, 0] 
+              x: isCorrect ? 0 : [0, -10, 10, -10, 10, 0],
+              scale: [0.98, 1]
             }}
             transition={{ 
               type: "spring", 
@@ -404,14 +418,15 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
               x: isCorrect ? {} : { duration: 0.4 } 
             }}
             exit={{ y: 100, opacity: 0 }}
-            className={`mt-8 p-8 rounded-[2rem] shadow-2xl backdrop-blur-3xl border-2 transition-colors duration-500 ${isCorrect ? 'bg-green/20 border-green/40 shadow-green/20' : 'bg-rose/20 border-rose/40 shadow-rose/20'}`}
+            className={`mt-8 p-8 rounded-[2rem] shadow-2xl backdrop-blur-3xl border-2 transition-colors duration-500 relative overflow-hidden ${isCorrect ? 'bg-gradient-to-br from-green/25 via-emerald-500/10 to-cyan/10 border-green/40 shadow-green/20' : 'bg-gradient-to-br from-rose/25 via-red-500/10 to-orange-500/10 border-rose/40 shadow-rose/20'}`}
           >
+            <div className={`absolute inset-0 opacity-40 pointer-events-none ${isCorrect ? 'bg-[radial-gradient(circle_at_top_left,_rgba(34,197,94,0.24),_transparent_60%)]' : 'bg-[radial-gradient(circle_at_top_left,_rgba(244,63,94,0.24),_transparent_60%)]'}`} />
             <div className="flex flex-col sm:flex-row items-center gap-6 justify-between">
               <div className="flex items-center gap-6">
                 <motion.div 
                   initial={{ scale: 0 }}
                   animate={{ scale: 1 }}
-                  className={`w-16 h-16 rounded-2xl flex items-center justify-center text-3xl shadow-xl ${isCorrect ? 'bg-green text-green-950' : 'bg-rose text-rose-950'}`}
+                  className={`w-16 h-16 rounded-2xl flex items-center justify-center text-3xl shadow-xl ${isCorrect ? 'bg-green text-green-950 shadow-green/30' : 'bg-rose text-rose-950 shadow-rose/30'}`}
                 >
                   {isCorrect ? '✨' : '💥'}
                 </motion.div>
@@ -422,12 +437,17 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
                   <p className="text-xs font-bold opacity-60 uppercase tracking-widest mt-1">
                     {isCorrect ? `Combo x${combo} ! 🔥` : (isSurvival ? 'Ta survie s\'arrête ici.' : 'Concentration maximale !')}
                   </p>
+                  {isRanked && isCorrect && (
+                    <p className="text-[10px] font-black uppercase tracking-widest text-amber-600 mt-2">
+                      Coup parfait pour le classement ⚔️
+                    </p>
+                  )}
                 </div>
               </div>
               
               <button 
                 onClick={handleNext}
-                className={`group px-10 py-4 rounded-2xl font-black font-space text-lg transition-all shadow-xl flex items-center gap-3 ${isCorrect ? 'bg-green text-emerald-950 shadow-green/20 hover:scale-105 active:scale-95' : 'bg-rose text-rose-950 shadow-rose/20 hover:scale-105 active:scale-95'}`}
+                className={`group px-10 py-4 rounded-2xl font-black font-space text-lg transition-all shadow-xl flex items-center gap-3 relative overflow-hidden ${isCorrect ? 'bg-green text-emerald-950 shadow-green/20 hover:scale-105 active:scale-95' : 'bg-rose text-rose-950 shadow-rose/20 hover:scale-105 active:scale-95'}`}
               >
                 {isCorrect ? 'Continuer' : (currentIndex < quiz.questions.length - 1 ? 'Suivant' : 'Voir mon score')}
                 <span className="group-hover:translate-x-1 transition-transform">➜</span>

@@ -95,6 +95,8 @@ export default function BoutiquePage() {
   const themeItems = [
     { id: "premium-dark", type: 'theme', name: "Dark Premium", price: 500, icon: "🌙", color: "from-slate-800 to-slate-900" },
     { id: "neon", type: 'theme', name: "Neon Cyberpunk", price: 800, icon: "⚡", color: "from-pink-500 to-cyan-500" },
+    { id: "aurora", type: 'theme', name: "Aurora", price: 600, icon: "🌌", color: "from-emerald-400 via-cyan-400 to-sky-500" },
+    { id: "royal", type: 'theme', name: "Royal", price: 700, icon: "👑", color: "from-indigo-950 via-violet-700 to-amber-400" },
   ];
 
   const passItem = { id: "pass_pro", type: 'pass', name: "Quizzly Pass Pro", price: 50, icon: "👑", color: "from-violet to-primary", desc: "Débloque toutes les récompenses Premium !" };
