@@ -1,0 +1,94 @@
+{
+  "id": "quiz20",
+  "titre": "Les Grandes Époques (1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle époque précède la période Classique ?",
+      "options": [
+        "Le Baroque",
+        "Le Romantisme",
+        "Le Moyen-Âge",
+        "La Renaissance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Baroque se situe environ entre 1600 et 1750.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le grand compositeur allemand de la fin du Baroque est J.S. {{1}} (Bach).",
+      "reponsesAttendues": [
+        "Bach"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel instrument était très populaire à l'époque Baroque ?",
+      "options": [
+        "Le clavecin",
+        "Le piano",
+        "Le saxophone",
+        "La guitare électrique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Antonio Vivaldi est célèbre pour ses 'Quatre Saisons'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle est la période de Mozart et Haydn ?",
+      "options": [
+        "Le Classicisme",
+        "Le Romantisme",
+        "Le Baroque",
+        "La Musique Moderne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'adjectif pour parler de l'époque Classique est le {{1}} (Classicisme).",
+      "reponsesAttendues": [
+        "Classicisme"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La période Classique recherche l'équilibre et la clarté.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel compositeur fait le pont entre le Classicisme et le Romantisme ?",
+      "options": [
+        "Beethoven",
+        "Bach",
+        "Vivaldi",
+        "Debussy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le piano commence à remplacer le clavecin à l'époque Classique.",
+      "reponse": true
+    }
+  ]
+}

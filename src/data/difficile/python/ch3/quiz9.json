@@ -1,0 +1,90 @@
+{
+  "id": "quiz9",
+  "titre": "POO : Dunder Avancés (Comp & Math)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet de définir le comportement de l'opérateur + ?",
+      "options": [
+        "__plus__",
+        "__add__",
+        "__sum__",
+        "__join__"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "__eq__ permet de définir l'égalité entre deux objets (==).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour utiliser un objet comme une fonction (ex: obj()), on définit la méthode {{1}}.",
+      "reponsesAttendues": ["__call__"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle méthode définit la longueur retournée par len(obj) ?",
+      "options": [
+        "__len__",
+        "__size__",
+        "__count__",
+        "__length__"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "__lt__ (less than) correspond à l'opérateur <.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment rendre un objet itérable dans une boucle for ?",
+      "options": [
+        "Implémenter __iter__",
+        "Implémenter __for__",
+        "Implémenter __list__",
+        "Hériter de list"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La méthode {{1}} est appelée lors de la suppression d'un objet par le garbage collector.",
+      "reponsesAttendues": ["__del__"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "__getitem__ permet d'accéder à l'objet comme un tableau (obj[index]).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "À quoi sert __enter__ et __exit__ ?",
+      "options": [
+        "À entrer/sortir d'une boucle",
+        "À faire de l'objet un Context Manager (utilisable avec 'with')",
+        "À allumer/éteindre l'ordi",
+        "Rien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les dunder methods permettent de surcharger (overload) les opérateurs en Python.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz23",
+  "titre": "L'usage de 'Ficar'",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'Ficar por aqui' ?",
+      "options": [
+        "S'arrêter là / terminer une conversation ou un séjour",
+        "Déménager ici",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Ficar a ver navios' signifie rester les bras ballants ou rater une opportunité.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Tomber amoureux se dit 'Ficar {{1}}' (par) quelqu'un.",
+      "reponsesAttendues": ["por"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que veut dire 'Ficar de pé atrás' ?",
+      "options": [
+        "Être méfiant / sur ses gardes",
+        "Faire un pas en arrière dans une danse",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Ficar mal' signifie être dans l'embarras ou avoir mauvaise mine.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'Ficar com a pulga atrás de l'orelha' ?",
+      "options": [
+        "Avoir un soupçon / être intrigué",
+        "Avoir des poux",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Rester bouche bée se dit 'Ficar de {{1}} aberta' (bouche).",
+      "reponsesAttendues": ["boca"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Ficar na mão' (Brésil) ou 'Ficar a pé' (Portugal) peut signifier se retrouver sans rien ou en difficulté.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'Ficar em águas de bacalhau' ?",
+      "options": [
+        "Tomber à l'eau / ne pas aboutir (pour un projet)",
+        "Cuisiner de la morue",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le verbe 'Ficar' exprime souvent un état résultant d'un changement.",
+      "reponse": true
+    }
+  ]
+}

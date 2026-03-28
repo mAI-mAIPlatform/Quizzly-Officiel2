@@ -1,0 +1,94 @@
+{
+  "id": "quiz79",
+  "titre": "Italien Expert : Design et 'Made in Italy'",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle ville est considérée comme la capitale mondiale de la mode et du design industriel italien ?",
+      "options": [
+        "Milan",
+        "Florence",
+        "Rome",
+        "Turin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Ferrari et Lamborghini sont deux marques de voitures de sport emblématiques du nord de l'Italie.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Salone del Mobile) à Milan est l'événement le plus important au monde pour le design de mobilier.",
+      "reponsesAttendues": [
+        "Salone del Mobile"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle maison de couture est célèbre pour ses motifs baroques et son logo représentant une tête de Méduse ?",
+      "options": [
+        "Versace",
+        "Armani",
+        "Prada",
+        "Valentino"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Giorgio Armani a révolutionné la silhouette masculine et féminine avec ses vestes déstructurées.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel designer est l'auteur de la célèbre machine à écrire 'Valentine' de chez Olivetti ?",
+      "options": [
+        "Ettore Sottsass",
+        "Achille Castiglioni",
+        "Joe Colombo",
+        "Gio Ponti"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Memphis Group) était un collectif de design iconoclaste des années 1980 aux couleurs vives et formes géométriques.",
+      "reponsesAttendues": [
+        "Memphis"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Alessi est une entreprise italienne réputée pour ses objets de cuisine design (ex: le presse-citron de Starck).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le symbole du design industriel italien sur deux roues, créé par Piaggio en 1946 ?",
+      "options": [
+        "La Vespa",
+        "La Ducati",
+        "L'Aprilia",
+        "La Moto Guzzi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le label 'Made in Italy' garantit une qualité artisanale alliée à l'innovation industrielle.",
+      "reponse": true
+    }
+  ]
+}

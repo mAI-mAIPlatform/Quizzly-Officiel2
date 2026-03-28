@@ -1,0 +1,95 @@
+{
+  "id": "quiz74",
+  "titre": "Grec Expert : Le Théâtre, miroir de la Cité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel était le but premier des représentations théâtrales à Athènes ?",
+      "options": [
+        "Un culte religieux dédié à Dionysos",
+        "Une simple distraction commerciale",
+        "Une école de guerre",
+        "Un entraînement sportif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les trois grands tragiques grecs sont Eschyle, Sophocle et Euripide.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La `{{1}}` (Katharsis) est le processus de 'purgation' des passions par la crainte et la pitié chez le spectateur.",
+      "reponsesAttendues": [
+        "Catharsis",
+        "katharsis"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'espace circulaire central où chante et danse le chœur ?",
+      "options": [
+        "L'orchestra",
+        "Le skéné",
+        "Le proskénion",
+        "Le koilon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Aristophane est le plus célèbre auteur de comédies de l'époque classique.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Dans quel théâtre, réputé pour son acoustique parfaite, se déroulent encore des spectacles aujourd'hui ?",
+      "options": [
+        "Épidaure",
+        "Hérodote",
+        "Syracuse",
+        "Athènes (Dionysos)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Coryphée) est le chef du chœur qui dialogue avec les acteurs.",
+      "reponsesAttendues": [
+        "Coryphée"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Tous les acteurs dans le théâtre grec antique étaient des hommes et portaient des masques.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle pièce d'Eschyle raconte la défaite perse de Salamine ?",
+      "options": [
+        "Les Perses",
+        "L'Orestie",
+        "Les Sept contre Thèbes",
+        "Prométhée enchaîné"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le théâtre était financé par les citoyens riches via le système de la 'chorégie'.",
+      "reponse": true
+    }
+  ]
+}

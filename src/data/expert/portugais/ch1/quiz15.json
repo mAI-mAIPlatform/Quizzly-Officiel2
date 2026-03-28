@@ -1,0 +1,94 @@
+{
+  "id": "quiz15",
+  "titre": "Gramática : Advérbios e Locuções",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "O que modifica um advérbio ?",
+      "options": [
+        "Verbo, adjetivo ou outro advérbio",
+        "Apenas nomes",
+        "Apenas conjunções",
+        "O sujeito"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Advérbios terminados em -mente derivam da forma feminina do adjetivo.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O advérbio de 'rápido' é `{{1}}`.",
+      "reponsesAttendues": [
+        "rapidamente"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qual é uma locução adverbial de lugar ?",
+      "options": [
+        "À direita",
+        "Com certeza",
+        "Às pressas",
+        "De repente"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Os advérbios são palavras variáveis em género e número.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "O que indica 'debalde' ?",
+      "options": [
+        "Em vão",
+        "Rapidamente",
+        "Sempre",
+        "Nunca"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "A locução 'às `{{1}}`' significa de modo secreto ou escondido.",
+      "reponsesAttendues": [
+        "escondidas"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Muito' pode ser advérbio de intensidade ou pronome indefinido.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qual o advérbio de 'bom' ?",
+      "options": [
+        "bem",
+        "bommente",
+        "mal",
+        "ótimo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": " 'Talvez' é um advérbio de dúvida.",
+      "reponse": true
+    }
+  ]
+}

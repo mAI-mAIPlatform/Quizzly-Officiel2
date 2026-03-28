@@ -1,0 +1,90 @@
+{
+  "id": "quiz21",
+  "titre": "Fichiers : Lecture & Écriture",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel mode permet d'ouvrir un fichier pour ajouter du contenu à la fin (sans écraser) ?",
+      "options": [
+        "w",
+        "r",
+        "a",
+        "x"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "open('file.txt', 'w') crée le fichier s'il n'existe pas.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La méthode {{1}}() lit l'intégralité du contenu d'un fichier sous forme d'une seule chaîne de caractères.",
+      "reponsesAttendues": ["read"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet d'obtenir une liste de toutes les lignes d'un fichier ?",
+      "options": [
+        "readlines()",
+        "getlines()",
+        "splitlines()",
+        "listlines()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Il est indispensable d'appeler .close() manuellement si on n'utilise pas le mot-clé 'with'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie le mode 'rb' ?",
+      "options": [
+        "Read Binary (Lecture binaire)",
+        "Read Backward (Lecture inversée)",
+        "Reset Buffer",
+        "Re-bound"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour écrire une chaîne dans un fichier, on utilise la méthode {{1}}().",
+      "reponsesAttendues": ["write"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Iterer directement sur l'objet fichier (ex: for line in f:) est plus efficace en mémoire que readlines().",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle exception est levée si on essaie d'ouvrir un fichier qui n'existe pas en mode 'r' ?",
+      "options": [
+        "IOError",
+        "FileNotFoundError",
+        "PathError",
+        "FileMissingError"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser .seek(0) pour revenir au début du fichier.",
+      "reponse": true
+    }
+  ]
+}

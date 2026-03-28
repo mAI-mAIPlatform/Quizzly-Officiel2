@@ -1,0 +1,94 @@
+{
+  "id": "quiz14",
+  "titre": "Histoire : La Renaissance Musicale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel compositeur flamand est considéré comme le génie de la Renaissance (surnommé le 'Prince des musiciens') ?",
+      "options": [
+        "Josquin des Prez",
+        "Roland de Lassus",
+        "Palestrina",
+        "Clément Janequin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Palestrina est le maître de la polyphonie sereine de la Contre-Réforme.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le genre profane italien par excellence de la Renaissance est le `{{1}}`.",
+      "reponsesAttendues": [
+        "madrigal"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une Messe 'Parodie' ?",
+      "options": [
+        "Une messe utilisant un thème profane ou polyphonique préexistant",
+        "Une moquerie de l'église",
+        "Une messe chantée par des enfants",
+        "Une œuvre sans paroles"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Janequin est célèbre pour ses chansons descriptives (Le Chant des oiseaux, La Guerre).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le style 'a cappella' ?",
+      "options": [
+        "Chanter sans accompagnement instrumental",
+        "Chanter très fort",
+        "Chanter en plein air",
+        "Chanter seul"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le compositeur anglais de la Renaissance célèbre pour ses messes à 3, 4 et 5 voix est William `{{1}}`.",
+      "reponsesAttendues": [
+        "Byrd"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'invention de l'imprimerie musicale (Petrucci) a bouleversé la diffusion de la musique.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'École Vénitienne d'Adrian Willaert ?",
+      "options": [
+        "L'utilisation de la polychoralité (doubles chœurs à Saint-Marc)",
+        "Un style de jazz",
+        "Une école de danse",
+        "Une technique de luth"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'harmonie de la Renaissance favorise la consonance parfaite de la tierce.",
+      "reponse": true
+    }
+  ]
+}

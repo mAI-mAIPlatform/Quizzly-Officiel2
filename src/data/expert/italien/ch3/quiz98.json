@@ -1,0 +1,94 @@
+{
+  "id": "quiz98",
+  "titre": "Italien Expert : Éducation et Universités",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle université italienne est considérée comme la plus ancienne du monde occidental (fondée en 1088) ?",
+      "options": [
+        "Università di Bologna",
+        "Università di Padova",
+        "La Sapienza (Roma)",
+        "Università di Napoli"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'examen de fin d'études secondaires en Italie s'appelle la 'Maturità'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "En Italie, le `{{1}}` (Liceo Classico) est l'école secondaire prestigieuse centrée sur les humanités (latin, grec).",
+      "reponsesAttendues": [
+        "Liceo Classico"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le diplôme de premier cycle universitaire (équivalent licence) en Italie ?",
+      "options": [
+        "Laurea Triennale",
+        "Laurea Magistrale",
+        "Dottorato",
+        "Master"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Maria Montessori était une célèbre pédagogue italienne dont la méthode est utilisée dans le monde entier.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle université privée milanaise est mondialement reconnue pour l'économie et le management ?",
+      "options": [
+        "Bocconi",
+        "Politecnico di Milano",
+        "IULM",
+        "Cattolica"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Politecnico) de Milan ou de Turin forme l'élite des ingénieurs et architectes italiens.",
+      "reponsesAttendues": [
+        "Politecnico"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'école est obligatoire en Italie jusqu'à l'âge de 18 ans.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel système a remplacé les anciens diplômes pour s'harmoniser avec l'Europe (Processus de Bologne) ?",
+      "options": [
+        "3+2 (Triennale + Magistrale)",
+        "4+1",
+        "5 direct",
+        "Ancien régime"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'Accademia della Crusca est l'institution chargée de veiller sur la langue italienne.",
+      "reponse": true
+    }
+  ]
+}

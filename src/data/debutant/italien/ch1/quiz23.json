@@ -1,0 +1,94 @@
+{
+  "id": "quiz23",
+  "titre": "Verbes en -IRE (Type 2 : -ISC-)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un verbe 'inchoatif' en italien ?",
+      "options": [
+        "Un verbe qui ne finit pas",
+        "Un verbe qui insère '-isc-' dans sa conjugaison",
+        "Un verbe irrégulier",
+        "Un verbe sans sujet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le verbe 'Capire' (Comprendre) utilise l'infixe '-isc-'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour dire 'Je comprends', on dit 'Io {{1}}'.",
+      "reponsesAttendues": [
+        "capisco"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Il finit' ?",
+      "options": [
+        "Lui fine",
+        "Lui finisce",
+        "Lui finisce",
+        "Lui finio"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'infixe '-isc-' s'insère à toutes les personnes du présent.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quelles personnes n'utilise-t-on PAS '-isc-' ?",
+      "options": [
+        "Io et Tu",
+        "Noi et Voi",
+        "Lui et Loro",
+        "Io et Loro"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Conjuguez 'Finire' pour 'Vous' : 'Voi {{1}}'.",
+      "reponsesAttendues": [
+        "finite"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Preferire' (Préférer) est aussi un verbe en '-isc-'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Ils comprennent' ?",
+      "options": [
+        "Capiscono",
+        "Capiamo",
+        "Capite",
+        "Capisce"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "C'est une particularité très importante de la langue italienne.",
+      "reponse": true
+    }
+  ]
+}

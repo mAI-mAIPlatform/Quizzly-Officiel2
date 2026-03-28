@@ -1,0 +1,90 @@
+{
+  "id": "quiz1",
+  "titre": "Inputs : Texte et Email",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces types d'input est destiné aux mots de passe (masqués) ?",
+      "options": [
+        "type=\"password\"",
+        "type=\"secret\"",
+        "type=\"hidden\"",
+        "type=\"text\""
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'input type=\"email\" vérifie la conformité syntaxique de l'adresse par défaut.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} permet de donner un exemple de texte à l'intérieur du champ.",
+      "reponsesAttendues": ["placeholder"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que fait l'attribut 'size' sur un input de type texte ?",
+      "options": [
+        "Définit la largeur visible en nombre de caractères",
+        "Définit la limite de caractères",
+        "Change la taille de la police",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'maxlength' limite le nombre de caractères que l'utilisateur peut saisir.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel input utiliser pour une URL valide ?",
+      "options": [
+        "type=\"url\"",
+        "type=\"link\"",
+        "type=\"web\"",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} met le focus automatiquement sur le champ au chargement de la page.",
+      "reponsesAttendues": ["autofocus"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'readonly' empêche la modification mais permet la soumission de la valeur.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le comportement d'un type=\"search\" ?",
+      "options": [
+        "Identique à 'text' mais avec une apparence et des fonctionnalités d'effacement adaptées",
+        "Lance une recherche Google",
+        "Supprime le texte",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'required' est supporté par tous les types d'input texte.",
+      "reponse": true
+    }
+  ]
+}

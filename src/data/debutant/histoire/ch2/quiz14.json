@@ -1,0 +1,95 @@
+{
+  "id": "quiz14",
+  "titre": "La Grèce : Jeux et Démocratie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quelle ville est née la démocratie ?",
+      "options": [
+        "Sparte",
+        "Athènes",
+        "Rome",
+        "Alexandrie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En démocratie, c'est le peuple qui décide en votant.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les grands concours sportifs grecs s'appelaient les Jeux {{1}}.",
+      "reponsesAttendues": [
+        "olympiques"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Tous les combien d'années avaient lieu les Jeux Olympiques ?",
+      "options": [
+        "Chaque année",
+        "Tous les 2 ans",
+        "Tous les 4 ans",
+        "Tous les 10 ans"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Pendant les Jeux, les guerres s'arrêtaient.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que recevaient les vainqueurs des Jeux ?",
+      "options": [
+        "De l'or",
+        "Une couronne d'olivier",
+        "Un cheval",
+        "Une statue"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le lieu où les citoyens votaient à Athènes s'appelait la {{1}}.",
+      "reponsesAttendues": [
+        "Pnyx",
+        "place"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "À l'époque, les femmes et les esclaves ne votaient pas.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces cités grecques était célèbre pour ses guerriers ?",
+      "options": [
+        "Athènes",
+        "Sparte",
+        "Thèbes",
+        "Corinthe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La démocratie est un héritage important pour nous.",
+      "reponse": true
+    }
+  ]
+}

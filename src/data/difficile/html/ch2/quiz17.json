@@ -1,0 +1,90 @@
+{
+  "id": "quiz17",
+  "titre": "SVG : Texte et Images",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise permet d'ajouter du texte dans un SVG ?",
+      "options": [
+        "<text>",
+        "<span>",
+        "<div>",
+        "<label>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le texte SVG supporte les propriétés CSS comme font-family et font-size.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise {{1}} permet de créer des sous-sections de texte avec des positions différentes au sein d'un <text>.",
+      "reponsesAttendues": ["tspan"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quoi sert <textPath> ?",
+      "options": [
+        "À aligner du texte le long d'un chemin courbe (<path>)",
+        "À souligner",
+        "À faire un lien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut inclure une image bitmap (ex: JPG) dans un SVG avec la balise <image>.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel attribut définit l'URL de l'image dans <image> ?",
+      "options": [
+        "href (ou xlink:href)",
+        "src",
+        "data",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La balise <{{1}}> permet de regrouper plusieurs éléments SVG pour leur appliquer une transformation ou un style commun.",
+      "reponsesAttendues": ["g"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser <foreignObject> pour inclure du HTML classique à l'intérieur d'un SVG.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment créer un lien cliquable sur un objet SVG ?",
+      "options": [
+        "En entourant l'objet d'une balise <a>",
+        "Via JS uniquement",
+        "Via l'attribut link",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le texte SVG est sélectionnable et indexable par les moteurs de recherche.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz29",
+  "titre": "Humanisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que reprochent les Humanistes au latin médiéval ?",
+      "options": [
+        "D'être corrompu, 'barbare' et éloigné de la pureté classique",
+        "D'être trop compliqué",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Humanisme prône le retour aux sources (Ad fontes).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'invention de l'{{1}} a permis la diffusion massive des textes latins classiques.",
+      "reponsesAttendues": ["imprimerie"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel auteur humaniste a écrit les 'Colloques' pour apprendre le latin ?",
+      "options": [
+        "Érasme",
+        "Rabelais",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les Humanistes écrivent aussi bien en latin qu'en langue vernaculaire.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui est le 'Ciceroneus' d'Érasme ?",
+      "options": [
+        "Une critique de l'imitation servile et ridicule de Cicéron",
+        "Un éloge de Cicéron",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le français Joachin du Bellay a écrit son recueil '{{1}}' d'abord en latin.",
+      "reponsesAttendues": ["Amores", "Poemata"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'étude du latin était la clef d'accès au savoir universel pour les Humanistes.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Langue de communication des ambassadeurs au XVIe ?",
+      "options": [
+        "Le latin",
+        "L'anglais",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'Humanisme a jeté les bases de la philologie moderne.",
+      "reponse": true
+    }
+  ]
+}

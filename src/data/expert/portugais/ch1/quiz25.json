@@ -1,0 +1,93 @@
+{
+  "id": "quiz25",
+  "titre": "Literatura : Fernando Pessoa",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se chamam as personalidades literárias criadas por Fernando Pessoa ?",
+      "options": [
+        "heterónimos",
+        "pseudónimos",
+        "sinónimos",
+        "homónimos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Fernando Pessoa ele mesmo é chamado de 'Pessoa Ortónimo'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O heterónimo que era um mestre da natureza e da simplicidade é Alberto `{{1}}`.",
+      "reponsesAttendues": [
+        "Caeiro"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qual heterónimo era um engenheiro naval, futurista e modernista ?",
+      "options": [
+        "Álvaro de Campos",
+        "Ricardo Reis",
+        "Alberto Caeiro",
+        "Bernardo Soares"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "vrai_faux",
+      "enonce": "Ricardo Reis era um médico classicista e pagão que escrevia odes.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qual o único livro em português que Pessoa publicou em vida ?",
+      "options": [
+        "Mensagem",
+        "Livro do Desassossego",
+        "O Guardador de Rebanhos",
+        "Tabacaria"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Bernardo Soares é o autor fictício do 'Livro do `{{1}}`'.",
+      "reponsesAttendues": [
+        "Desassossego"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "A poesia de Pessoa é marcada pela fragmentação do eu e pela intelectualização do sentimento.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Fingere é um tema central em sua poesia. O que significa ?",
+      "options": [
+        "O poeta é um fingidor (transforma a dor sentida em dor fingida/arte)",
+        "O poeta deve mentir",
+        "O poeta deve fugir",
+        "A poesia é inútil"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Pessoa é o maior poeta modernista da língua portuguesa.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz17",
+  "titre": "Images : Decoding",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel attribut contrôle comment le navigateur décode les données de l'image ?",
+      "options": [
+        "decoding",
+        "rendering",
+        "buffer",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "decoding=\"async\" permet de décoder l'image en dehors de la boucle principale pour ne pas bloquer le rendu du texte.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La valeur {{1}} force le décodage de l'image de manière synchrone avec le reste du contenu.",
+      "reponsesAttendues": ["sync"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle valeur est le comportement par défaut ?",
+      "options": [
+        "auto",
+        "async",
+        "sync",
+        "none"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "decoding=\"async\" est particulièrement utile pour les très grandes images sur mobile.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi sert fetchpriority=\"high\" (nouveauté Chrome) ?",
+      "options": [
+        "À indiquer au navigateur que cette image est une priorité absolue de téléchargement",
+        "À payer plus cher",
+        "À rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Associer loading=\"lazy\" et decoding=\"{{1}}\" est une pratique courante pour les images secondaires.",
+      "reponsesAttendues": ["async"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "decoding=\"sync\" peut provoquer des micro-saccades (janky scrolling) lors du défilement.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Le bénéfice principal de 'async' est :",
+      "options": [
+        "La fluidité de l'interface utilisateur lors du chargement de médias",
+        "La qualité de l'image",
+        "Le poids du fichier",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Ces attributs techniques sont cruciaux pour les scores Core Web Vitals.",
+      "reponse": true
+    }
+  ]
+}

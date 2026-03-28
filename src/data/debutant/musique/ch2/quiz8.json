@@ -1,0 +1,94 @@
+{
+  "id": "quiz8",
+  "titre": "Les Altérations : Dièse et Bémol",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que fait un Dièse (#) ?",
+      "options": [
+        "Il monte la note d'un demi-ton",
+        "Il descend la note d'un demi-ton",
+        "Il annule une altération",
+        "Il change le rythme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Bémol descend la note d'un demi-ton.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le signe qui annule un dièse ou un bémol est le {{1}} (bécarre).",
+      "reponsesAttendues": [
+        "bécarre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Où place-t-on l'altération sur la partition ?",
+      "options": [
+        "Avant la note",
+        "Après la note",
+        "Au-dessus de la note",
+        "En dessous de la note"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une altération accidentelle dure toute la mesure.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on l'ensemble des altérations au début de la portée ?",
+      "options": [
+        "L'armure",
+        "Le chiffrage",
+        "La mesure",
+        "La clé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "On dit que deux notes sont {{1}} lorsqu'elles ont le même son mais des noms différents (enharmoniques).",
+      "reponsesAttendues": [
+        "enharmoniques"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Fa dièse et Sol bémol sont la même touche sur un piano.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Laquelle de ces notes n'a pas de touche noire entre elles sur le piano ?",
+      "options": [
+        "Mi et Fa",
+        "Do et Ré",
+        "Sol et La",
+        "Ré et Mi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il existe aussi des doubles dièses et des doubles bémols.",
+      "reponse": true
+    }
+  ]
+}

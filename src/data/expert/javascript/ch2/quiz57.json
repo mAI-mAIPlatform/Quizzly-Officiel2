@@ -1,0 +1,94 @@
+{
+  "id": "quiz57",
+  "titre": "JS Expert : Sécurité - CSP",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie CSP ?",
+      "options": [
+        "Content Security Policy",
+        "Client Side Protection",
+        "Core Script Priority",
+        "Computer Security Policy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "CSP est une couche de sécurité supplémentaire qui aide à détecter et atténuer certains types d'attaques, comme l'XSS.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "CSP se définit généralement via un en-tête `{{1}}` envoyé par le serveur.",
+      "reponsesAttendues": [
+        "HTTP"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle directive CSP restreint les sources d'exécution des scripts ?",
+      "options": [
+        "script-src",
+        "img-src",
+        "default-src",
+        "connect-src"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Par défaut, une CSP stricte bloque tout JavaScript 'inline' (dans les balises <script>).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'nonce' dans une politique CSP ?",
+      "options": [
+        "Un nombre aléatoire unique par requête permettant d'exécuter un script spécifique",
+        "Une erreur de serveur",
+        "Un type de cookie",
+        "Une limite de temps"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La directive par défaut qui s'applique à tous les types de ressources est `{{1}}-src`.",
+      "reponsesAttendues": [
+        "default"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut tester une CSP sans bloquer les ressources via l'en-tête 'Content-Security-Policy-Report-Only'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si un script essaie de charger une ressource venant d'une source non autorisée par la CSP ?",
+      "options": [
+        "Le navigateur bloque la requête et génère une erreur dans la console",
+        "Le script s'arrête indéfiniment",
+        "Le serveur crash",
+        "L'attaquant reçoit une alerte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Une CSP bien configurée peut empêcher l'envoi de données vers un domaine malveillant (exfiltration).",
+      "reponse": true
+    }
+  ]
+}

@@ -3,5 +3,30 @@
   "titre": "HTML",
   "niveau": "Expert",
   "description": "Découvre et maîtrise tout le programme de HTML au niveau Expert !",
-  "chapitres": []
+  "chapitres": [
+    {
+      "id": "ch1",
+      "titre": "Sémantique et Web Profond",
+      "lecons": ["Microdonnées et Schema.org", "HTML5 Avancé", "SEO Technique"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch2",
+      "titre": "Composants et Shadow DOM",
+      "lecons": ["Custom Elements", "Slots et Templates", "Encapsulation"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch3",
+      "titre": "Accessibilité WCAG 2.2",
+      "lecons": ["Audit d'accessibilité", "WAI-ARIA complexe", "Patterns UI accessibles"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch4",
+      "titre": "Performance et API Web",
+      "lecons": ["Chargement critique", "Web SQL vs IndexedDB", "Service Workers"],
+      "quizCount": 30
+    }
+  ]
 }

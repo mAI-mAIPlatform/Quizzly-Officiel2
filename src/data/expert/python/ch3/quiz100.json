@@ -1,0 +1,95 @@
+{
+  "id": "quiz100",
+  "titre": "Revisione : Architettura e Internals (Capitolo 3 - Python Expert)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Verrou global Python ?",
+      "options": [
+        "GIL",
+        "GC",
+        "API",
+        "HTTP"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Cython = Compilation vers C.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Gestion mémoire par défaut : `{{1}}` counting.",
+      "reponsesAttendues": [
+        "reference",
+        "ref"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Module pour debugger ?",
+      "options": [
+        "pdb",
+        "sys",
+        "os",
+        "math"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Asyncio = Concurrence coopérative.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Profiler déterministe ?",
+      "options": [
+        "cProfile",
+        "timeit",
+        "inspect",
+        "gc"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Format de compilation intermédiaire : `{{1}}`.",
+      "reponsesAttendues": [
+        "Bytecode"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Multiprocessing contourne le GIL.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Module pour binaires types C ?",
+      "options": [
+        "struct",
+        "json",
+        "xml",
+        "csv"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "XSS = Injection de script côté client.",
+      "reponse": true
+    }
+  ]
+}

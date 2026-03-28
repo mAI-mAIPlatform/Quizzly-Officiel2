@@ -1,0 +1,94 @@
+{
+  "id": "quiz28",
+  "titre": "Récapitulatif Complet : Chapitre 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quel environnement JS est-il né ?",
+      "options": [
+        "Windows Explorer",
+        "Netscape Navigator",
+        "Internet Explorer",
+        "Opera"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le symbole '===' vérifie la valeur ET le type.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour afficher un message d'erreur, on utilise console.{{1}}.",
+      "reponsesAttendues": [
+        "error"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel symbole permet de faire des Template Literals ?",
+      "options": [
+        "'",
+        "\"",
+        "`",
+        "$"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "JavaScript peut s'écrire dans un fichier .css.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est l'opérateur modulo ?",
+      "options": [
+        "/",
+        "mod",
+        "%",
+        "&"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'extension d'un fichier JS externe est .{{1}}.",
+      "reponsesAttendues": [
+        "js"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser le debugger dans le navigateur.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est un type primitif ?",
+      "options": [
+        "Array",
+        "Boolean",
+        "Object",
+        "Date"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "typeof null renvoie 'null'.",
+      "reponse": false
+    }
+  ]
+}

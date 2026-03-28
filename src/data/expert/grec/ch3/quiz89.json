@@ -1,0 +1,95 @@
+{
+  "id": "quiz89",
+  "titre": "Grec Expert : Cyniques et Sceptiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est le plus célèbre représentant du cynisme, vivant dans un tonneau (pithos) ?",
+      "options": [
+        "Diogène de Sinope",
+        "Antisthène",
+        "Cratès",
+        "Pyrrhon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le mot 'Cynique' vient du grec 'kyon' qui signifie 'chien'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'`{{1}}` (Autarcie) ou indépendance totale est l'idéal de vie du cynique.",
+      "reponsesAttendues": [
+        "Autarcie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pour quelle attitude provocante Diogène est-il resté célèbre ?",
+      "options": [
+        "Chercher un homme honnête avec une lanterne en plein jour",
+        "Porter des vêtements en or",
+        "Refuser de parler à quiconque",
+        "Applaudir les tyrans"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le scepticisme (Pyrrhonisme) prône la suspension du jugement (épochè).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est le but du sceptique en suspendant son jugement ?",
+      "options": [
+        "Atteindre la tranquillité de l'âme (ataraxie)",
+        "Devenir le plus riche",
+        "Gagner tous les débats",
+        "Se moquer de la science"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'`{{1}}` (Epoche) est l'arrêt volontaire de l'affirmation ou de la négation.",
+      "reponsesAttendues": [
+        "Epoche",
+        "Suspension du jugement"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Sextus Empiricus est l'une des principales sources sur le scepticisme grec.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que reprochent les cyniques à la civilisation ?",
+      "options": [
+        "Ses conventions artificielles et son luxe corrupteur",
+        "Son manque de technologie",
+        "L'absence de lois",
+        "Le manque de spectacles"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Diogène a demandé à Alexandre le Grand de 's'ôter de son soleil'.",
+      "reponse": true
+    }
+  ]
+}

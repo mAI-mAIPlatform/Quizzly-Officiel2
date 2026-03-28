@@ -1,0 +1,94 @@
+{
+  "id": "quiz105",
+  "titre": "HTML Expert : Responsive Design et Nouvelles Unités",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle fonctionnalité CSS permet de modifier le style d'un élément en fonction de la taille de son CONTENEUR parent et non de l'écran ?",
+      "options": [
+        "Container Queries",
+        "Media Queries",
+        "Layer Queries",
+        "Flex Queries"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les unités 'lvh' et 'svh' permettent de gérer les barres de menus dynamiques des navigateurs mobiles (Large/Small Viewport Height).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La fonction `{{1}}` (clamp) en CSS permet de définir une valeur comprise entre une borne minimale et maximale (ex: clamp(1rem, 5vw, 2rem)).",
+      "reponsesAttendues": [
+        "clamp"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie l'unité 'cqw' ?",
+      "options": [
+        "Container Query Width (1% de la largeur du conteneur parent)",
+        "Column Query Wave",
+        "Color Query Weight",
+        "Custom Query Web"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'unité 'dvh' (Dynamic Viewport Height) s'ajuste automatiquement selon que la barre d'adresse mobile est affichée ou non.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Subgrid' en CSS ?",
+      "options": [
+        "Une fonctionnalité permettant à un élément enfant de partager la grille de son parent",
+        "Un petit tableau dans une cellule",
+        "Une méthode de compression CSS",
+        "Un remplacement du Flexbox"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La propriété `{{1}}` (aspect-ratio) permet de forcer un élément à garder des proportions spécifiques (ex: 16/9) sans calculer la hauteur.",
+      "reponsesAttendues": [
+        "aspect-ratio"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La notation @container nécessite d'abord de définir un conteneur via 'container-type'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle unité est basée sur la largeur de l'écran entier (Viewport) ?",
+      "options": [
+        "vw",
+        "em",
+        "rem",
+        "%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il est désormais possible de faire des Media Queries basées sur les capacités matérielles (hover, pointer, color-gamut).",
+      "reponse": true
+    }
+  ]
+}

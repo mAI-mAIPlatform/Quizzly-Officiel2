@@ -1,0 +1,90 @@
+{
+  "id": "quiz4",
+  "titre": "Infinitif Personnel",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'infinitif personnel (Infinitivo Pessoal) ?",
+      "options": [
+        "Une forme d'infinitif qui se conjugue selon la personne",
+        "Un infinitif réservé aux noms propres",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'infinitif personnel s'utilise souvent quand le sujet de l'infinitif est différent de celui du verbe principal.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Complétez : 'É importante vocês {{1}} (estudar) muito.'",
+      "reponsesAttendues": ["estudarem"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la forme de la 1ère personne du pluriel ?",
+      "options": [
+        "-mos (ex: falarmos)",
+        "-mos (ex: falamos)",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'infinitif personnel permet d'éviter l'usage du subjonctif dans certaines phrases prépositionnelles.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Complétez : 'Saímos sem eles {{1}} (perceber).'",
+      "options": [
+        "perceberem",
+        "percebem",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'infinitif personnel du verbe 'SER' à la 2ème personne du singulier est '{{1}}'.",
+      "reponsesAttendues": ["seres"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'infinitif personnel est unique aux langues ibériques (portugais, galicien).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle forme complète : 'Para nós {{1}} (ir) ao cinema, precisamos de dinheiro.'",
+      "options": [
+        "irmos",
+        "vamos",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'infinitif impersonnel et la 1ère/3ème personne du singulier de l'infinitif personnel ont la même forme.",
+      "reponse": true
+    }
+  ]
+}

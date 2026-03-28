@@ -1,0 +1,96 @@
+{
+  "id": "quiz48",
+  "titre": "Grec Expert : L'Infinitif Substantivé",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment substantiver un infinitif en grec ancien ?",
+      "options": [
+        "En le faisant précéder de l'article neutre (τό)",
+        "En lui ajoutant un sigma final",
+        "En le mettant au pluriel",
+        "C'est impossible"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'infinitif substantivé peut se décliner à tous les cas (τό, τοῦ, τῷ).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le génitif de l'infinitif (τοῦ + infinitif) s'emploie souvent pour exprimer le `{{1}}` (pour, afin de).",
+      "reponsesAttendues": [
+        "but",
+        "dessein"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel permet de traduire 'par le fait de...' ?",
+      "options": [
+        "Le datif (τῷ + infinitif)",
+        "L'accusatif",
+        "Le nominatif",
+        "Le vocatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut intercaler des compléments ou des adverbes entre l'article et l'infinitif.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle négation accompagne toujours l'infinitif substantivé ?",
+      "options": [
+        "μή",
+        "οὐ",
+        "οὐ μή",
+        "οὐδέ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'infinitif garde ses propriétés verbales : il peut avoir un `{{1}}` et des compléments.",
+      "reponsesAttendues": [
+        "sujet",
+        "objet"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'infinitif substantivé est très utilisé dans le style philosophique et scientifique.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'διὰ τὸ + infinitif' ?",
+      "options": [
+        "Parce que / En raison du fait que",
+        "Après avoir fait",
+        "Avant de faire",
+        "Malgré le fait que"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'infinitif présent substantivé insiste sur le processus de l'action.",
+      "reponse": true
+    }
+  ]
+}

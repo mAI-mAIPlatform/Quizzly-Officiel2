@@ -1,0 +1,94 @@
+{
+  "id": "quiz8",
+  "titre": "Gramática : Concordância Verbal e Nominal",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qual a concordância correta com 'A maioria dos alunos' ?",
+      "options": [
+        "Pode ser singular ou plural (estudou / estudaram)",
+        "Apenas singular",
+        "Apenas plural",
+        "Depende do professor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Com o pronome 'quem', o verbo pode ficar na 3a pessoa do singular ou concordar com o antecedente.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Fui eu que `{{1}}` (fazer - passado) isto.",
+      "reponsesAttendues": [
+        "fiz"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Como se concorda o adjetivo com vários substantivos de géneros diferentes ?",
+      "options": [
+        "Vai para o masculino plural",
+        "Concorda com o último",
+        "Ambas as opções acima são possíveis dependendo da posição",
+        "Fica no singular"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "A palavra 'anexo' deve concordar com o substantivo (ex: as fotos anexas).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qual a concordância de 'meio' em 'Ela está ... cansada' ?",
+      "options": [
+        "meio (advérbio é invariável)",
+        "meia",
+        "meias",
+        "meios"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Mais de um aluno `{{1}}` (ser - passado) reprovado.",
+      "reponsesAttendues": [
+        "foi"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "A expressão 'é proibido' varia se vier precedida de artigo (ex: A entrada é proibida).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qual a forma correta para 'Haver' com sentido de existir ?",
+      "options": [
+        "Havia muitos problemas",
+        "Haviam muitos problemas",
+        "Ouvi muitos problemas",
+        "Hão de muitos problemas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "O verbo 'fazer' indicando tempo decorrido fica sempre no singular.",
+      "reponse": true
+    }
+  ]
+}

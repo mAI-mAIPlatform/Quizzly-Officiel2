@@ -1,0 +1,94 @@
+{
+  "id": "quiz23",
+  "titre": "Tableaux : Ajouter et Supprimer",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode ajoute un élément à la FIN du tableau ?",
+      "options": [
+        "push()",
+        "pop()",
+        "shift()",
+        "unshift()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La méthode 'pop()' supprime le DERNIER élément du tableau.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour ajouter un élément au DÉBUT du tableau, on utilise {{1}}().",
+      "reponsesAttendues": [
+        "unshift"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que fait la méthode 'shift()' ?",
+      "options": [
+        "Elle supprime le PREMIER élément",
+        "Elle supprime le DERNIER élément",
+        "Elle ajoute un élément au début",
+        "Elle trie le tableau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les méthodes push() et pop() sont les plus couramment utilisées.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Si let t = [1, 2]; alors t.push(3); donne :",
+      "options": [
+        "[1, 2, 3]",
+        "[3, 1, 2]",
+        "[1, 3, 2]",
+        "[3, 3]"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La méthode pop() renvoie l'élément qui a été {{1}}.",
+      "reponsesAttendues": [
+        "supprimé"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut ajouter plusieurs éléments en une fois avec push(1, 2, 3).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'opération de retirer un élément au début ?",
+      "options": [
+        "Le décalage (shift)",
+        "L'empilement (push)",
+        "Le retrait (pop)",
+        "L'insertion (unshift)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Utiliser push/pop est plus rapide que shift/unshift sur de grands tableaux.",
+      "reponse": true
+    }
+  ]
+}

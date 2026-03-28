@@ -1,0 +1,94 @@
+{
+  "id": "quiz8",
+  "titre": "Les Articles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Le' ?",
+      "options": [
+        "O",
+        "A",
+        "Os",
+        "As"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'A' est l'article défini féminin (La).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour dire 'Les' au masculin, on utilise '{{1}}'.",
+      "reponsesAttendues": [
+        "Os"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Un' (indéfini) ?",
+      "options": [
+        "Um",
+        "Uma",
+        "Uns",
+        "Umas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Uma' est l'article indéfini féminin (Une).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel article signifie 'Les' au féminin ?",
+      "options": [
+        "Os",
+        "As",
+        "Uns",
+        "Umas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le pluriel de 'Um' est '{{1}}' (Quelques / Des).",
+      "reponsesAttendues": [
+        "Uns"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "En portugais, on utilise souvent l'article devant les prénoms de personnes.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Traduisez : 'La maison'",
+      "options": [
+        "O casa",
+        "A casa",
+        "Um casa",
+        "As casas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "'O' se prononce souvent comme un 'OU' léger en fin de mot ou article.",
+      "reponse": true
+    }
+  ]
+}

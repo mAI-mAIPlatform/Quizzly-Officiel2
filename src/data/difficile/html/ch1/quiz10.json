@@ -1,0 +1,90 @@
+{
+  "id": "quiz10",
+  "titre": "Microdonnées et Schémas",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel attribut HTML5 est utilisé pour définir un type d'objet dans les microdonnées ?",
+      "options": [
+        "itemtype",
+        "itemid",
+        "datatype",
+        "schema"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut itemprop permet d'associer une propriété à la valeur d'une balise.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} définit le périmètre d'un objet dans les microdonnées.",
+      "reponsesAttendues": ["itemscope"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel format est recommandé par Google pour les données structurées ?",
+      "options": [
+        "JSON-LD",
+        "Microdata",
+        "RDFa",
+        "XML"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Utiliser des données structurées peut générer des 'Rich Snippets' dans les recherches.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Où trouve-t-on le dictionnaire de référence pour ces données ?",
+      "options": [
+        "schema.org",
+        "w3.org",
+        "html5.com",
+        "google.com"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La balise <{{1}}> peut être utilisée pour fournir une valeur lisible par machine différente du texte affiché.",
+      "reponsesAttendues": ["data"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "JSON-LD se place dans une balise <script type='application/ld+json'>.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser les microdonnées ?",
+      "options": [
+        "Pour aider les moteurs de recherche à comprendre le sens du contenu",
+        "Pour changer la couleur",
+        "Pour gagner de l'argent",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les microdonnées font partie du Web Sémantique.",
+      "reponse": true
+    }
+  ]
+}

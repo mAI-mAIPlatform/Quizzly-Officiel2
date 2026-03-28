@@ -1,0 +1,94 @@
+{
+  "id": "quiz29",
+  "titre": "Synthèse Citoyenneté (2)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Laquelle est un symbole de la France ?",
+      "options": [
+        "Le lion",
+        "Marianne",
+        "Un dragon",
+        "Un château"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La laïcité interdit toutes les religions à la maison.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Trier ses déchets est un geste pour l'{{1}}.",
+      "reponsesAttendues": [
+        "environnement"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle liberté permet de croire ou de ne pas croire ?",
+      "options": [
+        "La liberté de circuler",
+        "La liberté de conscience",
+        "La liberté d'acheter",
+        "La liberté de dormir"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les enfants ont des droits, mais aussi des devoirs (comme respecter les autres).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Où se trouve Marianne en mairie ?",
+      "options": [
+        "C'est une statue (un buste)",
+        "C'est la secrétaire",
+        "C'est un tableau",
+        "Elle n'y est pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le drapeau français est {{1}}, blanc, rouge.",
+      "reponsesAttendues": [
+        "bleu"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La nature n'appartient à personne, nous devons tous la protéger.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel droit protège ton corps et tes secrets ?",
+      "options": [
+        "Le droit à l'éducation",
+        "Le droit à la vie privée",
+        "Le droit de vote",
+        "Le droit de courir"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Tu connais maintenant les bases de la vie en société !",
+      "reponse": true
+    }
+  ]
+}

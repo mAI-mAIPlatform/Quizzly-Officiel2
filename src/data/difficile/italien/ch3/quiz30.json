@@ -1,0 +1,90 @@
+{
+  "id": "quiz30",
+  "titre": "EXAMEN FINAL",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le chef du gouvernement italien ?",
+      "options": [
+        "Le Président du Conseil",
+        "Le Président de la République",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Cosa Nostra est la mafia calabraise.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'Italie fait partie du {{1}} (G7).",
+      "reponsesAttendues": ["G7"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle ville est la capitale de la mode ?",
+      "options": [
+        "Milan",
+        "Rome",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le divorce a été légalisé en 1970.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est le problème démographique majeur ?",
+      "options": [
+        "La dénatalité",
+        "La surpopulation",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La {{1}} (Farnesina) est le ministère des Affaires étrangères.",
+      "reponsesAttendues": ["Farnesina"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Ferrari est une marque de la Motor Valley.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'Otto per mille ?",
+      "options": [
+        "Un impôt reversé à l'Église ou à l'État",
+        "Un degré d'alcool",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Félicitations ! Tu as complété le chapitre sur la Société et l'Économie ! 🏛️💼📊📉🇮🇹✨",
+      "reponse": true
+    }
+  ]
+}

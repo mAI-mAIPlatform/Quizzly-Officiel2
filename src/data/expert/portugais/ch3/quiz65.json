@@ -1,0 +1,95 @@
+{
+  "id": "quiz65",
+  "titre": "Portugais Expert : Fernando Pessoa et 'Mensagem'",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le seul livre de poésie en portugais publié par Pessoa de son vivant ?",
+      "options": [
+        "Mensagem (Message)",
+        "O Guardador de Rebanhos",
+        "Livro do Desassossego",
+        "Odes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Mensagem est une œuvre ésotérique et symboliste sur l'histoire mythique du Portugal.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Quinto Império) est le concept de l'empire spirituel futur du Portugal chanté par Pessoa.",
+      "reponsesAttendues": [
+        "Cinquième Empire",
+        "Quinto Imperio"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel roi disparu, figure centrale du messianisme portugais, est célébré dans Mensagem ?",
+      "options": [
+        "D. Sebastião",
+        "D. Manuel I",
+        "D. Afonso Henriques",
+        "D. João II"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le 'Sébastianisme' est l'espoir du retour du roi D. Sebastião pour sauver le pays.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment Pessoa divise-t-il les parties de 'Mensagem' ?",
+      "options": [
+        "Brasão, Mar Português, O Encoberto",
+        "Enfer, Purgatoire, Paradis",
+        "Terre, Mer, Ciel",
+        "Naissance, Vie, Mort"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pessoa écrit : 'Deus quer, o homem sonha, a obra `{{1}}`'.",
+      "reponsesAttendues": [
+        "nasce"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Mensagem a remporté un prix littéraire secret décerné par le régime de l'époque (Salazar).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le poème le plus célèbre de la partie 'Mar Português' ?",
+      "options": [
+        "Ó mar salgado, quanto do teu sal...",
+        "Autopsicografia",
+        "Tabacaria",
+        "Aniversário"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Mensagem réinterprète les grandes figures de l'épopée portugaise d'un point de vue spirituel et non militaire.",
+      "reponse": true
+    }
+  ]
+}

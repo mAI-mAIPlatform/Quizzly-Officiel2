@@ -1,0 +1,90 @@
+{
+  "id": "quiz25",
+  "titre": "Functools & Higher Order",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que fait functools.partial() ?",
+      "options": [
+        "Elle exécute la moitié d'une fonction",
+        "Elle crée une nouvelle fonction avec certains arguments déjà fixés",
+        "Elle supprime une fonction",
+        "Elle trie les arguments"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "functools.reduce() applique une fonction de réduction à une séquence (ex: somme).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le décorateur @functools.{{1}} permet de mettre en cache les résultats d'une fonction (mémoïsation).",
+      "reponsesAttendues": ["lru_cache"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quoi sert @functools.wraps ?",
+      "options": [
+        "À décorer un gâteau",
+        "À préserver les métadonnées (nom, docstring) de la fonction originale lors de la création d'un décorateur",
+        "À emballer le code",
+        "À accélérer le script"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "cmp_to_key permet d'utiliser des anciennes fonctions de comparaison avec sorted().",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une fonction d'ordre supérieur (Higher Order Function) ?",
+      "options": [
+        "Une fonction très rapide",
+        "Une fonction qui prend une autre fonction en argument ou en retourne une",
+        "Une fonction anonyme",
+        "Une fonction globale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La fonction {{1}}() applique une fonction à chaque élément d'un itérable.",
+      "reponsesAttendues": ["map"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "filter(lambda x: x > 0, [-1, 1]) retourne [1].",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que retourne list(map(str.upper, ['a', 'b'])) ?",
+      "options": [
+        "['A', 'B']",
+        "['a', 'b']",
+        "AB",
+        "Error"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Python possède de fortes capacités en programmation fonctionnelle.",
+      "reponse": true
+    }
+  ]
+}

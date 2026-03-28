@@ -1,0 +1,90 @@
+{
+  "id": "quiz16",
+  "titre": "Littérature XXe Siècle",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel dramaturge sicilien a écrit 'Six personnages en quête d'auteur' ?",
+      "options": [
+        "Luigi Pirandello",
+        "Italo Svevo",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pirandello a reçu le Prix Nobel de littérature en 1934.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Italo {{1}} (Svevo) est l'auteur de 'La Conscience de Zeno' (La coscienza di Zeno).",
+      "reponsesAttendues": ["Svevo"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la thématique centrale de l'œuvre de Pirandello ?",
+      "options": [
+        "La multiplicité de l'identité et le conflit entre réalité et apparence",
+        "La gloire militaire",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Italo Svevo a été encouragé et aidé par l'écrivain James Joyce, qui était son professeur d'anglais.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel auteur a écrit l'épopée 'Le Guépard' (Il Gattopardo) ?",
+      "options": [
+        "Giuseppe Tomasi di Lampedusa",
+        "Alberto Moravia",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le concept de la '{{1}}' (maschera) est fondamental chez Pirandello.",
+      "reponsesAttendues": ["masque", "maschera"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Eugène Montale est l'un des plus grands poètes hermétiques du XXe siècle italien.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel roman de Dino Buzzati décrit l'attente métaphysique dans une forteresse ?",
+      "options": [
+        "Le Désert des Tartares",
+        "Un amour",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La littérature italienne du XXe siècle est marquée par une profonde exploration de l'intériorité.",
+      "reponse": true
+    }
+  ]
+}

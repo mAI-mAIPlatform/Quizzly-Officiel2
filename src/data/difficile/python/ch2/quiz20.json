@@ -1,0 +1,90 @@
+{
+  "id": "quiz20",
+  "titre": "Révisions : Modules et Packages",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où Python cherche-t-il les modules en priorité ?",
+      "options": [
+        "Dans system32",
+        "Dans le répertoire courant",
+        "Sur internet",
+        "Dans venv"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "PIP peut installer des paquets depuis des fichiers .whl (Wheels).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'outil {{1}} permet de gérer les environnements virtuels et les paquets de manière plus moderne.",
+      "reponsesAttendues": ["Poetry", "Pipenv"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quoi sert __all__ dans un module ?",
+      "options": [
+        "À tout supprimer",
+        "À définir les noms exportés via 'from module import *'",
+        "À aider la RAM",
+        "À rien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "sys.modules est un dictionnaire des modules déjà chargés.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que retourne sys.argv[0] ?",
+      "options": [
+        "Le premier argument utilisateur",
+        "Le nom du script en cours d'exécution",
+        "La version de Python",
+        "L'adresse IP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour éviter les conflits de versions entre projets, on utilise des {{1}}.",
+      "reponsesAttendues": ["environnements virtuels", "venv"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut importer un module en utilisant une chaîne de caractères via __import__().",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment consulter la documentation intégrée d'un module ?",
+      "options": [
+        "help(module)",
+        "read(module)",
+        "pip show module",
+        "doc(module)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les modules compilés (.pyc) sont plus rapides à importer qu'à exécuter.",
+      "reponse": true
+    }
+  ]
+}

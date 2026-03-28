@@ -1,0 +1,90 @@
+{
+  "id": "quiz4",
+  "titre": "Silvio Berlusconi",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelait le parti fondé par Silvio Berlusconi en 1994 ?",
+      "options": [
+        "Forza Italia",
+        "Popolo della Libertà",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Berlusconi était surnommé 'Il Cavaliere'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Berlusconi a construit son empire financier via le groupe {{1}} (Fininvest / Mediaset).",
+      "reponsesAttendues": ["Fininvest", "Mediaset"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pendant combien d'années (au total) a-t-il été Président du Conseil ?",
+      "options": [
+        "Plus de 9 ans",
+        "4 ans",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le 'Berlusconisme' désigne à la fois une pratique politique et un modèle culturel lié aux médias privés.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel grand club de football Berlusconi a-t-il dirigé et porté au sommet mondial ?",
+      "options": [
+        "AC Milan",
+        "Inter Milan",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Sa victoire en 1994 a marqué le début de la '{{1}}' (deuxième) République.",
+      "reponsesAttendues": ["Seconde", "Deuxième", "Seconda"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Sa carrière a été marquée par de nombreux procès judiciaires.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle chaîne de télévision privée a été la base de son influence culturelle ?",
+      "options": [
+        "Canale 5",
+        "RAI 1",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Berlusconi a profondément divisé l'opinion publique italienne entre partisans et opposants farouches.",
+      "reponse": true
+    }
+  ]
+}

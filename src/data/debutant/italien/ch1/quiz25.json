@@ -1,0 +1,94 @@
+{
+  "id": "quiz25",
+  "titre": "L'Heure",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment demande-t-on 'Quelle heure est-il ?' ?",
+      "options": [
+        "Che ora è?",
+        "Che ore sono?",
+        "Quale ora?",
+        "Le deux premiers choix sont corrects"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour dire 'Il est une heure', on dit 'È l'una'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour toutes les autres heures, on utilise '{{1}}' (ex: Sono le due).",
+      "reponsesAttendues": [
+        "Sono"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'Mezzogiorno' ?",
+      "options": [
+        "Minuit",
+        "Maman",
+        "Midi",
+        "Mise à jour"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Mezzanotte' signifie 'Minuit'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Et quart' ?",
+      "options": [
+        "e un quarto",
+        "e mezza",
+        "e dieci",
+        "meno un quarto"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour 'Et demie', on dit 'e {{1}}'.",
+      "reponsesAttendues": [
+        "mezza"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Meno' s'utilise pour dire 'Moins' (ex: le due meno dieci).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Il est 8h00' ?",
+      "options": [
+        "È le otto",
+        "Sono le otto",
+        "Siamo le otto",
+        "Stanno le otto"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "En Italie, on utilise souvent le format 24h à l'écrit.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "quiz28",
+  "titre": "La Nature et les Éléments",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'ἡ φúσις' (hê phusis) ?",
+      "options": [
+        "La nature",
+        "Le corps",
+        "L'esprit",
+        "La pierre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'τὸ ὕδωρ' (to hudôr) signifie l'eau.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'arbre se dit 'τὸ {{1}}' (to dendron).",
+      "reponsesAttendues": [
+        "δένδρον"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'ὁ ποταμóς' (ho potamos) ?",
+      "options": [
+        "Le fleuve / la rivière",
+        "La montagne",
+        "Le lac",
+        "La mer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'τὸ ὄρος' (to oros) signifie la plaine.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'la fleur' ?",
+      "options": [
+        "τὸ ἄνθος (to anthos)",
+        "τὸ δένδρον",
+        "ἡ γῆ",
+        "τὸ πῦρ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le mot 'physique' vient de '{{1}}' (nature).",
+      "reponsesAttendues": [
+        "phusis",
+        "φύσις"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'ὁ ἄνεμος' (ho anemos) signifie le vent.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'ὁ λíθος' (ho lithos) ?",
+      "options": [
+        "La pierre",
+        "Le sable",
+        "L'or",
+        "Le bois"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les Grecs étudiaient beaucoup la nature.",
+      "reponse": true
+    }
+  ]
+}

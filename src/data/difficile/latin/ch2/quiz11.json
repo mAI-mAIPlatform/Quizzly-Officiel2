@@ -1,0 +1,90 @@
+{
+  "id": "quiz11",
+  "titre": "Temps Composés Passifs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment se forme le plus-que-parfait passif ?",
+      "options": [
+        "Participe Parfait + eram, eras, erat...",
+        "Participe Parfait + sum, es, est...",
+        "Participe Parfait + ero, eris, erit...",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Traduisez : 'Amatus erat' -> Il avait été aimé.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le futur antérieur passif se forme avec le participe parfait + {{1}} (ero, eris...).",
+      "reponsesAttendues": ["ero", "eris", "erit"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Accord du participe ?",
+      "options": [
+        "Obligatoire en genre, nombre et cas avec le sujet",
+        "Toujours au neutre",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser 'fueram' à la place de 'eram' pour renforcer l'antériorité.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Urbs capta erit'",
+      "options": [
+        "La ville aura été prise",
+        "La ville est prise",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le participe parfait passif est le radical du {{1}} + -us, -a, -um.",
+      "reponsesAttendues": ["supin"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les temps composés passifs sont identiques pour toutes les conjugaisons.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Condition pour former le passif ?",
+      "options": [
+        "Le verbe doit être transitif direct",
+        "Le verbe peut être n'importe lequel",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le futur antérieur passif est très précis en latin pour marquer l'ordre des actions.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz29",
+  "titre": "Sémantique des sorties",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise représente le résultat d'un calcul ou d'une action utilisateur ?",
+      "options": [
+        "<output>",
+        "<span>",
+        "<input>",
+        "<val>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La balise <output> peut être liée à d'autres éléments via l'attribut 'for'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} sur <output> associe l'élément au formulaire parent.",
+      "reponsesAttendues": ["form"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est l'intérêt sémantique de <output> ?",
+      "options": [
+        "Indiquer clairement aux lecteurs d'écran que cette zone contient le résultat d'un traitement",
+        "Afficher une couleur",
+        "Calculer seul",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut modifier dynamiquement le contenu de <output> avec JavaScript (.value).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que fait la balise (obsolète) <keygen> ?",
+      "options": [
+        "Générait des paires de clés pour les certificats",
+        "Créait des mots de passe",
+        "Calculait des maths",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La balise <{{1}}> (HTML5.1) permettait de définir un menu contextuel (supprimée depuis).",
+      "reponsesAttendues": ["menu"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un élément <output> est par défaut de type 'display: inline'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Où placer un <output> ?",
+      "options": [
+        "À l'intérieur ou à l'extérieur d'un formulaire",
+        "Uniquement dans le head",
+        "Nulle part",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "<output> est utile pour les formulaires de calcul (ex: conversion de devises).",
+      "reponse": true
+    }
+  ]
+}

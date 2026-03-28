@@ -1,0 +1,94 @@
+{
+  "id": "quiz20",
+  "titre": "Synthèse Verbes (1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle forme du verbe 'Ser' pour 'Nós' ?",
+      "options": [
+        "Somos",
+        "São",
+        "Sou",
+        "É"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Estar' s'utilise pour la nationalité.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le verbe 'Avoir' se dit '{{1}}' en portugais.",
+      "reponsesAttendues": [
+        "Ter"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment conjugue-t-on 'Falar' pour 'Eles' ?",
+      "options": [
+        "Falam",
+        "Falão",
+        "Falas",
+        "Falamos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Há' signifie 'Il y a'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison de 'Eu' pour tous les groupes réguliers ?",
+      "options": [
+        "-a",
+        "-e",
+        "-o",
+        "-i"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La négation se fait avec le mot '{{1}}'.",
+      "reponsesAttendues": [
+        "não"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Tenho fome' signifie 'J'ai faim'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle est une forme correcte de 'Comer' (Nous) ?",
+      "options": [
+        "Comamos",
+        "Comemos",
+        "Comimos",
+        "Comem"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Bravo ! Tu maîtrises les premiers verbes essentiels.",
+      "reponse": true
+    }
+  ]
+}

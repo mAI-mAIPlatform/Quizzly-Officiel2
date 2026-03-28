@@ -1,0 +1,94 @@
+{
+  "id": "quiz93",
+  "titre": "Python Expert : Extensions C et Ctypes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel module standard permet d'appeler des fonctions dans des bibliothèques partagées (.so / .dll) sans écrire de code C ?",
+      "options": [
+        "ctypes",
+        "struct",
+        "array",
+        "os"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'API C de Python nécessite de manipuler manuellement le compteur de références (Py_INCREF/Py_DECREF).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le type `{{1}}` (PyObject) est la structure de base représentant tous les objets Python dans l'API C.",
+      "reponsesAttendues": [
+        "PyObject"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle macro doit être utilisée pour relâcher le GIL avant une opération longue en C ?",
+      "options": [
+        "Py_BEGIN_ALLOW_THREADS",
+        "Py_GIL_RELEASE",
+        "THREAD_EXIT",
+        "ALLOW_PARALLEL"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "CFFI (C Foreign Function Interface) est souvent préféré à ctypes pour sa sécurité et ses performances.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment Python gère-t-il la conversion des types Python en types C dans ctypes ?",
+      "options": [
+        "Via des objets wrappers comme c_int, c_char_p",
+        "Automatiquement sans intervention",
+        "En utilisant JSON",
+        "Il ne le fait pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le module `{{1}}` (struct) permet de convertir des données binaires (bytes) en types C et inversement.",
+      "reponsesAttendues": [
+        "struct"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les extensions C peuvent provoquer des 'Segfaults' si la mémoire est mal gérée.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel outil moderne permet de générer des bindings Python pour du code C++ complexe ?",
+      "options": [
+        "pybind11",
+        "swig",
+        "boost.python",
+        "cython"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "'ctypes' est inclus dans la bibliothèque standard de Python.",
+      "reponse": true
+    }
+  ]
+}

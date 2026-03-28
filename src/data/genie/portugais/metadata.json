@@ -3,5 +3,30 @@
   "titre": "Portugais",
   "niveau": "Génie",
   "description": "Découvre et maîtrise tout le programme de Portugais au niveau Génie !",
-  "chapitres": []
+  "chapitres": [
+    {
+      "id": "ch1",
+      "titre": "Philologie Lusophone",
+      "lecons": ["Origines du galaïco-portugais", "Grammaire historique", "Évolution lexicale"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch2",
+      "titre": "Analyse Littéraire Critique",
+      "lecons": ["Fernando Pessoa (Hétéronymes)", "Réalisme magique", "Modernisme portugais"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch3",
+      "titre": "Géopolitique de la CPLP",
+      "lecons": ["Relations internationales", "Économies lusophones", "Mouvements d'indépendance"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch4",
+      "titre": "Culture et Identités",
+      "lecons": ["Anthropologie culturelle", "Arts visuels et Musique", "Traditions et Modernité"],
+      "quizCount": 30
+    }
+  ]
 }

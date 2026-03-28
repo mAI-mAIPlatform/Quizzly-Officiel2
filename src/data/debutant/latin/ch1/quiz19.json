@@ -1,0 +1,94 @@
+{
+  "id": "quiz19",
+  "titre": "L'Impératif Présent",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Combien de personnes l'impératif latin a-t-il au présent ?",
+      "options": [
+        "1",
+        "2 (tu et vous)",
+        "3 (tu, nous, vous)",
+        "6"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour la 1ère conjugaison (Amare), l'impératif singulier est 'Ama !'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'impératif pluriel d'Amare est '{{1}} !'.",
+      "reponsesAttendues": [
+        "Amate"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est l'impératif pluriel de 'Legere' ?",
+      "options": [
+        "Legete",
+        "Legite",
+        "Legate",
+        "Legant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'impératif pluriel se finit souvent par '-te'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Sois !' (singulier du verbe Esse) ?",
+      "options": [
+        "Es",
+        "Este",
+        "Sum",
+        "Esto"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour dire 'Soyez !' (pluriel), on dit '{{1}}'.",
+      "reponsesAttendues": [
+        "Este"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Certains verbes ont un impératif singulier 'court' : dic, duc, fac, fer.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'Veni !' ?",
+      "options": [
+        "Viens !",
+        "Vois !",
+        "Vis !",
+        "Vends !"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'impératif sert à donner un ordre ou un conseil.",
+      "reponse": true
+    }
+  ]
+}

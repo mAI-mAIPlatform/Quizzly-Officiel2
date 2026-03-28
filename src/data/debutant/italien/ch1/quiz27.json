@@ -1,0 +1,95 @@
+{
+  "id": "quiz27",
+  "titre": "Les Boissons",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'L'eau' ?",
+      "options": [
+        "L'acqua",
+        "Il vino",
+        "La birra",
+        "Il succo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Il latte' signifie 'Le lait'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La boisson culte italienne est le '{{1}}'.",
+      "reponsesAttendues": [
+        "caffè",
+        "espresso"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Le vin' ?",
+      "options": [
+        "Il vino",
+        "Il birra",
+        "Il tè",
+        "Il latte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Zucchero' signifie 'Sucre'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'Succo d'arancia' ?",
+      "options": [
+        "Jus de pomme",
+        "Jus d'orange",
+        "Jus de raisin",
+        "Jus de citron"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour demander l'addition, on dit 'Il {{1}}, per favore'.",
+      "reponsesAttendues": [
+        "conto"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Bicchiere' signifie 'Verre'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Bière' ?",
+      "options": [
+        "La birra",
+        "Il vino",
+        "Il succo",
+        "L'aranciata"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les Italiens boivent souvent du cappuccino après 11h du matin.",
+      "reponse": false
+    }
+  ]
+}

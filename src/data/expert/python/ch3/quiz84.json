@@ -1,0 +1,95 @@
+{
+  "id": "quiz84",
+  "titre": "Python Expert : Types Génériques et Protocoles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel objet permet de définir un paramètre de type générique ?",
+      "options": [
+        "typing.TypeVar",
+        "typing.Generic",
+        "typing.AnyStr",
+        "typing.ParamSpec"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une classe générique doit hériter de `typing.Generic[T]`. ",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le concept de `{{1}}` (Protocol) permet de définir un typage structurel (Duck Typing statique) introduit dans la PEP 544.",
+      "reponsesAttendues": [
+        "Protocol",
+        "Protocole"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment spécifie-t-on qu'un TypeVar doit être une sous-classe d'un certain type ?",
+      "options": [
+        "bound=Type",
+        "subclass=Type",
+        "inherits=Type",
+        "limit=Type"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les Protocoles nécessitent que les classes implémentent explicitement l'interface via un héritage.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi sert `typing.runtime_checkable` ?",
+      "options": [
+        "Permettre l'utilisation de isinstance() sur un Protocole",
+        "Accélérer l'exécution du code",
+        "Vérifier les types JSON",
+        "Compiler le code en C"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'annotation `{{1}}` (Self) introduite en 3.11 permet de désigner facilement le type de l'instance courante dans une méthode.",
+      "reponsesAttendues": [
+        "Self"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "`ParamSpec` permet de capturer et de transférer les types des paramètres d'une fonction à une autre (utile pour les décorateurs).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la variance de type 'Contravariante' ?",
+      "options": [
+        "Le type peut être remplacé par un type plus général",
+        "Le type peut être remplacé par un sous-type",
+        "Le type est fixe",
+        "Le type est aléatoire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'analyse statique de type aide à prévenir de nombreuses erreurs de logique avant l'exécution.",
+      "reponse": true
+    }
+  ]
+}

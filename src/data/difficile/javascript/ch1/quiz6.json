@@ -1,0 +1,90 @@
+{
+  "id": "quiz6",
+  "titre": "Portée Globale et Pollutions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il risqué d'utiliser trop de variables globales ?",
+      "options": [
+        "Elles consomment moins de mémoire",
+        "Elles peuvent être écrasées par d'autres scripts",
+        "Elles sont plus lentes à accéder",
+        "Elles sont interdites en mode strict"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En mode strict, assigner une valeur à une variable non déclarée lance une erreur au lieu de créer une globale.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'objet global dans un navigateur s'appelle {{1}}.",
+      "reponsesAttendues": ["window"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle déclaration au top-level ne pollue PAS l'objet 'window' ?",
+      "options": [
+        "var x = 1;",
+        "let x = 1;",
+        "function x(){}",
+        "Toutes polluent window"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les variables globales ne sont jamais supprimées par le Garbage Collector tant que la page est ouverte.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment éviter la création accidentelle de globales ?",
+      "options": [
+        "Utiliser 'use strict'",
+        "Utiliser des linters (ESLint)",
+        "Toujours déclarer avec let/const/var",
+        "Toutes les réponses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'espace de noms global est souvent appelé le {{1}} global.",
+      "reponsesAttendues": ["namespace"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les modules ES6 ont leur propre portée et ne polluent pas le scope global par défaut.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'affiche : (function(){ a = 5; })(); console.log(a); (sans mode strict) ?",
+      "options": [
+        "undefined",
+        "5",
+        "ReferenceError",
+        "null"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'objet 'globalThis' est une manière standardisée d'accéder à l'objet global quel que soit l'environnement.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz20",
+  "titre": "QUALITÉ D'ITALIE",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que désigne la 'Pax Romana' ?",
+      "options": [
+        "Paix et stabilité stable de l'Empire",
+        "Une guerre",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dante est le père de la langue italienne.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le plus long fleuve est le {{1}} (Po).",
+      "reponsesAttendues": ["Po", "Pô"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui a peint la Sixtine ?",
+      "options": [
+        "Michel-Ange",
+        "Raphaël",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'Italie est née en 1861.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle ville est la capitale de la mode ?",
+      "options": [
+        "Milan",
+        "Rome",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le juge assassiné en 1992 était Giovanni {{1}} (Falcone).",
+      "reponsesAttendues": ["Falcone"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Mezzogiorno désigne le Sud.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que fête-t-on le 2 juin ?",
+      "options": [
+        "La Fête de la République",
+        "Le Carnaval",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Benvenuti in Italia ! 🇮🇹🏆🍝🍷🎨🏛️🎬👗🛵🌋⚓🎭✨",
+      "reponse": true
+    }
+  ]
+}

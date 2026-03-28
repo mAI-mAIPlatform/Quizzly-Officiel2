@@ -1,0 +1,95 @@
+{
+  "id": "quiz33",
+  "titre": "Python Expert : __slots__ & Optimisation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert l'attribut `__slots__` dans une classe ?",
+      "options": [
+        "À économiser de la mémoire en remplaçant le dict d'instance par un tableau fixe d'attributs",
+        "À définir des slots publicitaires",
+        "À accélérer le réseau",
+        "À verrouiller le code source"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une instance de classe utilisant __slots__ n'a plus d'attribut __dict__ par défaut.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'économie de mémoire est significative lorsqu'on crée des `{{1}}` d'objets.",
+      "reponsesAttendues": [
+        "millions",
+        "milliers"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est l'un des effets secondaires de `__slots__` ?",
+      "options": [
+        "On ne peut plus ajouter dynamiquement d'attributs absents du tuple __slots__",
+        "Le code plante à chaque ligne",
+        "On ne peut plus hériter de cette classe",
+        "La vitesse est divisée par deux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Pour que __slots__ fonctionne dans une classe héritée, la classe parente doit aussi les définir.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment définit-on __slots__ ?",
+      "options": [
+        "__slots__ = ('attr1', 'attr2')",
+        "__slots__ = {'attr1', 'attr2'}",
+        "class slots:",
+        "__use_slots__ = True"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'usage de `__slots__` est une optimisation de `{{1}}` et non de temps d'exécution (bien que le temps d'accès soit très légèrement réduit).",
+      "reponsesAttendues": [
+        "mémoire"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il est impossible d'avoir à la fois __slots__ et __dict__ dans la même instance.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Pourquoi les classes intégrées comme int ou str n'ont pas de __dict__ ?",
+      "options": [
+        "Parce qu'elles sont implémentées en C de manière extrêmement optimisée",
+        "Parce qu'elles sont cachées",
+        "Parce qu'elles ne sont pas des classes",
+        "Parce que c'est le bug originel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'héritage multiple avec des classes ayant toutes des __slots__ non vides peut être problématique (Layout conflict).",
+      "reponse": true
+    }
+  ]
+}

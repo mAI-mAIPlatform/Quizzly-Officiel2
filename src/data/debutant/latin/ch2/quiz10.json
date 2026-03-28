@@ -1,0 +1,94 @@
+{
+  "id": "quiz10",
+  "titre": "Récapitulatif : Bases du Latin",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces formes est au nominatif pluriel de 'rosa' ?",
+      "options": [
+        "rosae",
+        "rosam",
+        "rosas",
+        "rosarum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Sumus' est la 1ère personne du pluriel du verbe être.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'accusatif singulier de 'dominus' est '{{1}}'.",
+      "reponsesAttendues": [
+        "dominum"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'laboramus' ?",
+      "options": [
+        "Nous travaillons",
+        "Vous travaillez",
+        "Ils travaillent",
+        "Je travaille"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le neutre pluriel finit par -a.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel cas exprime la destination (à qui ?) ?",
+      "options": [
+        "Le Datif",
+        "L'Accusatif",
+        "Le Génitif",
+        "Le Nominatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": " 'L'esclave aime le maître' se dit 'Servus {{1}} amat'.",
+      "reponsesAttendues": [
+        "dominum"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Es' signifie 'tu es'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'via' ?",
+      "options": [
+        "La route / le chemin",
+        "La vie",
+        "La voix",
+        "La ville"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Félicitations ! Tu as posé les bases de la grammaire latine !",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz3",
+  "titre": "Promises : Workflow Intermédiaire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quels sont les trois états possibles d'une Promise ?",
+      "options": [
+        "Start, Middle, End",
+        "Pending, Fulfilled, Rejected",
+        "Open, Close, Error",
+        "Wait, Run, Stop"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une fois qu'une Promise est 'Settled' (Fulfilled ou Rejected), son état ne peut plus jamais changer.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La méthode {{1}} permet de chaîner plusieurs opérations asynchrones.",
+      "reponsesAttendues": ["then"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que retourne p.then() ?",
+      "options": [
+        "La valeur de résultat",
+        "Une nouvelle Promise",
+        "undefined",
+        "Rien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un .catch() attrape les erreurs survenues dans n'importe quel .then() précédent de la chaîne.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi sert .finally() ?",
+      "options": [
+        "À arrêter le script",
+        "À exécuter du code qu'il y ait eu succès ou erreur (ex: fermer un loader)",
+        "À relancer la promesse",
+        "À logger l'erreur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Si un .then() retourne une valeur, elle est enveloppée dans une promesse {{1}}.",
+      "reponsesAttendues": ["résolue", "fulfilled"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut 'résoudre' une promesse avec une autre promesse.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Promise Hell' ?",
+      "options": [
+        "Une erreur 500",
+        "L'imbrication excessive de .then() rendant le code illisible",
+        "Une promesse qui ne finit jamais",
+        "Un ralentissement réseau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le constructeur 'new Promise((resolve, reject) => { ... })' s'exécute de manière synchrone.",
+      "reponse": true
+    }
+  ]
+}

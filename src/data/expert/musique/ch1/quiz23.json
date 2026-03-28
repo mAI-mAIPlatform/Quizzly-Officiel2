@@ -1,0 +1,92 @@
+{
+  "id": "quiz23",
+  "titre": "Histoire : Wolfgang Amadeus Mozart",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où Mozart est-il né en 1756 ?",
+      "options": [
+        "Salzbourg",
+        "Vienne",
+        "Munich",
+        "Prague"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "vrai_faux",
+      "enonce": "Mozart a écrit son premier opéra à l'âge de 11 ans.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'opéra de Mozart basé sur une pièce de Beaumarchais s'appelle 'Les Noces de `{{1}}`'.",
+      "reponsesAttendues": [
+        "Figaro"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est l'opéra de Mozart surnommé 'Le Dissolu puni' ?",
+      "options": [
+        "Don Giovanni",
+        "La Flûte Enchantée",
+        "Così fan tutte",
+        "Idomeneo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "vrai_faux",
+      "enonce": "Le catalogue des œuvres de Mozart a été établi par Ludwig von Köchel (K.).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un Singspiel (ex: La Flûte Enchantée) ?",
+      "options": [
+        "Un opéra allemand avec des dialogues parlés",
+        "Un air sérieux italien",
+        "Une pièce pour violon seul",
+        "Un ballet de cour"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le dernier opéra composé par Mozart (juste avant sa mort) est 'La Flûte `{{1}}`'.",
+      "reponsesAttendues": [
+        "enchantée"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Mozart était un virtuose exceptionnel du piano et du violon.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Combien de symphonies Mozart a-t-il composées officiellement ?",
+      "options": [
+        "41",
+        "104",
+        "9",
+        "27"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Mozart est mort à 35 ans en laissant son Requiem inachevé.",
+      "reponse": true
+    }
+  ]
+}

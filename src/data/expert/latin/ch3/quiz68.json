@@ -1,0 +1,96 @@
+{
+  "id": "quiz68",
+  "titre": "Latin Expert : Catulle et les Néotériques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est le chef de file des poètes 'néotériques' (ou poetae novi) à Rome ?",
+      "options": [
+        "Catulle",
+        "Lucrèce",
+        "Properce",
+        "Tibulle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les néotériques privilégiaient les courts poèmes ciselés et érudits plutôt que les longues épopées.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La muse et amante de Catulle dans ses poèmes s'appelle `{{1}}`.",
+      "reponsesAttendues": [
+        "Lesbie",
+        "Lesbia"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie le célèbre 'Odi et amo' de Catulle ?",
+      "options": [
+        "Je hais et j'aime",
+        "Je chante et je danse",
+        "Vivre et mourir",
+        "Le rire et les pleurs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Catulle a écrit des poèmes d'une grande violence verbale contre ses ennemis politiques, comme Jules César.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Originaire de quelle ville était Catulle ?",
+      "options": [
+        "Vérone",
+        "Rome",
+        "Naples",
+        "Carthage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'`{{1}}` (epyllion) est un petit poème épique très prisé des néotériques.",
+      "reponsesAttendues": [
+        "épyllion",
+        "epyllion"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Properce et Tibulle sont deux autres grands poètes élégiaques romains, successeurs de Catulle.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel poème célèbre de Catulle pleure la mort d'un petit oiseau ?",
+      "options": [
+        "Le moineau de Lesbie",
+        "La mouche",
+        "L'aigle de Jupiter",
+        "Le cygne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Catulle a introduit les mètres lyriques grecs (comme la strophe saphique) dans la poésie latine.",
+      "reponse": true
+    }
+  ]
+}

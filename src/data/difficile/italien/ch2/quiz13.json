@@ -1,0 +1,90 @@
+{
+  "id": "quiz13",
+  "titre": "Le Romantisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel auteur a écrit 'I Promessi Sposi' (Les Fiancés), chef-d'œuvre du romantisme italien ?",
+      "options": [
+        "Alessandro Manzoni",
+        "Giacomo Leopardi",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le romantisme italien est étroitement lié au mouvement patriotique du Risorgimento.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Francesco {{1}} (Hayez) a peint le célèbre tableau 'Le Baiser' (Il Bacio), symbole romantique.",
+      "reponsesAttendues": ["Hayez"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel poète est connu pour son 'pessimisme cosmique' et son recueil 'Canti' ?",
+      "options": [
+        "Giacomo Leopardi",
+        "Giosuè Carducci",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'Italie romantique accorde une grande importance à l'histoire nationale médiévale.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment Manzoni a-t-il 'lavé ses draps' pour la version finale des Fiancés ?",
+      "options": [
+        "Dans l'Arno (pour adopter le toscan pur)",
+        "Dans le Pô",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le poème 'L'' {{1}}' (Infinito) est l'un des poèmes les plus célèbres de Leopardi.",
+      "reponsesAttendues": ["Infini", "Infinito"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le romantisme italien est généralement moins fantastique et plus réaliste que le romantisme allemand.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel compositeur romantique a vu ses opéras servir de symboles révolutionnaires ?",
+      "options": [
+        "Giuseppe Verdi",
+        "Gioachino Rossini",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le romantisme a contribué à forger une conscience nationale unifiée.",
+      "reponse": true
+    }
+  ]
+}

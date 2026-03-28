@@ -1,0 +1,94 @@
+{
+  "id": "quiz58",
+  "titre": "Musique Expert : Le Jazz et son Histoire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quelle ville américaine le Jazz est-il né au tournant du XXe siècle ?",
+      "options": [
+        "La Nouvelle-Orléans",
+        "New York",
+        "Chicago",
+        "Memphis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'improvisation est l'élément central du Jazz.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Louis `{{1}}` (Satchmo) fut la première grande star mondiale du Jazz au cornet et à la trompette.",
+      "reponsesAttendues": [
+        "Armstrong"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le Swing ?",
+      "options": [
+        "Un rythme sautillant caractéristique du Jazz et l'ère des Big Bands",
+        "Un instrument",
+        "Une fin de chanson",
+        "Le nom d'un club"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Bebop (Charlie Parker, Dizzy Gillespie) a rendu le Jazz plus complexe et intellectuel dans les années 40.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui est surnommé le 'Duke' et fut l'un des plus grands compositeurs et chefs d'orchestre de Jazz ?",
+      "options": [
+        "Duke Ellington",
+        "Count Basie",
+        "Chet Baker",
+        "Miles Davis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Miles `{{1}}` a révolutionné le Jazz à plusieurs reprises (Cool Jazz, Jazz Fusion).",
+      "reponsesAttendues": [
+        "Davis"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Jazz Modal s'affranchit des progressions d'accords complexes pour se baser sur des modes (Kind of Blue).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Scat' ?",
+      "options": [
+        "Une technique de chant utilisant des onomatopées au lieu de paroles",
+        "Le nom d'une trompette",
+        "Une danse",
+        "Une panne de courant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Jazz a eu une influence majeure sur la musique classique et populaire du XXe siècle.",
+      "reponse": true
+    }
+  ]
+}

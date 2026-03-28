@@ -1,0 +1,95 @@
+{
+  "id": "quiz79",
+  "titre": "Musique Expert : Musique de Film et Création Actuelle",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est le compositeur 'attitré' de Steven Spielberg, auteur des thèmes de Star Wars, Indiana Jones et Jaws ?",
+      "options": [
+        "John Williams",
+        "Hans Zimmer",
+        "Jerry Goldsmith",
+        "James Horner"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Hans Zimmer a révolutionné la musique de film en mélangeant orchestre symphonique et sons électroniques massifs.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Leitmotiv) est un procédé, hérité de Wagner, consistant à associer un thème musical à un personnage ou une idée.",
+      "reponsesAttendues": [
+        "leitmoteur",
+        "leitmotiv"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel compositeur polonais a marqué le XXe siècle avec son 'Thrène à la mémoire des victimes d'Hiroshima' et ses musiques de films ?",
+      "options": [
+        "Krzysztof Penderecki",
+        "Henryk Górecki",
+        "Wojciech Kilar",
+        "Witold Lutosławski"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Danny Elfman est célèbre pour sa collaboration quasi systématique avec le réalisateur Tim Burton.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui est la première compositrice à avoir remporté un Oscar pour la meilleure musique de film (Joker) ?",
+      "options": [
+        "Hildur Guðnadóttir",
+        "Rachel Portman",
+        "Anne Dudley",
+        "Debbie Wiseman"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'œuvre `{{1}}` (Max Richter) réinvente Les Quatre Saisons de Vivaldi dans un style post-minimaliste.",
+      "reponsesAttendues": [
+        "Max Richter"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La musique spectrale continue d'être une source d'inspiration pour de nombreux compositeurs actuels (Kaija Saariaho).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel compositeur japonais a mêlé musique électronique, pop et orchestre (auteur de 'Merry Christmas Mr. Lawrence') ?",
+      "options": [
+        "Ryuichi Sakamoto",
+        "Joe Hisaishi",
+        "Nobuo Uematsu",
+        "Toru Takemitsu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La musique de jeu vidéo est aujourd'hui reconnue comme un domaine de création musicale à part entière.",
+      "reponse": true
+    }
+  ]
+}

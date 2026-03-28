@@ -1,0 +1,90 @@
+{
+  "id": "quiz5",
+  "titre": "Raphaël et son influence",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quelle ville Raphaël a-t-il réalisé ses célèbres 'Chambres' (Stanze) au Vatican ?",
+      "options": [
+        "Rome",
+        "Urbino",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Raphaël est célèbre pour la grâce et l'harmonie parfaite de ses compositions.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L''École d' {{1}}' (Athènes) est l'une de ses fresques les plus célèbres, synthétisant la philosophie antique.",
+      "reponsesAttendues": ["Athènes", "Atene"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pour quel genre de peinture Raphaël est-il particulièrement admiré (souvent empreint de douceur maternelle) ?",
+      "options": [
+        "Les Madones",
+        "Les paysages purs",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Raphaël est mort très jeune, à l'âge de 37 ans.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui fut le grand rival de Raphaël au Vatican lors des travaux de la Sixtine ?",
+      "options": [
+        "Michel-Ange",
+        "Léonard de Vinci",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le style de Raphaël a fondé l'esthétique du {{1}} (classicisme) occidental pendant des siècles.",
+      "reponsesAttendues": ["classicisme"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Raphaël a aussi été architecte du chantier de la Basilique Saint-Pierre.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle œuvre est considérée comme son testament artistique, inachevée à sa mort ?",
+      "options": [
+        "La Transfiguration",
+        "La Madone Sixtine",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'influence de Raphaël sur les académies de peinture a été absolue jusqu'au XIXe siècle.",
+      "reponse": true
+    }
+  ]
+}

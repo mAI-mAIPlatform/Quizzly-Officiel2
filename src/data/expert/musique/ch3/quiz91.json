@@ -1,0 +1,94 @@
+{
+  "id": "quiz91",
+  "titre": "Musique Expert : Technologie et Synthétiseurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel ingénieur a popularisé le premier synthétiseur modulaire commercial dès 1964 ?",
+      "options": [
+        "Robert Moog",
+        "Don Buchla",
+        "Leon Theremin",
+        "Alan Pearlman"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Theremin est le seul instrument dont on joue sans contact physique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le groupe allemand `{{1}}` (Kraftwerk) est considéré comme le pionnier de la musique électronique moderne.",
+      "reponsesAttendues": [
+        "Kraftwerk"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie l'acronyme MIDI, protocole de communication universel entre instruments numériques lancé en 1983 ?",
+      "options": [
+        "Musical Instrument Digital Interface",
+        "Monophonic Internal Digital Integration",
+        "Musical Input Design Interchange",
+        "Master Instrument Digital Input"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un synthétiseur 'polyphonique' peut jouer plusieurs notes simultanément.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle boîte à rythmes légendaire de Roland (1980) a défini le son de la Techno et du Hip-Hop ?",
+      "options": [
+        "TR-808",
+        "TR-909",
+        "LinnDrum",
+        "DMX"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Vocoder) est un appareil permettant de synthétiser la voix humaine en la modulant avec un instrument.",
+      "reponsesAttendues": [
+        "Vocoder"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Wendy Carlos a rendu le synthétiseur célèbre avec l'album 'Switched-On Bach'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'effet d'accord automatique de la voix devenu un standard de la pop moderne ?",
+      "options": [
+        "Auto-Tune",
+        "Reverb",
+        "Chorus",
+        "Phaser"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Fairlight CMI était l'un des premiers échantillonneurs (samplers) numériques.",
+      "reponse": true
+    }
+  ]
+}

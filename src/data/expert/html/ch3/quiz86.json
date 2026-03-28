@@ -1,0 +1,94 @@
+{
+  "id": "quiz86",
+  "titre": "HTML Expert : Push API et Notifications",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle API permet de recevoir des messages du serveur même quand l'application n'est pas ouverte ?",
+      "options": [
+        "Push API",
+        "WebSockets",
+        "Server-Sent Events",
+        "Fetch API"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Service Worker est indispensable pour gérer l'événement `push` en arrière-plan.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La `{{1}}` (Notification API) est utilisée pour afficher visuellement l'alerte à l'utilisateur.",
+      "reponsesAttendues": [
+        "Notification API"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel standard de sécurité est utilisé pour identifier le serveur d'envoi de messages Push ?",
+      "options": [
+        "VAPID",
+        "OAuth2",
+        "CORS",
+        "JWT"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un utilisateur doit donner son autorisation explicite avant qu'une application puisse envoyer des notifications.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment demande-t-on la permission d'afficher des notifications ?",
+      "options": [
+        "Notification.requestPermission()",
+        "navigator.askPermission()",
+        "self.getConsent()",
+        "window.alertPermission()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'objet `{{1}}` (PushSubscription) contient l'URL du service push et les clés de chiffrement nécessaires au serveur.",
+      "reponsesAttendues": [
+        "PushSubscription"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les notifications Web peuvent inclure des images et des boutons d'action.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel événement du Service Worker est déclenché lorsque l'utilisateur clique sur une notification ?",
+      "options": [
+        "notificationclick",
+        "pushclick",
+        "onnotification",
+        "click"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La batterie du mobile est fortement impactée par l'utilisation de la Push API par rapport aux WebSockets.",
+      "reponse": false
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz20",
+  "titre": "SYNTHÈSE LITTÉRATURE",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a écrit 'Os Lusíadas' ?",
+      "options": [
+        "Luís de Camões",
+        "Gil Vicente",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Fernando Pessoa écrivait sous plusieurs hétéronymes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Saramago a reçu le Prix {{1}} en 1998.",
+      "reponsesAttendues": ["Nobel"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Eça de Queirós appartient à quel mouvement ?",
+      "options": [
+        "Réalisme",
+        "Symbolisme",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La revue Orpheu a lancé le Modernisme au Portugal.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui est l'auteur de 'Memorial do Convento' ?",
+      "options": [
+        "José Saramago",
+        "António Lobo Antunes",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La '{{1}}' est le sentiment de nostalgie typiquement portugais.",
+      "reponsesAttendues": ["Saudade"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Florbela Espanca était célèbre pour ses sonnets.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel poète est indissociable de la mer et de la pureté ?",
+      "options": [
+        "Sophia de Mello Breyner",
+        "Alves Redol",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Félicitations ! Vous avez traversé des siècles de littérature lusophone.",
+      "reponse": true
+    }
+  ]
+}

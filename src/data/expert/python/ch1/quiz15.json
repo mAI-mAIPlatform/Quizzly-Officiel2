@@ -1,0 +1,94 @@
+{
+  "id": "quiz15",
+  "titre": "Typage Statique et Type Hints",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "A quoi servent les Type Hints (indices de type) introduit en Python 3.5 ?",
+      "options": [
+        "A aider les outils d'analyse statique et les IDE sans forcer le typage à l'exécution",
+        "A transformer Python en langage compilé",
+        "A accélérer le code",
+        "A remplacer les tests unitaires"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Python lève une erreur à l'exécution si un type ne correspond pas à l'indice (par défaut).",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour indiquer qu'une variable peut être un entier (int) ou une chaîne (str), on utilise `Union[int, str]` ou `int {{1}} str` (Python 3.10+).",
+      "reponsesAttendues": [
+        "|"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel outil populaire permet de vérifier statiquement les types d'un projet Python ?",
+      "options": [
+        "mypy",
+        "pylint",
+        "pytest",
+        "black"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'indice 'Any' désactive la vérification de type pour une variable spécifique.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "A quoi sert 'Optional[int]' ?",
+      "options": [
+        "Indique que la valeur peut être un int ou None",
+        "Indique que l'attribut est facultatif",
+        "Définit une valeur par défaut",
+        "C'est un alias pour int"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le mot-clé `{{1}}` permet de définir un alias de type pour clarifier le code.",
+      "reponsesAttendues": [
+        "TypeAlias"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les Type Hints peuvent être récupérés à l'exécution via l'attribut __annotations__.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel type indique qu'une fonction ne retourne jamais (ex: elle boucle ou lance une erreur) ?",
+      "options": [
+        "NoReturn",
+        "None",
+        "Never",
+        "Stop"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le typage statique rend Python plus sécurisé pour les gros projets.",
+      "reponse": true
+    }
+  ]
+}

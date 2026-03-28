@@ -1,0 +1,94 @@
+{
+  "id": "quiz4",
+  "titre": "Les Esprits et les Accents",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle le signe qui indique une aspiration au début d'un mot ?",
+      "options": [
+        "L'esprit rude",
+        "L'esprit doux",
+        "L'accent aigu",
+        "Le tréma"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'esprit doux ne se prononce pas.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un mot commençant par une voyelle porte toujours un {{1}}.",
+      "reponsesAttendues": [
+        "esprit"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel accent descend de gauche à droite ?",
+      "options": [
+        "L'accent grave",
+        "L'accent aigu",
+        "L'accent circonflexe",
+        "L'accent tonique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'accent circonflexe grec ressemble à une petite vague (~ ou ˆ).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Sur quelle lettre trouve-t-on toujours un esprit rude ?",
+      "options": [
+        "Le Rho (ρ) en début de mot",
+        "Le Sigma (σ)",
+        "Le Bêta (β)",
+        "Le Tau (τ)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'accent {{1}} monte de gauche à droite.",
+      "reponsesAttendues": [
+        "aigu"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les accents indiquaient autrefois une variation de hauteur de la voix.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Où se place l'esprit sur une majuscule ?",
+      "options": [
+        "Devant la lettre",
+        "Au-dessus de la lettre",
+        "En-dessous de la lettre",
+        "Il n'y en a pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Un mot peut avoir plusieurs accents.",
+      "reponse": false
+    }
+  ]
+}

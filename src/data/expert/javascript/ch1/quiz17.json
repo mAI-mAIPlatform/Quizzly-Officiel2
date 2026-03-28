@@ -1,0 +1,94 @@
+{
+  "id": "quiz17",
+  "titre": "Super et Héritage de Classe",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans un constructeur dérivé, quand doit-on appeler super() ?",
+      "options": [
+        "Avant d'accéder à 'this'",
+        "Après avoir défini toutes les propriétés locales",
+        "C'est optionnel",
+        "Uniquement si le parent a un constructeur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "super.methode() permet d'appeler la méthode du prototype parent.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'appel de {{1}} lie le prototype de l'instance enfant à celui du parent.",
+      "reponsesAttendues": [
+        "super"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Peut-on utiliser 'super' dans une fonction fléchée définie dans une méthode de classe ?",
+      "options": [
+        "Oui, car elle hérite de la portée lexicale",
+        "Non, super est interdit dans les arrows",
+        "Seulement en mode strict",
+        "Seulement si super() est appelé avant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut hériter d'une fonction constructrice classique (non-class) via 'extends'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si on oublie super() dans un constructeur dérivé ?",
+      "options": [
+        "ReferenceError lors de l'accès à 'this'",
+        "L'instance est créée sans les données parents",
+        "Une SyntaxError à la compilation",
+        "Le moteur appelle super() automatiquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le mot-clé {{1}} permet d'accéder aux membres statiques du parent.",
+      "reponsesAttendues": [
+        "super"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'super' peut être utilisé en dehors d'une classe.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est vrai concernant l'héritage statique ?",
+      "options": [
+        "Les méthodes statiques sont héritées par la sous-classe",
+        "Les méthodes statiques ne sont jamais héritées",
+        "Elles ne sont héritées que si elles sont publiques",
+        "Elles sont héritées mais privées"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut appeler super() dans une méthode qui n'est pas le constructeur.",
+      "reponse": false
+    }
+  ]
+}

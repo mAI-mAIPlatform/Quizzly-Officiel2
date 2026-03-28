@@ -1,0 +1,95 @@
+{
+  "id": "quiz18",
+  "titre": "Grammatica : Uso di 'Proprio' e 'Stesso'",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quando si usa 'proprio' come aggettivo possessivo ?",
+      "options": [
+        "Per rinforzare il possesso del soggetto ed evitare ambiguità",
+        "Solo con verbi riflessivi",
+        "Quando non c'è il soggetto",
+        "Non si usa mai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Proprio' come avverbio significa 'davvero, esattamente' (es: È proprio lui).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'aggettivo 'stesso' può significare 'medesimo' o essere un `{{1}}` (es: l'ho visto io stesso).",
+      "reponsesAttendues": [
+        "rinforzo",
+        "intensificatore"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "In 'Ognuno pensi per sé proprio', l'uso di proprio è corretto ?",
+      "options": [
+        "Sì, indica il possesso riferito al soggetto",
+        "No, è una ripetizione",
+        "Solo al plurale",
+        "Dipende dal contesto"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Stesso' messo prima del nome significa 'lo stesso di prima', messo dopo significa 'lui in persona'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Cosa significa 'Non ne posso proprio più' ?",
+      "options": [
+        "Non ne posso assolutamente più (rinforzo negativo)",
+        "Ho mangiato troppo",
+        "Non sono capace",
+        "Senza significato"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Il sostantivo che deriva da proprio è la `{{1}}` (proprietà).",
+      "reponsesAttendues": [
+        "proprietà"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Proprio' è obbligatorio nelle frasi impersonali.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qual è il plurale di 'stesso' ?",
+      "options": [
+        "stessi",
+        "stessile",
+        "stessoli",
+        "stessiani"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "'Proprio' concorda sempre in genere e numero col nome a cui si riferisce se è aggettivo.",
+      "reponse": true
+    }
+  ]
+}

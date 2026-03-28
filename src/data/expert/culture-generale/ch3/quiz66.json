@@ -1,0 +1,94 @@
+{
+  "id": "quiz66",
+  "titre": "Culture Générale Expert : La Première Guerre Mondiale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel attentat commis le 28 juin 1914 déclencha l'engrenage de la guerre ?",
+      "options": [
+        "L'assassinat de l'archiduc François-Ferdinand à Sarajevo",
+        "L'assassinat de Jean Jaurès",
+        "Le sabotage du Lusitania",
+        "Le bombardement de Belgrade"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Première Guerre Mondiale est caractérisée par une longue période de guerre de tranchées (guerre de position).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La Triple `{{1}}` regroupait la France, le Royaume-Uni et la Russie.",
+      "reponsesAttendues": [
+        "Entente"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle immense bataille de 1916 est devenue le symbole de l'enfer des tranchées et de la résistance française ?",
+      "options": [
+        "Verdun",
+        "La Marne",
+        "La Somme",
+        "Le Chemin des Dames"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les États-Unis sont restés neutres pendant toute la durée du conflit.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle révolution de 1917 a provoqué le retrait de la Russie du conflit ?",
+      "options": [
+        "La Révolution Bolchevique (octobre)",
+        "La Révolution des Œillets",
+        "La Révolution de Février",
+        "La Commune"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'`{{1}}` du 11 novembre 1918 marque la fin des combats.",
+      "reponsesAttendues": [
+        "Armistice"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le traité de Versailles (1919) a imposé des conditions très dures à l'Allemagne.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment appelait-on les soldats français de la Grande Guerre ?",
+      "options": [
+        "Les Poilus",
+        "Les Tommies",
+        "Les G.I.s",
+        "Les Grognards"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La SDN (Société des Nations) fut créée après la guerre pour tenter de maintenir la paix mondiale.",
+      "reponse": true
+    }
+  ]
+}

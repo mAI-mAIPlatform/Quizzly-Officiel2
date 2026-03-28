@@ -1,0 +1,95 @@
+{
+  "id": "quiz21",
+  "titre": "Les Liaisons",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une liaison de prolongation ?",
+      "options": [
+        "Un trait courbe entre deux notes de même hauteur",
+        "Un trait courbe entre deux notes de hauteurs différentes",
+        "Un signe pour jouer plus fort",
+        "Un signe pour s'arrêter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La liaison de prolongation additionne la durée des deux notes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La liaison de {{1}} indique qu'il faut jouer les notes liées sans interruption (legato).",
+      "reponsesAttendues": [
+        "phrasé",
+        "liaison"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Peut-on lier plus de deux notes avec une liaison de prolongation ?",
+      "options": [
+        "Oui, tant qu'elles ont la même hauteur",
+        "Non, seulement deux",
+        "Seulement si elles sont des noires",
+        "Seulement en début de morceau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La liaison de phrasé concerne des notes de hauteurs différentes.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le fait de jouer des notes liées (sans coupure) ?",
+      "options": [
+        "Staccato",
+        "Legato",
+        "Pizzicato",
+        "Forte"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour lier deux mesures entre elles, on utilise souvent une liaison de {{1}}.",
+      "reponsesAttendues": [
+        "prolongation"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On ne rejoue pas la deuxième note d'une liaison de prolongation.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Laquelle de ces phrases est vraie ?",
+      "options": [
+        "La liaison de prolongation change le nom de la note",
+        "La liaison de prolongation prolonge la durée du son",
+        "La liaison de prolongation est facultative",
+        "Il n'y a pas de liaison en musique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La liaison de phrasé aide à comprendre le sens musical d'une mélodie.",
+      "reponse": true
+    }
+  ]
+}

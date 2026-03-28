@@ -1,0 +1,95 @@
+{
+  "id": "quiz104",
+  "titre": "Python Expert : Deep Learning (PyTorch & TensorFlow)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la structure de base utilisée par PyTorch et TensorFlow pour stocker des données numériques ?",
+      "options": [
+        "Tenseur (Tensor)",
+        "Vecteur",
+        "Liste",
+        "Matrice simple"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "PyTorch utilise un graphe de calcul dynamique (permettant des modifications pendant l'exécution).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La rétropropagation (backpropagation) utilise l'`{{1}}` (autograd) pour calculer les gradients des poids.",
+      "reponsesAttendues": [
+        "autograd"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle fonction d'activation est couramment utilisée pour introduire de la non-linéarité et éviter le problème de gradient évanouissant ?",
+      "options": [
+        "ReLU",
+        "Sigmoid",
+        "Tanh",
+        "Lineaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'optimiseur Adam combine les avantages de RMSProp et AdaGrad.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel type de couche est particulièrement efficace pour le traitement d'images (Computer Vision) ?",
+      "options": [
+        "Convolutionnnelle (CNN)",
+        "Récurrente (RNN)",
+        "Linéaire",
+        "Dropout"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Une `{{1}}` (époque / epoch) correspond à un passage complet du dataset dans le réseau de neurones.",
+      "reponsesAttendues": [
+        "epoque",
+        "epoch"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le 'Log Loss' (ou Cross-Entropy) est une fonction de perte classique pour les problèmes de classification.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Transfer Learning' ?",
+      "options": [
+        "Réutiliser un modèle pré-entraîné sur un dataset massif pour une tâche spécifique",
+        "Transférer des fichiers entre serveurs",
+        "Convertir du code PyTorch en TensorFlow",
+        "Apprendre à coder en dormant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "TensorFlow a été développé par Meta (Facebook).",
+      "reponse": false
+    }
+  ]
+}

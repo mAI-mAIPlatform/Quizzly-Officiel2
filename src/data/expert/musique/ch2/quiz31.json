@@ -1,0 +1,95 @@
+{
+  "id": "quiz31",
+  "titre": "Musique Expert : Modes et Échelles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces modes grégoriens (ecclésiastiques) commence sur la note Ré ?",
+      "options": [
+        "Dorien",
+        "Phrygien",
+        "Lydien",
+        "Mixolydien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le mode Lydien se caractérise par une quarte augmentée (le 'triton').",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'échelle `{{1}}` est composée uniquement de tons entiers (6 notes par octave).",
+      "reponsesAttendues": [
+        "par tons",
+        "hexatonique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel mode est souvent utilisé dans le Jazz et le Blues pour son côté 'sale', commençant sur Sol ?",
+      "options": [
+        "Mixolydien",
+        "Éolien",
+        "Ionien",
+        "Locrien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le mode Locrien est considéré comme le plus instable car sa quinte est diminuée.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Combien de notes contient une échelle pentatonique ?",
+      "options": [
+        "5",
+        "7",
+        "12",
+        "8"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'échelle `{{1}}` contient toutes les 12 notes de l'octave par demi-tons.",
+      "reponsesAttendues": [
+        "chromatique"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le mode Éolien correspond à la gamme mineure naturelle.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel intervalle définit la différence majeure entre le mineur mélodique et le mineur naturel à la montée ?",
+      "options": [
+        "La sixte et la septième sont majeures",
+        "La tierce est majeure",
+        "La seconde est mineure",
+        "Il n'y a pas de différence"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les modes sont utilisés pour créer des ambiances sonores spécifiques en dehors du système tonal classique.",
+      "reponse": true
+    }
+  ]
+}

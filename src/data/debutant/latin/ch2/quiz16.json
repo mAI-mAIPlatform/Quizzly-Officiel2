@@ -1,0 +1,94 @@
+{
+  "id": "quiz16",
+  "titre": "Les Verbes : 3e Conjugaison (-ere bref)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le 'e' de la 3e conjugaison (ex: legere) ?",
+      "options": [
+        "Le e bref",
+        "Le e long",
+        "Le e muet",
+        "Il n'y a pas de e"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Lego' signifie 'je lis'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": " 'Tu lis' se dit 'leg{{1}}' (legis).",
+      "reponsesAttendues": [
+        "is"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'legunt' ?",
+      "options": [
+        "Ils lisent",
+        "Nous lisons",
+        "Vous lisez",
+        "Il lit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Scribo' signifie 'j'écris'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'il écrit' ?",
+      "options": [
+        "scribit",
+        "scribet",
+        "scribat",
+        "scribis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La 1ère personne du pluriel 'nous écrivons' est 'scrib{{1}}'.",
+      "reponsesAttendues": [
+        "imus"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Une voyelle de liaison (i ou u) apparaît souvent dans cette conjugaison.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'ducere' ?",
+      "options": [
+        "Conduire / mener",
+        "Dormir",
+        "Manger",
+        "Chanter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le verbe 'vincere' (vaincre) appartient à la 3e conjugaison.",
+      "reponse": true
+    }
+  ]
+}

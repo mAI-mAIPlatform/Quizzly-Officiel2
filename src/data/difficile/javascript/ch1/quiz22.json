@@ -1,0 +1,90 @@
+{
+  "id": "quiz22",
+  "titre": "Gestion des Contextes Multiples",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Si une fonction A appelle B, qu'advient-il de GEC ?",
+      "options": [
+        "Il est supprimé",
+        "Il reste en bas de la pile",
+        "Il est mis en pause dans le Heap",
+        "Il devient B"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Chaque onglet du navigateur possède son propre Global Execution Context.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'empilement des contextes suit la règle {{1}} (First In, Last Out).",
+      "reponsesAttendues": ["FILO", "LIFO"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Worker Execution Context' ?",
+      "options": [
+        "Un contexte pour les Web Workers (parallélisme)",
+        "Un contexte pour le Garbage Collector",
+        "Un mode dégradé du CPU",
+        "Une erreur de threading"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un Web Worker peut accéder directement aux variables du GEC principal via une closure.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment communiquent deux contextes d'exécution différents (ex: Worker et Main) ?",
+      "options": [
+        "Via des variables globales partagées",
+        "Via le passage de messages (postMessage)",
+        "Ils ne peuvent pas communiquer",
+        "Via la Stack"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'isolement des contextes est une mesure de {{1}}.",
+      "reponsesAttendues": ["sécurité"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le GEC est détruit si on navigue vers une nouvelle URL.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que contient 'Environment Record' ?",
+      "options": [
+        "La liste des fichiers audio",
+        "Le stockage des variables liées au contexte",
+        "L'historique des clics",
+        "Les logs du serveur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'Execution Context garde une trace de l'instruction en cours via le Program Counter.",
+      "reponse": true
+    }
+  ]
+}

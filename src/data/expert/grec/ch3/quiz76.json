@@ -1,0 +1,95 @@
+{
+  "id": "quiz76",
+  "titre": "Grec Expert : La Cité (Polis) et la Citoyenneté",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la 'Polis' grecque ?",
+      "options": [
+        "Une cité-état autonome avec ses propres lois et son territoire",
+        "L'ancêtre de la police moderne",
+        "Une école de philosophie",
+        "Une alliance militaire uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour être citoyen à Athènes, il fallait être un homme libre, né de père et de mère athéniens.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'`{{1}}` était le statut des étrangers résidant à Athènes, libres mais sans droits politiques.",
+      "reponsesAttendues": [
+        "métèque"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle catégorie de la population était totalement exclue des droits politiques, tant à Athènes qu'à Sparte ?",
+      "options": [
+        "Les esclaves et les femmes",
+        "Les riches",
+        "Les marchands",
+        "Les philosophes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'oikos désigne la maison et la famille, cellule de base de la société grecque.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le bannissement temporaire d'un citoyen jugé dangereux pour la démocratie à Athènes ?",
+      "options": [
+        "L'ostracisme",
+        "L'exil",
+        "La radiation",
+        "Le séisme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'`{{1}}` était l'assemblée de tous les citoyens athéniens sur la colline de la Pnyx.",
+      "reponsesAttendues": [
+        "Ecclésia",
+        "Ecclesia"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le citoyen grec se définit avant tout par sa participation à la défense (hoplite) et à la vie politique de sa cité.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment s'appellent les habitants de Laconie réduits en esclavage par Sparte ?",
+      "options": [
+        "Les Hilotes",
+        "Les Périèques",
+        "Les Éphores",
+        "Les Spartiates"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'autarcie (se suffire à soi-même) était un idéal économique et politique pour de nombreuses cités.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz24",
+  "titre": "Quintilien",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est l'œuvre majeure de Quintilien ?",
+      "options": [
+        "Institution Oratoire (Institutio Oratoria)",
+        "Annales",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Quintilien a été le premier professeur de rhétorique payé par l'État à Rome.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Sa définition de l'orateur est : 'Vir {{1}} dicendi peritus' (Un homme de bien expert en l'art de parler).",
+      "reponsesAttendues": ["bonus"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que prône Quintilien en éducation ?",
+      "options": [
+        "Une éducation progressive, douce et attentive à la psychologie de l'enfant",
+        "La punition corporelle systématique",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Quintilien admire Cicéron et veut restaurer la pureté de la langue.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Combien de livres composent l'Institution Oratoire ?",
+      "options": [
+        "Douze",
+        "Trois",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le livre X contient une célèbre {{1}} (revue de presse) des auteurs grecs et latins.",
+      "reponsesAttendues": ["critique", "selection"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Quintilien a eu parmi ses élèves Pline le Jeune.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quintilien combat le style :",
+      "options": [
+        "Tourmenté et maniéré de Sénèque",
+        "Clair de Cicéron",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Son œuvre est la somme de toute la rhétorique antique.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,1 +1,94 @@
-{"id":"quiz10","titre":"Final Review: School & Hobbies","questions":[{"id":"q1","type":"qcm","enonce":"Which one is a school subject?","options":["Football","History","Pizza","Guitar"],"correctIndex":1},{"id":"q2","type":"vrai_faux","enonce":"'Half past two' is 2:30.","reponse":true},{"id":"q3","type":"trous","enonce":"He {{1}} play the piano. (ne sait pas)","reponsesAttendues":["can't"]},{"id":"q4","type":"relier","question":"Match the pairs.","pairs":[{"left":"Do you like maths?","right":"Yes, I do."},{"left":"Is it 4 PM?","right":"Yes, it is."},{"left":"Can he run?","right":"No, he can't."}]},{"id":"q5","type":"qcm","enonce":"What time is it (8:45)?","options":["Quarter past eight","Quarter to nine","Eight forty","Both 1 and 2"],"correctIndex":1}]}
+{
+  "id": "quiz10",
+  "titre": "Summary Quiz : Chapter 2 Basics",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la forme correcte ?",
+      "options": [
+        "She is dancing",
+        "She are dancing",
+        "She am dancing",
+        "She dancing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Pavement' est un synonyme de 'sidewalk'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le pluriel de 'foot' est '{{1}}' (feet).",
+      "reponsesAttendues": [
+        "feet"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'It is windy' ?",
+      "options": [
+        "Il y a du vent",
+        "Il pleut",
+        "Il fait soleil",
+        "Il neige"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Kitchen' est l'endroit où l'on cuisine.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'douze' ?",
+      "options": [
+        "twelve",
+        "twenty",
+        "two",
+        "ten"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": " 'Je porte un t-shirt' se dit 'I am {{1}} a t-shirt' (wearing).",
+      "reponsesAttendues": [
+        "wearing"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Breakfast' est le premier repas de la journée.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'to cross the road' ?",
+      "options": [
+        "Traverser la route",
+        "Suivre la route",
+        "Chercher la route",
+        "Fermer la route"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Bravo ! Tu as fini la première partie du chapitre 2 d'anglais !",
+      "reponse": true
+    }
+  ]
+}

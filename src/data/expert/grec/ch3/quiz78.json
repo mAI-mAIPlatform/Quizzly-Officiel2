@@ -1,0 +1,95 @@
+{
+  "id": "quiz78",
+  "titre": "Grec Expert : Les Jeux et l'Idéal Athlétique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "En l'honneur de quel dieu les Jeux Olympiques étaient-ils célébrés tous les quatre ans ?",
+      "options": [
+        "Zeus",
+        "Apollon",
+        "Poséidon",
+        "Hermès"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Trêve sacrée imposait l'arrêt de tous les conflits entre cités grecques pendant la durée des Jeux.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'`{{1}}` (Gymnasion) était le lieu où les athlètes s'exerçaient nus (gymnos).",
+      "reponsesAttendues": [
+        "Gymnase",
+        "gymnasion"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle épreuve regroupant cinq disciplines (course, saut, disque, javelot, lutte) était considérée comme l'excellence athlétique ?",
+      "options": [
+        "Le pentathlon",
+        "Le décathlon",
+        "Le pancrace",
+        "La pyrrhique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les femmes mariées n'avaient pas le droit d'assister aux Jeux Olympiques, sous peine de mort.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelait-on le vainqueur d'une épreuve olympique ?",
+      "options": [
+        "Un olympionique",
+        "Un héros",
+        "Un athlète",
+        "Un lauréat"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La récompense pour un vainqueur à Olympie était une simple couronne d'`{{1}}` sauvage.",
+      "reponsesAttendues": [
+        "olivier"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le pancrace était un mélange brutal de lutte et de boxe où presque tous les coups étaient permis.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Où se déroulaient les Jeux Pythiques ?",
+      "options": [
+        "Delphes",
+        "Corinthe",
+        "Némée",
+        "Isthmia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'idéal grec 'Kalos kagathos' exalte l'harmonie entre la beauté physique et la vertu morale.",
+      "reponse": true
+    }
+  ]
+}

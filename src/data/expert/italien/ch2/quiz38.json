@@ -1,0 +1,94 @@
+{
+  "id": "quiz38",
+  "titre": "Italien Expert : Modi Impliciti (Infinito, Gerundio, Participio)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quando si usa l'infinito preceduto da 'a' o 'di' ?",
+      "options": [
+        "Dipende dal verbo reggente (es: Continuare a, Decidere di)",
+        "Sempre con 'a'",
+        "Sempre con 'di'",
+        "Mai in italiano"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il gerundio presente finisce in -ando per i verbi in -are e in -endo per gli altri.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Il gerundio passato si forma con il gerundio dell'ausiliare + `{{1}}` passato (es: Avendo detto).",
+      "reponsesAttendues": [
+        "participio"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Cosa esprime il gerundio in una frase come 'Studiando s'impara' ?",
+      "options": [
+        "Il mezzo o la causa",
+        "Il tempo futuro",
+        "Un ordine",
+        "Un dubbio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'infinito passato di 'andare' è 'essere andato'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Traduci : 'Avendo finito il lavoro, sono uscito'",
+      "options": [
+        "Ayant fini le travail, je suis sorti",
+        "En finissant le travail, je suis sorti",
+        "Pour finir le travail, je sors",
+        "Après le travail, je sors"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Il `{{1}}` assoluto è una costruzione participiale autonoma (es: Finita la lezione, gli studenti uscirono).",
+      "reponsesAttendues": [
+        "participio"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'infinito sostantivato può fungere da soggetto (es: Il bere fa male).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Come si nega l'imperativo alla 2a persona singolare ?",
+      "options": [
+        "Non + Infinito (es: Non mangiare !)",
+        "Non + Presente",
+        "No + Imperativo",
+        "Non + Subjonctif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il gerundio può avere un suo soggetto diverso dalla principale (es: Essendo arrivato lui, io sono partito).",
+      "reponse": true
+    }
+  ]
+}

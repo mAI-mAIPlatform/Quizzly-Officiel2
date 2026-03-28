@@ -1,0 +1,90 @@
+{
+  "id": "quiz9",
+  "titre": "Présocratiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle était la préoccupation majeure des premiers philosophes (les Milésiens) ?",
+      "options": [
+        "Chercher le principe premier (Arkhè) de la nature (Physis)",
+        "La grammaire",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour Thalès, le principe de toutes choses est l'eau.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Héraclite est célèbre pour sa doctrine du changement perpétuel : 'Tout {{1}}' (Panta rhei).",
+      "reponsesAttendues": ["coule", "passe"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel philosophe affirmait que 'L'Être est, le non-être n'est pas' ?",
+      "options": [
+        "Parménide",
+        "Anaximandre",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Pythagore considérait que le nombre était l'essence de l'univers.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Démocrite est l'inventeur de la théorie :",
+      "options": [
+        "Atomiste (l'univers est composé d'atomes et de vide)",
+        "Des idées",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Anaximandre appelait le principe premier l'{{1}} (l'infini ou l'indéfini).",
+      "reponsesAttendues": ["Apeiron"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Empédocle a formulé la théorie des quatre éléments (terre, air, feu, eau).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel était le surnom d'Héraclite ?",
+      "options": [
+        "L'Obscur",
+        "Le Rieur",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les Présocratiques marquent le passage du 'Mythos' (récit) au 'Logos' (raison).",
+      "reponse": true
+    }
+  ]
+}

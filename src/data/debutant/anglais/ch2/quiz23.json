@@ -1,0 +1,94 @@
+{
+  "id": "quiz23",
+  "titre": "Numbers (20 to 100)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'vingt' ?",
+      "options": [
+        "twenty",
+        "thirty",
+        "forty",
+        "fifty"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Thirty' signifie trente.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Quarante se dit '{{1}}' (forty).",
+      "reponsesAttendues": [
+        "forty"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'fifty' ?",
+      "options": [
+        "Cinquante",
+        "Soixante",
+        "Quinze",
+        "Cinq"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Sixty' signifie soixante.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'cent' ?",
+      "options": [
+        "one hundred",
+        "one thousand",
+        "one million",
+        "ten"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Soixante-dix se dit '{{1}}' (seventy).",
+      "reponsesAttendues": [
+        "seventy"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Eighty' signifie quatre-vingts.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'ninety' ?",
+      "options": [
+        "Quatre-vingt-dix",
+        "Neuf",
+        "Dix-neuf",
+        "Vingt-neuf"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les dizaines finissent généralement par '-ty'.",
+      "reponse": true
+    }
+  ]
+}

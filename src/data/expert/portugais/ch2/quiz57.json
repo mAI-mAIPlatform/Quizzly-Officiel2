@@ -1,0 +1,95 @@
+{
+  "id": "quiz57",
+  "titre": "Português Expert : História do Brasil",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quando foi proclamada a Independência do Brasil ?",
+      "options": [
+        "7 de Setembro de 1822",
+        "22 de Abril de 1500",
+        "15 de Novembro de 1889",
+        "1 de Maio de 1808"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "O grito da independência, dado por D. Pedro I, ficou conhecido como 'Grito do Ipiranga'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O Brasil foi o único país das Américas a ter uma `{{1}}` (forma de governo) estável após a independência por quase 70 anos.",
+      "reponsesAttendues": [
+        "monarquia",
+        "império"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quem foi o segundo e último imperador do Brasil ?",
+      "options": [
+        "D. Pedro II",
+        "D. João VI",
+        "Deodoro da Fonseca",
+        "Getúlio Vargas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "A escravidão foi abolida no Brasil em 1888 pela Lei Áurea, assinada pela Princesa Isabel.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quando ocorreu a Proclamação da República no Brasil ?",
+      "options": [
+        "15 de Novembro de 1889",
+        "7 de Setembro de 1822",
+        "21 de Abril de 1960",
+        "1 de Janeiro de 1900"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "A capital do Brasil foi transferida do Rio de Janeiro para `{{1}}` em 1960.",
+      "reponsesAttendues": [
+        "Brasília"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "A 'Inconfidência Mineira' foi um movimento de revolta contra Portugal liderado por Tiradentes.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qual foi o principal produto da economia brasileira durante o Império e início da República ?",
+      "options": [
+        "Café",
+        "Borracha",
+        "Cana-de-açúcar",
+        "Ouro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "O Brasil é a única nação de língua portuguesa nas Américas.",
+      "reponse": true
+    }
+  ]
+}

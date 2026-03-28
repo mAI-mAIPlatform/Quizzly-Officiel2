@@ -1,0 +1,94 @@
+{
+  "id": "quiz52",
+  "titre": "HTML Expert : Resource Hints Avancés",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la principale différence entre 'preconnect' et 'dns-prefetch' ?",
+      "options": [
+        "Preconnect établit une connexion complète (DNS + TCP + TLS), DNS-prefetch ne fait que la résolution DNS",
+        "Preconnect est pour les images",
+        "DNS-prefetch est plus lent",
+        "Il n'y en a pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'usage de 'preconnect' est recommandé pour les domaines tiers critiques (ex: Google Fonts).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut `cross{{1}}` est souvent nécessaire pour le pre-chargement des polices.",
+      "reponsesAttendues": [
+        "origin"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quoi sert 'prerender' ?",
+      "options": [
+        "À charger et rendre entièrement une page en arrière-plan (très coûteux en ressources)",
+        "À afficher un placeholder",
+        "À vider le cache",
+        "À créer un PDF"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les resource hints sont des directives impératives que le navigateur doit suivre obligatoirement.",
+      "reponse : false (Ce sont des suggestions, le navigateur décide selon les ressources disponibles)"
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel permet de résoudre le 'chaining' de requêtes critiques ?",
+      "options": [
+        "preload",
+        "prefetch",
+        "preconnect",
+        "prerender"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut `as` (ex: as='style') est obligatoire pour un `link rel='{{1}}'`.",
+      "reponsesAttendues": [
+        "preload"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Fetch Priority API (importance='high') permet de moduler finement la priorité des ressources.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quand utiliser 'prefetch' ?",
+      "options": [
+        "Pour des ressources nécessaires à la navigation suivante de l'utilisateur",
+        "Pour le logo du site actuel",
+        "Pour le JS principal",
+        "Pour le CSS critique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Early Hints (code HTTP 103) permet au serveur d'envoyer les resource hints avant la réponse finale.",
+      "reponse": true
+    }
+  ]
+}

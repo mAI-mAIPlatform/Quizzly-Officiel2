@@ -1,0 +1,94 @@
+{
+  "id": "quiz17",
+  "titre": "L'Arpège",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un arpège ?",
+      "options": [
+        "Jouer les notes d'un accord simultanément",
+        "Jouer les notes d'un accord l'une après l'autre",
+        "Un instrument à cordes",
+        "Une figure de danse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le mot 'arpège' vient du mot 'harpe'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'arpège de Do Majeur consiste à jouer Do, Mi, Sol, puis {{1}}... successivment.",
+      "reponsesAttendues": [
+        "Do"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quel type d'écriture correspond l'arpège ?",
+      "options": [
+        "Harmonique",
+        "Mélodique",
+        "Rythmique uniquement",
+        "Silencieuse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un arpège peut être ascendant ou descendant.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel instrument est particulièrement réputé pour ses arpèges ?",
+      "options": [
+        "La grosse caisse",
+        "La harpe",
+        "Le triangle",
+        "Le tambourin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Jouer les notes d'un accord de manière brisée s'appelle aussi {{1}} l'accord.",
+      "reponsesAttendues": [
+        "arpéger"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On utilise souvent des lignes ondulées verticales pour indiquer un accord arpéger sur un piano.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre une gamme et un arpège ?",
+      "options": [
+        "Aucune",
+        "La gamme suit les notes conjointes, l'arpège suit les notes d'un accord",
+        "La gamme est plus courte",
+        "L'arpège est plus lent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'arpège est un excellent exercice pour l'agilité des doigts.",
+      "reponse": true
+    }
+  ]
+}

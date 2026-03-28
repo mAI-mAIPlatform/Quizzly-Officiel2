@@ -1,0 +1,90 @@
+{
+  "id": "quiz13",
+  "titre": "Droit Romain",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel texte de base contient les premières lois écrites de Rome (450 av. J.-C.) ?",
+      "options": [
+        "La Loi des Douze Tables",
+        "Le Code Civil",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le droit romain distingue le 'Fas' (droit divin) du 'Ius' (droit humain).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La personne experte en droit, capable de donner des avis, est le {{1}}.",
+      "reponsesAttendues": ["jurisconsulte"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l' 'Edit du Préteur' ?",
+      "options": [
+        "Les règles de procédure publiées chaque année par le magistrat",
+        "Une loi sur le luxe",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'Edit de Caracalla (212 ap. J.-C.) a accordé la citoyenneté à tous les habitants libres de l'Empire.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "L'empereur ayant fait codifier le droit romain au VIe siècle ?",
+      "options": [
+        "Justinien (Corpus Iuris Civilis)",
+        "Auguste",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le statut d'une personne comprend la liberté, la citoyenneté et la {{1}} (famille).",
+      "reponsesAttendues": ["familia"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le droit romain est la base des systèmes juridiques de nombreux pays modernes.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Un 'Plébiscite' est :",
+      "options": [
+        "Une loi votée par la Plèbe",
+        "Un vote de l'empereur",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Nul n'est censé ignorer la loi (concept déjà romain).",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz29",
+  "titre": "Concessives : Indicatif",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle conjonction de concession demande classiquement l'indicatif ?",
+      "options": [
+        "quamquam",
+        "quamvis (chez Cicéron)",
+        "cum",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Quamquam' introduit une concession présentée comme un fait certain et objectif.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les conjonctions '{{1}}', 'tametsi', 'etiamsi' suivent les règles des propositions conditionnelles (si).",
+      "reponsesAttendues": ["etsi"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Quamquam senex est, laborat'",
+      "options": [
+        "Bien qu'il soit vieux (et il l'est), il travaille",
+        "Quoiqu'il puisse être vieux...",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Chez les auteurs tardifs (Sénèque, Tacite), 'quamquam' prend souvent le subjonctif.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "L'usage de 'quamquam' en début de phrase ?",
+      "options": [
+        "Sert de transition (D'ailleurs... / Et pourtant...)",
+        "Est interdit",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "'Etiamsi' + {{1}} exprime l'irréel de concession (Même si c'était le cas...).",
+      "reponsesAttendues": ["subjonctif"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le choix de la conjonction dépend de la force de l'opposition que l'on veut marquer.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quamquam vs Quamvis ?",
+      "options": [
+        "Quamquam = fait réel / Quamvis = degré d'intensité (quelque... que...)",
+        "C'est la même chose",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'indicatif ancre la concession dans le monde du réel.",
+      "reponse": true
+    }
+  ]
+}

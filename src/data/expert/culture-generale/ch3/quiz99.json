@@ -1,0 +1,94 @@
+{
+  "id": "quiz99",
+  "titre": "Culture Générale Expert : Conflits et Sécurité au XXIe Siècle",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel événement du 11 septembre 2001 a marqué un tournant majeur dans la lutte mondiale contre le terrorisme ?",
+      "options": [
+        "Les attentats contre les tours du World Trade Center",
+        "Le début de la guerre en Irak",
+        "La chute du régime des Talibans",
+        "Le retrait américain du Vietnam"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La cyber-guerre désigne l'utilisation d'attaques informatiques pour déstabiliser un État ou une organisation.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On appelle guerre `{{1}}` (hybride) un conflit utilisant à la fois des moyens militaires conventionnels et non conventionnels (désinformation, cyber-attaques).",
+      "reponsesAttendues": [
+        "hybride"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel groupe terroriste a proclamé un 'califat' à cheval sur la Syrie et l'Irak en 2014 ?",
+      "options": [
+        "L'État Islamique (Daech)",
+        "Al-Qaïda",
+        "Boko Haram",
+        "Le Hamas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La prolifération nucléaire désigne l'augmentation du nombre d'États possédant l'arme atomique.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on la branche armée de l'ONU qui intervient dans les zones de conflit ?",
+      "options": [
+        "Les Casques bleus",
+        "L'OTAN",
+        "La Légion étrangère",
+        "Europol"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La `{{1}}` (Cybersécurité) est devenue un enjeu stratégique vital pour protéger les infrastructures critiques (énergie, banques).",
+      "reponsesAttendues": [
+        "Cybersecurite"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La guerre de l'information (Fake News) ne constitue pas une menace réelle pour la démocratie.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel pays a été envahi par la Russie en février 2022, provoquant une crise géopolitique mondiale ?",
+      "options": [
+        "L'Ukraine",
+        "La Géorgie",
+        "La Biélorussie",
+        "La Moldavie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le traité sur la non-prolifération des armes nucléaires (TNP) vise à empêcher la propagation de l'arme atomique.",
+      "reponse": true
+    }
+  ]
+}

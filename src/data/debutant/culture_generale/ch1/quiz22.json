@@ -1,0 +1,94 @@
+{
+  "id": "quiz22",
+  "titre": "Les Dinosaures",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel dinosaure était un redoutable carnivore avec de petites pattes avant ?",
+      "options": [
+        "Le Diplodocus",
+        "Le Tyrannosaure (T-Rex)",
+        "Le Tricératops",
+        "Le Stégosaure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Diplodocus était un herbivore avec un cou très long.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le {{1}} possédait trois cornes sur la tête pour se défendre.",
+      "reponsesAttendues": [
+        "Tricératops"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment s'appelle le scientifique qui étudie les dinosaures ?",
+      "options": [
+        "Un astronome",
+        "Un paléontologue",
+        "Un archéologue",
+        "Un biologiste"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les dinosaures pondaient des oeufs.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel dinosaure avait des plaques osseuses sur le dos et des pointes sur la queue ?",
+      "options": [
+        "Le Stégosaure",
+        "Le Vélociraptor",
+        "L'Iguanodon",
+        "Le Brachiosaure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "On retrouve des traces de dinosaures sous forme de {{1}} dans la roche.",
+      "reponsesAttendues": [
+        "fossiles"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Tous les dinosaures étaient géants.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la cause la plus probable de l'extinction des dinosaures il y a 66 millions d'années ?",
+      "options": [
+        "Une inondation",
+        "La chute d'une météorite géante",
+        "La fin de la nourriture",
+        "Le froid"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les oiseaux sont considérés comme les descendants directs de certains petits dinosaures.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz29",
+  "titre": "Synthèse Grammaire Complète",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lalquelle est une forme correcte de 'Legere' (Vous) ?",
+      "options": [
+        "Legitis",
+        "Legetis",
+        "Legimus",
+        "Legite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Nominatif Pluriel de 'Dominus' est 'Domini'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour dire 'A nous', on utilise le pronom '{{1}}'.",
+      "reponsesAttendues": [
+        "nobis"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel cas pour le COD ?",
+      "options": [
+        "Nominatif",
+        "Accusatif",
+        "Datif",
+        "Ablatif"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un adjectif de la 2ème classe se décline sur la 3ème déclinaison.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Huitième' ?",
+      "options": [
+        "Septimus",
+        "Octavus",
+        "Nonus",
+        "Decimus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La préposition 'Ad' est suivie du cas {{1}}.",
+      "reponsesAttendues": [
+        "accusatif"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les neutres ont toujours le Nom, Voc, Acc identiques.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison de la 1ère personne du pluriel ?",
+      "options": [
+        "-mus",
+        "-tis",
+        "-nt",
+        "-m"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le latin possède 5 déclinaisons et 4 conjugaisons principales (+ mixte).",
+      "reponse": true
+    }
+  ]
+}

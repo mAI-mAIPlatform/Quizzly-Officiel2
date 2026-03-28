@@ -1,0 +1,94 @@
+{
+  "id": "quiz25",
+  "titre": "Les Vêtements",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'La chemise' ?",
+      "options": [
+        "A camisa",
+        "A camiseta",
+        "As calças",
+        "O vestido"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'As calças' signifie 'Le pantalon' (utilisé au pluriel).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La 'Robe' se dit 'O {{1}}'.",
+      "reponsesAttendues": [
+        "vestido"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'Os sapatos' ?",
+      "options": [
+        "Les chaussettes",
+        "Les chaussures",
+        "Les gants",
+        "Les lunettes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'A saia' signifie 'La jupe'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Le manteau' ?",
+      "options": [
+        "O casaco",
+        "O chapéu",
+        "A camisola",
+        "O cinto"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le 'Chapeau' se dit 'O {{1}}'.",
+      "reponsesAttendues": [
+        "chapéu"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Meias' signifie 'Chaussettes'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'O fato' (au Portugal) / 'O terno' (au Brésil) ?",
+      "options": [
+        "Le costume / complet",
+        "Le maillot de bain",
+        "Le pyjama",
+        "Le pull"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "'Vestir' est le verbe pour dire 'S'habiller'.",
+      "reponse": true
+    }
+  ]
+}

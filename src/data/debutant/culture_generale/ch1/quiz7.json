@@ -1,0 +1,94 @@
+{
+  "id": "quiz7",
+  "titre": "Grandes Inventions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle invention a permis de faciliter le transport dès l'Antiquité ?",
+      "options": [
+        "La voiture",
+        "La roue",
+        "Le train",
+        "L'avion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Johannes Gutenberg a inventé l'imprimerie.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Thomas Edison est célèbre pour avoir perfectionné l'ampoule {{1}}.",
+      "reponsesAttendues": [
+        "électrique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui a inventé le premier avion motorisé en 1903 ?",
+      "options": [
+        "Les frères Wright",
+        "Léonard de Vinci",
+        "Louis Pasteur",
+        "Isaac Newton"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Internet a été inventé au 18ème siècle.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle invention de James Watt a lancé la révolution industrielle ?",
+      "options": [
+        "La machine à vapeur",
+        "La machine à coudre",
+        "Le téléphone",
+        "L'ordinateur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Alexandre Graham Bell est l'un des inventeurs du {{1}}.",
+      "reponsesAttendues": [
+        "téléphone"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La boussole a été inventée en Chine pour s'orienter.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle est l'invention qui permet de conserver les aliments au froid ?",
+      "options": [
+        "Le four",
+        "Le réfrigérateur",
+        "Le micro-ondes",
+        "La cocotte-minute"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les inventions changent la façon dont les humains vivent au quotidien.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "quiz77",
+  "titre": "Portugais Expert : Brésil Moderne et Culture",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel événement de 1922 a marqué la naissance du modernisme artistique au Brésil ?",
+      "options": [
+        "La Semaine d'Art Moderne de São Paulo",
+        "L'indépendance",
+        "La fondation de Brasilia",
+        "Le premier Carnaval"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Oscar Niemeyer est l'architecte en chef qui a conçu les principaux bâtiments de Brasilia.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La `{{1}}` (Bossa Nova) est le genre musical sophistiqué apparu à la fin des années 50 (ex: 'The Girl from Ipanema').",
+      "reponsesAttendues": [
+        "Bossa Nova"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel auteur brésilien, membre de l'Académie, est célèbre pour 'Gabriela, Girofle et Cannelle' ?",
+      "options": [
+        "Jorge Amado",
+        "Machado de Assis",
+        "Clarice Lispector",
+        "Paulo Coelho"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Machado de Assis est considéré comme le plus grand écrivain brésilien du XIXe siècle.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel mouvement culturel des années 60 a fusionné bossa nova, rock et folklore avec une dimension politique ?",
+      "options": [
+        "Le Tropicalisme",
+        "Le Samba",
+        "Le Forró",
+        "Le MPB"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'`{{1}}` (Antropofagia) est le concept moderniste brésilien consistant à 'dévorer' les influences étrangères pour créer une culture nationale originale.",
+      "reponsesAttendues": [
+        "Anthropophagie",
+        "Antropofagia"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Clarice Lispector est célèbre pour sa prose introspective et ses 'épiphanies'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qui est le 'Pelé' de la musique brésilienne, compositeur de 'Garota de Ipanema' ?",
+      "options": [
+        "Tom Jobim",
+        "Joao Gilberto",
+        "Caetano Veloso",
+        "Gilberto Gil"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Carnaval de Rio est considéré comme le plus grand spectacle en plein air au monde.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz1",
+  "titre": "Comprendre les Prototypes (Bases)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un prototype en JavaScript ?",
+      "options": [
+        "Une copie d'un objet",
+        "Un objet parent dont un autre objet hérite des propriétés",
+        "Une erreur de syntaxe",
+        "Un type de donnée primitif"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Presque tous les objets en JavaScript descendent finalement de Object.prototype.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La propriété interne pointant vers le prototype d'un objet est souvent notée {{1}}.",
+      "reponsesAttendues": ["[[Prototype]]", "__proto__"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet d'obtenir le prototype d'un objet de manière standard ?",
+      "options": [
+        "obj.getPrototype()",
+        "Object.getPrototypeOf(obj)",
+        "obj.__proto__",
+        "typeof obj.prototype"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Modifier Object.prototype est une excellente pratique pour ajouter des fonctionnalités globales.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'affiche : const a = {}; console.log(a.toString()); ?",
+      "options": [
+        "undefined",
+        "ReferenceError",
+        "[object Object]",
+        "null"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le mécanisme de recherche d'une propriété s'appelle la {{1}} de prototypes.",
+      "reponsesAttendues": ["chaîne", "chain"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un objet peut avoir plusieurs prototypes directs (héritage multiple).",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que retourne Object.create(null) ?",
+      "options": [
+        "Un objet vide standard",
+        "Un objet sans aucun prototype (même pas Object.prototype)",
+        "Une erreur",
+        "null"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les fonctions possèdent une propriété '.prototype' que les objets simples n'ont pas.",
+      "reponse": true
+    }
+  ]
+}

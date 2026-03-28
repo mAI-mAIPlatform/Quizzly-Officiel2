@@ -1,0 +1,94 @@
+{
+  "id": "quiz10",
+  "titre": "Revisione : Grammatica (Capitolo 1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qual è il congiuntivo presente di 'volere' (io) ?",
+      "options": [
+        "v Voglia",
+        "vogli",
+        "vuole",
+        "volessi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Glielo' può significare 'a lei lo'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Completa: 'Pensavo che lui `{{1}}` (venire - simultaneità)' .",
+      "reponsesAttendues": [
+        "venisse"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Cosa diventa 'mi' davanti a 'la' ?",
+      "options": [
+        "me",
+        "ma",
+        "le",
+        "mi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Il si impersonale si accorda con l'oggetto diretto.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel exprime l'antériorité par rapport au présent ?",
+      "options": [
+        "Congiuntivo passato",
+        "Congiuntivo imperfetto",
+        "Congiuntivo presente",
+        "Indicativo passato"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "'Ci si deve {{1}} (lavare)' (impersonale riflessivo).",
+      "reponsesAttendues": [
+        "lavare"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il participio passato concorda sempre con 'ne' se indica una quantità.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Cosa significa 'ce ne andiamo' ?",
+      "options": [
+        "Nous nous en allons",
+        "Nous nous voyons",
+        "Nous faisons cela",
+        "C'est à nous"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il congiuntivo è obbligatorio dopo espressioni impersonali (è necessario che...).",
+      "reponse": true
+    }
+  ]
+}

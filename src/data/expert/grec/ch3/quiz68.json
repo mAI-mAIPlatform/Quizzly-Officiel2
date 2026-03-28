@@ -1,0 +1,96 @@
+{
+  "id": "quiz68",
+  "titre": "Grec Expert : Les Mathématiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a écrit les 'Éléments', l'ouvrage de référence de la géométrie pendant plus de 2000 ans ?",
+      "options": [
+        "Euclide",
+        "Pythagore",
+        "Thalès",
+        "Archimède"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pythagore considérait que 'tout est nombre' et que l'univers est régi par des rapports mathématiques.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` de Pythagore établit la relation entre les côtés d'un triangle rectangle.",
+      "reponsesAttendues": [
+        "théorème",
+        "theoreme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel génie de Syracuse a découvert le principe de la poussée des fluides et calculé une valeur très précise de Pi ?",
+      "options": [
+        "Archimède",
+        "Apollonios de Perga",
+        "Héron",
+        "Diophante"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Archimède s'est écrié 'Eurêka !' (J'ai trouvé) en sortant de son bain.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui est considéré comme le père de l'algèbre pour ses travaux sur les équations ?",
+      "options": [
+        "Diophante d'Alexandrie",
+        "Euclide",
+        "Thalès",
+        "Anaximandre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La `{{1}}` (ou section dorée) est un rapport mathématique que les Grecs utilisaient pour atteindre l'harmonie parfaite dans l'architecture.",
+      "reponsesAttendues": [
+        "proportion dorée",
+        "nombre d'or"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les Grecs ont découvert l'existence des nombres irrationnels (comme racine de 2), ce qui fut un choc pour les pythagoriciens.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel savant a écrit un traité majeur sur les coniques (ellipse, parabole, hyperbole) ?",
+      "options": [
+        "Apollonios de Perga",
+        "Euclide",
+        "Ptolémée",
+        "Archimède"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les mathématiques grecques privilégiaient la démonstration rigoureuse et la géométrie abstraite.",
+      "reponse": true
+    }
+  ]
+}

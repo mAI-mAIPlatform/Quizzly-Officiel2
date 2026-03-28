@@ -1,0 +1,90 @@
+{
+  "id": "quiz21",
+  "titre": "Italien Interculturel",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "L'italien a donné de nombreux mots au français. Lequel de ces termes n'est pas d'origine italienne ?",
+      "options": [
+        "Ordinateur",
+        "Pantalon",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le mot 'Banqueroute' vient de l'italien 'Banca rotta' (Banc rompu).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot '{{1}}' (Désinvolture / Disinvoltura) exprime une aisance naturelle, concept cher à la culture italienne.",
+      "reponsesAttendues": ["désinvolture", "disinvoltura"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le mélange des langues entre les immigrés italiens et la langue du pays d'accueil (ex: aux USA) ?",
+      "options": [
+        "Pidgin-Italian / Italo-americano",
+        "Esperanto",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'italien est la quatrième langue la plus étudiée au monde après l'anglais, l'espagnol et le chinois.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel adjectif italien qualifie un comportement excessif ou spectaculaire, souvent associé à l'opéra ?",
+      "options": [
+        "Rocambolesco / Operistico",
+        "Normale",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La '{{1}}' (Sprezzatura) est l'art de cacher l'effort derrière une apparente facilité.",
+      "reponsesAttendues": ["Sprezzatura"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'italien est la langue liturgique officielle de l'Église catholique (avec le latin).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel mot italien désigne une querelle ou une dispute animée ?",
+      "options": [
+        "Bagarre (orig. ital.) / Battibecco",
+        "Calma",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'italien est un pont culturel entre l'antiquité latine et la modernité européenne.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz18",
+  "titre": "La Conjugaison Mixte (3ème bis)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi appelle-t-on ce groupe 'mixte' ?",
+      "options": [
+        "C'est un mélange de latin et de grec",
+        "Il hésite entre la 3ème et la 4ème conjugaison",
+        "Il n'a pas de pluriel",
+        "Il change de radical"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le modèle type est le verbe 'Capere' (prendre).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "À la 1ère personne, on dit '{{1}}'.",
+      "reponsesAttendues": [
+        "capio"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Tu prends' ?",
+      "options": [
+        "Capis",
+        "Capes",
+        "Capas",
+        "Capere"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "À la 3ème personne du pluriel, on dit 'Capiunt' (comme la 4ème).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'Facio' ?",
+      "options": [
+        "Je me tais",
+        "Je fais",
+        "Je fuis",
+        "Je finis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le verbe 'Fugere' signifie '{{1}}'.",
+      "reponsesAttendues": [
+        "fuir"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'infinitif en '-ere' est bref, comme la 3ème conjugaison.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la forme pour 'Nous faisons' ?",
+      "options": [
+        "Facimus",
+        "Facemus",
+        "Faciamus",
+        "Facitis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On appelle aussi ce groupe 'les verbes en -io de la 3ème'.",
+      "reponse": true
+    }
+  ]
+}

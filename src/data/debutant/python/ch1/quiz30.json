@@ -1,0 +1,94 @@
+{
+  "id": "quiz30",
+  "titre": "Examen Final : Chapitre 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Python est un langage :",
+      "options": [
+        "Interprété",
+        "Difficile",
+        "Fermé",
+        "Ancien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "print(\"Hello\") est une instruction valide.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour vérifier une égalité, on utilise le symbole {{1}}.",
+      "reponsesAttendues": [
+        "=="
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces variables est bien nommée (convention) ?",
+      "options": [
+        "MaVariable",
+        "maVariable",
+        "ma_variable",
+        "MAVARIABLE"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'indentation n'est pas importante en Python.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que renvoie type(10.5) ?",
+      "options": [
+        "int",
+        "float",
+        "str",
+        "bool"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour importer un module, on utilise le mot-clé {{1}}.",
+      "reponsesAttendues": [
+        "import"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "input() renvoie toujours une chaîne de caractères.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est un opérateur logique ?",
+      "options": [
+        "&&",
+        "||",
+        "and",
+        "!"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Félicitations, vous avez maîtrisé les bases de Python !",
+      "reponse": true
+    }
+  ]
+}

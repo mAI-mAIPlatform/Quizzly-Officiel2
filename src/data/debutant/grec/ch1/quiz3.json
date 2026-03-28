@@ -1,0 +1,95 @@
+{
+  "id": "quiz3",
+  "titre": "La fin de l'Alphabet",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle le 'ρ' ?",
+      "options": [
+        "Rho",
+        "Sigma",
+        "Tau",
+        "Upsilon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il existe deux formes de 'Sigma' minuscule : σ et ς.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La lettre qui ressemble à un 't' s'appelle {{1}}.",
+      "reponsesAttendues": [
+        "Tau"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle lettre s'appelle 'Phi' ?",
+      "options": [
+        "χ",
+        "ψ",
+        "φ",
+        "ω"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le 'Chi' (χ) se prononce comme une jota espagnole ou un 'ch' allemand.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment s'appelle le 'ψ' ?",
+      "options": [
+        "Psi",
+        "Omega",
+        "Phi",
+        "Chi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La dernière lettre de l'alphabet est {{1}}.",
+      "reponsesAttendues": [
+        "Omega",
+        "Oméga"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'Omega minuscule s'écrit Ω.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle lettre correspond au son 'u' français ?",
+      "options": [
+        "Iota",
+        "Upsilon",
+        "Eta",
+        "Epsilon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Alphabet vient de 'Alpha' et 'Beta'.",
+      "reponse": true
+    }
+  ]
+}

@@ -3,5 +3,30 @@
   "titre": "Italien",
   "niveau": "Savant",
   "description": "Découvre et maîtrise tout le programme de Italien au niveau Savant !",
-  "chapitres": []
+  "chapitres": [
+    {
+      "id": "ch1",
+      "titre": "Linguistique & Dialectologie",
+      "lecons": ["Histoire de la langue", "Dialectes et isolats", "Phonétique historique"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch2",
+      "titre": "Littérature & Herméneutique",
+      "lecons": ["Interprétation de Dante", "Courants philosophiques", "Poésie d'avant-garde"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch3",
+      "titre": "Histoire Politique & Sociale",
+      "lecons": ["Unification et après-guerre", "Mouvements sociaux", "Institutions"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch4",
+      "titre": "Art, Esthétique & Médias",
+      "lecons": ["Théorie de l'architecture", "Cinéma et Sémiotique", "Mise en scène"],
+      "quizCount": 30
+    }
+  ]
 }

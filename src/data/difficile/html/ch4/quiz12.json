@@ -1,0 +1,90 @@
+{
+  "id": "quiz12",
+  "titre": "Tableaux Accessibles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise donne un titre descriptif à un tableau ?",
+      "options": [
+        "<caption>",
+        "<title>",
+        "<summary>",
+        "<thead>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'scope' sur une balise <th> aide à définir si l'en-tête s'applique à une ligne (row) ou une colonne (col).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour les tableaux complexes, on lie les cellules aux en-têtes via les attributs {{1}} (sur <th>) et 'headers' (sur <td>).",
+      "reponsesAttendues": ["id"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi éviter d'utiliser des tableaux pour la mise en page (layout) ?",
+      "options": [
+        "Cela sème la confusion dans les lecteurs d'écran qui s'attendent à des données tabulaires",
+        "C'est trop lourd",
+        "C'est moche",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La balise <thead> regroupe les lignes d'en-tête du tableau.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que fait un lecteur d'écran dans un tableau bien balisé ?",
+      "options": [
+        "Il annonce l'en-tête correspondant à chaque cellule lors de la navigation",
+        "Il lit tout d'un coup",
+        "Il ignore le tableau",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} est facultatif mais permet de fournir une description longue du tableau (obsolète au profit de caption).",
+      "reponsesAttendues": ["summary"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser CSS pour rendre un tableau responsive (ex: le transformer en liste sur mobile).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment masquer sémantiquement un tableau de mise en page ?",
+      "options": [
+        "role=\"presentation\"",
+        "aria-hidden=\"true\"",
+        "display: none",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Un tableau accessible est indispensable pour présenter des données complexes de manière inclusive.",
+      "reponse": true
+    }
+  ]
+}

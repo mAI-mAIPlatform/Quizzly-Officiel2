@@ -1,0 +1,90 @@
+{
+  "id": "quiz20",
+  "titre": "Révisions : Sécurité et Web APIs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "L'en-tête CSP (Content Security Policy) sert principalement à ?",
+      "options": [
+        "Accélérer le site",
+        "Limiter les sources de chargement de scripts et prévenir le XSS",
+        "Gérer le cache",
+        "Autoriser le CORS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une attaque CSRF peut fonctionner même si le site de la victime n'a aucune faille XSS.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le stockage d'un JWT sensible est plus sûr dans un cookie {{1}} que dans LocalStorage.",
+      "reponsesAttendues": ["HttpOnly"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel gère les transactions et l'asynchronisme ?",
+      "options": [
+        "IndexedDB",
+        "LocalStorage",
+        "SessionStorage",
+        "Cookies"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un preflight request utilise obligatoirement la méthode OPTIONS.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle API permet de mettre en cache des requêtes pour un usage Offline ?",
+      "options": [
+        "Cache Storage API (via Service Workers)",
+        "LocalStorage",
+        "Fetch API",
+        "File API"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut SameSite={{1}} envoie le cookie uniquement sur les requêtes du même site.",
+      "reponsesAttendues": ["Strict"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'objet Proxy peut être utilisé pour sécuriser l'accès à un objet sensible.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'Sanitizer' ?",
+      "options": [
+        "Nettoyer les données utilisateur pour supprimer les balises script potentiellement dangereuses",
+        "Supprimer les photos",
+        "Réinitialiser le serveur",
+        "Trier les IDs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La sécurité web est une responsabilité partagée entre le développeur client et serveur.",
+      "reponse": true
+    }
+  ]
+}

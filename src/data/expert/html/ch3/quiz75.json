@@ -1,0 +1,95 @@
+{
+  "id": "quiz75",
+  "titre": "HTML Expert : Web Bluetooth et Web USB",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle API permet de communiquer avec des périphériques Bluetooth Low Energy (BLE) depuis le navigateur ?",
+      "options": [
+        "Web Bluetooth API",
+        "Web Sockets",
+        "Beacon API",
+        "NFC API"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'accès à un périphérique Bluetooth nécessite une interaction explicite de l'utilisateur (geste utilisateur).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La Web `{{1}}` API permet d'interagir directement avec des périphériques matériels branchés via le port série.",
+      "reponsesAttendues": [
+        "USB",
+        "Serial"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel objet navigator est utilisé pour demander l'accès à un périphérique USB ?",
+      "options": [
+        "navigator.usb.requestDevice()",
+        "navigator.connect()",
+        "navigator.ports.open()",
+        "navigator.hardware.scan()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Ces APIs de bas niveau sont de puissants outils pour les PWAs souhaitant interagir avec du matériel spécifique.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle est la principale contrainte de sécurité pour ces APIs ?",
+      "options": [
+        "Contexte sécurisé (HTTPS) + Permission utilisateur",
+        "Uniquement sur Windows",
+        "Nécessite Flash",
+        "Pas de contrainte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Generic Attribute Profile) est le protocole utilisé par Web Bluetooth pour structurer les données.",
+      "reponsesAttendues": [
+        "GATT"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Web HID permet de communiquer avec des périphériques d'interface humaine (claviers spéciaux, manettes, etc.).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Pourquoi ces APIs ne sont-elles pas supportées par tous les navigateurs (ex: Safari) ?",
+      "options": [
+        "Pour des raisons de respect de la vie privée et de sécurité matérielle",
+        "Car elles sont trop lourdes",
+        "C'est un oubli",
+        "Elles sont payantes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il est possible de flasher un firmware via Web USB.",
+      "reponse": true
+    }
+  ]
+}

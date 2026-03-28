@@ -1,0 +1,94 @@
+{
+  "id": "quiz20",
+  "titre": "Synthèse : Vocabulaire et Grammaire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le sujet dans 'Dominus servum videt' ?",
+      "options": [
+        "Dominus",
+        "servum",
+        "videt",
+        "Il n'y en a pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Servum' est à l'accusatif singulier.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le pluriel de 'temple' (nominatif) est 'templ{{1}}'.",
+      "reponsesAttendues": [
+        "a"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment se dit 'votre' ?",
+      "options": [
+        "vester",
+        "noster",
+        "meus",
+        "tuus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Video' appartient à la 2e conjugaison.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'scribimus' ?",
+      "options": [
+        "Nous écrivons",
+        "Vous écrivez",
+        "Ils écrivent",
+        "Je lis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le mot 'amitié' vient de '{{1}}' (ami).",
+      "reponsesAttendues": [
+        "amicus"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Inter' signifie 'entre'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le génitif de 'terra' ?",
+      "options": [
+        "terrae",
+        "terram",
+        "terras",
+        "terrarum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Tu progresses très vite en Latin !",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz19",
+  "titre": "Web Storage : Avancé",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la limite de stockage typique de LocalStorage par origine ?",
+      "options": [
+        "1 Ko",
+        "5 à 10 Mo",
+        "1 Go",
+        "Illimité"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "SessionStorage persiste même après avoir fermé l'onglet ou la fenêtre.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La base de données transactionnelle côté client pour stocker de gros volumes de données est {{1}}.",
+      "reponsesAttendues": ["IndexedDB", "IndexDB"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel est synchrone (bloquant) ?",
+      "options": [
+        "LocalStorage",
+        "IndexedDB",
+        "Cache API",
+        "Fetch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On ne peut stocker que des chaînes de caractères (Strings) dans LocalStorage.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser IndexedDB plutôt que LocalStorage ?",
+      "options": [
+        "C'est plus simple",
+        "Recherches complexes (index), stockage d'objets binaires et asynchronisme",
+        "C'est plus vieux",
+        "Pour des variables globales"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour transformer un objet en string afin de le stocker, on utilise JSON.{{1}}().",
+      "reponsesAttendues": ["stringify"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'événement 'storage' permet d'être notifié des changements de LocalStorage faits dans un autre onglet.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est partagé entre tous les onglets d'une même origine ?",
+      "options": [
+        "LocalStorage",
+        "SessionStorage",
+        "Les deux",
+        "Aucun"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "IndexedDB gère les transactions pour garantir l'intégrité des données.",
+      "reponse": true
+    }
+  ]
+}

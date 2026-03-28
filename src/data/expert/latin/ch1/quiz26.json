@@ -1,0 +1,95 @@
+{
+  "id": "quiz26",
+  "titre": "Analyse de texte : Tacite (Style condensé)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la principale caractéristique du style de Tacite ?",
+      "options": [
+        "La 'brevitas' (concision extrême et force d'expression)",
+        "Les phrases très longues et symétriques",
+        "Un style uniquement poétique",
+        "Une langue très simple pour le peuple"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Tacite utilise souvent l'ellipse pour supprimer des mots jugés inutiles (ex: omission de 'esse').",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Tacite est l'auteur des `{{1}}` et des Histoires, relatant le début de l'Empire.",
+      "reponsesAttendues": [
+        "Annales"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'Incorruptam fidem professus' chez Tacite ?",
+      "options": [
+        "Il proclame son impartialité historique",
+        "Il demande de l'argent",
+        "Il avoue ses crimes",
+        "Il loue l'empereur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le style de Tacite est marqué par une vision souvent sombre et pessimiste de la nature humaine et du pouvoir.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment Tacite utilise-t-il les participes ?",
+      "options": [
+        "De manière massive pour condenser l'information en peu de mots",
+        "Il les évite au profit des verbes conjugués",
+        "Uniquement au futur",
+        "Pour faire de la poésie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'omission des conjonctions (asyndète) chez Tacite crée un effet de `{{1}}`.",
+      "reponsesAttendues": [
+        "vitesse",
+        "rapidité"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Tacite imite volontairement le style de Cicéron.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel adjectif définit le mieux la langue de Tacite ?",
+      "options": [
+        "Inconcinnitas (rupture d'équilibre volontaire)",
+        "Aequalitas",
+        "Simplicitas",
+        "Prolixitas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Tacite est maître dans l'art du portrait psychologique incisif.",
+      "reponse": true
+    }
+  ]
+}

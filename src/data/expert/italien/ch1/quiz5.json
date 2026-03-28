@@ -1,0 +1,95 @@
+{
+  "id": "quiz5",
+  "titre": "Grammatica : Concordanza dei tempi al Congiuntivo (Reggenti al passato)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Se il verbo della reggente è al passato (es: Credevo), quale tempo usiamo per la simultaneità ?",
+      "options": [
+        "Congiuntivo imperfetto",
+        "Congiuntivo presente",
+        "Congiuntivo trapassato",
+        "Indicativo imperfetto"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'anteriorità rispetto a una reggente al passato richiede il congiuntivo trapassato.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Il condizionale passato (es: Avrei creduto) è considerato un tempo `{{1}}` per la concordanza.",
+      "reponsesAttendues": [
+        "passato",
+        "storico"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Come esprimiamo la posteriorità rispetto a una reggente al passato (es: Pensavo che lui...)?",
+      "options": [
+        "Condizionale passato",
+        "Congiuntivo presente",
+        "Condizionale presente",
+        "Futuro semplice"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Dopo un condizionale presente di volontà (Vorrei che...), si usa il congiuntivo imperfetto.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qual è la forma corretta: 'Temevo che tu non ... in tempo' (anteriorità) ?",
+      "options": [
+        "fossi arrivato",
+        "sia arrivato",
+        "arrivassi",
+        "arriveresti"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Dopo 'Pensai che' (passato remoto), usiamo il congiuntivo `{{1}}` per la simultaneità.",
+      "reponsesAttendues": [
+        "imperfetto"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La posteriorità con reggente al passato si può esprimere anche con il congiuntivo imperfetto in alcuni contesti.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Se dico 'Mi sarebbe piaciuto che tu ... ', quale tempo segue ?",
+      "options": [
+        "fossi venuto / venissi",
+        "venga",
+        "sia venuto",
+        "verrai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La concordanza al passato è più rigida di quella al presente.",
+      "reponse": true
+    }
+  ]
+}

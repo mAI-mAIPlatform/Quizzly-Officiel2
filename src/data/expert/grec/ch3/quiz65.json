@@ -1,0 +1,95 @@
+{
+  "id": "quiz65",
+  "titre": "Grec Expert : Épicurisme et Stoïcisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le but suprême de la vie selon Épicure ?",
+      "options": [
+        "L'Ataraxie (absence de trouble)",
+        "Le pouvoir politique",
+        "La souffrance rédemptrice",
+        "L'accumulation de richesses"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le stoïcisme enseigne qu'il faut se concentrer sur ce qui dépend de nous et accepter le reste avec sérénité.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Zénon de Kition est le fondateur du `{{1}}`.",
+      "reponsesAttendues": [
+        "stoïcisme",
+        "stoicisme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie le terme 'Ataraxie' ?",
+      "options": [
+        "La tranquillité de l'âme",
+        "Une maladie de peau",
+        "Une technique de combat",
+        "Une divinité"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Épicure conseillait de fuir la vie politique pour vivre caché avec ses amis.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui est le célèbre philosophe cynique vivant dans un tonneau et prônant le retour à la nature ?",
+      "options": [
+        "Diogène de Sinope",
+        "Pyrrhon",
+        "Cléanthe",
+        "Épictète"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Pyrrhonisme) est une école qui prône la suspension du jugement pour atteindre la paix.",
+      "reponsesAttendues": [
+        "scepticisme"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les stoïciens croient que l'univers est dirigé par une raison universelle appelée le 'Logos'.",
+      "reponse": true
+    },
+    {
+      "id": "q10",
+      "type": "qcm",
+      "enonce": "Lequel de ces concepts n'appartient pas au stoïcisme ?",
+      "options": [
+        "Le plaisir comme bien souverain",
+        "L'endurance face à la douleur",
+        "L'acceptation du destin",
+        "La maîtrise des passions"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Ces écoles (hellénistiques) visaient avant tout à fournir un guide pratique pour atteindre le bonheur.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz93",
+  "titre": "Culture Générale Expert : L'Union Européenne",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel traité de 1992 a officiellement créé l'Union Européenne ?",
+      "options": [
+        "Le traité de Maastricht",
+        "Le traité de Rome",
+        "Le traité de Lisbonne",
+        "Le traité de Nice"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Commission européenne est le bras exécutif de l'UE.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le siège du Parlement européen se trouve officiellement à `{{1}}` (Strasbourg).",
+      "reponsesAttendues": [
+        "Strasbourg"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Combien d'États membres l'Union Européenne compte-t-elle depuis le départ du Royaume-Uni (Brexit) ?",
+      "options": [
+        "27",
+        "28",
+        "25",
+        "30"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La zone euro comprend tous les États membres de l'UE sans exception.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle institution est chargée de fixer les taux d'intérêt et d'assurer la stabilité des prix dans la zone euro ?",
+      "options": [
+        "La Banque Centrale Européenne (BCE)",
+        "Le Conseil européen",
+        "La Cour des comptes",
+        "Le FMI"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'Espace `{{1}}` (Schengen) permet la suppression des contrôles aux frontières intérieures entre les pays signataires.",
+      "reponsesAttendues": [
+        "Schengen"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Robert Schuman et Jean Monnet sont considérés comme les 'Pères de l'Europe'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Où siège la Cour de Justice de l'Union Européenne (CJUE) ?",
+      "options": [
+        "Luxembourg",
+        "Bruxelles",
+        "Francfort",
+        "Bruges"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La Charte des droits fondamentaux est juridiquement contraignante pour les institutions de l'UE.",
+      "reponse": true
+    }
+  ]
+}

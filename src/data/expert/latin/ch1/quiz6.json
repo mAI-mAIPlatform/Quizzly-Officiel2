@@ -1,0 +1,95 @@
+{
+  "id": "quiz6",
+  "titre": "Syntaxe : Cum + Subjonctif (Cum de narration)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelles sont les nuances exprimées par le 'Cum historique' (avec subjonctif) ?",
+      "options": [
+        "Temporelle, Causale et parfois Concessive",
+        "Uniquement temporelle (quand)",
+        "Uniquement conditionnelle",
+        "Uniquement finale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le cum narratif s'emploie principalement aux temps secondaires (imparfait et plus-que-parfait).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le cum historique suivi du subjonctif plus-que-parfait se traduit souvent par '{{1}}' (ayant...).",
+      "reponsesAttendues": [
+        "après avoir",
+        "après que"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quand utilise-t-on 'cum' + indicatif ?",
+      "options": [
+        "Pour une simple relation temporelle 'au moment où'",
+        "Dans tous les cas",
+        "Jamais",
+        "Seulement au futur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Dans 'Cum Athenis essem', cum exprime une circonstance (Alors que j'étais à Athènes).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se traduit un 'cum concessif' ?",
+      "options": [
+        "Bien que",
+        "Puisque",
+        "Parce que",
+        "Si"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le cum causant (puisque) nécessite le mode `{{1}}`.",
+      "reponsesAttendues": [
+        "subjonctif"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le 'cum inversum' (quand soudain) se construit avec le subjonctif.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la principale différence entre 'quod' + indicatif et 'cum' + subjonctif pour la cause ?",
+      "options": [
+        "Quod exprime une cause objective, Cum une cause plus circonstancielle/subjective",
+        "Il n'y en a pas",
+        "L'un est réservé aux dieux",
+        "Cum est plus rare"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Cicéron utilise extrêmement souvent le cum narratif pour la fluidité du récit.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz7",
+  "titre": "Élément Vidéo",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel attribut définit l'image d'aperçu avant le démarrage de la vidéo ?",
+      "options": [
+        "poster",
+        "preview",
+        "thumbnail",
+        "cover"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La balise <video> supporte les mêmes attributs controls, autoplay, loop et muted que <audio>.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise <{{1}}> permet d'ajouter des sous-titres ou légendes à une vidéo.",
+      "reponsesAttendues": ["track"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel format de fichier est nécessaire pour les sous-titres <track> ?",
+      "options": [
+        "WebVTT (.vtt)",
+        "SRT",
+        "TXT",
+        "XML"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'playsinline' permet sur iOS de lire la vidéo au sein de la page plutôt qu'en plein écran forcé.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi sert l'attribut kind='subtitles' sur un <track> ?",
+      "options": [
+        "À définir le rôle des pistes de texte pour l'accessibilité",
+        "À traduire la vidéo",
+        "À rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} est recommandé pour les vidéos qui servent de fond d'écran (Background) pour éviter les blocages de navigateur.",
+      "reponsesAttendues": ["muted"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut définir la largeur et la hauteur de la vidéo via les attributs 'width' et 'height'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si aucun format n'est supporté ?",
+      "options": [
+        "Le texte de fallback écrit entre les balises est affiché",
+        "La page crash",
+        "Rien ne se passe",
+        "None"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "WebM est un format libre et performant souvent utilisé avec MP4.",
+      "reponse": true
+    }
+  ]
+}

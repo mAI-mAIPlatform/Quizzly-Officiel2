@@ -1,0 +1,95 @@
+{
+  "id": "quiz85",
+  "titre": "Musique Expert : Minimalisme et Musique Répétitive",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel compositeur est l'auteur de l'opéra 'Einstein on the Beach' ?",
+      "options": [
+        "Philip Glass",
+        "Steve Reich",
+        "Terry Riley",
+        "John Adams"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La musique minimaliste utilise souvent des motifs répétitifs qui évoluent lentement (processus).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Steve Reich a développé la technique du `{{1}}` (Phasing) consistant en un déphasage graduel entre deux sources identiques.",
+      "reponsesAttendues": [
+        "Phasing",
+        "Dephasage"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle œuvre de Terry Riley (1964) est considérée comme le manifeste du minimalisme ?",
+      "options": [
+        "In C",
+        "Music for 18 Musicians",
+        "Metamorphosis",
+        "Clapping Music"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La musique minimaliste refuse toute influence des musiques non-occidentales.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel compositeur a écrit 'Music for 18 Musicians', œuvre majeure du courant ?",
+      "options": [
+        "Steve Reich",
+        "La Monte Young",
+        "Michael Nyman",
+        "Arvo Pärt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Arvo Pärt a développé un style minimaliste sacré appelé `{{1}}` (Tintinnabuli).",
+      "reponsesAttendues": [
+        "Tintinnabuli"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le minimalisme américain est né dans les années 1960.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel théoricien et musicologue a inventé le terme 'musique minimale' ?",
+      "options": [
+        "Michael Nyman",
+        "Léonard Bernstein",
+        "Pierre Boulez",
+        "Glenn Gould"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "John Adams appartient au courant des 'post-minimalistes'.",
+      "reponse": true
+    }
+  ]
+}

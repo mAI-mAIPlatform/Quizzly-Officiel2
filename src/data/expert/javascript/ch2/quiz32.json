@@ -1,0 +1,94 @@
+{
+  "id": "quiz32",
+  "titre": "JS Expert : Les Promises (Fondamentaux)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quels sont les trois états possibles d'une Promise ?",
+      "options": [
+        "Pending, Fulfilled, Rejected",
+        "Start, Processing, End",
+        "Waiting, Success, Error",
+        "Open, Closed, Resolved"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une fois qu'une Promise est 'Settled', son état ne peut plus changer.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La méthode permettant d'exécuter du code quel que soit le résultat (succès ou erreur) est `.{{1}}()`.",
+      "reponsesAttendues": [
+        "finally"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que renvoie la méthode `.then()` ?",
+      "options": [
+        "Une nouvelle Promise",
+        "La valeur de retour de la callback",
+        "Undefined",
+        "L'objet initial inchangé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Si une callback de `.then()` renvoie une valeur simple, la Promise suivante est immédiatement résolue avec cette valeur.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Promise Chaining' ?",
+      "options": [
+        "La capacité à enchaîner les appels asynchrones de manière séquentielle et lisible",
+        "L'utilisation de boucles for pour les promesses",
+        "Une technique de cryptographie",
+        "Le blocage du thread principal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour transformer une valeur immédiate en Promise résolue, on utilise `Promise.{{1}}(valeur)`.",
+      "reponsesAttendues": [
+        "resolve"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Une erreur jetée (throw) dans un exécuteur de Promise rejette automatiquement la Promise.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si on ne fournit pas de handler d'erreur (.catch) ?",
+      "options": [
+        "Cela déclenche un 'Unhandled Rejection'",
+        "L'erreur est ignorée silencieusement",
+        "Le code s'arrête net sans message",
+        "Le processeur surchauffe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'exécuteur d'une Promise (le callback passé au constructeur) s'exécute de manière synchrone.",
+      "reponse": true
+    }
+  ]
+}

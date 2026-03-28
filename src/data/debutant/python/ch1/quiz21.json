@@ -1,0 +1,94 @@
+{
+  "id": "quiz21",
+  "titre": "Introduction au Flux de Contrôle",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel mot-clé introduit une condition ?",
+      "options": [
+        "when",
+        "if",
+        "case",
+        "check"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Toute ligne 'if' doit se terminer par un deux-points ( : ).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le code exécuté sous le 'if' doit être {{1}}.",
+      "reponsesAttendues": [
+        "indenté"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel mot-clé signifie 'sinon' ?",
+      "options": [
+        "then",
+        "else",
+        "otherwise",
+        "stop"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut avoir plusieurs 'if' successifs.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment écrit-on 'sinon si' en Python ?",
+      "options": [
+        "elseif",
+        "else if",
+        "elif",
+        "elsif"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Un bloc 'else' ne peut pas avoir de {{1}}.",
+      "reponsesAttendues": [
+        "condition"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'indentation est cruciale pour savoir ce qui est dans le 'if'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est correct ?",
+      "options": [
+        "if x > 0: print(\"ok\")",
+        "if x > 0 print(\"ok\")",
+        "if (x > 0) { print(\"ok\") }",
+        "when x > 0: print(\"ok\")"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Une condition peut être n'importe quelle expression booléenne.",
+      "reponse": true
+    }
+  ]
+}

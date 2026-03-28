@@ -1,0 +1,94 @@
+{
+  "id": "quiz3",
+  "titre": "Les Titres (Headings)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise représente le titre le plus important ?",
+      "options": [
+        "<h6>",
+        "<title>",
+        "<h1>",
+        "<header>"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il existe 6 niveaux de titres, de <h1> à <h6>.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise de titre la plus petite par défaut est {{1}}.",
+      "reponsesAttendues": [
+        "h6"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Combien de <h1> est-il recommandé d'avoir par page (SEO) ?",
+      "options": [
+        "Zéro",
+        "Un seul",
+        "Cinq",
+        "Autant qu'on veut"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les balises de titre créent automatiquement un retour à la ligne.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si on saute un niveau (ex: passer de h1 à h3) ?",
+      "options": [
+        "Une erreur de syntaxe",
+        "C'est possible mais déconseillé pour la structure",
+        "Le navigateur crash",
+        "Le texte devient rouge"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La balise {{1}} est utilisée pour les sous-titres de second niveau.",
+      "reponsesAttendues": [
+        "h2"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Une balise <h1> est toujours plus grosse qu'un texte normal.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser des titres plutôt que du texte en gras ?",
+      "options": [
+        "Pour le référencement (SEO)",
+        "Pour l'accessibilité",
+        "Pour la structure logique",
+        "Toutes ces réponses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut changer la taille des titres avec du CSS plus tard.",
+      "reponse": true
+    }
+  ]
+}

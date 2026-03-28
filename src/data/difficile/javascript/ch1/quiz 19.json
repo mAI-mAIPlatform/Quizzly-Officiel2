@@ -1,0 +1,90 @@
+{
+  "id": "quiz 19",
+  "titre": "Contexte d'Exécution (Execution Context)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Global Execution Context' (GEC) ?",
+      "options": [
+        "Un contexte créé pour chaque fonction",
+        "L'environnement par défaut où le code commence son exécution",
+        "Une erreur de Node.js",
+        "Une classe CSS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il n'y a qu'un seul GEC par application JavaScript.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Chaque appel de fonction crée un nouveau {{1}} Execution Context (FEC).",
+      "reponsesAttendues": ["Function"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelles sont les deux phases de création d'un contexte d'exécution ?",
+      "options": [
+        "Lecture et Écriture",
+        "Création et Exécution",
+        "Compilation et Rendu",
+        "Allocation et Libération"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Pendant la phase de création, les variables sont initialisées à leur valeur finale.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que contient l'objet 'Variable Environment' d'un contexte ?",
+      "options": [
+        "La liste des fichiers",
+        "Les variables, fonctions et arguments locaux",
+        "Les styles de la page",
+        "Les requêtes HTTP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le lien vers le scope parent est stocké dans la {{1}} de portée du contexte.",
+      "reponsesAttendues": ["chaîne", "scope chain"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le mot-clé 'this' est déterminé lors de la création du contexte d'exécution.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Où est stocké l'Execution Context actuellement actif ?",
+      "options": [
+        "Dans le Heap",
+        "Au sommet du Call Stack",
+        "Dans le localStorage",
+        "Dans le CPU"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Un contexte d'exécution est détruit dès que la fonction finit son exécution (sauf closure).",
+      "reponse": true
+    }
+  ]
+}

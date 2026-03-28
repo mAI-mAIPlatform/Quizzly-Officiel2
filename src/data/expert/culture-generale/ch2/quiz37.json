@@ -1,0 +1,94 @@
+{
+  "id": "quiz37",
+  "titre": "Culture Générale Expert : La Guerre Froide",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle expression Winston Churchill a-t-il utilisée pour décrire la division de l'Europe ?",
+      "options": [
+        "Le Rideau de Fer",
+        "Le Mur de la Honte",
+        "La Ligne de Front",
+        "Le Grand Fossé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Plan Marshall était une aide économique américaine pour la reconstruction de l'Europe.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La crise des missiles de `{{1}}` (1962) est le moment où le monde fut le plus proche d'une guerre nucléaire.",
+      "reponsesAttendues": [
+        "Cuba"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle alliance militaire a été créée par le bloc de l'Est en réponse à l'OTAN ?",
+      "options": [
+        "Le Pacte de Varsovie",
+        "Le Pacte de Belgrade",
+        "Le Kominform",
+        "La Ligue de l'Est"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Mur de Berlin a été construit en 1961.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel pays s'est divisé en deux après une guerre sanglante de 1950 à 1953 ?",
+      "options": [
+        "La Corée",
+        "Le Vietnam",
+        "L'Allemagne",
+        "La Chine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Mikhaïl `{{1}}` a lancé la Perestroïka et la Glasnost à la fin des années 80.",
+      "reponsesAttendues": [
+        "Gorbatchev"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La chute du Mur de Berlin a eu lieu le 9 novembre 1989.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle guerre s'est achevée par une défaite symbolique et le retrait des USA en 1975 ?",
+      "options": [
+        "La Guerre du Vietnam",
+        "La Guerre du Golfe",
+        "La Guerre de Corée",
+        "La Guerre d'Algérie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'URSS a été officiellement dissoute en décembre 1991.",
+      "reponse": true
+    }
+  ]
+}

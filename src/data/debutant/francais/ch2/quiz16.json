@@ -1,0 +1,94 @@
+{
+  "id": "quiz16",
+  "titre": "Le Nom (Commun et Propre)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel est un nom propre ?",
+      "options": [
+        "un avion",
+        "Paris",
+        "une table",
+        "le chat"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un nom propre commence toujours par une majuscule.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans la phrase 'Le chien aboie', le nom est {{1}}.",
+      "reponsesAttendues": [
+        "chien"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Trouve le nom commun :",
+      "options": [
+        "Léo",
+        "France",
+        "pomme",
+        "Marseille"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un nom commun désigne une chose, un animal ou une personne en général.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel est un nom de personne ?",
+      "options": [
+        "boulanger",
+        "baguette",
+        "four",
+        "boutique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Mon prénom est un nom {{1}}.",
+      "reponsesAttendues": [
+        "propre"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Chat' est un nom propre car c'est un animal.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Dans 'Marie mange une glace', combien y a-t-il de noms ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le nom est le noyau du groupe nominal.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz7",
+  "titre": "Gramática : Voz Passiva e Construções",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se forma a voz passiva analítica ?",
+      "options": [
+        "Verbo auxiliar (ser/estar) + Particípio Passado",
+        "Verbo reflexivo",
+        "Gerúndio + Infinitivo",
+        "Futuro do presente"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Na voz passiva sintética, usa-se a partícula apassivadora 'se'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Alugam-se `{{1}}` (casa - plural).",
+      "reponsesAttendues": [
+        "casas"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qual é o agente da passiva ?",
+      "options": [
+        "O termo que pratica a ação na voz passiva (geralmente com 'por')",
+        "O objeto direto",
+        "O sujeito do congiuntivo",
+        "Um adjetivo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Em 'Vende-se esta casa', o verbo concorda com 'esta casa'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "O que acontece em 'Precisa-se de empregados' ?",
+      "options": [
+        "É um 'se' índice de indeterminação do sujeito (o verbo fica no singular)",
+        "É voz passiva sintética",
+        "O verbo deve ir para o plural",
+        "Diz respeito ao futuro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "A ponte foi `{{1}}` (construir) por engenheiros.",
+      "reponsesAttendues": [
+        "construída"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "A voz passiva só pode ser feita com verbos transitivos diretos.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qual frase está na voz passiva ?",
+      "options": [
+        "O livro foi lido por todos",
+        "Eles leram o livro",
+        "O livro é bom",
+        "Lendo o livro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "A voz passiva pronominal (sintética) é muito usada em anúncios.",
+      "reponse": true
+    }
+  ]
+}

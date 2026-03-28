@@ -1,0 +1,90 @@
+{
+  "id": "quiz17",
+  "titre": "Observer et Pub-Sub",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le but du pattern Observer ?",
+      "options": [
+        "Cacher les données",
+        "Notifier plusieurs objets d'un changement d'état d'un sujet",
+        "Créer des copies d'objets",
+        "Gérer les erreurs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans le pattern Pub-Sub, l'émetteur et le récepteur ne se connaissent pas (découplage total).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'objet qui émet des notifications est appelé le {{1}}.",
+      "reponsesAttendues": ["Sujet", "Subject", "Émetteur"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment un observateur s'inscrit-il aux changements ?",
+      "options": [
+        "En modifiant le code du sujet",
+        "En appelant une méthode comme 'subscribe' ou 'attach'",
+        "Via une variable globale",
+        "Il ne peut pas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Redux utilise une variante du pattern Observer pour notifier les composants des changements du store.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage du Pub-Sub par rapport à l'Observer classique ?",
+      "options": [
+        "Il est plus rapide",
+        "Il utilise un 'Event Bus' ou 'Broker' intermédiaire pour un meilleur découplage",
+        "Il consomme moins de mémoire",
+        "Il est intégré à CSS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'arrêt de l'écoute d'un sujet s'appelle le {{1}}.",
+      "reponsesAttendues": ["unsubscribe", "désabonnement"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'abus d'élèves (Observers) peut rendre le flux de données difficile à suivre (trace debug).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle api Web est basée sur ce pattern ?",
+      "options": [
+        "Fetch API",
+        "MutationObserver",
+        "LocalStorage",
+        "Canvas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le pattern Observer favorise le 'Tight Coupling' (couplage fort).",
+      "reponse": false
+    }
+  ]
+}

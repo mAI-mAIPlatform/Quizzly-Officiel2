@@ -1,0 +1,94 @@
+{
+  "id": "quiz19",
+  "titre": "Histoire : Georg Friedrich Haendel",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Haendel a fait l'essentiel de sa carrière dans quel pays ?",
+      "options": [
+        "Angleterre",
+        "Allemagne",
+        "Italie",
+        "France"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Le Messie' est son oratorio le plus célèbre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'oratorio 'Le Messie' contient le célèbre chœur de l'`{{1}}`.",
+      "reponsesAttendues": [
+        "Alleluia"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle œuvre a-t-il composée pour être jouée sur des bateaux naviguant sur la Tamise ?",
+      "options": [
+        "Water Music (Musique sur l'eau)",
+        "Music for the Royal Fireworks",
+        "Zadok the Priest",
+        "Rinaldo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Haendel était un maître de l'Opera Seria italien.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que 'Zadok the Priest' ?",
+      "options": [
+        "Un hymne de couronnement utilisé pour les monarques britanniques",
+        "Un air de cabaret",
+        "Une messe des morts",
+        "Un solo de basson"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le rival historique de Haendel à l'opéra de Londres était Bononcini ou l'Opéra de la `{{1}}`.",
+      "reponsesAttendues": [
+        "Noblesse"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Contrairement à Bach, Haendel a beaucoup voyagé, notamment en Italie.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Pourquoi Haendel s'est-il tourné vers l'oratorio ?",
+      "options": [
+        "Car l'opéra italien devenait trop coûteux et moins populaire à Londres",
+        "Parce qu'il a perdu la voix",
+        "Par obligation religieuse",
+        "Pour faire plaisir au Pape"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Haendel est enterré à l'abbaye de Westminster.",
+      "reponse": true
+    }
+  ]
+}

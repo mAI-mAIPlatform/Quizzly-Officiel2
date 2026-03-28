@@ -1,0 +1,94 @@
+{
+  "id": "quiz54",
+  "titre": "Italien Expert : L'Ottocento (Manzoni e Leopardi)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qual è il titolo del primo grande romanzo storico italiano, scritto da Alessandro Manzoni ?",
+      "options": [
+        "I Promessi Sposi",
+        "Le Ultime Lettere di Jacopo Ortis",
+        "I Malavoglia",
+        "Il Piacere"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Giacomo Leopardi è il poeta del 'pessimismo cosmico'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La raccolta poetica più famosa di Leopardi si intitola i `{{1}}`.",
+      "reponsesAttendues": [
+        "Canti"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Dove sono ambientati 'I Promessi Sposi' ?",
+      "options": [
+        "In Lombardia, tra il lago di Como e Milano",
+        "In Toscana",
+        "In Sicilia",
+        "A Roma"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Manzoni 'risciacquò i panni in Arno' per unificare la lingua del suo romanzo sul modello fiorentino colto.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quale poesia di Leopardi contempla l'infinito oltre una siepe ?",
+      "options": [
+        "L'Infinito",
+        "A Silvia",
+        "Il sabato del villaggio",
+        "La ginestra"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "I protagonisti de 'I Promessi Sposi' sono `{{1}}` e Lucia.",
+      "reponsesAttendues": [
+        "Renzo"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Ugo Foscolo scrisse 'Dei Sepolcri', esaltando la funzione civile della memoria.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quale movimento letterario di fine Ottocento è rappresentato da Giovanni Verga ?",
+      "options": [
+        "Il Verismo",
+        "Il Romanticismo",
+        "L'Illuminismo",
+        "Il Futurismo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Leopardi scrisse anche le 'Operette Morali', testi in prosa filosofica e satirica.",
+      "reponse": true
+    }
+  ]
+}

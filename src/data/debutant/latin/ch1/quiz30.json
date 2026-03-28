@@ -1,0 +1,94 @@
+{
+  "id": "quiz30",
+  "titre": "Examen Final : Chapitre 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est le dieu de la mer ?",
+      "options": [
+        "Jupiter",
+        "Neptune",
+        "Pluton",
+        "Mars"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Veni, vidi, vici est une phrase célèbre de César.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour dire 'Je suis', on dit '{{1}}'.",
+      "reponsesAttendues": [
+        "sum"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est le Nominatif pluriel de 'Puella' ?",
+      "options": [
+        "Puella",
+        "Puellae",
+        "Puellas",
+        "Puellarum"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "In urbe signifie Vers la ville.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'Paterfamilias' ?",
+      "options": [
+        "Le père de famille",
+        "La famille du père",
+        "Un parent éloigné",
+        "L'esclave du père"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le Génitif singulier de la 2ème déclinaison est en '-{{1}}'.",
+      "reponsesAttendues": [
+        "i"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Amare est un verbe de la 1ère conjugaison.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est l'intrus parmi ces cas ?",
+      "options": [
+        "Nominatif",
+        "Accusatif",
+        "Indicatif",
+        "Datif"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Optime ! Tu as brillamment terminé le premier chapitre de Latin.",
+      "reponse": true
+    }
+  ]
+}

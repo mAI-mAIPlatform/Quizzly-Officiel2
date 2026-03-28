@@ -1,0 +1,96 @@
+{
+  "id": "quiz107",
+  "titre": "HTML Expert : Performance et Web Vitals",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie LCP dans les Core Web Vitals de Google ?",
+      "options": [
+        "Largest Contentful Paint",
+        "Longest Current Page",
+        "Local Cached Process",
+        "Lazy Click Priority"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le CLS (Cumulative Layout Shift) mesure la stabilité visuelle d'une page pendant son chargement.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le temps de réponse à la première interaction est mesuré par le `{{1}}` (FID - First Input Delay) ou plus récemment par l'INP.",
+      "reponsesAttendues": [
+        "FID",
+        "First Input Delay"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel attribut HTML sur une balise <script> permet de le charger en parallèle sans bloquer le rendu, puis de l'exécuter dès qu'il est prêt ?",
+      "options": [
+        "async",
+        "defer",
+        "preload",
+        "prefetch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'loading=\"lazy\"' peut être utilisé sur les images et les iframes pour économiser de la bande passante.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que permet de faire 'rel=\"preload\"' ?",
+      "options": [
+        "Indiquer au navigateur de charger une ressource critique (ex: police, style) le plus tôt possible",
+        "Précharger toutes les pages du site",
+        "Vider le cache",
+        "Compresser le HTML"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La propriété `{{1}}` (TTFB - Time To First Byte) mesure le temps écoulé entre la requête et le premier octet reçu du serveur.",
+      "reponsesAttendues": [
+        "TTFB",
+        "Time To First Byte"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les Web Workers permettent d'exécuter des scripts dans des threads séparés pour ne pas figer l'interface utilisateur.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le budget de performance fixant des limites de poids et de temps de chargement ?",
+      "options": [
+        "Performance Budget",
+        "Speed Limit",
+        "Data Cap",
+        "Quality Gate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "HTTP/2 et HTTP/3 permettent le multiplexage, réduisant ainsi l'impact négatif du nombre de fichiers chargés.",
+      "reponse": true
+    }
+  ]
+}

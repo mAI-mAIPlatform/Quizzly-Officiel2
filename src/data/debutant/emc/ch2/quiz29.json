@@ -1,0 +1,94 @@
+{
+  "id": "quiz29",
+  "titre": "Synthèse : Citoyenneté et Valeurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quels sont les trois mots de la devise française ?",
+      "options": [
+        "Liberté, Égalité, Fraternité",
+        "Paix, Force, Travail",
+        "Droit, Loi, Liberté"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Marianne représente la République.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Respecter les règles de l'école permet de vivre en {{1}}.",
+      "reponsesAttendues": [
+        "harmonie",
+        "sécurité",
+        "paix"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces actions est éco-citoyenne ?",
+      "options": [
+        "Trier ses déchets",
+        "Laisser l'eau couler",
+        "Jeter des piles à la poubelle normale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Tous les enfants ont le droit d'être soignés.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel numéro appeler pour les pompiers ?",
+      "options": [
+        "15",
+        "17",
+        "18"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La laïcité garantit que chacun peut avoir ses propres {{1}}.",
+      "reponsesAttendues": [
+        "opinions",
+        "idées",
+        "croyances"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le vote des délégués est secret.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'hymne national ?",
+      "options": [
+        "La Marseillaise",
+        "La Parisienne",
+        "Le Chant du Départ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Tu connais bien tes droits et devoirs de citoyen !",
+      "reponse": true
+    }
+  ]
+}

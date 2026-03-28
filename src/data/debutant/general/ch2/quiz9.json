@@ -1,0 +1,94 @@
+{
+  "id": "quiz9",
+  "titre": "Les Monuments Célèbres",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où se trouve la Statue de la Liberté ?",
+      "options": [
+        "New York",
+        "Paris",
+        "Londres",
+        "Sydney"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Tour Eiffel a été construite pour l'Exposition Universelle de 1889.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La grande muraille se trouve en {{1}} (Chine).",
+      "reponsesAttendues": [
+        "Chine"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel monument indien a été construit par un empereur en mémoire de sa femme ?",
+      "options": [
+        "Le Taj Mahal",
+        "Le Temple d'Or",
+        "Le Fort Rouge",
+        "La Porte de l'Inde"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La tour de Pise penche à cause d'un sol instable.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Où se trouve le célèbre opéra en forme de voiles ?",
+      "options": [
+        "Sydney",
+        "San Francisco",
+        "Dubaï",
+        "Barcelone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le temple du Parthénon se trouve sur l'Acropole d'{{1}} (Athènes).",
+      "reponsesAttendues": [
+        "Athènes"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Big Ben est le nom de la cloche à l'intérieur de la tour de Londres.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel monument a été construit par les Mayas au Mexique ?",
+      "options": [
+        "Chichén Itzá",
+        "Machu Picchu",
+        "Le Colisée",
+        "Petra"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Machu Picchu se trouve au Pérou.",
+      "reponse": true
+    }
+  ]
+}

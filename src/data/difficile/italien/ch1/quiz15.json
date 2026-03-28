@@ -1,0 +1,90 @@
+{
+  "id": "quiz15",
+  "titre": "L'Opéra",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel compositeur est l'auteur de 'La Traviata' et 'Rigoletto' ?",
+      "options": [
+        "Giuseppe Verdi",
+        "Giacomo Puccini",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'opéra est né à Florence à la fin du XVIe siècle (La Camerata dei Bardi).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La {{1}} (Scala) de Milan est l'un des théâtres lyriques les plus célèbres du monde.",
+      "reponsesAttendues": ["Scala"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui a composé l'opéra inachevé 'Turandot' ?",
+      "options": [
+        "Giacomo Puccini",
+        "Gioachino Rossini",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le 'Bel Canto' est un style de chant italien axé sur la virtuosité et la beauté de la ligne.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel opéra de Rossini est un chef-d'œuvre du genre comique (opera buffa) ?",
+      "options": [
+        "Le Barbier de Séville (Il barbiere di Siviglia)",
+        "Tosca",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Luciano {{1}} (Pavarotti) fut l'un des plus grands ténors italiens de l'histoire.",
+      "reponsesAttendues": ["Pavarotti"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "À l'époque du Risorgimento, le nom de Verdi servait de cri de ralliement patriote (V.E.R.D.I.).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel théâtre antique abrite chaque été un festival d'opéra prestigieux ?",
+      "options": [
+        "Les Arènes de Vérone (Arena di Verona)",
+        "Le Théâtre de Pompéi",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'opéra reste un élément fondamental du rayonnement culturel italien.",
+      "reponse": true
+    }
+  ]
+}

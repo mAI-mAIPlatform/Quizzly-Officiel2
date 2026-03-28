@@ -1,0 +1,94 @@
+{
+  "id": "quiz97",
+  "titre": "Python Expert : Profiling et Debugging Avancé",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel module standard est recommandé pour le profiling déterministe complet d'une application ?",
+      "options": [
+        "cProfile",
+        "timeit",
+        "profile",
+        "trace"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'pdb' permet de faire du debugging interactif en ligne de commande.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le module `{{1}}` (tracemalloc) permet de pister les allocations mémoire et de détecter les fuites.",
+      "reponsesAttendues": [
+        "tracemalloc"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle fonction permet d'injecter un breakpoint de manière programmative à partir de Python 3.7 ?",
+      "options": [
+        "breakpoint()",
+        "pdb.set_trace()",
+        "debugger.stop()",
+        "raise DebugException"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'py-spy' est un profiler de type 'sampling' qui peut s'attacher à un processus déjà en cours sans l'arrêter.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment mesurer précisément le temps d'exécution d'une petite portion de code en évitant les biais ?",
+      "options": [
+        "module timeit",
+        "time.time()",
+        "datetime.now()",
+        "cProfile"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le module `{{1}}` (inspect) permet d'explorer les objets vivants, les frames de pile et le code source au runtime.",
+      "reponsesAttendues": [
+        "inspect"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un 'Flame Graph' est une visualisation utile pour identifier les goulets d'étranglement CPU.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel outil permet de vérifier statiquement les types et les potentielles erreurs de logique sans exécuter le code ?",
+      "options": [
+        "mypy (ou pylint)",
+        "pytest",
+        "tox",
+        "black"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'activation du Garbage Collector peut fausser les mesures de profiling de micro-benchmark.",
+      "reponse": true
+    }
+  ]
+}

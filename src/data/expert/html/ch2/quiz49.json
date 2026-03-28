@@ -1,0 +1,94 @@
+{
+  "id": "quiz49",
+  "titre": "HTML Expert : Drag and Drop API",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel attribut rend un élément déplaçable ?",
+      "options": [
+        "draggable='true'",
+        "drop='enabled'",
+        "move='yes'",
+        "selectable='all'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'événement 'dragover' doit appeler preventDefault() pour autoriser le dépôt (drop) d'un élément.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'objet contenant les données transportées pendant le glissement est `event.data{{1}}`.",
+      "reponsesAttendues": [
+        "Transfer"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel de ces événements s'exécute sur l'élément que l'on déplace ?",
+      "options": [
+        "dragstart",
+        "dragenter",
+        "dragover",
+        "drop"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut glisser-déposer des fichiers depuis le bureau de l'ordinateur vers la page web.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment définir les données à transporter au début du glissement ?",
+      "options": [
+        "dataTransfer.setData('type', 'donnée')",
+        "data.store('donnée')",
+        "drag.value = 'donnée'",
+        "window.payload = 'donnée'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'événement déclenché lorsque l'élément quitte une zone de dépôt est `drag{{1}}`.",
+      "reponsesAttendues": [
+        "leave"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il est possible de personnaliser l'image fantôme qui suit la souris pendant le glissement.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Propriété indiquant l'effet visuel (copie, déplacement) lors du survol ?",
+      "options": [
+        "dropEffect",
+        "cursorStyle",
+        "dragType",
+        "moveAction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Drag and Drop API est parfaitement compatible avec les écrans tactiles nativement.",
+        "reponse": false
+    }
+  ]
+}

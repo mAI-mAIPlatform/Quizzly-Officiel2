@@ -1,0 +1,95 @@
+{
+  "id": "quiz25",
+  "titre": "Analyse de texte : Cicéron (Discours)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle le célèbre discours de Cicéron contre un conspirateur ?",
+      "options": [
+        "Les Catilinaires",
+        "Les Philippiques",
+        "Pro Milone",
+        "In Verrem"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Quousque tandem abutere, Catilina, patientia nostra ?' contient un futur (abutere).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'expression de Cicéron déplorant la corruption de son temps est 'O tempora, o `{{1}}` !'.",
+      "reponsesAttendues": [
+        "mores"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'exorde dans un discours cicéronien ?",
+      "options": [
+        "L'introduction visant à capter l'attention de l'auditoire",
+        "La conclusion",
+        "Le récit des faits",
+        "La réfutation des arguments adverses"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Cicéron utilise souvent la 'gradation' (climax) pour augmenter la force de ses arguments.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie la figure de rhétorique appelée 'Prétérition' ?",
+      "options": [
+        "Déclarer qu'on ne parlera pas d'une chose tout en le faisant",
+        "Répéter trois fois le même mot",
+        "Insulter l'adversaire",
+        "Crier très fort"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La partie du discours où l'orateur expose les faits s'appelle la `{{1}}`.",
+      "reponsesAttendues": [
+        "narration",
+        "narratio"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Cicéron a été exilé à cause de la manière dont il a géré la conjuration de Catilina.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'ethos pour un orateur ?",
+      "options": [
+        "L'image morale qu'il projette de lui-même pour paraître crédible",
+        "La preuve par la logique",
+        "L'appel aux émotions fortes",
+        "Le style d'habillement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Cicéron est considéré comme le créateur de la langue philosophique et oratoire latine classique.",
+      "reponse": true
+    }
+  ]
+}

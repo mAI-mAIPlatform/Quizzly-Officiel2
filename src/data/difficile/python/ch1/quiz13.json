@@ -1,0 +1,90 @@
+{
+  "id": "quiz13",
+  "titre": "Floats et Précision",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi 0.1 + 0.2 n'est pas exactement égal à 0.3 en Python ?",
+      "options": [
+        "À cause d'un bug de Python 3",
+        "À cause de la représentation binaire des nombres à virgule flottante (norme IEEE 754)",
+        "Parce que Python arrondit mal",
+        "C'est égal à 0.3"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le module 'decimal' permet d'avoir une précision arbitraire et exacte pour les calculs financiers.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour comparer deux floats 'proches', on utilise math.{{1}}(a, b).",
+      "reponsesAttendues": ["isclose"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que fait round(2.5) en Python 3 ?",
+      "options": [
+        "2",
+        "3",
+        "2.5",
+        "3.0"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "round() en Python 3 arrondit vers l'entier PAIR le plus proche en cas d'égalité (0.5).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment obtenir l'infini positif en Python ?",
+      "options": [
+        "float('inf')",
+        "math.inf",
+        "1 / 0",
+        "Les deux premières options"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le type {{1}} dans le module 'fractions' permet de travailler avec des rationnels exacts.",
+      "reponsesAttendues": ["Fraction"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "NaN (Not a Number) est égal à lui-même (NaN == NaN).",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que retourne math.ceil(2.1) ?",
+      "options": [
+        "2",
+        "3",
+        "2.0",
+        "3.0"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La précision des floats standards est de 64 bits.",
+      "reponse": true
+    }
+  ]
+}

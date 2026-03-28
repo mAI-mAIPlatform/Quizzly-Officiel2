@@ -1,0 +1,95 @@
+{
+  "id": "quiz24",
+  "titre": "Around Town (Shops and Places)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'le supermarché' ?",
+      "options": [
+        "supermarket",
+        "bakery",
+        "library",
+        "pharmacy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Bakery' est la boulangerie.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La bibliothèque se dit '{{1}}' (library).",
+      "reponsesAttendues": [
+        "library"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'church' ?",
+      "options": [
+        "Église",
+        "Mairie",
+        "École",
+        "Hôpital"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Hospital' s'écrit de la même façon en anglais et en français.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'le parc' ?",
+      "options": [
+        "park",
+        "garden",
+        "zoo",
+        "beach"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le cinéma se dit '{{1}}' (cinema / movie theater).",
+      "reponsesAttendues": [
+        "cinema",
+        "movie theater"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Post office' est le bureau de poste.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'bank' ?",
+      "options": [
+        "La banque",
+        "Le banc",
+        "La plage",
+        "Le bord"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": " 'Town hall' est la mairie.",
+      "reponse": true
+    }
+  ]
+}

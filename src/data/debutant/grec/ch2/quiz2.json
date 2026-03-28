@@ -1,0 +1,94 @@
+{
+  "id": "quiz2",
+  "titre": "L'Alphabet Grec : Les Consonnes (1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle lettre correspond au 'b' ?",
+      "options": [
+        "Bêta (β)",
+        "Delta (δ)",
+        "Zêta (ζ)",
+        "Thêta (θ)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Gamma (γ) se prononce toujours 'g' dur devant alpha.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La lettre {{1}} (δ) correspond au 'd'.",
+      "reponsesAttendues": [
+        "Delta"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment se prononce le Thêta (θ) ?",
+      "options": [
+        "Comme un 't' aspiré (ou 'th' anglais)",
+        "Comme un 's'",
+        "Comme un 'f'",
+        "Comme un 'm'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Zêta (ζ) se prononce 'dz'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle lettre correspond au 'k' ?",
+      "options": [
+        "Kappa (κ)",
+        "Lambda (λ)",
+        "Mü (μ)",
+        "Nü (ν)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le {{1}} (λ) correspond au 'l'.",
+      "reponsesAttendues": [
+        "Lambda"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Mü (μ) correspond au 'm' et le Nü (ν) au 'n'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle lettre ressemble à un 'v' mais est en fait un 'n' ?",
+      "options": [
+        "Nü (ν)",
+        "Upsilon (υ)",
+        "Psi (ψ)",
+        "Khî (χ)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Rho (ρ) se prononce comme un 'r'.",
+      "reponse": true
+    }
+  ]
+}

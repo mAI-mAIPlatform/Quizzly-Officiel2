@@ -1,0 +1,94 @@
+{
+  "id": "quiz11",
+  "titre": "Les Variables 'const' et l'Immuabilité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si on essaie de réassigner une variable 'const' ?",
+      "options": [
+        "Elle change de valeur sans problème",
+        "JavaScript génère une erreur (TypeError)",
+        "La valeur reste l'ancienne sans erreur",
+        "L'ordinateur s'éteint"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il est recommandé d'utiliser 'const' par défaut, sauf si la valeur doit changer.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une variable 'const' doit être {{1}} dès sa déclaration.",
+      "reponsesAttendues": [
+        "initialisée"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Peut-on déclarer une 'const' sans lui donner de valeur ?",
+      "options": [
+        "Oui",
+        "Non, c'est obligatoire",
+        "Seulement le mardi",
+        "Seulement si elle s'appelle 'test'"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation de 'const' aide à rendre le code plus prévisible.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lalquelle est une erreur de réassignation ?",
+      "options": [
+        "const x = 1; x = 2;",
+        "let x = 1; x = 2;",
+        "var x = 1; x = 2;",
+        "x = 2;"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Bien que la référence soit fixe, le {{1}} d'un objet déclaré avec 'const' peut parfois être modifié.",
+      "reponsesAttendues": [
+        "contenu"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut redéclarer une variable 'const' avec le même nom dans le même bloc.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser 'const' pour une URL d'API ?",
+      "options": [
+        "Parce qu'elle ne risque pas de changer pendant l'exécution",
+        "Parce que c'est plus joli",
+        "Pour gagner de la place",
+        "C'est interdit d'utiliser 'let'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "ES6 a introduit 'let' et 'const' pour corriger les problèmes de 'var'.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz17",
+  "titre": "Les Dents des Animaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment sont les dents d'un animal qui mange de l'herbe (comme le cheval) ?",
+      "options": [
+        "Longues et pointues (crocs)",
+        "Larges et plates pour broyer l'herbe",
+        "Il n'en a pas",
+        "Elles sont toutes petites"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le lion a de grandes canines (crocs) pour déchirer la viande.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les dents qui servent à couper s'appellent les {{1}}.",
+      "reponsesAttendues": [
+        "incisives"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel animal possède des dents qui poussent tout le temps car il ronge (un rongeur) ?",
+      "options": [
+        "Le chat",
+        "Le lapin",
+        "Le chien",
+        "L'oiseau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les oiseaux n'ont pas de dents, ils ont un bec.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment s'appellent les dents du fond qui servent à broyer ?",
+      "options": [
+        "Les canines",
+        "Les molaires",
+        "Les incisives",
+        "Les crocs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'animal qui a des dents adaptées à tout type de nourriture est {{1}}.",
+      "reponsesAttendues": [
+        "omnivore"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut deviner le régime alimentaire d'un crâne en regardant ses dents.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "De quoi se nourrit un carnivore ?",
+      "options": [
+        "D'herbe",
+        "De viande (chair animale)",
+        "De graines",
+        "De soleil"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Bien se brosser les dents est aussi important pour les humains (omnivores) !",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz5",
+  "titre": "Harmonie : La Modulation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une modulation en musique ?",
+      "options": [
+        "Le changement de tonalité au sein d'un morceau",
+        "Le changement de volume",
+        "Le changement d'instrument",
+        "La répétition d'un thème"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un accord pivot est un accord appartenant aux deux tonalités (l'ancienne et la nouvelle).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La modulation vers la dominante ajoute un `{{1}}` à l'armure (ou enlève un bémol).",
+      "reponsesAttendues": [
+        "dièse"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une tonulation (ou modulation passagère) ?",
+      "options": [
+        "Un changement bref sans affirmation réelle de la nouvelle tonique",
+        "Un changement de tempo",
+        "Une fausse note",
+        "Une fin de phrase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Moduler au ton de la sous-dominante éclaircit le discours musical.",
+      "reponse : false"
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quels sont les 'tons voisins' ?",
+      "options": [
+        "Relative, Dominante, Sous-dominante et leurs relatives",
+        "Toutes les tonalités majeures",
+        "Les tonalités à 5 altérations d'écart",
+        "Uniquement la relative mineure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le cycle des `{{1}}` permet de visualiser les relations entre les tons.",
+      "reponsesAttendues": [
+        "quintes"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La modulation enharmonique utilise des notes de même hauteur mais de noms différents.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment confirme-t-on une modulation ?",
+      "options": [
+        "Par une cadence parfaite dans la nouvelle tonalité",
+        "En jouant plus fort",
+        "En s'arrêtant de jouer",
+        "En changeant de clé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Une modulation directe sans transition est appelée modulation par accident ou brusque.",
+      "reponse": true
+    }
+  ]
+}

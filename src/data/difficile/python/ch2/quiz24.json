@@ -1,0 +1,90 @@
+{
+  "id": "quiz24",
+  "titre": "Logging : Journalisation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le niveau de logging par défaut ?",
+      "options": [
+        "DEBUG",
+        "INFO",
+        "WARNING",
+        "ERROR"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le niveau CRITICAL est plus grave que le niveau ERROR.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour configurer le logging de base (fichier, niveau), on utilise logging.{{1}}().",
+      "reponsesAttendues": ["basicConfig"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser le logging plutôt que print() ?",
+      "options": [
+        "C'est plus rapide",
+        "Cela permet de filtrer les messages par niveau et de les envoyer vers différents flux (fichier, console) sans changer le code",
+        "print() ne fonctionne pas en production",
+        "C'est plus sécurisé"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un 'Logger' peut avoir plusieurs 'Handlers' (ex: un pour le fichier, un pour l'écran).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment récupérer un logger nommé pour un module ?",
+      "options": [
+        "logging.getLogger(__name__)",
+        "logging.Logger()",
+        "logging.start()",
+        "new Logger()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Un {{1}} permet de personnaliser le format des messages (date, nom du module, message).",
+      "reponsesAttendues": ["Formatter"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut envoyer des logs par email avec un SMTPHandler.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel n'est pas un niveau de logging standard ?",
+      "options": [
+        "TRACE",
+        "DEBUG",
+        "INFO",
+        "VERBOSE"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le logging est thread-safe par défaut en Python.",
+      "reponse": true
+    }
+  ]
+}

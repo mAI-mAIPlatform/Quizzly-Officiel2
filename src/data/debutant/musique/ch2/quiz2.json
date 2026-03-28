@@ -1,0 +1,94 @@
+{
+  "id": "quiz2",
+  "titre": "Les Silences (Valeurs)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel silence correspond à la valeur d'une Ronde ?",
+      "options": [
+        "La Pause",
+        "La Demi-pause",
+        "Le Soupir",
+        "Le Demi-soupir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Pause se suspend sous la 4e ligne de la portée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le silence qui vaut 1 temps (comme la Noire) est le {{1}} (soupir).",
+      "reponsesAttendues": [
+        "soupir"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Combien de temps dure une Demi-pause ?",
+      "options": [
+        "2 temps",
+        "1 temps",
+        "4 temps",
+        "0,5 temps"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La Demi-pause est posée sur la 3e ligne de la portée.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel silence vaut la moitié d'un temps (comme la Croche) ?",
+      "options": [
+        "Le Demi-soupir",
+        "Le Soupir",
+        "La Demi-pause",
+        "Le Quart de soupir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le Quart de soupir vaut {{1}} temps (0,25).",
+      "reponsesAttendues": [
+        "0,25"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un Soupir dure aussi longtemps qu'une Noire.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est l'ordre décroissant correct ?",
+      "options": [
+        "Pause, Demi-pause, Soupir, Demi-soupir",
+        "Soupir, Pause, Demi-pause, Demi-soupir",
+        "Demi-pause, Pause, Soupir, Demi-soupir",
+        "Pause, Soupir, Demi-pause, Demi-soupir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le silence permet aux musiciens de respirer ou de marquer un arrêt.",
+      "reponse": true
+    }
+  ]
+}

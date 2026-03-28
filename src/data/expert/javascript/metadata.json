@@ -3,5 +3,26 @@
   "titre": "JavaScript",
   "niveau": "Expert",
   "description": "Découvre et maîtrise tout le programme de JavaScript au niveau Expert !",
-  "chapitres": []
+  "chapitres": [
+    {
+      "id": "ch1",
+      "titre": "Concepts Avancés de Langage",
+      "description": "Closures, Prototypes et ESNext."
+    },
+    {
+      "id": "ch2",
+      "titre": "Programmation Asynchrone et Performance",
+      "description": "Promises, Event Loop et Web Workers."
+    },
+    {
+      "id": "ch3",
+      "titre": "Architecture et Design Patterns",
+      "description": "Design Patterns et architecture logicielle."
+    },
+    {
+      "id": "ch4",
+      "titre": "Écosystème et Sécurité",
+      "description": "Modules, Bundling et Sécurité API."
+    }
+  ]
 }

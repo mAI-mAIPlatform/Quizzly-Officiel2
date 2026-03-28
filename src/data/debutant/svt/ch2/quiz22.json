@@ -1,0 +1,95 @@
+{
+  "id": "quiz22",
+  "titre": "L'Eau et l'Environnement",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Toute l'eau de la nature est-elle potable (bonne à boire) ?",
+      "options": [
+        "Oui, l'eau des rivières est pure",
+        "Non, elle peut contenir des bactéries ou des polluants",
+        "Seulement si elle est bleue",
+        "Seulement à la montagne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une station d'épuration sert à nettoyer les eaux usées avant de les rejeter dans la nature.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Polluer l'eau tue les {{1}} et les plantes aquatiques.",
+      "reponsesAttendues": [
+        "poissons",
+        "animaux"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "D'où vient l'eau de nos robinets ?",
+      "options": [
+        "De la mer directement",
+        "De nappes souterraines ou de rivières (traitée)",
+        "De la pluie collectée sur le toit",
+        "C'est un secret"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Gaspiller l'eau n'est pas grave car il y en a plein les océans.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel geste aide à ne pas polluer l'eau ?",
+      "options": [
+        "Jeter de l'huile dans l'évier",
+        "Utiliser des produits de nettoyage écologiques",
+        "Jeter des lingettes dans les toilettes",
+        "Rien du tout"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le {{1}} d'eau stocke l'eau potable pour la ville.",
+      "reponsesAttendues": [
+        "château"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'eau est une ressource précieuse.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que devient l'eau de pluie qui tombe en ville ?",
+      "options": [
+        "Elle est bue par les oiseaux",
+        "Elle va dans les égouts",
+        "Elle s'évapore instantanément",
+        "Elle reste sur les trottoirs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut aider en ramassant les déchets au bord de l'eau.",
+      "reponse": true
+    }
+  ]
+}

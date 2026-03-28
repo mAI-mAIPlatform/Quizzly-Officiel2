@@ -1,0 +1,95 @@
+{
+  "id": "quiz8",
+  "titre": "Forme Musicale : La Forme Sonate",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelles sont les trois grandes parties de la forme sonate classique (allegro de sonate) ?",
+      "options": [
+        "Exposition, Développement, Réexposition",
+        "Aria, Récitatif, Chorus",
+        "Introduction, Fugue, Final",
+        "Strophe, Antistrophe, Épode"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans l'exposition, le second thème est généralement au ton de la dominante (ou relatif).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La section de transition entre les deux thèmes est appelée le `{{1}}`.",
+      "reponsesAttendues": [
+        "pont",
+        "raccord"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est le but du Développement ?",
+      "options": [
+        "Transformer et triturer les motifs thématiques",
+        "Se reposer",
+        "Introduire un troisième thème",
+        "Faire un solo de percussion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Dans la réexposition, le second thème revient au ton de la tonique.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on la conclusion ajoutée à la fin de la réexposition ?",
+      "options": [
+        "La Coda",
+        "Le Prélude",
+        "L'Intermède",
+        "La Fin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le compositeur ayant porté la forme sonate à son apogée expressive est `{{1}}`.",
+      "reponsesAttendues": [
+        "Beethoven"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La forme sonate s'applique au premier mouvement des symphonies, quatuors et sonates.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'fausse réexposition' ?",
+      "options": [
+        "Retour du thème dans un mauvais ton juste avant le vrai retour",
+        "Une erreur du chef",
+        "Un oubli du compositeur",
+        "Une partie jouée faux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La forme sonate biméthodique est la structure de base du XVIIIe siècle.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz22",
+  "titre": "La Notation Rythmique (Avancée)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Combien de croches y a-t-il dans une Noire ?",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "1"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Quatre doubles-croches valent un temps (dans une mesure en 4/4).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le groupe de 3 notes jouées sur un temps s'appelle un {{1}} (triolet).",
+      "reponsesAttendues": [
+        "triolet"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie la barre de reprise ?",
+      "options": [
+        "Rejouer la section précédente",
+        "S'arrêter de jouer",
+        "Jouer plus fort",
+        "Changer de clé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une Noire égale 60 au métronome signifie un battement par seconde.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le déplacement des accents forts sur les temps faibles ?",
+      "options": [
+        "La syncope",
+        "Le legato",
+        "Le staccato",
+        "La nuance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'anacrouse est une note ou un groupe de notes qui précède le premier temps {{1}} (fort).",
+      "reponsesAttendues": [
+        "fort"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le tempo rubato permet de varier légèrement la vitesse pour l'expressivité.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la valeur la plus brève ?",
+      "options": [
+        "La triple-croche",
+        "La double-croche",
+        "La croche",
+        "La noire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La polyrythmie est le fait de jouer plusieurs rythmes différents en même temps.",
+      "reponse": true
+    }
+  ]
+}

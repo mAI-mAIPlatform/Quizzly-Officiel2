@@ -1,0 +1,94 @@
+{
+  "id": "quiz43",
+  "titre": "JS Expert : Intersection Observer API",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert Intersection Observer ?",
+      "options": [
+        "À détecter quand un élément entre ou sort de la zone visible (viewport)",
+        "À changer la couleur du texte",
+        "À faire des calculs mathématiques",
+        "À surveiller les clics de souris"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Intersection Observer est plus performant que d'écouter l'événement 'scroll'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'option permettant de définir une marge autour du viewport avant le déclenchement est `root{{1}}`.",
+      "reponsesAttendues": [
+        "Margin"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'threshold' (seuil) ?",
+      "options": [
+        "Le pourcentage de visibilité de l'élément requis pour déclencher la callback",
+        "Le temps d'attente",
+        "La vitesse du scroll",
+        "La taille de la police"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un seul observer peut surveiller plusieurs éléments cibles.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle propriété de l'entrée (entry) indique si l'élément est visible ?",
+      "options": [
+        "isIntersecting",
+        "isVisible",
+        "isEntry",
+        "isShown"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour arrêter de surveiller un élément précis, on utilise `observer.{{1}}(target)`.",
+      "reponsesAttendues": [
+        "unobserve"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'événement scroll s'exécute sur le thread principal, tandis que Intersection Observer est optimisé par le navigateur.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Cas d'usage typique de cette API ?",
+      "options": [
+        "Lazy loading d'images ou Infinite Scroll",
+        "Validation de formulaires",
+        "Tri de tableaux",
+        "Lecture de fichiers PDF"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'argument `root` peut être n'importe quel élément ancêtre ou `null` pour le viewport.",
+      "reponse": true
+    }
+  ]
+}

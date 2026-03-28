@@ -1,0 +1,90 @@
+{
+  "id": "quiz9",
+  "titre": "Mémoire et Structures (Heap vs Stack)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quelle structure de données les objets sont-ils stockés ?",
+      "options": [
+        "Stack (Pile)",
+        "Heap (Tas)",
+        "Queue (File)",
+        "Link List"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Stack est utilisée pour le stockage des variables primitives et des cadres d'exécution (contextes).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le passage d'un objet en argument de fonction se fait par {{1}} de la référence.",
+      "reponsesAttendues": ["copie"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'arrive-t-il à la Stack lors d'une récursion infinie ?",
+      "options": [
+        "Elle s'agrandit à l'infini",
+        "Elle cause un 'Stack Overflow'",
+        "JS bascule sur le Heap",
+        "Rien, JS gère ça automatiquement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Heap est une structure ordonnée et rapide d'accès par rapport à la Stack.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel est un type primitif stocké sur la Stack ?",
+      "options": [
+        "Array",
+        "Object",
+        "Symbol",
+        "Map"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La libération d'un objet dans le Heap se fait quand il n'est plus {{1}}.",
+      "reponsesAttendues": ["atteignable", "reachable"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "JavaScript est un langage à gestion de mémoire manuelle (comme le C).",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel type de données permet de garder une référence 'faible' vers un objet pour ne pas empêcher le GC ?",
+      "options": [
+        "StrongMap",
+        "WeakMap",
+        "HashMap",
+        "Collection"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les chaînes de caractères (Strings) sont immuables dès qu'elles sont créées.",
+      "reponse": true
+    }
+  ]
+}

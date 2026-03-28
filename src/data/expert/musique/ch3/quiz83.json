@@ -1,0 +1,96 @@
+{
+  "id": "quiz83",
+  "titre": "Musique Expert : Du Blues au Rock 'n' Roll",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel bluesman légendaire aurait 'vendu son âme au diable' à un carrefour ?",
+      "options": [
+        "Robert Johnson",
+        "Muddy Waters",
+        "B.B. King",
+        "Howlin' Wolf"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Blues est structuré traditionnellement sur 12 mesures.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Rhythm and Blues / R&B) est l'ancêtre direct du Rock 'n' Roll.",
+      "reponsesAttendues": [
+        "Rhythm and Blues",
+        "R&B"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui est surnommé le 'King' du Rock 'n' Roll ?",
+      "options": [
+        "Elvis Presley",
+        "Little Richard",
+        "Chuck Berry",
+        "Jerry Lee Lewis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Chuck Berry est l'auteur de 'Johnny B. Goode' et a défini le jeu de guitare rock.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel guitariste de Chicago a 'électrifié' le Blues ?",
+      "options": [
+        "Muddy Waters",
+        "Robert Cray",
+        "Buddy Guy",
+        "John Lee Hooker"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le studio `{{1}}` (Sun Records) à Memphis a découvert Elvis, Johnny Cash et Jerry Lee Lewis.",
+      "reponsesAttendues": [
+        "Sun Records",
+        "Sun"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Rock 'n' Roll est né d'un mélange de musique noire (R&B) et de musique blanche (Country/Folk).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle chanson de Bill Haley est souvent citée comme le premier grand succès rock ?",
+      "options": [
+        "Rock Around the Clock",
+        "Tutti Frutti",
+        "Blue Suede Shoes",
+        "Great Balls of Fire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Little Richard a marqué le rock par son jeu de piano sauvage et ses cris exubérants.",
+      "reponse": true
+    }
+  ]
+}

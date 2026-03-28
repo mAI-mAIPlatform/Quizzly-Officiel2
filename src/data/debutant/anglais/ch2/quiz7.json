@@ -1,1 +1,94 @@
-{"id":"quiz7","titre":"Present Simple: Negative","questions":[{"id":"q1","type":"qcm","enonce":"How do you say 'Je n'aime pas'?","options":["I not like","I don't like","I doesn't like","I no like"],"correctIndex":1},{"id":"q2","type":"vrai_faux","enonce":"For 'He', we use 'doesn't' for the negative.","reponse":true},{"id":"q3","type":"trous","enonce":"She {{1}} speak Spanish.","reponsesAttendues":["doesn't","does not"]},{"id":"q4","type":"relier","question":"Match the subject to the negative auxiliary.","pairs":[{"left":"I / You / We / They","right":"Don't"},{"left":"He / She / It","right":"Doesn't"}]},{"id":"q5","type":"qcm","enonce":"After 'doesn't', the verb...","options":["Takes an -S","Has no -S (base form)","Takes -ING","Takes -ED"],"correctIndex":1}]}
+{
+  "id": "quiz7",
+  "titre": "Clothes and Fashion",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'un t-shirt' ?",
+      "options": [
+        "a t-shirt",
+        "a shirt",
+        "a sweater",
+        "a jacket"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Pants' (US) ou 'trousers' (UK) signifie le pantalon.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La jupe se dit '{{1}}' (skirt).",
+      "reponsesAttendues": [
+        "skirt"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'shoes' ?",
+      "options": [
+        "Chaussures",
+        "Chaussettes",
+        "Gants",
+        "Chapeaux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Dress' signifie une robe.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'le chapeau' ?",
+      "options": [
+        "hat",
+        "cap",
+        "scarf",
+        "belt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le manteau se dit '{{1}}' (coat).",
+      "reponsesAttendues": [
+        "coat"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'To wear' signifie porter (un vêtement).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'I am wearing a blue jacket' ?",
+      "options": [
+        "Je porte une veste bleue",
+        "J'achète une veste bleue",
+        "Je cherche une veste bleue",
+        "Je lave une veste bleue"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": " 'Socks' signifie chaussettes.",
+      "reponse": true
+    }
+  ]
+}

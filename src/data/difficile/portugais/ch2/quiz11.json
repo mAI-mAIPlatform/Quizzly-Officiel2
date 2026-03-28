@@ -1,0 +1,90 @@
+{
+  "id": "quiz11",
+  "titre": "Modernisme : Orpheu",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle revue marque le début du Modernisme au Portugal en 1915 ?",
+      "options": [
+        "Orpheu",
+        "Presença",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La revue Orpheu a fait scandale à l'époque par son audace formelle et ses thèmes provocateurs.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les deux piliers de la génération Orpheu sont Fernando Pessoa et Mário de {{1}}.",
+      "reponsesAttendues": ["Sá-Carneiro"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel était le but du Modernisme portugais ?",
+      "options": [
+        "Mettre le Portugal au diapason des avant-gardes européennes (futurisme, cubisme)",
+        "Retourner à la monarchie",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Seuls deux numéros de la revue Orpheu ont été publiés.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle revue a succédé au Modernisme de 'Orpheu' dans les années 20 ?",
+      "options": [
+        "Presença",
+        "Cadernos de Poesia",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le cri de guerre du futurisme portugais est l''{{1}}' d'Almada Negreiros.",
+      "reponsesAttendues": ["Manifesto Anti-Dantas"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Modernisme a totalement rejeté l'héritage de Camões.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel peintre moderniste a illustré la revue Orpheu ?",
+      "options": [
+        "Santa-Rita Pintor",
+        "Paula Rego",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La génération d'Orpheu est l'un des moments les plus brillants de l'histoire intellectuelle portugaise.",
+      "reponse": true
+    }
+  ]
+}

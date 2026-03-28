@@ -1,0 +1,95 @@
+{
+  "id": "quiz77",
+  "titre": "Italien Expert : Le Néoréalisme Cinématographique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel film de Roberto Rossellini (1945) marque le début du Néoréalisme en montrant la résistance à Rome ?",
+      "options": [
+        "Rome, ville ouverte",
+        "Le Voleur de bicyclette",
+        "Païsa",
+        "La Terre tremble"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Néoréalisme se caractérise par des tournages en décors réels et l'utilisation fréquente d'acteurs non-professionnels.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Vittorio De Sica) a réalisé 'Le Voleur de bicyclette', chef-d'œuvre humaniste du mouvement.",
+      "reponsesAttendues": [
+        "Vittorio De Sica"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui était le scénariste phare du Néoréalisme, théoricien de la 'caméra stylo' et du contact direct avec la réalité ?",
+      "options": [
+        "Cesare Zavattini",
+        "Federico Fellini",
+        "Pier Paolo Pasolini",
+        "Luchino Visconti"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Luchino Visconti a filmé la condition des pêcheurs siciliens dans 'La Terre tremble'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel studio romain, fondé en 1937, est le cœur de l'industrie cinématographique italienne ?",
+      "options": [
+        "Cinecittà",
+        "Pinewood",
+        "Gaumont",
+        "Universal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le film `{{1}}` (Riz amer) de Giuseppe De Santis mélange néoréalisme et mélodrame populaire.",
+      "reponsesAttendues": [
+        "Riz amer",
+        "Riso amaro"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Néoréalisme a eu une influence mondiale, notamment sur la Nouvelle Vague française.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle actrice emblématique a été révélée par 'Rome, ville ouverte' ?",
+      "options": [
+        "Anna Magnani",
+        "Sophia Loren",
+        "Gina Lollobrigida",
+        "Monica Vitti"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le mouvement s'éteint au début des années 1950 avec l'amélioration de la situation économique.",
+      "reponse": true
+    }
+  ]
+}

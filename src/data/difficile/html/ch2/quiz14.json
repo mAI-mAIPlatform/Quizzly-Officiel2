@@ -1,0 +1,90 @@
+{
+  "id": "quiz14",
+  "titre": "Dates et Heures",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel type d'input choisir pour une date et une heure précises ?",
+      "options": [
+        "type=\"datetime-local\"",
+        "type=\"datetime\"",
+        "type=\"date\"",
+        "type=\"time\""
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'input type=\"month\" permet de sélectionner uniquement un mois et une année.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'input type=\"{{1}}\" permet de sélectionner un numéro de semaine dans l'année.",
+      "reponsesAttendues": ["week"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est le format de la valeur retournée par type=\"date\" ?",
+      "options": [
+        "AAAA-MM-JJ (ISO 8601)",
+        "JJ/MM/AAAA",
+        "MM-JJ-AAAA",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser les attributs 'min' et 'max' pour restreindre les dates sélectionnables.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Avantage des inputs date natifs ?",
+      "options": [
+        "Ouvrent un calendrier adapté selon l'OS (ex: iOS/Android)",
+        "Sont plus beaux",
+        "Vont plus vite",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'input type=\"{{1}}\" permet de choisir une heure (HH:MM).",
+      "reponsesAttendues": ["time"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'step' sur un time définit l'intervalle en secondes.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il sur un vieux navigateur ne supportant pas type=\"date\" ?",
+      "options": [
+        "Il redevient un simple type=\"text\"",
+        "Il explose",
+        "Rien ne s'affiche",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Maîtriser ces types évite l'utilisation de lourdes bibliothèques JS de Datepicker.",
+      "reponse": true
+    }
+  ]
+}

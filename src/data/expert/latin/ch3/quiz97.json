@@ -1,0 +1,94 @@
+{
+  "id": "quiz97",
+  "titre": "Latin Expert : Satire et Roman (Pétrone, Juvénal)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel ouvrage de Pétrone est considéré comme le premier 'roman' en prose et vers de la littérature latine ?",
+      "options": [
+        "Le Satyricon",
+        "L'Âne d'Or",
+        "Les Satires",
+        "Les Épigrammes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Juvénal est célèbre pour ses satires virulentes dénonçant les vices de la société romaine.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Festin de Trimalcion) est l'épisode le plus célèbre du Satyricon, décrivant un banquet vulgaire et colossal.",
+      "reponsesAttendues": [
+        "Festin de Trimalcion"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle expression célèbre de Juvénal définit les seuls soucis du peuple romain décadent ?",
+      "options": [
+        "Panem et circenses (Du pain et des jeux)",
+        "In vino veritas",
+        "Mens sana in corpore sano",
+        "Nunc est bibendum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Martial est le maître de l'épigramme, petit poème bref et souvent satirique ou moqueur.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel auteur a écrit 'L'Âne d'Or' (ou Métamorphoses), narrant les aventures de Lucius transformé en âne ?",
+      "options": [
+        "Apulée",
+        "Pétrone",
+        "Lucien",
+        "Suétone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Juvénal est l'auteur de la célèbre maxime : '`{{1}}`' (Mens sana in corpore sano).",
+      "reponsesAttendues": [
+        "Mens sana in corpore sano"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Satyricon est une parodie des épopées classiques et des romans d'amour grecs.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel était le surnom de Pétrone à la cour de Néron ?",
+      "options": [
+        "Arbiter elegantiae (Arbitre de l'élégance)",
+        "Le fou du roi",
+        "Le poète lauréat",
+        "Le censeur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La satire est un genre littéraire considéré comme purement romain (Satura tota nostra est).",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz26",
+  "titre": "Pronoms Personnels et Réfléchis",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le pronom de la 1ère personne du singulier au nominatif ?",
+      "options": [
+        "ἐγώ",
+        "σύ",
+        "αὐτός",
+        "ἡμεῖς"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le pronom de la 2ème personne du pluriel est ὑμεῖς.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le génitif de 'ἐγώ' (moi) est 'ἐμοῦ' ou la forme enclitique '{{1}}'.",
+      "reponsesAttendues": [
+        "μου"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment forme-t-on le pronom réfléchi de la 3ème personne ('lui-même') ?",
+      "options": [
+        "En combinant le radical du pronom personnel et αὐτός (ex: ἑαυτοῦ)",
+        "On utilise simplement αὐτός",
+        "Il n'existe pas en grec ancien",
+        "On utilise le pronom relatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le pronom réfléchi possède une forme au nominatif.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'ἡμεῖς αὐτοί' ?",
+      "options": [
+        "Nous-mêmes",
+        "Eux-mêmes",
+        "Toi-même",
+        "Les mêmes hommes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le pronom de rappel (3ème personne, non réfléchi) au génitif, datif et accusatif est {{1}}.",
+      "reponsesAttendues": [
+        "αὐτός"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le pronom personnel sujet n'est exprimé que pour insister (emphase).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la forme de l'accusatif de 'σύ' (toi) ?",
+      "options": [
+        "σέ (ou σε)",
+        "σου",
+        "σοί",
+        "σέθεν"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'accentuation des pronoms enclitiques dépend du mot qui les précède.",
+      "reponse": true
+    }
+  ]
+}

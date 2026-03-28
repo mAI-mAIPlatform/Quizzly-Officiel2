@@ -3,5 +3,30 @@
   "titre": "HTML",
   "niveau": "Entraînement",
   "description": "Découvre et maîtrise tout le programme de HTML au niveau Entraînement !",
-  "chapitres": []
+  "chapitres": [
+    {
+      "id": "ch1",
+      "titre": "Découverte du Web",
+      "lecons": ["Qu'est-ce que le HTML ?", "Ma première page", "Éditeurs de code"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch2",
+      "titre": "Texte et Liens",
+      "lecons": ["Titres et Paragraphes", "Listes à puces", "Liens hypertextes"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch3",
+      "titre": "Images et Tableaux",
+      "lecons": ["Insérer des images", "Attributs Alt", "Tableaux simples"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch4",
+      "titre": "Structure Globale",
+      "lecons": ["Head et Body", "Meta tags simples", "Validation W3C"],
+      "quizCount": 30
+    }
+  ]
 }

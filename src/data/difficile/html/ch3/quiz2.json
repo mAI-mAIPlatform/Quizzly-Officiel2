@@ -1,0 +1,90 @@
+{
+  "id": "quiz2",
+  "titre": "Optimisation du Title",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la longueur recommandée pour une balise <title> afin d'éviter d'être coupée dans la SERP ?",
+      "options": [
+        "Entre 50 et 60 caractères",
+        "Plus de 100 caractères",
+        "Exactement 10 mots",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il est préférable de placer le mot-clé principal au début du titre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Chaque page d'un site doit posséder une balise <title> {{1}}.",
+      "reponsesAttendues": ["unique"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si votre titre est jugé non pertinent par Google ?",
+      "options": [
+        "Google peut le récrire dynamiquement dans la SERP pour l'utilisateur",
+        "La page est supprimée",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Inclure le nom de la marque à la fin du titre est une pratique courante.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel symbole est souvent utilisé comme séparateur dans les titres ?",
+      "options": [
+        "| (pipe) ou - (tiret)",
+        "@ (arobase)",
+        "§ (paragraphe)",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le titre d'une page est l'élément le plus important du SEO {{1}} (On-page).",
+      "reponsesAttendues": ["interne", "on-page"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un titre identique au h1 de la page est une mauvaise pratique.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Le titre s'affiche :",
+      "options": [
+        "Dans l'onglet du navigateur et dans les résultats de recherche",
+        "Dans le corps de la page",
+        "En bas du site",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le titre impacte directement le taux de clic (CTR).",
+      "reponse": true
+    }
+  ]
+}

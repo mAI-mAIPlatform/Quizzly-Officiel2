@@ -1,0 +1,94 @@
+{
+  "id": "quiz28",
+  "titre": "Pronoms Relatifs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le pronom relatif simple au masculin singulier ?",
+      "options": [
+        "ὅς",
+        "ὁ",
+        "τίς",
+        "ὅστις"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le relatif simple possède un esprit rude et un accent sur toutes ses formes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le relatif s'accorde en genre et en nombre avec son {{1}}.",
+      "reponsesAttendues": [
+        "antécédent"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Le cas du pronom relatif est déterminé par :",
+      "options": [
+        "Sa fonction dans la proposition relative",
+        "Le cas de l'antécédent",
+        "Le temps du verbe",
+        "Il est toujours au nominatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'attraction du relatif est un phénomène où le relatif prend le cas de son antécédent (souvent au génitif ou datif).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le relatif indéfini 'ὅστις' ?",
+      "options": [
+        "Quiconque / celui qui (généralité)",
+        "Un relatif qui n'a pas d'antécédent",
+        "Un relatif utilisé uniquement au neutre",
+        "Une forme archaïque"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le pronom relatif 'ὅς' au neutre singulier est {{1}}.",
+      "reponsesAttendues": [
+        "ὅ"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les formes du génitif et du datif de 'ὅς' sont identiques à celles de l'article (avec esprit rude).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment traduit-on 'ἐν ᾧ' en début de phrase ?",
+      "options": [
+        "Pendant que / Tandis que",
+        "Dans lequel",
+        "A cause de quoi",
+        "Où"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le relatif peut être utilisé en début de phrase comme liaison (relatif de liaison).",
+      "reponse": true
+    }
+  ]
+}

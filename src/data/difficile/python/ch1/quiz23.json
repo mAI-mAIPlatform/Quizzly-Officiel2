@@ -1,0 +1,90 @@
+{
+  "id": "quiz23",
+  "titre": "Itertools : Part 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle fonction de itertools permet de répéter un élément indéfiniment ?",
+      "options": [
+        "repeat()",
+        "cycle()",
+        "count()",
+        "infinite()"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "itertools.chain('ABC', 'DEF') produit un itérateur qui retourne 'A', 'B', 'C', 'D', 'E', 'F'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La fonction {{1}}() permet de faire un slicing sur un itérateur sans le transformer en liste.",
+      "reponsesAttendues": ["islice"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que fait itertools.count(10, 2) ?",
+      "options": [
+        "Compte de 0 à 10",
+        "Génère une séquence infinie commençant à 10 avec un pas de 2",
+        "Trie 10 nombres",
+        "Divise par 2"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les fonctions du module itertools consomment beaucoup de mémoire car elles génèrent des listes.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle fonction permet de grouper des éléments consécutifs identiques ?",
+      "options": [
+        "group()",
+        "groupby()",
+        "sort()",
+        "zip()"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La fonction {{1}}(it, n) du module 'itertools' duplique un itérateur en n itérateurs indépendants.",
+      "reponsesAttendues": ["tee"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "accumulate([1, 2, 3]) produit les sommes cumulées [1, 3, 6].",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quand utiliser itertools ?",
+      "options": [
+        "Pour manipuler de grands flux de données (streams) de manière efficace",
+        "Pour faire des interfaces graphiques",
+        "Pour remplacer le CSS",
+        "C'est inutile"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les itérateurs itertools sont 'lazy' (paresseux).",
+      "reponse": true
+    }
+  ]
+}

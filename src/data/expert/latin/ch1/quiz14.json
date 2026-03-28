@@ -1,0 +1,94 @@
+{
+  "id": "quiz14",
+  "titre": "Grammaire : Emplois de l'Infinitif",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'infinitif de narration ?",
+      "options": [
+        "Un infinitif présent remplaçant l'imparfait de l'indicatif pour la rapidité du récit",
+        "Un infinitif utilisé pour raconter des fables",
+        "Un infinitif futur",
+        "Une forme poétique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'infinitif peut être le sujet d'un verbe impersonnel (ex: Errare humanum est).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'infinitif de narration est toujours au temps `{{1}}` (morphologiquement).",
+      "reponsesAttendues": [
+        "présent"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel cas est le sujet d'un infinitif de narration ?",
+      "options": [
+        "Nominatif",
+        "Accusatif",
+        "Ablatif",
+        "Génitif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'infinitif historique et l'infinitif de narration désignent la même chose.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel auteur utilise très fréquemment l'infinitif de narration pour son style nerveux ?",
+      "options": [
+        "Salluste",
+        "Cicéron",
+        "Sénèque",
+        "Virgile"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'infinitif d'exclamation (ex: Te sic loqui!) a son sujet à l'{{1}}.",
+      "reponsesAttendues": [
+        "accusatif"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'infinitif futur passif se forme avec le supin en -um + 'iri'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que devient l'infinitif présent de 'esse' ?",
+      "options": [
+        "esse",
+        "fuisse",
+        "fore",
+        "sim"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Fore (ou futurum esse) peut remplacer l'infinitif futur.",
+      "reponse": true
+    }
+  ]
+}

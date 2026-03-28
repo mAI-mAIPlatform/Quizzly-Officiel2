@@ -1,0 +1,94 @@
+{
+  "id": "quiz58",
+  "titre": "JS Expert : Micro-frontends",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est l'idée principale des Micro-frontends ?",
+      "options": [
+        "Découper une application frontend en petits morceaux indépendants développés par différentes équipes",
+        "Utiliser uniquement des écrans de moins de 5 pouces",
+        "Supprimer le CSS de l'application",
+        "Faire tout le JS dans un seul fichier de 10Mo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Chaque micro-frontend peut techniquement utiliser un framework différent (React, Vue, Angular).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La technologie Webpack permettant de partager des dépendances et du code entre bundles à l'exécution est le Module `{{1}}`.",
+      "reponsesAttendues": [
+        "Federation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est le risque majeur des architectures micro-frontends ?",
+      "options": [
+        "Le surpoids des bundles et la complexité de l'orchestration",
+        "Le manque de couleurs",
+        "L'obligation d'utiliser Node.js",
+        "On ne peut plus faire de formulaires"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le 'Shell' ou 'App Container' est le composant parent qui charge les micro-frontends.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment faire communiquer deux micro-frontends isolés ?",
+      "options": [
+        "Via un Event Bus global, l'URL ou le LocalStorage",
+        "En criant dans le micro",
+        "C'est impossible par design",
+        "Uniquement via le serveur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'encapsulation du CSS d'un micro-frontend peut être facilitée par le `{{1}}` DOM.",
+      "reponsesAttendues": [
+        "Shadow"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Single-spa est un framework populaire pour orchestrer des micro-frontends.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'Islands Architecture' (Astro) ?",
+      "options": [
+        "Des composants interactifs isolés au milieu de HTML statique",
+        "Une application pour agence de voyage",
+        "Un site hébergé sur une île",
+        "Une base de données géolocalisée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les micro-frontends sont recommandés pour les petites applications simples.",
+      "reponse": false
+    }
+  ]
+}

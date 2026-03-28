@@ -1,0 +1,90 @@
+{
+  "id": "quiz4",
+  "titre": "Expansion Maritime",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est surnommé 'Le Navigateur', moteur de l'expansion maritime portugaise ?",
+      "options": [
+        "Infante Dom Henrique",
+        "Vasco da Gama",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'école navale mythique de Sagres a centralisé les connaissances cartographiques et astronomiques.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le passage du Cap {{1}} (Bo jador) en 1434 par Gil Eanes fut un tournant psychologique majeur.",
+      "reponsesAttendues": ["Bojador"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel navire, léger et maniable, fut l'outil principal des découvertes ?",
+      "options": [
+        "Caravela (Caravelle)",
+        "Nau",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Portugal cherchait une route vers l'Inde pour contourner le monopole musulman et vénitien sur le commerce des épices.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "En quelle année Vasco da Gama arrive-t-il à Calicut en Inde ?",
+      "options": [
+        "1498",
+        "1492",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Bartolomeu Dias fut le premier à doubler le Cap de {{1}} (Boa Esperança) en 1488.",
+      "reponsesAttendues": ["Bonne-Espérance", "Boa Esperança"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Portugal visait uniquement le commerce et non la diffusion du christianisme.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel était le rôle de la 'Casa da Índia' à Lisbonne ?",
+      "options": [
+        "Gérer le monopole royal sur le commerce outre-mer",
+        "Un musée des épices",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'expansion maritime a fait de Lisbonne la capitale commerciale de l'Europe au XVIe siècle.",
+      "reponse": true
+    }
+  ]
+}

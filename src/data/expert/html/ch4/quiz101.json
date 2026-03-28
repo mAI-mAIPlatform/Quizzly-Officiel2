@@ -1,0 +1,94 @@
+{
+  "id": "quiz101",
+  "titre": "HTML Expert : WebComponents et Custom Elements",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet de définir un nouvel élément HTML personnalisé dans le registre du navigateur ?",
+      "options": [
+        "customElements.define()",
+        "document.createElement()",
+        "window.registerElement()",
+        "html.setCustom()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le nom d'un Custom Element doit obligatoirement comporter au moins un trait d'union (ex: my-element).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Shadow DOM) permet d'encapsuler le style et le balisage d'un composant pour qu'ils soient isolés du reste de la page.",
+      "reponsesAttendues": [
+        "Shadow DOM"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle callback de cycle de vie est appelée lorsqu'un Custom Element est ajouté au document pour la première fois ?",
+      "options": [
+        "connectedCallback",
+        "disconnectedCallback",
+        "attributeChangedCallback",
+        "adoptedCallback"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un élément 'Shadow Root' en mode 'closed' n'est pas accessible via l'API JavaScript externe (via shadowRoot).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on les éléments qui héritent de balises HTML standard (ex: <button is='my-button'>) ?",
+      "options": [
+        "Customized Built-in Elements",
+        "Autonomous Custom Elements",
+        "Shadow Elements",
+        "Slot Elements"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La méthode `{{1}}` (attachShadow) est utilisée sur un élément pour lui ajouter une racine d'ombre (shadow root).",
+      "reponsesAttendues": [
+        "attachShadow"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Shadow DOM empêche les styles CSS globaux de 'fuiter' à l'intérieur du composant.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle propriété de 'attachShadow' permet de laisser l'accès au shadow root via '.shadowRoot' ?",
+      "options": [
+        "mode: 'open'",
+        "mode: 'closed'",
+        "access: true",
+        "type: 'public'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les Custom Elements ne peuvent être créés qu'en étendant la classe 'HTMLElement'.",
+      "reponse": true
+    }
+  ]
+}

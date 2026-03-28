@@ -1,0 +1,94 @@
+{
+  "id": "quiz13",
+  "titre": "Gramática : Coletivos e Plurais Compostos",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qual é o coletivo de 'peixes' ?",
+      "options": [
+        "cardume",
+        "enxame",
+        "alcateia",
+        "rebanho"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "No plural de substantivos compostos (Subst + Subst), ambos vão para o plural se houver relação de coordenação (ex: couves-flores).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O plural de 'guarda-chuva' é `{{1}}`.",
+      "reponsesAttendues": [
+        "guarda-chuvas"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qual é o plural de 'segunda-feira' ?",
+      "options": [
+        "segundas-feiras",
+        "segunda-feiras",
+        "segundos-feiras",
+        "segundas-feira"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Verbos em substantivos compostos nunca vão para o plural (ex: beija-flores).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qual é o coletivo de 'leis' ?",
+      "options": [
+        "código",
+        "elenco",
+        "atlas",
+        "cancioneiro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "O plural de 'abaixo-assinado' é `{{1}}`.",
+      "reponsesAttendues": [
+        "abaixo-assinados"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "O plural de 'público-alvo' pode ser 'públicos-alvo' ou 'públicos-alvos'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qual é o coletivo de 'lobos' ?",
+      "options": [
+        "alcateia",
+        "matilha",
+        "bando",
+        "fato"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Em compostos ligados por preposição, apenas o primeiro elemento vai para o plural (ex: pés de moleque).",
+      "reponse": true
+    }
+  ]
+}

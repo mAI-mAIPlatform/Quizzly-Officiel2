@@ -1,0 +1,94 @@
+{
+  "id": "quiz10",
+  "titre": "Révision des Bases : Chapitre 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces formes est la 3e personne du pluriel ?",
+      "options": [
+        "parlano",
+        "parlate",
+        "parliamo",
+        "parla"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'article pour 'scuola' est 'la'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'article pluriel pour 'libri' est '{{1}}' (i).",
+      "reponsesAttendues": [
+        "i"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'una brutta sedia' ?",
+      "options": [
+        "Une vilaine chaise",
+        "Une belle chaise",
+        "Une grande chaise",
+        "Une petite chaise"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Io mangio' signifie 'je mange'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'les bières' ?",
+      "options": [
+        "le birre",
+        "li birre",
+        "i birre",
+        "la birre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": " 'Il caffe' est une {{1}} (bevanda).",
+      "reponsesAttendues": [
+        "bevanda"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Studiamo molto' signifie 'Nous étudions beaucoup'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Le salon est grand'.",
+      "options": [
+        "Il salotto è grande",
+        "Il salotto sono grande",
+        "La salotto è grande",
+        "Il salotto è piccolo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Bravo ! Tu as fini la première partie du chapitre 2 !",
+      "reponse": true
+    }
+  ]
+}

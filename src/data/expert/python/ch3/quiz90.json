@@ -1,0 +1,96 @@
+{
+  "id": "quiz90",
+  "titre": "Revisione : Python Moderno (Capitolo 3 - Python Expert)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Instruction match/case (3.10) ?",
+      "options": [
+        "Pattern Matching",
+        "Switch Standard",
+        "If-Condition",
+        "Loop structure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "TypedDict = Clés de dictionnaire typées.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Condition dans un case : un `{{1}}`.",
+      "reponsesAttendues": [
+        "guard",
+        "garde"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Standard de configuration moderne ?",
+      "options": [
+        "pyproject.toml",
+        "setup.py",
+        "pip.ini",
+        "python.json"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "hashlib = SHA-256.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Alternative sûre à eval() ?",
+      "options": [
+        "ast.literal_eval",
+        "pickle.load",
+        "os.system",
+        "input()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Format de distribution binaire : `{{1}}`.",
+      "reponsesAttendues": [
+        "Wheel",
+        "whl"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Protocol = Typage structurel.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Module de profilage standard ?",
+      "options": [
+        "cProfile",
+        "timeit",
+        "threading",
+        "asyncio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le typage statique remplace les tests unitaires.",
+      "reponse": false
+    }
+  ]
+}

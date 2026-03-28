@@ -1,0 +1,90 @@
+{
+  "id": "quiz2",
+  "titre": "Législateurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces législateurs est célèbre pour la sévérité de ses lois à Athènes ?",
+      "options": [
+        "Dracon",
+        "Solon",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Solon a aboli l'esclavage pour dettes (Seisachtheia) en 594 av. J.-C.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Solon a divisé la population en quatre classes basées sur la {{1}} (impôt foncier).",
+      "reponsesAttendues": ["richesse", "fortune"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel était le but des réformes de Solon ?",
+      "options": [
+        "Apaiser les tensions sociales (Stasis) entre riches et pauvres",
+        "Instaurer une dictature militaire",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Dracon a été le premier à mettre les lois par écrit à Athènes.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une loi 'draconienne' ?",
+      "options": [
+        "Une loi d'une extrême sévérité",
+        "Une loi sur les dragons",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Solon est considéré comme l'un des Sept {{1}} de la Grèce.",
+      "reponsesAttendues": ["Sages"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les réformes de Solon ont immédiatement instauré la démocratie radicale.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle classe de citoyens créée par Solon est la plus riche ?",
+      "options": [
+        "Les Pentacosiomédimnes",
+        "Les Thètes",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le passage de la coutume orale à la loi écrite est une étape cruciale vers l'égalité (isonomie).",
+      "reponse": true
+    }
+  ]
+}

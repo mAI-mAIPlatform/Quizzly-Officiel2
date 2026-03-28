@@ -1,0 +1,94 @@
+{
+  "id": "quiz20",
+  "titre": "Champs Privés (#)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel préfixe rend une propriété de classe réellement privée en JavaScript moderne ?",
+      "options": [
+        "# (dièse)",
+        "_ (underscore)",
+        "private",
+        "$"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une propriété privée est accessible depuis l'extérieur de la classe via le crochet obj['#prop'].",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les champs privés doivent être déclarés au début de la {{1}} avant d'être utilisés.",
+      "reponsesAttendues": [
+        "classe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'arrive-t-il si on tente d'accéder à un champ privé depuis une sous-classe (héritage) ?",
+      "options": [
+        "Une SyntaxError (ils ne sont pas hérités/accessibles)",
+        "Cela fonctionne normalement",
+        "On obtient undefined",
+        "On peut via super.#prop"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut également définir des méthodes privées avec le préfixe #.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Pourquoi Microsoft a-t-il poussé 'private' dans TypeScript au lieu de # ?",
+      "options": [
+        "Historique (TypeScript existait avant le standard #)",
+        "C'est plus rapide",
+        "C'est plus sécurisé",
+        "TypeScript n'aime pas les symboles"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le concept de {{1}} est renforcé par l'utilisation de champs privés.",
+      "reponsesAttendues": [
+        "encapsulation"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser # dans un constructeur sans l'avoir déclaré au préalable.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment vérifier si une propriété privée existe dans un objet sans lancer d'erreur ?",
+      "options": [
+        "L'opérateur 'in' (#prop in obj)",
+        "try...catch",
+        "obj.hasOwnProperty('#prop')",
+        "C'est impossible"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les champs privés sont une fonctionnalité introduite dans ES2022.",
+      "reponse": true
+    }
+  ]
+}

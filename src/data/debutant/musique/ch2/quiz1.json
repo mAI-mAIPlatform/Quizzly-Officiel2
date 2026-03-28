@@ -1,0 +1,94 @@
+{
+  "id": "quiz1",
+  "titre": "La Clé de Fa (Introduction)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert principalement la Clé de Fa ?",
+      "options": [
+        "À lire les notes graves",
+        "À lire les notes aiguës",
+        "À remplacer la Clé de Sol",
+        "À lire le rythme uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Clé de Fa commence sur la 4e ligne de la portée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La note située sur la 4e ligne en Clé de Fa est le {{1}} (Fa).",
+      "reponsesAttendues": [
+        "Fa"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle note se trouve juste au-dessus du Fa (4e ligne) en Clé de Fa ?",
+      "options": [
+        "Sol",
+        "Mi",
+        "La",
+        "Ré"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Do central se situe au-dessus de la portée en Clé de Fa.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle note se trouve dans le 3e interligne en Clé de Fa ?",
+      "options": [
+        "Mi",
+        "Sol",
+        "La",
+        "Do"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La note sous la portée en Clé de Fa est le {{1}} (Fa).",
+      "reponsesAttendues": [
+        "Fa"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La Clé de Fa est utilisée par le violoncelle et la contrebasse.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Où se trouve le 'La' en Clé de Fa ?",
+      "options": [
+        "5e ligne",
+        "1er interligne",
+        "2e interligne",
+        "4e ligne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La lecture en Clé de Fa est indispensable pour les pianistes (main gauche).",
+      "reponse": true
+    }
+  ]
+}

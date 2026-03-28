@@ -1,0 +1,90 @@
+{
+  "id": "quiz19",
+  "titre": "Tacite",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelles sont les deux grandes œuvres historiques de Tacite ?",
+      "options": [
+        "Les Annales et les Histoires",
+        "L'Énéide et les Bucoliques",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Tacite écrit avec une profonde méfiance envers le pouvoir impérial.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Son style est connu pour sa {{1}} (brièveté) et sa force psychologique.",
+      "reponsesAttendues": ["concision", "brièveté"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Il affirme écrire :",
+      "options": [
+        "Sine ira et studio (Sans haine et sans faveur)",
+        "Pour l'argent",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Tacite a écrit une monographie sur la vie de son beau-père, Agricola.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Sujet de la 'Germanie' ?",
+      "options": [
+        "Les mœurs des peuples germains (vrais emblèmes de vertu face à Rome corrompue)",
+        "La guerre des Gaules",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les {{1}} retracent l'histoire de Rome de la mort d'Auguste à Néron.",
+      "reponsesAttendues": ["Annales"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Tacite est considéré comme l'un des plus grands stylistes de la prose latine.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Vision politique de Tacite ?",
+      "options": [
+        "Nostalgie de la Liberté républicaine, mais acceptation du Principat comme nécessaire",
+        "Soutien total à la tyrannie",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Sa description de Néron a figé l'image du tyran fou dans l'histoire.",
+      "reponse": true
+    }
+  ]
+}

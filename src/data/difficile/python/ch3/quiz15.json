@@ -1,0 +1,90 @@
+{
+  "id": "quiz15",
+  "titre": "Singleton Pattern",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le but d'un Singleton ?",
+      "options": [
+        "Avoir un seul fichier",
+        "Garantir qu'une classe n'a qu'une seule instance et fournir un point d'accès global",
+        "Trier une liste",
+        "Crypter des données"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une façon simple de faire un Singleton en Python est d'utiliser un module (les modules sont des singletons natifs).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour implémenter un Singleton dans une classe, on redéfinit souvent la méthode spéciale {{1}}.",
+      "reponsesAttendues": ["__new__"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre __new__ et __init__ ?",
+      "options": [
+        "__new__ crée l'objet, __init__ l'initialise",
+        "L'inverse",
+        "Aucune",
+        "__init__ est plus rapide"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut aussi utiliser un décorateur de classe pour implémenter un Singleton.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Pourquoi le Singleton est-il parfois considéré comme un 'anti-pattern' ?",
+      "options": [
+        "Parce qu'il peut rendre les tests unitaires difficiles (état global partagé)",
+        "Parce qu'il utilise trop de RAM",
+        "Il est trop lent",
+        "Il est interdit par la PEP8"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'utilisation d'une {{1}} est une méthode avancée et élégante pour créer des Singletons.",
+      "reponsesAttendues": ["métaclasse", "metaclass"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un Singleton est utile pour une connexion à une base de données ou un fichier de configuration.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que retourne id(inst1) == id(inst2) pour deux instances d'un Singleton ?",
+      "options": [
+        "False",
+        "True",
+        "None",
+        "Error"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Python possède un mot-clé 'singleton'.",
+      "reponse": false
+    }
+  ]
+}

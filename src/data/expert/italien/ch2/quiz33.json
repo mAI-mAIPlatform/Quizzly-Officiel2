@@ -1,0 +1,94 @@
+{
+  "id": "quiz33",
+  "titre": "Italien Expert : Periodo Ipotetico",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Come si costruisce il periodo ipotetico della possibilità (2° tipo) ?",
+      "options": [
+        "Se + Congiuntivo Imperfetto, Condizionale Presente",
+        "Se + Indicativo Presente, Indicativo Futuro",
+        "Se + Congiuntivo Trapassato, Condizionale Passato",
+        "Se + Condizionale, Congiuntivo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il 3° tipo (irrealtà) usa : Se + Congiuntivo Trapassato, Condizionale Passato.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Traduci : 'Se `{{1}}` ricco, comprerei una villa'.",
+      "reponsesAttendues": [
+        "fossi"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quale errore è comune (e grave) nel periodo ipotetico ?",
+      "options": [
+        "Usare il condizionale dopo il 'se' (es: Se verrei...)",
+        "Usare il congiuntivo dopo il 'se'",
+        "Usare il presente invece del futuro",
+        "Dimenticare la virgola"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Il 1° tipo (realtà) può usare il presente indicativo in entrambe le frasi.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Traduci : 'Se avessi studiato, avresti passato l'esame'",
+      "options": [
+        "Si tu avais étudié, tu aurais réussi l'examen (3° tipo)",
+        "Si tu étudies, tu réussiras",
+        "Si tu étudiais, tu réussirais",
+        "Bien que tu aies étudié, tu as échoué"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Il condizionale passato si forma con l'ausiliare al `{{1}}` presente + participio passato.",
+      "reponsesAttendues": [
+        "condizionale"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "In italiano colloquiale, si usa spesso l'imperfetto indicativo per l'irrealtà (es: Se venivi, mi facevi un piacere).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quale frase esprime un'ipotesi nel passato con effetti nel presente ?",
+      "options": [
+        "Se avessi vinto la lotteria, ora sarei milionario",
+        "Se vincessi la lotteria, sarei milionario",
+        "Se avessi vinto, sarei stato milionario",
+        "Se vinco, sarò milionario"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La congiunzione 'qualora' richiede sempre il congiuntivo.",
+      "reponse": true
+    }
+  ]
+}

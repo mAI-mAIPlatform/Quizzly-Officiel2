@@ -1,0 +1,94 @@
+{
+  "id": "quiz94",
+  "titre": "Musique Expert : EDM, House et Techno",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quelle ville américaine la musique House est-elle née au début des années 80 ?",
+      "options": [
+        "Chicago",
+        "Detroit",
+        "New York",
+        "Miami"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Techno est née à Detroit, influencée par Kraftwerk et le déclin industriel.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le club `{{1}}` (The Warehouse) à Chicago a donné son nom à la musique 'House'.",
+      "reponsesAttendues": [
+        "The Warehouse"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel duo français a mondialisé la 'French Touch' avec l'album 'Homework' ?",
+      "options": [
+        "Daft Punk",
+        "Justice",
+        "Cassius",
+        "Air"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le tempo de la Techno est généralement plus rapide que celui de la House.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le sous-genre de l'EDM aux grosses basses et aux rythmiques hachées popularisé par Skrillex ?",
+      "options": [
+        "Dubstep",
+        "Trance",
+        "Ambient",
+        "Hardstyle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le festival `{{1}}` (Tomorrowland) en Belgique est l'un des plus grands rassemblements EDM au monde.",
+      "reponsesAttendues": [
+        "Tomorrowland"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'Acid House est caractérisée par les sons 'acidulés' de la TB-303 de Roland.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel DJ suédois, auteur de 'Levels', est devenu une icône de l'EDM mondiale ?",
+      "options": [
+        "Avicii",
+        "Tiësto",
+        "David Guetta",
+        "Armin van Buuren"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Berghain est un club mythique de Techno situé à Berlin.",
+      "reponse": true
+    }
+  ]
+}

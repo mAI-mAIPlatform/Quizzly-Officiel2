@@ -1,0 +1,94 @@
+{
+  "id": "quiz61",
+  "titre": "Musique Expert : Beethoven, le Géant",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle symphonie de Beethoven, initialement dédiée à Napoléon, marque le véritable début du Romantisme ?",
+      "options": [
+        "Symphonie n°3 'Héroïque'",
+        "Symphonie n°5",
+        "Symphonie n°6 'Pastorale'",
+        "Symphonie n°9"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Beethoven a intégré un chœur et des solistes vocaux dans le finale de sa 9ème symphonie.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La `{{1}}` est l'infirmité tragique qui a frappé Beethoven dès sa jeunesse, le coupant progressivement du monde sonore.",
+      "reponsesAttendues": [
+        "surdité"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'unique opéra écrit par Beethoven ?",
+      "options": [
+        "Fidelio",
+        "Egmont",
+        "Les Créatures de Prométhée",
+        "Missa Solemnis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les derniers quatuors à cordes de Beethoven sont considérés comme des œuvres visionnaires et extrêmement complexes.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle sonate pour piano célèbre porte le sous-titre de 'Clair de Lune' ?",
+      "options": [
+        "Sonate n°14",
+        "Sonate n°8 'Pathétique'",
+        "Sonate n°23 'Appassionata'",
+        "Sonate n°21 'Waldstein'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le Testament de `{{1}}` est une lettre poignante où Beethoven exprime son désespoir face à sa maladie.",
+      "reponsesAttendues": [
+        "Heiligenstadt"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Beethoven est né à Bonn mais a fait l'essentiel de sa carrière à Vienne.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel compositeur classique fut le maître de Beethoven à son arrivée à Vienne ?",
+      "options": [
+        "Joseph Haydn",
+        "W.A. Mozart",
+        "Antonio Salieri",
+        "C.P.E. Bach"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Beethoven a écrit 9 symphonies achevées.",
+      "reponse": true
+    }
+  ]
+}

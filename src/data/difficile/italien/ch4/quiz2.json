@@ -1,0 +1,90 @@
+{
+  "id": "quiz2",
+  "titre": "Politesse et Codes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel pronom de politesse utilise-t-on pour s'adresser à une personne que l'on ne connaît pas ?",
+      "options": [
+        "Lei",
+        "Tu",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'Lei' de politesse s'accorde toujours à la troisième personne du singulier féminin, même si l'on s'adresse à un homme.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le '{{1}}' (Voi) de politesse est encore parfois utilisé dans le Sud de l'Italie ou dans un style très formel/ancien.",
+      "reponsesAttendues": ["Voi"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle expression utilise-t-on pour demander poliment de passer ?",
+      "options": [
+        "Permesso",
+        "Prego",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Prego' s'utilise à la fois pour dire 'Je vous en prie', 'De rien' ou pour inviter quelqu'un à entrer.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'usage de donner du 'tu' à quelqu'un ?",
+      "options": [
+        "Dare del tu",
+        "Tuire",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'expression 'Si {{1}}' (accomodi) est une formule de politesse pour inviter quelqu'un à s'installer.",
+      "reponsesAttendues": ["accomodi"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "En Italie, il est d'usage de saluer les commerçants en entrant et en sortant ('Buongiorno', 'Arrivederci').",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel adjectif honorifique utilise-t-on souvent par écrit pour s'adresser à un professionnel (médecin, avocat) ?",
+      "options": [
+        "Pregiatissimo / Egregio",
+        "Caro",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La politesse italienne allie courtoisie formelle et chaleur humaine.",
+      "reponse": true
+    }
+  ]
+}

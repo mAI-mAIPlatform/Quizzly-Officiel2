@@ -1,0 +1,94 @@
+{
+  "id": "quiz27",
+  "titre": "Adjectives (Opposites)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le contraire de 'big' ?",
+      "options": [
+        "small",
+        "large",
+        "tall",
+        "short"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Fast' (rapide) est le contraire de 'slow' (lent).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le contraire de 'hot' est '{{1}}' (cold).",
+      "reponsesAttendues": [
+        "cold"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'cheap' ?",
+      "options": [
+        "Bon marché / Pas cher",
+        "Cher / Onéreux",
+        "Vieux",
+        "Neuf"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Expensive' signifie cher.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est le contraire de 'dirty' (sale) ?",
+      "options": [
+        "clean",
+        "messy",
+        "tidy",
+        "wet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Lourd se dit '{{1}}' (heavy).",
+      "reponsesAttendues": [
+        "heavy"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Light' peut signifier léger ou lumière.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'rich' ?",
+      "options": [
+        "Riche",
+        "Pauvre",
+        "Célèbre",
+        "Inconnu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": " 'Poor' signifie pauvre.",
+      "reponse": true
+    }
+  ]
+}

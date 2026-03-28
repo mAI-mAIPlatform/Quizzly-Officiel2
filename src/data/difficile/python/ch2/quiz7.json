@@ -1,0 +1,90 @@
+{
+  "id": "quiz7",
+  "titre": "Décorateurs : Concepts",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un décorateur ?",
+      "options": [
+        "Une couleur d'interface",
+        "Une fonction qui en modifie ou en étend une autre sans changer son code source",
+        "Un module de CSS",
+        "Une classe héritée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On utilise le symbole @ pour appliquer un décorateur au-dessus de la définition d'une fonction.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un décorateur est en fait une fonction d'ordre {{1}}.",
+      "reponsesAttendues": ["supérieur"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel est un décorateur intégré à Python ?",
+      "options": [
+        "@property",
+        "@decorate",
+        "@modify",
+        "@extend"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un décorateur retourne généralement une fonction interne (wrapper).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment s'assurer que la fonction décorée garde son nom d'origine ?",
+      "options": [
+        "On ne peut pas",
+        "En utilisant @functools.wraps sur le wrapper",
+        "En changeant le __name__ manuellement",
+        "C'est fait d'office"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "On appelle le code d'un décorateur au moment de la {{1}} de la fonction, pas de son appel.",
+      "reponsesAttendues": ["définition", "déclaration"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut empiler plusieurs décorateurs sur une seule fonction.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel décorateur permet de définir une méthode qui ne dépend pas de l'instance (self) ?",
+      "options": [
+        "@classmethod",
+        "@staticmethod",
+        "@property",
+        "@lazy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Un décorateur peut être utilisé pour faire du logging ou mesurer le temps d'exécution.",
+      "reponse": true
+    }
+  ]
+}

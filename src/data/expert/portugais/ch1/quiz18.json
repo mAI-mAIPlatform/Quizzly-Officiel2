@@ -1,0 +1,94 @@
+{
+  "id": "quiz18",
+  "titre": "Gramática : O uso da Crase",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "O que é a crase ?",
+      "options": [
+        "A fusão da preposição 'a' com o artigo 'a' ou pronome demonstrativo",
+        "Um acento tónico",
+        "A junção de dois verbos",
+        "O plural de 'a'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Nunca ocorre crase antes de palavras masculinas.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Vou `{{1}}` (a + a) escola.",
+      "reponsesAttendues": [
+        "à"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quando a crase é facultativa ?",
+      "options": [
+        "Antes de nomes próprios femininos e pronomes possessivos femininos",
+        "Antes de verbos",
+        "Sempre",
+        "Nunca"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Ocorre crase na expressão 'à medida que'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Ocorre crase em indicação de horas ?",
+      "options": [
+        "Sim, quando determinadas (ex: às 3 horas)",
+        "Não",
+        "Apenas no futuro",
+        "Opcional"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Refiro-me `{{1}}` (a + aquele) problema.",
+      "reponsesAttendues": [
+        "àquele"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Não se usa crase antes de verbos.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qual frase está correta ?",
+      "options": [
+        "Entreguei o texto à funcionária",
+        "Entreguei o texto a funcionária",
+        "Entreguei o texto à funcionário",
+        "Fui à pé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Crase antes de 'casa' (sem modificador) não ocorre.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "quiz71",
+  "titre": "Python Expert : Métaprogrammation et Métaclasses",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la métaclasse par défaut de toutes les classes en Python 3 ?",
+      "options": [
+        "type",
+        "object",
+        "MetaClass",
+        "abc.ABCMeta"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il est possible de créer une classe dynamiquement en appelant `type(name, bases, dict)`.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La méthode `__new__` d'une métaclasse reçoit en premier argument la `{{1}}` (cls) elle-même.",
+      "reponsesAttendues": [
+        "métaclasse",
+        "metaclasse"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle méthode est appelée pour préparer le namespace d'une classe avant que son corps ne soit exécuté ?",
+      "options": [
+        "__prepare__",
+        "__init__",
+        "__new__",
+        "__call__"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une métaclasse peut être utilisée pour appliquer automatiquement des décorateurs à toutes les méthodes d'une classe.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'arrive-t-il si on définit `metaclass=ABC` dans une classe ?",
+      "options": [
+        "Cela produira une erreur, car ABC n'est pas une métaclasse (utiliser ABCMeta)",
+        "La classe devient abstraite",
+        "La classe devient une interface",
+        "Rien du tout"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le hook `__init_subclass__` permet de personnaliser la création des sous-classes sans utiliser de `{{1}}`.",
+      "reponsesAttendues": [
+        "métaclasse",
+        "metaclasse"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "En Python, les classes sont elles-mêmes des objets.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel dictionnaire spécial contient les attributs d'une classe (ou instance) ?",
+      "options": [
+        "__dict__",
+        "__slots__",
+        "__members__",
+        "__attrs__"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les métaclasses sont héritées par les sous-classes.",
+      "reponse": true
+    }
+  ]
+}

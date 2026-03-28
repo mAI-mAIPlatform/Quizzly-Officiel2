@@ -1,0 +1,95 @@
+{
+  "id": "quiz8",
+  "titre": "Affectations Combinées",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que fait l'opérateur 'x += 5' ?",
+      "options": [
+        "Ajoute 5 à la valeur actuelle de x",
+        "Multiplie x par 5",
+        "Remplace x par 5",
+        "Vérifie si x est égal à 5"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'opérateur 'x -= 2' est équivalent à 'x = x - 2'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour multiplier une variable par 3 et stocker le résultat, on écrit x {{1}} 3.",
+      "reponsesAttendues": [
+        "*="
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Si x vaut 10, quel est son résultat après 'x /= 2' ?",
+      "options": [
+        "5",
+        "10",
+        "2",
+        "20"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'opérateur '%=' permet de stocker le reste d'une division.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces écritures est fausse ?",
+      "options": [
+        "x +=+ 5",
+        "x += 5",
+        "x -= 5",
+        "x *= 5"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "On utilise ces opérateurs pour écrire du code plus {{1}}.",
+      "reponsesAttendues": [
+        "court",
+        "concis"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser '+=' pour concaténer une string à une autre variable string.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Si let texte = 'Salut'; alors 'texte += ' !';' donne :",
+      "options": [
+        "'Salut !'",
+        "'Salut'",
+        "' !'",
+        "Erreur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Ces opérateurs fonctionnent aussi avec les variables déclarées avec 'const'.",
+      "reponse": false
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "quiz54",
+  "titre": "JS Expert : Proxy et Reflect",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert un objet Proxy en JavaScript ?",
+      "options": [
+        "À intercepter et redéfinir les opérations fondamentales (lecture, écriture, etc.) sur un objet",
+        "À accélérer l'accès aux propriétés",
+        "À crypter les données d'un objet",
+        "À supprimer un objet en sécurité"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'objet 'trap' est le nom donné aux méthodes de l'intercepteur (ex: get, set).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'objet global fournissant des méthodes pour les opérations interceptables est `{{1}}`.",
+      "reponsesAttendues": [
+        "Reflect"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser Reflect à l'intérieur d'un Proxy ?",
+      "options": [
+        "Pour appliquer le comportement par défaut de l'objet plus proprement",
+        "Pour changer la couleur de l'objet",
+        "Pour faire une copie profonde",
+        "C'est inutile"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le trap `set` doit obligatoirement renvoyer un booléen indiquant la réussite de l'opération.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel avantage a le Proxy pour la réactivité (ex: Vue 3) ?",
+      "options": [
+        "Il permet de détecter l'ajout de nouvelles propriétés, contrairement à Object.defineProperty",
+        "Il est plus léger en mémoire que les objets normaux",
+        "Il n'utilise pas de thread",
+        "Il remplace le HTML"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le premier argument du constructeur `new Proxy(target, handler)` est l'objet `{{1}}`.",
+      "reponsesAttendues": [
+        "cible",
+        "target"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il est possible d'utiliser un Proxy pour valider les données avant de les écrire dans un objet.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Revocable Proxy' ?",
+      "options": [
+        "Un proxy qui peut être désactivé à tout moment",
+        "Un proxy qui se supprime tout seul",
+        "Un proxy pour les mobiles",
+        "Une erreur de syntaxe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Reflect.set() renvoie true si la propriété a été définie avec succès.",
+      "reponse": true
+    }
+  ]
+}

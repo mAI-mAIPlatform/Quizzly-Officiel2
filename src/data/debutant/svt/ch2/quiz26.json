@@ -1,0 +1,94 @@
+{
+  "id": "quiz26",
+  "titre": "Les Forêts du Monde",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on les forêts où il pleut beaucoup et où il fait chaud ?",
+      "options": [
+        "Forêts tempérées",
+        "Forêts tropicales",
+        "Forêts de sapins",
+        "Déserts verts"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les forêts produisent beaucoup d'oxygène.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'{{1}} est la plus grande forêt tropicale du monde.",
+      "reponsesAttendues": [
+        "Amazonie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel danger menace les forêts ?",
+      "options": [
+        "La déforestation (couper trop d'arbres)",
+        "Les incendies",
+        "La pollution",
+        "Toutes ces réponses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Forêt rime avec biodiversité car beaucoup d'animaux y vivent.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que nous apporte la forêt ?",
+      "options": [
+        "Du bois",
+        "Des fruits",
+        "Un lieu de promenade",
+        "Toutes ces réponses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le {{1}} est un étage de la forêt tropicale formé par les cimes des arbres.",
+      "reponsesAttendues": [
+        "canopée"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les arbres peuvent communiquer entre eux par leurs racines.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on les arbres qui gardent leurs feuilles en hiver ?",
+      "options": [
+        "Les feuillus",
+        "Les persistants (ou résineux comme le sapin)",
+        "Les paresseux",
+        "Les changeants"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Planter des arbres aide à lutter contre le réchauffement climatique.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz7",
+  "titre": "Séisme de 1755",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quelle date précise a eu lieu le grand tremblement de terre de Lisbonne ?",
+      "options": [
+        "1er novembre 1755 (Toussaint)",
+        "25 avril 1974",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le séisme a été suivi d'un tsunami dévastateur et d'incendies géants.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'homme d'État qui a dirigé la reconstruction de Lisbonne est le Marquis de {{1}}.",
+      "reponsesAttendues": ["Pombal"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le nouveau quartier géométrique construit à cette époque ?",
+      "options": [
+        "Baixa Pombalina",
+        "Alfama",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le séisme a provoqué un immense débat philosophique en Europe sur la Providence divine (ex: Voltaire).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle était la célèbre consigne du Marquis de Pombal après la catastrophe ?",
+      "options": [
+        "Enterrer les morts et soigner les vivants",
+        "Fuir vers le Brésil",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La '{{1}}' (Cage Pombaline) est une structure antisismique révolutionnaire mise au point pour la reconstruction.",
+      "reponsesAttendues": ["Gaiola", "Cage"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Marquis de Pombal a profité de la crise pour asseoir son pouvoir et expulser les Jésuites du Portugal.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle grande place de Lisbonne symbolise la puissance royale retrouvée après 1755 ?",
+      "options": [
+        "Praça do Comércio (Terreiro do Paço)",
+        "Rossio",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le séisme de 1755 est considéré comme l'un des événements les plus traumatisants et transformateurs de l'histoire du Portugal.",
+      "reponse": true
+    }
+  ]
+}

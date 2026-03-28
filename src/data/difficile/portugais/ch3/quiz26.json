@@ -1,0 +1,90 @@
+{
+  "id": "quiz26",
+  "titre": "Mondialisation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle fut la principale crise économique au Portugal au début du XXIe siècle ?",
+      "options": [
+        "La crise de la dette souveraine (2011) et l'intervention de la Troïka",
+        "La crise du pétrole",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Portugal est devenu un hub technologique majeur accueillant le 'Web Summit' depuis 2016.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le tourisme représente environ {{1}}% du PIB portugais (donnée variable mais élevée).",
+      "reponsesAttendues": ["15", "10", "12"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la part des énergies renouvelables dans la production d'électricité au Portugal ?",
+      "options": [
+        "L'une des plus élevées d'Europe (souvent plus de 60%)",
+        "Moins de 10%",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le pays souffre d'un défi démographique lié au vieillissement de la population et à l'émigration des jeunes diplômés.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel secteur industriel portugais est leader mondial ?",
+      "options": [
+        "Le Liège (Cortiça)",
+        "L'Automobile",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le port de {{1}} est l'un des ports de haute mer les plus stratégiques d'Europe.",
+      "reponsesAttendues": ["Sines"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Portugal attire de nombreux investissements étrangers grâce aux 'Visas Gold'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle ville a été Capitale Européenne de la Culture en 2012 ?",
+      "options": [
+        "Guimarães",
+        "Faro",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Portugal s'affirme comme une nation moderne, ouverte et innovante au sein du monde globalisé.",
+      "reponse": true
+    }
+  ]
+}

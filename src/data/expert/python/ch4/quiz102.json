@@ -1,0 +1,94 @@
+{
+  "id": "quiz102",
+  "titre": "Python Expert : Pandas et Dask Performance",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la structure de données bidimensionnelle principale de Pandas ?",
+      "options": [
+        "DataFrame",
+        "Series",
+        "Panel",
+        "Ndarray"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dask permet de manipuler des DataFrames dépassant la mémoire RAM en parallélisant les calculs.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La méthode `{{1}}` (apply) est souvent utilisée pour appliquer une fonction sur chaque ligne ou colonne d'un DataFrame.",
+      "reponsesAttendues": [
+        "apply"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel format de fichier est recommandé pour de meilleures performances de lecture/écriture avec de gros volumes de données dans Pandas ?",
+      "options": [
+        "Parquet",
+        "CSV",
+        "Excel",
+        "JSON"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'indexation avec .loc est basée sur les étiquettes (labels).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle fonction permet de fusionner deux DataFrames en utilisant des clés comme dans une jointure SQL ?",
+      "options": [
+        "pd.merge()",
+        "pd.concat()",
+        "pd.join()",
+        "pd.append()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La méthode `{{1}}` (groupby) permet de segmenter les données selon une clé et d'appliquer des fonctions d'agrégation.",
+      "reponsesAttendues": [
+        "groupby"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Pandas n'est pas capable de gérer directement les séries temporelles (TimeSeries).",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment vectoriser une opération complexe dans Pandas pour éviter une boucle lente ?",
+      "options": [
+        "Utiliser les fonctions intégrées de Pandas ou NumPy",
+        "Utiliser .iloc",
+        "Utiliser une liste en compréhension",
+        "Utiliser un dictionnaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Un 'SettingWithCopyWarning' indique souvent une opération ambiguë sur une vue ou une copie d'un DataFrame.",
+      "reponse": true
+    }
+  ]
+}

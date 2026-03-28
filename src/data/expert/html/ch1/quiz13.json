@@ -1,0 +1,95 @@
+{
+  "id": "quiz13",
+  "titre": "IndexedDB (Concepts de base)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'IndexedDB ?",
+      "options": [
+        "Une base de données transactionnelle orientée objet dans le navigateur",
+        "Un remplaçant du localStorage basé sur SQL",
+        "Un service cloud de stockage",
+        "Un cache pour les fichiers CSS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "IndexedDB est asynchrone et utilise des événements ou des promesses.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans IndexedDB, les données sont stockées dans des {{1}} (équivalents aux tables SQL).",
+      "reponsesAttendues": [
+        "object stores",
+        "magasins d'objets"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle méthode ouvre une connexion à une base de données ?",
+      "options": [
+        "indexedDB.open()",
+        "indexedDB.connect()",
+        "new IndexedDB()",
+        "db.start()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Toute opération de lecture/écriture doit s'effectuer à l'intérieur d'une transaction.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "A quel moment peut-on créer ou modifier la structure des magasins d'objets ?",
+      "options": [
+        "Seulement lors de l'événement onupgradeneeded",
+        "N'importe quand après l'ouverture",
+        "Uniquement au premier chargement de la page",
+        "Dans une transaction de lecture"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Un {{1}} permet de rechercher des objets rapidement via une propriété spécifique.",
+      "reponsesAttendues": [
+        "index"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "IndexedDB permet de stocker de grandes quantités de données (Go) tant qu'il y a de l'espace disque.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel objet permet de parcourir un ensemble de résultats ?",
+      "options": [
+        "Un Curseur (IDBCursor)",
+        "Un Index (IDBIndex)",
+        "Un Tableur",
+        "Un Itérateur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "IndexedDB respecte la 'Same Origin Policy'.",
+      "reponse": true
+    }
+  ]
+}

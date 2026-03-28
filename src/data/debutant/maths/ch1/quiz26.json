@@ -1,0 +1,94 @@
+{
+  "id": "quiz26",
+  "titre": "Les Grands Nombres (Unités et Dizaines)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Combien y a-t-il de dizaines dans 80 ?",
+      "options": [
+        "0",
+        "8",
+        "80",
+        "800"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le nombre 100 est composé de 10 dizaines.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans 45, le chiffre des unités est {{1}}.",
+      "reponsesAttendues": [
+        "5"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lalquelle est l'écriture en lettres de 72 ?",
+      "options": [
+        "Soixante-deux",
+        "Soixante-dix-deux",
+        "Septante-deux",
+        "Toutes ces réponses (selon le pays)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "99 est le plus grand nombre à deux chiffres.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Combien font 3 dizaines et 4 unités ?",
+      "options": [
+        "7",
+        "34",
+        "43",
+        "304"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le nombre qui vient juste après 99 est {{1}}.",
+      "reponsesAttendues": [
+        "100"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Dans 123, le chiffre 1 représente les centaines.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Combien y a-t-il d'unités dans 5 dizaines ?",
+      "options": [
+        "5",
+        "50",
+        "500",
+        "0.5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Bien comprendre les unités et dizaines est la base de la numération.",
+      "reponse": true
+    }
+  ]
+}

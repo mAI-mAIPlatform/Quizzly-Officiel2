@@ -1,0 +1,95 @@
+{
+  "id": "quiz1",
+  "titre": "Qu'est-ce que Python ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a créé le langage Python ?",
+      "options": [
+        "Guido van Rossum",
+        "Bill Gates",
+        "Mark Zuckerberg",
+        "Linus Torvalds"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Python a été créé au début des années 1990.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Python tire son nom d'une troupe de comédie appelée les Monty {{1}}.",
+      "reponsesAttendues": [
+        "Python"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel animal est le symbole de Python ?",
+      "options": [
+        "Un serpent",
+        "Un oiseau",
+        "Un lion",
+        "Un éléphant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Python est un langage compilé, pas interprété.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Dans quel domaine Python est-il très utilisé ?",
+      "options": [
+        "Intelligence Artificielle",
+        "Développement Web",
+        "Analyse de données",
+        "Tous ces domaines"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le slogan de Python est souvent 'Batteries {{1}}'.",
+      "reponsesAttendues": [
+        "Included",
+        "incluses"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Python 3 est la version la plus récente et recommandée.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'organisme qui gère Python ?",
+      "options": [
+        "PSF (Python Software Foundation)",
+        "NASA",
+        "Google",
+        "Microsoft"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Python est un langage 'Open Source'.",
+      "reponse": true
+    }
+  ]
+}

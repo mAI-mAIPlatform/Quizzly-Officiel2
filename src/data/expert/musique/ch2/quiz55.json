@@ -1,0 +1,95 @@
+{
+  "id": "quiz55",
+  "titre": "Musique Expert : Instruments à Vent",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces instruments à vent n'utilise pas d'anche ?",
+      "options": [
+        "La Flûte traversière",
+        "Le Hautbois",
+        "La Clarinette",
+        "Le Basson"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le hautbois et le basson sont des instruments à 'anche double'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` est un instrument à vent dont le musicien fait vibrer ses lèvres dans une embouchure.",
+      "reponsesAttendues": [
+        "cuivre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel cuivre utilise une coulisse pour changer la hauteur du son ?",
+      "options": [
+        "Le Trombone",
+        "La Trompette",
+        "Le Cor",
+        "Le Tuba"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le saxophone (inventé par Adolphe Sax) possède une anche simple comme la clarinette.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est l'instrument le plus grave de la famille des bois à l'orchestre ?",
+      "options": [
+        "Le Contrebasson",
+        "La Clarinette basse",
+        "Le Hautbois",
+        "Le Piccolo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La `{{1}}` (piccolo) est une petite flûte qui joue une octave plus haut que la flûte traversière.",
+      "reponsesAttendues": [
+        "petite flûte",
+        "piccolo"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Cor (cor d'harmonie) est réputé pour sa difficulté d'exécution et la richesse de son timbre.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le dispositif placé dans le pavillon d'un cuivre pour modifier ou atténuer le son ?",
+      "options": [
+        "Une sourdine",
+        "Une anche",
+        "Un piston",
+        "Une clé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'harmonie (orchestre de vents) est un ensemble très répandu, notamment dans les musiques militaires et populaires.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz67",
+  "titre": "Grec Expert : Hippocrate et la Médecine",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où est né Hippocrate, le père de la médecine ?",
+      "options": [
+        "L'île de Cos",
+        "Chypre",
+        "Crète",
+        "Rhodes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'Serment d'Hippocrate' est toujours prêté par les médecins aujourd'hui dans de nombreux pays.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La théorie des quatre `{{1}}` (sang, phlegme, bile jaune, bile noire) domina la médecine pendant des siècles.",
+      "reponsesAttendues": [
+        "humeurs"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel était le principe fondamental de la médecine hippocratique ?",
+      "options": [
+        "L'observation clinique du patient et la recherche de causes naturelles",
+        "L'utilisation de la magie",
+        "Le sacrifice d'animaux",
+        "L'attente d'une intervention divine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Primum non nocere' (D'abord, ne pas nuire) est un principe clé attribué à la tradition hippocratique.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel dieu grec était associé à la guérison et possédait des sanctuaires (Asclépiéions) ?",
+      "options": [
+        "Asclépios",
+        "Apollon",
+        "Zeus",
+        "Hermès"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` d'Hippocrate est la collection d'une soixantaine de traités attribués à lui et son école.",
+      "reponsesAttendues": [
+        "Corpus"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Hippocrate fut le premier à affirmer que l'épilepsie ('mal sacré') avait une cause naturelle et non divine.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel célèbre médecin d'Alexandrie est considéré comme le père de l'anatomie pour ses travaux sur le système nerveux ?",
+      "options": [
+        "Hérophile",
+        "Érasistrate",
+        "Galien",
+        "Dioscoride"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Galien, bien que vivant sous l'Empire romain, s'inscrivait dans la lignée de la médecine grecque.",
+      "reponse": true
+    }
+  ]
+}

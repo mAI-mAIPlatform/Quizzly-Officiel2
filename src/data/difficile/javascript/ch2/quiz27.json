@@ -1,0 +1,90 @@
+{
+  "id": "quiz27",
+  "titre": "Memento Pattern",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert le pattern Memento ?",
+      "options": [
+        "À supprimer des objets",
+        "À capturer et mémoriser l'état interne d'un objet pour pouvoir le restaurer plus tard (Undo)",
+        "À observer un objet",
+        "À accélérer le réseau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Memento ne doit pas violer l'encapsulation (l'état doit rester caché aux autres).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'objet dont on veut sauvegarder l'état est l'{{1}} (Originator).",
+      "reponsesAttendues": ["émetteur", "créateur", "Originator"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui est le 'Caretaker' dans ce pattern ?",
+      "options": [
+        "L'objet qui contient l'historique des mementos",
+        "Le Garbage Collector",
+        "L'utilisateur",
+        "Le serveur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "En JS, on peut souvent implémenter un memento simple via la sérialisation JSON ou le spread operator.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser Memento plutôt que de simples snapshots globaux ?",
+      "options": [
+        "Pour plus de vitesse",
+        "Pour ne sauvegarder que l'état nécessaire d'un objet spécifique sans l'exposer",
+        "C'est plus joli",
+        "C'est obligatoire en ES2022"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La pile des mementos permet d'implémenter la fonction {{1}}.",
+      "reponsesAttendues": ["Undo", "annuler"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Memento peut être gourmand en mémoire si les objets sont gros et les états fréquents.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel avantage apporte l'immuabilité au Memento ?",
+      "options": [
+        "Plus besoin de copier, on garde juste la référence à l'ancien état qui ne changera jamais",
+        "Impossible de sauvegarder",
+        "Lenteur",
+        "Erreurs de syntaxe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le pattern Memento est souvent combiné avec le pattern Command.",
+      "reponse": true
+    }
+  ]
+}

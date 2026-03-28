@@ -1,0 +1,94 @@
+{
+  "id": "quiz7",
+  "titre": "Les Nombres et l'Objet Math",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment arrondir un nombre à l'entier le plus proche ?",
+      "options": [
+        "Math.round()",
+        "Math.floor()",
+        "Math.ceil()",
+        "Math.abs()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Math.random() génère un nombre aléatoire entre 0 et 1 (exclu).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour arrondir TOUJOURS à l'entier inférieur, on utilise Math.{{1}}().",
+      "reponsesAttendues": [
+        "floor"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet d'arrondir TOUJOURS à l'entier supérieur ?",
+      "options": [
+        "Math.ceil()",
+        "Math.floor()",
+        "Math.min()",
+        "Math.max()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Math.PI donne la valeur approchée du nombre Pi.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces méthodes renvoie le plus grand nombre d'une liste ?",
+      "options": [
+        "Math.max()",
+        "Math.min()",
+        "Math.pow()",
+        "Math.sqrt()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour calculer la racine carrée d'un nombre, on utilise Math.{{1}}().",
+      "reponsesAttendues": [
+        "sqrt"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Math.abs(-5) renvoie -5.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment transformer une string '123' en nombre ?",
+      "options": [
+        "Number('123')",
+        "String(123)",
+        "Boolean(123)",
+        "Math.num('123')"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'objet Math est intégré d'office dans JavaScript.",
+      "reponse": true
+    }
+  ]
+}

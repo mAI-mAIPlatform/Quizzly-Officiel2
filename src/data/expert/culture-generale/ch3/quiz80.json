@@ -1,0 +1,94 @@
+{
+  "id": "quiz80",
+  "titre": "Revisione : Il Secolo Breve (Capitolo 3 - Cultura Generale Expert)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Déclencheur de la WWI ?",
+      "options": [
+        "Attentat de Sarajevo",
+        "Krach boursier",
+        "Invasion de la Pologne",
+        "Révolte russe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Bolcheviques = Lénine.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Staline succède à `{{1}}`.",
+      "reponsesAttendues": [
+        "Lenine"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Bataille majeure de la WWII en URSS ?",
+      "options": [
+        "Stalingrad",
+        "Verdun",
+        "Marne",
+        "Alamein"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Chute du mur = 1989.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Conférence du Tiers-Monde ?",
+      "options": [
+        "Bandoeng",
+        "Yalta",
+        "Versailles",
+        "Rome"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pacte des pays de l'Est : Pacte de `{{1}}`.",
+      "reponsesAttendues": [
+        "Varsovie"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "CECA = Charbon et Acier.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Siège de l'ONU ?",
+      "options": [
+        "New York",
+        "Londres",
+        "Moscou",
+        "Rome"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'histoire du XXe siècle est marquée par l'accélération technologique.",
+      "reponse": true
+    }
+  ]
+}

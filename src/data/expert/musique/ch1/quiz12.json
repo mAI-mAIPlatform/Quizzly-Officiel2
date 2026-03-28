@@ -1,0 +1,94 @@
+{
+  "id": "quiz12",
+  "titre": "Histoire : L'École de Notre-Dame",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où se situe l'École de Notre-Dame, centre de la polyphonie au XIIe-XIIIe siècle ?",
+      "options": [
+        "Paris",
+        "Rome",
+        "Vienne",
+        "Londres"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Léonin et Pérotin sont les deux compositeurs majeurs de cette école.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La forme polyphonique primitive basée sur une mélodie grégorienne étirée est l'`{{1}}`.",
+      "reponsesAttendues": [
+        "organum"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Magnus Liber Organi' ?",
+      "options": [
+        "Le grand recueil de polyphonies de l'époque",
+        "Un traité d'astronomie",
+        "La bible de Gutenberg",
+        "Un dictionnaire de cuisine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Pérotin a introduit des organums à trois et quatre voix (Organum quadruplum).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle est l'innovation rythmique majeure de cette école ?",
+      "options": [
+        "Les modes rythmiques basés sur les pieds poétiques grecs",
+        "L'invention de la croche",
+        "Le rythme binaire systématique",
+        "L'absence totale de rythme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La technique consistant à poser une voix ornée sur une note longue s'appelle le `{{1}}`.",
+      "reponsesAttendues": [
+        "bourdon"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'Ars Antiqua désigne la période de l'École de Notre-Dame.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un conduit ?",
+      "options": [
+        "Une pièce polyphonique non basée sur un chant préexistant",
+        "Un tuyau d'orgue",
+        "Une danse paysanne",
+        "Un chant de guerre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La notation proportionnelle (mesurée) naît véritablement à cette époque.",
+      "reponse": true
+    }
+  ]
+}

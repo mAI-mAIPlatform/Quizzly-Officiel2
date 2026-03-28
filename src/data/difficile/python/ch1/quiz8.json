@@ -1,0 +1,90 @@
+{
+  "id": "quiz8",
+  "titre": "Comprehensions : Dicts & Sets",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle syntaxe crée une compréhension de dictionnaire ?",
+      "options": [
+        "{k, v for k, v in list}",
+        "{k: v for k, v in list}",
+        "dict(k: v for k, v in list)",
+        "[k: v for k, v in list]"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La syntaxe {x for x in range(5)} crée un set (ensemble).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le résultat de {x: x**2 for x in [1, 2]} est {{1}}.",
+      "reponsesAttendues": ["{1: 1, 2: 4}"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quoi sert une compréhension de set ?",
+      "options": [
+        "À créer une liste triée",
+        "À créer une collection de valeurs uniques à partir d'un itérable",
+        "À fusionner des dictionnaires",
+        "À trier un set"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser .zip() dans une compréhension de dictionnaire pour lier deux listes.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que retourne {c: ord(c) for c in 'AB'} ?",
+      "options": [
+        "{'A': 65, 'B': 66}",
+        "['A', 'B']",
+        "{(65, 66)}",
+        "Error"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour transformer une liste en set de ses longueurs : {len(x) for x in {{1}}}.",
+      "reponsesAttendues": ["liste", "items"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les compréhensions de dictionnaires sont apparues avec Python 3.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment inverser les clés et valeurs d'un dictionnaire 'd' ?",
+      "options": [
+        "d.reverse()",
+        "{v: k for k, v in d.items()}",
+        "{k: v for v, k in d}",
+        "dict(reversed(d))"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Une compréhension de dictionnaire peut aussi contenir une condition if.",
+      "reponse": true
+    }
+  ]
+}

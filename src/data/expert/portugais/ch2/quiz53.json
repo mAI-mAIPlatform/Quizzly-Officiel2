@@ -1,0 +1,94 @@
+{
+  "id": "quiz53",
+  "titre": "Português Expert : Machado de Assis",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quem é considerado o maior escritor da literatura brasileira ?",
+      "options": [
+        "Machado de Assis",
+        "José de Alencar",
+        "Jorge Amado",
+        "Guimarães Rosa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Memórias Póstumas de Brás Cubas' marca o início do Realismo no Brasil.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O romance de Machado que gira em torno da dúvida sobre a traição de Capitu é 'Dom `{{1}}`'.",
+      "reponsesAttendues": [
+        "Casmurro"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qual é a característica marcante do narrador de 'Memórias Póstumas' ?",
+      "options": [
+        "É um 'defunto autor' (escreve depois de morto)",
+        "É uma criança",
+        "É um escravo",
+        "É um estrangeiro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Machado de Assis foi um dos fundadores e o primeiro presidente da Academia Brasileira de Letras.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "O estilo de Machado é conhecido pela :",
+      "options": [
+        "Ironia, pessimismo e análise psicológica profunda",
+        "Descrição detalhada da natureza",
+        "Exaltação dos heróis indianistas",
+        "Linguagem simples e popular"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "O apelido de Machado de Assis era o 'Bruxo do `{{1}}`' (bairro no Rio de Janeiro).",
+      "reponsesAttendues": [
+        "Cosme Velho"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Machado era mulato e de origem humilde, vencendo grandes barreiras sociais na época.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Em qual cidade se passam quase todas as obras de Machado ?",
+      "options": [
+        "Rio de Janeiro",
+        "São Paulo",
+        "Salvador",
+        "Recife"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Machado de Assis também foi um excelente contista (ex: O Alienista).",
+      "reponse": true
+    }
+  ]
+}

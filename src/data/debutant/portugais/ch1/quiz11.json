@@ -1,0 +1,94 @@
+{
+  "id": "quiz11",
+  "titre": "Le Verbe SER (Être)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quand utilise-t-on le verbe 'Ser' ?",
+      "options": [
+        "Pour des caractéristiques permanentes ou définitives",
+        "Pour un état passager ou un lieu",
+        "Pour dire 'Avoir'",
+        "Uniquement pour l'heure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Conjugaison : 'Eu sou' signifie 'Je suis'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour 'Tu', on dit 'Tu {{1}}'.",
+      "reponsesAttendues": [
+        "és"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la forme pour 'Ele/Ela/Você' ?",
+      "options": [
+        "Sou",
+        "É",
+        "Somos",
+        "São"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Pour 'Nous', on dit 'Nós somos'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle est la forme pour 'Eles/Elas/Vocês' ?",
+      "options": [
+        "Somos",
+        "São",
+        "Sois",
+        "É"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Traduisez 'Je suis étudiant' : 'Eu {{1}} estudante'.",
+      "reponsesAttendues": [
+        "sou"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On utilise 'Ser' pour indiquer la nationalité (ex: Eu sou francês).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle phrase est correcte ?",
+      "options": [
+        "O céu é azul",
+        "O céu sou azul",
+        "O céu são azul",
+        "O céu somos azul"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "'Ser' exprime l'essence d'une personne ou d'une chose.",
+      "reponse": true
+    }
+  ]
+}

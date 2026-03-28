@@ -1,0 +1,94 @@
+{
+  "id": "quiz81",
+  "titre": "Grec Expert : Socrate et l'Accouchement des Âmes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment Socrate appelait-il sa méthode consistant à faire 'accoucher' ses interlocuteurs de leurs propres vérités ?",
+      "options": [
+        "La Maïeutique",
+        "La Dialectique",
+        "La Rhétorique",
+        "La Sophistique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Socrate a laissé de nombreux ouvrages écrits détaillant sa doctrine.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La phrase emblématique de Socrate est : 'Tout ce que je sais, c'est que je ne `{{1}}` (sais) rien'.",
+      "reponsesAttendues": [
+        "sais"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel était le principal 'outil' de Socrate pour déstabiliser les certitudes de ses contemporains ?",
+      "options": [
+        "L'ironie",
+        "L'insulte",
+        "Le sophisme",
+        "Le silence"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Socrate a été condamné à mort pour impiété et corruption de la jeunesse.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel poison Socrate a-t-il dû boire pour exécuter sa sentence ?",
+      "options": [
+        "La ciguë",
+        "L'arsenic",
+        "Le curare",
+        "L'absinthe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Socrate se comparait souvent à un `{{1}}` (taon) piquant le cheval endormi qu'est la cité d'Athènes.",
+      "reponsesAttendues": [
+        "taon"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le 'daimôn' de Socrate était une voix intérieure qui l'empêchait d'agir mal.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qui est le principal disciple de Socrate qui a transmis son image à la postérité à travers ses 'Dialogues' ?",
+      "options": [
+        "Platon",
+        "Xénophon",
+        "Aristote",
+        "Alcibiade"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Socrate considérait que le mal provenait uniquement de l'ignorance ('Nul n'est méchant volontairement').",
+      "reponse": true
+    }
+  ]
+}

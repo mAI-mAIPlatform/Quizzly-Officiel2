@@ -1,0 +1,94 @@
+{
+  "id": "quiz52",
+  "titre": "Musique Expert : Les Voix Humaines",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la voix de femme la plus aiguë ?",
+      "options": [
+        "Soprano",
+        "Mezzo-soprano",
+        "Contralto",
+        "Baryton"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Ténor est la voix d'homme la plus aiguë (hors voix de tête).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un `{{1}}` est un chanteur masculin dont la voix a été préservée dans le registre aigu par une opération (interdite aujourd'hui).",
+      "reponsesAttendues": [
+        "castrat"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on l'étendue de notes qu'une voix peut chanter ?",
+      "options": [
+        "La tessiture",
+        "Le timbre",
+        "L'ambitus",
+        "La dynamique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La Basse est la voix d'homme la plus grave.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un Contre-ténor ?",
+      "options": [
+        "Un homme chantant dans le registre de soprano ou d'alto en utilisant la voix de tête",
+        "Un opposant au ténor",
+        "Un chef de chœur",
+        "Une basse profonde"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Vibrato) est une légère fluctuation périodique de la hauteur d'une note chantée.",
+      "reponsesAttendues": [
+        "vibrato"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le chœur SATB désigne les pupitres Soprano, Alto, Ténor et Basse.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une colorature ?",
+      "options": [
+        "Une voix de soprano capable de vocalises extrêmement rapides et aiguës",
+        "Un changement de couleur de costume",
+        "Une note d'ornement",
+        "Un type de partition"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le chant lyrique demande une technique respiratoire et de projection acoustique très avancée.",
+      "reponse": true
+    }
+  ]
+}

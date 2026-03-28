@@ -1,0 +1,94 @@
+{
+  "id": "quiz25",
+  "titre": "Valeurs vs Références",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment sont copiées les types simples (nombres, strings) ?",
+      "options": [
+        "Par valeur (une vraie copie indépendante)",
+        "Par référence (un lien vers la même donnée)",
+        "Par magie",
+        "Elles ne sont pas copiables"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les objets et les tableaux sont copiés par référence.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si let a = [1]; let b = a; et que je modifie b[0], alors a[0] est aussi {{1}}.",
+      "reponsesAttendues": [
+        "modifié"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi 2 objets identiques { } === { } renvoie false ?",
+      "options": [
+        "Parce qu'ils ont des références (adresses) différentes dans la mémoire",
+        "Parce qu'ils sont vides",
+        "C'est une erreur de JS",
+        "Parce que les accolades sont des symboles spéciaux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Pour faire une vraie copie d'un tableau, on peut utiliser l'opérateur de décomposition [...].",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces valeurs est copiée par valeur ?",
+      "options": [
+        "42",
+        "{}",
+        "[]",
+        "une fonction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'endroit en mémoire où sont stockées les données s'appelle l'{{1}}.",
+      "reponsesAttendues": [
+        "adresse"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Modifier une copie par référence modifie l'original.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on une copie qui ne garde pas de lien avec l'original ?",
+      "options": [
+        "Clonage (ou Deep Copy)",
+        "Lien",
+        "Raccourci",
+        "Alias"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Comprendre les références évite beaucoup de bugs difficiles.",
+      "reponse": true
+    }
+  ]
+}

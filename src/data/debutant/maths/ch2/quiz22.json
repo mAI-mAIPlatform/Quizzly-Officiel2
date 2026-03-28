@@ -1,0 +1,94 @@
+{
+  "id": "quiz22",
+  "titre": "Petits Problèmes d'Addition",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Léo a 5 billes. Il en gagne 3. Combien en a-t-il maintenant ?",
+      "options": [
+        "2",
+        "7",
+        "8",
+        "10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si j'achète un gâteau à 2€ et un jus à 1€, je paie 3€.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Il y a 4 oiseaux sur une branche. 4 autres arrivent. Il y en a {{1}}.",
+      "reponsesAttendues": [
+        "8"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Julie a 10 images. Son papa lui en donne 10. Combien en a-t-elle ?",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "100"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une boîte contient 6 œufs. Une autre en contient 6 aussi. Il y a 12 œufs en tout.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Dans un panier, il y a 8 pommes et 2 poires. Combien y a-t-il de fruits ?",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Jean a 12 ans. Quel âge aura-t-il dans 2 ans ? {{1}} ans.",
+      "reponsesAttendues": [
+        "14"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un bus a 10 passagers. 5 personnes montent. Il y a 15 passagers.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Un fermier a 3 poules et 4 lapins. Combien d'animaux a-t-il ?",
+      "options": [
+        "1",
+        "6",
+        "7",
+        "10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Additionner permet de trouver le 'tout' ou le 'total'.",
+      "reponse": true
+    }
+  ]
+}

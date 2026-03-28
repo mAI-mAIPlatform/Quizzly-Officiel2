@@ -1,0 +1,90 @@
+{
+  "id": "quiz17",
+  "titre": "Closures et Event Listeners",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le risque majeur d'utiliser une closure dans un 'addEventListener' ?",
+      "options": [
+        "Le clic ne fonctionnera pas",
+        "L'élément DOM et ses variables associées peuvent ne pas être libérés (fuite)",
+        "Le code sera exécuté trop vite",
+        "Il n'y a aucun risque"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Supprimer un élément du DOM supprime automatiquement tous ses event listeners du Garbage Collector.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour éviter les fuites, il faut utiliser {{1}} avant de supprimer un élément complexe.",
+      "reponsesAttendues": ["removeEventListener"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment une closure aide-t-elle à passer des arguments à un handler ?",
+      "options": [
+        "En utilisant 'bind'",
+        "En enveloppant le handler dans une fonction parente qui capture les arguments",
+        "En utilisant des variables globales",
+        "Ce n'est pas possible"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une closure dans un event listener capture l'état des variables au moment du clic.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel garantit que la closure ne reste pas en mémoire indéfiniment ?",
+      "options": [
+        "Utiliser l'option {once: true}",
+        "Utiliser let au lieu de const",
+        "Utiliser une arrow function",
+        "Lancer une exception"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Un listener attaché à la fenêtre 'window' est particulièrement risqué s'il utilise une {{1}} sur de gros objets.",
+      "reponsesAttendues": ["closure"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation de 'this' dans un handler dépend de la manière dont la fonction a été définie.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que capture : let count = 0; btn.onclick = () => count++; ?",
+      "options": [
+        "Une copie de count",
+        "Une référence vers la variable count",
+        "Rien du tout",
+        "La valeur 0 figée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les closures sont indispensables pour le pattern 'Unidirectional Data Flow'.",
+      "reponse": false
+    }
+  ]
+}

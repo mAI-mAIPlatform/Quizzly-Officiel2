@@ -1,0 +1,94 @@
+{
+  "id": "quiz23",
+  "titre": "Les Cas en Grec (Introduction)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel cas correspond au sujet de la phrase ?",
+      "options": [
+        "Le Nominatif",
+        "L'Accusatif",
+        "Le Génitif",
+        "Le Datif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Accusatif est le cas du complément d'objet direct (COD).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le cas qui exprime la possession (le 'de' français) est le {{1}}.",
+      "reponsesAttendues": [
+        "Génitif"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel cas utilise-t-on pour s'adresser à quelqu'un (l'interpellation) ?",
+      "options": [
+        "Le Vocatif",
+        "Le Datif",
+        "Le Génitif",
+        "Le Nominatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Datif correspond souvent au complément d'objet indirect (COI).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Combien y a-t-il de cas principaux en grec ancien ?",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "3"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le {{1}} est le cas du complément de nom.",
+      "reponsesAttendues": [
+        "Génitif"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les terminaisons des mots changent selon le cas.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces fonctions est liée au Datif ?",
+      "options": [
+        "Complément d'attribution",
+        "Sujet",
+        "COD",
+        "Possession"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Maîtriser les cas est la clé pour traduire le grec.",
+      "reponse": true
+    }
+  ]
+}

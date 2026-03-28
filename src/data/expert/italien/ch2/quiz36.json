@@ -1,0 +1,95 @@
+{
+  "id": "quiz36",
+  "titre": "Italien Expert : Il 'Si' Passivante e Impersonale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Differenza tra 'si' impersonale e 'si' passivante ?",
+      "options": [
+        "Il passivante ha un oggetto che diventa soggetto (es: Si vendono libri), l'impersonale no (es: Si dorme bene)",
+        "Nessuna",
+        "Il passivante si usa solo al passato",
+        "L'impersonale si usa solo con verbi riflessivi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Con il 'si' passivante, il verbo si accorda in numero con l'oggetto/soggetto (es: Si leggono i giornali).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "All'impersonale, l'aggettivo predicativo è sempre al `{{1}}` (es: Quando si è stanchi...).",
+      "reponsesAttendues": [
+        "plurale",
+        "maschile plurale"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Come si fa l'impersonale di un verbo riflessivo (es: Alzarsi) ?",
+      "options": [
+        "Ci si alza (per evitare 'si si')",
+        "Si alza",
+        "Si si alza",
+        "Uno si alza"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Nei tempi composti con 'essere', il participio di un verbo impersonale finisce sempre in -o (es: Si è dormito).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Traduci : 'Si sono mangiate le mele'",
+      "options": [
+        "On a mangé les pommes / Les pommes ont été mangées",
+        "Elles se sont mangées entre elles",
+        "On mange des pommes",
+        "Ils ont mangé les pommes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Se il verbo impersonale è un verbo che usa 'essere', il participio passato finisce in -`{{1}}` (es: Si è andati).",
+      "reponsesAttendues": [
+        "i"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il 'si' impersonale corrisponde al francese 'on'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quale frase è un 'si' passivante ?",
+      "options": [
+        "In Italia si mangia molta pasta",
+        "Qui si parla troppo",
+        "Ci si lava spesso",
+        "Si vive una volta sola"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il 'si' impersonale richiede sempre il verbo alla terza persona singolare.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz20",
+  "titre": "Fin de Partie 2 : Révision Verbes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel signifie 'Vous avez' ?",
+      "options": [
+        "ἔχομεν",
+        "ἔχετε",
+        "ἔχουσι",
+        "ἔχεις"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le verbe 'παιδεύω' a un lien avec 'pédagogie'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le radical de 'λέγω' (je dis) est {{1}}.",
+      "reponsesAttendues": [
+        "λεγ-"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'εἰσίν' ?",
+      "options": [
+        "Nous sommes",
+        "Vous êtes",
+        "Ils sont",
+        "Tu es"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Ἀκούετε' signifie 'Vous écoutez'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Nous avons' ?",
+      "options": [
+        "ἔχομεν",
+        "ἔχετε",
+        "ἔχουσι",
+        "ἔχω"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La terminaison '-εις' correspond à la {{1}} personne du singulier.",
+      "reponsesAttendues": [
+        "2ème"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le verbe 'βλέπω' signifie 'je regarde'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la traduction de 'χαῖρε' ?",
+      "options": [
+        "Salut !",
+        "Merci !",
+        "Silence !",
+        "Vite !"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les verbes en -ω sont les plus courants.",
+      "reponse": true
+    }
+  ]
+}

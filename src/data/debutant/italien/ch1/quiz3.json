@@ -1,0 +1,95 @@
+{
+  "id": "quiz3",
+  "titre": "Se présenter",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment demande-t-on 'Comment t'appelles-tu ?' ?",
+      "options": [
+        "Comment ti chiami?",
+        "Come ti chiami?",
+        "Chi sei tu?",
+        "Quale è il tuo nome?"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour dire 'Je m'appelle', on dit 'Mi chiamo'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour dire 'Enchanté', on dit '{{1}}'.",
+      "reponsesAttendues": [
+        "Piacere"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Je suis français' ?",
+      "options": [
+        "Io sono francese",
+        "Io ho francese",
+        "Mi sono francese",
+        "Sono di Francia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "En italien, on peut souvent omettre le pronom sujet (Io, Tu...).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'Quanti anni hai?' ?",
+      "options": [
+        "Où habites-tu ?",
+        "Comment vas-tu ?",
+        "Quel âge as-tu ?",
+        "Combien sont-ils ?"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour dire 'J'habite à Rome', on dit '{{1}} a Roma'.",
+      "reponsesAttendues": [
+        "Abito",
+        "Vivo"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Di dove sei?' demande l'origine d'une personne.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment répond-on à 'Come stai?' (Comment vas-tu ?) ?",
+      "options": [
+        "Sto bene, grazie",
+        "Mi chiamo Marco",
+        "Sono francese",
+        "Ho 20 anni"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le vouvoiement s'utilise avec 'Lei' (Elle) en italien.",
+      "reponse": true
+    }
+  ]
+}

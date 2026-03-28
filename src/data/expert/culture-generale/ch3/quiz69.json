@@ -1,0 +1,95 @@
+{
+  "id": "quiz69",
+  "titre": "Culture Générale Expert : Le Début de la Guerre Froide",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle expression Winston Churchill a-t-il utilisée pour décrire la division de l'Europe après 1945 ?",
+      "options": [
+        "Le Rideau de Fer",
+        "Le Mur de la Honte",
+        "La Muraille de Chine",
+        "La Ligne de Démarcation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le plan Marshall était une aide économique américaine massive pour la reconstruction de l'Europe.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La crise de `{{1}}` (1948-1949) a mené au premier grand blocus de la ville par les Soviétiques.",
+      "reponsesAttendues": [
+        "Berlin"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle alliance militaire occidentale fut créée en 1949 face au bloc de l'Est ?",
+      "options": [
+        "L'OTAN",
+        "Le Pacte de Varsovie",
+        "La CECA",
+        "L'ONU"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La Guerre de Corée (1950-1953) fut l'un des premiers conflits 'chauds' de la Guerre froide.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'équivalent soviétique de l'OTAN, créé en 1955 ?",
+      "options": [
+        "Le Pacte de Varsovie",
+        "Le COMECON",
+        "Le Kominform",
+        "L'Union Soviétique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le concept de `{{1}}` (Containment) visait à endiguer l'expansion du communisme.",
+      "reponsesAttendues": [
+        "Contiguïté",
+        "Endiguement"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La décolonisation a commencé peu après la fin de la Seconde Guerre Mondiale (ex: Inde en 1947).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel texte de 1948 proclame des droits universels inaliénables pour tous les humains ?",
+      "options": [
+        "La Déclaration Universelle des Droits de l'Homme",
+        "La Constitution de l'ONU",
+        "Le Manifeste de l'UNESCO",
+        "La Charte de San Francisco"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La déstalinisation a été lancée par Khrouchtchev lors du XXe congrès du PCUS en 1956.",
+      "reponse": true
+    }
+  ]
+}

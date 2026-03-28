@@ -1,0 +1,94 @@
+{
+  "id": "quiz46",
+  "titre": "Italien Expert : Falsi Amici (Italo-Francesi)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Cosa significa 'Fermata' ?",
+      "options": [
+        "Un arrêt (bus, train)",
+        "Une fermeture",
+        "Une signature",
+        "Une femme forte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Salire' significa 'monter' (non salir).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot italien pour 'sortir' est `{{1}}` (non sortire che significa riuscire).",
+      "reponsesAttendues": [
+        "uscire"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Cosa significa 'Cantina' ?",
+      "options": [
+        "Une cave",
+        "Une cantine scolaire",
+        "Une chanson latine",
+        "Une boîte de conserve"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Aceto' significa 'vinaigre' (non acier).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Traduci 'Gamba' :",
+      "options": [
+        "Jambe",
+        "Gambe (instrument)",
+        "Crevette",
+        "Route"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le mot `{{1}}` signifie 'bureau' en italien (non scrivania che è il mobile).",
+      "reponsesAttendues": [
+        "ufficio"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Magazzino' significa 'entrepôt' ou 'grand magasin'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Cosa significa 'Addosso' ?",
+      "options": [
+        "Sur soi / Sur le dos",
+        "Adieu",
+        "Doucement",
+        "Derrière"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "'Pacco' significa 'paquet' (non Pâques).",
+      "reponse": true
+    }
+  ]
+}

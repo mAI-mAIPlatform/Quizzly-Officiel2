@@ -1,0 +1,94 @@
+{
+  "id": "quiz108",
+  "titre": "Grec Expert : Sciences et Mathématiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est considéré comme le 'père de la géométrie' pour son oeuvre 'Les Éléments' ?",
+      "options": [
+        "Euclide",
+        "Pythagore",
+        "Thalès",
+        "Archimède"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Archimède de Syracuse a découvert le principe de la poussée des fluides en prenant son bain.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le médecin `{{1}}` (Hippocrate) de Cos est considéré comme le père de la médecine clinique et éthique.",
+      "reponsesAttendues": [
+        "Hippocrate"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel astronome grec a proposé le premier modèle héliocentrique (le Soleil au centre) dès le IIIe siècle av. J.-C. ?",
+      "options": [
+        "Aristarque de Samos",
+        "Ptolémée",
+        "Ératosthène",
+        "Hipparque"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Ératosthène de Cyrène a calculé la circonférence de la Terre avec une précision étonnante en observant l'ombre d'un obélisque.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel savant d'Alexandrie a rédigé l''Almageste', bible de l'astronomie géocentrique pendant des siècles ?",
+      "options": [
+        "Ptolémée",
+        "Claude Galien",
+        "Diophante",
+        "Pappus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La machine d'`{{1}}` (Anticythère) est considérée comme le premier ordinateur analogique de l'histoire pour calculer des positions astronomiques.",
+      "reponsesAttendues": [
+        "Anticythere"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Galien était un médecin grec dont les théories sur l'anatomie ont dominé le Moyen Âge.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel mathématicien est l'auteur des premières méthodes d'algèbre (Arithmétiques) ?",
+      "options": [
+        "Diophante",
+        "Euclide",
+        "Apollonios",
+        "Théon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Héron d'Alexandrie avait conçu une machine à vapeur primitive appelée éolipyle.",
+      "reponse": true
+    }
+  ]
+}

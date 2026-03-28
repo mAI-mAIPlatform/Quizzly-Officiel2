@@ -1,0 +1,94 @@
+{
+  "id": "quiz1",
+  "titre": "La 1ère Déclinaison : Les Noms en -a",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "De quel genre sont généralement les noms de la 1ère déclinaison (finissant en -a) ?",
+      "options": [
+        "Féminin",
+        "Masculin",
+        "Neutre",
+        "Ils n'ont pas de genre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Rosa' signifie 'la rose'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La fille se dit '{{1}}' (puella).",
+      "reponsesAttendues": [
+        "puella"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'aqua' ?",
+      "options": [
+        "L'eau",
+        "La terre",
+        "Le feu",
+        "L'air"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Silva' signifie 'la forêt'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'la vie' ?",
+      "options": [
+        "vita",
+        "via",
+        "villa",
+        "terra"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La route se dit '{{1}}' (via).",
+      "reponsesAttendues": [
+        "via"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Certains noms en -a sont masculins, comme 'agricola' (le paysan).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'terra' ?",
+      "options": [
+        "La terre",
+        "Le ciel",
+        "La lune",
+        "L'étoile"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le nominatif singulier de la 1ère déclinaison finit par -a.",
+      "reponse": true
+    }
+  ]
+}

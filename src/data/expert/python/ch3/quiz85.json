@@ -1,0 +1,95 @@
+{
+  "id": "quiz85",
+  "titre": "Python Expert : Sécurité logicielle et Bonnes Pratiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi l'utilisation de `eval()` avec des entrées utilisateur est-elle extrêmement dangereuse ?",
+      "options": [
+        "Elle permet l'exécution de code arbitraire",
+        "Elle ralentit le programme",
+        "Elle consomme trop de RAM",
+        "Elle ne supporte pas les dictionnaires"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation de `shell=True` dans `subprocess.run()` expose le programme aux attaques par injection de commandes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La fonction `{{1}}` (ast.literal_eval) est une alternative sûre à `eval()` pour évaluer des chaînes contenant des littéraux Python.",
+      "reponsesAttendues": [
+        "ast.literal_eval",
+        "literal_eval"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel module standard est recommandé pour générer des jetons de sécurité et des mots de passe cryptographiquement forts ?",
+      "options": [
+        "secrets",
+        "random",
+        "math",
+        "uuid"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le module `pickle` est sûr pour désérialiser des données provenant de sources inconnues.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle vulnérabilité survient lorsqu'une application inclut des données non filtrées dans une requête SQL ?",
+      "options": [
+        "Injection SQL",
+        "XSS",
+        "Buffer Overflow",
+        "Race Condition"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'outil `{{1}}` (Bandit) est un linter de sécurité populaire pour Python qui recherche les vulnérabilités courantes dans le code.",
+      "reponsesAttendues": [
+        "Bandit"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation de f-strings pour construire des requêtes SQL est une pratique sécurisée.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment protéger son application contre les attaques par déni de service (DoS) liées à l'analyse de fichiers XML complexes ?",
+      "options": [
+        "Utiliser defusedxml au lieu des bibliothèques standards",
+        "Augmenter la RAM",
+        "Désactiver le XML",
+        "Utiliser JSON uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La gestion rigoureuse des dépendances (via pip-audit par exemple) est cruciale pour la sécurité d'un projet.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz8",
+  "titre": "Graphiques SVG",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie SVG ?",
+      "options": [
+        "Scalable Vector Graphics",
+        "Simple Visual Graphic",
+        "Static View Grid",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le SVG est basé sur XML et peut être manipulé via le DOM et CSS.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour dessiner un cercle, on utilise la balise <{{1}}>.",
+      "reponsesAttendues": ["circle"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel attribut définit la couleur de remplissage d'une forme ?",
+      "options": [
+        "fill",
+        "color",
+        "background",
+        "stroke"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La balise <path> permet de créer des formes complexes via un langage de dessin (attribut d).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi sert viewBox ?",
+      "options": [
+        "À définir le repère de coordonnées et les limites de visualisation",
+        "À faire un cadre",
+        "À rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} définit la couleur de la bordure d'une forme SVG.",
+      "reponsesAttendues": ["stroke"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un SVG perd de sa qualité lorsqu'on l'agrandit énormément.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment inclure un SVG externe de manière performante ?",
+      "options": [
+        "En utilisant <img> ou <object>",
+        "En faisant un copier/coller (Inline)",
+        "Les deux",
+        "Rien"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le SVG est idéal pour les icônes et illustrations simples.",
+      "reponse": true
+    }
+  ]
+}

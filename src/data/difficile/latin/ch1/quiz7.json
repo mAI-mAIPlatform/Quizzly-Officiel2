@@ -1,0 +1,90 @@
+{
+  "id": "quiz7",
+  "titre": "Interrogatives Indirectes II",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment introduit-on une interrogation indirecte double (si... ou si...) ?",
+      "options": [
+        "utrum... an... (ou -ne... an...)",
+        "si... aut...",
+        "aut... aut...",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour l'alternative 'ou ne pas', on utilise 'an non' ou 'necne'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le premier membre d'une double interrogation peut rester {{1}} (non marqué).",
+      "reponsesAttendues": ["vide", "implicite"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Quaero utrum verum sit an falsum'",
+      "options": [
+        "Je demande si c'est vrai ou faux",
+        "Je demande ce qui est vrai et faux",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le pronom indéfini 'nescioquis' (je ne sais qui = quelqu'un) ne déclenche PAS le subjonctif car il est devenu un adjectif.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle particule pour une question rhétorique indirecte ?",
+      "options": [
+        "num (sens : si par hasard / est-ce que vraiment)",
+        "nonne",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Dans 'nescio {{1}}', le 'an' exprime souvent une probabilité positive (peut-être bien que).",
+      "reponsesAttendues": ["an"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut coordonner plusieurs interrogatives indirectes.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Laquelle est une double interrogation correcte ?",
+      "options": [
+        "utrum veniat an maneat",
+        "si veniat aut maneat",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le choix entre 'an non' et 'necne' dépend souvent de la présence d'un verbe dans le second membre.",
+      "reponse": true
+    }
+  ]
+}

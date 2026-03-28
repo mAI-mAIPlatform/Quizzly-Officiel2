@@ -1,0 +1,94 @@
+{
+  "id": "quiz11",
+  "titre": "Les Trois États de la Matière",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Sous quels états peut-on trouver l'eau sur Terre ?",
+      "options": [
+        "Solide et liquide uniquement",
+        "Liquide et gazeux uniquement",
+        "Solide, liquide et gazeux",
+        "Solide uniquement"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une pierre est à l'état solide.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'eau qui coule du robinet est à l'état {{1}}.",
+      "reponsesAttendues": [
+        "liquide"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on l'état de la vapeur d'eau ?",
+      "options": [
+        "Solide",
+        "Liquide",
+        "Gazeux",
+        "Dur"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un solide a une forme propre (il ne change pas de forme si on le déplace).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel objet est à l'état gazeux ?",
+      "options": [
+        "Un glaçon",
+        "De l'huile",
+        "L'air dans un ballon",
+        "Une cuillère"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La glace est de l'eau à l'état {{1}}.",
+      "reponsesAttendues": [
+        "solide"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les liquides prennent la forme du récipient qui les contient.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces substances est liquide à température ambiante ?",
+      "options": [
+        "Le fer",
+        "Le bois",
+        "Le lait",
+        "Le sucre"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Certains métaux peuvent devenir liquides s'ils sont très chauffés.",
+      "reponse": true
+    }
+  ]
+}

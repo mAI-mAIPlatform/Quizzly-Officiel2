@@ -1,0 +1,94 @@
+{
+  "id": "quiz36",
+  "titre": "HTML Expert : IndexedDB",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser IndexedDB plutôt que LocalStorage ?",
+      "options": [
+        "Pour de gros volumes de données, des recherches complexes et un accès asynchrone non-bloquant",
+        "Parce que c'est plus simple à coder",
+        "C'est la seule façon de stocker des cookies",
+        "LocalStorage va disparaître"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "IndexedDB est une base de données NoSQL orientée objets.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans IndexedDB, les données sont stockées dans des 'Object `{{1}}`'.",
+      "reponsesAttendues": [
+        "Stores"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Tout accès aux données doit s'effectuer à travers une...",
+      "options": [
+        "Transaction",
+        "Requête HTTP",
+        "Boucle asynchrone",
+        "Variable globale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "IndexedDB permet de stocker des Blobs et des ArrayBuffers (données binaires).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel événement permet de créer des magasins d'objets ou des index ?",
+      "options": [
+        "onupgradeneeded",
+        "onsuccess",
+        "oncreate",
+        "oninit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La propriété `{{1}}` permet d'identifier de manière unique chaque objet du store.",
+      "reponsesAttendues": [
+        "keyPath"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "IndexedDB est partagée entre tous les navigateurs de l'utilisateur.",
+        "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est un avantage majeur des Index ?",
+      "options": [
+        "Pouvoir rechercher des objets via d'autres propriétés que la clé primaire",
+        "Prendre moins de place",
+        "Accélérer internet",
+        "Supprimer les doublons"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'API IndexedDB peut être difficile à utiliser directement et nécessite souvent des wrappers (ex: Dexie.js).",
+      "reponse": true
+    }
+  ]
+}

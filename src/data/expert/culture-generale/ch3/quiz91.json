@@ -1,0 +1,94 @@
+{
+  "id": "quiz91",
+  "titre": "Culture Générale Expert : L'ONU et les Organisations Internationales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "En quelle année l'Organisation des Nations Unies (ONU) a-t-elle été officiellement créée ?",
+      "options": [
+        "1945",
+        "1919",
+        "1948",
+        "1951"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Conseil de Sécurité de l'ONU compte 5 membres permanents disposant d'un droit de veto.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le siège principal de l'ONU est situé dans la ville de `{{1}}` (New York).",
+      "reponsesAttendues": [
+        "New York"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle agence de l'ONU est spécifiquement chargée de l'éducation, de la science et de la culture ?",
+      "options": [
+        "L'UNESCO",
+        "L'UNICEF",
+        "L'OMS",
+        "La FAO"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'actuel Secrétaire général de l'ONU (au 1er janvier 2024) est António Guterres.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Où se trouve le siège de l'Organisation Mondiale de la Santé (OMS) ?",
+      "options": [
+        "Genève",
+        "Paris",
+        "Washington",
+        "Vienne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La `{{1}}` (CIJ - Cour Internationale de Justice) est l'organe judiciaire principal de l'ONU, siégeant à La Haye.",
+      "reponsesAttendues": [
+        "CIJ"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'ONU a succédé à la Société des Nations (SDN).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel pays ne possède PAS de droit de veto au Conseil de Sécurité ?",
+      "options": [
+        "L'Allemagne",
+        "La Chine",
+        "La France",
+        "Le Royaume-Uni"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Casques bleus sont les forces de maintien de la paix de l'ONU.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz58",
+  "titre": "Python Expert : Parallélisme & Concurrence",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel permet de contourner le GIL pour le calcul intensif (CPU bound) ?",
+      "options": [
+        "multiprocessing",
+        "threading",
+        "asyncio",
+        "functools"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans 'multiprocessing', chaque processus possède son propre interpréteur Python et son propre espace mémoire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour partager de la mémoire entre processus, on peut utiliser le module `multiprocessing.{{1}}`.",
+      "reponsesAttendues": [
+        "shared_memory"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre un Pool et un Process ?",
+      "options": [
+        "Pool gère un ensemble de workers réutilisables, Process est un processus unique lancé à la demande",
+        "Pool est plus lent",
+        "Process est pour les serveurs",
+        "Aucune"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les Threads partagent la même mémoire RAM, mais sont limités par le GIL pour l'exécution du code Python pure.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'Race Condition' ?",
+      "options": [
+        "Une situation où le résultat dépend de l'ordre d'exécution imprévisible de plusieurs threads accédant à une ressource partagée",
+        "Une erreur de rapidité",
+        "Une boucle infinie",
+        "Un crash du système"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le module `{{1}}.futures` fournit une interface unifiée (ProcessPoolExecutor/ThreadPoolExecutor).",
+      "reponsesAttendues": [
+        "concurrent"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Multiprocessing utilise la sérialisation (pickle) pour envoyer des données entre les processus.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel outil permet de synchroniser des threads en s'assurant qu'un seul y accède ?",
+      "options": [
+        "threading.Lock",
+        "threading.Gate",
+        "threading.Key",
+        "threading.Switch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le multiprocessing est globalement plus lourd que le threading en termes de ressources système.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "quiz56",
+  "titre": "Musique Expert : Percussions et Rythme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel instrument de percussion consiste en de grandes chaudières en cuivre surmontées d'une peau ?",
+      "options": [
+        "Les Timbales",
+        "La Grosse Caisse",
+        "Le Gong",
+        "Les Cymbales"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le xylophone possède des lames en bois, alors que le métallophone (ou glockenspiel) possède des lames en métal.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` est un instrument de percussion à clavier dont les lames sont en métal avec des tubes résonateurs.",
+      "reponsesAttendues": [
+        "vibraphone"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une percussion à hauteur indéterminée ?",
+      "options": [
+        "Un instrument produisant un son sans note précise (ex: Triangle, Caisse claire)",
+        "Un instrument désaccordé",
+        "Un instrument silencieux",
+        "Un instrument très grave"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le piano est techniquement considéré comme un instrument à percussions (cordes frappées).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel instrument typique de la musique espagnole consiste en deux petites coques de bois ?",
+      "options": [
+        "Les Castagnettes",
+        "Le Tambourin",
+        "Le Guiro",
+        "Le Maracas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` est un grand disque de métal qui produit un son puissant et résonnant lorsqu'il est frappé.",
+      "reponsesAttendues": [
+        "Tam-tam",
+        "Gong"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La batterie est un ensemble d'instruments de percussion joué par un seul musicien.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un célesta ?",
+      "options": [
+        "Un clavier dont les marteaux frappent des lames métalliques, produisant un son cristallin",
+        "Un type de flûte",
+        "Un tambour sacré",
+        "Un chanteur ténor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les percussions sont essentielles pour la structure rythmique et la couleur orchestrale.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz8",
+  "titre": "Concordance : Simultanéité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la règle de base de la concordance des temps au subjonctif ?",
+      "options": [
+        "Le temps du subjonctif dépend du temps du verbe principal et du rapport chronologique",
+        "On met toujours le présent",
+        "C'est comme en français",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si le verbe principal est au présent, on utilise le subjonctif présent pour exprimer la simultanéité.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si le verbe principal est à un temps passé (parfait, imparfait), la simultanéité se marque par le subjonctif {{1}}.",
+      "reponsesAttendues": ["imparfait"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Dites : 'Je demandais ce que tu faisais'",
+      "options": [
+        "Rogabam quid ageres",
+        "Rogo quid agas",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le futur simple du principal est considéré comme un temps 'primaire' (comme le présent).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Subjonctif après un parfait de sens présent (ex: odi) ?",
+      "options": [
+        "Subjonctif présent (simultanéité)",
+        "Subjonctif imparfait",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le parfait indéfini (j'ai fait) commande la suite des temps {{1}} (historiques).",
+      "reponsesAttendues": ["secondaires"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le présent historique peut commander soit les temps primaires, soit les secondaires.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Traduisez 'Gaudeo quod venias'",
+      "options": [
+        "Je me réjouis que tu viennes (maintenant)",
+        "Je me réjouis que tu sois venu",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La concordance des temps est la clé pour traduire précisément les textes classiques.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz19",
+  "titre": "Effet de l'Art Grec",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est ce que l'art 'Gréco-Bouddhique' (Art du Gandhara) ?",
+      "options": [
+        "Une fusion entre l'esthétique grecque et les thèmes bouddhistes en Asie centrale",
+        "Un art venu d'Amérique",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Alexandre le Grand a emmené des artistes grecs jusqu'aux confins de l'Inde.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'un des premiers royaumes à pratiquer ce mélange est le royaume de {{1}}.",
+      "reponsesAttendues": ["Bactriane"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment l'influence grecque se manifeste-t-elle dans les statues de Bouddha ?",
+      "options": [
+        "Par le drapé à la grecque et les traits du visage rappelant Apollon",
+        "Par l'usage du plastique",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Rome a littéralement pillé les chefs-d'œuvre grecs pour décorer ses villas et ses places.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "L'influence de l'architecture grecque est visible jusqu'à :",
+      "options": [
+        "Aï-Khanoum (actuel Afghanistan)",
+        "L'islande",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La ville de {{1}} en Jordanie présente des temples de style grec magnifique.",
+      "reponsesAttendues": ["Pétra"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La culture grecque est devenue universelle grâce à la conquête macédonienne.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "L'art grec a servi de réservoir de formes pour :",
+      "options": [
+        "Toute la Renaissance et le Néo-classicisme européen",
+        "L'art abstrait",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le miracle grec a rayonné bien au-delà des frontières de la Grèce.",
+      "reponse": true
+    }
+  ]
+}

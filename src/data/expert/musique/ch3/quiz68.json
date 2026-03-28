@@ -1,0 +1,95 @@
+{
+  "id": "quiz68",
+  "titre": "Musique Expert : Brahms vs Bruckner",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Johannes Brahms était considéré par Schumann comme le successeur direct de...",
+      "options": [
+        "Beethoven",
+        "Bach",
+        "Wagner",
+        "Liszt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Brahms était un partisan de la 'musique pure' (sans programme) par opposition aux wagnériens.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un Requiem `{{1}}` (Ein deutsches Requiem) est le chef-d'œuvre choral de Brahms.",
+      "reponsesAttendues": [
+        "allemand"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel compositeur autrichien, organiste mystique, a écrit 9 symphonies monumentales ?",
+      "options": [
+        "Anton Bruckner",
+        "Gustav Mahler",
+        "Hugo Wolf",
+        "Richard Strauss"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les symphonies de Bruckner se caractérisent par leur longueur et leur dimension spirituelle ('cathédrales sonores').",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelait-on la faction musicale s'opposant à Wagner au XIXe siècle ?",
+      "options": [
+        "Les Brahmsiens",
+        "Les Classiques",
+        "Les Modernes",
+        "Les Puristes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` de Bruckner contient souvent des appels de cuivres puissants et des trémolos de cordes.",
+      "enonce": "Le style symphonique de Bruckner...",
+      "reponsesAttendues": [
+        "symphonique"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Bruckner était un admirateur inconditionnel de Wagner, malgré leurs styles différents.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Combien de symphonies Brahms a-t-il composées avant de se sentir l'égal de Beethoven ?",
+      "options": [
+        "4",
+        "9",
+        "1",
+        "41"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Brahms a passé une grande partie de sa vie à Vienne.",
+      "reponse": true
+    }
+  ]
+}

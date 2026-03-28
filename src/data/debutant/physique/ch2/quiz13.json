@@ -1,0 +1,95 @@
+{
+  "id": "quiz13",
+  "titre": "Mélanges de Liquides",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on de deux liquides qui se mélangent bien ?",
+      "options": [
+        "Ils sont miscibles",
+        "Ils sont fâchés",
+        "Ils sont invisibles",
+        "Ils sont secs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'eau et l'alcool sont miscibles.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Deux liquides qui ne se mélangent pas sont {{1}}.",
+      "reponsesAttendues": [
+        "non miscibles",
+        "non-miscibles"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces paires est non miscible ?",
+      "options": [
+        "Eau + Sirop",
+        "Eau + Huile",
+        "Lait + Eau",
+        "Jus d'orange + Eau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'huile flotte sur l'eau car elle est moins dense.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Si on secoue très fort de l'eau et de l'huile, on obtient temporarily ...",
+      "options": [
+        "Un corps pur",
+        "Une émulsion",
+        "Un solide",
+        "Un gaz"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La {{1}} (action) permet de séparer l'eau et l'huile après repos.",
+      "reponsesAttendues": [
+        "décantation"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le vinaigre et l'huile sont miscibles.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle est un mélange liquide homogène ?",
+      "options": [
+        "Vinaigrette",
+        "L'eau minérale",
+        "Eau + Pétrole",
+        "Bière avec mousse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut forcer deux liquides non miscibles à se mélanger avec du savon.",
+      "reponse": true
+    }
+  ]
+}

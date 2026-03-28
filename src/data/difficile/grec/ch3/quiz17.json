@@ -1,0 +1,90 @@
+{
+  "id": "quiz17",
+  "titre": "Condition Féminine",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle était la place principale de la femme dans la cité athénienne ?",
+      "options": [
+        "Au foyer (Gynécée), exclue de la vie politique",
+        "À l'assemblée du peuple",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "À Sparte, les femmes avaient une plus grande liberté physique et pratiquaient l'athlétisme.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La femme athénienne était toujours sous la tutelle d'un homme (père ou mari) appelé son {{1}}.",
+      "reponsesAttendues": ["kurios"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel était le rôle religieux important accessible aux femmes ?",
+      "options": [
+        "Prêtresse (ex: de l'Héraion ou de Delphes)",
+        "Aucun",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les hétaïres étaient des courtisanes cultivées participant aux banquets des hommes.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Le mariage grec était avant tout :",
+      "options": [
+        "Un contrat entre deux familles pour produire des héritiers citoyens",
+        "Un acte romantique",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "À Athènes, une fille héritière sans frère est une '{{1}}' qui doit épouser son plus proche parent.",
+      "reponsesAttendues": ["épiclère"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les femmes travaillaient souvent pour aider à l'économie familiale (tissage, petits commerces).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "La poétesse Sappho vient de l'île de :",
+      "options": [
+        "Lesbos",
+        "Crète",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'image de la femme dans la littérature (Antigone, Médée) contraste souvent avec sa soumission réelle.",
+      "reponse": true
+    }
+  ]
+}

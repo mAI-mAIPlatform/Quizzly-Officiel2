@@ -1,0 +1,90 @@
+{
+  "id": "quiz6",
+  "titre": "Listes et Groupage",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel type de liste utiliser pour un dictionnaire (terme/définition) ?",
+      "options": [
+        "<dl>",
+        "<ul>",
+        "<ol>",
+        "<list>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans une <dl>, un seul <dt> peut être associé à plusieurs <dd>.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise {{1}} définit un élément de liste dans une <ul> ou <ol>.",
+      "reponsesAttendues": ["li"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel attribut de <ol> permet de commencer la numérotation à un chiffre précis ?",
+      "options": [
+        "start",
+        "begin",
+        "index",
+        "value"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La balise <pre> conserve les espaces et sauts de ligne tels qu'ils sont dans le code source.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel est un groupement thématique de paragraphes, citations, etc. ?",
+      "options": [
+        "<blockquote>",
+        "<q>",
+        "<cite>",
+        "<p>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} d'une balise <ol> permet d'inverser l'ordre des numéros.",
+      "reponsesAttendues": ["reversed"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il est syntaxiquement correct de mettre un <div> directement comme enfant d'une <ul>.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie la balise <br> ?",
+      "options": [
+        "Un simple saut de ligne sans valeur sémantique",
+        "Une rupture de paragraphe",
+        "Un espace",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Une liste peut être imbriquée dans une autre liste.",
+      "reponse": true
+    }
+  ]
+}

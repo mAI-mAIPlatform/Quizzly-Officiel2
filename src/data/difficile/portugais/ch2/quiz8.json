@@ -1,0 +1,90 @@
+{
+  "id": "quiz8",
+  "titre": "Florbela Espanca",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le thème prédominant dans la poésie de Florbela Espanca ?",
+      "options": [
+        "L'érotisme, la souffrance amoureuse et la solitude",
+        "La politique",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Florbela Espanca est considérée comme la grande figure du féminisme littéraire portugais au début du XXe siècle.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Son célèbre recueil de sonnets publié en 1919 s'intitule 'Livro de {{1}}'.",
+      "reponsesAttendues": ["Mágoas"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment est morte Florbela Espanca ?",
+      "options": [
+        "Suicide le jour de son anniversaire",
+        "Vieillesse",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Sa poésie est caractérisée par une forme classique (le sonnet) mais un contenu révolutionnaire pour l'époque.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Dans quel poème exprime-t-elle son désir infini d'aimer ?",
+      "options": [
+        "Amar!",
+        "Ode Triunfal",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Florbela Espanca est née dans la région de l'{{1}} (Alentejo).",
+      "reponsesAttendues": ["Alentejo"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Elle a été mariée trois fois, ce qui était très scandaleux pour la société conservatrice de son temps.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est l'ambiance générale de son œuvre ?",
+      "options": [
+        "Mélancolique et passionnée",
+        "Ironique et joyeuse",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Sa poésie a été redécouverte et célébrée après la Révolution des Œillets.",
+      "reponse": true
+    }
+  ]
+}

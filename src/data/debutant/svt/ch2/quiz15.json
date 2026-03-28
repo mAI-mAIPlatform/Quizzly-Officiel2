@@ -1,0 +1,98 @@
+{
+  "id": "quiz15",
+  "titre": "Les Régimes Alimentaires (1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on un animal qui ne mange que des végétaux ?",
+      "options": [
+        "Un carnivore",
+        "Un phytophage (ou herbivore)",
+        "Un omnivore",
+        "Un insectivore"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La vache est un animal herbivore.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'animal qui mange de la viande est un {{1}}.",
+      "reponsesAttendues": [
+        "carnivore",
+        "zoophage"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est le régime alimentaire du lion ?",
+      "options": [
+        "Herbivore",
+        "Carnivore",
+        "Omnivore",
+        "Il mange du pain"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le lapin mange des carottes et de l'herbe, c'est un herbivore.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on un animal qui mange de tout (végétaux et animaux) ?",
+      "options": [
+        "Un omnivore",
+        "Un herbivore",
+        "Un carnivore",
+        "Un vampire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'{{1}} (animal) est un exemple célèbre d'omnivore.",
+      "reponsesAttendues": [
+        "ours",
+        "homme",
+        "porc",
+        "cochon"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le crocodile est un herbivore.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces bêtes mange des insectes ?",
+      "options": [
+        "L'hirondelle",
+        "Le mouton",
+        "Le cheval",
+        "Le cerf"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les régimes alimentaires dépendent de ce que l'animal trouve dans son milieu.",
+      "reponse": true
+    }
+  ]
+}

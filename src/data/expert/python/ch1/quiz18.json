@@ -1,0 +1,94 @@
+{
+  "id": "quiz18",
+  "titre": "Bytecode et Interpréteur",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le bytecode Python ?",
+      "options": [
+        "Un code intermédiaire de bas niveau exécuté par la machine virtuelle Python",
+        "Du code binaire directement exécuté par le processeur",
+        "Une version compressée du code source",
+        "Du code JavaScript généré"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le module 'dis' permet de désassembler le bytecode Python.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les fichiers de bytecode compilés ont généralement l'extension `.{{1}}`.",
+      "reponsesAttendues": [
+        "pyc"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle instruction de bytecode correspond à l'addition ?",
+      "options": [
+        "BINARY_ADD",
+        "SUM_BLOCK",
+        "ADD_OP",
+        "MATH_PLUS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'interpréteur Python classique est écrit en C (CPython).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "A quoi sert le dossier __pycache__ ?",
+      "options": [
+        "A stocker le bytecode compilé pour accélérer les imports suivants",
+        "A stocker les variables temporaires",
+        "A cacher les fichiers secrets",
+        "C'est une sauvegarde automatique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le bytecode Python est exécuté par une machine virtuelle basée sur une {{1}} (stack-based).",
+      "reponsesAttendues": [
+        "pile"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut exécuter du code Python sans générer de bytecode.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est un interpréteur Python alternatif utilisant une compilation JIT ?",
+      "options": [
+        "PyPy",
+        "Jython",
+        "IronPython",
+        "Cython"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Python 3.11 a apporté des améliorations majeures de performance ('Specializing Adaptive Interpreter').",
+      "reponse": true
+    }
+  ]
+}

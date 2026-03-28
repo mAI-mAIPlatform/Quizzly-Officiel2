@@ -1,0 +1,94 @@
+{
+  "id": "quiz39",
+  "titre": "HTML Expert : Images Responsives (srcset & picture)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert l'attribut 'srcset' sur une balise <img> ?",
+      "options": [
+        "À proposer plusieurs versions d'une image avec des résolutions ou densités de pixels différentes",
+        "À faire un diaporama",
+        "À changer la couleur de l'image",
+        "À définir le titre de l'image"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'sizes' indique au navigateur la largeur qu'occupera l'image dans la mise en page.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'élément permettant de proposer différents formats (ex: WebP, AVIF) ou de gérer le 'Art Direction' est `<{{1}}>`.",
+      "reponsesAttendues": [
+        "picture"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À l'intérieur de <picture>, quelle balise définit une option d'image ?",
+      "options": [
+        "<source>",
+        "<img>",
+        "<image>",
+        "<opt>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le navigateur choisira automatiquement la meilleure image selon l'écran et la connexion, sans code JS supplémentaire.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le descripteur 'w' dans srcset (ex: image-800w.jpg 800w) ?",
+      "options": [
+        "La largeur réelle de l'image en pixels",
+        "Le poids du fichier en Ko",
+        "La valeur de focus",
+        "Une erreur de syntaxe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le descripteur '2x' sert à cibler les écrans à haute densité (Écrans `{{1}}`).",
+      "reponsesAttendues": [
+        "Retina"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La balise <img> reste obligatoire à l'intérieur de <picture> comme solution de repli (fallback).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Avantage du format AVIF ?",
+      "options": [
+        "Une bien meilleure compression que le JPEG à qualité égale",
+        "Supporté par IE11",
+        "Il est plus lourd mais plus beau",
+        "C'est un format vidéo uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le chargement paresseux (loading='lazy') fonctionne aussi sur les images responsives.",
+      "reponse": true
+    }
+  ]
+}

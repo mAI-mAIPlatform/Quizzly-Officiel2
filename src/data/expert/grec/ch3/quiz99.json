@@ -1,0 +1,94 @@
+{
+  "id": "quiz99",
+  "titre": "Grec Expert : Politique et Citoyenneté",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel réformateur athénien est considéré comme le 'Père de la démocratie' en 508 av. J.-C. ?",
+      "options": [
+        "Clisthène",
+        "Solon",
+        "Périclès",
+        "Dracon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Ecclésia était l'assemblée de tous les citoyens athéniens sur la colline de la Pnyx.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La `{{1}}` (Boulè) était le conseil des 500 citoyens chargé de préparer les lois.",
+      "reponsesAttendues": [
+        "Boule"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appelait-on l'exil forcé de dix ans pour tout citoyen jugé dangereux pour la démocratie ?",
+      "options": [
+        "L'ostracisme",
+        "La déchéance",
+        "La relégation",
+        "L'ostracite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Solon a aboli l'esclavage pour dettes à Athènes au VIe siècle av. J.-C.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle magistrature suprême Périclès a-t-il exercée pendant près de 30 ans ?",
+      "options": [
+        "Stratège",
+        "Archonte",
+        "Éphore",
+        "Basileus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Misthos) était l'indemnité versée aux citoyens pauvres pour leur permettre de participer à la vie publique.",
+      "reponsesAttendues": [
+        "Misthos"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les femmes, les métèques et les esclaves avaient le droit de vote à Athènes.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel système politique Sparte pratiquait-elle avec deux rois et un conseil d'anciens ?",
+      "options": [
+        "L'oligarchie",
+        "La démocratie",
+        "La monarchie absolue",
+        "L'anarchie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'isonomie est le principe d'égalité devant la loi pour tous les citoyens.",
+      "reponse": true
+    }
+  ]
+}

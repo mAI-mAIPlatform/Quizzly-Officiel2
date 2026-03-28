@@ -1,0 +1,94 @@
+{
+  "id": "quiz102",
+  "titre": "Grec Expert : Socrate et l'Accouchement des Ames",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on la méthode de Socrate consistant à interroger son interlocuteur pour lui faire découvrir la vérité par lui-même ?",
+      "options": [
+        "La maïeutique",
+        "La rhétorique",
+        "La dialectique",
+        "La sophistique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Socrate n'a laissé aucune oeuvre écrite.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La célèbre phrase de Socrate est : 'Je sais une seule chose, c'est que je ne `{{1}}` (sais) rien'.",
+      "reponsesAttendues": [
+        "sais"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "De quoi Socrate a-t-il été accusé lors de son procès en 399 av. J.-C. ?",
+      "options": [
+        "Corruption de la jeunesse et impiété (ne pas honorer les dieux de la cité)",
+        "Trahison envers Sparte",
+        "Vol au trésor de Délos",
+        "Tentative de tyrannie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le 'daimôn' de Socrate était une voix intérieure qui l'avertissait de ne pas commettre d'erreurs.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment Socrate est-il mort après avoir été condamné ?",
+      "options": [
+        "En buvant la ciguë",
+        "Par décapitation",
+        "En exil à Thèbes",
+        "De vieillesse dans sa prison"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'`{{1}}` (Apologie) de Socrate est le texte de Platon relatant le plaidoyer de son maître lors du procès.",
+      "reponsesAttendues": [
+        "Apologie"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Socrate pensait que 'nul n'est méchant volontairement' et que le mal vient de l'ignorance.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel était le métier de la mère de Socrate, qui a inspiré le nom de sa méthode ?",
+      "options": [
+        "Sage-femme",
+        "Prêtresse",
+        "Commerçante",
+        "Poétesse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Xénophon est un autre auteur ayant écrit des souvenirs sur Socrate.",
+      "reponse": true
+    }
+  ]
+}

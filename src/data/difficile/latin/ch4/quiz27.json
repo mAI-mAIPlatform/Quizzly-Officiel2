@@ -1,0 +1,90 @@
+{
+  "id": "quiz27",
+  "titre": "Nourriture / Agric.",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel aliment était la base de l'Annone romaine ?",
+      "options": [
+        "Le blé (Frumentum)",
+        "La viande de porc",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les Romains ne connaissaient ni la pomme de terre, ni la tomate, ni le maïs.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'huile d'{{1}} était utilisée pour la cuisine, l'éclairage et l'hygiène.",
+      "reponsesAttendues": ["olive"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Popina' ?",
+      "options": [
+        "Une sorte de taverne ou de restaurant populaire",
+        "Un four à pain",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'eau courante était distribuée gratuitement dans les appartements des insulae.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle épice était la plus chère et recherchée ?",
+      "options": [
+        "Le poivre",
+        "Le sel",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La fête paysanne en l'honneur du dieu de la semence est les {{1}}.",
+      "reponsesAttendues": ["Saturnales"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'élevage des huîtres et des poissons était pratiqué dans de riches villas maritimes.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que buvait-on surtout à Rome ?",
+      "options": [
+        "Du vin (souvent coupé d'eau, miellé ou épicé)",
+        "De la bière",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Manger était un acte social et religieux fondamental.",
+      "reponse": true
+    }
+  ]
+}

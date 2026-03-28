@@ -1,0 +1,90 @@
+{
+  "id": "quiz22",
+  "titre": "Obstacles à l'Unité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel était le principal obstacle extérieur à l'unification italienne ?",
+      "options": [
+        "L'Empire d'Autriche",
+        "Le Royaume-Uni",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Pape s'opposait à l'unification car elle signifiait la fin des États Pontificaux.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La '{{1}}' (Questione) Romana désigne le conflit entre l'État italien et l'Église entre 1870 et 1929.",
+      "reponsesAttendues": ["Question", "Questione"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle ville a résisté le plus longtemps à l'intégration dans l'Italie unifiée ?",
+      "options": [
+        "Rome",
+        "Turin",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le 'Brigandage' (Brigantaggio) après 1861 était une forme de résistance du Sud à l'unification.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel pays a soutenu militairement le Piémont-Sardaigne contre l'Autriche en 1859 ?",
+      "options": [
+        "La France (Napoléon III)",
+        "La Prusse",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'expression 'On a fait l'Italie, il faut maintenant faire les {{1}}' (italiens) est attribuée à Massimo d'Azeglio.",
+      "reponsesAttendues": ["Italiens"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La disparité linguistique était un obstacle, la majorité des gens parlant des dialectes régionaux.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle province ne rejoint l'Italie qu'après la Première Guerre Mondiale ?",
+      "options": [
+        "Le Trentin-Haut-Adige / Trieste",
+        "La Lombardie",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'unification a été perçue par certains comme une 'piémontisation' imposée au reste du pays.",
+      "reponse": true
+    }
+  ]
+}

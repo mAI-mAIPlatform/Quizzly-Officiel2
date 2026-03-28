@@ -1,0 +1,90 @@
+{
+  "id": "quiz22",
+  "titre": "Standard Lib : Itertools Avancé",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que fait itertools.starmap(func, iterable) ?",
+      "options": [
+        "Dessine une carte",
+        "Applique une fonction à des arguments déballés d'un itérable",
+        "Trie les étoiles",
+        "Génère des nombres aléatoires"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "itertools.dropwhile(lambda x: x < 5, [1, 4, 6, 4, 1]) retourne [6, 4, 1].",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La fonction {{1}}() permet de compresser un itérable en utilisant un masque de booléens.",
+      "reponsesAttendues": ["compress"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle fonction permet de mélanger plusieurs itérables de longueurs différentes en s'arrêtant au plus court ?",
+      "options": [
+        "zip()",
+        "zip_longest()",
+        "chain()",
+        "product()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "itertools.zip_longest() utilise par défaut None pour les valeurs manquantes.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que retourne list(itertools.islice(range(10), 2, 4)) ?",
+      "options": [
+        "[0, 1, 2, 3]",
+        "[2, 3]",
+        "[2, 3, 4]",
+        "Error"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La fonction itertools.{{1}}() permet de filtrer les éléments d'un itérable pour lesquels la fonction prédicat retourne False.",
+      "reponsesAttendues": ["filterfalse"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "itertools.pairwise('ABC') produit ('A', 'B') et ('B', 'C') (disponible en Python 3.10+).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que fait itertools.tee(it, 3) ?",
+      "options": [
+        "Crée 3 copies indépendantes d'un itérateur",
+        "Divise par 3",
+        "Attend 3 secondes",
+        "Prend 3 éléments"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Itertools est écrit en C, ce qui le rend extrêmement performant.",
+      "reponse": true
+    }
+  ]
+}

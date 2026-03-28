@@ -1,0 +1,94 @@
+{
+  "id": "quiz23",
+  "titre": "La Famille (Familia)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'pater' ?",
+      "options": [
+        "Le père",
+        "La mère",
+        "Le fils",
+        "L'esclave"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Mater' signifie la mère.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le fils se dit '{{1}}' (filius).",
+      "reponsesAttendues": [
+        "filius"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'filia' ?",
+      "options": [
+        "La fille",
+        "La femme",
+        "La soeur",
+        "La tante"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Frater' signifie le frère.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'la soeur' ?",
+      "options": [
+        "soror",
+        "uxor",
+        "amica",
+        "mater"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'épouse se dit '{{1}}' (uxor).",
+      "reponsesAttendues": [
+        "uxor"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Liberi' (au pluriel) désigne les enfants de la famille.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'avus' ?",
+      "options": [
+        "Le grand-père",
+        "L'oncle",
+        "Le cousin",
+        "L'ancêtre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le 'pater familias' avait tout pouvoir sur sa maison.",
+      "reponse": true
+    }
+  ]
+}

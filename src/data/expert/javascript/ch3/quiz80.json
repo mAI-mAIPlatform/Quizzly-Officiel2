@@ -1,0 +1,95 @@
+{
+  "id": "quiz80",
+  "titre": "Revisione : Patterns e Interni Framework (Capitolo 3 - JavaScript Expert)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Virtual DOM ?",
+      "options": [
+        "Optimisation du rendu",
+        "Remplacement du JS",
+        "Framework CSS",
+        "Base de données"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "RxJS = Programmation réactive.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Nouveau système de réactivité fine : `{{1}}`.",
+      "reponsesAttendues": [
+        "Signals",
+        "signaux"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Sécurité : Faille d'injection de scripts ?",
+      "options": [
+        "XSS",
+        "CSRF",
+        "SQLi",
+        "DDoS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Web Workers = Multithreading.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Pattern utilisé pour les proxys réactifs ?",
+      "options": [
+        "Proxy",
+        "Observer",
+        "Factory",
+        "Singleton"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Suppression du code mort : `{{1}}`.",
+      "reponsesAttendues": [
+        "Tree-shaking"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "ESM = Module standard natif.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Framework pour tests E2E ?",
+      "options": [
+        "Playwright",
+        "Jest",
+        "Babel",
+        "Vite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'expertise JS demande de comprendre les outils de build.",
+      "reponse": true
+    }
+  ]
+}

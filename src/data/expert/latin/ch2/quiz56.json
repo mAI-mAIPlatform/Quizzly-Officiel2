@@ -1,0 +1,94 @@
+{
+  "id": "quiz56",
+  "titre": "Latin Expert : Cicéron l'Orateur",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Contre quel gouverneur corrompu de Sicile Cicéron a-t-il prononcé ses premiers grands discours ?",
+      "options": [
+        "Verrès",
+        "Catilina",
+        "Marc Antoine",
+        "Clodius"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les 'Catilinaires' sont quatre discours prononcés contre un conjuré qui voulait renverser la République.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le cri d'indignation de Cicéron contre les mœurs de son temps est : `O tempora, o {{1}}` !",
+      "reponsesAttendues": [
+        "mores"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on les discours de Cicéron contre Marc Antoine ?",
+      "options": [
+        "Les Philippiques",
+        "Les Verrines",
+        "Les Tusculanes",
+        "Les Plaidoyers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Cicéron était un 'Homo Novus' (homme nouveau), premier de sa famille à atteindre le consulat.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel traité de Cicéron définit le portrait de l'orateur idéal ?",
+      "options": [
+        "De Oratore",
+        "Brutus",
+        "Orator",
+        "Tous ceux-là"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le style de Cicéron est fondé sur la `{{1}}` (période) oratoire bien équilibrée.",
+      "reponsesAttendues": [
+        "concinnitas"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Cicéron a été assassiné sur ordre de Marc Antoine lors des proscriptions.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel était le rôle politique de Cicéron en -63 ?",
+      "options": [
+        "Consul",
+        "Préteur",
+        "Édile",
+        "Dictateur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Cicéron est considéré comme le modèle absolu de la prose latine.",
+      "reponse": true
+    }
+  ]
+}

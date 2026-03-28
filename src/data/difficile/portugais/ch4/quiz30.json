@@ -1,0 +1,90 @@
+{
+  "id": "quiz30",
+  "titre": "EXAMEN FINAL",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'Pão, pão, queijo, queijo' ?",
+      "options": [
+        "Être franc et direct",
+        "Faire un sandwich",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Saudade' est un mot intraduisible.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le diminutif affectif de Rita est {{1}}.",
+      "reponsesAttendues": ["Ritinha"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'Vindaloo' ?",
+      "options": [
+        "Un plat goanais d'origine portugaise",
+        "Un vêtement",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Oxalá' signifie pourvu que.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que veut dire 'Dar o litro' ?",
+      "options": [
+        "Se donner à fond",
+        "Boire un litre",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Complétez : 'Grão a grão, enche a galinha o {{1}}'.",
+      "reponsesAttendues": ["papo"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Bacano' signifie cool.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que veut dire 'Ficar de pé atrás' ?",
+      "options": [
+        "Être méfiant",
+        "Reculer",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Parabéns ! Você fala português como um nativo ! 🇵🇹🏆🎖️🛡️🚢🌍🗣️🌟",
+      "reponse": true
+    }
+  ]
+}

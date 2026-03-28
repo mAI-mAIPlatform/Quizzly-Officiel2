@@ -1,0 +1,90 @@
+{
+  "id": "quiz14",
+  "titre": "Alternance Vocal.",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'alternance vocalique (apotonie/ablaut) en grec ?",
+      "options": [
+        "Le changement de la voyelle radicale selon la formation du mot (ex: e/o/zéro)",
+        "Le changement de ton",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le degré 'o' est souvent associé au nom ou au parfait.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans le verbe 'leipō' (laisser), le présent est au degré 'e', le parfait 'le-loip-a' est au degré '{{1}}'.",
+      "reponsesAttendues": ["o"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est le degré de l'aoriste second 'e-lip-on' ?",
+      "options": [
+        "Degré zéro (la voyelle disparaît)",
+        "Degré e",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'alternance vocalique est un trait fondamental des langues indo-européennes.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Alternance de 'peithō' (persuader) au parfait ?",
+      "options": [
+        "Pe-poith-a",
+        "Pe-pith-a",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Dans 'trepō' (tourner), le nom '{{1}}' (manière/tour) montre le passage au degré o.",
+      "reponsesAttendues": ["tropos"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Cette alternance aide à distinguer visuellement les temps verbaux.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Le mot 'logos' (parole) vient du verbe 'legō' par quel degré ?",
+      "options": [
+        "Degré o",
+        "Degré zéro",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'apotonie est encore visible dans certains verbes irréguliers anglais (sing/sang/sung).",
+      "reponse": true
+    }
+  ]
+}

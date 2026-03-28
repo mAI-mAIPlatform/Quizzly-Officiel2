@@ -1,0 +1,95 @@
+{
+  "id": "quiz64",
+  "titre": "Italien Expert : Boccace et le Décaméron",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le chef-d'œuvre narratif de Giovanni Boccaccio ?",
+      "options": [
+        "Decameron",
+        "Il Filostrato",
+        "La Teseida",
+        "Corbaccio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Décaméron raconte l'histoire de dix jeunes gens fuyant la peste à Florence en 1348.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le titre 'Décaméron' signifie littéralement 'les dix `{{1}}`'.",
+      "reponsesAttendues": [
+        "jours",
+        "giorni"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Combien de nouvelles (novelle) contient au total le Décaméron ?",
+      "options": [
+        "100",
+        "10",
+        "200",
+        "50"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Boccace est considéré comme le créateur de la prose artistique italienne.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel type de thèmes Boccace privilégie-t-il dans ses nouvelles ?",
+      "options": [
+        "L'ingéniosité humaine, l'amour (érotique ou tragique) et la fortune",
+        "La vie des saints",
+        "La guerre pure",
+        "La description des astres"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La `{{1}}` (Beffa) est le thème de la plaisanterie ou de la ruse très présent dans les nouvelles comiques.",
+      "reponsesAttendues": [
+        "beffa"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Boccace a écrit une 'Vie de Dante' (Trattatello in laude di Dante), témoignant de son admiration pour son prédécesseur.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'esclave rusé et malicieux, protagoniste de plusieurs nouvelles célèbres ?",
+      "options": [
+        "Calandrino",
+        "Andreuccio",
+        "Frate Alberto",
+        "Griselda"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Décaméron offre un tableau vivant et souvent irrévérencieux de la société du XIVe siècle.",
+      "reponse": true
+    }
+  ]
+}

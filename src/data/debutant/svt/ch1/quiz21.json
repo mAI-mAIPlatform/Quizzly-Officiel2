@@ -1,0 +1,94 @@
+{
+  "id": "quiz21",
+  "titre": "Les Différents Milieux de Vie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel milieu de vie contient de l'eau salée ?",
+      "options": [
+        "La rivière",
+        "L'océan",
+        "La forêt",
+        "Le jardin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Chaque être vivant est adapté à son milieu de vie.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un milieu très sec et très chaud est un {{1}}.",
+      "reponsesAttendues": [
+        "désert"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel animal vit dans la forêt ?",
+      "options": [
+        "Le requin",
+        "Le cerf",
+        "Le chameau",
+        "Le pingouin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'eau douce se trouve dans les lacs et les rivières.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on l'ensemble des êtres vivants d'un milieu ?",
+      "options": [
+        "La météo",
+        "La biodiversité",
+        "Le climat",
+        "La foule"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La {{1}} est un milieu de vie avec beaucoup d'arbres.",
+      "reponsesAttendues": [
+        "forêt"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un aquarium est un milieu de vie artificiel.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est un milieu de vie froid ?",
+      "options": [
+        "La savane",
+        "La banquise",
+        "Le désert",
+        "La forêt tropicale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Protéger les milieux de vie est important pour la nature.",
+      "reponse": true
+    }
+  ]
+}

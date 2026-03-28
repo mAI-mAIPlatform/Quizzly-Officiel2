@@ -1,0 +1,94 @@
+{
+  "id": "quiz16",
+  "titre": "Gramática : Conjunções Subordinativas",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qual conjunção introduz uma oração causal ?",
+      "options": [
+        "visto que",
+        "embora",
+        "contanto que",
+        "conforme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A conjunção 'embora' exige o modo subjuntivo.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ficarei aqui `{{1}}` que (condicional) me ajudes.",
+      "reponsesAttendues": [
+        "contanto"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": " 'Logo que' é uma conjunção de que tipo ?",
+      "options": [
+        "Temporal",
+        "Final",
+        "Consecutiva",
+        "Adversativa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Portanto' é uma conjunção conclusiva.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "O que indica 'porquanto' ?",
+      "options": [
+        "Causa ou explicação",
+        "Tempo",
+        "Consequência",
+        "Concessão"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Para que (final) é uma locução `{{1}}`.",
+      "reponsesAttendues": [
+        "conjuntiva"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Todavia' e 'Entretanto' são sinónimos de 'Mas'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qual conjunção é concessiva ?",
+      "options": [
+        "ainda que",
+        "de sorte que",
+        "tal qual",
+        "sempre que"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "As conjunções estabelecem nexos lógicos entre as orações.",
+      "reponse": true
+    }
+  ]
+}

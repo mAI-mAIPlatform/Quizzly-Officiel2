@@ -1,1 +1,94 @@
-{"id":"quiz9","titre":"Abilities with CAN","questions":[{"id":"q1","type":"qcm","enonce":"How do you say 'Je peux nager'?","options":["I can swim","I may swim","I can swimming","I do swim"],"correctIndex":0},{"id":"q2","type":"vrai_faux","enonce":"The negative of 'can' is 'can not' or 'can't'.","reponse":true},{"id":"q3","type":"trous","enonce":"I {{1}} fly. (Je ne peux pas)","reponsesAttendues":["can't","cannot"]},{"id":"q4","type":"relier","question":"Match the sentence.","pairs":[{"left":"Can you jump?","right":"Peux-tu sauter ?"},{"left":"I can sing.","right":"Je sais chanter."},{"left":"She can't cook.","right":"Elle ne sait pas cuisiner."}]},{"id":"q5","type":"qcm","enonce":"Does 'can' change with 'he/she/it'?","options":["Yes, we add -S","No, it stays the same","Yes, it becomes 'cans'","Yes, we add -ING"],"correctIndex":1}]}
+{
+  "id": "quiz9",
+  "titre": "English Verbs and Phrases (2)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'regarder la télévision' ?",
+      "options": [
+        "watch TV",
+        "look TV",
+        "see TV",
+        "read TV"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Listen to music' nécessite la préposition 'to'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": " 'Je lis un livre' se dit 'I am reading a {{1}}' (book).",
+      "reponsesAttendues": [
+        "book"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'to play football' ?",
+      "options": [
+        "Jouer au football",
+        "Regarder du foot",
+        "Acheter un ballon",
+        "Chercher un stade"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'I am writing a letter' signifie 'Je suis en train d'écrire une lettre'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'aller au travail' ?",
+      "options": [
+        "go to work",
+        "come from work",
+        "stay at work",
+        "leave work"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": " 'Je parle anglais' se dit 'I {{1}} English' (speak).",
+      "reponsesAttendues": [
+        "speak"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'To buy' signifie acheter.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'to learn' ?",
+      "options": [
+        "Apprendre",
+        "Enseigner",
+        "Lire",
+        "Écouter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": " 'They are laughing' signifie 'Ils rient'.",
+      "reponse": true
+    }
+  ]
+}

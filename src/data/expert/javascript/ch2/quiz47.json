@@ -1,0 +1,94 @@
+{
+  "id": "quiz47",
+  "titre": "JS Expert : IndexedDB",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'IndexedDB ?",
+      "options": [
+        "Une base de données orientée objets stockée dans le navigateur (asynchrone)",
+        "Une version simplifiée de SQL",
+        "Un système de fichiers texte",
+        "Une extension Chrome"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Contrairement au LocalStorage, IndexedDB permet de stocker de grandes quantités de données et des fichiers binaires.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Toute opération sur IndexedDB doit se faire à l'intérieur d'une `{{1}}`.",
+      "reponsesAttendues": [
+        "transaction"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel événement permet de modifier la structure de la base (créer des stores) ?",
+      "options": [
+        "onupgradeneeded",
+        "onsuccess",
+        "onerror",
+        "oncreate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "IndexedDB utilise un système de clés/valeurs (Key-Value pairs).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi servent les Index dans IndexedDB ?",
+      "options": [
+        "À rechercher des données rapidement sur d'autres propriétés que la clé primaire",
+        "À numéroter les pages",
+        "À augmenter la taille de la base",
+        "À trier les fichiers par date"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'API IndexedDB est originellement basée sur des callbacks, mais on utilise souvent des wrappers comme `{{1}}` pour utiliser des Promises.",
+      "reponsesAttendues": [
+        "idb"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "IndexedDB respecte le principe ACID (Atomaticité, Cohérence, Isolation, Durabilité).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si une transaction rencontre une erreur ?",
+      "options": [
+        "Toutes les modifications du bloc sont annulées (Rollback)",
+        "La base de données est supprimée",
+        "Rien ne se passe",
+        "Seule la ligne en erreur est ignorée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'accès aux données dans IndexedDB est bloquant pour le thread principal.",
+      "reponse : false (Asynchrone via événements)"
+    }
+  ]
+}

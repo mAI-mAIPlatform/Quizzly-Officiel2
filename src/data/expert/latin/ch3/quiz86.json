@@ -1,0 +1,94 @@
+{
+  "id": "quiz86",
+  "titre": "Latin Expert : Le Droit Romain, Fondement de la Justice",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle le plus ancien code législatif romain (env. 450 av. J.-C.) ?",
+      "options": [
+        "La Loi des Douze Tables",
+        "Le Code Justinien",
+        "L'Édit de Milan",
+        "Le Digeste"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le droit romain distingue le 'ius publicum' (droit public) du 'ius privatum' (droit privé).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Prêteur) était le magistrat chargé de l'administration de la justice à Rome.",
+      "reponsesAttendues": [
+        "Preteur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel empereur byzantin a fait compiler l'essentiel du droit romain dans le 'Corpus Juris Civilis' ?",
+      "options": [
+        "Justinien",
+        "Constantin",
+        "Théodose",
+        "Héraclius"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "En droit romain, le 'pater familias' possédait une autorité absolue sur tous les membres de sa maisonnée.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle notion désigne le droit des gens (ancêtre du droit international), commun à tous les peuples ?",
+      "options": [
+        "Ius gentium",
+        "Ius civile",
+        "Ius naturale",
+        "Ius honorarium"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Jurisconsulte) était un expert en droit qui donnait des avis juridiques (responsas).",
+      "reponsesAttendues": [
+        "Jurisconsulte"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'adage 'Nullum crimen, nulla poena sine lege' (pas de crime, pas de peine sans loi) puise ses racines dans la pensée juridique latine.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel était le rôle principal des 'plaidoyers' (orationes) dans le système juridique ?",
+      "options": [
+        "Convaincre le jury ou le juge par l'éloquence",
+        "Chanter les lois",
+        "Recueillir les impôts",
+        "Nommer les sénateurs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le droit romain est la base du Code Civil français (Code Napoléon).",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "quiz86",
+  "titre": "Musique Expert : La Révolution Électronique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel instrument électronique se joue sans contact physique de la main ?",
+      "options": [
+        "Le Theremin",
+        "Les Ondes Martenot",
+        "Le Moog",
+        "Le Vocodeur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Kraftwerk est considéré comme l'un des pionniers de la musique électronique populaire (Techno/Electro).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le synthétiseur modulaire a été popularisé par l'américain Robert `{{1}}` (Moog).",
+      "reponsesAttendues": [
+        "Moog"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel album de Jean-Michel Jarre (1976) a popularisé la musique électronique en France ?",
+      "options": [
+        "Oxygène",
+        "Equinoxe",
+        "Zoolook",
+        "Radio-Activity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La 'Musique Concrète' de Schaeffer consistait à manipuler des sons enregistrés sur bande magnétique.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle boîte à rythmes légendaire (1980) a défini le son de la culture club et du hip-hop ?",
+      "options": [
+        "Roland TR-808",
+        "Yamaha DX7",
+        "Korg M1",
+        "Akaï MPC"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'école de `{{1}}` (Cologne) menée par Stockhausen a développé la musique électronique puriste en studio.",
+      "reponsesAttendues": [
+        "Cologne",
+        "Koln"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Vangelis est célèbre pour ses bandes originales électroniques (Blade Runner, Chariots of Fire).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel courant musical est né dans les clubs de Chicago au début des années 80 ?",
+      "options": [
+        "La House Music",
+        "La Techno de Detroit",
+        "Le Disco",
+        "Le Dub"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le MIDI (Musical Instrument Digital Interface) a été créé en 1983 pour faire communiquer les instruments entre eux.",
+      "reponse": true
+    }
+  ]
+}

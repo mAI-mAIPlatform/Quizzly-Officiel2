@@ -1,0 +1,90 @@
+{
+  "id": "quiz28",
+  "titre": "Système Mode",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle ville est la capitale mondiale de la mode et du prêt-à-porter italien ?",
+      "options": [
+        "Milan (Milano)",
+        "Rome",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Camera Nazionale della Moda Italiana organise les célèbres Fashion Weeks de Milan.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le 'Made in {{1}}' (Italy) est une marque de qualité reconnue mondialement.",
+      "reponsesAttendues": ["Italy", "Italia"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel styliste est considéré comme le 'roi' de la mode italienne contemporaine ?",
+      "options": [
+        "Giorgio Armani",
+        "Gianni Versace",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le secteur de la mode contribue pour plus de 5% au PIB italien.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle maison de mode est célèbre pour son motif à rayures colorées en zigzag ?",
+      "options": [
+        "Missoni",
+        "Fendi",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La {{1}} (Filiera) – chaîne de production – intègre en Italie artisans, industriels et créateurs.",
+      "reponsesAttendues": ["filière", "filiera"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'Italie est le premier producteur de textile et de cuir de luxe en Europe.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle marque automobile de luxe collabore souvent avec de grands couturiers ?",
+      "options": [
+        "Maserati",
+        "Lancia",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La mode italienne véhicule une image globale de 'Bella Vita' et d'élégance.",
+      "reponse": true
+    }
+  ]
+}

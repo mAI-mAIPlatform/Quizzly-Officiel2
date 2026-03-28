@@ -1,0 +1,90 @@
+{
+  "id": "quiz5",
+  "titre": "Syntaxe du Datif",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'datif d'intérêt' (éthique) ?",
+      "options": [
+        "Un datif désignant la personne concernée moralement par l'action",
+        "Le prix d'un objet",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le datif d'agent est couramment utilisé avec l'adjectif verbal en -teos.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le datif de {{1}} exprime l'instrument ou la cause de l'action.",
+      "reponsesAttendues": ["moyen", "manière"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle nuance apporte le 'datif de possession' avec le verbe 'être' ?",
+      "options": [
+        "Il souligne l'appartenance (ex: est-il à moi ?)",
+        "Il indique le lieu",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le datif peut aussi exprimer le point de vue (datif de relation).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Le datif de mesure s'utilise avec :",
+      "options": [
+        "Des comparatifs (ex: beaucoup plus grand)",
+        "Des noms de ville",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Dans 'pasa hèmîn hē xōra', le datif 'hèmîn' est un datif de {{1}}.",
+      "reponsesAttendues": ["possession"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Certains verbes de sentiment (se réjouir, s'irriter) se construisent avec le datif.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Le datif de temps exprime :",
+      "options": [
+        "Le moment précis où l'on est",
+        "La durée totale",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le grec a fusionné les anciens cas locatif et instrumental dans le datif.",
+      "reponse": true
+    }
+  ]
+}

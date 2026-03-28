@@ -1,0 +1,94 @@
+{
+  "id": "quiz11",
+  "titre": "Caractères Spéciaux (Entités)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel symbole commence une entité HTML ?",
+      "options": [
+        "$",
+        "&",
+        "%",
+        "@"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une entité se termine toujours par un point-virgule ( ; ).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour afficher un espace insécable, on utilise &{{1}};",
+      "reponsesAttendues": [
+        "nbsp"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment afficher le symbole 'plus petit que' ( < ) sans qu'il soit pris pour une balise ?",
+      "options": [
+        "&lower;",
+        "&lt;",
+        "&gt;",
+        "&amp;"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "&gt; permet d'afficher le symbole 'plus grand que' ( > ).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle entité affiche le symbole esperluette ( & ) ?",
+      "options": [
+        "&and;",
+        "&amp;",
+        "&et;",
+        "&symbol;"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour afficher le symbole copyright ©, on utilise &{{1}};",
+      "reponsesAttendues": [
+        "copy"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les entités sont utiles pour les caractères réservés par le HTML.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie NBSP ?",
+      "options": [
+        "No Basic Space Please",
+        "Non-Breaking Space",
+        "New Browser Special Page",
+        "Next Block Single Point"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut aussi utiliser des codes numériques (ex: &#60;).",
+      "reponse": true
+    }
+  ]
+}

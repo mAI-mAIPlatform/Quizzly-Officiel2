@@ -1,0 +1,90 @@
+{
+  "id": "quiz26",
+  "titre": "Les Augmentatifs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le suffixe augmentatif le plus commun en portugais ?",
+      "options": [
+        "-ão / -ona",
+        "-inho",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'augmentatif est souvent utilisé pour exprimer l'admiration mais aussi le mépris ou la satire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un grand homme se dit 'um {{1}}' (homenzarrão).",
+      "reponsesAttendues": ["homenzarrão"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'Amigão' ?",
+      "options": [
+        "Un grand ami / un ami très proche",
+        "Un grand ennemi",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le suffixe '-orra' (ex: cabeçorra) a une nuance péjorative ou monstrueuse.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que veut dire 'Golaço' ?",
+      "options": [
+        "Un but magnifique (football)",
+        "Un petit col",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'augmentatif de 'Mulher' (femme) peut être '{{1}}' (mulherão).",
+      "reponsesAttendues": ["mulherão"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'augmentatif peut aussi marquer une quantité excessive (ex: 'dinheirão').",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel suffixe est souvent utilisé pour des objets matériels imposants ?",
+      "options": [
+        "-alhão (ex: facalhão)",
+        "-inho",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'augmentatif donne du relief et de la force au langage parlé.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz26",
+  "titre": "Performance : Navigation et Timing",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel objet JavaScript permet d'accéder aux mesures de performance précises du navigateur ?",
+      "options": [
+        "performance",
+        "window.timer",
+        "browser.stats",
+        "navigator.speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'API Navigation Timing fournit le temps écoulé depuis le début de la requête réseau.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La métrique `{{1}}Paint` correspond au moment où le navigateur affiche le premier contenu graphique.",
+      "reponsesAttendues": [
+        "first"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le LCP (Largest Contentful Paint) ?",
+      "options": [
+        "Le temps de rendu de l'élément de texte ou de l'image le plus large visible",
+        "La durée totale de chargement de la page",
+        "Le temps de réponse du serveur",
+        "Le délai avant l'interactivité"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le CLS (Cumulative Layout Shift) mesure la stabilité visuelle de la page.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que mesure le FID (First Input Delay) ?",
+      "options": [
+        "Le délai entre la première interaction utilisateur et la réponse du navigateur",
+        "Le temps de téléchargement du premier octet",
+        "La vitesse de frappe au clavier",
+        "Le temps d'exécution du premier script"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les trois métriques LCP, FID (ou INP) et CLS forment les Web {{1}} Vitals.",
+      "reponsesAttendues": [
+        "Core"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Utiliser performance.now() est plus précis que Date.now() pour mesurer des durées.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet de marquer un point précis dans le temps pour vos propres mesures ?",
+      "options": [
+        "performance.mark()",
+        "performance.set()",
+        "performance.stamp()",
+        "performance.point()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'API de performance est uniquement disponible durant le développement.",
+      "reponse": false
+    }
+  ]
+}

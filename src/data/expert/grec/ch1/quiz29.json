@@ -1,0 +1,94 @@
+{
+  "id": "quiz29",
+  "titre": "Indéfinis et Interrogatifs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la différence graphique entre 'τίς' (interrogatif) et 'τις' (indéfini) ?",
+      "options": [
+        "L'accent : l'interrogatif est toujours accentué sur la première syllabe, l'indéfini est enclitique",
+        "L'esprit : l'un est rude, l'autre doux",
+        "Il n'y a aucune différence",
+        "L'interrogatif prend un iota souscrit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "τίς (interrogatif) signifie 'Qui ?' ou 'Quel ?'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le pronom indéfini {{1}} signifie 'quelqu'un' ou 'quelque chose'.",
+      "reponsesAttendues": [
+        "τις"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est le neutre de 'τίς' ?",
+      "options": [
+        "τί",
+        "τό",
+        "του",
+        "τε"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'interrogatif indirect est souvent introduit par 'ὅστις'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie l'adjectif indéfini 'ἄλλος' ?",
+      "options": [
+        "Un autre",
+        "Le même",
+        "Tout",
+        "Aucun"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le pronom inverse de 'celui-ci' / 'celui-là' est {{1}} (l'un... l'autre).",
+      "reponsesAttendues": [
+        "ὁ μέν... ὁ δέ"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'indéfini 'τις' peut prendre la place d'un article indéfini français (un certain).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment exprime-t-on l'interrogation portant sur un choix entre deux (Lequel des deux ?) ?",
+      "options": [
+        "πότερος",
+        "τίς",
+        "ποῖος",
+        "πόσος"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les pronoms indéfinis et interrogatifs suivent la 3ème déclinaison.",
+      "reponse": true
+    }
+  ]
+}

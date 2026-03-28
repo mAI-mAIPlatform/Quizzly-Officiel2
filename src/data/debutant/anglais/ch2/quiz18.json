@@ -1,0 +1,94 @@
+{
+  "id": "quiz18",
+  "titre": "English Verbs and Phrases (3)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'faire du sport' ?",
+      "options": [
+        "do sport / exercise",
+        "make sport",
+        "play exercise",
+        "have sport"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'To have a shower' signifie prendre une douche.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Faire les courses se dit 'go {{1}}' (shopping).",
+      "reponsesAttendues": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'to take a break' ?",
+      "options": [
+        "Prendre une pause",
+        "Casser quelque chose",
+        "Prendre un petit-déjeuner",
+        "Partir en vacances"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'To wake up' signifie se réveiller.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'se brosser les dents' ?",
+      "options": [
+        "brush your teeth",
+        "wash your face",
+        "comb your hair",
+        "clean your hands"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Aller au lit se dit 'go to {{1}}' (bed).",
+      "reponsesAttendues": [
+        "bed"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'To study' signifie étudier.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'to get dressed' ?",
+      "options": [
+        "S'habiller",
+        "Se laver",
+        "Se coiffer",
+        "Se préparer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": " 'What time do you wake up?' demande l'heure du réveil.",
+      "reponse": true
+    }
+  ]
+}

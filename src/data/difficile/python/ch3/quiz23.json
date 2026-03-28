@@ -1,0 +1,90 @@
+{
+  "id": "quiz23",
+  "titre": "Mémoire et GC",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le mécanisme principal de gestion de la mémoire en Python (CPython) ?",
+      "options": [
+        "Comptage de références (Reference Counting)",
+        "Marquage et balayage (Mark and Sweep)",
+        "Manuel (malloc/free)",
+        "Aucun"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'Garbage Collector' (GC) de Python sert principalement à détecter et supprimer les cycles de références.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le module standard permettant de contrôler le Garbage Collector s'appelle {{1}}.",
+      "reponsesAttendues": ["gc"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une fuite de mémoire (memory leak) en Python ?",
+      "options": [
+        "Une erreur de syntaxe",
+        "Des objets qui restent en mémoire car ils sont toujours référencés par erreur",
+        "Un fichier supprimé trop vite",
+        "Le script s'arrête"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'instruction 'del obj' supprime l'objet immédiatement de la RAM.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que font les 'Weak References' (faibles) ?",
+      "options": [
+        "Elles permettent de référencer un objet sans incrémenter son compteur de références",
+        "Elles sont moins rapides",
+        "Elles sont réservées aux entiers",
+        "Elles ne servent à rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La fonction gc.{{1}}() force le passage immédiat du ramasse-miettes.",
+      "reponsesAttendues": ["collect"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "En Python, le GC utilise des 'générations' (0, 1, 2) pour optimiser les performances.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel outil permet de visualiser le graphe des références d'un objet ?",
+      "options": [
+        "objgraph",
+        "sys.view",
+        "gc.graph",
+        "re"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La mémoire en Python est automatiquement libérée une fois que le compteur de références tombe à zéro.",
+      "reponse": true
+    }
+  ]
+}

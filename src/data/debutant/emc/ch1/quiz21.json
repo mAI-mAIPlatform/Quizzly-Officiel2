@@ -1,0 +1,94 @@
+{
+  "id": "quiz21",
+  "titre": "Les Symboles de la République",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lalquelle est la couleur du drapeau français (dans l'ordre) ?",
+      "options": [
+        "Bleu, Blanc, Rouge",
+        "Rouge, Blanc, Bleu",
+        "Vert, Blanc, Rouge",
+        "Bleu, Jaune, Rouge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'hymne national de la France s'appelle 'La Marseillaise'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La fête nationale française a lieu le 14 {{1}}.",
+      "reponsesAttendues": [
+        "juillet"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui est la femme qui représente la République française ?",
+      "options": [
+        "Jeanne d'Arc",
+        "Marianne",
+        "Marie Curie",
+        "La Reine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'animal qui symbolise la France est le coq.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est l'un des trois mots de la devise de la France ?",
+      "options": [
+        "Bonheur",
+        "Égalité",
+        "Richesse",
+        "Force"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le drapeau français est un drapeau {{1}} (trois couleurs).",
+      "reponsesAttendues": [
+        "tricolore"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La devise de la France est 'Liberté, Égalité, Fraternité'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Où trouve-t-on souvent le buste de Marianne ?",
+      "options": [
+        "Dans les boulangeries",
+        "Dans les mairies",
+        "Dans les cinémas",
+        "Dans les jardins"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Ces symboles unissent tous les citoyens français.",
+      "reponse": true
+    }
+  ]
+}

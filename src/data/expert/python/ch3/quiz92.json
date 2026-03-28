@@ -1,0 +1,96 @@
+{
+  "id": "quiz92",
+  "titre": "Python Expert : Multiprocessing et Mémoire Partagée",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la principale différence entre 'threading' et 'multiprocessing' en Python ?",
+      "options": [
+        "Multiprocessing contourne le GIL en utilisant des processus séparés",
+        "Threading est plus rapide pour les calculs intensifs CPU",
+        "Multiprocessing partage la mémoire par défaut",
+        "Il n'y a aucune différence"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'objet 'multiprocessing.Queue' est conçu pour être 'thread-safe' et 'process-safe'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La méthode `{{1}}` (fork / spawn) définit la manière dont les nouveaux processus sont créés par multiprocessing.",
+      "reponsesAttendues": [
+        "fork",
+        "spawn",
+        "forkserver"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel module interne permet de partager des tableaux de données de type C entre processus ?",
+      "options": [
+        "multiprocessing.sharedctypes / Array",
+        "pickle",
+        "json",
+        "struct"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le module 'multiprocessing.shared_memory' (Python 3.8+) permet de gérer des blocs de mémoire partagée directe sans sérialisation.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment arrêter proprement un pool de processus ?",
+      "options": [
+        "pool.close() suivi de pool.join()",
+        "pool.terminate()",
+        "del pool",
+        "os.kill()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'utilisation de `{{1}}` (Manager) permet de partager des objets complexes (dict, list) entre processus via un serveur proxy.",
+      "reponsesAttendues": [
+        "Manager"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les objets passés à un processus via multiprocessing doivent être 'picklable' (sérialisables).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est l'impact du 'Copy-on-Write' (COW) lors d'un fork sur Linux dans multiprocessing ?",
+      "options": [
+        "Il réduit l'empreinte mémoire initiale des processus enfants",
+        "Il double immédiatement la mémoire utilisée",
+        "Il empêche le partage de variables",
+        "Il accélère la sérialisation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "'multiprocessing.Pool.map' préserve l'ordre des résultats retournés.",
+      "reponse": true
+    }
+  ]
+}

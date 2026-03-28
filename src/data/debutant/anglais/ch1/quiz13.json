@@ -1,0 +1,94 @@
+{
+  "id": "quiz13",
+  "titre": "Colors (1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la couleur de la tomate ?",
+      "options": [
+        "Blue",
+        "Red",
+        "Green",
+        "Yellow"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Blue' signifie bleu.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le soleil est {{1}}. (jaune)",
+      "reponsesAttendues": [
+        "yellow"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la couleur de l'herbe ?",
+      "options": [
+        "Red",
+        "Green",
+        "Pink",
+        "Black"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Orange' est la même couleur en anglais et en français.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'noir' ?",
+      "options": [
+        "White",
+        "Black",
+        "Brown",
+        "Grey"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le ciel est {{1}}. (bleu)",
+      "reponsesAttendues": [
+        "blue"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Pink' signifie violet.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle couleur obtient-on en mélangeant 'red' et 'white' ?",
+      "options": [
+        "Green",
+        "Pink",
+        "Blue",
+        "Black"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le mot 'color' s'écrit 'colour' en anglais britannique.",
+      "reponse": true
+    }
+  ]
+}

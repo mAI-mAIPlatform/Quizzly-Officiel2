@@ -1,0 +1,94 @@
+{
+  "id": "quiz13",
+  "titre": "Accessibilité : L'attribut alt",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Sur quelle balise l'attribut 'alt' est-il indispensable ?",
+      "options": [
+        "<a>",
+        "<p>",
+        "<img>",
+        "<div>"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'alt' fournit un texte alternatif si l'image ne charge pas.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut 'alt' est lu par les lecteurs d'{{1}} pour les non-voyants.",
+      "reponsesAttendues": [
+        "écran"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que faut-il mettre dans l'alt d'une image décorative (ex: une ligne) ?",
+      "options": [
+        "alt=\"ligne de décoration\"",
+        "alt=\"\"",
+        "alt=\"image\"",
+        "Ne pas mettre d'attribut alt"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'alt' aide aussi au référencement des images sur Google.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle est la longueur idéale pour un texte 'alt' ?",
+      "options": [
+        "Un seul mot",
+        "Une description courte et précise",
+        "Un paragraphe entier",
+        "Cela n'a pas d'importance"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Si l'image est un logo, l'alt devrait être le {{1}} de l'entreprise.",
+      "reponsesAttendues": [
+        "nom"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il est recommandé de ne pas inclure les mots 'image de' dans l'alt.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces images a le meilleur alt ?",
+      "options": [
+        "<img src='chat.jpg' alt='Photo'>",
+        "<img src='chat.jpg' alt='Un chat noir qui dort sur un canapé'>",
+        "<img src='chat.jpg' alt='chat.jpg'>",
+        "<img src='chat.jpg' alt=' '>"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'alt' est obligatoire pour valider le code HTML.",
+      "reponse": true
+    }
+  ]
+}

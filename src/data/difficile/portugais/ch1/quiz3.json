@@ -1,0 +1,90 @@
+{
+  "id": "quiz3",
+  "titre": "Futur du Subjonctif",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Le futur du subjonctif est utilisé pour exprimer :",
+      "options": [
+        "Une condition future incertaine ou une hypothèse probable",
+        "Une action passée terminée",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le futur du subjonctif est très fréquent après 'quando' (quand) ou 'se' (si) pour des événements futurs.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Complétez : 'Quando você {{1}} (vir), traga o livro.'",
+      "reponsesAttendues": ["vier"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel de ces verbes est au futur du subjonctif (1ère pers. sing.) ?",
+      "options": [
+        "For (du verbe IR/SER)",
+        "Fui",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Pour les verbes réguliers, le futur du subjonctif ressemble souvent à l'infinitif.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Complétez : 'Se nós {{1}} (poder), ajudaremos.'",
+      "options": [
+        "pudermos",
+        "podermos",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le futur du subjonctif du verbe 'FAZER' (3ème pers. sing.) est '{{1}}'.",
+      "reponsesAttendues": ["fizer"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le futur du subjonctif n'existe pas en français.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel verbe complète : 'Assim que eu {{1}} (saber) a resposta, aviso.'",
+      "options": [
+        "souber",
+        "saiba",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les terminaisons du futur du subjonctif sont : -, -es, -, -mos, -des, -em.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz94",
+  "titre": "Latin Expert : Tite-Live et l'Histoire de Rome",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le titre de l'immense œuvre historique de Tite-Live ?",
+      "options": [
+        "Ab Urbe Condita (Depuis la fondation de la Ville)",
+        "Annales",
+        "Res Gestae",
+        "Guerre des Gaules"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Tite-Live a raconté l'histoire de Rome de ses origines mythiques jusqu'à la mort de Drusus (9 av. J.-C.).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Sur les 142 livres originaux, seuls `{{1}}` (35) nous sont parvenus intégralement.",
+      "reponsesAttendues": [
+        "35"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est l'objectif principal de Tite-Live en écrivant l'histoire ?",
+      "options": [
+        "Proposer des modèles moraux (exempla) de vertu romaine",
+        "Faire une analyse économique",
+        "Louer les barbares",
+        "Prouver que les dieux n'existent pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Tite-Live était un contemporain et un ami de l'empereur Auguste.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle section célèbre de son œuvre raconte la deuxième guerre punique contre Hannibal ?",
+      "options": [
+        "La troisième décade",
+        "La première décade",
+        "Le dernier livre",
+        "Les fragments"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les `{{1}}` (Periochae) sont des sommaires ou résumés succincts de tous les livres de Tite-Live.",
+      "reponsesAttendues": [
+        "Periochae"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Tite-Live utilisait une méthode historique rigoureuse et critique, comparable aux historiens modernes.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le style fluide et abondant de Tite-Live ?",
+      "options": [
+        "Lactea ubertas (abondance de lait)",
+        "Style sec",
+        "Style archaïque",
+        "Asiatisme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il a immortalisé les figures de Romulus, Scipion l'Africain et Hannibal.",
+      "reponse": true
+    }
+  ]
+}

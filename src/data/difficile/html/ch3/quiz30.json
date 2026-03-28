@@ -1,0 +1,90 @@
+{
+  "id": "quiz30",
+  "titre": "EXAMEN : SEO et Métadonnées",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Balise titre ?",
+      "options": [
+        "<title>",
+        "<meta title>",
+        "<h1",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "JSON-LD est conseillé pour le SEO.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Protocole Facebook : Open {{1}}.",
+      "reponsesAttendues": ["Graph"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Balise contre duplicata ?",
+      "options": [
+        "canonical",
+        "alternate",
+        "index",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Robots.txt bloque l'exploration.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Format sitemap ?",
+      "options": [
+        "XML",
+        "JSON",
+        "HTML",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Directive contre indexation : {{1}}.",
+      "reponsesAttendues": ["noindex"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'alt' aide le SEO.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Balise twitter ?",
+      "options": [
+        "Twitter Cards",
+        "X Tags",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Bravo ! Vous êtes un expert du SEO technique et des Métadonnées HTML ! 🔍🚀🏆🥇",
+      "reponse": true
+    }
+  ]
+}

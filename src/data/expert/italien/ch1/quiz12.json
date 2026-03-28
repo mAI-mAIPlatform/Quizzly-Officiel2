@@ -1,0 +1,94 @@
+{
+  "id": "quiz12",
+  "titre": "Grammatica : Alterazione dei nomi",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qual è il suffisso per creare un accrescitivo (grande) ?",
+      "options": [
+        "-one (es: librone)",
+        "-ino (es: librino)",
+        "-uccio",
+        "-etto"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il suffisso -accio / -accia dà un valore dispregiativo o peggiorativo (es: tempaccio).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un 'ragazzino' è un nome alterato con un valore `{{1}}`.",
+      "reponsesAttendues": [
+        "diminutivo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Cosa esprime il suffisso -uccio / -uzza ?",
+      "options": [
+        "Cariativo (vezzeggiativo) o piccolezza spesso con sfumatura affettuosa",
+        "Odio profondo",
+        "Grande importanza",
+        "Uso scientifico"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Tutti i nomi che finiscono in -one sono accrescitivi (es: mattone, bastone).",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Come si chiama un 'alterato' che ha assunto un significato proprio e indipendente ?",
+      "options": [
+        "Falso alterato (o alterato lessicalizzato)",
+        "Nome composto",
+        "Sinonimo",
+        "Omonimo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'alterazione di 'casa' in 'casuccia' è un `{{1}}`.",
+      "reponsesAttendues": [
+        "vezzeggiativo"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Si possono combinare più suffissi (es: scarponcino).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qual è l'alterato di 'cane' che indica un cane piccolo e grazioso ?",
+      "options": [
+        "cagnolino",
+        "cagnaccio",
+        "cagnone",
+        "canetto"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'alterazione può riguardare anche gli aggettivi (es: bellino, rossiccio).",
+      "reponse": true
+    }
+  ]
+}

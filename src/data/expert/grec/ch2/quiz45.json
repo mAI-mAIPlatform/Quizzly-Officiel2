@@ -1,0 +1,94 @@
+{
+  "id": "quiz45",
+  "titre": "Grec Expert : Sophocle et la Tragédie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle innovation dramatique attribue-t-on à Sophocle ?",
+      "options": [
+        "L'introduction du troisième acteur (tritagoniste)",
+        "L'invention du prologue",
+        "L'utilisation de masques",
+        "L'absence totale de choeur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Sophocle a remporté plus de victoires aux Grandes Dionysies qu'Eschyle ou Euripide.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La pièce la plus célèbre de Sophocle, modèle de la tragédie grecque, est `{{1}}` Roi.",
+      "reponsesAttendues": [
+        "Oedipe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est le thème principal d'Antigone ?",
+      "options": [
+        "Le conflit entre la loi humaine (Créon) et la loi divine/familiale (Antigone)",
+        "La guerre entre Sparte et Athènes",
+        "Le voyage d'Ulysse",
+        "L'amour courtois"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Sophocle a abandonné la trilogie liée (suites d'épisodes) au profit de pièces isolées.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le retournement de situation tragique ?",
+      "options": [
+        "La péripétie (peripeteia)",
+        "La catharsis",
+        "Le prologue",
+        "L'exode"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le défaut tragique menant à la chute du héros est la `{{1}}` (erreur de jugement).",
+      "reponsesAttendues": [
+        "hamartia"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le style de Sophocle est considéré comme le 'juste milieu' entre la rudesse d'Eschyle et la subtilité d'Euripide.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle pièce de Sophocle met en scène un héros blessé et abandonné sur une île ?",
+      "options": [
+        "Philoctète",
+        "Ajax",
+        "Les Trachiniennes",
+        "Electre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le choeur dans Sophocle participe moins à l'action que chez Euripide.",
+        "reponse": false
+    }
+  ]
+}

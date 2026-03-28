@@ -1,0 +1,94 @@
+{
+  "id": "quiz64",
+  "titre": "Python Expert : Le module concurrent.futures",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le but principal du module `concurrent.futures` ?",
+      "options": [
+        "Fournir une interface unifiée pour l'exécution asynchrone (threads ou processus)",
+        "Garantir le futur de Python",
+        "Remplacer asyncio",
+        "Gérer les erreurs réseau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "`ThreadPoolExecutor` est généralement utilisé pour les tâches liées aux entrées/sorties.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La méthode `{{1}}()` permet de soumettre une fonction à l'exécuteur.",
+      "reponsesAttendues": [
+        "submit"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que retourne la méthode `submit()` ?",
+      "options": [
+        "Un objet Future",
+        "Le résultat direct",
+        "None",
+        "Un thread ID"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "`as_completed(futures)` renvoie un itérateur qui cède les futures au fur et à mesure qu'elles se terminent.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel exécuteur choisir pour des calculs intensifs sur le CPU ?",
+      "options": [
+        "ProcessPoolExecutor",
+        "ThreadPoolExecutor",
+        "AsyncExecutor",
+        "SerialExecutor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La méthode `{{1}}()` de l'exécuteur permet d'appliquer une fonction à un itérable de manière parallèle.",
+      "reponsesAttendues": [
+        "map"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation de `with ProcessPoolExecutor() as executor:` assure la fermeture propre du pool à la fin du bloc.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment récupérer le résultat d'une `Future` de manière bloquante ?",
+      "options": [
+        "future.result()",
+        "future.get()",
+        "future.value",
+        "future.wait()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "`concurrent.futures` est une abstraction de plus haut niveau que `threading` ou `multiprocessing`.",
+      "reponse": true
+    }
+  ]
+}

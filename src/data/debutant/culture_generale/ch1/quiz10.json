@@ -1,0 +1,94 @@
+{
+  "id": "quiz10",
+  "titre": "Synthèse Monde et Nature (1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le plus grand continent ?",
+      "options": [
+        "Afrique",
+        "Asie",
+        "Europe",
+        "Océanie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La capitale de l'Allemagne est Munich.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La planète rouge s'appelle {{1}}.",
+      "reponsesAttendues": [
+        "Mars"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle invention est attribuée à Gutenberg ?",
+      "options": [
+        "L'ampoule",
+        "Le téléphone",
+        "L'imprimerie",
+        "Le moteur"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le lion est surnommé le roi des animaux.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Combien y a-t-il d'étoiles sur le drapeau américain ?",
+      "options": [
+        "13",
+        "25",
+        "50",
+        "52"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le cycle de l'{{1}} permet de recycler l'eau sur Terre.",
+      "reponsesAttendues": [
+        "eau"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Mont Everest est le plus haut sommet du monde.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la capitale de l'Espagne ?",
+      "options": [
+        "Barcelone",
+        "Madrid",
+        "Séville",
+        "Valence"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Bravo ! Tu as validé tes connaissances sur le monde et la nature.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz37",
+  "titre": "JS Expert : Web Workers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi servent principalement les Web Workers ?",
+      "options": [
+        "À exécuter des calculs lourds dans un thread séparé sans bloquer l'UI",
+        "À manipuler le DOM plus vite",
+        "À stocker des cookies",
+        "À envoyer des emails"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un Web Worker a accès directement à l'objet `window` et au DOM.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La communication entre le thread principal et un worker se fait via la méthode `{{1}}`.",
+      "reponsesAttendues": [
+        "postMessage"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel événement permet de recevoir une réponse d'un worker ?",
+      "options": [
+        "onmessage",
+        "onclick",
+        "onload",
+        "onresponse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les données envoyées à un worker sont clonées par défaut (Structured Clone Algorithm).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Transferable Object' (ex: ArrayBuffer) ?",
+      "options": [
+        "Un objet dont la propriété est transférée sans copie pour plus de performance",
+        "Un objet qui peut être téléchargé",
+        "Une variable globale",
+        "Un fichier JSON"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour arrêter un worker depuis le thread principal, on appelle `worker.{{1}}()`.",
+      "reponsesAttendues": [
+        "terminate"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il est possible de créer des workers à l'intérieur d'autres workers (Subworkers).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un Service Worker ?",
+      "options": [
+        "Un type de worker spécial agissant comme un proxy réseau (utile pour le mode hors-ligne)",
+        "Un serveur de base de données",
+        "Une interface de paiement",
+        "Un robot ménager"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les Shared Workers peuvent être partagés entre plusieurs onglets ou fenêtres du même origine.",
+      "reponse": true
+    }
+  ]
+}

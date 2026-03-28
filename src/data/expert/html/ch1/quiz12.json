@@ -1,0 +1,94 @@
+{
+  "id": "quiz12",
+  "titre": "Web Storage (LocalStorage et SessionStorage)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la durée de vie des données dans le localStorage ?",
+      "options": [
+        "Indéfinie (jusqu'à suppression explicite)",
+        "Jusqu'à la fermeture de l'onglet",
+        "24 heures",
+        "C'est défini par le serveur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le sessionStorage conserve les données après la fermeture du navigateur.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La méthode `{{1}}` permet de supprimer une clé spécifique du stockage.",
+      "reponsesAttendues": [
+        "removeItem"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Sous quel format les données sont-elles stockées dans le Web Storage ?",
+      "options": [
+        "Uniquement des chaînes de caractères (DOMString)",
+        "Des objets JSON natifs",
+        "Du binaire",
+        "Des entiers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Web Storage est limité à environ 5 Mo par domaine.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment stocker un objet complexe dans le localStorage ?",
+      "options": [
+        "En utilisant JSON.stringify(objet)",
+        "localStorage.setObject(objet)",
+        "C'est impossible",
+        "En le passant directement en argument"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'événement `{{1}}` est déclenché sur tous les autres onglets du même domaine quand le stockage change.",
+      "reponsesAttendues": [
+        "storage"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Web Storage est accessible côté serveur dans les en-têtes HTTP.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle méthode vide tout le contenu d'un stockage ?",
+      "options": [
+        "clear()",
+        "empty()",
+        "reset()",
+        "flush()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Web Storage est asynchrone.",
+      "reponse": false
+    }
+  ]
+}

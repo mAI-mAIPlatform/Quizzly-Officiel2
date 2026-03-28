@@ -1,0 +1,90 @@
+{
+  "id": "quiz22",
+  "titre": "Debugging : Mémoire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert un Heap Snapshot (Capture du tas) ?",
+      "options": [
+        "À prendre une photo du code",
+        "À analyser la répartition de la mémoire et identifier quels objets occupent le plus d'espace",
+        "À vider le cache",
+        "À trier les données"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Comparer deux snapshots permet de voir quels objets ont été alloués et non libérés entre deux actions.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le {{1}} size représente la mémoire occupée par l'objet lui-même et les objets qu'il empêche d'être supprimés.",
+      "reponsesAttendues": ["Retained"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'Shallow Size' ?",
+      "options": [
+        "La mémoire consommée uniquement par l'objet lui-même",
+        "Une petite mémoire",
+        "La mémoire de la stack",
+        "Une erreur 500"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les 'Allocation Timelines' permettent d'observer l'allocation mémoire en temps réel.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel est un signe d'une fuite de mémoire sur un graphique ?",
+      "options": [
+        "Une courbe stable",
+        "Une 'dent de scie' dont le bas de chaque dent remonte progressivement",
+        "Une baisse brutale",
+        "Rien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'onglet {{1}} des DevTools contient les outils de profilage mémoire.",
+      "reponsesAttendues": ["Memory", "Mémoire"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut forcer un Garbage Collection manuellement dans les DevTools (icône poubelle).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie un objet 'Detached DOM Tree' ?",
+      "options": [
+        "Un arbre en 3D",
+        "Des éléments DOM supprimés de la page mais toujours référencés en JS (fuite)",
+        "Un lien hypertexte",
+        "Un script externe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Optimiser la mémoire réduit les risques de crash sur les appareils mobiles.",
+      "reponse": true
+    }
+  ]
+}

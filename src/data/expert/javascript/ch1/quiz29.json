@@ -1,0 +1,95 @@
+{
+  "id": "quiz29",
+  "titre": "Itérateurs et Générateurs (Intro)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on une fonction capable de s'interrompre et de reprendre ?",
+      "options": [
+        "Un générateur",
+        "Une closure",
+        "Un itérateur",
+        "Une promesse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une fonction générateur est déclarée avec 'function*'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot-clé {{1}} permet d'émettre une valeur depuis un générateur. ",
+      "reponsesAttendues": [
+        "yield"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle méthode appelle-t-on pour obtenir la valeur suivante d'un itérateur ?",
+      "options": [
+        "next()",
+        "step()",
+        "get()",
+        "continue()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'itérateur retourne un objet avec deux propriétés : 'value' et 'done'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Un générateur peut-il être infini ?",
+      "options": [
+        "Oui, car il est paresseux et ne produit que ce qui est demandé",
+        "Non, cela provoquerait un plantage immédiat",
+        "Seulement avec une boucle while(true)",
+        "Uniquement en mode strict"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'interface {{1}} est requise pour qu'un objet puisse être utilisé avec for...of.",
+      "reponsesAttendues": [
+        "Iterable",
+        "itérable"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut passer une valeur à .next() pour l'injecter dans le générateur.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "A quoi sert 'yield*' ?",
+      "options": [
+        "Déléguer l'itération à un autre générateur ou itérable",
+        "Produire plusieurs valeurs d'un coup",
+        "Inverser l'ordre du générateur",
+        "C'est une erreur de syntaxe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les générateurs sont très utiles pour gérer des flux de données asynchrones.",
+      "reponse": true
+    }
+  ]
+}

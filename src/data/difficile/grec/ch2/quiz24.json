@@ -1,0 +1,90 @@
+{
+  "id": "quiz24",
+  "titre": "Théocrite",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel genre littéraire Théocrite a-t-il créé ?",
+      "options": [
+        "La poésie bucolique (ou pastorale)",
+        "Le roman",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les poèmes de Théocrite sont appelés les 'Idylles' (petits tableaux).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les personnages principaux des Idylles sont souvent des {{1}} (bergers).",
+      "reponsesAttendues": ["bouviers", "pâtres"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est le décor habituel des poèmes de Théocrite ?",
+      "options": [
+        "La campagne idyllique (locus amoenus)",
+        "Le champ de bataille",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Théocrite utilise le dialecte dorien pour donner une touche de rustique à ses dialogues.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "L'Idylle 2, 'Les Magiciennes', traite de :",
+      "options": [
+        "L'incantation amoureuse et la passion délaissée",
+        "L'agriculture",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Théocrite a exercé son art principalement à la cour de {{1}} à Alexandrie.",
+      "reponsesAttendues": ["Ptolémée II"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Virgile s'est directement inspiré de Théocrite pour ses 'Bucoliques'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "La poésie de Théocrite se caractérise par :",
+      "options": [
+        "Sa fraîcheur, son réalisme de détail et son charme mélancolique",
+        "Sa violence guerrière",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Théocrite est considéré comme l'un des trois grands poètes alexandrins avec Callimaque et Apollonios.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz8",
+  "titre": "Gestion de Paquets : Avancé",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel fichier remplace de plus en plus setup.py pour configurer un projet ?",
+      "options": [
+        "pyproject.toml",
+        "settings.yaml",
+        "config.json",
+        "project.py"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un fichier '.whl' (Wheel) est un format de distribution binaire qui évite la compilation lors de l'installation.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'outil {{1}} est le standard moderne pour construire (build) des paquets Python.",
+      "reponsesAttendues": ["build", "setup-tools", "flit", "poetry"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quoi sert un fichier MANIFEST.in ?",
+      "options": [
+        "À lister les fichiers non-Python (images, data) à inclure dans le paquet",
+        "À lister les bugs",
+        "À configurer Git",
+        "À rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "PyPI permet d'héberger des paquets privés gratuitement.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie un 'Entry Point' dans un paquet Python ?",
+      "options": [
+        "Une commande console créée automatiquement lors de l'installation",
+        "Le début du fichier",
+        "Un dossier",
+        "Une erreur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'outil {{1}} permet de télécharger et d'installer des paquets depuis PyPI.",
+      "reponsesAttendues": ["pip"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les 'Namespace Packages' permettent de diviser un seul package sur plusieurs dossiers/installs physiques.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel outil permet de gérer les versions de Python installées sur une machine ?",
+      "options": [
+        "pyenv",
+        "pipenv",
+        "venv",
+        "pyversion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il est possible de créer un exécutable autonome (.exe) à partir d'un script Python avec PyInstaller.",
+      "reponse": true
+    }
+  ]
+}

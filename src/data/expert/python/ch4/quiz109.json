@@ -1,0 +1,94 @@
+{
+  "id": "quiz109",
+  "titre": "Python Expert : Tests Avancés (Pytest & Mocking)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans Pytest, comment appelle-t-on une fonction décorée permettant de fournir des données ou des ressources réutilisables à plusieurs tests ?",
+      "options": [
+        "Fixture",
+        "Marker",
+        "Mock",
+        "Parametrize"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation de 'unittest.mock' permet de remplacer des parties du système testé par des objets fictifs (mocks) pour isoler les tests.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le fichier `{{1}}` (conftest.py) permet de définir des fixtures partagées à l'échelle d'un répertoire de tests.",
+      "reponsesAttendues": [
+        "conftest.py"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel décorateur Pytest permet d'exécuter un même test plusieurs fois avec des jeux de données différents ?",
+      "options": [
+        "@pytest.mark.parametrize",
+        "@pytest.fixture",
+        "@pytest.mark.skip",
+        "@pytest.mark.usefixtures"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Pytest ne peut pas exécuter les tests écrits avec la bibliothèque standard 'unittest'.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi sert l'outil 'Coverage.py' ?",
+      "options": [
+        "Mesurer le pourcentage de code exécuté par les tests",
+        "Accélérer les tests",
+        "Générer de la documentation",
+        "Vérifier les types"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La fonction `{{1}}` (patch) de unittest.mock est utilisée comme décorateur ou gestionnaire de contexte pour mocker un objet dans un module spécifique.",
+      "reponsesAttendues": [
+        "patch"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un 'Stub' est une implémentation simplifiée d'un service, tandis qu'un 'Mock' vérifie également les interactions (appels).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel plugin Pytest permet de tester du code asynchrone (asyncio) ?",
+      "options": [
+        "pytest-asyncio",
+        "pytest-cov",
+        "pytest-xdist",
+        "pytest-mock"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les tests de mutation permettent d'évaluer la qualité de la suite de tests en introduisant des bugs volontaires dans le code.",
+      "reponse": true
+    }
+  ]
+}

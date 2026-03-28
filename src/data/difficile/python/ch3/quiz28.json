@@ -1,0 +1,90 @@
+{
+  "id": "quiz28",
+  "titre": "Détails : __new__ vs __init__",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel est la véritable méthode statique de création ?",
+      "options": [
+        "__init__",
+        "__new__",
+        "__create__",
+        "__start__"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "__new__ doit retourner une instance de la classe (ou d'une autre).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le premier argument de __new__ est {{1}} (la classe) alors que celui de __init__ est self (l'instance).",
+      "reponsesAttendues": ["cls"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Dans quel cas est-il obligatoire de redéfinir __new__ ?",
+      "options": [
+        "Pour hériter de types immuables (str, int, tuple)",
+        "Pour les bases de données",
+        "Pour les listes",
+        "Jamais"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Si __new__ ne retourne pas une instance de la classe, __init__ n'est pas appelée.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le parent dans __new__ ?",
+      "options": [
+        "super().__new__(cls)",
+        "super().__init__()",
+        "object.create(cls)",
+        "self.new()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le pattern {{1}} utilise massivement __new__ pour contrôler l'instanciation unique.",
+      "reponsesAttendues": ["Singleton"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "__new__ est une méthode d'instance.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Où est défini __new__ originellement ?",
+      "options": [
+        "Dans la classe object",
+        "Dans system",
+        "Dans le BIOS",
+        "Nulle part"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il est rare de devoir modifier __new__ dans des projets standards.",
+      "reponse": true
+    }
+  ]
+}

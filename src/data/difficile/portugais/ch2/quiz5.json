@@ -1,0 +1,90 @@
+{
+  "id": "quiz5",
+  "titre": "Théâtre Gil Vicente",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est considéré comme le 'père du théâtre portugais' ?",
+      "options": [
+        "Gil Vicente",
+        "Almeida Garrett",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Gil Vicente écrivait aussi bien en portugais qu'en espagnol.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Son œuvre la plus célèbre, une satire religieuse et sociale, est la 'Trilogia das {{1}}' (Trilogie des barques).",
+      "reponsesAttendues": ["Barcas"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel de ces personnages n'apparaît pas dans l' 'Auto da Barca do Inferno' ?",
+      "options": [
+        "Un cosmonaute",
+        "Un noble arrogant, un usurier, un juge",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Gil Vicente était aussi un célèbre orfèvre à la cour du roi Manuel Ier.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "L' 'Auto da Sibília Cassandra' traite de :",
+      "options": [
+        "La prophétie de la naissance du Christ",
+        "La conquête de l'Inde",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La farce de '{{1}}' (Inês Pereira) est une satire sociale sur le mariage.",
+      "reponsesAttendues": ["Quem tem farelos", "Farsa de Inês Pereira"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le théâtre de Gil Vicente était essentiellement représenté devant la famille royale.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel était le message moral de ses 'Autos' ?",
+      "options": [
+        "La critique des vices de tous les ordres sociaux (noblesse, clergé, peuple)",
+        "L'apologie de la dictature",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Gil Vicente marque la transition entre le Moyen Âge et la Renaissance portugaise.",
+      "reponse": true
+    }
+  ]
+}

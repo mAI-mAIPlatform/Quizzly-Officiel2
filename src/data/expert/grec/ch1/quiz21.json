@@ -1,0 +1,95 @@
+{
+  "id": "quiz21",
+  "titre": "Ordre des mots et Place de l'Article",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la position habituelle de l'article par rapport au nom en grec ?",
+      "options": [
+        "Il précède immédiatement le nom",
+        "Il suit le nom",
+        "Il est optionnel",
+        "Il se place à la fin de la phrase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'ordre des mots en grec ancien est très libre grâce aux déclinaisons.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La position {{1}} consiste à placer l'adjectif entre l'article et le nom (ex: ὁ ἀγαθὸς ἀνήρ).",
+      "reponsesAttendues": [
+        "attributive"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie la position 'prédicative' (ex: ὁ ἀνὴρ ἀγαθός) ?",
+      "options": [
+        "L'adjectif fonctionne comme un attribut ('l'homme est bon')",
+        "L'adjectif est une épithète simple",
+        "L'adjectif est un complément de nom",
+        "C'est une faute de syntaxe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un nom sans article est toujours au pluriel.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Où se place souvent le verbe dans une phrase grecque classique ?",
+      "options": [
+        "A la fin (mais ce n'est pas rigide)",
+        "Au début obligatoirement",
+        "Toujours après le sujet",
+        "Il n'a pas de place préférentielle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'article peut transformer n'importe quel mot (adjectif, infinitif, adverbe) en {{1}}.",
+      "reponsesAttendues": [
+        "nom",
+        "substantif"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le grec peut répéter l'article : ὁ ἀνὴρ ὁ ἀγαθός.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment exprime-t-on 'ceux de la ville' en utilisant l'article seul ?",
+      "options": [
+        "οἱ ἐν τῇ πόλει",
+        "πόλεως ἄνθρωποι",
+        "οἱ πόλεις",
+        "ὁ πόλις"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'article grec possède une forme pour le vocatif.",
+      "reponse": false
+    }
+  ]
+}

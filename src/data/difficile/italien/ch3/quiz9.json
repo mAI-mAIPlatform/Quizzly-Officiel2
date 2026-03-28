@@ -1,0 +1,90 @@
+{
+  "id": "quiz9",
+  "titre": "La Famille Italienne",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on l'attachement excessif des fils italiens à leur mère ?",
+      "options": [
+        "Il Mammonismo",
+        "La Paternità",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La famille reste la cellule de base de la solidarité économique et sociale en Italie.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les {{1}} (nonni) jouent un rôle crucial dans la garde des enfants en l'absence de structures suffisantes.",
+      "reponsesAttendues": ["grands-parents", "nonni"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Le taux de résidence des jeunes de 25-34 ans chez leurs parents est-il élevé ?",
+      "options": [
+        "Oui, l'un des plus élevés d'Europe",
+        "Non, ils partent très tôt",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le mariage religieux garde une importance symbolique forte, bien que le nombre de mariages civils augmente.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "En quelle année le divorce a-t-il été légalisé en Italie (puis confirmé par référendum) ?",
+      "options": [
+        "1970",
+        "1946",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La {{1}} (famiglia) 'allargata' (élargie) reste un modèle de référence sociale.",
+      "reponsesAttendues": ["famille", "famiglia"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'Italie a légalisé les unions civiles pour les couples de même sexe en 2016.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le surnom affectueux de la grand-mère en italien ?",
+      "options": [
+        "Nonna",
+        "Mamma",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le réseau familial compense souvent les lacunes de l'État-providence (Welfare) en Italie.",
+      "reponse": true
+    }
+  ]
+}

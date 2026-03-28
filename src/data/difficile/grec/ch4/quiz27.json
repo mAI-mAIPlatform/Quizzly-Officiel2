@@ -1,0 +1,90 @@
+{
+  "id": "quiz27",
+  "titre": "La Mosaïque",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est ce que l' 'opus tessellatum' ?",
+      "options": [
+        "La mosaïque faite de petits dés de pierre colorée (tesselles)",
+        "Une technique de danse",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les premières mosaïques grecques (à Pella) étaient faites de galets de rivière naturels.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La mosaïque servait principalement à décorer les {{1}} des villas et palais.",
+      "reponsesAttendues": ["sols"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'emblema' ?",
+      "options": [
+        "Un tableau central très fin réalisé en atelier et inséré dans un pavement",
+        "Un drapeau",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L' 'opus vermiculatum' utilise des tesselles minuscules pour imiter la finesse de la peinture.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelles scènes étaient fréquentes dans les mosaïques de Pella ?",
+      "options": [
+        "Des scènes de chasse (au lion, au cerf)",
+        "Des paysages polaires",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La mosaïque de la bataille d'{{1}} montre la défaite de Darius face à Alexandre.",
+      "reponsesAttendues": ["Issos"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La mosaïque grecque a atteint son apogée à l'époque hellénistique (Délos, Alexandrie).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est ce que la technique de l''asàrotos oîkos' (la chambre non balayée) ?",
+      "options": [
+        "Une mosaïque représentant des restes de repas au sol par réalisme",
+        "Une maison sale",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'art de la mosaïque a été transmis des Grecs aux Romains qui l'ont multiplié.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz72",
+  "titre": "Grec Expert : Monuments et Urbanisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Sur quelle colline sacrée d'Athènes se trouvent le Parthénon et l'Erechthéion ?",
+      "options": [
+        "L'Acropole",
+        "Le Lycabette",
+        "L'Hélicon",
+        "Le Pnyx"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Erechthéion est célèbre pour son 'portique des Caryatides', où des statues de femmes servent de colonnes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` était le cœur de la vie sociale, politique et commerciale de la cité grecque.",
+      "reponsesAttendues": [
+        "Agora"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel temple de l'Acropole est dédié à la déesse Athéna victorieuse ?",
+      "options": [
+        "Le temple d'Athéna Niké",
+        "Le Parthénon",
+        "Le temple de Zeus",
+        "L'Artémision"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Parthénon abritait une statue monumentale d'Athéna en or et en ivoire (chryséléphantine).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le passage couvert bordé de colonnes sur l'Agora ?",
+      "options": [
+        "La Stoa",
+        "Le Propylée",
+        "Le Tholos",
+        "Le Bouleutérion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les `{{1}}` sont les portes monumentales marquant l'entrée de l'Acropole d'Athènes.",
+      "reponsesAttendues": [
+        "Propylées"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Hippodamos de Milet est considéré comme le 'père' de l'urbanisme régulier (plan en damier).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle cité hellénistique possédait le célèbre Grand Autel dédié à Zeus (aujourd'hui à Berlin) ?",
+      "options": [
+        "Pergame",
+        "Alexandrie",
+        "Éphèse",
+        "Rhodes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les temples grecs étaient à l'origine peints de couleurs vives.",
+      "reponse": true
+    }
+  ]
+}

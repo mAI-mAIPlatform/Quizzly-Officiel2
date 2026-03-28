@@ -1,0 +1,90 @@
+{
+  "id": "quiz21",
+  "titre": "OS et Pathlib : Avancé",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode de Pathlib permet de vérifier si un chemin existe ?",
+      "options": [
+        "Path.exists()",
+        "Path.is_here()",
+        "Path.found()",
+        "Path.check()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Path.cwd() retourne le répertoire de travail actuel.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour supprimer un fichier avec Pathlib, on utilise la méthode {{1}}().",
+      "reponsesAttendues": ["unlink"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la principale différence entre 'os.path' et 'pathlib' ?",
+      "options": [
+        "os.path est plus rapide",
+        "pathlib est orienté objet (plus lisible), os.path manipule des chaînes de caractères",
+        "pathlib ne fonctionne que sur Linux",
+        "Aucune"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'opérateur / permet de joindre des chemins avec Pathlib (ex: p / 'file.txt').",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment créer un dossier récursivement s'il n'existe pas ?",
+      "options": [
+        "Path.mkdir(parents=True)",
+        "Path.create_all()",
+        "os.mkdir()",
+        "os.path.make()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La propriété {{1}} d'un objet Path donne l'extension du fichier (ex: .txt).",
+      "reponsesAttendues": ["suffix"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "os.walk() permet de parcourir toute une arborescence de dossiers.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que retourne Path('test.txt').stem ?",
+      "options": [
+        "'.txt'",
+        "'test'",
+        "'test.txt'",
+        "Error"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Pathlib gère automatiquement les séparateurs (/ ou \\) selon l'OS.",
+      "reponse": true
+    }
+  ]
+}

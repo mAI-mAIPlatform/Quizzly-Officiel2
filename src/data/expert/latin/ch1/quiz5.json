@@ -1,0 +1,94 @@
+{
+  "id": "quiz5",
+  "titre": "Syntaxe : Propositions Interrogatives Indirectes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "A quel mode est toujours le verbe d'une interrogative indirecte en latin classique ?",
+      "options": [
+        "Subjonctif",
+        "Indicatif",
+        "Infinitif",
+        "Impératif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une interrogative indirecte est introduite par un mot interrogatif (quid, cur, ubi...)",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour une question totale indirecte (ex: si...), on utilise fréquemment la particule `{{1}}` collée au premier mot.",
+      "reponsesAttendues": [
+        "ne"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment introduit-on le deuxième terme d'une interrogative double (si... ou si...) ?",
+      "options": [
+        "an",
+        "aut",
+        "vel",
+        "seu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une interrogation indirecte suit les règles de la Consecutio Temporum.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'Nescio ubi sit' ?",
+      "options": [
+        "Je ne sais pas où il est",
+        "Je ne sais pas qui il est",
+        "Je sais où il est",
+        "Il ne sait pas où je suis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La particule `{{1}}` introduit souvent une interrogation indirecte quand on attend une réponse négative ou dubitative (si par hasard).",
+      "reponsesAttendues": [
+        "num"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'indicatif est employé dans les interrogations indirectes chez les auteurs archaïques (ex: Plaute).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment exprime-t-on le doute 'Je ne sais si... ne... pas' ?",
+      "options": [
+        "Haud scio an",
+        "Nescio ut",
+        "Scio quin",
+        "Dubito ne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le mot 'ut' peut introduire une interrogation indirecte signifiant 'comment'.",
+      "reponse": true
+    }
+  ]
+}

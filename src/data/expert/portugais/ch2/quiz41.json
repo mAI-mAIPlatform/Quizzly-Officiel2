@@ -1,0 +1,95 @@
+{
+  "id": "quiz41",
+  "titre": "Português Expert : Falsos Amigos",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "O que significa 'Apelido' em Portugal ?",
+      "options": [
+        "Sobrenome (Nom de famille)",
+        "Nome fixo",
+        "Alcunha (Surnom)",
+        "Título de nobreza"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "O termo 'Propina' em Portugal refere-se às taxas de matrícula na universidade (non un pot-de-vin).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O falso amigo `{{1}}` significa 'atelier' ou 'oficina' (non um lugar de luxo).",
+      "reponsesAttendues": [
+        "oficina"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "O que significa 'Grávida' em relação ao espanhol e francês ?",
+      "options": [
+        "Enceinte (Pregnant)",
+        "Grave",
+        "Lourde",
+        "Malade"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Açougue' (Brasil) ou 'Talho' (Portugal) significa 'Boucherie'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Traduza 'Jantar' :",
+      "options": [
+        "Dîner",
+        "Déjeuner",
+        "Petit-déjeuner",
+        "Goûter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "O falso amigo `{{1}}` significa 'bureau' (meuble/pièce) em português.",
+      "reponsesAttendues": [
+        "escritório",
+        "escritório"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Esquisito' em português significa algo estranho ou bizarro (non exquis/delicioso).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "O que significa 'Todavia' ?",
+      "options": [
+        "Contudo / Mas (Pourtant)",
+        "Toujours",
+        "Partout",
+        "Jamais"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "'Ficar' pode significar 'rester' ou 'devenir' dependendo do contexto.",
+      "reponse": true
+    }
+  ]
+}

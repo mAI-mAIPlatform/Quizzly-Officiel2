@@ -1,0 +1,94 @@
+{
+  "id": "quiz4",
+  "titre": "Les Figures de Notes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la figure de note la plus longue ?",
+      "options": [
+        "La Noire",
+        "La Ronde",
+        "La Blanche",
+        "La Croche"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une ronde vaut 4 temps dans une mesure à 4/4.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une blanche vaut {{1}} temps.",
+      "reponsesAttendues": [
+        "2"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Combien de temps vaut une Noire ?",
+      "options": [
+        "1",
+        "2",
+        "1/2",
+        "4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une croche vaut 1/2 temps.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Combien faut-il de croches pour faire une Noire ?",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "1"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La figure qui a deux crochets sur sa queue s'appelle la {{1}} croche.",
+      "reponsesAttendues": [
+        "double"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Une double croche vaut 1/4 de temps.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle figure de note est représentée par un rond blanc sans queue ?",
+      "options": [
+        "Ronde",
+        "Blanche",
+        "Noire",
+        "Croche"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les figures de notes indiquent la durée des sons.",
+      "reponse": true
+    }
+  ]
+}

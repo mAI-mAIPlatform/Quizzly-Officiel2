@@ -1,0 +1,95 @@
+{
+  "id": "quiz14",
+  "titre": "Types de données : Nombres et Cordes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel type représente un texte ?",
+      "options": [
+        "Number",
+        "Boolean",
+        "String",
+        "Null"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En JS, 10 et '10' ont le même type.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le type qui représente les chiffres est {{1}}.",
+      "reponsesAttendues": [
+        "Number",
+        "number"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment entoure-t-on une String ?",
+      "options": [
+        "[]",
+        "{}",
+        "'' ou \"\"",
+        "<>"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "NaN signifie 'Not a Number'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle fonction permet de convertir du texte en nombre entier ?",
+      "options": [
+        "toString()",
+        "toInt()",
+        "parseInt()",
+        "num()"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La propriété {{1}} permet de connaître la longueur d'une String.",
+      "reponsesAttendues": [
+        "length"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Infinity' est une valeur possible du type Number.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le résultat de typeof 'Hello' ?",
+      "options": [
+        "'object'",
+        "'string'",
+        "'text'",
+        "'undefined'"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les nombres décimaux (ex: 3.14) sont aussi des 'Number'.",
+      "reponse": true
+    }
+  ]
+}

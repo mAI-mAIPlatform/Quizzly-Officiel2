@@ -1,0 +1,96 @@
+{
+  "id": "quiz53",
+  "titre": "HTML Expert : Font Face API",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert la CSS Font Loading API ?",
+      "options": [
+        "À contrôler dynamiquement le chargement des polices via JavaScript",
+        "À changer la couleur du texte",
+        "À supprimer les polices du système",
+        "À créer des polices personnalisées"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut vérifier si une police est chargée via la méthode document.fonts.check().",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La propriété CSS permettant de contrôler l'affichage pendant le chargement est `font-display: {{1}}`.",
+      "reponsesAttendues": [
+        "swap",
+        "fallback",
+        "optional"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'font-display: swap' ?",
+      "options": [
+        "Afficher une police système immédiatement puis remplacer par la police web une fois chargée",
+        "Attendre que la police soit chargée avant d'afficher le texte",
+        "Ne jamais charger la police",
+        "Changer de police au hasard"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La Font Face API permet de créer des objets FontFace et de les ajouter à document.fonts.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage de charger les polices en JS ?",
+      "options": [
+        "Éviter le FOIT (Flash of Invisible Text) et contrôler le timing du rendu",
+        "Cela va plus vite",
+        "C'est moins lourd",
+        "Ça marche sans Internet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'événement déclenché sur document.fonts lorsque toutes les polices sont prêtes est `{{1}}`.",
+      "reponsesAttendues": [
+        "ready"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "FontFace.load() retourne une Promise.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "À quoi sert l'attribut unicode-range dans @font-face ?",
+      "options": [
+        "À ne charger la police que pour certains caractères spécifiques",
+        "À traduire la police",
+        "À définir la taille",
+        "À choisir la langue"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il est possible de charger des polices de manière asynchrone sans bloquer le rendu du reste de la page.",
+      "reponse": true
+    }
+  ]
+}

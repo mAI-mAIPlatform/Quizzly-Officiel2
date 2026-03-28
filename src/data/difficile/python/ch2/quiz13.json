@@ -1,0 +1,90 @@
+{
+  "id": "quiz13",
+  "titre": "Packages : __init__.py",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi servait principalement le fichier __init__.py ?",
+      "options": [
+        "À lancer le programme",
+        "À indiquer qu'un répertoire doit être traité comme un package Python",
+        "À stocker la configuration",
+        "À rien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Depuis Python 3.3, les dossiers peuvent être des packages sans fichier __init__.py (Namespace Packages).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La variable {{1}} définie dans __init__.py permet de contrôler ce qui est exporté lors d'un 'from module import *'.",
+      "reponsesAttendues": ["__all__"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Où est exécuté le code contenu dans __init__.py ?",
+      "options": [
+        "Au démarrage de Windows",
+        "Lors de la première importation du package",
+        "À chaque appel de fonction",
+        "Jamais"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser __init__.py pour exposer des fonctions de sous-modules à un niveau supérieur.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est le type de __init__.py ?",
+      "options": [
+        "Un fichier texte",
+        "Un module Python standard",
+        "Un script shell",
+        "Un binaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le fichier {{1}} permet de définir les métadonnées de distribution d'un package.",
+      "reponsesAttendues": ["setup.py", "pyproject.toml"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "__init__.py est obligatoire pour les sous-packages aussi.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si un dossier contient un fichier __init__.py vide ?",
+      "options": [
+        "Il est ignoré",
+        "Il est considéré comme un package valide",
+        "Une erreur est levée",
+        "Il supprime les autres fichiers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "__init__.py peut importer des sous-modules pour simplifier l'API du package.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz23",
+  "titre": "Les Chiffres (11 à 20)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'onze' ?",
+      "options": [
+        "undici",
+        "dodici",
+        "tredici",
+        "quattordici"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Dodici' signifie douze.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Treize se dit '{{1}}' (tredici).",
+      "reponsesAttendues": [
+        "tredici"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'quindici' ?",
+      "options": [
+        "Quinze",
+        "Seize",
+        "Quatorze",
+        "Treize"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Sedici' signifie seize.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'vingt' ?",
+      "options": [
+        "venti",
+        "dieci",
+        "trenta",
+        "cento"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Dix-sept se dit '{{1}}' (diciassette).",
+      "reponsesAttendues": [
+        "diciassette"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Diciotto' signifie dix-huit.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'diciannove' ?",
+      "options": [
+        "Dix-neuf",
+        "Vingt-neuf",
+        "Neuf",
+        "Dix"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les nombres de 11 à 16 finissent par '-dici'.",
+      "reponse": true
+    }
+  ]
+}

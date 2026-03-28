@@ -1,0 +1,95 @@
+{
+  "id": "quiz61",
+  "titre": "HTML Expert : Shadow DOM et Encapsulation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est l'objectif principal du Shadow DOM ?",
+      "options": [
+        "Encapsuler la structure et les styles d'un composant pour éviter les interférences avec le reste de la page",
+        "Masquer le code source aux utilisateurs",
+        "Accélérer le chargement des images",
+        "Créer des animations CSS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'Shadow Root' est la racine de l'arbre DOM caché attaché à un élément hôte.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'élément de l'arbre DOM principal auquel le Shadow DOM est attaché s'appelle le `{{1}}` (Shadow Host).",
+      "reponsesAttendues": [
+        "hôte",
+        "host"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre le mode 'open' et 'closed' lors de l'attachement d'un shadow root ?",
+      "options": [
+        "En mode 'open', le Shadow Root est accessible via JS (element.shadowRoot); en 'closed', il ne l'est pas",
+        "En mode 'closed', le composant ne s'affiche pas",
+        "En mode 'open', tout le monde peut modifier le CSS",
+        "Il n'y a aucune différence réelle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les styles définis à l'intérieur du Shadow DOM ne 'fuient' pas vers l'extérieur du composant.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Slot' dans le Shadow DOM ?",
+      "options": [
+        "Un emplacement réservé pour injecter du contenu venant de l'arbre DOM parent",
+        "Une variable CSS",
+        "Un type de bouton",
+        "Une erreur de rendu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La pseudo-classe CSS `{{1}}` permet de cibler l'élément hôte depuis l'intérieur du Shadow DOM.",
+      "reponsesAttendues": [
+        ":host"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les événements qui ne traversent pas la frontière du Shadow DOM voient leur cible (target) 'retargétée' vers l'élément hôte.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle pseudo-élément permet de styliser les éléments injectés dans un slot ?",
+      "options": [
+        "::slotted()",
+        "::part()",
+        "::inject()",
+        "::content()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Shadow DOM fait partie intégrante de la spécification des Web Components.",
+      "reponse": true
+    }
+  ]
+}

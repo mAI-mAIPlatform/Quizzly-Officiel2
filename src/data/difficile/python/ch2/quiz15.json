@@ -1,0 +1,90 @@
+{
+  "id": "quiz15",
+  "titre": "Environnements Virtuels",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser un environnement virtuel (venv) ?",
+      "options": [
+        "Pour coder plus vite",
+        "Pour isoler les dépendances de chaque projet et éviter les conflits de versions",
+        "Pour sécuriser le code",
+        "C'est imposé par Microsoft"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La commande 'python -m venv myenv' crée un nouvel environnement virtuel.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour activer un environnement venv sur Windows, on exécute le script .\\myenv\\Scripts\\{{1}}.",
+      "reponsesAttendues": ["activate"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle commande installe toutes les dépendances listées dans un fichier ?",
+      "options": [
+        "pip install -r requirements.txt",
+        "pip load requirements.txt",
+        "pip read config",
+        "pip sync"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Il est recommandé d'inclure le dossier 'venv' dans son repo Git (commit).",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel outil est une alternative populaire à venv ?",
+      "options": [
+        "Conda",
+        "NPM",
+        "Composer",
+        "Maven"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Une fois dans un venv, la commande 'pip' pointe vers le dossier local du {{1}}.",
+      "reponsesAttendues": ["projet", "venv", "virtualenv"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut quitter un environnement virtuel avec la commande 'deactivate'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que contient généralement le fichier .gitignore pour un projet Python ?",
+      "options": [
+        "Le code source",
+        "Les dossiers venv, __pycache__ et les fichiers .pyc",
+        "Les images",
+        "Les fichiers .py"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Poetry et Pipenv sont des outils de gestion de dépendances plus modernes que venv seul.",
+      "reponse": true
+    }
+  ]
+}

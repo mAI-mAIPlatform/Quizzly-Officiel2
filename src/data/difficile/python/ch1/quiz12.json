@@ -1,0 +1,90 @@
+{
+  "id": "quiz12",
+  "titre": "f-strings et Formatage",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la syntaxe d'une f-string ?",
+      "options": [
+        "format('Hello {name}')",
+        "f'Hello {name}'",
+        "printf('Hello %s', name)",
+        "s'Hello {name}'"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut exécuter des expressions (ex: addition) à l'intérieur des accolades d'une f-string.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour afficher un nombre avec 2 décimales dans une f-string : f'{n:{{1}}}}'.",
+      "reponsesAttendues": [".2f"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle méthode de formatage est la plus ancienne ?",
+      "options": [
+        "f-strings",
+        "L'opérateur % (style C)",
+        ".format()",
+        "template strings"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "f'{var=}' (Python 3.8+) affiche à la fois le nom de la variable et sa valeur (utile pour le debug).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment aligner un texte à droite sur 10 caractères ?",
+      "options": [
+        "f'{s:>10}'",
+        "f'{s:<10}'",
+        "f'{s:^10}'",
+        "f'{s.right(10)}'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour insérer des accolades littérales dans une f-string, il faut les {{1}}.",
+      "reponsesAttendues": ["doubler", "doubler les accolades", "{{}}"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les f-strings sont plus rapides que .format() et %.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que retourne f'{1000:,}' ?",
+      "options": [
+        "'1,000'",
+        "'1000'",
+        "'1.000'",
+        "Error"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser des f-strings pour formater des dates.",
+      "reponse": true
+    }
+  ]
+}

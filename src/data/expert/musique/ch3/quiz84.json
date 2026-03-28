@@ -1,0 +1,94 @@
+{
+  "id": "quiz84",
+  "titre": "Musique Expert : Rock Progressif et Psychédélisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel groupe a publié 'The Dark Side of the Moon' en 1973 ?",
+      "options": [
+        "Pink Floyd",
+        "Genesis",
+        "Yes",
+        "King Crimson"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'album 'In the Court of the Crimson King' (1969) est considéré comme l'acte de naissance du Rock Progressif.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le groupe `{{1}}` (Yes) est célèbre pour ses compositions complexes et les envolées vocales de Jon Anderson.",
+      "reponsesAttendues": [
+        "Yes"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel chanteur menait le groupe Genesis avant de se lancer en solo en 1975 ?",
+      "options": [
+        "Peter Gabriel",
+        "Phil Collins",
+        "Tony Banks",
+        "Steve Hackett"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Rock Progressif emprunte souvent des structures à la musique classique et au jazz.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel instrument à clavier électronique est indissociable du son progressif des années 70 ?",
+      "options": [
+        "Le Mellotron",
+        "La Clavecin",
+        "Le Banjo",
+        "Le Theremin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le groupe `{{1}}` (Jethro Tull) se distingue par l'utilisation de la flûte traversière par son leader Ian Anderson.",
+      "reponsesAttendues": [
+        "Jethro Tull"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le concept-album est une caractéristique majeure du rock progressif.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel guitariste virtuose menait le groupe Frank Zappa and the Mothers of Invention ?",
+      "options": [
+        "Frank Zappa",
+        "Robert Fripp",
+        "David Gilmour",
+        "Eric Clapton"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les morceaux de rock progressif dépassent rarement les 3 minutes syndicales de la radio.",
+      "reponse": false
+    }
+  ]
+}

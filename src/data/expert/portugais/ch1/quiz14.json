@@ -1,0 +1,94 @@
+{
+  "id": "quiz14",
+  "titre": "Gramática : Flexão de Adjetivos Compostos",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Em adjetivos compostos (Adj + Adj), qual elemento normalmente varia ?",
+      "options": [
+        "Apenas o segundo (ex: luso-brasileiros)",
+        "Apenas o primeiro",
+        "Ambos",
+        "Nenhum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Adjetivos compostos referentes a cores que envolvem substantivos são invariáveis (ex: camisetas verde-abacate).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O plural de 'acordo amigável' é 'acordos `{{1}}`'.",
+      "reponsesAttendues": [
+        "amigáveis"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qual é o plural de 'surdo-mudo' (exceção à regra) ?",
+      "options": [
+        "surdos-mudos",
+        "surdo-mudos",
+        "surdos-mudo",
+        "surdo-mudo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "O adjetivo 'azul-marinho' é invariável.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qual a forma correta: 'olhos ...' ?",
+      "options": [
+        "castanho-claros",
+        "castanhos-claros",
+        "castanho-claro",
+        "castanhos-claro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "O plural de 'intervenção médico-cirúrgica' é 'intervenções médico-`{{1}}`'.",
+      "reponsesAttendues": [
+        "cirúrgicas"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "O termo 'cor-de-rosa' é invariável.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qual destas cores é invariável ?",
+      "options": [
+        "azul-celeste",
+        "avermelhado",
+        "brancacentos",
+        "amarelado"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "A flexão dos adjetivos deve sempre estar em harmonia com o substantivo que qualificam.",
+      "reponse": true
+    }
+  ]
+}

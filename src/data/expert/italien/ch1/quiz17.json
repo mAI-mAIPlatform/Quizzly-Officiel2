@@ -1,0 +1,94 @@
+{
+  "id": "quiz17",
+  "titre": "Grammatica : Costruzioni con 'fare' e 'lasciare'",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qual è il significato di 'far fare qualcosa a qualcuno' ?",
+      "options": [
+        "Causare un'azione o dare un ordine",
+        "Fare da soli",
+        "Vietare un'azione",
+        "Osservare qualcuno"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "In queste costruzioni, se l'infinito ha un complemento oggetto, la persona che compie l'azione è introdotta da 'a' (es: Faccio leggere il libro a Marco).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Completa: 'Ti faccio `{{1}}` (sapere) la mia decisione domani'.",
+      "reponsesAttendues": [
+        "sapere"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "In 'Lo lascio parlare', a chi si riferisce 'lo' ?",
+      "options": [
+        "Alla persona che è lasciata libera di parlare",
+        "Al discorso",
+        "A me stesso",
+        "A nessuno"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "I pronomi con 'fare + infinito' si mettono solitamente prima del verbo fare.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Come si traduce 'I made him cry' ?",
+      "options": [
+        "L'ho fatto piangere",
+        "Ho fatto lui piangere",
+        "Gli ho fatto piangere",
+        "Farlo piangere"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "In 'Farsi tagliare i capelli', il verbo 'farsi' ha un valore `{{1}}` causativo.",
+      "reponsesAttendues": [
+        "riflessivo"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Lasciare' seguito da infinito indica un permesso o una mancanza di opposizione.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qual è la forma corretta: 'I will let them go' ?",
+      "options": [
+        "Li lascerò andare",
+        "Le lascerò andare",
+        "Gli lascerò andare",
+        "Lascerolli andare"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il verbo 'fare' può essere seguito anche da 'che + congiuntivo' in contesti rari.",
+      "reponse": true
+    }
+  ]
+}

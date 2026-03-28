@@ -1,0 +1,94 @@
+{
+  "id": "quiz51",
+  "titre": "Musique Expert : L'Épopée de l'Opéra",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quel pays est né l'Opéra au tout début du XVIIe siècle ?",
+      "options": [
+        "Italie",
+        "France",
+        "Allemagne",
+        "Autriche"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Ouverture est la pièce instrumentale qui précède le lever de rideau d'un opéra.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` est un style de chant déclamé, proche de la parole, utilisé pour l'intrigue entre les airs.",
+      "reponsesAttendues": [
+        "récitatif"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'Aria' ?",
+      "options": [
+        "Un air de soliste permettant d'exprimer les sentiments d'un personnage",
+        "Le décor de la scène",
+        "L'orchestre au complet",
+        "Le livret de l'opéra"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le 'Bel Canto' privilégie la beauté de la ligne vocale et la virtuosité technique.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel compositeur français a créé la 'Tragédie Lyrique' ?",
+      "options": [
+        "Jean-Baptiste Lully",
+        "Jean-Philippe Rameau",
+        "Georges Bizet",
+        "Charles Gounod"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` est le texte d'un opéra, souvent écrit par un auteur différent du compositeur.",
+      "reponsesAttendues": [
+        "livret"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Carmen' de Bizet est l'un des opéras les plus joués au monde.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Intermezzo' ?",
+      "options": [
+        "Une courte pièce instrumentale ou vocale jouée entre deux actes",
+        "Une fin tragique",
+        "Un costume",
+        "Une répétition"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'opéra-comique français contient des dialogues parlés, contrairement au Grand Opéra.",
+      "reponse": true
+    }
+  ]
+}

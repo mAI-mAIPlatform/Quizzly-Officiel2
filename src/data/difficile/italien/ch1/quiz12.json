@@ -1,0 +1,90 @@
+{
+  "id": "quiz12",
+  "titre": "Le Vatican",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "En quelle année l'État de la Cité du Vatican est-il devenu souverain ?",
+      "options": [
+        "1929 (Accords du Latran)",
+        "1870",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Vatican est le plus petit État indépendant du monde en superficie et en population.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le {{1}} (Papa) est le souverain absolu de la Cité du Vatican.",
+      "reponsesAttendues": ["Pape", "Papa"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle basilique est le centre spirituel du Vatican ?",
+      "options": [
+        "Basilique Saint-Pierre (San Pietro)",
+        "Saint-Paul-hors-les-Murs",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La Garde Suisse Pontificale assure la sécurité du Pape depuis le XVIe siècle.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'élection d'un nouveau Pape ?",
+      "options": [
+        "Le Conclave",
+        "Le Consistoire",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La {{1}} (fumée) blanche annonce l'élection du nouveau souverain pontife.",
+      "reponsesAttendues": ["fumée", "fumata"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les Musées du Vatican abritent l'une des plus riches collections d'art au monde.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la langue officielle de la Cité du Vatican (actes officiels) ?",
+      "options": [
+        "Le Latin",
+        "L'Italien",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Bien qu'enclavé dans Rome, le Vatican est un sujet de droit international totalement distinct de l'Italie.",
+      "reponse": true
+    }
+  ]
+}

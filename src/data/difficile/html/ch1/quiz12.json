@@ -1,0 +1,90 @@
+{
+  "id": "quiz12",
+  "titre": "Groupage : Div vs Span vs P",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la principale différence entre <div> et <span> ?",
+      "options": [
+        "<div> est un élément de bloc, <span> est en ligne (inline)",
+        "<span> est plus gros",
+        "<div> est pour le texte uniquement",
+        "Aucune"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un paragraphe <p> peut contenir d'autres éléments de bloc comme une <div>.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise {{1}} est utilisée pour regrouper génériquement du contenu en ligne (inline).",
+      "reponsesAttendues": ["span"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Le contenu d'une balise <p> doit être du type :",
+      "options": [
+        "Phrasing content (texte, liens, images)",
+        "Flow content (titres, articles)",
+        "Metadata",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une <div> vide n'a aucune valeur sémantique.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quand utiliser une <div> plutôt qu'une <section> ?",
+      "options": [
+        "Pour un simple besoin de style (CSS) ou de script (JS) sans valeur thématique",
+        "Pour un titre",
+        "Toujours",
+        "Jamais"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les navigateurs ajoutent automatiquement une {{1}} avant et après l'élément <p>.",
+      "reponsesAttendues": ["marge", "margin"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il est possible de changer le comportement par défaut (block/inline) via CSS (display).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est l'ancêtre commun sémantique des listes, paragraphes et divs ?",
+      "options": [
+        "Flow content",
+        "Metadata",
+        "Root",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Un <span> peut contenir une image <img>.",
+      "reponse": true
+    }
+  ]
+}

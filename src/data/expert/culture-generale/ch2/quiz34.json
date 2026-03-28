@@ -1,0 +1,95 @@
+{
+  "id": "quiz34",
+  "titre": "Culture Générale Expert : La Grande Guerre (1914-1918)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel événement a déclenché l'engrenage des alliances menant à la guerre ?",
+      "options": [
+        "L'attentat de Sarajevo (assassinat de François-Ferdinand)",
+        "L'invasion de la Pologne",
+        "La révolution russe",
+        "Le naufrage du Lusitania"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Triple Entente regroupait la France, le Royaume-Uni et la Russie.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La guerre s'est enlisée dès la fin 1914 dans une guerre de `{{1}}`.",
+      "reponsesAttendues": [
+        "tranchées",
+        "position"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle fut la plus longue et l'une des plus sanglantes batailles de 1916 ?",
+      "options": [
+        "Verdun",
+        "La Marne",
+        "La Somme",
+        "Le Chemin des Dames"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les États-Unis sont entrés en guerre en 1917 aux côtés de l'Entente.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel traité de paix a mis fin officiellement à la guerre en 1919 ?",
+      "options": [
+        "Le Traité de Versailles",
+        "Le Traité de Vienne",
+        "Le Traité de Rome",
+        "Le Traité d'Utrecht"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'armistice a été signé le `{{1}}` novembre 1918.",
+      "reponsesAttendues": [
+        "11"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La guerre a provoqué la chute de quatre empires (Allemand, Austro-Hongrois, Russe, Ottoman).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment appelait-on les soldats français des tranchées ?",
+      "options": [
+        "Les Poilus",
+        "Les Tommies",
+        "Les Doughboys",
+        "Les Sammies"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La Société des Nations (SDN) a été créée après la guerre pour maintenir la paix.",
+      "reponse": true
+    }
+  ]
+}

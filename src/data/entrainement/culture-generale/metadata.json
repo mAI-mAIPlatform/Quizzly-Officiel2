@@ -3,5 +3,30 @@
   "titre": "Culture Générale",
   "niveau": "Entraînement",
   "description": "Découvre et maîtrise tout le programme de Culture Générale au niveau Entraînement !",
-  "chapitres": []
+  "chapitres": [
+    {
+      "id": "ch1",
+      "titre": "Histoire et Géo (Bases)",
+      "lecons": ["Dates clés", "Pays et Drapeaux", "Fleuves et Montagnes"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch2",
+      "titre": "Sciences et Nature",
+      "lecons": ["Planètes", "Animaux du monde", "Corps humain"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch3",
+      "titre": "Culture et Médias",
+      "lecons": ["Célébrités", "Séries et Films", "Musique populaire"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch4",
+      "titre": "Sports et Loisirs",
+      "lecons": ["Jeux Olympiques", "Règles de sport", "Inventions"],
+      "quizCount": 30
+    }
+  ]
 }

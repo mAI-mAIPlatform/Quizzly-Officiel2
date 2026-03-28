@@ -1,0 +1,94 @@
+{
+  "id": "quiz1",
+  "titre": "Les Continents",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Combien y a-t-il de continents sur Terre (selon le modèle courant) ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Europe est un continent.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le continent où se trouve la France est l'{{1}}.",
+      "reponsesAttendues": [
+        "Europe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel est le plus grand continent du monde ?",
+      "options": [
+        "L'Afrique",
+        "L'Asie",
+        "L'Amérique",
+        "L'Océanie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'Antarctique est un continent couvert de glace.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Sur quel continent se trouve le Nil et le Sahara ?",
+      "options": [
+        "L'Asie",
+        "L'Afrique",
+        "L'Europe",
+        "L'Océanie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le continent de l'Australie s'appelle l'{{1}}.",
+      "reponsesAttendues": [
+        "Océanie"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'Amérique est divisée en Amérique du Nord et Amérique du Sud.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "De quel continent viennent les pandas ?",
+      "options": [
+        "Afrique",
+        "Asie",
+        "Europe",
+        "Amérique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Nous habitons tous sur un continent.",
+      "reponse": true
+    }
+  ]
+}

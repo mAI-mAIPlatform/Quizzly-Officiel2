@@ -1,0 +1,90 @@
+{
+  "id": "quiz20",
+  "titre": "Checklist Finale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le premier point à vérifier ?",
+      "options": [
+        "Le HTML sémantique (H1, Nav, Main, Alt, etc.)",
+        "Le design",
+        "Le serveur",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si mon site a un Lighthouse score de 100, il est forcément parfaitement accessible.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Il faut vérifier la navigation au {{1}} sur toutes les pages interactives.",
+      "reponsesAttendues": ["clavier"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que vérifier pour les formulaires ?",
+      "options": [
+        "Chaque champ a un <label> explicite et les erreurs sont annoncées vocalelement",
+        "Ils sont beaux",
+        "Ils sont rapides",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le contraste du texte est suffisant (AA minimum).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Vérification multimédia ?",
+      "options": [
+        "Sous-titres présents pour les vidéos et alternatives pour l'audio",
+        "Formats récents uniquement",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le site ne doit pas bloquer le {{1}} utilisateur sur mobile.",
+      "reponsesAttendues": ["zoom"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Toutes les images décoratives sont masquées avec alt=''.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Point crucial en SPA ?",
+      "options": [
+        "Gestion du focus et annonce des changements de titres/routes",
+        "Couleur des boutons",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'accessibilité web est un droit fondamental pour tous les internautes. ♿🌍🏆🥇",
+      "reponse": true
+    }
+  ]
+}

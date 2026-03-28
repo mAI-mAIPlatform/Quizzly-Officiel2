@@ -1,0 +1,90 @@
+{
+  "id": "quiz1",
+  "titre": "Introduction au SEO technique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le SEO technique ?",
+      "options": [
+        "Optimiser l'infrastructure d'un site pour faciliter son indexation par les moteurs",
+        "Écrire des articles de blog",
+        "Payer pour des publicités",
+        "Acheter des domaines"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le SEO technique est moins important que le contenu rédactionnel en 2024.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le terme {{1}} désigne la capacité d'un robot à naviguer et découvrir toutes les pages d'un site.",
+      "reponsesAttendues": ["Crawlability", "Explorabilité"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel fichier donne des instructions directes aux robots des moteurs de recherche ?",
+      "options": [
+        "robots.txt",
+        "index.html",
+        "style.css",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un temps de chargement lent peut nuire au classement (ranking) d'une page.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie SERP ?",
+      "options": [
+        "Search Engine Results Page",
+        "Static Element Render Process",
+        "System Engine Resource Port",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'indexation est le processus par lequel un moteur de recherche {{1}} une page dans sa base de données.",
+      "reponsesAttendues": ["enregistre", "stocke", "ajoute"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le HTML sémantique aide les moteurs de recherche à comprendre la structure et l'importance du contenu.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel de ces éléments n'est pas un facteur direct du SEO technique ?",
+      "options": [
+        "La couleur de fond du site",
+        "Le certificat SSL (HTTPS)",
+        "Les données structurées",
+        "La vitesse du serveur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le SEO est un travail sur le long terme.",
+      "reponse": true
+    }
+  ]
+}

@@ -3,5 +3,30 @@
   "titre": "JavaScript",
   "niveau": "Savant",
   "description": "Découvre et maîtrise tout le programme de JavaScript au niveau Savant !",
-  "chapitres": []
+  "chapitres": [
+    {
+      "id": "ch1",
+      "titre": "Mécanismes de Haut Niveau",
+      "lecons": ["Optimisation de la pile", "Gestion bas-niveau", "Compilation JIT"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch2",
+      "titre": "Architecture & Patterns",
+      "lecons": ["Systèmes distribués", "Micro-frontends", "Design Patterns complexes"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch3",
+      "titre": "Sécurité & Robustesse",
+      "lecons": ["Audit de vulnérabilités", "Cryptographie Web", "Tests de charge"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch4",
+      "titre": "Innovation & Futur du Web",
+      "lecons": ["WebAssembly", "Web Component Standards", "Edge Computing"],
+      "quizCount": 30
+    }
+  ]
 }

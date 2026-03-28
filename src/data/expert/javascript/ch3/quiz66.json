@@ -1,0 +1,96 @@
+{
+  "id": "quiz66",
+  "titre": "JavaScript Expert : Profilage et Optimisation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel outil intégré au navigateur permet de mesurer les performances d'une application ?",
+      "options": [
+        "L'onglet Performance (DevTools)",
+        "Le Terminal",
+        "L'inspecteur de fichiers",
+        "Le menu Historique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'outil Lighthouse de Google permet d'obtenir un score de performance, d'accessibilité et de SEO.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` est le processus d'analyse du temps passé dans chaque fonction du code.",
+      "reponsesAttendues": [
+        "profilage",
+        "profiling"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'long task' en JS ?",
+      "options": [
+        "Une tâche bloquant le thread principal pendant plus de 50ms",
+        "Une tâche de 5 minutes",
+        "Une tâche de téléchargement",
+        "Un fichier trop gros"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le 'Tree Shaking' permet de supprimer le code mort lors de l'étape de bundle (via Webpack/Vite/Rollup).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle API permet d'aider à la performance en planifiant une tâche quand le navigateur est inactif ?",
+      "options": [
+        "requestIdleCallback()",
+        "setTimeout()",
+        "requestAnimationFrame()",
+        "setImmediate()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (currying) est une technique consistant à transformer une fonction à plusieurs arguments en une série de fonctions à un seul argument.",
+      "reponsesAttendues": [
+        "curryfication",
+        "currying"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Éviter les closures inutiles à l'intérieur de boucles peut améliorer les performances et réduire la pression sur le GC.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel indicateur mesure le temps entre l'interaction utilisateur et la réponse du navigateur ?",
+      "options": [
+        "INP (Interaction to Next Paint)",
+        "LCP (Largest Contentful Paint)",
+        "FID (First Input Delay)",
+        "CLS (Cumulative Layout Shift)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Utiliser `console.time('label')` et `console.timeEnd('label')` est un moyen simple de chronométrer un bloc de code.",
+      "reponse": true
+    }
+  ]
+}

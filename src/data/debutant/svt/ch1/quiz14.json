@@ -1,0 +1,95 @@
+{
+  "id": "quiz14",
+  "titre": "Les Régimes Alimentaires (1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on un animal qui ne mange que des végétaux ?",
+      "options": [
+        "Un carnivore",
+        "Un phytophage (ou végétarien/herbivore)",
+        "Un omnivore",
+        "Un insectivore"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le lion est un animal phytophage.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La vache qui broute de l'herbe est un {{1}}.",
+      "reponsesAttendues": [
+        "herbivore",
+        "phytophage"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on un animal qui mange d'autres animaux ?",
+      "options": [
+        "Un végétarien",
+        "Un zoophage (ou carnivore)",
+        "Un frugivore",
+        "Un granivore"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'écureuil qui mange des noisettes est granivore.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces expressions désigne un animal qui mange de tout (végétaux et animaux) ?",
+      "options": [
+        "Herbivore",
+        "Omnivore",
+        "Carnivore",
+        "Piscivore"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le renard, qui mange des fruits, des mulots et des insectes, est un {{1}}.",
+      "reponsesAttendues": [
+        "omnivore"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'homme a un régime alimentaire omnivore.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on un animal qui ne mange que des poissons ?",
+      "options": [
+        "Frugivore",
+        "Piscivore",
+        "Insectivore",
+        "Nectarivore"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le régime alimentaire dépend de la dentition et des besoins de l'animal.",
+      "reponse": true
+    }
+  ]
+}

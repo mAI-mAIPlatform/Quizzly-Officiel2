@@ -1,0 +1,96 @@
+{
+  "id": "quiz73",
+  "titre": "Python Expert : Le Protocole des Descripteurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelles sont les méthodes magiques qui définissent un descripteur ?",
+      "options": [
+        "__get__, __set__, __delete__",
+        "__getattr__, __setattr__",
+        "__init__, __new__",
+        "__call__, __iter__"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un descripteur doit être défini comme un attribut de niveau classe, pas d'instance.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un descripteur de `{{1}}` implémente `__set__` ou `__delete__`.",
+      "reponsesAttendues": [
+        "données",
+        "donnees",
+        "data"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre un descripteur de données et un descripteur de non-données ?",
+      "options": [
+        "Le descripteur de données a la priorité sur le dictionnaire de l'instance",
+        "Le descripteur de non-données a la priorité",
+        "Il n'y a aucune différence",
+        "L'un ne fonctionne qu'avec des entiers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "`property`, `classmethod` et `staticmethod` sont implémentés à l'aide de descripteurs.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi sert la méthode `__set_name__` introduite en Python 3.6 ?",
+      "options": [
+        "À connaître le nom de l'attribut auquel le descripteur est assigné",
+        "À changer le nom de la classe",
+        "À définir une docstring",
+        "À accélérer l'accès mémoire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'accès à un attribut via `obj.attr` appelle en réalité la méthode magique `{{1}}` qui gère la logique des descripteurs.",
+      "reponsesAttendues": [
+        "__getattribute__"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un descripteur peut intercepter l'accès à un attribut même s'il existe dans `__dict__`.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est l'usage principal d'un descripteur ?",
+      "options": [
+        "Gérer la validation, le typage ou le lazy-loading d'attributs",
+        "Accélérer les boucles",
+        "Créer des fichiers",
+        "Gérer les imports"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les fonctions Python sont des descripteurs de non-données.",
+      "reponse": true
+    }
+  ]
+}

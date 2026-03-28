@@ -1,0 +1,94 @@
+{
+  "id": "quiz9",
+  "titre": "Vocabulaire : La Ville et la Nature",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'La ville' ?",
+      "options": [
+        "Urbs",
+        "Villa",
+        "Oppidum",
+        "Roma"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Aqua' signifie 'L'eau'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour dire 'La forêt', on dit '{{1}}'.",
+      "reponsesAttendues": [
+        "silva"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'Ager' ?",
+      "options": [
+        "Le champ",
+        "L'argent",
+        "L'âge",
+        "L'agitation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Via' signifie 'La voie / La route'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'L'île' ?",
+      "options": [
+        "Insula",
+        "Terra",
+        "Mons",
+        "Mare"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le mot pour 'Terre' est '{{1}}'.",
+      "reponsesAttendues": [
+        "terra"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Roma' est le nom latin de la ville de Rome.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'Hortus' ?",
+      "options": [
+        "L'hôtel",
+        "Le jardin",
+        "L'herbe",
+        "Le cheval"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Beaucoup de ces mots ont donné naissance à des mots français.",
+      "reponse": true
+    }
+  ]
+}

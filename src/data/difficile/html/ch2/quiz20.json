@@ -1,0 +1,90 @@
+{
+  "id": "quiz20",
+  "titre": "Multimédia : Accessibilité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle règle est cruciale pour l'accessibilité des images ?",
+      "options": [
+        "Toujours fournir un attribut alt descriptif",
+        "Mettre des bordures",
+        "Utiliser du PNG",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si une image est purement décorative, l'attribut alt doit être laissé vide (alt=\"\").",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} fournit un libellé textuel pour un élément qui n'en a pas visuellement (ex: un bouton avec juste une icône).",
+      "reponsesAttendues": ["aria-label"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quoi servent les sous-titres <track> pour les sourds et malentendants ?",
+      "options": [
+        "Kind='captions' (inclut les bruits et descriptions sonores)",
+        "Kind='subtitles' (traduction uniquement)",
+        "Kind='metadata'",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Utiliser un Canvas sans solution de repli textuelle exclut les utilisateurs de lecteurs d'écran.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie ARIA ?",
+      "options": [
+        "Accessible Rich Internet Applications",
+        "Advanced Responsive Interface Area",
+        "Auto Render Interactive Art",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "On utilise rôle=\"{{1}}\" pour indiquer qu'un élément est une zone de dessin (Canvas/SVG).",
+      "reponsesAttendues": ["img", "graphics-document"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un <iframe> doit toujours posséder un attribut 'title' décrivant son contenu.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Pourquoi éviter l'autoplay avec du son ?",
+      "options": [
+        "C'est intrusif et perturbe les utilisateurs de lecteurs d'écran",
+        "Ça consomme trop",
+        "C'est interdit",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'accessibilité multimédia n'est pas seulement éthique, elle est souvent légale.",
+      "reponse": true
+    }
+  ]
+}

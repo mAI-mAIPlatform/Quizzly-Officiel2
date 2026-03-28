@@ -1,0 +1,90 @@
+{
+  "id": "quiz14",
+  "titre": "Verbes Déponents",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un verbe déponent ?",
+      "options": [
+        "Un verbe qui a une forme passive mais un sens actif",
+        "Un verbe sans passif",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les verbes déponents ont 4 formes au participe (présent et futur actifs, parfait et adjectif verbal passifs).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le participe parfait d'un déponent a un sens {{1}} (ex: locutus = ayant parlé).",
+      "reponsesAttendues": ["actif"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Sequor'",
+      "options": [
+        "Je suis (suivre)",
+        "Je suis suivi",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'adjectif verbal des déponents garde son sens passif d'obligation (ex: hortandus = qui doit être exhorté).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel verbe est déponent ?",
+      "options": [
+        "utor, fari, hortari, proficisci",
+        "amo, doceo",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le verbe {{1}} (utiliser) se construit avec l'ablatif.",
+      "reponsesAttendues": ["utor"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les déparents n'ont pas de passif réel (sens : 'je suis suivi' doit se traduire autrement).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Traduisez 'Locutus sum' :",
+      "options": [
+        "J'ai parlé",
+        "J'ai été parlé",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les verbes déponents sont très nombreux en latin.",
+      "reponse": true
+    }
+  ]
+}

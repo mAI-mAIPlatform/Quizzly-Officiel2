@@ -1,0 +1,94 @@
+{
+  "id": "quiz29",
+  "titre": "Le Corps Humain (Détails)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment se dit 'le pied' ?",
+      "options": [
+        "ὁ πούς (ho pous)",
+        "ἡ χείρ",
+        "ἡ κεφαλή",
+        "τὸ σῶμα"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'τὸ γóνυ' (to gonu) signifie le genou.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La main se dit 'ἡ {{1}}' (hê kheir).",
+      "reponsesAttendues": [
+        "χείρ"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'ὁ ὀδούς' (ho odous) ?",
+      "options": [
+        "La dent",
+        "La bouche",
+        "Le nez",
+        "L'oreille"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'τὸ οὖς' (to ous) signifie l'oreille.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'la bouche' ?",
+      "options": [
+        "τὸ στόμα (to stoma)",
+        "ἡ ῥίς",
+        "ὁ ὀφθαλμός",
+        "ἡ χείρ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'oeil se dit 'ὁ {{1}}' (ho ophthalmos).",
+      "reponsesAttendues": [
+        "ὀφθαλμός"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'ἡ ῥíς' (hê rhis) signifie le nez.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'ἡ καρδíα' (hê kardia) ?",
+      "options": [
+        "Le coeur",
+        "Le poumon",
+        "L'estomac",
+        "Le foie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le mot 'podologue' vient de 'pous' (pied).",
+      "reponse": true
+    }
+  ]
+}

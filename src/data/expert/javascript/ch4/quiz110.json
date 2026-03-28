@@ -1,0 +1,94 @@
+{
+  "id": "quiz110",
+  "titre": "Révision : Frameworks et Web Moderne (Chapitre 4 - JS Expert)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Architecture React 16+ ?",
+      "options": [
+        "Fiber",
+        "Metal",
+        "Core",
+        "Flux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "ref() = Réactif dans Vue 3.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Svelte n'a pas de `{{1}}` (Virtual DOM).",
+      "reponsesAttendues": [
+        "Virtual DOM"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Next.js Rendering ?",
+      "options": [
+        "SSR / SSG",
+        "Client Only",
+        "PHP Only",
+        "Static Only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Wasm est un format binaire.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Gestion d'état Vue 3 ?",
+      "options": [
+        "Pinia",
+        "Redux",
+        "Zustand",
+        "Recoil"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "TS : Union des clés : `{{1}}` (keyof).",
+      "reponsesAttendues": [
+        "keyof"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "MSW mocke le réseau.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Hook React non urgent ?",
+      "options": [
+        "useTransition",
+        "useEffect",
+        "useMemo",
+        "useRef"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Cypress = Tests E2E.",
+      "reponse": true
+    }
+  ]
+}

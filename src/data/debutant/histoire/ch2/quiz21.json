@@ -1,0 +1,94 @@
+{
+  "id": "quiz21",
+  "titre": "Les Dieux Romains",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le roi des dieux romains (équivalent de Zeus) ?",
+      "options": [
+        "Mars",
+        "Jupiter",
+        "Neptune",
+        "Vulcain"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Neptune est le dieu de la mer.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le dieu de la guerre s'appelle {{1}} (nom d'une planète).",
+      "reponsesAttendues": [
+        "Mars"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui est la déesse de la beauté et de l'amour ?",
+      "options": [
+        "Minerve",
+        "Diane",
+        "Vénus",
+        "Junon"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les dieux romains ressemblent beaucoup aux dieux grecs.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment s'appelle le messager des dieux avec des ailes aux talons ?",
+      "options": [
+        "Mercure",
+        "Pluton",
+        "Bacchus",
+        "Apollon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La déesse protectrice de Rome et du mariage est {{1}}.",
+      "reponsesAttendues": [
+        "Junon"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les Romains faisaient des sacrifices et des offrandes à leurs dieux.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces déesses représente la sagesse ?",
+      "options": [
+        "Minerve",
+        "Vesta",
+        "Cérès",
+        "Diane"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Panthéon à Rome est un temple dédié à tous les dieux.",
+      "reponse": true
+    }
+  ]
+}

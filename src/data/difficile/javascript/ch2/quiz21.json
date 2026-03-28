@@ -1,0 +1,90 @@
+{
+  "id": "quiz21",
+  "titre": "Proxy Pattern (ES6 Proxy)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un objet Proxy en JavaScript ?",
+      "options": [
+        "Un serveur de base de données",
+        "Un objet qui enveloppe un autre objet pour intercepter et personnaliser les opérations (get, set, etc.)",
+        "Une copie de l'objet",
+        "Une erreur de réseau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'objet original enveloppé par un Proxy s'appelle la 'Target'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'objet contenant les interceptions du Proxy s'appelle le {{1}}.",
+      "reponsesAttendues": ["handler", "gestionnaire"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle 'trap' (interception) est utilisée pour intercepter l'accès à une propriété ?",
+      "options": [
+        "access()",
+        "get()",
+        "read()",
+        "property()"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Proxy permet de créer des objets avec des propriétés 'magiques' calculées à la volée.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel avantage apporte le Proxy pour la validation de données ?",
+      "options": [
+        "Il empêche l'écriture de mauvaises données via la trap 'set'",
+        "Il accélère l'écriture",
+        "Il crypte les données",
+        "Il les envoie sur le serveur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'objet {{1}} est souvent utilisé à l'intérieur des traps pour effectuer l'action originale par défaut.",
+      "reponsesAttendues": ["Reflect"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un Proxy peut intercepter l'appel d'une fonction via la trap 'apply'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est un usage courant du Proxy ?",
+      "options": [
+        "Logging de l'accès aux propriétés",
+        "Observabilité / Réactivité (comme dans Vue.js 3)",
+        "Accès sécurisé à des objets privés",
+        "Toutes les réponses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Un Proxy a un impact nul sur les performances, il est aussi rapide que l'objet original.",
+      "reponse": false
+    }
+  ]
+}

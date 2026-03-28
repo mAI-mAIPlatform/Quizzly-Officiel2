@@ -1,0 +1,90 @@
+{
+  "id": "quiz19",
+  "titre": "Exceptions : Intro",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel mot-clé commence un bloc de capture d'erreur ?",
+      "options": [
+        "catch",
+        "try",
+        "except",
+        "error"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le bloc 'finally' s'exécute toujours, qu'il y ait eu une erreur ou non.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On utilise le mot-clé {{1}} pour déclencher une exception manuellement.",
+      "reponsesAttendues": ["raise"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est l'exception de base pour toutes les erreurs standards ?",
+      "options": [
+        "Error",
+        "Exception",
+        "BaseException",
+        "SystemError"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut capturer plusieurs types d'exceptions dans un seul bloc 'except'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que fait 'except Exception as e' ?",
+      "options": [
+        "Rien",
+        "Capture l'erreur et la stocke dans la variable 'e'",
+        "Arrête le script",
+        "Relance l'erreur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le bloc {{1}} s'exécute uniquement si AUCUNE exception n'a été levée dans le try.",
+      "reponsesAttendues": ["else"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il est recommandé de toujours capturer l'exception générique 'Exception' sans distinction.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle erreur est levée lors d'une division par zéro ?",
+      "options": [
+        "DivisionError",
+        "ZeroDivisionError",
+        "ArithmeticError",
+        "ValueError"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'instruction 'assert' permet de vérifier une condition et de lever une AssertionError si elle est fausse.",
+      "reponse": true
+    }
+  ]
+}

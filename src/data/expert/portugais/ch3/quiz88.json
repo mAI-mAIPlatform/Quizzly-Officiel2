@@ -1,0 +1,95 @@
+{
+  "id": "quiz88",
+  "titre": "Portugais Expert : Portugal et Brésil - Une Histoire Partagée",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi la famille royale portugaise s'est-elle installée au Brésil en 1808 ?",
+      "options": [
+        "Pour fuir les invasions napoléoniennes",
+        "Pour des vacances",
+        "Pour fonder un nouvel empire en Amazonie",
+        "À cause d'une peste à Lisbonne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Rio de Janeiro fut temporairement la capitale du Royaume de Portugal.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le cri de l'indépendance du Brésil (1822) est connu sous le nom de 'Cri d'`{{1}}`' (Ipiranga).",
+      "reponsesAttendues": [
+        "Ipiranga"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel traité de 2000 accorde des droits d'égalité aux citoyens portugais au Brésil et vice versa ?",
+      "options": [
+        "Statut d'Égalité (Estatuto de Igualdade)",
+        "Accord de Schengen",
+        "Traité de Tordesillas",
+        "Accord de Brasilia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Portugal est aujourd'hui l'un des principaux investisseurs étrangers au Brésil.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'accord visant à unifier l'orthographe de la langue portugaise entre tous les pays lusophones ?",
+      "options": [
+        "Acordo Ortográfico",
+        "Pacto da Lingua",
+        "Tratado de Lisboa",
+        "Canon de Coimbra"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La plus grande communauté immigrée au Portugal aujourd'hui est d'origine `{{1}}` (bresilienne).",
+      "reponsesAttendues": [
+        "bresilienne",
+        "brasileira"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Brésil a conservé la monarchie pendant presque tout le XIXe siècle après son indépendance.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel genre musical brésilien est extrêmement populaire au Portugal depuis les années 80 ?",
+      "options": [
+        "Samba et Bossa Nova (et MPB)",
+        "Tango",
+        "Flamenco",
+        "Jazz"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les relations diplomatiques entre les deux pays sont régies par un 'Conseil de Concertation'.",
+      "reponse": true
+    }
+  ]
+}

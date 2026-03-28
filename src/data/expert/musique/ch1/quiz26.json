@@ -1,0 +1,92 @@
+{
+  "id": "quiz26",
+  "titre": "Histoire : Les Symphonies de Beethoven",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel était le dédicataire initial de la Symphonie n°3 'Héroïque' avant que Beethoven ne raye son nom ?",
+      "options": [
+        "Napoléon Bonaparte",
+        "L'archiduc Rodolphe",
+        "Le Pape",
+        "Louis XIV"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "vrai_faux",
+      "enonce": "La Symphonie n°5 débute par le célèbre motif de 4 notes souvent associé au 'Destin'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La Symphonie n°6 est surnommée la '`{{1}}`'.",
+      "reponsesAttendues": [
+        "Pastorale"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle symphonie introduit des voix solistes et un chœur dans son dernier mouvement ?",
+      "options": [
+        "Symphonie n°9",
+        "Symphonie n°7",
+        "Symphonie n°3",
+        "Symphonie n°5"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "vrai_faux",
+      "enonce": "L'Hymne à la Joie provient d'un poème de Schiller.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel instrument fait une entrée fracassante et inhabituelle dans la Symphonie n°9 ?",
+      "options": [
+        "Le triangle, les cymbales et la grosse caisse (style turc)",
+        "Le piano",
+        "La harpe",
+        "Le saxophone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La Symphonie n°7 a été qualifiée d' 'Apothéose de la `{{1}}`' par Richard Wagner.",
+      "reponsesAttendues": [
+        "danse"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Beethoven a dirigé la création de sa 9ème symphonie alors qu'il était déjà totalement sourd.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est l'intervalle majeur de la 5e symphonie au tout début ?",
+      "options": [
+        "Tierce mineure descendante",
+        "Quinte juste",
+        "Octave",
+        "Seconde mineure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les symphonies impaires de Beethoven sont souvent considérées comme plus 'révolutionnaires' ou puissantes que les paires.",
+      "reponse": true
+    }
+  ]
+}

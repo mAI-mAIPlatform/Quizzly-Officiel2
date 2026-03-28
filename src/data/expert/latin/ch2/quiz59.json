@@ -1,0 +1,94 @@
+{
+  "id": "quiz59",
+  "titre": "Latin Expert : Religion & Mythes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on les prêtres chargés d'interpréter le vol des oiseaux ?",
+      "options": [
+        "Les Augures",
+        "Les Harusspices",
+        "Les Vestales",
+        "Les Flaminians"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'Pontifex Maximus' est le chef suprême de la religion romaine.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les dieux protecteurs du foyer s'appellent les `{{1}}` et les Pénates.",
+      "reponsesAttendues": [
+        "Lares"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui sont les Vestales ?",
+      "options": [
+        "Des prêtresses vouées à la chasteté, gardiennes du feu sacré",
+        "Les épouses des consuls",
+        "Des musiciennes de temple",
+        "Des prophétesses errantes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les Romains pratiquaient le syncrétisme, identifiant leurs dieux aux dieux grecs.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel dieu romain a deux visages (le passé et le futur) ?",
+      "options": [
+        "Janus",
+        "Saturne",
+        "Quirinus",
+        "Pluton"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La `{{1}}` (piété) romaine consistait surtout en un respect scrupuleux des rites envers les dieux et la famille.",
+      "reponsesAttendues": [
+        "pietas"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les Romains offraient des sacrifices d'animaux pour obtenir la faveur des dieux (Do ut des).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle divinité présidait à la guerre ?",
+      "options": [
+        "Mars",
+        "Minerve",
+        "Vulcain",
+        "Bacchus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La fête des Saturnales était une période de renversement social où les esclaves étaient servis par leurs maîtres.",
+      "reponse": true
+    }
+  ]
+}

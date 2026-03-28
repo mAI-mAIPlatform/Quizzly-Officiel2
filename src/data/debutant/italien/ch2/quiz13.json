@@ -1,0 +1,94 @@
+{
+  "id": "quiz13",
+  "titre": "Le Vocabulaire des Vêtements",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'le pantalon' ?",
+      "options": [
+        "i pantaloni",
+        "la gonna",
+        "la camicia",
+        "il vestito"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'La gonna' signifie la jupe.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La chemise se dit 'la {{1}}' (camicia).",
+      "reponsesAttendues": [
+        "camicia"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'il vestito' ?",
+      "options": [
+        "La robe / l'habit",
+        "La chaussure",
+        "Le chapeau",
+        "Le manteau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Le scarpe' signifie les chaussures.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'le manteau' ?",
+      "options": [
+        "il cappotto",
+        "la maglia",
+        "il cappello",
+        "la borsa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le pull se dit 'la {{1}}' (maglia).",
+      "reponsesAttendues": [
+        "maglia"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Il cappello' signifie le chapeau.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'la borsa' ?",
+      "options": [
+        "Le sac",
+        "La bourse",
+        "Le portefeuille",
+        "La valise"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": " 'Metto la giacca' signifie 'Je mets la veste'.",
+      "reponse": true
+    }
+  ]
+}

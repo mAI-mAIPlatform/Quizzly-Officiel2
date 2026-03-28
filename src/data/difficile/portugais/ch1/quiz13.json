@@ -1,0 +1,90 @@
+{
+  "id": "quiz13",
+  "titre": "Pronomes Relativos",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel pronom relatif exprime l'appartenance (dont) ?",
+      "options": [
+        "Cujo (et ses variantes)",
+        "Que",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le pronom 'Cujo' s'accorde en genre et en nombre avec le nom qui suit (le possédé).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La femme dont le fils est ici se dit : 'A mulher {{1}} filho está aqui'.",
+      "reponsesAttendues": ["cujo"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quand utilise-t-on 'O qual' plutôt que 'Que' ?",
+      "options": [
+        "Pour éviter les ambiguïtés ou après de longues prépositions",
+        "Seulement à l'oral",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le pronom 'Onde' ne peut être utilisé que pour les lieux physiques.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle est la forme correcte pour 'Aonde' ?",
+      "options": [
+        "Indique le mouvement vers un lieu (ex: Onde vais ? -> Aonde vais ?)",
+        "Indique la position statique",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Tout ce que... se traduit par '{{1}} que...'.",
+      "reponsesAttendues": ["tudo o", "tudo o que"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Quem' n'est utilisé que pour les personnes et doit être précédé d'une préposition.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est correct ?",
+      "options": [
+        "O livro cujo autor conheço",
+        "O livro que o autor conheço",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les relatifs complexes permettent une syntaxe fluide et précise.",
+      "reponse": true
+    }
+  ]
+}

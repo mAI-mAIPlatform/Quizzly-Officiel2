@@ -1,0 +1,90 @@
+{
+  "id": "quiz18",
+  "titre": "Adverbes de Lieu",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quels sont les 4 types de compléments de lieu ?",
+      "options": [
+        "Ubi (où on est), Quo (où on va), Unde (d'où on vient), Qua (par où on passe)",
+        "Hic, Haec, Hoc",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Hic' signifie 'ici' (repos), 'Huc' signifie 'vers ici' (mouvement).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'adverbe {{1}} signifie 'là-bas' (repos).",
+      "reponsesAttendues": ["illic"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Unde venis ?'",
+      "options": [
+        "D'où viens-tu ?",
+        "Où vas-tu ?",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Quorsum' signifie 'vers quel côté / dans quel but'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Adverbe pour 'par ici' ?",
+      "options": [
+        "hac",
+        "huc",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "{{1}} signifie 'n'importe où' (lieu sans mouvement).",
+      "reponsesAttendues": ["ubivis", "ubilibet"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le latin est beaucoup plus précis que le français pour distinguer le mouvement du repos.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Traduisez 'Ibim' :",
+      "options": [
+        "C'est une faute (on dit ibi)",
+        "Là-bas",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La racine 'qu-' se retrouve dans tous les adverbes interrogatifs de lieu.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz21",
+  "titre": "L'Accentuation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Sur quelles syllabes l'accent peut-il se placer en grec ?",
+      "options": [
+        "Les trois dernières (antépénultième, pénultième, dernière)",
+        "Toutes les syllabes",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si la dernière syllabe est longue, l'accent ne peut pas remonter sur l'antépénultième.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'accent circonflexe ne peut se placer que sur une syllabe {{1}}.",
+      "reponsesAttendues": ["longue"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un mot 'proparoxytone' ?",
+      "options": [
+        "Un mot accentué sur l'antépénultième",
+        "Un mot sans accent",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les enclitiques sont des mots qui rejettent leur accent sur le mot précédent.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "L'accent grave ( \` ) remplace l'aigu quand :",
+      "options": [
+        "Le mot est sur la dernière syllabe et suivi d'un autre mot (sans ponctuation)",
+        "Le mot est un verbe",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Un mot accentué sur la dernière syllabe est dit {{1}}.",
+      "reponsesAttendues": ["oxytone"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'accent grec était à l'origine musical (hauteur de ton).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment accentue-t-on les verbes ?",
+      "options": [
+        "L'accent remonte le plus loin possible (accent récessif)",
+        "Toujours sur la dernière",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La diphtongue -ai ou -oi finale est considérée comme brève pour l'accentuation (sauf optatif).",
+      "reponse": true
+    }
+  ]
+}

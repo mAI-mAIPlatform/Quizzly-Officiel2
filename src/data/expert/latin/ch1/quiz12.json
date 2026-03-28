@@ -1,0 +1,95 @@
+{
+  "id": "quiz12",
+  "titre": "Grammaire : Participes présent et futur",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison du nominatif singulier du participe présent de 'amare' ?",
+      "options": [
+        "amans",
+        "amantis",
+        "amatus",
+        "amaturus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le participe présent est toujours de type actif et exprime la simultanéité.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le participe futur de 'regere' (diriger) est `{{1}}`.",
+      "reponsesAttendues": [
+        "recturus"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie le participe futur employé seul avec un verbe de mouvement ?",
+      "options": [
+        "L'intention ou le but (ex: 'venit pugnaturus' = il vient pour combattre)",
+        "Le passé composé",
+        "Une interdiction",
+        "Une simple description"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le participe présent se décline comme les adjectifs de la 2e classe (Type 'ingens').",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle nuance exprime la périphrase 'scripturus sum' ?",
+      "options": [
+        "L'imminence ou l'intention (Je suis sur le point d'écrire / J'ai l'intention d'écrire)",
+        "L'obligation d'écrire",
+        "Le fait d'avoir déjà écrit",
+        "La manière d'écrire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le participe présent s'emploie souvent comme un véritable `{{1}}` (ex: sapiens = le sage).",
+      "reponsesAttendues": [
+        "nom",
+        "substantif"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le participe parfait passif existe pour tous les verbes, même intransitifs.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment se forme le participe présent des verbes en -io (ex: capere) ?",
+      "options": [
+        "capiens, capientis",
+        "capans, capantis",
+        "capens, capentis",
+        "capis conscient"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les verbes déponents ont un participe présent de sens actif.",
+      "reponse": true
+    }
+  ]
+}

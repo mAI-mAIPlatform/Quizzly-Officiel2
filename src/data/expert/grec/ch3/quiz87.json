@@ -1,0 +1,95 @@
+{
+  "id": "quiz87",
+  "titre": "Grec Expert : Le Stoïcisme - La Vertu et l'Ordre du Monde",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est le fondateur de l'école stoïcienne à Athènes ?",
+      "options": [
+        "Zénon de Kition",
+        "Cléanthe",
+        "Chrysippe",
+        "Épicure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le stoïcisme tire son nom du 'Stoà Poikilè' (Portique peint) où Zénon enseignait.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'idéal stoïcien est l'`{{1}}` (Ataraxie), l'absence de trouble de l'âme.",
+      "reponsesAttendues": [
+        "Ataraxie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la règle d'or d'Épictète pour atteindre la tranquillité ?",
+      "options": [
+        "Distinguer ce qui dépend de nous de ce qui n'en dépend pas",
+        "Chercher le plaisir maximal",
+        "Douter de tout",
+        "Accumuler les richesses"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Marc Aurèle, empereur romain, était un fervent adepte du stoïcisme.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment les stoïciens considèrent-ils l'univers ?",
+      "options": [
+        "Comme un cosmos rationnel et ordonné partagé par le Logos",
+        "Comme un chaos aléatoire",
+        "Comme une illusion totale",
+        "Comme le domaine exclusif des dieux capricieux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'`{{1}}` (Apathie) stoïcienne n'est pas l'indifférence mais la maîtrise des passions.",
+      "reponsesAttendues": [
+        "Apathie",
+        "Apatheia"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Pour le stoicien, la seule chose vraiment bonne est la Vertu.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel de ces penseurs appartient au 'Nouveau Stoïcisme' (période impériale) ?",
+      "options": [
+        "Sénèque",
+        "Épicure",
+        "Pyrrhon",
+        "Démocrite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le stoïcisme prône de vivre conformément à la Nature.",
+      "reponse": true
+    }
+  ]
+}

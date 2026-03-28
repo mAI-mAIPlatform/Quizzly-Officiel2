@@ -1,0 +1,90 @@
+{
+  "id": "quiz3",
+  "titre": "Poésie Lyrique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "D'où vient le mot 'lyrique' ?",
+      "options": [
+        "De la lyre (instrument accompagnant le chant)",
+        "Du lieu de naissance des poètes",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Sappho de Lesbos est célèbre pour sa poésie exprimant les émois amoureux.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le poète {{1}} est connu pour ses poèmes exhortant les Spartiates au combat.",
+      "reponsesAttendues": ["Tyrtée"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est le thème principal des poèmes d'Anacréon ?",
+      "options": [
+        "Le vin, l'amour et la joie de vivre",
+        "La métaphysique",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La poésie lyrique se distingue de l'épopée par l'expression de sentiments personnels.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui est le poète lyrique qui a inventé l'éloge des athlètes ?",
+      "options": [
+        "Simonide de Céos (ou Pindare)",
+        "Homère",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Archiloque de Paros est célèbre pour l'invention de l'{{1}} (vers satiriques).",
+      "reponsesAttendues": ["iambe"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Théognis de Mégare exprime les valeurs de l'aristocratie face à la montée de la démocratie.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel de ces poètes a jeté son bouclier pour fuir le combat ?",
+      "options": [
+        "Archiloque (et plus tard Alcée)",
+        "Achille",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le canon des 'neuf poètes lyriques' a été établi par les savants d'Alexandrie.",
+      "reponse": true
+    }
+  ]
+}

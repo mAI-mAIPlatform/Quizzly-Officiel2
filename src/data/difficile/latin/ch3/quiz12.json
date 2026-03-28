@@ -1,0 +1,90 @@
+{
+  "id": "quiz12",
+  "titre": "Métamorphoses",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le principe directeur des 'Métamorphoses' d'Ovide ?",
+      "options": [
+        "Raconter l'histoire du monde à travers les transformations d'êtres en animaux, plantes ou pierres",
+        "Faire l'éloge d'Auguste",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'œuvre est écrite en hexamètres dactyliques, comme une épopée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le poème va du Chaos originel jusqu'à la divinisation de {{1}}.",
+      "reponsesAttendues": ["Jules César", "César"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Identifiez le mythe : Elle fuit Apollon et se transforme en laurier.",
+      "options": [
+        "Daphné",
+        "Io",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Narcisse se transforme en fleur après être tombé amoureux de son propre reflet.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Mythe de Pyrame et Thisbé ?",
+      "options": [
+        "Deux amants qui meurent sous un mûrier (ancêtre de Roméo et Juliette)",
+        "Des frères jumeaux",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le style d'Ovide est marqué par sa rapidité, son élégance et son {{1}} (art du récit).",
+      "reponsesAttendues": ["virtuosité", "esprit"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Ovide a regroupé plus de 250 mythes dans cette œuvre immense.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que devient Actéon après avoir vu Diane au bain ?",
+      "options": [
+        "Un cerf dévoré par ses propres chiens",
+        "Une statue",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les 'Métamorphoses' ont été la 'Bible des Peintres' à la Renaissance.",
+      "reponse": true
+    }
+  ]
+}

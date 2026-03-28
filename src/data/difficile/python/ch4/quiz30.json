@@ -1,0 +1,90 @@
+{
+  "id": "quiz30",
+  "titre": "EXAMEN FINAL : Python Expert",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la base de l'asynchronisme en Python ?",
+      "options": [
+        "Event Loop",
+        "Multi-threads",
+        "Multi-processeurs",
+        "Réseau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les générateurs sont des itérateurs paresseux.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un {{1}} gère l'entrée et la sortie d'un bloc de code via 'with'.",
+      "reponsesAttendues": ["Context Manager"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel module pour le profiling ?",
+      "options": [
+        "cProfile",
+        "inspect",
+        "sys",
+        "math"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Python peut appeler du code C nativement via ctypes.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie Mypy ?",
+      "options": [
+        "Vérificateur de types statiques",
+        "Un éditeur",
+        "Un compilateur",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le fichier {{1}} remplace setup.py.",
+      "reponsesAttendues": ["pyproject.toml"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le GIL limite les performances CPU-bound des threads.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que retourne id(obj) ?",
+      "options": [
+        "L'adresse mémoire / ID unique",
+        "Le nom de l'objet",
+        "La valeur",
+        "None"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Félicitations ! Vous êtes un Expert Python (Difficile) !! 🐍🏆🔥🚀🎓",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz10",
+  "titre": "Fin de Partie 1 : Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le but des commentaires ?",
+      "options": [
+        "Exécuter du code caché",
+        "Expliquer le code aux humains",
+        "Optimiser la performance",
+        "Changer les couleurs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "alert('Bonjour') et Alert('Bonjour') sont identiques.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "JS est un langage dit '{{1}}', il s'exécute ligne par ligne.",
+      "reponsesAttendues": [
+        "interprété"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel est un type de données basique en JS ?",
+      "options": [
+        "Le Pixel",
+        "L'Image",
+        "La Chaîne (String)",
+        "Le Fichier"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'inspecteur de code est essentiel pour le développeur.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Où voit-on les messages de console.log ?",
+      "options": [
+        "Sur l'écran du site",
+        "Dans la console des devtools",
+        "Dans un dossier spécial",
+        "Par email"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "V8 est le moteur qui fait tourner JS dans le navigateur {{1}}.",
+      "reponsesAttendues": [
+        "Chrome"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "JavaScript a été inventé pour Netscape.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "À quoi sert document.getElementById ?",
+      "options": [
+        "Créer un élément",
+        "Trouver un élément par son ID",
+        "Supprimer la page",
+        "Changer d'URL"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Un script externe se charge avec <script link='...'>.",
+      "reponse": false
+    }
+  ]
+}

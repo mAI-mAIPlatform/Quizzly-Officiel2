@@ -1,0 +1,90 @@
+{
+  "id": "quiz9",
+  "titre": "Closures & Imbrications",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une closure (fermeture) ?",
+      "options": [
+        "Une fonction qui ferme le programme",
+        "Une fonction interne qui se souvient des variables de son scope englobant même après la fin de la fonction parente",
+        "Une erreur de parenthèse",
+        "Une boucle infinie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour créer une closure, on doit définir une fonction à l'intérieur d'une autre et la retourner.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut spécial d'une fonction interne contenant les variables capturées est {{1}}.",
+      "reponsesAttendues": ["__closure__"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel mot-clé est nécessaire pour modifier une variable de la fonction parente depuis la fonction interne ?",
+      "options": [
+        "global",
+        "nonlocal",
+        "outer",
+        "parent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les closures sont une alternative légère aux classes pour stocker un état (state).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si la fonction parente termine son exécution ?",
+      "options": [
+        "La closure est détruite",
+        "La closure garde une référence aux variables dont elle a besoin",
+        "L'ordinateur plante",
+        "Le script s'arrête"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Une closure est une manifestation concrète du scope {{1}} de la règle LEGB.",
+      "reponsesAttendues": ["Enclosing"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Toutes les fonctions imbriquées sont des closures.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "À quoi servent les closures dans le développement moderne ?",
+      "options": [
+        "À créer des fonctions d'usine (factories) ou des décorateurs",
+        "À accélérer les calculs mathématiques",
+        "À rien, c'est obsolète",
+        "À masquer le code source"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Une closure 'capture' les variables par référence, pas par valeur.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz51",
+  "titre": "JS Expert : Modules ES",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre un import statique et un import dynamique ?",
+      "options": [
+        "L'import statique est résolu au chargement, le dynamique est une Promise résolue à l'exécution",
+        "L'import statique est pour le CSS, le dynamique pour le JS",
+        "L'import dynamique est réservé aux images",
+        "Il n'y a aucune différence technique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les modules ES (ESM) s'exécutent toujours en 'strict mode'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour importer un module de manière asynchrone, on utilise la fonction `{{1}}('chemin/vers/module')`.",
+      "reponsesAttendues": [
+        "import"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si un module est importé plusieurs fois dans une application ?",
+      "options": [
+        "Il n'est exécuté qu'une seule fois (Singleton)",
+        "Il est exécuté à chaque import",
+        "Le navigateur génère une erreur",
+        "Le premier import gagne, les autres sont ignorés en silence"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser 'await' à la racine d'un module ES (Top-level await) sans fonction async.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'import 'side-effect' ?",
+      "options": [
+        "Importer un module uniquement pour son exécution (ex: import './setup.js')",
+        "Un import qui fait planter le site",
+        "Un import de bibliothèque externe",
+        "Un import avec un alias"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour exporter plusieurs éléments d'un coup, on utilise les accolades : `export { a, {{1}} }`.",
+      "reponsesAttendues": [
+        "b"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les variables définies dans un module sont privées à ce module, sauf si elles sont exportées.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle balise HTML permet d'utiliser les modules dans le navigateur ?",
+      "options": [
+        "<script type='module'>",
+        "<script type='text/javascript'>",
+        "<module>",
+        "<import>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le 'Tree Shaking' fonctionne mieux avec les modules ES qu'avec CommonJS.",
+      "reponse": true
+    }
+  ]
+}

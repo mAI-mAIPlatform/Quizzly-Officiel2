@@ -1,0 +1,94 @@
+{
+  "id": "quiz52",
+  "titre": "Português Expert : Fernando Pessoa",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "O que caracteriza a obra de Fernando Pessoa ?",
+      "options": [
+        "A criação de heterónimos (personagens poéticas com biografias e estilos próprios)",
+        "A escrita apenas em inglês",
+        "O foco exclusivo na história de Portugal",
+        "O uso de rimas infantis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Alberto Caeiro é o heterónimo 'mestre', focado na natureza e nas sensações diretas.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O heterónimo que é um médico monárquico e cultiva a ode clássica é `{{1}}` Reis.",
+      "reponsesAttendues": [
+        "Ricardo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qual é o heterónimo futurista e sensacionalista, autor da 'Ode Marítima' ?",
+      "options": [
+        "Álvaro de Campos",
+        "Bernardo Soares",
+        "Ricardo Reis",
+        "Alberto Caeiro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Mensagem' é o único livro em português que Pessoa publicou em vida.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quem assina o 'Livro do Desassossego' ?",
+      "options": [
+        "Bernardo Soares (um semi-heterónimo)",
+        "Fernando Pessoa ele mesmo",
+        "Álvaro de Campos",
+        "Ricardo Reis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Fernando Pessoa nasceu e morreu em `{{1}}`.",
+      "reponsesAttendues": [
+        "Lisboa"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Pessoa viveu parte da sua juventude na África do Sul e escrevia perfeitamente em inglês.",
+      "reponse": true
+    },
+    {
+      "id": "q10",
+      "type": "qcm",
+      "enonce": "Frase célebre de Pessoa (Álvaro de Campos) :",
+      "options": [
+        "Tenho em mim todos os sonhos do mundo",
+        "O poeta é um fingidor",
+        "Tudo vale a pena se a alma não é pequena",
+        "Todas as anteriores"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q10_2",
+      "type": "vrai_faux",
+      "enonce": "A arca de Fernando Pessoa continha milhares de textos inéditos descobertos após a sua morte.",
+      "reponse": true
+    }
+  ]
+}

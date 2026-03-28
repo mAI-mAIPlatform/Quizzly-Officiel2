@@ -1,0 +1,90 @@
+{
+  "id": "quiz26",
+  "titre": "WASM vs JS : Cas d'usage",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quel cas WASM est-il préférable à JS ?",
+      "options": [
+        "Pour manipuler le DOM léger",
+        "Pour des calculs mathématiques lourds, du chiffrement, de la compression ou des moteurs de jeux",
+        "Pour changer une couleur de fond",
+        "Pour faire une requête Fetch"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "JavaScript reste plus efficace que WASM pour la manipulation fréquente et dynamique du DOM.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La mémoire partagée entre JS et WASM se fait via un objet de type {{1}}.",
+      "reponsesAttendues": ["ArrayBuffer", "SharedArrayBuffer", "WebAssembly.Memory"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel langage est très populaire pour compiler vers WASM grâce à sa gestion de la mémoire sans GC ?",
+      "options": [
+        "PHP",
+        "Rust",
+        "Python",
+        "Ruby"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le format .wat est la version texte (lisible par l'homme) de WebAssembly.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le projet 'WASI' ?",
+      "options": [
+        "Un framework UI",
+        "Une interface système permettant à WASM de s'exécuter hors du navigateur (serveur, IoT)",
+        "Un correcteur de code",
+        "Un compresseur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "WASM permet de porter des librairies écrites en {{1}} (vieilles de 30 ans) sur le web sans les réécrire.",
+      "reponsesAttendues": ["C", "C++", "Fortran"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "JavaScript et WebAssembly peuvent s'appeler l'un l'autre à l'infini (interopérabilité).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le futur de WASM ?",
+      "options": [
+        "Disparaître",
+        "Support du multithreading natif et du Garbage Collection intégré",
+        "Devenir un OS",
+        "Remplacer le CSS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "WASM rend le web beaucoup plus puissant, transformant le navigateur en une plateforme d'application universelle.",
+      "reponse": true
+    }
+  ]
+}

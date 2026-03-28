@@ -1,0 +1,94 @@
+{
+  "id": "quiz30",
+  "titre": "Examen Final : Chapitre 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel pays a un drapeau avec une feuille d'érable ?",
+      "options": [
+        "France",
+        "Canada",
+        "USA",
+        "Japon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Nil est un fleuve d'Égypte.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La capitale de l'Espagne est {{1}}.",
+      "reponsesAttendues": [
+        "Madrid"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel dinosaure avait trois cornes ?",
+      "options": [
+        "T-Rex",
+        "Tricératops",
+        "Diplodocus",
+        "Vélociraptor"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'Everest est le sommet le plus haut du monde.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui a peint la Joconde ?",
+      "options": [
+        "Picasso",
+        "Michel-Ange",
+        "Léonard de Vinci",
+        "Van Gogh"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'organe qui nous permet de respirer est le {{1}}.",
+      "reponsesAttendues": [
+        "poumon"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il y a 8 planètes dans le système solaire.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel objet attire le fer ?",
+      "options": [
+        "Le plastique",
+        "L'aimant",
+        "Le bois",
+        "Le verre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Félicitations ! Tu as validé le premier chapitre de Culture Générale !",
+      "reponse": true
+    }
+  ]
+}

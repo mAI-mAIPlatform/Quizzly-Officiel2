@@ -1,0 +1,95 @@
+{
+  "id": "quiz32",
+  "titre": "Musique Expert : Intervalles et Acoustique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel intervalle est composé de 6 demi-tons (ou 3 tons) ?",
+      "options": [
+        "Le Tritan (Quarte augmentée / Quinte diminuée)",
+        "La Quinte juste",
+        "La Quarte juste",
+        "La Sixte majeure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une octave correspond à un doublement de la fréquence sonore (Hz).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le renversement d'une Tierce majeure est une `{{1}}` mineure.",
+      "reponsesAttendues": [
+        "Sixte"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quels sont les 'intervalles parfaits' ?",
+      "options": [
+        "Unisson, Quarte, Quinte, Octave",
+        "Tierce, Sixte",
+        "Seconde, Septième",
+        "Tous les intervalles"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les harmoniques sont des fréquences multiples de la fréquence fondamentale d'un son.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Combien de demi-tons y a-t-il dans une quinte juste ?",
+      "options": [
+        "7",
+        "5",
+        "6",
+        "8"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Un intervalle de `{{1}}` (9ème) correspond à une octave plus une seconde.",
+      "reponsesAttendues": [
+        "Neuvième",
+        "neuvieme"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La justesse pythagoricienne est basée sur la superposition de quintes justes.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une enharmonie ?",
+      "options": [
+        "Deux notes de noms différents produisant le même son (ex: Do# et Réb)",
+        "Un accord faux",
+        "Une mélodie triste",
+        "Le cri d'un instrument"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le tempérament égal divise l'octave en 12 demi-tons strictement identiques.",
+      "reponse": true
+    }
+  ]
+}

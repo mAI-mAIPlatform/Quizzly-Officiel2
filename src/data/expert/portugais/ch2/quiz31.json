@@ -1,0 +1,94 @@
+{
+  "id": "quiz31",
+  "titre": "Português Expert : Subjuntivo (Presente e Imperfeito)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quando se utiliza o Presente do Subjuntivo em português ?",
+      "options": [
+        "Para exprimir desejos, dúvidas, hipóteses ou ordens suaves (ex: Espero que ele venha)",
+        "Para factos certos e consumados",
+        "Apenas no passado",
+        "Sempre depois da palavra 'quando'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "O Presente do Subjuntivo do verbo 'ser' na primeira pessoa é 'seja'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Qual é a forma correta do Pretérito Imperfeito do Subjuntivo de 'fazer' (tu) ? Se tu `{{1}}`.",
+      "reponsesAttendues": [
+        "fizesses"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Traduza : 'Oxalá amanhã não chova'",
+      "options": [
+        "Pourvu qu'il ne pleuve pas demain",
+        "Demain il ne pleuvra pas",
+        "S'il pleut demain, je reste",
+        "Peut-être qu'il pleut"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "O Pretérito Imperfeito do Subjuntivo utiliza a terminação -sse (ex: falasse, partisse).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qual é a forma correta para 'querer' (nós) no Presente do Subjuntivo ?",
+      "options": [
+        "queiramos",
+        "queramos",
+        "queremos",
+        "quiséssemos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "A conjunção `{{1}}` (embora) exige sempre o uso do subjuntivo.",
+      "reponsesAttendues": [
+        "embora"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "O Presente do Subjuntivo de 'haver' é 'haja'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Traduza : 'Se eu tivesse tempo, iria ao cinema'",
+      "options": [
+        "Si j'avais le temps, j'irais au cinéma (Conditionnel)",
+        "Si j'ai le temps, je vais au cinéma",
+        "Bien que j'aie le temps, je n'y vais pas",
+        "Quand j'aurai le temps, j'irai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "O imperfeito do subjuntivo é usado em orações condicionais irreais no presente.",
+      "reponse": true
+    }
+  ]
+}

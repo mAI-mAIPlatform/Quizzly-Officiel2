@@ -1,0 +1,90 @@
+{
+  "id": "quiz29",
+  "titre": "Expressions Régulières (re)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel module permet de manipuler les RegEx ?",
+      "options": [
+        "regex",
+        "re",
+        "match",
+        "grep"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "re.match() cherche une correspondance uniquement au début de la chaîne.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La fonction re.{{1}}() cherche la première occurrence d'un motif n'importe où dans la chaîne.",
+      "reponsesAttendues": ["search"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie le caractère spécial \\d ?",
+      "options": [
+        "Un espace",
+        "Un chiffre (0-9)",
+        "Une lettre",
+        "Un début de ligne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "re.findall() retourne une liste de toutes les correspondances trouvées.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment remplacer une partie d'une chaîne par une autre avec une RegEx ?",
+      "options": [
+        "re.sub()",
+        "re.replace()",
+        "re.change()",
+        "re.switch()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les parenthèses ( ) dans un motif RegEx servent à définir des {{1}} de capture.",
+      "reponsesAttendues": ["groupes"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "re.compile() permet de pré-compiler un motif pour améliorer les performances si on s'en sert plusieurs fois.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie le quantificateur + ?",
+      "options": [
+        "0 ou plus",
+        "1 ou plus",
+        "Exactement 1",
+        "Rien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les chaînes brutes (raw strings, ex: r'\\d') sont recommandées pour écrire des RegEx afin d'éviter les problèmes d'échappement.",
+      "reponse": true
+    }
+  ]
+}

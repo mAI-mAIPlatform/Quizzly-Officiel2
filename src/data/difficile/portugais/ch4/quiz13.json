@@ -1,0 +1,90 @@
+{
+  "id": "quiz13",
+  "titre": "Chiffres et Nombres",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'Ser pau para toda a obra' ?",
+      "options": [
+        "Être un touche-à-tout / quelqu'un de polyvalent",
+        "Être un menuisier",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'expression 'A dois tempos' signifie très rapidement.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Avoir sept vies se dit 'Ter sete {{1}}'.",
+      "reponsesAttendues": ["vidas"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que veut dire 'Ficar a zeros' ?",
+      "options": [
+        "Être sans argent ou ne rien comprendre",
+        "Gagner au loto",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Acertar na mouche' signifie viser juste, tomber pile.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'Desta para melhor' ?",
+      "options": [
+        "Mourir (euphémisme : passer de celle-ci à une meilleure)",
+        "Réussir un examen",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'expression 'Ir de {{1}} em {{1}}' (aller de mal en pis) se dit 'Ir de mal a pior'.",
+      "reponsesAttendues": ["mal", "pior"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Fazer trinta por uma linha' signifie faire toutes sortes de bêtises ou d'excès.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que veut dire 'Cortar na casaca' ?",
+      "options": [
+        "Dire du mal de quelqu'un dans son dos",
+        "Être tailleur",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les nombres structurent de nombreuses expressions de quantité et de qualité en portugais.",
+      "reponse": true
+    }
+  ]
+}

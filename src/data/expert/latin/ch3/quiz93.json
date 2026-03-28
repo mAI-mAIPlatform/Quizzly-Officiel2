@@ -1,0 +1,94 @@
+{
+  "id": "quiz93",
+  "titre": "Latin Expert : Cicéron et l'Éloquence",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel titre Cicéron a-t-il reçu pour avoir déjoué la conjuration de Catilina ?",
+      "options": [
+        "Pater Patriae (Père de la patrie)",
+        "Dictateur",
+        "Imperator",
+        "Pontifex Maximus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Cicéron est considéré comme le plus grand styliste et orateur de la langue latine.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les `{{1}}` (Catilinaires) sont les quatre célèbres discours prononcés par Cicéron contre Catilina.",
+      "reponsesAttendues": [
+        "Catilinaires"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on les discours de Cicéron contre Marc Antoine, ainsi nommés en référence à Démosthène ?",
+      "options": [
+        "Les Philippiques",
+        "Les Verrines",
+        "Les Tusculanes",
+        "Les Brutus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Cicéron a traduit et vulgarisé les concepts de la philosophie grecque pour le public romain.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel ouvrage de Cicéron traite des devoirs moraux et de l'éthique ?",
+      "options": [
+        "De Officiis (Des devoirs)",
+        "De Republica",
+        "De Oratore",
+        "De Natura Deorum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Cicéron a rédigé le `{{1}}` (De Oratore), un traité majeur sur la formation et les qualités de l'orateur idéal.",
+      "reponsesAttendues": [
+        "De Oratore"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Cicéron a été exécuté sur les ordres du second triumvirat (Antoine, Octave, Lépide).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la célèbre exclamation de Cicéron déplorant les mœurs de son temps ?",
+      "options": [
+        "O tempora, o mores !",
+        "Veni, vidi, vici",
+        "Alea jacta est",
+        "Et tu, Brute ?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Sa correspondance (Lettres à Atticus, à ses proches) constitue une source historique inestimable.",
+      "reponse": true
+    }
+  ]
+}

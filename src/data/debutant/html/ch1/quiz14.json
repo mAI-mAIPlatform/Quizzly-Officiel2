@@ -1,0 +1,94 @@
+{
+  "id": "quiz14",
+  "titre": "Titre vs Header",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre <title> et <h1> ?",
+      "options": [
+        "C'est la même chose",
+        "title est dans head (onglet), h1 est dans body (page)",
+        "h1 est pour le header, title pour le footer",
+        "title est plus gros que h1"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La balise <header> est un conteneur qui peut contenir un <h1>.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le contenu de la balise {{1}} n'apparaît jamais sur la page elle-même.",
+      "reponsesAttendues": [
+        "title"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces balises est sémantique ?",
+      "options": [
+        "<h1>",
+        "<header>",
+        "<title>",
+        "Les trois"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut avoir plusieurs <header> dans une seule page (ex: dans un <article>).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel élément est le plus important pour le référencement (SEO) ?",
+      "options": [
+        "<title>",
+        "<h1>",
+        "<header>",
+        "Les deux 1 et 2"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le titre affiché dans les résultats de recherche Google provient souvent du {{1}}.",
+      "reponsesAttendues": [
+        "title"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut mettre du texte directement dans un <header>.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle balise est idéale pour le logo du site ?",
+      "options": [
+        "<title>",
+        "<header>",
+        "<h1> (souvent utilisé pour le titre du site)",
+        "Les deux 2 et 3 sont courants"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "<header> est l'opposé de <footer>.",
+      "reponse": true
+    }
+  ]
+}

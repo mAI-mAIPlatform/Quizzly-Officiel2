@@ -1,0 +1,95 @@
+{
+  "id": "quiz64",
+  "titre": "Musique Expert : Liszt et la Virtuosité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Franz Liszt était considéré comme le plus grand virtuose de quel instrument ?",
+      "options": [
+        "Le Piano",
+        "Le Violon",
+        "L'Orgue",
+        "La Harpe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Liszt a inventé le genre du 'Poème Symphonique'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les Rhapsodies `{{1}}` célèbrent les racines culturelles de Liszt et utilisent des thèmes tziganes.",
+      "reponsesAttendues": [
+        "hongroises"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on l'hystérie collective que Liszt déclenchait lors de ses concerts ?",
+      "options": [
+        "Lisztomanie",
+        "Virtuosisme",
+        "Bravoura",
+        "Fanatisme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Liszt a fini sa vie en recevant les ordres mineurs de l'Église catholique (l'Abbé Liszt).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle œuvre titanesque pour piano seul n'est composée que d'un seul mouvement ininterrompu ?",
+      "options": [
+        "La Sonate en si mineur",
+        "Années de Pèlerinage",
+        "Études d'exécution transcendante",
+        "Totentanz"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les Années de `{{1}}` sont un vaste recueil de pièces évoquant les voyages de Liszt en Suisse et en Italie.",
+      "reponsesAttendues": [
+        "Pèlerinage",
+        "Pelerinage"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Liszt a généreusement soutenu et transcrit les œuvres de nombreux autres compositeurs (Wagner, Berlioz, etc.).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle technique compositionnelle Liszt utilise-t-il souvent, consistant à faire évoluer un thème court ?",
+      "options": [
+        "La transformation thématique",
+        "Le contrepoint strict",
+        "La fugue",
+        "Le basso continuo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Liszt est le beau-père de Richard Wagner.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "quiz4",
+  "titre": "Opérations Arithmétiques de Base",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel symbole permet de calculer le reste d'une division (modulo) ?",
+      "options": [
+        "%",
+        "/",
+        "*",
+        "#"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'opérateur '++' ajoute 1 à la valeur d'une variable.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour multiplier deux nombres, on utilise le symbole {{1}}.",
+      "reponsesAttendues": [
+        "*"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est le résultat de 10 / 2 ?",
+      "options": [
+        "5",
+        "2",
+        "20",
+        "0"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'opérateur '**' permet de calculer une puissance (ex: 2**3 = 8).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces expressions retire 1 à une variable 'x' ?",
+      "options": [
+        "x--",
+        "x++",
+        "x + 1",
+        "x * 1"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "En JavaScript, l'addition de deux strings (ex: 'A' + 'B') donne {{1}}.",
+      "reponsesAttendues": [
+        "AB",
+        "'AB'"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les parenthèses ne comptent pas dans l'ordre des calculs en JS.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le résultat de (2 + 3) * 2 ?",
+      "options": [
+        "10",
+        "8",
+        "12",
+        "5"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "NaN (Not a Number) apparaît quand une opération mathématique échoue (ex: 'texte' / 2).",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz23",
+  "titre": "Analyse de texte : Virgile (L'Énéide)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans 'Arma virumque cano', quel est le cas de 'virum' ?",
+      "options": [
+        "Accusatif singulier (Complément d'objet)",
+        "Nominatif",
+        "Génitif pluriel",
+        "Vocatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Virgile utilise souvent des épithètes homériques pour caractériser ses personnages (ex: pius Aeneas).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'Énéide raconte le voyage d'Énée depuis la ville de `{{1}}` jusqu'en Italie.",
+      "reponsesAttendues": [
+        "Troie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Dans le vers 'Olli subridens hominum sator atque deorum', qui est désigné par 'sator' ?",
+      "options": [
+        "Jupiter",
+        "Énée",
+        "Neptune",
+        "Vulcain"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'allitération est une figure de style fréquente chez Virgile pour suggérer des bruits ou des sentiments.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est l'effet de l'enjambement en poésie virgilienne ?",
+      "options": [
+        "Créer une tension ou un prolongement de l'action sur le vers suivant",
+        "Rendre le vers plus court",
+        "Indiquer une fin de chapitre",
+        "C'est une faute de métrique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le thème de la fatalité divine est exprimé par le terme latin `{{1}}`.",
+      "reponsesAttendues": [
+        "fatum"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Virgile a écrit l'Énéide à la demande de l'empereur Auguste.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie le terme 'Infelix Dido' ?",
+      "options": [
+        "Didon l'infortunée (malheureuse)",
+        "Didon la reine",
+        "Didon la fière",
+        "Didon l'étrangère"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'hexamètre de Virgile est considéré comme le sommet de la versification latine.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz30",
+  "titre": "EXAMEN FINAL",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel cinéaste a réalisé 'Aniki-Bóbó' ?",
+      "options": [
+        "Manoel de Oliveira",
+        "João César Monteiro",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Álvaro Siza est un architecte Pritzker.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les carreaux de faïence s'appellent des {{1}}.",
+      "reponsesAttendues": ["azulejos"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Date de la Révolution des Œillets ?",
+      "options": [
+        "25 avril 1974",
+        "1er décembre 1640",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le 'Bolinho de Bacalhau' est une spécialité de morue.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel saint est fêté à Porto en juin ?",
+      "options": [
+        "São João",
+        "Santo António",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Paula {{1}} est une célèbre peintre luso-britannique.",
+      "reponsesAttendues": ["Rego"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le roi Dom Sebastião est mort à Alcácer-Quibir.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est ce que le Fado de Coimbra ?",
+      "options": [
+        "Chanté par les étudiants hommes en costume noir",
+        "Chanté par les femmes du port",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Parabéns ! Você concluiu o segundo capítulo de Português (Difícil) ! 🇵🇹🏆✨🎥🍲🏛️",
+      "reponse": true
+    }
+  ]
+}

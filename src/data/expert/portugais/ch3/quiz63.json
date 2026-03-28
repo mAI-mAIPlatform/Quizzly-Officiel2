@@ -1,0 +1,95 @@
+{
+  "id": "quiz63",
+  "titre": "Portugais Expert : Gil Vicente et le Théâtre",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est considéré comme le père du théâtre portugais ?",
+      "options": [
+        "Gil Vicente",
+        "Sá de Miranda",
+        "António Ferreira",
+        "Almeida Garrett"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L''Auto da Barca do Inferno' est une pièce moralisatrice où les âmes sont jugées pour monter ou non sur la barque de l'enfer ou du paradis.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'`{{1}}` est le genre dramatique court, souvent religieux ou satirique, pratiqué par Gil Vicente.",
+      "reponsesAttendues": [
+        "auto"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Dans l'Auto de la Barque de l'Enfer, quel personnage est le premier à entrer en scène ?",
+      "options": [
+        "Le Diable (O Diabo)",
+        "L'Ange",
+        "Le Gentilhomme",
+        "Le Fou"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Gil Vicente écrivait ses pièces à la fois en portugais et en espagnol castillan.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle est la cible principale de la satire vicentime ?",
+      "options": [
+        "La corruption du clergé, la noblesse décadente et les vices du peuple",
+        "Les dieux grecs",
+        "Les explorateurs",
+        "Les paysans uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La farce de `{{1}}` (Inês Pereira) raconte l'histoire d'une jeune femme qui veut un mari cultivé mais finit par épouser un sot.",
+      "reponsesAttendues": [
+        "Inês Pereira",
+        "Ines Pereira"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le théâtre de Gil Vicente se déroulait souvent à la cour royale portugaise (D. Manuel I et D. João III).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel titre désigne la trilogie la plus célèbre de Gil Vicente ?",
+      "options": [
+        "Trilogia das Barcas",
+        "Trilogia do Amor",
+        "Trilogia do Mar",
+        "Trilogia da Corte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Gil Vicente est aussi connu comme un orfèvre talentueux, auteur du célèbre ostensoir de Belém.",
+      "reponse": true
+    }
+  ]
+}

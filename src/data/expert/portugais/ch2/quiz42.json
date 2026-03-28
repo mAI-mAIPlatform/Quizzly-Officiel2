@@ -1,0 +1,96 @@
+{
+  "id": "quiz42",
+  "titre": "Português Expert : Sinónimos e Antónimos",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qual é um sinónimo erudito para 'Certo' ?",
+      "options": [
+        "Insofismável",
+        "Errado",
+        "Duvidoso",
+        "Vago"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Efémero' é o antónimo de 'Eterno'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Um sinónimo de 'difícil' ou 'árduo' é `{{1}}`.",
+      "reponsesAttendues": [
+        "complexo",
+        "complicado"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "O que significa 'Abastado' ?",
+      "options": [
+        "Rico / Endinheirado",
+        "Pobre",
+        "Baixo",
+        "Triste"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Lúcido' significa alguém que tem clareza mental.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qual o antónimo de 'Manso' ?",
+      "options": [
+        "Bravio",
+        "Calmo",
+        "Lento",
+        "Pequeno"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Um sinónimo de 'alegria' ou 'felicidade' imensa é `{{1}}`.",
+      "reponsesAttendues": [
+        "euforia",
+        "jubilo"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Inócuo' significa algo ofensivo.",
+      "reponse : false (Significa algo inofensivo)"
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "O que significa 'Perceber' em português de Portugal ?",
+      "options": [
+        "Compreender (Understand)",
+        "Voir",
+        "Sentir",
+        "Recevoir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "O uso de sinónimos variados enriquece a escrita académica e literária.",
+      "reponse": true
+    }
+  ]
+}

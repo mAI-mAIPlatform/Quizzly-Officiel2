@@ -1,0 +1,94 @@
+{
+  "id": "quiz56",
+  "titre": "HTML Expert : Selection & Clipboard API",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment récupérer l'objet représentant la sélection de texte de l'utilisateur ?",
+      "options": [
+        "window.getSelection()",
+        "document.getSelected()",
+        "navigator.selection",
+        "element.textSelected"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Clipboard API permet de lire ou d'écrire dans le presse-papier de manière asynchrone.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour copier du texte dans le presse-papier via JS, on utilise `navigator.clipboard.{{1}}Text()`.",
+      "reponsesAttendues": [
+        "write"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel événement permet d'intercepter copier/coller/couper ?",
+      "options": [
+        "copy, paste, cut",
+        "onclipboard",
+        "onselect",
+        "oninput"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La lecture du presse-papier (readText) ne nécessite aucune permission de l'utilisateur.",
+      "reponse : false (Permission hautement sécurisée requise)"
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi sert Selection.toString() ?",
+      "options": [
+        "À obtenir le contenu textuel brut du texte sélectionné",
+        "À transformer la page en image",
+        "À supprimer la sélection",
+        "À colorier le texte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'objet modélisant une partie continue de la sélection (ou d'un document) est un `{{1}}`.",
+      "reponsesAttendues": [
+        "Range"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut forcer la sélection d'un élément du DOM programmatairement via Selection.selectAllChildren().",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Avantage de la Clipboard API par rapport à document.execCommand('copy') ?",
+      "options": [
+        "Elle est asynchrone, supporte les Promises et permet de manipuler types de données (Images, etc.)",
+        "Elle est plus ancienne",
+        "Elle n'a pas besoin de script",
+        "Elle fonctionne hors-ligne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'événement 'selectionchange' permet de traquer les sélections de texte en temps réel.",
+      "reponse": true
+    }
+  ]
+}

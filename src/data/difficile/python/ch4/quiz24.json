@@ -1,0 +1,90 @@
+{
+  "id": "quiz24",
+  "titre": "Collections : Types Spéciaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel type de collection permet de compter les occurrences d'éléments ?",
+      "options": [
+        "collections.Counter",
+        "collections.OrderedDict",
+        "collections.defaultdict",
+        "collections.deque"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "collections.deque est optimisé pour les ajouts et suppressions rapides aux deux extrémités.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un {{1}} (dans collections) permet de définir une valeur par défaut automatique pour les clés manquantes.",
+      "reponsesAttendues": ["defaultdict"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle classe permet de créer des tuples dont les champs sont nommés ?",
+      "options": [
+        "namedtuple",
+        "tuple_named",
+        "struct",
+        "dataclass"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "collections.ChainMap permet de regrouper plusieurs dictionnaires en une seule vue logique.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel est un dictionnaire qui mémorise l'ordre d'insertion des clés (avant Python 3.7) ?",
+      "options": [
+        "OrderedDict",
+        "SortedDict",
+        "DictOrder",
+        "ListDict"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'interface {{1}} dans collections.abc définit les méthodes minimales pour un dictionnaire personnalisé.",
+      "reponsesAttendues": ["MutableMapping"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "UserDict et UserList sont utiles pour créer ses propres variantes de dictionnaire/liste sans bugs d'héritage direct.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que fait Counter('abcab').most_common(1) ?",
+      "options": [
+        "[('a', 2)]",
+        "('a', 2)",
+        "{'a': 2}",
+        "['a']"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation des types de 'collections' peut grandement simplifier le code complexe.",
+      "reponse": true
+    }
+  ]
+}

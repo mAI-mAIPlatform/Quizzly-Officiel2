@@ -1,0 +1,94 @@
+{
+  "id": "quiz64",
+  "titre": "HTML Expert : Stratégies de Mise en Cache",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle stratégie consiste à renvoyer la ressource du cache si elle existe, sinon elle la récupère sur le réseau ?",
+      "options": [
+        "Cache First (Cache falling back to network)",
+        "Network First",
+        "Stale-while-revalidate",
+        "Cache only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La stratégie 'Network First' est idéale pour les données qui changent souvent et nécessitent d'être à jour.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La stratégie `{{1}}` renvoie immédiatement le cache tout en mettant à jour la ressource en arrière-plan.",
+      "reponsesAttendues": [
+        "Stale-while-revalidate"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel objet représente une réponse HTTP stockée dans le CacheStorage ?",
+      "options": [
+        "Response",
+        "Request",
+        "Blob",
+        "Stream"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le 'Pre-caching' consiste à mettre en cache les fichiers essentiels lors de l'installation du Service Worker.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment supprimer un ancien cache lors de l'activation d'un nouveau Service Worker ?",
+      "options": [
+        "En parcourant caches.keys() et en appelant caches.delete(key)",
+        "En redémarrant l'ordinateur",
+        "C'est automatique",
+        "En vidant le dossier 'temp'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'événement `{{1}}` permet au Service Worker d'intercepter les requêtes et de servir des réponses personnalisées.",
+      "reponsesAttendues": [
+        "fetch"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Une stratégie 'Cache Only' rend l'application totalement inutilisable si le cache est vide.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'Opaque Response' ?",
+      "options": [
+        "Une réponse venant d'un domaine tiers (CORS) dont le contenu n'est pas lisible mais peut être mis en cache",
+        "Une erreur de serveur",
+        "Une image noire",
+        "Une réponse cryptée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Workbox est une bibliothèque populaire facilitant la gestion des stratégies de cache.",
+      "reponse": true
+    }
+  ]
+}

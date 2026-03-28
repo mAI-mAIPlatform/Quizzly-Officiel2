@@ -1,0 +1,94 @@
+{
+  "id": "quiz88",
+  "titre": "Grec Expert : L'Épicurisme - Le Plaisir de Vivre",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelait le lieu d'enseignement d'Épicure à Athènes ?",
+      "options": [
+        "Le Jardin",
+        "Le Portique",
+        "Le Lycée",
+        "L'Académie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'épicurisme prône la débauche et les excès de table.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Tetrapharmakos) est le quadruple remède d'Épicure pour une vie sereine.",
+      "reponsesAttendues": [
+        "Tetrapharmakos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la définition du plaisir suprême selon Épicure ?",
+      "options": [
+        "L'absence de douleur physique (aponie) et de trouble mental (ataraxie)",
+        "L'amusement perpétuel",
+        "L'exercice intense du pouvoir",
+        "La connaissance infinie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Épicure était un atomiste, suivant les traces de Démocrite.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment Épicure appelle-t-il la déviation aléatoire des atomes garantissant le libre arbitre ?",
+      "options": [
+        "Le Clinamen",
+        "L'Apeiron",
+        "Le Logos",
+        "La Tychè"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'`{{1}}` (Amitié) est, pour Épicure, le plus précieux des biens pour atteindre le bonheur.",
+      "reponsesAttendues": [
+        "Amitie"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les épicuriens pensent que l'âme est mortelle et composée d'atomes.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est l'attitude de l'épicurien face à la mort ?",
+      "options": [
+        "Elle n'est rien pour nous (quand nous sommes là, elle n'est pas ; quand elle est là, nous ne sommes plus)",
+        "Il faut la craindre comme un tourment éternel",
+        "Il faut la provoquer héroïquement",
+        "C'est une transition vers la réincarnation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'épicurisme prône de se retirer des affaires politiques ('Vis caché').",
+      "reponse": true
+    }
+  ]
+}

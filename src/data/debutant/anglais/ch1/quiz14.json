@@ -1,0 +1,94 @@
+{
+  "id": "quiz14",
+  "titre": "Family Members",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'mère' ?",
+      "options": [
+        "Father",
+        "Mother",
+        "Brother",
+        "Sister"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Father' signifie père.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ma soeur se dit My {{1}}.",
+      "reponsesAttendues": [
+        "sister"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'frère' ?",
+      "options": [
+        "Sister",
+        "Brother",
+        "Uncle",
+        "Aunt"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Grandfather' est le grand-père.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'grand-mère' ?",
+      "options": [
+        "Grandfather",
+        "Grandmother",
+        "Aunt",
+        "Cousin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le bébé se dit the {{1}}.",
+      "reponsesAttendues": [
+        "baby"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Family' s'écrit avec deux 'l'.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'parents' en anglais ?",
+      "options": [
+        "Relatives",
+        "Parents",
+        "Friends",
+        "Children"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "'Brother' et 'sister' sont des 'siblings'.",
+      "reponse": true
+    }
+  ]
+}

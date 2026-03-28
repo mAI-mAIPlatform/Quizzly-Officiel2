@@ -1,0 +1,90 @@
+{
+  "id": "quiz23",
+  "titre": "Chrome DevTools : Tips de Pro",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans la console, que retourne la variable $0 ?",
+      "options": [
+        "Le dernier résultat de calcul",
+        "L'élément actuellement sélectionné dans l'onglet 'Elements'",
+        "Une erreur",
+        "Le premier fichier JS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "monitorEvents(window, 'scroll') affiche tous les événements de scroll dans la console en temps réel.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La commande {{1}}(objet) en console affiche les données sous forme de tableau lisible.",
+      "reponsesAttendues": ["console.table"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment imiter une connexion 3G lente ?",
+      "options": [
+        "Débrancher un câble",
+        "Via le menu 'Throttling' dans l'onglet Network",
+        "C'est impossible",
+        "En changeant de PC"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut éditer le CSS et voir le résultat instantanément dans l'onglet 'Styles'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi sert 'Local Overrides' ?",
+      "options": [
+        "À bloquer des sites",
+        "À sauvegarder localement des modifications faites dans les DevTools pour qu'elles persistent après un rechargement",
+        "À changer d'IP",
+        "À supprimer les cookies"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'onglet {{1}} analyse le SEO, la performance et l'accessibilité d'une page.",
+      "reponsesAttendues": ["Lighthouse"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut prendre une capture d'écran d'un seul élément précis avec un clic droit dans l'arbre DOM.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que fait la commande 'copy(valeur)' en console ?",
+      "options": [
+        "Elle duplique l'objet",
+        "Elle copie la valeur dans le presse-papiers de l'OS",
+        "Elle imprime la page",
+        "Elle ferme l'onglet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Maîtriser les DevTools permet de gagner énormément de temps en développement.",
+      "reponse": true
+    }
+  ]
+}

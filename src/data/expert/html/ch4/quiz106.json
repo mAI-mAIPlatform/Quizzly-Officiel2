@@ -1,0 +1,94 @@
+{
+  "id": "quiz106",
+  "titre": "HTML Expert : API Web Modernes (Observer APIs)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle API permet de détecter quand un élément entre ou sort de la zone visible de l'écran (viewport) ?",
+      "options": [
+        "Intersection Observer API",
+        "Mutation Observer API",
+        "Performance Observer API",
+        "Resize Observer API"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Resize Observer permet de surveiller les changements de dimensions d'un élément HTML spécifique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'API `{{1}}` (Mutation Observer) surveille les changements apportés à l'arborescence du DOM (ajouts, suppressions de nœuds).",
+      "reponsesAttendues": [
+        "Mutation Observer"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est l'un des usages les plus courants de l'Intersection Observer ?",
+      "options": [
+        "Le Lazy-loading (chargement différé) des images",
+        "Changer la police de caractères",
+        "Vérifier les cookies",
+        "Gérer le panier d'achat"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les Observers sont généralement plus performants que l'écoute d'événements comme 'scroll' ou 'resize' car ils sont asynchrones et gérés par le navigateur.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment arrête-t-on la surveillance d'un élément avec Intersection Observer ?",
+      "options": [
+        "observer.unobserve(target)",
+        "observer.stop()",
+        "target.removeObserver()",
+        "window.clear()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La propriété `{{1}}` (threshold) de Intersection Observer définit à quel pourcentage de visibilité la callback doit se déclencher.",
+      "reponsesAttendues": [
+        "threshold"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'API 'Reporting Observer' permet de capturer les rapports de violations de sécurité ou les avertissements de dépréciation.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle API permet de surveiller les métriques de performance web réelles ?",
+      "options": [
+        "Performance Observer",
+        "Status Observer",
+        "Time Observer",
+        "Speed Observer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Tous les Observers nécessitent une fonction de rappel (callback) lors de leur initialisation.",
+      "reponse": true
+    }
+  ]
+}

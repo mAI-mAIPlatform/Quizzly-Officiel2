@@ -1,0 +1,90 @@
+{
+  "id": "quiz30",
+  "titre": "EXAMEN FINAL",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a peint 'La Naissance de Vénus' ?",
+      "options": [
+        "Botticelli",
+        "Léonard",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Vérisme de Verga est un réalisme sicilien.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'auteur du Canzoniere est {{1}} (Petrarca).",
+      "reponsesAttendues": ["Pétrarque", "Petrarca"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel compositeur est le roi des 'Quatre Saisons' ?",
+      "options": [
+        "Vivaldi",
+        "Verdi",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Bernini est l'un des maîtres du Baroque romain.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui a écrit 'Le Nom de la rose' ?",
+      "options": [
+        "Umberto Eco",
+        "Italo Calvino",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La 'Pietà' du Vatican est de {{1}}.",
+      "reponsesAttendues": ["Michel-Ange", "Michelangelo"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'Arte Povera date des années 60.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le personnage vénitien de la Commedia dell'Arte ?",
+      "options": [
+        "Pantalon",
+        "Arlequin",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Bravissimo ! Hai completato il capitolo su Letteratura, Arti e Musica ! 🎨📖🎵🎭🇮🇹✨",
+      "reponse": true
+    }
+  ]
+}

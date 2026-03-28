@@ -1,0 +1,95 @@
+{
+  "id": "quiz51",
+  "titre": "Português Expert : Camões e 'Os Lusíadas'",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quem é considerado o maior poeta da língua portuguesa, autor de 'Os Lusíadas' ?",
+      "options": [
+        "Luís Vaz de Camões",
+        "Fernando Pessoa",
+        "Gil Vicente",
+        "Antero de Quental"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Os Lusíadas' é um poema épico que narra a viagem de Vasco da Gama à Índia.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A obra 'Os Lusíadas' está dividida em `{{1}}` cantos.",
+      "reponsesAttendues": [
+        "dez",
+        "10"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qual é a estrofe utilizada por Camões em sua epopeia ?",
+      "options": [
+        "Oitava rima (8 versos decassílabos com rima ABABABCC)",
+        "Terza rima",
+        "Soneto",
+        "Verso livre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Camões também é mestre do soneto lírico (ex: Amor é fogo que arde sem se ver).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quem é o 'Gigante Adamastor' na obra ?",
+      "options": [
+        "Uma figura mitológica que personifica o Cabo das Tormentas (Cabo da Boa Esperança)",
+        "O capitão do navio",
+        "O rei da Índia",
+        "Um deus olímpico amigo dos portugueses"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "O herói coletivo celebrado por Camões são os `{{1}}` (o povo português).",
+      "reponsesAttendues": [
+        "Lusíadas"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Camões perdeu um olho numa batalha em Marrocos.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Em que período literário se insere a obra de Camões ?",
+      "options": [
+        "Classicismo / Renascimento",
+        "Barroco",
+        "Romantismo",
+        "Modernismo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "O dia de Portugal (10 de Junho) é a data da morte de Camões.",
+      "reponse": true
+    }
+  ]
+}

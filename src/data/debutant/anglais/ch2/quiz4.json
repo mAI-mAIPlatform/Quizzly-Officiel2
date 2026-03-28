@@ -1,1 +1,94 @@
-{"id":"quiz4","titre":"Hobbies and Sports","questions":[{"id":"q1","type":"qcm","enonce":"Which verb do we use for football?","options":["Play","Do","Go","Make"],"correctIndex":0},{"id":"q2","type":"vrai_faux","enonce":"You can 'play' the guitar.","reponse":true},{"id":"q3","type":"trous","enonce":"I love {{1}} video games.","reponsesAttendues":["playing"]},{"id":"q4","type":"relier","question":"Match the hobby.","pairs":[{"left":"Reading","right":"Lire"},{"left":"Swimming","right":"Nager"},{"left":"Dancing","right":"Danser"}]},{"id":"q5","type":"qcm","enonce":"What do you do in your free time?","options":["I am at school.","I listen to music.","It is blue.","Yes, I am."],"correctIndex":1}]}
+{
+  "id": "quiz4",
+  "titre": "The House (Rooms and Furniture)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'le salon' ?",
+      "options": [
+        "living room",
+        "bedroom",
+        "kitchen",
+        "bathroom"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Bedroom' est la chambre à coucher.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La cuisine se dit '{{1}}' (kitchen).",
+      "reponsesAttendues": [
+        "kitchen"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'fridge' ?",
+      "options": [
+        "Réfrigérateur",
+        "Four",
+        "Évier",
+        "Placard"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Sofa' (ou couch) signifie canapé.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'le lit' ?",
+      "options": [
+        "bed",
+        "chair",
+        "table",
+        "desk"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le miroir se dit '{{1}}' (mirror).",
+      "reponsesAttendues": [
+        "mirror"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Shower' signifie douche.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'upstairs' ?",
+      "options": [
+        "À l'étage",
+        "Au rez-de-chaussée",
+        "Dans la cave",
+        "Dehors"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": " 'There is a table in the room' signifie 'Il y a une table dans la pièce'.",
+      "reponse": true
+    }
+  ]
+}

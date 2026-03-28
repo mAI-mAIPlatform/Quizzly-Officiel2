@@ -1,0 +1,94 @@
+{
+  "id": "quiz11",
+  "titre": "Gramática : Derivação de Palavras",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "O que é a derivação parassintética ?",
+      "options": [
+        "Acréscimo simultâneo de prefixo e sufixo (ex: anoitecer)",
+        "Acréscimo apenas de prefixo",
+        "Acréscimo apenas de sufixo",
+        "Retirada de letras"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Na derivação prefixal e sufixal, a palavra existe se retirarmos um dos afixos (ex: infelizmente).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A palavra 'infeliz' é formada por derivação `{{1}}`.",
+      "reponsesAttendues": [
+        "prefixal"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "O que é a derivação regressiva ?",
+      "options": [
+        "Redução da palavra, geralmente formando substantivos a partir de verbos (ex: o debate - debater)",
+        "Aumento da palavra",
+        "Inversão da palavra",
+        "Troca de significado"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "A derivação imprópria ocorre quando uma palavra muda de classe gramatical sem mudar de forma (ex: o jantar).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qual prefixo indica 'repetição' ?",
+      "options": [
+        "re- (ex: refazer)",
+        "des-",
+        "anti-",
+        "pre-"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "O sufixo '-ez' ou '-eza' forma substantivos abstratos a partir de `{{1}}` (ex: belo -> beleza).",
+      "reponsesAttendues": [
+        "adjectivos"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "A palavra 'envelhecer' é um exemplo de parassíntese.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "O que indica o sufixo -ismo ?",
+      "options": [
+        "Doutrina, sistema ou tendência",
+        "Diminutivo",
+        "Lugar",
+        "Profissão"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Prefixos de origem grega e latina são comuns na formação de termos científicos.",
+      "reponse": true
+    }
+  ]
+}

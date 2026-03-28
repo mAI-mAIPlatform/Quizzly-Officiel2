@@ -1,0 +1,94 @@
+{
+  "id": "quiz90",
+  "titre": "Revisione : Scienze e Società (Capitolo 3 - Cultura Generale)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Technologie de précision ADN ?",
+      "options": [
+        "CRISPR-Cas9",
+        "PC",
+        "Wifi",
+        "GPS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Anthropocène = Impact humain sur Terre.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Père de l'informatique : Alan `{{1}}`.",
+      "reponsesAttendues": [
+        "Turing"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Organisme climat de l'ONU ?",
+      "options": [
+        "GIEC",
+        "OMS",
+        "UNESCO",
+        "FMI"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Habitus = Pierre Bourdieu.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Physique de l'infiniment petit ?",
+      "options": [
+        "Quantique",
+        "Newtonienne",
+        "Astrophysique",
+        "Optique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Influence d'un pays sans guerre : `{{1}}` Power.",
+      "reponsesAttendues": [
+        "Soft"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Inflation = Hausse des prix.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Roi des Ready-mades ?",
+      "options": [
+        "Marcel Duchamp",
+        "Picasso",
+        "Monet",
+        "Warhol"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'IA forte n'existe pas encore au stade humain complet.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz6",
+  "titre": "Les Chaînes de Caractères (Strings)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel définit une chaîne de caractères valide ?",
+      "options": [
+        "'Hello'",
+        "\"Hello\"",
+        "\"\"\"Hello\"\"\"",
+        "Toutes ces réponses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les triples guillemets permettent d'écrire sur plusieurs lignes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mélange 'J'aime Python' nécessite d'utiliser des guillemets {{1}}.",
+      "reponsesAttendues": [
+        "doubles"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'ajout de deux chaînes : \"A\" + \"B\" ?",
+      "options": [
+        "Addition",
+        "Liaison",
+        "Concaténation",
+        "Fusion"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut multiplier une chaîne par un nombre (ex: \"A\" * 3).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que produit \"Python\"[0] ?",
+      "options": [
+        "'P'",
+        "'y'",
+        "'n'",
+        "Une erreur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour mettre en majuscules, on utilise la méthode .{{1}}().",
+      "reponsesAttendues": [
+        "upper"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les chaînes de caractères sont immuables (on ne peut pas les modifier).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel caractère permet d'insérer un saut de ligne ?",
+      "options": [
+        "/n",
+        "\\n",
+        "\\t",
+        "\\s"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "print(\"1\" + \"1\") affiche 2.",
+      "reponse": false
+    }
+  ]
+}

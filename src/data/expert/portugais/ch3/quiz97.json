@@ -1,0 +1,94 @@
+{
+  "id": "quiz97",
+  "titre": "Português Especialista : Desafios Sociais e Urbanos",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se chamam os assentamentos urbanos informais no Brasil, caracterizados pela autoconstrução e carência de serviços ?",
+      "options": [
+        "Favelas",
+        "Musseques",
+        "Bairros de lata",
+        "Palafitas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A desigualdade social é um dos maiores desafios estruturais em quase todos os países lusófonos.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Em Luanda, os bairros periféricos e informais são conhecidos como `{{1}}` (musseques).",
+      "reponsesAttendues": [
+        "musseques"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qual é o principal desafio demográfico de Portugal na actualidade ?",
+      "options": [
+        "O envelhecimento populacional",
+        "O excesso de natalidade",
+        "A falta de turismo",
+        "A superpopulação urbana"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Portugal descriminalizou o consumo de drogas para uso pessoal em 2001, focando na saúde pública.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qual região do Brasil apresenta historicamente os maiores índices de pobreza e secas cíclicas ?",
+      "options": [
+        "Nordeste",
+        "Sudeste",
+        "Sul",
+        "Centro-Oeste"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "O `{{1}}` (Gentrificação) é um processo urbano crescente em Lisboa e Porto, que pressiona o custo da habitação para os residentes locais.",
+      "reponsesAttendues": [
+        "Gentrificação"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Timor-Leste é um dos países mais antigos e estáveis da Ásia.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que problema de saúde pública o Brasil enfrenta anualmente com grande incidência no verão ?",
+      "options": [
+        "Dengue",
+        "Gripe espanhola",
+        "Poliomielite",
+        "Raiva"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "A educação básica no Brasil é gerida principalmente pelos municípios.",
+      "reponse": true
+    }
+  ]
+}

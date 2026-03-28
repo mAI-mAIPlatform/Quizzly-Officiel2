@@ -1,0 +1,90 @@
+{
+  "id": "quiz30",
+  "titre": "EXAMEN FINAL",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a écrit l'Enquête sur les Guerres Médiques ?",
+      "options": [
+        "Hérodote",
+        "Thucydide",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Platon a fondé le Lycée.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'Idylle bucolique est une création de {{1}}.",
+      "reponsesAttendues": ["Théocrite"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle pièce met en scène Médée ?",
+      "options": [
+        "Médée d'Euripide",
+        "Antigone de Sophocle",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Aristophane est un auteur de tragédies.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel philosophe vivait dans une jarre ?",
+      "options": [
+        "Diogène",
+        "Épicure",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'émanation est un concept clé de {{1}}.",
+      "reponsesAttendues": ["Plotin"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Plutarque compare des vies de Grecs et de Romains.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel poète a écrit les Argonautiques ?",
+      "options": [
+        "Apollonios de Rhodes",
+        "Callimaque",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Bravo ! Vous avez terminé le Chapitre 2 de Grec (Difficile).",
+      "reponse": true
+    }
+  ]
+}

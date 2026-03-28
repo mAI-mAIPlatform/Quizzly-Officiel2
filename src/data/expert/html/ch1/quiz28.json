@@ -1,0 +1,94 @@
+{
+  "id": "quiz28",
+  "titre": "Resize Observer et Mutation Observer",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le rôle du Resize Observer ?",
+      "options": [
+        "Surveiller les changements de dimensions d'un élément spécifique",
+        "Changer la taille du navigateur",
+        "Optimiser les images responsive",
+        "Redimensionner le canvas automatiquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Resize Observer remplace l'événement 'window.onresize' pour les composants internes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le {{1}} Observer surveille les modifications apportées à l'arborescence du DOM (ajout d'enfants, attributs).",
+      "reponsesAttendues": [
+        "Mutation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle option du Mutation Observer permet de surveiller tous les descendants d'un nœud ?",
+      "options": [
+        "subtree: true",
+        "deep: true",
+        "recursive: true",
+        "all: true"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Mutation Observer est synchrone.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "A quoi sert 'attributes: true' dans un Mutation Observer ?",
+      "options": [
+        "A être notifié quand un attribut (class, id, data-*) change",
+        "A lister tous les attributs de la page",
+        "A empêcher la modification des attributs",
+        "A valider les attributs HTML"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La méthode `{{1}}()` arrête l'observation pour toutes les cibles d'un observer.",
+      "reponsesAttendues": [
+        "disconnect"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Resize Observer pèse énormément sur les performances lors de l'animation.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que contient 'contentRect' dans un ResizeObserverEntry ?",
+      "options": [
+        "Les nouvelles dimensions de l'élément (width, height, top, left...)",
+        "Le texte à l'intérieur de l'élément",
+        "La liste des enfants de l'élément",
+        "Le code CSS appliqué"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Mutation Observer est le remplaçant moderne des obsolètes 'Mutation Events' (DOMNodeInserted...).",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz14",
+  "titre": "Shadowing et Pollution (Deep Dive)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Variable Shadowing' ?",
+      "options": [
+        "Supprimer une variable",
+        "Déclarer une variable dans un scope interne avec le même nom qu'une variable externe",
+        "Une technique d'optimisation",
+        "Cacher le code source"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut faire du shadowing sur une variable 'const' externe avec un 'let' interne.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le shadowing empêche l'accès direct à la variable {{1}}.",
+      "reponsesAttendues": ["parente", "externe"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'affiche : let a = 1; { var a = 2; } console.log(a); ?",
+      "options": [
+        "1",
+        "2",
+        "SyntaxError",
+        "undefined"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Utiliser 'var' à l'intérieur d'un bloc 'if' peut écraser une variable du même nom dans le scope de la fonction.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel permet d'éviter les collisions de noms de variables ?",
+      "options": [
+        "Utiliser des IIFEs",
+        "Utiliser des modules",
+        "Utiliser let/const",
+        "Toutes les réponses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le concept de 'portée' est indispensable pour éviter la {{1}} du scope global.",
+      "reponsesAttendues": ["pollution"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le shadowing fonctionne aussi avec les paramètres de fonction.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'affiche : let x = 'global'; function f(x){ console.log(x); } f('local'); ?",
+      "options": [
+        "global",
+        "local",
+        "undefined",
+        "ReferenceError"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il est possible d'accéder à la variable 'shadowed' via l'objet 'this' si elle est dans le scope global.",
+      "reponse": true
+    }
+  ]
+}

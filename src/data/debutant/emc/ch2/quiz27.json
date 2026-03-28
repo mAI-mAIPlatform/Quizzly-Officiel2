@@ -1,0 +1,96 @@
+{
+  "id": "quiz27",
+  "titre": "Les Métiers de la Citoyenneté",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui dirige la mairie ?",
+      "options": [
+        "Le Président",
+        "Le Maire",
+        "Le Délégué",
+        "Le Maître"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le policier veille au respect des lois et à notre sécurité.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le {{1}} s'occupe de juger les gens qui ne respectent pas la loi.",
+      "reponsesAttendues": [
+        "juge"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui éteint les incendies ?",
+      "options": [
+        "Les médecins",
+        "Les pompiers",
+        "Les artisans",
+        "Les avocats"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Toutes ces personnes travaillent pour le bien de la société.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces personnes nous apprend des choses à l'école ?",
+      "options": [
+        "Le facteur",
+        "L'enseignant (maître/maîtresse)",
+        "Le boulanger",
+        "Le jardinier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le {{1}} aide les personnes malades ou blessées.",
+      "reponsesAttendues": [
+        "médecin",
+        "docteur",
+        "infirmier"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Être citoyen, c'est aussi respecter le travail de tous ces professionnels.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que porte le maire lors des cérémonies ?",
+      "options": [
+        "Une écharpe tricolore",
+        "Une couronne",
+        "Une cape",
+        "Un ruban"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Chaque métier est utile à la communauté.",
+      "reponse": true
+    }
+  ]
+}

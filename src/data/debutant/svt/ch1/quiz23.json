@@ -1,0 +1,94 @@
+{
+  "id": "quiz23",
+  "titre": "Les Dangers pour la Nature",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qui pollue l'eau des rivières ?",
+      "options": [
+        "Les poissons",
+        "Les déchets et les produits chimiques",
+        "La pluie",
+        "Les cailloux"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Jeter du plastique dans l'océan est dangereux pour les animaux marins.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Couper tous les arbres d'une forêt s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "déforestation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle action aide à protéger la nature ?",
+      "options": [
+        "Lancer ses déchets par terre",
+        "Le recyclage",
+        "Laisser les lumières allumées",
+        "Gaspiller l'eau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le réchauffement climatique n'a aucun impact sur les animaux.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'arrive-t-il à un animal dont l'habitat est détruit ?",
+      "options": [
+        "Il devient plus grand",
+        "Il risque de disparaître (extinction)",
+        "Il change de couleur",
+        "Il est content"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Une espèce qui va s'éteindre est une espèce en {{1}}.",
+      "reponsesAttendues": [
+        "danger"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Devenir un éco-citoyen, c'est faire attention à la planète.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle est une pollution de l'air ?",
+      "options": [
+        "Les nuages",
+        "La fumée des voitures et usines",
+        "Le vent",
+        "Le chant des oiseaux"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Même de petits gestes peuvent aider l'environnement.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "quiz66",
+  "titre": "Latin Expert : Historiographie Romaine",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel historien a écrit l'immense 'Histoire de Rome' (Ab Urbe Condita) depuis sa fondation ?",
+      "options": [
+        "Tite-Live",
+        "Tacite",
+        "Salluste",
+        "César"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Tite-Live est réputé pour son style 'lacté' et son patriotisme élevé.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'ouvrage de César sur ses conquêtes militaires s'intitule : `{{1}}` (Guerre des Gaules).",
+      "reponsesAttendues": [
+        "De Bello Gallico",
+        "La Guerre des Gaules"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel historien de la période impériale est célèbre pour son ton sombre et critique envers les empereurs ?",
+      "options": [
+        "Tacite",
+        "Salluste",
+        "Suétone",
+        "Tite-Live"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Tacite a écrit 'La Germanie', une étude sur les peuples germains.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui est l'auteur de la 'Vie des douze Césars', une série de biographies anecdotiques ?",
+      "options": [
+        "Suétone",
+        "Tacite",
+        "Plutarque",
+        "Cicéron"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Salluste a écrit sur la conjuration de `{{1}}`, qu'il a vécue pendant sa jeunesse.",
+      "reponsesAttendues": [
+        "Catilina"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'histoire pour les Romains était considérée comme un genre littéraire autant que scientifique, visant à donner des exemples moraux.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel terme désigne l'année de fondation de Rome servant de base aux calculs de Tite-Live ?",
+      "options": [
+        "753 av. J.-C.",
+        "509 av. J.-C.",
+        "44 av. J.-C.",
+        "27 av. J.-C."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les 'Annales' de Tacite couvrent l'histoire de Rome de la mort d'Auguste à celle de Néron.",
+      "reponse": true
+    }
+  ]
+}

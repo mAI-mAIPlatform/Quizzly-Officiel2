@@ -1,0 +1,94 @@
+{
+  "id": "quiz13",
+  "titre": "Le Nom (Propre et Commun)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces mots est un nom propre ?",
+      "options": [
+        "chat",
+        "Paris",
+        "maison",
+        "petit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un nom propre commence toujours par une majuscule.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans la phrase 'Le chien court', le nom commun est {{1}}.",
+      "reponsesAttendues": [
+        "chien"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel de ces mots désigne un objet (nom commun) ?",
+      "options": [
+        "Julie",
+        "Espagne",
+        "table",
+        "bleu"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Boulanger' est un nom commun désignant un métier.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Trouve le nom propre dans cette liste :",
+      "options": [
+        "livre",
+        "stylo",
+        "France",
+        "rue"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Un nom qui désigne un animal, une personne ou une chose en général est un nom {{1}}.",
+      "reponsesAttendues": [
+        "commun"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le prénom d'une personne est un nom commun.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel de ces mots est un nom ?",
+      "options": [
+        "courir",
+        "beauté",
+        "vite",
+        "sous"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le nom est le noyau du groupe nominal.",
+      "reponse": true
+    }
+  ]
+}

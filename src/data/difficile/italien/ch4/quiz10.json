@@ -1,0 +1,90 @@
+{
+  "id": "quiz10",
+  "titre": "Proverbe et Sagesse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Complétez le proverbe : 'Chi dorme non piglia {{1}}'.",
+      "options": [
+        "Pesci (Poissons)",
+        "Uccelli",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'L'erba del vicino è sempre più verde' signifie que l'on envie toujours ce qu'ont les autres.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'A caval {{1}} (donato) non si guarda in bocca' (À cheval donné, on ne regarde pas la bouche).",
+      "reponsesAttendues": ["donato"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'Meglio tardi che mai' ?",
+      "options": [
+        "Mieux vaut tard que jamais",
+        "Mieux vaut tard que tôt",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Il lupo perde le vizi mais non le peaux' est un proverbe erroné, on dit 'perd le poil (pelo) mais pas le vice'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que dit-on quand on ne veut pas choisir entre deux options désagréables ?",
+      "options": [
+        "O la borsa o la vita (mais ici : 'Tra l'incudine e le martello')",
+        "Tra l'incudine e il martello (Entre l'enclume et le marteau)",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "'In bocca al {{1}}' (lupo) est le souhait de réussite par excellence.",
+      "reponsesAttendues": ["lupo"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Tutte le strade portano a Roma' est un proverbe universel.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'Chi va piano va sano e va lontano' ?",
+      "options": [
+        "Qui va doucement va sûrement et loin",
+        "Qui court vite gagne toujours",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le savoir populaire guide encore souvent les expressions quotidiennes des Italiens.",
+      "reponse": true
+    }
+  ]
+}

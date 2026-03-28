@@ -1,0 +1,94 @@
+{
+  "id": "quiz3",
+  "titre": "Philosophie : La Pensée Grecque",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est l'auteur de la célèbre 'Allégorie de la caverne' ?",
+      "options": [
+        "Platon",
+        "Socrate",
+        "Aristote",
+        "Épicure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Socrate n'a laissé aucun écrit personnel.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La méthode de Socrate consistant à faire 'accoucher' les esprits s'appelle la `{{1}}`.",
+      "reponsesAttendues": [
+        "maïeutique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel philosophe fut le précepteur d'Alexandre le Grand ?",
+      "options": [
+        "Aristote",
+        "Zénon",
+        "Héraclite",
+        "Démocrite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'école fondée par Aristote s'appelait le Lycée.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel courant philosophique prône l'absence de trouble (ataraxie) et la maîtrise des désirs ?",
+      "options": [
+        "L'Épicurisme",
+        "Le Sophisme",
+        "Le Cynisme",
+        "Le Scepticisme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La célèbre phrase 'Connais-toi toi-même' était gravée sur le temple de `{{1}}` à Delphes.",
+      "reponsesAttendues": [
+        "Apollon"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Pour Platon, le monde sensible n'est qu'un reflet imparfait du monde des Idées.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qui est considéré comme le premier philosophe (et l'un des sept sages) ?",
+      "options": [
+        "Thalès de Milet",
+        "Anaximandre",
+        "Pythagore",
+        "Parménide"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le stoïcisme enseigne que l'homme doit vivre en accord avec la raison et la nature.",
+      "reponse": true
+    }
+  ]
+}

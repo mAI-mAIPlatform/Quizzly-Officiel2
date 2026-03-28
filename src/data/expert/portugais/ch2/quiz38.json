@@ -1,0 +1,95 @@
+{
+  "id": "quiz38",
+  "titre": "Português Expert : Regência Verbal",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "O que é a regência verbal ?",
+      "options": [
+        "A relação de dependência entre o verbo e os seus complementos (preposições)",
+        "A conjugação do verbo",
+        "A velocidade da fala",
+        "A escrita dos nomes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "O verbo 'gostar' exige sempre a preposição 'de' (ex: Gosto de música).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Qual é a regência de 'assistir' no sentido de ver ? Assistir `{{1}}` televisão.",
+      "reponsesAttendues": [
+        "à",
+        "a"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qual é a regência correta de 'esquecer-se' ?",
+      "options": [
+        "Esquecer-se DE alguma coisa",
+        "Esquecer-se alguma cosa",
+        "Esquecer-se COM alguma coisa",
+        "Esquecer-se POR alguma coisa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "O verbo 'visar' no sentido de pretender exige a preposição 'a' (ex: Ele visa ao cargo).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Traduza : 'Cheguei ao Porto'",
+      "options": [
+        "Je suis arrivé à Porto (o verbo chegar exige 'a')",
+        "Je suis arrivé de Porto",
+        "Je vais à Porto",
+        "Je quitte Porto"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "O verbo 'obedecer' exige a preposição `{{1}}` (ex: Obedecer às regras).",
+      "reponsesAttendues": [
+        "a"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "No português coloquial, muitas regências são simplificadas (ex: chegar em casa vs chegar a casa).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qual é a regência de 'aspirar' no sentido de desejar ?",
+      "options": [
+        "Aspirar A alguma coisa",
+        "Aspirar alguma coisa (sentido de cheirar)",
+        "Aspirar POR alguma coisa",
+        "Aspirar COM"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "O erro de regência é um dos mais comuns em exames de língua portuguesa.",
+      "reponse": true
+    }
+  ]
+}

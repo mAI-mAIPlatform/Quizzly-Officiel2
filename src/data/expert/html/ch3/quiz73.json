@@ -1,0 +1,94 @@
+{
+  "id": "quiz73",
+  "titre": "HTML Expert : Accessibilité et WAI-ARIA",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi servent les attributs ARIA (Accessible Rich Internet Applications) ?",
+      "options": [
+        "Améliorer l'accessibilité des contenus dynamiques pour les technologies d'assistance",
+        "Changer le style CSS",
+        "Accélérer le JavaScript",
+        "Afficher des tooltips natifs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La première règle d'ARIA est : 'Si vous pouvez utiliser un élément HTML natif, faites-le au lieu d'utiliser ARIA'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut `role='`{{1}}`'` permet de définir la fonction d'un élément (ex: button, tab, alert).",
+      "reponsesAttendues": [
+        "role"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel attribut ARIA indique qu'un élément est actuellement déployé ou réduit ?",
+      "options": [
+        "aria-expanded",
+        "aria-hidden",
+        "aria-checked",
+        "aria-pressed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "aria-live='polite' permet d'annoncer les mises à jour de contenu dynamique sans interrompre l'utilisateur.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie l'attribut aria-label ?",
+      "options": [
+        "Fournir une étiquette textuelle calculée uniquement pour les lecteurs d'écran",
+        "Définir le titre de la page",
+        "Ajouter un commentaire dans le code",
+        "C'est un synonyme de l'attribut title"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Focus Management) est crucial pour permettre aux utilisateurs de clavier de naviguer logiquement dans l'UI.",
+      "reponsesAttendues": [
+        "Focus"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation de role='presentation' sur une table indique qu'elle est utilisée pour la mise en page et non pour des données.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment lier un libellé textuel visible à un champ de formulaire complexe via ARIA ?",
+      "options": [
+        "aria-labelledby",
+        "aria-describedby",
+        "aria-label",
+        "role='label'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "ARIA ne remplace pas une structure HTML sémantique médiocre, il la complète.",
+      "reponse": true
+    }
+  ]
+}

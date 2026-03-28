@@ -1,0 +1,94 @@
+{
+  "id": "quiz91",
+  "titre": "HTML Expert : Éléments Sémantiques Rare et Nouveautés",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert l'élément <search> (nouveauté HTML Living Standard) ?",
+      "options": [
+        "À encapsuler les formulaires et composants liés à la recherche",
+        "À faire une recherche Google",
+        "À remplacer l'élément <input>",
+        "À indexer le site"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'élément <details> est utilisé nativement pour créer des accordéons sans JavaScript.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'élément `{{1}}` (dialog) permet de créer des fenêtres modales sémantiques et accessibles nativement.",
+      "reponsesAttendues": [
+        "dialog"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel élément permet de fournir des définitions à l'aide d'une liste de termes ?",
+      "options": [
+        "<dl> / <dt> / <dd>",
+        "<ul> / <li>",
+        "<table>",
+        "<ol>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'élément <wbr> suggère au navigateur un endroit où un mot long peut être coupé si nécessaire (Word Break Opportunity).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel élément est utilisé pour marquer du texte comme étant cité à l'intérieur d'un paragraphe ?",
+      "options": [
+        "<q>",
+        "<blockquote>",
+        "<cite>",
+        "<i>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'élément `{{1}}` (data) lie une donnée machine à une valeur visible pour l'utilisateur.",
+      "reponsesAttendues": [
+        "data"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'élément <main> peut être utilisé plusieurs fois dans une page tant qu'elles ne sont pas imbriquées.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel élément définit une légende pour un groupe de champs dans un formulaire ?",
+      "options": [
+        "<legend>",
+        "<label>",
+        "<caption>",
+        "<summary>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'élément <template> contient du code HTML qui n'est pas rendu au chargement mais peut être instancié via JS.",
+      "reponse": true
+    }
+  ]
+}

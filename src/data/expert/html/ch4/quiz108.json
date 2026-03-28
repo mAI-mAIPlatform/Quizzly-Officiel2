@@ -1,0 +1,94 @@
+{
+  "id": "quiz108",
+  "titre": "HTML Expert : Layouts Modernes (CSS Grid 2 et Flexbox)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle valeur de 'display' permet de créer une grille dont les enfants s'alignent sur les colonnes/lignes définies par l'ancêtre ?",
+      "options": [
+        "grid-template-columns: subgrid",
+        "display: subgrid",
+        "display: inherited-grid",
+        "grid-gap: none"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La propriété 'gap' fonctionne désormais aussi bien pour CSS Grid que pour Flexbox dans la plupart des navigateurs.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La fonction `{{1}}` (minmax) permet de définir une plage de taille flexible pour une piste de grille (ex: 100px, 1fr).",
+      "reponsesAttendues": [
+        "minmax"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que fait 'flex: 1' ?",
+      "options": [
+        "L'élément s'étire pour occuper tout l'espace disponible (flex-grow: 1, shrink: 1, basis: 0%)",
+        "L'élément devient un cube parfait",
+        "L'élément est masqué",
+        "L'élément se place au centre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La propriété 'order' permet de changer l'ordre visuel des éléments sans modifier l'ordre HTML.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle propriété permet d'aligner les éléments sur l'axe secondaire (cross axis) dans un conteneur Flex ?",
+      "options": [
+        "align-items",
+        "justify-content",
+        "place-items",
+        "flex-direction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La propriété `{{1}}` (grid-template-areas) permet de définir un plan de grille visuel en nommant les zones avec des chaînes de caractères.",
+      "reponsesAttendues": [
+        "grid-template-areas"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il est possible de mélanger des unités absolues (px) et relatives (fr, %) dans une définition de grille.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment centrer un élément à la fois verticalement et horizontalement en CSS moderne avec Grid ?",
+      "options": [
+        "display: grid; place-items: center;",
+        "display: flex; margin: auto;",
+        "position: absolute; top: 50%;",
+        "Les deux premières options sont valides"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les Flexbox sont conçus pour une mise en page unidimensionnelle, tandis que Grid est bidimensionnel.",
+      "reponse": true
+    }
+  ]
+}

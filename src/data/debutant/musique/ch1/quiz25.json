@@ -1,0 +1,94 @@
+{
+  "id": "quiz25",
+  "titre": "Les Familles d'Instruments",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Combien de grandes familles d'instruments compte l'orchestre symphonique ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le violon appartient à la famille des cordes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La flûte et la clarinette appartiennent à la famille des {{1}}.",
+      "reponsesAttendues": [
+        "bois"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quelle famille appartient la trompette ?",
+      "options": [
+        "Les cordes",
+        "Les bois",
+        "Les cuivres",
+        "Les percussions"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le piano est souvent classé comme instrument à cordes frappées.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel instrument fait partie des percussions ?",
+      "options": [
+        "La harpe",
+        "Le tuba",
+        "Les timbales",
+        "Le hautbois"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le saxophone, bien qu'en métal, appartient à la famille des {{1}} car il possède une anche.",
+      "reponsesAttendues": [
+        "bois"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les cuivres produisent du son par la vibration des lèvres dans une embouchure.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle est l'instrument le plus aigu de la famille des cordes ?",
+      "options": [
+        "Le violon",
+        "L'alto",
+        "Le violoncelle",
+        "La contrebasse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'orchestre symphonique est organisé par familles sur scène.",
+      "reponse": true
+    }
+  ]
+}

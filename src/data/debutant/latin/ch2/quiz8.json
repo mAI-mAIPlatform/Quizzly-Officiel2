@@ -1,0 +1,94 @@
+{
+  "id": "quiz8",
+  "titre": "La 2e Déclinaison : Les Neutres en -um",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison des noms neutres au singulier ?",
+      "options": [
+        "-um",
+        "-us",
+        "-a",
+        "-i"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Donum' signifie 'le don' ou 'le cadeau'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le temple se dit '{{1}}' (templum).",
+      "reponsesAttendues": [
+        "templum"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'bellum' ?",
+      "options": [
+        "La guerre",
+        "La paix",
+        "Le beau",
+        "Le jeu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le nominatif pluriel des neutres finit par -a.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Les cadeaux'.",
+      "options": [
+        "dona",
+        "donum",
+        "donos",
+        "donis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le mot 'verbe' vient de '{{1}}' (verbum).",
+      "reponsesAttendues": [
+        "verbum"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le nominatif et l'accusatif des neutres sont TOUJOURS identiques.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'oppidum' ?",
+      "options": [
+        "La ville fortifiée",
+        "Le marché",
+        "Le chemin",
+        "Le champ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les noms neutres sont très fréquents en latin.",
+      "reponse": true
+    }
+  ]
+}

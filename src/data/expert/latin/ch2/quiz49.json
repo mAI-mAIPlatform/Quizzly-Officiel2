@@ -1,0 +1,95 @@
+{
+  "id": "quiz49",
+  "titre": "Latin Expert : Figures de Style Complexes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'hyperbate' ?",
+      "options": [
+        "La séparation de deux mots grammaticalement liés (ex: adjectif et nom) par d'autres mots",
+        "Une très grande marche",
+        "Une fin de phrase abrupte",
+        "Une répétition de voyelles"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'hypallage attribue à un mot ce qui conviendrait logiquement à un autre (ex: les murs d'un haut plafond).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La `{{1}}` est la coupure d'un mot composé par un ou plusieurs autres mots (ex: saxo cere comminuit brum).",
+      "reponsesAttendues": [
+        "tmèse",
+        "tmese"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'énallage' ?",
+      "options": [
+        "L'usage d'une forme grammaticale pour une autre (ex: présent pour le passé)",
+        "Un mélange de langues",
+        "Une erreur de datif",
+        "Une métaphore filée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'apostrophe consiste à s'adresser directement à une personne, un objet ou une idée.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Définition de la 'métonymie' :",
+      "options": [
+        "Remplacer un mot par un autre lié par une relation logique (contenant pour contenu, etc.)",
+        "Inventer un mot nouveau",
+        "Répéter la même idée",
+        "Faire parler les morts"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La `{{1}}` est l'omission d'un mot nécessaire qui se devine par le contexte (souvent le verbe 'esse').",
+      "reponsesAttendues": [
+        "ellipse"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le 'pléonasme' est toujours une erreur en latin.",
+      "reponse : false (Il peut être un procédé d'insistance stylistique)"
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'polyptote' ?",
+      "options": [
+        "La répétition d'un mot sous différentes formes grammaticales (cas, nombres...)",
+        "Un oiseau imaginaire",
+        "Une divinité à plusieurs bras",
+        "Un type de dictionnaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Toutes ces figures de style visent à rendre le discours plus expressif et mémorable.",
+      "reponse": true
+    }
+  ]
+}

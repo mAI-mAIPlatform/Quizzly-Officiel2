@@ -1,0 +1,94 @@
+{
+  "id": "quiz10",
+  "titre": "Révisions : Python Expert (Chapitre 1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quel ordre super() cherche-t-il les méthodes ?",
+      "options": [
+        "Suivant le MRO de l'objet",
+        "Toujours dans le parent direct",
+        "De haut en bas de la hiérarchie",
+        "Dans l'ordre alphabétique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une métaclasse peut modifier une classe juste après sa création.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le décorateur `@{{1}}.setter` définit comment modifier une propriété.",
+      "reponsesAttendues": [
+        "prop"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle méthode décharge les données d'un générateur ?",
+      "options": [
+        "yield",
+        "send",
+        "next",
+        "close"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le GIL limite les performances de tous les programmes Python, même multi-processus.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que retourne type(type) ?",
+      "options": [
+        "type",
+        "class",
+        "object",
+        "meta"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La méthode `{{1}}` est appelée lors de la phase de destruction par le GC.",
+      "reponsesAttendues": [
+        "__del__"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un décorateur peut être appliqué sur un autre décorateur.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel gère mieux la mémoire pour des millions d'items ?",
+      "options": [
+        "Générateur",
+        "Liste",
+        "Dictionnaire",
+        "Ensemble (Set)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Python 3 utilise l'UTF-8 par défaut pour ses chaînes de caractères.",
+      "reponse": true
+    }
+  ]
+}

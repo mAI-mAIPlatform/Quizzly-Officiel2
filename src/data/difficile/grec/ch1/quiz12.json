@@ -1,0 +1,90 @@
+{
+  "id": "quiz12",
+  "titre": "Adverbes de Lieu",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie le suffixe -de (-δε) ajouté à un nom de lieu ?",
+      "options": [
+        "Le mouvement vers (direction)",
+        "La provenance",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le suffixe -then (-θεν) indique la provenance (d'où).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le suffixe -thi (-θι) ou -si (-σι) indique le lieu {{1}} (où l'on est).",
+      "reponsesAttendues": ["où", "fixe", "sans mouvement"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'Athēnaze' ?",
+      "options": [
+        "Vers Athènes",
+        "Depuis Athènes",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Oikade signifie 'à la maison' (mouvement).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "D'où vient 'allothen' ?",
+      "options": [
+        "D'ailleurs",
+        "Partout",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le mot '{{1}}' signifie 'ailleurs' (sans mouvement).",
+      "reponsesAttendues": ["allothi"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Ces suffixes sont des survivances d'anciens cas indo-européens (locatif, ablatif).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'Chamaze' ?",
+      "options": [
+        "À terre / Vers le sol",
+        "Vers le ciel",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'usage de ces suffixes est très poétique mais aussi courant en prose.",
+      "reponse": true
+    }
+  ]
+}

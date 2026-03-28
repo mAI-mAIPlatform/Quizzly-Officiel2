@@ -1,0 +1,94 @@
+{
+  "id": "quiz49",
+  "titre": "Musique Expert : Musique Contemporaine (Après 1945)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel compositeur français a fondé l'IRCAM et prôné le sérialisme intégral (Le Marteau sans Maître) ?",
+      "options": [
+        "Pierre Boulez",
+        "Olivier Messiaen",
+        "Iannis Xenakis",
+        "Henri Dutilleux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Olivier Messiaen a intégré les chants d'oiseaux et les rythmes hindous dans sa musique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La musique `{{1}}` (John Cage, 4'33\") laisse une part au hasard dans l'exécution.",
+      "reponsesAttendues": [
+        "aléatoire"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le minimalisme (ou musique répétitive) ?",
+      "options": [
+        "Une musique basée sur la répétition de motifs courts avec des variations infimes (Reich, Glass)",
+        "Une musique avec très peu de notes",
+        "Une musique pour petits instruments",
+        "Une musique qui dure 1 minute"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Iannis Xenakis utilisait les modèles mathématiques et les probabilités (musique stochastique).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel compositeur allemand est un pionnier de la musique électronique (Hymnen, Mantra) ?",
+      "options": [
+        "Karlheinz Stockhausen",
+        "Helmut Lachenmann",
+        "Mauricio Kagel",
+        "Hans Werner Henze"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La musique `{{1}}` (Pierre Schaeffer) utilise des sons captés dans l'environnement comme matériau de base.",
+      "reponsesAttendues": [
+        "concrète"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Arvo Pärt a développé le style 'tintinnabuli', une musique épurée et méditative.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel compositeur polonais a écrit 'Thrène à la mémoire des victimes d'Hiroshima' ?",
+      "options": [
+        "Krzysztof Penderecki",
+        "Henryk Górecki",
+        "Witold Lutoslawski",
+        "Karol Szymanowski"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le courant 'Spectrale' explore la structure physique du son (harmoniques).",
+      "reponse": true
+    }
+  ]
+}

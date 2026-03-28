@@ -1,0 +1,94 @@
+{
+  "id": "quiz15",
+  "titre": "Affectations Combinées",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que fait l'instruction x += 3 ?",
+      "options": [
+        "x est égal à 3",
+        "Ajoute 3 à la valeur actuelle de x",
+        "Multiplie x par 3",
+        "Crée une erreur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "x -= 1 est équivalent à x = x - 1.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour multiplier x par 2 et stocker le résultat dans x, on écrit x {{1}} 2.",
+      "reponsesAttendues": [
+        "*="
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces affectations est INVALIDE ?",
+      "options": [
+        "x = 5",
+        "x += 1",
+        "5 = x",
+        "x = y = 10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Python permet l'affectation multiple : a, b = 1, 2.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que vaut x après : x = 10; x /= 2 ?",
+      "options": [
+        "5",
+        "5.0",
+        "2",
+        "10"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'opérateur de puissance combiné est {{1}}.",
+      "reponsesAttendues": [
+        "**="
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "x %= 2 permet de garder le reste de la division par 2 dans x.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle est une affectation valide ?",
+      "options": [
+        "x ++",
+        "x --",
+        "x += 1",
+        "++ x"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'affectation combinée est plus courte à écrire.",
+      "reponse": true
+    }
+  ]
+}

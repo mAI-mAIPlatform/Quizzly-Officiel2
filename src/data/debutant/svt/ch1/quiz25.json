@@ -1,0 +1,95 @@
+{
+  "id": "quiz25",
+  "titre": "La Forêt et son Écosystème",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un écosystème ?",
+      "options": [
+        "Un système électrique",
+        "L'ensemble d'un milieu et des êtres vivants qui y habitent",
+        "Une marque de voiture",
+        "Un type de fleur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans la forêt, tout le monde dépend de tout le monde.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les arbres rejettent de l'{{1}} que nous respirons.",
+      "reponsesAttendues": [
+        "oxygène",
+        "dioxygène"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est le rôle des champignons dans la forêt ?",
+      "options": [
+        "Ils font du bruit",
+        "Ils aident à décomposer les feuilles mortes",
+        "Ils mangent les loups",
+        "Ils ne servent à rien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les oiseaux font souvent leur nid dans les arbres.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces plantes vit dans le sous-bois ?",
+      "options": [
+        "Le palmier",
+        "La fougère",
+        "Le cactus",
+        "L'algue"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La forêt est le {{1}} de la planète (car elle produit de l'oxygène).",
+      "reponsesAttendues": [
+        "poumon"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La forêt nous aide aussi à lutter contre le réchauffement climatique.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel animal aide à disperser les graines des arbres ?",
+      "options": [
+        "Le ver de terre",
+        "L'écureuil ou les oiseaux",
+        "Le serpent",
+        "Le poisson"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il faut respecter le silence et le calme dans la forêt.",
+      "reponse": true
+    }
+  ]
+}

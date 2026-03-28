@@ -1,0 +1,94 @@
+{
+  "id": "quiz239",
+  "titre": "Algorithmique : Timsort et Tri",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est l'algorithme de tri par défaut utilisé par Python ?",
+      "options": [
+        "Timsort",
+        "Quicksort",
+        "Mergesort",
+        "Heapsort"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Timsort est un algorithme hybride dérivé du tri par insertion et du tri par fusion.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Timsort est particulièrement efficace sur les données qui sont déjà partiellement {{1}}.",
+      "reponsesAttendues": [
+        "triées"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la complexité de Timsort dans le meilleur cas ?",
+      "options": [
+        "O(N)",
+        "O(log N)",
+        "O(N log N)",
+        "O(1)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'algorithme Timsort est considéré comme 'stable' (préserve l'ordre relatif des éléments égaux).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment Python gère-t-il le tri d'objets personnalisés ?",
+      "options": [
+        "En utilisant les méthodes spéciales __lt__ (inférieur) ou __gt__ (supérieur)",
+        "C'est impossible",
+        "En convertissant tout en chaînes",
+        "En utilisant l'adresse mémoire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'argument `{{1}}` des fonctions de tri permet de transformer les éléments avant comparaison sans modifier la liste.",
+      "reponsesAttendues": [
+        "key"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Timsort a été conçu par Tim Peters pour être utilisé dans le langage Python.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la complexité spatiale de Timsort ?",
+      "options": [
+        "O(N)",
+        "O(log N)",
+        "O(1)",
+        "O(N^2)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Timsort est aujourd'hui utilisé dans Java, Android et Swift grâce à ses performances en cas réel.",
+      "reponse": true
+    }
+  ]
+}

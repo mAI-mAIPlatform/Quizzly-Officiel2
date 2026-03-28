@@ -1,0 +1,94 @@
+{
+  "id": "quiz2",
+  "titre": "Les Océans",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le plus grand océan de la planète ?",
+      "options": [
+        "L'océan Atlantique",
+        "L'océan Pacifique",
+        "L'océan Indien",
+        "L'océan Arctique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'eau des océans est salée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'océan qui sépare l'Europe de l'Amérique est l'océan {{1}}.",
+      "reponsesAttendues": [
+        "Atlantique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel océan se trouve principalement au sud de l'Asie ?",
+      "options": [
+        "L'océan Pacifique",
+        "L'océan Indien",
+        "L'océan Arctique",
+        "L'océan Austral"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Il n'y a que de l'eau douce dans les océans.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel océan entoure le pôle Nord ?",
+      "options": [
+        "L'océan Arctique",
+        "L'océan Pacifique",
+        "L'océan Indien",
+        "L'océan Atlantique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'océan autour de l'Antarctique est l'océan {{1}}.",
+      "reponsesAttendues": [
+        "Austral"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les océans couvrent plus de la moitié de la surface de la Terre.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le mouvement de l'eau qui monte et qui descend ?",
+      "options": [
+        "La vague",
+        "La marée",
+        "Le courant",
+        "La tempête"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les océans sont indispensables pour la vie et le climat.",
+      "reponse": true
+    }
+  ]
+}

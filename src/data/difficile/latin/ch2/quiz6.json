@@ -1,0 +1,90 @@
+{
+  "id": "quiz6",
+  "titre": "Le Gérondif",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le gérondif ?",
+      "options": [
+        "Un nom verbal décliné au neutre singulier",
+        "Un adjectif",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le gérondif n'existe qu'au génitif, datif, accusatif et ablatif.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le gérondif se forme avec le radical du présent + {{1}}.",
+      "reponsesAttendues": ["-nd-"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Ars vivendi'",
+      "options": [
+        "L'art de vivre",
+        "L'art qui vit",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'accusatif du gérondif s'emploie avec 'ad' pour exprimer le but.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Usage de l'ablatif du gérondif ?",
+      "options": [
+        "Cause ou Moyen (ex : Docendo discimus)",
+        "Lieu",
+        "Temps",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le gérondif a un sens {{1}} (actif).",
+      "reponsesAttendues": ["actif"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il peut avoir un complément d'objet direct (mais c'est rare en latin classique).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Traduisez 'Ad bellandum' :",
+      "options": [
+        "Pour faire la guerre",
+        "La guerre est là",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le gérondif permet de substantiver un verbe.",
+      "reponse": true
+    }
+  ]
+}

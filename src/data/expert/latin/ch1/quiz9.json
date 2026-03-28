@@ -1,0 +1,94 @@
+{
+  "id": "quiz9",
+  "titre": "Syntaxe des Cas : Le Datif complexe",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Double Datif' ?",
+      "options": [
+        "L'utilisation d'un datif de but et d'un datif d'intérêt (ex: être à charge pour quelqu'un)",
+        "Un datif répété deux fois",
+        "Un datif au pluriel",
+        "Un accord entre deux noms au datif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le datif de possession avec le verbe 'esse' met l'accent sur l'objet possédé plutôt que sur le possesseur.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le datif d'{{1}} (ou de personne) indique pour qui l'action est faite ou à qui elle importe.",
+      "reponsesAttendues": [
+        "intérêt"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel adjectif se construit couramment avec le datif ?",
+      "options": [
+        "Amicus (ami de/pour)",
+        "Dignus",
+        "Plenus",
+        "Peritus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le datif d'agent est couramment utilisé dans la conjugaison périphrastique passive (ex: mihi colenda est virtus).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment s'appelle le datif utilisé pour désigner la destination, le but ?",
+      "options": [
+        "Final (ou de but)",
+        "Éthique",
+        "Possessif",
+        "Séparatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le datif `{{1}}` exprime une participation affective légère à l'action (mihi, tibi).",
+      "reponsesAttendues": [
+        "éthique"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Beaucoup de verbes composés (avec prae, ad, sub...) se construisent avec le datif.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'Mihi est liber' ?",
+      "options": [
+        "J'ai un livre (possessif)",
+        "C'est mon livre",
+        "Le livre est libre",
+        "Donne-moi le livre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Videri (sembler) se construit avec un datif de personne (Mihi videtur).",
+      "reponse": true
+    }
+  ]
+}

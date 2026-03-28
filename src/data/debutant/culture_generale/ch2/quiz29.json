@@ -1,0 +1,94 @@
+{
+  "id": "quiz29",
+  "titre": "Synthèse Monde et Nature",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Combien y a-t-il d'océans sur Terre ?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "10"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le lion vit principalement en Asie.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le monument penché d'Italie est la Tour de {{1}}.",
+      "reponsesAttendues": [
+        "Pise"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle planète est surnommée la planète rouge ?",
+      "options": [
+        "Vénus",
+        "Mars",
+        "Jupiter",
+        "Mercure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Thomas Edison a inventé l'ampoule électrique.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel est un insecte à 6 pattes ?",
+      "options": [
+        "L'araignée",
+        "L'abeille",
+        "Le crabe",
+        "Le mille-pattes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le bébé du sanglier s'appelle le {{1}}.",
+      "reponsesAttendues": [
+        "marcassin"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Paris est la capitale de la France.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel animal polaire vit au pôle Nord ?",
+      "options": [
+        "Le manchot",
+        "L'ours polaire",
+        "Le lion",
+        "Le zèbre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On apprend beaucoup en observant le monde !",
+      "reponse": true
+    }
+  ]
+}

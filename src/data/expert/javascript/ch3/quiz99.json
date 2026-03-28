@@ -1,0 +1,96 @@
+{
+  "id": "quiz99",
+  "titre": "JavaScript Expert : Tooling et Modules Modernes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le format de module standard au sein du navigateur (natif) ?",
+      "options": [
+        "ES Modules (ESM)",
+        "CommonJS",
+        "AMD",
+        "UMD"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'Tree Shaking' permet de supprimer le code mort non utilisé lors de l'étape de bundling.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'outil `{{1}}` (Vite / esbuild) utilise la puissance du Go pour des builds extrêmement rapides.",
+      "reponsesAttendues": [
+        "esbuild",
+        "Vite"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pendant le build, quel processus convertit le code JS moderne en code compatible avec les navigateurs plus anciens ?",
+      "options": [
+        "Transpilation (Babel / SWC)",
+        "Minification",
+        "Bundling",
+        "Linting"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les 'Source Maps' permettent de debugger le code original compressé et transpilé directement dans le navigateur.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel bundler est la référence historique et la plus configurable du marché ?",
+      "options": [
+        "Webpack",
+        "Rollup",
+        "Parcel",
+        "TurboPack"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'optimisation `{{1}}` (Code Splitting) divise le bundle en plusieurs petits morceaux chargés à la demande.",
+      "reponsesAttendues": [
+        "Code Splitting",
+        "Fractionnement de code"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le HMR (Hot Module Replacement) rafraîchit toute la page à chaque modification de code.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel outil permet de vérifier statiquement la qualité et les styles de code ?",
+      "options": [
+        "ESLint",
+        "Prettier",
+        "Jest",
+        "Terser"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "SWC est un remplaçant de Babel écrit en Rust.",
+      "reponse": true
+    }
+  ]
+}

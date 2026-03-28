@@ -1,0 +1,94 @@
+{
+  "id": "quiz38",
+  "titre": "Grec Expert : Cas - Fonctions Avancées",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Génitif absolu' ?",
+      "options": [
+        "Une proposition participiale dont le sujet est au génitif, détachée de la phrase principale",
+        "Un génitif qui ne dépend de rien",
+        "L'utilisation du génitif pour le sujet du verbe",
+        "Une erreur de déclinaison"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le génitif absolu a généralement une valeur circonstancielle (temps, cause, concession).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le datif de 'possession' s'utilise souvent avec le verbe `{{1}}` (être).",
+      "reponsesAttendues": [
+        "εἰμί"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'exprime le 'Datif d'intérêt' ?",
+      "options": [
+        "La personne au profit ou au détriment de laquelle se fait l'action",
+        "Le montant d'une dette",
+        "L'attention du locuteur",
+        "Le sujet de la phrase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'accusatif de relation (ou de partie) précise sous quel rapport l'action ou l'état s'exerce (ex: avoir mal AU PIED).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel cas exprime le prix ou la valeur ?",
+      "options": [
+        "Le Génitif",
+        "Le Datif",
+        "L'Accusatif",
+        "Le Nominatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le datif exprimant le moyen ou l'instrument est appelé le datif `{{1}}`.",
+      "reponsesAttendues": [
+        "instrumental"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le génitif peut exprimer l'origine ou la séparation (valeur d'ablatif).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'Accusatif absolu ?",
+      "options": [
+        "Une construction similaire au génitif absolu mais réservée aux verbes impersonnels (ex: ἐξόν = étant possible)",
+        "Un accusatif qui crie très fort",
+        "L'objet direct d'un verbe passif",
+        "Une forme de vocatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le datif éthique exprime la participation affective d'une personne à l'action.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz14",
+  "titre": "Les Intervalles : Quarte et Quinte",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est l'intervalle entre Do et Fa ?",
+      "options": [
+        "Une quarte",
+        "Une tierce",
+        "Une quinte",
+        "Une sixte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'intervalle entre Do et Sol est une quinte.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une quinte juste contient {{1}} tons et un demi-ton (3).",
+      "reponsesAttendues": [
+        "3"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est l'intervalle entre Ré et Sol ?",
+      "options": [
+        "Une quarte",
+        "Une tierce",
+        "Une quinte",
+        "Une seconde"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une quinte est dite 'juste' car elle sonne de façon très stable.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est l'intervalle entre Mi et Si ?",
+      "options": [
+        "Une quinte",
+        "Une quarte",
+        "Une tierce",
+        "Une sixte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Une quinte diminuée contient {{1}} tons (3).",
+      "reponsesAttendues": [
+        "3"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La quarte juste contient deux tons et un demi-ton.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquel de ces intervalles est le plus grand ?",
+      "options": [
+        "La quinte",
+        "La quarte",
+        "La tierce",
+        "La seconde"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'accord parfait majeur est composé d'une tierce et d'une quinte.",
+      "reponse": true
+    }
+  ]
+}

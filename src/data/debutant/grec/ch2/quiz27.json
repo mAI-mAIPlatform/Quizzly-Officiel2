@@ -1,0 +1,94 @@
+{
+  "id": "quiz27",
+  "titre": "La Famille et la Parenté",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'ὁ πατήρ' (ho patêr) ?",
+      "options": [
+        "Le père",
+        "La mère",
+        "Le fils",
+        "La fille"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'ἡ μήτηρ' (hê mêtêr) signifie la mère.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le fils se dit 'ὁ {{1}}' (ho huios).",
+      "reponsesAttendues": [
+        "υἱός"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'ὁ ἀδελφóς' (ho adelphos) ?",
+      "options": [
+        "Le frère",
+        "La soeur",
+        "L'oncle",
+        "Le cousin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'ἡ θυγάτηρ' (hê thugatêr) signifie la tante.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'la soeur' ?",
+      "options": [
+        "ἡ ἀδελφή (hê adelphê)",
+        "ἡ μήτηρ",
+        "ἡ γυνή",
+        "ἡ παῖς"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le mot 'Philadelphie' signifie 'amour des {{1}}'.",
+      "reponsesAttendues": [
+        "frères"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'ὁ πάππος' (ho pappos) signifie le grand-père.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'ὁ οἶκος' dans le contexte familial ?",
+      "options": [
+        "La famille / la maisonnée",
+        "Le jardin",
+        "Le repas",
+        "Le voyage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La famille était l'unité de base de la société grecque.",
+      "reponse": true
+    }
+  ]
+}

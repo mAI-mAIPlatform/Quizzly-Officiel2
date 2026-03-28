@@ -1,0 +1,94 @@
+{
+  "id": "quiz60",
+  "titre": "Revisão Final : Capítulo 2 - Música Expert",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lieu de naissance de l'opéra ?",
+      "options": [
+        "Italie",
+        "France",
+        "Chine",
+        "Brésil"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Soprano = voix de femme aiguë.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Roi des instruments : l'`{{1}}`.",
+      "reponsesAttendues": [
+        "orgue"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Messe pour les morts ?",
+      "options": [
+        "Requiem",
+        "Valse",
+        "Symphonie",
+        "Blues"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Quatuor à cordes = 4 musiciens.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Instrument à anche double ?",
+      "options": [
+        "Hautbois",
+        "Flûte",
+        "Trompette",
+        "Harpe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Ville du Jazz : La `{{1}}`-Orléans.",
+      "reponsesAttendues": [
+        "Nouvelle"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "John Williams a écrit 'Star Wars'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Gamelan est de quel pays ?",
+      "options": [
+        "Indonésie",
+        "Brésil",
+        "Espagne",
+        "Japon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Jazz repose sur l'improvisation.",
+      "reponse": true
+    }
+  ]
+}

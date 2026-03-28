@@ -1,0 +1,95 @@
+{
+  "id": "quiz27",
+  "titre": "Syntaxe : L'Attribut du Sujet",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quel cas se met l'attribut du sujet en latin ?",
+      "options": [
+        "Accusatif",
+        "Génitif",
+        "Nominatif",
+        "Datif"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut s'accorde en genre, nombre et cas avec le sujet.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans la phrase 'Puella est pulchra' (La fille est belle), le mot 'pulchra' est à l'{{1}}.",
+      "reponsesAttendues": [
+        "attribut",
+        "nominatif"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment traduire 'Les amis sont bons' ?",
+      "options": [
+        "Amici sunt boni",
+        "Amici sunt bonos",
+        "Amicos sunt boni",
+        "Amici est bonus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le verbe 'Esse' (être) introduit presque toujours un attribut.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Le temple est grand'.",
+      "options": [
+        "Templum est magnus",
+        "Templum est magnum",
+        "Templa est magna",
+        "Templus est magnus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'accord de l'attribut est une règle de base de la {{1}} latine.",
+      "reponsesAttendues": [
+        "syntaxe"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Si le sujet est neutre pluriel, l'attribut finit par -a.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel mot est l'attribut dans : 'Roma est magna urbs' ?",
+      "options": [
+        "Roma",
+        "est",
+        "magna urbs",
+        "Il n'y en a pas"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "En latin, l'attribut se place souvent après le verbe, mais pas toujours.",
+      "reponse": true
+    }
+  ]
+}

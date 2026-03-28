@@ -1,0 +1,90 @@
+{
+  "id": "quiz12",
+  "titre": "Uso da Crase",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la 'crase' en portugais ?",
+      "options": [
+        "La fusion de la préposition 'a' avec l'article défini 'a' (marquée par à)",
+        "Un accent pour marquer le futur",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On utilise la crase devant les mots masculins.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La phrase correcte est : 'Vou {{1}} escola' (à l'école).",
+      "reponsesAttendues": ["à"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quand la crase est-elle interdite ?",
+      "options": [
+        "Devant les verbes",
+        "Dans les locutions adverbiales féminines",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On utilise la crase devant les pronoms démonstratifs 'aquele, aquela, aquilo' s'ils sont précédés de la préposition 'a'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Laquelle de ces locutions prend la crase ?",
+      "options": [
+        "À noite",
+        "A pé",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Devant les noms de villes qui n'ont pas d'article, on n'utilise pas la {{1}}.",
+      "reponsesAttendues": ["crase"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La crase est facultative devant les noms propres de personnes féminins (dans un contexte informel).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est correct ?",
+      "options": [
+        "Voltei à casa dos meus pais",
+        "Ando a pé",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'usage de la crase est un indicateur fort de la maîtrise orthographique de la langue.",
+      "reponse": true
+    }
+  ]
+}

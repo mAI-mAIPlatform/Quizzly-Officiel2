@@ -1,0 +1,94 @@
+{
+  "id": "quiz1",
+  "titre": "POO Avancée : Héritage et MRO",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le MRO (Method Resolution Order) en Python ?",
+      "options": [
+        "L'ordre dans lequel Python cherche une méthode dans la hiérarchie des classes",
+        "Une méthode pour optimiser les boucles",
+        "Le nom du gestionnaire de mémoire",
+        "L'ordre d'importation des modules"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Python utilise l'algorithme C3 Linearization pour déterminer le MRO.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour accéder au MRO d'une classe `MaClasse`, on peut appeler l'attribut spécial `MaClasse.{{1}}`.",
+      "reponsesAttendues": [
+        "__mro__"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "A quoi sert la fonction super() ?",
+      "options": [
+        "A appeler dynamiquement la méthode suivante dans le MRO",
+        "A créer une instance de la classe parente",
+        "A détruire une instance",
+        "A forcer l'usage du thread global"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'héritage multiple est interdit en Python.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Diamond Problem' ?",
+      "options": [
+        "Une ambiguïté d'héritage quand deux parents héritent d'une même classe",
+        "Une erreur de syntaxe sur les décorateurs",
+        "Un problème de performance lié au garbage collector",
+        "Une faille de sécurité dans les dictionnaires"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La méthode `{{1}}` est appelée lors de la création d'une instance (instanciation) avant __init__.",
+      "reponsesAttendues": [
+        "__new__"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Une classe peut hériter d'elle-même directement.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle fonction permet de vérifier si un objet est une instance d'une classe donnée (ou de ses parents) ?",
+      "options": [
+        "isinstance()",
+        "typeof()",
+        "issubclass()",
+        "getClass()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les 'Mixins' sont des classes conçues pour être héritées sans être instanciées seules.",
+      "reponse": true
+    }
+  ]
+}

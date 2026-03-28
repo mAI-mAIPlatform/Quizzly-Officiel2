@@ -1,0 +1,90 @@
+{
+  "id": "quiz20",
+  "titre": "Développement : Outils Standard",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel module permet d'analyser les arguments passés en ligne de commande ?",
+      "options": [
+        "argparse",
+        "sys.args",
+        "os.params",
+        "click"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le module 'logging' permet d'écrire des messages de debug, info, warning et erreur de façon structurée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour debugger son code interactivement, on utilise souvent l'outil {{1}}.",
+      "reponsesAttendues": ["pdb", "ipdb"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quoi sert le module configparser ?",
+      "options": [
+        "À lire et écrire des fichiers de configuration .ini",
+        "À Parser du SQL",
+        "À configurer Windows",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "tempfile permet de créer des fichiers temporaires qui sont supprimés automatiquement.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel module pour manipuler des dates de façon complète ?",
+      "options": [
+        "datetime",
+        "time",
+        "calendar",
+        "clock"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La fonction {{1}}() du module sys permet de forcer l'arrêt du script.",
+      "reponsesAttendues": ["exit"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le module 'pathlib' est la façon moderne de manipuler les chemins de fichiers (remplace os.path).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que fait shutil.copytree() ?",
+      "options": [
+        "Copie un dossier entier récursivement",
+        "Supprime un fichier",
+        "Crée un arbre en ASCII",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La documentation officielle (docs.python.org) est une ressource indispensable.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz20",
+  "titre": "Pline le Jeune",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la principale contribution littéraire de Pline le Jeune ?",
+      "options": [
+        "Ses Lettres (Epistulae) qui brossent un portrait de la vie sociale sous Trajan",
+        "Une encyclopédie",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il est le témoin oculaire de l'éruption du Vésuve en 79 ap. J.-C. (où meurt son oncle).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ses lettres à l'empereur {{1}} sur les Chrétiens sont un document historique majeur.",
+      "reponsesAttendues": ["Trajan"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Titre de son discours à la gloire de Trajan ?",
+      "options": [
+        "Panégyrique de Trajan",
+        "Philippique",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les lettres de Pline étaient destinées à la publication dès l'origine.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "De quoi parle-t-il dans ses lettres ?",
+      "options": [
+        "De ses villas, de procès, de lectures publiques et de ses amis",
+        "Uniquement de politique",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Son oncle (Pline l'Ancien) est l'auteur de l'{{1}} (Histoire Naturelle).",
+      "reponsesAttendues": ["Histoire Naturelle", "Naturalis Historia"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Pline le Jeune représente l'honnête homme, riche, cultivé et au service de l'État.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Son style est :",
+      "options": [
+        "Élégant, clair et urbain",
+        "Obscur",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La correspondance de Pline est une mine d'or pour les historiens de l'Empire.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz15",
+  "titre": "Participe Passé",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quels sont les deux types de participes passés pour certains verbes ?",
+      "options": [
+        "Régulier (terminé en -ado/-ido) et Irrégulier (court)",
+        "Masculin et Féminin",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Avec 'Ter' ou 'Haver', on utilise généralement la forme régulière (ex: Tinha acendido).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Avec 'Ser' ou 'Estar' (voix passive/état), on utilise la forme {{1}} (ex: A luz foi acesa).",
+      "reponsesAttendues": ["irrégulière", "courte"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel de ces verbes a deux participes passés ?",
+      "options": [
+        "Aceitar (aceitado / aceito)",
+        "Falar",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le participe passé s'accorde toujours avec l'auxiliaire 'Ter' aux temps composés.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle est la forme correcte passive de 'Mato' (tue) ?",
+      "options": [
+        "Morto",
+        "Matado",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Si le verbe n'a qu'un participe irrégulier (ex: Fazer -> {{1}}), on l'utilise avec tous les auxiliaires.",
+      "reponsesAttendues": ["feito"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le participe passé absolu s'accorde en genre et en nombre avec le nom qu'il qualifie (ex: Terminada a aula...).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est un participe court ?",
+      "options": [
+        "Entregue (Entrega)",
+        "Entregado",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La maîtrise des doubles formes est cruciale pour le bon usage de la voix passive.",
+      "reponse": true
+    }
+  ]
+}

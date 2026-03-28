@@ -1,0 +1,94 @@
+{
+  "id": "quiz3",
+  "titre": "Les Articles Définis (Pluriel)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le pluriel de 'il' ?",
+      "options": [
+        "i",
+        "gli",
+        "le",
+        "l'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le pluriel de 'lo' et de 'l' (masculin) est 'gli'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'article féminin pluriel est '{{1}}' (le).",
+      "reponsesAttendues": [
+        "le"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Les livres'.",
+      "options": [
+        "i libri",
+        "gli libri",
+        "le libri",
+        "il libri"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le pluriel de 'la ragazza' est 'le ragazze'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'les amis' ?",
+      "options": [
+        "gli amici",
+        "i amici",
+        "le amiche",
+        "il amici"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les étudiantes se dit '{{1}} studentesse'.",
+      "reponsesAttendues": [
+        "le"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On utilise 'gli' devant 'z' au pluriel (ex: gli zaini).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'le mele' ?",
+      "options": [
+        "Les pommes",
+        "Les miels",
+        "Les mains",
+        "Les mers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le pluriel des noms en -a est souvent -e.",
+      "reponse": true
+    }
+  ]
+}

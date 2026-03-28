@@ -1,0 +1,94 @@
+{
+  "id": "quiz15",
+  "titre": "Introduction au HTML5",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "En quelle année le HTML5 est-il devenu une recommandation standard ?",
+      "options": [
+        "1999",
+        "2004",
+        "2014",
+        "2020"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le HTML5 a supprimé toutes les anciennes balises.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le HTML5 a introduit des balises pour la vidéo et l'{{1}}.",
+      "reponsesAttendues": [
+        "audio"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est l'un des nouveaux éléments sémantiques phares du HTML5 ?",
+      "options": [
+        "<section>",
+        "<div>",
+        "<span>",
+        "<b>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le HTML5 permet de dessiner des graphiques via la balise <canvas>.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle balise a été simplifiée au maximum en HTML5 ?",
+      "options": [
+        "<html>",
+        "<!DOCTYPE html>",
+        "<head>",
+        "<body>"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le HTML5 supporte nativement le stockage local via localStorage et {{1}}Storage.",
+      "reponsesAttendues": [
+        "session"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La balise <center> est encore recommandée en HTML5.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces balises est née avec le HTML5 ?",
+      "options": [
+        "<article>",
+        "<aside>",
+        "<time>",
+        "Toutes ces réponses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le HTML5 est conçu pour être plus mobile-friendly.",
+      "reponse": true
+    }
+  ]
+}

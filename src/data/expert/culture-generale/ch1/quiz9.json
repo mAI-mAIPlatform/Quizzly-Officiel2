@@ -1,0 +1,94 @@
+{
+  "id": "quiz9",
+  "titre": "Histoire : Les Grandes Figures de l'Antiquité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel roi de Macédoine a créé l'un des plus grands empires de l'histoire avant de mourir à 32 ans ?",
+      "options": [
+        "Alexandre le Grand",
+        "Philippe II",
+        "Antigone",
+        "Py rrhus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "César a été assassiné aux Ides de Mars en 44 av. J.-C.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le philosophe qui a bu la ciguë après avoir été condamné à mort pour impiété est `{{1}}`.",
+      "reponsesAttendues": [
+        "Socrate"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle figure féminine a régné sur l'Égypte et s'est alliée à Marc Antoine ?",
+      "options": [
+        "Cléopâtre VII",
+        "Zénobie",
+        "Livia",
+        "Bérénice"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Marc Aurèle était surnommé 'l'empereur-philosophe'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui était l'esclave-gladiateur qui a mené une grande révolte contre Rome (73-71 av. J.-C.) ?",
+      "options": [
+        "Spartacus",
+        "Crixus",
+        "Gannicus",
+        "Caracalla"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le grand poète latin auteur de 'L'Énéide' est `{{1}}`.",
+      "reponsesAttendues": [
+        "Virgile"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Cicéron était un célèbre orateur et homme d'État romain.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel scientifique grec a crié 'Eurêka' après avoir découvert le principe de la poussée des fluides ?",
+      "options": [
+        "Archimède",
+        "Euclide",
+        "Ératosthène",
+        "Ptolémée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Hérodote est souvent appelé le 'Père de l'Histoire'.",
+      "reponse": true
+    }
+  ]
+}

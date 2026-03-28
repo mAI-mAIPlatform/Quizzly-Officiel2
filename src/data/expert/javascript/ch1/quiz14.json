@@ -1,0 +1,94 @@
+{
+  "id": "quiz14",
+  "titre": "Object.create() et Héritage",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que fait 'Object.create(proto)' ?",
+      "options": [
+        "Crée un nouvel objet avec 'proto' comme prototype",
+        "Copie toutes les propriétés de 'proto'",
+        "Fusionne deux objets",
+        "Supprime le prototype d'un objet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Object.create(null)' crée un objet sans aucun prototype (même pas Object).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Avant les classes ES6, on utilisait Object.create pour mettre en place l'{{1}} prototypal.",
+      "reponsesAttendues": [
+        "héritage"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est le deuxième argument optionnel d'Object.create ?",
+      "options": [
+        "Un objet de descripteurs de propriétés",
+        "Un constructeur",
+        "Un tableau d'options",
+        "Un booléen de mode strict"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les objets créés avec Object.create(null) possèdent la méthode .toString().",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser Object.create(null) ?",
+      "options": [
+        "Pour créer un dictionnaire propre sans interférence de prototype",
+        "Pour économiser beaucoup de RAM",
+        "Pour empêcher toute modification ultérieure",
+        "Parce que c'est plus rapide"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'expression 'new MonConstructeur()' est approximativement équivalente à un {{1}} sur MonConstructeur.prototype.",
+      "reponsesAttendues": [
+        "Object.create"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Object.create() a été introduit en ES5.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Si on modifie une propriété primitive héritée sur une instance, que se passe-t-il ?",
+      "options": [
+        "Elle est créée localement sur l'instance (shadowing)",
+        "Elle est modifiée sur le prototype",
+        "Une erreur est lancée",
+        "Rien ne se passe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'héritage par Object.create est plus 'pur' car il n'exécute pas le constructeur parent par défaut.",
+      "reponse": true
+    }
+  ]
+}

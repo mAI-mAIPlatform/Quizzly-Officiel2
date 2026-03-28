@@ -3,5 +3,30 @@
   "titre": "HTML",
   "niveau": "Savant",
   "description": "Découvre et maîtrise tout le programme de HTML au niveau Savant !",
-  "chapitres": []
+  "chapitres": [
+    {
+      "id": "ch1",
+      "titre": "Standardisation & Spécifications",
+      "lecons": ["Processus WHATWG", "Parsing algorithm complexe", "Évolutions du standard"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch2",
+      "titre": "Programmation de Rendu DOM",
+      "lecons": ["Moteurs de rendu (Blink, WebKit)", "Optimisation CPU/GPU", "Virtual DOM vs Real DOM"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch3",
+      "titre": "Accessibilité Universelle AAA",
+      "lecons": ["Protocoles d'assistance spécialisés", "Patterns UI complexes", "Conformité légale internationale"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch4",
+      "titre": "Web des Objets & Futur",
+      "lecons": ["Web Bluetooth/USB", "PWA et Offline First", "WebAssembly et HTML"],
+      "quizCount": 30
+    }
+  ]
 }

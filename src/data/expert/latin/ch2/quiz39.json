@@ -1,0 +1,94 @@
+{
+  "id": "quiz39",
+  "titre": "Latin Expert : Comparatifs & Superlatifs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment se forme le comparatif de supériorité d'un adjectif ?",
+      "options": [
+        "Radical + -ior (m/f), -ius (n)",
+        "Radical + -issimus",
+        "magis + adjectif",
+        "Radical + -er"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le superlatif de supériorité se termine généralement en -issimus, a, um.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le second terme de comparaison se met soit à l'ablatif seul, soit au même cas que le premier après `{{1}}`.",
+      "reponsesAttendues": [
+        "quam"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est le comparatif de 'bonus' (bon) ?",
+      "options": [
+        "melior",
+        "pejor",
+        "major",
+        "plus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un comparatif seul (sans second terme) peut se traduire par 'un peu trop' ou 'assez'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Superlatif de 'malus' (mauvais) ?",
+      "options": [
+        "pessimus",
+        "minimus",
+        "maximus",
+        "optimus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les adjectifs en -er font leur superlatif en -`{{1}}` (ex: pulcherrimus).",
+      "reponsesAttendues": [
+        "errimus"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le complément du superlatif se met souvent au génitif, à l'ablatif avec 'ex' ou à l'accusatif avec 'inter'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'Quam maximus' ?",
+      "options": [
+        "Le plus grand possible",
+        "Comme le plus grand",
+        "Pourquoi le plus grand ?",
+        "À peine plus grand"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il existe des comparatifs et superlatifs d'infériorité réguliers en latin.",
+      "reponse : false (On utilise 'minus... quam' ou 'minime')"
+    }
+  ]
+}

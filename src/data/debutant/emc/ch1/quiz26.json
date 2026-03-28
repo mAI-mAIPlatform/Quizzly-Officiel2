@@ -1,0 +1,94 @@
+{
+  "id": "quiz26",
+  "titre": "Le Respect de la Vie Privée",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la vie privée ?",
+      "options": [
+        "Tout ce que l'on fait devant tout le monde",
+        "Ce qui nous appartient (pensées, corps, secrets) et qu'on ne veut pas forcément partager",
+        "Le journal télévisé",
+        "Une cour de récréation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Mon corps m'appartient, j'ai le droit de dire 'non' à un contact qui me gêne.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Lire le journal intime de quelqu'un sans permission est un manque de {{1}}.",
+      "reponsesAttendues": [
+        "respect"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que faire avant de prendre quelqu'un en photo ?",
+      "options": [
+        "Le faire en cachette",
+        "Lui demander son autorisation (son accord)",
+        "Le faire et rigoler après",
+        "C'est inutile de demander"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Sur internet, je dois faire attention à ne pas donner mon adresse ou mon nom complet.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Le respect du droit à l'image veut dire :",
+      "options": [
+        "On peut dessiner n'importe quoi",
+        "On ne peut pas diffuser la photo de quelqu'un sans son accord",
+        "On ne peut pas regarder de photos",
+        "C'est seulement pour les stars"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'endroit où l'on vit est notre domicile, c'est un lieu {{1}}.",
+      "reponsesAttendues": [
+        "privé"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut raconter les secrets de ses amis aux autres pour s'amuser.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qui est responsable de protéger sa vie privée sur internet ?",
+      "options": [
+        "Uniquement l'ordinateur",
+        "Soi-même avec l'aide de ses parents",
+        "C'est automatique",
+        "Personne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le respect de la vie privée est un droit fondamental.",
+      "reponse": true
+    }
+  ]
+}

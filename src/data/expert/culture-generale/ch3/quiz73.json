@@ -1,0 +1,94 @@
+{
+  "id": "quiz73",
+  "titre": "Culture Générale Expert : L'Entre-deux-guerres et la Crise",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel événement de 1929 a plongé le monde dans la 'Grande Dépression' ?",
+      "options": [
+        "Le krach boursier de Wall Street (Jeudi Noir)",
+        "L'arrivée d'Hitler au pouvoir",
+        "La fin de la Prohibition",
+        "L'invasion de la Pologne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le nazisme en Allemagne et le fascisme en Italie se sont développés sur le terreau de la crise économique et du ressentiment national.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (New Deal) est le nom du programme de relance économique lancé par Franklin D. Roosevelt aux États-Unis.",
+      "reponsesAttendues": [
+        "New Deal"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "En quelle année Adolf Hitler est-il devenu Chancelier de l'Allemagne ?",
+      "options": [
+        "1933",
+        "1923",
+        "1939",
+        "1929"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Front Populaire en France (1936) a instauré les premiers congés payés.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel conflit sanglant (1936-1939) a servi de 'répétition générale' à la Seconde Guerre mondiale ?",
+      "options": [
+        "La Guerre d'Espagne",
+        "La Guerre de Corée",
+        "La Guerre du Rif",
+        "L'annexion de l'Autriche"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les `{{1}}` de Munich (1938) symbolisent la politique d'apaisement (ratée) des démocraties face à Hitler.",
+      "reponsesAttendues": [
+        "Accords"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La Société des Nations (SDN) a réussi à empêcher les agressions japonaises et allemandes dans les années 30.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment appelait-on la ligne de défense fortifiée construite par la France à ses frontières ?",
+      "options": [
+        "La ligne Maginot",
+        "La ligne Siegfried",
+        "Le mur de l'Atlantique",
+        "La ligne bleue"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La propagande était un outil central de contrôle des masses dans les régimes totalitaires.",
+      "reponse": true
+    }
+  ]
+}

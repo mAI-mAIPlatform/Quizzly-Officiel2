@@ -1,0 +1,94 @@
+{
+  "id": "quiz22",
+  "titre": "Orthographe : Le son [g]",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment écrit-on le son [g] devant 'e' ou 'i' ?",
+      "options": [
+        "g",
+        "gu",
+        "j",
+        "gh"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La lettre 'g' fait le son [g] devant 'a', 'o', 'u'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une {{1}}itare.",
+      "reponsesAttendues": [
+        "gu"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Complète : Un ___âteau.",
+      "options": [
+        "g",
+        "gu",
+        "j",
+        "gh"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La lettre 'g' toute seule devant 'e' fait le son [j] comme dans 'genou'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel mot est bien écrit ?",
+      "options": [
+        "vague",
+        "vage",
+        "vaguee",
+        "vaggue"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Une fi{{1}}e (le fruit).",
+      "reponsesAttendues": [
+        "gu"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Gourde' s'écrit avec 'gu'.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel de ces mots contient le son [g] ?",
+      "options": [
+        "girafe",
+        "glace",
+        "orange",
+        "manger"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le 'u' dans 'gu' ne se prononce pas, il sert juste à changer le son du 'g'.",
+      "reponse": true
+    }
+  ]
+}

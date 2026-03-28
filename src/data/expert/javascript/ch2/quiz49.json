@@ -1,0 +1,94 @@
+{
+  "id": "quiz49",
+  "titre": "JS Expert : requestIdleCallback",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert requestIdleCallback ?",
+      "options": [
+        "À planifier des tâches non urgentes pendant que le navigateur est inactif (repos)",
+        "À accélérer le chargement initial",
+        "À rafraîchir la page",
+        "À fermer les connexions réseaux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "requestIdleCallback garantit l'exécution fluide des animations (60 FPS).",
+      "reponse : false (C'est le rôle de requestAnimationFrame)"
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La callback reçoit un objet 'deadline' dont la méthode `{{1}}()` renvoie le temps restant en ms.",
+      "reponsesAttendues": [
+        "timeRemaining"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle option permet d'imposer un délai au-delà duquel la tâche DOIT s'exécuter, même si le navigateur n'est pas au repos ?",
+      "options": [
+        "timeout",
+        "priority",
+        "force",
+        "delay"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Il est déconseillé de manipuler le DOM à l'intérieur d'un requestIdleCallback (car c'est imprédictible).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quand utiliser cette API ?",
+      "options": [
+        "Pour l'envoi de statistiques ou le pré-calcul de données non critiques",
+        "Pour réagir à un clic utilisateur immédiat",
+        "Pour lancer une alerte de sécurité",
+        "Pour modifier la couleur du curseur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Si requestIdleCallback n'est pas supporté, on peut utiliser un polyfill basé sur `{{1}}`.",
+      "reponsesAttendues": [
+        "setTimeout"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La propriété 'didTimeout' de l'objet deadline devient true si le délai imposé est expiré.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la durée maximale typique d'une période 'Idle' accordée par le navigateur ?",
+      "options": [
+        "50ms",
+        "500ms",
+        "1ms",
+        "Indéfini"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": " requestAnimationFrame est appelé à chaque rafraîchissement d'écran, contrairement à requestIdleCallback.",
+      "reponse": true
+    }
+  ]
+}

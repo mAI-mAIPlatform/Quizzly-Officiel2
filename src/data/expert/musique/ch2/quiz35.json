@@ -1,0 +1,95 @@
+{
+  "id": "quiz35",
+  "titre": "Musique Expert : Contrepoint et Fugue",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le contrepoint ?",
+      "options": [
+        "L'art de superposer plusieurs mélodies indépendantes",
+        "L'art de jouer fort",
+        "L'accompagnement par des accords",
+        "La musique de danse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans une fugue, le 'Sujet' est la mélodie principale qui est imitée par les autres voix.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le contrepoint `{{1}}` (note contre note) est la forme la plus simple de composition polyphonique.",
+      "reponsesAttendues": [
+        "rigoureux",
+        "strict"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel compositeur est considéré comme le maître absolu de la fugue (Art de la Fugue) ?",
+      "options": [
+        "J.S. Bach",
+        "Mozart",
+        "Beethoven",
+        "Chopin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une fugue commence toujours par l'Exposition des différentes voix.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Strette' dans une fugue ?",
+      "options": [
+        "Le moment où les entrées du sujet se chevauchent de plus en plus près",
+        "La fin du morceau",
+        "Une erreur de note",
+        "Un silence prolongé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` est l'imitation exacte d'une mélodie par une autre voix avec un décalage temporel.",
+      "reponsesAttendues": [
+        "canon"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les quintes et octaves parallèles sont strictement interdites en contrepoint classique.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l' mouvement contraire ?",
+      "options": [
+        "Deux voix qui se déplacent dans des directions opposées",
+        "Deux voix qui font la même chose",
+        "Une voix qui s'arrête",
+        "Une voix qui chante faux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le contrepoint privilégie l'aspect horizontal (mélodique) de la musique.",
+      "reponse": true
+    }
+  ]
+}

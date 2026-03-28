@@ -1,0 +1,94 @@
+{
+  "id": "quiz19",
+  "titre": "Mots Interrogatifs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Qui' ?",
+      "options": [
+        "Chi",
+        "Che",
+        "Come",
+        "Dove"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Che' ou 'Che cosa' signifie 'Quoi/Que'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour demander 'Où', on dit '{{1}}'.",
+      "reponsesAttendues": [
+        "Dove"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Comment' ?",
+      "options": [
+        "Come",
+        "Perché",
+        "Quando",
+        "Quanto"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Perché' signifie à la fois 'Pourquoi' et 'Parce que'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'Quando' ?",
+      "options": [
+        "Quand",
+        "Combien",
+        "Qui",
+        "Où"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour demander 'Combien', on dit '{{1}}'.",
+      "reponsesAttendues": [
+        "Quanto"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Quale' signifie 'Quel/Lequel'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'D'où' ?",
+      "options": [
+        "Di dove",
+        "A dove",
+        "Per dove",
+        "In dove"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'inversion sujet-verbe est obligatoire pour poser une question en italien.",
+      "reponse": false
+    }
+  ]
+}

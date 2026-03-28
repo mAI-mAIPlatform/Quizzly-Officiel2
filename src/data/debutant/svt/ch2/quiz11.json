@@ -1,0 +1,94 @@
+{
+  "id": "quiz11",
+  "titre": "Les Besoins des Plantes (1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "De quoi une plante a-t-elle besoin pour grandir en priorité ?",
+      "options": [
+        "De lait",
+        "D'eau et de lumière",
+        "De chocolat",
+        "De vent seulement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une plante peut pousser dans le noir complet sans problème.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les plantes puisent l'eau dans le sol par leurs {{1}}.",
+      "reponsesAttendues": [
+        "racines"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment s'appelle la matière qui apporte de la 'nourriture' aux plantes dans le sol ?",
+      "options": [
+        "Les sels minéraux",
+        "Le sucre",
+        "Le sel de cuisine",
+        "La peinture"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les plantes rejettent de l'oxygène pendant la journée.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle partie de la plante capte la lumière du Soleil ?",
+      "options": [
+        "La racine",
+        "La tige",
+        "Les feuilles",
+        "Les fruits"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La {{1}} est le pigment vert qui permet de capter la lumière.",
+      "reponsesAttendues": [
+        "chlorophylle"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Toutes les plantes ont besoin d'être arrosées tous les jours.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces plantes vit dans le désert avec très peu d'eau ?",
+      "options": [
+        "Le nénuphar",
+        "Le cactus",
+        "Le sapin",
+        "La fougère"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Sans lumière, les feuilles d'une plante jaunissent.",
+      "reponse": true
+    }
+  ]
+}

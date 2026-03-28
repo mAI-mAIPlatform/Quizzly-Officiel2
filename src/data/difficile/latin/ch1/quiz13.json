@@ -1,0 +1,90 @@
+{
+  "id": "quiz13",
+  "titre": "L'Attraction Modale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'attraction modale ?",
+      "options": [
+        "Le passage au subjonctif d'une subordonnée car elle dépend elle-même d'un subjonctif ou d'une infinitive",
+        "Un aimant",
+        "Une règle de déclinaison",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attraction modale montre que la subordonnée fait partie intégrante de la pensée exprimée au subjonctif.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Elle touche principalement les propositions {{1}} et temporelles.",
+      "reponsesAttendues": ["relatives"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "L'attraction modale est-elle systématique ?",
+      "options": [
+        "Non, elle dépend de l'étroitesse du lien logique entre les deux propositions",
+        "Oui, toujours",
+        "Jamais",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une relative qui exprime un fait réel et indépendant peut résister à l'attraction modale et rester à l'indicatif.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Exemple type :",
+      "options": [
+        "Accidit ut, cum hoc viderem, riderem",
+        "Video hominem qui venit",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "On parle d'attraction modale car le subjonctif de la 'mère' semble {{1}} celui de la 'fille'.",
+      "reponsesAttendues": ["attirer"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Elle est très fréquente dans la prose de Cicéron.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Rôle stylistique ?",
+      "options": [
+        "Renforcer l'unité et la cohérence de la pensée subjonctive",
+        "Faire joli",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'attraction modale est une nuance subtile de la syntaxe latine.",
+      "reponse": true
+    }
+  ]
+}

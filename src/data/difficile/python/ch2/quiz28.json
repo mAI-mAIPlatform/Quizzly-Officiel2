@@ -1,0 +1,90 @@
+{
+  "id": "quiz28",
+  "titre": "Performance et Profilage",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel module standard permet de mesurer précisément le temps d'exécution de petits morceaux de code ?",
+      "options": [
+        "timeit",
+        "timing",
+        "chrono",
+        "speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'outil cProfile permet d'analyser en détail le temps passé dans chaque fonction du programme.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "En Python, on parle souvent de 'Premature {{1}}' pour désigner le fait d'optimiser le code avant même qu'il ne fonctionne ou qu'un goulot d'étranglement ne soit identifié.",
+      "reponsesAttendues": ["optimization", "optimisation"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle structure est généralement plus rapide pour tester l'appartenance d'un élément (x in S) ?",
+      "options": [
+        "list",
+        "tuple",
+        "set",
+        "long int"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Généralement, une boucle for avec append() est plus rapide qu'une List Comprehension.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi sert le module 'dis' ?",
+      "options": [
+        "À désactiver le code",
+        "À afficher le bytecode Python (désassemblage)",
+        "À supprimer des fichiers",
+        "À discuter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour économiser de la mémoire sur de très grandes listes d'objets, on utilise l'attribut {{1}} dans les classes.",
+      "reponsesAttendues": ["__slots__"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "dict() est légèrement plus lent que {} (littéral) pour initialiser un dictionnaire vide.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est l'impact du 'duck typing' sur la performance ?",
+      "options": [
+        "Il accélère tout",
+        "Il introduit un léger surcoût car les attributs sont résolus au moment de l'exécution",
+        "C'est négligeable",
+        "Inconnu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le module 'pstats' permet de manipuler et de filtrer les résultats d'un profilage cProfile.",
+      "reponse": true
+    }
+  ]
+}

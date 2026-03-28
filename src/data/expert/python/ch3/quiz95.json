@@ -1,0 +1,94 @@
+{
+  "id": "quiz95",
+  "titre": "Python Expert : Gestion Mémoire et Garbage Collector",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la stratégie principale de gestion de mémoire utilisée par CPython ?",
+      "options": [
+        "comptage de références (Reference Counting)",
+        "Generational GC exclusively",
+        "Mark and Sweep exclusively",
+        "Manual Free"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Garbage Collector cyclique de Python sert à collecter les objets ayant des références circulaires.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le compteur de références d'un objet peut être consulté via `{{1}}` (sys.getrefcount).",
+      "reponsesAttendues": [
+        "sys.getrefcount"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Combien de 'générations' le Garbage Collector de CPython gère-t-il ?",
+      "options": [
+        "3 (0, 1, 2)",
+        "2",
+        "un nombre dynamique",
+        "aucune"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un 'Arenal' (arena) est un bloc de mémoire de 256 Ko utilisé par l'allocateur d'objets de CPython (pymalloc).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il pour un objet lorsque son compteur de références tombe à zéro ?",
+      "options": [
+        "Il est immédiatement détruit",
+        "Il attend le prochain cycle du GC",
+        "Ses données sont vidées mais l'objet reste",
+        "Il est déplacé en génération 1"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le module `{{1}}` (gc) permet de configurer le Garbage Collector et de forcer une collecte.",
+      "reponsesAttendues": [
+        "gc"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le GIL empêche les fuites de mémoire en Python.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l''interning' de chaînes (string interning) en Python ?",
+      "options": [
+        "Réutiliser la même adresse mémoire pour des chaînes identiques et courtes",
+        "Traduire les chaînes en C",
+        "Stocker les chaînes sur le disque",
+        "Crypter les chaînes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'allocateur de CPython est optimisé pour les petits objets (< 512 octets).",
+      "reponse": true
+    }
+  ]
+}

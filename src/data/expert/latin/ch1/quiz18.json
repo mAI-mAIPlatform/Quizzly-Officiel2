@@ -1,0 +1,94 @@
+{
+  "id": "quiz18",
+  "titre": "Vocabulaire : Concepts Philosophiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'Virtus' chez les auteurs classiques ?",
+      "options": [
+        "Le courage, la valeur morale, l'excellence de l'homme",
+        "Uniquement la chasteté",
+        "La force physique brute",
+        "Une divinité mineure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Ratio' désigne à la fois le calcul, le compte et la raison (faculté de penser).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le concept de 'devoir' ou d'obligation morale se traduit souvent par `{{1}}` (titre d'un ouvrage de Cicéron).",
+      "reponsesAttendues": [
+        "officium"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'Otium' en philosophie ?",
+      "options": [
+        "Le loisir studieux, la retraite consacrée à la pensée",
+        "La paresse inutile",
+        "Le travail acharné",
+        "La guerre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Negotium' est le contraire de 'otium' (l'activité publique, les affaires).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel mot désigne la nature, l'essence des choses ?",
+      "options": [
+        "Natura",
+        "Res",
+        "Materia",
+        "Forma"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La 'Sagesse' se dit `{{1}}` en latin.",
+      "reponsesAttendues": [
+        "sapientia"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Summum bonum' signifie le plus grand bien (but de la morale).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'Fata' ?",
+      "options": [
+        "Le destin, ce qui a été dit par les dieux",
+        "Les fées",
+        "Les faits divers",
+        "Les erreurs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le vocabulaire philosophique latin a été largement créé ou adapté du grec par Cicéron.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz40",
+  "titre": "Revisione : API Moderne e Performance (Capitolo 2)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "API pour dessin raster immédiat ?",
+      "options": [
+        "Canvas",
+        "SVG",
+        "CSS",
+        "WebGL"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Shadow DOM encapsule le CSS.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'élément de point d'insertion : `<{{1}}>`.",
+      "reponsesAttendues": [
+        "slot"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Stockage persistant après fermeture ?",
+      "options": [
+        "LocalStorage",
+        "SessionStorage",
+        "Cookies seulement",
+        "RAM"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "IndexedDB est asynchrone.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Balise pour sous-titres vidéo ?",
+      "options": [
+        "<track>",
+        "<source>",
+        "<caption>",
+        "<label>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Précharger une ressource critique : `rel='{{1}}'`.",
+      "reponsesAttendues": [
+        "preload"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "SVG est vectoriel.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Attribut pour images responsives ?",
+      "options": [
+        "srcset",
+        "srcmult",
+        "imageset",
+        "altsrc"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "loading='lazy' accélère le rendu initial.",
+      "reponse": true
+    }
+  ]
+}

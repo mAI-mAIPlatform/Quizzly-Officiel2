@@ -1,0 +1,90 @@
+{
+  "id": "quiz24",
+  "titre": "POO : Itérateurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelles sont les deux méthodes indispensables pour qu'un objet soit un itérateur ?",
+      "options": [
+        "__iter__ et __next__",
+        "__start__ et __end__",
+        "__get__ et __set__",
+        "__loop__ et __next__"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "__iter__ doit normalement retourner 'self' dans un itérateur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Quelle exception doit être levée par __next__ pour indiquer la fin de l'itération ?",
+      "reponsesAttendues": ["StopIteration"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre un itérable et un itérateur ?",
+      "options": [
+        "Aucune",
+        "Un itérable fournit un itérateur via __iter__ ; l'itérateur fournit les valeurs via __next__",
+        "L'itérateur est plus rapide",
+        "L'itérable est une liste, l'itérateur est une boucle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser un itérateur une seule fois (il s'épuise).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment récupérer manuellement la valeur suivante d'un itérateur ?",
+      "options": [
+        "next(it)",
+        "it.next()",
+        "get(it)",
+        "val(it)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La fonction {{1}}() permet d'obtenir un itérateur à partir d'un itérable.",
+      "reponsesAttendues": ["iter"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Une liste est un itérateur.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "À quoi sert __getitem__ dans le contexte de l'itération ?",
+      "options": [
+        "C'est une ancienne façon de rendre un objet itérable (si __iter__ est absent)",
+        "À rien",
+        "À supprimer",
+        "C'est obligatoire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'itération personnalisée permet de manipuler de très grands flux de données sans tout charger en RAM.",
+      "reponse": true
+    }
+  ]
+}

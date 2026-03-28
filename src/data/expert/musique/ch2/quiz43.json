@@ -1,0 +1,94 @@
+{
+  "id": "quiz43",
+  "titre": "Musique Expert : Le Romantisme I (1820-1850)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est le maître incontesté du Lied romantique (plus de 600 compositions) ?",
+      "options": [
+        "Franz Schubert",
+        "Robert Schumann",
+        "Hugo Wolf",
+        "Johannes Brahms"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Frédéric Chopin est surnommé le 'Poète du Piano' car il a presque exclusivement écrit pour cet instrument.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Franz `{{1}}` était la première 'rockstar' de l'histoire, un virtuose du piano incomparable.",
+      "reponsesAttendues": [
+        "Liszt"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la 'musique à programme' (ex: Symphonie Fantastique d'Berlioz) ?",
+      "options": [
+        "Une musique qui suit une narration ou décrit une scène précise",
+        "Une musique écrite sur ordinateur",
+        "Une musique imposée par l'État",
+        "Une musique sans titre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Félix Mendelssohn a redécouvert la 'Passion selon Saint-Mathieu' de Bach, relançant l'intérêt pour ce compositeur.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel de ces compositeurs était aussi un célèbre critique musical ?",
+      "options": [
+        "Robert Schumann",
+        "Frédéric Chopin",
+        "Franz Schubert",
+        "Niccolò Paganini"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Niccolò `{{1}}` était le plus grand virtuose du violon du XIXe siècle, soupçonné d'avoir pactisé avec le diable.",
+      "reponsesAttendues": [
+        "Paganini"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le romantisme privilégie l'expression exacerbée des sentiments et le rêve.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'Nocturne' (genre popularisé par Chopin) ?",
+      "options": [
+        "Une pièce courte et expressive évoquant le calme ou les mystères de la nuit",
+        "Une marche militaire",
+        "Une étude technique",
+        "Un chant de louange"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Hector Berlioz a révolutionné l'orchestration moderne.",
+      "reponse": true
+    }
+  ]
+}

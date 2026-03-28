@@ -1,0 +1,90 @@
+{
+  "id": "quiz24",
+  "titre": "RTL et Bidi",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie RTL ?",
+      "options": [
+        "Right-To-Left (Écriture de droite à gauche)",
+        "Real Time Language",
+        "Return Tool Line",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'arabe et l'hébreu sont des langues s'écrivant en RTL.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "En HTML, on utilise l'attribut dir=\"{{1}}\" pour spécifier la direction du texte.",
+      "reponsesAttendues": ["rtl", "ltr", "auto"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Mirroring' en design ?",
+      "options": [
+        "Le fait d'inverser l'interface (menus, icônes directionnelles) pour les langues RTL",
+        "Un bug d'affichage",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les chiffres romains et arabes s'écrivent généralement de gauche à droite même dans un texte RTL.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi servent les 'Logical Properties' en CSS (ex: margin-inline-start) ?",
+      "options": [
+        "À définir des marges qui s'adaptent automatiquement selon que le texte est en LTR ou RTL",
+        "À faire de la logique avant le CSS",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La balise <{{1}}> permet d'isoler une partie de texte dont la direction est inconnue ou différente.",
+      "reponsesAttendues": ["bdi"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Une mauvaise gestion du RTL rend le site illisible pour des millions d'utilisateurs.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Impact sur le SEO ?",
+      "options": [
+        "Très important pour le référencement local (ex: Moyen-Orient)",
+        "Nul",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Bidi (Bi-directional text) désigne le mélange de LTR et RTL dans la même phrase.",
+      "reponse": true
+    }
+  ]
+}

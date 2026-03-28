@@ -1,0 +1,96 @@
+{
+  "id": "quiz16",
+  "titre": "Les Verbes Contractes : Introduction",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un verbe contracte en grec ?",
+      "options": [
+        "Un verbe dont le radical finit par une voyelle entrant en contact avec la voyelle thématique",
+        "Un verbe qui n'a pas de futur",
+        "Un verbe sans augment",
+        "Un verbe qui se conjugue comme un nom"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La contraction se produit uniquement au présent et à l'imparfait.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les trois types de voyelles finales de radical pour les contractes sont α, ε et {{1}}.",
+      "reponsesAttendues": [
+        "ο",
+        "omicron"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi la contraction ne se produit-elle pas au futur ?",
+      "options": [
+        "L'insertion du sigma sépare les voyelles",
+        "Elle est interdite au futur",
+        "Le futur n'utilise pas de voyelle thématique",
+        "Elle se produit quand même"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La contraction peut modifier l'accentuation du verbe.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel type de verbe est 'ποιῶ' (je fais) avant contraction ?",
+      "options": [
+        "ποι-έ-ω",
+        "ποι-ά-ω",
+        "ποι-ό-ω",
+        "ποι-ή-ω"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Dans les dictionnaires, ces verbes sont souvent cités sous leur forme non {{1}}.",
+      "reponsesAttendues": [
+        "contractée",
+        "contracte"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le résultat de la contraction dépend de la nature des deux voyelles en présence.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est un verbe contracte ?",
+      "options": [
+        "τιμάω",
+        "λύω",
+        "γράφω",
+        "πέμπω"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le iota souscrit peut apparaître suite à une contraction.",
+      "reponse": true
+    }
+  ]
+}

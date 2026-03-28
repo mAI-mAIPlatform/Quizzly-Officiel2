@@ -1,0 +1,94 @@
+{
+  "id": "quiz8",
+  "titre": "Les Adjectifs de Base",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'beau' ?",
+      "options": [
+        "bello",
+        "brutto",
+        "buono",
+        "cattivo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Cattivo' signifie 'méchant' ou 'mauvais'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": " 'Grand' se dit '{{1}}' (grande).",
+      "reponsesAttendues": [
+        "grande"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'piccolo' ?",
+      "options": [
+        "Petit",
+        "Grand",
+        "Moyen",
+        "Minuscule"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Nuovo' signifie 'neuf' ou 'nouveau'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'vieux' ?",
+      "options": [
+        "vecchio",
+        "giovane",
+        "stanco",
+        "felice"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": " 'Jeune' se dit '{{1}}' (giovane).",
+      "reponsesAttendues": [
+        "giovane"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Felice' signifie 'heureux'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'stanco' ?",
+      "options": [
+        "Fatigué",
+        "Éveillé",
+        "Affamé",
+        "Assoiffé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les adjectifs en -o font leur féminin en -a.",
+      "reponse": true
+    }
+  ]
+}

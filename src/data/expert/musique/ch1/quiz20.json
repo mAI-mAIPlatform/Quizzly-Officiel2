@@ -1,0 +1,94 @@
+{
+  "id": "quiz20",
+  "titre": "Revisione : Dal Gregoriano al Barocco (Capitolo 1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est l'auteur de L'Orfeo ?",
+      "options": [
+        "Monteverdi",
+        "Lully",
+        "Bach",
+        "Haendel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Ars Nova date du XIVe siècle.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le compositeur de la Contre-Réforme est `{{1}}`.",
+      "reponsesAttendues": [
+        "Palestrina"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la Basse continue ?",
+      "options": [
+        "Le soutien harmonique du Baroque",
+        "Une basse de jazz",
+        "Un instrument médiéval",
+        "Une erreur de solfège"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Bach a écrit des concertos grosso.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un neume ?",
+      "options": [
+        "L'ancêtre de la note moderne",
+        "Un instrument à cordes",
+        "Une danse de cour",
+        "Un type d'accord"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le maître de la Fugue est `{{1}}`.",
+      "reponsesAttendues": [
+        "Bach"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Vivaldi était surnommé le Prêtre Roux.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Madrigal ?",
+      "options": [
+        "Genre profane de la Renaissance",
+        "Chant grégorien",
+        "Symphonie romantique",
+        "Opéra de poche"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La Messe de Notre-Dame est de Pérotin.",
+      "reponse": false
+    }
+  ]
+}

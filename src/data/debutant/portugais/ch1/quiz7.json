@@ -1,0 +1,94 @@
+{
+  "id": "quiz7",
+  "titre": "Jours et Mois",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Lundi' ?",
+      "options": [
+        "Segunda-feira",
+        "Terça-feira",
+        "Sábado",
+        "Domingo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les jours de la semaine (sauf weekend) se terminent par '-feira'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le 'Mardi' se dit '{{1}}-feira'.",
+      "reponsesAttendues": [
+        "Terça"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel jour est 'Domingo' ?",
+      "options": [
+        "Samedi",
+        "Dimanche",
+        "Vendredi",
+        "Jeudi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Janeiro' est le premier mois de l'année.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Décembre' ?",
+      "options": [
+        "Dezembro",
+        "Novembro",
+        "Outubro",
+        "Setembro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le mois de 'Mai' se dit '{{1}}'.",
+      "reponsesAttendues": [
+        "Maio"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Sexta-feira' est le vendredi.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel jour précède 'Sábado' ?",
+      "options": [
+        "Sexta-feira",
+        "Quinta-feira",
+        "Quarta-feira",
+        "Terça-feira"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les noms des mois en portugais sont très proches du français.",
+      "reponse": true
+    }
+  ]
+}

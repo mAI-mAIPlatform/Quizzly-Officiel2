@@ -1,0 +1,90 @@
+{
+  "id": "quiz4",
+  "titre": "Héritage Prototypal Classique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment lier le prototype d'un Enfant à celui d'un Parent (avant ES6) ?",
+      "options": [
+        "Enfant.prototype = Parent.prototype;",
+        "Enfant.prototype = Object.create(Parent.prototype);",
+        "Enfant.extends(Parent);",
+        "Enfant.prototype = new Parent();"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Après avoir remplacé le prototype, il est recommandé de restaurer la propriété '.constructor'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour appeler le constructeur parent depuis l'enfant, on utilise {{1}} ou apply.",
+      "reponsesAttendues": ["call"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi 'Enfant.prototype = Parent.prototype' est-il dangereux ?",
+      "options": [
+        "C'est trop lent",
+        "Toute modification sur Enfant.prototype impactera Parent.prototype (référence partagée)",
+        "JS ne le permet pas",
+        "Ça casse la pile d'appels"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'héritage prototypal permet de partager des méthodes sans les copier.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle est la 'Best Practice' pour hériter en JS moderne ?",
+      "options": [
+        "Object.setPrototypeOf",
+        "Le mot-clé 'extends' des classes ES6",
+        "Copier toutes les fonctions manuellement",
+        "Ne pas hériter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'héritage est un mécanisme de {{1}} de code.",
+      "reponsesAttendues": ["réutilisation", "partage"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut changer dynamiquement le prototype d'un objet déjà créé via Object.setPrototypeOf().",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est l'inconvénient de performence majeur de Object.setPrototypeOf() ?",
+      "options": [
+        "Il consomme du réseau",
+        "Il casse les optimisations du moteur JS (JIT) pour cet objet",
+        "Il supprime les données de l'objet",
+        "Il est synchrone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le 'Polymorphisme' permet à l'enfant de redéfinir une méthode du parent.",
+      "reponse": true
+    }
+  ]
+}

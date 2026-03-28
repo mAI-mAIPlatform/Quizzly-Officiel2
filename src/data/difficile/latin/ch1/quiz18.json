@@ -1,0 +1,90 @@
+{
+  "id": "quiz18",
+  "titre": "Quod Causal (Subjonctif)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser le subjonctif avec une conjonction de cause (quod, quia) ?",
+      "options": [
+        "Pour indiquer que la cause est rapportée, alléguée ou subjective (pensée d'autrui)",
+        "C'est obligatoire",
+        "Pour le plaisir",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On l'appelle 'Cause rejetée' lorsqu'on utilise 'non quod' + subjonctif (non pas que...).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La vraie cause est alors introduite par 'sed quia' + {{1}}.",
+      "reponsesAttendues": ["indicatif"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Pugnat quod iratus sit'",
+      "options": [
+        "Il se bat parce qu'il serait en colère (on dit qu'il est en colère)",
+        "Il se bat car il est en colère (fait sûr)",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'indicatif exprime une cause dont l'auteur prend la responsabilité.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Cas du 'Quod' après verbe de blâme au subjonctif ?",
+      "options": [
+        "Indique le motif du blâme tel qu'il est perçu ou formulé",
+        "C'est une erreur",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La conjonction {{1}} (puisque) est presque toujours suivie de l'indicatif.",
+      "reponsesAttendues": ["quoniam"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le choix du mode modifie radicalement le sens de la phrase en latin.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Dans 'Non quod te odissem', quel est le temps ?",
+      "options": [
+        "Subjonctif plus-que-parfait (Non pas que je t'eusse haï)",
+        "Imparfait",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le subjonctif de 'subjectivité' est un concept clé des langues classiques.",
+      "reponse": true
+    }
+  ]
+}

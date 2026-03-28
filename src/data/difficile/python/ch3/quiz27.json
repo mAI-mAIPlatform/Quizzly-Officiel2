@@ -1,0 +1,90 @@
+{
+  "id": "quiz27",
+  "titre": "Magie des Attributs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre __getattr__ et __getattribute__ ?",
+      "options": [
+        "Aucune",
+        "__getattribute__ est appelé à chaque accès ; __getattr__ n'est appelé que si l'attribut n'est pas trouvé",
+        "L'inverse",
+        "__getattr__ est plus rapide"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Redéfinir __getattribute__ maladroitement peut provoquer des boucles infinies de récursivité.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La méthode spécial {{1}} est appelée lors de l'assignation d'une valeur à un attribut.",
+      "reponsesAttendues": ["__setattr__"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment éviter la récursion infinie dans __setattr__ ?",
+      "options": [
+        "En utilisant self.__dict__[name] = value",
+        "En appelant super().__setattr__(name, value)",
+        "Les deux réponses sont valides",
+        "C'est impossible"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "__delattr__ intercepte la suppression d'un attribut.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi sert __dir__ ?",
+      "options": [
+        "À lister les fichiers",
+        "À personnaliser le résultat de la fonction dir(obj)",
+        "À supprimer la classe",
+        "Rien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le mécanisme de recherche d'un attribut s'appelle le {{1}} (Attribute Lookup).",
+      "reponsesAttendues": ["lookup"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Modifier __getattribute__ est considéré comme du 'Haut Niveau' et doit être fait avec précaution.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel dictionnaire contient les attributs d'un objet (sauf slots) ?",
+      "options": [
+        "__dict__",
+        "__args__",
+        "__vals__",
+        "__vars__"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser __getattr__ pour créer des objets 'Proxy' dynamiques.",
+      "reponse": true
+    }
+  ]
+}

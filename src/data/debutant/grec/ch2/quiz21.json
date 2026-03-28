@@ -1,0 +1,94 @@
+{
+  "id": "quiz21",
+  "titre": "Les Adjectifs (1ère Classe)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'bon' au masculin ?",
+      "options": [
+        "ἀγαθός (agathos)",
+        "ἀγαθή",
+        "ἀγαθόν",
+        "κακός"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'κακóς' (kakos) signifie 'mauvais'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'adjectif 'beau' au féminin se dit '{{1}}' (kalê).",
+      "reponsesAttendues": [
+        "καλή"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'μικρóς' (mikros) ?",
+      "options": [
+        "Petit",
+        "Grand",
+        "Large",
+        "Haut"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'μακρóς' (makros) signifie 'long' ou 'grand'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'sage' ?",
+      "options": [
+        "σοφός (sophos)",
+        "φίλος",
+        "δίκαιος",
+        "χαλεπός"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Un adjectif neutre finit souvent par -{{1}} (comme les noms neutres).",
+      "reponsesAttendues": [
+        "ον"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'adjectif s'accorde avec le nom qu'il qualifie.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'δίκαιος' (dikaios) ?",
+      "options": [
+        "Juste",
+        "Injuste",
+        "Fort",
+        "Faible"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le mot 'microscope' vient de 'mikros' (petit).",
+      "reponse": true
+    }
+  ]
+}

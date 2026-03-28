@@ -1,0 +1,94 @@
+{
+  "id": "quiz15",
+  "titre": "Les Verbes en -ω : Présent (2)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison de la 1ère personne du pluriel (Nous) ?",
+      "options": [
+        "-ομεν",
+        "-ετε",
+        "-ουσι",
+        "-εις"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'λύομεν' (luomen) signifie 'nous délions'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La terminaison de la 2e personne du pluriel (Vous) est -{{1}}.",
+      "reponsesAttendues": [
+        "ετε"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'λύουσι' (luousi) ?",
+      "options": [
+        "Ils / Elles délient",
+        "Vous déliez",
+        "Tu délies",
+        "Il délie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Il existe parfois un 'n' (nu) final à la 3e personne du pluriel.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'vous écrivez' ?",
+      "options": [
+        "γράφετε (graphete)",
+        "γράφομεν",
+        "γράφουσι",
+        "γράφεις"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": " 'Nous entendons' se dit 'ἀκού{{1}}' (akouomen).",
+      "reponsesAttendues": [
+        "ομεν"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'βλέπετε' signifie 'vous voyez'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la forme correcte pour 'ils voient' ?",
+      "options": [
+        "βλέπουσι(ν)",
+        "βλέπεις",
+        "βλέπει",
+        "βλέπομεν"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le radical du verbe reste fixe au présent.",
+      "reponse": true
+    }
+  ]
+}

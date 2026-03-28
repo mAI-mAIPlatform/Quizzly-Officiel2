@@ -1,0 +1,90 @@
+{
+  "id": "quiz19",
+  "titre": "Serialization : JSON et CSV",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel module standard permet de manipuler le format JSON ?",
+      "options": [
+        "js",
+        "json",
+        "jsonify",
+        "jsmap"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "json.dumps() convertit un objet Python en chaîne JSON.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La méthode json.{{1}}() lit et désérialise un fichier JSON ouvert directement.",
+      "reponsesAttendues": ["load"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel module permet de lire/écrire des fichiers tableurs simples ?",
+      "options": [
+        "xls",
+        "csv",
+        "tsv",
+        "table"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un DictReader du module csv retourne chaque ligne sous forme de dictionnaire.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'sérialiser' ?",
+      "options": [
+        "Trier une liste",
+        "Transformer un objet complexe en mémoire en un format de données stockable (ex: texte)",
+        "Crypter des données",
+        "Regarder une série"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'argument {{1}} de json.dumps() permet de rendre le JSON lisible avec des espaces.",
+      "reponsesAttendues": ["indent"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le module JSON peut sérialiser n'importe quelle classe Python personnalisée nativement.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre json.dumps() et json.dump() ?",
+      "options": [
+        "None",
+        "dumps() retourne une string, dump() écrit dans un fichier",
+        "L'inverse",
+        "dump() est plus rapide"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut changer le délimiteur d'un fichier CSV (ex: point-virgule) avec l'argument 'delimiter'.",
+      "reponse": true
+    }
+  ]
+}

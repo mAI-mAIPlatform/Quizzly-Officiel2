@@ -1,0 +1,94 @@
+{
+  "id": "quiz24",
+  "titre": "Sécurité : Content Security Policy (CSP)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le but principal d'une politique CSP ?",
+      "options": [
+        "Prévenir les attaques XSS (Cross-Site Scripting) et l'injection de données",
+        "Accélérer le chargement des images",
+        "Masquer le code source au visiteur",
+        "Empêcher le clic droit sur le site"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une CSP peut être définie via une balise <meta> ou un en-tête HTTP.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La directive `script-{{1}}` définit les sources autorisées pour l'exécution du JavaScript.",
+      "reponsesAttendues": [
+        "src"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie la valeur 'self' dans une directive CSP ?",
+      "options": [
+        "Autorise uniquement les ressources provenant du même domaine",
+        "Autorise tout",
+        "Interdit tout",
+        "Autorise uniquement le JavaScript inline"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Par défaut, une CSP stricte interdit le JavaScript 'inline' (balises <script> directes).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment autoriser un script inline spécifique sans tout autoriser ?",
+      "options": [
+        "En utilisant un 'nonce' ou un 'hash'",
+        "En mettant l'ID du script dans la CSP",
+        "C'est impossible",
+        "En utilisant l'attribut allow-inline"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La directive `{{1}}-src` est utilisée comme repli (fallback) pour toutes les autres directives non définies.",
+      "reponsesAttendues": [
+        "default"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut tester une CSP sans bloquer les ressources avec l'en-tête 'Content-Security-Policy-Report-Only'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle directive contrôle où la page peut être affichée dans une <iframe> (contre le Clickjacking) ?",
+      "options": [
+        "frame-ancestors",
+        "child-src",
+        "object-src",
+        "frame-src"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La valeur 'none' dans une directive interdit tout chargement de ce type de ressource.",
+      "reponse": true
+    }
+  ]
+}

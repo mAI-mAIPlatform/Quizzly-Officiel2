@@ -1,0 +1,94 @@
+{
+  "id": "quiz18",
+  "titre": "Sujet et Verbe",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans une phrase, quel mot indique l'action ?",
+      "options": [
+        "Le sujet",
+        "Le verbe",
+        "L'adjectif",
+        "L'article"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le sujet est celui qui fait l'action.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans la phrase 'Lisa joue', le verbe est {{1}}.",
+      "reponsesAttendues": [
+        "joue"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Trouve le sujet dans la phrase : 'Le petit chat boit du lait.'",
+      "options": [
+        "boit",
+        "lait",
+        "Le petit chat",
+        "du"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le verbe s'accorde toujours avec son sujet.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on la forme du verbe que l'on trouve dans le dictionnaire ?",
+      "options": [
+        "Le présent",
+        "L'infinitif",
+        "Le radical",
+        "Le passé"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Dans la phrase 'Nous chantons', le sujet est le pronom personnel {{1}}.",
+      "reponsesAttendues": [
+        "Nous"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Une phrase peut exister sans verbe.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel mot peut remplacer le sujet 'Les enfants' ?",
+      "options": [
+        "Il",
+        "Ils",
+        "Elle",
+        "Elles"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Repérer le sujet et le verbe est essentiel pour bien orthographier la phrase.",
+      "reponse": true
+    }
+  ]
+}

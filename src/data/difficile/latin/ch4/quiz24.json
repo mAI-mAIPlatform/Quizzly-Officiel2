@@ -1,0 +1,90 @@
+{
+  "id": "quiz24",
+  "titre": "Transition Moyen Âge",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment le latin a-t-il évolué après la chute de l'Empire ?",
+      "options": [
+        "Il s'est fragmenté en dialectes qui sont devenus les langues romanes",
+        "Il a disparu instantanément",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Église a préservé le latin comme langue de culture et de liturgie.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les monastères ont joué un rôle clé dans la {{1}} des manuscrits antiques (moines copistes).",
+      "reponsesAttendues": ["copie", "préservation"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la 'Renaissance carolingienne' ?",
+      "options": [
+        "Un renouveau des études latines sous Charlemagne",
+        "Le début du style gothique",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le latin médiéval était resté strictement identique au latin de Cicéron.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel auteur marque cette transition au Ve siècle ?",
+      "options": [
+        "Saint Augustin",
+        "Virgile",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'écriture cursive romaine a évolué vers la caroline, puis vers le {{1}}.",
+      "reponsesAttendues": ["gothique"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La structure administrative de l'Église (diocèses) est calquée sur celle de l'Empire romain.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "La 'Vulgate' est :",
+      "options": [
+        "La traduction de la Bible en latin par Saint Jérôme",
+        "Une monnaie",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Rome a continué d'exister comme une idée et un idéal tout au long du Moyen Âge.",
+      "reponse": true
+    }
+  ]
+}

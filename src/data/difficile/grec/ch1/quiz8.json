@@ -1,0 +1,90 @@
+{
+  "id": "quiz8",
+  "titre": "Conditionnelles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la particule indispensable pour exprimer le 'potentiel' ou l' 'irréel' ?",
+      "options": [
+        "An (ἄν)",
+        "Dé (δέ)",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La condition réelle (ou éventuelle) se construit avec 'ei' + indicatif.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'irréel du présent se construit avec 'ei' + imparfait à la protase et {{1}} + 'an' à l'apodose.",
+      "reponsesAttendues": ["imparfait"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment exprime-t-on l'irréel du passé ?",
+      "options": [
+        "Ei + Aoriste ... Aoriste + An",
+        "Ei + Présent",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le potentiel se construit avec 'ei' + optatif ... optatif + 'an'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "La négation dans la protase (condition) est toujours :",
+      "options": [
+        "Mē (μή)",
+        "Ou (οὐ)",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le mode {{1}} est utilisé pour l'éventuel (ce qui arrivera probablement).",
+      "reponsesAttendues": ["subjonctif"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le grec possède quatre systèmes conditionnels principaux.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "L'apodose est :",
+      "options": [
+        "La proposition principale (la conséquence)",
+        "La condition (si...)",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La finesse des modes grecs permet de nuancer très précisément le degré de réalité.",
+      "reponse": true
+    }
+  ]
+}

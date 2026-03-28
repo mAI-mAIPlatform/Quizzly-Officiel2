@@ -1,0 +1,94 @@
+{
+  "id": "quiz88",
+  "titre": "Musique Expert : La Musique de Film (Film Scoring)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel compositeur est l'auteur des thèmes mythiques de Star Wars, Jurassic Park et Indiana Jones ?",
+      "options": [
+        "John Williams",
+        "Hans Zimmer",
+        "Jerry Goldsmith",
+        "Alan Silvestri"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Ennio Morricone est célèbre pour ses musiques de westerns spaghetti (Sergio Leone).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le motif de deux notes répétées pour 'Les Dents de la mer' a été composé par `{{1}}` (John Williams).",
+      "reponsesAttendues": [
+        "John Williams"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel compositeur français a remporté 3 Oscars (Un homme et une femme, Michel Legrand...) ?",
+      "options": [
+        "Michel Legrand",
+        "Maurice Jarre",
+        "Georges Delerue",
+        "Alexandre Desplat"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Hans Zimmer est connu pour son utilisation massive de synthétiseurs et de sound design hybride.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui a composé la bande originale du film 'Interstellar' et 'Gladiator' ?",
+      "options": [
+        "Hans Zimmer",
+        "Danny Elfman",
+        "Howard Shore",
+        "James Horner"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Leitmotiv) est une technique consistant à associer un thème musical à un personnage ou une idée.",
+      "reponsesAttendues": [
+        "Leitmotiv"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Bernard Herrmann a collaboré étroitement avec Alfred Hitchcock (Psychose, Sueurs froides).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel compositeur collabore presque exclusivement avec Tim Burton ?",
+      "options": [
+        "Danny Elfman",
+        "Thomas Newman",
+        "Michael Giacchino",
+        "Joe Hisaishi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La musique de film muet était originellement jouée en direct par un pianiste ou un orchestre.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "quiz83",
+  "titre": "Python Expert : Modern Type Hinting (TypedDict, Literal, Final)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle structure permet de définir le type des champs d'un dictionnaire avec des clés fixes ?",
+      "options": [
+        "typing.TypedDict",
+        "typing.DictType",
+        "typing.Struct",
+        "typing.Mapping"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "`TypedDict` vérifie les types à l'exécution (runtime).",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le type `{{1}}` (Literal) permet de restreindre une variable à un ensemble spécifique de valeurs exactes (ex: 'read' | 'write').",
+      "reponsesAttendues": [
+        "Literal"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle annotation indique qu'une variable ou un attribut ne doit pas être réassigné ou qu'une méthode ne doit pas être redéfinie ?",
+      "options": [
+        "typing.Final",
+        "typing.Constant",
+        "typing.ReadOnly",
+        "typing.Immutable"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Depuis Python 3.10, on peut utiliser l'opérateur `|` au lieu de `Union` (ex: `int | str`).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi sert `typing.Annotated` ?",
+      "options": [
+        "Ajouter des métadonnées arbitraires aux types",
+        "Forcer la conversion de type",
+        "Indiquer une fonction asynchrone",
+        "Supprimer les avertissements du linter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le décorateur `{{1}}` (@final) empêche une classe d'être héritée ou une méthode d'être surchargée.",
+      "reponsesAttendues": [
+        "@final",
+        "final"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "`NewType` crée un véritable sous-type distinct à l'analyse statique, contrairement à un simple alias.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment définit-on un TypedDict où certaines clés sont optionnelles ?",
+      "options": [
+        "Utiliser total=False dans la définition",
+        "Utiliser le type Optional pour chaque clé",
+        "C'est automatique",
+        "Utiliser MaybeDict"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation de `typing.Any` désactive l'analyse de type pour la valeur concernée.",
+      "reponse": true
+    }
+  ]
+}

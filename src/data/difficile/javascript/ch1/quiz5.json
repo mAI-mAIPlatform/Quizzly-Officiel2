@@ -1,0 +1,90 @@
+{
+  "id": "quiz5",
+  "titre": "Closures et Mémoire (Pièges)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'affiche une console dans une boucle 'for (var i = 0...)' avec un setTimeout(..., 1000) ?",
+      "options": [
+        "Les nombres dans l'ordre (0, 1, 2...)",
+        "Plusieurs fois la valeur finale de 'i'",
+        "0 à chaque fois",
+        "Une erreur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Remplacer 'var' par 'let' dans une boucle corrige le problème de capture de variable par le scope.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une closure garde une référence vers l'ensemble de l'objet de {{1}} parent.",
+      "reponsesAttendues": ["lexique", "lexical environment"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment s'appelle une fonction qui s'invoque immédiatement ?",
+      "options": [
+        "Closure",
+        "IIFE",
+        "Lambda",
+        "Callback"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une closure peut accéder aux arguments de la fonction parente.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Pourquoi les closures peuvent causer des leaks ?",
+      "options": [
+        "Elles cachent le code",
+        "Elles empêchent le GC de libérer les variables parents",
+        "Elles consomment du CPU",
+        "Elles s'exécutent en boucle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Une fonction définie à l'intérieur d'une autre fonction crée automatiquement une {{1}}.",
+      "reponsesAttendues": ["closure", "fermeture"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les variables privées en JS (avant ES2022) étaient souvent simulées par des closures.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel permet d'encapsuler des données en JS ?",
+      "options": [
+        "Global Scope",
+        "Closures",
+        "Hoisting",
+        "TDZ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Une closure est détruite dès que la fonction interne a fini d'être définie.",
+      "reponse": false
+    }
+  ]
+}

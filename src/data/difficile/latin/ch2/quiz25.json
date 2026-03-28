@@ -1,0 +1,90 @@
+{
+  "id": "quiz25",
+  "titre": "Interest / Refert",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifient 'Interest' et 'Refert' ?",
+      "options": [
+        "Il importe / Il est de l'intérêt de",
+        "C'est intéressant",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La personne à qui il importe se met au génitif.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "EXCEPTION : Si c'est un pronom personnel (moi, toi...), on utilise l'ablatif singulier féminin du possessif : {{1}}, {{2}}, {{3}}.",
+      "reponsesAttendues": ["mea", "tua", "sua"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Mea interest'",
+      "options": [
+        "Il m'importe",
+        "C'est mon intérêt",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La chose qui importe peut être un neutre (id, hoc), un infinitif ou une subordonnée.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment exprime-t-on 'combien' il importe ?",
+      "options": [
+        "Par un génitif de prix (magni, parvi) ou un adverbe (magis, multum)",
+        "On ne peut pas",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Traduisez : 'Interest omnium' -> {{1}} importe à tous.",
+      "reponsesAttendues": ["Il"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Refert' est plus rare que 'Interest' et s'utilise surtout avec les possessifs.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "But de ces verbes ?",
+      "options": [
+        "Exprimer l'importance politique, morale ou personnelle d'une action",
+        "Donner le prix d'un objet",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La construction avec le génitif est l'une des plus subtiles de la grammaire latine.",
+      "reponse": true
+    }
+  ]
+}

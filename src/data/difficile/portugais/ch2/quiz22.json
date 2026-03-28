@@ -1,0 +1,90 @@
+{
+  "id": "quiz22",
+  "titre": "Architecture Contemp.",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel architecte portugais a reçu le Prix Pritzker en 1992 ?",
+      "options": [
+        "Álvaro Siza Vieira",
+        "Eduardo Souto de Moura",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Eduardo Souto de Moura a également reçu le Prix Pritzker (en 2011).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L''École de {{1}}' (Escola do Porto) est le courant architectural majeur du Portugal contemporain.",
+      "reponsesAttendues": ["Porto"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle œuvre emblématique Siza a-t-il réalisé pour l'Expo 98 à Lisbonne ?",
+      "options": [
+        "Le Pavillon du Portugal (avec son toit de béton suspendu)",
+        "L'Oceanário",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'architecture de Siza se caractérise par un dialogue constant avec le paysage et une économie formelle.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel stade célèbre a été conçu par Souto de Moura pour l'Euro 2004 ?",
+      "options": [
+        "Estádio Municipal de Braga (inséré dans une carrière de pierre)",
+        "Estádio da Luz",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La Maison de la Musique (Casa da Música) à Porto est l'œuvre de l'architecte hollandais Rem {{1}}.",
+      "reponsesAttendues": ["Koolhaas"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Siza Vieira a reconstruit le quartier du Chiado à Lisbonne après l'incendie de 1988.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel matériau est souvent magnifié par l'architecture portugaise moderne ?",
+      "options": [
+        "Le béton blanc et la pierre locale",
+        "Le verre teinté uniquement",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Portugal est une référence mondiale majeure en architecture contemporaine.",
+      "reponse": true
+    }
+  ]
+}

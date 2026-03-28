@@ -1,0 +1,94 @@
+{
+  "id": "quiz10",
+  "titre": "Révisions : Closures et Scopes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel n'appartient pas au concept de portée lexicale ?",
+      "options": [
+        "Dynamic binding",
+        "Function scope",
+        "Block scope",
+        "Global scope"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une closure est le lien entre une fonction et son environnement lexical.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot-clé {{1}} permet de déclarer une variable avec une portée bloc ré-assignable.",
+      "reponsesAttendues": [
+        "let"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Dans une boucle for avec var, toutes les closures créées partagent :",
+      "options": [
+        "La même instance de variable (i)",
+        "Une copie différente de i",
+        "Rien du tout",
+        "Une erreur de référence"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une IIFE crée un nouveau scope tout en s'exécutant immédiatement.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel avantage offre 'const' par rapport à 'let' pour le moteur JS ?",
+      "options": [
+        "Potentielle optimisation car la variable ne sera pas ré-assignée",
+        "Il n'y a aucun avantage technique",
+        "Consomme moins de RAM",
+        "Empêche les closures"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'oubli d'une déclaration (let, const, var) crée une variable {{1}}.",
+      "reponsesAttendues": [
+        "globale"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Une fonction interne peut modifier une variable de sa fonction parente.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la règle d'or pour éviter les fuites de mémoire avec les closures ?",
+      "options": [
+        "Mettre les références inutilisées à null",
+        "Ne jamais utiliser de fonctions anonymes",
+        "Utiliser var partout",
+        "Redémarrer le script toutes les minutes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les 'Modules' ES6 utilisent les closures en interne pour l'encapsulation.",
+      "reponse": true
+    }
+  ]
+}

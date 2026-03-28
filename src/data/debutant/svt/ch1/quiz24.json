@@ -1,0 +1,95 @@
+{
+  "id": "quiz24",
+  "titre": "Classer les Êtres Vivants",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel point commun ont tous les animaux ?",
+      "options": [
+        "Ils ont tous des poils",
+        "Ils sont tous constitués de cellules",
+        "Ils volent tous",
+        "Ils sont tous verts"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les scientifiques classent les animaux selon ce qu'ils ONT (caractères).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un animal qui a un squelette interne avec une colonne vertébrale est un {{1}}.",
+      "reponsesAttendues": [
+        "vertébré"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel de ces animaux est un vertébré ?",
+      "options": [
+        "L'escargot",
+        "Le chat",
+        "Le ver de terre",
+        "La pieuvre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'insecte est un invertébré (il n'a pas d'os).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le squelette extérieur rigide des insectes ?",
+      "options": [
+        "Une colonne vertébrale",
+        "Une carapace / un exosquelette",
+        "De la peau",
+        "Des plumes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le {{1}} est un caractère commun aux oiseaux.",
+      "reponsesAttendues": [
+        "bec",
+        "plume"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le dauphin est classé dans les poissons.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le caractère commun aux mammifères ?",
+      "options": [
+        "Ils pondent des oeufs",
+        "Ils allaitent leurs petits",
+        "Ils ont des écailles",
+        "Ils n'ont pas de tête"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Classer les animaux aide à comprendre l'évolution de la vie.",
+      "reponse": true
+    }
+  ]
+}

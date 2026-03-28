@@ -1,0 +1,90 @@
+{
+  "id": "quiz25",
+  "titre": "Mythes / Fondat.",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est considéré comme le fondateur légendaire de Rome ?",
+      "options": [
+        "Romulus",
+        "Remus",
+        "Énée",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Rome aurait été fondée en 753 av. J.-C. sur le Mont Palatin.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La louve qui a allaité les jumeaux s'appelle la Lupa {{1}}.",
+      "reponsesAttendues": ["Capitolina"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel peuple Rome a-t-elle 'enlevé' pour assurer sa descendance ?",
+      "options": [
+        "Les Sabines",
+        "Les Étrusques",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Énée est arrivé en Italie après avoir fui Troie, faisant de lui l'ancêtre des Romains.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel était le dernier des sept rois de Rome ?",
+      "options": [
+        "Tarquin le Superbe",
+        "Numa Pompilius",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La République est instaurée en {{1}} av. J.-C. après l'expulsion des rois.",
+      "reponsesAttendues": ["509"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les mythes romains sont souvent utilisés à des fins de propagande politique.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel héros romain a défendu le pont Sublicius seul contre les Étrusques ?",
+      "options": [
+        "Horatius Coclès",
+        "Scévola",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le mythe de Rome est celui d'une éternité (Roma Aeterna).",
+      "reponse": true
+    }
+  ]
+}

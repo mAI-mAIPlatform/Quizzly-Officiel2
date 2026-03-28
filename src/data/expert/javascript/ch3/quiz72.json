@@ -1,0 +1,95 @@
+{
+  "id": "quiz72",
+  "titre": "JavaScript Expert : Programmation Réactive avec RxJS",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le concept central de RxJS pour gérer les flux de données asynchrones ?",
+      "options": [
+        "L'Observable",
+        "La Promise",
+        "Le Callback",
+        "Le Thread"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un Observable est 'lazy' (paresseux) : il ne commence à émettre des données qu'au moment de la souscription (`subscribe`).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les `{{1}}` sont des fonctions pures qui permettent de transformer, filtrer ou combiner des flux (ex: map, filter, merge).",
+      "reponsesAttendues": [
+        "opérateurs",
+        "operateurs"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre un Observable froid (Cold) et un Observable chaud (Hot) ?",
+      "options": [
+        "Le Cold produit ses données à chaque souscription, le Hot partage le même flux",
+        "Le Hot est plus rapide",
+        "Le Cold est asynchrone, le Hot est synchrone",
+        "Il n'y a pas de différence dans RxJS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un 'Subject' dans RxJS est à la fois un Observable et un Observer.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel opérateur permet de transformer une valeur en un nouvel Observable puis d'aplatir le résultat ?",
+      "options": [
+        "switchMap",
+        "map",
+        "flatMap",
+        "concat"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Backpressure) désigne le problème où un producteur envoie des données trop vite pour le consommateur.",
+      "reponsesAttendues": [
+        "Backpressure"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "RxJS implémente le pattern 'Observer' combiné au pattern 'Iterator'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel type de Subject garde en mémoire la dernière valeur émise pour les nouveaux abonnés ?",
+      "options": [
+        "BehaviorSubject",
+        "ReplaySubject",
+        "AsyncSubject",
+        "NormalSubject"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il est impératif d''unsubscribe' des Observables infinis pour éviter les fuites de mémoire.",
+      "reponse": true
+    }
+  ]
+}

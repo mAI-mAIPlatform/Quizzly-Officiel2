@@ -3,5 +3,26 @@
   "titre": "Grec",
   "niveau": "Expert",
   "description": "Découvre et maîtrise tout le programme de Grec au niveau Expert !",
-  "chapitres": []
+  "chapitres": [
+    {
+      "id": "ch1",
+      "titre": "Grammaire Avancée",
+      "description": "Cas, système verbal et syntaxe complexe."
+    },
+    {
+      "id": "ch2",
+      "titre": "Littérature Classique",
+      "description": "Homère, tragédie et comédie."
+    },
+    {
+      "id": "ch3",
+      "titre": "Philosophie et Histoire",
+      "description": "Présocratiques, Platon et Thucydide."
+    },
+    {
+      "id": "ch4",
+      "titre": "Évolution de la Langue",
+      "description": "De l'ancien au moderne."
+    }
+  ]
 }

@@ -1,0 +1,90 @@
+{
+  "id": "quiz1",
+  "titre": "Structure HTML5 et Doctype",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la déclaration correcte du Doctype en HTML5 ?",
+      "options": [
+        "<!DOCTYPE html>",
+        "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\">",
+        "<doctype html5>",
+        "<html>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Doctype HTML5 est sensible à la casse.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} de la balise <html> est crucial pour l'accessibilité et le SEO.",
+      "reponsesAttendues": ["lang"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Où doit se trouver la balise <meta charset='UTF-8'> ?",
+      "options": [
+        "Au tout début de la section <head>",
+        "À la fin de <body>",
+        "N'importe où dans <html>",
+        "Dans le fichier CSS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La balise <base> définit l'URL de base pour tous les liens relatifs d'une page.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel de ces éléments n'est pas autorisé dans le <head> ?",
+      "options": [
+        "<h1>",
+        "<title>",
+        "<link>",
+        "<script>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La balise {{1}} est obligatoire dans le <head> pour définir le titre de l'onglet.",
+      "reponsesAttendues": ["title"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "HTML5 autorise l'omission de certaines balises de structure comme <html> ou <body>, bien que ce soit déconseillé.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle balise enveloppe tout le contenu visible d'une page ?",
+      "options": [
+        "<body>",
+        "<main>",
+        "<content>",
+        "<html>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le mode 'Quirks' est activé si le Doctype est manquant ou incorrect.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz14",
+  "titre": "Néo-réalisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel roman marque la naissance du Néo-réalisme portugais en 1939 ?",
+      "options": [
+        "Gaibéus (de Alves Redol)",
+        "Gente de Terceira",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Néo-réalisme visait à dénoncer les conditions de vie précaires des paysans et des ouvriers sous la dictature.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'auteur incontournable du Néo-réalisme est Alves {{1}}.",
+      "reponsesAttendues": ["Redol"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel était le but social de ce mouvement ?",
+      "options": [
+        "L'engagement politique et le changement de la société",
+        "L'art pour l'art",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le mouvement était fortement influencé par le matérialisme dialectique et le réalisme soviétique.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui a écrit 'Casa na Duna' ?",
+      "options": [
+        "Carlos de Oliveira",
+        "Miguel Torga",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Soeiro {{1}} est une autre figure majeure du mouvement (auteur de 'Esteiros').",
+      "reponsesAttendues": ["Pereira Gomes"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Néo-réalisme ne s'exprimait que par le roman.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle région du Portugal est souvent le décor de ces romans ?",
+      "options": [
+        "Ribatejo et Alentejo (latifundios)",
+        "L'Algarve touristique",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Beaucoup d'auteurs néo-réalistes ont été censurés ou emprisonnés par la police politique (PIDE).",
+      "reponse": true
+    }
+  ]
+}

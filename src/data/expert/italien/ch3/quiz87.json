@@ -1,0 +1,94 @@
+{
+  "id": "quiz87",
+  "titre": "Italien Expert : L'Italie dans la Seconde Guerre Mondiale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel pacte d'alliance militaire a uni l'Italie et l'Allemagne en mai 1939 ?",
+      "options": [
+        "Le Pacte d'Acier",
+        "L'Axe Rome-Berlin",
+        "Le Pacte Anti-Komintern",
+        "Le Pacte de Munich"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Italie est entrée en guerre dès septembre 1939.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Grand Conseil du Fascisme) a voté la destitution de Mussolini le 25 juillet 1943.",
+      "reponsesAttendues": [
+        "Grand Conseil du Fascisme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Où l'Italie a-t-elle mené une 'guerre parallèle' désastreuse ?",
+      "options": [
+        "En Grèce et en Afrique du Nord",
+        "En Norvège",
+        "Au Japon",
+        "Aux États-Unis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Après sa chute, l'Italie a signé un armistice avec les Alliés le 8 septembre 1943.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel maréchal a succédé à Mussolini comme chef du gouvernement en 1943 ?",
+      "options": [
+        "Pietro Badoglio",
+        "Italo Balbo",
+        "Rodolfo Graziani",
+        "Galeazzo Ciano"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La République Sociale Italienne (RSI), ou République de `{{1}}` (Salo), était l'État fantoche créé par Mussolini au nord après sa libération par les Allemands.",
+      "reponsesAttendues": [
+        "Salo"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'Italie a été envahie par les Alliés en commençant par la Sicile (Opération Husky).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle ligne défensive allemande a longtemps bloqué la progression alliée vers Rome ?",
+      "options": [
+        "Ligne Gustave (Monte Cassino)",
+        "Ligne Gothique",
+        "Ligne Maginot",
+        "Ligne Siegfried"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Rome a été libérée par les Alliés en juin 1944.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz13",
+  "titre": "Mode et Design",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle ville est considérée comme la capitale mondiale de la mode ?",
+      "options": [
+        "Milan (Milano)",
+        "Rome",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'Made in Italy' est synonyme de qualité, d'élégance et de savoir-faire artisanal.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Giorgio {{1}} (Armani) est l'un des stylistes italiens les plus influents au monde.",
+      "reponsesAttendues": ["Armani"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle marque célèbre utilise l'emblème de la Méduse ?",
+      "options": [
+        "Versace",
+        "Prada",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'Italie est aussi leader mondiale dans le domaine du design de mobilier et industriel.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel salon milanais est l'événement mondial de référence pour le design ?",
+      "options": [
+        "Salone del Mobile",
+        "Fashion Week uniquement",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La marque {{1}} (Ferrari) symbolise l'excellence du design automobile de luxe.",
+      "reponsesAttendues": ["Ferrari"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le secteur créatif représente une part majeure du PIB italien.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel mouvement artistique du futur influença beaucoup le design italien moderne ?",
+      "options": [
+        "Le Futurisme",
+        "Le Baroque",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "De grandes maisons comme Gucci, Prada et Dolce & Gabbana sont des icônes globales.",
+      "reponse": true
+    }
+  ]
+}

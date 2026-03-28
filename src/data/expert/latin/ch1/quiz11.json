@@ -1,0 +1,94 @@
+{
+  "id": "quiz11",
+  "titre": "Syntaxe : L'Ablatif absolu",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un ablatif absolu ?",
+      "options": [
+        "Une proposition participiale isolée syntaxiquement de la principale",
+        "Un cas de déclinaison purifié",
+        "Un complément d'objet direct",
+        "Une exclamation à l'ablatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'ablatif absolu se compose au minimum d'un nom (ou pronom) et d'un participe, tous deux à l'ablatif.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans 'Urbe capta, hostes fugerunt', le participe 'capta' est au participe `{{1}}` passif.",
+      "reponsesAttendues": [
+        "parfait"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle nuance peut exprimer l'ablatif absolu ?",
+      "options": [
+        "Temps, Cause, Concession ou Condition",
+        "Uniquement le lieu",
+        "Uniquement la manière",
+        "Uniquement la possession"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le sujet de l'ablatif absolu peut aussi être le sujet de la proposition principale.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se traduit 'Caesare duce' ?",
+      "options": [
+        "Sous la conduite de César (César étant chef)",
+        "César conduit",
+        "Avec le chef de César",
+        "Pour le chef César"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'ablatif absolu avec un participe présent (ex: Caesare dicente) exprime la `{{1}}`.",
+      "reponsesAttendues": [
+        "simultanéité"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut avoir un ablatif absolu sans participe (ex: deux noms ou nom + adjectif).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la traduction la plus précise de 'Regibus expulsis, Roma libera fuit' ?",
+      "options": [
+        "Une fois les rois chassés, Rome fut libre",
+        "Les rois chassent Rome",
+        "Rome chasse les rois libres",
+        "Parce que Rome est libre, les rois sont chassés"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'ablatif absolu est une structure rare dans la littérature latine.",
+      "reponse": false
+    }
+  ]
+}

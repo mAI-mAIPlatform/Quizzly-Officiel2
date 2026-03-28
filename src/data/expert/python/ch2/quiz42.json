@@ -1,0 +1,94 @@
+{
+  "id": "quiz42",
+  "titre": "Python Expert : __new__ vs __init__",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la différence fondamentale entre `__new__` et `__init__` ?",
+      "options": [
+        "__new__ crée l'instance (constructeur), __init__ l'initialise (initialiseur)",
+        "__new__ est pour les classes, __init__ pour les fonctions",
+        "Il n'y a aucune différence",
+        "__init__ est appelé avant __new__"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "__new__ est une méthode statique (même si elle n'est pas décorée explicitement avec @staticmethod).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La méthode `__new__` doit impérativement retourner une `{{1}}` de la classe.",
+      "reponsesAttendues": [
+        "instance"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Dans quel cas est-il indispensable de redéfinir `__new__` ?",
+      "options": [
+        "Pour hériter d'un type immuable (ex: str, int, tuple) ou pour implémenter un Singleton",
+        "Pour ajouter un attribut simple",
+        "Pour imprimer du texte",
+        "Pour faire une boucle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Si __new__ ne retourne pas une instance de la classe demandée, __init__ ne sera pas appelé.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est le premier argument de `__new__` ?",
+      "options": [
+        "cls (la classe elle-même)",
+        "self (l'instance)",
+        "args (les arguments)",
+        "type"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour implémenter un Singleton, on stocke l'instance dans un attribut de `{{1}}` et on la retourne dans __new__.",
+      "reponsesAttendues": [
+        "classe"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "__init__ peut retourner une valeur autre que None.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Où se trouve l'implémentation par défaut de __new__ ?",
+      "options": [
+        "object.__new__",
+        "type.__new__",
+        "base.__new__",
+        "Il n'y en a pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On utilise super().__new__(cls) pour appeler le mécanisme de création de la classe parente.",
+      "reponse": true
+    }
+  ]
+}

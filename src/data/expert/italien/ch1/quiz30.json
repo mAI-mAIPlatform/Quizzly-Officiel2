@@ -1,0 +1,94 @@
+{
+  "id": "quiz30",
+  "titre": "Revisione Finale : Italien Expert (Capitolo 1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Cosa significa 'farcela' ?",
+      "options": [
+        "Riuscire",
+        "Fare",
+        "Andare",
+        "Dire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Manzoni scrisse I Promessi Sposi.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Il passato remoto di 'essere' (io) è `{{1}}`.",
+      "reponsesAttendues": [
+        "fui"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Chi è la musa di Dante ?",
+      "options": [
+        "Beatrice",
+        "Laura",
+        "Lucia",
+        "Fiammetta"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Il congiuntivo si usa dopo 'penso che'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Cosa significa 'anzi' ?",
+      "options": [
+        "Au contraire",
+        "Avant",
+        "Après",
+        "Donc"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'iperbole è un'`{{1}}`.",
+      "reponsesAttendues": [
+        "esagerazione"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il si impersonale richiede l'ausiliare avere.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qual è l'accrescitivo di 'libro' ?",
+      "options": [
+        "librone",
+        "libretto",
+        "libraccio",
+        "librino"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il gerundio presente di 'amare' è 'amando'.",
+      "reponse": true
+    }
+  ]
+}

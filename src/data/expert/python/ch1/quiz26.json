@@ -1,0 +1,94 @@
+{
+  "id": "quiz26",
+  "titre": "Algorithmique : Opérateurs Bitwise",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le résultat de '5 & 3' (ET binaire) ?",
+      "options": [
+        "1",
+        "5",
+        "3",
+        "7"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En Python, les entiers ont une précision arbitraire, mais les opérations bitwise s'effectuent sur le binaire complément à 2.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'opérateur du OU exclusif (XOR) est le symbole `{{1}}`.",
+      "reponsesAttendues": [
+        "^"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "A quoi équivaut l'opération 'x << 1' ?",
+      "options": [
+        "Multiplier x par 2",
+        "Diviser x par 2",
+        "Inverser les bits de x",
+        "Mettre x au carré"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'opérateur '~' (NOT) de x retourne -(x+1).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment vérifier si le n-ième bit d'un nombre (x) est à 1 ?",
+      "options": [
+        "(x >> n) & 1",
+        "x & n",
+        "x ^ n",
+        "bin(x)[n] == 1"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'opération `x {{1}} 1` (décalage à droite) équivaut à une division entière par 2.",
+      "reponsesAttendues": [
+        ">>"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les opérations bit à bit sont plus rapides que les opérations arithmétiques pour certaines tâches de bas niveau.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le masque binaire pour isoler les 4 derniers bits d'un nombre ?",
+      "options": [
+        "0b1111 (15)",
+        "0b1000",
+        "0b0001",
+        "0b1010"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Python supporte le décalage de bit vers la gauche sans risquer de débordement de capacité (overflow) de l'entier.",
+      "reponse": true
+    }
+  ]
+}

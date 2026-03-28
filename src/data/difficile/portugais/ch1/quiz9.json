@@ -1,0 +1,90 @@
+{
+  "id": "quiz9",
+  "titre": "Conjonctions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle conjonction exprime la concession ?",
+      "options": [
+        "Embora (bien que)",
+        "Visto que (vu que)",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Todavia' et 'Contudo' sont des synonymes de 'Mas' (Mais/Cependant).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La conjonction exprimant la condition est '{{1}}' (si).",
+      "reponsesAttendues": ["se"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle expression introduit une explication ?",
+      "options": [
+        "Ou seja",
+        "No entanto",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La locution 'Visto que' est toujours suivie du subjonctif.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel exprime la finalité ?",
+      "options": [
+        "A fim de que",
+        "Porquanto",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La conjonction '{{1}}' signifie 'Puisque' ou 'Comme'.",
+      "reponsesAttendues": ["já que", "como"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Caso' (au cas où) demande l'usage du subjonctif.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel exprime la conséquence ?",
+      "options": [
+        "De modo que",
+        "Posto que",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La maîtrise des connecteurs logiques permet de structurer un argumentaire complexe.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz48",
+  "titre": "Musique Expert : Les Génies Russes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel compositeur russe du XIXe siècle est l'auteur des ballets 'Le Lac des Cygnes' et 'Casse-Noisette' ?",
+      "options": [
+        "Piotr Ilitch Tchaïkovski",
+        "Sergueï Rachmaninov",
+        "Modeste Moussorgski",
+        "Nikolaï Rimski-Korsakov"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Igor Stravinski a connu trois périodes : russe (ballets), néoclassique et sérielle.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dmitri `{{1}}` a dû composer sous la menace constante du régime stalinien (Symphonies de guerre).",
+      "reponsesAttendues": [
+        "Chostakovitch"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel de ces compositeurs était aussi l'un des plus grands pianistes du XXe siècle ?",
+      "options": [
+        "Sergueï Rachmaninov",
+        "Alexandre Scriabine",
+        "Igor Stravinski",
+        "Dmitri Chostakovitch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Sergueï Prokofiev a composé le célèbre conte musical 'Pierre et le Loup'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle œuvre monumental de Moussorgski évoque une épopée historique russe ?",
+      "options": [
+        "Boris Godounov",
+        "La Khovanchtchina",
+        "Une nuit sur le mont Chauve",
+        "Tableaux d'une exposition"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Alexandre `{{1}}` a développé un système philosophique et musical basé sur le 'Mystère' et la théosophie.",
+      "reponsesAttendues": [
+        "Scriabine"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Rimski-Korsakov était le maître de l'orchestration au sein des 'Cinq'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel de ces ballets de Stravinski a provoqué une émeute lors de sa création en 1913 ?",
+      "options": [
+        "Le Sacre du Printemps",
+        "L'Oiseau de Feu",
+        "Petrouchka",
+        "Noces"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La musique russe se caractérise souvent par une grande richesse mélodique et une force orchestrale.",
+      "reponse": true
+    }
+  ]
+}

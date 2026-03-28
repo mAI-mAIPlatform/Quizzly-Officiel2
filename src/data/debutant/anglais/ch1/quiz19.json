@@ -1,0 +1,94 @@
+{
+  "id": "quiz19",
+  "titre": "Clothes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'un t-shirt' ?",
+      "options": [
+        "A shirt",
+        "A t-shirt",
+        "A coat",
+        "A dress"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Shoes' signifie chaussures.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un chapeau se dit a {{1}}.",
+      "reponsesAttendues": [
+        "hat"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'un pantalon' ?",
+      "options": [
+        "Trowsers",
+        "Trousers",
+        "Pants",
+        "Toutes ces réponses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'A dress' est une robe.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'une jupe' ?",
+      "options": [
+        "A shirt",
+        "A skirt",
+        "A sock",
+        "A shoe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les chaussettes se disent {{1}}.",
+      "reponsesAttendues": [
+        "socks"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'A coat' est un manteau.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel vêtement mets-tu quand il fait très froid ?",
+      "options": [
+        "A t-shirt",
+        "A jumper / A sweater",
+        "Shorts",
+        "A swimsuit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "'Clothes' se prononce presque comme 'close'.",
+      "reponse": true
+    }
+  ]
+}

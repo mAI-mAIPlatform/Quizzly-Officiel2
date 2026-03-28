@@ -1,0 +1,95 @@
+{
+  "id": "quiz18",
+  "titre": "Contractes en -εω (ποιέω)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que donne la contraction ε + ε ?",
+      "options": [
+        "ει",
+        "η",
+        "ε",
+        "ι"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "ε + ο donne ου.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La forme contractée de 'ποιέω' est {{1}}.",
+      "reponsesAttendues": [
+        "ποιῶ"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la 3ème personne du singulier de 'ποιῶ' ?",
+      "options": [
+        "ποιεῖ",
+        "ποιῇ",
+        "ποιᾷ",
+        "ποιει"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "ε disparait devant une voyelle longue ou une diphtongue.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se contracte 'ποιέομεν' ?",
+      "options": [
+        "ποιοῦμεν",
+        "ποιῶμεν",
+        "ποιεῖμεν",
+        "ποιέμεν"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le 'epsilon' s'allonge en {{1}} pour former le futur 'ποιήσω'.",
+      "reponsesAttendues": [
+        "η",
+        "eta"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "ποι-έ-ουσι devient ποιοῦσι.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'φιλέω' ?",
+      "options": [
+        "Aimer",
+        "Faire",
+        "Dire",
+        "Habiter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les verbes en -εω sont les plus nombreux des verbes contractes.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz56",
+  "titre": "Grec Expert : Xénophon et l'Action",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est l'oeuvre la plus célèbre de Xénophon ?",
+      "options": [
+        "L'Anabase (La montée)",
+        "Les Helléniques",
+        "Le Banquet",
+        "De l'Équitation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Anabase raconte la retraite de 10 000 mercenaires grecs à travers l'empire perse.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le cri célèbre des soldats apercevant la mer est '`{{1}} ! Thalatta !`'.",
+      "reponsesAttendues": [
+        "Thalatta"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "De qui Xénophon fut-il le disciple ?",
+      "options": [
+        "Socrate",
+        "Platon",
+        "Aristote",
+        "Périclès"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Xénophon était un grand admirateur des institutions de Sparte.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment caractérise-t-on le style de Xénophon ?",
+      "options": [
+        "Simple, limpide et narratif (le 'claireur' de la langue grecque)",
+        "Complexe et obscur comme Thucydide",
+        "Poétique et lyrique",
+        "Vulgaires et violent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Xénophon a poursuivi l'histoire de la Grèce là où Thucydide l'avait arrêtée dans ses '`{{1}}`'.",
+      "reponsesAttendues": [
+        "Helléniques"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Xénophon a écrit une 'Cyropédie' (éducation de Cyrus) qui est une biographie romancée.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la particularité politique de Xénophon par rapport à Platon ?",
+      "options": [
+        "Il s'intéresse plus à la pratique, à l'éducation militaire et à l'économie",
+        "Il veut instaurer une démocratie mondiale",
+        "Il est contre l'éducation des jeunes",
+        "Il ne jure que par la poésie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Xénophon est mort en exil d'Athènes.",
+      "reponse": true
+    }
+  ]
+}

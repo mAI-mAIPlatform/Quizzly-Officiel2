@@ -1,0 +1,94 @@
+{
+  "id": "quiz110",
+  "titre": "Révision : Web du Futur et Performance (Chapitre 4 - HTML Expert)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Isolation du style ?",
+      "options": [
+        "Shadow DOM",
+        "HTML Import",
+        "Iframe",
+        "CSS Module"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "WebGPU succède à WebGL.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Surveillance DOM : `{{1}}` (Mutation Observer).",
+      "reponsesAttendues": [
+        "Mutation Observer"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Unité conteneur ?",
+      "options": [
+        "cqw",
+        "vw",
+        "px",
+        "%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "LCP = Core Web Vital.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Slot nommé ?",
+      "options": [
+        "name='abc'",
+        "id='abc'",
+        "type='abc'",
+        "slug='abc'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Calcul GPU : `{{1}}` (Shader).",
+      "reponsesAttendues": [
+        "Shader"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "subgrid = grille partagée.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "ARIA label ?",
+      "options": [
+        "aria-label",
+        "label-aria",
+        "text-label",
+        "alt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Canvas 2D = Bitmap.",
+      "reponse": true
+    }
+  ]
+}

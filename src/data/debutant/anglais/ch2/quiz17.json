@@ -1,0 +1,94 @@
+{
+  "id": "quiz17",
+  "titre": "At Work (The Office)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'le bureau' (la pièce) ?",
+      "options": [
+        "the office",
+        "the desk",
+        "the chair",
+        "the room"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Desk' est le meuble bureau.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le collègue se dit '{{1}}' (colleague).",
+      "reponsesAttendues": [
+        "colleague"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'meeting' ?",
+      "options": [
+        "Réunion",
+        "Pause",
+        "Travail",
+        "Salaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Boss' signifie le patron.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'ordinateur' ?",
+      "options": [
+        "computer",
+        "screen",
+        "keyboard",
+        "mouse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'e-mail se dit '{{1}}' (email).",
+      "reponsesAttendues": [
+        "email"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'To call' signifie appeler (au téléphone).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'to work from home' ?",
+      "options": [
+        "Travailler de la maison / Télétravailler",
+        "Rentrer du travail",
+        "Chercher du travail",
+        "Quitter son travail"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": " 'Job' signifie un emploi / un travail.",
+      "reponse": true
+    }
+  ]
+}

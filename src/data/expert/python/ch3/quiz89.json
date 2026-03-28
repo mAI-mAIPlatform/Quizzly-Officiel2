@@ -1,0 +1,96 @@
+{
+  "id": "quiz89",
+  "titre": "Python Expert : Profiling et Optimisation des Performances",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel module de la bibliothèque standard est utilisé pour le profilage déterministe des programmes Python ?",
+      "options": [
+        "cProfile",
+        "timeit",
+        "profile",
+        "pstats"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le module `timeit` est plus approprié pour mesurer de petits morceaux de code que pour profiler une application entière.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un `{{1}}` (Flame Graph) est une représentation visuelle des données de profilage permettant d'identifier rapidement les fonctions les plus gourmandes.",
+      "reponsesAttendues": [
+        "Flame Graph",
+        "Graphe de flammes"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel outil tiers permet un profilage ligne par ligne (line-by-line profiling) ?",
+      "options": [
+        "line_profiler",
+        "py-spy",
+        "vprof",
+        "scalene"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le profilage 'statistique' (comme avec py-spy) a un impact moindre sur les performances de l'application que le profilage déterministe.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle technique consiste à stocker les résultats de fonctions coûteuses pour éviter de les recalculer ?",
+      "options": [
+        "La mémoïsation (Mémoïzation)",
+        "Le Garbage Collection",
+        "Le JIT",
+        "Le Lazy Loading"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le décorateur `{{1}}` (lru_cache) du module functools simplifie l'implémentation de la mémoïsation.",
+      "reponsesAttendues": [
+        "lru_cache",
+        "functools.lru_cache"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Optimiser le code avant d'avoir identifié les goulots d'étranglement par le profilage est une bonne pratique.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel outil permet de mesurer précisément la consommation de mémoire ligne par ligne ?",
+      "options": [
+        "memory_profiler",
+        "tracemalloc",
+        "objgraph",
+        "guppy3"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'interpréteur 'PyPy' peut accélérer considérablement l'exécution de code Python pur grâce à sa compilation JIT.",
+      "reponse": true
+    }
+  ]
+}

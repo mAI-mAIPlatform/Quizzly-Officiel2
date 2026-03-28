@@ -1,0 +1,94 @@
+{
+  "id": "quiz98",
+  "titre": "Latin Expert : Le Droit Romain (Ius Romanum)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le premier recueil de lois écrites à Rome (vers 450 av. J.-C.) ?",
+      "options": [
+        "La Loi des Douze Tables",
+        "Le Code Justinien",
+        "Les Institutes",
+        "Le Digeste"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le droit romain est à la base de nombreux systèmes juridiques modernes en Europe.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'empereur `{{1}}` (Justinien) a fait compiler au VIe siècle le Corpus Iuris Civilis.",
+      "reponsesAttendues": [
+        "Justinien"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le droit s'appliquant aux citoyens romains par opposition aux étrangers ?",
+      "options": [
+        "Ius civile",
+        "Ius gentium",
+        "Ius naturale",
+        "Ius scriptum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le 'Digeste' (ou Pandectes) est une compilation d'avis de jurisconsultes romains célèbres.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle magistrature romaine était spécifiquement chargée de dire le droit et de publier des édits ?",
+      "options": [
+        "Le Préteur",
+        "Le Consul",
+        "Le Tribun",
+        "Le Questeur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La maxime juridique `{{1}}` (Dura lex sed lex) signifie : La loi est dure, mais c'est la loi.",
+      "reponsesAttendues": [
+        "Dura lex sed lex"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "À Rome, le 'Pater Familias' possédait un pouvoir quasi absolu (patria potestas) sur sa famille.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel ouvrage de base servait à l'enseignement du droit, rédigé notamment par Gaius ?",
+      "options": [
+        "Les Institutes",
+        "Le Code",
+        "Les Novelles",
+        "Les Sentences"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le droit romain distinguait nettement la propriété (dominium) de la possession simple.",
+      "reponse": true
+    }
+  ]
+}

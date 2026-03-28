@@ -1,0 +1,94 @@
+{
+  "id": "quiz42",
+  "titre": "Culture Générale Expert : Démographie et Urbanisation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la population mondiale approximative en 2024 ?",
+      "options": [
+        "8 milliards",
+        "7 milliards",
+        "10 milliards",
+        "9 milliards"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Inde est devenue le pays le plus peuplé du monde, dépassant la Chine.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La transition `{{1}}` est le passage d'un régime de forte natalité/mortalité à un régime de faible natalité/mortalité.",
+      "reponsesAttendues": [
+        "démographique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on une ville de plus de 10 millions d'habitants ?",
+      "options": [
+        "Une mégapole",
+        "Une métropole",
+        "Une mégalopole",
+        "Une cité-état"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Plus de la moitié de la population mondiale vit aujourd'hui en ville.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel pays a l'un des indices de fécondité les plus bas au monde ?",
+      "options": [
+        "La Corée du Sud",
+        "Le Nigeria",
+        "Les USA",
+        "La France"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` rural désigne le départ définitif des populations des campagnes vers les villes.",
+      "reponsesAttendues": [
+        "exode"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La 'Mégalopolis' désigne la vaste région urbaine du Nord-Est des États-Unis (Boston à Washington).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle région du monde connaît la croissance démographique la plus rapide actuellement ?",
+      "options": [
+        "L'Afrique Subsaharienne",
+        "L'Europe",
+        "L'Amérique Latine",
+        "L'Asie de l'Est"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'espérance de vie à la naissance est un indicateur de développement.",
+      "reponse": true
+    }
+  ]
+}

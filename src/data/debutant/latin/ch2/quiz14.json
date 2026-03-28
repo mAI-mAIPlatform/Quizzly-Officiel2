@@ -1,0 +1,94 @@
+{
+  "id": "quiz14",
+  "titre": "La Maison (Domus / Villa)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'la maison' (citadine) ?",
+      "options": [
+        "domus",
+        "villa",
+        "casa",
+        "taberna"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Villa' désigne souvent une grande maison à la campagne.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le jardin se dit '{{1}}' (hortus).",
+      "reponsesAttendues": [
+        "hortus"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'atrium' ?",
+      "options": [
+        "La pièce centrale à ciel ouvert",
+        "La chambre",
+        "La cuisine",
+        "La cave"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Culina' signifie la cuisine.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'la chambre' ?",
+      "options": [
+        "cubiculum",
+        "triclinium",
+        "tablinum",
+        "peristylium"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La salle à manger se dit '{{1}}' (triclinium).",
+      "reponsesAttendues": [
+        "triclinium"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Janua' est la porte d'entrée.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'peristylium' ?",
+      "options": [
+        "Une cour entourée de colonnes",
+        "Un bureau",
+        "Un toit",
+        "Un escalier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les riches Romains avaient des mosaïques au sol.",
+      "reponse": true
+    }
+  ]
+}

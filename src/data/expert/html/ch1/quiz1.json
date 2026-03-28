@@ -1,0 +1,94 @@
+{
+  "id": "quiz1",
+  "titre": "Sémantique HTML5 Avancée",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la principale différence entre <article> et <section> ?",
+      "options": [
+        "<article> est autonome et peut être distribué indépendamment",
+        "<section> est plus sémantique qu'<article>",
+        "<article> ne peut pas contenir de titres",
+        "Il n'y a aucune différence technique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La balise <main> peut apparaître plusieurs fois dans un même document HTML.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise {{1}} est utilisée pour représenter du contenu tangentiel ou lié indirectement au contenu principal.",
+      "reponsesAttendues": [
+        "aside"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel élément définit un ensemble de liens de navigation ?",
+      "options": [
+        "<nav>",
+        "<menu>",
+        "<ul>",
+        "<header>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La balise <figure> ne peut contenir que des images.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "A quoi sert la balise <time> ?",
+      "options": [
+        "A représenter une date ou une heure interprétable par une machine",
+        "A afficher un chronomètre",
+        "A mesurer le temps de chargement de la page",
+        "A styliser l'horloge système"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'élément {{1}} permet d'ajouter une légende à un contenu groupé dans une balise <figure>.",
+      "reponsesAttendues": [
+        "figcaption"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La sémantique HTML5 améliore nativement le référencement naturel (SEO).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le rôle de la balise <header> ?",
+      "options": [
+        "Conteneur pour des aides à la navigation ou des introductions",
+        "Balise obligatoire en haut de page",
+        "Remplaçant du <head>",
+        "Uniquement pour le logo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser <section> uniquement comme un conteneur de style (div générique).",
+      "reponse": false
+    }
+  ]
+}

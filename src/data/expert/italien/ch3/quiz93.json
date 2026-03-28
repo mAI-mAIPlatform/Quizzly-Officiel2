@@ -1,0 +1,94 @@
+{
+  "id": "quiz93",
+  "titre": "Italien Expert : Famille et Démographie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel phénomène démographique majeur caractérise l'Italie actuelle ?",
+      "options": [
+        "L'un des taux de natalité les plus bas au monde",
+        "Une explosion démographique",
+        "Une immigration massive de retour vers le sud",
+        "Une population extrêmement jeune"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Italie possède l'une des espérances de vie les plus élevées au monde.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le terme `{{1}}` (mammismo) désigne l'attachement excessif des fils italiens à leur mère, influençant la structure sociale.",
+      "reponsesAttendues": [
+        "mammismo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on les jeunes qui vivent longtemps chez leurs parents par contrainte économique ou choix ?",
+      "options": [
+        "Bamboccioni",
+        "Ragazzi",
+        "Vichinghi",
+        "Eremiti"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La famille reste l'institution centrale et le principal filet de sécurité sociale en Italie.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle ville italienne a le plus fort pourcentage de personnes âgées par rapport aux jeunes ?",
+      "options": [
+        "Genova (Gênes)",
+        "Napoli",
+        "Palermo",
+        "Bari"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Mezzogiorno) continue de souffrir d'un exode des jeunes vers le nord du pays ou l'étranger.",
+      "reponsesAttendues": [
+        "Mezzogiorno"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le divorce est légal en Italie depuis 1970.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le pourcentage approximatif de la population italienne âgée de plus de 65 ans ?",
+      "options": [
+        "Plus de 20%",
+        "Moins de 10%",
+        "Environ 50%",
+        "15%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'Italie a instauré le mariage pour tous (mariage civil entre personnes de même sexe) en 2016.",
+      "reponse": false
+    }
+  ]
+}

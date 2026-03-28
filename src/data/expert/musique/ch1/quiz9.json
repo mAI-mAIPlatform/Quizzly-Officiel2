@@ -1,0 +1,94 @@
+{
+  "id": "quiz9",
+  "titre": "Théorie : Orchestration et Timbre",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel instrument de la famille des bois utilise une anche double ?",
+      "options": [
+        "Le hautbois",
+        "La clarinette",
+        "La flûte traversière",
+        "Le saxophone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le cor est un instrument à vent de la famille des cuivres.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'instrument à cordes le plus grave de l'orchestre symphonique est la `{{1}}`.",
+      "reponsesAttendues": [
+        "contrebasse"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le timbre d'un instrument ?",
+      "options": [
+        "La 'couleur' sonore qui permet de le distinguer d'un autre à même hauteur",
+        "Le prix de l'instrument",
+        "La durée de résonance",
+        "Le volume maximum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les timbales sont des instruments à percussion à hauteur déterminée (accordables).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel compositeur est l'auteur du célèbre 'Traité d'instrumentation et d'orchestration' (1844) ?",
+      "options": [
+        "Hector Berlioz",
+        "Richard Wagner",
+        "Maurice Ravel",
+        "Claude Debussy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Dans l'orchestre classique, les premiers violons sont dirigés par le `{{1}}` d'attaque.",
+      "reponsesAttendues": [
+        "chef"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'orchestre baroque était beaucoup plus petit que l'orchestre romantique.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la tessiture habituelle d'un Alto (instrument à cordes) ?",
+      "options": [
+        "Entre le violon et le violoncelle",
+        "Plus aigu que le violon",
+        "Plus grave que la contrebasse",
+        "Identique au violon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le piccolo est la plus petite des flûtes.",
+      "reponse": true
+    }
+  ]
+}

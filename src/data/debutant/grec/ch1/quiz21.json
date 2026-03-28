@@ -1,0 +1,94 @@
+{
+  "id": "quiz21",
+  "titre": "Partie 3 : Vocabulaire de la Cité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'ἡ πόλις' ?",
+      "options": [
+        "La ville/cité",
+        "La police",
+        "La politique",
+        "Le port"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'agora (ἡ ἀγορά) est la place publique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le peuple se dit ὁ {{1}}.",
+      "reponsesAttendues": [
+        "δῆμος"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'le citoyen' ?",
+      "options": [
+        "ὁ πολίτης",
+        "ὁ τύραννος",
+        "ὁ νόμος",
+        "ὁ βασιλεύς"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La loi se dit 'ὁ νόmos'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'ἡ ἐκκλησία' ?",
+      "options": [
+        "L'assemblée",
+        "L'église (sens moderne)",
+        "Le temple",
+        "La maison"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le roi se dit ὁ {{1}}.",
+      "reponsesAttendues": [
+        "βασιλεύς"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Une démocratie est le pouvoir (kratos) du peuple (demos).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment se lit 'ὁ στρατηγός' ?",
+      "options": [
+        "Le général",
+        "Le soldat",
+        "Le marin",
+        "Le juge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'Acropole est la ville haute.",
+      "reponse": true
+    }
+  ]
+}

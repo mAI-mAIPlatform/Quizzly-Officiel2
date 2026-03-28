@@ -1,0 +1,94 @@
+{
+  "id": "quiz30",
+  "titre": "Grand Quiz Final : Variables et Types",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces valeurs est 'truthy' ?",
+      "options": [
+        "[] (un tableau vide)",
+        "0",
+        "'' (chaîne vide)",
+        "null"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le type d'un tableau est 'object'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La méthode JSON.{{1}}() crée une chaîne de caractères.",
+      "reponsesAttendues": [
+        "stringify"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle méthode enlève le DERNIER élément d'un tableau ?",
+      "options": [
+        "pop()",
+        "push()",
+        "shift()",
+        "unshift()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "JavaScript est un langage à typage dynamique (le type peut changer).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment arrondir à l'entier inférieur ?",
+      "options": [
+        "Math.floor()",
+        "Math.ceil()",
+        "Math.round()",
+        "Math.abs()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'opérateur {{1}} (3 symboles) vérifie l'égalité stricte.",
+      "reponsesAttendues": [
+        "==="
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On accède au premier caractère d'une string avec index 1.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que renvoie typeof null ?",
+      "options": [
+        "object",
+        "null",
+        "undefined",
+        "string"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Félicitations ! Tu as terminé les bases des données en JS !",
+      "reponse": true
+    }
+  ]
+}

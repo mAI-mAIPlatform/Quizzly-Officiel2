@@ -1,0 +1,94 @@
+{
+  "id": "quiz25",
+  "titre": "Sciences et racines",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'ὁ κύκλος' ?",
+      "options": [
+        "Le cercle",
+        "Le carré",
+        "Le triangle",
+        "La ligne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Bio-' signifie 'vie'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'étude de la terre est la {{1}} (gê + logos).",
+      "reponsesAttendues": [
+        "géologie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'micro' (μικρός) ?",
+      "options": [
+        "Petit",
+        "Grand",
+        "Moyen",
+        "Invisible"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Mega' (μέγας) signifie 'grand'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces racines signifie 'son' ?",
+      "options": [
+        "phoné (φωνή)",
+        "logos",
+        "grapho",
+        "nomos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'écriture se dit ἡ {{1}}.",
+      "reponsesAttendues": [
+        "γραφή"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Poly' (πολύς) signifie 'plusieurs'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'télé' (τῆλε) ?",
+      "options": [
+        "Loin",
+        "Proche",
+        "Rapide",
+        "Électrique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La plupart des termes médicaux ont des racines grecques.",
+      "reponse": true
+    }
+  ]
+}

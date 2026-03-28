@@ -1,0 +1,94 @@
+{
+  "id": "quiz2",
+  "titre": "Salutations et Courtoisie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Bonjour' (le matin) ?",
+      "options": [
+        "Buonasera",
+        "Buongiorno",
+        "Ciao",
+        "Salve"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Ciao' peut signifier à la fois 'Salut' et 'Au revoir'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour dire 'S'il vous plaît', on dit 'Per {{1}}'.",
+      "reponsesAttendues": [
+        "favore"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Merci beaucoup' ?",
+      "options": [
+        "Prego",
+        "Grazie mille",
+        "Scusa",
+        "Per favore"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Prego' est la réponse classique à 'Grazie' (De rien).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment salue-t-on le soir ?",
+      "options": [
+        "Buongiorno",
+        "Buonasera",
+        "Buonanotte",
+        "Salve"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour dire 'Au revoir' (formel), on dit '{{1}}'.",
+      "reponsesAttendues": [
+        "Arrivederci"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Salve' est une salutation neutre, utilisable presque partout.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'A presto' ?",
+      "options": [
+        "À demain",
+        "À bientôt",
+        "À plus tard",
+        "Adieu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "'Scusa' s'utilise pour s'excuser auprès d'un ami.",
+      "reponse": true
+    }
+  ]
+}

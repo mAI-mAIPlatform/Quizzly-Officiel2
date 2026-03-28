@@ -1,0 +1,94 @@
+{
+  "id": "quiz27",
+  "titre": "La Météo",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Il fait beau' ?",
+      "options": [
+        "Está bom tempo",
+        "Está sol",
+        "Les deux sont corrects",
+        "Chove muito"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Está a chover' signifie 'Il est en train de pleuvoir'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le 'Soleil' se dit 'O {{1}}'.",
+      "reponsesAttendues": [
+        "sol"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'Está frio' ?",
+      "options": [
+        "Il fait chaud",
+        "Il fait froid",
+        "Il y a du vent",
+        "Il neige"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Faz calor' signifie 'Il fait chaud'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Le ciel' ?",
+      "options": [
+        "O céu",
+        "A nuvem",
+        "O vento",
+        "A chuva"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Un 'Nuage' se dit 'Uma {{1}}'.",
+      "reponsesAttendues": [
+        "nuvem"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Neve' signifie 'Neige'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'Há muito vento' ?",
+      "options": [
+        "Il y a beaucoup de vent",
+        "Il fait très beau",
+        "Le ciel est bleu",
+        "Il va pleuvoir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La météo utilise souvent le verbe 'Estar' ou 'Fazer'.",
+      "reponse": true
+    }
+  ]
+}

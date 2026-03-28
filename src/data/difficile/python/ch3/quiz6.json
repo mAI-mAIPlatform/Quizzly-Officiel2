@@ -1,0 +1,90 @@
+{
+  "id": "quiz6",
+  "titre": "POO : Properties & Encapsulation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert le décorateur @property ?",
+      "options": [
+        "À rendre un attribut public",
+        "À transformer une méthode en un attribut 'calculé' (accessible sans parenthèses)",
+        "À supprimer une méthode",
+        "À décorer une classe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le setter (@nom.setter) permet de contrôler la modification d'un attribut (validation).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les getters et setters permettent de respecter le principe d'{{1}}.",
+      "reponsesAttendues": ["encapsulation"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser @property plutôt que des méthodes get_x() et set_x() ?",
+      "options": [
+        "C'est plus rapide",
+        "C'est plus 'Pythonique' et permet de garder une API propre (accès via notation pointée)",
+        "C'est obligatoire en Python 3",
+        "Ça n'a pas d'intérêt"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut créer un attribut en lecture seule en ne définissant que la @property sans setter.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel décorateur permet de gérer la suppression d'une propriété ?",
+      "options": [
+        "@nom.deleter",
+        "@nom.remove",
+        "@nom.clear",
+        "@property.del"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "En Python, l'encapsulation repose sur la convention et la confiance (on n'empêche pas techniquement l'accès aux membres {{1}}).",
+      "reponsesAttendues": ["privés", "private"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'attribut __nom est inaccessible de l'extérieur sans ruse (Name Mangling).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le but des 'Descriptors' en Python ?",
+      "options": [
+        "Décrire le code",
+        "Personnaliser l'accès aux attributs de façon très fine (ex: logic for attribute lookup)",
+        "Trier les objets",
+        "Rien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les propriétés permettent d'ajouter de la logique à un attribut sans casser l'interface existante.",
+      "reponse": true
+    }
+  ]
+}

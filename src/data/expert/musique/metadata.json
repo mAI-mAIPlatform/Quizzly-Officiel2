@@ -2,6 +2,30 @@
   "id": "musique",
   "titre": "Education Musicale",
   "niveau": "Expert",
-  "description": "Découvre et maîtrise tout le programme de Education Musicale au niveau Expert !",
-  "chapitres": []
+  "description": "Théorie musicale avancée, analyse d'œuvres et histoire de la musique.",
+  "chapitres": [
+    {
+      "id": "ch1",
+      "titre": "Harmonie et Théorie Avancée",
+      "description": "Analyse harmonique et contrepoint."
+    },
+    {
+      "id": "ch2",
+      "titre": "Histoire de la Musique (Expert)",
+      "lecons": ["Musique Contemporaine", "Opéra et Mise en scène", "Grandes époques"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch3",
+      "titre": "Organologie et Acoustique",
+      "lecons": ["Physique du son", "Facture instrumentale", "L'orchestre moderne"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch4",
+      "titre": "Esthétique et Critique",
+      "lecons": ["Philosophie de la musique", "Grands compositeurs", "Interprétation"],
+      "quizCount": 30
+    }
+  ]
 }

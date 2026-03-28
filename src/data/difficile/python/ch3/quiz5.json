@@ -1,0 +1,90 @@
+{
+  "id": "quiz5",
+  "titre": "POO : Polymorphisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le polymorphisme en POO ?",
+      "options": [
+        "Le fait de changer de forme physique",
+        "La capacité d'utiliser une même interface pour des objets de types différents",
+        "Une erreur de type",
+        "Le tri de plusieurs listes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'Duck Typing' est une forme de polymorphisme (Si ça marche comme un canard, c'est un canard).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "En Python, on n'a pas besoin de déclarer des {{1}} pour appliquer le polymorphisme (contrairement au Java).",
+      "reponsesAttendues": ["interfaces"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi le polymorphisme est-il utile ?",
+      "options": [
+        "Pour ralentir le code",
+        "Pour écrire du code générique qui fonctionne avec n'importe quel objet possédant les méthodes requises",
+        "Pour masquer les bugs",
+        "C'est inutile"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'opérateur + est polymorphe (addition de nombres, concaténation de listes).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel est un exemple de polymorphisme ?",
+      "options": [
+        "Appeler la méthode .rouler() sur une instance de Voiture ou de Moto",
+        "Utiliser une boucle for",
+        "Définir une variable",
+        "Importer un module"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le polymorphisme permet d'appliquer le principe 'Ouvert/Fermé' (Open/{{1}} Principle).",
+      "reponsesAttendues": ["Closed", "Fermé"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'héritage est la seule façon de faire du polymorphisme en Python.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que permet le module ABC (Abstract Base Classes) ?",
+      "options": [
+        "D'apprendre l'alphabet",
+        "De définir des classes abstraites qui forcent les classes filles à implémenter certaines méthodes",
+        "De trier des listes",
+        "De créer des interfaces graphiques"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le polymorphisme facilite l'extensibilité des programmes.",
+      "reponse": true
+    }
+  ]
+}

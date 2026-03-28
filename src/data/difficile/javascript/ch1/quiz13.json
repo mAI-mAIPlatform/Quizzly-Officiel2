@@ -1,0 +1,90 @@
+{
+  "id": "quiz13",
+  "titre": "Hoisting : Classes et Constantes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces éléments n'est PAS hoisté (non accessible avant sa ligne de code) ?",
+      "options": [
+        "var",
+        "function declaration",
+        "class declaration",
+        "aucune"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les classes déclarées avec 'class' se comportent comme 'let' concernant le hoisting.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Accéder à une classe avant sa déclaration lève une {{1}}.",
+      "reponsesAttendues": ["ReferenceError"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi JS hoiste-t-il les fonctions mais pas les classes ?",
+      "options": [
+        "Pour des raisons de performance",
+        "Pour éviter les problèmes de dépendance circulaire complexe",
+        "C'est un oubli des spécifications",
+        "Pour forcer le mode strict"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un 'import' est hoisté (exécuté avant le reste du fichier).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'affiche : console.log(x); const x = 5; ?",
+      "options": [
+        "5",
+        "undefined",
+        "ReferenceError",
+        "null"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La règle du hoisting s'applique au sein de chaque {{1}} d'exécution.",
+      "reponsesAttendues": ["contexte", "context"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le hoisting permet de définir des fonctions qui s'appellent mutuellement (récursion mutuelle).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est hoisté mais 'masqué' par la TDZ ?",
+      "options": [
+        "let",
+        "var",
+        "function",
+        "argument"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut désactiver le hoisting via un flag dans Node.js.",
+      "reponse": false
+    }
+  ]
+}

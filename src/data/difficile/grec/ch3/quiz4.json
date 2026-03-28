@@ -1,0 +1,90 @@
+{
+  "id": "quiz4",
+  "titre": "Réformes de Clisthène",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est l'innovation majeure de Clisthène en 508 av. J.-C. ?",
+      "options": [
+        "Le découpage d'Athènes en 10 tribus basées sur le territoire (les dèmes) et non sur le sang",
+        "La construction d'un nouveau mur",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L' 'isonomie' signifie l'égalité de tous les citoyens devant la loi.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Chaque tribu est composée de trois parties appelées {{1}} (Ville, Côte, Intérieur) pour assurer le brassage social.",
+      "reponsesAttendues": ["trittyes"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel mécanisme a été créé par Clisthène pour éloigner les individus jugés dangereux pour la démocratie ?",
+      "options": [
+        "L'ostracisme",
+        "La prison",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'ostracisme consistait à envoyer quelqu'un en exil pour 10 ans sans perte de biens.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Combien de citoyens composaient la nouvelle Boulè (Conseil) créée par Clisthène ?",
+      "options": [
+        "500 (50 par tribu)",
+        "100",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'unité administrative de base de ce système est le {{1}}.",
+      "reponsesAttendues": ["dème"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Clisthène a appartenu à la puissante famille des Alcméonides.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Le système de Clisthène visait à briser :",
+      "options": [
+        "Le pouvoir des clans aristocratiques locaux",
+        "Les navires ennemis",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Clisthène est considéré comme le véritable fondateur de la démocratie athénienne.",
+      "reponse": true
+    }
+  ]
+}

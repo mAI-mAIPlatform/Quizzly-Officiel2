@@ -1,0 +1,94 @@
+{
+  "id": "quiz28",
+  "titre": "Outils du Musicien",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel outil donne une pulsation régulière pour garder le tempo ?",
+      "options": [
+        "Le diapason",
+        "Le métronome",
+        "L'accordeur",
+        "La sourdine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le diapason sert à donner une note de référence pour s'accorder.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La note de référence du diapason classique est le '{{1}}' (440 Hz).",
+      "reponsesAttendues": [
+        "La"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quoi sert un pupitre ?",
+      "options": [
+        "À s'asseoir",
+        "À poser ses partitions pour les lire",
+        "À ranger ses gants",
+        "À porter l'instrument"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un accordeur électronique aide à vérifier si les notes sont justes.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une sourdine ?",
+      "options": [
+        "Un instrument qui ne fait pas de bruit",
+        "Un accessoire pour réduire le volume sonore ou changer le timbre",
+        "Un musicien qui n'entend pas",
+        "Une partition sans notes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'outil mécanique (ou numérique) qui fait 'Tic-Tac' s'appelle le {{1}}.",
+      "reponsesAttendues": [
+        "métronome"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser un métronome pour travailler des passages difficiles lentement.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le produit que les violonistes frottent sur leur archet ?",
+      "options": [
+        "La colophane",
+        "De l'huile",
+        "Du savon",
+        "De la colle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le musicien doit prendre soin de ses outils pour bien jouer.",
+      "reponse": true
+    }
+  ]
+}

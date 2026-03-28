@@ -1,0 +1,90 @@
+{
+  "id": "quiz19",
+  "titre": "Noms Grecs en Latin",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment se déclinent les noms de personnes d'origine grecque (ex: Aeneas) ?",
+      "options": [
+        "Ils suivent souvent la déclinaison grecque adaptée (nom. en -as, acc. en -an)",
+        "Comme des noms latins classiques",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le nom 'Socrate' (Socrates) suit généralement la 3ème déclinaison.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'accusatif grec se termine souvent par {{1}} (ex: Pallada).",
+      "reponsesAttendues": ["-a"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Génitif singulier pour les noms en -es (ex: Achillés) ?",
+      "options": [
+        "-i ou -is",
+        "-arum",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les noms féminins en -o (ex: Echo, Dido) peuvent avoir un génitif en -us.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Vocatif de noms en -as ?",
+      "options": [
+        "-a (ex: Aenea)",
+        "-e",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le nom de la déesse '{{1}}' (Pallas) a un accusatif grecs en -ada.",
+      "reponsesAttendues": ["Pallas"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La poésie latine conserve beaucoup plus de formes grecques que la prose.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Accusatif de 'Pan' ?",
+      "options": [
+        "Pana",
+        "Panem",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'influence du grec est énorme sur la culture et la langue savante de Rome.",
+      "reponse": true
+    }
+  ]
+}

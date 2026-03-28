@@ -1,0 +1,94 @@
+{
+  "id": "quiz7",
+  "titre": "Littérature : Les Classiques (1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a écrit 'Le Petit Prince' ?",
+      "options": [
+        "Antoine de Saint-Exupéry",
+        "Victor Hugo",
+        "Molière",
+        "Jules Verne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Victor Hugo est l'auteur de 'Les Misérables'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le célèbre auteur de pièces de théâtre comme 'Le Bourgeois gentilhomme' est {{1}} (Molière).",
+      "reponsesAttendues": [
+        "Molière"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui a écrit 'Les Trois Mousquetaires' ?",
+      "options": [
+        "Alexandre Dumas",
+        "Gustave Flaubert",
+        "Émile Zola",
+        "Charles Baudelaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Jean de La Fontaine est célèbre pour ses 'Fables'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lalquel de ces livres a été écrit par Jules Verne ?",
+      "options": [
+        "Vingt mille lieues sous les mers",
+        "Germinal",
+        "Madame Bovary",
+        "L'Étranger"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le nom du célèbre détective créé par Arthur Conan Doyle est Sherlock {{1}} (Holmes).",
+      "reponsesAttendues": [
+        "Holmes"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "William Shakespeare est un écrivain anglais.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qui a écrit 'Cendrillon' et 'Le Petit Chaperon rouge' ?",
+      "options": [
+        "Charles Perrault",
+        "Les frères Grimm",
+        "Hans Christian Andersen",
+        "La Fontaine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": " 'L'Avare' est une tragédie de Molière.",
+      "reponse": false
+    }
+  ]
+}

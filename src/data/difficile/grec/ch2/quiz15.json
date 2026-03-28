@@ -1,0 +1,90 @@
+{
+  "id": "quiz15",
+  "titre": "Xénophon",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel récit de Xénophon raconte la retraite des Dix-Mille à travers la Perse ?",
+      "options": [
+        "L'Anabase",
+        "L'Économique",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les 'Helléniques' de Xénophon sont la suite directe de l'histoire de Thucydide.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le célèbre cri des soldats grecs apercevant la mer dans l'Anabase est '{{1}} ! {{1}} !'.",
+      "reponsesAttendues": ["Thalatta"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Xénophon était un disciple de :",
+      "options": [
+        "Socrate",
+        "Platon",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Xénophon avait une grande admiration pour le modèle politique de Sparte.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel ouvrage de Xénophon traite de l'éducation du parfait souverain ?",
+      "options": [
+        "La Cyropédie",
+        "Le Banquet",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Dans l'{{1}}, il discute de la gestion d'un domaine agricole et de la famille.",
+      "reponsesAttendues": ["Économique"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le style de Xénophon est réputé pour sa clarté, sa simplicité et son élégance (l'Abeille Attique).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Pourquoi Xénophon a-t-il été banni d'Athènes ?",
+      "options": [
+        "Pour son engagement aux côtés des Spartiates et de Cyrus le Jeune",
+        "Pour vol",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Xénophon est le premier auteur grec dont tous les ouvrages nous sont parvenus.",
+      "reponse": true
+    }
+  ]
+}

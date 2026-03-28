@@ -1,0 +1,95 @@
+{
+  "id": "quiz41",
+  "titre": "Latin Expert : Système Casuel Avancé",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'datif de double but' ?",
+      "options": [
+        "L'emploi de deux datifs : un datif d'effet (but) et un datif d'intérêt (personne)",
+        "Un datif utilisé deux fois dans la phrase",
+        "Un datif qui remplace l'accusatif",
+        "Une erreur de recopie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le génitif de prix (ex: magni) s'utilise avec des verbes d'estimation ou d'achat.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le génitif de `{{1}}` (ex: proditionis accusare) indique la faute dont on accuse quelqu'un.",
+      "reponsesAttendues": [
+        "crime",
+        "crimen"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel cas exprime la 'qualité' d'une personne (ex: un homme d'un grand courage) ?",
+      "options": [
+        "Génitif ou Ablatif",
+        "Accusatif uniquement",
+        "Datif",
+        "Nominatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'accusatif de 'relation' (ou grec) précise la partie du corps touchée (ex: nuda genu).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Exemplo est' (dans un double datif)",
+      "options": [
+        "Cela sert d'exemple",
+        "C'est d'après l'exemple",
+        "L'exemple est là",
+        "Par exemple"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` d'attribution (ou d'intérêt) indique la personne pour qui l'action est faite.",
+      "reponsesAttendues": [
+        "datif"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'ablatif de 'moyen' s'emploie toujours avec la préposition 'cum'.",
+      "reponse : false (On utilise 'cum' pour l'accompagnement ou la manière avec adjectif, mais pas pour le moyen pur)"
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel cas suit le verbe 'utor' (utiliser) ?",
+      "options": [
+        "Ablatif",
+        "Accusatif",
+        "Génitif",
+        "Datif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le 'génitif partitif' indique le tout dont on prend une partie (ex: multi militum).",
+      "reponse": true
+    }
+  ]
+}

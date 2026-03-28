@@ -1,0 +1,95 @@
+{
+  "id": "quiz92",
+  "titre": "Culture Générale Expert : Géopolitique de la Guerre Froide",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle expression a été utilisée par Winston Churchill en 1946 pour décrire la division de l'Europe ?",
+      "options": [
+        "Le rideau de fer",
+        "Le mur de la honte",
+        "Le fossé idéologique",
+        "La zone de silence"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le plan Marshall était un programme américain d'aide économique pour la reconstruction de l'Europe.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le pacte de `{{1}}` (Varsovie) était l'alliance militaire des pays du bloc de l'Est sous l'égide de l'URSS.",
+      "reponsesAttendues": [
+        "Varsovie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel événement de 1962 a failli mener le monde à une guerre nucléaire ?",
+      "options": [
+        "La crise des missiles de Cuba",
+        "Le blocus de Berlin",
+        "La guerre de Corée",
+        "L'invasion de l'Afghanistan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La chute du mur de Berlin a eu lieu le 9 novembre 1989.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui était le dirigeant de l'URSS lors de la mise en place de la Perestroïka et de la Glasnost ?",
+      "options": [
+        "Mikhaïl Gorbatchev",
+        "Léonid Brejnev",
+        "Nikita Khrouchtchev",
+        "Vladimir Poutine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La doctrine de l'`{{1}}` (Endiguement / Containment) visait à stopper l'expansion du communisme.",
+      "reponsesAttendues": [
+        "Endiguement",
+        "Containment"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'OTAN a été créée après la chute de l'URSS.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel pays s'est séparé de l'URSS en 1991, marquant la fin officielle de l'Union ?",
+      "options": [
+        "Tous les pays membres (RSFS de Russie, Ukraine, etc.)",
+        "Seulement l'Allemagne",
+        "L'Autriche",
+        "La Pologne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La conférence de Yalta (1945) a jeté les bases du partage de l'influence en Europe.",
+      "reponse": true
+    }
+  ]
+}

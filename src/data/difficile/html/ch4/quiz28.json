@@ -1,0 +1,90 @@
+{
+  "id": "quiz28",
+  "titre": "Synergies SEO/A11y",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi SEO et Accessibilité vont-ils souvent de pair ?",
+      "options": [
+        "Parce que les bots de Google 'parcourent' le site de manière similaire à un lecteur d'écran (code sémantique)",
+        "C'est un hasard",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un attribut alt bien rempli aide à la fois les aveugles et le SEO d'image.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La structure des {{1}} (H1, H2...) est le pilier commun le plus fort entre SEO et A11y.",
+      "reponsesAttendues": ["titres", "headings"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Impact de la vitesse (Core Web Vitals) ?",
+      "options": [
+        "Un site rapide est plus accessible (inclusion bas débit) et mieux classé par Google",
+        "Aucun",
+        "Négatif",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les liens du type 'Cliquez ici' sont mauvais pour le SEO ET pour l'accessibilité.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Pourquoi ?",
+      "options": [
+        "Ils manquent de contexte sémantique pour les deux (ne disent pas où mène le lien)",
+        "C'est long",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les {{1}} miettes de pain (Breadcrumbs) aident la navigation et le balisage structuré Google.",
+      "reponsesAttendues": ["fils d'Ariane"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'accessibilité est un facteur de ranking indirect (via le taux de rebond et l'engagement).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Le sitemap XML est utile pour :",
+      "options": [
+        "L'indexation par les moteurs (SEO)",
+        "La navigation clavier",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Investir dans l'accessibilité est l'une des meilleures stratégies SEO à long terme.",
+      "reponse": true
+    }
+  ]
+}

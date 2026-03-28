@@ -1,0 +1,90 @@
+{
+  "id": "quiz19",
+  "titre": "Épicurisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le but suprême de la vie pour Épicure ?",
+      "options": [
+        "L'ataraxie (absence de trouble de l'âme) et l'aponie (absence de douleur du corps)",
+        "Le plaisir charnel effréné",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'école fondée par Épicure à Athènes s'appelait 'le Jardin'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La règle de vie épicurienne se résume au '{{1}}' (quadruple remède).",
+      "reponsesAttendues": ["tétrapharmakos"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que dit Épicure à propos de la mort ?",
+      "options": [
+        "Elle n'est rien pour nous (quand nous sommes, elle n'est pas ; quand elle est, nous ne sommes plus)",
+        "Il faut la craindre par-dessus tout",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Épicure était un atomiste (disciple de Démocrite) qui a introduit la notion de 'clinamen'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Pour les épicuriens, les dieux :",
+      "options": [
+        "Existent mais ne s'occupent absolument pas des hommes",
+        "Nous punissent sans cesse",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La maxime 'Vivre {{1}}' (lathe biōsas) est un pilier de la sagesse épicurienne.",
+      "reponsesAttendues": ["caché"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'épicurisme prône la participation active à la vie politique.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la hiérarchie des désirs selon Épicure ?",
+      "options": [
+        "Naturels et nécessaires / Naturels non nécessaires / Non naturels et non nécessaires",
+        "Tout se vaut",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le poète latin Lucrèce a exposé la philosophie d'Épicure dans son poème 'De rerum natura'.",
+      "reponse": true
+    }
+  ]
+}

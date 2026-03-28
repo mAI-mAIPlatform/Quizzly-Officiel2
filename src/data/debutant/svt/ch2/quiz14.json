@@ -1,0 +1,96 @@
+{
+  "id": "quiz14",
+  "titre": "Les Fruits et le Transport des Graines",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où se trouvent les graines en général ?",
+      "options": [
+        "Dans les feuilles",
+        "À l'intérieur des fruits",
+        "Sur la tige",
+        "Dans la terre directement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le fruit protège les graines.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Certaines graines voyagent grâce au {{1}} (comme le pissenlit).",
+      "reponsesAttendues": [
+        "vent"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment les animaux aident-ils à transporter les graines ?",
+      "options": [
+        "En les mangeant (elles ressortent dans les crottes)",
+        "En les accrochant à leurs poils",
+        "En les cachant pour l'hiver",
+        "Toutes ces réponses sont vraies"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'eau ne peut pas transporter les graines.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces graines possède des 'ailes' pour voler ?",
+      "options": [
+        "La noix",
+        "La graine d'érable (samare)",
+        "Le grain de riz",
+        "La lentille"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La {{1}} (fruit) tombe de l'arbre et la graine peut germer à côté.",
+      "reponsesAttendues": [
+        "pomme",
+        "poire",
+        "cerise"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Voyager permet aux plantes de coloniser de nouveaux endroits.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Laquelle de ces graines s'accroche aux vêtements ?",
+      "options": [
+        "La bardane",
+        "Le blé",
+        "Le maïs",
+        "Le petit pois"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Toutes les plantes produisent des fruits charnus (comme la pêche).",
+      "reponse": false
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz31",
+  "titre": "HTML Expert : Canvas API",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment récupérer le contexte de dessin en 2D pour un élément <canvas> ?",
+      "options": [
+        "canvas.getContext('2d')",
+        "canvas.get2DContext()",
+        "canvas.drawContext('2d')",
+        "canvas.setup('2d')"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Canvas est un mode de dessin immédiat (pixel par pixel) qui ne conserve pas la trace des objets après le dessin.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La méthode pour dessiner un rectangle plein est `{{1}}`.",
+      "reponsesAttendues": [
+        "fillRect"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle propriété définit la couleur de remplissage ?",
+      "options": [
+        "fillStyle",
+        "color",
+        "backgroundColor",
+        "fillColor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Il est possible d'exporter le contenu d'un Canvas en image via la méthode toDataURL().",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment commencer un nouveau chemin (path) ?",
+      "options": [
+        "beginPath()",
+        "newPath()",
+        "startPath()",
+        "closePath()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour dessiner un arc de cercle, on utilise la méthode `{{1}}`.",
+      "reponsesAttendues": [
+        "arc"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Canvas traite le texte comme des formes vectorielles éditables directement dans le DOM.",
+        "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet d'effacer une zone du Canvas ?",
+      "options": [
+        "clearRect()",
+        "deleteRect()",
+        "removeRect()",
+        "erase()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'API Canvas supporte les transformations comme scale(), rotate() et translate().",
+      "reponse": true
+    }
+  ]
+}

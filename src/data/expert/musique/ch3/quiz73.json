@@ -1,0 +1,93 @@
+{
+  "id": "quiz73",
+  "titre": "Musique Expert : Igor Stravinsky et le Sacre du Rythme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle œuvre de Stravinsky a provoqué un scandale historique lors de sa création à Paris en 1913 en raison de sa violence rythmique ?",
+      "options": [
+        "Le Sacre du Printemps",
+        "L'Oiseau de Feu",
+        "Petrouchka",
+        "L'Histoire du Soldat"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Stravinsky a exploré plusieurs styles durant sa carrière : russe, néoclassique et sériel.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les `{{1}}` (Ballets Russes) de Serge Diaghilev ont été le tremplin des premiers chefs-d'œuvre de Stravinsky.",
+      "reponsesAttendues": [
+        "Ballets Russes"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle caractéristique rythmique est omniprésente dans 'Le Sacre du Printemps' ?",
+      "options": [
+        "La polyrythmie et les accents irréguliers (asymétrie)",
+        "Le rythme de valse",
+        "Le silence prolongé",
+        "Le métronome strict"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Pulcinella' marque le début de la période néoclassique de Stravinsky, s'inspirant de la musique du XVIIIe siècle.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel opéra, avec un texte de W.H. Auden, est le sommet de sa période néoclassique ?",
+      "options": [
+        "The Rake's Progress (Le Libertin)",
+        "Oedipus Rex",
+        "Noces",
+        "Perséphone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'`{{1}}` (Oiseau de Feu) fut le premier grand succès international de Stravinsky.",
+      "reponsesAttendues": [
+        "Oiseau de Feu"
+      ]
+    },
+    {
+      "id": "vrai_faux",
+      "enonce": "Stravinsky utilisait souvent des aggrégats sonores (clusters) et des superpositions de tonalités (polytonalité).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle œuvre tardive de Stravinsky utilise la technique sérielle ?",
+      "options": [
+        "Threni",
+        "Symphonie des Psaumes",
+        "Apollon Musagète",
+        "Ebony Concerto"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Stravinsky considérait que la musique, par son essence, était 'impuissante à exprimer quoi que ce soit'.",
+      "reponse": true
+    }
+  ]
+}

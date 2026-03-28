@@ -1,0 +1,90 @@
+{
+  "id": "quiz29",
+  "titre": "ABC approfondies",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre ABC et les Mixins ?",
+      "options": [
+        "ABC définit un contrat ; Mixin fournit une implémentation partagée",
+        "C'est la même chose",
+        "ABC est plus rapide",
+        "Mixin est obligatoire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut empêcher une sous-classe d'être instanciée si elle n'implémente pas les méthodes abstraites.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour enregistrer une classe comme 'fille' d'une ABC sans héritage explicite, on utilise MaABC.{{1}}(MaClasse).",
+      "reponsesAttendues": ["register"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quoi sert @abstractproperty (obsolète mais utile historiquement) ?",
+      "options": [
+        "À forcer l'implémentation d'une propriété",
+        "À masquer un attribut",
+        "À trier",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "@abstractmethod peut être combiné avec @classmethod.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel n'est pas une ABC standard du module collections.abc ?",
+      "options": [
+        "Mapping",
+        "Sequence",
+        "ArrayList",
+        "Set"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Une classe abstraite ne peut pas posséder de constructeur {{1}}.",
+      "reponsesAttendues": ["__init__"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les ABC permettent d'implémenter des interfaces robustes en Python.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la valeur de __abstractmethods__ sur une classe concrète ?",
+      "options": [
+        "Un ensemble (set) vide",
+        "None",
+        "Error",
+        "True"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation d'ABC permet d'améliorer la documentation et la fiabilité du code.",
+      "reponse": true
+    }
+  ]
+}

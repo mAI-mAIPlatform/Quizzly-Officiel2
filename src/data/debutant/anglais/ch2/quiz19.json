@@ -1,0 +1,94 @@
+{
+  "id": "quiz19",
+  "titre": "Prepositions of Place (Where is it?)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'dans' ?",
+      "options": [
+        "in",
+        "on",
+        "under",
+        "top"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'On' signifie sur (au-dessus et en contact).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Sous se dit '{{1}}' (under).",
+      "reponsesAttendues": [
+        "under"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'behind' ?",
+      "options": [
+        "Derrière",
+        "Devant",
+        "À côté de",
+        "Entre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'In front of' signifie devant.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'entre' ?",
+      "options": [
+        "between",
+        "among",
+        "next to",
+        "across"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "À côté de se dit '{{1}}' (next to).",
+      "reponsesAttendues": [
+        "next to"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Above' signifie au-dessus (sans contact).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'the cat is under the table' ?",
+      "options": [
+        "Le chat est sous la table",
+        "Le chat est sur la table",
+        "Le chat est dans la table",
+        "Le chat est derrière la table"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": " 'Opposite' signifie en face de.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "quiz26",
+  "titre": "Les Familles de Mots",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une famille de mots ?",
+      "options": [
+        "Des mots qui riment",
+        "Des mots formés à partir du même radical et ayant un sens proche",
+        "Des mots qui s'écrivent pareil",
+        "Les noms des membres d'une famille"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Dent', 'dentiste' et 'dentifrice' font partie de la même famille.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans la famille de 'terre', on trouve le mot {{1}} (un habitant d'une autre planète).",
+      "reponsesAttendues": [
+        "terrestre",
+        "extraterrestre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel mot n'appartient pas à la famille de 'lait' ?",
+      "options": [
+        "laitage",
+        "laiterie",
+        "laiteux",
+        "laitue"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Chant', 'chanter' et 'chanteur' font partie de la même famille.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Trouve un mot de la famille de 'fleur' :",
+      "options": [
+        "fleuve",
+        "fleuriste",
+        "flèche",
+        "flaque"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le mot de la famille de 'mer' qui désigne un soldat sur un bateau est un {{1}}.",
+      "reponsesAttendues": [
+        "marin"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le radical est la partie commune à tous les mots d'une même famille.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel de ces mots appartient à la famille de 'voir' ?",
+      "options": [
+        "voiture",
+        "vision",
+        "voix",
+        "voile"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Connaître les familles de mots aide à comprendre le sens des nouveaux mots.",
+      "reponse": true
+    }
+  ]
+}

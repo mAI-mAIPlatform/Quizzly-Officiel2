@@ -1,0 +1,94 @@
+{
+  "id": "quiz26",
+  "titre": "The House",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'une maison' ?",
+      "options": [
+        "A flat",
+        "A house",
+        "A room",
+        "A garden"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Garden' signifie jardin.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La cuisine se dit the {{1}}.",
+      "reponsesAttendues": [
+        "kitchen"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'la chambre' ?",
+      "options": [
+        "Living room",
+        "Bathroom",
+        "Bedroom",
+        "Kitchen"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Bathroom' est la salle de bain.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Où regardes-tu la télé d'habitude ?",
+      "options": [
+        "In the kitchen",
+        "In the living room",
+        "In the bathroom",
+        "In the garage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Une porte se dit a {{1}}.",
+      "reponsesAttendues": [
+        "door"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Window' signifie porte.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'le toit' ?",
+      "options": [
+        "The wall",
+        "The floor",
+        "The roof",
+        "The door"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "'Home' est un mot chaleureux pour dire 'maison/chez-soi'.",
+      "reponse": true
+    }
+  ]
+}

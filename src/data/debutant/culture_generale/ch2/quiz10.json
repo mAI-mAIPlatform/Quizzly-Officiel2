@@ -1,0 +1,95 @@
+{
+  "id": "quiz10",
+  "titre": "La Terre et l'Espace",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le mouvement de la Terre sur elle-même ?",
+      "options": [
+        "La révolution",
+        "La rotation",
+        "La vibration",
+        "Le saut"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Terre met 365 jours pour faire le tour du Soleil.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La force qui nous retient au sol s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "gravité",
+        "pesanteur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui a été le premier homme à marcher sur la Lune ?",
+      "options": [
+        "Thomas Pesquet",
+        "Neil Armstrong",
+        "Yuri Gagarine",
+        "Buzz l'Éclair"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Il n'y a pas d'air dans l'espace.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment s'appelle le vêtement spécial des astronautes ?",
+      "options": [
+        "Un smoking",
+        "Un scaphandre spatial",
+        "Un pyjama",
+        "Une armure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La Terre est surnommée la planète {{1}} à cause de ses océans.",
+      "reponsesAttendues": [
+        "bleue"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La Voie Lactée est le nom de notre galaxie.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel instrument permet d'observer les étoiles de très loin ?",
+      "options": [
+        "Le microscope",
+        "Le télescope",
+        "La loupe",
+        "Les lunettes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La Terre est la seule planète connue qui abrite la vie.",
+      "reponse": true
+    }
+  ]
+}

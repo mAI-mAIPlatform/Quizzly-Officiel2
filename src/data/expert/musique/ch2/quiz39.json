@@ -1,0 +1,95 @@
+{
+  "id": "quiz39",
+  "titre": "Musique Expert : Lecture de Partitions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle clé est utilisée pour les voix d'alto et les instruments moyennement graves comme le trombone ?",
+      "options": [
+        "Clé d'Ut (3ème ou 4ème ligne)",
+        "Clé de Sol",
+        "Clé de Fa",
+        "Clé de tête"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les instruments 'transpositeurs' (Clarinette en Sib, Cor en Fa) écrivent une note différente de celle qui est entendue.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une `{{1}}` est un petit signe placé au-dessus ou en-dessous du personnel pour indiquer une note hors portée.",
+      "reponsesAttendues": [
+        "ligne supplémentaire",
+        "ligne"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie l'armure (ou armature) à la clé ?",
+      "options": [
+        "L'ensemble des altérations (dièses ou bémols) qui définissent la tonalité du morceau",
+        "Le nom du compositeur",
+        "Le prix de la partition",
+        "Le nombre d'instruments"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le signe '8va' (ottava alta) indique de jouer la partition une octave plus haut que ce qui est écrit.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une double barre de mesure ?",
+      "options": [
+        "Indique un changement de section, de tonalité ou la fin du morceau",
+        "Indique d'arrêter de jouer",
+        "Sers à décorer",
+        "Indique de jouer deux fois plus vite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (point de prolongation) augmente la valeur d'une note de sa moitié.",
+      "reponsesAttendues": [
+        "point"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le double dièse augmente la note de deux demi-tons (soit un ton entier).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un point d'orgue ?",
+      "options": [
+        "Un signe de suspension qui prolonge la durée d'une note selon le goût de l'interprète",
+        "Le début d'une fugue",
+        "Une erreur d'imprimerie",
+        "Une note très basse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La lecture fluide des partitions est une compétence fondamentale pour tout musicien professionnel.",
+      "reponse": true
+    }
+  ]
+}

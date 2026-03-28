@@ -1,0 +1,90 @@
+{
+  "id": "quiz2",
+  "titre": "Subjonctif Imparfait",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle terminaison est caractéristique du subjonctif imparfait (Pretérito Imperfeito do Conjuntivo) ?",
+      "options": [
+        "-sse",
+        "-ria",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le subjonctif imparfait est souvent utilisé dans les propositions conditionnelles avec 'se' (si).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si je voulais se dit : 'Se eu {{1}}'.",
+      "reponsesAttendues": ["quisesse"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Complétez : 'Se ele {{1}} mais tempo, viria nos visitar.'",
+      "options": [
+        "tivesse",
+        "tenha",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le radical du subjonctif imparfait se base sur la 3ème personne du pluriel du passé simple (Pretérito Perfeito).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel de ces verbes est correctement conjugué à la 1ère pers. du pluriel ?",
+      "options": [
+        "Falássemos",
+        "Falemos",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le subjonctif imparfait du verbe 'IR' (1ère pers. sing.) est '{{1}}'.",
+      "reponsesAttendues": ["fosse"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le subjonctif imparfait s'utilise uniquement pour des faits réels dans le passé.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la forme correcte pour le verbe 'POR' ?",
+      "options": [
+        "Pusesse",
+        "Poresse",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le subjonctif imparfait porte souvent un accent tonique sur la syllabe précédant la terminaison '-sse-'.",
+      "reponse": true
+    }
+  ]
+}

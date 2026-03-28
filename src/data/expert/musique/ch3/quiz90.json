@@ -1,0 +1,94 @@
+{
+  "id": "quiz90",
+  "titre": "Revisione : Musica Contemporanea (Capitolo 3 - Musica Expert)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Père du Bebop ?",
+      "options": [
+        "Charlie Parker",
+        "Lester Young",
+        "Benny Goodman",
+        "Duke Ellington"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Kind of Blue = Miles Davis.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Groupe initiateur du prog : `{{1}}`.",
+      "reponsesAttendues": [
+        "King Crimson"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Compositeur minimaliste ?",
+      "options": [
+        "Philip Glass",
+        "Wagner",
+        "Debussy",
+        "Mahler"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Theremin = instrument sans contact.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Le parrain du Funk ?",
+      "options": [
+        "James Brown",
+        "Michael Jackson",
+        "Prince",
+        "Bowie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Norme de communication numérique : `{{1}}`.",
+      "reponsesAttendues": [
+        "MIDI"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "John Williams a composé Star Wars.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Ancêtre du Rock 'n' Roll ?",
+      "options": [
+        "Blues",
+        "Opéra",
+        "Valse",
+        "Salsa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La musique concrète utilise des sons réels enregistrés.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz19",
+  "titre": "Comparatives",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle conjonction pour 'comme si' ?",
+      "options": [
+        "quasi, tamquam, velut si",
+        "sicut",
+        "ita",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les comparatives d'hypothèse ('comme si') sont suivies du subjonctif.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les comparatives réelles (ex: de même que) utilisent l'{{1}}.",
+      "reponsesAttendues": ["indicatif"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'perinde ac' ?",
+      "options": [
+        "Exactement comme",
+        "Presque",
+        "Surtout",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La concordance des temps s'applique après 'quasi'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Ita est ut dicis'",
+      "options": [
+        "Il en est comme tu le dis",
+        "C'est ainsi que tu dis",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Après un comparatif (melior, maior), 'que' se traduit par {{1}}.",
+      "reponsesAttendues": ["quam"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On utilise 'quam ut' + subjonctif pour dire 'trop... pour que...'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Sens de 'prouut' ?",
+      "options": [
+        "Selon que / à mesure que",
+        "Pourquoi",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les comparatives enrichissent la précision descriptions latines.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz6",
+  "titre": "L'Union Ibérique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle crise de succession a mené à l'Union Ibérique en 1580 ?",
+      "options": [
+        "La mort de Dom Sebastião sans héritier",
+        "Une guerre civile entre frères",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pendant l'Union Ibérique (1580-1640), le Portugal était gouverné par les rois d'Espagne de la maison de Habsbourg.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le roi d'Espagne qui a annexé le Portugal en 1580 était {{1}} (Filipe II de Espanha).",
+      "reponsesAttendues": ["Philippe II", "Filipe II"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel événement de 1640 marque la fin de la domination espagnole ?",
+      "options": [
+        "La Restauration de l'Indépendance (1er décembre)",
+        "La bataille d'Aljubarrota",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le premier roi de la nouvelle dynastie de Bragance fut Dom João IV.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le groupe de nobles qui a mené le coup d'État de 1640 ?",
+      "options": [
+        "Os Quarenta Conjurados (Les Quarante Conjurés)",
+        "Os Lusíadas",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'Union Ibérique a entraîné la perte de nombreux territoires de l'{{1}} portugais au profit des Hollandais et des Anglais.",
+      "reponsesAttendues": ["empire", "império"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Portugal a dû combattre l'Espagne pendant 28 ans après 1640 pour consolider son indépendance (Guerra da Restauração).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel traité de 1668 a scellé la paix définitive et la reconnaissance de l'indépendance par l'Espagne ?",
+      "options": [
+        "Traité de Lisbonne",
+        "Traité de Tordesillas",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le 1er décembre est aujourd'hui un jour férié national au Portugal (Restauração da Independência).",
+      "reponse": true
+    }
+  ]
+}

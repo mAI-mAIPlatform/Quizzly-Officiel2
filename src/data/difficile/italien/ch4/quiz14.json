@@ -1,0 +1,90 @@
+{
+  "id": "quiz14",
+  "titre": "Anglicismes et Italish",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on l'usage abusif de mots anglais dans la langue italienne ?",
+      "options": [
+        "Italish / Itanglese",
+        "Anglismo",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'italien utilise le mot 'Weekend' presque exclusivement à la place de 'Fine settimana' dans le langage courant.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot '{{1}}' (Computer) a totalement remplacé 'Calcolatore' dans l'usage quotidien.",
+      "reponsesAttendues": ["Computer"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel anglicisme désigne le 'télétravail' en italien, popularisé durant la pandémie ?",
+      "options": [
+        "Smart working",
+        "Telework",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'Accademia della Crusca exprime souvent des inquiétudes sur l'invasion des anglicismes inutiles.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Faire du shopping' en italien ?",
+      "options": [
+        "Fare shopping (très courant)",
+        "Comprare cose",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le mot '{{1}}' (Background) est souvent utilisé pour désigner le parcours ou l'expérience d'une personne.",
+      "reponsesAttendues": ["Background"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'influence de l'anglais est particulièrement forte dans les secteurs du business et de la technologie.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel verbe italien a été créé à partir de l'anglais 'to spoiler' ?",
+      "options": [
+        "Spoilerare",
+        "Svelare",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Certains linguistes craignent que l'italien ne perde sa spécificité au profit d'un anglais globalisé.",
+      "reponse": true
+    }
+  ]
+}

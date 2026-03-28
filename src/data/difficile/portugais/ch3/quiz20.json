@@ -1,0 +1,90 @@
+{
+  "id": "quiz20",
+  "titre": "SYNTHÈSE HISTOIRE",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "En quelle année l'esclavage est-il aboli au Brésil ?",
+      "options": [
+        "1888",
+        "1822",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le séisme de Lisbonne a eu lieu en 1755.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La révolution portugaise de 1974 est celle des {{1}}.",
+      "reponsesAttendues": ["œillets", "cravos"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui fut le fondateur du Portugal ?",
+      "options": [
+        "Dom Afonso Henriques",
+        "Dom João I",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le traité de Tordesillas partageait le monde entre l'Espagne et le Portugal.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle colonie a été la dernière à obtenir son indépendance (en 2002) ?",
+      "options": [
+        "Timor Oriental",
+        "Angola",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'alliance anglo-portugaise est scellée par le traité de {{1}}.",
+      "reponsesAttendues": ["Windsor"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Portugal est membre de l'UE depuis 1986.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qui fut le ministre de la reconstruction après 1755 ?",
+      "options": [
+        "Marquis de Pombal",
+        "Mário Soares",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Vous avez validé vos connaissances sur les grandes étapes du monde lusophone ! 🇵🇹🏆🎖️🛡️🚢",
+      "reponse": true
+    }
+  ]
+}

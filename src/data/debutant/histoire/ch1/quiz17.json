@@ -1,0 +1,94 @@
+{
+  "id": "quiz17",
+  "titre": "Les Jeux Olympiques Antiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "En l'honneur de quel dieu les Jeux Olympiques étaient-ils organisés ?",
+      "options": [
+        "Poséidon",
+        "Apollon",
+        "Zeus",
+        "Arès"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les jeux avaient lieu dans la cité d'Olympie.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pendant les jeux, on déclarait une {{1}} sacrée pour arrêter les guerres.",
+      "reponsesAttendues": [
+        "trêve"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que recevait le vainqueur d'une épreuve ?",
+      "options": [
+        "De l'argent",
+        "Une médaille d'or",
+        "Une couronne de rameau d'olivier",
+        "Une épée"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les femmes n'avaient pas le droit de participer aux jeux originaux.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces épreuves existait déjà dans l'Antiquité ?",
+      "options": [
+        "Le cyclisme",
+        "La course de chars",
+        "Le football",
+        "Le tennis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le {{1}} regroupait cinq épreuves différentes (saut, disque, javelot, course, lutte).",
+      "reponsesAttendues": [
+        "pentathlon"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les jeux avaient lieu tous les 4 ans, comme aujourd'hui.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Les athlètes concouraient :",
+      "options": [
+        "En armure",
+        "Nus",
+        "En toge",
+        "En maillot"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les Jeux Olympiques modernes s'inspirent de cette tradition antique.",
+      "reponse": true
+    }
+  ]
+}

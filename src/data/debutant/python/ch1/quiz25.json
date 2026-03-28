@@ -1,0 +1,95 @@
+{
+  "id": "quiz25",
+  "titre": "L'Opérateur Ternaire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces syntaxes est correcte pour un ternaire ?",
+      "options": [
+        "result = cond ? a : b",
+        "result = a if cond else b",
+        "result = if cond a else b",
+        "result = a cond b"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le ternaire permet d'écrire une condition courte sur une seule ligne.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "status = 'ok' {{1}} score > 10 {{2}} 'perdu'.",
+      "reponsesAttendues": [
+        "if",
+        "else"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage du ternaire ?",
+      "options": [
+        "La concision",
+        "La performance",
+        "La sécurité",
+        "Permet de sauter des lignes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut imbriquer des ternaires (même si c'est déconseillé).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que vaut x dans : x = 1 if True else 0 ?",
+      "options": [
+        "1",
+        "0",
+        "True",
+        "False"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'opérateur ternaire s'appelle aussi expression {{1}}.",
+      "reponsesAttendues": [
+        "conditionnelle"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le ternaire est obligatoire pour les débutants.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est un usage courant du ternaire ?",
+      "options": [
+        "Donner une valeur par défaut",
+        "Choisir entre deux chaînes à afficher",
+        "Assigner une variable rapidement",
+        "Toutes ces réponses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le mot 'ternaire' vient du fait qu'il y a 3 opérandes.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz60",
+  "titre": "Revisione Finale : Capitolo 2 - Latino Esperto",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Historien de la Guerre des Gaules ?",
+      "options": [
+        "César",
+        "Tite-Live",
+        "Salluste",
+        "Tacite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Sénèque était stoïcien.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Héros de l'épopée de Virgile : `{{1}}`.",
+      "reponsesAttendues": [
+        "Énée"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Auteur du 'Carpe diem' ?",
+      "options": [
+        "Horace",
+        "Catulle",
+        "Ovide",
+        "Virgile"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Plaute écrivait des comédies.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Adversaire de Cicéron en -63 ?",
+      "options": [
+        "Catilina",
+        "Verrès",
+        "Antoine",
+        "César"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Poète satirique : `{{1}}`.",
+      "reponsesAttendues": [
+        "Juvénal"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Cursus Honorum est le parcours politique.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Dieu du foyer ?",
+      "options": [
+        "Lares/Pénates",
+        "Jupiter",
+        "Mars",
+        "Vénus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'hexamètre est le vers de l'épopée.",
+      "reponse": true
+    }
+  ]
+}

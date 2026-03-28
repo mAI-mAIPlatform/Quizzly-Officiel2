@@ -1,1 +1,94 @@
-{"id":"quiz5","titre":"Likes and Dislikes","questions":[{"id":"q1","type":"qcm","enonce":"Which one is strongest?","options":["I like","I love","I don't mind","I dislike"],"correctIndex":1},{"id":"q2","type":"vrai_faux","enonce":"'I hate' is the opposite of 'I love'.","reponse":true},{"id":"q3","type":"trous","enonce":"I don't {{1}} spiders. (Je n'aime pas)","reponsesAttendues":["like"]},{"id":"q4","type":"relier","question":"Match the expression.","pairs":[{"left":"I'm crazy about...","right":"Je suis fou de..."},{"left":"I can't stand...","right":"Je ne supporte pas..."},{"left":"I'm fond of...","right":"J'aime beaucoup..."}]},{"id":"q5","type":"qcm","enonce":"What follows 'I like' for an action?","options":["Verb with -ED","Verb with -ING","Verb with -S","Only the base verb"],"correctIndex":1}]}
+{
+  "id": "quiz5",
+  "titre": "Food and Drinks (What's for dinner?)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'le petit-déjeuner' ?",
+      "options": [
+        "breakfast",
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Lunch' est le repas du midi (déjeuner).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le dîner se dit '{{1}}' (dinner).",
+      "reponsesAttendues": [
+        "dinner"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'bread' ?",
+      "options": [
+        "Pain",
+        "Beurre",
+        "Lait",
+        "Fromage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Water' signifie l'eau.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'le jus d'orange' ?",
+      "options": [
+        "orange juice",
+        "apple juice",
+        "milk",
+        "tea"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le sucre se dit '{{1}}' (sugar).",
+      "reponsesAttendues": [
+        "sugar"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Meat' signifie la viande.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'to be hungry' ?",
+      "options": [
+        "Avoir faim",
+        "Avoir soif",
+        "Être fatigué",
+        "Être pressé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": " 'I am drinking a cup of tea' signifie 'Je bois une tasse de thé'.",
+      "reponse": true
+    }
+  ]
+}

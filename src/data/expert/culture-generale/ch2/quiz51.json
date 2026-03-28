@@ -1,0 +1,94 @@
+{
+  "id": "quiz51",
+  "titre": "Culture Générale Expert : Grandes Découvertes Scientifiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a formulé la théorie de la relativité restreinte en 1905 ?",
+      "options": [
+        "Albert Einstein",
+        "Isaac Newton",
+        "Niels Bohr",
+        "Max Planck"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La pénicilline, premier antibiotique, a été découverte par Alexander Fleming en 1928.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La structure en double hélice de l'`{{1}}` a été mise en évidence par Watson et Crick (et Rosalind Franklin) en 1953.",
+      "reponsesAttendues": [
+        "ADN"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle découverte scientifique a permis le développement de l'électronique moderne et de l'informatique ?",
+      "options": [
+        "Le transistor",
+        "La machine à vapeur",
+        "La pile électrique",
+        "Le moteur à explosion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Marie Curie est la seule femme à avoir reçu deux prix Nobel dans deux disciplines scientifiques différentes.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment s'appelle la théorie expliquant l'origine et l'expansion de l'Univers ?",
+      "options": [
+        "Le Big Bang",
+        "La Théorie des Cordes",
+        "L'Attraction Terrestre",
+        "Le Système Solaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` de Higgs est une particule élémentaire qui donne leur masse aux autres particules.",
+      "reponsesAttendues": [
+        "boson"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Charles Darwin a publié 'De l'origine des espèces' en 1859.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel domaine de la physique étudie le comportement de la matière à l'échelle de l'atome ?",
+      "options": [
+        "La physique quantique",
+        "La mécanique classique",
+        "L'astrophysique",
+        "La thermodynamique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La méthode scientifique repose sur l'observation, l'expérimentation et la vérification.",
+      "reponse": true
+    }
+  ]
+}

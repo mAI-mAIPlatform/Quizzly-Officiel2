@@ -1,0 +1,94 @@
+{
+  "id": "quiz20",
+  "titre": "L'Accord de l'Adjectif",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment écrit-on 'grand' au féminin ?",
+      "options": [
+        "grand",
+        "grande",
+        "grandes",
+        "grands"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On ajoute souvent un -e pour marquer le féminin de l'adjectif.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une voiture {{1}} (vert).",
+      "reponsesAttendues": [
+        "verte"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment écrit-on 'petit' au pluriel (masculin) ?",
+      "options": [
+        "petit",
+        "petite",
+        "petits",
+        "petites"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'adjectif s'accorde aussi en nombre (singulier/pluriel).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Trouve la bonne écriture :",
+      "options": [
+        "des fleurs bleu",
+        "des fleurs bleues",
+        "des fleurs bleus",
+        "des fleur bleue"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Des arbres {{1}} (haut).",
+      "reponsesAttendues": [
+        "hauts"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Au féminin pluriel, on ajoute souvent -es.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Un garçon ... (intelligent).",
+      "options": [
+        "intelligent",
+        "intelligente",
+        "intelligents",
+        "intelligentes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'adjectif doit toujours 'copier' le nom qu'il accompagne.",
+      "reponse": true
+    }
+  ]
+}

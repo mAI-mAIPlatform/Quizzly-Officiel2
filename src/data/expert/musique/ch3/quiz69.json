@@ -1,0 +1,94 @@
+{
+  "id": "quiz69",
+  "titre": "Musique Expert : Tchaïkovski et les Écoles Nationales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces ballets n'est PAS de Piotr Ilitch Tchaïkovski ?",
+      "options": [
+        "Le Sacre du Printemps",
+        "Le Lac des Cygnes",
+        "Casse-Noisette",
+        "La Belle au bois dormant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Symphonie n°6 de Tchaïkovski est surnommée 'Pathétique'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le Groupe des `{{1}}` (Moussorgski, Rimski-Korsakov, etc.) prônait une musique russe authentique dégagée de l'influence occidentale.",
+      "reponsesAttendues": [
+        "Cinq"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel compositeur tchèque a écrit la symphonie 'Du Nouveau Monde' lors de son séjour aux USA ?",
+      "options": [
+        "Antonín Dvořák",
+        "Bedřich Smetana",
+        "Leoš Janáček",
+        "Bohuslav Martinů"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Smetana a composé le cycle 'Ma Patrie' (Má Vlast), dont fait partie 'La Moldau'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel compositeur norvégien est célèbre pour sa suite 'Peer Gynt' ?",
+      "options": [
+        "Edvard Grieg",
+        "Jean Sibelius",
+        "Carl Nielsen",
+        "Johan Svendsen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le poème symphonique `{{1}}` de Sibelius est devenu un hymne de la résistance nationale finlandaise.",
+      "reponsesAttendues": [
+        "Finlandia"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Modeste Moussorgski est l'auteur des 'Tableaux d'une exposition'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel opéra de Tchaïkovski s'inspire d'un poème d'Alexandre Pouchkine ?",
+      "options": [
+        "Eugène Onéguine",
+        "Guerre et Paix",
+        "Boris Godounov",
+        "Le Prince Igor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La musique de Tchaïkovski concilie la sensibilité russe et les formes symphoniques occidentales.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz20",
+  "titre": "La Justice",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel était le fondement de la justice à Athènes ?",
+      "options": [
+        "La souveraineté de la loi (Nomos) égale pour tous",
+        "Le bon vouloir du tyran",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il n'y avait pas d'avocats professionnels ; chaque citoyen devait se défendre lui-même devant le tribunal.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'appareil servant à mesurer le temps de parole lors des procès est la {{1}} (horloge à eau).",
+      "reponsesAttendues": ["clepsydre"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle était la peine suprême ?",
+      "options": [
+        "La mort (souvent par absorption de ciguë) ou l'exil",
+        "Une petite amende",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L' 'hybris' (démesure) était considérée comme un crime grave contre l'ordre social et divin.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Le débat entre 'Nomos' (loi humaine) et 'Physis' (loi naturelle) a été lancé par :",
+      "options": [
+        "Les Sophistes",
+        "Les agriculteurs",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le jeton utilisé par les juges pour voter s'appelle un {{1}}.",
+      "reponsesAttendues": ["psephos"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La torture était légalement pratiquée sur les esclaves lors des interrogatoires judiciaires.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'isonomie' ?",
+      "options": [
+        "L'égalité devant la loi",
+        "Le nom de quelqu'un",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La justice servait à maintenir l'équilibre (Dike) au sein de la cité.",
+      "reponse": true
+    }
+  ]
+}

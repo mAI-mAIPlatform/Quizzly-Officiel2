@@ -1,0 +1,95 @@
+{
+  "id": "quiz82",
+  "titre": "Latin Expert : Horace et la Sagesse Lyrique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle expression célèbre, tirée d'une Ode d'Horace, invite à profiter du jour présent ?",
+      "options": [
+        "Carpe Diem",
+        "Veni Vidi Vici",
+        "Memento Mori",
+        "Sapere Aude"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Horace était le fils d'un esclave affranchi.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'expression `{{1}}` (Aurea Mediocritas) désigne l'idéal horatien d'un juste milieu doré, fuyant les excès.",
+      "reponsesAttendues": [
+        "Aurea Mediocritas"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel puissant protecteur des arts (ami d'Auguste) a soutenu financièrement Horace ?",
+      "options": [
+        "Mécène",
+        "Agrippa",
+        "Lépide",
+        "Pompée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Horace a écrit l''Art Poétique', une épître définissant les règles de la composition littéraire.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Dans quel genre littéraire Horace s'est-il illustré pour critiquer les mœurs de son temps avec humour ?",
+      "options": [
+        "La Satire",
+        "Le Drame",
+        "L'Épopée",
+        "Le Traité de cuisine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le recueil de poésie lyrique d'Horace s'intitule les `{{1}}` (Odes).",
+      "reponsesAttendues": [
+        "Odes",
+        "Carmina"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Horace a combattu dans le camp des meurtriers de César (Brutus et Cassius) à Philippe.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel poète grec Horace a-t-il pris pour modèle dans ses poèmes lyriques ?",
+      "options": [
+        "Alcée (ou Sappho)",
+        "Homère",
+        "Hésiode",
+        "Euripide"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Horace considérait la poésie comme un 'monument plus durable que l'airain' (Exegi monumentum).",
+      "reponse": true
+    }
+  ]
+}

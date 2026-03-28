@@ -1,0 +1,94 @@
+{
+  "id": "quiz14",
+  "titre": "Les Contes et Légendes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a écrit les contes de 'Cendrillon' et 'Le Petit Chaperon Rouge' ?",
+      "options": [
+        "Jean de La Fontaine",
+        "Charles Perrault",
+        "Victor Hugo",
+        "Molière"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pinocchio est un petit garçon dont le nez s'allonge quand il ment.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le garçon qui refuse de grandir s'appelle Peter {{1}}.",
+      "reponsesAttendues": [
+        "Pan"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Combien y a-t-il de nains dans le conte de Blanche-Neige ?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le loup mange la grand-mère dans 'Le Petit Chaperon Rouge'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel possède une lampe magique contenant un génie ?",
+      "options": [
+        "Ali Baba",
+        "Aladdin",
+        "Sinbad",
+        "Peter Pan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La petite fille qui suit un lapin blanc s'appelle {{1}}.",
+      "reponsesAttendues": [
+        "Alice"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un conte commence souvent par 'Il était une fois...'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel animal aide le marquis de Carabas dans un conte célèbre ?",
+      "options": [
+        "Un chien",
+        "Le Chat Botté",
+        "Un âne",
+        "Un cheval"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les contes nous apprennent souvent une leçon de morale.",
+      "reponse": true
+    }
+  ]
+}

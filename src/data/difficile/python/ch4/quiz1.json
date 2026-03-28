@@ -1,0 +1,90 @@
+{
+  "id": "quiz1",
+  "titre": "Asynchronisme : Concepts",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que permet la programmation asynchrone ?",
+      "options": [
+        "Exécuter plusieurs tâches en même temps sur plusieurs processeurs",
+        "Gérer de nombreuses tâches d'E/S (réseau, fichiers) sans bloquer le script sur une seule",
+        "Rendre le code plus facile à lire",
+        "Supprimer le GIL"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'asynchronisme en Python est basé sur une boucle d'événements (Event Loop) à un seul thread.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour définir une fonction asynchrone (coroutine), on utilise le mot-clé {{1}} devant 'def'.",
+      "reponsesAttendues": ["async"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel mot-clé permet de suspendre l'exécution d'une coroutine en attendant un résultat ?",
+      "options": [
+        "wait",
+        "await",
+        "yield",
+        "pause"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Appeler une fonction 'async' sans 'await' exécute immédiatement son code.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle bibliothèque standard gère l'asynchronisme ?",
+      "options": [
+        "asyncio",
+        "threading",
+        "multiprocessing",
+        "requests"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La coroutine principale est souvent lancée avec la commande asyncio.{{1}}(main()).",
+      "reponsesAttendues": ["run"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Une fonction classique (non async) peut contenir le mot-clé 'await'.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si vous faites un time.sleep(5) dans une coroutine ?",
+      "options": [
+        "Cela bloque toute la boucle d'événements pendant 5 secondes",
+        "C'est géré de façon asynchrone automatiquement",
+        "Une erreur est levée",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'asynchronisme est idéal pour les serveurs Web gérant des milliers de connexions simultanées.",
+      "reponse": true
+    }
+  ]
+}

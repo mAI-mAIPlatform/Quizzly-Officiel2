@@ -1,0 +1,94 @@
+{
+  "id": "quiz23",
+  "titre": "Guerre des Gaules : Vercingétorix",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a dirigé la révolte des tribus gauloises contre Rome ?",
+      "options": [
+        "Ambiorix",
+        "Vercingétorix",
+        "Commios",
+        "Léonidas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Vercingétorix était le chef de la tribu des Arvernes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le général romain qui a conquis la Gaule est Jules {{1}}.",
+      "reponsesAttendues": [
+        "César"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle grande victoire Vercingétorix a-t-il remportée contre César en 52 av. J.-C. ?",
+      "options": [
+        "Alésia",
+        "Gergovie",
+        "Lutèce",
+        "Bibracte"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Vercingétorix a réussi à unir de nombreux peuples gaulois.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel était l'objectif de César en Gaule ?",
+      "options": [
+        "Faire du tourisme",
+        "Conquérir de nouveaux territoires pour sa gloire et pour Rome",
+        "Apprendre le gaulois",
+        "Vendre des bijoux"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La stratégie de Vercingétorix consistait à brûler les récoltes, c'est la terre {{1}}.",
+      "reponsesAttendues": [
+        "brûlée"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "César a écrit un livre célèbre intitulé 'La Guerre des Gaules'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment appelait-on le cri de ralliement des Gaulois ?",
+      "options": [
+        "Hourra !",
+        "Un cri de guerre propre à chaque tribu",
+        "À l'attaque !",
+        "Aucun cri particulier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Vercingétorix est devenu un héros national français bien plus tard.",
+      "reponse": true
+    }
+  ]
+}

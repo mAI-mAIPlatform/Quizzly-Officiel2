@@ -1,0 +1,94 @@
+{
+  "id": "quiz73",
+  "titre": "Italien Expert : La Splendeur de Venise (Titien, Véronèse, Tintoret)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Contrairement à l'école florentine axée sur le dessin (disegno), sur quoi l'école vénitienne met-elle l'accent ?",
+      "options": [
+        "La couleur (colore) et la lumière",
+        "La sculpture",
+        "L'architecture militaire",
+        "La gravure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Titien était le peintre officiel de l'empereur Charles Quint.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les `{{1}}` (Noces de Cana) est une œuvre monumentale de Véronèse, célèbre pour sa mise en scène théâtrale.",
+      "reponsesAttendues": [
+        "Noces de Cana"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel peintre vénitien est surnommé 'Il Furioso' pour sa rapidité d'exécution et ses compositions dramatiques ?",
+      "options": [
+        "Le Tintoret",
+        "Canaletto",
+        "Tiepolo",
+        "Bellini"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Giorgione est connu pour ses paysages poétiques et mystérieux (ex: 'La Tempête').",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel architecte a marqué la Vénétie avec ses villas classiques (symétrie, colonnes) et a influencé l'architecture mondiale ?",
+      "options": [
+        "Andrea Palladio",
+        "Sansovino",
+        "Longhena",
+        "Vignola"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La `{{1}}` (Scuola) était une confrérie religieuse et laïque vénitienne qui commandait de grands cycles de peintures.",
+      "reponsesAttendues": [
+        "Scuola"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Canaletto est célèbre pour ses 'vedute' (vues urbaines) très précises de Venise au XVIIIe siècle.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la technique préférée des Vénitiens pour leurs grands décors muraux, en raison de l'humidité de la lagune ?",
+      "options": [
+        "La peinture à l'huile sur toile (marouflée ou non)",
+        "La fresque",
+        "La mosaïque",
+        "La détrempe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Palais des Doges abrite 'Le Paradis', l'une des plus grandes toiles du monde (Tintoret).",
+      "reponse": true
+    }
+  ]
+}

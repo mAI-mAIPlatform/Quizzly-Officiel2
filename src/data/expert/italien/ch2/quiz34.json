@@ -1,0 +1,94 @@
+{
+  "id": "quiz34",
+  "titre": "Italien Expert : Accordo del Participio Passato",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quando è OBBLIGATORIO l'accordo del participio passato con l'ausiliare 'avere' ?",
+      "options": [
+        "Sempre",
+        "Quando è preceduto dai pronomi lo, la, li, le",
+        "Mai",
+        "Solo con i verbi di movimento"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Con l'ausiliare 'essere', il participio si accorda sempre in genere e numero col soggetto.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Traduci : 'Le mele ? Le ho mangiat`{{1}}`'.",
+      "reponsesAttendues": [
+        "e"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Come ci si accorda con il pronome 'ne' ?",
+      "options": [
+        "Il participio si accorda con la quantità indicata da 'ne' (es: Ne ho comprati due)",
+        "Non si accorda mai",
+        "Si accorda col soggetto",
+        "Resta sempre in -o"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Con i pronomi mi, ti, ci, vi, l'accordo con 'avere' è facoltativo ma raccomandato.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quale frase è corretta ?",
+      "options": [
+        "Maria è andata a casa",
+        "Maria è andato a casa",
+        "Maria ha andata a casa",
+        "Maria s'è andato a casa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Con i verbi riflessivi si usa l'ausiliare `{{1}}` e il participio si accorda.",
+      "reponsesAttendues": [
+        "essere"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Nella frase 'Ho scritto una lettera', l'accordo 'Ho scritta una lettera' è possibile in stile letterario.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Traduci : 'Ci siamo `{{1}}` (lavarsi, noi maschi)'",
+      "options": [
+        "lavati",
+        "lavato",
+        "lavate",
+        "lavarsi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "I verbi atmosferici (piovere, nevicare) possono usare sia essere che avere.",
+      "reponse": true
+    }
+  ]
+}

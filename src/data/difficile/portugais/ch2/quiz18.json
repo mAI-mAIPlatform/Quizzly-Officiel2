@@ -1,0 +1,90 @@
+{
+  "id": "quiz18",
+  "titre": "Herberto Helder",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment est souvent qualifiée la poésie d'Herberto Helder ?",
+      "options": [
+        "Alchimique, hermétique et visionnaire",
+        "Simple et bucolique",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Herberto Helder détestait la publicité et refusait tout prix littéraire ou interview.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Son œuvre complète revue par lui-même s'intitule '{{1}}' (Poesia Toda).",
+      "reponsesAttendues": ["Ofício Cantante"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Où est né Herberto Helder ?",
+      "options": [
+        "Funchal (Madère)",
+        "Lisbonne",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Il est considéré par beaucoup comme le plus grand poète portugais vivant de son temps (jusqu'à sa mort en 2015).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel livre de prose expérimentale a-t-il publié en 1968 ?",
+      "options": [
+        "Os Passos em Volta",
+        "A Colher na Boca",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La poésie de Helder est une exploration de la '{{1}}' (langue) et de sa puissance mythique.",
+      "reponsesAttendues": ["linguagem"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il s'inspirait beaucoup de la Beat Generation et du Surréalisme.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel mot décrit le processus de réécriture constante de ses poèmes ?",
+      "options": [
+        "Metamorfose",
+        "Estagnação",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Lire Herberto Helder est une expérience sensorielle et métaphysique intense.",
+      "reponse": true
+    }
+  ]
+}

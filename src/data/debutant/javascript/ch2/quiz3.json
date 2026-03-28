@@ -1,0 +1,94 @@
+{
+  "id": "quiz3",
+  "titre": "Les Booléens et les Comparaisons",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelles sont les deux valeurs possibles d'un booléen ?",
+      "options": [
+        "true et false",
+        "yes et no",
+        "1 et 2",
+        "open et closed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'opérateur '==' vérifie l'égalité de valeur sans vérifier strictement le type.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour vérifier l'égalité stricte (valeur ET type), on utilise {{1}}.",
+      "reponsesAttendues": [
+        "==="
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel symbole signifie 'différent de' ?",
+      "options": [
+        "!=",
+        "<>",
+        "==",
+        "++"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'expression (5 > 3) renvoie false.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est le résultat de (10 <= 10) ?",
+      "options": [
+        "true",
+        "false",
+        "10",
+        "undefined"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'opérateur {{1}} (point d'exclamation) permet d'inverser un booléen (NOT).",
+      "reponsesAttendues": [
+        "!"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les booléens sont très utiles pour les conditions 'if'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces comparaisons renvoie true ?",
+      "options": [
+        "10 === 10",
+        "5 === '5'",
+        "10 < 2",
+        "false === true"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "null est un type de données qui représente l'absence intentionnelle de valeur.",
+      "reponse": true
+    }
+  ]
+}

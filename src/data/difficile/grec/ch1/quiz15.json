@@ -1,0 +1,90 @@
+{
+  "id": "quiz15",
+  "titre": "Aoriste Second",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la caractéristique de l'aoriste second (ou thématique) ?",
+      "options": [
+        "Il utilise le radical nu (souvent au degré zéro) et les désinences de l'imparfait",
+        "Il finit en -sa",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'aoriste second de 'legō' est 'e-ip-on'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'aoriste second de 'lambanō' (prendre) est '{{1}}'.",
+      "reponsesAttendues": ["elabov"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Aoriste de 'erkhomai' (aller/venir) ?",
+      "options": [
+        "Èlthon",
+        "Eerkhon",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les verbes à aoriste second sont généralement les verbes les plus fréquents de la langue.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "L'impératif aoriste de 'erkhomai' est :",
+      "options": [
+        "Elthé",
+        "Erkhou",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'infinitif aoriste second de 'gignomai' est '{{1}}'.",
+      "reponsesAttendues": ["genestai"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'aoriste second ne possède pas de désinence -sa.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Sujet de 'edrakov' ?",
+      "options": [
+        "Voir (Aoriste de derkomai)",
+        "Dormir",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'aoriste second est une forme archaïque conservée dans le système verbal.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz21",
+  "titre": "Communication : BroadcastChannel",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert BroadcastChannel ?",
+      "options": [
+        "À diffuser de la musique",
+        "À envoyer des messages à tous les onglets/fenêtres d'une même origine (Same-Origin)",
+        "À envoyer des emails",
+        "À bloquer les publicités"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "BroadcastChannel permet une communication bidirectionnelle entre onglets.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour rejoindre un canal, on crée une instance de BroadcastChannel avec le {{1}} du canal en argument.",
+      "reponsesAttendues": ["nom", "name"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle méthode envoie un message sur le canal ?",
+      "options": [
+        "bc.send()",
+        "bc.postMessage()",
+        "bc.emit()",
+        "bc.broadcast()"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'onglet qui envoie le message le reçoit aussi lui-même sur son propre listener.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment fermer la connexion au canal ?",
+      "options": [
+        "bc.close()",
+        "bc.stop()",
+        "bc.exit()",
+        "bc.terminate()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'objet reçu dans l'événement 'message' contient les données dans sa propriété {{1}}.",
+      "reponsesAttendues": ["data"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "BroadcastChannel est plus simple que d'utiliser l'événement 'storage' de LocalStorage.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est un usage courant ?",
+      "options": [
+        "Synchroniser l'état de déconnexion entre plusieurs onglets",
+        "Trier une liste",
+        "Faire un fetch",
+        "Lire le DOM"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "BroadcastChannel fonctionne entre des domaines différents (ex: google.com et bing.com).",
+      "reponse": false
+    }
+  ]
+}

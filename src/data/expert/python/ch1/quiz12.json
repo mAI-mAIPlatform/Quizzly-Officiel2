@@ -1,0 +1,95 @@
+{
+  "id": "quiz12",
+  "titre": "Programmation Asynchrone (async/await)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel mot-clé définit une coroutine en Python ?",
+      "options": [
+        "async def",
+        "await func",
+        "coroutine def",
+        "yield async"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'instruction 'await' peut être utilisée en dehors d'une fonction 'async'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La bibliothèque standard pour gérer l'asynchronisme s'appelle `{{1}}`.",
+      "reponsesAttendues": [
+        "asyncio"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment lancer une coroutine principale proprement depuis le code synchrone (depuis Python 3.7+) ?",
+      "options": [
+        "asyncio.run(main())",
+        "main().start()",
+        "await main()",
+        "loop.run_until_complete(main())"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'asynchronisme permet un parallélisme réel sur plusieurs cœurs de processeur.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle fonction permet d'attendre plusieurs coroutines simultanément ?",
+      "options": [
+        "asyncio.gather()",
+        "asyncio.wait_all()",
+        "asyncio.join()",
+        "asyncio.all()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Une `{{1}}` (Task) permet d'ordonnancer l'exécution d'une coroutine dans la boucle d'événements.",
+      "reponsesAttendues": [
+        "tâche",
+        "task"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "asyncio.sleep() bloque tout le thread pendant la durée du sommeil.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel objet représente un résultat qui n'est pas encore disponible ?",
+      "options": [
+        "Future",
+        "Promise",
+        "Proxy",
+        "Placeholder"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut itérer de manière asynchrone avec 'async for'.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz4",
+  "titre": "Génitif Absolu",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le génitif absolu en grec ?",
+      "options": [
+        "Une proposition participe dont le sujet est au génitif et n'a pas de lien grammatical avec la proposition principale",
+        "Un complément de nom au génitif",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le génitif absolu peut exprimer le temps, la cause ou la condition.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans 'tou héliou duntos' (le soleil s'étant couché), 'héliou' est le {{1}} du participe.",
+      "reponsesAttendues": ["sujet"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est l'équivalent latin du génitif absolu ?",
+      "options": [
+        "L'ablatif absolu",
+        "L'accusatif absolu",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Si le sujet de la proposition participe est le même que celui de la principale, on n'utilise pas le génitif absolu.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment traduit-on souvent un génitif absolu au présent ?",
+      "options": [
+        "Pendant que... / Alors que...",
+        "Après que...",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'aoriste dans un génitif absolu exprime l'{{1}} par rapport à la principale.",
+      "reponsesAttendues": ["antériorité"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le génitif absolu est extrêmement fréquent chez les historiens grecs (Thucydide).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Peut-on avoir un génitif absolu sans complément ?",
+      "options": [
+        "Oui, si le contexte est clair",
+        "Non, jamais",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'usage du génitif absolu rend le style plus concis et dynamique.",
+      "reponse": true
+    }
+  ]
+}

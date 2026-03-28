@@ -3,5 +3,30 @@
   "titre": "Education Musicale",
   "niveau": "Entraînement",
   "description": "Découvre et maîtrise tout le programme de Education Musicale au niveau Entraînement !",
-  "chapitres": []
+  "chapitres": [
+    {
+      "id": "ch1",
+      "titre": "Bases de la Musique",
+      "lecons": ["Notes et Clés", "Rythmes simples", "Portée musicale"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch2",
+      "titre": "Instruments Classiques",
+      "lecons": ["Le Piano", "La Guitare", "Le Violon"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch3",
+      "titre": "Théorie Facile",
+      "lecons": ["Intervalles", "Accords majeurs", "Tempo"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch4",
+      "titre": "Genres et Artistes",
+      "lecons": ["Musique classique", "Rock et Pop", "Jazz"],
+      "quizCount": 30
+    }
+  ]
 }

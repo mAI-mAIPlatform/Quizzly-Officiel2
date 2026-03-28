@@ -1,0 +1,94 @@
+{
+  "id": "quiz3",
+  "titre": "L'Alphabet Grec : Les Consonnes (2)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle lettre se prononce 'ps' ?",
+      "options": [
+        "Psi (ψ)",
+        "Phi (φ)",
+        "Khî (χ)",
+        "Xi (ξ)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Phi (φ) se prononce 'f' (ou 'p' aspiré).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La lettre {{1}} (ξ) se prononce 'ks'.",
+      "reponsesAttendues": [
+        "Xi"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment se prononce le Khî (χ) ?",
+      "options": [
+        "Comme la jota espagnole ou le 'ch' allemand",
+        "Comme un 'k' simple",
+        "Comme un 's'",
+        "Comme un 'ch' français"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Sigma possède deux formes en minuscule : σ et ς (à la fin des mots).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle lettre ressemble à un 'p' mais est un 'r' ?",
+      "options": [
+        "Rho (ρ)",
+        "Pi (π)",
+        "Tau (τ)",
+        "Phi (φ)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le {{1}} (π) correspond au 'p'.",
+      "reponsesAttendues": [
+        "Pi"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Tau (τ) correspond au 't'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle consonne est dite 'liquide' ?",
+      "options": [
+        "Lambda (λ)",
+        "Bêta (β)",
+        "Tau (τ)",
+        "Kappa (κ)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il y a 24 lettres dans l'alphabet grec classique.",
+      "reponse": true
+    }
+  ]
+}

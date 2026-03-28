@@ -1,0 +1,90 @@
+{
+  "id": "quiz2",
+  "titre": "Balises Sémantiques : Structure",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise représente le contenu principal d'un document, unique à cette page ?",
+      "options": [
+        "<main>",
+        "<section>",
+        "<article>",
+        "<div>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il est autorisé d'avoir plusieurs balises <main> visibles simultanément sur une page.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise {{1}} est utilisée pour les liens de navigation principaux.",
+      "reponsesAttendues": ["nav"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel élément définit une zone de contenu tangentiel (comme une barre latérale) ?",
+      "options": [
+        "<aside>",
+        "<section>",
+        "<footer>",
+        "<nav>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La balise <header> ne peut être utilisée qu'une seule fois par page, tout en haut.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel de ces éléments est purement structurel (non sémantique) ?",
+      "options": [
+        "<div>",
+        "<section>",
+        "<article>",
+        "<aside>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La balise {{1}} contient généralement des informations sur l'auteur, le copyright ou des liens légaux.",
+      "reponsesAttendues": ["footer"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Une balise <section> devrait idéalement posséder un titre (h1-h6).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle balise est la plus appropriée pour un article de blog auto-contenu ?",
+      "options": [
+        "<article>",
+        "<section>",
+        "<div>",
+        "<aside>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation de la sémantique HTML5 améliore l'accessibilité pour les lecteurs d'écran.",
+      "reponse": true
+    }
+  ]
+}

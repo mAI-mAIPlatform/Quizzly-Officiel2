@@ -1,0 +1,93 @@
+{
+  "id": "quiz22",
+  "titre": "Histoire : Joseph Haydn",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "De quel genre musical Haydn est-il considéré comme le 'Père' ?",
+      "options": [
+        "La Symphonie et le Quatuor à cordes",
+        "L'Opéra baroque",
+        "Le Concerto pour piano",
+        "La Chanson enfantine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "vrai_faux",
+      "enonce": "Haydn a passé l'essentiel de sa carrière au service de la famille Esterházy.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Haydn a composé plus de `{{1}}` symphonies.",
+      "reponsesAttendues": [
+        "100",
+        "104"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on les 12 dernières symphonies de Haydn ?",
+      "options": [
+        "Les Symphonies Londoniennes",
+        "Les Symphonies Parisiennes",
+        "Les Symphonies du Destin",
+        "Les Symphonies de Jeunesse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "vrai_faux",
+      "enonce": "La Symphonie n°94 est surnommée 'La Surprise'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel oratorio de Haydn est inspiré de Milton et de la Genèse ?",
+      "options": [
+        "La Création",
+        "Le Messie",
+        "Les Saisons",
+        "Élie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Haydn était l'ami et le mentor de Wolfgang Amadeus `{{1}}`.",
+      "reponsesAttendues": [
+        "Mozart"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Haydn a fixé la structure en quatre mouvements de la symphonie.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le caractère dominant de la musique de Haydn ?",
+      "options": [
+        "L'humour (Witz) et l'équilibre classique",
+        "La douleur romantique extrême",
+        "L'absence totale de rythme",
+        "Le chaos sonore"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'Empereur, l'un de ses quatuors, contient le thème de l'hymne allemand actuel.",
+      "reponse": true
+    }
+  ]
+}

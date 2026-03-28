@@ -1,0 +1,95 @@
+{
+  "id": "quiz42",
+  "titre": "JS Expert : Streams API",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage principal des Streams par rapport à la lecture classique (ex: .json()) ?",
+      "options": [
+        "Traiter les données par morceaux (chunks) sans charger tout le fichier en mémoire",
+        "Crypter les fichiers automatiquement",
+        "Accélérer le processeur graphique",
+        "Supprimer les doublons"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "ReadableStream est l'interface pour lire un flux de données.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour lire un ReadableStream, on doit obtenir un `{{1}}` via la méthode getReader().",
+      "reponsesAttendues": [
+        "reader",
+        "lecteur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet de connecter un ReadableStream à un WritableStream ?",
+      "options": [
+        "pipeTo()",
+        "connectTo()",
+        "sendTo()",
+        "flowTo()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La méthode `tee()` permet de diviser un flux en deux branches identiques.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un TransformStream ?",
+      "options": [
+        "Un flux qui modifie les données au passage (ex: compression, traduction)",
+        "Un flux qui change d'instrument",
+        "Un flux qui s'arrête tout seul",
+        "Un flux de nombres aléatoires"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'objet retourné par reader.read() contient deux propriétés : value et `{{1}}`.",
+      "reponsesAttendues": [
+        "done"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les Streams sont particulièrement utiles pour la vidéo ou les très gros fichiers CSV.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Backpressure' ?",
+      "options": [
+        "Un mécanisme signalant au producteur de ralentir car le consommateur est surchargé",
+        "Une erreur réseau",
+        "Un type de bouton",
+        "Une technique de CSS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Fetch renvoie un objet Response dont la propriété .body est un ReadableStream.",
+      "reponse": true
+    }
+  ]
+}

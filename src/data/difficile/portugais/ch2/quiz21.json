@@ -1,0 +1,90 @@
+{
+  "id": "quiz21",
+  "titre": "Cinéma Portugais",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est le cinéaste portugais le plus célèbre, doyen du cinéma mondial à sa mort ?",
+      "options": [
+        "Manoel de Oliveira",
+        "João César Monteiro",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le film 'Aniki-Bóbó' (1942) est le premier long-métrage de fiction de Manoel de Oliveira.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le cinéma portugais est souvent caractérisé par un rythme lent et une grande dimension {{1}} (ex: Pedro Costa).",
+      "reponsesAttendues": ["poétique", "esthétique", "contemplative"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel réalisateur contemporain a remporté l'Ours d'Or à Berlin en 2012 pour 'Tabu' ?",
+      "options": [
+        "Miguel Gomes",
+        "João Pedro Rodrigues",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "João César Monteiro est célèbre pour sa 'Trilogie de Dieu' où il incarne le personnage de João de Deus.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel aspect définit souvent le cinéma de Pedro Costa ?",
+      "options": [
+        "L'usage d'acteurs non professionnels et une lumière caravagesque",
+        "Le cinéma d'action et les explosions",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le film 'Le Soulier de {{1}}' (A Sapato de Cetim) est une adaptation monumentale de Paul Claudel par Oliveira.",
+      "reponsesAttendues": ["Satin"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le cinéma portugais bénéficie d'une aide importante de l'État via l'ICA.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel de ces réalisateurs fait partie de la nouvelle génération ?",
+      "options": [
+        "João Salaviza",
+        "Manoel de Oliveira",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le cinéma portugais est plus reconnu dans les festivals internationaux qu'auprès du grand public commercial.",
+      "reponse": true
+    }
+  ]
+}

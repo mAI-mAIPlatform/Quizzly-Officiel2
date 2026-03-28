@@ -1,0 +1,95 @@
+{
+  "id": "quiz23",
+  "titre": "Literatura : Camões e o Classicismo",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qual é a grande epopeia de Luís de Camões ?",
+      "options": [
+        "Os Lusíadas",
+        "Mensagem",
+        "Auto da Barca do Inferno",
+        "Amor de Perdição"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Os Lusíadas' narra a viagem de Vasco da Gama à Índia.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O estilo literário de Camões, caracterizado pela perfeição formal, é o `{{1}}`.",
+      "reponsesAttendues": [
+        "Classicismo",
+        "Renascimento"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qual estrofe Camões utiliza n'Os Lusíadas ?",
+      "options": [
+        "Oitava rima (ABABABCC)",
+        "Quadra",
+        "Terceto",
+        "Verso livre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Camões também é famoso pelos seus sonetos (Lírica Camoniana).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quem são as 'Tágides' na obra de Camões ?",
+      "options": [
+        "As ninfas do rio Tejo a quem o poeta pede inspiração",
+        "Inimigos do herói",
+        "As filhas de Vasco da Gama",
+        "Navegantes gregos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "A figura mitológica que personifica os perigos do mar no Cabo das Tormentas é o gigante `{{1}}`.",
+      "reponsesAttendues": [
+        "Adamastor"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Camões morreu pobre e doente, apesar da grandeza da sua obra.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "O verso camoniano é predominantemente ?",
+      "options": [
+        "Decassílabo (medida nova)",
+        "Redondilha maior",
+        "Dodecassílabo",
+        "Heptassílabo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Os Lusíadas é dividido em 10 cantos.",
+      "reponse": true
+    }
+  ]
+}

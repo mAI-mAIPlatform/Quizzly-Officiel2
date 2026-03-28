@@ -1,0 +1,90 @@
+{
+  "id": "quiz25",
+  "titre": "Défis de l'Environnement",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le projet MOSE à Venise ?",
+      "options": [
+        "Un système de digues mobiles pour protéger la ville de l'Acqua Alta",
+        "Un nouveau tunnel",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Italie est l'un des pays européens les plus exposés aux risques sismiques et volcaniques.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le {{1}} (dissesto) idrogeologico désigne la fragilité du territoire face aux inondations et glissements de terrain.",
+      "reponsesAttendues": ["dissesto"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle source d'énergie renouvelable est massivement développée dans le Sud du pays ?",
+      "options": [
+        "Le Solaire et l'Éolien",
+        "Le Nucléaire (interdit par référendum)",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'Italie a renoncé à l'énergie nucléaire civile par deux référendums (1987 et 2011).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel mouvement écologiste a été fondé par Carlo Petrini en Italie et s'est étendu au monde entier ?",
+      "options": [
+        "Slow Food",
+        "Greenpeace Italy",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La {{1}} (transition) écologique est au cœur du plan de relance PNRR.",
+      "reponsesAttendues": ["transition", "transizione"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'Italie est championne d'Europe du recyclage des déchets (économie circulaire).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le volcan le plus actif d'Europe, situé en Sicile ?",
+      "options": [
+        "L'Etna",
+        "Le Vésuve",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La préservation du paysage (paesaggio) est inscrite parmi les principes fondamentaux de la Constitution.",
+      "reponse": true
+    }
+  ]
+}

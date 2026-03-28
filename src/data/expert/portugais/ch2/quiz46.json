@@ -1,0 +1,94 @@
+{
+  "id": "quiz46",
+  "titre": "Português Expert : Acentuação e Acordo Ortográfico",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "O que aconteceu ao trema (¨) com o novo Acordo Ortográfico ?",
+      "options": [
+        "Foi abolido de todas as palavras (excepto nomes estrangeiros)",
+        "Passou a ser obrigatório",
+        "Ficou igual",
+        "Só se usa em Portugal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Os ditongos abertos 'ei' e 'oi' em palavras paroxítonas perderam o acento (ex: ideia, joia).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "As palavras oxítonas terminadas em `{{1}}` (ex: café, sofá, cipó) continuam a ser acentuadas.",
+      "reponsesAttendues": [
+        "a, e, o"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qual acento desapareceu no hiato 'ee' e 'oo' ?",
+      "options": [
+        "O acento circunflexo (ex: vêem -> veem, vôo -> voo)",
+        "O acento agudo",
+        "A crase",
+        "O til"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "A palavra 'Pára' (verbo parar) perdeu o acento diferencial e escreve-se 'Para'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Como se escreve agora a palavra para 'micro-ordinateur' ?",
+      "options": [
+        "Microcomputador (sem hífen porque a vogal é diferente)",
+        "Micro-computador",
+        "Micro computador",
+        "Microcomputador"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Usa-se o hífen quando o prefixo termina na `{{1}}` vogal que inicia a palavra (ex: micro-ondas).",
+      "reponsesAttendues": [
+        "mesma"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Anti-social' escreve-se agora 'antissocial' (duplica-se o S).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qual a regra para o hífen com o prefixo 'Sub' ?",
+      "options": [
+        "Usa-se apenas antes de R ou H (ex: sub-região)",
+        "Usa-se sempre",
+        "Nunca se usa",
+        "Só em Portugal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "O Acordo Ortográfico visa unificar a escrita de todos os países lusófonos.",
+      "reponse": true
+    }
+  ]
+}

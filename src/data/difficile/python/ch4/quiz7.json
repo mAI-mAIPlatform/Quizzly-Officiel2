@@ -1,0 +1,90 @@
+{
+  "id": "quiz7",
+  "titre": "Compréhensions Avancées",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment créer une compréhension de dictionnaire ?",
+      "options": [
+        "{k: v for k, v in ...}",
+        "[k: v for k, v in ...]",
+        "(k: v for k, v in ...)",
+        "dict(k: v for ...)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une compréhension d'ensemble (Set) utilise des accolades { }.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une syntaxe (x for x in ...) crée un {{1}} et non un tuple.",
+      "reponsesAttendues": ["générateur", "generator"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Peut-on mettre un 'if' à la fin d'une compréhension ?",
+      "options": [
+        "Oui, pour filtrer les éléments",
+        "Non",
+        "Seulement pour les listes",
+        "Seulement en Python 3.10"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser des boucles for imbriquées dans une compréhension.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle est la syntaxe pour un 'if/else' dans une compréhension (conditionnelle de valeur) ?",
+      "options": [
+        "[val if cond else other for ...]",
+        "[val for ... if cond else other]",
+        "[val for ... where cond else other]",
+        "Error"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Depuis Python 3.8, on peut utiliser l'opérateur {{1}} (Walrus) dans une compréhension.",
+      "reponsesAttendues": [":="]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les compréhensions sont plus lentes que les boucles for classiques.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que retourne {x for x in [1, 2, 2, 3]} ?",
+      "options": [
+        "{1, 2, 3}",
+        "[1, 2, 2, 3]",
+        "{1, 2, 2, 3}",
+        "(1, 2, 3)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il est déconseillé de créer des compréhensions trop complexes (plus de 2 niveaux) pour garder la lisibilité.",
+      "reponse": true
+    }
+  ]
+}

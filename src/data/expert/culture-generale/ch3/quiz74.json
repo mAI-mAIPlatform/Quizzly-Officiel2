@@ -1,0 +1,94 @@
+{
+  "id": "quiz74",
+  "titre": "Culture Générale Expert : La Seconde Guerre Mondiale (1939-1945)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel événement marque le début de la guerre en Europe le 1er septembre 1939 ?",
+      "options": [
+        "L'invasion de la Pologne par l'Allemagne",
+        "Le débarquement en Normandie",
+        "L'attaque de Pearl Harbor",
+        "L'annexion de l'Autriche"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La 'Shoah' (ou Holocauste) désigne l'extermination systématique des Juifs d'Europe par le régime nazi.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attaque de `{{1}}` par le Japon a provoqué l'entrée en guerre des États-Unis en décembre 1941.",
+      "reponsesAttendues": [
+        "Pearl Harbor"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle bataille sur le front de l'Est (1942-1943) est considérée comme le tournant majeur de la guerre ?",
+      "options": [
+        "Stalingrad",
+        "Koursk",
+        "Moscou",
+        "Léningrad"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le débarquement allié en Normandie a eu lieu le 6 juin 1944.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Où ont été larguées les premières bombes atomiques en août 1945 ?",
+      "options": [
+        "Hiroshima et Nagasaki",
+        "Tokyo et Osaka",
+        "Pékin",
+        "Berlin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La `{{1}}` (Resistance) désigne les mouvements luttant contre l'occupation nazie dans les pays envahis.",
+      "reponsesAttendues": [
+        "Resistance"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'Axe regroupait principalement l'Allemagne, l'Italie et le Japon.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel adjectif qualifie cette guerre où toutes les ressources sont mobilisées et où les civils sont des cibles ?",
+      "options": [
+        "Guerre totale",
+        "Guerre de mouvement",
+        "Guerre asymétrique",
+        "Guerre froide"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les procès de Nuremberg ont jugé les hauts responsables nazis pour crimes contre l'humanité.",
+      "reponse": true
+    }
+  ]
+}

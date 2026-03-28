@@ -1,0 +1,94 @@
+{
+  "id": "quiz48",
+  "titre": "Latin Expert : Métrique & Versification",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Sur quoi repose la métrique latine ?",
+      "options": [
+        "La quantité des syllabes (longues ou brèves)",
+        "L'accent tonique uniquement",
+        "Les rimes en fin de vers",
+        "Le nombre de lettres par mot"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'hexamètre dactylique est le vers de l'épopée (ex: l'Énéide).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un dactyle est composé d'une syllabe `{{1}}` suivie de deux brèves.",
+      "reponsesAttendues": [
+        "longue"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'spondée' ?",
+      "options": [
+        "Deux syllabes longues",
+        "Deux syllabes brèves",
+        "Une longue et une brève",
+        "Une chanson triste"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'élision consiste à ne pas prononcer la voyelle finale d'un mot devant un mot commençant par une voyelle ou un 'h'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Combien de pieds compte un hexamètre ?",
+      "options": [
+        "6",
+        "5",
+        "12",
+        "8"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La `{{1}}` est une pause à l'intérieur d'un pied, nécessaire à la respiration du vers.",
+      "reponsesAttendues": [
+        "césure"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le dernier pied d'un hexamètre est toujours un spondée ou un trochée.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une syllabe longue 'par position' ?",
+      "options": [
+        "Une voyelle brève suivie de deux consonnes",
+        "Une voyelle au début du vers",
+        "Une voyelle accentuée",
+        "Une voyelle muette"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le 'distique élégiaque' est composé d'un hexamètre et d'un pentamètre.",
+      "reponse": true
+    }
+  ]
+}

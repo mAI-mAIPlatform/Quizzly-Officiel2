@@ -1,0 +1,95 @@
+{
+  "id": "quiz92",
+  "titre": "Italien Expert : Industrie et Automobile",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle holding historique, fondée par la famille Agnelli, contrôle de grandes marques comme Fiat ou Ferrari ?",
+      "options": [
+        "Exor",
+        "Pirelli",
+        "Leonardo",
+        "Eni"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Ferrari est basée à Maranello, dans la région Émilie-Romagne.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La ville de `{{1}}` (Torino/Turin) est historiquement le berceau de l'industrie automobile italienne.",
+      "reponsesAttendues": [
+        "Torino",
+        "Turin"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel groupe multinational est né de la fusion entre PSA et Fiat Chrysler Automobiles (FCA) ?",
+      "options": [
+        "Stellantis",
+        "Iveco",
+        "Cnh Industrial",
+        "Brembo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'Italie est un leader mondial dans la production de yachts de luxe.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle entreprise italienne est un géant mondial de l'énergie (pétrole et gaz) ?",
+      "options": [
+        "ENI",
+        "ENEL",
+        "Snam",
+        "Terna"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le groupe `{{1}}` (Leonardo) est le leader italien dans les domaines de l'aéronautique, de la défense et de la sécurité.",
+      "reponsesAttendues": [
+        "Leonardo"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Ducati est une célèbre marque italienne de voitures de luxe.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel designer est célèbre pour avoir dessiné de nombreux modèles de voitures mythiques (Ferrari, Alfa Romeo) ?",
+      "options": [
+        "Pininfarina",
+        "Giorgio Armani",
+        "Renzo Piano",
+        "Valentino"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'Italie exporte massivement des machines-outils de haute précision.",
+      "reponse": true
+    }
+  ]
+}

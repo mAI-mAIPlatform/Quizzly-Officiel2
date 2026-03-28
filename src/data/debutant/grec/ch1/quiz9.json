@@ -1,0 +1,95 @@
+{
+  "id": "quiz9",
+  "titre": "Lecture avancée et accents",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où se place l'accent sur une majuscule (ex: Ἄ) ?",
+      "options": [
+        "Au-dessus",
+        "À gauche",
+        "À droite",
+        "En-dessous"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'accent aigu peut se placer sur n'importe laquelle des trois dernières syllabes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot 'ὁ' (l'article) porte un esprit {{1}}.",
+      "reponsesAttendues": [
+        "rude"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment se lit 'ἥλιος' (Hélios) ?",
+      "options": [
+        "Le soleil",
+        "La lune",
+        "L'étoile",
+        "Le vent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une voyelle avec un esprit doux se prononce normalement.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'βιβλιοθήκη' ?",
+      "options": [
+        "Un livre",
+        "Une bibliothèque",
+        "Une école",
+        "Un bureau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La lettre {{1}} (χ) se prononce comme une jota.",
+      "reponsesAttendues": [
+        "Chi",
+        "Khé"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le point-virgule (;) est le signe du point d'interrogation.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment se lit 'ψυχή' (Psyché) ?",
+      "options": [
+        "L'âme",
+        "Le corps",
+        "L'esprit",
+        "Le coeur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le 'υ' entre deux voyelles peut se prononcer comme un 'v'.",
+      "reponse": true
+    }
+  ]
+}

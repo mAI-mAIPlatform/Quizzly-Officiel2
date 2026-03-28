@@ -1,0 +1,94 @@
+{
+  "id": "quiz5",
+  "titre": "Le Verbe être (Sum)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'je suis' ?",
+      "options": [
+        "sum",
+        "es",
+        "est",
+        "sumus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Est' signifie 'il / elle est' ou 'il y a'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": " 'Tu es' se dit '{{1}}' (es).",
+      "reponsesAttendues": [
+        "es"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'sumus' ?",
+      "options": [
+        "Nous sommes",
+        "Vous êtes",
+        "Ils sont",
+        "Je suis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Estis' signifie 'vous êtes'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'ils sont' ?",
+      "options": [
+        "sunt",
+        "sumus",
+        "estis",
+        "sum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'infinitif du verbe être est '{{1}}' (esse).",
+      "reponsesAttendues": [
+        "esse"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le verbe être est irrégulier.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'Puella est laeta' ?",
+      "options": [
+        "La fille est joyeuse",
+        "La fille est triste",
+        "La fille est ici",
+        "La fille aime"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le mot 'présence' vient du participe présent du verbe être.",
+      "reponse": true
+    }
+  ]
+}

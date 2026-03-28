@@ -1,0 +1,90 @@
+{
+  "id": "quiz6",
+  "titre": "Économie / Monnaie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle monnaie d'argent était la plus utilisée sous la République ?",
+      "options": [
+        "Le Denier (Denarius)",
+        "Le Sesterce",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'économie romaine reposait massivement sur l'agriculture et le travail servile.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le port de Rome, par où arrivaient les marchandises, s'appelle {{1}}.",
+      "reponsesAttendues": ["Ostie"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'Annone (Annona) ?",
+      "options": [
+        "Le service chargé de l'approvisionnement en blé de la cité",
+        "Une fête",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les Romains commerçaient avec l'Inde et la Chine (Route de la Soie).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "La monnaie d'or à Rome s'appelle :",
+      "options": [
+        "L'Aureus",
+        "Le Louis",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Une grande exploitation agricole s'appelle un {{1}}.",
+      "reponsesAttendues": ["Latifundium"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'inflation a été un grave problème à la fin de l'Empire.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Le troc était-il encore utilisé ?",
+      "options": [
+        "Oui, dans les zones rurales reculées ou en période de crise",
+        "Non, jamais",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Rome était le centre d'un marché mondial interconnecté.",
+      "reponse": true
+    }
+  ]
+}

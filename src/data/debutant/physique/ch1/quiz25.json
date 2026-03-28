@@ -1,0 +1,94 @@
+{
+  "id": "quiz25",
+  "titre": "Les Aimants",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle matière est attirée par un aimant ?",
+      "options": [
+        "Le bois",
+        "Le fer",
+        "Le plastique",
+        "Le verre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un aimant a deux pôles : Nord et Sud.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Deux pôles identiques (ex: Nord et Nord) se {{1}}.",
+      "reponsesAttendues": [
+        "repoussent"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que font deux pôles opposés (Nord et Sud) ?",
+      "options": [
+        "Ils s'attirent",
+        "Ils se repoussent",
+        "Ils s'ignorent",
+        "Ils fondent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La Terre se comporte comme un aimant géant.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel objet utilise un aimant pour indiquer le Nord ?",
+      "options": [
+        "Une montre",
+        "Une boussole",
+        "Une règle",
+        "Un thermomètre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La force d'un aimant agit à {{1}} (sans contact direct).",
+      "reponsesAttendues": [
+        "distance"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Tous les métaux comme l'or ou l'argent sont attirés par les aimants.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Où sont les aimants sur un frigo ?",
+      "options": [
+        "Derrière les magnets",
+        "C'est de la colle",
+        "Dans la porte",
+        "Il n'y en a pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le magnétisme est une force invisible et fascinante !",
+      "reponse": true
+    }
+  ]
+}

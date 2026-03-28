@@ -1,0 +1,96 @@
+{
+  "id": "quiz72",
+  "titre": "HTML Expert : SEO Avancé et JSON-LD",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel format de données structurées est recommandé par Google pour implémenter Schema.org ?",
+      "options": [
+        "JSON-LD",
+        "Microdonnées (Microdata)",
+        "RDFa",
+        "XML"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le JSON-LD doit être placé dans une balise <script type='application/ld+json'>.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'URL `{{1}}` (Canonical) permet d'indiquer aux moteurs de recherche quelle version d'une page est l'originale pour éviter le contenu dupliqué.",
+      "reponsesAttendues": [
+        "canonique",
+        "canonical"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle balise meta permet d'interdire l'indexation d'une page par les robots ?",
+      "options": [
+        "<meta name='robots' content='noindex'>",
+        "<meta name='google' content='none'>",
+        "<meta name='index' content='false'>",
+        "<meta name='crawl' content='no'>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Open Graph (og:title, og:image) est un protocole géré par Facebook pour la mise en forme des partages sociaux.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie le marquage 'Structured Data' pour un moteur de recherche ?",
+      "options": [
+        "Fournir un contexte sémantique explicite sur le contenu (Produit, Recette, Événement, etc.)",
+        "Rendre le code plus beau",
+        "Ajouter des couleurs dans les résultats",
+        "Compacter le HTML"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut `hreflang` sert à indiquer les versions `{{1}}` (langues) d'une page pour le SEO international.",
+      "reponsesAttendues": [
+        "linguistiques",
+        "alternatives"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le fichier sitemap.xml aide les robots à découvrir les URLs de votre site.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle propriété Schema.org définit l'auteur d'un article ?",
+      "options": [
+        "author",
+        "creator",
+        "person",
+        "publisher"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La vitesse de chargement (Core Web Vitals) est un facteur de classement officiel pour Google.",
+      "reponse": true
+    }
+  ]
+}

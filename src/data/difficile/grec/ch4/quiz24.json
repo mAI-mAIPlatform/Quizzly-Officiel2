@@ -1,0 +1,90 @@
+{
+  "id": "quiz24",
+  "titre": "Géogr. Alexandrie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a dessiné la première carte du monde 'habité' (l'Ecoumène) basée sur des mesures ?",
+      "options": [
+        "Ératosthène",
+        "Hérodote",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Ératosthène a divisé la Terre en cinq zones climatiques (froides, tempérées, chaude).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le premier système de {{1}} et de longitude a été mis au point par Ératosthène et Hipparque.",
+      "reponsesAttendues": ["latitude"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle était la limite ouest du monde connu pour les Grecs d'Alexandrie ?",
+      "options": [
+        "Les colonnes d'Hercule (Gibraltar)",
+        "L'Amérique",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Pythéas de Marseille a navigué jusqu'en Europe du Nord et décrit l'île de Thulé.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "L'ouvrage 'Géographie' de Ptolémée fournissait :",
+      "options": [
+        "Les coordonnées géographiques de milliers de lieux",
+        "Des recettes de cuisine",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le calcul de la {{1}} de la Terre par Ératosthène utilisait la distance entre Alexandrie et Assouan.",
+      "reponsesAttendues": ["circonférence"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les Grecs pensaient que l'Océan entourait tout le bloc continental.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Le terme 'géographie' signifie étymologiquement :",
+      "options": [
+        "Écriture / Dessin de la Terre",
+        "Marche sur la Terre",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La géographie hellénistique était une science mathématique et astronomique rigoureuse.",
+      "reponse": true
+    }
+  ]
+}

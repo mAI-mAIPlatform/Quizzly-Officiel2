@@ -1,0 +1,90 @@
+{
+  "id": "quiz30",
+  "titre": "EXAMEN FINAL",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est le père de l'italien ?",
+      "options": [
+        "Dante",
+        "Manzoni",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le geste de la pyramide signifie 'Che vuoi?'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'expatriation des diplômés est la 'fuga dei {{1}}'.",
+      "reponsesAttendues": ["cervelli"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'Sprezzatura' ?",
+      "options": [
+        "Aisance naturelle feinte",
+        "Mépris",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le 'Lei' est formel.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Inciucio' ?",
+      "options": [
+        "Un complot / arrangement",
+        "Un petit gâteau",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'Accademia della {{1}} veille sur la langue.",
+      "reponsesAttendues": ["Crusca"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Prendere un granchio' est une erreur.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le moteur des PME ?",
+      "options": [
+        "Les Districts industriels",
+        "L'État",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "CONGRATULAZIONI ! Hai completato l'intero corso di Italiano Difficile ! 🇮🇹🏆🎓✨",
+      "reponse": true
+    }
+  ]
+}

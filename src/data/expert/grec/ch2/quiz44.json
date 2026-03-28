@@ -1,0 +1,94 @@
+{
+  "id": "quiz44",
+  "titre": "Grec Expert : Démosthène et l'Éloquence",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi Démosthène est-il considéré comme le plus grand orateur grec ?",
+      "options": [
+        "Pour sa maîtrise du rythme, de l'énergie (deinotès) et sa défense de la liberté athénienne",
+        "Parce qu'il parlait très vite",
+        "Parce qu'il a écrit des pièces de théâtre",
+        "Parce qu'il a gagné la guerre contre Philippe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les 'Philippiques' sont des discours dirigés contre Philippe II de Macédoine.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'art de la parole publique à Athènes se nomme la `{{1}}`.",
+      "reponsesAttendues": [
+        "rhétorique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel discours de Démosthène est un chef-d'oeuvre de justification personnelle ?",
+      "options": [
+        "Sur la Couronne (De Corona)",
+        "Contre Meidias",
+        "L'Olynthienne I",
+        "Sur la Paix"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Démosthène soignait son style pour éviter les hiatus (rencontre de deux voyelles).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le fait de s'adresser directement à l'adversaire ou au public par une question ?",
+      "options": [
+        "L'apostrophe",
+        "La métaphore",
+        "L'antithèse",
+        "L'hyperbole"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Philippe le Macédonien est présenté par Démosthène comme un `{{1}}` (non-Grec) ambitieux.",
+      "reponsesAttendues": [
+        "barbare"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Démosthène a commencé sa carrière comme logographe (rédacteur de discours pour autrui).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est l'objectif politique de Démosthène ?",
+      "options": [
+        "Maintenir l'hégémonie et l'indépendance d'Athènes face à la Macédoine",
+        "S'allier avec Philippe pour conquérir la Perse",
+        "Instaurer une dictature à Athènes",
+        "Vendre Athènes à Sparte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il aurait appris à parler clairement en mettant des cailloux dans sa bouche.",
+      "reponse": true
+    }
+  ]
+}

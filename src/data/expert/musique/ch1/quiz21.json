@@ -1,0 +1,94 @@
+{
+  "id": "quiz21",
+  "titre": "Histoire : Style Galant et École de Mannheim",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le style Galant (milieu XVIIIe) ?",
+      "options": [
+        "Un style privilégiant la mélodie simple et la clarté sur le contrepoint complexe",
+        "Un retour au chant grégorien",
+        "Une musique très dissonante",
+        "Un style uniquement guerrier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'École de Mannheim a développé des nuances orchestrales comme le crescendo.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le compositeur emblématique de l'École de Mannheim est Johann `{{1}}`.",
+      "reponsesAttendues": [
+        "Stamitz"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la 'fusée de Mannheim' ?",
+      "options": [
+        "Un trait d'orchestre ascendant rapide en arpège",
+        "Une explosion sur scène",
+        "Un instrument de cuivre",
+        "Une forme de danse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "vrai_faux",
+      "enonce": "Le style Galant rejette la basse continue systématique du Baroque.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel fils de Bach est une figure majeure de l'Empfindsamkeit (style de la sensibilité) ?",
+      "options": [
+        "Carl Philipp Emanuel Bach",
+        "Johann Christian Bach",
+        "Wilhelm Friedemann Bach",
+        "Sigismond Bach"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le style Galant assure la transition entre le Baroque et le `{{1}}`.",
+      "reponsesAttendues": [
+        "Classicisme",
+        "Classique"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'orchestre de Mannheim était considéré comme le meilleur d'Europe au XVIIIe siècle.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel instrument commence à remplacer le clavecin dans les salons ?",
+      "options": [
+        "Le Piano-forte",
+        "La flûte à bec",
+        "L'orgue positif",
+        "Le luth"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le 'soupir de Mannheim' est une appoggiature mélancolique.",
+      "reponse": true
+    }
+  ]
+}

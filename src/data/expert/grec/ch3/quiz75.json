@@ -1,0 +1,94 @@
+{
+  "id": "quiz75",
+  "titre": "Grec Expert : La Céramique et ses Secrets",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle technique domine le VIe siècle av. J.-C. avant d'être remplacée par la technique inverse ?",
+      "options": [
+        "La céramique à figures noires",
+        "La céramique à figures rouges",
+        "La céramique géométrique",
+        "La céramique corinthienne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La céramique à figures rouges permettait une plus grande finesse de détails car les traits étaient dessinés au pinceau.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'`{{1}}` est un grand vase à deux anses utilisé pour transporter et conserver les huiles ou le vin.",
+      "reponsesAttendues": [
+        "amphore"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel vase large, à large ouverture, servait à mélanger le vin et l'eau ?",
+      "options": [
+        "Le cratère",
+        "L'oenochoé",
+        "Le lécythe",
+        "L'hydrie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'ex-voto décoré 'Vase François' est un monument majeur du style attique.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel type de vase allongé était spécifiquement utilisé pour contenir les huiles parfumées lors des rituels funéraires ?",
+      "options": [
+        "Le lécythe",
+        "Le canthare",
+        "La kylix",
+        "L'aryballe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les scènes sur les vases grecs sont l'une de nos principales sources pour la vie `{{1}}` et la mythologie.",
+      "reponsesAttendues": [
+        "quotidienne"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Certains peintres de vases signaient leurs œuvres (ex: Euphronios).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'oiseau aux grands yeux qui symbolise Athènes sur ses célèbres pièces et céramiques ?",
+      "options": [
+        "La chouette",
+        "L'aigle",
+        "Le faucon",
+        "Le héron"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le style géométrique est antérieur à la période classique.",
+      "reponse": true
+    }
+  ]
+}

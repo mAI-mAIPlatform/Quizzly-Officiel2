@@ -1,0 +1,95 @@
+{
+  "id": "quiz77",
+  "titre": "Python Expert : CPython Internals",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quel langage est écrite l'implémentation de référence de Python (CPython) ?",
+      "options": [
+        "C",
+        "C++",
+        "Java",
+        "Rust"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Python est compilé en bytecode avant d'être exécuté par la machine virtuelle.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Global Interpreter Lock) empêche l'exécution simultanée de bytecode Python par plusieurs threads sur des processeurs multi-cœurs.",
+      "reponsesAttendues": [
+        "GIL"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la structure de base représentant tout objet en CPython ?",
+      "options": [
+        "PyObject",
+        "PyValue",
+        "PythonClass",
+        "ObjectHeader"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "CPython utilise principalement le comptage de références pour la gestion de la mémoire.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment s'appelle le dictionnaire global contenant tous les objets actuellement en mémoire ?",
+      "options": [
+        "Il n'y en a pas un seul, ils sont divisés par scopes",
+        "MemoryMap",
+        "ObjectBrowser",
+        "ValueStore"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Garbage Collector) de Python s'occupe de détecter et supprimer les cycles de références circulaires.",
+      "reponsesAttendues": [
+        "GC",
+        "ramasse-miettes"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les entiers de -5 à 256 sont pré-alloués (interned) pour optimiser les performances.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel module permet d'inspecter le bytecode d'une fonction Python ?",
+      "options": [
+        "dis",
+        "inspect",
+        "bytecode",
+        "sys"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les 'slots' (`__slots__`) permettent d'économiser de la mémoire en évitant la création de `__dict__` pour chaque instance.",
+      "reponse": true
+    }
+  ]
+}

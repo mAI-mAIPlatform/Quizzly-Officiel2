@@ -1,0 +1,91 @@
+{
+  "id": "quiz29",
+  "titre": "Synthèse : Le Vivant et l'Environnement",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Une plante a besoin d'eau et de ...",
+      "options": [
+        "Sable",
+        "Lumière",
+        "Sucre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La graine contient l'embryon de la plante.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le lapin est un animal {{1}} (régime).",
+      "reponsesAttendues": [
+        "herbivore",
+        "phytophage"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la base d'une chaîne alimentaire ?",
+      "options": [
+        "Un animal",
+        "Un végétal",
+        "Un champignon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les branchies servent à respirer sous l'eau.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Où vivent les dromadaires ?",
+      "options": [
+        "Forêt",
+        "Désert",
+        "Océan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La {{1}} est la diversité des espèces.",
+      "reponsesAttendues": [
+        "biodiversité"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le recyclage aide la planète.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Un animal omnivore mange ...",
+      "options": [
+        "Que de l'herbe",
+        "Que de la viande",
+        "De tout"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Félicitations ! Tu connais bien le monde vivant !",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz26",
+  "titre": "Pronoms Réfléchis",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un pronom réfléchi en grec ?",
+      "options": [
+        "Un pronom qui renvoie au sujet de la proposition (se-même)",
+        "Un pronom qui désigne une autre personne",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le pronom réfléchi de la 3e personne est 'heautou' (ἑαυτοῦ).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le pronom réfléchi de la 1e personne (moi-même) est '{{1}}'.",
+      "reponsesAttendues": ["emautou"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la forme contractée de 'heautou' ?",
+      "options": [
+        "hautou (αὑτοῦ)",
+        "autou (αὐτοῦ)",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les pronoms réfléchis n'ont pas de nominatif.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'allèlōn' (ἀλλήλων) ?",
+      "options": [
+        "L'un l'autre (pronom réciproque)",
+        "Eux-mêmes",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le réfléchi direct renvoie au sujet de sa propre proposition, le réfléchi {{1}} renvoie au sujet de la principale.",
+      "reponsesAttendues": ["indirect"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Autos' (αὐτός) seul signifie 'lui-même' (insistance), mais précédé de l'article, il signifie 'le même'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Usage de 'heautous' ?",
+      "options": [
+        "Se-mêmes (3e pers. pluriel)",
+        "Nous-mêmes",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La distinction entre 'autos' et 'heautou' est une base de l'analyse logique.",
+      "reponse": true
+    }
+  ]
+}

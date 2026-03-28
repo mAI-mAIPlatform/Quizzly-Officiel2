@@ -1,0 +1,94 @@
+{
+  "id": "quiz94",
+  "titre": "Italien Expert : Immigration et Intégration",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel pays a été historiquement un pays de forte émigration avant de devenir une terre d'accueil ?",
+      "options": [
+        "L'Italie",
+        "La Suède",
+        "Le Japon",
+        "La Chine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'île de Lampedusa est l'un des principaux points d'arrivée des migrants traversant la Méditerranée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le débat sur l'octroi de la nationalité aux enfants d'immigrés nés en Italie s'appelle le `{{1}}` (Ius Soli).",
+      "reponsesAttendues": [
+        "Ius Soli"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la communauté étrangère la plus représentée en Italie (en excluant les citoyens de l'UE) ?",
+      "options": [
+        "Albanais / Marocains",
+        "Américains",
+        "Russes",
+        "Australiens"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le secteur agricole italien dépend fortement de la main-d'œuvre immigrée.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le décret qui gère les flux d'entrée des travailleurs étrangers en Italie ?",
+      "options": [
+        "Decreto Flussi",
+        "Decreto Sicurezza",
+        "Legge Migrazione",
+        "Visto Italia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les `{{1}}` (Nuovi Italiani) sont les citoyens d'origine étrangère qui contribuent à la diversité culturelle du pays.",
+      "reponsesAttendues": [
+        "Nuovi Italiani"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'Italie n'a jamais connu de période de colonisation en Afrique.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le rôle de la Garde Côtière (Guardia Costiera) face aux flux migratoires ?",
+      "options": [
+        "Sauvetage en mer (Search and Rescue)",
+        "Gestion des visas",
+        "Éducation scolaire",
+        "Construction de routes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le système de protection pour demandeurs d'asile et réfugiés en Italie a souvent changé de nom (ex: SIPROIMI, SAI).",
+      "reponse": true
+    }
+  ]
+}

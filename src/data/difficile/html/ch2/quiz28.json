@@ -1,0 +1,90 @@
+{
+  "id": "quiz28",
+  "titre": "Formats et Codecs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le container vidéo le plus supporté ?",
+      "options": [
+        "MP4",
+        "AVI",
+        "MOV",
+        "MKV"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "H.264 (AVC) est le codec vidéo standard le plus répandu.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le codec libre {{1}} est une excellente alternative à H.264 par Google.",
+      "reponsesAttendues": ["VP9", "VP8"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quoi sert 'canPlayType()' en JS ?",
+      "options": [
+        "À vérifier si le navigateur peut lire un format spécifique",
+        "À transformer une vidéo",
+        "À rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "WebM supporte la transparence (canal alpha) contrairement au MP4 standard.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Format audio idéal pour la haute qualité sans perte (lossless) ?",
+      "options": [
+        "FLAC",
+        "MP3",
+        "AAC",
+        "WAV"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le codec {{1}} est devenu le standard pour l'audio web moderne (remplace MP3/AAC).",
+      "reponsesAttendues": ["Opus"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'codecs' dans la balise <source> aide le navigateur à choisir le bon fichier sans le télécharger.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle différence entre container et codec ?",
+      "options": [
+        "Le container est la boîte (.mp4), le codec est l'algorithme de compression (H.264)",
+        "C'est la même chose",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Maîtriser les codecs permet d'optimiser le poids des fichiers multimédias.",
+      "reponse": true
+    }
+  ]
+}

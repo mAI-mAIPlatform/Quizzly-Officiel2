@@ -3,5 +3,30 @@
   "titre": "Grec",
   "niveau": "Savant",
   "description": "Découvre et maîtrise tout le programme de Grec au niveau Savant !",
-  "chapitres": []
+  "chapitres": [
+    {
+      "id": "ch1",
+      "titre": "Linguistique & Dialectologie",
+      "lecons": ["Mycénien et Linéaire B", "Proto-grec", "Évolution dialectale"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch2",
+      "titre": "Analyse Philologique",
+      "lecons": ["Transmission des manuscrits", "Critique verbale", "Papyrologie"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch3",
+      "titre": "Rhétorique & Sophistique",
+      "lecons": ["Le pouvoir du Logos", "Analyse de discours", "Écoles de pensée"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch4",
+      "titre": "Héritage & Réception",
+      "lecons": ["Le grec au Moyen-Âge", "Humanisme byzantin", "Influence sur le lexique moderne"],
+      "quizCount": 30
+    }
+  ]
 }

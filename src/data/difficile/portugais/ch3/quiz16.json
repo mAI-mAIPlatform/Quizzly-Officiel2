@@ -1,0 +1,90 @@
+{
+  "id": "quiz16",
+  "titre": "Le Portugal et l'UE",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "En quelle année le Portugal est-il entré dans la CEE (devenue Union Européenne) ?",
+      "options": [
+        "1er janvier 1986",
+        "1er janvier 1999",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'adhésion à la CEE a été vue comme une garantie de consolidation de la jeune démocratie portugaise.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le traité d'adhésion fut signé par le Premier ministre Mário {{1}} au monastère des Hiéronymites.",
+      "reponsesAttendues": ["Soares"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel pays est entré dans la CEE en même temps que le Portugal ?",
+      "options": [
+        "L'Espagne",
+        "La Grèce",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Portugal a adopté l'Euro comme monnaie dès sa création en 1999/2002.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel événement majeur a eu lieu à Lisbonne en 1998 pour montrer la modernisation du pays ?",
+      "options": [
+        "Expo 98 (Exposition Universelle)",
+        "Les Jeux Olympiques",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le Traité de {{1}} (2007) a été signé lors de la présidence portugaise du Conseil de l'UE.",
+      "reponsesAttendues": ["Lisbonne"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les fonds structurels européens ont permis une modernisation massive des infrastructures (autoroutes, ponts).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qui fut le premier Portugais à présider la Commission Européenne ?",
+      "options": [
+        "José Manuel Durão Barroso",
+        "António Guterres",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'appartenance à l'UE reste un pilier central de la politique étrangère portugaise.",
+      "reponse": true
+    }
+  ]
+}

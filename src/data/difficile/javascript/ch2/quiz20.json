@@ -1,0 +1,90 @@
+{
+  "id": "quiz20",
+  "titre": "Révisions : Design Patterns (1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel n'est PAS un pattern de comportement ?",
+      "options": [
+        "Observer",
+        "Strategy",
+        "Singleton",
+        "Command"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les patterns structurels gèrent la composition des classes et des objets.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un pattern qui fournit une interface simplifiée à un système complexe est un {{1}}.",
+      "reponsesAttendues": ["Façade", "Facade"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel pattern permet d'adapter l'interface d'une classe pour qu'elle corresponde à ce qu'un client attend ?",
+      "options": [
+        "Adapter",
+        "Bridge",
+        "Composite",
+        "Proxy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le pattern Proxy permet de contrôler l'accès à un objet ou d'ajouter une couche de cache.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment s'appelle le pattern qui permet de parcourir les éléments d'une collection sans exposer sa structure ?",
+      "options": [
+        "Iterator",
+        "Visitor",
+        "State",
+        "Flyweight"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'utilisation de patterns améliore la {{1}} du code.",
+      "reponsesAttendues": ["maintenabilité", "réutilisation"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Tous les patterns doivent impérativement utiliser des classes.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel pattern partage des objets pour économiser de la mémoire (ex: icônes d'une carte) ?",
+      "options": [
+        "Flyweight",
+        "Proxy",
+        "Facade",
+        "Singleton"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Un pattern est un modèle, pas un code fini prêt à copier-coller.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz11",
+  "titre": "Platon",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la doctrine centrale de la philosophie de Platon ?",
+      "options": [
+        "La Théorie des Idées (ou des Formes)",
+        "L'empirisme pur",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'allégorie de la caverne illustre le passage de l'ignorance à la connaissance.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'école fondée par Platon à Athènes s'appelait l'{{1}}.",
+      "reponsesAttendues": ["Académie"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel ouvrage de Platon traite de la cité idéale et de la justice ?",
+      "options": [
+        "La République (Politeia)",
+        "Le Banquet",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Platon utilise souvent la forme du dialogue pour exposer sa pensée.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est ce que le 'Démiurge' chez Platon ?",
+      "options": [
+        "L'artisan divin qui façonne le monde sensible sur le modèle des Idées",
+        "Un roi humain",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le dialogue '{{1}}' porte sur la nature de l'Eros et du Beau.",
+      "reponsesAttendues": ["Le Banquet", "Le Phèdre"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Platon souhaitait que les philosophes soient rois (ou les rois philosophes).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Le 'Phédon' raconte :",
+      "options": [
+        "Les derniers instants de Socrate et l'immortalité de l'âme",
+        "La guerre de Troie",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'influence de Platon est la base de toute la métaphysique occidentale.",
+      "reponse": true
+    }
+  ]
+}

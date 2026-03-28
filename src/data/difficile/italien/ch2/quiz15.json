@@ -1,0 +1,90 @@
+{
+  "id": "quiz15",
+  "titre": "Le Futurisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a publié le 'Manifeste du Futurisme' au Figaro en 1909 ?",
+      "options": [
+        "Filippo Tommaso Marinetti",
+        "Umberto Boccioni",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Futurisme exalte la vitesse, la machine, la violence et la rupture avec le passé.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Umberto {{1}} (Boccioni) est le principal peintre et sculpteur du mouvement futuriste.",
+      "reponsesAttendues": ["Boccioni"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est l'œuvre sculpturale la plus célèbre de Boccioni (représentant le mouvement) ?",
+      "options": [
+        "Formes uniques de la continuité dans l'espace",
+        "La Cité qui monte",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les futuristes souhaitaient détruire les musées et les bibliothèques.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel musicien futuriste a inventé les 'Intonarumori' (bruitistes) ?",
+      "options": [
+        "Luigi Russolo",
+        "Giacomo Balla",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'' {{1}}' (Architecture) futuriste fut théorisée par Antonio Sant'Elia.",
+      "reponsesAttendues": ["Architecture", "Architettura"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Futurisme a été le premier mouvement d'avant-garde italien à avoir un écho mondial.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel peintre futuriste a réalisé 'Le Dynamisme d'un chien en laisse' ?",
+      "options": [
+        "Giacomo Balla",
+        "Carlo Carrà",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Certains futuristes ont ensuite rattaché leur mouvement au fascisme naissant.",
+      "reponse": true
+    }
+  ]
+}

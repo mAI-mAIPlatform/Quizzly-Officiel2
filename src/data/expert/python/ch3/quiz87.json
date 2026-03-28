@@ -1,0 +1,94 @@
+{
+  "id": "quiz87",
+  "titre": "Python Expert : Packaging Moderne (pyproject.toml)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel fichier est devenu le standard central pour la configuration des projets Python (PEP 518/621) ?",
+      "options": [
+        "pyproject.toml",
+        "setup.py",
+        "requirements.txt",
+        "setup.cfg"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation de `setup.py` est désormais considérée comme 'legacy' (obsolète) pour la plupart des nouveaux projets.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (build-backend) spécifie l'outil utilisé pour construire le paquet (ex: setuptools.build_meta, poetry-core, hatchling).",
+      "reponsesAttendues": [
+        "build-backend"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel gestionnaire de dépendances et de packaging moderne utilise un fichier de 'lock' pour garantir la reproductibilité ?",
+      "options": [
+        "Poetry",
+        "pip",
+        "easy_install",
+        "venv"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le format TOML est plus facile à lire et à écrire pour les humains que le format XML ou JSON pour la configuration.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi sert la section [project.scripts] dans pyproject.toml ?",
+      "options": [
+        "Définir des points d'entrée de ligne de commande (CLI)",
+        "Lister les fichiers .py",
+        "Inclure des scripts bash",
+        "Désactiver les tests"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'outil `{{1}}` (Pdm) est un gestionnaire de paquets moderne supportant la PEP 582 (sans venv obligatoire).",
+      "reponsesAttendues": [
+        "Pdm"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Hatch est un outil de packaging moderne qui facilite la gestion des environnements et du versioning.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment spécifie-t-on les dépendances de développement dans pyproject.toml (selon la PEP 621) ?",
+      "options": [
+        "Dans [project.optional-dependencies]",
+        "Dans [dev-dependencies]",
+        "C'est impossible",
+        "Dans [build-system.requires]"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le packaging moderne favorise l'interopérabilité entre les différents outils du marché.",
+      "reponse": true
+    }
+  ]
+}

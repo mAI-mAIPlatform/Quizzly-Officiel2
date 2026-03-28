@@ -1,0 +1,94 @@
+{
+  "id": "quiz11",
+  "titre": "Les Besoins des Végétaux Verts",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "De quoi une plante verte a-t-elle besoin pour fabriquer sa propre matière ?",
+      "options": [
+        "De viande",
+        "D'eau, de sels minéraux, de lumière et de gaz carbonique",
+        "D'obscurité uniquement",
+        "De rien du tout"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les plantes vertes meurent si elles restent trop longtemps dans le noir complet.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La plante puise l'eau dans le sol grâce à ses {{1}}.",
+      "reponsesAttendues": [
+        "racines"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle substance donne sa couleur verte aux feuilles ?",
+      "options": [
+        "Le sang",
+        "La chlorophylle",
+        "L'encre",
+        "Le sirop"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une plante peut vivre sans lumière si elle a beaucoup d'engrais.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Où la plante trouve-t-elle les sels minéraux dont elle a besoin ?",
+      "options": [
+        "Dans l'air",
+        "Dans l'eau du sol",
+        "Dans les cailloux",
+        "Elle n'en a pas besoin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le processus par lequel la plante utilise la lumière pour grandir est la {{1}}.",
+      "reponsesAttendues": [
+        "photosynthèse"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'arrosage est indispensable pour la survie des plantes en pot.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que rejette une plante verte pendant la journée grâce à la lumière ?",
+      "options": [
+        "Du gaz carbonique",
+        "De l'oxygène (dioxygène)",
+        "De la poussière",
+        "Du sable"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les plantes sont les seuls êtres vivants capables de produire leur propre nourriture.",
+      "reponse": true
+    }
+  ]
+}

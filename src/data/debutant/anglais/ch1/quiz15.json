@@ -1,0 +1,94 @@
+{
+  "id": "quiz15",
+  "titre": "Pets and Animals",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'chat' ?",
+      "options": [
+        "Dog",
+        "Cat",
+        "Bird",
+        "Fish"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Dog' signifie chien.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un oiseau se dit a {{1}}.",
+      "reponsesAttendues": [
+        "bird"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'poisson' ?",
+      "options": [
+        "Fish",
+        "Frog",
+        "Fox",
+        "Fly"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Rabbit' signifie lapin.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel animal dit 'Miaou' ?",
+      "options": [
+        "The dog",
+        "The cat",
+        "The bird",
+        "The horse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Un cheval se dit a {{1}}.",
+      "reponsesAttendues": [
+        "horse"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Hamster' est le même mot en anglais.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'souris' ?",
+      "options": [
+        "Mouth",
+        "Mouse",
+        "Moose",
+        "Mole"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Avez-vous un animal de compagnie (a pet) ?",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "quiz94",
+  "titre": "HTML Expert : CSS Grid Level 2 et Subgrid",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert la valeur 'subgrid' dans CSS Grid ?",
+      "options": [
+        "À hériter de la structure des colonnes/lignes de la grille parente",
+        "À créer une grille masquée",
+        "À diviser une case en quatre",
+        "À annuler les styles de grille"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Subgrid permet d'aligner parfaitement des éléments situés dans des conteneurs enfants différents sur une grille commune.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On applique subgrid à la propriété `{{1}}` (grid-template-columns) ou grid-template-rows de l'élément enfant.",
+      "reponsesAttendues": [
+        "grid-template-columns",
+        "grid-template-rows"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la condition sine qua non pour utiliser subgrid on un élément ?",
+      "options": [
+        "Son parent doit être un conteneur grid (display: grid)",
+        "Il doit avoir une largeur fixe",
+        "Il doit être un <div>",
+        "Il doit utiliser Flexbox"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Subgrid hérite également des noms de lignes définis dans la grille parente.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment peut-on définir des gaps (espacements) spécifiques dans un subgrid ?",
+      "options": [
+        "On peut outrepasser le 'gap' parent en définissant une valeur sur l'élément subgrid",
+        "C'est impossible",
+        "En utilisant des marges négatives",
+        "En changeant la police"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La valeur `{{1}}` (masonry) est une future extension attendue de Grid pour créer des affichages de type 'briques'.",
+      "reponsesAttendues": [
+        "masonry"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Subgrid simplifie énormément la création de formulaires ou de cartes complexes alignés proprement.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel navigateur a été le premier à supporter Subgrid ?",
+      "options": [
+        "Firefox",
+        "Chrome",
+        "Safari",
+        "Edge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Un élément peut être un subgrid sur les colonnes mais posséder sa propre définition pour les lignes.",
+      "reponse": true
+    }
+  ]
+}

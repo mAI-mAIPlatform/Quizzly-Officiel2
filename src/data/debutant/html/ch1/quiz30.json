@@ -1,0 +1,94 @@
+{
+  "id": "quiz30",
+  "titre": "Examen Final : Chapitre 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "HTML signifie :",
+      "options": [
+        "HyperText Markup Language",
+        "Home Tool Modern Logic",
+        "Hyperlink Text Made Long",
+        "High Tech Media Language"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les balises <h1> à <h6> définissent les titres.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour créer une liste à puces, on utilise la balise {{1}}.",
+      "reponsesAttendues": [
+        "ul"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle balise entoure tout le contenu visible ?",
+      "options": [
+        "<html>",
+        "<head>",
+        "<body>",
+        "<main>"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On utilise <a> pour les images et <img> pour les liens.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel est un attribut ?",
+      "options": [
+        "href",
+        "src",
+        "alt",
+        "Tous ces choix"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour forcer un retour à la ligne, on utilise la balise {{1}}.",
+      "reponsesAttendues": [
+        "br"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un <div> est un élément de bloc.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est correct ?",
+      "options": [
+        "<a href='site.com'>Lien</a>",
+        "<a link='site.com'>Lien</a>",
+        "<b>Lien</b>",
+        "<p>Lien</p>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Félicitations, vous avez validé le Chapitre 1 de HTML !",
+      "reponse": true
+    }
+  ]
+}

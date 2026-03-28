@@ -1,0 +1,95 @@
+{
+  "id": "quiz61",
+  "titre": "Culture Générale Expert : Le Siècle des Lumières",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel ouvrage monumental, codirigé par Diderot et d'Alembert, visait à rassembler toutes les connaissances humaines ?",
+      "options": [
+        "L'Encyclopédie",
+        "Le Dictionnaire Philosophique",
+        "L'Esprit des Lois",
+        "Le Contrat Social"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Montesquieu a théorisé la séparation des trois pouvoirs (législatif, exécutif, judiciaire) dans 'De l'esprit des lois'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Voltaire était le champion de la lutte contre l'`{{1}}` (l'Infâme) et l'intolérance religieuse.",
+      "reponsesAttendues": [
+        "fanatisme",
+        "intolérance"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel philosophe a écrit 'Le Contrat Social', affirmant que la souveraineté réside dans le peuple ?",
+      "options": [
+        "Jean-Jacques Rousseau",
+        "John Locke",
+        "Denis Diderot",
+        "Emmanuel Kant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les Lumières privilégient la Raison et l'observation face à la tradition et aux dogmes.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui est l'auteur de 'Qu'est-ce que les Lumières ?' (Sapere aude ! Ose savoir !)",
+      "options": [
+        "Emmanuel Kant",
+        "David Hume",
+        "Adam Smith",
+        "Lessing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` Éclairé désigne la pratique de monarques (comme Frédéric II de Prusse) s'inspirant des idées des philosophes.",
+      "reponsesAttendues": [
+        "Despotisme"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'Affaire Calas est une célèbre bataille judiciaire menée par Voltaire pour réhabiliter un protestant injustement condamné.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel domaine de la connaissance Adam Smith a-t-il révolutionné avec 'La Richesse des Nations' ?",
+      "options": [
+        "L'Économie politique",
+        "La Biologie",
+        "L'Astronomie",
+        "La Musique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les salons littéraires, souvent tenus par des femmes, ont joué un rôle crucial dans la diffusion des idées nouvelles.",
+      "reponse": true
+    }
+  ]
+}

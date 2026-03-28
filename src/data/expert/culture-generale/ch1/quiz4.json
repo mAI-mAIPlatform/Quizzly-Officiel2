@@ -1,0 +1,94 @@
+{
+  "id": "quiz4",
+  "titre": "Histoire : Rome, de la République à l'Empire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle institution détenait le pouvoir suprême sous la République romaine ?",
+      "options": [
+        "Le Sénat",
+        "L'Empereur",
+        "Les Tribuns de la plèbe",
+        "Le Grand Pontife"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Octave, alias Auguste, fut le premier véritable empereur romain.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le sigle représentant l'autorité de l'État romain est `{{1}}` (Senatus Populusque Romanus).",
+      "reponsesAttendues": [
+        "SPQR"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui a franchi le Rubicon en 49 av. J.-C., déclenchant une guerre civile ?",
+      "options": [
+        "Jules César",
+        "Pompée",
+        "Sylla",
+        "Scipion l'Africain"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La 'Pax Romana' désigne la période de relative stabilité et de prospérité initiée par Auguste.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel empereur a légalisé le christianisme par l'édit de Milan en 313 ?",
+      "options": [
+        "Constantin",
+        "Néron",
+        "Marc Aurèle",
+        "Trajan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La garde personnelle de l'empereur s'appelait la garde `{{1}}`.",
+      "reponsesAttendues": [
+        "prétorienne"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'Empire romain d'Occident s'est effondré en 476 apr. J.-C.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qui étaient les Plébéiens ?",
+      "options": [
+        "La masse des citoyens n'appartenant pas à l'aristocratie (Patriciens)",
+        "Les esclaves affranchis",
+        "Les prêtres de Jupiter",
+        "Les soldats de fortune"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Hannibal était le grand général carthaginois qui a menacé Rome durant les Guerres Puniques.",
+      "reponse": true
+    }
+  ]
+}

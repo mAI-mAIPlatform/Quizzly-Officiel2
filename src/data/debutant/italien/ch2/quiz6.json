@@ -1,0 +1,94 @@
+{
+  "id": "quiz6",
+  "titre": "Les Boissons (Le Bevande)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'l'eau' ?",
+      "options": [
+        "l'acqua",
+        "il vino",
+        "la birra",
+        "il succo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Il vino' signifie le vin.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le jus de fruit se dit 'il {{1}}' (succo).",
+      "reponsesAttendues": [
+        "succo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'la birra' ?",
+      "options": [
+        "La bière",
+        "Le café",
+        "Le thé",
+        "Le lait"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Il caffè' s'écrit avec un accent sur le 'e'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'le thé' ?",
+      "options": [
+        "il tè",
+        "il latte",
+        "l'aranciata",
+        "la cioccolata"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": " 'Je bois' se dit 'Io {{1}}' (bevo).",
+      "reponsesAttendues": [
+        "bevo"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Bevo un'acqua gasata' signifie 'Je bois une eau gazeuse'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'le bevande' ?",
+      "options": [
+        "Les boissons",
+        "Les plats",
+        "Les sauces",
+        "Les desserts"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'italien fait souvent la différence entre 'naturale' (plate) et 'frizzante' (gazeuse) pour l'eau.",
+      "reponse": true
+    }
+  ]
+}

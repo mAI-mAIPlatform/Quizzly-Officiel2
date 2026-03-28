@@ -1,0 +1,90 @@
+{
+  "id": "quiz17",
+  "titre": "Le Quod de fait",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une proposition en 'quod' à l'indicatif ?",
+      "options": [
+        "Une complétive annonçant un fait réel (le fait que...)",
+        "Une question",
+        "Une cause fausse",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On l'utilise souvent après des verbes de sentiment (Gaudeo quod... = je me réjouis de ce que...).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Elle peut être annoncée par un pronom neutre comme {{1}} (id, hoc).",
+      "reponsesAttendues": ["id"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Différence avec 'ut' complétif ?",
+      "options": [
+        "Quod exprime un fait constaté / Ut exprime un but ou une volonté",
+        "Aucune",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le 'Quod' explicatif sert à préciser un point (Quant au fait que...).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Adde quod...'",
+      "options": [
+        "Ajoutez à cela que...",
+        "Allez vers...",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "On l'appelle aussi le quod {{1}} (explicatif).",
+      "reponsesAttendues": ["épexégétique"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le mode indicatif souligne la réalité objective du fait.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'Bene facis quod venis' ?",
+      "options": [
+        "Tu fais bien de venir",
+        "Tu viens bien",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Cette structure est très fréquente avec les verbes de louange ou de blâme.",
+      "reponse": true
+    }
+  ]
+}

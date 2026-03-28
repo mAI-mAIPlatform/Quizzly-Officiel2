@@ -1,0 +1,95 @@
+{
+  "id": "quiz82",
+  "titre": "Python Expert : Pattern Matching Avancé (Classes et Dictionnaires)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment faire correspondre une instance de classe dans un `match` ?",
+      "options": [
+        "case NomClasse(attribut=valeur):",
+        "case instance is NomClasse:",
+        "case {NomClasse: attribut}:",
+        "case NomClasse.match(attribut):"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour utiliser des arguments positionnels dans un motif de classe, il faut définir l'attribut spécial `__match_args__` dans la classe.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut `{{1}}` (__match_args__) doit être un tuple de chaînes de caractères correspondant aux noms des attributs.",
+      "reponsesAttendues": [
+        "__match_args__"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Dans un motif de dictionnaire `case {'user': name, **rest}:`, que contient `rest` ?",
+      "options": [
+        "Un dictionnaire contenant toutes les autres clés",
+        "Une liste des clés restantes",
+        "Rien, c'est une syntaxe invalide",
+        "Le reste de la chaîne de caractères"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Contrairement aux séquences, un motif de dictionnaire n'échoue pas si le dictionnaire contient des clés supplémentaires non mentionnées.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle syntaxe permet d'utiliser une constante nommée (ex: `Status.OK`) dans un motif sans qu'elle soit considérée comme une variable de capture ?",
+      "options": [
+        "Utiliser un point dans le nom (ex: Status.OK)",
+        "Utiliser des guillemets",
+        "Utiliser le préfixe const",
+        "C'est impossible"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Un `{{1}}` (guard) est une condition `if` placée après le motif qui doit être vraie pour que le `case` soit sélectionné.",
+      "reponsesAttendues": [
+        "guard",
+        "garde"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Pattern Matching permet de vérifier dynamiquement le type d'une valeur via `case int(x):` ou `case float(x):`.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Soit `Point(x, y)`. Si `__match_args__ = ('x', 'y')`, que fait `case Point(0, val):` ?",
+      "options": [
+        "Correspond si x vaut 0 et capture y dans val",
+        "Correspond à n'importe quel Point et met 0 dans x",
+        "Erreur de syntaxe",
+        "Correspond si y vaut 0 et capture x"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Pattern Matching évite l'utilisation excessive de `isinstance()` et de déballage manuel.",
+      "reponse": true
+    }
+  ]
+}

@@ -3,5 +3,30 @@
   "titre": "HTML",
   "niveau": "Génie",
   "description": "Découvre et maîtrise tout le programme de HTML au niveau Génie !",
-  "chapitres": []
+  "chapitres": [
+    {
+      "id": "ch1",
+      "titre": "Spécification WHATWG et W3C",
+      "lecons": ["Processus de standardisation", "Parsing algorithm", "Évolutions futures"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch2",
+      "titre": "Architecture Web Avancée",
+      "lecons": ["Composants réutilisables", "Shadow DOM complexe", "Isomorphisme"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch3",
+      "titre": "Accessibilité Universelle",
+      "lecons": ["Protocoles d'assistance", "Design inclusif", "WAI-ARIA avancé"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch4",
+      "titre": "Performance de Rendu",
+      "lecons": ["Critical Path Analysis", "Optimisation du DOM", "Rendering Engines"],
+      "quizCount": 30
+    }
+  ]
 }

@@ -1,0 +1,94 @@
+{
+  "id": "quiz21",
+  "titre": "Grammatica : Il Passato Remoto",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quando si usa principalmente il passato remoto nell'italiano moderno ?",
+      "options": [
+        "Nella lingua scritta letteraria e nel Sud Italia per azioni concluse",
+        "Sempre per azioni avvenute oggi",
+        "Solo per il futuro",
+        "Solo dopo il congiuntivo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il passato remoto di 'essere' alla 1a persona singolare è 'fui'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Il passato remoto di 'avere' alla 3a persona singolare è `{{1}}`.",
+      "reponsesAttendues": [
+        "ebbe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qual è il passato remoto di 'dire' (1a persona singolare) ?",
+      "options": [
+        "dissi",
+        "dicei",
+        "detti",
+        "dicevo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Molti verbi della seconda coniugazione (-ere) hanno un passato remoto irregolare in -si (es: leggere -> lessi).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qual è la 3a persona plurale del passato remoto di 'stare' ?",
+      "options": [
+        "stettero",
+        "stanno",
+        "stetterano",
+        "staranno"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Il passato remoto di 'venire' alla 1a persona singolare è `{{1}}`.",
+      "reponsesAttendues": [
+        "venni"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il passato remoto esprime un'azione passata sentita come psicologicamente lontana dal presente.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qual è la forma corretta di 'fare' (3a persona singolare) ?",
+      "options": [
+        "fece",
+        "fecce",
+        "fò",
+        "faceva"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il passato remoto è quasi scomparso nel parlato del Nord Italia.",
+      "reponse": true
+    }
+  ]
+}

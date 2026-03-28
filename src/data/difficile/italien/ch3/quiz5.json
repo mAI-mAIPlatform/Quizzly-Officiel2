@@ -1,0 +1,90 @@
+{
+  "id": "quiz5",
+  "titre": "Économie (PME/Districts)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le moteur principal de l'économie italienne ?",
+      "options": [
+        "Le réseau dense de PME (Petites et Moyennes Entreprises)",
+        "Quelques méga-corporations d'État",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un 'District industriel' est un groupement territorial d'entreprises spécialisées dans un même secteur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les '{{1}}' (A) de la production italienne sont : Alimentation, Automobile, Ameublement, l'Habillage (Mode).",
+      "reponsesAttendues": ["4", "quatre"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Dans quel secteur l'Italie excelle-t-elle au point d'être l'un des premiers exportateurs mondiaux ?",
+      "options": [
+        "Les machines-outils (Meccanica)",
+        "Le pétrole",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La 'Troisième Italie' désigne les régions du centre et du nord-est au développement économique dynamique.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle grande famille industrielle dirigeait le groupe Fiat pendant des décennies ?",
+      "options": [
+        "Agnelli",
+        "Benetton",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La ville de {{1}} (Biella) est un district mondialement connu pour la laine et les textiles.",
+      "reponsesAttendues": ["Biella"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le secteur du luxe représente une part vitale de la valeur des exportations italiennes.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le principal défi de l'économie italienne face à la mondialisation ?",
+      "options": [
+        "La taille réduite des entreprises face aux géants mondiaux",
+        "Le manque de créativité",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'Italie est la troisième économie de la zone euro.",
+      "reponse": true
+    }
+  ]
+}

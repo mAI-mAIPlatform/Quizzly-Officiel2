@@ -1,0 +1,90 @@
+{
+  "id": "quiz9",
+  "titre": "Concordance : Antériorité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel temps du subjonctif exprime l'antériorité par rapport à un présent ?",
+      "options": [
+        "Subjonctif parfait",
+        "Subjonctif plus-que-parfait",
+        "Subjonctif présent",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le subjonctif plus-que-parfait exprime l'antériorité par rapport à un passé.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Traduisez : 'Je savais ce que tu avais fait' -> 'Sciebam quid {{1}}'.",
+      "reponsesAttendues": ["egisses", "fecisses"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Différence entre subjonctif parfait et subjonctif imparfait ?",
+      "options": [
+        "Parfait = action passée et finie / Imparfait = action simultanée",
+        "Aucune",
+        "L'inverse",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Après un parfait (temps secondaire), on ne peut JAMAIS utiliser un subjonctif présent.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'antériorité' ?",
+      "options": [
+        "L'action de la subordonnée s'est passée AVANT l'action de la principale",
+        "Après",
+        "En même temps",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Subjonctif parfait = Radical du parfait + {{1}} (sim, sis...).",
+      "reponsesAttendues": ["-eri-"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le subjonctif parfait actif ressemble beaucoup au futur antérieur.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Dites : 'Je demande ce qui s'est passé'",
+      "options": [
+        "Rogo quid acciderit",
+        "Rogo quid accidat",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'antériorité est cruciale dans les interrogatives indirectes.",
+      "reponse": true
+    }
+  ]
+}

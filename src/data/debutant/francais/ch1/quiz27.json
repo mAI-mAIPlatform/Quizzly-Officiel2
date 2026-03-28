@@ -1,0 +1,94 @@
+{
+  "id": "quiz27",
+  "titre": "Sons complexes : ain, ein, oin",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment écrit-on le son dans 'une ___' (l'organe de la respiration des poissons) ?",
+      "options": [
+        "ein",
+        "ain",
+        "oi",
+        "on"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Main' s'écrit avec 'ain'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Du p{{1}} (que l'on mange).",
+      "reponsesAttendues": [
+        "ain"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment écrit-on le son dans 'un p___itre' ?",
+      "options": [
+        "ain",
+        "ein",
+        "on",
+        "in"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Foin' s'écrit avec 'oin'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Complète : Le c___ de la rue.",
+      "options": [
+        "ain",
+        "ein",
+        "oin",
+        "in"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le pl{{1}} (d'essence).",
+      "reponsesAttendues": [
+        "ein"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Train' s'écrit avec 'ein'.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel mot contient le son 'oin' ?",
+      "options": [
+        "lapin",
+        "sapin",
+        "pingouin",
+        "point"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Ces sons se ressemblent mais ont des écritures différentes qu'il faut mémoriser.",
+      "reponse": true
+    }
+  ]
+}

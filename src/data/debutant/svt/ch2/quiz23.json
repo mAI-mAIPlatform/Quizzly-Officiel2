@@ -1,0 +1,95 @@
+{
+  "id": "quiz23",
+  "titre": "La Protection de la Biodiversité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la biodiversité ?",
+      "options": [
+        "Le nombre d'humains sur Terre",
+        "La diversité de toutes les espèces vivantes",
+        "La météo",
+        "Le nombre de voitures"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Certaines espèces animales ou végétales sont en train de disparaître.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On dit qu'une espèce est en {{1}} de disparition.",
+      "reponsesAttendues": [
+        "danger",
+        "voie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi des animaux disparaissent-ils ?",
+      "options": [
+        "Parce qu'on détruit leur habitat",
+        "À cause de la chasse excessive",
+        "À cause de la pollution",
+        "Toutes ces réponses combinées"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Protéger la forêt aide à protéger la biodiversité.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces zones est protégée par la loi ?",
+      "options": [
+        "Un parking de supermarché",
+        "Un parc national ou une réserve naturelle",
+        "Une usine",
+        "Une route"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'{{1}} (insecte) est très important pour polliniser les fleurs.",
+      "reponsesAttendues": [
+        "abeille"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il n'est pas possible d'aider les animaux à notre niveau.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel geste protège la vie sauvage ?",
+      "options": [
+        "Ne pas arracher de fleurs rares en montagne",
+        "Donner n'importe quoi à manger aux canards",
+        "Crier très fort en forêt",
+        "Laisser ses déchets sur la plage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Toutes les espèces sont liées les unes aux autres.",
+      "reponse": true
+    }
+  ]
+}

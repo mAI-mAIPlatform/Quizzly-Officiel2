@@ -1,0 +1,94 @@
+{
+  "id": "quiz31",
+  "titre": "JS Expert : L'Event Loop",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quel ordre sont exécutées les tâches suivantes dans l'Event Loop ?",
+      "options": [
+        "Call Stack -> Microtasks -> Macrotasks",
+        "Macrotasks -> Microtasks -> Call Stack",
+        "Microtasks -> Call Stack -> Macrotasks",
+        "Call Stack -> Macrotasks -> Microtasks"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les callbacks de Promises sont des Microtasks.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La fonction native permettant d'ajouter manuellement une microtâche est `{{1}}`.",
+      "reponsesAttendues": [
+        "queueMicrotask"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel est une Macrotask ?",
+      "options": [
+        "setTimeout",
+        "Promise.then",
+        "process.nextTick",
+        "MutationObserver"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'Event Loop est bloqué tant qu'une fonction infinie s'exécute dans la Call Stack.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "En Node.js, quelle phase de l'Event Loop traite les 'close callbacks' ?",
+      "options": [
+        "La phase Close",
+        "La phase Timers",
+        "La phase Poll",
+        "La phase Check"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "En Node.js, `process.{{1}}` s'exécute immédiatement après la phase courante, avant même les microtâches classiques.",
+      "reponsesAttendues": [
+        "nextTick"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le rendu (rendering) du navigateur peut se produire entre deux microtâches d'une même file.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si une microtâche ajoute récursivement d'autres microtâches ?",
+      "options": [
+        "Cela bloque indéfiniment l'Event Loop (starvation des macrotâches)",
+        "L'Event Loop passe à la macrotâche suivante après 10 itérations",
+        "Le navigateur crash immédiatement avec 'Stack Overflow'",
+        "JS passe en mode multi-thread automatiquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "requestAnimationFrame s'exécute généralement juste avant le prochain rendu (repaint).",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz35",
+  "titre": "Grec Expert : Finales et Consécutives",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelles conjonctions introduisent une proposition finale (but) ?",
+      "options": [
+        "ἵνα, ὅπως, ὡς",
+        "ὅτι, διότι",
+        "ὥστε, ὡς",
+        "ἐπεί, ἐπειδή"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La finale utilise le subjonctif après un temps principal.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La conjonction de conséquence par excellence est `{{1}}`.",
+      "reponsesAttendues": [
+        "ὥστε"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre ὥστε + indicatif et ὥστε + infinitif ?",
+      "options": [
+        "L'indicatif exprime un résultat réel, l'infinitif un résultat possible ou visé",
+        "Ils sont interchangeables",
+        "L'un est positif, l'autre négatif",
+        "L'un est poétique, l'autre prosaïque"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La négation de la finale est toujours μή.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment exprime-t-on le but avec un participe ?",
+      "options": [
+        "Participe futur précédé de ὡς",
+        "Participe présent",
+        "Participe aoriste",
+        "Participe parfait"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Après un temps secondaire, la finale peut utiliser l'optatif `{{1}}`.",
+      "reponsesAttendues": [
+        "oblique"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Une proposition consécutive peut être introduite par un pronom démonstratif comme οὕτως (ainsi).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle négation accompagne ὥστε + infinitif ?",
+      "options": [
+        "μή",
+        "οὐ",
+        "οὐ μή",
+        "οὐδέ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "ὅπως + futur est une construction courante pour les verbes d'effort.",
+      "reponse": true
+    }
+  ]
+}

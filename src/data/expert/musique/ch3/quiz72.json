@@ -1,0 +1,95 @@
+{
+  "id": "quiz72",
+  "titre": "Musique Expert : L'Expressionnisme et la Seconde École de Vienne",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel compositeur a rompu avec la tonalité traditionnelle pour inventer le dodécaphonisme (sériellisme) ?",
+      "options": [
+        "Arnold Schoenberg",
+        "Alban Berg",
+        "Anton Webern",
+        "Richard Strauss"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le dodécaphonisme utilise une 'série' de douze sons de la gamme chromatique, où aucun son ne doit être répété avant que les onze autres n'aient été entendus.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Sprechgesang) est une technique de 'chant parlé' utilisée par Schoenberg dans 'Pierrot Lunaire'.",
+      "reponsesAttendues": [
+        "Sprechgesang",
+        "chant parle"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel élève de Schoenberg a composé l'opéra expressionniste 'Wozzeck' ?",
+      "options": [
+        "Alban Berg",
+        "Anton Webern",
+        "Hanns Eisler",
+        "Alexander Zemlinsky"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Anton Webern est le maître du style 'aphoristique', avec des œuvres extrêmement courtes et denses (Klangfarbenmelodie).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie le concept de 'Klangfarbenmelodie' ?",
+      "options": [
+        "Mélodie de timbres : la mélodie est créée par le changement de couleur sonore",
+        "Mélodie de couleurs : une association visuelle",
+        "Mélodie répétitive",
+        "Mélodie sans fin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'`{{1}}` (Atonalité) libre précéda l'invention de la méthode sérielle rigoureuse chez Schoenberg.",
+      "reponsesAttendues": [
+        "atonalite"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La 'Seconde École de Vienne' cherchait à exprimer les tourments de l'inconscient et de l'âme humaine.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel opéra inachevé de Schoenberg traite du conflit entre l'idée et la parole ?",
+      "options": [
+        "Moïse et Aaron",
+        "Erwartung",
+        "La Main heureuse",
+        "Lulu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le sérialisme a eu une influence colossale sur la musique contemporaine d'après-guerre.",
+      "reponse": true
+    }
+  ]
+}

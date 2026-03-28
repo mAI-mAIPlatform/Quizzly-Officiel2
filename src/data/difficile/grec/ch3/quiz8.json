@@ -1,0 +1,90 @@
+{
+  "id": "quiz8",
+  "titre": "Sparte",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le nom légendaire du législateur de Sparte ?",
+      "options": [
+        "Lycurgue",
+        "Léonidas",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'éducation militaire très stricte des jeunes Spartiates s'appelle l'Agogé.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La population asservie de Sparte, qui cultivait la terre, s'appelait les {{1}}.",
+      "reponsesAttendues": ["hilotes"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la particularité de la royauté à Sparte ?",
+      "options": [
+        "Il y avait deux rois simultanément (Dyarchie)",
+        "Les rois étaient élus par le peuple",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les citoyens de plein droit à Sparte s'appelaient les 'Homoioi' (les Égaux).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel conseil de 28 anciens (plus les rois) préparait les lois ?",
+      "options": [
+        "La Gérousia",
+        "L'Apella",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les cinq magistrats élus annuellement qui surveillaient tout à Sparte étaient les {{1}}.",
+      "reponsesAttendues": ["éphores"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les Spartiates étaient connus pour leur brièveté de langage (laconisme).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Le repas commun obligatoire des citoyens spartiates s'appelait :",
+      "options": [
+        "La Syssitie",
+        "Le Banquet",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Sparte était la plus grande puissance terrestre de la Grèce classique.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz20",
+  "titre": "Culture Générale : Synthèse (2)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la capitale de l'Allemagne ?",
+      "options": [
+        "Berlin",
+        "Madrid",
+        "Paris",
+        "Rome"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Seine traverse la ville de Rome.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'organe qui pompe le sang est le {{1}} (cœur).",
+      "reponsesAttendues": [
+        "cœur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui a peint 'Le Cri' ?",
+      "options": [
+        "Edvard Munch",
+        "Pablo Picasso",
+        "Vincent van Gogh",
+        "Claude Monet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'Everest est le plus haut sommet du monde.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel pays a pour symbole le kangourou ?",
+      "options": [
+        "L'Australie",
+        "Le Canada",
+        "L'Afrique du Sud",
+        "Le Brésil"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le gaz nécessaire à la respiration est l'{{1}} (oxygène).",
+      "reponsesAttendues": [
+        "oxygène"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La Tour Eiffel se trouve à New York.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Sa maison' (à elle).",
+      "options": [
+        "Her house",
+        "His house",
+        "Our house",
+        "Their house"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Félicitations ! Tu as fini la deuxième partie du chapitre 2 de culture générale !",
+      "reponse": true
+    }
+  ]
+}

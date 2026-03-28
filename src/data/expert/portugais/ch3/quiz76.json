@@ -1,0 +1,96 @@
+{
+  "id": "quiz76",
+  "titre": "Portugais Expert : Le Brésil de la Colonie à l'Empire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel bois précieux a donné son nom au pays au début de la colonisation ?",
+      "options": [
+        "Le Pau-brasil",
+        "L'ébène",
+        "L'acajou",
+        "Le teck"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Grâce au Traité de Tordesillas, le Portugal a pu sécuriser la possession du Brésil bien avant l'arrivée des autres puissances européennes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Ciclo do Açúcar) a dominé l'économie brésilienne au XVIe et XVIIe siècles, reposant sur l'esclavage africain.",
+      "reponsesAttendues": [
+        "Cycle du Sucre",
+        "Ciclo do Acucar"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle région est devenue le cœur de la ruée vers l'or au XVIIIe siècle ?",
+      "options": [
+        "Minas Gerais",
+        "Bahia",
+        "Rio de Janeiro",
+        "Amazonie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "En 1808, la cour royale portugaise s'installe à Rio de Janeiro pour fuir l'invasion napoléonienne.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel futur empereur a proclamé l'indépendance du Brésil en 1822 (le 'Cri d'Ipiranga') ?",
+      "options": [
+        "Dom Pedro I",
+        "Dom Pedro II",
+        "José Bonifácio",
+        "Deodoro da Fonseca"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La `{{1}}` (Lei Áurea) a aboli l'esclavage au Brésil en 1888, faisant du Brésil le dernier pays des Amériques à le faire.",
+      "reponsesAttendues": [
+        "Loi d'Or",
+        "Lei Aurea"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Brésil est resté une monarchie (Empire) pendant une grande partie du XIXe siècle.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qui fut le dernier empereur du Brésil, protecteur des arts et des sciences ?",
+      "options": [
+        "Dom Pedro II",
+        "Don João VI",
+        "Dom Pedro I",
+        "Getúlio Vargas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La ville de Salvador de Bahia fut la première capitale du Brésil.",
+      "reponse": true
+    }
+  ]
+}

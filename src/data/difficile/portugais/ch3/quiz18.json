@@ -1,0 +1,90 @@
+{
+  "id": "quiz18",
+  "titre": "Macao",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "En quelle année Macao est-il revenu sous souveraineté chinoise ?",
+      "options": [
+        "20 décembre 1999",
+        "1997",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Macao était la plus ancienne et la dernière colonie européenne en Asie.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le statut actuel de Macao est celui de Région Administrative {{1}} (RAEM).",
+      "reponsesAttendues": ["Spéciale"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi Macao était-il important pour le Portugal historiquement ?",
+      "options": [
+        "Comme base commerciale et missionnaire pour la Chine et le Japon",
+        "Pour ses mines d'or",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La langue portugaise reste langue officielle à Macao aux côtés du chinois.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel monument est le symbole de l'histoire chrétienne de Macao ?",
+      "options": [
+        "Ruines de São Paulo",
+        "Tour de Macao",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'architecture du centre historique de Macao est classée au patrimoine mondial de l'{{1}}.",
+      "reponsesAttendues": ["UNESCO"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'influence portugaise est encore très visible dans la gastronomie et les noms de rues.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le mélange de culture métisse de Macao ?",
+      "options": [
+        "Macaense (Patuá)",
+        "Goes",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le transfert de 1999 s'est déroulé de manière pacifique et concertée entre Lisbonne et Pékin.",
+      "reponse": true
+    }
+  ]
+}

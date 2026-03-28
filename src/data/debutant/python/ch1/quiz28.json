@@ -1,0 +1,94 @@
+{
+  "id": "quiz28",
+  "titre": "Fonctions mathématiques courantes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment calculer la valeur absolue ?",
+      "options": [
+        "abs(x)",
+        "math.abs(x)",
+        "x.abs()",
+        "absolute(x)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "math.ceil(3.1) arrondit à l'entier supérieur (4).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'entier inférieur est obtenu avec math.{{1}}().",
+      "reponsesAttendues": [
+        "floor"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle fonction calcule la puissance (alternative à **) ?",
+      "options": [
+        "math.pow(x, y)",
+        "math.power(x, y)",
+        "pow(x, y)",
+        "Les deux 1 et 3"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "math.factorial(5) renvoie 120 (5*4*3*2*1).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment obtenir le reste de la division avec math (pour les float) ?",
+      "options": [
+        "%",
+        "math.fmod(x, y)",
+        "math.remainder(x, y)",
+        "Toutes ces réponses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "math.exp(x) calcule l'{{1}} de x.",
+      "reponsesAttendues": [
+        "exponentielle"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les fonctions trigonométriques (sin, cos) attendent des angles en degrés.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment convertir des degrés en radians ?",
+      "options": [
+        "math.radians(deg)",
+        "math.degrees(rad)",
+        "deg * pi / 180",
+        "Les solutions 1 et 3"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le module math gère aussi les nombres complexes.",
+      "reponse": false
+    }
+  ]
+}

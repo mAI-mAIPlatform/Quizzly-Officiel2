@@ -1,0 +1,94 @@
+{
+  "id": "quiz24",
+  "titre": "Les Nombres (21-100)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Vient-et-un' ?",
+      "options": [
+        "Ventuno",
+        "Ventiuno",
+        "Ventotto",
+        "Trenta"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On laisse tomber la voyelle finale de la dizaine devant 'uno' et 'otto' (ex: trentuno).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour dire 'Trente', on dit '{{1}}'.",
+      "reponsesAttendues": [
+        "trenta"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Cinquante' ?",
+      "options": [
+        "Quaranta",
+        "Cinquanta",
+        "Sessanta",
+        "Settanta"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Cento' signifie 'Cent'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel nombre est 'Ottanta' ?",
+      "options": [
+        "70",
+        "80",
+        "90",
+        "100"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour dire 'Quatre-vingt-dix', on dit '{{1}}'.",
+      "reponsesAttendues": [
+        "novanta"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les nombres s'écrivent en un seul mot en italien (ex: quarantaquattro).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Soixante-six' ?",
+      "options": [
+        "Sessantasei",
+        "Sessantuno",
+        "Settantasei",
+        "Cinquantasei"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les dizaines finissent presque toutes par '-anta'.",
+      "reponse": true
+    }
+  ]
+}

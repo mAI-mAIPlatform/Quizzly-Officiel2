@@ -1,0 +1,90 @@
+{
+  "id": "quiz15",
+  "titre": "Upload et Fichiers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel type d'input permet l'envoi de fichiers ?",
+      "options": [
+        "type=\"file\"",
+        "type=\"upload\"",
+        "type=\"disk\"",
+        "type=\"folder\""
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'multiple' autorise l'utilisateur à choisir plusieurs fichiers à la fois.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} limite les extensions ou types MIME autorisés (ex: image/*).",
+      "reponsesAttendues": ["accept"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quoi sert l'attribut 'capture' ?",
+      "options": [
+        "À ouvrir directement la caméra ou le micro sur mobile (ex: capture=\"camera\")",
+        "À faire une capture d'écran",
+        "À bloquer le fichier",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un formulaire contenant un upload doit avoir enctype=\"multipart/form-data\".",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment récupérer les fichiers en JavaScript ?",
+      "options": [
+        "element.files (qui est une FileList)",
+        "element.value",
+        "element.data",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} sur une balise <input type=\"file\"> permet de choisir un dossier entier (non-standard mais supporté par Chrome).",
+      "reponsesAttendues": ["webkitdirectory"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut styliser un input file aussi facilement qu'un bouton classique directement.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Pourquoi l'input file est-il complexe à styliser ?",
+      "options": [
+        "Pour des raisons de sécurité (le chemin local du fichier est masqué)",
+        "C'est un bug",
+        "C'est trop vieux",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Drag & Drop de fichiers peut être implémenté par-dessus un input file invisible.",
+      "reponse": true
+    }
+  ]
+}

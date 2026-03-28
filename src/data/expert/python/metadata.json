@@ -2,6 +2,30 @@
   "id": "python",
   "titre": "Python",
   "niveau": "Expert",
-  "description": "Découvre et maîtrise tout le programme de Python au niveau Expert !",
-  "chapitres": []
+  "description": "Deviens un expert Python avec la programmation fonctionnelle, asynchrone et les tests.",
+  "chapitres": [
+    {
+      "id": "ch1",
+      "titre": "Programmation Orientée Objet Avancée",
+      "description": "Métaclasses, décorateurs et descripteurs."
+    },
+    {
+      "id": "ch2",
+      "titre": "Paradigmes Asynchrones",
+      "lecons": ["Asyncio et Concurrence", "Multiprocessing", "Threading avancé"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch3",
+      "titre": "POO Avancée et Design Patterns",
+      "lecons": ["Héritage multiple et MRO", "Design Patterns Pythoniques", "Métaclasses"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch4",
+      "titre": "Ingénierie et Performance",
+      "lecons": ["Optimisation de code", "Sécurité des apps Python", "Packaging et Déploiement"],
+      "quizCount": 30
+    }
+  ]
 }

@@ -1,0 +1,94 @@
+{
+  "id": "quiz25",
+  "titre": "Électricité et Magnétisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel phénomène naturel est une grande décharge d'électricité dans le ciel ?",
+      "options": [
+        "La pluie",
+        "La foudre / L'éclair",
+        "Le vent",
+        "L'arc-en-ciel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les métaux laissent passer l'électricité (ce sont des conducteurs).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'outil qui permet de s'orienter grâce au magnétisme de la Terre est la {{1}}.",
+      "reponsesAttendues": [
+        "boussole"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on un objet qui attire le fer ?",
+      "options": [
+        "Une loupe",
+        "Un aimant",
+        "Un ressort",
+        "Une pile"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Deux pôles d'aimants identiques (ex: Sud et Sud) s'attirent.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qui stocke l'électricité pour faire fonctionner un jouet ?",
+      "options": [
+        "Une ampoule",
+        "Une pile",
+        "Un interrupteur",
+        "Un fil"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Un circuit électrique doit être {{1}} pour que le courant passe.",
+      "reponsesAttendues": [
+        "fermé"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'électricité statique peut faire dresser les cheveux sur la tête.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel matériau est un bon isolant (ne laisse pas passer l'électricité) ?",
+      "options": [
+        "Le cuivre",
+        "Le plastique",
+        "L'eau salée",
+        "Le fer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il est dangereux de toucher l'électricité avec les mains mouillées.",
+      "reponse": true
+    }
+  ]
+}

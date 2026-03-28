@@ -1,0 +1,90 @@
+{
+  "id": "quiz2",
+  "titre": "Niveaux de conformité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le niveau de conformité minimal des WCAG ?",
+      "options": [
+        "A",
+        "AA",
+        "AAA",
+        "Standard"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le niveau AA est l'objectif standard pour la plupart des sites web commerciaux et publics.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le niveau {{1}} est le plus strict et difficile à atteindre (souvent réservé à des contenus spécifiques).",
+      "reponsesAttendues": ["AAA"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel ratio de contraste minimal est requis pour le texte normal au niveau AA ?",
+      "options": [
+        "4.5:1",
+        "3:1",
+        "7:1",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Atteindre le niveau AAA garantit une accessibilité parfaite pour tous les types de handicap.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que nécessite le niveau A concernant les vidéos ?",
+      "options": [
+        "Des sous-titres pour les vidéos pré-enregistrées",
+        "Une traduction en langue des signes",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La conformité est cumulative : pour être AA, il faut aussi respecter tous les critères du niveau {{1}}.",
+      "reponsesAttendues": ["A"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le niveau AA impose des sous-titres en direct (live) pour l'audio.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Pourquoi viser le niveau AA ?",
+      "options": [
+        "C'est le meilleur compromis entre coût d'implémentation et bénéfice utilisateur réel",
+        "Pour le style",
+        "C'est obligatoire partout",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Une déclaration d'accessibilité est souvent requise pour attester du niveau de conformité.",
+      "reponse": true
+    }
+  ]
+}

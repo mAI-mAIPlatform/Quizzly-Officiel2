@@ -1,0 +1,95 @@
+{
+  "id": "quiz39",
+  "titre": "Italien Expert : Avverbi e Locuzioni",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Come si formano generalmente gli avverbi di modo ?",
+      "options": [
+        "Aggettivo femminile + suffisso -mente (es: velocemente)",
+        "Radice del verbo + -ndo",
+        "Sempre con 'a'",
+        "In modo casuale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Se l'aggettivo finisce in -le o -re, perde la 'e' finale davanti a -mente (es: gentilmente, regolarmente).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'avverbio corrispondente a 'buono' è `{{1}}`.",
+      "reponsesAttendues": [
+        "bene"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Cosa significa 'anzi' ?",
+      "options": [
+        "Anzi (opposizione o rafforzamento : au contraire / bien plus)",
+        "Avant",
+        "Peut-être",
+        "Aussi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Purtroppo' significa 'malheureusement'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Traduis 'Affatto' dans une phrase négative (Non... affatto) :",
+      "options": [
+        "Pas du tout",
+        "Tout à fait",
+        "Un peu",
+        "Souvent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'avverbio `{{1}}` (ou magari) exprime le souhait ou le 'peut-être'.",
+      "reponsesAttendues": [
+        "forse",
+        "magari"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Senz'altro' significa 'sans aucun doute' ou 'certainement'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Cosa significa 'mica' ?",
+      "options": [
+        "Une particule de négation (pas, du tout, par hasard)",
+        "Un petit morceau de pain",
+        "Une amie",
+        "Maintenant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'avverbio 'pure' può significare 'aussi' ou 'pourtant' selon le contexte.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz11",
+  "titre": "Mixins et Composition",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un Mixin en JavaScript ?",
+      "options": [
+        "Une classe qui hérite de plusieurs parents",
+        "Un objet ou une classe contenant des méthodes pouvant être ajoutées à d'autres classes sans héritage",
+        "Une boisson énergétique",
+        "Une erreur de liaison"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "JavaScript ne supporte pas l'héritage multiple de classes via 'extends'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour copier les méthodes d'un mixin vers un prototype, on utilise souvent Object.{{1}}.",
+      "reponsesAttendues": ["assign"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi préférer la composition à l'héritage ?",
+      "options": [
+        "C'est plus rapide à écrire",
+        "Cela évite les hiérarchies de classes rigides et profondes",
+        "C'est la seule façon d'utiliser let",
+        "Pour masquer le code"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un Mixin peut lui-même hériter d'une autre classe.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on une fonction qui prend une classe et retourne une nouvelle classe augmentée ?",
+      "options": [
+        "Factory Class",
+        "HOC (Higher Order Class) ou Class Mixin Function",
+        "Prototype Generator",
+        "Constructor"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La composition permet de construire des objets complexes par {{1}} de comportements simples.",
+      "reponsesAttendues": ["assemblage", "combinaison"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation intensive de Mixins peut causer des conflits de noms de méthodes.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est un exemple de composition ?",
+      "options": [
+        "class A extends B {}",
+        "Object.assign(target, ...sources)",
+        "function f(){}",
+        "let x = 1;"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les Mixins facilitent le partage de fonctionnalités entre des classes non liées.",
+      "reponse": true
+    }
+  ]
+}

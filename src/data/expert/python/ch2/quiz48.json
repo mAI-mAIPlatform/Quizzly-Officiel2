@@ -1,0 +1,94 @@
+{
+  "id": "quiz48",
+  "titre": "Python Expert : Serialization & Pickle",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert le module `pickle` ?",
+      "options": [
+        "À sérialiser et désérialiser des objets Python (conversion en flux d'octets)",
+        "À cuisiner des cornichons",
+        "À compresser des images",
+        "À crypter les mots de passe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le format Pickle est universel et peut être lu par n'importe quel langage (Java, C++, etc.).",
+      "reponse : false (Il est spécifique à Python)"
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La méthode pour sérialiser un objet dans un fichier est `pickle.{{1}}(obj, file)`.",
+      "reponsesAttendues": [
+        "dump"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est le risque majeur de sécurité avec `pickle.load()` ?",
+      "options": [
+        "L'exécution de code arbitraire lors de la désérialisation d'un fichier malveillant",
+        "La suppression du fichier",
+        "L'augmentation de la facture d'électricité",
+        "Aucun risque"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut personnaliser la sérialisation via les méthodes __getstate__ et __setstate__.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Différence entre dumps() et dump() ?",
+      "options": [
+        "dumps() renvoie une chaîne d'octets (bytes), dump() écrit dans un fichier",
+        "Aucune",
+        "dumps() est plus court",
+        "dump() est asynchrone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour désérialiser depuis un fichier, on utilise `pickle.{{1}}(file)`.",
+      "reponsesAttendues": [
+        "load"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Pickle peut sérialiser des fonctions et des classes (le code est sauvegardé).",
+      "reponse : false (Seul le nom et le module sont sauvegardés, l'environnement doit avoir accès au code original)"
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que 'shelve' ?",
+      "options": [
+        "Une interface de type dictionnaire persistant utilisant pickle en arrière-plan",
+        "Un outil de rangement",
+        "Un module de dessin",
+        "Un type de boucle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Pickle est souvent utilisé pour sauvegarder l'état d'un entraînement de Machine Learning simple.",
+      "reponse": true
+    }
+  ]
+}

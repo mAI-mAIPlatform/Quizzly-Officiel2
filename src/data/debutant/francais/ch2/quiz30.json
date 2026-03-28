@@ -1,0 +1,94 @@
+{
+  "id": "quiz30",
+  "titre": "Examen Final : Chapitre 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Je ... (parler) avec mes amis.",
+      "options": [
+        "parle",
+        "parles",
+        "parlons",
+        "parlez"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On écrit : 'Tu es' (être au présent).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le pluriel de 'un oiseau' est 'des {{1}}'.",
+      "reponsesAttendues": [
+        "oiseaux"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel est un adjectif qualificatif ?",
+      "options": [
+        "manger",
+        "grand",
+        "maison",
+        "pourquoi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Les' est un article défini pluriel.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Trouve le sujet dans : 'Léo et Julie chantent'.",
+      "options": [
+        "Léo",
+        "Julie",
+        "Léo et Julie",
+        "chantent"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Au négatif : 'Je ne bois {{1}}'.",
+      "reponsesAttendues": [
+        "pas"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le contraire de 'ouvert' est 'fermé'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Ils ... (avoir) un vélo.",
+      "options": [
+        "ont",
+        "sont",
+        "avez",
+        "avons"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Félicitations ! Tu as validé le Chapitre 2 de Français !",
+      "reponse": true
+    }
+  ]
+}

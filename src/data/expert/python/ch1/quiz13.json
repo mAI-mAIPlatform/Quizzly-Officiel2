@@ -1,0 +1,95 @@
+{
+  "id": "quiz13",
+  "titre": "Boucle d'événements et Coroutines",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'Event Loop (boucle d'événements) ?",
+      "options": [
+        "Le cœur d'asyncio qui orchestre l'exécution des coroutines",
+        "Une boucle syntaxique while True",
+        "Un outil de débogage",
+        "Un système de routing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il ne peut y avoir qu'une seule boucle d'événements active par thread.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une coroutine 'rend la main' à la boucle lorsqu'elle rencontre le mot-clé `{{1}}`.",
+      "reponsesAttendues": [
+        "await"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si on appelle une fonction bloquante (ex: time.sleep) dans une coroutine ?",
+      "options": [
+        "Elle fige toute la boucle d'événements",
+        "Elle est automatiquement convertie en asynchrone",
+        "Elle s'exécute dans un autre thread",
+        "Python lève une erreur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'Event Loop est responsable de la gestion des sockets réseau asynchrones.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment exécuter du code bloquant sans figer la boucle ?",
+      "options": [
+        "loop.run_in_executor()",
+        "asyncio.convert_to_async()",
+        "asyncio.thread()",
+        "Il faut réécrire le code"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'API de bas niveau pour les sockets dans asyncio utilise des `{{1}}` et des `Transports`.",
+      "reponsesAttendues": [
+        "Protocoles",
+        "Protocols"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un Future est terminé lorsqu'on appelle sa méthode set_result().",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel évite les conditions de course (race conditions) dans asyncio ?",
+      "options": [
+        "asyncio.Lock",
+        "asyncio.Semaphore",
+        "asyncio.Event",
+        "Toutes ces réponses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Une coroutine peut être annulée via task.cancel().",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz103",
+  "titre": "JavaScript Expert : Gestion d'État (Redux, Zustand, Recoil)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le principe fondamental de Redux concernant l'état ?",
+      "options": [
+        "L'état est une source unique de vérité immuable",
+        "L'état peut être modifié partout dans l'application",
+        "L'état est stocké dans le DOM local",
+        "Il n'y a pas d'état global dans Redux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Zustand est une bibliothèque de gestion d'état légère basée sur les hooks, sans besoin de Providers.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans Redux, un `{{1}}` (reducer) est une fonction pure qui prend l'état actuel et une action pour retourner un nouvel état.",
+      "reponsesAttendues": [
+        "reducer"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on les unités de base de l'état dans Recoil, qui peuvent être partagées entre composants ?",
+      "options": [
+        "Atoms",
+        "Nodes",
+        "Cells",
+        "Stores"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Redux Toolkit (RTK) est l'approche recommandée officiellement pour écrire du Redux moderne avec moins de code redondant (boilerplate).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel outil Redux permet de gérer les effets de bord asynchrones en utilisant des générateurs JavaScript ?",
+      "options": [
+        "Redux-Saga",
+        "Redux-Thunk",
+        "Redux-Query",
+        "Redux-Observable"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le middleware `{{1}}` (Redux-Thunk) permet d'écrire des créateurs d'actions qui retournent une fonction au lieu d'un objet.",
+      "reponsesAttendues": [
+        "Redux-Thunk"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Immer est une bibliothèque souvent utilisée avec Redux pour manipuler l'état de manière 'mutable' en apparence tout en produisant un résultat immuable.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "À quoi servent les 'Selectors' dans la gestion d'état ?",
+      "options": [
+        "Extraire et dériver des données spécifiques du store de manière optimisée",
+        "Modifier l'état directement",
+        "Vérifier les types de données",
+        "Envoyer des requêtes réseau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "React Context est suffisant pour gérer des états globaux extrêmement fréquents et complexes sans perte de performance.",
+      "reponse": false
+    }
+  ]
+}

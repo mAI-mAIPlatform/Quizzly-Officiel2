@@ -1,0 +1,94 @@
+{
+  "id": "quiz28",
+  "titre": "Le Corps Humain (Corps)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'le corps' ?",
+      "options": [
+        "corpus",
+        "caput",
+        "manus",
+        "pes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Caput' signifie la tête.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La main se dit '{{1}}' (manus).",
+      "reponsesAttendues": [
+        "manus"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'pes, pedis' ?",
+      "options": [
+        "Le pied",
+        "Le bras",
+        "La jambe",
+        "Le genou"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Oculus' signifie l'oeil.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'le coeur' ?",
+      "options": [
+        "cor",
+        "os",
+        "auris",
+        "nasus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'oreille se dit '{{1}}' (auris).",
+      "reponsesAttendues": [
+        "auris"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Lingua' signifie la langue.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'os, oris' ?",
+      "options": [
+        "La bouche / le visage",
+        "L'os",
+        "Le dos",
+        "Le ventre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le mot 'capital' vient de 'caput' (tête).",
+      "reponse": true
+    }
+  ]
+}

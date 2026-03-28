@@ -1,0 +1,90 @@
+{
+  "id": "quiz11",
+  "titre": "L'Élégie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le sujet principal de l'élégie latine ?",
+      "options": [
+        "La plainte amoureuse et la soumission à une femme dominatrice (domina)",
+        "La guerre",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Tibulle et Properce sont les deux grands noms de l'élégie avec Ovide.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mètre de l'élégie est le {{1}} (hexamètre + pentamètre).",
+      "reponsesAttendues": ["distique élégiaque"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'aimée de Properce ?",
+      "options": [
+        "Cynthia",
+        "Délia",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Tibulle chante la paix des champs et son amour pour Délia.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'militia amoris' ?",
+      "options": [
+        "La conception de l'amour comme un service militaire ou un combat",
+        "Un poème de soldat",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La {{1}} (esclavage amical) définit le rapport dévoué de l'amant à sa dame.",
+      "reponsesAttendues": ["servitium amoris"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'élégie est un genre qui privilégie l'expression sincère (ou stylisée) des sentiments.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Nom de l'aimée de Tibulle ?",
+      "options": [
+        "Délia",
+        "Cynthia",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'élégie disparaît avec la mort d'Ovide.",
+      "reponse": true
+    }
+  ]
+}

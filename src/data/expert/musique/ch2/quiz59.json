@@ -1,0 +1,95 @@
+{
+  "id": "quiz59",
+  "titre": "Musique Expert : Musique de Film et Médias",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a composé les bandes-originales célèbres de 'Star Wars', 'Indiana Jones' et 'Harry Potter' ?",
+      "options": [
+        "John Williams",
+        "Hans Zimmer",
+        "Ennio Morricone",
+        "Howard Shore"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Ennio Morricone est célèbre pour ses musiques de 'Westerns Spaghetti' (Le Bon, la Brute et le Truand).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L' `{{1}}` (ou B.O.) est l'ensemble des musiques créées pour accompagner un film.",
+      "reponsesAttendues": [
+        "bande-originale",
+        "musique de film"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une musique 'diégétique' ?",
+      "options": [
+        "Une musique que les personnages du film entendent (ex: une radio dans une scène)",
+        "Une musique triste",
+        "Une musique ajoutée au montage que seuls les spectateurs entendent",
+        "Une musique de générique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Hans Zimmer est connu pour son usage massif de synthétiseurs et de textures orchestrales puissantes.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel compositeur japonais est célèbre pour les musiques des films de Hayao Miyazaki (Studio Ghibli) ?",
+      "options": [
+        "Joe Hisaishi",
+        "Ryuichi Sakamoto",
+        "Nobuo Uematsu",
+        "Yoko Kanno"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Nobuo `{{1}}` est considéré comme l'un des plus grands compositeurs de musique de jeux vidéo (Final Fantasy).",
+      "reponsesAttendues": [
+        "Uematsu"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le 'Mickeymousing' consiste à calquer précisément la musique sur les mouvements à l'écran.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel compositeur de film français a remporté deux Oscars ('Le Grand Bleu', 'The Artist') ?",
+      "options": [
+        "Ludovic Bource / Alexandre Desplat (Desplat est plus célèbre)",
+        "Maurice Jarre",
+        "Michel Legrand",
+        "Francis Lai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La musique de film est aujourd'hui reconnue comme un genre musical majeur à part entière.",
+      "reponse": true
+    }
+  ]
+}

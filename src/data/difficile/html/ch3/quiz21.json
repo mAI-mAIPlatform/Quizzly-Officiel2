@@ -1,0 +1,90 @@
+{
+  "id": "quiz21",
+  "titre": "Sécurité : CSP",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie CSP ?",
+      "options": [
+        "Content Security Policy",
+        "Client Side Protection",
+        "Code Source Protocol",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une CSP permet de restreindre les sources de contenu (scripts, images, styles) autorisées sur une page.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On peut implémenter une CSP via un en-tête HTTP ou une balise <meta http-equiv=\"{{1}}\">.",
+      "reponsesAttendues": ["Content-Security-Policy"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quoi sert 'default-src 'self'' ?",
+      "options": [
+        "Autorise uniquement les ressources provenant du même domaine que la page",
+        "Interdit tout",
+        "Autorise tout",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une CSP bien configurée est l'arme la plus efficace contre les attaques XSS (Cross-Site Scripting).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que fait 'script-src 'none'' ?",
+      "options": [
+        "Bloque l'exécution de TOUS les scripts sur la page",
+        "Autorise les scripts externes uniquement",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le mot-clé {{1}} permet d'autoriser les scripts écrits directement entre les balises <script> (déconseillé).",
+      "reponsesAttendues": ["'unsafe-inline'"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut tester une CSP sans bloquer les ressources via 'Content-Security-Policy-Report-Only'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Impact SEO ?",
+      "options": [
+        "Pas d'impact direct, mais améliore la confiance et la sécurité globale du site",
+        "Négatif",
+        "Fait monter dans Google",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Implémenter une CSP stricte demande une connaissance approfondie des dépendances du site.",
+      "reponse": true
+    }
+  ]
+}

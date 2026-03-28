@@ -1,0 +1,95 @@
+{
+  "id": "quiz10",
+  "titre": "Synthèse de la Partie 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Python est dit 'dynamique' car :",
+      "options": [
+        "Il bouge tout seul",
+        "On n'a pas besoin de déclarer le type des variables",
+        "Il est très rapide",
+        "Il change de couleur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Zen de Python est un ensemble de principes de conception.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour afficher 'Python' répété 3 fois, on peut faire 'Python' * {{1}}.",
+      "reponsesAttendues": [
+        "3",
+        "trois"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces fonctions N'EST PAS intégrée (built-in) ?",
+      "options": [
+        "print()",
+        "input()",
+        "display()",
+        "len()"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une variable peut changer de type au cours du programme.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'IndentationError' ?",
+      "options": [
+        "Erreur de calcul",
+        "Erreur de nom",
+        "Erreur d'espacement",
+        "Erreur de fichier"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La commande 'import {{1}}' affiche le Zen de Python.",
+      "reponsesAttendues": [
+        "this"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Python est un langage de haut niveau.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est un type de données valide ?",
+      "options": [
+        "str",
+        "int",
+        "float",
+        "Tous ceux-là"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Bravo, vous avez fini la première partie de l'introduction !",
+      "reponse": true
+    }
+  ]
+}

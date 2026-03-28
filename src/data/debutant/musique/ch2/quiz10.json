@@ -1,0 +1,94 @@
+{
+  "id": "quiz10",
+  "titre": "Révision de Solfège : Chapitre 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la note sur la 4e ligne en Clé de Fa ?",
+      "options": [
+        "Fa",
+        "La",
+        "Do",
+        "Sol"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un Soupir vaut 1 temps.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le silence de 2 temps s'appelle la {{1}} (demi-pause).",
+      "reponsesAttendues": [
+        "demi-pause"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lalquel est un instrument à vent (bois) ?",
+      "options": [
+        "Le hautbois",
+        "Le violoncelle",
+        "Le trombone",
+        "La timbale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le violon joue généralement en Clé de Sol.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle altération descend la note ?",
+      "options": [
+        "Le bémol",
+        "Le dièse",
+        "Le bécarre",
+        "Le point"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Une mesure à 3/4 contient {{1}} noires (3).",
+      "reponsesAttendues": [
+        "3"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La contrebasse est plus grave que le violoncelle.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Combien vaut une ronde pointée ?",
+      "options": [
+        "6 temps",
+        "4 temps",
+        "5 temps",
+        "8 temps"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Félicitations ! Tu as fini la première partie du chapitre 2 de musique !",
+      "reponse": true
+    }
+  ]
+}

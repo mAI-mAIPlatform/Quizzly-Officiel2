@@ -1,0 +1,90 @@
+{
+  "id": "quiz29",
+  "titre": "Grandes Figures",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est l'architecte de la victoire navale de Salamine ?",
+      "options": [
+        "Thémistocle",
+        "Léonidas",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Cimon était le grand rival aristocratique et conservateur de Périclès.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le stratège {{1}} est celui qui a mené Athènes à son apogée démocratique.",
+      "reponsesAttendues": ["Périclès"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Miltiade est le vainqueur de quelle bataille ?",
+      "options": [
+        "Marathon",
+        "Salamine",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Clisthène est célèbre pour avoir institué l'ostracisme.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui était Aristide surnommé 'le Juste' ?",
+      "options": [
+        "Un stratège athénien rival de Thémistocle",
+        "Un roi de Sparte",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le tyran {{1}} a favorisé les arts à Athènes au VIe siècle.",
+      "reponsesAttendues": ["Pisistrate"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La plupart des grandes figures d'Athènes ont fini leur vie dans la gloire et l'opulence sans jamais être exilées.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Léonidas est le héros de :",
+      "options": [
+        "La résistance spartiate aux Thermopyles",
+        "La démocratie",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Ces hommes ont façonné l'histoire de la Grèce par leur génie politique ou militaire.",
+      "reponse": true
+    }
+  ]
+}

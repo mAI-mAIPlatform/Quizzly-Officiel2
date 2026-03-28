@@ -1,0 +1,90 @@
+{
+  "id": "quiz16",
+  "titre": "Temps et Saisons",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'D'ora in poi' ?",
+      "options": [
+        "Dorénavant / Désormais",
+        "De temps en temps",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Ogni morte di papa' signifie 'tous les 36 du mois' (très rarement).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'expression 'Qualche {{1}}' (volta) signifie 'quelques fois'.",
+      "reponsesAttendues": ["fois", "volta"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que veut dire 'In un batter d'occhio' ?",
+      "options": [
+        "En un clin d'œil",
+        "En attendant",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Tempo da lupi' (temps de loups) désigne un temps magnifique.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Au printemps' en italien ?",
+      "options": [
+        "In primavera",
+        "A primavera",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'' {{1}}' (estate) est la saison la plus chaude en Italie.",
+      "reponsesAttendues": ["été", "estate"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Prendere tempo' signifie gagner du temps ou temporiser.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'Fare il ponte' ?",
+      "options": [
+        "Faire le pont (entre un jour férié et le weekend)",
+        "Construire un pont",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les saisons marquent profondément les rituels sociaux et culinaires italiens.",
+      "reponse": true
+    }
+  ]
+}

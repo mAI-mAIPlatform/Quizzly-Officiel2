@@ -1,0 +1,90 @@
+{
+  "id": "quiz10",
+  "titre": "Récapitulatif : Fondations et Mémoire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel concept permet l'encapsulation via une fonction interne ?",
+      "options": [
+        "Hoisting",
+        "Closure",
+        "Event Loop",
+        "Promise"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Toutes les variables JavaScript sont hoistées en haut de leur contexte.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le nettoyage automatique de la mémoire s'appelle le {{1}}.",
+      "reponsesAttendues": ["Garbage Collector", "GC"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle erreur survient si on accède à une variable 'let' avant sa déclaration ?",
+      "options": [
+        "undefined",
+        "ReferenceError (TDZ)",
+        "TypeError",
+        "SyntaxError"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une closure garde une référence à son environnement de création.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel mot-clé est à privilégier pour éviter les pollutions globales ?",
+      "options": [
+        "var",
+        "let/const",
+        "global",
+        "extern"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Un cycle de référence empêche le nettoyage dans l'algorithme de {{1}}.",
+      "reponsesAttendues": ["comptage de référence", "reference counting"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les fonctions fléchées (arrow functions) capturent 'this' de manière lexicale.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'endroit où les primitives sont ordonnées ?",
+      "options": [
+        "Heap",
+        "Stack",
+        "Queue",
+        "Registry"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le hoisting des fonctions permet de les appeler avant leur définition physique dans le fichier.",
+      "reponse": true
+    }
+  ]
+}

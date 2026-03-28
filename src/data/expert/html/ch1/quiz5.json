@@ -1,0 +1,94 @@
+{
+  "id": "quiz5",
+  "titre": "Template et Slot (Web Components)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la particularité de la balise <template> ?",
+      "options": [
+        "Son contenu est stocké mais n'est pas rendu au chargement",
+        "Elle sert uniquement au CSS",
+        "Elle remplace la balise <iframe>",
+        "Elle charge du contenu externe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le contenu d'un <template> peut être cloné et injecté via JavaScript avec 'importNode'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise {{1}} permet de définir des points d'insertion dans le Shadow DOM d'un composant.",
+      "reponsesAttendues": [
+        "slot"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment cibler un slot spécifique dans le contenu d'un composant ?",
+      "options": [
+        "En utilisant l'attribut 'slot' (ex: <span slot=\"header\">)",
+        "Via un ID",
+        "En utilisant une classe CSS",
+        "C'est automatique par ordre d'apparition"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le contenu par défaut placé dans un <slot> s'affiche si aucun contenu n'est fourni par l'utilisateur du composant.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle propriété JavaScript permet d'accéder au contenu d'un <template> ?",
+      "options": [
+        "content",
+        "innerHTML",
+        "childNodes",
+        "templateBody"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les balises <template> et <slot> sont des piliers de la spécification des {{1}}.",
+      "reponsesAttendues": [
+        "Web Components"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un <template> peut contenir des balises <script> qui ne s'exécutent pas tant que le template n'est pas instancié.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "A quoi sert un 'Named Slot' ?",
+      "options": [
+        "A avoir plusieurs emplacements de contenu distincts dans un même composant",
+        "A donner un nom de classe au slot",
+        "A stocker des variables",
+        "C'est un slot protégé par mot de passe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le CSS défini à l'intérieur d'un <template> s'applique à toute la page.",
+      "reponse": false
+    }
+  ]
+}

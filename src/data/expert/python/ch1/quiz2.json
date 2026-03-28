@@ -1,0 +1,94 @@
+{
+  "id": "quiz2",
+  "titre": "Méthodes Spéciales (Dunder Methods)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode est appelée pour obtenir une représentation 'officielle' et non ambiguë d'un objet ?",
+      "options": [
+        "__repr__",
+        "__str__",
+        "__format__",
+        "__doc__"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La méthode __str__ est utilisée par la fonction print().",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour rendre un objet 'appelable' comme une fonction (ex: obj()), on définit la méthode `{{1}}`.",
+      "reponsesAttendues": [
+        "__call__"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet de définir le comportement de l'opérateur '+' ?",
+      "options": [
+        "__add__",
+        "__plus__",
+        "__sum__",
+        "__append__"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut surcharger l'accès à un attribut via __getattr__ ou __getattribute__.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "A quoi sert __slots__ ?",
+      "options": [
+        "A restreindre les attributs possibles et économiser de la mémoire",
+        "A définir les méthodes privées",
+        "A lister les parents d'une classe",
+        "A définir des variables globales"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La méthode `{{1}}` est appelée lors de l'utilisation de l'instruction 'with' (Context Manager).",
+      "reponsesAttendues": [
+        "__enter__"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La méthode __del__ garantit la destruction immédiate de l'objet par le Garbage Collector dès qu'elle est appelée.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle méthode définit la longueur retournée par len() ?",
+      "options": [
+        "__len__",
+        "__size__",
+        "__count__",
+        "__length__"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "__getitem__ permet d'accéder à un objet via une syntaxe à crochets obj[key].",
+      "reponse": true
+    }
+  ]
+}

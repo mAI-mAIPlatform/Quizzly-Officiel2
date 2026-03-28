@@ -1,0 +1,90 @@
+{
+  "id": "quiz7",
+  "titre": "POO : Class & Static Methods",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel décorateur définit une méthode liée à la classe et non à l'instance ?",
+      "options": [
+        "@classmethod",
+        "@instance_method",
+        "@staticmethod",
+        "@property"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le premier argument d'une classmethod est conventionnellement nommé 'cls'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une méthode décorée par @{{1}} ne reçoit ni l'instance (self) ni la classe (cls) en argument.",
+      "reponsesAttendues": ["staticmethod"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quoi servent souvent les 'classmethods' ?",
+      "options": [
+        "À faire des calculs mathématiques",
+        "À créer des constructeurs alternatifs (ex: create_from_json)",
+        "À supprimer une classe",
+        "À décorer l'interface"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut appeler une staticmethod à partir d'une instance ou de la classe elle-même.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle est la principale différence entre classmethod et staticmethod ?",
+      "options": [
+        "classmethod a accès à la classe (via cls), staticmethod n'a accès à rien",
+        "L'inverse",
+        "Aucune",
+        "Staticmethod est plus rapide"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les méthodes statiques servent souvent à regrouper des fonctions {{1}} dans une classe pour l'organisation.",
+      "reponsesAttendues": ["utilitaires", "utils"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "@classmethod permet de gérer l'héritage proprement (cls pointera vers la classe fille lors de l'appel).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Une méthode standard (d'instance) peut-elle appeler une classmethod ?",
+      "options": [
+        "Oui",
+        "Non",
+        "Seulement si elle est publique",
+        "Seulement en Python 3.10"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les classmethods et staticmethods sont essentielles pour une conception orientée objet avancée.",
+      "reponse": true
+    }
+  ]
+}

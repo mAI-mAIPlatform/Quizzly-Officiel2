@@ -1,0 +1,93 @@
+{
+  "id": "quiz78",
+  "titre": "Musique Expert : Le Minimalisme (Musique Répétitive)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Sur quel principe repose la musique minimaliste ?",
+      "options": [
+        "La répétition de motifs courts avec des variations graduelles",
+        "L'absence totale d'instruments",
+        "L'utilisation uniquement de cris",
+        "Le silence absolu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Steve Reich a inventé la technique du 'phasing' (déphasage) où deux motifs identiques se décalent progressivement.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'œuvre `{{1}}` (In C) de Terry Riley est considérée comme le point de départ du mouvement minimaliste en 1964.",
+      "reponsesAttendues": [
+        "In C"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel compositeur est célèbre pour ses opéras 'Einstein on the Beach' et ses nombreuses musiques de films ?",
+      "options": [
+        "Philip Glass",
+        "Michael Nyman",
+        "Arvo Pärt",
+        "La Monte Young"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Arvo Pärt a développé un style appelé 'tintinnabuli', inspiré par le chant grégorien et le minimalisme spirituel.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Laquelle de ces œuvres de Steve Reich met en scène des discours enregistrés et un quatuor à cordes sur le thème de la Shoah ?",
+      "options": [
+        "Different Trains",
+        "Music for 18 Musicians",
+        "Electric Counterpoint",
+        "Drumming"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (John Adams) est le compositeur de l'opéra 'Nixon in China', mêlant minimalisme et style néo-romantique.",
+      "reponsesAttendues": [
+        "John Adams"
+      ]
+    },
+    {
+      "id": "vrai_faux",
+      "enonce": "Le minimalisme refuse la complexité cérébrale du sérialisme pour revenir à une certaine clarté harmonique.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel compositeur italien contemporain connaît un succès mondial avec ses œuvres pour piano minimalistes ?",
+      "options": [
+        "Ludovico Einaudi",
+        "Ennio Morricone",
+        "Nicola Piovani",
+        "Giovanni Allevi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le minimalisme a fortement influencé la musique électronique (techno, ambient) et le rock expérimental.",
+      "reponse": true
+    }
+  ]
+}

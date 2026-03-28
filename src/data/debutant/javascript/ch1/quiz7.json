@@ -1,0 +1,98 @@
+{
+  "id": "quiz7",
+  "titre": "Détails de Syntaxe",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie l'acronyme ECMAScript ?",
+      "options": [
+        "La norme de JavaScript",
+        "Un framework populaire",
+        "Un moteur de recherche",
+        "Un type de variable"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le symbole // sert pour les commentaires multilignes.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le symbole pour les commentaires sur plusieurs lignes est {{1}}.",
+      "reponsesAttendues": [
+        "/*"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'opérateur d'affectation ?",
+      "options": [
+        "==",
+        "=",
+        "===",
+        "=>"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le point-virgule est facultatif dans la plupart des cas récents.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle est l'unité de base d'un programme JS ?",
+      "options": [
+        "Le mot",
+        "La ligne",
+        "L'instruction",
+        "La fonction"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'action d'écrire du code est souvent appelée {{1}}.",
+      "reponsesAttendues": [
+        "coder",
+        "codage",
+        "programmation"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les blocs de code sont délimités par des accolades {}.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est un mot-clé réservé ?",
+      "options": [
+        "pomme",
+        "let",
+        "bleu",
+        "ordinateur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "trous",
+      "enonce": "Pour afficher 'Hello' dans la console, on écrit console.log('{{1}}').",
+      "reponsesAttendues": [
+        "Hello"
+      ]
+    }
+  ]
+}

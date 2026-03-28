@@ -1,0 +1,94 @@
+{
+  "id": "quiz1",
+  "titre": "Grammaire : Subjonctif Présent et Imparfait",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la caractéristique du subjonctif présent pour la 1ère conjugaison (amo) ?",
+      "options": [
+        "Le radical en -e- (amem, ames...)",
+        "Le radical en -a- (amam, amas...)",
+        "Le suffixe -ba-",
+        "Le suffixe -ere-"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le subjonctif imparfait se forme sur l'infinitif présent auquel on ajoute les désinences personnelles.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le subjonctif présent du verbe 'esse' à la 3e personne du singulier est `{{1}}`.",
+      "reponsesAttendues": [
+        "sit"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Dans une proposition indépendante, quelle nuance exprime le subjonctif 'Amemus patriam' ?",
+      "options": [
+        "Exhortation (Amons la patrie)",
+        "Doute",
+        "Regret",
+        "Possibilité"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le subjonctif délibératif s'emploie uniquement au passé.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le subjonctif exprimant un souhait réalisable ?",
+      "options": [
+        "Optatif",
+        "Potentiel",
+        "Dubitatif",
+        "Concessif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La négation utilisée avec le subjonctif d'ordre ou de souhait est `{{1}}`.",
+      "reponsesAttendues": [
+        "ne"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le verbe 'ire' (aller) fait 'eam' au subjonctif présent.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la 2e personne du pluriel du subjonctif imparfait de 'capere' ?",
+      "options": [
+        "caperetis",
+        "capiretis",
+        "capetatis",
+        "capiamtis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le subjonctif imparfait de 'posse' est 'possem'.",
+      "reponse": true
+    }
+  ]
+}

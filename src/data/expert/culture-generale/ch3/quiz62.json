@@ -1,0 +1,94 @@
+{
+  "id": "quiz62",
+  "titre": "Culture Générale Expert : La Révolution Française",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel événement du 14 juillet 1789 marque symboliquement le début de la Révolution ?",
+      "options": [
+        "La Prise de la Bastille",
+        "Le Serment du Jeu de Paume",
+        "La Marche des Femmes sur Versailles",
+        "La Fuite à Varennes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Déclaration des Droits de l'Homme et du Citoyen a été adoptée en août 1789.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La `{{1}}` (1793-1794) fut la période marquée par des exécutions massives, dirigée par le Comité de Salut Public.",
+      "reponsesAttendues": [
+        "Terreur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui était la figure dominante du Comité de Salut Public pendant la Terreur ?",
+      "options": [
+        "Maximilien de Robespierre",
+        "Georges Danton",
+        "Jean-Paul Marat",
+        "Camille Desmoulins"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le roi Louis XVI a été exécuté en janvier 1793.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel groupe politique, plus radical, s'opposait aux Girondins à la Convention ?",
+      "options": [
+        "Les Montagnards",
+        "Les Royalistes",
+        "Les Feuillants",
+        "Les Jacobins modérés"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'abolition des `{{1}}` (4 août 1789) a mis fin au système féodal en France.",
+      "reponsesAttendues": [
+        "privilèges"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Olympe de Gouges est l'auteure de la 'Déclaration des droits de la femme et de la citoyenne'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment s'appelle le gouvernement qui a succédé à la Convention après la chute de Robespierre ?",
+      "options": [
+        "Le Directoire",
+        "Le Consulat",
+        "La Commune de Paris",
+        "L'Empire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La Révolution française a aboli l'esclavage une première fois en 1794.",
+      "reponse": true
+    }
+  ]
+}

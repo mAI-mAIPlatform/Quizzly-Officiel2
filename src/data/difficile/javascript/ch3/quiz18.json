@@ -1,0 +1,90 @@
+{
+  "id": "quiz18",
+  "titre": "CORS : Cross-Origin Resource Sharing",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le CORS ?",
+      "options": [
+        "Un protocole de cryptage",
+        "Un mécanisme de sécurité permettant à un serveur d'autoriser certaines origines à accéder à ses ressources depuis un navigateur",
+        "Une erreur de serveur",
+        "Le nom d'un framework"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Par défaut, le navigateur bloque les requêtes HTTP asynchrones vers une origine différente (Same-Origin Policy).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'en-tête serveur qui autorise une origine est {{1}}.",
+      "reponsesAttendues": ["Access-Control-Allow-Origin"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une requête 'Preflight' ?",
+      "options": [
+        "Une requête qui vole les données",
+        "Une requête OPTIONS envoyée avant la vraie requête pour vérifier les permissions",
+        "Le chargement d'une image",
+        "Une erreur 502"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une requête 'Simple' (ex: GET sans en-tête spécial) ne déclenche pas de Preflight.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel en-tête indique les méthodes HTTP autorisées ?",
+      "options": [
+        "Access-Control-Allow-Methods",
+        "Methods-Allowed",
+        "HTTP-List",
+        "Server-Methods"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Si Access-Control-Allow-Origin est mis à {{1}}, n'importe quel site peut lire la ressource (peu sécure).",
+      "reponsesAttendues": ["*", "étoile", "star"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "CORS est un mécanisme de sécurité côté Client (Navigateur), pas un outil de restriction côté Serveur (un script Python peut toujours faire la requête).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment autoriser l'envoi de cookies en Cross-Origin ?",
+      "options": [
+        "En mettant Access-Control-Allow-Credentials à 'true'",
+        "C'est impossible",
+        "En mettant * partout",
+        "C'est automatique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le navigateur lance une erreur CORS si le serveur ne renvoie pas les bons en-têtes.",
+      "reponse": true
+    }
+  ]
+}

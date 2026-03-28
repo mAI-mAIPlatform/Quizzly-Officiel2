@@ -1,0 +1,90 @@
+{
+  "id": "quiz29",
+  "titre": "Langue Portugaise",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quel rang se situe le portugais parmi les langues les plus parlées au monde ?",
+      "options": [
+        "Entre la 5e et la 9e position (selon les critères)",
+        "20e position",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le portugais est la langue la plus parlée de l'hémisphère sud.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L' {{1}} (Accord Orthographique) de 1990 visait à unifier l'orthographe entre tous les pays lusophones.",
+      "reponsesAttendues": ["Accord", "Acordo"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel pays lusophone a la plus grande population de locuteurs ?",
+      "options": [
+        "Le Brésil (plus de 210 millions)",
+        "Le Portugal",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le portugais est une langue officielle dans des organisations internationales comme l'ONU ou l'UE.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle journée mondiale célèbre la langue portugaise ?",
+      "options": [
+        "5 mai",
+        "10 juin",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le Musée de la Langue Portugaise se situe dans la ville de {{1}} au Brésil.",
+      "reponsesAttendues": ["São Paulo"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le portugais possède des dialectes très variés mais maintient une base commune solide.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel mot portugais est intraduisible et symbolise l'âme lusophone ?",
+      "options": [
+        "Saudade",
+        "Cerveja",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La langue portugaise est un instrument de 'soft power' et de culture globale.",
+      "reponse": true
+    }
+  ]
+}

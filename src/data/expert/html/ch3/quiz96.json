@@ -1,0 +1,95 @@
+{
+  "id": "quiz96",
+  "titre": "HTML Expert : Stratégies Service Worker Avancées",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle stratégie de cache consiste à essayer le réseau d'abord et à se rabattre sur le cache en cas d'échec ?",
+      "options": [
+        "Network First",
+        "Cache First",
+        "Stale-While-Revalidate",
+        "Network Only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La stratégie 'Stale-While-Revalidate' sert immédiatement la version en cache tout en mettant à jour le cache en arrière-plan.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'API `{{1}}` (Background Sync) permet de reporter des actions (comme l'envoi d'un formulaire) jusqu'à ce que la connexion soit rétablie.",
+      "reponsesAttendues": [
+        "Background Sync",
+        "Synchronisation en arrière-plan"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment forcer un nouveau Service Worker à prendre le contrôle immédiatement sans attendre la fermeture de tous les onglets ?",
+      "options": [
+        "self.skipWaiting()",
+        "clients.claim()",
+        "serviceWorker.update()",
+        "location.reload()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un Service Worker a un cycle de vie en trois étapes : Installation, Activation, Exécution.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle API permet de pister le quota de stockage disponible pour le cache ?",
+      "options": [
+        "StorageManager API (navigator.storage)",
+        "Cache API directly",
+        "Quota API",
+        "Disk API"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Precaching) consiste à mettre en cache les fichiers statiques essentiels lors de la phase d'installation du Service Worker.",
+      "reponsesAttendues": [
+        "Precaching"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'API 'Navigation Preload' permet d'accélérer les requêtes réseau en les lançant avant que le Service Worker ne soit totalement démarré.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle bibliothèque de Google simplifie énormément la gestion des Service Workers ?",
+      "options": [
+        "Workbox",
+        "React",
+        "Angular",
+        "Puppeteer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Un Service Worker peut fonctionner en HTTP sur localhost pour le développement.",
+      "reponse": true
+    }
+  ]
+}

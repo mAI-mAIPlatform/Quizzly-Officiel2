@@ -1,0 +1,96 @@
+{
+  "id": "quiz67",
+  "titre": "Italien Expert : Le Tasse et la Jérusalem Délivrée",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le sujet principal de la 'Gerusalemme Liberata' de Torquato Tasso ?",
+      "options": [
+        "La Première Croisade et le siège de Jérusalem",
+        "La chute de Troie",
+        "La découverte de l'Amérique",
+        "Le voyage de Marco Polo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Contrairement à l'Arioste, le Tasse cherche à créer une épopée chrétienne sérieuse respectant les règles d'Aristote.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le héros principal du poème, chef de l'armée chrétienne, est `{{1}}` de Bouillon.",
+      "reponsesAttendues": [
+        "Godefroy",
+        "Goffredo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment s'appelle la magicienne musulmane qui séduit les chevaliers chrétiens (dont Renaud) ?",
+      "options": [
+        "Armide (Armida)",
+        "Clorinde",
+        "Herminie",
+        "Alcina"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le combat tragique entre Tancrède et Clorinde (déguisée en homme) est l'un des épisodes les plus célèbres.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quel mouvement esthétique le style tourmenté et sublime du Tasse est-il souvent rattaché ?",
+      "options": [
+        "Le Maniérisme / Pré-Baroque",
+        "Le Classicisme pur",
+        "Le Réalisme",
+        "Le Romantisme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le Tasse fut interné à l'hôpital de `{{1}}` à Ferrare pour ses troubles mentaux et ses doutes religieux.",
+      "reponsesAttendues": [
+        "Sainte-Anne",
+        "Sant'Anna"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La Jérusalem Délivrée a inspiré d'innombrables opéras (Lully, Haendel, Gluck) et peintures.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le ton général de l'œuvre du Tasse ?",
+      "options": [
+        "Mélancolique, sublime et empreint de tensions religieuses",
+        "Comique et léger",
+        "Purement documentaire",
+        "Satirique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Tasse a réécrit son œuvre sous le titre 'Gerusalemme Conquistata' pour la rendre plus conforme aux dogmes catholiques.",
+      "reponse": true
+    }
+  ]
+}

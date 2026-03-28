@@ -1,0 +1,96 @@
+{
+  "id": "quiz22",
+  "titre": "La Respiration des Animaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment respirent la plupart des animaux terrestres (comme le chien) ?",
+      "options": [
+        "Avec des ouïes",
+        "Avec des poumons",
+        "Avec leur queue",
+        "Ils ne respirent pas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le poisson respire l'oxygène dissous dans l'eau.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'organe qui permet au poisson de respirer sous l'eau est la {{1}}.",
+      "reponsesAttendues": [
+        "branchie",
+        "ouïe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment le dauphin respire-t-il ?",
+      "options": [
+        "Avec des branchies",
+        "Avec des poumons (il doit remonter à la surface)",
+        "Par sa peau",
+        "En dormant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les insectes respirent par de petits trous sur leur corps : les trachées.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que rejette-t-on quand on expire ?",
+      "options": [
+        "De l'oxygène",
+        "Du gaz carbonique (dioxyde de carbone)",
+        "De la poussière",
+        "De la fumée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'animal inspire de l'{{1}}.",
+      "reponsesAttendues": [
+        "oxygène",
+        "dioxygène"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le lombric (ver de terre) respire par la peau.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Pourquoi un poisson meurt-il hors de l'eau ?",
+      "options": [
+        "Parce qu'il a trop chaud",
+        "Parce que ses branchies sèchent et ne peuvent plus capter l'oxygène de l'air",
+        "Parce qu'il a peur",
+        "Parce qu'il ne peut plus nager"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La respiration est essentielle pour produire de l'énergie dans le corps.",
+      "reponse": true
+    }
+  ]
+}

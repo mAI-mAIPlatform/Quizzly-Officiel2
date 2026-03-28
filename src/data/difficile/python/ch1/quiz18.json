@@ -1,0 +1,90 @@
+{
+  "id": "quiz18",
+  "titre": "Collections : Part 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un deque (double-ended queue) ?",
+      "options": [
+        "Une liste triée",
+        "Une structure optimisée pour les ajouts/suppressions aux deux extrémités (O(1))",
+        "Une file d'attente circulaire",
+        "Un tableau 2D"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Ajouter au début d'une liste classique est en O(n).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le {{1}} permet de créer un dictionnaire avec une valeur par défaut si la clé n'existe pas.",
+      "reponsesAttendues": ["defaultdict"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment créer un dictionnaire dont les valeurs par défaut sont des listes vides ?",
+      "options": [
+        "defaultdict(list)",
+        "defaultdict([])",
+        "dict(default=list)",
+        "dict([])"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un deque peut avoir une taille maximale fixe (maxlen).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si on ajoute un élément à un deque 'plein' ?",
+      "options": [
+        "Une erreur est levée",
+        "L'élément le plus ancien à l'autre extrémité est supprimé",
+        "L'ajout est ignoré",
+        "Le deque grandit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La méthode {{1}}() d'un deque permet d'ajouter à gauche.",
+      "reponsesAttendues": ["appendleft"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "OrderedDict est devenu inutile depuis que les dicts standards sont ordonnés (3.7+).",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est l'avantage d'un OrderedDict ?",
+      "options": [
+        "Il est plus rapide",
+        "Il permet de comparer l'ordre (d1 == d2 si l'ordre est le même uniquement)",
+        "Il consomme moins de RAM",
+        "Il trie les clés"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "ChainMap permet de regrouper plusieurs dictionnaires dans une vue unique.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz12",
+  "titre": "Style Indirect : Injonctions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment rapporte-t-on un ordre (impératif) au style indirect ?",
+      "options": [
+        "Au subjonctif (souvent imparfait)",
+        "À l'infinitif",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une question rhétorique (dont on n'attend pas de réponse) passe souvent à l'accusatif + infinitif au style indirect.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une interrogation réelle (portant sur un fait inconnu) passe au mode {{1}} au style indirect.",
+      "reponsesAttendues": ["subjonctif"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Dixit : nolite timere' (Style Direct) -> Style Indirect ?",
+      "options": [
+        "Dixit ne timerent (Il dit de ne pas craindre)",
+        "Dixit se non timere",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La négation d'un ordre au style indirect est 'ne'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que devient 'Quid faciam?' (délibératif) au style indirect ?",
+      "options": [
+        "Quid faceret (Il demandait ce qu'il devait faire)",
+        "Quid facit",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le style indirect 'pur' (sans verbe introducteur répété) est appelé Oratio {{1}}.",
+      "reponsesAttendues": ["Obliqua"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les vocatifs disparaissent au style indirect.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Transformation de 'ego' au style indirect (quand le sujet parle de lui-même) ?",
+      "options": [
+        "se (accusatif réfléchi)",
+        "me",
+        "is",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le style indirect permet une fluidité narrative exceptionnelle dans les textes historiques.",
+      "reponse": true
+    }
+  ]
+}

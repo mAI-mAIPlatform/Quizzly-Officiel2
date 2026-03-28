@@ -1,0 +1,96 @@
+{
+  "id": "quiz26",
+  "titre": "Les Instruments de Mesure",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel instrument permet de mesurer le temps qui passe ?",
+      "options": [
+        "La règle",
+        "La montre",
+        "La balance",
+        "Le thermomètre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On utilise une balance pour mesurer son poids.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'instrument pour mesurer la température s'appelle le {{1}}.",
+      "reponsesAttendues": [
+        "thermomètre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel permet de mesurer une longueur en classe sur son cahier ?",
+      "options": [
+        "La règle",
+        "Le mètre ruban",
+        "La loupe",
+        "Le compas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le chronomètre sert à mesurer la durée d'une course.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'instrument qui donne la direction du Nord ?",
+      "options": [
+        "Le baromètre",
+        "La boussole",
+        "L'altimètre",
+        "Le radar"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'unité pour mesurer le poids est le {{1}}.",
+      "reponsesAttendues": [
+        "gramme",
+        "kilogramme",
+        "kg"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le litre sert à mesurer des quantités de liquide (eau, lait).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel sert à mesurer la vitesse d'une voiture ?",
+      "options": [
+        "Le compteur",
+        "Le rétroviseur",
+        "Le volant",
+        "Le frein"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Mesurer permet d'avoir des informations précises sur le monde.",
+      "reponse": true
+    }
+  ]
+}

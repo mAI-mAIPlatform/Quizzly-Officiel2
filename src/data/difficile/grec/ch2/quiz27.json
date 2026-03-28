@@ -1,0 +1,90 @@
+{
+  "id": "quiz27",
+  "titre": "Lucien de Samosate",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le trait dominant des écrits de Lucien ?",
+      "options": [
+        "L'ironie, la satire et la parodie",
+        "Le mysticisme",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Son ouvrage 'Histoire Vraie' est considéré comme l'un des premiers récits de science-fiction (voyage sur la lune).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans les '{{1}} des morts', il met en scène des dialogues ironiques aux Enfers.",
+      "reponsesAttendues": ["Dialogues"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lucien se moque particulièrement :",
+      "options": [
+        "Des philosophes charlatans et des croyances populaires",
+        "Des pauvres gens",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Lucien écrivait dans un grec puriste (atticisme) malgré ses origines syriennes.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est ce que le 'Philopsendès' ?",
+      "options": [
+        "Un traité sur les menteurs et les récits de fantômes",
+        "Un poème tragique",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La 'Vente des {{1}}' est une satire hilarante où les grands philosophes sont vendus aux enchères.",
+      "reponsesAttendues": ["Vies", "sectes"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Lucien était un chrétien convaincu.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Le style de Lucien est :",
+      "options": [
+        "Léger, alerte, spirituel et brillant",
+        "Pesant et monotone",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Lucien a influencé Érasme, Swift (Les Voyages de Gulliver) et Voltaire.",
+      "reponse": true
+    }
+  ]
+}

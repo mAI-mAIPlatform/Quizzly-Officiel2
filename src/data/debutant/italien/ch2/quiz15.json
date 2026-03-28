@@ -1,0 +1,94 @@
+{
+  "id": "quiz15",
+  "titre": "Les Adjectifs Qualificatifs (1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'difficile' ?",
+      "options": [
+        "difficile",
+        "facile",
+        "forte",
+        "debole"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Facile' signifie 'facile'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": " 'Fort' se dit '{{1}}' (forte).",
+      "reponsesAttendues": [
+        "forte"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'debole' ?",
+      "options": [
+        "Faible",
+        "Fort",
+        "Dur",
+        "Mou"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les adjectifs en -e ont la même forme pour le masculin et le féminin.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'intelligent' ?",
+      "options": [
+        "intelligente",
+        "stupido",
+        "pigro",
+        "attivo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": " 'Intéressant' se dit '{{1}}' (interessante).",
+      "reponsesAttendues": [
+        "interessante"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Importante' signifie 'important'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'gentile' ?",
+      "options": [
+        "Gentil",
+        "Sévère",
+        "Triste",
+        "Colérique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le pluriel des adjectifs en -e (masculin et féminin) est -i.",
+      "reponse": true
+    }
+  ]
+}

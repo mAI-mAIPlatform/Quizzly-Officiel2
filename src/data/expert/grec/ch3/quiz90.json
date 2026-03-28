@@ -1,0 +1,94 @@
+{
+  "id": "quiz90",
+  "titre": "Revisione : Filosofia Greca (Capitolo 3 - Greco Expert)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Maître de la maïeutique ?",
+      "options": [
+        "Socrate",
+        "Platon",
+        "Aristote",
+        "Épicure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Allégorie de la caverne = Platon.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Raisonnement logique en 3 temps : un `{{1}}`.",
+      "reponsesAttendues": [
+        "Syllogisme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Fondateur du Lycée ?",
+      "options": [
+        "Aristote",
+        "Platon",
+        "Zénon",
+        "Diogène"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Stoïcisme = Distinguer ce qui dépend de nous.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Philosophe au tonneau ?",
+      "options": [
+        "Diogène",
+        "Sénèque",
+        "Pyrrhon",
+        "Thalès"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Absence de trouble de l'âme : l'`{{1}}`.",
+      "reponsesAttendues": [
+        "Ataraxie"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Épicurisme = Atomes et plaisir modéré.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Premier philosophe de Milet (Eau) ?",
+      "options": [
+        "Thalès",
+        "Héraclite",
+        "Anaxagore",
+        "Protagoras"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La philosophie grecque est la source de la pensée logique.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz16",
+  "titre": "Protocoles et Duck Typing Avancé",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un protocole (Protocol) en Python (PEP 544) ?",
+      "options": [
+        "Une interface structurelle définissant des méthodes attendues (static duck typing)",
+        "Une règle réseau",
+        "Un ensemble de méthodes privées",
+        "Un type de décorateur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour implémenter un protocole, une classe doit hériter explicitement de celui-ci.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le décorateur `@runtime_checkable` permet d'utiliser `{{1}}()` avec un protocole à l'exécution.",
+      "reponsesAttendues": [
+        "isinstance"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre ABC (Abstract Base Class) et Protocol ?",
+      "options": [
+        "ABC nécessite l'héritage, Protocol utilise la structure (nominal vs structural)",
+        "Protocol est plus lent",
+        "ABC est déprécié",
+        "Il n'y a aucune différence"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Duck Typing signifie : 'Si ça marche comme un canard, c'est un canard'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel protocole définit un objet itérable ?",
+      "options": [
+        "Iterable (méthode __iter__)",
+        "Iterator",
+        "Container",
+        "Collection"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le protocole `{{1}}` permet de définir un objet qui peut être fermé avec une méthode close().",
+      "reponsesAttendues": [
+        "Closable"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les protocoles permettent d'améliorer la flexibilité des bibliothèques tierces.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment définir une méthode optionnelle dans un protocole ?",
+      "options": [
+        "Il n'y a pas de support natif pour les méthodes optionnelles",
+        "En utilisant @optional",
+        "En mettant une valeur par défaut",
+        "En ne la déclarant pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le protocole 'Callable' permet de typer une fonction ou un objet appelable.",
+      "reponse": true
+    }
+  ]
+}

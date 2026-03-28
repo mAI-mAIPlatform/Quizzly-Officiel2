@@ -1,0 +1,95 @@
+{
+  "id": "quiz52",
+  "titre": "Grec Expert : Hésiode et la Sagesse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel ouvrage d'Hésiode traite de l'origine des dieux ?",
+      "options": [
+        "La Théogonie",
+        "Les Travaux et les Jours",
+        "Le Bouclier d'Héraclès",
+        "L'Odyssée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Hésiode se présente comme un berger ayant reçu l'inspiration des Muses sur le mont Hélicon.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans 'Les Travaux et les Jours', Hésiode s'adresse à son frère `{{1}}`.",
+      "reponsesAttendues": [
+        "Persès",
+        "Perses"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est le mythe central expliquant la condition humaine pénible chez Hésiode ?",
+      "options": [
+        "Le mythe de Prométhée et Pandora",
+        "Le mythe d'Icare",
+        "Le mythe de Sisyphe",
+        "Le mythe d'Orphée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Hésiode décrit la décadence de l'humanité à travers le mythe des 'Ages' (Or, Argent, Bronze, Héros, Fer).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle est la valeur suprême prônée par Hésiode ?",
+      "options": [
+        "Le travail (Ergon) et la justice (Dikè)",
+        "La guerre et la gloire",
+        "Le plaisir et la fête",
+        "Le silence"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le poème d'Hésiode appartient au genre de la poésie `{{1}}` (destinée à enseigner).",
+      "reponsesAttendues": [
+        "didactique"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Hésiode utilise également l'hexamètre dactylique.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qui est la première femme créée par les dieux selon Hésiode ?",
+      "options": [
+        "Pandora",
+        "Hélène",
+        "Pénélope",
+        "Médée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La Théogonie de Hésiode commence par un Chaos originel.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz2",
+  "titre": "Plaute / Comédie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le genre fétiche de Plaute ?",
+      "options": [
+        "La Fabula Palliata (comédie de mœurs grecques)",
+        "La Tragédie",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Plaute utilise une langue très vivante, riche en jeux de mots et en néologismes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le personnage type de l'esclave rusé chez Plaute s'appelle souvent le {{1}}.",
+      "reponsesAttendues": ["servus currens", "esclave"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Titre d'une pièce célèbre de Plaute mettant en scène un avare ?",
+      "options": [
+        "Aulularia (La Marmite)",
+        "Miles Gloriosus",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les pièces de Plaute comportaient de nombreuses parties chantées (cantica).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui est le 'Miles Gloriosus' ?",
+      "options": [
+        "Le soldat fanfaron",
+        "Le jeune premier",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Molière s'est inspiré de l'{{1}} de Plaute pour écrire 'L'Avare'.",
+      "reponsesAttendues": ["Aulularia"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Plaute cherche avant tout à divertir le peuple romain lors des jeux.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Le 'Quiproquo' est :",
+      "options": [
+        "Un ressort comique basé sur un malentendu",
+        "Un plat romains",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Plaute a écrit plus de 100 pièces, mais seules 21 nous sont parvenues.",
+      "reponse": true
+    }
+  ]
+}

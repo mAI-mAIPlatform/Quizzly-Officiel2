@@ -1,0 +1,95 @@
+{
+  "id": "quiz19",
+  "titre": "Nettoyer l'Eau",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'action de laisser reposer un mélange pour que les particules lourdes tombent au fond ?",
+      "options": [
+        "La filtration",
+        "La décantation",
+        "L'évaporation",
+        "La fusion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Filtrer l'eau permet d'enlever le sel dissous.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour enlever les impuretés fines, on fait passer l'eau à travers un {{1}}.",
+      "reponsesAttendues": [
+        "filtre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Dans une station d'épuration, l'eau est nettoyée avant de :",
+      "options": [
+        "Être bue immédiatement au robinet",
+        "Être rejetée dans la nature (rivière, mer)",
+        "Être transformée en glace",
+        "Être vendue en bouteille"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'eau qui sort d'un filtre est forcément potable (on peut la boire).",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel traitement tue les bactéries et microbes dans l'eau ?",
+      "options": [
+        "La filtration",
+        "La désinfection (ex: avec du chlore)",
+        "La décantation",
+        "Le tamisage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Une eau limpide (transparente) peut quand même être {{1}}.",
+      "reponsesAttendues": [
+        "polluée",
+        "dangereuse"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il est important de ne pas jeter de produits toxiques dans l'évier.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces étapes vient en premier pour nettoyer de l'eau terreuse ?",
+      "options": [
+        "La désinfection",
+        "Le tamisage / La filtration des gros objets",
+        "L'embouteillage",
+        "L'ajout de sirop"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'eau potable est une ressource rare qu'il faut protéger.",
+      "reponse": true
+    }
+  ]
+}

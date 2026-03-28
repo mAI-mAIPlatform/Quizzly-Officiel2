@@ -1,0 +1,90 @@
+{
+  "id": "quiz26",
+  "titre": "Statues en Bronze",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est ce que la technique de la 'cire perdue' ?",
+      "options": [
+        "Un procédé de moulage permettant de réaliser des statues creuses en métal",
+        "Une technique de peinture",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le bronze permettait des poses plus audacieuses et aériennes que le marbre (moins cassant).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le Dieu de l'{{1}} (ou Poséidon) repêché au cap Artémision est un chef-d'œuvre du bronze classique.",
+      "reponsesAttendues": ["Artémision"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi si peu de grands bronzes originaux nous sont parvenus ?",
+      "options": [
+        "Ils ont été fondus au Moyen Âge pour récupérer le métal",
+        "Ils sont partis dans l'espace",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les statues romaines en marbre sont souvent des copies de bronzes grecs perdus.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Le 'Penseur' de Riace (Bronze A) est célèbre pour :",
+      "options": [
+        "Sa musculature parfaite et son expression farouche",
+        "Ses vêtements colorés",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La statue du '{{1}}' (Apoxyomène) de Lysippe illustrait un nouvel idéal de corps.",
+      "reponsesAttendues": ["Racleur"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le bronze était poli pour briller comme de l'or au soleil.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel sculpteur était le maître incontesté du bronze au IVe siècle ?",
+      "options": [
+        "Lysippe",
+        "Phidias",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le bronze est le matériau par excellence de la grande statuaire classique.",
+      "reponse": true
+    }
+  ]
+}

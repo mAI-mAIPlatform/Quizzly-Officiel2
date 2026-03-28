@@ -1,0 +1,90 @@
+{
+  "id": "quiz13",
+  "titre": "Infinitif Futur",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Formation de l'infinitif futur ACTIF ?",
+      "options": [
+        "Participe Futur + esse",
+        "Radical + -urus esse",
+        "Les deux sont valables",
+        "Rien"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Traduisez : 'Dico eum venturum esse' -> Je dis qu'il viendra.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'infinitif futur PASSIF se forme avec le supin en -um + la forme {{1}}.",
+      "reponsesAttendues": ["iri"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Particularité de 'iri' ?",
+      "options": [
+        "C'est l'infinitif présent passif impersonnel de 'ire' (on y va / on va)",
+        "C'est un pronom",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le supin dans 'amatum iri' est invariable.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Spero urbem captum iri'",
+      "options": [
+        "J'espère que la ville sera prise",
+        "La ville est prise",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "On utilise {{1}} (ou fore ut) + subjonctif pour remplacer l'infinitif futur s'il n'existe pas.",
+      "reponsesAttendues": ["futurum esse"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'infinitif futur s'emploie principalement dans les propositions infinitives.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'Fore ut ametis' ?",
+      "options": [
+        "Il arrivera que vous aimiez",
+        "Vous aimerez",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'infinitif futur passif est relativement rare en dehors de certains auteurs.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz10",
+  "titre": "Style Manuelin",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le style Manuelin ?",
+      "options": [
+        "Un style architectural et décoratif unique au Portugal (Gothique flamboyant portugais)",
+        "Un style de peinture baroque",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le style Manuelin intègre des éléments maritimes (cordages, ancres, coraux) dans la décoration.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le monument le plus emblématique du style Manuelin à Lisbonne est la tour de {{1}}.",
+      "reponsesAttendues": ["Belém"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel roi a donné son nom à ce style ?",
+      "options": [
+        "Dom Manuel Ier",
+        "Dom Afonso Henriques",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La 'Fenêtre du Chapitre' au Couvent de l'Ordre du Christ à Tomar est un chef-d'œuvre manuelin.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel symbole royal est omniprésent dans le style Manuelin ?",
+      "options": [
+        "L'Astrilele (Sfera Armilar)",
+        "La Fleur de l'Lys",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le style Manuelin reflète la richesse et l'optimisme de l'époque des {{1}}.",
+      "reponsesAttendues": ["découvertes", "descobrimentos"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Ce style est une synthèse entre le gothique tardif, l'art mudéjar et les influences de la Renaissance.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Outre la Tour de Belém, quel autre monument de Lisbonne est de style Manuelin ?",
+      "options": [
+        "Mosteiro dos Jerónimos (Monastère des Hiéronymites)",
+        "Palais de l'Ajuda",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le style Manuelin a perduré jusqu'au XIXe siècle au Portugal.",
+      "reponse": false
+    }
+  ]
+}

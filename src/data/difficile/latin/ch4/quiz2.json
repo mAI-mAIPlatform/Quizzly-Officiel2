@@ -1,0 +1,90 @@
+{
+  "id": "quiz2",
+  "titre": "Le Sénat",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie le sigle S.P.Q.R. ?",
+      "options": [
+        "Senatus Populusque Romanus (Le Sénat et le Peuple Romain)",
+        "Rome est éternelle",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Sénat romain détient l' 'auctoritas' (autorité morale et consultative).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour être sénateur, il fallait avoir exercé au moins une {{1}}.",
+      "reponsesAttendues": ["magistrature"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui présidait généralement les séances du Sénat ?",
+      "options": [
+        "Un Consul",
+        "Le Grand Pontife",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les décisions du Sénat s'appellent des 'Senatus-consultes'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Le Sénat avait la haute main sur :",
+      "options": [
+        "La politique étrangère et les finances",
+        "Uniquement les jeux",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le titre de '{{1}} Senatus' désignait le sénateur dont le nom figurait en tête de la liste.",
+      "reponsesAttendues": ["Princeps"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Pendant l'Empire, le Sénat perd progressivement ses pouvoirs réels au profit de l'Empereur.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Combien de membres comptait le Sénat sous la République mûre ?",
+      "options": [
+        "Environ 300",
+        "Environ 50",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Sénat était le garant des traditions (Mos Maiorum).",
+      "reponse": true
+    }
+  ]
+}

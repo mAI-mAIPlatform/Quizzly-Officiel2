@@ -1,0 +1,95 @@
+{
+  "id": "quiz65",
+  "titre": "JavaScript Expert : SharedArrayBuffer et Atomics",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel objet permet de partager une zone mémoire entre plusieurs threads (workers) ?",
+      "options": [
+        "SharedArrayBuffer",
+        "ArrayBuffer",
+        "DataView",
+        "Blob"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'API `Atomics` fournit des opérations atomiques pour manipuler de manière sûre la mémoire partagée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une opération `{{1}}` garantit qu'elle s'exécute en une seule étape indivisible, sans interruption par un autre thread.",
+      "reponsesAttendues": [
+        "atomique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle méthode d'Atomics permet de mettre un thread en attente jusqu'à un signal ?",
+      "options": [
+        "Atomics.wait()",
+        "Atomics.notify()",
+        "Atomics.sleep()",
+        "Atomics.pause()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Pour utiliser `SharedArrayBuffer`, le site doit être 'cross-origin isolated' pour des raisons de sécurité (Spectre/Meltdown).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que fait `Atomics.add(typedArray, index, value)` ?",
+      "options": [
+        "Ajoute la valeur à l'index de manière atomique et retourne l'ancienne valeur",
+        "Ajoute un élément à la fin",
+        "Concatène deux tableaux",
+        "Calcule l'addition"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (ou sérialisabilité) est l'ordre dans lequel les opérations apparaissent aux différents threads.",
+      "reponsesAttendues": [
+        "modèle mémoire",
+        "memory model"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation directe de SharedArrayBuffer est recommandée pour tous les développeurs JS, même débutants.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment réveiller des threads endormis avec Atomics ?",
+      "options": [
+        "Atomics.notify()",
+        "Atomics.wake()",
+        "Atomics.signal()",
+        "Atomics.alert()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les typed arrays (Int32Array, etc.) sont nécessaires pour utiliser SharedArrayBuffer.",
+      "reponse": true
+    }
+  ]
+}

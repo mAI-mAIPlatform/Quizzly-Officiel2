@@ -1,0 +1,94 @@
+{
+  "id": "quiz14",
+  "titre": "Drag and Drop API",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel attribut rend un élément déplaçable ?",
+      "options": [
+        "draggable=\"true\"",
+        "drag=\"enabled\"",
+        "movable=\"true\"",
+        "allow-drag"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'événement 'dragover' doit être annulé (preventDefault) pour autoriser le dépôt (drop).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'objet `data{{1}}` stocke les informations transférées pendant le glisser-déposer.",
+      "reponsesAttendues": [
+        "Transfer"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel événement se déclenche sur l'élément déplacé à la fin de l'opération ?",
+      "options": [
+        "dragend",
+        "dragstop",
+        "drop",
+        "dragclose"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut glisser-déposer des fichiers depuis le bureau de l'ordinateur vers le navigateur.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment définir les données à transférer pendant le 'dragstart' ?",
+      "options": [
+        "e.dataTransfer.setData('type', 'valeur')",
+        "e.setPayload('valeur')",
+        "e.target.value = 'valeur'",
+        "transfer.push('valeur')"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'événement {{1}} se déclenche sur la cible potentielle quand l'élément la survole.",
+      "reponsesAttendues": [
+        "dragenter"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il est possible de personnaliser l'image fantôme qui suit la souris pendant le déplacement.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle propriété définit le type d'effet visuel (copy, move, link) ?",
+      "options": [
+        "dropEffect",
+        "cursorStyle",
+        "dragMode",
+        "effectAllowed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'API native du Drag and Drop est réputée pour sa simplicité exemplaire.",
+      "reponse": false
+    }
+  ]
+}

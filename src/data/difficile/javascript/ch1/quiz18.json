@@ -1,0 +1,90 @@
+{
+  "id": "quiz18",
+  "titre": "Analyse de la Pile (Stack Trace)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'Stack Trace' ?",
+      "options": [
+        "Un dessin de pile",
+        "L'historique des appels de fonctions menant à un point précis",
+        "Une erreur de compilation",
+        "Le contenu du Heap"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Chaque appel de fonction ajoute un 'frame' en haut de la stack.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une erreur 'Maximum call stack size exceeded' est due à une {{1}} trop profonde.",
+      "reponsesAttendues": ["récursion"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment générer manuellement une stack trace dans la console ?",
+      "options": [
+        "console.log()",
+        "console.trace()",
+        "console.stack()",
+        "Error.print()"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les fonctions asynchrones (via setTimeout) conservent l'intégralité de la stack trace parente.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'Anonymous Function' dans une stack trace ?",
+      "options": [
+        "Une fonction d'un hacker",
+        "Une fonction sans nom (souvent une callback ou arrow function)",
+        "Une erreur d'import",
+        "Une fonction globale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'ordre de la Stack est {{1}} (Last In, First Out).",
+      "reponsesAttendues": ["LIFO"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le 'Event Loop' vide la stack avant de traiter une nouvelle tâche.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel occupe de la place sur la Stack ?",
+      "options": [
+        "Les gros objets JSON",
+        "Les variables locales et adresses de retour",
+        "Les images",
+        "Le code source"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Une closure n'apparaît jamais dans la stack trace.",
+      "reponse": false
+    }
+  ]
+}

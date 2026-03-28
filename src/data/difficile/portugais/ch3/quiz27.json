@@ -1,0 +1,90 @@
+{
+  "id": "quiz27",
+  "titre": "Femmes de l'Histoire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est la 'Sainte Reine' célèbre pour le miracle des roses ?",
+      "options": [
+        "Rainha Santa Isabel",
+        "Rainha D. Maria I",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Inês de Castro fut couronnée reine du Portugal après sa mort (La Reine Morte).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dom Maria Ier est restée dans l'histoire sous le surnom de '{{1}}' (A Piedosa ou A Louca).",
+      "reponsesAttendues": ["La Pieuse", "La Folle"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui fut la première femme Premier ministre du Portugal (en 1979) ?",
+      "options": [
+        "Maria de Lourdes Pintasilgo",
+        "Leonor Beleza",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Carolina Beatriz Ângelo fut la première femme à voter au Portugal en 1911 (en utilisant une faille de la loi).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle reine fut responsable du traité d'alliance avec l'Angleterre au XIVe siècle ?",
+      "options": [
+        "Philippa de Lancastre",
+        "D. Amélia",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Antónia Ferreira, dite '{{1}}', fut une femme d'affaires légendaire dans le vin de Porto.",
+      "reponsesAttendues": ["Ferreirinha"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les 'Trois Maries' ont écrit le livre 'Novas Cartas Portuguesas', censuré par le régime.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qui est la poétesse auteur de 'Mensagem' au féminin (Poèmes de la Mer) ?",
+      "options": [
+        "Sophia de Mello Breyner",
+        "Florbela Espanca",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les femmes occupent aujourd'hui une place centrale dans la vie politique, économique et culturelle du pays.",
+      "reponse": true
+    }
+  ]
+}

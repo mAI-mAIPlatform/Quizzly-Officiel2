@@ -1,0 +1,94 @@
+{
+  "id": "quiz47",
+  "titre": "HTML Expert : Orientation & Motion",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel événement permet de détecter l'inclinaison de l'appareil (gyroscope) ?",
+      "options": [
+        "deviceorientation",
+        "devicemotion",
+        "devicepitch",
+        "windowrotate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'événement 'devicemotion' donne accès aux données de l'accéléromètre (mouvements brusques).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les trois axes de rotation sont Alpha, Beta et `{{1}}`.",
+      "reponsesAttendues": [
+        "Gamma"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que représente l'axe 'Alpha' ?",
+      "options": [
+        "La boussole (rotation autour de l'axe Z perpendicular au sol)",
+        "L'inclinaison avant/arrière",
+        "L'inclinaison gauche/droite",
+        "La vitesse de déplacement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Sur iOS (Safari), il faut demander explicitement une permission via DeviceOrientationEvent.requestPermission() suite à un clic.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel mesure la vitesse angulaire (en degrés par seconde) ?",
+      "options": [
+        "rotationRate",
+        "accelerationIncludingGravity",
+        "interval",
+        "orientation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'axe `{{1}}` représente l'inclinaison gauche/droite de l'appareil.",
+      "reponsesAttendues": [
+        "Gamma"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Ces APIs sont très utiles pour créer des jeux web ou des expériences de réalité augmentée.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "À quoi sert la propriété 'interval' dans DeviceMotionEvent ?",
+      "options": [
+        "Au délai (en ms) entre deux captures de données par le matériel",
+        "Au temps de vol d'un avion",
+        "À la date du jour",
+        "À rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'accéléromètre peut détecter si l'utilisateur secoue son téléphone.",
+      "reponse": true
+    }
+  ]
+}

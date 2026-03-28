@@ -1,0 +1,96 @@
+{
+  "id": "quiz69",
+  "titre": "Italien Expert : Philosophie de la Renaissance",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel philosophe florentin a dirigé l'Académie Platonicienne et traduit l'œuvre complète de Platon ?",
+      "options": [
+        "Marsilio Ficino",
+        "Pico della Mirandola",
+        "Giordano Bruno",
+        "Tommaso Campanella"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Néoplatonisme cherchait à concilier la philosophie antique avec le dogme chrétien.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pic de la Mirandole est l'auteur du célèbre 'Discours sur la `{{1}}` de l'homme'.",
+      "reponsesAttendues": [
+        "dignité",
+        "dignità"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle était l'idée centrale de Pic de la Mirandole sur l'homme ?",
+      "options": [
+        "L'homme n'a pas de nature fixe et possède le libre arbitre de se façonner soi-même",
+        "L'homme est prédestiné",
+        "L'homme est un pur animal",
+        "L'homme est un dieu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Giordano Bruno a été brûlé vif par l'Inquisition pour avoir soutenu l'infinité de l'univers et le panthéisme.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel ouvrage de Tommaso Campanella décrit une cité utopique basée sur la raison et la communauté des biens ?",
+      "options": [
+        "La Cité du Soleil (La città del Sole)",
+        "Le Prince",
+        "L'Eutopie",
+        "Nova Atlantis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Hermétisme) était un courant de pensée occulte et ésotérique très influent à la Renaissance.",
+      "reponsesAttendues": [
+        "Hermétisme",
+        "ermetismo"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'intérêt pour la kabbale et les sagesses orientales faisait partie du syncrétisme de Pic de la Mirandole.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel de ces thèmes n'appartient pas au néoplatonisme de Ficin ?",
+      "options": [
+        "L'amour comme force ascendante vers le divin",
+        "L'immortalité de l'âme",
+        "La théorie des atomes et du vide",
+        "L'harmonie universelle"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La philosophie de la Renaissance a préparé le terrain pour la révolution scientifique du XVIIe siècle.",
+      "reponse": true
+    }
+  ]
+}

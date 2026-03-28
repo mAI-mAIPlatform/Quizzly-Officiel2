@@ -1,1 +1,94 @@
-{"id":"quiz6","titre":"Present Simple: Affirmative","questions":[{"id":"q1","type":"qcm","enonce":"Complete: He ______ to school every day.","options":["go","goes","going","gone"],"correctIndex":1},{"id":"q2","type":"vrai_faux","enonce":"In the third person (he/she/it), we add an 's' to the verb.","reponse":true},{"id":"q3","type":"trous","enonce":"They {{1}} English. (speak)","reponsesAttendues":["speak"]},{"id":"q4","type":"relier","question":"Match the subject to the verb form.","pairs":[{"left":"I / You","right":"Play"},{"left":"She / He","right":"Plays"},{"left":"They","right":"Play"}]},{"id":"q5","type":"qcm","enonce":"Which sentence is correct?","options":["She like apples.","She likes apples.","She liking apples.","He speak English."],"correctIndex":1}]}
+{
+  "id": "quiz6",
+  "titre": "The Weather (Is it raining?)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'ensoleillé' ?",
+      "options": [
+        "sunny",
+        "rainy",
+        "cloudy",
+        "windy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'It is raining' signifie 'il pleut'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le vent se dit '{{1}}' (wind).",
+      "reponsesAttendues": [
+        "wind"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'snowing' ?",
+      "options": [
+        "En train de neiger",
+        "En train de geler",
+        "En train de tonner",
+        "En train de briller"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Hot' signifie chaud et 'cold' signifie froid.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'nuageux' ?",
+      "options": [
+        "cloudy",
+        "foggy",
+        "stormy",
+        "clear"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le brouillard se dit '{{1}}' (fog).",
+      "reponsesAttendues": [
+        "fog"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Thunder' signifie le tonnerre.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'What's the weather like?'",
+      "options": [
+        "Quel temps fait-il ?",
+        "Comment vas-tu ?",
+        "Où vas-tu ?",
+        "Quelle heure est-il ?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": " 'It is freezing' signifie 'il gèle'.",
+      "reponse": true
+    }
+  ]
+}

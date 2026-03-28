@@ -1,0 +1,94 @@
+{
+  "id": "quiz53",
+  "titre": "Latin Expert : Virgile & l'Énéide",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est le héros de l'Énéide, ancêtre mythique de Rome ?",
+      "options": [
+        "Énée",
+        "Romulus",
+        "Achille",
+        "Ulysse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Énéide est composée de 12 chants.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La reine de Carthage qui tombe amoureuse d'Énée s'appelle `{{1}}`.",
+      "reponsesAttendues": [
+        "Didon"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle divinité poursuit Énée de sa haine tout au long du poème ?",
+      "options": [
+        "Junon",
+        "Vénus",
+        "Jupiter",
+        "Mars"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Virgile a aussi écrit les 'Bucoliques' et les 'Géorgiques'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se termine l'Énéide ?",
+      "options": [
+        "Par le combat singulier entre Énée et Turnus",
+        "Par la fondation de Rome",
+        "Par la mort d'Énée",
+        "Par le départ pour l'Olympe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le protecteur et ami de Virgile qui finançait les arts s'appelait `{{1}}`.",
+      "reponsesAttendues": [
+        "Mécène"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Virgile voulait brûler l'Énéide avant sa mort car il ne la jugeait pas finie.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "De quelle ville vient Énée au début de son périple ?",
+      "options": [
+        "Troie",
+        "Athènes",
+        "Carthage",
+        "Alexandrie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'œuvre de Virgile visait à célébrer l'empereur Auguste et la grandeur de Rome.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz95",
+  "titre": "Musique Expert : Pop Moderne et Icônes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle chanteuse a battu tous les records de ventes et de streaming avec son 'Eras Tour' ?",
+      "options": [
+        "Taylor Swift",
+        "Beyoncé",
+        "Adele",
+        "Lady Gaga"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Billie Eilish a produit ses premiers albums dans sa chambre avec son frère Finneas.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'album `{{1}}` (Lemonade) de Beyoncé est considéré comme un album conceptuel majeur sur l'identité et la résilience.",
+      "reponsesAttendues": [
+        "Lemonade"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel producteur suédois est responsable d'une quantité impressionnante de tubes pour Britney Spears, Katy Perry et Taylor Swift ?",
+      "options": [
+        "Max Martin",
+        "Quincy Jones",
+        "Rick Rubin",
+        "Dr. Luke"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le '808' dans le langage moderne désigne souvent les basses profondes issues de la TR-808.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel groupe britannique a fait son retour avec l'album 'Ghost Stories' en 2014 ?",
+      "options": [
+        "Coldplay",
+        "Radiohead",
+        "Muse",
+        "Arctic Monkeys"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La chanteuse `{{1}}` (Lana Del Rey) est célèbre pour son esthétique 'vintage' et cinématographique.",
+      "reponsesAttendues": [
+        "Lana Del Rey"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Adele a nommé tous ses premiers albums d'après son âge au moment de la création.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel artiste canadien a sorti l'album 'After Hours' contenant le tube 'Blinding Lights' ?",
+      "options": [
+        "The Weeknd",
+        "Justin Bieber",
+        "Drake",
+        "Shawn Mendes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Lady Gaga a débuté sa carrière en écrivant des chansons pour d'autres artistes.",
+      "reponse": true
+    }
+  ]
+}

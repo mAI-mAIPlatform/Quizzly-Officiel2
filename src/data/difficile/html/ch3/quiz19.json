@@ -1,0 +1,90 @@
+{
+  "id": "quiz19",
+  "titre": "Hreflang et i18n",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi servent les balises link rel='alternate' hreflang='...' ?",
+      "options": [
+        "À indiquer aux moteurs de recherche les différentes versions linguistiques d'une page",
+        "À traduire automatiquement",
+        "À rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si une page possède une version EN et FR, chacune doit lister toutes les versions (incluant elle-même).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La valeur hreflang=\"{{1}}\" est utilisée pour les pays/langues non ciblés explicitement (Fallback).",
+      "reponsesAttendues": ["x-default"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Format correct de la valeur ?",
+      "options": [
+        "langue-REGION (ex: en-US, fr-CA)",
+        "REGION-langue",
+        "JUSTE la langue",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Utiliser l'attribut lang sur la balise <html> remplace les balises hreflang.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si les liens hreflang ne sont pas réciproques ?",
+      "options": [
+        "Google les ignore car il ne peut pas valider la cohérence entre les pages",
+        "C'est pas grave",
+        "Erreur 404",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut hreflang peut être placé dans le <head>, le sitemap XML ou les {{1}} HTTP.",
+      "reponsesAttendues": ["headers", "en-têtes"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Hreflang aide à éviter le contenu dupliqué entre versions régionales similaires (ex: FR et BE).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Outil de validation Hreflang ?",
+      "options": [
+        "Ahrefs, Semrush ou Merkle Hreflang Tags Testing Tool",
+        "Word",
+        "Photoshop",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Indispensable pour tout projet web international ambitieux.",
+      "reponse": true
+    }
+  ]
+}

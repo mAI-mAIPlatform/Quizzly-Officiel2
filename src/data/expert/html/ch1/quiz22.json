@@ -1,0 +1,94 @@
+{
+  "id": "quiz22",
+  "titre": "Service Workers (Fondamentaux)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un Service Worker ?",
+      "options": [
+        "Un script agissant comme un proxy réseau entre le navigateur et le serveur",
+        "Un plugin pour améliorer les formulaires",
+        "Un outil de statistiques en temps réel",
+        "Un remplaçant du serveur Apache"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un Service Worker permet de faire fonctionner une application web hors connexion (Offline).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour des raisons de sécurité, un Service Worker ne fonctionne que sur les sites en {{1}} (sauf localhost).",
+      "reponsesAttendues": [
+        "HTTPS"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel événement est déclenché à chaque requête réseau interceptée par le Service Worker ?",
+      "options": [
+        "fetch",
+        "install",
+        "activate",
+        "message"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un Service Worker a un accès direct au DOM.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle est la première étape du cycle de vie d'un Service Worker ?",
+      "options": [
+        "Installation (install)",
+        "Activation (activate)",
+        "Enregistrement (register)",
+        "Exécution (run)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La méthode `self.{{1}}()` permet à un nouveau Service Worker de prendre le contrôle immédiatement sans attendre la fermeture des onglets.",
+      "reponsesAttendues": [
+        "skipWaiting"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les Service Workers sont la base des Progressive Web Apps (PWA).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "A quoi sert l'API 'Push' utilisée avec un Service Worker ?",
+      "options": [
+        "A recevoir des notifications push même quand le navigateur est fermé",
+        "A envoyer des données au serveur en arrière-plan",
+        "A forcer le rafraîchissement de la page",
+        "A compresser les images au vol"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Un Service Worker peut être arrêté par le navigateur s'il n'est pas utilisé.",
+      "reponse": true
+    }
+  ]
+}

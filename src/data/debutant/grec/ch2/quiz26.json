@@ -1,0 +1,95 @@
+{
+  "id": "quiz26",
+  "titre": "Les Adjectifs de Nombre (1 à 10)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'un' ?",
+      "options": [
+        "εἷς (heis)",
+        "δύο",
+        "τρεῖς",
+        "τέτταρες"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'δúο' (duo) signifie deux.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Trois se dit '{{1}}' (treis).",
+      "reponsesAttendues": [
+        "τρεῖς"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'πέντε' (pente) ?",
+      "options": [
+        "Cinq",
+        "Quatre",
+        "Six",
+        "Sept"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'δέκα' (deka) signifie dix.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'quatre' ?",
+      "options": [
+        "τέτταρες (tettares)",
+        "ἕξ",
+        "ἑπτά",
+        "ὀκτώ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'heptagone a {{1}} côtés.",
+      "reponsesAttendues": [
+        "sept",
+        "7"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'ὀκτώ' (oktô) signifie huit.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'ἐννέα' (ennea) ?",
+      "options": [
+        "Neuf",
+        "Dix",
+        "Cent",
+        "Mille"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le mot 'pentagone' vient de 'pente' (cinq).",
+      "reponse": true
+    }
+  ]
+}

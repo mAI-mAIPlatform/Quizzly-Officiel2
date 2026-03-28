@@ -1,0 +1,90 @@
+{
+  "id": "quiz12",
+  "titre": "Phy. et Méca. (Archim.)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel savant a crié 'Eurêka' en découvrant la poussée hydrostatique ?",
+      "options": [
+        "Archimède de Syracuse",
+        "Euclide",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Archimède a affirmé : 'Donnez-moi un point d'appui et je soulèverai le monde' (loi du levier).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La {{1}} d'Archimède est un dispositif servant à élever l'eau.",
+      "reponsesAttendues": ["vis"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelles machines de guerre Archimède a-t-il conçues pour défendre Syracuse ?",
+      "options": [
+        "Des catapultes et des miroirs ardents",
+        "Des chars à voile",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Archimède a été tué par un soldat romain lors de la prise de Syracuse.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel traité d'Archimède porte sur les corps flottants ?",
+      "options": [
+        "Des corps flottants",
+        "De la géométrie",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Archimède a utilisé la méthode d'{{1}} pour calculer des aires et des volumes.",
+      "reponsesAttendues": ["exhaustion"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le palimpseste d'Archimède est un manuscrit médiéval qui contenait des textes grecs perdus du savant.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "L'invention de la roue dentée et de la poulie est attribuée à :",
+      "options": [
+        "La mécanique grecque (Archimède, Ctésibios)",
+        "L'époque moderne",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Archimède est considéré comme l'un des plus grands mathématiciens et physiciens de tous les temps.",
+      "reponse": true
+    }
+  ]
+}

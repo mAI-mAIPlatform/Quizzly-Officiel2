@@ -1,0 +1,90 @@
+{
+  "id": "quiz24",
+  "titre": "SVG : Dégradés et Motifs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise SVG définit un dégradé linéaire ?",
+      "options": [
+        "<linearGradient>",
+        "<gradient>",
+        "<colorRange>",
+        "<radialGradient>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les dégradés doivent être définis à l'intérieur d'une balise <defs>.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On injecte une couleur dans le dégradé via la balise <{{1}}>.",
+      "reponsesAttendues": ["stop"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appliquer un dégradé (id='monGrad') à un rectangle ?",
+      "options": [
+        "fill=\"url(#monGrad)\"",
+        "fill=\"monGrad\"",
+        "class=\"monGrad\"",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "<radialGradient> crée un dégradé circulaire ou elliptique.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi sert la balise <pattern> en SVG ?",
+      "options": [
+        "À créer des textures répétitives (ex: carrelage, points)",
+        "À dessiner un trait",
+        "À rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} sur <stop> définit la position (0% à 100%) de la couleur.",
+      "reponsesAttendues": ["offset"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut animer les dégradés SVG via JavaScript ou CSS.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quels attributs définissent l'orientation d'un <linearGradient> ?",
+      "options": [
+        "x1, y1, x2, y2",
+        "cx, cy, r",
+        "fx, fy",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le SVG permet des effets visuels très complexes tout en restant léger.",
+      "reponse": true
+    }
+  ]
+}

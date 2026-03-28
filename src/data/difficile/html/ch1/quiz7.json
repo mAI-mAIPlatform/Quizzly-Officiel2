@@ -1,0 +1,90 @@
+{
+  "id": "quiz7",
+  "titre": "Liens et Navigation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel attribut de <a> permet d'ouvrir un lien dans un nouvel onglet ?",
+      "options": [
+        "target=\"_blank\"",
+        "target=\"_new\"",
+        "rel=\"external\"",
+        "type=\"tab\""
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut rel=\"noopener\" est recommandé lors de l'utilisation de target=\"_blank\" pour la sécurité.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} permet de créer un lien vers une ancre sur la même page.",
+      "reponsesAttendues": ["href"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que fait l'attribut 'download' sur une balise <a> ?",
+      "options": [
+        "Force le navigateur à télécharger le fichier au lieu de l'ouvrir",
+        "Compte les clics",
+        "Active le Wi-Fi",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un lien peut entourer un élément de bloc entier comme une <div> ou un <article> en HTML5.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment créer un lien pour envoyer un email ?",
+      "options": [
+        "href=\"mailto:adresse@test.com\"",
+        "href=\"email:adresse@test.com\"",
+        "type=\"email\"",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "En SEO, on utilise rel=\"{{1}}\" pour indiquer qu'on n'approuve pas le lien ou pour économiser du 'link juice'.",
+      "reponsesAttendues": ["nofollow"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'href' est optionnel sur une balise <a>.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la syntaxe d'un lien téléphonique ?",
+      "options": [
+        "href=\"tel:+33123456789\"",
+        "href=\"phone:+33...\"",
+        "call=\"+33...\"",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La balise <nav> ne doit être utilisée que pour les groupes de navigation importants.",
+      "reponse": true
+    }
+  ]
+}

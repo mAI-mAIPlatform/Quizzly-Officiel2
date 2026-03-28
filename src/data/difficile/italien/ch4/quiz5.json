@@ -1,0 +1,90 @@
+{
+  "id": "quiz5",
+  "titre": "Argot et Slang",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie le mot d'argot 'Beccare' ?",
+      "options": [
+        "Attraper (ou voir quelqu'un / se pécho)",
+        "Manger",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Boh' est une interjection typique signifiant 'Je n'en sais rien' ou 'Aucune idée'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot '{{1}}' (tipo) est utilisé par les jeunes comme 'genre' ou 'donc' pour ponctuer les phrases.",
+      "reponsesAttendues": ["tipo"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'Avere la scimmia' (avoir le singe) dans le langage des jeunes ?",
+      "options": [
+        "Être obsédé / avoir une fixette sur quelque chose",
+        "Avoir un animal de compagnie",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Scialla' est une expression romaine devenue nationale signifiant 'Détends-toi', 'C'est cool'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'Sclerare' ?",
+      "options": [
+        "Péter un plomb / s'énerver violemment",
+        "Devenir vieux",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le mot '{{1}}' (pacco) désigne une déception ou quelque chose de nul (ex: Che pacco!).",
+      "reponsesAttendues": ["pacco"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Cuccare' signifie draguer avec succès ou séduire.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que veut dire 'Stare a ruota' ?",
+      "options": [
+        "Suivre de près / être en manque de quelque chose",
+        "Conduire une voiture",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le langage des jeunes italiens est très dynamique et s'inspire souvent des réseaux sociaux.",
+      "reponse": true
+    }
+  ]
+}

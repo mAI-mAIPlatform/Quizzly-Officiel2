@@ -1,0 +1,90 @@
+{
+  "id": "quiz13",
+  "titre": "Focus Trap et Modales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Focus Trap' ?",
+      "options": [
+        "Une technique forçant le curseur clavier à rester cycliquement dans un élément (ex: modale)",
+        "Un bug de clavier",
+        "Une attaque de hacker",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Lorsqu'on ferme une modale, le focus doit revenir à l'élément qui l'a ouverte (le bouton trigger).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise HTML5 native <{{1}}> gère une partie du comportement de focus automatiquement via la méthode showModal().",
+      "reponsesAttendues": ["dialog"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi le focus trap est-il nécessaire ?",
+      "options": [
+        "Pour éviter que l'utilisateur ne 'sorte' de la modale par erreur et interagisse avec le fond masqué",
+        "Pour aller plus vite",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La touche 'Échap' doit idéalement fermer la modale active.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment empêcher l'interaction avec le reste du site quand la modale est ouverte ?",
+      "options": [
+        "Utiliser aria-modal=\"true\" et rendre le fond 'inert' via JS our l'attribut inert",
+        "Tout supprimer",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut global {{1}} (en cours de standardisation large) permet de désactiver tout un pan de l'interface pour le focus et la souris.",
+      "reponsesAttendues": ["inert"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Une modale sans gestion de focus est un obstacle majeur pour les utilisateurs handicapés.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel rôle ARIA pour une modale ?",
+      "options": [
+        "dialog",
+        "alertdialog (pour les confirmations critiques)",
+        "Les deux",
+        "Rien"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La bibliothèque 'focus-trap' est une référence pour implémenter cela sans erreur.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz14",
+  "titre": "Les Métaclasses",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une métaclasse ?",
+      "options": [
+        "Une classe très rapide",
+        "La 'classe d'une classe' (ce qui crée l'objet classe)",
+        "Une bibliothèque externe",
+        "Une erreur de conception"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Par défaut, la métaclasse de toutes les classes en Python est 'type'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour spécifier une métaclasse personnalisée, on utilise l'argument {{1}} dans la définition de classe.",
+      "reponsesAttendues": ["metaclass"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quel moment une métaclasse intervient-elle ?",
+      "options": [
+        "Lors de l'import du module",
+        "Lors de la création de l'objet classe lui-même",
+        "Lors de l'instanciation de l'objet",
+        "Lors de la suppression"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser une métaclasse pour valider la structure d'une classe (ex: vérifier la présence de certains attributs).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle méthode d'une métaclasse est appelée pour créer le dictionnaire d'attributs de la classe ?",
+      "options": [
+        "__prepare__",
+        "__init__",
+        "__call__",
+        "__dict__"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Une métaclasse personnalisée doit presque toujours hériter de {{1}}.",
+      "reponsesAttendues": ["type"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les métaclasses sont indispensables pour 99% des développeurs Python au quotidien.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Où sont utilisées les métaclasses en pratique ?",
+      "options": [
+        "Dans les frameworks (ex: Django ORM, ABC)",
+        "Dans les calculs scientifiques",
+        "Pour l'interface utilisateur",
+        "Nulle part"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Tim Peters a dit : 'Les métaclasses sont une magie profonde que vous ne devriez pas toucher à moins d'être sûr d'en avoir besoin'.",
+      "reponse": true
+    }
+  ]
+}

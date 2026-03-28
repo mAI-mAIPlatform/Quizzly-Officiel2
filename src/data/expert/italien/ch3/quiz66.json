@@ -1,0 +1,96 @@
+{
+  "id": "quiz66",
+  "titre": "Italien Expert : L'Arioste et l'Orlando Furioso",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le titre de l'épopée chevaleresque de Ludovico Ariosto ?",
+      "options": [
+        "Orlando Furioso (Roland Furieux)",
+        "Gerusalemme Liberata",
+        "Morgante",
+        "L'Amadigi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le poème est écrit en 'ottava rima' (stances de huit vers).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Orlando (Roland) devient 'furieux' (fou) par amour pour la belle `{{1}}`.",
+      "reponsesAttendues": [
+        "Angelique",
+        "Angelica"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel chevalier part sur la Lune pour récupérer la raison (le sénat) d'Orlando ?",
+      "options": [
+        "Astolfo",
+        "Ruggiero",
+        "Bradamante",
+        "Rodomonte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'Orlando Furioso mélange habilement l'héroïsme, le fantastique et l'ironie.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quelle cour italienne l'Arioste était-il attaché ?",
+      "options": [
+        "La cour d'Este à Ferrare",
+        "La cour des Médicis à Florence",
+        "La cour des Sforza à Milan",
+        "Le Vatican"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'`{{1}}` est l'animal fantastique (mi-aigle, mi-cheval) sur lequel voyagent les personnages.",
+      "reponsesAttendues": [
+        "Hippogriffe",
+        "ippogrifo"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le poème se déroule sur fond de guerre entre les Francs de Charlemagne et les Sarrasins.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle chevaleresse guerrière est l'un des personnages principaux et ancêtre mythique de la famille d'Este ?",
+      "options": [
+        "Bradamante",
+        "Marfisa",
+        "Olimpia",
+        "Alcina"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'œuvre de l'Arioste est le sommet de la littérature chevaleresque de la Renaissance italienne.",
+      "reponse": true
+    }
+  ]
+}

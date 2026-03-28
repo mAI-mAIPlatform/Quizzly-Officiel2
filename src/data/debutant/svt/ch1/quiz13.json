@@ -1,0 +1,94 @@
+{
+  "id": "quiz13",
+  "titre": "Les Étapes de Vie d'un Végétal",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lalquelle est la première étape de vie d'une plante ?",
+      "options": [
+        "La floraison",
+        "La germination de la graine",
+        "La production de fruits",
+        "La mort"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une plante grandit puis devient capable de se reproduire (faire des fleurs/graines).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Quand les fleurs apparaissent sur la plante, on parle de {{1}}.",
+      "reponsesAttendues": [
+        "floraison"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il après la fleur pour beaucoup de plantes ?",
+      "options": [
+        "La plante disparaît immédiatement",
+        "La fleur se transforme en fruit contenant des graines",
+        "La plante redevient une graine",
+        "Rien ne change"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Toutes les plantes vivent des centaines d'années.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on une plante qui vit plusieurs années (comme un arbre) ?",
+      "options": [
+        "Une plante annuelle",
+        "Une plante vivace / pérenne",
+        "Une plante factice",
+        "Une plante pressée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le cycle de vie d'une plante s'achève par sa {{1}}.",
+      "reponsesAttendues": [
+        "mort"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les abeilles aident les plantes à se reproduire en transportant le pollen.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle partie de l'arbre permet de savoir son âge ?",
+      "options": [
+        "Le nombre de feuilles",
+        "Les cernes (anneaux) dans le tronc",
+        "La hauteur de l'arbre",
+        "La couleur de l'écorce"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le cycle de vie permet à l'espèce de continuer d'exister.",
+      "reponse": true
+    }
+  ]
+}

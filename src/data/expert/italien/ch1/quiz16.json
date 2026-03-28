@@ -1,0 +1,95 @@
+{
+  "id": "quiz16",
+  "titre": "Grammatica : Connettivi e avverbi testuali",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Cosa significa 'anzi' ?",
+      "options": [
+        "Al contrario / Anzi di più",
+        "Prima",
+        "Dopo",
+        "Perciò"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Tuttavia' esprime un'opposizione o una concessione (come 'però').",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Il sinonimo più formale di 'ma' o 'però' è `{{1}}`.",
+      "reponsesAttendues": [
+        "tuttavia",
+        "nondimeno"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Cosa indica 'insomma' ?",
+      "options": [
+        "Una conclusione o un riassunto finale",
+        "In una somma di denaro",
+        "Un dubbio",
+        "Un inizio di frase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Dunque' e 'Quindi' sono connettivi conclusivi.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qual è il significato di 'viceversa' ?",
+      "options": [
+        "Al contrario / In modo opposto",
+        "Girare la pagina",
+        "Parlare a bassa voce",
+        "Andare avanti"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Per introdurre un esempio usiamo 'ad `{{1}}`'.",
+      "reponsesAttendues": [
+        "esempio"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Peraltro' introduce una precisazione o un'aggiunta a quanto detto.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Cosa significa 'anzitutto' ?",
+      "options": [
+        "Prima di tutto / In primo luogo",
+        "Solo alla fine",
+        "In mezzo a tutti",
+        "Nessuno sa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "I connettivi servono a rendere il discorso più fluido e logico.",
+      "reponse": true
+    }
+  ]
+}

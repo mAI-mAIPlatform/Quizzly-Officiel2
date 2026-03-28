@@ -1,0 +1,94 @@
+{
+  "id": "quiz12",
+  "titre": "De la Graine à la Plante",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que contient une graine pour permettre à une plante de pousser ?",
+      "options": [
+        "Du sable",
+        "Un petit embryon de plante et des réserves de nourriture",
+        "Uniquement de l'eau",
+        "Rien, elle est vide"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Toutes les graines ont besoin de terre pour germer.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le début du développement de la graine s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "germination"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces conditions est INDISPENSABLE pour que la graine germe ?",
+      "options": [
+        "L'obscurité totale",
+        "L'eau (l'humidité)",
+        "Le vent fort",
+        "La musique"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La chaleur aide souvent les graines à germer plus vite.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle partie sort en premier de la graine lors de la germination ?",
+      "options": [
+        "La feuille",
+        "La racine (radicule)",
+        "La fleur",
+        "Le fruit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les réserves de nourriture de la graine sont contenues dans les {{1}}.",
+      "reponsesAttendues": [
+        "cotylédons"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Une fois que la plante a des feuilles vertes, elle n'a plus besoin des réserves de la graine.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "D'où viennent les graines ?",
+      "options": [
+        "Des cailloux",
+        "Des fleurs après la pollinisation",
+        "Des racines",
+        "Du ciel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les graines peuvent rester 'endormies' longtemps avant de germer.",
+      "reponse": true
+    }
+  ]
+}

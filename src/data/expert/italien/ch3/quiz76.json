@@ -1,0 +1,96 @@
+{
+  "id": "quiz76",
+  "titre": "Italien Expert : Futurisme et Peinture Métaphysique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel mouvement artistique italien du début du XXe siècle exalte la vitesse, la machine et la modernité ?",
+      "options": [
+        "Le Futurisme",
+        "Le Surréalisme",
+        "Le Cubisme",
+        "L'Art Nouveau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Filippo Tommaso Marinetti est l'auteur du 'Manifeste du Futurisme'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La `{{1}}` (Pittura Metafisica) est le mouvement créé par Giorgio de Chirico, caractérisé par des places désertes et des mannequins.",
+      "reponsesAttendues": [
+        "Peinture Metaphysique",
+        "Pittura Metafisica"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel sculpteur futuriste a créé l'œuvre 'L'Homme en mouvement' (représentée sur la pièce de 20 centimes d'euro italienne) ?",
+      "options": [
+        "Umberto Boccioni",
+        "Giacomo Balla",
+        "Gino Severini",
+        "Carlo Carrà"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Amedeo Modigliani est célèbre pour ses portraits aux cous allongés et aux yeux vides.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment s'appelle le courant artistique des années 1960 utilisant des matériaux 'pauvres' (terre, tissus, bois) ?",
+      "options": [
+        "L'Arte Povera",
+        "Le Trans-avant-garde",
+        "Le Pop Art",
+        "Le Minimalisme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Lucio Fontana) est célèbre pour ses toiles fendues (Tagli), cherchant à introduire une troisième dimension.",
+      "reponsesAttendues": [
+        "Spatialisme",
+        "Spatialismo"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Giorgio Morandi a consacré l'essentiel de sa vie à peindre des natures mortes de bouteilles et d'objets simples.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle biennale d'art contemporain, créée en 1895, est l'une des plus anciennes et prestigieuses au monde ?",
+      "options": [
+        "La Biennale de Venise",
+        "La Documenta",
+        "La Fiac",
+        "Art Basel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le mouvement Novecento prônait un retour à l'ordre et aux valeurs classiques de l'art italien dans les années 1920.",
+      "reponse": true
+    }
+  ]
+}

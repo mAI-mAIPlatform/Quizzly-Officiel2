@@ -1,0 +1,94 @@
+{
+  "id": "quiz36",
+  "titre": "Culture Générale Expert : La Seconde Guerre Mondiale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel événement marque le début de la guerre en Europe le 1er septembre 1939 ?",
+      "options": [
+        "L'invasion de la Pologne",
+        "L'invasion de la France",
+        "L'Anschluss",
+        "Le bombardement de Londres"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'appel du 18 juin 1940 a été lancé par le général de Gaulle depuis Londres.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attaque japonaise sur `{{1}}` (7 décembre 1941) provoque l'entrée en guerre des USA.",
+      "reponsesAttendues": [
+        "Pearl Harbor"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle bataille marque le tournant décisif sur le front de l'Est en 1943 ?",
+      "options": [
+        "Stalingrad",
+        "Moscou",
+        "Koursk",
+        "Léningrad"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le débarquement de Normandie a eu lieu le 6 juin 1944.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelles villes japonaises ont été les cibles des bombes atomiques en août 1945 ?",
+      "options": [
+        "Hiroshima et Nagasaki",
+        "Tokyo et Kyoto",
+        "Osaka et Sapporo",
+        "Hiroshima et Tokyo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'extermination systématique des Juifs par les nazis est appelée la `{{1}}` (ou Holocauste).",
+      "reponsesAttendues": [
+        "Shoah"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'Allemagne a signé sa capitulation sans condition le 8 mai 1945.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qui sont 'Les Trois Grands' présents à la conférence de Yalta ?",
+      "options": [
+        "Staline, Roosevelt, Churchill",
+        "Hitler, Mussolini, Hirohito",
+        "De Gaulle, Eisenhower, Montgomery",
+        "Staline, Truman, Atlee"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'ONU a été créée en 1945 pour remplacer la SDN défaillante.",
+      "reponse": true
+    }
+  ]
+}

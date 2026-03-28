@@ -1,0 +1,94 @@
+{
+  "id": "quiz24",
+  "titre": "Les Boissons",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'L'eau' ?",
+      "options": [
+        "A água",
+        "O vinho",
+        "O leite",
+        "O sumo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'O leite' signifie 'Le lait'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le 'Vin' se dit 'O {{1}}'.",
+      "reponsesAttendues": [
+        "vinho"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'O sumo' (au Portugal) / 'O suco' (au Brésil) ?",
+      "options": [
+        "La soupe",
+        "Le jus",
+        "Le café",
+        "Le thé"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'O café' est une boisson très populaire au Portugal et au Brésil.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Le thé' ?",
+      "options": [
+        "O chá",
+        "O chocolate",
+        "A cerveja",
+        "A limonada"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La 'Bière' se dit 'A {{1}}'.",
+      "reponsesAttendues": [
+        "cerveja"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Quero beber água' signifie 'Je veux boire de l'eau'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'Gelado' ?",
+      "options": [
+        "Chaud",
+        "Glacé / Froid",
+        "Sucré",
+        "Amer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le mot 'Bebida' signifie 'Boisson'.",
+      "reponse": true
+    }
+  ]
+}

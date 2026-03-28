@@ -1,0 +1,94 @@
+{
+  "id": "quiz43",
+  "titre": "Python Expert : Introspection & Attributs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre `__getattr__` et `__getattribute__` ?",
+      "options": [
+        "__getattribute__ est appelé pour CHAQUE accès, __getattr__ seulement si l'attribut n'existe pas",
+        "C'est l'inverse",
+        "__getattr__ est obsolète",
+        "__getattribute__ ne marche que sur les fonctions"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Redéfinir __getattribute__ est dangereux car cela peut facilement créer des boucles de récursion infinies.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'équivalent pour l'affectation d'attribut est la méthode `__{{1}}__`.",
+      "reponsesAttendues": [
+        "setattr"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quoi sert `getattr(obj, 'name', default)` ?",
+      "options": [
+        "À récupérer un attribut par son nom sous forme de chaîne, avec une valeur par défaut",
+        "À supprimer un attribut",
+        "À renommer l'objet",
+        "À lister tous les attributs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "hasattr(obj, 'attr') vérifie si un attribut existe en tentant d'y accéder et en capturant une AttributeError.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment éviter la récursion infinie dans __setattr__ ?",
+      "options": [
+        "En utilisant self.__dict__['nom'] = valeur ou super().__setattr__(nom, valeur)",
+        "En ne faisant rien",
+        "En utilisant self.nom = valeur",
+        "En redémarrant l'interpréteur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La méthode `{{1}}` permet de lister tous les attributs et méthodes d'un objet.",
+      "reponsesAttendues": [
+        "dir"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "__delattr__ permet d'intercepter la suppression d'un attribut.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Monkey Patching' ?",
+      "options": [
+        "Modifier ou ajouter des méthodes à une classe ou un objet dynamiquement à l'exécution",
+        "Une technique de test",
+        "Un style de dessin",
+        "Une erreur de typage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La métaprogrammation par manipulation d'attributs permet de créer des proxies d'objets ou des systèmes de RPC.",
+      "reponse": true
+    }
+  ]
+}

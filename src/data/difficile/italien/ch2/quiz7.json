@@ -1,0 +1,90 @@
+{
+  "id": "quiz7",
+  "titre": "Caravage (Caravaggio)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle technique picturale Caravage a-t-il portée à son paroxysme ?",
+      "options": [
+        "Le clair-obscur (chiaroscuro) et le ténébrisme",
+        "La peinture à fresque claire",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Caravage utilisait des modèles issus du peuple, parfois des marginaux, pour représenter des saints.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Michelangelo {{1}} (Merisi) est le véritable nom de Caravage.",
+      "reponsesAttendues": ["Merisi"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle œuvre de Caravage fit scandale car la Vierge y était représentée avec un ventre gonflé ?",
+      "options": [
+        "La Mort de la Vierge",
+        "La Vocation de Saint Matthieu",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le style de Caravage se caractérise par un réalisme psychologique et physique dramatique.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Où peut-on admirer le cycle de Saint Matthieu par Caravage à Rome ?",
+      "options": [
+        "Église Saint-Louis-des-Français (San Luigi dei Francesi)",
+        "Galerie Borghèse",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Caravage a dû fuir Rome après avoir tué un homme lors d'une {{1}} (rixe / duel).",
+      "reponsesAttendues": ["rixe", "dispute", "rissa"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le 'Caravagisme' a influencé des peintres comme Rembrandt et Vélasquez.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle œuvre montre David tenant la tête tranchée de Goliath (autoportrait de l'artiste) ?",
+      "options": [
+        "David avec la tête de Goliath",
+        "Le Sacrifice d'Isaac",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La vie tourmentée de Caravage est aussi célèbre que son génie artistique.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz14",
+  "titre": "Temps et Météo",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'Chover a potes' ?",
+      "options": [
+        "Pleuvoir à verse / pleuvoir des cordes",
+        "Pleuvoir dans des pots",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'expression 'Fazer tempo de antena' signifie occuper l'espace médiatique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Être très rapide se dit 'Num {{1}} de olhos'.",
+      "reponsesAttendues": ["piscar"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que veut dire 'Tirar o cavalinho da chuva' ?",
+      "options": [
+        "Ne pas compter là-dessus / abandonner ses illusions",
+        "Rentrer son cheval",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Estar com a cabeça nas nuvens' signifie être distrait.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie l'expression 'Sol de pouca dura' ?",
+      "options": [
+        "Une joie ou un succès de courte durée",
+        "Un soleil d'hiver",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Si quelqu'un est en colère, on dit qu'il a un 'mau {{1}}' (mauvais temps).",
+      "reponsesAttendues": ["feitio", "humor"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Ano de neve, ano de bens' est un proverbe signifiant qu'une année de neige est une année de chance/biens.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'Tempestade num copo de água' ?",
+      "options": [
+        "S'inquiéter excessivement pour un petit problème",
+        "Un orage réel",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le climat influence souvent la manière dont les gens perçoivent le temps social.",
+      "reponse": true
+    }
+  ]
+}

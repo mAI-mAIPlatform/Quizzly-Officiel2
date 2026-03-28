@@ -1,0 +1,90 @@
+{
+  "id": "quiz27",
+  "titre": "Accessibilité Formulaire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel attribut ARIA lie une erreur textuelle à un input ?",
+      "options": [
+        "aria-describedby",
+        "aria-label",
+        "aria-relevant",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "aria-required=\"true\" indique aux technologies d'assistance que le champ est obligatoire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} est mis à true via JS lorsqu'un champ contient une erreur pour alerter l'utilisateur.",
+      "reponsesAttendues": ["aria-invalid"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quoi sert aria-live ?",
+      "options": [
+        "À annoncer dynamiquement les changements de contenu (ex: apparition d'une erreur)",
+        "À diffuser de la musique",
+        "À rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "aria-label est prioritaire sur le contenu textuel de la balise <label>.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que spécifie aria-describedby=\"id1 id2\" ?",
+      "options": [
+        "L'input est décrit par le texte des éléments ayant ces IDs",
+        "L'input appartient à ces groupes",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "On utilise {{1}} pour masquer un élément décoratif aux lecteurs d'écran.",
+      "reponsesAttendues": ["aria-hidden=\"true\"", "aria-hidden"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation correcte des labels sémantiques est la première étape de l'accessibilité.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Pourquoi le contraste est-il important ?",
+      "options": [
+        "Pour que les personnes malvoyantes lisent les labels et inputs sans effort",
+        "Pour le style",
+        "Pour le SEO",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'accessibilité bénéficie à TOUS les utilisateurs, pas seulement ceux en situation de handicap.",
+      "reponse": true
+    }
+  ]
+}

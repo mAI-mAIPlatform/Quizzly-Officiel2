@@ -1,0 +1,90 @@
+{
+  "id": "quiz16",
+  "titre": "Architecture Théâtre",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la forme caractéristique du théâtre grec ?",
+      "options": [
+        "Un hémicycle en plein air adossé à une pente naturelle (Koilon)",
+        "Un carré fermé",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'theatron' désigne précisément l'endroit d'où l'on regarde (les gradins).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'espace circulaire au centre, où évolue le chœur, s'appelle l'{{1}}.",
+      "reponsesAttendues": ["orchestre", "orchestra"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel théâtre est célèbre pour son acoustique exceptionnelle permettant d'entendre un murmure depuis le dernier rang ?",
+      "options": [
+        "Le théâtre d'Épidaure",
+        "Le théâtre de Dionysos",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La 'skènè' était à l'origine une simple construction en bois servant de coulisses et de décor.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est ce que le 'proskénion' ?",
+      "options": [
+        "L'estrade surélevée où jouaient les acteurs",
+        "Un instrument de musique",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le passage latéral par lequel entraient le chœur et les spectateurs est le {{1}}.",
+      "reponsesAttendues": ["parodos"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les théâtres grecs pouvaient accueillir jusqu'à 14 000 spectateurs.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel était le rôle de la 'mèchanè' au théâtre ?",
+      "options": [
+        "Une grue pour faire descendre les dieux ('deus ex machina')",
+        "Nettoyer les gradins",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'architecture du théâtre grec est l'ancêtre de tous les édifices de spectacle occidentaux.",
+      "reponse": true
+    }
+  ]
+}

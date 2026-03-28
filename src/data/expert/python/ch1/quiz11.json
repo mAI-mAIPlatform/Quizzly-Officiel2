@@ -1,0 +1,94 @@
+{
+  "id": "quiz11",
+  "titre": "Context Managers (with statement)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le rôle principal d'un Context Manager ?",
+      "options": [
+        "Gérer proprement l'allocation et la libération de ressources",
+        "Accélérer l'exécution du code",
+        "Rendre le code plus sécurisé contre les virus",
+        "Créer des interfaces graphiques"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'instruction 'with' garantit l'appel de __exit__ même en cas d'exception.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour créer un context manager avec une fonction, on utilise le décorateur `@contextlib.{{1}}`.",
+      "reponsesAttendues": [
+        "contextmanager"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quels sont les trois arguments reçus par la méthode __exit__ ?",
+      "options": [
+        "exc_type, exc_value, traceback",
+        "self, args, kwargs",
+        "obj, value, status",
+        "type, data, error"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Si __exit__ retourne True, l'exception est supprimée (suppressed).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel outil permet de gérer plusieurs context managers sur une seule ligne ?",
+      "options": [
+        "contextlib.ExitStack",
+        "with multiple",
+        "join_context()",
+        "contextlib.nest"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Dans une fonction décorée par @contextmanager, le mot-clé `{{1}}` sépare la phase de setup de la phase de teardown.",
+      "reponsesAttendues": [
+        "yield"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un objet peut être à la fois un itérateur et un context manager.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'équivalent asynchrone pour les context managers ?",
+      "options": [
+        "Asynchronous Context Manager (__aenter__, __aexit__)",
+        "AsyncWith",
+        "CoroutineManager",
+        "WaitManager"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "'contextlib.closing' permet d'ajouter un support contextuel à un objet qui possède seulement une méthode close().",
+      "reponse": true
+    }
+  ]
+}

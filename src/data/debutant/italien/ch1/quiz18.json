@@ -1,0 +1,94 @@
+{
+  "id": "quiz18",
+  "titre": "Verbes en -ARE (Présent)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison de la 1ère personne du singulier (Io) ?",
+      "options": [
+        "-o",
+        "-i",
+        "-a",
+        "-iamo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour 'Tu', la terminaison est toujours '-i' (ex: parli).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour 'Lui/Lei', la terminaison est '{{1}}' (ex: parla).",
+      "reponsesAttendues": [
+        "a"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison pour 'Noi' (Nous) ?",
+      "options": [
+        "-iamo",
+        "-ate",
+        "-ano",
+        "-ite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Pour 'Voi', la terminaison est '-ate'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison pour 'Loro' (Ils/Elles) ?",
+      "options": [
+        "-ano",
+        "-eno",
+        "-ono",
+        "-ono"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Conjuguez 'Parlare' à la 1ère personne : 'Io {{1}}'.",
+      "reponsesAttendues": [
+        "parlo"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le verbe 'Abitare' signifie 'Habiter'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'Che cosa guardi?' ?",
+      "options": [
+        "Que regardes-tu ?",
+        "Où vas-tu ?",
+        "Qui appelles-tu ?",
+        "Que manges-tu ?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La plupart des verbes italiens finissent en -ARE.",
+      "reponse": true
+    }
+  ]
+}

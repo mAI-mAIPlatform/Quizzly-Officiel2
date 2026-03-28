@@ -1,0 +1,94 @@
+{
+  "id": "quiz23",
+  "titre": "Liens Absolus vs Relatifs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un lien absolu ?",
+      "options": [
+        "Un lien qui contient l'URL complète (http...)",
+        "Un lien vers une page du même site",
+        "Un lien qui ne change jamais",
+        "Un lien obligatoire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un lien relatif pointe vers un fichier par rapport à la page actuelle.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour remonter d'un dossier dans un lien relatif, on utilise {{1}}.",
+      "reponsesAttendues": [
+        "../"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel est un lien relatif vers une page 'contact.html' dans le même dossier ?",
+      "options": [
+        "https://monsite.com/contact.html",
+        "contact.html",
+        "/contact.html",
+        "file://contact.html"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les liens absolus sont préférables pour les liens externes (vers d'autres sites).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage des liens relatifs ?",
+      "options": [
+        "Ils sont plus rapides",
+        "Ils permettent de déplacer le site sans casser les liens",
+        "Ils sont plus sécurisés",
+        "Ils plaisent plus à Google"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Un lien commençant par '/' est un lien relatif par rapport à la {{1}} du site.",
+      "reponsesAttendues": [
+        "racine"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un lien absolu fonctionne même si on change le nom du dossier du site.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie './index.html' ?",
+      "options": [
+        "Lien vers le dossier parent",
+        "Lien vers le dossier actuel",
+        "Lien vers la racine",
+        "Erreur de syntaxe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut mélanger liens absolus et relatifs sur une même page.",
+      "reponse": true
+    }
+  ]
+}

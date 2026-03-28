@@ -1,0 +1,97 @@
+{
+  "id": "quiz55",
+  "titre": "JS Expert : Sécurité - XSS",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie XSS ?",
+      "options": [
+        "Cross-Site Scripting",
+        "Extra Secure Script",
+        "XML Standard System",
+        "X-tra Small Script"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une faille XSS permet à un attaquant d'exécuter du JavaScript malveillant dans le navigateur d'autres utilisateurs.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La règle d'or pour éviter l'XSS est de ne jamais faire confiance aux entrées `{{1}}`.",
+      "reponsesAttendues": [
+        "utilisateur",
+        "user"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel est le plus dangereux pour l'affichage de contenu dynamique ?",
+      "options": [
+        "innerHTML",
+        "textContent",
+        "innerText",
+        "value"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'XSS Stored (stocké) est plus dangereux car il reste sur le serveur et touche tous les visiteurs.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l''assainissement' (Sanitization) ?",
+      "options": [
+        "Nettoyer le code HTML pour supprimer les scripts et attributs dangereux",
+        "Supprimer les commentaires",
+        "Formater le code avec Prettier",
+        "Mettre à jour npm"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "DOMPurify est une bibliothèque célèbre pour `{{1}}` le contenu HTML côté client.",
+      "reponsesAttendues": [
+        "assainir",
+        "nettoyer",
+        "sanitize"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'XSS réfléchi (Reflected) est souvent transmis via une URL piégée.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel flag de cookie empêche le JS d'accéder au cookie de session ?",
+      "options": [
+        "HttpOnly",
+        "Secure",
+        "SameSite",
+        "Private"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Echapper les caractères spéciaux (<, >, &) est une défense efficace.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz29",
+  "titre": "Synthèse Grammaire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lalquelle est une forme correcte de 'Dormire' (Nous) ?",
+      "options": [
+        "Dormiamo",
+        "Dormite",
+        "Dormono",
+        "Dormiamo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les verbes en -IRE finissent en -ite à la 2ème personne du pluriel.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Conjuguez 'Prendere' pour 'Ils' : 'Loro {{1}}'.",
+      "reponsesAttendues": [
+        "prendono"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Laquelle de ces phrases signifie 'J'ai faim' ?",
+      "options": [
+        "Sono fame",
+        "Ho fame",
+        "Ho faim",
+        "Sono faim"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Diciannove' est un nombre entre 10 et 20.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'Sono le tre e mezza' ?",
+      "options": [
+        "Il est 3h15",
+        "Il est 3h30",
+        "Il est 15h00",
+        "Il est 2h30"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'inverse de 'Sempre' (Toujours) est '{{1}}' (Jamais).",
+      "reponsesAttendues": [
+        "Mai"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "En italien, l'adjectif peut se placer avant ou après le nom.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Cent' ?",
+      "options": [
+        "Cento",
+        "Mille",
+        "Dieci",
+        "Venti"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'Italien possède 3 groupes de verbes réguliers.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "quiz17",
+  "titre": "Concaténation et Templates",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'action de lier deux chaînes de caractères ?",
+      "options": [
+        "Fusion",
+        "Concaténation",
+        "Liaison",
+        "Addition"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On utilise les backticks (`) pour les Template Literals.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour insérer une variable dans un Template Literal, on utilise ${ {{1}} }.",
+      "reponsesAttendues": [
+        "variable",
+        "nom"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage des Template Literals ?",
+      "options": [
+        "Ils sont plus rapides",
+        "Ils permettent le multi-ligne",
+        "Ils n'existent pas",
+        "Ils remplacent le HTML"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Bonjour ' + nom est la méthode ancienne.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est le résultat de `2 + 2 = ${2+2}` ?",
+      "options": [
+        "'2 + 2 = 2+2'",
+        "'2 + 2 = 4'",
+        "Erreur",
+        "'4'"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le symbole ` s'appelle un {{1}}.",
+      "reponsesAttendues": [
+        "backtick",
+        "accent grave"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut mettre du code complexe dans ${}.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment faire un saut de ligne dans une String classique ?",
+      "options": [
+        "\\n",
+        "\\t",
+        "\r",
+        "Enter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les Template Literals ont été introduits avec ES6.",
+      "reponse": true
+    }
+  ]
+}

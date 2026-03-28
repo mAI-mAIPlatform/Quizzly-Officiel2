@@ -1,0 +1,95 @@
+{
+  "id": "quiz37",
+  "titre": "Português Expert : Voz Passiva e Pronome 'Se'",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Como se forma a voz passiva analítica ?",
+      "options": [
+        "Verbo Ser + Particípio Passado (ex: A casa foi vendida)",
+        "Verbo Ter + Particípio",
+        "Apenas com o pronome 'se'",
+        "Não existe voz passiva"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "A voz passiva sintética usa o pronome 'se' (ex: Vendem-se casas).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Na voz passiva sintética, o verbo deve concordar com o `{{1}}` (ex: Vendem-se apartamentos).",
+      "reponsesAttendues": [
+        "sujeito",
+        "objeto"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qual é a função do 'se' em 'Fala-se português' ?",
+      "options": [
+        "Partícula apassivadora",
+        "Índice de indeterminação do sujeito",
+        "Pronome reflexivo",
+        "Conjunção"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Em 'Precisa-se de empregados', o 'se' é índice de indeterminação e o verbo fica sempre no singular.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Traduza : 'Eles foram vistos'",
+      "options": [
+        "Ils ont été vus",
+        "Ils ont vu",
+        "On les voit",
+        "Ils se voient"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "O agente da passiva é introduzido pela preposição `{{1}}` (ex: por, pelo, pela).",
+      "reponsesAttendues": [
+        "por"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "A voz passiva é usada para dar destaque ao objeto da ação.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Escolha a forma passiva correta :",
+      "options": [
+        "Os livros foram lidos pelos alunos",
+        "Os livros foi lido pelos alunos",
+        "Os livros leram-se pelos alunos",
+        "Os livros tinham lido"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "A voz passiva sintética é muito comum em anúncios e linguagem formal.",
+      "reponse": true
+    }
+  ]
+}

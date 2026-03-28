@@ -1,0 +1,94 @@
+{
+  "id": "quiz42",
+  "titre": "HTML Expert : Service Workers & PWA",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un Service Worker ?",
+      "options": [
+        "Un type de worker agissant comme un proxy réseau entre le navigateur, le cache et le réseau",
+        "Un script qui nettoie le code",
+        "Un assistant vocal",
+        "Un serveur Node.js intégré au navigateur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les Service Workers nécessitent obligatoirement HTTPS (sauf pour localhost).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'événement permettant d'intercepter les requêtes réseau est l'événement `{{1}}`.",
+      "reponsesAttendues": [
+        "fetch"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la première étape du cycle de vie d'un Service Worker ?",
+      "options": [
+        "Installation (install)",
+        "Activation (activate)",
+        "Exécution",
+        "Suppression"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un Service Worker survit à la fermeture de l'onglet et peut se réveiller pour des tâches de fond (Push, Sync).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi sert l'API 'Cache Storage' souvent utilisée avec les Service Workers ?",
+      "options": [
+        "À stocker des paires Requête/Réponse pour un usage hors-ligne (Offline)",
+        "À vider la RAM",
+        "À stocker des mots de passe",
+        "À accélérer le processeur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour enregistrer un Service Worker, on utilise `navigator.serviceWorker.{{1}}()`.",
+      "reponsesAttendues": [
+        "register"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les Service Workers peuvent accéder au DOM.",
+        "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle stratégie de cache consiste à servir les données du cache et à mettre à jour en tâche de fond ?",
+      "options": [
+        "Stale-while-revalidate",
+        "Network-first",
+        "Cache-only",
+        "Cache-first"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les Progressive Web Apps (PWA) s'appuient sur les Service Workers pour fonctionner hors-ligne.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz12",
+  "titre": "Le Présent de l'Indicatif (-ω)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison de la 1ère personne du singulier au présent actif ?",
+      "options": [
+        "-ω",
+        "-εις",
+        "-ει",
+        "-ομεν"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La terminaison de la 2ème personne du singulier est -εις.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La terminaison de la 1ère personne du pluriel est {{1}}.",
+      "reponsesAttendues": [
+        "-ομεν"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison de la 3ème personne du pluriel actif ?",
+      "options": [
+        "-ουσι(ν)",
+        "-ουσι",
+        "-ετε",
+        "-οισι"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le 'nu' final de la 3ème pers. pluriel est facultatif (nu euphonique).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle terminaison correspond à la voix moyenne (2ème pers. sing.) ?",
+      "options": [
+        "-ῃ (ou -ει)",
+        "-ομαι",
+        "-εται",
+        "-εσθε"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Au présent moyen, la 1ère personne du singulier se termine par {{1}}.",
+      "reponsesAttendues": [
+        "-ομαι"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les verbes contractes (en -αω, -εω, -οω) suivent exactement les mêmes terminaisons sans modification.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie le verbe 'λύω' ?",
+      "options": [
+        "Je délie / Je délie mes liens",
+        "Je mange",
+        "Je dors",
+        "Je cours"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le présent de l'indicatif peut exprimer une vérité générale (présent gnomique).",
+      "reponse": true
+    }
+  ]
+}

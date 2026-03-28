@@ -1,0 +1,90 @@
+{
+  "id": "quiz28",
+  "titre": "Performance : Profiling",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel module standard permet de profiler son code (mesurer le temps par fonction) ?",
+      "options": [
+        "cProfile",
+        "time",
+        "sys",
+        "bench"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le profiling permet d'identifier les 'bottlenecks' (goulots d'étranglement) du programme.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le module {{1}} permet de mesurer précisément le temps d'exécution de courts extraits de code.",
+      "reponsesAttendues": ["timeit"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Flame Graph' ?",
+      "options": [
+        "Une visualisation du temps passé dans chaque fonction",
+        "Une image d'un feu",
+        "Un bug graphique",
+        "Un rapport d'erreur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'optimisation prématurée est la racine de tous les maux selon Donald Knuth.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel outil externe offre une interface visuelle pour cProfile ?",
+      "options": [
+        "SnakeViz",
+        "PySpy",
+        "Tuna",
+        "Tous ces outils"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour mesurer l'utilisation de la mémoire ligne par ligne, on utilise {{1}}.",
+      "reponsesAttendues": ["memory-profiler"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Passer à Python 3.11+ apporte des gains de performance significatifs (jusqu'à 60%).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que fait l'option -m timeit 'script' ?",
+      "options": [
+        "Exécute le script plusieurs fois pour donner une moyenne de temps précise",
+        "Supprime le script",
+        "Compte les lignes",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Visez d'abord la clarté du code, puis optimisez si nécessaire.",
+      "reponse": true
+    }
+  ]
+}

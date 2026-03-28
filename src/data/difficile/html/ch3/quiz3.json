@@ -1,0 +1,90 @@
+{
+  "id": "quiz3",
+  "titre": "Meta Description",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "L'attribut 'meta description' a-t-il un impact direct sur le positionnement (ranking) ?",
+      "options": [
+        "Non, mais il influence indirectement le CTR",
+        "Oui, énormément",
+        "Uniquement sur Bing",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La longueur idéale se situe autour de 150-160 caractères.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une bonne meta description doit contenir un {{1}} (Call to Action).",
+      "reponsesAttendues": ["appel à l'action", "CTA"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que fait Google si la balise meta description est laissée vide ?",
+      "options": [
+        "Il sélectionne un extrait du contenu de la page jugé pertinent",
+        "Il n'affiche rien",
+        "Il affiche une erreur",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Il est recommandé de dupliquer la même meta description sur tout le site.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser des mots-clés dans la description ?",
+      "options": [
+        "Ils apparaissent en gras dans les résultats de recherche si l'utilisateur les a saisis",
+        "Pour tricher",
+        "C'est inutile",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} définit le nom de la balise meta et 'content' sa valeur.",
+      "reponsesAttendues": ["name"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser des émojis sélectivement pour attirer l'œil dans la SERP.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Le rôle principal de la meta description est de :",
+      "options": [
+        "Vendre le clic à l'internaute (Marketing)",
+        "Expliquer le code aux robots",
+        "Stocker des liens",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Un bon CTR indique à Google que la page est pertinente pour la requête.",
+      "reponse": true
+    }
+  ]
+}

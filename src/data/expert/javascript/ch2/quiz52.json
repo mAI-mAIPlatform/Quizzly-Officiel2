@@ -1,0 +1,96 @@
+{
+  "id": "quiz52",
+  "titre": "JS Expert : Singleton et Factory Patterns",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le but du pattern Singleton ?",
+      "options": [
+        "Garantir qu'une classe n'a qu'une seule instance et fournir un point d'accès global",
+        "Créer des copies d'un objet unique",
+        "Supprimer les instances inutiles",
+        "Accélérer la création d'objets"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En JS, un simple module exportant un objet littéral se comporte naturellement comme un Singleton.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le pattern qui délègue la création d'objets à une méthode ou une fonction dédiée est le pattern `{{1}}`.",
+      "reponsesAttendues": [
+        "Factory",
+        "Fabrique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser une Factory plutôt qu'un 'new' direct ?",
+      "options": [
+        "Pour découpler la logique de création de l'utilisation et faciliter la maintenance",
+        "Parce que 'new' est déprécié",
+        "Pour économiser de la RAM",
+        "Pour crypter l'objet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le pattern Singleton peut être considéré comme un anti-pattern s'il cache des dépendances et rend les tests difficiles.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment implémenter un Singleton 'robuste' en JS avec une classe ?",
+      "options": [
+        "En stockant l'instance dans une propriété statique et en la renvoyant dans le constructeur",
+        "En utilisant 'let' au lieu de 'const'",
+        "En gelant l'objet avec Object.freeze()",
+        "En ne mettant aucune méthode"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'encapsulation de la logique de création permet de respecter le principe `{{1}}` (Open/Closed) de SOLID.",
+      "reponsesAttendues": [
+        "Ouvert/Fermé",
+        "Open/Closed"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La Factory peut renvoyer des instances de classes différentes basées sur un paramètre (ex: types de notifications).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'Abstract Factory' ?",
+      "options": [
+        "Une usine de création de familles d'objets liés sans spécifier leurs classes concrètes",
+        "Une usine qui n'existe pas",
+        "Une fonction qui ne renvoie rien",
+        "Un type de commentaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Object.create(null) permet de créer un objet sans prototype, utile pour certains mini-singletons.",
+      "reponse": true
+    }
+  ]
+}

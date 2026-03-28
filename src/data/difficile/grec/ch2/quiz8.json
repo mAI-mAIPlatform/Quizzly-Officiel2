@@ -1,0 +1,90 @@
+{
+  "id": "quiz8",
+  "titre": "Aristophane",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel était le genre littéraire d'Aristophane ?",
+      "options": [
+        "La Comédie Ancienne (Archaia)",
+        "La Tragédie",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Aristophane utilisait ses pièces pour critiquer violemment les politiciens (ex: Cléon) et les intellectuels (ex: Socrate).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans '{{1}}', les femmes d'Athènes font la grève du sexe pour arrêter la guerre.",
+      "reponsesAttendues": ["Lysistrata"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle pièce met en scène un concours entre Eschyle et Euripide aux Enfers ?",
+      "options": [
+        "Les Grenouilles",
+        "Les Nuées",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le style d'Aristophane mélange la plus grande obscénité avec la plus haute poésie lyrique.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la 'parabase' dans une comédie ?",
+      "options": [
+        "Le moment où le chœur s'adresse directement au public au nom de l'auteur",
+        "Une danse",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Dans 'Les {{1}}', Aristophane se moque de Socrate et des sophistes.",
+      "reponsesAttendues": ["Nuées"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Aristophane était un fervent partisan de la guerre contre Sparte.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Ses pièces sont une source précieuse pour connaître :",
+      "options": [
+        "La vie quotidienne et les débats politiques à Athènes",
+        "L'histoire de l'Égypte",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Aristophane est le seul représentant de la Comédie Ancienne dont les œuvres sont complètes.",
+      "reponse": true
+    }
+  ]
+}

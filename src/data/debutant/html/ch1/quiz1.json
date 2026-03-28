@@ -1,0 +1,94 @@
+{
+  "id": "quiz1",
+  "titre": "Qu'est-ce que le HTML ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie l'acronyme HTML ?",
+      "options": [
+        "HyperText Markup Language",
+        "High Technology Modern Language",
+        "Hyperlink Text Management Logic",
+        "Home Tool Markup Language"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "HTML est un langage de programmation.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "HTML est utilisé pour définir la {{1}} d'une page web.",
+      "reponsesAttendues": [
+        "structure"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui a inventé le HTML ?",
+      "options": [
+        "Steve Jobs",
+        "Tim Berners-Lee",
+        "Bill Gates",
+        "Mark Zuckerberg"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le W3C est l'organisme qui définit les standards du Web.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle est la version actuelle et standard du HTML ?",
+      "options": [
+        "HTML 3",
+        "HTML 4",
+        "HTML 5",
+        "HTML 6"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Un document HTML commence par la déclaration <!{{1}} html>.",
+      "reponsesAttendues": [
+        "DOCTYPE"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "HTML permet de créer des sites web statiques.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel logiciel utilise-t-on pour lire un fichier HTML ?",
+      "options": [
+        "Un navigateur web",
+        "Un lecteur vidéo",
+        "Une calculatrice",
+        "Adobe Photoshop"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le HTML s'occupe uniquement du design et des couleurs.",
+      "reponse": false
+    }
+  ]
+}

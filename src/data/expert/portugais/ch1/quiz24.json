@@ -1,0 +1,94 @@
+{
+  "id": "quiz24",
+  "titre": "Literatura : Machado de Assis",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Chi fu il fondatore dell'Accademia Brasiliana delle Lettere ?",
+      "options": [
+        "Machado de Assis",
+        "Jorge Amado",
+        "Paulo Coelho",
+        "Carlos Drummond"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Machado de Assis é o mestre do Realismo no Brasil.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O romance que inaugura o Realismo machadiano é 'Memórias Póstumas de `{{1}}` Cubas'.",
+      "reponsesAttendues": [
+        "Brás"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qual a principal característica do estilo de Machado ?",
+      "options": [
+        "Ironia, pessimismo e análise psicológica profunda",
+        "Idealização do herói",
+        "Foco na natureza selvagem",
+        "Escrita puramente religiosa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Em 'Dom Casmurro', a grande dúvida é se Capitu traiu ou não Bentinho.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Como é o narrador de 'Memórias Póstumas' ?",
+      "options": [
+        "Um defunto autor (morto)",
+        "Um jovem apaixonado",
+        "O próprio diabo",
+        "Um escravo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "O apelido de Bento Santiago em Dom Casmurro é `{{1}}`.",
+      "reponsesAttendues": [
+        "Casmurro"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Machado de Assis era mulato e de origem humilde.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Machado utiliza muito a metalinguagem (falar do ato de escrever). O que é isso ?",
+      "options": [
+        "O autor dialogar com o leitor durante a narrativa",
+        "Escrever em outra língua",
+        "Não usar vírgulas",
+        "Escrever só poesias"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Machado de Assis também foi um excelente contista (ex: O Alienista).",
+      "reponse": true
+    }
+  ]
+}

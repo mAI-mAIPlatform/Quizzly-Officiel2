@@ -1,0 +1,94 @@
+{
+  "id": "quiz97",
+  "titre": "Italien Expert : Médias et Communication",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est l'organisme public de radio-télévision en Italie ?",
+      "options": [
+        "RAI (Radiotelevisione Italiana)",
+        "Mediaset",
+        "Sky Italia",
+        "La7"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Corriere della Sera' est l'un des quotidiens les plus vendus et les plus influents d'Italie.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le groupe `{{1}}` (Mediaset), fondé par Silvio Berlusconi, est le principal concurrent privé de la RAI.",
+      "reponsesAttendues": [
+        "Mediaset"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel journal sportif emblématique est célèbre pour ses pages roses ?",
+      "options": [
+        "La Gazzetta dello Sport",
+        "Tuttosport",
+        "Corriere dello Sport",
+        "Il Sole 24 Ore"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Festival de Sanremo est l'événement médiatique et musical le plus suivi de l'année en Italie.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui a été une figure majeure de la télévision italienne, inventeur du talk-show en Italie ?",
+      "options": [
+        "Maurizio Costanzo",
+        "Piero Angela",
+        "Mike Bongiorno",
+        "Vittorio Gassman"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le journal `{{1}}` (La Repubblica) est traditionnellement classé au centre-gauche de l'échiquier politique.",
+      "reponsesAttendues": [
+        "La Repubblica"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'Italie possède une liberté de la presse totale et sans aucune influence politique selon RSF.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le principal journal économique et financier italien ?",
+      "options": [
+        "Il Sole 24 Ore",
+        "Il Messaggero",
+        "La Stampa",
+        "Il Fatto Quotidiano"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Piero Angela était le célèbre présentateur de l'émission de vulgarisation scientifique 'Superquark'.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "quiz87",
+  "titre": "JavaScript Expert : Design Patterns de Comportement",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel pattern définit une dépendance de type un-à-plusieurs, de sorte que le changement d'état d'un objet notifie tous ses dépendants ?",
+      "options": [
+        "Observer (Observateur)",
+        "Strategy",
+        "Command",
+        "Mediator"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le pattern 'Strategy' permet de choisir un algorithme à l'exécution parmi une famille d'algorithmes interchangeables.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le pattern `{{1}}` (Iterator) permet de parcourir les éléments d'une collection sans exposer sa structure interne.",
+      "reponsesAttendues": [
+        "Iterator",
+        "Iterateur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel pattern transforme une requête en un objet autonome, ce qui permet de paramétrer les clients avec des requêtes différentes (utile pour les systèmes de 'Undo') ?",
+      "options": [
+        "Command (Commande)",
+        "Memento",
+        "State",
+        "Template Method"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le pattern 'Chain of Responsibility' permet de passer une requête le long d'une chaîne de receveurs potentiels.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel de ces objets JS est une implémentation intégrée du pattern Iterator ?",
+      "options": [
+        "Les objets retournés par [Symbol.iterator]()",
+        "Les fonctions asynchrones",
+        "Les classes privées",
+        "Les tableaux gelés"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le pattern `{{1}}` (Middleware) est une variante courante en JS (notamment dans Express) du pattern Chain of Responsibility.",
+      "reponsesAttendues": [
+        "Middleware"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le pattern 'State' permet à un objet de modifier son comportement lorsque son état interne change, comme s'il avait changé de classe.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel pattern utilise-t-on pour capturer et externaliser l'état interne d'un objet afin qu'il puisse être restauré plus tard ?",
+      "options": [
+        "Memento (Souvenir)",
+        "Visitor",
+        "Strategy",
+        "Iterator"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les patterns de comportement s'occupent de l'algorithmique et de la répartition des responsabilités entre les objets.",
+      "reponse": true
+    }
+  ]
+}

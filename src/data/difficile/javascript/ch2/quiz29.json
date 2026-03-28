@@ -1,0 +1,90 @@
+{
+  "id": "quiz29",
+  "titre": "Chain of Responsibility",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le but de la Chain of Responsibility ?",
+      "options": [
+        "Supprimer des objets en cascade",
+        "Passer une requête le long d'une chaîne de gestionnaires (handlers) jusqu'à ce que l'un d'eux la traite",
+        "Trier une liste",
+        "Gérer les erreurs 404"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Chaque maillon de la chaîne possède une référence au maillon suivant.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'Event {{1}} (Bouillonnement) du DOM est une implémentation de ce pattern.",
+      "reponsesAttendues": ["Bubbling"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser ce pattern ?",
+      "options": [
+        "Pour découpler l'émetteur d'une requête de ses récepteurs potentiels",
+        "Pour accélérer les boucles",
+        "Pour masquer le code",
+        "Indispensable pour CSS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une requête peut traverser toute la chaîne sans jamais être traitée.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel est un bon exemple concret ?",
+      "options": [
+        "Middleware dans Express.js (Node.js)",
+        "Un simple if/else",
+        "Une variable globale",
+        "Une fonction anonyme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le maillon peut soit traiter la requête, soit la {{1}} au suivant.",
+      "reponsesAttendues": ["transmettre", "passer"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'ordre des maillons dans la chaîne n'a aucune importance.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage majeur ?",
+      "options": [
+        "Flexibilité : on peut ajouter/retirer des gestionnaires dynamiquement",
+        "Vitesse pure",
+        "Moins de RAM",
+        "Typage fort"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le pattern Chain of Responsibility favorise le principe Open/Closed.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz97",
+  "titre": "JavaScript Expert : Observers et Monitoring Performance",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle API permet de détecter de manière optimale quand un élément devient visible à l'écran ?",
+      "options": [
+        "IntersectionObserver",
+        "MutationObserver",
+        "ResizeObserver",
+        "ScrollListener"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "IntersectionObserver est bien plus performant qu'un écouteur sur l'événement 'scroll' car il n'est pas exécuté sur le thread principal à chaque pixel.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'API `{{1}}` (PerformanceObserver) permet d'écouter les événements de performance comme le FCP ou le LCP.",
+      "reponsesAttendues": [
+        "PerformanceObserver"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle API permet de surveiller les modifications de la structure du DOM ?",
+      "options": [
+        "MutationObserver",
+        "DOMListener",
+        "StructureWatcher",
+        "React"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "ResizeObserver permet de surveiller les changements de dimensions d'un élément spécifique, pas seulement de la fenêtre.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel paramètre 'threshold' d'un IntersectionObserver indique qu'on veut être prévenu quand l'élément est à moitié visible ?",
+      "options": [
+        "0.5",
+        "50",
+        "half",
+        "1"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La propriété `{{1}}` (rootMargin) permet de définir des marges de détection autour de la zone de vision.",
+      "reponsesAttendues": [
+        "rootMargin"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les callbacks d'IntersectionObserver sont exécutés de manière asynchrone.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle méthode arrête l'observation de TOUS les éléments d'un observateur ?",
+      "options": [
+        "disconnect()",
+        "unobserve()",
+        "stop()",
+        "clear()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "ReportingObserver permet de collecter les rapports d'erreurs, d'obsolescence et de violation de sécurité.",
+      "reponse": true
+    }
+  ]
+}

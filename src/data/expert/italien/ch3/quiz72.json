@@ -1,0 +1,95 @@
+{
+  "id": "quiz72",
+  "titre": "Italien Expert : La Haute Renaissance (Léonard, Michel-Ange, Raphaël)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle la technique de peinture (utilisée par Léonard) consistant à estomper les contours pour créer une atmosphère vaporeuse ?",
+      "options": [
+        "Sfumato",
+        "Chiaroscuro",
+        "Impasto",
+        "Fresque"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le plafond de la Chapelle Sixtine a été peint par Raphaël.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Cinquecento) désigne le XVIe siècle, apogée de la Renaissance italienne.",
+      "reponsesAttendues": [
+        "Cinquecento"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle œuvre magistrale de Raphaël, située au Vatican, rassemble les plus grands philosophes de l'Antiquité ?",
+      "options": [
+        "L'École d'Athènes",
+        "La Dispute du Saint-Sacrement",
+        "La Transfiguration",
+        "La Madone Sixtine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le 'David' de Michel-Ange est une sculpture monumentale en marbre de Carrare.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel génie universel est l'auteur de 'La Cène' à Milan ?",
+      "options": [
+        "Leonardo da Vinci",
+        "Michelangelo",
+        "Tiziano",
+        "Bramante"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'`{{1}}` (terribilità) est le terme utilisé pour décrire la force émotionnelle et la puissance dramatique des œuvres de Michel-Ange.",
+      "reponsesAttendues": [
+        "terribilita",
+        "terribilite"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La ville de Rome devient le centre majeur de l'art sous les papes Jules II et Léon X.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "À quel mouvement appartenaient des artistes comme Pontormo ou Parmigianino, qui déformaient les proportions pour plus d'expressivité ?",
+      "options": [
+        "Le Maniérisme",
+        "Le Baroque",
+        "Le Rococo",
+        "Le Classicisme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La Basilique Saint-Pierre de Rome a été conçue par plusieurs architectes, dont Bramante et Michel-Ange.",
+      "reponse": true
+    }
+  ]
+}

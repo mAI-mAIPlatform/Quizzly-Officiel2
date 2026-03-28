@@ -1,0 +1,94 @@
+{
+  "id": "quiz24",
+  "titre": "Lessico : Linguaggio dell'Economia e dei Media",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Cosa significa 'PIL' ?",
+      "options": [
+        "Prodotto Interno Lordo",
+        "Piano Informativo Locale",
+        "Prezzo Internazionale Libero",
+        "Piattaforma Italiana Lavoro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'inflazione indica un aumento generalizzato dei prezzi.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Il mercato in cui si vendono e comprano azioni è la `{{1}}`.",
+      "reponsesAttendues": [
+        "Borsa"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Cosa significa 'fare un bilancio' ?",
+      "options": [
+        "Valutare entrate e uscite o i risultati di un'attività",
+        "Comprare una bilancia",
+        "Stare in equilibrio",
+        "Vendere un prodotto"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Speculazione' in economia ha sempre un significato positivo.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qual è il significato di 'spread' ?",
+      "options": [
+        "Differenza tra i rendimenti dei titoli di stato (es: BTP e Bund)",
+        "Una marca di marmellata",
+        "Un aumento di stipendio",
+        "Una tassa sulle case"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le persone che lavorano per un giornale si chiamano `{{1}}`.",
+      "reponsesAttendues": [
+        "giornalisti"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Una 'fake news' in italiano si può chiamare 'bufala'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Cosa si intende per 'audience' nei media ?",
+      "options": [
+        "Il numero di persone che segue un programma televisivo",
+        "La qualità audio",
+        "Lo stipendio del conduttore",
+        "Il tempo rimasto"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'economia italiana è fortemente basata sulle Piccole e Medie Imprese (PMI).",
+      "reponse": true
+    }
+  ]
+}

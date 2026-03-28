@@ -1,0 +1,90 @@
+{
+  "id": "quiz26",
+  "titre": "Referrer Policy",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert la meta name='referrer' ?",
+      "options": [
+        "À contrôler quelles informations de provenance sont envoyées lors d'un clic sur un lien",
+        "À savoir qui a cliqué",
+        "À bloquer les liens",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La valeur 'no-referrer' n'envoie aucune information de provenance aux sites tiers.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La valeur {{1}} (par défaut sur les navigateurs modernes) n'envoie le référent que vers le même domaine ou en HTTPS.",
+      "reponsesAttendues": ["strict-origin-when-cross-origin"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi masquer le référent ?",
+      "options": [
+        "Pour protéger la vie privée des utilisateurs et éviter de fuiter des données sensibles présentes dans l'URL",
+        "Pour aller plus vite",
+        "Pour le SEO",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une politique trop restrictive peut empêcher certains outils d'analyse (Analytics) de fonctionner correctement.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que fait 'origin' ?",
+      "options": [
+        "Envoie uniquement le domaine (ex: mysite.com) sans le chemin complet du dossier",
+        "Rien",
+        "Tout envoyer",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "On peut aussi définir cette politique au niveau d'un lien <a> individuel via l'attribut {{1}}.",
+      "reponsesAttendues": ["referrerpolicy"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Une Refereer Policy est un enjeu de cybersécurité important.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Impact SEO ?",
+      "options": [
+        "Nul sur le ranking, mais impacte la qualité de vos données de trafic",
+        "Très important",
+        "Négatif",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il est recommandé d'utiliser une politique 'strict-origin-when-cross-origin' par défaut.",
+      "reponse": true
+    }
+  ]
+}

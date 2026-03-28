@@ -1,0 +1,90 @@
+{
+  "id": "quiz4",
+  "titre": "Async / Await : Sous le capot",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que retourne toujours une fonction marquée 'async' ?",
+      "options": [
+        "Un objet",
+        "Une Promise",
+        "undefined",
+        "Ce qu'elle veut"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le mot-clé 'await' met en pause l'exécution de tout le thread principal de JS.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Async/Await est en réalité basé sur les {{1}} (Generators) et les Promises.",
+      "reponsesAttendues": ["générateurs", "generators"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Où se place l'exécution après un 'await' ?",
+      "options": [
+        "Dans la Macrotask Queue",
+        "Dans la Microtask Queue (pour la reprise de la fonction)",
+        "Elle reste dans la pile",
+        "Elle est supprimée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser 'await' sans 'async' dans un script classique (non-module).",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment gérer les erreurs avec async/await ?",
+      "options": [
+        "Avec .catch() uniquement",
+        "Avec un bloc try...catch",
+        "Avec un if",
+        "Les erreurs sont ignorées"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'instruction après 'await' est traitée comme une {{1}} dans une chaîne de promesses.",
+      "reponsesAttendues": ["callback", "suite"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Attendre (await) plusieurs promesses l'une après l'autre est plus lent que de les lancer en parallèle.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel permet d'attendre plusieurs promesses en parallèle ?",
+      "options": [
+        "Promise.all()",
+        "await Promise.waitAll()",
+        "for...of await",
+        "Promise.race()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Une fonction async qui ne contient pas de await s'exécute de manière synchrone jusqu'à son retour.",
+      "reponse": true
+    }
+  ]
+}

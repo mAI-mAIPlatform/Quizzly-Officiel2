@@ -1,0 +1,90 @@
+{
+  "id": "quiz13",
+  "titre": "Interfaces et Protocols",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment définit-on une interface moderne (Python 3.8+) sans héritage obligatoire ?",
+      "options": [
+        "typing.Protocol",
+        "abc.Interface",
+        "core.Contract",
+        "interface Keyword"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les Protocol permettent de faire du 'Static Duck Typing' via des outils comme mypy.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le typage {{1}} (Structural Subtyping) vérifie la structure de l'objet plutôt que sa hiérarchie d'héritage.",
+      "reponsesAttendues": ["structurel", "structural"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la différence fondamentale entre ABC et Protocol ?",
+      "options": [
+        "ABC demande un héritage explicite, Protocol vérifie juste la présence de méthodes/attributs",
+        "L'inverse",
+        "Aucune",
+        "Protocol est seulement pour l'interface graphique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un Protocol ne doit contenir que des méthodes sans implémentation.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Le décorateur @runtime_checkable permet de :",
+      "options": [
+        "Accélérer les tests",
+        "Utiliser isinstance() avec un Protocol à l'exécution",
+        "Vérifier la RAM",
+        "Compiler le code"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La PEP {{1}} a introduit les Protocols en Python.",
+      "reponsesAttendues": ["544"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Iterable, Sized et Container sont des exemples de Protocols dans collections.abc.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser des Protocols ?",
+      "options": [
+        "Pour forcer le polymorphisme sur des classes disparates (ex: int et str)",
+        "Pour décorer des fonctions",
+        "Pour masquer le code source",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le typage structurel rend le code plus flexible mais garde la sécurité du typage statique.",
+      "reponse": true
+    }
+  ]
+}

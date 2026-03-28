@@ -1,0 +1,90 @@
+{
+  "id": "quiz12",
+  "titre": "Gastronomie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel était le repas principal de la journée pour les Romains ?",
+      "options": [
+        "La Cena (en fin d'après-midi)",
+        "Le petit-déjeuner",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les riches Romains mangeaient couchés sur des lits dans le triclinium.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le condiment de poisson fermenté omniprésent s'appelait le {{1}}.",
+      "reponsesAttendues": ["Garum"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la 'Gustatio' ?",
+      "options": [
+        "L'entrée (souvent des œufs ou du vin miellé)",
+        "Le dessert",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le vin était toujours bu pur à table.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Base de l'alimentation du peuple (plebs) ?",
+      "options": [
+        "Le pain et la bouillie de céréales (Puls)",
+        "La viande rouge",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le dessert au cours de la cena s'appelait la {{1}} mensa.",
+      "reponsesAttendues": ["secunda"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les banquets étaient aussi des lieux de discussion intellectuelle ou de lectures.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Célèbre gastronome romain auteur d'un livre de recettes ?",
+      "options": [
+        "Apicius",
+        "Lucullus",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'horticulture et l'arboriculture étaient très développées.",
+      "reponse": true
+    }
+  ]
+}

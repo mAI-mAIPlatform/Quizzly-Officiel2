@@ -1,0 +1,94 @@
+{
+  "id": "quiz3",
+  "titre": "Les Noms des Notes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Combien y a-t-il de notes différentes dans une gamme majeure classique (sans compter l'octave) ?",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "12"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La suite des notes est : Do, Ré, Mi, Fa, Sol, La, Si.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La note qui suit le 'La' est le '{{1}}'.",
+      "reponsesAttendues": [
+        "Si"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle note se trouve entre le Mi et le Sol ?",
+      "options": [
+        "Ré",
+        "Fa",
+        "La",
+        "Do"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le système 'Do, Ré, Mi...' est utilisé principalement dans les pays latins.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Dans le système anglo-saxon, quelle lettre représente le 'La' ?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Dans le système anglo-saxon, le 'C' correspond à la note '{{1}}'.",
+      "reponsesAttendues": [
+        "Do"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'octave est l'intervalle entre deux notes de même nom.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la note la plus basse de la gamme de Do majeur ?",
+      "options": [
+        "Fa",
+        "Do",
+        "Sol",
+        "Si"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut chanter les notes dans l'ordre inverse (descendant).",
+      "reponse": true
+    }
+  ]
+}

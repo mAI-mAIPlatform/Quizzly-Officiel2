@@ -1,0 +1,94 @@
+{
+  "id": "quiz28",
+  "titre": "Les Microbes et l'Hygiène",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que sont les microbes ?",
+      "options": [
+        "De très petits animaux",
+        "Des êtres vivants minuscules (bactéries, virus) invisibles à l'oeil nu",
+        "Des insectes",
+        "Des petits cailloux"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Tous les microbes sont dangereux pour la santé.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Se laver les {{1}} permet d'éliminer beaucoup de mauvais microbes.",
+      "reponsesAttendues": [
+        "mains"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel de ces aliments est fabriqué grâce à de 'bons' microbes ?",
+      "options": [
+        "Le yaourt / Le pain",
+        "Le sucre",
+        "L'huile",
+        "Le sel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut voir les microbes avec un microscope.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quand faut-il absolument se laver les mains ?",
+      "options": [
+        "Uniquement après avoir dormi",
+        "Avant de manger et après être allé aux toilettes",
+        "Uniquement quand elles sont noires de terre",
+        "Jamais"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Un microbe qui provoque une maladie est un germe {{1}}.",
+      "reponsesAttendues": [
+        "pathogène"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le savon aide à décoller les microbes de la peau.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment éviter de transmettre ses microbes quand on tousse ?",
+      "options": [
+        "Tousser vers les autres",
+        "Tousser dans son coude ou un mouchoir",
+        "Crier très fort",
+        "Ne rien faire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'hygiène est notre première défense contre les maladies.",
+      "reponse": true
+    }
+  ]
+}

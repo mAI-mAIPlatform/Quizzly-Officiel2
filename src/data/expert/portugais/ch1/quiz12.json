@@ -1,0 +1,94 @@
+{
+  "id": "quiz12",
+  "titre": "Gramática : Composição de Palavras",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "O que é a composição por justaposição ?",
+      "options": [
+        "União de palavras sem alteração fonética (ex: girassol, guarda-chuva)",
+        "União com perda de sons",
+        "Repetição de sons",
+        "Apenas uma palavra"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Na aglutinação, há perda de elementos fonéticos (ex: aguardente = água + ardente).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A palavra 'planalto' (plano + alto) é formada por `{{1}}`.",
+      "reponsesAttendues": [
+        "aglutinação"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": " 'Pontapé' é um exemplo de quê ?",
+      "options": [
+        "Justaposição",
+        "Aglutinação",
+        "Derivação",
+        "Onomatopeia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Palavras como 'boquiaberto' sofreram aglutinação.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "O que caracteriza a composição ?",
+      "options": [
+        "A junção de dois ou mais radicais para formar uma nova palavra",
+        "O uso de prefixos",
+        "A mudança de acento",
+        "A tradução de outra língua"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": " 'Arco-íris' é um substantivo composto por `{{1}}`.",
+      "reponsesAttendues": [
+        "justaposição"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Muitas palavras compostas perdem o hífen com o novo Acordo Ortográfico.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qual destas palavras é aglutinada ?",
+      "options": [
+        "embora (em + boa + hora)",
+        "passatempo",
+        "sexta-feira",
+        "beija-flor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "A aglutinação altera a integridade das palavras originais.",
+      "reponse": true
+    }
+  ]
+}

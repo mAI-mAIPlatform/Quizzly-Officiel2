@@ -1,0 +1,90 @@
+{
+  "id": "quiz3",
+  "titre": "Gestion de la Mémoire et GC",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel algorithme est utilisé par le Garbage Collector moderne de JS ?",
+      "options": [
+        "Reference Counting",
+        "Mark-and-Sweep",
+        "Stop-and-Copy",
+        "Incremental Compaction"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une fuite de mémoire survient quand une variable n'est plus utilisée mais reste accessible dans le scope.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La zone mémoire où sont stockés les objets s'appelle le {{1}}.",
+      "reponsesAttendues": ["Heap", "tas"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel peut causer une fuite de mémoire ?",
+      "options": [
+        "Un setTimeout non nettoyé",
+        "Une variable globale accidentelle",
+        "Un event listener sur un élément supprimé du DOM",
+        "Toutes les réponses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le comptage de références (Reference Counting) peut échouer en cas de cycles.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Où sont stockées les primitives en JavaScript ?",
+      "options": [
+        "Dans le Heap",
+        "Dans la Stack (Pile)",
+        "Sur le disque dur",
+        "Dans le Garbage Collector"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour éviter les fuites avec des objets complexes, il est recommandé d'utiliser des {{1}}.",
+      "reponsesAttendues": ["WeakMap", "WeakSet"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut forcer le Garbage Collector à s'exécuter via du code JS standard.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'Allocation' ?",
+      "options": [
+        "Supprimer une variable",
+        "Réserver de la mémoire pour une nouvelle valeur",
+        "Calculer une somme",
+        "Déclarer une constante"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les 'Detached DOM nodes' sont une cause fréquente de fuites de mémoire.",
+      "reponse": true
+    }
+  ]
+}

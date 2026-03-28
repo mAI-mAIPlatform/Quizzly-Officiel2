@@ -1,0 +1,94 @@
+{
+  "id": "quiz11",
+  "titre": "Grammatica : Verbi pronominali e frasali",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Cosa significa il verbo 'andarsene' ?",
+      "options": [
+        "Andare via da un luogo",
+        "Andare verso qualcuno",
+        "Andare a mangiare",
+        "Restare fermi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Il verbo 'farcela' significa 'riuscire in qualcosa'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Il verbo 'prendersela' (offendersi) alla 1a persona singolare del presente è `{{1}}`.",
+      "reponsesAttendues": [
+        "me la prendo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Cosa significa 'cavarsela' ?",
+      "options": [
+        "Uscire da una situazione difficile con abilità",
+        "Scavare un buco",
+        "Togliersi le scarpe",
+        "Comprare qualcosa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "In 'Me ne vado', 'me' è un pronome riflessivo e 'ne' indica il luogo da cui ci si allontana.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qual è il significato di 'sentirsela' ?",
+      "options": [
+        "Avere il coraggio o la forza di fare qualcosa",
+        "Sentire un rumore lontano",
+        "Ascoltare la musica",
+        "Sentire un odore"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Il passato prossimo di 'farcela' (noi) è `{{1}}`.",
+      "reponsesAttendues": [
+        "ce l'abbiamo fatta"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il verbo 'mettercela tutta' significa impegnarsi al massimo.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Cosa significa 'spassarsela' ?",
+      "options": [
+        "Divertirsi molto",
+        "Passare la mano",
+        "Pulire il pavimento",
+        "Aspettare qualcuno"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "I verbi pronominali cambiano significato rispetto al verbo base grazie alle particelle pronominali.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "quiz50",
+  "titre": "Revisione : Sintassi & Stile (Capitolo 2)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Cas du 'double but' ?",
+      "options": [
+        "Datif",
+        "Accusatif",
+        "Génitif",
+        "Ablatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'ablatif exprime le temps 'quand'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Condition hypothétique : subjonctif `{{1}}`.",
+      "reponsesAttendues": [
+        "présent",
+        "imparfait"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Mode après 'quamquam' ?",
+      "options": [
+        "Indicatif",
+        "Subjonctif",
+        "Infinitif",
+        "Supin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "quasi + subjonctif = comparaison hypothétique.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Négation de but ?",
+      "options": [
+        "ne",
+        "ut non",
+        "quin",
+        "nisi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Procédé A-B / B-A : `{{1}}`.",
+      "reponsesAttendues": [
+        "chiasme"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'hexamètre a 6 pieds.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Séparation de mots liés ?",
+      "options": [
+        "Hyperbate",
+        "Anaphore",
+        "Asyndète",
+        "Litote"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'élision est optionnelle en poésie.",
+      "reponse : false (Elle est dictée par les règles métriques strictes)"
+    }
+  ]
+}

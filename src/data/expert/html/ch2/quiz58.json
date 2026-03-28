@@ -1,0 +1,95 @@
+{
+  "id": "quiz58",
+  "titre": "HTML Expert : Page Visibility API",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert la Page Visibility API ?",
+      "options": [
+        "À savoir si la page est actuellement visible (onglet actif) ou cachée (onglet en fond)",
+        "À changer le contraste de la page",
+        "À masquer des éléments au hasard",
+        "À compter le nombre de visiteurs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "document.visibilityState peut prendre les valeurs 'visible' ou 'hidden'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'événement déclenché lorsque la visibilité change est `{{1}}`.",
+      "reponsesAttendues": [
+        "visibilitychange"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est l'utilité majeure pour la performance ?",
+      "options": [
+        "Mettre en pause les calculs lourds, les vidéos ou les requêtes polluantes quand l'utilisateur ne regarde plus la page",
+        "Rendre le CPU plus froid",
+        "Augmenter la RAM de l'utilisateur",
+        "Supprimer les pubs automatiquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "document.hidden est un booléen (vrai si la page est cachée) aujourd'hui déprécié au profit de visibilityState.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si l'utilisateur change d'onglet ?",
+      "options": [
+        "L'événement visibilitychange est tiré et visibilityState devient 'hidden'",
+        "Le site s'arrête de fonctionner",
+        "L'onglet se ferme tout seul",
+        "La page est rechargée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La Page Visibility API est essentielle pour économiser la `{{1}}` sur les appareils mobiles.",
+      "reponsesAttendues": [
+        "batterie",
+        "énergie"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La visibilité n'est pas modifiée si la fenêtre est réduite ou couverte par une autre application.",
+      "reponse : false (La page devient 'hidden')"
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment l'utiliser pour un lecteur audio ?",
+      "options": [
+        "Vérifier document.visibilityState et mettre en pause si hidden (optionnel selon l'usage)",
+        "On ne peut pas",
+        "Ça fait fondre les câbles",
+        "C'est automatique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Cette API est supportée par tous les navigateurs modernes depuis de nombreuses années.",
+      "reponse": true
+    }
+  ]
+}

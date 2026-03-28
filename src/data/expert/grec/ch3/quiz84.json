@@ -1,0 +1,94 @@
+{
+  "id": "quiz84",
+  "titre": "Grec Expert : Aristote et l'Art de la Logique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'école fondée par Aristote, où l'on enseignait en marchant ?",
+      "options": [
+        "Le Lycée",
+        "L'Académie",
+        "L'Agora",
+        "Le Cynosarge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Aristote est considéré comme le fondateur de la logique formelle.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Syllogisme) est un raisonnement en trois propositions (deux prémisses et une conclusion).",
+      "reponsesAttendues": [
+        "Syllogisme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est le titre du recueil regroupant les traités de logique d'Aristote ?",
+      "options": [
+        "L'Organon",
+        "La Physique",
+        "La Métaphysique",
+        "L'Éthique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Aristote pensait que les idées existaient indépendamment des objets sensibles (comme Platon).",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment Aristote appelle-t-il la science qui étudie l'être en tant qu'être ?",
+      "options": [
+        "La Philosophie première (ou Métaphysique)",
+        "La Biologie",
+        "La Logique",
+        "La Physique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le couple de concepts `{{1}}` (Acte et Puissance) permet à Aristote d'expliquer le mouvement et le changement.",
+      "reponsesAttendues": [
+        "Acte et Puissance"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les membres de l'école d'Aristote étaient appelés les 'Péripatéticiens'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Combien de types de causes Aristote distingue-t-il (Cause matérielle, formelle, efficiente, finale) ?",
+      "options": [
+        "Quatre",
+        "Trois",
+        "Cinq",
+        "Deux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Aristote a été le précepteur d'Alexandre le Grand.",
+      "reponse": true
+    }
+  ]
+}

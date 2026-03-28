@@ -1,0 +1,90 @@
+{
+  "id": "quiz8",
+  "titre": "Debugging des Scopes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle commande en console permet de voir les propriétés internes (dont les scopes) d'une fonction ?",
+      "options": [
+        "console.log()",
+        "console.dir()",
+        "console.table()",
+        "console.error()"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans l'onglet 'Sources' des DevTools, on peut voir la liste des closures actives au point d'arrêt.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le panneau qui affiche la liste des fonctions appelantes s'appelle le {{1}}.",
+      "reponsesAttendues": ["Call Stack", "pile d'appels"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie le mot-clé 'debugger' dans le code ?",
+      "options": [
+        "Il supprime les bugs",
+        "Il force un point d'arrêt (breakpoint)",
+        "Il affiche une erreur",
+        "Il nettoie la mémoire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut modifier la valeur d'une variable dans le scope local directement depuis la console pendant une pause.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Watch Expression' ?",
+      "options": [
+        "Un film sur JS",
+        "Une expression dont on suit la valeur en temps réel durant le debug",
+        "Une erreur de syntaxe",
+        "Une variable globale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Lorsqu'on debug, 'Step Into' permet d'entrer à l'intérieur d'un {{1}}.",
+      "reponsesAttendues": ["appel de fonction", "appel"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les 'Blackbox scripts' permettent d'ignorer les bibliothèques tierces (comme React/jQuery) pendant le debug.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Où peut-on voir l'état du Heap (tas) mémoire dans Chrome ?",
+      "options": [
+        "Sources",
+        "Network",
+        "Memory (Profil de snapshot)",
+        "Application"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le 'Scope' affiché par le debugger inclut toujours le scope Global.",
+      "reponse": true
+    }
+  ]
+}

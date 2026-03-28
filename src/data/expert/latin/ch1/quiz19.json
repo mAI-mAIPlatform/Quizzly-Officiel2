@@ -1,0 +1,96 @@
+{
+  "id": "quiz19",
+  "titre": "Syntaxe des Cas : Nuances de l'Ablatif",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l'ablatif de moyen ?",
+      "options": [
+        "Il indique l'instrument avec lequel on agit (ex: gladiis pugnare)",
+        "Il indique la moitié d'un objet",
+        "Il indique le prix moyen",
+        "Il est facultatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'ablatif de manière nécessite souvent la préposition 'cum' s'il n'y a pas d'adjectif.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'ablatif de `{{1}}` s'emploie avec des verbes comme 'utor' (utiliser) ou 'fruor' (jouir de).",
+      "reponsesAttendues": [
+        "prix",
+        "instrument"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie l'ablatif dans 'Dignus laude' ?",
+      "options": [
+        "Digne de louange (Ablatif de complément de l'adj)",
+        "Digne par la louange",
+        "Digne après la louange",
+        "La louange est digne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'ablatif de temps indique le moment où se passe l'action (ex: nocte).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "A quoi sert l'ablatif de comparaison ?",
+      "options": [
+        "A remplacer 'quam' après un comparatif (ex: clarior sole)",
+        "A comparer deux ablatives",
+        "A exprimer la ressemblance",
+        "C'est une forme de génitif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'ablatif de `{{1}}` indique la provenance ou l'origine (ex: natus nobili genere).",
+      "reponsesAttendues": [
+        "provenance",
+        "origine"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'ablatif peut être utilisé pour exprimer le prix s'il est déterminé (ex: cent denariis).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle préposition est utilisée pour l'ablatif d'agent (personne) ?",
+      "options": [
+        "a / ab",
+        "e / ex",
+        "de",
+        "cum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'ablatif exprime parfois la différence de mesure (ex: multo major).",
+      "reponse": true
+    }
+  ]
+}

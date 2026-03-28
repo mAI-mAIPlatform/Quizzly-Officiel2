@@ -1,0 +1,90 @@
+{
+  "id": "quiz26",
+  "titre": "Typage : Generics & Final",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment déclarer une variable dont on ne veut plus modifier la valeur ?",
+      "options": [
+        "typing.Final",
+        "const",
+        "immutable",
+        "fixed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le type 'Literal' permet de restreindre une variable à certaines valeurs spécifiques (ex: Literal['red', 'blue']).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour définir un type générique personnalisé (ex: une boîte de T), on utilise {{1}}.",
+      "reponsesAttendues": ["TypeVar"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie Callable[[int, int], str] ?",
+      "options": [
+        "Une fonction prenant 2 entiers et retournant une string",
+        "Une liste d'entiers",
+        "Une erreur",
+        "Une fonction retournant un entier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "typing.Annotated permet d'ajouter des métadonnées arbitraires aux types.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi sert NewType ?",
+      "options": [
+        "À créer un type distinct à partir d'un type existant pour éviter les erreurs logiques",
+        "À créer une classe",
+        "À renommer un fichier",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Depuis Python 3.10, on peut utiliser l'opérateur {{1}} au lieu de Union[].",
+      "reponsesAttendues": ["|"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les types sont obligatoires pour que Python fonctionne.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'duck typing' ?",
+      "options": [
+        "Si ça marche comme un canard, c'est un canard (même sans héritage)",
+        "Les canards sont prioritaires",
+        "C'est un bug",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il est possible de vérifier les types à l'aide de 'beartype' ou 'typeguard' à l'exécution.",
+      "reponse": true
+    }
+  ]
+}

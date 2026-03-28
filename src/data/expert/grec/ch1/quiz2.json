@@ -1,0 +1,94 @@
+{
+  "id": "quiz2",
+  "titre": "Nominatif et Vocatif",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle fonction principale occupe le nominatif ?",
+      "options": [
+        "Sujet et attribut du sujet",
+        "Complément d'objet direct",
+        "Appel de la personne",
+        "Complément de lieu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le vocatif est presque toujours identique au nominatif au pluriel.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans la phrase 'Ὁ δοῦλος λύει', le mot 'δοῦλος' est au {{1}}.",
+      "reponsesAttendues": [
+        "nominatif"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison du vocatif singulier pour les noms en -ος de la 2ème déclinaison ?",
+      "options": [
+        "-ε",
+        "-ον",
+        "-ου",
+        "-ῳ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'article accompagne systématiquement le vocatif.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on l'interjection souvent placée avant un vocatif ?",
+      "options": [
+        "ὦ",
+        "οὐ",
+        "καί",
+        "δή"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Au neutre, le nominatif singulier et pluriel est identique à l'{{1}}.",
+      "reponsesAttendues": [
+        "accusatif"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le sujet d'une proposition infinitive se met également au nominatif.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "L'attribut du sujet est au même cas que le sujet, c'est-à-dire :",
+      "options": [
+        "Nominatif",
+        "Génitif",
+        "Accusatif",
+        "Datif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Certains adjectifs n'ont pas de forme distincte pour le vocatif.",
+      "reponse": true
+    }
+  ]
+}

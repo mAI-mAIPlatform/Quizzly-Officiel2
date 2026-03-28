@@ -1,0 +1,94 @@
+{
+  "id": "quiz3",
+  "titre": "Syntaxe : Concordance des temps (Consecutio Temporum)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la 'Consecutio Temporum' ?",
+      "options": [
+        "La règle régissant le temps du subjonctif en fonction du verbe principal",
+        "L'ordre des mots dans la phrase",
+        "La déclinaison des noms de temps",
+        "L'accord du participe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si le verbe principal est au présent, on utilise le subjonctif présent pour exprimer la simultanéité.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Après un temps historique (imparfait, parfait, PQP), on utilise le subjonctif `{{1}}` pour la simultanéité.",
+      "reponsesAttendues": [
+        "imparfait"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel temps du subjonctif exprime l'antériorité après un verbe au présent ?",
+      "options": [
+        "Parfait",
+        "Imparfait",
+        "Plus-que-parfait",
+        "Présent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le futur du subjonctif n'existe pas en tant que forme simple ; on utilise la périphrase en -urus sim.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Après un verbe au parfait (historique), quel temps exprime l'antériorité ?",
+      "options": [
+        "Plus-que-parfait",
+        "Parfait",
+        "Imparfait",
+        "Présent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour exprimer la postériorité après un temps primaire, on utilise le participe futur + `{{1}}`.",
+      "reponsesAttendues": [
+        "sim"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le présent historique peut être suivi soit des temps primaires, soit des temps secondaires.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Dans 'Rogo quid facias', pourquoi utilise-t-on le subjonctif présent ?",
+      "options": [
+        "Simultanéité par rapport à un temps primaire (Rogo)",
+        "Antériorité",
+        "Postériorité",
+        "C'est un subjonctif indépendant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La règle de la concordance ne s'applique jamais aux interrogatives indirectes.",
+      "reponse": false
+    }
+  ]
+}

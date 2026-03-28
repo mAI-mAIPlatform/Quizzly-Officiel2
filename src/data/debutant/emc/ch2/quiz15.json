@@ -1,0 +1,96 @@
+{
+  "id": "quiz15",
+  "titre": "Les Émotions à l'École",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lalquelle est une émotion ?",
+      "options": [
+        "Le vélo",
+        "La joie",
+        "La chaise",
+        "Le gâteau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On a le droit d'être triste parfois.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Quand j'ai peur, mon {{1}} (organe) peut battre très vite.",
+      "reponsesAttendues": [
+        "coeur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Si je suis très en colère, je dois ...",
+      "options": [
+        "Taper mes camarades",
+        "Me calmer et expliquer pourquoi",
+        "Tout casser",
+        "Crier très fort"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Partager ses émotions avec un adulte peut aider.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Sourire à quelqu'un peut lui apporter de la ...",
+      "options": [
+        "Peur",
+        "Colère",
+        "Joie",
+        "Tristesse"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La {{1}} (sentiment) arrive quand on gagne à un jeu.",
+      "reponsesAttendues": [
+        "fierté",
+        "satisfaction",
+        "joie"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut deviner l'émotion de quelqu'un à son visage.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le fait de comprendre l'émotion de l'autre ?",
+      "options": [
+        "L'empathie",
+        "L'égoïsme",
+        "Le calcul",
+        "Le sport"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Bien gérer ses émotions aide à ne pas se disputer.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz13",
+  "titre": "Ovide : Exil",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi Ovide a-t-il été exilé par Auguste en 8 ap. J.-C. ?",
+      "options": [
+        "Carmen et Error (Un poème et une erreur)",
+        "Complot politique",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'poème' en question est 'L'Art d'Aimer' (Ars Amatoria), jugé trop immoral.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Ovide est envoyé à {{1}} (actuelle Constanta en Roumanie) au bord de la Mer Noire.",
+      "reponsesAttendues": ["Tomes", "Tomis"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Titre des œuvres écrites en exil ?",
+      "options": [
+        "Les Tristes (Tristia) et les Pontiques (Epistulae ex Ponto)",
+        "Les Bucoliques",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Ovide a finalement obtenu le pardon d'Auguste et est rentré à Rome.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "De quoi se plaint-il dans ses lettres d'exil ?",
+      "options": [
+        "Du froid, de la barbarie des Gètes et de la solitude",
+        "Du manque de nourriture",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'œuvre de sa jeunesse, '{{1}}' (Heroides), est composée de lettres d'héroïnes mythologiques.",
+      "reponsesAttendues": ["Les Héroïdes"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Ovide meurt en exil en 17 ap. J.-C.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Ton des 'Tristes' ?",
+      "options": [
+        "Mélancolique, suppliant et parfois désespéré",
+        "Joyeux et provocateur",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'exil d'Ovide reste l'un des grands mystères littéraires de l'Antiquité.",
+      "reponse": true
+    }
+  ]
+}

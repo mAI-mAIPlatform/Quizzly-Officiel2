@@ -1,0 +1,95 @@
+{
+  "id": "quiz28",
+  "titre": "WeakMap et WeakSet",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage principal d'une WeakMap ?",
+      "options": [
+        "Elle n'empêche pas le garbage collection de ses clés",
+        "Elle est plus rapide qu'une Map",
+        "Elle peut être itérée avec for...in",
+        "Elle accepte les primitives comme clés"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut itérer (for...of) sur une WeakMap.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les clés d'une WeakMap doivent obligatoirement être des {{1}}.",
+      "reponsesAttendues": [
+        "objets",
+        "objects"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "A quoi sert souvent la WeakMap en programmation objet ?",
+      "options": [
+        "Stockage de données privées d'instance",
+        "Améliorer le rendu visuel",
+        "Remplacer le cache navigateur",
+        "Gérer les requêtes AJAX"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une WeakMap n'a pas de propriété .size.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Peut-on utiliser une primitive comme valeur dans un WeakSet ?",
+      "options": [
+        "Non, seulement des objets",
+        "Oui, sans problème",
+        "Seulement en mode strict",
+        "Seulement si elle est gelée (Object.freeze)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Une WeakMap ne possède pas de méthode {{1}} pour vider tout son contenu d'un coup.",
+      "reponsesAttendues": [
+        "clear"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les WeakMaps sont utiles pour la gestion de métadonnées liées au DOM.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si la seule référence à un objet clé d'une WeakMap est supprimée ?",
+      "options": [
+        "L'entrée est supprimée de la WeakMap lors du prochain GC",
+        "La WeakMap garde l'objet indéfiniment",
+        "L'application plante",
+        "Un événement est déclenché"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "WeakMap et WeakSet ont été introduits en ES6.",
+      "reponse": true
+    }
+  ]
+}

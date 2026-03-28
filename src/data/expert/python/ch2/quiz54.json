@@ -1,0 +1,94 @@
+{
+  "id": "quiz54",
+  "titre": "Python Expert : Module Functools",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert @functools.lru_cache ?",
+      "options": [
+        "À mémoriser les résultats d'une fonction (caching) pour éviter de recalculer avec les mêmes arguments",
+        "À vider la RAM",
+        "À compresser le code",
+        "À crypter la fonction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "functools.wraps est indispensable lors de la création de décorateurs pour conserver les métadonnées de la fonction originale (__name__, __doc__).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La fonction `{{1}}` permet de pré-remplir certains arguments d'une fonction.",
+      "reponsesAttendues": [
+        "partial"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Single Dispatch' (@singledispatch) ?",
+      "options": [
+        "Une façon d'implémenter la surcharge de fonction basée sur le type du premier argument",
+        "Un mode de livraison de colis",
+        "Une erreur de threading",
+        "Une méthode de tri"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "@cache (Python 3.9+) est un alias de lru_cache sans limite de taille.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment invalider tout le cache d'une fonction décorée par @lru_cache ?",
+      "options": [
+        "fonction.cache_clear()",
+        "del fonction.cache",
+        "cache.flush()",
+        "Python le fait tout seul"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "@functools.`{{1}}` permet de transformer une méthode en property dont le résultat est mis en cache après le premier calcul.",
+      "reponsesAttendues": [
+        "cached_property"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "lru_cache ne fonctionne que sur des fonctions dont les arguments sont hashables.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "À quoi sert functools.cmp_to_key ?",
+      "options": [
+        "À transformer une ancienne fonction de comparaison (style Python 2) en une clé utilisable par sorted()",
+        "À générer une clé de chiffrement",
+        "À convertir un dictionnaire en liste",
+        "À rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Functools est le module de prédilection pour appliquer les principes de programmation fonctionnelle en Python.",
+      "reponse": true
+    }
+  ]
+}

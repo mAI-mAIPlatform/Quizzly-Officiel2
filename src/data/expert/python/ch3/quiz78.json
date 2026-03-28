@@ -1,0 +1,94 @@
+{
+  "id": "quiz78",
+  "titre": "Python Expert : Extensions C et Cython",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le but principal de l'écriture d'extensions en C pour Python ?",
+      "options": [
+        "L'optimisation des performances et l'accès à des bibliothèques C existantes",
+        "La simplicité d'écriture",
+        "Le design Web",
+        "La sécurité réseau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Cython est un sur-ensemble de Python qui compile du code en C pour gagner en vitesse.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La `{{1}}` (Python C API) permet d'interagir directement avec les structures CPython depuis du code C.",
+      "reponsesAttendues": [
+        "C API"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle bibliothèque standard facilite l'appel de fonctions dans des DLL ou librairies partagées depuis Python ?",
+      "options": [
+        "ctypes",
+        "cffi",
+        "swig",
+        "setuptools"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Python CFFI est souvent préféré à ctypes pour sa sécurité et sa facilité d'utilisation avec des headers C.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un wrapper (enrobage) dans le contexte des extensions ?",
+      "options": [
+        "Un code Python qui fait le pont avec une bibliothèque C",
+        "Un type de dictionnaire",
+        "Un décorateur spécial",
+        "Un fichier zip"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pybind11 est une bibliothèque moderne permettant de créer des bindings Python pour le langage `{{1}}`.",
+      "reponsesAttendues": [
+        "C++"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "NumPy et Pandas sont écrits en grande partie en C et Fortran pour la rapidité.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle commande Cython génère généralement le fichier .c ?",
+      "options": [
+        "cythonize",
+        "compile",
+        "build_ext",
+        "make"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il est possible d'appeler du code Rust depuis Python.",
+      "reponse": true
+    }
+  ]
+}

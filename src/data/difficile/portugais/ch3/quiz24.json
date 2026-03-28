@@ -1,0 +1,90 @@
+{
+  "id": "quiz24",
+  "titre": "Açores et Madère",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Depuis quand les archipels des Açores et de Madère sont-ils des Régions Autonomes ?",
+      "options": [
+        "1976 (Constitution après la Révolution)",
+        "1910",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Chaque région possède son propre gouvernement et son parlement législatif.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'archipel des {{1}} est composé de 9 îles volcaniques au milieu de l'Atlantique.",
+      "reponsesAttendues": ["Açores"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la base militaire stratégique américaine située aux Açores ?",
+      "options": [
+        "Lajes (île de Terceira)",
+        "Santa Maria",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Madère a été découverte officiellement en 1418-1419 par João Gonçalves Zarco.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel personnage célèbre est né à Funchal, Madère ?",
+      "options": [
+        "Cristiano Ronaldo",
+        "Fernando Pessoa",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'économie des Açores repose beaucoup sur l'élevage et la {{1}} (indústria leiteira).",
+      "reponsesAttendues": ["pêche", "laiterie", "agriculture"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le vin de Madère était très prisé lors de l'indépendance des États-Unis.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel phénomène volcanique définit le paysage de l'île de Pico aux Açores ?",
+      "options": [
+        "La montagne de Pico (point culminant du Portugal)",
+        "Un désert de sable",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les régions autonomes sont des 'Régions Ultrapériphériques' de l'UE.",
+      "reponse": true
+    }
+  ]
+}

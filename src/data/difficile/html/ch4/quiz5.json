@@ -1,0 +1,90 @@
+{
+  "id": "quiz5",
+  "titre": "Landmarks ARIA",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel rôle ARIA correspond à la balise sémantique <header> principale ?",
+      "options": [
+        "banner",
+        "main",
+        "contentinfo",
+        "navigation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le rôle 'main' doit être unique par page.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le rôle {{1}} correspond sémantiquement au contenu du pied de page (<footer>).",
+      "reponsesAttendues": ["contentinfo"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quoi servent les Landmarks ?",
+      "options": [
+        "À permettre aux lecteurs d'écran de sauter rapidement de section en section",
+        "À faire des liens externes",
+        "À afficher des cartes",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Si j'utilise <nav>, je n'ai pas besoin d'ajouter explicitement role=\"navigation\".",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel rôle pour une barre de recherche ?",
+      "options": [
+        "search",
+        "form",
+        "region",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le rôle {{1}} définit une zone importante de la page qui n'a pas de balise sémantique dédiée.",
+      "reponsesAttendues": ["region"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut nommer un landmark via 'aria-label' pour plus de clarté.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser les landmarks ?",
+      "options": [
+        "Pour structurer logiquement la page aux yeux des outils d'assistance",
+        "Pour le CSS",
+        "C'est optionnel pour le SEO",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La balise <aside> possède par défaut le rôle 'complementary'.",
+      "reponse": true
+    }
+  ]
+}

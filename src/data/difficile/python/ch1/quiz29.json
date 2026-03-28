@@ -1,0 +1,90 @@
+{
+  "id": "quiz29",
+  "titre": "Modules : Temps et Système",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle fonction du module 'time' met le script en pause pour n secondes ?",
+      "options": [
+        "pause(n)",
+        "sleep(n)",
+        "wait(n)",
+        "stop(n)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "time.time() retourne le nombre de secondes écoulées depuis l'Epoch (1er janvier 1970).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le module {{1}} permet de manipuler les chemins de fichiers de manière moderne (orientée objet).",
+      "reponsesAttendues": ["pathlib"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment obtenir la liste des fichiers d'un dossier avec pathlib ?",
+      "options": [
+        "Path.listdir()",
+        "Path.iterdir()",
+        "os.list()",
+        "pathlib.ls()"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "sys.argv contient les arguments de la ligne de commande passés au script.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel module permet d'exécuter des commandes système ?",
+      "options": [
+        "os",
+        "subprocess",
+        "system",
+        "terminal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La fonction datetime.{{1}}() donne la date et l'heure actuelle.",
+      "reponsesAttendues": ["now"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "time.perf_counter() est plus précis que time.time() pour mesurer la durée d'une exécution.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que fait os.environ ?",
+      "options": [
+        "Il nettoie l'ordinateur",
+        "Il contient les variables d'environnement du système",
+        "Il gère les fichiers",
+        "Il définit le fuseau horaire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le module 'glob' permet de rechercher des fichiers avec des motifs (ex: *.txt).",
+      "reponse": true
+    }
+  ]
+}

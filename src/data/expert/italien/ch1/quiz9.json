@@ -1,0 +1,94 @@
+{
+  "id": "quiz9",
+  "titre": "Grammatica : Si passivante e impersonale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qual è la differenza principale tra 'si impersonale' e 'si passivante' ?",
+      "options": [
+        "Il si passivante ha un soggetto espresso con cui il verbo concorda",
+        "Il si impersonale si usa solo con verbi transitivi",
+        "Non c'è alcuna differenza",
+        "Il si passivante è solo al passato"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "In 'Si leggono molti libri', il verbo è al plurale perché concorda con 'molti libri' (soggetto).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Completa con il 'si' impersonale al passato: 'Non si {{1}} (potere) uscire'.",
+      "reponsesAttendues": [
+        "è potuto"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Come si comporta il 'si' impersonale con i verbi riflessivi (es: alzarsi) ?",
+      "options": [
+        "Si usa 'ci si' (es: ci si alza presto)",
+        "Si usa 'si si'",
+        "Si usa 'mi si'",
+        "Si elimina un 'si'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'ausiliare dei tempi composti con il 'si' impersonale è sempre 'essere'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "In un tempo composto impersonale con un aggettivo, qual è la desinenza dell'aggettivo ?",
+      "options": [
+        "Sempre maschile plurale -i (es: si è stati felici)",
+        "Sempre singolare -o",
+        "Dipende dal parlante",
+        "Femminile -e"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Con il 'si' passivante, se il soggetto è dei libri, il verbo 'vendere' sarà `{{1}}`.",
+      "reponsesAttendues": [
+        "si vendono"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Qui si mangia bene' è un esempio di si passivante.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quale frase è corretta ?",
+      "options": [
+        "In Italia si beve molto vino",
+        "In Italia si bevano molto vino",
+        "In Italia ci si beve molto vino",
+        "In Italia si bevevano molto vino"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il 'si' impersonale corrisponde al francese 'on'.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "quiz88",
+  "titre": "JavaScript Expert : Gestion de la Mémoire et Performance",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel processus automatique se charge de libérer la mémoire occupée par des objets qui ne sont plus référencés ?",
+      "options": [
+        "Garbage Collection (GC)",
+        "Defragmentation",
+        "Swap",
+        "Context Switching"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'algorithme principal de GC dans les moteurs JS modernes est le 'Mark-and-Sweep' (marquer et balayer).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une `{{1}}` (Memory Leak) ou fuite de mémoire survient lorsqu'un objet n'est plus utile mais reste accessible par inadvertance.",
+      "reponsesAttendues": [
+        "fuite de memoire",
+        "memory leak"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle structure de données permet de stocker des références 'faibles' qui n'empêchent pas le Garbage Collection de supprimer l'objet ?",
+      "options": [
+        "WeakMap / WeakSet",
+        "Map / Set",
+        "Object.freeze()",
+        "Symbol"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les variables globales sont une cause courante de fuites de mémoire car elles ne sont jamais libérées.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel de ces éléments peut provoquer une fuite de mémoire s'il n'est pas nettoyé correctement ?",
+      "options": [
+        "Un écouteur d'événements (Event Listener) sur un élément supprimé du DOM",
+        "Une variable locale dans une fonction terminée",
+        "Une promesse résolue",
+        "Un objet gelé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La `{{1}}` (Heap) est la zone mémoire où sont stockés les objets complexes en JS.",
+      "reponsesAttendues": [
+        "Heap",
+        "Tas"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les fermetures (closures) peuvent involontairement conserver en mémoire des variables massives de leur portée parente.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment peut-on aider le Garbage Collector à libérer un gros objet devenu inutile ?",
+      "options": [
+        "En mettant sa référence à null (myObj = null)",
+        "En appelant GC.collect()",
+        "En le supprimant avec shift()",
+        "En redémarrant le navigateur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Un profilage régulier via l'onglet 'Memory' de Chrome DevTools est essentiel pour les applications web massives.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz26",
+  "titre": "Les Grandes Civilisations : Synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces civilisations se trouvait au bord du Nil ?",
+      "options": [
+        "Les Grecs",
+        "Les Romains",
+        "Les Égyptiens",
+        "Les Gaulois"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La démocratie est née à Rome.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'écriture égyptienne se compose de {{1}}.",
+      "reponsesAttendues": [
+        "hiéroglyphes"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui sont Romulus et Rémus ?",
+      "options": [
+        "Des pharaons",
+        "Les fondateurs légendaires de Rome",
+        "Des druides gaulois",
+        "Des philosophes grecs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Vercingétorix a gagné contre César à Alésia.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Où habitent les dieux de la mythologie grecque ?",
+      "options": [
+        "Au fond des mers",
+        "Sur le mont Olympe",
+        "Dans les nuages",
+        "À Athènes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La période après la Préhistoire s'appelle l'{{1}}.",
+      "reponsesAttendues": [
+        "Antiquité"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les Romains parlaient latin.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "À quoi servait un aqueduc ?",
+      "options": [
+        "À faire la guerre",
+        "À transporter l'eau",
+        "À enterrer les rois",
+        "À naviguer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'Antiquité est une période riche en inventions et en culture.",
+      "reponse": true
+    }
+  ]
+}

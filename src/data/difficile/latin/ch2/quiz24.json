@@ -1,0 +1,90 @@
+{
+  "id": "quiz24",
+  "titre": "Verbes Impersonnels",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un verbe impersonnel ?",
+      "options": [
+        "Un verbe qui ne s'emploie qu'à la 3ème personne du singulier",
+        "Un verbe sans sujet",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Pluit' (il pleut) est un verbe impersonnel exprimant un phénomène météo.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le verbe '{{1}}' signifie 'il convient / il faut' (obligation morale).",
+      "reponsesAttendues": ["oportet"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Construction de 'licet' (il est permis) ?",
+      "options": [
+        "Il est suivi du datif (ex: mihi licet = il m'est permis)",
+        "Il est suivi de l'accusatif",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les verbes de sentiment (pudet, piget, taedet...) se construisent avec l'accusatif de la personne et le génitif de la chose.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Me pudet mendacii'",
+      "options": [
+        "J'ai honte du mensonge / Le mensonge me fait honte",
+        "Je suis un menteur",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le verbe '{{1}}' (il faut) est suivi de l'accusatif + infinitif.",
+      "reponsesAttendues": ["oportet"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Beaucoup de verbes personnels peuvent être utilisés impersonnellement au passif (ex: itur = on va).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'Necesse est' ?",
+      "options": [
+        "Il est nécessaire",
+        "Il est facile",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les verbes impersonnels permettent de parler de sentiments ou de règles avec détachement.",
+      "reponse": true
+    }
+  ]
+}

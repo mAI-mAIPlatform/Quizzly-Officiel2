@@ -1,0 +1,94 @@
+{
+  "id": "quiz24",
+  "titre": "Optimisation : Array et MemoryView",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la particularité du module array par rapport aux listes classiques ?",
+      "options": [
+        "Il stocke des éléments de type homogène de manière compacte (C-style)",
+        "Il est plus flexible sur les types",
+        "Il permet de stocker des fichiers",
+        "Il est déprécié depuis Python 3"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un 'array' d'entiers consomme moins de mémoire qu'une liste d'entiers.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le code de type `'{{1}}'` dans le module array représente des entiers signés sur 4 octets.",
+      "reponsesAttendues": [
+        "i"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un memoryview ?",
+      "options": [
+        "Un objet permettant d'accéder aux données internes d'un objet (buffer) sans copie",
+        "Une capture d'écran de la mémoire vive",
+        "Un outil de monitoring du processeur",
+        "Un dictionnaire indexé par adresse mémoire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "memoryview permet de faire des 'slices' (découpages) de données sans copier les octets.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel type d'objet est compatible avec memoryview ?",
+      "options": [
+        "Tout objet supportant le 'Buffer Protocol' (bytes, bytearray, array)",
+        "Uniquement les listes",
+        "Uniquement les chaînes str",
+        "Tous les objets Python"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour modifier les données d'un memoryview, l'objet source doit être {{1}} (ex: bytearray).",
+      "reponsesAttendues": [
+        "mutable"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "memoryview.cast('B') permet d'interpréter les données comme des octets non signés.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage principal de memoryview pour le traitement de gros fichiers ?",
+      "options": [
+        "Zéro-copie (Zero-copy), ce qui améliore drastiquement les performances",
+        "Le chiffrement automatique",
+        "La compression des données",
+        "Le multi-threading automatique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le module array est préférable à NumPy pour le calcul scientifique lourd.",
+      "reponse": false
+    }
+  ]
+}

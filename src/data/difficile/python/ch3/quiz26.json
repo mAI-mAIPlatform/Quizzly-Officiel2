@@ -1,0 +1,90 @@
+{
+  "id": "quiz26",
+  "titre": "Context Managers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel mot-clé active l'utilisation d'un Context Manager ?",
+      "options": [
+        "with",
+        "using",
+        "use",
+        "open"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les Context Managers garantissent la libération des ressources (ex: fermeture de fichier) même en cas d'erreur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "En POO, un Context Manager implémente les méthodes __enter__ et {{1}}.",
+      "reponsesAttendues": ["__exit__"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle méthode est appelée pour l'initialisation du contexte ?",
+      "options": [
+        "__init__",
+        "__enter__",
+        "__start__",
+        "__begin__"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La méthode __exit__ reçoit les informations sur l'exception si elle survient (type, value, traceback).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment transformer une fonction simple en Context Manager sans classe ?",
+      "options": [
+        "Avec le décorateur @contextlib.contextmanager",
+        "Ce n'est pas possible",
+        "Avec @with",
+        "En utilisant yield"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Si __exit__ retourne la valeur {{1}}, l'exception qui a pu survenir est supprimée (suppressed).",
+      "reponsesAttendues": ["True", "Vrai"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "contextlib.closing() permet de fermer automatiquement un objet possédant une méthode close().",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Un exemple courant de Context Manager est :",
+      "options": [
+        "L'ouverture d'un fichier avec open()",
+        "L'utilisation d'un verrou (Lock) en threading",
+        "Une transaction de base de données",
+        "Toutes les réponses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser plusieurs Context Managers sur une seule ligne (ex: with A, B:).",
+      "reponse": true
+    }
+  ]
+}

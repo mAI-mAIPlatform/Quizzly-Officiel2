@@ -1,0 +1,94 @@
+{
+  "id": "quiz1",
+  "titre": "Les Cas en Grec : Aperçu",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Combien de cas le grec ancien utilise-t-il principalement ?",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "7"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'ablatif est un cas présent en grec ancien comme en latin.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le cas qui exprime le sujet de l'action est le {{1}}.",
+      "reponsesAttendues": [
+        "nominatif"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel cas est utilisé pour l'apostrophe ou l'appel direct ?",
+      "options": [
+        "Vocatif",
+        "Datif",
+        "Génitif",
+        "Accusatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le datif peut exprimer le lieu où l'on est.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel cas exprime le complément du nom (possession) ?",
+      "options": [
+        "Génitif",
+        "Accusatif",
+        "Datif",
+        "Nominatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le complément d'objet direct (COD) se met à l'{{1}}.",
+      "reponsesAttendues": [
+        "accusatif"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le grec moderne a conservé exactement le même système de déclinaisons que le grec ancien.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le syncrétisme des cas en grec ancien ?",
+      "options": [
+        "La disparition de l'ablatif dont les fonctions sont reprises par le génitif et le datif",
+        "La fusion du nominatif et de l'accusatif au neutre",
+        "L'utilisation d'un seul cas pour tout",
+        "Une erreur de grammaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'article grec se décline également suivant les cas.",
+      "reponse": true
+    }
+  ]
+}

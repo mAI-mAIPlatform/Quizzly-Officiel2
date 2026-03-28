@@ -1,0 +1,95 @@
+{
+  "id": "quiz28",
+  "titre": "La Science au Quotidien",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi le ciel est-il bleu ?",
+      "options": [
+        "Parce que la mer se reflète",
+        "À cause de la lumière du Soleil qui se diffuse dans l'air",
+        "Parce qu'on l'a peint",
+        "Parce qu'il a froid"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le son ne se déplace pas dans le vide (de l'espace).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'écho est le {{1}} du son sur un mur ou une montagne.",
+      "reponsesAttendues": [
+        "rebond",
+        "réflexion"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment se déplace la lumière ?",
+      "options": [
+        "En zigzag",
+        "En ligne droite",
+        "En faisant des ronds",
+        "Elle ne bouge pas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La lumière voyage plus vite que le son.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Pourquoi voit-on l'éclair avant d'entendre le tonnerre ?",
+      "options": [
+        "Parce que l'éclair est plus joli",
+        "Parce que la lumière est plus rapide que le son",
+        "Parce que le tonnerre est timide",
+        "C'est un hasard"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Une {{1}} (endroit sombre) se forme quand un objet arrête la lumière.",
+      "reponsesAttendues": [
+        "ombre"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un miroir renvoie la lumière (réflexion).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces couleurs se trouve dans l'arc-en-ciel ?",
+      "options": [
+        "Le noir",
+        "Le gris",
+        "Le violet",
+        "Le marron"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La science aide à répondre aux questions sur la nature.",
+      "reponse": true
+    }
+  ]
+}

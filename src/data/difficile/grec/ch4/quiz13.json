@@ -1,0 +1,90 @@
+{
+  "id": "quiz13",
+  "titre": "Botan. et Zoologie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est considéré comme le 'père de la botanique' ?",
+      "options": [
+        "Théophraste",
+        "Aristote",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Aristote a écrit une monumentale 'Histoire des animaux', classant plus de 500 espèces.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'ouvrage de Théophraste intitulé 'Recherches sur les {{1}}' est le premier grand traité de botanique.",
+      "reponsesAttendues": ["plantes"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment Aristote classait-il les animaux ?",
+      "options": [
+        "Selon leurs caractéristiques biologiques (sanguins/non-sanguins)",
+        "Par ordre alphabétique",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les Grecs utilisaient les plantes principalement pour la médecine et la pharmacie.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Le traité 'Sur les odeurs' de Théophraste traite de :",
+      "options": [
+        "La parfumerie et les plantes aromatiques",
+        "La cuisine",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Dioscoride est l'auteur du célèbre 'De Materia Medica' au {{1}} siècle après J.-C.",
+      "reponsesAttendues": ["premier", "Ier"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Aristote pensait que les anguilles naissaient de la boue (génération spontanée).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "L'approche de Théophraste était basée sur :",
+      "options": [
+        "L'observation directe et la classification systématique",
+        "Les légendes",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les bases de la biologie et de la botanique modernes ont été jetées à cette époque.",
+      "reponse": true
+    }
+  ]
+}

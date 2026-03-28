@@ -1,0 +1,90 @@
+{
+  "id": "quiz16",
+  "titre": "Routes / Transports",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la 'reine des routes' romaines ?",
+      "options": [
+        "La Via Appia",
+        "La Via Flaminia",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les routes romaines étaient construites en ligne droite autant que possible.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les bornes indiquant la distance en milles s'appellent des bornes {{1}}.",
+      "reponsesAttendues": ["milliaires"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'Mutatio' ?",
+      "options": [
+        "Un relais pour changer les chevaux",
+        "Une monnaie",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le transport maritime était beaucoup plus rapide et moins cher que le transport terrestre.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "La 'Mansio' était :",
+      "options": [
+        "Une auberge pour passer la nuit",
+        "Une voiture à chevaux",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le service de poste impérial s'appelait le {{1}}.",
+      "reponsesAttendues": ["Cursus publicus"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Toutes les routes menaient à Rome (et partaient du Milliaire d'Or).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Le 'Carpentum' était :",
+      "options": [
+        "Un lourd chariot à deux roues pour les femmes de haut rang",
+        "Un bateau",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'Empire était relié par un réseau de plus de 80 000 km de routes pavées.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz1",
+  "titre": "L'Alphabet Italien",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Combien de lettres contient l'alphabet italien de base ?",
+      "options": [
+        "21",
+        "26",
+        "24",
+        "20"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les lettres J, K, W, X et Y ne font pas partie de l'alphabet italien traditionnel.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La lettre 'H' est toujours {{1}} en italien.",
+      "reponsesAttendues": [
+        "muette"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment se prononce le 'C' devant un 'i' ou un 'e' (ex: Ciao) ?",
+      "options": [
+        "Comme un 'K'",
+        "Comme un 'CH' (tch)",
+        "Comme un 'S'",
+        "Comme un 'G'"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le 'G' devant 'i' ou 'e' se prononce 'DJ' (ex: Gelato).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se prononce 'CH' en italien (ex: Chiesa) ?",
+      "options": [
+        "Comme un 'CH' français",
+        "Comme un 'K'",
+        "Comme un 'S'",
+        "C'est muet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le son 'GN' (ex: Gnocchi) se prononce comme le '{{1}}' français.",
+      "reponsesAttendues": [
+        "gn"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Toutes les lettres se prononcent en italien en général.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que font les doubles consonnes (ex: Pizza) ?",
+      "options": [
+        "Rien du tout",
+        "On insiste sur la consonne (allongement)",
+        "Elles ne se prononcent pas",
+        "Elles changent le son de la voyelle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'accent tonique tombe souvent sur l'avant-dernière syllabe.",
+      "reponse": true
+    }
+  ]
+}

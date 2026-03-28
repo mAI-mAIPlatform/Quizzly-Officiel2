@@ -1,0 +1,94 @@
+{
+  "id": "quiz30",
+  "titre": "Grand Quiz de Révision : Chapitre 2 Italien",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Ils dorment beaucoup'.",
+      "options": [
+        "Dormono molto",
+        "Dormite molto",
+        "Dormiamo molto",
+        "Dorme molto"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Il mio cane' signifie mon chien.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Hier se dit '{{1}}' (ieri).",
+      "reponsesAttendues": [
+        "ieri"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment se dit 'seize' ?",
+      "options": [
+        "sedici",
+        "quindici",
+        "diciassette",
+        "dodici"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Le mani' est le pluriel de 'la mano'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'Fa caldo' ?",
+      "options": [
+        "Il fait chaud",
+        "Il fait froid",
+        "Il pleut",
+        "Il neige"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Sa maison se dit 'la {{1}} casa' (sua).",
+      "reponsesAttendues": [
+        "sua"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Lavoro in ufficio' signifie 'Je travaille au bureau'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Traduisez : 'La robe est bleue'.",
+      "options": [
+        "Il vestito è blu",
+        "La vestito è blu",
+        "Il vestito sono blu",
+        "Il vestito è rosso"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Félicitations ! Tu as complété le chapitre 2 d'italien !",
+      "reponse": true
+    }
+  ]
+}

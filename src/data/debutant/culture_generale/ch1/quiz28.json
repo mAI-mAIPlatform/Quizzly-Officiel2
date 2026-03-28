@@ -1,0 +1,94 @@
+{
+  "id": "quiz28",
+  "titre": "Écologie et Recyclage",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la règle des 3R pour protéger la planète ?",
+      "options": [
+        "Rouler, Rire, Rêver",
+        "Réduire, Réutiliser, Recycler",
+        "Ramasser, Ranger, Réparer",
+        "Rien, Repos, Regard"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le verre se recycle à l'infini.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": " Jeter des déchets dans la nature s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "pollution"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle poubelle utilise-t-on généralement pour le papier et le carton ?",
+      "options": [
+        "La verte",
+        "La bleue (ou jaune selon les villes)",
+        "La grise",
+        "Le compost"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'énergie solaire vient de la force du vent.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le réchauffement global de la planète ?",
+      "options": [
+        "L'effet de serre",
+        "L'effet de neige",
+        "Le changement climatique",
+        "Les deux premiers sont liés"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Planter des {{1}} aide à lutter contre la pollution car ils rejettent de l'oxygène.",
+      "reponsesAttendues": [
+        "arbres"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les piles ne doivent pas être jetées à la poubelle ordinaire.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces actions est écologique ?",
+      "options": [
+        "Laisser les lumières allumées",
+        "Prendre des bains tous les jours",
+        "Éteindre l'eau pendant qu'on se brosse les dents",
+        "Utiliser beaucoup de sacs en plastique"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Chacun peut faire un petit geste pour la planète.",
+      "reponse": true
+    }
+  ]
+}

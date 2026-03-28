@@ -1,0 +1,90 @@
+{
+  "id": "quiz28",
+  "titre": "Système Numéral",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment écrit-on 'un' en grec ?",
+      "options": [
+        "Heis, mia, hen",
+        "Duō",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les quatre premiers nombres cardinaux se déclinent.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le nombre 'quatre' se dit '{{1}}' en attique.",
+      "reponsesAttendues": ["tettares"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un nombre 'ordinal' ?",
+      "options": [
+        "Un nombre indiquant le rang (ex: premier, deuxième)",
+        "Un grand nombre",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Prōtos' signifie 'premier'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Le chiffre 'cent' se dit :",
+      "options": [
+        "Hékaton",
+        "Khilioi",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le système de numération grec utilise les lettres de l'{{1}} avec un accent (signe numérique).",
+      "reponsesAttendues": ["alphabet"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les Grecs utilisaient aussi un système acrophonique (similaire aux chiffres romains).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'muria' ?",
+      "options": [
+        "Dix mille (une myriade)",
+        "Un million",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Maîtriser les nombres est essentiel pour comprendre les dates et les mesures antiques.",
+      "reponse": true
+    }
+  ]
+}

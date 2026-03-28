@@ -1,0 +1,90 @@
+{
+  "id": "quiz12",
+  "titre": "Design Systems : Logique et État",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un Design System en développement frontend ?",
+      "options": [
+        "Un ensemble de dessins",
+        "Un ensemble de standards, de composants et de directives réutilisables pour assurer la cohérence visuelle et technique",
+        "Un framework CSS",
+        "Une librairie d'icônes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un bon Design System sépare la couche de style de la couche de logique métier.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les valeurs de base (couleurs, espacements, polices) d'un Design System s'appellent des Design {{1}}.",
+      "reponsesAttendues": ["Tokens", "Jetons"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser des Design Tokens (variables) plutôt que des valeurs brutes ?",
+      "options": [
+        "Pour coder plus vite",
+        "Pour faciliter le passage au mode sombre (theming) et la maintenance",
+        "Pour réduire la taille du fichier",
+        "C'est une mode"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'Atomic Design divise les composants en : Atomes, Molécules, Organismes, Templates et Pages.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un composant 'pur' ?",
+      "options": [
+        "Un composant sans CSS",
+        "Un composant qui rend la même UI pour les mêmes 'props' sans effets de bord",
+        "Un composant en JS pur",
+        "Un fichier vide"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La {{1}} de composants consiste à assembler des petits composants pour en former de plus complexes.",
+      "reponsesAttendues": ["composition"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un bouton dans un design system ne devrait pas gérer ses propres appels réseau (API).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel favorise l'accessibilité ?",
+      "options": [
+        "Des couleurs vives",
+        "Le respect des ratios de contraste et l'utilisation d'attributs ARIA",
+        "Moins de contrastes",
+        "Pas d'images"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Un Design System réussi est une 'Source de Vérité' unique pour les designers et les développeurs.",
+      "reponse": true
+    }
+  ]
+}

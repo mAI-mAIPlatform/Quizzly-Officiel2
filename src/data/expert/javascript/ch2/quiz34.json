@@ -1,0 +1,94 @@
+{
+  "id": "quiz34",
+  "titre": "JS Expert : Promise.any et Promise.race",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quand `Promise.race([p1, p2])` se termine-t-il ?",
+      "options": [
+        "Dès que la première promesse se termine (succès ou échec)",
+        "Dès que la première promesse réussit",
+        "Quand toutes sont terminées",
+        "Jamais"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "`Promise.any` attend le premier succès (fulfillment).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Si toutes les promesses passées à `Promise.any` échouent, il renvoie une erreur de type `{{1}}`.",
+      "reponsesAttendues": [
+        "AggregateError"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quoi sert principalement `Promise.race` ?",
+      "options": [
+        "À implémenter un timeout sur une tâche asynchrone",
+        "À additionner des résultats",
+        "À trier des tableaux",
+        "À sécuriser une boucle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "`Promise.any` ignore les rejets tant qu'il reste des promesses en attente.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel a été introduit le plus récemment dans le langage ?",
+      "options": [
+        "Promise.any",
+        "Promise.all",
+        "Promise.race",
+        "Promise.resolve"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Dans un `AggregateError`, on accède au tableau des erreurs via la propriété `.{{1}}`.",
+      "reponsesAttendues": [
+        "errors"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Si on passe un itérable vide à `Promise.any`, il échoue immédiatement.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que renvoie `Promise.race([])` (itérable vide) ?",
+      "options": [
+        "Une promesse qui reste en attente indéfiniment",
+        "Une promesse résolue immédiatement",
+        "Une erreur",
+        "Undefined"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "`Promise.any` est idéal pour récupérer une donnée disponible sur plusieurs serveurs miroirs (le premier qui répond gagne).",
+      "reponse": true
+    }
+  ]
+}

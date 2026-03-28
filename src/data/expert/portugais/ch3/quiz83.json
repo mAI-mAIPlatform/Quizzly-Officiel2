@@ -1,0 +1,96 @@
+{
+  "id": "quiz83",
+  "titre": "Portugais Expert : Les Guerres Coloniales (Guerra do Ultramar)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "En quelle année ont débuté les premières révoltes en Angola (marquant le début de la guerre coloniale) ?",
+      "options": [
+        "1961",
+        "1950",
+        "1974",
+        "1945"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Portugal refusait catégoriquement la décolonisation, contrairement à la France ou au Royaume-Uni.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les trois principaux fronts étaient l'Angola, le Mozambique et la `{{1}}` (Guinée-Bissau).",
+      "reponsesAttendues": [
+        "Guinee-Bissau",
+        "Guine"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment s'appelait le principal mouvement de libération en Guinée-Bissau et au Cap-Vert, mené par Amílcar Cabral ?",
+      "options": [
+        "PAIGC",
+        "MPLA",
+        "FRELIMO",
+        "FNLA"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La guerre coloniale a duré environ 13 ans.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel était l'impact de ces guerres sur le budget de l'État portugais dans les années 70 ?",
+      "options": [
+        "Près de 40% des dépenses publiques",
+        "Moins de 5%",
+        "Elles étaient rentables grâce au pétrole",
+        "Aucun impact notable"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les soldats portugais appelant à la fin de la guerre ont formé le `{{1}}` (MFA - Mouvement des Forces Armées), à l'origine de la révolution.",
+      "reponsesAttendues": [
+        "MFA",
+        "Movimento das Forcas Armadas"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le régime de Salazar présentait les colonies comme des 'provinces d'outre-mer'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle enclave portugaise en Inde a été envahie par l'armée indienne en 1961 ?",
+      "options": [
+        "Goa (Daman et Diu)",
+        "Macao",
+        "Timor",
+        "Malacca"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le mécontentement des jeunes officiers face aux impasses militaires fut le déclencheur de la chute du régime.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz32",
+  "titre": "HTML Expert : SVG (Scalable Vector Graphics)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la différence fondamentale entre SVG et Canvas ?",
+      "options": [
+        "SVG est vectoriel et basé sur le DOM, Canvas est raster (pixels) et impératif",
+        "SVG est plus rapide pour les jeux vidéo",
+        "Canvas supporte mieux le texte",
+        "SVG n'est pas supporté par les navigateurs modernes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les éléments SVG peuvent être stylisés avec du CSS.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'élément permettant de définir des formes complexes à l'aide de coordonnées (attribut d) est `<{{1}}>`.",
+      "reponsesAttendues": [
+        "path"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel attribut définit la couleur de bordure d'un élément SVG ?",
+      "options": [
+        "stroke",
+        "border",
+        "outline",
+        "color"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le SVG est intrinsèquement plus accessible car ses éléments font partie de l'arbre du DOM.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi sert la balise <defs> ?",
+      "options": [
+        "À définir des ressources réutilisables (gradients, masques) sans les afficher immédiatement",
+        "À définir le titre du SVG",
+        "À supprimer des éléments",
+        "À charger des polices"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut définissant la zone visible du SVG quel que soit sa taille réelle est `{{1}}`.",
+      "reponsesAttendues": [
+        "viewBox"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un SVG peut contenir du JavaScript interne via une balise <script>.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle balise permet de grouper plusieurs éléments pour leur appliquer une transformation commune ?",
+      "options": [
+        "<g>",
+        "<group>",
+        "<div overlay>",
+        "<layer>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les filtres (Gaussian Blur, etc.) ne sont pas supportés en SVG natif.",
+        "reponse": false
+    }
+  ]
+}

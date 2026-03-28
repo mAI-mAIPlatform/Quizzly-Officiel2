@@ -1,0 +1,90 @@
+{
+  "id": "quiz27",
+  "titre": "Observers : Resize & Mutation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que surveille ResizeObserver ?",
+      "options": [
+        "La taille de l'écran (window)",
+        "Les changements de dimensions de la boîte de contenu (content-box) d'un élément spécifique",
+        "Le redimensionnement des images",
+        "Le réseau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "ResizeObserver remplace l'événement 'resize' de window pour une granularité par élément.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour surveiller les changements dans la structure du DOM, on utilise {{1}}.",
+      "reponsesAttendues": ["MutationObserver"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que peut détecter MutationObserver ?",
+      "options": [
+        "Ajout/suppression d'enfants",
+        "Changement d'attributs",
+        "Modifications du texte",
+        "Toutes les réponses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "MutationObserver est asynchrone (ses callbacks sont des microtâches).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser ResizeObserver plutôt que MediaQuery en JS ?",
+      "options": [
+        "Pour adapter un composant à la taille de son conteneur (Container Queries)",
+        "C'est plus rapide",
+        "Ça marche sans CSS",
+        "Pour le SEO"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'option {{1}}: true dans MutationObserver permet de surveiller toute la descendance d'un nœud.",
+      "reponsesAttendues": ["subtree"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut observer les changements de style CSS faits via JS avec MutationObserver.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment récupérer les mutations qui n'ont pas encore été traitées par le callback ?",
+      "options": [
+        "observer.takeRecords()",
+        "observer.getHistory()",
+        "observer.flush()",
+        "C'est impossible"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les observers améliorent la performance en évitant le 'polling' (vérification régulière).",
+      "reponse": true
+    }
+  ]
+}

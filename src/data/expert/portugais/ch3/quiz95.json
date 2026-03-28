@@ -1,0 +1,94 @@
+{
+  "id": "quiz95",
+  "titre": "Português Especialista : Cultura e Música Lusófona",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qual estilo musical português foi classificado pela UNESCO como Património Cultural Imaterial ?",
+      "options": [
+        "Fado",
+        "Cante Alentejano",
+        "Samba",
+        "Bossa Nova"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Amália Rodrigues é considerada a 'Rainha do Fado'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "A `{{1}}` (Bossa Nova) é um estilo de música popular brasileira que surgiu no final dos anos 50, com expoentes como João Gilberto e Tom Jobim.",
+      "reponsesAttendues": [
+        "Bossa Nova"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quem é a famosa cantora de Cabo Verde conhecida como a 'Diva dos Pés Descalços' ?",
+      "options": [
+        "Cesária Évora",
+        "Mayra Andrade",
+        "Sara Tavares",
+        "Lura"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "O Carnaval do Rio de Janeiro é o maior espetáculo de rua do mundo.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qual instrumento é essencial para o acompanhamento do Fado de Lisboa ?",
+      "options": [
+        "Guitarra Portuguesa",
+        "Cavaquinho",
+        "Berimbau",
+        "Acordeão"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "A `{{1}}` (Morna) é o estilo musical nacional de Cabo Verde, caracterizado por letras sentimentais e melancólicas.",
+      "reponsesAttendues": [
+        "Morna"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Mariza é uma das fadistas contemporâneas mais reconhecidas internacionalmente.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Com que ritmo brasileiro se associa o músico e antigo ministro Gilberto Gil ?",
+      "options": [
+        "Tropicália",
+        "Maracatu",
+        "Axé",
+        "Sertanejo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "O Kuduro é um estilo de dança e música electrónica originário da Guiné-Bissau.",
+      "reponse": false
+    }
+  ]
+}

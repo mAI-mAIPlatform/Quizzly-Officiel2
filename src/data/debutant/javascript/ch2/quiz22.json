@@ -1,0 +1,94 @@
+{
+  "id": "quiz22",
+  "titre": "Les Tableaux : Introduction",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel symbole entoure un tableau en JavaScript ?",
+      "options": [
+        "[ ] (crochets)",
+        "{ } (accolades)",
+        "( ) (parenthèses)",
+        "< > (chevrons)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un tableau peut contenir des types de données différents (nombres, textes...).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le premier élément d'un tableau se trouve à l'index {{1}}.",
+      "reponsesAttendues": [
+        "0"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle propriété donne le nombre d'éléments dans un tableau ?",
+      "options": [
+        "length",
+        "size",
+        "count",
+        "elements"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut modifier un élément du tableau en utilisant son index (ex: t[0] = 5;).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on un tableau ?",
+      "options": [
+        "Un Array",
+        "Un Object",
+        "Une String",
+        "Un Number"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Un tableau est en fait un type spécial d'{{1}}.",
+      "reponsesAttendues": [
+        "objet"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "typeof [1, 2, 3] renvoie 'array'.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que renvoie typeof [1, 2, 3] ?",
+      "options": [
+        "'object'",
+        "'array'",
+        "'list'",
+        "'number'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les tableaux sont essentiels pour gérer des listes de données.",
+      "reponse": true
+    }
+  ]
+}

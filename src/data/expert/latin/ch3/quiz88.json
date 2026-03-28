@@ -1,0 +1,94 @@
+{
+  "id": "quiz88",
+  "titre": "Latin Expert : Pline l'Ancien et l'Histoire Naturelle",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'encyclopédie monumentale écrite par Pline l'Ancien ?",
+      "options": [
+        "Histoire Naturelle (Naturalis Historia)",
+        "Histoire de Rome",
+        "De Natura Rerum",
+        "Géographie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Histoire Naturelle visait à rassembler tout le savoir humain de son époque.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pline l'Ancien est mort lors de l'éruption du `{{1}}` (Vesuve) en 79 ap. J.-C.",
+      "reponsesAttendues": [
+        "Vesuve"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Combien de livres composent l''Histoire Naturelle' ?",
+      "options": [
+        "37",
+        "10",
+        "100",
+        "12"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Pline le Jeune, célèbre pour ses lettres, était le neveu et fils adoptif de Pline l'Ancien.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel de ces domaines n'est PAS traité par Pline l'Ancien ?",
+      "options": [
+        "L'informatique quantique",
+        "L'astronomie",
+        "La botanique",
+        "La métallurgie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pline rapporte de nombreuses légendes sur les animaux, comme le `{{1}}` (basilic) ou la licorne.",
+      "reponsesAttendues": [
+        "basilic"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Pline l'Ancien passait ses nuits à lire et à prendre des notes.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Par quoi Pline commence-t-il son encyclopédie ?",
+      "options": [
+        "La cosmologie (le monde, les astres)",
+        "L'être humain uniquement",
+        "Les remèdes médicaux",
+        "Les peintres célèbres"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'Histoire Naturelle est l'une des sources les plus importantes sur l'art antique.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "quiz21",
+  "titre": "Histoire : La Renaissance",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quel pays est née la Renaissance ?",
+      "options": [
+        "Italie",
+        "France",
+        "Espagne",
+        "Allemagne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Renaissance marque la redécouverte de la culture de l'Antiquité.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'inventeur de l'imprimerie vers 1450 est {{1}} (Gutenberg).",
+      "reponsesAttendues": [
+        "Gutenberg"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel roi français est associé à la Renaissance et au château de Chambord ?",
+      "options": [
+        "François Ier",
+        "Louis XIV",
+        "Henri IV",
+        "Charlemagne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Léonard de Vinci était à la fois peintre, inventeur et savant.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment s'appelle le mouvement intellectuel de la Renaissance ?",
+      "options": [
+        "L'humanisme",
+        "Les Lumières",
+        "Le réalisme",
+        "Le surréalisme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'astronome qui a affirmé que la Terre tournait autour du Soleil est {{1}} (Copernic / Galilée).",
+      "reponsesAttendues": [
+        "Copernic",
+        "Galilée"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La boussole et la poudre à canon se diffusent en Europe à cette époque.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquel de ces châteaux n'est pas un château de la Loire ?",
+      "options": [
+        "Versailles",
+        "Chenonceau",
+        "Chambord",
+        "Azay-le-Rideau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La Réforme protestante a eu lieu pendant la Renaissance.",
+      "reponse": true
+    }
+  ]
+}

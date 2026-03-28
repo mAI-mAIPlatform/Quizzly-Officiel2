@@ -1,0 +1,94 @@
+{
+  "id": "quiz20",
+  "titre": "Synthèse Vie (1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "De quoi une plante verte a-t-elle absolument besoin ?",
+      "options": [
+        "De viande",
+        "De lumière, d'eau et de sels minéraux",
+        "D'un pull",
+        "De rien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le lapin est un herbivore (phytophage).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le début de croissance d'une graine est la {{1}}.",
+      "reponsesAttendues": [
+        "germination"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'animal qui pond des oeufs ?",
+      "options": [
+        "Omnivore",
+        "Ovipare",
+        "Vivipare",
+        "Carnivore"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une chaîne alimentaire commence par un animal carnivore.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui aide à la pollinisation des fleurs ?",
+      "options": [
+        "Les cailloux",
+        "Les abeilles et le vent",
+        "Les voitures",
+        "Rien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Un animal qui mange de tout est un {{1}}.",
+      "reponsesAttendues": [
+        "omnivore"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'oxygène est produit par les végétaux grâce à la lumière.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que font les oiseaux migrateurs en hiver ?",
+      "options": [
+        "Ils hibernent",
+        "Ils partent vers des pays chauds",
+        "Ils changent de fourrure",
+        "Ils meurent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Tu as bien appris les bases de la biologie !",
+      "reponse": true
+    }
+  ]
+}

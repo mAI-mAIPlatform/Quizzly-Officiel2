@@ -1,0 +1,90 @@
+{
+  "id": "quiz5",
+  "titre": "L'Empire du Brésil",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a officiellement découvert le Brésil en 1500 ?",
+      "options": [
+        "Pedro Álvares Cabral",
+        "Vasco da Gama",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Au début, le Brésil n'était exploité que pour le bois rouge appelé 'Pau-Brasil'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'indépendance du Brésil fut proclamée en 1822 par Dom {{1}} (le cri d'Ipiranga).",
+      "reponsesAttendues": ["Pedro I"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle fut la principale culture d'exportation au XVIIIe siècle avant l'or ?",
+      "options": [
+        "Sucre (Cana-de-açúcar)",
+        "Café",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Brésil est resté une monarchie indépendante sous la dynastie de Bragance après 1822.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle ville fut la première capitale du Brésil ?",
+      "options": [
+        "Salvador da Bahia",
+        "Rio de Janeiro",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'esclavage ne fut aboli au Brésil qu'en 1888 par la {{1}} (Lei Áurea).",
+      "reponsesAttendues": ["Loi d'Or", "Lei Áurea"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Brésil est le seul pays d'Amérique latine dont la langue officielle est le portugais.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Pourquoi la famille royale portugaise s'est-elle installée au Brésil en 1808 ?",
+      "options": [
+        "Pour fuir les invasions napoléoniennes",
+        "Pour les vacances",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Brésil a proclamé la république en 1889.",
+      "reponse": true
+    }
+  ]
+}

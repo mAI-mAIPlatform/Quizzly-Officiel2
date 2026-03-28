@@ -1,0 +1,90 @@
+{
+  "id": "quiz3",
+  "titre": "Dynastie d'Avis",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle bataille décisive de 1385 a assuré l'indépendance du Portugal face à la Castille ?",
+      "options": [
+        "Bataille d'Aljubarrota",
+        "Bataille de Toro",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le maître de l'Ordre d'Avis devint le roi Dom João Ier.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le stratège militaire de génie lors d'Aljubarrota était Nuno Álvares {{1}}.",
+      "reponsesAttendues": ["Pereira"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel monastère monumental fut construit pour célébrer la victoire d'Aljubarrota ?",
+      "options": [
+        "Mosteiro da Batalha",
+        "Mosteiro de Alcobaça",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La dynastie d'Avis marque le début de l'implication de la bourgeoisie dans les affaires du royaume.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui fut la reine consort de Dom João Ier, scellant l'alliance avec l'Angleterre ?",
+      "options": [
+        "Philippa de Lancastre",
+        "Inês de Castro",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le traité de {{1}} (1386) établit l'alliance perpétuelle entre le Portugal et l'Angleterre.",
+      "reponsesAttendues": ["Windsor"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La 'Brites de Almeida' est la figure légendaire de la boulangère d'Aljubarrota ayant tué des Castillans.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on les enfants de Dom João Ier et Philippa de Lancastre ?",
+      "options": [
+        "A Ínclita Geração (L'Illustre Génération)",
+        "Os Lusíadas",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La dynastie d'Avis a régné jusqu'en 1580.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "quiz107",
+  "titre": "Python Expert : FastAPI et Pydantic",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "FastAPI repose sur quelle bibliothèque pour la validation de données et la sérialisation ?",
+      "options": [
+        "Pydantic",
+        "Marshmallow",
+        "Django Forms",
+        "SQLAlchemy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "FastAPI génère automatiquement une documentation interactive (Swagger UI) basée sur les types Python.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "FastAPI utilise le serveur `{{1}}` (uvicorn / hypercorn) pour exécuter ses applications de manière asynchrone.",
+      "reponsesAttendues": [
+        "uvicorn",
+        "hypercorn"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment FastAPI gère-t-il les dépendances réutilisables (comme l'authentification ou la connexion DB) ?",
+      "options": [
+        "Grâce au système de 'Dependency Injection' (Depends)",
+        "Via des variables globales",
+        "En utilisant l'héritage uniquement",
+        "Ce n'est pas possible"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Pydantic s'assure que les types des attributs d'une classe correspondent aux valeurs passées, sinon il lève une erreur de validation.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel standard est utilisé par FastAPI pour définir la structure des API et l'échange de données ?",
+      "options": [
+        "OpenAPI (anciennement Swagger)",
+        "XML-RPC",
+        "SOAP",
+        "GraphQL"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le mot-clé `{{1}}` (async) devant une fonction de route indique à FastAPI que la fonction peut être exécutée de manière non-bloquante.",
+      "reponsesAttendues": [
+        "async"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "FastAPI est plus lent que Flask en raison de l'overhead de validation Pydantic.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle classe Pydantic permet de définir des modèles de données avec validation ?",
+      "options": [
+        "BaseModel",
+        "DataClass",
+        "ModelContainer",
+        "Schema"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "FastAPI supporte nativement les Websockets.",
+      "reponse": true
+    }
+  ]
+}

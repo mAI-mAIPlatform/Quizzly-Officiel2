@@ -1,0 +1,94 @@
+{
+  "id": "quiz45",
+  "titre": "Português Expert : Verbos de Mudança",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qual o uso mais comum de 'Ficar' como mudança ?",
+      "options": [
+        "Mudança de estado emocional ou físico (ex: Ficar triste, ficar doente)",
+        "Mudança de profissão fixa",
+        "Mudança de nacionalidade",
+        "Mudança de lugar apenas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Tornar-se' indica uma mudança gradual ou deliberada (ex: Tornou-se médico).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O verbo `{{1}}` (virar) é muito usado no Brasil para mudanças repentinas (ex: Virar bicho).",
+      "reponsesAttendues": [
+        "virar"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quando se usa 'Passar a' ?",
+      "options": [
+        "Para indicar o início de um novo hábito ou estado (ex: Ele passou a estudar mais)",
+        "Para dar um objeto",
+        "Para morrer",
+        "Para andar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Chegar a ser' indica o ponto culminante de um processo.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Traduza 'Il est devenu rouge' :",
+      "options": [
+        "Ficou vermelho",
+        "Tornou-se vermelho",
+        "Virou vermelho",
+        "Passou vermelho"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "A locução `{{1}}` (meter-se a) indica quando alguém finge ser o que não é.",
+      "reponsesAttendues": [
+        "meter-se a"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Fazer-se' indica uma mudança voluntária (ex: Fez-se de surdo).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qual verbo indica uma transformação total ?",
+      "options": [
+        "Transformar-se em",
+        "Continuar",
+        "Manter-se",
+        "Parar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "A escolha do verbo de mudança depende da velocidade e do tipo de transformação.",
+      "reponse": true
+    }
+  ]
+}

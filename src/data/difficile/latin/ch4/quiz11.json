@@ -1,0 +1,90 @@
+{
+  "id": "quiz11",
+  "titre": "Éducation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel était le premier degré d'enseignement à Rome ?",
+      "options": [
+        "L'école du Ludi Magister (apprentissage de la lecture et écriture)",
+        "L'université",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Grammaticus enseignait la littérature (surtout la poésie) aux adolescents.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le professeur de rhétorique s'appelait le {{1}}.",
+      "reponsesAttendues": ["Rhétor"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Sur quoi les élèves écrivaient-ils en classe ?",
+      "options": [
+        "Des tablettes de cire (Tabulae) avec un stylet",
+        "Du papier moderne",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les châtiments corporels étaient courants dans les écoles romaines.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle langue était la 'seconde langue' indispensable des élites ?",
+      "options": [
+        "Le Grec",
+        "Le Gaulois",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'esclave qui accompagnait l'enfant à l'école est le {{1}}.",
+      "reponsesAttendues": ["Pédagogue"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les filles recevaient généralement la même éducation supérieure que les garçons.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Le 'Calculus' était :",
+      "options": [
+        "Un petit caillou servant à compter",
+        "Un examen",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'éducation romaine était centrée sur la parole et la morale.",
+      "reponse": true
+    }
+  ]
+}

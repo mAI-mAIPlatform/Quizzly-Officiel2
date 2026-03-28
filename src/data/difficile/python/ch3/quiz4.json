@@ -1,0 +1,90 @@
+{
+  "id": "quiz4",
+  "titre": "POO : Héritage Multiple & MRO",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Python autorise-t-il l'héritage multiple (une classe avec plusieurs mères) ?",
+      "options": [
+        "Non",
+        "Oui, class C(A, B):",
+        "Seulement pour les interfaces",
+        "Seulement via des décorateurs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Si deux classes parentes ont une méthode du même nom, Python utilise un ordre précis pour choisir laquelle appeler.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'acronyme pour l'ordre de résolution des méthodes est {{1}}.",
+      "reponsesAttendues": ["MRO"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment visualiser le MRO d'une classe C ?",
+      "options": [
+        "C.__mro__",
+        "C.path()",
+        "dir(C)",
+        "super(C)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'héritage en diamant est un problème classique résolu par l'algorithme C3 Linearization en Python.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi sert un Mixin ?",
+      "options": [
+        "À mélanger du texte",
+        "À fournir des fonctionnalités spécifiques à plusieurs classes sans être une classe parente 'principale'",
+        "À trier les objets",
+        "À rien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La fonction super() suit l'ordre défini par le {{1}}.",
+      "reponsesAttendues": ["MRO"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'héritage multiple est souvent critiqué pour sa complexité et doit être utilisé avec parcimonie.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si Python ne peut pas créer un MRO cohérent ?",
+      "options": [
+        "Il choisit au hasard",
+        "Il lève une TypeError (Cannot create a consistent method resolution order)",
+        "Il ignore une des classes",
+        "Le script s'arrête sans erreur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le MRO de Python 3 est 'Profondeur d'abord, puis de Gauche à Droite'.",
+      "reponse": true
+    }
+  ]
+}

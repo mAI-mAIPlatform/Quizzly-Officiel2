@@ -1,0 +1,90 @@
+{
+  "id": "quiz17",
+  "titre": "Template et Slots",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert la balise <template> ?",
+      "options": [
+        "À stocker du HTML qui ne sera pas rendu avant d'être cloné en JS",
+        "À créer un design CSS",
+        "À importer des polices",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le contenu d'un <template> est visible par défaut sur la page.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise {{1}} est utilisée au sein des Web Components pour l'insertion de contenu dynamique.",
+      "reponsesAttendues": ["slot"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment activer le contenu d'un template en JavaScript ?",
+      "options": [
+        "document.importNode(template.content, true)",
+        "template.show()",
+        "template.render()",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les scripts à l'intérieur d'un <template> sont exécutés dès le chargement de la page.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi sert l'attribut 'name' sur un <slot> ?",
+      "options": [
+        "À créer un emplacement nommé pour un contenu spécifique",
+        "À nommer la page",
+        "À rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La balise <template> est fondamentale pour la création de {{1}} Components natifs.",
+      "reponsesAttendues": ["Web"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un template peut contenir des styles CSS spécifiques.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Où se place généralement la balise <template> ?",
+      "options": [
+        "N'importe où dans le document (souvent avant le script)",
+        "Uniquement dans le head",
+        "Uniquement à la fin du body",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation de templates améliore les performances pour les listes d'éléments répétitifs.",
+      "reponse": true
+    }
+  ]
+}

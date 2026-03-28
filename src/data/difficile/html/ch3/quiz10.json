@@ -1,0 +1,90 @@
+{
+  "id": "quiz10",
+  "titre": "JSON-LD et Schema.org",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que veut dire JSON-LD ?",
+      "options": [
+        "JSON for Linked Data",
+        "JSON Logic Definition",
+        "JS Object Node",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le JSON-LD est la méthode recommandée par Google pour implémenter des données structurées.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise script doit avoir le type application/{{1}} pour être valide.",
+      "reponsesAttendues": ["ld+json"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle propriété définit le type d'objet (ex: Person, Article, Event) ?",
+      "options": [
+        "@type",
+        "@context",
+        "name",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le JSON-LD n'interfère pas avec le rendu visuel de la page.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Où placer préférentiellement le JSON-LD ?",
+      "options": [
+        "Dans le <head> ou à la fin du <body>",
+        "Avant <html>",
+        "Dans le CSS",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La propriété {{1}} pointe presque toujours vers https://schema.org.",
+      "reponsesAttendues": ["@context"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "schema.org est un projet collaboratif entre Google, Microsoft, Yahoo et Yandex.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Avantage d'utiliser JSON-LD ?",
+      "options": [
+        "Facile à générer, à lire et à maintenir sans toucher au marquage HTML visuel",
+        "Accélère le JS",
+        "Plus sécurisé",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le 'Rich Results Test' de Google permet de valider son JSON-LD.",
+      "reponse": true
+    }
+  ]
+}

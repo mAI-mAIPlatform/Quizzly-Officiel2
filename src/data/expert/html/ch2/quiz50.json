@@ -1,0 +1,94 @@
+{
+  "id": "quiz50",
+  "titre": "Revisione Finale : API Web Avanzate (Capitolo 2)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Thread séparé du thread UI ?",
+      "options": [
+        "Web Worker",
+        "DOM element",
+        "CSS rule",
+        "Local variable"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Fetch() utilise les Streams.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "API Proxy réseau : `{{1}} Worker`.",
+      "reponsesAttendues": [
+        "Service"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Méthode pour hacher une donnée ?",
+      "options": [
+        "digest",
+        "encrypt",
+        "sign",
+        "derive"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Permission nécessaire pour Geolocation.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Attribut pour glisser-déposer ?",
+      "options": [
+        "draggable",
+        "movable",
+        "droppable",
+        "selectable"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Interface crypto asynchrone : `crypto.{{1}}`.",
+      "reponsesAttendues": [
+        "subtle"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Web Bluetooth nécessite HTTPS.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Événement accéléromètre ?",
+      "options": [
+        "devicemotion",
+        "deviceorientation",
+        "deviceshake",
+        "devicevibrate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Web Stockage (Local) est partagé entre origines.",
+        "reponse": false
+    }
+  ]
+}

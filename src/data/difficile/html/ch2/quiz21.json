@@ -1,0 +1,90 @@
+{
+  "id": "quiz21",
+  "titre": "Canvas : Transformations",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet de déplacer le point d'origine du Canvas ?",
+      "options": [
+        "translate(x, y)",
+        "move(x, y)",
+        "offset(x, y)",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La méthode scale(x, y) permet d'agrandir ou de rétrécir les dessins suivants.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La méthode {{1}}(angle) fait pivoter le système de coordonnées (angle en radians).",
+      "reponsesAttendues": ["rotate"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment remettre à zéro les transformations (identitée) ?",
+      "options": [
+        "setTransform(1, 0, 0, 1, 0, 0)",
+        "reset()",
+        "clearTransform()",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les transformations s'appliquent uniquement aux dessins effectués APRÈS l'appel de la méthode.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est l'effet de scale(-1, 1) ?",
+      "options": [
+        "Un effet miroir horizontal",
+        "Une rotation de 180°",
+        "La suppression du dessin",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La méthode {{1}}(a, b, c, d, e, f) permet d'appliquer une matrice de transformation personnalisée.",
+      "reponsesAttendues": ["transform"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il est recommandé de faire un rotate() puis un translate() pour tourner un objet sur lui-même au centre.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser les transformations ?",
+      "options": [
+        "Simplifier les calculs de coordonnées complexes (ex: rotation de personnages dans un jeu)",
+        "Pour le plaisir",
+        "C'est obligatoire",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les transformations sont cumulatives jusqu'à ce qu'elles soient réinitialisées.",
+      "reponse": true
+    }
+  ]
+}

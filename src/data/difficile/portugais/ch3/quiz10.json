@@ -1,0 +1,90 @@
+{
+  "id": "quiz10",
+  "titre": "Estado Novo",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a dirigé le régime autoritaire de l'Estado Novo pendant près de 40 ans ?",
+      "options": [
+        "António de Oliveira Salazar",
+        "Marcello Caetano",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La devise du régime était : 'Deus, Pátria e Família'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La police politique crainte du régime s'appelait la {{1}} (plus tard DGS).",
+      "reponsesAttendues": ["PIDE"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'idéologie prônée par Salazar ?",
+      "options": [
+        "Corporatisme",
+        "Libéralisme",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Salazar a maintenu le Portugal neutre pendant la Seconde Guerre mondiale.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Où se trouvait le principal camp de prisonniers politiques au Cap-Vert ?",
+      "options": [
+        "Tarrafal (Campo da Morte Lenta)",
+        "Praia",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le successeur de Salazar en 1968 fut Marcello {{1}}.",
+      "reponsesAttendues": ["Caetano"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La 'Guerra do Ultramar' (Guerre Coloniale) a été le facteur majeur de l'effondrement du régime.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel général surnommé 'O General sem Medo' fut l'opposant le plus sérieux à Salazar en 1958 ?",
+      "options": [
+        "Humberto Delgado",
+        "Otelo Saraiva de Carvalho",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'Estado Novo est l'une des dictatures les plus longues du XXe siècle en Europe.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz23",
+  "titre": "Template Literals et Tagged Templates",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel symbole délimite un Template Literal ?",
+      "options": [
+        "` (backtick)",
+        "' (simple quote)",
+        "\" (double quote)",
+        "# (hash)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les Template Literals permettent de créer des chaînes multi-lignes sans '\\n'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour insérer une variable 'x' dans une chaîne, on utilise la syntaxe {{1}}.",
+      "reponsesAttendues": [
+        "${x}"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Tagged Template' ?",
+      "options": [
+        "Une fonction appelée avec un template literal comme argument",
+        "Une chaîne avec des tags HTML",
+        "Une métadonnée sur une string",
+        "Un commentaire spécial"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La fonction de tag reçoit les parties textuelles sous forme de tableau.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle biliothèque célèbre utilise massivement les Tagged Templates ?",
+      "options": [
+        "styled-components",
+        "React core",
+        "jQuery",
+        "Lodash"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La propriété {{1}} sur le premier argument d'une fonction de tag donne accès aux versions brutes des chaînes.",
+      "reponsesAttendues": [
+        "raw"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "String.raw`Salut\\n` n'interprète pas le caractère d'échappement.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si une expression dans ${} lance une erreur ?",
+      "options": [
+        "Le template literal échoue et l'erreur remonte",
+        "La chaîne contient '[error]'",
+        "L'expression est ignorée",
+        "La variable vaut undefined"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les Template Literals sont convertis en chaînes de caractères classiques à l'exécution.",
+      "reponse": true
+    }
+  ]
+}

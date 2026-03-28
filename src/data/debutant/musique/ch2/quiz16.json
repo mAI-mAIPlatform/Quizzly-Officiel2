@@ -1,0 +1,94 @@
+{
+  "id": "quiz16",
+  "titre": "Les Instruments : L'Orgue",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment l'orgue produit-il son son ?",
+      "options": [
+        "L'air passe dans des tuyaux",
+        "Des marteaux frappent des cordes",
+        "L'électricité uniquement",
+        "Des anches vibrent seules"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'orgue est souvent surnommé 'le roi des instruments'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le clavier que l'orgue joue avec les pieds s'appelle le {{1}} (pédalier).",
+      "reponsesAttendues": [
+        "pédalier"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un jeu d'orgue ?",
+      "options": [
+        "Une série de tuyaux ayant le même timbre",
+        "Une règle du jeu musical",
+        "Un morceau rapide",
+        "Le meuble de l'orgue"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'orgue peut avoir plusieurs claviers à mains (manuels).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le meuble sculpté qui contient les tuyaux ?",
+      "options": [
+        "Le buffet",
+        "La console",
+        "La chambre",
+        "Le coffre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La personne qui aide l'organiste à changer les jeux est l'{{1}} (assistant).",
+      "reponsesAttendues": [
+        "assistant"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il existe de tout petits orgues appelés 'orgues positifs'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel compositeur est très célèbre pour ses oeuvres à l'orgue ?",
+      "options": [
+        "J.S. Bach",
+        "F. Chopin",
+        "C. Debussy",
+        "G. Bizet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'orgue à tuyaux est un instrument à vent.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz3",
+  "titre": "L'Empire Romain",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui fut le premier empereur officiel de Rome ?",
+      "options": [
+        "Auguste (Octave)",
+        "Jules César",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La 'Pax Romana' désigne une longue période de paix et de stabilité à l'intérieur de l'Empire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le {{1}} (Colisée) est le plus grand amphithéâtre jamais construit dans l'Empire romain.",
+      "reponsesAttendues": ["Colisée", "Colosseo"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "En quelle année l'Empire romain d'Occident est-il officiellement tombé ?",
+      "options": [
+        "476 après J.-C.",
+        "1453 après J.-C.",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le latin est la langue qui a donné naissance aux langues romanes comme l'italien.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel de ces empereurs est célèbre pour avoir adopté le christianisme ?",
+      "options": [
+        "Constantin Ier",
+        "Néron",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le {{1}} (Forum) romain était le centre de la vie politique, religieuse et commerciale.",
+      "reponsesAttendues": ["Forum"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'Empire romain a atteint son extension maximale sous l'empereur Trajan.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel peuple a mis fin à l'Empire d'Occident par la déposition de Romulus Augustule ?",
+      "options": [
+        "Les Hérules (Odoacre)",
+        "Les Égyptiens",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'héritage juridique romain (Droit Romain) influence encore le droit moderne italien.",
+      "reponse": true
+    }
+  ]
+}

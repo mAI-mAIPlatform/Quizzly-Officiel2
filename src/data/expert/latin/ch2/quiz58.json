@@ -1,0 +1,95 @@
+{
+  "id": "quiz58",
+  "titre": "Latin Expert : Institutions & Vie Politique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le parcours des magistratures à Rome ?",
+      "options": [
+        "Cursus Honorum",
+        "Via Appia",
+        "Pax Romana",
+        "Veni Vidi Vici"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Consul est le magistrat suprême, élu pour un an avec un collègue.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le magistrat chargé des finances est le `{{1}}`.",
+      "reponsesAttendues": [
+        "questeur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui sont les Préteurs ?",
+      "options": [
+        "Les magistrats chargés de la justice",
+        "Les chefs de l'armée uniquement",
+        "Les gardiens des temples",
+        "Les percepteurs d'impôts"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Sénat avait un pouvoir exécutif direct sous la République.",
+      "reponse : false (Il avait un rôle consultatif mais son influence était prédominante via l''auctoritas')"
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel était le privilège des Tribuns de la Plèbe ?",
+      "options": [
+        "Le droit de veto (intercessio) et l'inviolabilité (sacrosanctitas)",
+        "Ils commandaient les légions",
+        "Ils frappaient la monnaie",
+        "Ils élisaient le roi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les membres du Sénat appartenaient à l'ordre `{{1}}` (ou sénatorial).",
+      "reponsesAttendues": [
+        "patricien",
+        "équestre"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Censeur était élu tous les 5 ans pour recenser la population et surveiller les mœurs.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "L'expression S.P.Q.R signifie :",
+      "options": [
+        "Senatus Populusque Romanus",
+        "Salus Publica Quia Romana",
+        "Sunt Pueri Quia Romani",
+        "Semper Pax Quaerenda Romae"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La dictature était une magistrature exceptionnelle de 6 mois maximum en cas de crise grave.",
+      "reponse": true
+    }
+  ]
+}

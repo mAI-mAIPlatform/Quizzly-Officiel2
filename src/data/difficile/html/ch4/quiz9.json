@@ -1,0 +1,90 @@
+{
+  "id": "quiz9",
+  "titre": "Contrastes et Couleurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi le contraste est-il vital ?",
+      "options": [
+        "Pour permettre aux personnes malvoyantes ou dans un environnement trop lumineux de lire facilement",
+        "Pour faire de beaux dégradés",
+        "C'est sans importance",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le ratio de contraste minimal pour le texte normal au niveau AAA est de 7:1.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le contraste minimal pour les icônes et composants d'interface (bordures d'input) est de {{1}}:1.",
+      "reponsesAttendues": ["3"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment tester ses contrastes ?",
+      "options": [
+        "Outils DevTools (Inspecteur), colorcontrast.cc ou plugins spécialisés",
+        "À l'œil nu",
+        "On ne peut pas",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On ne doit jamais transmettre une information UNIQUEMENT par la couleur (ex: 'Cliquez sur le bouton vert').",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle alternative pour les graphiques si on ne peut pas utiliser de mots ?",
+      "options": [
+        "Utiliser des motifs (textures) différents ou des icônes explicatives",
+        "Augmenter la saturation",
+        "Faire clignoter",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les daltoniens ont du mal à différencier le rouge et le {{1}}.",
+      "reponsesAttendues": ["vert"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'accessibilité des couleurs est aussi bénéfique pour les utilisateurs en plein soleil.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Avantage d'un mode Sombre ?",
+      "options": [
+        "Confort visuel accru pour beaucoup d'utilisateurs et économie de batterie (OLED)",
+        "Plus de SEO",
+        "Fascine les robots",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le texte sur des images doit avoir un arrière-plan semi-transparent pour garantir le contraste.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz13",
+  "titre": "Alexandre le Grand",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel roi perse Alexandre a-t-il vaincu définitivement ?",
+      "options": [
+        "Darius III",
+        "Xerxès",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Alexandre a fondé de nombreuses cités portant son nom, dont la plus célèbre est Alexandrie d'Égypte.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La bataille finale et décisive contre Darius a eu lieu à {{1}} en 331 av. J.-C.",
+      "reponsesAttendues": ["Gaugamèles"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Jusqu'où l'armée d'Alexandre a-t-elle poussé sa conquête vers l'Est ?",
+      "options": [
+        "Jusqu'à l'Inde (l'Indus)",
+        "Jusqu'en Chine",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Alexandre est mort à Babylone en 323 av. J.-C., à l'âge de 32 ans.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel était le nom du célèbre cheval d'Alexandre ?",
+      "options": [
+        "Bucéphale",
+        "Pégase",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le précepteur d'Alexandre pendant son enfance était le philosophe {{1}}.",
+      "reponsesAttendues": ["Aristote"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Alexandre a cherché à fusionner les cultures grecque et perse (notamment par des mariages collectifs à Suse).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "L'empire d'Alexandre après sa mort a été :",
+      "options": [
+        "Partagé entre ses généraux (les Diadoques)",
+        "Détruit par une révolte",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Alexandre est entré dans la légende comme l'un des plus grands conquérants de l'histoire.",
+      "reponse": true
+    }
+  ]
+}

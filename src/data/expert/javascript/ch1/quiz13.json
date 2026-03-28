@@ -1,0 +1,95 @@
+{
+  "id": "quiz13",
+  "titre": "__proto__ vs prototype",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la nature de '.prototype' ?",
+      "options": [
+        "Une propriété des fonctions (constructeurs)",
+        "Un lien interne de chaque instance",
+        "Une méthode de l'objet Object",
+        "Un mot-clé réservé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'__proto__' est la propriété réelle utilisée par le moteur pour la recherche (lookup).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On dit que '__proto__' est une propriété de type {{1}} (legacy).",
+      "reponsesAttendues": [
+        "getter/setter",
+        "accesseur"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Laquelle de ces affirmations est vraie ?",
+      "options": [
+        "instance.constructor.prototype === Object.getPrototypeOf(instance)",
+        "instance.__proto__ === Function",
+        "prototype est une instance de l'objet",
+        "__proto__ n'existe plus en ES6"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation directe de '__proto__' est recommandée pour les performances.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le prototype d'une fonction fléchée ?",
+      "options": [
+        "Elles n'ont pas de propriété .prototype",
+        "Arrow.prototype",
+        "Function.prototype",
+        "Object.prototype"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La propriété {{1}} d'un prototype permet de revenir à la fonction constructrice.",
+      "reponsesAttendues": [
+        "constructor"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Modifier le prototype d'une fonction impacte les instances déjà créées.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Dans une classe ES6, où sont stockées les méthodes de classe par rapport aux instances ?",
+      "options": [
+        "Sur le prototype de la classe",
+        "Dans chaque instance",
+        "Dans la mémoire statique",
+        "Elles n'existent pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'assignation à '__proto__' est plus lente que 'Object.create()'.",
+      "reponse": true
+    }
+  ]
+}

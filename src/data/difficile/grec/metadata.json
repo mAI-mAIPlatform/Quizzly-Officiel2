@@ -3,5 +3,30 @@
   "titre": "Grec",
   "niveau": "Difficile",
   "description": "Découvre et maîtrise tout le programme de Grec au niveau Difficile !",
-  "chapitres": []
+  "chapitres": [
+    {
+      "id": "ch1",
+      "titre": "Syntaxe Complexe & Modes",
+      "lecons": ["Subjonctif et Optatif", "Propositions subordonnées", "Attirance de l'article"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch2",
+      "titre": "Morphologie Évoluée & Dialectes",
+      "lecons": ["Dialectes éolien et dorien", "Langue d'Homère", "Formes archaïques"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch3",
+      "titre": "Littérature & Philosophie",
+      "lecons": ["Textes de Platon", "Figures de style grecques", "Vocabulaire spécialisé"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch4",
+      "titre": "Étymologie & Linguistique",
+      "lecons": ["Évolution du grec", "Influence sur le lexique moderne", "Métrique et Poésie"],
+      "quizCount": 30
+    }
+  ]
 }

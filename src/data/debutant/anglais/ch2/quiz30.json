@@ -1,0 +1,94 @@
+{
+  "id": "quiz30",
+  "titre": "Final Review : Chapter 2 English",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la forme correcte ?",
+      "options": [
+        "I am wearing blue shoes",
+        "I am wear blue shoes",
+        "I wearing blue shoes",
+        "I wear blue shoes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'My' est l'adjectif possessif pour 'I'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un quart d'heure se dit 'a {{1}}' (quarter).",
+      "reponsesAttendues": [
+        "quarter"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment se dit 'soixante' ?",
+      "options": [
+        "sixty",
+        "sixteen",
+        "six",
+        "six hundred"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'He is carrying a bag' signifie 'Il porte un sac'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'The dog is behind the sofa' ?",
+      "options": [
+        "Le chien est derrière le canapé",
+        "Le chien est sous le canapé",
+        "Le chien est sur le canapé",
+        "Le chien est devant le canapé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Sa voiture (à elle) se dit '{{1}} car' (her).",
+      "reponsesAttendues": [
+        "her"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Friday' est le cinquième jour de la semaine.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Il est midi'.",
+      "options": [
+        "It is noon",
+        "It is midnight",
+        "It is midday",
+        "A et C sont correctes"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Congratulations! You have completed Chapter 2 of English!",
+      "reponse": true
+    }
+  ]
+}

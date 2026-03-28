@@ -1,0 +1,94 @@
+{
+  "id": "quiz12",
+  "titre": "2e Déclinaison : Le Génitif et le Datif",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison du génitif singulier en -us ?",
+      "options": [
+        "-i",
+        "-is",
+        "-o",
+        "-um"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le génitif pluriel de 'dominus' est 'dominorum'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La terminaison du datif singulier est -{{1}} (ex: domino).",
+      "reponsesAttendues": [
+        "o"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison du datif pluriel ?",
+      "options": [
+        "-is",
+        "-os",
+        "-orum",
+        "-i"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le datif et l'ablatif pluriels sont identiques (-is).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'du maître' ?",
+      "options": [
+        "domini",
+        "domino",
+        "dominum",
+        "dominorum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": " 'Aux esclaves' (datif pluriel) se dit '{{1}}' (servis).",
+      "reponsesAttendues": [
+        "servis"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le génitif pluriel finit toujours par -orum pour les noms en -us.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'liber domini' ?",
+      "options": [
+        "Le livre du maître",
+        "Le livre au maître",
+        "Le maître du livre",
+        "Le livre est le maître"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le datif singulier et l'ablatif singulier finissent tous deux par -o.",
+      "reponse": true
+    }
+  ]
+}

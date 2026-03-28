@@ -1,0 +1,94 @@
+{
+  "id": "quiz20",
+  "titre": "Les Loisirs au Temps des Romains",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où se déroulaient les courses de chars à Rome ?",
+      "options": [
+        "Au Colisée",
+        "Au Grand Cirque (Circus Maximus)",
+        "Au Panthéon",
+        "Dans la rue"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les gladiateurs se battaient dans les amphithéâtres.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'amphithéâtre le plus célèbre de Rome est le {{1}}.",
+      "reponsesAttendues": [
+        "Colisée"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Où les Romains allaient-ils pour se baigner et se détendre ?",
+      "options": [
+        "À la mer uniquement",
+        "Aux thermes",
+        "À la fontaine",
+        "Au théâtre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les banquets romains pouvaient durer des heures.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel type de spectacle pouvait-on voir au théâtre ?",
+      "options": [
+        "Des combats d'animaux",
+        "Des pièces comiques ou tragiques",
+        "Des courses de chevaux",
+        "Du catch"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le {{1}} était le coeur de la vie politique et commerciale de la cité.",
+      "reponsesAttendues": [
+        "forum"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les Romains aimaient beaucoup les jeux de dés et les jeux de plateau.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces activités était gratuite pour le peuple à Rome ?",
+      "options": [
+        "Certains jeux du cirque ('du pain et des jeux')",
+        "Le restaurant",
+        "L'achat de vêtements",
+        "Les voyages"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les loisirs étaient essentiels pour garder le peuple content.",
+      "reponse": true
+    }
+  ]
+}

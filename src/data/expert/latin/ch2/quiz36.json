@@ -1,0 +1,95 @@
+{
+  "id": "quiz36",
+  "titre": "Latin Expert : Gérondif & Adjectif Verbal",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le gérondif en latin ?",
+      "options": [
+        "Un nom verbal décliné (uniquement au singulier) exprimant l'action du verbe",
+        "Une forme d'adverbe",
+        "Le participe futur",
+        "Un temps du subjonctif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'adjectif verbal (en -ndus, a, um) exprime l'idée d'obligation ou de nécessité.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'expression `ad + {{1}}` (à l'accusatif) exprime souvent le but.",
+      "reponsesAttendues": [
+        "gerundium",
+        "gerondif"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on l'usage de l'adjectif verbal à la place du gérondif avec un complément ?",
+      "options": [
+        "L'attraction du gérondif",
+        "L'ablatif absolu",
+        "La périphrase passive",
+        "La déclinaison verbale"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La périphrase passive s'exprime par : Adjectif verbal + auxiliaire 'esse'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Nunc est bibendum'",
+      "options": [
+        "C'est maintenant qu'il faut boire",
+        "Nous buvons maintenant",
+        "On a bu maintenant",
+        "Le vin est prêt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le complément d'agent de l'adjectif verbal d'obligation se met normalement au `{{1}}` (et non à l'ablatif).",
+      "reponsesAttendues": [
+        "datif"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le gérondif n'existe pas au nominatif (on utilise l'infinitif).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'cupidus discendi' ?",
+      "options": [
+        "Désireux d'apprendre",
+        "Apprendre par désir",
+        "Celui qui apprend est désiré",
+        "Apprendre est un désir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'adjectif verbal est toujours de sens passif.",
+      "reponse": true
+    }
+  ]
+}

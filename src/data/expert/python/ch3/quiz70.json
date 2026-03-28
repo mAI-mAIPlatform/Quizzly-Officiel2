@@ -1,0 +1,94 @@
+{
+  "id": "quiz70",
+  "titre": "Revisione : Asincronia e Parallelismo (Capitolo 3 - Python Expert)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Coroutine : défini par ?",
+      "options": [
+        "async def",
+        "def",
+        "lambda",
+        "await def"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "await attend la fin d'une coroutine.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "GIL = Global `{{1}}` Lock.",
+      "reponsesAttendues": [
+        "Interpreter"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Module pour threads ?",
+      "options": [
+        "threading",
+        "process",
+        "multicore",
+        "asyncio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Multiprocessing contourne le GIL.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Exécuteur pour CPU ?",
+      "options": [
+        "ProcessPoolExecutor",
+        "ThreadPoolExecutor",
+        "AsyncPool",
+        "MainThread"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Sérialisation nécessaire : `{{1}}`.",
+      "reponsesAttendues": [
+        "pickle"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Lock = Empêche accès simultané.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Fixture pour async ?",
+      "options": [
+        "pytest-asyncio",
+        "pytest-thread",
+        "nose-fix",
+        "unit-async"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "async for = Boucle asynchrone.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz106",
+  "titre": "Grec Expert : Orateurs et Rhétorique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est considéré comme le plus grand orateur d'Athènes, célèbre pour ses discours contre Philippe II de Macédoine ?",
+      "options": [
+        "Démosthène",
+        "Isocrate",
+        "Lysias",
+        "Périclès"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les 'Philippiques' sont des discours véhéments dénonçant les ambitions macédoniennes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'`{{1}}` (Oraison funèbre) de Périclès, rapportée par Thucydide, est un modèle d'éloge de la démocratie athénienne.",
+      "reponsesAttendues": [
+        "Oraison funebre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel orateur a fondé une célèbre école de rhétorique et voyait en elle un moyen d'unifier la Grèce ?",
+      "options": [
+        "Isocrate",
+        "Démosthène",
+        "Gorgias",
+        "Andocide"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les sophistes enseignaient l'art de la persuasion contre rémunération.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Logos' dans la rhétorique aristotélicienne ?",
+      "options": [
+        "L'argumentation logique",
+        "Le caractère de l'orateur (Ethos)",
+        "L'émotion suscitée chez l'auditeur (Pathos)",
+        "Le volume de la voix"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'`{{1}}` (Ethos) correspond à la crédibilité et à l'autorité morale de celui qui parle.",
+      "reponsesAttendues": [
+        "Ethos"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Lysias était un célèbre logographe (rédacteur de discours pour les autres).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel discours d'Isocrate appelait les Grecs à s'unir pour attaquer la Perse ?",
+      "options": [
+        "Le Panégyrique",
+        "Le Panathénaïque",
+        "Sur la Paix",
+        "Archidamos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Démosthène se serait entraîné à parler avec des cailloux dans la bouche pour soigner son bégaiement.",
+      "reponse": true
+    }
+  ]
+}

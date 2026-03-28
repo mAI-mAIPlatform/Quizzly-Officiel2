@@ -1,0 +1,94 @@
+{
+  "id": "quiz20",
+  "titre": "Listes de Description (dl, dt, dd)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise enveloppe une liste de description ?",
+      "options": [
+        "<ul>",
+        "<dl>",
+        "<dt>",
+        "<dd>"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "dl signifie 'Description List'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise pour le terme (le nom) à définir est {{1}}.",
+      "reponsesAttendues": [
+        "dt"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle balise contient la définition ou la description ?",
+      "options": [
+        "<dl>",
+        "<dt>",
+        "<dd>",
+        "<item>"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut avoir plusieurs <dd> pour un seul <dt> (plusieurs définitions).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est l'usage typique de ces balises ?",
+      "options": [
+        "Un dictionnaire",
+        "Un glossaire",
+        "Une liste de métadonnées (nom : valeur)",
+        "Toutes ces réponses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La balise {{1}} décale souvent le texte vers la droite par défaut.",
+      "reponsesAttendues": [
+        "dd"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les listes de description n'ont pas de puces ni de numéros.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment se termine une description list ?",
+      "options": [
+        "</list>",
+        "</dl>",
+        "</dd>",
+        "Pas besoin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Depuis HTML5, on peut utiliser des <div> dans <dl> pour grouper dt/dd.",
+      "reponse": true
+    }
+  ]
+}

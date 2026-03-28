@@ -1,0 +1,94 @@
+{
+  "id": "quiz29",
+  "titre": "Synthèse : Navigation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces syntaxes est la plus sémantique pour un menu de liens ?",
+      "options": [
+        "<div><a>1</a><a>2</a></div>",
+        "<nav><ul><li><a>1</a></li></ul></nav>",
+        "<header><a>1</a><a>2</a></header>",
+        "<p><a>1</a><a>2</a></p>"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un lien relatif ../image.jpg remonte dans le dossier parent.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour lier le numéro 0600000000, on utilise href=\"{{1}}:0600000000\".",
+      "reponsesAttendues": [
+        "tel"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si l'id d'une ancre n'existe pas ?",
+      "options": [
+        "Erreur 404",
+        "Le navigateur reste en haut de la page actuelle",
+        "Le site se ferme",
+        "Le lien devient gris"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On évite les textes de liens vagues comme 'Cliquez ici'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel sert à ouvrir dans un nouvel onglet ?",
+      "options": [
+        "target='_blank'",
+        "target='_new'",
+        "target='_parent'",
+        "target='_top'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} est utilisé pour les liens internes.",
+      "reponsesAttendues": [
+        "id"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un lien absolu commence toujours par un protocole (http, https, ftp...).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle balise enveloppe tout le site mais est invisible ?",
+      "options": [
+        "<html>",
+        "<body>",
+        "<head>",
+        "<main>"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Une bonne navigation est la clé d'un bon site web.",
+      "reponse": true
+    }
+  ]
+}

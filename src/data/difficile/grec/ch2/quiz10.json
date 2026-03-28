@@ -1,0 +1,90 @@
+{
+  "id": "quiz10",
+  "titre": "Socrate",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la particularité de l'enseignement de Socrate ?",
+      "options": [
+        "Il n'a jamais rien écrit",
+        "Il enseignait dans une académie privée",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La maïeutique est l'art d'accoucher les esprits.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La devise de Socrate (empruntée à Delphes) est 'Connais-toi {{1}}'.",
+      "reponsesAttendues": ["toi-même"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie l' 'ironie socratique' ?",
+      "options": [
+        "Feindre l'ignorance pour amener l'interlocuteur à découvrir ses propres contradictions",
+        "Se moquer méchamment",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Socrate a été condamné à mort pour impiété et corruption de la jeunesse.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel philosophe est notre principale source sur Socrate ?",
+      "options": [
+        "Platon",
+        "Aristote",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Socrate prétendait être guidé par une voix intérieure, son {{1}}.",
+      "reponsesAttendues": ["daimôn", "démon"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Socrate se considérait comme un Sophiste puisqu'il enseignait contre argent.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "L'éthique socratique est basée sur l'idée que :",
+      "options": [
+        "Nul n'est méchant volontairement (mais par ignorance du bien)",
+        "La force fait le droit",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le procès et la mort de Socrate sont racontés dans l' 'Apologie de Socrate' de Platon.",
+      "reponse": true
+    }
+  ]
+}

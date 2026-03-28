@@ -1,0 +1,94 @@
+{
+  "id": "quiz10",
+  "titre": "Récapitulatif des Bases",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces variables est déclarée correctement ?",
+      "options": [
+        "let age = 20;",
+        "var 123 = 'test';",
+        "const age-utilisateur = 25;",
+        "let const = 5;"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "typeof 'Hello' renvoie 'string'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le résultat de 10 % 3 est {{1}}.",
+      "reponsesAttendues": [
+        "1"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment s'écrit la négation de true ?",
+      "options": [
+        "!true",
+        "not true",
+        "-true",
+        "~true"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "En JavaScript, null et undefined sont exactement la même chose.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet d'enlever les espaces inutiles autour d'un texte ?",
+      "options": [
+        "trim()",
+        "clean()",
+        "strip()",
+        "cut()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'opérateur {{1}} (3 symboles) vérifie la valeur et le type.",
+      "reponsesAttendues": [
+        "==="
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Math.floor(4.9) renvoie 5.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le résultat de `Hello ${1+1}` ?",
+      "options": [
+        "Hello 2",
+        "Hello 1+1",
+        "Hello ${1+1}",
+        "Hello"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "JavaScript peut être utilisé pour créer des sites web interactifs.",
+      "reponse": true
+    }
+  ]
+}

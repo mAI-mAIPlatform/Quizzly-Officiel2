@@ -1,0 +1,94 @@
+{
+  "id": "quiz82",
+  "titre": "Italien Expert : Cavour et l'Unification Diplomatique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui fut le Premier Ministre du Royaume de Piémont-Sardaigne, grand artisan politique de l'unité ?",
+      "options": [
+        "Camillo Benso, comte de Cavour",
+        "Giacomo Matteotti",
+        "Giovanni Giolitti",
+        "Massimo d'Azeglio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Cavour a cherché l'appui de la France de Napoléon III pour vaincre l'Autriche.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le traité secret de `{{1}}` (Plombières) en 1858 scella l'alliance franco-piémontaise contre l'Autriche.",
+      "reponsesAttendues": [
+        "Plombieres"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "En échange de son aide, quels territoires l'Italie a-t-elle cédés à la France ?",
+      "options": [
+        "Nice et la Savoie",
+        "Le Val d'Aoste",
+        "La Corse",
+        "Gênes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Victor-Emmanuel II était le roi de Naples avant de devenir roi d'Italie.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle bataille sanglante de 1859 a poussé Henri Dunant à créer la Croix-Rouge ?",
+      "options": [
+        "Solferino",
+        "Magenta",
+        "Custozza",
+        "Adoua"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La rencontre de `{{1}}` (Teano) en 1860 marque le moment où Garibaldi remet ses conquêtes du sud au roi Victor-Emmanuel II.",
+      "reponsesAttendues": [
+        "Teano"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Royaume d'Italie est officiellement proclamé le 17 mars 1861.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle ville a été la première capitale du Royaume d'Italie (1861-1864) ?",
+      "options": [
+        "Turin",
+        "Florence",
+        "Rome",
+        "Milan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Cavour est décédé quelques mois seulement après la proclamation du Royaume d'Italie.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz75",
+  "titre": "Culture Générale Expert : La Guerre Froide (1947-1991)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle expression Winston Churchill a-t-il utilisée pour désigner la séparation de l'Europe entre blocs de l'Est et de l'Ouest ?",
+      "options": [
+        "Le Rideau de Fer",
+        "Le Mur de la Honte",
+        "La Barrière de Staline",
+        "Le Fossé Idéologique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Guerre Froide a opposé les États-Unis et l'URSS sans affrontement direct entre les deux puissances (Equilibre de la Terreur).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Plan Marshall) fut le programme d'aide économique américaine pour la reconstruction de l'Europe de l'Ouest.",
+      "reponsesAttendues": [
+        "Plan Marshall"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel de ces événements a failli mener le monde à une guerre nucléaire en 1962 ?",
+      "options": [
+        "La crise des missiles de Cuba",
+        "Le blocus de Berlin",
+        "La guerre de Corée",
+        "Le Printemps de Prague"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'OTAN (Alliance Atlantique) est l'organisation militaire du bloc de l'Est.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelait-on l'alliance militaire des pays communistes d'Europe ?",
+      "options": [
+        "Le Pacte de Varsovie",
+        "Le Comecon",
+        "L'Internationale",
+        "Le Kominform"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La `{{1}}` (Course à l'Espace) fut un terrain de compétition majeur, culminant avec les premiers pas de l'homme sur la Lune en 1969.",
+      "reponsesAttendues": [
+        "Course a l'Espace"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le mur de Berlin est tombé en 1989.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel dirigeant soviétique a lancé les réformes de la Glasnost et de la Perestroïka à la fin des années 80 ?",
+      "options": [
+        "Mikhaïl Gorbatchev",
+        "Boris Eltsine",
+        "Youri Andropov",
+        "Léonid Brejnev"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La dissolution de l'URSS a eu lieu en décembre 1991.",
+      "reponse": true
+    }
+  ]
+}

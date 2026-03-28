@@ -1,0 +1,94 @@
+{
+  "id": "quiz28",
+  "titre": "Sports du Monde",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Tous les combien d'années ont lieu les Jeux Olympiques d'été ?",
+      "options": [
+        "4 ans",
+        "2 ans",
+        "5 ans",
+        "10 ans"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le football se joue à 11 joueurs par équipe sur le terrain.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le sport qui utilise une raquette et une petite balle jaune est le {{1}} (tennis).",
+      "reponsesAttendues": [
+        "tennis"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est le sport le plus populaire au monde ?",
+      "options": [
+        "Le football",
+        "Le basket-ball",
+        "Le cricket",
+        "Le tennis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Tour de France est une célèbre course cycliste.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Combien de joueurs composent une équipe de basket sur le terrain ?",
+      "options": [
+        "5",
+        "11",
+        "7",
+        "9"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'épreuve de course à pied de 42,195 km s'appelle le {{1}} (marathon).",
+      "reponsesAttendues": [
+        "marathon"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le judo est un art martial originaire du Japon.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Dans quel sport utilise-t-on un 'puck' (palet) ?",
+      "options": [
+        "Le hockey sur glace",
+        "Le rugby",
+        "Le handball",
+        "Le baseball"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les anneaux olympiques sont au nombre de cinq.",
+      "reponse": true
+    }
+  ]
+}

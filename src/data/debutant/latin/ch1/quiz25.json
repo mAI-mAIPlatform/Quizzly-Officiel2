@@ -1,0 +1,94 @@
+{
+  "id": "quiz25",
+  "titre": "La Famille et la Maison",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est le chef de famille à Rome ?",
+      "options": [
+        "Le consul",
+        "Le paterfamilias",
+        "Le rex",
+        "Le servus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Mater' signifie la mère.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La maison romaine s'appelle la '{{1}}'.",
+      "reponsesAttendues": [
+        "domus"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on l'esclave ?",
+      "options": [
+        "Dominus",
+        "Libertus",
+        "Servus",
+        "Cliens"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Filius' signifie le fils.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'Puella' ?",
+      "options": [
+        "La petite fille / la jeune fille",
+        "La poupée",
+        "La servante",
+        "La grand-mère"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'entrée centrale d'une maison romaine est l'{{1}}.",
+      "reponsesAttendues": [
+        "atrium"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les Romains accordaient une grande importance aux ancêtres.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'L'épouse' ?",
+      "options": [
+        "Uxor",
+        "Filia",
+        "Ancilla",
+        "Soror"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "'Soror' signifie la sœur.",
+      "reponse": true
+    }
+  ]
+}

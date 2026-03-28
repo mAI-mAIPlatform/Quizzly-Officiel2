@@ -1,0 +1,95 @@
+{
+  "id": "quiz99",
+  "titre": "Latin Expert : Le Latin Chrétien et l'Antiquité Tardive",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est l'auteur de 'La Cité de Dieu' et des 'Confessions' ?",
+      "options": [
+        "Saint Augustin",
+        "Saint Jérôme",
+        "Saint Ambroise",
+        "Tertullien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Saint Jérôme a traduit la Bible en latin, version connue sous le nom de 'Vulgate'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'écrivain `{{1}}` (Tertullien) est considéré comme le premier grand auteur chrétien d'expression latine (IIe-IIIe s.).",
+      "reponsesAttendues": [
+        "Tertullien"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel ouvrage de Saint Augustin est considéré comme la première véritable autobiographie de la littérature ?",
+      "options": [
+        "Les Confessions",
+        "La Cité de Dieu",
+        "De Trinitate",
+        "Du libre arbitre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le latin chrétien a introduit de nombreux néologismes et a simplifié certaines structures de la langue classique.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle métaphore Saint Augustin utilise-t-il pour opposer le monde spirituel au monde terrestre ?",
+      "options": [
+        "Les deux cités (Céleste et Terrestre)",
+        "Le ciel et l'enfer",
+        "Le jour et la nuit",
+        "L'ombre et la lumière"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le philosophe chrétien `{{1}}` (Boèce) a écrit 'La Consolation de la Philosophie' alors qu'il attendait son exécution.",
+      "reponsesAttendues": [
+        "Boèce",
+        "Boethius"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les Pères de l'Église refusaient d'étudier les auteurs païens comme Virgile ou Cicéron.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel auteur a inventé le terme 'Trinité' (Trinitas) en latin ?",
+      "options": [
+        "Tertullien",
+        "Lactance",
+        "Augustin",
+        "Cyprien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'Édit de Milan (313) a accordé la liberté de culte aux Chrétiens dans l'Empire.",
+      "reponse": true
+    }
+  ]
+}

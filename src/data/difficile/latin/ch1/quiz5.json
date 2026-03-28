@@ -1,0 +1,90 @@
+{
+  "id": "quiz5",
+  "titre": "Relatives au Subjonctif",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quand utilise-t-on le subjonctif dans une proposition relative ?",
+      "options": [
+        "Pour exprimer une nuance de but, de conséquence ou de cause",
+        "Toujours",
+        "Jamais",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une relative au subjonctif peut exprimer la nature générique d'un sujet ('du genre à').",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La relative de {{1}} s'utilise souvent après 'mitto' ou 'lego' (j'envoie quelqu'un POUR...).",
+      "reponsesAttendues": ["but", "finalité"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Dignus est qui ametur'",
+      "options": [
+        "Il est digne d'être aimé",
+        "Il est aimé car il est digne",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Après 'Sunt qui' (Il y en a qui), on utilise l'indicatif.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie la relative consécutive ?",
+      "options": [
+        "Elle indique un résultat découlant d'une qualité (ex: Il n'est personne qui ne sache...)",
+        "Elle donne une date",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attraction {{1}} fait passer au subjonctif une relative dépendant d'une autre proposition au subjonctif.",
+      "reponsesAttendues": ["modale"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le subjonctif dans une relative peut marquer une pensée rapportée (subjectivité).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel pronom introduit la relative ?",
+      "options": [
+        "qui, quae, quod",
+        "ut",
+        "ne",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Une relative à l'indicatif exprime un fait réel et précis.",
+      "reponse": true
+    }
+  ]
+}

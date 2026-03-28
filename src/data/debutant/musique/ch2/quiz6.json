@@ -1,0 +1,94 @@
+{
+  "id": "quiz6",
+  "titre": "Les Percussions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lalquel de ces instruments possède des lames de bois ?",
+      "options": [
+        "Le xylophone",
+        "Le métallophone",
+        "Le glockenspiel",
+        "La caisse claire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les timbales sont des percussions à hauteur déterminée (on peut les accorder).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le grand tambour très grave de l'orchestre est la {{1}} (grosse caisse).",
+      "reponsesAttendues": [
+        "grosse caisse"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel instrument est composé de deux disques de métal que l'on frappe l'un contre l'autre ?",
+      "options": [
+        "Les cymbales",
+        "Le triangle",
+        "Le gong",
+        "Le tambourin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le triangle est un instrument à percussion en métal.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Une batterie standard comporte des fûts et des ...",
+      "options": [
+        "cymbales",
+        "cloches",
+        "maracas",
+        "castagnettes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'instrument à clavier dont les lames sont frappées par des marteaux est le {{1}} (piano).",
+      "reponsesAttendues": [
+        "piano"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le célesta ressemble à un petit piano mais produit un son de carillon.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquel n'est pas une percussion ?",
+      "options": [
+        "Le basson",
+        "Le marimba",
+        "Le tambour",
+        "Le vibraphone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le chef d'orchestre utilise une baguette pour diriger.",
+      "reponse": true
+    }
+  ]
+}

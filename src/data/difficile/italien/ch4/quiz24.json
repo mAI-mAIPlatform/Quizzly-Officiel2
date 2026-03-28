@@ -1,0 +1,90 @@
+{
+  "id": "quiz24",
+  "titre": "Langue Politique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel terme désigne la communication politique directe et sans filtre ?",
+      "options": [
+        "Disintermediazione",
+        "Rappresentanza",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La 'Casta' est un terme péjoratif désignant la classe politique déconnectée des citoyens.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le concept de '{{1}}' (Sovranismo) prône le retour à la pleine souveraineté nationale.",
+      "reponsesAttendues": ["Souverainisme", "Sovranismo"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le discours visant à séduire les foules par des promesses simplistes ?",
+      "options": [
+        "Populismo",
+        "Dialettica",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La rhétorique politique italienne est passée du langage cryptique de la 1ère République à une communication frontale.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel adjectif définit un accord de gouvernement entre forces opposées ?",
+      "options": [
+        "Inciuciato (familier) / Trasversale",
+        "Lineare",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La '{{1}}' (Finestra) politique est le moment opportun pour agir ou lancer une élection.",
+      "reponsesAttendues": ["fenêtre", "finestra"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les 'talk-shows' politiques ont une influence majeure sur la formation de l'opinion italienne.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel terme désigne le vote par lequel les citoyens tranchent une question ?",
+      "options": [
+        "Referendum",
+        "Plebiscito",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le langage politique italien est un baromètre des tensions sociales.",
+      "reponse": true
+    }
+  ]
+}

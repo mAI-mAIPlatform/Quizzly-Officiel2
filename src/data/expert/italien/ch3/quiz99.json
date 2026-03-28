@@ -1,0 +1,94 @@
+{
+  "id": "quiz99",
+  "titre": "Italien Expert : Sciences et Recherche",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel physicien italien a reçu le prix Nobel en 1938 pour ses travaux sur la radioactivité induite par les neutrons ?",
+      "options": [
+        "Enrico Fermi",
+        "Guglielmo Marconi",
+        "Alessandro Volta",
+        "Rita Levi-Montalcini"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Rita Levi-Montalcini a reçu le prix Nobel de médecine pour la découverte du facteur de croissance nerveuse (NGF).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'astronaute italienne `{{1}}` (Samantha Cristoforetti) est la première femme européenne à avoir commandé l'ISS.",
+      "reponsesAttendues": [
+        "Samantha Cristoforetti"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel institut italien est à la pointe de la recherche en physique nucléaire et possède des laboratoires sous le massif du Gran Sasso ?",
+      "options": [
+        "INFN (Istituto Nazionale di Fisica Nucleare)",
+        "CNR",
+        "ASI",
+        "IIT"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Guglielmo Marconi est l'inventeur de la télégraphie sans fil (radio).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle agence gère le programme spatial italien, l'un des plus avancés d'Europe ?",
+      "options": [
+        "ASI (Agenzia Spaziale Italiana)",
+        "ESA",
+        "NASA",
+        "CNES"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le physicien `{{1}}` (Giorgio Parisi) a reçu le prix Nobel de physique en 2021 pour ses travaux sur les systèmes complexes.",
+      "reponsesAttendues": [
+        "Giorgio Parisi"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'Italie est l'un des membres fondateurs du CERN à Genève.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel savant italien est considéré comme le père de l'anatomie moderne au XVIe siècle (bien qu'ayant opéré à Padoue) ?",
+      "options": [
+        "Vésale (Andrea Vesalio)",
+        "Galilée",
+        "Léonard de Vinci",
+        "Malpighi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Federico Faggin est l'ingénieur italien qui a conçu le premier microprocesseur au monde (Intel 4004).",
+      "reponse": true
+    }
+  ]
+}

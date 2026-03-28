@@ -1,0 +1,94 @@
+{
+  "id": "quiz93",
+  "titre": "JavaScript Expert : Patterns d'Optimisation de Performance",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il recommandé d'éviter l'ajout ou la suppression dynamique de propriétés d'objets (propriétés 'hors schéma') ?",
+      "options": [
+        "Cela casse les Hidden Classes et force le passage en mode dictionnaire lent",
+        "C'est syntaxiquement interdit en ES6",
+        "Cela ralentit le réseau",
+        "C'est une faille de sécurité"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation de 'arguments' à l'intérieur d'une fonction empêche souvent certaines optimisations du compilateur V8.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Monomorphisme) désigne une fonction appelée avec un seul type d'argument, ce qui facilite énormément l'optimisation JIT.",
+      "reponsesAttendues": [
+        "Monomorphisme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est l'impact de l'utilisation de 'try-catch' sur les performances dans les anciennes versions de V8 (historiquement) ?",
+      "options": [
+        "Il empêchait l'optimisation de la fonction parente",
+        "Il doublait la vitesse",
+        "Il vidait la mémoire",
+        "Aucun impact"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les tableaux d'éléments de types mixtes (Holey Arrays) sont plus lents à itérer que les tableaux d'éléments de types identiques (Packed Arrays).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle technique consiste à pré-allouer la taille d'un tableau pour éviter des redimensionnements coûteux ?",
+      "options": [
+        "Array Pre-allocation",
+        "Array Shimming",
+        "Array Pooling",
+        "Array Padding"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'utilisation de `{{1}}` (TypedArrays) permet de manipuler directement des données binaires en mémoire avec une performance proche du C.",
+      "reponsesAttendues": [
+        "TypedArrays"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le 'Polymorphisme' au sens JIT (passer de nombreux types différents à une fonction) ralentit l'exécution à cause des vérifications de types.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel outil permet de visualiser les 'optimisation/deoptimisation' de V8 ?",
+      "options": [
+        "V8 Trace (via flags comme --trace-opt)",
+        "Console.log",
+        "JSON.stringify",
+        "Babel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Un code 'de-optimisé' peut être ré-optimisé si les conditions de types se stabilisent.",
+      "reponse": true
+    }
+  ]
+}

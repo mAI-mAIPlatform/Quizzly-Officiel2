@@ -1,0 +1,90 @@
+{
+  "id": "quiz5",
+  "titre": "Temps Composés",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces auxiliaires est le plus utilisé au Portugal pour les temps composés ?",
+      "options": [
+        "Ter",
+        "Haver",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'Pretérito Mais-que-Perfeito Composto' exprime une action passée antérieure à une autre action passée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le participe passé du verbe 'DIZER' est '{{1}}'.",
+      "reponsesAttendues": ["dito"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment se forme le 'Pretérito Perfeito Composto' ?",
+      "options": [
+        "Ter (présent) + participe passé",
+        "Ter (imparfait) + participe passé",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Contrairement au français, le 'Pretérito Perfeito Composto' en portugais exprime une action répétée qui dure jusqu'au présent.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Complétez : 'Eu {{1}} (ter) muito trabalho ultimamente.'",
+      "options": [
+        "tenho tido",
+        "tinha tido",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le participe passé du verbe 'ESCREVER' est '{{1}}'.",
+      "reponsesAttendues": ["escrito"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le verbe 'Haver' est souvent utilisé à la place de 'Ter' au Brésil dans le langage courant.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est un participe passé irrégulier ?",
+      "options": [
+        "Feito (Fazer)",
+        "Falado (Falar)",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Certains verbes ont deux participes passés (un court et un long).",
+      "reponse": true
+    }
+  ]
+}

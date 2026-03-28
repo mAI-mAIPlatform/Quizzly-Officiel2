@@ -1,0 +1,94 @@
+{
+  "id": "quiz88",
+  "titre": "Culture Générale Expert : Sociologie et Médias",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel concept de Pierre Bourdieu désigne l'ensemble des manières de voir et d'agir intériorisées par l'individu ?",
+      "options": [
+        "L'Habitus",
+        "Le Capital social",
+        "La Distinction",
+        "Le Champ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour Bourdieu, le capital culturel (diplômes, savoirs) influe sur la réussite autant que le capital économique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'expression 'Le médium est le `{{1}}`' (message) a été lancée par Marshall McLuhan.",
+      "reponsesAttendues": [
+        "message"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel terme désigne le filtrage de l'information par les algorithmes des réseaux sociaux ?",
+      "options": [
+        "La bulle de filtres",
+        "La censure d'État",
+        "Le data mining",
+        "L'Open Data"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'école de Francfort critique l'industrie culturelle qui aliène les masses.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui est considéré comme l'un des pères de la sociologie française avec 'Le Suicide' ?",
+      "options": [
+        "Émile Durkheim",
+        "Max Weber",
+        "Auguste Comte",
+        "Karl Marx"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'`{{1}}` (Anomie) désigne un état de désorganisation sociale dû à une absence de normes.",
+      "reponsesAttendues": [
+        "Anomie"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La sémiotique est l'étude des signes et de leur signification.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel sociologue a analysé l'éthique protestante et l'esprit du capitalisme ?",
+      "options": [
+        "Max Weber",
+        "Vilfredo Pareto",
+        "Georg Simmel",
+        "Norbert Elias"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La 'société du spectacle' est une théorie de Guy Debord critiquant la médiatisation du réel.",
+      "reponse": true
+    }
+  ]
+}

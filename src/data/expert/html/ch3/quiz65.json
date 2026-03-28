@@ -1,0 +1,94 @@
+{
+  "id": "quiz65",
+  "titre": "HTML Expert : Stockage avec IndexedDB",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'IndexedDB ?",
+      "options": [
+        "Une base de données transactionnelle orientée objet, côté client, pour stocker de grands volumes de données structurées",
+        "Une alternative à CSS",
+        "Un moteur de recherche en ligne",
+        "Un type de cookie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "IndexedDB est asynchrone pour éviter de bloquer l'interface utilisateur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour interagir avec la base, on doit ouvrir une `{{1}}` (transaction).",
+      "reponsesAttendues": [
+        "transaction"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on les conteneurs d'objets dans IndexedDB (équivalents des tables SQL) ?",
+      "options": [
+        "Object Stores",
+        "Collections",
+        "Buckets",
+        "Folders"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "IndexedDB permet de créer des index pour rechercher efficacement des données selon différentes propriétés.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet d'ouvrir une connexion à une base de données ?",
+      "options": [
+        "indexedDB.open()",
+        "db.connect()",
+        "new DB()",
+        "window.requestDB()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'événement `{{1}}` est le seul endroit où l'on peut modifier la structure (créer des stores) de la base.",
+      "reponsesAttendues": [
+        "onupgradeneeded"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "IndexedDB possède une limite de stockage beaucoup plus élevée que le LocalStorage (souvent plusieurs Go).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "À quoi sert un 'Cursor' dans IndexedDB ?",
+      "options": [
+        "À parcourir séquentiellement les enregistrements d'un store ou d'un index",
+        "À dessiner à l'écran",
+        "À pointer un bouton",
+        "À fermer la base"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Des bibliothèques comme 'idb' ou 'Dexie.js' simplifient grandement l'utilisation d'IndexedDB via des promesses.",
+      "reponse": true
+    }
+  ]
+}

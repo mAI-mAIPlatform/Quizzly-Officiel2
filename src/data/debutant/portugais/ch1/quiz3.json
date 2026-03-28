@@ -1,0 +1,94 @@
+{
+  "id": "quiz3",
+  "titre": "Se Présenter",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Je m'appelle...' ?",
+      "options": [
+        "O meu nome é...",
+        "Eu chamo-me...",
+        "Les deux sont corrects",
+        "Sou..."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Eu sou francês' signifie 'Je suis français'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Mucho gusto' en espagnol se dit 'Muito {{1}}' en portugais.",
+      "reponsesAttendues": [
+        "prazer"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment demande-t-on 'Quel est ton nom ?' ?",
+      "options": [
+        "Como te chamas?",
+        "Qual é o teu nome?",
+        "Les deux sont corrects",
+        "Onde moras?"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Onde moras?' signifie 'Où habites-tu ?'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'Eu tenho vinte anos' ?",
+      "options": [
+        "J'ai 20 ans",
+        "Je suis vieux",
+        "Je m'appelle Vinte",
+        "J'habite ici"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour dire 'D'où viens-tu ?', on dit 'De {{1}} és?'.",
+      "reponsesAttendues": [
+        "onde"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "En portugais, on utilise 'Sou de...' pour indiquer son origine.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Enchanté !'",
+      "options": [
+        "Muito prazer!",
+        "Obrigado!",
+        "Bom dia!",
+        "Olá!"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "'Chamo-me' est le verbe 'chamar-se' conjugué à la 1ère personne.",
+      "reponse": true
+    }
+  ]
+}

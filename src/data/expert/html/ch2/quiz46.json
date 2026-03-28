@@ -1,0 +1,94 @@
+{
+  "id": "quiz46",
+  "titre": "HTML Expert : Geolocation API",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment accéder à la position de l'utilisateur ?",
+      "options": [
+        "navigator.geolocation.getCurrentPosition()",
+        "window.getGPS()",
+        "navigator.whereAmI()",
+        "location.getCoordinates()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'API Geolocation nécessite le consentement explicite de l'utilisateur à chaque session ou site.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour suivre la position en temps réel lorsqu'elle change, on utilise `{{1}}Position()`.",
+      "reponsesAttendues": [
+        "watch"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelles informations principales sont retournées dans l'objet 'coords' ?",
+      "options": [
+        "Latitude, Longitude et Précision (accuracy)",
+        "L'adresse postale complète",
+        "Le nom de l'utilisateur",
+        "Le numéro de téléphone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'option 'enableHighAccuracy' permet de solliciter le GPS pour une précision accrue.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si l'utilisateur refuse la géolocalisation ?",
+      "options": [
+        "La fonction d'erreur (callback) est appelée avec un code PERMISSION_DENIED",
+        "L'ordinateur s'éteint",
+        "Le navigateur renvoie 0,0",
+        "Une alerte s'affiche indéfiniment"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour arrêter de surveiller la position, on utilise `{{1}}Watch()`.",
+      "reponsesAttendues": [
+        "clear"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La géolocalisation sur PC se base souvent sur l'adresse IP ou les réseaux Wi-Fi environnants.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle propriété de l'objet Position contient l'heure de la mesure ?",
+      "options": [
+        "timestamp",
+        "date",
+        "now",
+        "timeMeasured"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'API Geolocation est accessible sous HTTP non sécurisé sur les navigateurs récents.",
+        "reponse": false
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz23",
+  "titre": "Abstract Factory Pattern",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le but de l'Abstract Factory ?",
+      "options": [
+        "Créer une seule instance",
+        "Fournir une interface pour créer des familles d'objets liés sans spécifier leurs classes concrètes",
+        "Optimiser les calculs",
+        "Gérer les événements"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "JS n'ayant pas d'interfaces, on simule une Abstract Factory avec des classes ou fonctions levant des erreurs si non surchargées.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une Abstract Factory est souvent implémentée comme un {{1}}.",
+      "reponsesAttendues": ["Singleton"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser une Abstract Factory ?",
+      "options": [
+        "Pour changer tout le thème d'une application (boutons, inputs) d'un coup",
+        "Pour faire plus de code",
+        "Pour éviter d'utiliser des classes",
+        "Pour accéder au DOM"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Ce pattern est très courant dans les bibliothèques UI multi-plateformes.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est l'inconvénient de l'Abstract Factory ?",
+      "options": [
+        "Trop de simplicité",
+        "Difficulté à ajouter de nouveaux types d'objets (nécessite de modifier toutes les factories concrètes)",
+        "Lenteur",
+        "Fuites mémoire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le pattern Factory Method est une version plus {{1}} de l'Abstract Factory.",
+      "reponsesAttendues": ["simple", "réduite"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser des closures pour simuler l'abstraction en JS.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est un exemple concret ?",
+      "options": [
+        "Une factory de voitures qui crée soit des pièces de luxe, soit des pièces standard selon la région",
+        "Un bouton OK",
+        "Une variable x",
+        "Une boucle if"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'Abstract Factory favorise le découplage entre le code client et les classes concrètes d'objets.",
+      "reponse": true
+    }
+  ]
+}

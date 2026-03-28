@@ -1,0 +1,94 @@
+{
+  "id": "quiz25",
+  "titre": "Les Adverbes de Lieu et de Temps",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'νῦν' (nun) ?",
+      "options": [
+        "Maintenant",
+        "Demain",
+        "Hier",
+        "Toujours"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'ἀεí' (aei) signifie 'jamais'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": " 'Ici' se dit '{{1}}' (enthade).",
+      "reponsesAttendues": [
+        "ἐνθάδε"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'ἐκεῖ' (ekei) ?",
+      "options": [
+        "Là-bas",
+        "Ailleurs",
+        "Partout",
+        "Nulle part"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'πολλακíς' (pollakis) signifie 'souvent'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'ensuite' ?",
+      "options": [
+        "ἔπειτα (epeita)",
+        "νῦν",
+        "ἀεί",
+        "ἐκεῖ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": " 'Toujours' se dit '{{1}}' (aei).",
+      "reponsesAttendues": [
+        "ἀεί"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les adverbes sont invariables.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'πóθεν' (pothen) ?",
+      "options": [
+        "D'où ?",
+        "Où ?",
+        "Quand ?",
+        "Comment ?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les adverbes aident à préciser l'action du verbe.",
+      "reponse": true
+    }
+  ]
+}

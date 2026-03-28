@@ -1,0 +1,95 @@
+{
+  "id": "quiz65",
+  "titre": "Latin Expert : Sénèque et la Philosophie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "De quel empereur Sénèque fut-il le précepteur puis le conseiller ?",
+      "options": [
+        "Néron",
+        "Caligula",
+        "Claude",
+        "Domitien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Sénèque appartenait à l'école philosophique du stoïcisme.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les `{{1}}` (Lettres à Lucilius) sont un chef-d'œuvre de la sagesse stoïcienne sous forme épistolaire.",
+      "reponsesAttendues": [
+        "Lettres à Lucilius"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel genre littéraire dramatique Sénèque a-t-il également pratiqué avec succès ?",
+      "options": [
+        "La Tragédie",
+        "La Comédie",
+        "Le Mime",
+        "La Farce"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Sénèque s'est suicidé sur ordre de Néron suite à la conjuration de Pison.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel ouvrage de Sénèque propose une satire féroce sur la déification de l'empereur Claude ?",
+      "options": [
+        "L'Apocoloquintose",
+        "De la Colère",
+        "Médée",
+        "Thyeste"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La `{{1}}` (De Brevitate Vitae) est un traité célèbre de Sénèque sur la brièveté de la vie.",
+      "reponsesAttendues": [
+        "De la brièveté de la vie",
+        "De Brevitate Vitae"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Sénèque prône le détachement des richesses tout en étant lui-même extrêmement riche.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Une tragédie célèbre de Sénèque traite du mythe de la magicienne jalouse :",
+      "options": [
+        "Médée",
+        "Phèdre",
+        "Antigone",
+        "Électre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les œuvres de Sénèque ont eu une influence massive sur la morale chrétienne et le théâtre classique français (Corneille, Racine).",
+      "reponse": true
+    }
+  ]
+}

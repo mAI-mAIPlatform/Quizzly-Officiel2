@@ -1,0 +1,94 @@
+{
+  "id": "quiz3",
+  "titre": "Les Cas en Latin (2) : Compléments",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel cas exprime la possession (le 'de' français) ?",
+      "options": [
+        "Le Génitif",
+        "Le Datif",
+        "L'Ablatif",
+        "Le Vocatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Datif correspond souvent au complément d'attribution (le 'à' français).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'Ablatif exprime souvent le {{1}} (lieu, moyen, manière).",
+      "reponsesAttendues": [
+        "complément circonstanciel"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison du génitif singulier de 'rosa' ?",
+      "options": [
+        "rosae",
+        "rosam",
+        "rosis",
+        "rosarum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le génitif pluriel de la 1ère déclinaison finit par -arum.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel cas finit par -is au pluriel (datif et ablatif) ?",
+      "options": [
+        "Le Datif et l'Ablatif pluriels",
+        "Le Nominatif",
+        "Le Génitif",
+        "L'Accusatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le {{1}} est le cas du complément de nom.",
+      "reponsesAttendues": [
+        "Génitif"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il y a 6 cas en latin.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Dans 'Donum puellae do', quel est le cas de 'puellae' ?",
+      "options": [
+        "Le Datif (à la fille)",
+        "Le Nominatif",
+        "L'Accusatif",
+        "Le Vocatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le latin utilise des déclinaisons au lieu de beaucoup de prépositions.",
+      "reponse": true
+    }
+  ]
+}

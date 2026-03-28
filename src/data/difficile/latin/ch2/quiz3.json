@@ -1,0 +1,90 @@
+{
+  "id": "quiz3",
+  "titre": "Participe Parfait Passif",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment se forme le participe parfait passif (PPP) ?",
+      "options": [
+        "Radical du supin + -us, -a, -um",
+        "Radical du parfait + -tus",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le PPP exprime l'antériorité et la passivité.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Traduisez : 'Urbs capta...'",
+      "reponsesAttendues": ["La ville ayant été prise", "La ville prise"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que devient le PPP pour les verbes déponents ?",
+      "options": [
+        "Il a un sens ACTIF (ex: Profectus = étant parti)",
+        "Il reste passif",
+        "Il n'existe pas",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le PPP s'accorde en genre, nombre et cas avec le sujet au passif.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Usage dans l'ablatif absolu ?",
+      "options": [
+        "C'est la forme la plus fréquente (ex: His verbis dictis = ces paroles ayant été dites)",
+        "On ne peut pas l'utiliser",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le PPP + {{1}} (forme de esse) constitue le parfait passif.",
+      "reponsesAttendues": ["sum", "est", "fui"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le participe parfait passif est décliné comme 'bonus, -a, -um'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Amatus'",
+      "options": [
+        "Ayant été aimé",
+        "Aimant",
+        "Sur le point d'aimer",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Sans PPP, impossible de conjuguer le passif au parfait en latin.",
+      "reponse": true
+    }
+  ]
+}

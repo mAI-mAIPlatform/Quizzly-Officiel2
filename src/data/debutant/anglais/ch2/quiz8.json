@@ -1,1 +1,94 @@
-{"id":"quiz8","titre":"Present Simple: Questions","questions":[{"id":"q1","type":"qcm","enonce":"How do you start a question for 'You'?","options":["Do","Does","Has","Are"],"correctIndex":0},{"id":"q2","type":"vrai_faux","enonce":"'Does he like football?' is a correct question.","reponse":true},{"id":"q3","type":"trous","enonce":"{{1}} they live in London?","reponsesAttendues":["do"]},{"id":"q4","type":"relier","question":"Match the question to the short answer.","pairs":[{"left":"Do you like tea?","right":"Yes, I do."},{"left":"Does she eat meat?","right":"No, she doesn't."},{"left":"Do they play music?","right":"Yes, they do."}]},{"id":"q5","type":"qcm","enonce":"Which one is correct?","options":["Does you like milk?","Do he like milk?","Do you like milk?","Are you like milk?"],"correctIndex":2}]}
+{
+  "id": "quiz8",
+  "titre": "The Body and Health",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'la tête' ?",
+      "options": [
+        "head",
+        "hand",
+        "arm",
+        "leg"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Arm' signifie le bras.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La main se dit '{{1}}' (hand).",
+      "reponsesAttendues": [
+        "hand"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'leg' ?",
+      "options": [
+        "Jambe",
+        "Pied",
+        "Genou",
+        "Dos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Foot' (singulier) devient 'feet' (pluriel).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'les yeux' ?",
+      "options": [
+        "eyes",
+        "ears",
+        "nose",
+        "mouth"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'oreille se dit '{{1}}' (ear).",
+      "reponsesAttendues": [
+        "ear"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'I have a headache' signifie 'J'ai mal à la tête'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'to feel well' ?",
+      "options": [
+        "Se sentir bien",
+        "Se sentir mal",
+        "Être fatigué",
+        "Avoir sommeil"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": " 'Finger' signifie doigt (de la main).",
+      "reponse": true
+    }
+  ]
+}

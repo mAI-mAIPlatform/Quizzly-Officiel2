@@ -1,0 +1,95 @@
+{
+  "id": "quiz39",
+  "titre": "JS Expert : Mémoire et Garbage Collection",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le rôle du Garbage Collector (GC) en JavaScript ?",
+      "options": [
+        "Libérer automatiquement la mémoire occupée par des objets qui ne sont plus accessibles",
+        "Trier les fichiers sur le disque",
+        "Accélérer la connexion internet",
+        "Supprimer les commentaires du code"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'algorithme moderne utilisé par les moteurs JS s'appelle 'Mark-and-Sweep'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une situation où la mémoire n'est pas libérée alors qu'elle devrait l'être s'appelle une `{{1}}` mémoire.",
+      "reponsesAttendues": [
+        "fuite",
+        "leak"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel peut causer une fuite de mémoire courante ?",
+      "options": [
+        "Des écouteurs d'événements non supprimés sur des éléments supprimés du DOM",
+        "Déclarer une variable avec 'let'",
+        "Utiliser des fonctions fléchées",
+        "Appeler console.log"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les variables globales ne sont jamais collectées par le GC tant que la page est ouverte.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une WeakMap par rapport à une Map standard ?",
+      "options": [
+        "Elle n'empêche pas le GC de collecter les objets utilisés comme clés",
+        "Elle est plus lente",
+        "Elle n'accepte que des nombres",
+        "Elle se vide toutes les 5 minutes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Dans le moteur V8, le tas (Heap) est divisé en deux générations : Young et `{{1}}` Generation.",
+      "reponsesAttendues": [
+        "Old"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le 'Stop-the-world' est une phase où le GC suspend l'exécution du script pour nettoyer la mémoire.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment forcer manuellement le Garbage Collection en JS standard ?",
+      "options": [
+        "Ce n'est pas possible (le GC est automatique et opaque)",
+        "En appelant collectGarbage()",
+        "En mettant window.memory = null",
+        "En redémarrant le navigateur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les fermetures (closures) peuvent retenir en mémoire des variables parentes de manière imprévue.",
+      "reponse": true
+    }
+  ]
+}

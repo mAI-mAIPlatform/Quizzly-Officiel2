@@ -1,0 +1,94 @@
+{
+  "id": "quiz12",
+  "titre": "Les Nombres (0-10)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Un' ?",
+      "options": [
+        "Uno",
+        "Due",
+        "Tre",
+        "Quattro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Due' signifie 'Deux'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Après 'due', on trouve '{{1}}'.",
+      "reponsesAttendues": [
+        "tre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Quatre' ?",
+      "options": [
+        "Cinque",
+        "Quattro",
+        "Sei",
+        "Sette"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Cinque' signifie 'Cinq'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel nombre est 'Sei' ?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour dire 'Sept', on dit '{{1}}'.",
+      "reponsesAttendues": [
+        "sette"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Otto' signifie 'Huit'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Dix' ?",
+      "options": [
+        "Nove",
+        "Dieci",
+        "Zero",
+        "Venti"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "'Zero' s'écrit de la même façon en italien.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz7",
+  "titre": "Grammatica : Pronomi combinati 2 (Riflessivi)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Come si combina il pronome riflessivo 'si' con il pronome diretto 'lo' ?",
+      "options": [
+        "se lo",
+        "si lo",
+        "silo",
+        "selo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "I pronomi riflessivi mi, ti, si, ci, vi si comportano come quelli indiretti davanti ai pronomi diretti.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "In 'Me lo sono dimenticato', l'azione è un verbo riflessivo; 'me' deriva da `{{1}}`.",
+      "reponsesAttendues": [
+        "mi"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qual è il significato di 'ce la facciamo' ?",
+      "options": [
+        "Riusciamo a fare qualcosa / Ce la caviamo",
+        "Noi facciamo quella cosa",
+        "A noi la fanno",
+        "Siamo fatti così"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Davanti a 'ne', il pronome riflessivo 'si' diventa 'se'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Come tradurre 'He washed his hands' (se le è lavate) ?",
+      "options": [
+        "Se le è lavate",
+        "Si le ha lavate",
+        "Le si è lavato",
+        "Sele ha lavato"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "In un verbo riflessivo + lo/la/li/le, l'ausiliare è sempre `{{1}}`.",
+      "reponsesAttendues": [
+        "essere"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il pronome riflessivo plurale 'ci' diventa 'ce' davanti a 'lo'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "A cosa si riferisce 've ne' in 'Ve ne andate ?' ?",
+      "options": [
+        "Riflessivo (voi) + ne (moto da luogo / via)",
+        "Indiretto (voi) + di ciò",
+        "Diretto (voi) + ne",
+        "Nessuna delle precedenti"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "I pronomi combinati si posizionano dopo il verbo se questo è all'infinito o all'imperativo (fammelo !).",
+      "reponse": true
+    }
+  ]
+}

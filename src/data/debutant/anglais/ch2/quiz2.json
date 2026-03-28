@@ -1,1 +1,94 @@
-{"id":"quiz2","titre":"School Subjects","questions":[{"id":"q1","type":"qcm","enonce":"In which subject do you use numbers and geometry?","options":["History","Maths","Music","Art"],"correctIndex":1},{"id":"q2","type":"vrai_faux","enonce":"PE stands for Physical Education (Sport).","reponse":true},{"id":"q3","type":"trous","enonce":"In {{1}}, we study plants and the human body.","reponsesAttendues":["science","svt"]},{"id":"q4","type":"relier","question":"Match the subject.","pairs":[{"left":"ICT","right":"Informatique"},{"left":"RE","right":"Religion"},{"left":"Art","right":"Arts plastiques"}]},{"id":"q5","type":"qcm","enonce":"What is your favorite subject?","options":["I like history.","It is 10 o'clock.","I am in the classroom.","My name is Sarah."],"correctIndex":0}]}
+{
+  "id": "quiz2",
+  "titre": "The City (In the street)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'la rue' ?",
+      "options": [
+        "street",
+        "road",
+        "path",
+        "way"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'City center' est le centre-ville.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le trottoir (UK) se dit '{{1}}' (pavement).",
+      "reponsesAttendues": [
+        "pavement"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'building' ?",
+      "options": [
+        "Bâtiment / immeuble",
+        "Pont",
+        "Jardin",
+        "Magasin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Traffic lights' sont les feux de signalisation.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'le passage piéton' (UK) ?",
+      "options": [
+        "zebra crossing",
+        "walking path",
+        "human way",
+        "street line"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La foule se dit '{{1}}' (crowd).",
+      "reponsesAttendues": [
+        "crowd"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Square' signifie une place (ou un carré).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'subway' (US) ?",
+      "options": [
+        "Le métro",
+        "Le tunnel",
+        "Le chemin",
+        "L'autoroute"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": " 'I am crossing the street' signifie 'Je traverse la rue'.",
+      "reponse": true
+    }
+  ]
+}

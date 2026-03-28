@@ -1,0 +1,94 @@
+{
+  "id": "quiz13",
+  "titre": "Introduction aux Variables",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel mot-clé est le plus utilisé aujourd'hui pour déclarer une variable modifiable ?",
+      "options": [
+        "var",
+        "let",
+        "const",
+        "dim"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une variable 'const' peut être réassignée après sa déclaration.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot-clé {{1}} permet de déclarer une constante.",
+      "reponsesAttendues": [
+        "const"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel était le mot-clé utilisé avant ES6 ?",
+      "options": [
+        "let",
+        "static",
+        "var",
+        "new"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut déclarer une variable sans lui donner de valeur immédiatement.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'action de donner une valeur à une variable ?",
+      "options": [
+        "L'appel",
+        "L'affectation",
+        "La déclaration",
+        "L'exécution"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour déclarer une variable 'x' valant 5, on écrit let {{1}} = 5.",
+      "reponsesAttendues": [
+        "x"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les noms de variables peuvent contenir des espaces.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est un nom de variable 'camelCase' ?",
+      "options": [
+        "Ma_Variable",
+        "maVariable",
+        "mavieriable",
+        "MAVARIABLE"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut déclarer plusieurs variables sur la même ligne avec une virgule.",
+      "reponse": true
+    }
+  ]
+}

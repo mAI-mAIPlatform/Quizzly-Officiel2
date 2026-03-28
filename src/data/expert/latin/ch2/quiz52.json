@@ -1,0 +1,95 @@
+{
+  "id": "quiz52",
+  "titre": "Latin Expert : La Philosophie à Rome",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel philosophe est le principal représentant du stoïcisme à l'époque de Néron ?",
+      "options": [
+        "Sénèque",
+        "Cicéron",
+        "Lucrèce",
+        "Épicure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Lucrèce expose la doctrine d'Épicure dans son poème 'De Natura Rerum'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'école philosophique prônant l'ataraxie (absence de trouble) et le plaisir est l'`{{1}}`.",
+      "reponsesAttendues": [
+        "épicurisme",
+        "epicurisme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel auteur a créé le vocabulaire philosophique latin en adaptant les concepts grecs ?",
+      "options": [
+        "Cicéron",
+        "César",
+        "Virgile",
+        "Horace"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le stoïcisme prône la vie conforme à la Raison et la maîtrise des passions.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À qui sont adressées les 'Lettres à Lucilius' de Sénèque ?",
+      "options": [
+        "À un ami, pour le guider sur la voie de la sagesse",
+        "À l'empereur",
+        "À sa femme",
+        "Au peuple romain"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'empereur `{{1}}` est l'auteur stoïcien des 'Pensées pour moi-même' (écrites en grec mais de culture romaine).",
+      "reponsesAttendues": [
+        "Marc Aurèle"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Pour Lucrèce, la mort n'est pas à craindre car l'âme est composée d'atomes qui se dispersent.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel ouvrage de Cicéron traite des devoirs moraux ?",
+      "options": [
+        "De Officiis",
+        "De Republica",
+        "De Amicitia",
+        "Tusculanae"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La philosophie à Rome était avant tout pratique et morale (comment bien vivre).",
+      "reponse": true
+    }
+  ]
+}

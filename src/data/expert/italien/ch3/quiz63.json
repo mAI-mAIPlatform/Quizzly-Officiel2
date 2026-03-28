@@ -1,0 +1,95 @@
+{
+  "id": "quiz63",
+  "titre": "Italien Expert : Pétrarque et l'Humanisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelle le recueil de poésies italiennes de Francesco Petrarca ?",
+      "options": [
+        "Il Canzoniere (Rerum vulgarium fragmenta)",
+        "Decameron",
+        "Orlando Furioso",
+        "Il Principe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pétrarque est considéré comme l'un des pères de l'Humanisme pour son intérêt pour les auteurs classiques.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La muse de Pétrarque, à qui la majorité de ses sonnets sont dédiés, s'appelle `{{1}}`.",
+      "reponsesAttendues": [
+        "Laura"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle forme poétique de 14 vers Pétrarque a-t-il portée à sa perfection ?",
+      "options": [
+        "Le Sonnet",
+        "La Ballade",
+        "La Sextine",
+        "La Canzone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Pétrarque a été couronné poète lauréat au Capitole à Rome en 1341.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel était le sentiment dominant exprimé par Pétrarque envers Laura ?",
+      "options": [
+        "Un amour platonique, spirituel et souvent tourmenté",
+        "Une haine profonde",
+        "Une amitié simple",
+        "Un mépris intellectuel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` est le style poétique imitant Pétrarque qui a influencé toute l'Europe de la Renaissance.",
+      "reponsesAttendues": [
+        "Pétrarquisme",
+        "petrarchismo"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Pétrarque écrivait aussi beaucoup en latin (ex: l'épopée Africa).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Dans quel dialogue latin Pétrarque débat-il avec Saint Augustin de ses conflits intérieurs ?",
+      "options": [
+        "Secretum",
+        "De otio religioso",
+        "De vita solitaria",
+        "Bucolicum carmen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Canzoniere suit l'évolution de l'âme du poète 'en vie' et 'après la mort' de Laura.",
+      "reponse": true
+    }
+  ]
+}

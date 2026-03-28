@@ -1,0 +1,94 @@
+{
+  "id": "quiz2",
+  "titre": "La Structure d'une page",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise enveloppe tout le contenu de la page ?",
+      "options": [
+        "<body>",
+        "<html>",
+        "<head>",
+        "<page>"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La balise <head> contient des informations invisibles sur la page.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Tout le contenu visible (texte, images) se trouve dans la balise {{1}}.",
+      "reponsesAttendues": [
+        "body"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle balise définit le titre de l'onglet du navigateur ?",
+      "options": [
+        "<header>",
+        "<title>",
+        "<h1>",
+        "<meta>"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut mettre plusieurs balises <body> dans une page.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Où place-t-on généralement la balise <title> ?",
+      "options": [
+        "Dans le <body>",
+        "Dans le <head>",
+        "Avant le <html>",
+        "À la fin du fichier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La balise qui contient les méta-données est la balise {{1}}.",
+      "reponsesAttendues": [
+        "head"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les balises HTML vont presque toujours par paires (ouverture/fermeture).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle est une balise de fermeture correcte ?",
+      "options": [
+        "</html",
+        "<html/>",
+        "</html>",
+        "\\\\html\\\""
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'indentation est obligatoire pour que le navigateur comprenne.",
+      "reponse": false
+    }
+  ]
+}

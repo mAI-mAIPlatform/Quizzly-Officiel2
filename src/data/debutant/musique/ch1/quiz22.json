@@ -1,0 +1,94 @@
+{
+  "id": "quiz22",
+  "titre": "Le Point de Prolongation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où se place le point de prolongation ?",
+      "options": [
+        "Au-dessus de la note",
+        "À droite de la note",
+        "À gauche de la note",
+        "En dessous de la note"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le point augmente la durée de la note de la moitié de sa valeur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une blanche pointée vaut {{1}} temps (2 + 1).",
+      "reponsesAttendues": [
+        "3"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Combien de temps vaut une noire pointée ?",
+      "options": [
+        "1 temps",
+        "1,5 temps",
+        "2 temps",
+        "3 temps"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une ronde pointée vaut 6 temps.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle figure de note suit souvent la noire pointée pour compléter un groupe de 2 temps ?",
+      "options": [
+        "Une blanche",
+        "Une croche",
+        "Une noire",
+        "Un soupir"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le point s'applique aussi aux {{1}} (ex: Soupir pointé).",
+      "reponsesAttendues": [
+        "silences"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut mettre deux points après une note (double point).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Une croche pointée vaut combien de croches ?",
+      "options": [
+        "1,5",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le point de prolongation est très utilisé pour créer des rythmes syncopés ou chaloupés.",
+      "reponse": true
+    }
+  ]
+}

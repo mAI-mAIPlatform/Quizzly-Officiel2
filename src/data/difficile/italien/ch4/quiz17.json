@@ -1,0 +1,90 @@
+{
+  "id": "quiz17",
+  "titre": "Nature et Animaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'Essere una pecora nera' ?",
+      "options": [
+        "Être le vilain petit canard / la brebis galeuse",
+        "Être très habillé",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'In bocca al lupo' est un souhait de bonne chance.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Sputare il {{1}}' (rospo) signifie 'cracher le morceau' (avouer enfin).",
+      "reponsesAttendues": ["crapaud", "rospo"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que veut dire 'Menare le can per l'aia' ?",
+      "options": [
+        "Tourner autour du pot / Chercher midi à quatorze heures",
+        "Promener le chien",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Essere un cane sciolto' (un chien sans laisse) désigne une personne indépendante ou isolée politiquement.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'Fare la civetta' ?",
+      "options": [
+        "Faire la coquette / Chercher à attirer l'attention",
+        "Faire le hibou",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'expression 'Tagliare la testa au {{1}}' (toro) signifie trancher ou prendre une décision radicale.",
+      "reponsesAttendues": ["taureau", "toro"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Lupus in fabula' est l'équivalent de 'Quand on parle du loup'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que veut dire 'Essere un uccello di malaugurio' ?",
+      "options": [
+        "Être un oiseau de mauvais augure / porter la poisse",
+        "Aimer les oiseaux",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les métaphores animalières sont très présentes dans l'imaginaire linguistique italien.",
+      "reponse": true
+    }
+  ]
+}

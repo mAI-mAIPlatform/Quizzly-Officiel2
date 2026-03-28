@@ -1,0 +1,94 @@
+{
+  "id": "quiz8",
+  "titre": "Articles Indéfinis Singuliers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est l'article masculin standard (Un) ?",
+      "options": [
+        "un",
+        "uno",
+        "una",
+        "un'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On utilise 'uno' devant les mots masculins commençant par 'Z' ou 'S+consonne'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'article féminin standard est '{{1}}'.",
+      "reponsesAttendues": [
+        "una"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que devient 'una' devant un mot féminin commençant par une voyelle ?",
+      "options": [
+        "una",
+        "un",
+        "un'",
+        "uno"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'un' (masculin) ne prend JAMAIS d'apostrophe devant une voyelle.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Complétez : '____ amico' (un ami).",
+      "options": [
+        "un",
+        "un'",
+        "una",
+        "uno"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Complétez : '____ mela' (une pomme).",
+      "reponsesAttendues": [
+        "una"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On dit 'uno studente'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Complétez : '____ amica' (une amie).",
+      "options": [
+        "un",
+        "una",
+        "un'",
+        "uno"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'article indéfini n'a pas de forme plurielle directe en italien (on utilise d'autres mots).",
+      "reponse": true
+    }
+  ]
+}

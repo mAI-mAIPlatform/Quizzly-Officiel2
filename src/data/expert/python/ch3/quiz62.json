@@ -1,0 +1,95 @@
+{
+  "id": "quiz62",
+  "titre": "Python Expert : Le Multi-threading et le GIL",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie GIL dans l'implémentation CPython ?",
+      "options": [
+        "Global Interpreter Lock",
+        "General Identification Loop",
+        "Global Interface Language",
+        "Garbage Internal Layer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En raison du GIL, deux threads Python ne peuvent jamais exécuter de bytecode Python simultanément sur deux cœurs différents.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le module `{{1}}` permet de créer et gérer des threads en Python.",
+      "reponsesAttendues": [
+        "threading"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Dans quel cas le multithreading reste-t-il efficace en CPython malgré le GIL ?",
+      "options": [
+        "Tâches liées aux entrées/sorties (réseau, disque)",
+        "Calculs mathématiques lourds",
+        "Traitement d'images pur Python",
+        "Génération de grands nombres premiers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La méthode `join()` d'un thread attend que celui-ci ait terminé son exécution.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un thread 'Daemon' ?",
+      "options": [
+        "Un thread qui se termine automatiquement quand le programme principal s'arrête",
+        "Un thread malveillant",
+        "Un thread qui s'exécute en priorité haute",
+        "Un thread qui ne meurt jamais"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Un `threading.{{1}}` est utilisé pour empêcher plusieurs threads d'accéder à une ressource partagée en même temps.",
+      "reponsesAttendues": [
+        "Lock",
+        "RLock"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Une 'Race Condition' survient quand le résultat dépend de l'ordre d'entrelacement des threads.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre `Lock` et `RLock` ?",
+      "options": [
+        "RLock peut être acquis plusieurs fois par le même thread (réentrant)",
+        "Lock est plus rapide que RLock",
+        "RLock est pour le réseau",
+        "Il n'y a aucune différence"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation de `threading.local()` permet de créer des données spécifiques à chaque thread.",
+      "reponse": true
+    }
+  ]
+}

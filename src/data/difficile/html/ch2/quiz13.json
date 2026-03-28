@@ -1,0 +1,90 @@
+{
+  "id": "quiz13",
+  "titre": "Progress et Meter",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise utiliser pour une jauge (ex: niveau de batterie) ?",
+      "options": [
+        "<meter>",
+        "<progress>",
+        "<range>",
+        "<jauge>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "<progress> est plus adapté pour une tâche en cours d'accomplissement.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour <meter>, l'attribut {{1}} définit la valeur considérée comme idéale.",
+      "reponsesAttendues": ["optimum"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si la valeur dépasse 'high' dans <meter> ?",
+      "options": [
+        "La couleur de la jauge change souvent (ex: devient rouge/orange)",
+        "Elle explose",
+        "Rien",
+        "None"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "<progress> possède un attribut 'min'.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle est la valeur maximale par défaut de <progress> ?",
+      "options": [
+        "1.0",
+        "100",
+        "10",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Tous deux utilisent l'attribut {{1}} pour définir la position actuelle.",
+      "reponsesAttendues": ["value"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Ces éléments sont accessibles par défaut car ils ont des rôles ARIA natifs.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment styliser la barre de progression en CSS (Webkit) ?",
+      "options": [
+        "::-webkit-progress-bar",
+        ".progress-bar",
+        "#progress",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il est recommandé de toujours fournir un fallback textuel à l'intérieur de ces balises.",
+      "reponse": true
+    }
+  ]
+}

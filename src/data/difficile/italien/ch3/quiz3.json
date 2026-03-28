@@ -1,0 +1,90 @@
+{
+  "id": "quiz3",
+  "titre": "Régionalisme (Léga)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel était l'objectif initial de la 'Ligue du Nord' (Lega Nord) fondée par Umberto Bossi ?",
+      "options": [
+        "L'autonomie ou l'indépendance du Nord ('Padanie')",
+        "La centralisation totale",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La 'Padanie' est une région géographique et mythique regroupant les régions du bassin du Pô.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le slogan historique était 'Roma {{1}}' (ladrona), dénonçant le gaspillage de l'argent du Nord par Rome.",
+      "reponsesAttendues": ["voleuse", "ladrona"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui est devenu le leader de la Ligue en changeant son orientation vers un parti nationaliste ?",
+      "options": [
+        "Matteo Salvini",
+        "Roberto Maroni",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'Italie possède 5 régions à statut spécial d'autonomie (Sicile, Sardaigne, etc.).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel concept politique prône le transfert de pouvoirs de l'État central vers les régions ?",
+      "options": [
+        "Le Fédéralisme fiscal",
+        "Le Jacobinisme",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'autonomie {{1}} (différenciée) est un sujet de débat actuel pour donner plus de compétences aux régions.",
+      "reponsesAttendues": ["différenciée"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le sentiment d'appartenance à la 'petite patrie' (campanilisme) reste très fort en Italie.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Dans quel domaine les régions italiennes ont-elles une compétence majeure ?",
+      "options": [
+        "La Santé (Sanità)",
+        "La Défense nationale",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'opposition entre un Nord industriel et un Sud plus rural alimente le débat régionaliste.",
+      "reponse": true
+    }
+  ]
+}

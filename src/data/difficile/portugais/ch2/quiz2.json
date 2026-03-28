@@ -1,0 +1,90 @@
+{
+  "id": "quiz2",
+  "titre": "Hétéronymes de Pessoa",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un hétéronyme chez Pessoa ?",
+      "options": [
+        "Une personnalité littéraire distincte avec son propre style et biographie",
+        "Un simple pseudonyme",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Alberto Caeiro est considéré comme le 'maître' de tous les autres hétéronymes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'hétéronyme futuriste et tourmenté de Pessoa est {{1}}.",
+      "reponsesAttendues": ["Álvaro de Campos"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel de ces noms est l'hétéronyme classique et latinista ?",
+      "options": [
+        "Ricardo Reis",
+        "Bernardo Soares",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Bernardo Soares est l'auteur fictif du 'Livre de l'Intranquillité'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel était le métier de Fernando Pessoa ?",
+      "options": [
+        "Traducteur de correspondance commerciale",
+        "Marin",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'ouvrage poétique publié du vivant de Pessoa célébrant le passé du Portugal est '{{1}}'.",
+      "reponsesAttendues": ["Mensagem"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Pessoa a vécu une grande partie de son enfance en Afrique du Sud (Durban).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le thème principal de l'œuvre de Ricardo Reis ?",
+      "options": [
+        "Le Stoïcisme et l'Épicurisme (le Carpe Diem)",
+        "La technologie et le progrès",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Pessoa est enterré au monastère des Hiéronymites, à côté de Camões.",
+      "reponse": true
+    }
+  ]
+}

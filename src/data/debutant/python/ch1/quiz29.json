@@ -1,0 +1,94 @@
+{
+  "id": "quiz29",
+  "titre": "Le module random",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment importer le module permettant de générer de l'aléatoire ?",
+      "options": [
+        "import alea",
+        "import random",
+        "import chance",
+        "import math"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "random.random() renvoie un nombre entre 0.0 et 1.0.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour obtenir un entier entre 1 et 10 inclus, on utilise random.{{1}}(1, 10).",
+      "reponsesAttendues": [
+        "randint"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle fonction choisit un élément au hasard dans une liste ?",
+      "options": [
+        "random.pick()",
+        "random.choice()",
+        "random.select()",
+        "random.take()"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "random.seed() permet de rendre les résultats reproductibles.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que fait random.shuffle(ma_liste) ?",
+      "options": [
+        "Elle trie la liste",
+        "Elle mélange la liste sur place",
+        "Elle supprime la liste",
+        "Elle duplique la liste"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "random.{{1}}() renvoie un élément d'une liste sans le modifier.",
+      "reponsesAttendues": [
+        "choice"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'aléatoire informatique est souvent un 'pseudo-aléatoire'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "random.randrange(0, 10) inclut-il le 10 ?",
+      "options": [
+        "Oui",
+        "Non (s'arrête à 9)",
+        "Parfois",
+        "Seulement le dimanche"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le module random est utile pour les jeux vidéo.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz7",
+  "titre": "Euripide",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi Euripide était-il jugé 'moderne' et controversé à son époque ?",
+      "options": [
+        "Pour son réalisme psychologique et sa critique des dieux et des valeurs traditionnelles",
+        "Parce qu'il utilisait des costumes en plastique",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Médée est l'une des figures féminines les plus puissantes et terrifiantes d'Euripide.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'usage du '{{1}} ex machina' (une divinité qui descend pour dénouer l'intrigue) est fréquent chez lui.",
+      "reponsesAttendues": ["deus"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle tragédie d'Euripide met en scène le culte orgiaque de Dionysos ?",
+      "options": [
+        "Les Bacchantes",
+        "Électre",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Chœur perd de son importance dramatique chez Euripide au profit de l'action individuelle.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Euripide s'intéresse particulièrement :",
+      "options": [
+        "À la psychologie des femmes et des esclaves",
+        "Uniquement aux rois",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Dans '{{1}}', une mère tue ses propres enfants pour se venger de son mari Jason.",
+      "reponsesAttendues": ["Médée"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Euripide a terminé sa vie à la cour du roi de Macédoine.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Le style d'Euripide est :",
+      "options": [
+        "Proche de la langue parlée, analytique et parfois rhétorique",
+        "Obscur et mystique",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il est le tragique dont nous avons conservé le plus de pièces (18 ou 19).",
+      "reponse": true
+    }
+  ]
+}

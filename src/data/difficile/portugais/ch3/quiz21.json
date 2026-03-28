@@ -1,0 +1,90 @@
+{
+  "id": "quiz21",
+  "titre": "Le Cap-Vert",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Le Cap-Vert était-il habité avant l'arrivée des Portugais en 1460 ?",
+      "options": [
+        "Non, l'archipel était désert",
+        "Oui, par des populations locales",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Cap-Vert est devenu une plaque tournante du commerce transatlantique d'esclaves.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La ville de {{1}} (Cidade Velha) fut la première ville européenne construite sous les tropiques.",
+      "reponsesAttendues": ["Ribeira Grande"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "En quelle année le Cap-Vert a-t-il accédé à l'indépendance ?",
+      "options": [
+        "5 juillet 1975",
+        "1960",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le pays a été gouverné par un parti unique (PAICV) uni à la Guinée-Bissau jusqu'en 1980.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle est la principale ressource économique actuelle du Cap-Vert ?",
+      "options": [
+        "Le tourisme et les services",
+        "Le pétrole",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le {{1}} (Kriol) est la langue maternelle de presque tous les Cap-verdiens.",
+      "reponsesAttendues": ["créole", "crioulo"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Cap-Vert est considéré comme un modèle de stabilité démocratique en Afrique.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "À quelle île appartient la ville de Mindelo, capitale culturelle ?",
+      "options": [
+        "São Vicente",
+        "Santiago",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Cap-Vert entretient des relations privilégiées (partenariat spécial) avec l'Union Européenne.",
+      "reponse": true
+    }
+  ]
+}

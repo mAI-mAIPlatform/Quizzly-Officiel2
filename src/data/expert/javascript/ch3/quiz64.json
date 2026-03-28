@@ -1,0 +1,94 @@
+{
+  "id": "quiz64",
+  "titre": "JavaScript Expert : Web Workers et Parallélisme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le rôle principal d'un Web Worker ?",
+      "options": [
+        "Exécuter du JavaScript en arrière-plan sur un thread séparé",
+        "Styliser la page",
+        "Gérer les cookies",
+        "Redimensionner les images automatiquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les Web Workers ont un accès complet au DOM.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On communique avec un worker via la méthode `{{1}}()`.",
+      "reponsesAttendues": [
+        "postMessage"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment récupérer les données envoyées par un worker dans le thread principal ?",
+      "options": [
+        "En écoutant l'événement 'message'",
+        "En lisant une variable globale",
+        "Via une promesse directe",
+        "Il n'est pas possible de récupérer de données"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les 'Transferable Objects' permettent de transférer la propriété d'une mémoire (ex: ArrayBuffer) sans copie, pour une performance maximale.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un Service Worker ?",
+      "options": [
+        "Un type spécial de worker servant de proxy réseau (mise en cache, mode hors-ligne)",
+        "Un worker de design",
+        "Un worker de base de données",
+        "Une fonction d'aide"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Un `{{1}}` Worker permet de partager un worker entre plusieurs fenêtres ou onglets du même domaine.",
+      "reponsesAttendues": [
+        "Shared"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les workers permettent d'éviter de bloquer le thread UI lors de calculs lourds.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle API permet d'importer des scripts dans un worker ?",
+      "options": [
+        "importScripts()",
+        "require()",
+        "fetch()",
+        "getScripts()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Comlink est une bibliothèque facilitant l'interaction avec les workers via un système de proxy RPC.",
+      "reponse": true
+    }
+  ]
+}

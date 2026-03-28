@@ -1,0 +1,94 @@
+{
+  "id": "quiz6",
+  "titre": "Premières Phrases simples",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'Puella aquam amat' ?",
+      "options": [
+        "La fille aime l'eau",
+        "La fille boit de l'eau",
+        "La fille donne de l'eau",
+        "L'eau est bonne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En latin, le verbe se place souvent à la fin de la phrase.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans 'Agricola terram laborat', le sujet est '{{1}}'.",
+      "reponsesAttendues": [
+        "Agricola"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Traduisez : 'Les filles aiment les roses'.",
+      "options": [
+        "Puellae rosas amant",
+        "Puella rosam amat",
+        "Puellae rosam amant",
+        "Puella rosas amat"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Nauta viam amat' signifie 'le marin aime la route'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'Sumus nautae' ?",
+      "options": [
+        "Nous sommes des marins",
+        "Vous êtes des marins",
+        "Je suis un marin",
+        "Ils sont des marins"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le mot 'non' permet de faire la {{1}}.",
+      "reponsesAttendues": [
+        "négation"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Puella non laborat' signifie 'la fille ne travaille pas'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle est une phrase correcte ?",
+      "options": [
+        "Agricola puellam amat",
+        "Agricolam puella amant",
+        "Agricola puella amat",
+        "Agricolae rosam amat"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'accusatif singulier finit par -m.",
+      "reponse": true
+    }
+  ]
+}

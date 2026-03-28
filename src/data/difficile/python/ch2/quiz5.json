@@ -1,0 +1,90 @@
+{
+  "id": "quiz5",
+  "titre": "Scopes : LEGB",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie la règle LEGB ?",
+      "options": [
+        "Légitalité, Égalité, Globalité, Beauté",
+        "Local, Enclosing, Global, Built-in (Ordre de recherche des variables)",
+        "Liste, Ensembe, Graphe, Buffer",
+        "Level, Entry, Gate, Boundary"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une variable définie à l'intérieur d'une fonction est accessible à l'extérieur.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour modifier une variable globale à l'intérieur d'une fonction, on utilise le mot-clé {{1}}.",
+      "reponsesAttendues": ["global"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une variable 'Enclosing' ?",
+      "options": [
+        "Une variable système",
+        "Une variable située dans une fonction parente (englobante) lors d'imbrications",
+        "Une variable de classe",
+        "Une variable cachée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le mot-clé 'nonlocal' permet de modifier une variable dans le scope 'Enclosing'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel fait partie du scope 'Built-in' ?",
+      "options": [
+        "Vos variables",
+        "Les fonctions natives comme len(), range() or print()",
+        "Le module math",
+        "Rien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Si une variable n'est trouvée dans aucun des 4 scopes LEGB, Python lève une {{1}}.",
+      "reponsesAttendues": ["NameError"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il est recommandé d'abuser des variables globales pour simplifier le code.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si on définit une variable locale avec le même nom qu'une globale ?",
+      "options": [
+        "La globale est supprimée",
+        "La locale 'masque' (shadow) la globale pour cette fonction",
+        "Une erreur est levée",
+        "Les deux fusionnent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La règle LEGB s'applique à chaque lecture de variable.",
+      "reponse": true
+    }
+  ]
+}

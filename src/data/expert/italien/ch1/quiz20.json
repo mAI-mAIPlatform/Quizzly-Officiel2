@@ -1,0 +1,94 @@
+{
+  "id": "quiz20",
+  "titre": "Revisione : Sintassi e Idiotismi (Capitolo 1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quale connettivo indica opposizione ?",
+      "options": [
+        "Tuttavia",
+        "Dunque",
+        "Inoltre",
+        "Perciò"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "In 'Se lo sapevo, venivo' usiamo l'imperfetto indicativo al posto del congiuntivo.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un 'omone' è un esempio di nome `{{1}}`.",
+      "reponsesAttendues": [
+        "accrescitivo"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Cosa significa 'cavarsela' ?",
+      "options": [
+        "Riuscire ad uscire da guai",
+        "Far da soli",
+        "Andare a casa",
+        "Fare tardi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Il sufixo -ite indica un movimento politico.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qual è la forma corretta per il passato di 'farcela' (io) ?",
+      "options": [
+        "ce l'ho fatta",
+        "l'ho fatta",
+        "mi ho fatta",
+        "ce la ho fatta"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "'In bocca al lupo !' -> '`{{1}}` !' (risposta tipica).",
+      "reponsesAttendues": [
+        "crepi"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "In 'Ti faccio studiare', ti è oggetto diretto.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Cos'è un 'falso alterato' ?",
+      "options": [
+        "Un nome che sembra alterato ma non lo è",
+        "Un nome alterato male",
+        "Un nome straniero",
+        "Un nome composto"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'infinito passato esprime sempre contemporaneità.",
+      "reponse": false
+    }
+  ]
+}

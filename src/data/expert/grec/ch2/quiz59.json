@@ -1,0 +1,94 @@
+{
+  "id": "quiz59",
+  "titre": "Grec Expert : Analyse Syntaxique Avancée",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la valeur de l'imparfait dans l'expression d'un désir irréalisable ?",
+      "options": [
+        "Exprimer un souhait non réalisé dans le présent",
+        "Un simple passé",
+        "Un avenir probable",
+        "Une demande polie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'aoriste peut parfois exprimer une vérité générale (aoriste gnomique).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La particule `{{1}}` avec le futur de l'indicatif exprime souvent une menace ou un avertissement.",
+      "reponsesAttendues": [
+        "εἰ"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le redoublement au parfait qui commence par une voyelle ?",
+      "options": [
+        "L'allongement temporel",
+        "Le redoublement attique",
+        "L'augment",
+        "Le psilose"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le datif d'agent s'utilise presque uniquement avec le parfait passif et l'adjectif verbal.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle est la nuance de l'optatif de souhait par rapport au subjonctif ?",
+      "options": [
+        "Il exprime un souhait plus distant ou incertain",
+        "Il est plus impératif",
+        "Il est plus agressif",
+        "Il n'y a aucune nuance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'accusatif dit 'de `{{1}}`' précise une qualité physique ou morale (ex: rapide DE PIED).",
+      "reponsesAttendues": [
+        "relation"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "μή peut parfois s'employer avec l'indicatif dans des questions attendant une réponse négative.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'exprime le participe avec 'καίπερ' ?",
+      "options": [
+        "La concession (bien que)",
+        "La cause",
+        "Le but",
+        "Le temps"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'usage de l'infinitif à la place de l'impératif est attesté chez Homère.",
+      "reponse": true
+    }
+  ]
+}

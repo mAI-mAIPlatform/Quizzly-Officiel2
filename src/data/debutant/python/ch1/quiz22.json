@@ -1,0 +1,94 @@
+{
+  "id": "quiz22",
+  "titre": "Valeurs de Vérité (Truthiness)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel est considéré comme 'Faux' (Falsy) ?",
+      "options": [
+        "0",
+        "[]",
+        "\"\"",
+        "Toutes ces réponses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Tout nombre différent de zéro est considéré comme True.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une liste vide [] est évaluée à {{1}} dans un test 'if'.",
+      "reponsesAttendues": [
+        "False"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que renvoie bool(\" \") ? (chaîne avec un espace)",
+      "options": [
+        "True",
+        "False",
+        "None",
+        "Erreur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "None est évalué à False.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces valeurs est 'True' ?",
+      "options": [
+        "0.0",
+        "()",
+        "\"0\"",
+        "{}"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La fonction {{1}}() permet de voir si une valeur est vraie ou fausse.",
+      "reponsesAttendues": [
+        "bool"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Une chaîne de caractères contenant 'False' est évaluée à True.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Pourquoi est-ce utile ?",
+      "options": [
+        "Pour tester si une liste n'est pas vide simplement",
+        "Pour économiser de la mémoire",
+        "Pour trier les données",
+        "C'est une erreur de conception"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Une liste contenant [0] est évaluée à True.",
+      "reponse": true
+    }
+  ]
+}

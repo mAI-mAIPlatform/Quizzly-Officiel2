@@ -1,0 +1,90 @@
+{
+  "id": "quiz6",
+  "titre": "Le Fado : Saudade",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel sentiment central définit l'essence du Fado ?",
+      "options": [
+        "Saudade",
+        "Alegria",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Fado est inscrit au patrimoine culturel immatériel de l'humanité par l'UNESCO.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La 'Reine du Fado', icône mondiale du genre, est Amália {{1}}.",
+      "reponsesAttendues": ["Rodrigues"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quels sont les deux principaux types de Fado ?",
+      "options": [
+        "Fado de Lisboa et Fado de Coimbra",
+        "Fado de Porto et Fado de Faro",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Fado de Coimbra est traditionnellement chanté par des femmes dans les rues.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel instrument est indissociable du Fado ?",
+      "options": [
+        "Guitarra Portuguesa (Guitare portugaise à 12 cordes)",
+        "Violino",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le Fado exprime souvent la fatalité, le destin et la douleur d'une perte {{1}}.",
+      "reponsesAttendues": ["amoureuse", "irréparable"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Mariza est l'une des représentantes les plus célèbres du 'Novo Fado'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Où sont nés les premiers chants de Fado selon la tradition ?",
+      "options": [
+        "Dans les quartiers populaires de Lisbonne (Alfama, Mouraria)",
+        "Dans les palais royaux",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Fado a toujours été encouragé par les élites intellectuelles dès ses débuts.",
+      "reponse": false
+    }
+  ]
+}

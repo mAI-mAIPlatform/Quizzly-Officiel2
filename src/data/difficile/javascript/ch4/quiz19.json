@@ -1,0 +1,90 @@
+{
+  "id": "quiz19",
+  "titre": "Rendus : Virtual vs Real DOM",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le Virtual DOM ?",
+      "options": [
+        "Un DOM en 3D",
+        "Une représentation légère en mémoire (objet JS) du vrai DOM",
+        "Le DOM d'une iframe",
+        "Un bug de React"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Manipuler le Virtual DOM est beaucoup plus rapide que manipuler le Real DOM directement.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le processus de comparaison de deux arbres Virtual DOM s'appelle le {{1}} (Diffing).",
+      "reponsesAttendues": ["Reconciliation", "Diffing"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage final du Virtual DOM ?",
+      "options": [
+        "Moins de code",
+        "Minimiser le nombre de mutations coûteuses sur le Real DOM (batching)",
+        "Pas besoin de CSS",
+        "On peut coder en Python"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Virtual DOM est toujours la solution la plus rapide pour TOUS les cas d'usage.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Pourquoi Svelte n'utilise-t-il pas de Virtual DOM ?",
+      "options": [
+        "Parce qu'il est vieux",
+        "Parce qu'il compile les changements directement en instructions DOM précises lors du build",
+        "Parce qu'il est cassé",
+        "C'est un secret"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'utilisation de {{1}} uniques dans les listes aide le Virtual DOM à identifier les éléments modifiés.",
+      "reponsesAttendues": ["clés", "keys"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Real DOM est lent principalement à cause des 'Reflows' et 'Repaints' qu'il déclenche.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Shadow DOM' ?",
+      "options": [
+        "La partie sombre du code",
+        "Une technique d'encapsulation pour les Web Components (DOM isolé)",
+        "Un mode nuit automatique",
+        "Un virus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser document.createDocumentFragment() pour regrouper des modifications Real DOM sans Virtual DOM.",
+      "reponse": true
+    }
+  ]
+}

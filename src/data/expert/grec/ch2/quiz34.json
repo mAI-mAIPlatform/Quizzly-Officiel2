@@ -1,0 +1,94 @@
+{
+  "id": "quiz34",
+  "titre": "Grec Expert : Propositions Complétives",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelles sont les deux conjonctions principales introduisant une complétive déclarative ?",
+      "options": [
+        "ὅτι et ὡς",
+        "ἵνα et ὅπως",
+        "εἰ et ἐάν",
+        "ὥστε et ἐπεί"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Après un verbe de déclaration ou de pensée, on peut utiliser soit une subordonnée avec conjonction, soit une construction infinitive.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le verbe φημί (dire) se construit presque toujours avec l'`{{1}}`.",
+      "reponsesAttendues": [
+        "infinitif"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la particularité des verbes de perception (ex: ὁράω) ?",
+      "options": [
+        "Ils se construisent souvent avec le participe prépositionnel",
+        "Ils exigent l'impératif",
+        "Ils ne peuvent pas avoir d'objet",
+        "Ils utilisent uniquement le subjonctif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les complétives de crainte utilisent la conjonction μή.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Dans 'δεινόν ἐστιν εἰ...' (il est terrible que/si...), quelle est la nuance ?",
+      "options": [
+        "Une crainte présentée comme une hypothèse",
+        "Une certitude absolue",
+        "Un ordre déguisé",
+        "Un souhait irréalisable"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'interrogation indirecte est introduite par `{{1}}` (si) ou par des pronoms interrogatifs.",
+      "reponsesAttendues": [
+        "εἰ"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le style indirect grec respecte généralement le temps de l'indicatif original.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment exprime-t-on 'je crains que... ne... pas' ?",
+      "options": [
+        "μή οὐ",
+        "μή",
+        "οὐ μή",
+        "οὐ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'optatif oblique est fréquent dans les complétives après un temps secondaire.",
+      "reponse": true
+    }
+  ]
+}

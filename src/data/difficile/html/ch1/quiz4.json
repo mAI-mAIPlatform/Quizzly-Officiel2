@@ -1,0 +1,90 @@
+{
+  "id": "quiz4",
+  "titre": "Attributs Globaux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel attribut permet de stocker des données personnalisées privées à l'application ?",
+      "options": [
+        "data-*",
+        "meta-*",
+        "custom-*",
+        "val-*"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'id' doit être unique dans tout le document.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} permet de rendre un élément éditable par l'utilisateur.",
+      "reponsesAttendues": ["contenteditable"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que spécifie l'attribut 'tabindex' ?",
+      "options": [
+        "L'ordre de navigation au clavier",
+        "Le nombre de colonnes",
+        "L'index de la base de données",
+        "La position CSS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'hidden' cache l'élément visuellement et pour les lecteurs d'écran.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel attribut global permet d'ajouter une bulle d'aide au survol ?",
+      "options": [
+        "title",
+        "alt",
+        "tooltip",
+        "hover"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} définit si l'élément doit être vérifié pour l'orthographe.",
+      "reponsesAttendues": ["spellcheck"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'class' ne peut contenir qu'un seul nom de classe.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment accède-t-on aux attributs 'data-' en JavaScript ?",
+      "options": [
+        "element.dataset",
+        "element.data",
+        "element.getValues()",
+        "element.attributes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'dir' permet de spécifier la direction du texte (ltr ou rtl).",
+      "reponse": true
+    }
+  ]
+}

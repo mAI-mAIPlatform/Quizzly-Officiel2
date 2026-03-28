@@ -1,0 +1,94 @@
+{
+  "id": "quiz26",
+  "titre": "Matière et Recyclage",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces matières peut être recyclée à l'infini ?",
+      "options": [
+        "Le papier",
+        "Le verre",
+        "Le plastique",
+        "Le bois"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le plastique est fabriqué à partir de pétrole.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le recyclage permet de transformer les {{1}} en nouveaux objets.",
+      "reponsesAttendues": [
+        "déchets"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'utilise-t-on pour fabriquer du papier ?",
+      "options": [
+        "Du sable",
+        "Du bois (arbres)",
+        "Du fer",
+        "Du vent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Toutes les poubelles sont les mêmes.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que devient une canette de soda en aluminium recyclée ?",
+      "options": [
+        "Elle disparaît",
+        "Elle peut devenir une nouvelle canette ou un vélo",
+        "Elle devient de la terre",
+        "Elle devient du verre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le {{1}} est la matière utilisée pour faire les vitres.",
+      "reponsesAttendues": [
+        "verre"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Moins on utilise de matière, moins on pollue.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle est une matière naturelle ?",
+      "options": [
+        "Le plastique",
+        "Le coton",
+        "Le nylon",
+        "Le polyester"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Recycler aide à économiser les ressources de la Terre.",
+      "reponse": true
+    }
+  ]
+}

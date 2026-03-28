@@ -1,0 +1,90 @@
+{
+  "id": "quiz16",
+  "titre": "L'Exécution : __name__",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la valeur de __name__ quand un script est exécuté directement ?",
+      "options": [
+        "\"__module__\"",
+        "\"__main__\"",
+        "FILENAME",
+        "None"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Quand un fichier est importé, __name__ prend le nom du fichier (module).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le bloc if __name__ == \"__main__\": permet d'éviter l'exécution du code lors d'un {{1}}.",
+      "reponsesAttendues": ["import", "importation"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser ce bloc ?",
+      "options": [
+        "Pour la sécurité",
+        "Pour tester son module en local sans impacter les scripts qui l'utilisent ensuite",
+        "C'est imposé par la PEP8",
+        "C'est obsolète"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un module peut fonctionner à la fois comme script autonome et comme bibliothèque.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Où est définie la variable __name__ ?",
+      "options": [
+        "C'est une variable globale automatique",
+        "On doit la définir manuellement",
+        "Dans setup.py",
+        "Dans PIP"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'appel de fonction main() est souvent placé dans le bloc {{1}}.",
+      "reponsesAttendues": ["if __name__ == '__main__':", "if name == main"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Dans un package, __name__ inclut le chemin complet (ex: pkg.sub.mod).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle commande exécute un module situé dans un package ?",
+      "options": [
+        "python package.module",
+        "python -m package.module",
+        "python run package",
+        "import package.module"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "__name__ est un exemple de 'dunder variable' (Double UNDERscore).",
+      "reponse": true
+    }
+  ]
+}

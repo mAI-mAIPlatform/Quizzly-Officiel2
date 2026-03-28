@@ -1,0 +1,94 @@
+{
+  "id": "quiz60",
+  "titre": "Revisione Finale : Capitolo 2 - HTML Esperto",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Étapes de rendu HTML -> Pixels ?",
+      "options": [
+        "Critical Rendering Path",
+        "Network Information",
+        "Storage API",
+        "Canvas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "preconnect est plus complet que dns-prefetch.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Chargement asynchrone des polices : `Font {{1}} API`.",
+      "reponsesAttendues": [
+        "Face"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "API pour vibration mobile ?",
+      "options": [
+        "Vibrate",
+        "Motion",
+        "Vocal",
+        "Bluetooth"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "visibilitychange détecte le changement d'onglet.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Copier-coller asynchrone ?",
+      "options": [
+        "Clipboard API",
+        "Selection API",
+        "Paste API",
+        "Buffer API"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Partage natif : `navigator.{{1}}`.",
+      "reponsesAttendues": [
+        "share"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Network Info API n'est pas sur Safari.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Orientation lock nécessite ?",
+      "options": [
+        "Le mode plein écran (Fullscreen)",
+        "Une connexion 4G",
+        "Le GPS",
+        "Un mot de passe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "font-display: swap évite le texte invisible.",
+      "reponse": true
+    }
+  ]
+}

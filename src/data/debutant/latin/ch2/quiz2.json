@@ -1,0 +1,94 @@
+{
+  "id": "quiz2",
+  "titre": "Les Cas en Latin (1) : Sujet et COD",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel cas correspond au sujet de la phrase ?",
+      "options": [
+        "Le Nominatif",
+        "L'Accusatif",
+        "Le Génitif",
+        "Le Datif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Accusatif est le cas du complément d'objet direct (COD).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "À l'accusatif singulier, 'rosa' devient 'ros{{1}}'.",
+      "reponsesAttendues": [
+        "am"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison de l'accusatif singulier pour la 1ère déclinaison ?",
+      "options": [
+        "-am",
+        "-as",
+        "-a",
+        "-ae"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le nominatif pluriel de 'puella' est 'puellae'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison de l'accusatif pluriel (les COD au pluriel) ?",
+      "options": [
+        "-as",
+        "-ae",
+        "-is",
+        "-os"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le cas '{{1}}' sert à interpeller quelqu'un.",
+      "reponsesAttendues": [
+        "Vocatif"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le vocatif de 'rosa' est 'rosa'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Dans 'Puella rosam amat', quel est le COD ?",
+      "options": [
+        "rosam",
+        "Puella",
+        "amat",
+        "Il n'y en a pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Comprendre les cas permet de se passer de l'ordre des mots français.",
+      "reponse": true
+    }
+  ]
+}

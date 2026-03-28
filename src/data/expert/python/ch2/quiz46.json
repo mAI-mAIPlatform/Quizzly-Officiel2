@@ -1,0 +1,94 @@
+{
+  "id": "quiz46",
+  "titre": "Python Expert : __init_subclass__",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert la méthode `__init_subclass__` introduite en Python 3.6 ?",
+      "options": [
+        "À personnaliser la création des sous-classes sans utiliser de métaclasse complexe",
+        "À initialiser l'instance",
+        "À supprimer les sous-classes",
+        "À tricher aux examens"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "__init_subclass__ est appelée sur la classe parente dès qu'une classe en hérite.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le premier argument reçu est `{{1}}` (la sous-classe en cours de création).",
+      "reponsesAttendues": [
+        "cls"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel avantage par rapport à une métaclasse ?",
+      "options": [
+        "Elle est beaucoup plus simple à lire et à maintenir",
+        "Elle est plus puissante",
+        "Elle est obligatoire",
+        "Elle ne demande pas de mémoire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut passer des arguments nommés à __init_subclass__ via la définition de la classe : class MaSousClasse(Parent, arg1=val).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Usage typique de __init_subclass__ ?",
+      "options": [
+        "Enregistrement automatique des sous-classes dans un plugin manager",
+        "Faire du café",
+        "Ranger le code source",
+        "Modifier le mot de passe root"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour que les parents multiples fonctionnent, on doit appeler `super().__{{1}}__`.",
+      "reponsesAttendues": [
+        "init_subclass"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "__init_subclass__ est une méthode d'instance.",
+      "reponse : false (C'est une méthode de classe implicite)"
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Peut-on l'utiliser pour valider des attributs de la sous-classe ?",
+      "options": [
+        "Oui, on peut inspecter le dictionnaire de cls et lever une erreur",
+        "Non, c'est impossible",
+        "Uniquement pour les entiers",
+        "Seulement si la classe est vide"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "C'est l'un des outils de métaprogrammation 'moderne' les plus appréciés.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz14",
+  "titre": "Figures Littéraires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a écrit 'La Divine Comédie' ?",
+      "options": [
+        "Dante Alighieri",
+        "Pétrarque",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dante est considéré comme le 'Père de la langue italienne'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Giovanni {{1}} (Boccaccio) est l'auteur du 'Décaméron'.",
+      "reponsesAttendues": ["Boccace", "Boccaccio"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel poète italien a fixé les règles du sonnet moderne ?",
+      "options": [
+        "Pétrarque (Petrarca)",
+        "Le Tasse",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le dialecte toscan a servi de base à l'italien littéraire standard.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel auteur moderne a écrit le célèbre roman historique 'Le Nom de la rose' ?",
+      "options": [
+        "Umberto Eco",
+        "Italo Calvino",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": " {{1}} (Pirandello) a révolutionné le théâtre au XXe siècle.",
+      "reponsesAttendues": ["Pirandello"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " Giacomo Leopardi est le plus grand poète lyrique du XIXe siècle italien.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qui a écrit 'Les Fiancés' (I Promessi Sposi), pilier de l'identité italienne ?",
+      "options": [
+        "Alessandro Manzoni",
+        "Gabriele D'Annunzio",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Plusieurs auteurs italiens ont reçu le Prix Nobel de littérature.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "quiz65",
+  "titre": "Italien Expert : Machiavel et la Politique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel court traité de Niccolò Machiavelli a révolutionné la pensée politique ?",
+      "options": [
+        "Il Principe (Le Prince)",
+        "Discorsi",
+        "L'arte della guerra",
+        "Mandragola"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour Machiavel, la politique doit être séparée de la morale et de la religion.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Machiavel affirme qu'un prince doit être à la fois 'lion' pour la force et '`{{1}}`' pour la ruse.",
+      "reponsesAttendues": [
+        "renard",
+        "volpe"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel concept machiavélien désigne l'aptitude d'un chef à saisir l'opportunité et à agir efficacement ?",
+      "options": [
+        "La Virtù",
+        "La Fortuna",
+        "La Grazia",
+        "La Pietà"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La 'Fortuna' chez Machiavel est une force imprévisible que le prince doit savoir dompter.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Dans quel but Machiavel a-t-il écrit ‘Le Prince’ ?",
+      "options": [
+        "Pour conseiller les Médicis et unifier l'Italie face aux invasions étrangères",
+        "Pour s'amuser",
+        "Pour critiquer les rois",
+        "Pour enseigner la cuisine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La `{{1}}` (Mandragola) est une célèbre pièce de théâtre (comédie) écrite par Machiavel.",
+      "reponsesAttendues": [
+        "Mandragore",
+        "Mandragola"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'expression 'La fin justifie les moyens' est souvent associée à Machiavel, bien qu'il ne l'ait pas écrite mot pour mot.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Dans quel ouvrage Machiavel exprime-t-il sa préférence pour le régime républicain ?",
+      "options": [
+        "Discours sur la première décade de Tite-Live",
+        "Le Prince",
+        "Histoires florentines",
+        "Le Vie de Castruccio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le 'machiavélisme' est devenu synonyme de cynisme politique, simplifiant souvent la pensée réelle de l'auteur.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz57",
+  "titre": "Culture Générale Expert : Philosophie Contemporaine",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel philosophe français est la figure centrale de l'Existentialisme ('L'existence précède l'essence') ?",
+      "options": [
+        "Jean-Paul Sartre",
+        "Albert Camus",
+        "Michel Foucault",
+        "Gilles Deleuze"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Simone de Beauvoir est l'auteure du 'Deuxième Sexe', œuvre fondatrice du féminisme moderne.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Hannah `{{1}}` a analysé les mécanismes du totalitarisme et la 'banalité du mal'.",
+      "reponsesAttendues": [
+        "Arendt"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel courant philosophique s'intéresse au langage et à la logique (Russell, Wittgenstein) ?",
+      "options": [
+        "La philosophie analytique",
+        "La phénoménologie",
+        "Le structuralisme",
+        "Le marxisme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Albert Camus a développé la philosophie de l'Absurde (Le Mythe de Sisyphe).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui est le théoricien de la 'déconstruction' ?",
+      "options": [
+        "Jacques Derrida",
+        "Jean Baudrillard",
+        "Pierre Bourdieu",
+        "Claude Lévi-Strauss"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Friedrich `{{1}}` a annoncé la 'mort de Dieu' et prôné le 'Surhomme'.",
+      "reponsesAttendues": [
+        "Nietzsche"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'École de Francfort s'est illustrée par la 'Théorie critique' de la société.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel philosophe allemand contemporain a théorisé l' 'agir communicationnel' ?",
+      "options": [
+        "Jürgen Habermas",
+        "Martin Heidegger",
+        "Axel Honneth",
+        "Peter Sloterdijk"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'éthique de la sollicitude (Care) place le soin et l'attention aux autres au cœur de la morale.",
+      "reponse": true
+    }
+  ]
+}

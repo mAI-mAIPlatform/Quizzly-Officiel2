@@ -1,0 +1,90 @@
+{
+  "id": "quiz22",
+  "titre": "Apulée",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est l'autre titre de 'L'Âne d'Or' d'Apulée ?",
+      "options": [
+        "Les Métamorphoses",
+        "Le Satyricon",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le héros, Lucius, est transformé en âne après avoir testé un onguent magique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'épisode le plus célèbre inséré dans le roman est le conte d'{{1}} et de Psyché.",
+      "reponsesAttendues": ["Amour", "Cupidon"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment se termine le roman ?",
+      "options": [
+        "Par une conversion aux mystères de la déesse Isis",
+        "Par la mort du héros",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Apulée était originaire d'Afrique du Nord (Madaure).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Apulée a dû se défendre lors d'un procès célèbre pour :",
+      "options": [
+        "Magie (accusé d'avoir séduit une riche veuve par sorcellerie)",
+        "Meurtre",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Son discours de défense s'appelle l'{{1}} (Apologie).",
+      "reponsesAttendues": ["Apologia"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le style d'Apulée est 'asiatique' (riche, fleuri, archaïsant et musical).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Le roman mêle :",
+      "options": [
+        "Aventure, érotisme, magie et mysticisme",
+        "Uniquement de la morale",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'Âne d'Or est le seul roman latin conservé dans son intégralité.",
+      "reponse": true
+    }
+  ]
+}

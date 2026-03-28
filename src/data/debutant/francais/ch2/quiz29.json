@@ -1,0 +1,94 @@
+{
+  "id": "quiz29",
+  "titre": "Synthèse Grammaire et Vocabulaire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel pronom personnel correspond à 'Marie et Julie' ?",
+      "options": [
+        "Ils",
+        "Elles",
+        "Nous",
+        "Vous"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un nom propre commence par une majuscule.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Identifie l'adjectif : 'Le ciel est tout {{1}}' (couleur).",
+      "reponsesAttendues": [
+        "bleu"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle phrase est au pluriel ?",
+      "options": [
+        "Le chat dort.",
+        "Les chats dorment.",
+        "Un chat dort.",
+        "Il dort."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Manger' et 'dévorer' sont presque synonymes.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lalquelle est une phrase négative ?",
+      "options": [
+        "Il fait froid.",
+        "Il ne fait pas chaud.",
+        "Quelle heure est-il ?",
+        "Sortez vos cahiers."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le contraire de 'gentil' est '{{1}}'.",
+      "reponsesAttendues": [
+        "méchant"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On dit : 'La petite voiture rouge'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le féminin de 'un ami' ?",
+      "options": [
+        "un ami",
+        "un amie",
+        "une ami",
+        "une amie"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Tu deviens un expert en français !",
+      "reponse": true
+    }
+  ]
+}

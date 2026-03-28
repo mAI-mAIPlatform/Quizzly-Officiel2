@@ -1,0 +1,94 @@
+{
+  "id": "quiz97",
+  "titre": "Culture Générale Expert : Technologie et Société",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle technologie permet de stocker et transmettre des informations de manière transparente, sécurisée et sans organe central de contrôle ?",
+      "options": [
+        "La Blockchain",
+        "Le Cloud Computing",
+        "L'Intelligence Artificielle",
+        "La fibre optique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Web 3.0 (ou Web3) désigne un internet décentralisé basé sur la blockchain.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'`{{1}}` (Intelligence Artificielle) générative (comme ChatGPT) peut créer du texte, des images ou du code à partir d'un prompt.",
+      "reponsesAttendues": [
+        "Intelligence Artificielle"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie l'acronyme GAFAM ?",
+      "options": [
+        "Google, Apple, Facebook, Amazon, Microsoft",
+        "Global Art, Fashion And Music",
+        "General Association for Fair Media",
+        "Generic Algorithm For Advanced Math"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le RGPD (Règlement Général sur la Protection des Données) est une loi européenne protégeant la vie privée des citoyens en ligne.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on la fracture d'accès aux technologies numériques entre différentes populations ?",
+      "options": [
+        "La fracture numérique",
+        "L'isolement technologique",
+        "Le bug de l'an 2000",
+        "La déconnexion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Métavers) est un monde virtuel immersif et persistant où les utilisateurs peuvent interagir sous forme d'avatars.",
+      "reponsesAttendues": [
+        "Metavers"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'ordinateur quantique utilise des bits classiques pour effectuer ses calculs.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle ville est considérée comme le centre mondial de l'innovation technologique ?",
+      "options": [
+        "Silicon Valley",
+        "Shenzhen",
+        "Séoul",
+        "Berlin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'internet des objets (IoT) désigne l'interconnexion entre internet et des objets, lieux et environnements physiques.",
+      "reponse": true
+    }
+  ]
+}

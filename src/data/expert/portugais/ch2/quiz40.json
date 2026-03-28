@@ -1,0 +1,94 @@
+{
+  "id": "quiz40",
+  "titre": "Revisão : Gramática 1 (Capítulo 2 - Português Expert)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Modo de 'Espero que...' ?",
+      "options": [
+        "Subjuntivo",
+        "Indicativo",
+        "Imperativo",
+        "Infinito"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Se eu for' é futuro do subjuntivo.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "É necessário `{{1}}` (faire, nós) o esforço.",
+      "reponsesAttendues": [
+        "fazermos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Colocação : 'Não ... vi' ?",
+      "options": [
+        "te (próclise)",
+        "-te (ênclise)",
+        "te-i (mesóclise)",
+        "o"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Eu tive = Pretérito Perfeito de ter.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Ele falara = ?",
+      "options": [
+        "Mais-que-perfeito simples",
+        "Futuro",
+        "Presente",
+        "Imperfeito"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Vendem-se `{{1}}` (casa, pl).",
+      "reponsesAttendues": [
+        "casas"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Gosto de ler (Gostar exige 'de').",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Sentido de 'Embora' ?",
+      "options": [
+        "Bien que",
+        "Parce que",
+        "Quand",
+        "Donc"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "A mesóclise usa-se no futuro.",
+      "reponse": true
+    }
+  ]
+}

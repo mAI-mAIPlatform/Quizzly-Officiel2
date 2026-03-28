@@ -1,0 +1,94 @@
+{
+  "id": "quiz76",
+  "titre": "Python Expert : Générateurs et Itérateurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la principale différence entre un itérable et un itérateur ?",
+      "options": [
+        "L'itérateur implémente __next__ et garde un état, l'itérable implémente __iter__",
+        "Il n'y a pas de différence",
+        "L'itérable est plus rapide",
+        "L'itérateur est une liste"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un générateur est un type spécial d'itérateur qui utilise le mot-clé 'yield'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La méthode `{{1}}` permet d'envoyer une valeur à l'intérieur d'un générateur en pause.",
+      "reponsesAttendues": [
+        "send"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle exception est levée lorsqu'un itérateur n'a plus d'éléments à fournir ?",
+      "options": [
+        "StopIteration",
+        "EndOfIterator",
+        "IterationError",
+        "IndexError"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'yield from' permet de déléguer l'itération à un sous-générateur.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet de lever une exception à l'endroit où le générateur est suspendu ?",
+      "options": [
+        "throw",
+        "raise",
+        "error",
+        "close"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les `{{1}}` (Coroutines) étaient historiquement implémentées à l'aide de générateurs améliorés avant l'arrivée d'async/await.",
+      "reponsesAttendues": [
+        "coroutines"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un générateur consomme beaucoup de mémoire car il stocke tous ses résultats d'avance.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que retourne l'expression `(x**2 for x in range(10))` ?",
+      "options": [
+        "Un objet générateur (generator object)",
+        "Un tuple",
+        "Une liste",
+        "Une erreur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il est possible de retourner une valeur d'un générateur en utilisant 'return' (récupérable via StopIteration.value).",
+      "reponse": true
+    }
+  ]
+}

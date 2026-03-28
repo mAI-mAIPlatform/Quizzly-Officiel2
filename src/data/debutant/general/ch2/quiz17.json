@@ -1,0 +1,94 @@
+{
+  "id": "quiz17",
+  "titre": "Records du Monde (Curiosités)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le plus haut sommet du monde ?",
+      "options": [
+        "L'Everest",
+        "Le Mont Blanc",
+        "Le Kilimandjaro",
+        "L'Annapurna"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La baleine bleue est l'animal le plus lourd du monde.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le pays le plus peuplé du monde est actuellement l'{{1}} (Inde).",
+      "reponsesAttendues": [
+        "Inde"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est le plus grand pays du monde en superficie ?",
+      "options": [
+        "La Russie",
+        "Le Canada",
+        "La Chine",
+        "Les États-Unis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Sahara est le plus vaste désert chaud du monde.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est le pont le plus long du monde ?",
+      "options": [
+        "Le pont Danyang-Kunshan (Chine)",
+        "Le pont de Brooklyn",
+        "Le Golden Gate",
+        "Le viaduc de Millau"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La plus ancienne ville habitée en continu est souvent considérée comme étant {{1}} (Damas).",
+      "reponsesAttendues": [
+        "Damas"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'Amazone a le plus gros débit d'eau de tous les fleuves.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le bâtiment le plus haut du monde ?",
+      "options": [
+        "Burj Khalifa (Dubaï)",
+        "Empire State Building",
+        "Tour Eiffel",
+        "Tour de Shanghai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La mer Morte est le point le plus bas de la Terre ferme.",
+      "reponse": true
+    }
+  ]
+}

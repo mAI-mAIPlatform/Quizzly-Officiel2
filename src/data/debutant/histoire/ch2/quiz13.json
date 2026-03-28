@@ -1,0 +1,94 @@
+{
+  "id": "quiz13",
+  "titre": "La Grèce des Dieux",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où habitaient les dieux grecs ?",
+      "options": [
+        "Au fond de la mer",
+        "Sur le Mont Olympe",
+        "Dans une grotte",
+        "Dans le ciel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Zeus est le roi des dieux grecs.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le dieu de la mer s'appelle {{1}}.",
+      "reponsesAttendues": [
+        "Poséidon"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle déesse représente la sagesse et la guerre ?",
+      "options": [
+        "Aphrodite",
+        "Athéna",
+        "Héra",
+        "Artémis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les Grecs racontaient des mythes pour expliquer le monde.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel héros a combattu le Minotaure ?",
+      "options": [
+        "Hercule",
+        "Ulysse",
+        "Thésée",
+        "Achille"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le cheval de {{1}} a permis de gagner la guerre contre cette ville.",
+      "reponsesAttendues": [
+        "Troie"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Hercule a dû accomplir 12 travaux.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces créatures a un corps d'homme et une tête de taureau ?",
+      "options": [
+        "Le Centaure",
+        "Le Minotaure",
+        "La Chimère",
+        "Le Sphinx"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La mythologie grecque inspire encore de nombreux films aujourd'hui.",
+      "reponse": true
+    }
+  ]
+}

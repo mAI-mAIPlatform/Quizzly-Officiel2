@@ -1,0 +1,94 @@
+{
+  "id": "quiz59",
+  "titre": "Italien Expert : Musica e Opera",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quale compositore è l'autore di 'Nabucco' e 'La Traviata' ?",
+      "options": [
+        "Giuseppe Verdi",
+        "Giacomo Puccini",
+        "Gioachino Rossini",
+        "Antonio Vivaldi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Antonio Vivaldi è il compositore de 'Le Quattro Stagioni'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'opera di Puccini ambientata in Cina e rimasta incompiuta è `{{1}}`.",
+      "reponsesAttendues": [
+        "Turandot"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quale città ospita il celebre teatro d'opera 'La Scala' ?",
+      "options": [
+        "Milano",
+        "Venezia",
+        "Napoli",
+        "Roma"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Ennio Morricone è stato un famoso compositore di colonne sonore per il cinema.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Cosa indica il termine 'Aria' in un'opera ?",
+      "options": [
+        "Un brano solista che esprime i sentimenti di un personaggio",
+        "Un dialogo parlato",
+        "La scena finale",
+        "L'intervallo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Il grande tenore italiano scomparso nel 2007 è Luciano `{{1}}`.",
+      "reponsesAttendues": [
+        "Pavarotti"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Il Barbiere di Siviglia' è un'opera buffa di Rossini.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qual è lo strumento musicale inventato da Bartolomeo Cristofori a Firenze ?",
+      "options": [
+        "Il Pianoforte",
+        "Il Violino",
+        "La Chitarra",
+        "Il Flauto"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'italiano è la lingua universale della terminologia musicale (adagio, allegro, forte...).",
+      "reponse": true
+    }
+  ]
+}

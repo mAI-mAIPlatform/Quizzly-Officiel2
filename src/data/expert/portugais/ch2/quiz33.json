@@ -1,0 +1,95 @@
+{
+  "id": "quiz33",
+  "titre": "Português Expert : Infinito Pessoal",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "O que é o Infinito Pessoal ?",
+      "options": [
+        "Uma forma verbal que permite flexionar o infinitivo conforme o sujeito",
+        "Um tempo do passado",
+        "O mesmo que o gerúndio",
+        "Um modo que não existe em português"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Usa-se o infinito pessoal para evitar ambiguidades sobre quem realiza a ação (ex: É melhor irmos agora).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Traduza : 'É preciso `{{1}}` (faire, nós) os trabalhos'.",
+      "reponsesAttendues": [
+        "fazermos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qual é a flexão para 'eles' no infinito pessoal ?",
+      "options": [
+        "-em (ex: falarem)",
+        "-am",
+        "-ão",
+        "-es"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "O infinito pessoal é usado frequentemente após preposições (ex: para, sem, por).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Traduza : 'Entrámos sem eles nos ouvirem'",
+      "options": [
+        "Nous sommes entrés sans qu'ils nous entendent",
+        "Nous sommes entrés et ils nous ont entendus",
+        "Nous entrons quand ils écoutent",
+        "Ils nous entendent entrer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "No infinito pessoal, a 2a pessoa do singular termina em `{{1}}` (ex: para tu saberes).",
+      "reponsesAttendues": [
+        "-es",
+        "es"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Verbos irregulares mantém o seu radical do infinitivo (ex: seres, teres, vires).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Escolha a frase correta :",
+      "options": [
+        "Para eles chegarem a horas, devem sair já",
+        "Para eles chegarem a horas, devem saem já",
+        "Para eles chegar a horas, devem sair já",
+        "Para eles chegarem a horas, devem saindo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "O infinito pessoal é uma das características mais singulares da gramática portuguesa.",
+      "reponse": true
+    }
+  ]
+}

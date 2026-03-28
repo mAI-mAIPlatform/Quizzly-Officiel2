@@ -1,0 +1,90 @@
+{
+  "id": "quiz16",
+  "titre": "Dialogue et Modales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise native permet de créer des fenêtres modales ?",
+      "options": [
+        "<dialog>",
+        "<modal>",
+        "<popup>",
+        "<window>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La méthode .show() ouvre le dialogue de manière non modale (on peut cliquer derrière).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La méthode .{{1}}() ouvre le dialogue comme une véritable modale (bloquant le reste).",
+      "reponsesAttendues": ["showModal"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment styliser l'arrière-plan d'une modale ouverte avec showModal() ?",
+      "options": [
+        "Via le pseudo-élément ::backdrop",
+        "Via .background",
+        "Via le body",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Appuyer sur la touche Echap (Esc) ferme automatiquement une modale <dialog>.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment fermer le dialogue en HTML sans JavaScript ?",
+      "options": [
+        "Un formulaire avec method=\"dialog\"",
+        "Un lien",
+        "C'est impossible",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} sur <dialog> indique que le dialogue est ouvert.",
+      "reponsesAttendues": ["open"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Une modale showModal() est placée dans la 'Top Layer' par le navigateur (au-dessus de tout z-index).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que retourne dialog.returnValue ?",
+      "options": [
+        "La valeur du bouton de validation utilisé pour fermer le dialogue",
+        "Le texte",
+        "Rien",
+        "None"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La balise <dialog> est désormais supportée par tous les navigateurs modernes.",
+      "reponse": true
+    }
+  ]
+}

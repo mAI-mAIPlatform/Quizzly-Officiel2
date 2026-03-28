@@ -1,0 +1,94 @@
+{
+  "id": "quiz54",
+  "titre": "Latin Expert : Horace, Catulle & Ovide",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est l'auteur du célèbre 'Carpe diem' ?",
+      "options": [
+        "Horace",
+        "Virgile",
+        "Catulle",
+        "Ovide"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Catulle appartient au groupe des 'poetae novi' (nouveaux poètes) s'inspirant de la poésie grecque alexandrine.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'œuvre majeure d'Ovide racontant les transformations mythologiques s'appelle les `{{1}}`.",
+      "reponsesAttendues": [
+        "Métamorphoses"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle femme est l'objet des poèmes passionnés de Catulle ?",
+      "options": [
+        "Lesbie",
+        "Cynthia",
+        "Délie",
+        "Corinne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Horace a écrit l'Art Poétique (Epître aux Pisons).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Pourquoi Ovide a-t-il été exilé à Tomes par Auguste ?",
+      "options": [
+        "Pour 'un poème et une erreur' (carmen et error)",
+        "Pour meurtre",
+        "Pour avoir volé le trésor",
+        "Pour avoir critiqué la guerre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'élégie latine est un genre de poésie `{{1}}` exprimant souvent la plainte amoureuse.",
+      "reponsesAttendues": [
+        "lyrique"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Tibulle et Properce sont deux grands poètes élégiaques.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Dans quel recueil Ovide donne-t-il des conseils de séduction ?",
+      "options": [
+        "L'Art d'aimer (Ars Amatoria)",
+        "Les Tristes",
+        "Les Amours",
+        "Les Héroïdes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Horace prônait l''aurea mediocritas' (le juste milieu doré).",
+      "reponse": true
+    }
+  ]
+}

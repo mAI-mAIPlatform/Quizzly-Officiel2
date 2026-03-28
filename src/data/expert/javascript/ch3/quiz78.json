@@ -1,0 +1,95 @@
+{
+  "id": "quiz78",
+  "titre": "JavaScript Expert : Sécurité Web et JS",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle faille consiste à injecter des scripts malveillants dans une page vue par d'autres utilisateurs ?",
+      "options": [
+        "XSS (Cross-Site Scripting)",
+        "CSRF (Cross-Site Request Forgery)",
+        "SQL Injection",
+        "Clickjacking"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation de `innerHTML` avec des données utilisateurs non filtrées est une source majeure de vulnérabilité XSS.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Content Security Policy) est un header HTTP permettant de restreindre les sources de scripts autorisés.",
+      "reponsesAttendues": [
+        "CSP"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment mitiger les attaques CSRF ?",
+      "options": [
+        "En utilisant des tokens anti-CSRF et l'attribut SameSite sur les cookies",
+        "En chiffrant le JavaScript",
+        "En interdisant les requêtes POST",
+        "En augmentant la RAM"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'HttpOnly' sur un cookie empêche son accès via JavaScript (`document.cookie`).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'CORS' (Cross-Origin Resource Sharing) ?",
+      "options": [
+        "Un mécanisme de sécurité limitant les requêtes HTTP entre domaines différents",
+        "Un protocole de streaming",
+        "Un compresseur de données",
+        "Un framework CSS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Un `{{1}}` (JWT) est un jeton signé permettant de transmettre des informations de session de manière sécurisée et sans état.",
+      "reponsesAttendues": [
+        "JWT",
+        "JSON Web Token"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le stockage d'informations sensibles (mots de passe, clés API) dans le localStorage est sûr.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle attaque exploite la manipulation des prototypes en JavaScript (Prototype Pollution) ?",
+      "options": [
+        "Injection de propriétés malveillantes dans Object.prototype",
+        "Le vol de mots de passe",
+        "Le déni de service réseau",
+        "Le hameçonnage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation de bibliothèques tierces obsolètes via npm est un risque de sécurité majeur (Supply Chain Attack).",
+      "reponse": true
+    }
+  ]
+}

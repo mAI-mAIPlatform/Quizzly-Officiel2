@@ -1,0 +1,94 @@
+{
+  "id": "quiz47",
+  "titre": "Latin Expert : Rhétorique & Stylistique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'chiasme' ?",
+      "options": [
+        "Une structure en croix (A-B / B-A) inversant l'ordre des termes",
+        "Une répétition en début de phrase",
+        "Une exagération",
+        "Une omission"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'anaphore consiste à répéter le même mot en tête de membres de phrase successifs.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La suppression des conjonctions de coordination s'appelle l'`{{1}}`.",
+      "reponsesAttendues": [
+        "asyndète"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'litote' ?",
+      "options": [
+        "Dire moins pour suggérer plus (ex: non parvus = grand)",
+        "Comparer deux choses",
+        "Une insulte polie",
+        "Une description de paysage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'hendiadis consiste à exprimer une seule idée par deux noms coordonnés (ex: vi et armis).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Traduisez le procédé 'Zeugma' :",
+      "options": [
+        "Lier deux compléments à un seul verbe alors qu'un seul conviendrait logiquement aux deux",
+        "Une rime riche",
+        "Une métaphore filée",
+        "Un silence éloquent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'`{{1}}` est l'accumulation de conjonctions (contraire de l'asyndète).",
+      "reponsesAttendues": [
+        "polysyndète"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'allitération est la répétition d'une même consonne.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'oxymore' ?",
+      "options": [
+        "L'alliance de deux mots contradictoires (ex: obscure clarté)",
+        "Un animal de sacrifice",
+        "Un instrument de musique",
+        "Une forme de vers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Cicéron est considéré comme le maître de la rhétorique latine.",
+      "reponse": true
+    }
+  ]
+}

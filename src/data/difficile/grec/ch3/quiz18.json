@@ -1,0 +1,90 @@
+{
+  "id": "quiz18",
+  "titre": "L'Éducation (Paideia)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel était l'objectif de l'éducation grecque (Paideia) ?",
+      "options": [
+        "L'excellence (Arétè) physique et intellectuelle (Kalos kagathos)",
+        "Apprendre juste à lire",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'esclave chargé de conduire l'enfant à l'école s'appelait le pédagogue.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le lieu où l'on pratiquait les exercices physiques à nu était le {{1}}.",
+      "reponsesAttendues": ["gymnase"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelles étaient les trois disciplines de base de l'enseignement ?",
+      "options": [
+        "Gymnastique, musique et grammaire (lettres)",
+        "Mathématiques, chimie et latin",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'éphébie était le service militaire et civique des jeunes Athéniens (18-20 ans).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui enseignait l'art de la persuasion aux jeunes gens riches ?",
+      "options": [
+        "Les Sophistes",
+        "Les esclaves",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le maître de gymnastique s'appelait le {{1}}.",
+      "reponsesAttendues": ["pédotribe"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La lecture des poèmes d'Homère était la base de la culture littéraire et morale.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "À quel âge commençait l'éducation scolaire à Athènes ?",
+      "options": [
+        "7 ans",
+        "12 ans",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le système éducatif visait à former de 'bons citoyens'.",
+      "reponse": true
+    }
+  ]
+}

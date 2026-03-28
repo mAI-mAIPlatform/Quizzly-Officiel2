@@ -1,0 +1,94 @@
+{
+  "id": "quiz25",
+  "titre": "La Diversité du Monde Animal",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on les animaux qui ont une colonne vertébrale ?",
+      "options": [
+        "Les invertébrés",
+        "Les vertébrés",
+        "Les insectes",
+        "Les mollusques"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le chien est un vertébré.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les animaux sans os sont des {{1}}.",
+      "reponsesAttendues": [
+        "invertébrés"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quel groupe appartient l'escargot ?",
+      "options": [
+        "Poisson",
+        "Mollusque",
+        "Oiseau",
+        "Insecte"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les insectes n'ont pas de pattes.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Combien de pattes ont les insectes ?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'{{1}} (animal) a 8 pattes, ce n'est pas un insecte.",
+      "reponsesAttendues": [
+        "araignée"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les mammifères nourrissent leurs petits avec du lait.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces caractéristiques est celle des oiseaux ?",
+      "options": [
+        "Ils ont du poil",
+        "Ils ont des plumes",
+        "Ils ont des écailles",
+        "Ils respirent sous l'eau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Classer les animaux aide à mieux les comprendre.",
+      "reponse": true
+    }
+  ]
+}

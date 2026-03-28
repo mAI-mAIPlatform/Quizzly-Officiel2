@@ -1,0 +1,94 @@
+{
+  "id": "quiz59",
+  "titre": "Português Expert : Lusofonia no Mundo",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "O que significa a sigla CPLP ?",
+      "options": [
+        "Comunidade dos Países de Língua Portuguesa",
+        "Conselho de Países Latinos e Portugueses",
+        "Congresso de Poetas da Língua Portuguesa",
+        "Centro de Promoção Literária de Portugal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Angola, Moçambique e Cabo Verde são países africanos que falam português.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O país luso-falante na Ásia (sudeste asiático) é Timor-`{{1}}`.",
+      "reponsesAttendues": [
+        "Leste"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qual território na China manteve o português como língua oficial por séculos (até 1999) ?",
+      "options": [
+        "Macau",
+        "Hong Kong",
+        "Xangai",
+        "Cantão"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "A Guiné-Bissau e São Tomé e Príncipe também pertencem à CPLP.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quantas pessoas aproximadamente falam português no mundo ?",
+      "options": [
+        "Cerca de 260 milhões",
+        "Cerca de 100 milhões",
+        "Cerca de 500 milhões",
+        "Apenas em Portugal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "A música 'Sodade' de Cesária Évora popularizou a `{{1}}` (termo cabo-verdiano para saudade).",
+      "reponsesAttendues": [
+        "Morna"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "O português é a língua mais falada no Hemisfério Sul.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qual escritor moçambicano venceu o Prémio Camões em 2013 ?",
+      "options": [
+        "Mia Couto",
+        "Pepetela",
+        "José Eduardo Agualusa",
+        "Paulina Chiziane"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "A lusofonia celebra a unidade na diversidade através da língua comum.",
+      "reponse": true
+    }
+  ]
+}

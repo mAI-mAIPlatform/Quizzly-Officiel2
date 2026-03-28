@@ -1,0 +1,90 @@
+{
+  "id": "quiz13",
+  "titre": "Agroalimentaire (Agrifood)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie le sigle DOP sur un produit alimentaire italien ?",
+      "options": [
+        "Denominazione di Origine Protetta (Appellation d'Origine Protégée)",
+        "Distribution d'Origine Privée",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Italie possède le plus grand nombre de produits protégés par des labels de qualité (DOP, IGP) en Europe.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L' {{1}} (huile) d'olive vierge extra est l'un des piliers de l'exportation agroalimentaire italienne.",
+      "reponsesAttendues": ["huile", "olio"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que l''Italian Sounding' ?",
+      "options": [
+        "L'imitation frauduleuse de produits italiens à l'étranger",
+        "Une technique de chant",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'exportation agroalimentaire italienne dépasse régulièrement les 50 milliards d'euros par an.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel salon mondial de l'alimentation a lieu tous les deux ans à Parme ?",
+      "options": [
+        "Cibus",
+        "Vinitaly",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le {{1}} (Vinitaly) à Vérone est l'un des plus grands salons mondiaux dédiés au vin.",
+      "reponsesAttendues": ["Vinitaly"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'agriculture biologique (Bio) est en forte croissance en Italie.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel secteur de l'élevage italien est célèbre pour la production de la mozzarella di bufala ?",
+      "options": [
+        "La Campanie",
+        "La Toscane",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La sécurité et la traçabilité alimentaires sont des priorités du système italien.",
+      "reponse": true
+    }
+  ]
+}

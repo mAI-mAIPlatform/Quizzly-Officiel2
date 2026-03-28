@@ -1,0 +1,95 @@
+{
+  "id": "quiz28",
+  "titre": "Vocabulaire : Les Contraires",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "C'est quoi un contraire ?",
+      "options": [
+        "Un mot qui veut dire la même chose",
+        "Un mot qui veut dire l'opposé",
+        "Un mot très court",
+        "Un mot qui fait peur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le contraire de 'chaud' est 'froid'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le contraire de 'grand' est '{{1}}'.",
+      "reponsesAttendues": [
+        "petit"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est le contraire de 'monter' ?",
+      "options": [
+        "sauter",
+        "descendre",
+        "courir",
+        "tomber"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le contraire de 'noir' est 'blanc'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Trouve le contraire de 'ouvert' :",
+      "options": [
+        "fermé",
+        "cassé",
+        "clair",
+        "libre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le contraire de 'beau' est '{{1}}'.",
+      "reponsesAttendues": [
+        "laid",
+        "moche"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On appelle aussi les contraires des 'antonymes'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est le contraire de 'rapide' ?",
+      "options": [
+        "lent",
+        "vif",
+        "pressé",
+        "fort"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Savoir les contraires aide à bien comprendre les différences.",
+      "reponse": true
+    }
+  ]
+}

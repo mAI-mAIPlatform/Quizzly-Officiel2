@@ -1,0 +1,90 @@
+{
+  "id": "quiz3",
+  "titre": "Générateurs Asynchrones",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment définit-on un générateur asynchrone ?",
+      "options": [
+        "async def avec yield",
+        "def avec async yield",
+        "async for x in yield",
+        "On ne peut pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour boucler sur un générateur asynchrone, on utilise 'async for'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'itérateur asynchrone utilise la méthode spéciale {{1}}.",
+      "reponsesAttendues": ["__aiter__"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet d'obtenir la valeur suivante dans un itérateur asynchrone ?",
+      "options": [
+        "__next__",
+        "__anext__",
+        "await next()",
+        "__yield__"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un 'async comprehension' (ex: [await f(x) async for x in gen]) est valide.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est l'intérêt d'un générateur asynchrone ?",
+      "options": [
+        "Produire des données provenant d'une source réseau/IO de façon paresseuse et non bloquante",
+        "Trier plus vite",
+        "Rendre le code sync",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour fermer un générateur asynchrone manuellement, on appelle .{{1}}().",
+      "reponsesAttendues": ["aclose"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'async for' peut être utilisé en dehors d'une fonction 'async def'.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que retourne type(async_gen()) ?",
+      "options": [
+        "coroutine",
+        "async_generator",
+        "generator",
+        "None"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser 'yield from' dans un générateur asynchrone en Python 3.10.",
+      "reponse": false
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz21",
+  "titre": "Feelings and Emotions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'heureux' ?",
+      "options": [
+        "happy",
+        "sad",
+        "angry",
+        "scared"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Sad' signifie triste.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La colère se dit '{{1}}' (angry).",
+      "reponsesAttendues": [
+        "angry"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'tired' ?",
+      "options": [
+        "Fatigué",
+        "Excité",
+        "Ennuyé",
+        "Surpris"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Hungry' signifie avoir faim et 'thirsty' signifie avoir soif.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'peur' ?",
+      "options": [
+        "scared / afraid",
+        "brave",
+        "happy",
+        "calm"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Être surpris se dit '{{1}}' (surprised).",
+      "reponsesAttendues": [
+        "surprised"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Bored' signifie s'ennuyer.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'excited' ?",
+      "options": [
+        "Excité / Enthousiaste",
+        "En colère",
+        "Fatigué",
+        "Triste"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": " 'I am feeling good' signifie 'Je me sens bien'.",
+      "reponse": true
+    }
+  ]
+}

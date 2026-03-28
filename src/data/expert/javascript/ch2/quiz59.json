@@ -1,0 +1,94 @@
+{
+  "id": "quiz59",
+  "titre": "JS Expert : Accessibilité (A11y)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie A11y ?",
+      "options": [
+        "Accessibility (11 lettres entre A et y)",
+        "Always 11 Yields",
+        "App 1.1 Yearly",
+        "Alpha 11 years"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut `alt` sur une image est crucial pour les lecteurs d'écran.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La spécification du W3C pour rendre les applications riches accessibles est `{{1}}`-ARIA.",
+      "reponsesAttendues": [
+        "WAI"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'Live Region' (aria-live) ?",
+      "options": [
+        "Une zone du DOM dont les mises à jour sont annoncées immédiatement aux lecteurs d'écran",
+        "Une diffusion en direct",
+        "Une zone avec une vidéo",
+        "Un serveur de test"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Il vaut mieux utiliser des éléments HTML sémantiques (<button>, <nav>) que des <div> avec des rôles ARIA.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi sert le 'Focus Trapping' dans une fenêtre modale ?",
+      "options": [
+        "À empêcher la navigation au clavier (Tab) de sortir de la modale tant qu'elle est ouverte",
+        "À mettre en gras le texte",
+        "À fermer la fenêtre",
+        "À ralentir l'ordinateur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut permettant de désactiver l'ordre focusable naturel d'un élément est `{{1}}='-1'`.",
+      "reponsesAttendues": [
+        "tabindex"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Shadow DOM peut poser des problèmes d'accessibilité s'il n'est pas géré correctement (id dupliqués, labels).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel outil permet d'auditer l'accessibilité d'une page directement dans Chrome ?",
+      "options": [
+        "Lighthouse (onglet Accessibilité)",
+        "Photoshop",
+        "Excel",
+        "Git"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Un contraste de couleur insuffisant est une violation des critères d'accessibilité (WCAG).",
+      "reponse": true
+    }
+  ]
+}

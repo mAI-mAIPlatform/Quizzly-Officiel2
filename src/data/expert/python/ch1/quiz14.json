@@ -1,0 +1,94 @@
+{
+  "id": "quiz14",
+  "titre": "Multiprocessing vs Multithreading",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la principale différence entre threading et multiprocessing ?",
+      "options": [
+        "Les threads partagent la même mémoire, les processus sont isolés",
+        "Le multiprocessing est plus lent",
+        "Le threading n'utilise pas de thread",
+        "Le multiprocessing ne fonctionne que sur Linux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En Python (CPython), deux threads ne peuvent pas exécuter du bytecode simultanément à cause du GIL.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour des tâches 'CPU intensive', il est recommandé d'utiliser le module `{{1}}`.",
+      "reponsesAttendues": [
+        "multiprocessing"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pour des tâches 'I/O intensive' (réseau/disque), quel module est généralement suffisant ?",
+      "options": [
+        "threading",
+        "asyncio",
+        "Les deux",
+        "Aucun"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le multiprocessing permet de contourner totalement la limitation du GIL.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel objet permet de partager des données entre processus ?",
+      "options": [
+        "Queue / Pipe",
+        "Dictionnaire global",
+        "Variables de classe",
+        "Pointeurs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La classe `{{1}}Executor` du module concurrent.futures simplifie la gestion d'un pool de processus.",
+      "reponsesAttendues": [
+        "ProcessPool"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un thread est 'plus léger' qu'un processus en termes de ressources système.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet d'attendre la fin de l'exécution d'un thread/processus ?",
+      "options": [
+        "join()",
+        "wait()",
+        "finish()",
+        "sync()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le multiprocessing nécessite la sérialisation (pickling) des données transmises.",
+      "reponse": true
+    }
+  ]
+}

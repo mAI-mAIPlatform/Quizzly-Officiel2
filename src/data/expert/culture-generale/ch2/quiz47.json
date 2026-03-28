@@ -1,0 +1,94 @@
+{
+  "id": "quiz47",
+  "titre": "Culture Générale Expert : Développement Durable",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la définition classique du Développement Durable (Rapport Brundtland, 1987) ?",
+      "options": [
+        "Un développement qui répond aux besoins du présent sans compromettre la capacité des générations futures à répondre aux leurs",
+        "La croissance économique infinie",
+        "Le retour à la nature sauvage",
+        "L'interdiction de toute industrie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le GIEC (IPCC en anglais) est l'organisme de l'ONU chargé d'évaluer l'état des connaissances sur le climat.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'effet de `{{1}}` est un phénomène naturel nécessaire à la vie, mais accentué par l'activité humaine (CO2).",
+      "reponsesAttendues": [
+        "serre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel traité international de 2015 vise à limiter le réchauffement climatique bien au-dessous de 2°C ?",
+      "options": [
+        "L'Accord de Paris (COP21)",
+        "Le Protocole de Kyoto",
+        "Le Sommet de la Terre de Rio",
+        "Le Pacte de Montréal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La biodiversité désigne la diversité du vivant sous toutes ses formes.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quels sont les 'trois piliers' du développement durable ?",
+      "options": [
+        "Économique, Social, Environnemental",
+        "Politique, Militaire, Religieux",
+        "National, Régional, Local",
+        "Consommation, Production, Recyclage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'économie `{{1}}` vise à limiter le gaspillage des ressources et à boucler les cycles de production.",
+      "reponsesAttendues": [
+        "circulaire"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'empreinte écologique mesure la surface terrestre nécessaire pour subvenir aux besoins d'une population.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la principale source d'énergie renouvelable utilisée pour produire de l'électricité dans le monde (en volume) ?",
+      "options": [
+        "L'hydroélectricité",
+        "L'éolien",
+        "Le solaire",
+        "La biomasse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le stress hydrique apparaît quand la demande en eau dépasse les ressources disponibles.",
+      "reponse": true
+    }
+  ]
+}

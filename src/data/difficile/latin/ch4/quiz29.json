@@ -1,0 +1,90 @@
+{
+  "id": "quiz29",
+  "titre": "Héritage Scientifique",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Pourquoi le latin est-il encore utilisé en sciences aujourd'hui ?",
+      "options": [
+        "Pour nommer les espèces biologiques (nomenclature binominale) et en anatomie",
+        "Parce que c'est plus joli",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Carl von Linné a systématisé l'usage du latin pour les noms de plantes et d'animaux au XVIIIe siècle.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "En astronome, on utilise encore les noms latins pour les {{1}} (ex: Orion, Grande Ourse).",
+      "reponsesAttendues": ["constellations"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel domaine professionnel utilise encore de nombreuses locutions latines ?",
+      "options": [
+        "Le droit (ex: habeas corpus, alibi, de facto)",
+        "Le sport",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le latin permet d'avoir une langue universelle et précise comprise par tous les savants du monde.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'Et caetera' (etc.) ?",
+      "options": [
+        "Et toutes les autres choses",
+        "Et demain",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le serment que prêtent les médecins porte le nom du grec {{1}} mais sa rédaction a traversé le latin.",
+      "reponsesAttendues": ["Hippocrate"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "De nombreux termes informatiques et technologiques ont des racines latines.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle institution protège l'usage du latin au Vatican ?",
+      "options": [
+        "La Curie / Latinitas",
+        "La Poste",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Apprendre le latin aide à mieux comprendre le fonctionnement de nombreuses langues modernes.",
+      "reponse": true
+    }
+  ]
+}

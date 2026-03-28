@@ -1,0 +1,96 @@
+{
+  "id": "quiz6",
+  "titre": "Hoisting (Hissage)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lequel de ces éléments n'est PAS hissé au début de sa portée ?",
+      "options": [
+        "const",
+        "var",
+        "function (déclaration)",
+        "Toutes sont hissées"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'initialisation d'une variable 'var' est hissée avec sa déclaration.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les déclarations de function sont hissées avec leur {{1}}.",
+      "reponsesAttendues": [
+        "corps",
+        "implémentation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si on appelle une fonction avant sa définition via 'var maFonction = ...' ?",
+      "options": [
+        "Une erreur 'maFonction is not a function'",
+        "La fonction s'exécute normalement",
+        "Une erreur de syntaxe",
+        "Rien ne se passe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les variables 'let' et 'const' sont hissées mais restent inaccessibles.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la 'Temporal Dead Zone' ?",
+      "options": [
+        "La zone entre le début du bloc et la déclaration de let/const",
+        "Une zone mémoire protégée",
+        "Le temps de latence au démarrage du moteur JS",
+        "Une boucle de rendu bloquante"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le {{1}} des classes n'existe pas : on ne peut pas instancier avant déclaration.",
+      "reponsesAttendues": [
+        "hoisting",
+        "hissage"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les expressions de fonction ne sont pas hissées.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel message d'erreur obtient-on en accédant à une variable let en TDZ ?",
+      "options": [
+        "ReferenceError",
+        "TypeError",
+        "SyntaxError",
+        "RangeError"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le hoisting est une action physique que fait le moteur JS en déplaçant le code.",
+      "reponse": false
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz11",
+  "titre": "Guerre Coloniale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quels étaient les trois principaux fronts de la Guerre Coloniale (1961-1974) ?",
+      "options": [
+        "Angola, Guinée-Bissau et Mozambique",
+        "Brésil, Goa et Timor",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le régime de Salazar refusait toute négociation d'autonomie pour les 'provinces d'outre-mer'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La guerre a commencé en 1961 en {{1}} suite à des révoltes dans les plantations de coton.",
+      "reponsesAttendues": ["Angola"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel mouvement de libération luttait en Guinée-Bissau ?",
+      "options": [
+        "PAIGC (Amílcar Cabral)",
+        "MPLA",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La guerre a mobilisé plus d'un million de soldats portugais sur 13 ans.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel était le surnom donné aux soldats portugais ?",
+      "options": [
+        "Tugas / Rapinas",
+        "Gorilas",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le massacre de {{1}} (Mozambique) en 1972 a choqué l'opinion internationale.",
+      "reponsesAttendues": ["Wiriyamu"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La guerre s'est terminée militairement par une victoire portugaise totale.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle fut la principale conséquence politique en métropole ?",
+      "options": [
+        "Le coup d'État du 25 avril 1974 mené par les officiers du contingent",
+        "Une croissance économique sans précédent",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le traumatisme de la guerre coloniale est encore très présent dans la mémoire collective portugaise.",
+      "reponse": true
+    }
+  ]
+}

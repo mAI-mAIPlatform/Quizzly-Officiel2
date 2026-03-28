@@ -1,0 +1,90 @@
+{
+  "id": "quiz20",
+  "titre": "EXPRESSIONS & ORALITÉ",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'Ogni morte di papa' ?",
+      "options": [
+        "Très rarement",
+        "Chaque dimanche",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Magari' signifie 'Si seulement'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'In bocca al {{1}}' (lupo).",
+      "reponsesAttendues": ["lupo"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel animal est 'nera' pour désigner l'exclu ?",
+      "options": [
+        "Pecora (brebis/mouton)",
+        "Gatto",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Uffa' exprime l'agacement.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'Sclerare' ?",
+      "options": [
+        "Péter un plomb",
+        "Rigoler",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'' {{1}}' (estate) est l'été.",
+      "reponsesAttendues": ["été", "estate"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Daje' est romain.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'C'est dommage' ?",
+      "options": [
+        "Peccato",
+        "Prego",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Parler italien, c'est mettre de la vie dans les mots ! 🇮🇹✍️📖🗣️✨",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz7",
+  "titre": "Twitter Cards",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment se nomme l'équivalent des balises Open Graph pour X (Twitter) ?",
+      "options": [
+        "Twitter Cards",
+        "Twitter Pins",
+        "X Social Specs",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On utilise l'attribut name=\"twitter:card\" pour définir le format de la carte.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La valeur {{1}} affiche une petite image carrée à côté du texte.",
+      "reponsesAttendues": ["summary"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle valeur utiliser pour un affichage avec une grande image rectangulaire ?",
+      "options": [
+        "summary_large_image",
+        "large_card",
+        "big_pic",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Si twitter:title est absent, X utilisera og:title par défaut.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi sert twitter:site ?",
+      "options": [
+        "À mentionner le compte @utilisateur du site web",
+        "À donner le lien du site",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut twitter:{{1}} permet de mentionner le créateur du contenu.",
+      "reponsesAttendues": ["creator"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Twitter recommande des images d'au moins 300x157 pixels pour les large cards.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser des Twitter Cards ?",
+      "options": [
+        "Pour augmenter massivement l'engagement et les clics sur les tweets partageant votre lien",
+        "Pour payer moins de pub",
+        "C'est obligatoire",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il existe un 'Card Validator' fourni par X pour tester ses balises.",
+      "reponse": true
+    }
+  ]
+}

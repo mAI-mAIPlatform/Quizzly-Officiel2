@@ -1,0 +1,90 @@
+{
+  "id": "quiz11",
+  "titre": "Importations : Bases",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle instruction permet d'importer tout un module ?",
+      "options": [
+        "import module",
+        "load module",
+        "using module",
+        "include module"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'instruction 'from math import sqrt' permet d'utiliser sqrt() directement sans écrire math.sqrt().",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour importer toutes les fonctions d'un module (déconseillé), on utilise {{1}}.",
+      "reponsesAttendues": ["from module import *", "import *"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi 'from module import *' est-il déconseillé ?",
+      "options": [
+        "C'est trop lent",
+        "Cela peut provoquer des collisions de noms de variables/fonctions",
+        "Ça ne fonctionne pas en Python 3",
+        "C'est réservé aux experts"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une importation circulaire (A importe B et B importe A) peut poser problème.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il lors de la première importation d'un module ?",
+      "options": [
+        "Rien",
+        "Le code du module est exécuté",
+        "Le module est supprimé",
+        "Une erreur est levée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le module standard {{1}} permet de forcer le rechargement d'un module déjà importé.",
+      "reponsesAttendues": ["importlib"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les importations doivent généralement être placées en haut du fichier.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que contient la variable __file__ d'un module ?",
+      "options": [
+        "Son nom",
+        "Le chemin absolu vers son fichier source",
+        "Sa documentation",
+        "Sa version"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut imbriquer des imports dans des fonctions.",
+      "reponse": true
+    }
+  ]
+}

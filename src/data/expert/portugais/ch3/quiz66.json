@@ -1,0 +1,95 @@
+{
+  "id": "quiz66",
+  "titre": "Portugais Expert : Les Hétéronymes de Pessoa",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment Pessoa appelait-il ses personnalités poétiques distinctes ?",
+      "options": [
+        "Hétéronymes",
+        "Pseudonymes",
+        "Masques",
+        "Avatars"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Contrairement à un pseudonyme, un hétéronyme possède sa propre biographie, son style et sa philosophie.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "`{{1}}` est l'hétéronyme 'maître', poète de la nature et du sensationnalisme simple.",
+      "reponsesAttendues": [
+        "Alberto Caeiro"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel hétéronyme est un médecin stoïcien et épicurien écrivant en odes classiques ?",
+      "options": [
+        "Ricardo Reis",
+        "Álvaro de Campos",
+        "Bernardo Soares",
+        "Alberto Caeiro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Álvaro de Campos est l'hétéronyme futuriste, moderne et tourmenté (ex: Ode Maritime).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Sous quel hétéronyme (ou semi-hétéronyme) Pessoa a-t-il écrit le 'Livre de l'intranquillité' ?",
+      "options": [
+        "Bernardo Soares",
+        "Ricardo Reis",
+        "Alexander Search",
+        "Baron de Teive"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le 'Livro do `{{1}}`' est considéré comme l'un des plus grands textes en prose du XXe siècle.",
+      "reponsesAttendues": [
+        "Desassossego",
+        "Intranquillité"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Pessoa affirmait : 'Le poète est un simulateur' (fingidor).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Dans quel célèbre café de Lisbonne Pessoa aimait-il se retrouver (une statue l'y représente) ?",
+      "options": [
+        "A Brasileira",
+        "Martinho da Arcada",
+        "Nicola",
+        "Benard"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le coffre de Pessoa contenait des milliers de textes inédits qui sont encore étudiés aujourd'hui.",
+      "reponse": true
+    }
+  ]
+}

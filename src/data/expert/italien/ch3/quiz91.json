@@ -1,0 +1,94 @@
+{
+  "id": "quiz91",
+  "titre": "Italien Expert : L'Économie et le Made in Italy",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quels sont les 'Quatre A' qui définissent traditionnellement les secteurs d'excellence du 'Made in Italy' ?",
+      "options": [
+        "Abbigliamento, Alimentare, Arredamento, Automazione",
+        "Arte, Architettura, Agricoltura, Artigianato",
+        "Aeronautica, Amministrazione, Alchimie, Asia",
+        "Alpinismo, Archeologia, Astronomia, Acqua"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'Italie est le deuxième pays manufacturier d'Europe après l'Allemagne.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le concept de `{{1}}` (Made in Italy) est synonyme de qualité, de design et de tradition artisanale italienne à travers le monde.",
+      "reponsesAttendues": [
+        "Made in Italy"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle ville est considérée comme la capitale mondiale de la mode et le cœur financier de l'Italie ?",
+      "options": [
+        "Milano",
+        "Roma",
+        "Firenze",
+        "Torino"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les petites et moyennes entreprises (PME/PMI) forment l'épine dorsale de l'économie italienne.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on les zones géographiques spécialisées dans une production spécifique (ex: les chaussures dans les Marches) ?",
+      "options": [
+        "Distretti industriali",
+        "Zone franche",
+        "Comuni economici",
+        "Poli tecnologici"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le secteur de l'`{{1}}` (Arredamento) ou design d'intérieur est l'un des piliers du succès italien à l'export.",
+      "reponsesAttendues": [
+        "Arredamento"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'Italie possède la plus grande flotte de paquebots de croisière au monde (via Fincantieri).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle institution financière italienne est l'une des plus anciennes banques encore en activité au monde ?",
+      "options": [
+        "Monte dei Paschi di Siena",
+        "UniCredit",
+        "Intesa Sanpaolo",
+        "Banco BPM"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'Italie est le premier producteur mondial de vin en volume devant la France.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "quiz8",
+  "titre": "Les Commentaires en HTML",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment commence un commentaire en HTML ?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un commentaire se termine par -->.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les commentaires sont {{1}} pour les visiteurs du site.",
+      "reponsesAttendues": [
+        "invisibles",
+        "cachés"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quoi servent les commentaires ?",
+      "options": [
+        "Expliquer le code aux autres développeurs",
+        "Masquer temporairement une partie du code",
+        "Laisser des notes pour soi-même",
+        "Toutes ces réponses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un commentaire peut s'étendre sur plusieurs lignes.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Peut-on mettre du code HTML à l'intérieur d'un commentaire ?",
+      "options": [
+        "Oui, il ne sera pas exécuté",
+        "Non, cela crée une erreur",
+        "Seulement si c'est du CSS",
+        "Oui, mais il sera affiché"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le raccourci clavier courant pour commenter est Ctrl + {{1}}.",
+      "reponsesAttendues": [
+        "/",
+        ":"
+      ]
+    },
+    {
+      "id": "get_q8",
+      "type": "vrai_faux",
+      "enonce": "Un visiteur peut voir tes commentaires en regardant le code source.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle est un commentaire valide ?",
+      "options": [
+        "<! Mon comm !>",
+        "<!-- Mon comm -->",
+        "// Mon comm",
+        "/* Mon comm */"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il est possible d'imbriquer un commentaire dans un autre.",
+      "reponse": false
+    }
+  ]
+}

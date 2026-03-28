@@ -1,0 +1,94 @@
+{
+  "id": "quiz55",
+  "titre": "Grec Expert : Aristophane et la Comédie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel type de comédie représentait Aristophane ?",
+      "options": [
+        "La Comédie Ancienne (Archaia)",
+        "La Comédie Nouvelle (Nea)",
+        "La Comédie Latine",
+        "Le drame satyrique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La 'parabase' est un moment où le choeur s'adresse directement au public au nom de l'auteur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans 'Les Nuées', Aristophane fait une satire féroce du philosophe `{{1}}`.",
+      "reponsesAttendues": [
+        "Socrate"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle pièce met en scène une grève du sexe menée par les femmes pour arrêter la guerre ?",
+      "options": [
+        "Lysistrata",
+        "Les Grenouilles",
+        "Les Oiseaux",
+        "La Paix"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Aristophane utilise un langage souvent cru et n'hésite pas à attaquer les politiciens de son temps (comme Cléon).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "De quoi traite 'Les Grenouilles' (Batrakhoi) ?",
+      "options": [
+        "D'un concours de poésie aux Enfers entre Eschyle et Euripide",
+        "D'une expédition militaire en Égypte",
+        "De l'éducation des enfants",
+        "Du prix du pain à Athènes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Dans 'Les `{{1}}`', les citoyens décident de construire une cité idéale dans le ciel.",
+      "reponsesAttendues": [
+        "Oiseaux"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Aristophane est un fervent partisan de la démocratie radicale et des innovations des Sophistes.",
+        "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le but final de la comédie d'Aristophane malgré ses facéties ?",
+      "options": [
+        "Une réflexion politique et morale sur la cité et la paix",
+        "Amuser les enfants",
+        "Apprendre la cuisine",
+        "Vendre des marchandises"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le mètre principal de la comédie est le trimètre iambique.",
+      "reponse": true
+    }
+  ]
+}

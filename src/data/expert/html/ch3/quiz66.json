@@ -1,0 +1,95 @@
+{
+  "id": "quiz66",
+  "titre": "HTML Expert : Core Web Vitals et Optimisation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que mesure le LCP (Largest Contentful Paint) ?",
+      "options": [
+        "Le temps de rendu de l'élément visible le plus imposant à l'écran",
+        "Le poids total de la page",
+        "Le nombre de scripts",
+        "La vitesse de défilement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le CLS (Cumulative Layout Shift) mesure la stabilité visuelle de la page pendant le chargement.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut `importance=\"{{1}}\"` (Priority Hints) permet de suggérer la priorité de téléchargement d'une ressource.",
+      "reponsesAttendues": [
+        "high",
+        "low"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle technique consiste à charger une ressource avant que le navigateur n'en ait besoin ?",
+      "options": [
+        "Preload (<link rel='preload'>)",
+        "Lazy loading",
+        "Caching",
+        "Minification"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le 'Lazy Loading' retarder le chargement des images hors écran pour économiser de la bande passante.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie FID (First Input Delay) ?",
+      "options": [
+        "Le délai entre la première interaction utilisateur et le début du traitement par le navigateur",
+        "L'erreur de premier fichier",
+        "La vitesse du premier clic",
+        "La fin de l'installation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut `loading=\"{{1}}\"` sur une balise `<img>` active le chargement paresseux natif.",
+      "reponsesAttendues": [
+        "lazy"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un score de Core Web Vitals médiocre peut pénaliser le référencement SEO sur Google.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment réduire le CLS ?",
+      "options": [
+        "En réservant l'espace pour les images et pubs via des dimensions explicites (width/height)",
+        "En utilisant plus de JavaScript",
+        "En supprimant le CSS",
+        "En rechargeant la page"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Optimiser le 'Time to First Byte' (TTFB) est crucial pour la réactivité perçue dès le départ.",
+      "reponse": true
+    }
+  ]
+}

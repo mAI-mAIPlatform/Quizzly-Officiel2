@@ -1,0 +1,96 @@
+{
+  "id": "quiz75",
+  "titre": "Portugais Expert : Le Fado - L'Âme du Portugal",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel sentiment intraduisible, mélange de mélancolie, de manque et d'espoir, est au cœur du Fado ?",
+      "options": [
+        "Saudade",
+        "Alegria",
+        "Felicidade",
+        "Angústia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Amália Rodrigues est surnommée la 'Reine du Fado'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La `{{1}}` (Guitarra Portuguesa) est l'instrument à 12 cordes métalliques, en forme de poire, indispensable au Fado.",
+      "reponsesAttendues": [
+        "Guitare Portugaise",
+        "Guitarra Portuguesa"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quels sont les deux principaux types de Fado au Portugal ?",
+      "options": [
+        "Le Fado de Lisbonne et le Fado de Coimbra",
+        "Le Fado du Nord et le Fado du Sud",
+        "Le Fado religieux et le Fado profane",
+        "Le Fado ancien et le Fado moderne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Fado de Coimbra est traditionnellement chanté uniquement par des hommes (étudiants de l'Université).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle chanteuse contemporaine a redonné au Fado une dimension mondiale au début des années 2000 ?",
+      "options": [
+        "Mariza",
+        "Dulce Pontes",
+        "Misía",
+        "Carminho"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Fadista) est le nom donné au chanteur ou à la chanteuse de Fado.",
+      "reponsesAttendues": [
+        "fadiste",
+        "fadista"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Fado a été inscrit au Patrimoine culturel immatériel de l'humanité (UNESCO) en 2011.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel quartier de Lisbonne est historiquement lié au Fado et à ses 'casas de fado' ?",
+      "options": [
+        "Alfama",
+        "Belém",
+        "Parque das Nações",
+        "Baixa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On ne doit jamais applaudir pendant un chant de Fado, mais seulement à la fin.",
+      "reponse": true
+    }
+  ]
+}

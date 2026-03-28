@@ -1,0 +1,95 @@
+{
+  "id": "quiz70",
+  "titre": "Revisione : Grandi Autori e Rinascimento (Capitolo 3 - Italiano Expert)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Divine Comédie ?",
+      "options": [
+        "Dante",
+        "Pétrarque",
+        "Boccace",
+        "Machiavel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Beatrice guide Dante au Paradis.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Muse de Pétrarque : `{{1}}`.",
+      "reponsesAttendues": [
+        "Laura"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Auteur du Décaméron ?",
+      "options": [
+        "Boccace",
+        "Arioste",
+        "Tasse",
+        "Dante"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Prince = Machiavel.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Roland Furieux (Orlando Furioso) ?",
+      "options": [
+        "L'Arioste",
+        "Le Tasse",
+        "Castiglione",
+        "Ficin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Zénit de la chevalerie chrétienne : Jérusalem `{{1}}`.",
+      "reponsesAttendues": [
+        "Délivrée",
+        "Liberata"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Sprezzatura = Castiglione.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Philosphe de la dignité humaine ?",
+      "options": [
+        "Pic de la Mirandole",
+        "Machiavel",
+        "César",
+        "Ovide"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'Italie a illuminé la Renaissance.",
+      "reponse": true
+    }
+  ]
+}

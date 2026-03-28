@@ -1,0 +1,94 @@
+{
+  "id": "quiz75",
+  "titre": "JavaScript Expert : Stockage et PWA (Service Workers)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel API de stockage est recommandée pour de grandes quantités de données structurées côté client ?",
+      "options": [
+        "IndexedDB",
+        "localStorage",
+        "sessionStorage",
+        "Cookies"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un Service Worker agit comme un proxy réseau entre le navigateur et le serveur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'événement `{{1}}` d'un Service Worker est l'endroit idéal pour mettre en cache les ressources statiques initiales.",
+      "reponsesAttendues": [
+        "install"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle stratégie de cache consiste à servir la ressource depuis le cache tout en mettant à jour ce dernier en arrière-plan ?",
+      "options": [
+        "Stale-While-Revalidate",
+        "Cache-First",
+        "Network-First",
+        "Cache-Only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les Service Workers nécessitent obligatoirement le protocole HTTPS (sauf pour localhost).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel fichier JSON définit le comportement d'une PWA (icônes, nom, couleurs) ?",
+      "options": [
+        "manifest.json",
+        "pwa-config.json",
+        "index.json",
+        "app.settings"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le `{{1}}` Sync API permet de différer des actions jusqu'à ce que l'utilisateur retrouve une connexion internet stable.",
+      "reponsesAttendues": [
+        "Background"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "localStorage est synchrone et peut bloquer le thread principal s'il est trop sollicité.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle limite de stockage 'sessionStorage' impose-t-il par rapport à 'localStorage' ?",
+      "options": [
+        "Il est supprimé à la fermeture de l'onglet/fenêtre",
+        "Il est beaucoup plus petit",
+        "Il est chiffré",
+        "Il n'y a pas de limite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'API Cache (utilisée par Service Workers) permet de stocker des paires Request/Response.",
+      "reponse": true
+    }
+  ]
+}

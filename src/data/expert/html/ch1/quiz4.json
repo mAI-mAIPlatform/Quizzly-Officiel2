@@ -1,0 +1,95 @@
+{
+  "id": "quiz4",
+  "titre": "JSON-LD et Données Structurées",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la méthode recommandée par Google pour insérer des données structurées ?",
+      "options": [
+        "JSON-LD",
+        "Microdonnées (itemprop)",
+        "RDFa",
+        "Attributs data-*"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le JSON-LD s'insère dans une balise <script type=\"application/ld+json\">.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Dans un JSON-LD, la clé '{{1}}' définit l'URL du vocabulaire utilisé.",
+      "reponsesAttendues": [
+        "@context"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle clé définit le type d'objet (ex: Recipe, Event) ?",
+      "options": [
+        "@type",
+        "@id",
+        "type",
+        "schema"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le JSON-LD peut être placé n'importe où dans le <body> ou le <head>.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage du JSON-LD par rapport aux microdonnées ?",
+      "options": [
+        "Il sépare les données de la structure HTML",
+        "Il est plus rapide à charger",
+        "Il permet de styliser les données",
+        "Il est obligatoire en HTML5"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'outil de test de Google pour valider ces données s'appelle désormais l'outil de test des {{1}}.",
+      "reponsesAttendues": [
+        "résultats enrichis",
+        "données structurées"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut inclure plusieurs objets dans un seul tableau '@graph'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle propriété identifie de manière unique un élément pour pouvoir y faire référence ailleurs ?",
+      "options": [
+        "@id",
+        "@key",
+        "id",
+        "itemid"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le JSON-LD est valide même s'il contient des commentaires JavaScript.",
+      "reponse": false
+    }
+  ]
+}

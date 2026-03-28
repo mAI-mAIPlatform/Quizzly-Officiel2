@@ -1,0 +1,94 @@
+{
+  "id": "quiz21",
+  "titre": "Days of the week",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'lundi' ?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Sunday' signifie dimanche.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Monday, {{1}}, Wednesday...",
+      "reponsesAttendues": [
+        "tuesday"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'samedi' ?",
+      "options": [
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Friday' est le vendredi.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel jour vient après 'Wednesday' ?",
+      "options": [
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le jour avant 'Tuesday' est {{1}}.",
+      "reponsesAttendues": [
+        "monday"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Week' signifie mois.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'une semaine' ?",
+      "options": [
+        "A month",
+        "A week",
+        "A day",
+        "A year"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il y a sept jours dans une semaine.",
+      "reponse": true
+    }
+  ]
+}

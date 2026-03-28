@@ -1,0 +1,96 @@
+{
+  "id": "quiz19",
+  "titre": "Propriétés et Méthodes Statiques",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "A quoi appartient une méthode déclarée avec 'static' ?",
+      "options": [
+        "A la classe elle-même",
+        "A chaque instance",
+        "Au prototype des instances",
+        "A l'objet global uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une méthode statique peut être appelée depuis une instance.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On utilise les membres {{1}} pour des fonctions utilitaires liées à la classe mais pas à un objet spécifique.",
+      "reponsesAttendues": [
+        "statiques",
+        "static"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que vaut 'this' à l'intérieur d'une méthode statique ?",
+      "options": [
+        "La définition de la classe",
+        "L'instance courante",
+        "undefined",
+        "null"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut avoir des propriétés statiques (Static Fields) depuis ES2022.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel est un exemple de méthode statique native bien connue ?",
+      "options": [
+        "Array.from()",
+        "Array.prototype.push()",
+        "String.prototype.trim()",
+        "Math.random() (bien que Math soit un objet particulier)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les méthodes statiques sont souvent utilisées pour implémenter le pattern {{1}} (Factory).",
+      "reponsesAttendues": [
+        "Fabrique",
+        "Factory"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Une sous-classe hérite des méthodes statiques de sa classe parente.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment appeler une méthode statique parent depuis une méthode statique enfant ?",
+      "options": [
+        "super.methodeStatique()",
+        "Parent.methodeStatique()",
+        "this.super.methodeStatique()",
+        "Les deux premières sont valides"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les membres statiques sont recréés à chaque instanciation.",
+      "reponse": false
+    }
+  ]
+}

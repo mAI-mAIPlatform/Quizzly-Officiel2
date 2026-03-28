@@ -1,0 +1,96 @@
+{
+  "id": "quiz85",
+  "titre": "JavaScript Expert : Design Patterns de Création",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel pattern garantit qu'une classe n'a qu'une seule instance et fournit un point d'accès global à celle-ci ?",
+      "options": [
+        "Singleton",
+        "Factory",
+        "Builder",
+        "Prototype"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En JavaScript moderne (modules), un objet exporté depuis un module se comporte naturellement comme un Singleton.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le pattern `{{1}}` (Factory) permet de déléguer la logique de création d'objets à une fonction ou une classe dédiée, simplifiant le code client.",
+      "reponsesAttendues": [
+        "Factory",
+        "Fabrique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel pattern est le plus adapté pour construire des objets complexes étape par étape, notamment quand ils ont de nombreux paramètres optionnels ?",
+      "options": [
+        "Builder (Monteur)",
+        "Abstract Factory",
+        "Prototype",
+        "Singleton"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le pattern 'Prototype' en JS s'appuie sur la méthode `Object.create()`.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel de ces patterns permet de créer des familles d'objets liés sans spécifier leurs classes concrètes ?",
+      "options": [
+        "Abstract Factory",
+        "Factory Method",
+        "Builder",
+        "Adapter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La `{{1}}` (Dependency Injection) ou injection de dépendances est un pattern lié à la création permettant de découpler les composants.",
+      "reponsesAttendues": [
+        "Dependency Injection",
+        "Injection de dependances"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation de Singletons globaux est souvent considérée comme un 'anti-pattern' car elle rend les tests plus difficiles.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment implémente-t-on généralement un Singleton en JS avec les classes ?",
+      "options": [
+        "En stockant l'instance dans une propriété statique et en vérifiant sa présence dans le constructeur",
+        "En utilisant le mot-clé unique",
+        "En gelant l'objet avec Object.freeze() uniquement",
+        "JS le fait automatiquement avec 'new'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les patterns de création visent à rendre le code plus flexible et réutilisable lors de l'instanciation des objets.",
+      "reponse": true
+    }
+  ]
+}

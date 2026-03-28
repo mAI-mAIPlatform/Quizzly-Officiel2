@@ -1,0 +1,95 @@
+{
+  "id": "quiz36",
+  "titre": "Grec Expert : Les Conditionnelles (Éventuel et Potentiel)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment se forme la protase (si...) de l'éventuel ?",
+      "options": [
+        "ἐάν (ou ἤν, ἄν) + subjonctif",
+        "εἰ + indicatif futur",
+        "εἰ + optatif",
+        "εἰ + indicatif présent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le potentiel se construit avec εἰ + optatif dans la protase et optatif + ἄν dans l'apodose.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'éventuel exprime une condition se rapportant à l'avenir, présentée comme `{{1}}`.",
+      "reponsesAttendues": [
+        "probable",
+        "envisageable"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est l'apodose classique de l'éventuel ?",
+      "options": [
+        "Indicatif futur ou impératif",
+        "Optatif + ἄν",
+        "Indicatif présent",
+        "Infinitive"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La négation dans la protase est toujours μή.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se traduit εἰ + optatif (potentiel) ?",
+      "options": [
+        "Si je faisais (supposition dans l'avenir)",
+        "Si j'ai fait",
+        "Si je fais (certitude)",
+        "Si j'avais fait (regret)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La forme contractée de ἐάν est `{{1}}` ou ἄν (à ne pas confondre avec la particule modale).",
+      "reponsesAttendues": [
+        "ἤν"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le futur le plus probable (si tu fais cela, tu seras puni) utilise souvent εἰ + indicatif futur (futur minatoire).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel exprime la plus faible probabilité ?",
+      "options": [
+        "Le potentiel",
+        "L'éventuel",
+        "L'indicatif futur",
+        "Le subjonctif délibératif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'apodose du potentiel utilise toujours la particule ἄν.",
+      "reponse": true
+    }
+  ]
+}

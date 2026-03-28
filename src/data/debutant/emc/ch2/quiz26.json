@@ -1,0 +1,96 @@
+{
+  "id": "quiz26",
+  "titre": "Qu'est-ce qu'une Élection ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "C'est quoi voter ?",
+      "options": [
+        "Donner de l'argent",
+        "Donner son avis pour choisir quelqu'un ou quelque chose",
+        "Faire la fête",
+        "Partir en vacances"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "À l'école, on peut élire des délégués de classe.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La petite boîte où l'on met les bulletins s'appelle l'{{1}}.",
+      "reponsesAttendues": [
+        "urne"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'endroit caché pour voter ?",
+      "options": [
+        "La cabane",
+        "L'isoloir",
+        "Le rideau",
+        "La grotte"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le vote doit être secret (personne ne doit savoir ce que l'on a voté).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À partir de quel âge a-t-on le droit de voter en France ?",
+      "options": [
+        "10 ans",
+        "16 ans",
+        "18 ans",
+        "20 ans"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Quand le résultat est annoncé, on a compté les {{1}}.",
+      "reponsesAttendues": [
+        "voix",
+        "bulletins",
+        "votes"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Voter est un droit important dans une démocratie.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qui élit-on tous les 5 ans en France ?",
+      "options": [
+        "Le Président de la République",
+        "Le Capitaine de l'équipe",
+        "Le Chef de gare",
+        "L'acteur préféré"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Choisir ses délégués permet de participer à la vie de l'école.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "quiz86",
+  "titre": "Portugais Expert : Vers la Démocratie et l'Europe",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "En quelle année le Portugal a-t-il rejoint la Communauté Économique Européenne (CEE) ?",
+      "options": [
+        "1986",
+        "1974",
+        "1992",
+        "2002"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'adhésion à la CEE a eu lieu en même temps que celle de l'Espagne.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le traité d'adhésion fut signé par le Premier ministre `{{1}}` (Mário Soares) au monastère des Hiéronymites.",
+      "reponsesAttendues": [
+        "Mario Soares"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui est considéré comme le 'père de la démocratie' portugaise moderne ?",
+      "options": [
+        "Mário Soares",
+        "Sá Carneiro",
+        "Cavaco Silva",
+        "António Guterres"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Portugal est l'un des pays fondateurs de l'Euro.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel parti politique a dominé la vie politique portugaise dans les années 80-90 avec Cavaco Silva ?",
+      "options": [
+        "PSD (Parti Social Démocrate)",
+        "PS (Parti Socialiste)",
+        "PCP",
+        "CDS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'Exposition Universelle de 1998 s'est tenue à `{{1}}` (Lisbonne), marquant la modernisation du pays.",
+      "reponsesAttendues": [
+        "Lisbonne",
+        "Lisboa"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La Constitution portugaise de 1976 contenait à l'origine des références claires au socialisme.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel traité de l'Union Européenne porte le nom de la capitale portugaise (signé en 2007) ?",
+      "options": [
+        "Traité de Lisbonne",
+        "Traité de Porto",
+        "Accord de Sintra",
+        "Pacte d'Estoril"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Portugal a été l'un des pays signataires de l'espace Schengen dès l'origine.",
+      "reponse": true
+    }
+  ]
+}

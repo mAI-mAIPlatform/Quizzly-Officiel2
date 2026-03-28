@@ -1,0 +1,94 @@
+{
+  "id": "quiz14",
+  "titre": "Le verbe AVOIR au présent",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Avoir' avec 'Je' ?",
+      "options": [
+        "J'ai",
+        "J'as",
+        "J'a",
+        "J'ont"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pour 'Tu', on écrit : 'Tu as'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Elle {{1}} (avoir) un vélo bleu.",
+      "reponsesAttendues": [
+        "a"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment écrit-on 'Avoir' avec 'Nous' ?",
+      "options": [
+        "Nous avons",
+        "Nous avez",
+        "Nous ont",
+        "Nous as"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Avec 'Vous', on écrit : 'Vous avez'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Ils ... (avoir) faim.",
+      "options": [
+        "avons",
+        "avez",
+        "ont",
+        "ont"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Nous {{1}} (avoir) de la chance.",
+      "reponsesAttendues": [
+        "avons"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le verbe avoir sert à exprimer la possession.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Trouve l'erreur :",
+      "options": [
+        "Tu as",
+        "Il a",
+        "Nous avons",
+        "Ils avez"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "'Tu as' prend toujours un 's' à la fin au présent.",
+      "reponse": true
+    }
+  ]
+}

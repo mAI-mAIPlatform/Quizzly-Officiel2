@@ -1,0 +1,90 @@
+{
+  "id": "quiz17",
+  "titre": "Tests Unitaires : Pytest & Mock",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le framework de test le plus populaire actuellement ?",
+      "options": [
+        "Pytest",
+        "Unittest",
+        "Nose",
+        "Doctest"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Contrairement à unittest, Pytest permet d'écrire des tests simples sans classes.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot-clé standard {{1}} est utilisé par Pytest pour vérifier les conditions.",
+      "reponsesAttendues": ["assert"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment s'appellent les composants Pytest permettant de fournir des objets/données aux tests ?",
+      "options": [
+        "Fixtures",
+        "Mocks",
+        "Setups",
+        "Providers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un 'Mock' permet de simuler le comportement d'un objet complexe ou d'une API externe.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel décorateur permet de lancer un même test avec plusieurs jeux de données ?",
+      "options": [
+        "@pytest.mark.parametrize",
+        "@pytest.loop",
+        "@pytest.data",
+        "@pytest.run"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le module unittest.{{1}} est indispensable pour isoler les tests des effets de bord réels.",
+      "reponsesAttendues": ["mock"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "unittest est inclus par défaut dans la bibliothèque standard de Python.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie TDD ?",
+      "options": [
+        "Test Driven Development",
+        "Total Data Design",
+        "Technical Debugging Device",
+        "Time Duty Delay"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Avoir une couverture de tests de 100% garantit l'absence totale de bugs.",
+      "reponse": false
+    }
+  ]
+}

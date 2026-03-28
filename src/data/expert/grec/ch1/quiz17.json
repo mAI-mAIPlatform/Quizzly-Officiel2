@@ -1,0 +1,95 @@
+{
+  "id": "quiz17",
+  "titre": "Contractes en -αω (τιμάω)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que donne la contraction α + ω ?",
+      "options": [
+        "ω",
+        "α",
+        "ᾳ",
+        "ου"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "α + ε donne un η.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La contraction α + ε donne un {{1}} long.",
+      "reponsesAttendues": [
+        "α"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la forme contractée de 'τιμάει' (il honore) ?",
+      "options": [
+        "τιμᾷ",
+        "τιμῇ",
+        "τιμῷ",
+        "τιμᾶ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "α + ο donne un ω.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se contracte 'τιμάομεν' ?",
+      "options": [
+        "τιμῶμεν",
+        "τιμᾶμεν",
+        "τιμοῦμεν",
+        "τιμώμεν"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Au futur, le 'alpha' de 'τιμάω' s'allonge en {{1}} devant le sigma.",
+      "reponsesAttendues": [
+        "η",
+        "eta"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "α + ει donne ᾳ.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'νικάω' ?",
+      "options": [
+        "Vaincre",
+        "Honerer",
+        "Montrer",
+        "Faire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'accentuation des contractes est prévisible si l'on connaît l'accentuation de la forme non contractée.",
+      "reponse": true
+    }
+  ]
+}

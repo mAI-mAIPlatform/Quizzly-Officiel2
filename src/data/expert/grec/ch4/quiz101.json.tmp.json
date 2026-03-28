@@ -1,0 +1,94 @@
+{
+  "id": "quiz109",
+  "titre": "Grec Expert : La Bibliothèque d'Alexandrie et le Savoir",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui a fondé la ville d'Alexandrie en Égypte en 331 av. J.-C. ?",
+      "options": [
+        "Alexandre le Grand",
+        "Ptolémée Ier",
+        "Antigonos",
+        "Séleucos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Bibliothèque d'Alexandrie visait à rassembler tous les livres du monde connu sous forme de rouleaux de papyrus.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Mouseîon) d'Alexandrie était un centre de recherche et d'enseignement rattaché à la bibliothèque.",
+      "reponsesAttendues": [
+        "Mouseion"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appelait-on les savants qui travaillaient à l'édition et à la critique des textes anciens (comme Homère) à Alexandrie ?",
+      "options": [
+        "Les philologues (ou grammairiens)",
+        "Les sophistes",
+        "Les rhéteurs",
+        "Les scribes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Phare d'Alexandrie était l'une des Sept Merveilles du monde antique.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle dynastie a régné sur l'Égypte et protégé les arts et les sciences à Alexandrie jusqu'à Cléopâtre ?",
+      "options": [
+        "Les Lagides (ou Ptolémées)",
+        "Les Attalides",
+        "Les Séleucides",
+        "Les Antigonides"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La `{{1}}` (Septante) est la traduction en grec de la Bible hébraïque réalisée à Alexandrie.",
+      "reponsesAttendues": [
+        "Septante"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Callimaque de Cyrène a rédigé le premier catalogue de la bibliothèque, les Pinakes.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qui a dirigé la Bibliothèque et a calculé la circonférence de la Terre ?",
+      "options": [
+        "Ératosthène",
+        "Zénodote",
+        "Apollonios de Rhodes",
+        "Aristarque"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'incendie de la Bibliothèque d'Alexandrie est considéré comme l'une des plus grandes pertes culturelles de l'humanité.",
+      "reponse": true
+    }
+  ]
+}

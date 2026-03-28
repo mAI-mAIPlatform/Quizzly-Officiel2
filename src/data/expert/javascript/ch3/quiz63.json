@@ -1,0 +1,95 @@
+{
+  "id": "quiz63",
+  "titre": "JavaScript Expert : Sous le capot du V8",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans V8, comment appelle-t-on la transformation du code source en code machine optimisé 'juste à temps' ?",
+      "options": [
+        "JIT (Just-In-Time) compilation",
+        "AOT (Ahead-Of-Time)",
+        "Interprétation pure",
+        "Transpilation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les 'Hidden Classes' sont utilisées par V8 pour optimiser l'accès aux propriétés des objets.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'`Inline {{1}}` consistant à mettre en cache le résultat d'une recherche de propriété pour gagner du temps.",
+      "reponsesAttendues": [
+        "Caching"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel composant de V8 génère le bytecode initial à partir de l'ast ?",
+      "options": [
+        "Ignition",
+        "Turbofan",
+        "Orinoco",
+        "Liftoff"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le compilateur d'optimisation de V8 s'appelle Turbofan.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Pourquoi est-il déconseillé d'ajouter/supprimer dynamiquement des propriétés sur des objets de manière désordonnée ?",
+      "options": [
+        "Cela invalide les Hidden Classes et force le moteur à désoptimiser le code",
+        "C'est illégal",
+        "Cela change la couleur du texte",
+        "Ça n'a pas d'impact"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Une fonction est dite `{{1}}` (hot) lorsqu'elle est exécutée très souvent, déclenchant son optimisation.",
+      "reponsesAttendues": [
+        "chaude",
+        "hot"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le 'Deoptimization' (bailout) survient quand les hypothèses faites par le compilateur optimisé s'avèrent fausses.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'analyseur qui transforme le texte JS en structure de données ?",
+      "options": [
+        "Le Parser",
+        "Le Linker",
+        "L'Assembler",
+        "Outil de build"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le ramasse-miettes du V8 s'appelle Orinoco.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz22",
+  "titre": "Histoire : Les Grandes Découvertes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est le premier navigateur à avoir atteint l'Amérique en 1492 (pensant être en Inde) ?",
+      "options": [
+        "Christophe Colomb",
+        "Vasco de Gama",
+        "Magellan",
+        "Jacques Cartier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Vasco de Gama a ouvert la route des Indes en contournant l'Afrique (Cap de Bonne-Espérance).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le premier tour du monde (circumnavigation) a été initié par `{{1}}`.",
+      "reponsesAttendues": [
+        "Magellan"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel traité de 1494 partageait le Nouveau Monde entre l'Espagne et le Portugal ?",
+      "options": [
+        "Le traité de Tordesillas",
+        "Le traité de Westphalie",
+        "Le traité de Gand",
+        "Le traité de Versailles"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les Conquistadors (Cortés, Pizarro) ont détruit les empires aztèque et inca.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel nouveau type de navire léger et maniable a favorisé ces explorations ?",
+      "options": [
+        "La caravelle",
+        "La galère",
+        "Le drakkar",
+        "Le galion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le continent américain doit son nom à l'explorateur Amerigo `{{1}}`.",
+      "reponsesAttendues": [
+        "Vespucci"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'échange colombien désigne le transfert de plantes, animaux et maladies entre l'Ancien et le Nouveau Monde.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qui a découvert le Brésil en 1500 ?",
+      "options": [
+        "Pedro Álvares Cabral",
+        "Hernán Cortés",
+        "Jean de la Cosa",
+        "Bartolomeu Dias"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La chute de Constantinople (1453) a poussé les Européens à chercher de nouvelles routes commerciales vers l'Asie.",
+      "reponse": true
+    }
+  ]
+}

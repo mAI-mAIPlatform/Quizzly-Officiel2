@@ -1,0 +1,94 @@
+{
+  "id": "quiz34",
+  "titre": "HTML Expert : Shadow DOM",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le Shadow DOM ?",
+      "options": [
+        "Un arbre DOM isolé attaché à un élément, permettant l'encapsulation",
+        "Le mode sombre du navigateur",
+        "Une copie cachée du site pour les hackers",
+        "Un système de cache"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le CSS défini à l'intérieur du Shadow DOM n'affecte pas l'extérieur, et inversement (sauf variables CSS).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour attacher un Shadow DOM à un élément, on utilise la méthode `attach{{1}}({mode: 'open'})`.",
+      "reponsesAttendues": [
+        "Shadow"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre le mode 'open' et 'closed' ?",
+      "options": [
+        "En mode 'open', le shadow root est accessible via JS depuis l'extérieur ; en 'closed', il ne l'est pas",
+        "Le mode 'open' est gratuit",
+        "Le mode 'closed' est plus rapide",
+        "Il n'y a aucune différence"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Tous les éléments HTML peuvent porter un Shadow DOM (ex: <img>, <a>).",
+        "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment sélectionner l'hôte (element porteur) depuis le CSS du Shadow DOM ?",
+      "options": [
+        ":host",
+        ":root",
+        ":parent",
+        ":this"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La pseudo-classe permettant de styliser l'hôte s'il possède une certaine classe est `:host({{1}})`.",
+      "reponsesAttendues": [
+        ".ma-classe"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Shadow DOM permet de créer de véritables 'widgets' indépendants et réutilisables.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle pseudo-classe cible un élément injecté via un slot ?",
+      "options": [
+        "::slotted()",
+        "::part()",
+        "::inject()",
+        "::content()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'encapsulation du Shadow DOM empêche également les événements de 'bubbler' (remonter) vers le DOM principal sauf configuration spécifique.",
+      "reponse": true
+    }
+  ]
+}

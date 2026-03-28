@@ -3,5 +3,30 @@
   "titre": "Culture Générale",
   "niveau": "Expert",
   "description": "Découvre et maîtrise tout le programme de Culture Générale au niveau Expert !",
-  "chapitres": []
+  "chapitres": [
+    {
+      "id": "ch1",
+      "titre": "Érudition Historique",
+      "lecons": ["Détails de l'Antiquité", "Moyen-Âge complexe", "Géopolitique moderne"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch2",
+      "titre": "Épistémologie et Sciences",
+      "lecons": ["Philosophie des sciences", "Physique théorique", "Avancées bio-médicales"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch3",
+      "titre": "Humanités et Esthétique",
+      "lecons": ["Théorie de l'art", "Littérature comparée", "Anthropologie"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch4",
+      "titre": "Grands Enjeux Éthiques",
+      "lecons": ["Économie politique", "Bioéthique", "Droit international"],
+      "quizCount": 30
+    }
+  ]
 }

@@ -1,0 +1,94 @@
+{
+  "id": "quiz22",
+  "titre": "La Maison",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'La maison' ?",
+      "options": [
+        "A casa",
+        "O quarto",
+        "A sala",
+        "A cozinha"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'O quarto' signifie 'La chambre'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La 'Cuisine' se dit 'A {{1}}'.",
+      "reponsesAttendues": [
+        "cozinha"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'A sala de estar' ?",
+      "options": [
+        "La salle à manger",
+        "Le salon",
+        "La salle de bain",
+        "Le garage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'A casa de banho' signifie 'La salle de bain' (au Portugal).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'La table' ?",
+      "options": [
+        "A mesa",
+        "A cadeira",
+        "A cama",
+        "A porta"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le 'Lit' se dit 'A {{1}}'.",
+      "reponsesAttendues": [
+        "cama"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'A janela' signifie 'La fenêtre'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'A cadeira' ?",
+      "options": [
+        "La chaise",
+        "Le bureau",
+        "L'armoire",
+        "Le tapis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "'O teto' signifie 'Le plafond'.",
+      "reponse": true
+    }
+  ]
+}

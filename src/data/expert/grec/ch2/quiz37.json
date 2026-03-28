@@ -1,0 +1,94 @@
+{
+  "id": "quiz37",
+  "titre": "Grec Expert : L'Irréel",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quels temps de l'indicatif utilise-t-on pour l'irréel ?",
+      "options": [
+        "Imparfait et Aoriste",
+        "Présent et Futur",
+        "Parfait et Plus-que-parfait",
+        "Optatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'irréel du présent s'exprime par l'imparfait à la protase et à l'apodose (avec ἄν).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'apodose de l'irréel est caractérisée par la particule `{{1}}`.",
+      "reponsesAttendues": [
+        "ἄν"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment exprime-t-on l'irréel du passé ?",
+      "options": [
+        "εἰ + aoriste -> aoriste + ἄν",
+        "εἰ + imparfait -> imparfait + ἄν",
+        "εἰ + optatif -> optatif",
+        "εἰ + parfait -> parfait"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "εἰ ἔγραφον, ἀνεγίγνωσκες ἄν signifie 'Si j'écrivais (maintenant), tu lirais'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle est la négation de l'apodose de l'irréel ?",
+      "options": [
+        "οὐ",
+        "μή",
+        "οὐ μή",
+        "μηδέ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour un irréel du passé dont l'action dure, on peut utiliser l'`{{1}}` au lieu de l'aoriste.",
+      "reponsesAttendues": [
+        "imparfait"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "εἰ ἔγραψα, ἀνέγνως ἄν signifie 'Si j'avais écrit, tu aurais lu'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel de ces verbes de 'devoir/pouvoir' (ἔδει, ἐξῆν) s'utilise souvent sans ἄν à l'irréel ?",
+      "options": [
+        "Les deux",
+        "Uniquement ἔδει",
+        "Uniquement ἐξῆν",
+        "Aucun"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'irréel exprime une condition qui ne s'est pas réalisée ou ne peut pas se réaliser.",
+      "reponse": true
+    }
+  ]
+}

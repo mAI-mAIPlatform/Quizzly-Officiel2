@@ -1,0 +1,95 @@
+{
+  "id": "quiz81",
+  "titre": "JavaScript Expert : Nouveautés ES2020 (Optional Chaining & Nullish)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel opérateur permet de lire une propriété située profondément dans une chaîne d'objets sans avoir à vérifier chaque référence ?",
+      "options": [
+        "?. (Optional Chaining)",
+        "?? (Nullish Coalescing)",
+        "||",
+        "&&."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'opérateur `?.` renvoie `undefined` si la référence avant le point est `null` ou `undefined`.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'opérateur `{{1}}` (??) renvoie l'opérande de droite uniquement si celui de gauche est `null` ou `undefined`.",
+      "reponsesAttendues": [
+        "??",
+        "Nullish Coalescing"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Soit `const x = 0; console.log(x ?? 42);`. Quel est le résultat ?",
+      "options": [
+        "0",
+        "42",
+        "undefined",
+        "null"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Contrairement à `||`, l'opérateur `??` considère `0` et `''` (chaîne vide) comme des valeurs valides (non nullish).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle syntaxe permet d'appeler une méthode qui n'existe peut-être pas ?",
+      "options": [
+        "obj.method?.()",
+        "obj.method.?.()",
+        "obj.method?()",
+        "obj?.method()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'objet `{{1}}` (BigInt) introduit en ES2020 permet de manipuler des entiers au-delà de la limite de `Number.MAX_SAFE_INTEGER`.",
+      "reponsesAttendues": [
+        "BigInt"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut mélanger des `BigInt` et des `Number` dans des opérations arithmétiques sans conversion explicite.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle méthode statique de `Promise` renvoie une promesse qui s'accomplit dès que TOUTES les promesses sont réglées (qu'elles réussissent ou échouent) ?",
+      "options": [
+        "Promise.allSettled()",
+        "Promise.all()",
+        "Promise.any()",
+        "Promise.race()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'opérateur `?.` fonctionne aussi pour l'accès aux éléments d'un tableau : `arr?.[index]`.",
+      "reponse": true
+    }
+  ]
+}

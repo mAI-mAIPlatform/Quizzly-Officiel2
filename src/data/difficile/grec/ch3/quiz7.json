@@ -1,0 +1,90 @@
+{
+  "id": "quiz7",
+  "titre": "Ligue de Délos",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel était le but initial de la Ligue de Délos en 478 av. J.-C. ?",
+      "options": [
+        "Continuer la lutte contre les Perses et protéger les cités ioniennes",
+        "Conquérir Sparte",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le trésor de la Ligue était initialement conservé dans l'île sacrée de Délos.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les membres de la Ligue payaient un tribut annuel à Athènes appelé le {{1}}.",
+      "reponsesAttendues": ["Phoros"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi parle-t-on d'impérialisme athénien ?",
+      "options": [
+        "Parce qu'Athènes a utilisé la force pour empêcher les cités de quitter la Ligue",
+        "Parce qu'elle avait un empereur",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Athènes a imposé sa monnaie et son système de poids et mesures à ses alliés.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que sont les 'clérouquies' ?",
+      "options": [
+        "Des colonies militaires athéniennes installées sur les terres de cités alliées",
+        "Des navires",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La Ligue de Délos disposait d'une flotte puissante composée de {{1}} (navires de guerre).",
+      "reponsesAttendues": ["trières"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La Paix de Callias en 449 a mis fin officiellement aux hostilités avec la Perse.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle cité s'est révoltée violemment contre Athènes en 428 ?",
+      "options": [
+        "Mytilène (Lesbos)",
+        "Corinthe",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'hégémonie athénienne est l'une des causes de la guerre du Péloponnèse.",
+      "reponse": true
+    }
+  ]
+}

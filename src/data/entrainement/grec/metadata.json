@@ -3,5 +3,30 @@
   "titre": "Grec",
   "niveau": "Entraînement",
   "description": "Découvre et maîtrise tout le programme de Grec au niveau Entraînement !",
-  "chapitres": []
+  "chapitres": [
+    {
+      "id": "ch1",
+      "titre": "L'Alphabet Grec",
+      "lecons": ["Les lettres", "Voyelles et Consonnes", "L'écriture"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch2",
+      "titre": "Lecture de Mots",
+      "lecons": ["Esprits et Accents", "Diphthongues", "Syllabes"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch3",
+      "titre": "Grammaire de Base",
+      "lecons": ["L'article", "Noms simples", "Le verbe 'être'"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch4",
+      "titre": "Vocabulaire Courant",
+      "lecons": ["Mots usuels", "Phrases simples", "Civilisation grecque"],
+      "quizCount": 30
+    }
+  ]
 }

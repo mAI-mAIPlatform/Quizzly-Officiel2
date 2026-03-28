@@ -1,0 +1,90 @@
+{
+  "id": "quiz18",
+  "titre": "Meta Viewport",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise est essentielle pour rendre un site 'Mobile Friendly' ?",
+      "options": [
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+        "<meta responsive>",
+        "<link rel=\"mobile-friendly\">",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "width=device-width adapte la largeur de la page à celle de l'écran du terminal.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La valeur initial-{{1}}=1.0 définit le niveau de zoom par défaut lors du chargement.",
+      "reponsesAttendues": ["scale"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi éviter 'user-scalable=no' ?",
+      "options": [
+        "C'est un cauchemar pour l'accessibilité (empêche de zoomer pour les malvoyants)",
+        "Ça bugue",
+        "C'est trop lent",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'absence de cette balise fait que le navigateur mobile simule un écran de bureau de 980px.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que fait interactive-widget=resizes-content (nouveauté Chrome) ?",
+      "options": [
+        "Permet d'ajuster le comportement du viewport lorsque le clavier virtuel apparaît",
+        "Agrandit les boutons",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut viewport se place impérativement dans le {{1}}.",
+      "reponsesAttendues": ["head"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Une mauvaise configuration viewport peut entraîner une pénalité Google mobile-first.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Utilité de shrink-to-fit=no (spécifique à Safari iOS) ?",
+      "options": [
+        "Empêche la page de se réduire si le contenu dépasse la largeur de l'écran",
+        "Accélère le rendu",
+        "Agrandit le texte",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Cette balise est la base de tout site Web Responsive.",
+      "reponse": true
+    }
+  ]
+}

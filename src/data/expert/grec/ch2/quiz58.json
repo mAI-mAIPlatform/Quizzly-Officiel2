@@ -1,0 +1,94 @@
+{
+  "id": "quiz58",
+  "titre": "Grec Expert : Lucien et la Satire",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quelle époque Lucien de Samosate a-t-il écrit ?",
+      "options": [
+        "Le IIème siècle après J.-C. (époque romaine)",
+        "L'époque de Périclès",
+        "L'époque d'Homère",
+        "L'époque byzantine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Lucien écrit dans une langue qui cherche à imiter la pureté de l'attique classique (atticisme).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Son chef-d'oeuvre parodique de récits de voyages imaginaires s'intitule 'Histoires `{{1}}`'.",
+      "reponsesAttendues": [
+        "vraies"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est le ton dominant de l'oeuvre de Lucien ?",
+      "options": [
+        "La satire ironique et la dérision des philosophes et des dieux",
+        "Une dévotion religieuse profonde",
+        "Une tristesse mélancolique",
+        "Un traité mathématique austère"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "vrai_faux",
+      "enonce": "Les 'Dialogues des morts' mettent en scène des personnages célèbres discutant de la vanité humaine aux Enfers.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que parodie Lucien dans 'Histoires vraies' ?",
+      "options": [
+        "Les récits d'Hérodote et les fables épiques remplies de prodiges",
+        "Le code civil romain",
+        "Les poèmes de Sappho",
+        "Les pièces musicales"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Lucien est d'origine `{{1}}` (actuelle Syrie) mais choisit la culture et la langue grecque.",
+      "reponsesAttendues": [
+        "syrienne",
+        "araméenne"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Lucien a inventé le dialogue satirique en mélangeant le dialogue philosophique et la comédie.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "De quoi se moque-t-il dans 'Ventes de philosophies' ?",
+      "options": [
+        "Des différentes écoles philosophiques vendues comme des esclaves sur un marché",
+        "Du prix des livres",
+        "Des marchands de poissons",
+        "Des jeux olympiques"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Lucien est une source précieuse pour comprendre la société cosmopolite de l'Empire romain.",
+      "reponse": true
+    }
+  ]
+}

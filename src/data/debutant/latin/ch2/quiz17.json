@@ -1,0 +1,94 @@
+{
+  "id": "quiz17",
+  "titre": "Les Verbes : 4e Conjugaison (-ire)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la voyelle caractéristique de la 4e conjugaison ?",
+      "options": [
+        "i",
+        "a",
+        "e",
+        "u"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Audio' signifie 'j'entends / j'écoute'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": " 'Tu entends' se dit 'aud{{1}}' (audis).",
+      "reponsesAttendues": [
+        "is"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'dormiunt' ?",
+      "options": [
+        "Ils dorment",
+        "Nous dormons",
+        "Vous dormez",
+        "Il dort"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Venio' signifie 'je viens'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'il vient' ?",
+      "options": [
+        "venit",
+        "venet",
+        "venat",
+        "venis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": " 'Nous venons' se dit 'ven{{1}}' (venimus).",
+      "reponsesAttendues": [
+        "imus"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La 3e personne du pluriel finit par -iunt (ex: audiunt).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'scire' ?",
+      "options": [
+        "Savoir",
+        "Écrire",
+        "Lire",
+        "Dire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le verbe 'finir' se dit 'finire'.",
+      "reponse": true
+    }
+  ]
+}

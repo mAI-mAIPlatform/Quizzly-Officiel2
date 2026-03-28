@@ -1,0 +1,94 @@
+{
+  "id": "quiz20",
+  "titre": "Synthèse des Opérateurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que vaut x après : x = 5; x **= 2 ?",
+      "options": [
+        "10",
+        "25",
+        "7",
+        "Erreur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'opérateur != se lit 'est non égal à'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour savoir si 'A' est dans une liste : 'A' {{1}} ma_liste.",
+      "reponsesAttendues": [
+        "in"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "priority: (2 + 3) * 4 ?",
+      "options": [
+        "14",
+        "20",
+        "24",
+        "9"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'expression (True or False) is True.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lequel est un opérateur de division entière ?",
+      "options": [
+        "/",
+        "//",
+        "%",
+        "div"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "En Python, l'adresse mémoire est unique pour chaque {{1}}.",
+      "reponsesAttendues": [
+        "objet"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "on peut utiliser 'not' devant une comparaison.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que renvoie 10 < 20 and 30 > 40 ?",
+      "options": [
+        "True",
+        "False",
+        "None",
+        "Erreur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'opérateur 'is not' existe.",
+      "reponse": true
+    }
+  ]
+}

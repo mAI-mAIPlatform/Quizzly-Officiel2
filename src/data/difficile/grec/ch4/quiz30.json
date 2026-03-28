@@ -1,0 +1,90 @@
+{
+  "id": "quiz30",
+  "titre": "EXAMEN FINAL",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel ordre a des colonnes à volutes ?",
+      "options": [
+        "Ionique",
+        "Dorique",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Phidias a supervisé la sculpture du Parthénon.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'école de Platon s'appelait l'{{1}}.",
+      "reponsesAttendues": ["Académie"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui a crié Euréka ?",
+      "options": [
+        "Archimède",
+        "Euclide",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les premières mosaïques étaient faites de galets.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est le 'père de la médecine' ?",
+      "options": [
+        "Hippocrate",
+        "Thalès",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le style tourmenté hellénistique est qualifié de {{1}}.",
+      "reponsesAttendues": ["baroque"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le Phare d'Alexandrie était une Merveille du Monde.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qui a calculé la circonférence de la Terre ?",
+      "options": [
+        "Ératosthène",
+        "Ptolémée",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Bravo ! Vous avez terminé tout le curriculum de Grec (Difficile) ! 🇬🇷🏆✨",
+      "reponse": true
+    }
+  ]
+}

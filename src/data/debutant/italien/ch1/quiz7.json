@@ -1,0 +1,94 @@
+{
+  "id": "quiz7",
+  "titre": "Articles Définis Singuliers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est l'article masculin pour un mot commençant par une consonne ?",
+      "options": [
+        "il",
+        "lo",
+        "la",
+        "l'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On utilise 'lo' devant les mots masculins commençant par 'S + consonne' (ex: lo studio).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Devant un mot féminin (ex: pizza), on utilise l'article '{{1}}'.",
+      "reponsesAttendues": [
+        "la"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que devient l'article devant une voyelle (masculin ou féminin) ?",
+      "options": [
+        "il",
+        "la",
+        "l'",
+        "lo"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On dit 'il zaino' (le sac à dos).",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Complétez : '____ caffè' (le café).",
+      "options": [
+        "il",
+        "lo",
+        "la",
+        "l'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "On utilise 'lo' devant les mots commençant par '{{1}}' (ex: lo zucchero).",
+      "reponsesAttendues": [
+        "z"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'article pour 'amica' (amie) est 'l''.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Complétez : '____ studente' (l'étudiant).",
+      "options": [
+        "il",
+        "lo",
+        "la",
+        "l'"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le choix de l'article dépend de l'accord en genre et de la première lettre.",
+      "reponse": true
+    }
+  ]
+}

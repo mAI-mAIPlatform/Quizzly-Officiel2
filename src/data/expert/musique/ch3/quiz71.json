@@ -1,0 +1,94 @@
+{
+  "id": "quiz71",
+  "titre": "Musique Expert : L'Impressionnisme (Debussy et Ravel)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel compositeur est considéré comme le chef de file de l'impressionnisme musical, auteur du 'Prélude à l'après-midi d'un faune' ?",
+      "options": [
+        "Claude Debussy",
+        "Maurice Ravel",
+        "Erik Satie",
+        "Gabriel Fauré"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'impressionnisme musical privilégie la couleur sonore (le timbre) et les atmosphères plutôt que les formes traditionnelles rigides.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le `{{1}}` (Boléro) est l'œuvre la plus célèbre de Maurice Ravel, caractérisée par un immense crescendo orchestral sur un rythme immuable.",
+      "reponsesAttendues": [
+        "Bolero"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle gamme, très utilisée par Debussy, supprime la sensation de tonique et crée un flou harmonique ?",
+      "options": [
+        "La gamme par tons (gamme hexatonique)",
+        "La gamme pentatonique",
+        "La gamme chromatique",
+        "La gamme mineure harmonique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Debussy rejetait lui-même le terme 'impressionnisme' pour qualifier sa musique.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel ballet de Ravel se déroule dans une antiquité grecque onirique ?",
+      "options": [
+        "Daphnis et Chloé",
+        "Ma Mère l'Oye",
+        "La Valse",
+        "Le Tombeau de Couperin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'œuvre de piano `{{1}}` (Clair de lune) fait partie de la Suite bergamasque de Debussy.",
+      "reponsesAttendues": [
+        "Clair de lune"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Ravel était un maître de l'orchestration, capable de sublimer les timbres de chaque instrument (ex: Tableaux d'une exposition de Moussorgski).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel compositeur du 'Groupe des Six' a collaboré avec Ravel et Debussy tout en prônant une musique plus dépouillée et humoristique ?",
+      "options": [
+        "Erik Satie",
+        "Francis Poulenc",
+        "Darius Milhaud",
+        "Arthur Honegger"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'impressionnisme musical a été fortement influencé par la peinture et la poésie symboliste.",
+      "reponse": true
+    }
+  ]
+}

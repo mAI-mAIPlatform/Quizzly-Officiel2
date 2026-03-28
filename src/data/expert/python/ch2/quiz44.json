@@ -1,0 +1,95 @@
+{
+  "id": "quiz44",
+  "titre": "Python Expert : __call__ & Callables",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert la méthode `__call__` ?",
+      "options": [
+        "À rendre une instance de classe 'appelable' comme une fonction (ex: obj())",
+        "À téléphoner au serveur",
+        "À appeler le support technique",
+        "À supprimer l'objet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Toutes les fonctions sont techniquement des objets possédant une méthode __call__.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour vérifier si un objet est appelable, on utilise la fonction intégrée `{{1}}()`.",
+      "reponsesAttendues": [
+        "callable"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel avantage offre une classe 'appelable' par rapport à une simple fonction ?",
+      "options": [
+        "Elle peut conserver un état interne persistant entre les appels",
+        "Elle est plus rapide",
+        "Elle utilise moins de code",
+        "Elle ne peut pas échouer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut implémenter des décorateurs sous forme de classes en utilisant __call__.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Où définit-on la logique exécutée lors de l'appel de l'objet ?",
+      "options": [
+        "Dans la méthode __call__(self, *args, **kwargs)",
+        "Dans __init__",
+        "Dans __run__",
+        "C'est automatique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les instances de classes qui implémentent `__call__` sont appelées des `{{1}}` objects.",
+      "reponsesAttendues": [
+        "functionally",
+        "callable"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un objet peut être rendu appelable dynamiquement en lui ajoutant une méthode __call__ (Monkey Patching).",
+      "reponse : false (Pour les méthodes spéciales, Python les cherche dans la classe, pas l'instance)"
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel de ces objets est toujours 'callable' ?",
+      "options": [
+        "Une classe",
+        "Un dictionnaire",
+        "Un entier",
+        "Une chaîne de caractères"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les méthodes liées (bound methods) sont elles aussi des callables.",
+      "reponse": true
+    }
+  ]
+}

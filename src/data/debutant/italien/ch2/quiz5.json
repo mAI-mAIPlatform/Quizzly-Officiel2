@@ -1,0 +1,94 @@
+{
+  "id": "quiz5",
+  "titre": "La Nourriture (Il Cibo)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'le pain' ?",
+      "options": [
+        "il pane",
+        "la pasta",
+        "la pizza",
+        "il formaggio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Il formaggio' signifie le fromage.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le lait se dit 'il {{1}}' (latte).",
+      "reponsesAttendues": [
+        "latte"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'la carne' ?",
+      "options": [
+        "La viande",
+        "Le poisson",
+        "Le poulet",
+        "L'oeuf"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Il pesce' signifie le poisson.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'le petit-déjeuner' ?",
+      "options": [
+        "la colazione",
+        "il pranzo",
+        "la cena",
+        "la merenda"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le dîner se dit 'la {{1}}' (cena).",
+      "reponsesAttendues": [
+        "cena"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Il pranzo' signifie le déjeuner.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'la frutta' ?",
+      "options": [
+        "Les fruits",
+        "Les légumes",
+        "Les desserts",
+        "Les boissons"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": " 'Mangio un gelato' signifie 'Je mange une glace'.",
+      "reponse": true
+    }
+  ]
+}

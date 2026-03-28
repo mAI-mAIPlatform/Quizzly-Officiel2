@@ -1,0 +1,94 @@
+{
+  "id": "quiz26",
+  "titre": "Letteratura : Alessandro Manzoni",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qual è il romanzo più famoso di Alessandro Manzoni ?",
+      "options": [
+        "I Promessi Sposi",
+        "Il Gattopardo",
+        "Le Confessioni",
+        "I Malavoglia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Manzoni diceva di voler 'sciacquare i panni in Arno' per unificare la lingua del romanzo.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "I protagonisti del romanzo di Manzoni sono Renzo e `{{1}}`.",
+      "reponsesAttendues": [
+        "Lucia"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "In che secolo è ambientata la vicenda de I Promessi Sposi ?",
+      "options": [
+        "XVII secolo (Seicento)",
+        "XIX secolo",
+        "XV secolo",
+        "XVIII secolo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Manzoni è il principale esponente del Romanticismo italiano.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qual è il modello linguistico scelto da Manzoni per la versione finale del romanzo ?",
+      "options": [
+        "Il fiorentino parlato dalle persone colte",
+        "Il latino ecclesiastico",
+        "Il milanese dialettale",
+        "Il toscano del '300"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Il tema religioso centrale nell'opera di Manzoni è la `{{1}}` (Divina Provvidenza).",
+      "reponsesAttendues": [
+        "Provvidenza"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "I Promessi Sposi è considerato il primo vero romanzo moderno della letteratura italiana.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Chi è l'antagonista principale che impedisce il matrimonio ?",
+      "options": [
+        "Don Rodrigo",
+        "Fra Cristoforo",
+        "L'Innominato",
+        "Il cardinale Borromeo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Manzoni scrisse anche poesie civili come 'Il cinque maggio'.",
+      "reponse": true
+    }
+  ]
+}

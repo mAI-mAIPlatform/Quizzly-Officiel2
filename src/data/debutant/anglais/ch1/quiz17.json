@@ -1,0 +1,94 @@
+{
+  "id": "quiz17",
+  "titre": "Classroom Instructions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'Sit down' ?",
+      "options": [
+        "Lève-toi",
+        "Assieds-toi",
+        "Regarde",
+        "Écoute"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Stand up' signifie lève-toi.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Écoute se dit {{1}}.",
+      "reponsesAttendues": [
+        "listen"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'Open your book' ?",
+      "options": [
+        "Ferme ton livre",
+        "Ouvre ton livre",
+        "Range ton livre",
+        "Donne ton livre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Look at the board' signifie regarde le tableau.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Tais-toi' ou 'Silence' ?",
+      "options": [
+        "Speak up",
+        "Be quiet",
+        "Shout",
+        "Dance"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Écris se dit {{1}}.",
+      "reponsesAttendues": [
+        "write"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Close the door' signifie ouvre la porte.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'Hands up' ?",
+      "options": [
+        "Baisse les mains",
+        "Lève les mains",
+        "Lave les mains",
+        "Frappe dans les mains"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Bien comprendre les consignes aide à bien travailler en classe.",
+      "reponse": true
+    }
+  ]
+}

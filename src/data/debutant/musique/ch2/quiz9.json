@@ -1,0 +1,94 @@
+{
+  "id": "quiz9",
+  "titre": "Les Liaisons et les Points",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que fait un point après une note ?",
+      "options": [
+        "Il augmente la note de la moitié de sa valeur",
+        "Il diminue la note de moitié",
+        "Il double la valeur de la note",
+        "Il indique un silence"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une Noire pointée vaut 1 temps et demi.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une Blanche pointée vaut {{1}} temps (3).",
+      "reponsesAttendues": [
+        "3"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une liaison de prolongation ?",
+      "options": [
+        "Une ligne courbe unissant deux notes de même nom",
+        "Un signe de silence",
+        "Une indication de vitesse",
+        "Une ligne droite entre deux notes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Dans une liaison de prolongation, on ne rejoue pas la deuxième note.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Combien valent deux blanches liées ?",
+      "options": [
+        "4 temps",
+        "2 temps",
+        "3 temps",
+        "1 temps"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le point placé au-dessus ou en-dessous d'une note s'appelle le {{1}} (staccato).",
+      "reponsesAttendues": [
+        "staccato"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le staccato indique qu'il faut détacher la note.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie un 'legato' ?",
+      "options": [
+        "Jouer les notes liées (sans coupure)",
+        "Jouer fort",
+        "Jouer vite",
+        "S'arrêter de jouer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le point de prolongation peut s'appliquer aux silences.",
+      "reponse": true
+    }
+  ]
+}

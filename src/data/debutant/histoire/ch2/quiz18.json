@@ -1,0 +1,94 @@
+{
+  "id": "quiz18",
+  "titre": "Nos Ancêtres les Gaulois",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelait la France à l'époque de l'Antiquité ?",
+      "options": [
+        "La Gaule",
+        "L'Angleterre",
+        "L'Espagne",
+        "L'Italie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les Gaulois vivaient dans des villages de bois et de chaume.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le chef religieux et savant des Gaulois s'appelait le {{1}}.",
+      "reponsesAttendues": [
+        "druide"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel était le métier principal des Gaulois ?",
+      "options": [
+        "Marins",
+        "Agriculteurs et artisans",
+        "Scribes",
+        "Pharaons"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les Gaulois étaient d'excellents forgerons (ils fabriquaient des outils en fer).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces inventions est attribuée aux Gaulois ?",
+      "options": [
+        "Le tonneau",
+        "La roue",
+        "Le papier",
+        "La boussole"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le dieu du ciel et de l'orage chez les Gaulois s'appelait {{1}}.",
+      "reponsesAttendues": [
+        "Taranis"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les Gaulois croyaient en plusieurs dieux (ils étaient polythéistes).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que portaient les Gaulois comme vêtement typique ?",
+      "options": [
+        "La toge",
+        "Le pagne",
+        "Les braies (sorte de pantalon)",
+        "Le costume"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les Gaulois étaient divisés en plusieurs tribus.",
+      "reponse": true
+    }
+  ]
+}

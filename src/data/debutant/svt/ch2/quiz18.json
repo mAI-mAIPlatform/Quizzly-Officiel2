@@ -1,0 +1,95 @@
+{
+  "id": "quiz18",
+  "titre": "Les Habitat Naturels",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un habitat naturel ?",
+      "options": [
+        "Un zoo",
+        "L'endroit où vit naturellement une espèce (forêt, océan...)",
+        "Une maison pour humains",
+        "Un jardin public"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'habitat apporte à l'animal tout ce dont il a besoin (nourrité, abri).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La {{1}} est l'habitat des singes et des oiseaux tropicaux.",
+      "reponsesAttendues": [
+        "forêt",
+        "jungle"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel animal vit dans la banquise (froid intense) ?",
+      "options": [
+        "L'ours polaire",
+        "Le lion",
+        "Le chameau",
+        "L'éléphant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Tous les animaux peuvent vivre dans n'importe quel habitat.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment s'appelle l'habitat très sec où vivent les dromadaires ?",
+      "options": [
+        "La mer",
+        "La montagne",
+        "Le désert",
+        "La prairie"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les poissons vivent dans un habitat {{1}} (eau).",
+      "reponsesAttendues": [
+        "aquatique"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La mare est un petit habitat plein de vie (grenouilles, insectes).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si un habitat est pollué ou détruit ?",
+      "options": [
+        "Les animaux sont très contents",
+        "Les animaux perdent leur maison et peuvent mourir",
+        "Rien ne change",
+        "L'habitat devient plus grand"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Protéger les habitats est important pour la biodiversité.",
+      "reponse": true
+    }
+  ]
+}

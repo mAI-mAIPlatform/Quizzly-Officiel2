@@ -1,0 +1,90 @@
+{
+  "id": "quiz19",
+  "titre": "La CPLP",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie CPLP ?",
+      "options": [
+        "Comunidade dos Países de Língua Portuguesa",
+        "Comunidade de Países Lusófonos",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La CPLP a été fondée en 1996 à Lisbonne.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les 9 pays membres sont : Portugal, Brésil, Angola, Mozambique, Cap-Vert, Guinée-Bissau, São Tomé et Príncipe, Timor Oriental et {{1}}.",
+      "reponsesAttendues": ["Guinée Équatoriale", "Guiné Equatorial"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel de ces objectifs n'est pas celui de la CPLP ?",
+      "options": [
+        "Créer une monnaie unique (ils n'en ont pas)",
+        "Promotion de la langue et concertation politique",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le portugais est la 5e ou 6e langue la plus parlée au monde et la plus parlée dans l'hémisphère sud.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel pays a rejoint la CPLP en dernier (en 2014) ?",
+      "options": [
+        "Guinée Équatoriale",
+        "Timor Oriental",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le siège de la CPLP se trouve à {{1}}.",
+      "reponsesAttendues": ["Lisbonne", "Lisboa"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le terme 'Lusophonie' désigne l'ensemble des peuples ayant le portugais pour langue commune.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel institut portugais s'occupe de la diffusion de la langue dans le monde ?",
+      "options": [
+        "Instituto Camões",
+        "Instituto Cervantes",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La CPLP est un espace de coopération de plus de 280 millions de personnes sur 4 continents.",
+      "reponse": true
+    }
+  ]
+}

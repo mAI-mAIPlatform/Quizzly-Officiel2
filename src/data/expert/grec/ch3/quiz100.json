@@ -1,0 +1,94 @@
+{
+  "id": "quiz100",
+  "titre": "Revisione : Filosofia e Scienze (Capitolo 3 - Grec Expert)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Philosophe de l'eau ?",
+      "options": [
+        "Thalès",
+        "Platon",
+        "Socrate",
+        "Homère"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Maïeutique = Accouchement des esprits.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Lieu d'enseignement de Platon : l'`{{1}}`.",
+      "reponsesAttendues": [
+        "Academie"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Père de la médecine ?",
+      "options": [
+        "Hippocrate",
+        "Aristote",
+        "Euclide",
+        "Solon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Stoïcisme = Vivre selon le Logos.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Plus grand orateur ?",
+      "options": [
+        "Démosthène",
+        "Périclès",
+        "Socrate",
+        "Philippe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Matière originelle infinie : `{{1}}`.",
+      "reponsesAttendues": [
+        "Apeiron"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Aristarque de Samos prônait l'héliocentrisme.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Raisonnement logique d'Aristote ?",
+      "options": [
+        "Syllogisme",
+        "Sophisme",
+        "Paralogisme",
+        "Paradoxe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Périclès était un stratège athénien.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "quiz13",
+  "titre": "Additions et Soustractions (Niveau 3)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Calcule : 150 + 350",
+      "options": [
+        "450",
+        "500",
+        "550",
+        "600"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "500 - 250 = 250",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "999 + 1 = {{1}}",
+      "reponsesAttendues": [
+        "1000"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est le résultat de 1000 - 1 ?",
+      "options": [
+        "900",
+        "990",
+        "999",
+        "909"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "15 + 15 + 15 + 15 = 60",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Calcule : 210 - 105",
+      "options": [
+        "100",
+        "105",
+        "110",
+        "95"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le double de 50 est {{1}}.",
+      "reponsesAttendues": [
+        "100"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La moitié de 100 est 50.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Si j'ajoute 10 dizaines à 100, j'ai :",
+      "options": [
+        "110",
+        "200",
+        "1000",
+        "101"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'addition d'un nombre pair et d'un nombre impair donne un nombre impair.",
+      "reponse": true
+    }
+  ]
+}

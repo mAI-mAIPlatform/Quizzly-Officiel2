@@ -1,0 +1,94 @@
+{
+  "id": "quiz11",
+  "titre": "L'Invention de l'Écriture",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Vers quelle année l'écriture est-elle apparue ?",
+      "options": [
+        "- 3500 avant J.-C.",
+        "- 1000 avant J.-C.",
+        "En l'an 0",
+        "En 1500"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'écriture marque le passage de la Préhistoire à l'Histoire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La première écriture au monde s'appelle l'écriture {{1}}.",
+      "reponsesAttendues": [
+        "cunéiforme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Où l'écriture est-elle née ?",
+      "options": [
+        "En France",
+        "En Mésopotamie",
+        "En Amérique",
+        "En Australie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Au début, on écrivait sur des tablettes d'argile.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on les signes égyptiens ?",
+      "options": [
+        "Les lettres",
+        "Les chiffres",
+        "Les hiéroglyphes",
+        "Les dessins"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les Égyptiens écrivaient sur du {{1}} (fait avec une plante).",
+      "reponsesAttendues": [
+        "papyrus"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'écriture servait d'abord à compter les récoltes et les impôts.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qui sont les spécialistes qui savaient lire et écrire à l'époque ?",
+      "options": [
+        "Les rois",
+        "Les soldats",
+        "Les scribes",
+        "Les paysans"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'invention de l'écriture a permis de garder des traces précises du passé.",
+      "reponse": true
+    }
+  ]
+}

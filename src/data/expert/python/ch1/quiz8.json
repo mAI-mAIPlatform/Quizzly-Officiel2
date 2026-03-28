@@ -1,0 +1,94 @@
+{
+  "id": "quiz8",
+  "titre": "Closures et Scope",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une closure en Python ?",
+      "options": [
+        "Une fonction interne qui garde l'accès aux variables de sa portée englobante",
+        "La fermeture d'un fichier",
+        "La fin de l'interpréteur",
+        "Une fonction privée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Python suit la règle LEGB (Local, Enclosing, Global, Built-in) pour la résolution des noms.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour modifier une variable de la portée englobante dans une closure, on utilise le mot-clé `{{1}}`.",
+      "reponsesAttendues": [
+        "nonlocal"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si on définit 'x = 10' dans une fonction alors que 'x' existe au niveau global ?",
+      "options": [
+        "Une nouvelle variable locale 'x' cache la globale dans la fonction",
+        "La variable globale est modifiée",
+        "Une erreur est levée",
+        "Python plante"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les closures permettent d'implémenter l'encapsulation de données.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle fonction permet de voir le contenu des espaces de noms locaux et globaux ?",
+      "options": [
+        "locals() et globals()",
+        "inspect()",
+        "dir()",
+        "all()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le mot-clé `{{1}}` permet de déclarer qu'une variable appartient au niveau supérieur du module.",
+      "reponsesAttendues": [
+        "global"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les variables globales sont considérées comme une mauvaise pratique en Python si elles sont abusées.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Dans une closure, où sont stockées les variables 'capturées' (free variables) ?",
+      "options": [
+        "Dans l'attribut __closure__",
+        "Dans la pile (stack)",
+        "Dans un fichier temporaire",
+        "Dans le dictionnaire de la classe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Une closure survit même après que la fonction englobante a fini son exécution.",
+      "reponse": true
+    }
+  ]
+}

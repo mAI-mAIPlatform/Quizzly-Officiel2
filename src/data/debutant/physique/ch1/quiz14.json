@@ -1,0 +1,94 @@
+{
+  "id": "quiz14",
+  "titre": "Le Cycle de l'Eau (1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "D'où vient la vapeur d'eau qui forme les nuages ?",
+      "options": [
+        "De l'espace",
+        "Des usines",
+        "De l'évaporation des mers, océans et rivières",
+        "Des arbres uniquement"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le cycle de l'eau est un recommencement perpétuel.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Quand la vapeur d'eau se refroidit en altitude, elle forme des {{1}}.",
+      "reponsesAttendues": [
+        "nuages"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment l'eau redescend-elle sur Terre ?",
+      "options": [
+        "Sous forme de précipitations (pluie, neige, grêle)",
+        "En s'envolant",
+        "Elle ne redescend pas",
+        "Elle se transforme en vent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'eau des nuages est toujours salée comme l'eau de mer.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel moteur fait fonctionner le cycle de l'eau ?",
+      "options": [
+        "L'électricité",
+        "Le soleil (sa chaleur)",
+        "La Terre qui tourne",
+        "Les poissons"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'eau qui s'infiltre dans le sol rejoint les nappes {{1}}.",
+      "reponsesAttendues": [
+        "phréatiques"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les plantes rejettent aussi de l'eau dans l'air : c'est l'évapotranspiration.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on l'eau qui coule à la surface du sol ?",
+      "options": [
+        "L'infiltration",
+        "Le ruissellement",
+        "La stagnation",
+        "L'évaporation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'eau sur Terre est la même depuis des millions d'années !",
+      "reponse": true
+    }
+  ]
+}

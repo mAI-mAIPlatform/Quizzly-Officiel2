@@ -1,0 +1,90 @@
+{
+  "id": "quiz13",
+  "titre": "Parataxe / Hypot.",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la parataxe en grec ?",
+      "options": [
+        "La juxtaposition de propositions simples reliées par des particules (ex: men... dé...)",
+        "L'usage massif de subordonnées complexes",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le style d'Hérodote est plus paratactique que celui de Thucydide.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'hypotaxe désigne l'organisation des phrases par la {{1}} (subordonnées).",
+      "reponsesAttendues": ["subordination"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle particule marque souvent le balancement paratactique ?",
+      "options": [
+        "Men (d'une part) ... Dé (d'autre part)",
+        "Oun",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le grec classique privilégie l'équilibre et la symétrie des membres de phrase (isocolie).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'polysyndète' ?",
+      "options": [
+        "La répétition des conjonctions de coordination",
+        "L'absence de conjonctions",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'{{1}} est le contraire du polysyndète (absence de liaison).",
+      "reponsesAttendues": ["asyndète"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le style de Platon utilise une hypotaxe très souple et proche de la langue parlée cultivée.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "L'usage de la parataxe donne un ton :",
+      "options": [
+        "Archaïque, épique ou narratif simple",
+        "Scientifique",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le grec possède une richesse exceptionnelle de particules pour articuler les phrases.",
+      "reponse": true
+    }
+  ]
+}

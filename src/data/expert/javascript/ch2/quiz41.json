@@ -1,0 +1,94 @@
+{
+  "id": "quiz41",
+  "titre": "JS Expert : AbortController",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert l'objet AbortController ?",
+      "options": [
+        "À annuler des opérations asynchrones (comme des requêtes fetch)",
+        "À supprimer des fichiers sur le serveur",
+        "À arrêter le Garbage Collector",
+        "À fermer l'onglet du navigateur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un seul AbortController peut être utilisé pour annuler plusieurs requêtes fetch simultanément.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour lier un contrôleur à un fetch, on passe `controller.{{1}}` dans l'objet d'options du fetch.",
+      "reponsesAttendues": [
+        "signal"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle méthode déclenche l'annulation ?",
+      "options": [
+        "controller.abort()",
+        "controller.stop()",
+        "controller.cancel()",
+        "controller.kill()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Lorsqu'un fetch est annulé, il rejette une erreur de type 'AbortError'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment savoir si un signal a déjà été annulé ?",
+      "options": [
+        "En vérifiant la propriété signal.aborted",
+        "En appelant signal.check()",
+        "En attendant un événement 'exit'",
+        "Ce n'est pas possible"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "On peut écouter l'annulation via l'événement `{{1}}` sur l'objet signal.",
+      "reponsesAttendues": [
+        "abort"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "AbortController est une API spécifique à Node.js et n'existe pas dans le navigateur.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que AbortSignal.timeout(ms) ?",
+      "options": [
+        "Une méthode statique créant un signal s'annulant automatiquement après un délai",
+        "Une fonction pour accélérer le réseau",
+        "Un minuteur pour le Garbage Collector",
+        "Une erreur système"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Il est recommandé d'utiliser AbortController pour éviter les fuites de mémoire et les mises à jour d'états inutiles (ex: en React).",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz27",
+  "titre": "Renaissance Latine",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Néolatin' ?",
+      "options": [
+        "L'usage du latin par les humanistes dès le XIVe siècle",
+        "Une nouvelle langue",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Pétrarque est l'une des figures majeures du retour au latin classique.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Érasme a écrit 'L'éloge de la {{1}}' (Moriae Encomium) en latin.",
+      "reponsesAttendues": ["Folie"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Sujet de l' 'Utopie' de Thomas More ?",
+      "options": [
+        "Une île imaginaire avec une société parfaite",
+        "Sa propre vie",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le latin reste la langue de la science (Newton, Galilée) jusqu'au XVIIe siècle.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui est l'auteur des 'Odes' néolatines au XVIIe ?",
+      "options": [
+        "Sarbiewski",
+        "Molière",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'humanisme veut retrouver l'élégance de {{1}}.",
+      "reponsesAttendues": ["Cicéron"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le latin était la langue de communication internationale des savants (La République des Lettres).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Spinoza a écrit :",
+      "options": [
+        "L'Éthique (Ethica) en latin",
+        "En hollandais uniquement",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le néolatin est un pan immense et injustement méconnu de la littérature européenne.",
+      "reponse": true
+    }
+  ]
+}

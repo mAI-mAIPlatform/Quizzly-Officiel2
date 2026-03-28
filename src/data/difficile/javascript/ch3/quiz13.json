@@ -1,0 +1,90 @@
+{
+  "id": "quiz13",
+  "titre": "Service Workers : Cycle de vie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un Service Worker ?",
+      "options": [
+        "Un script qui nettoie le code",
+        "Un proxy programmable qui tourne en arrière-plan et intercepte les requêtes réseau",
+        "Un serveur Node.js",
+        "Un plugin Chrome"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les Service Workers ne fonctionnent que sur les sites servis via HTTPS (sauf localhost).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La première étape du cycle de vie après l'enregistrement est l'{{1}}.",
+      "reponsesAttendues": ["installation", "install"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quand l'événement 'activate' a-t-il lieu ?",
+      "options": [
+        "Dès que le fichier est chargé",
+        "Quand l'ancien service worker est supprimé et que le nouveau prend le contrôle",
+        "Jamais",
+        "Au clic de l'utilisateur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un Service Worker peut intercepter les requêtes fetch via l'événement 'fetch'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que fait self.skipWaiting() ?",
+      "options": [
+        "Il saute les publicités",
+        "Il force le nouveau Service Worker à devenir actif immédiatement sans attendre la fermeture de l'onglet",
+        "Il arrête le chargement",
+        "Il vide le cache"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour enregistrer un worker, on utilise navigator.serviceWorker.{{1}}().",
+      "reponsesAttendues": ["register"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Un Service Worker est détruit dès que l'onglet est fermé.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est un état valide du Service Worker ?",
+      "options": [
+        "Installing, Waiting, Active",
+        "Ready, Go, Stop",
+        "Running, Paused, Error",
+        "Hidden, Visible, Removed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le Service Worker est la base technologique des PWA (Progressive Web Apps).",
+      "reponse": true
+    }
+  ]
+}

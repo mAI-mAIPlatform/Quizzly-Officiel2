@@ -1,0 +1,95 @@
+{
+  "id": "quiz25",
+  "titre": "Letteratura : Dante e il Dolce Stil Novo",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Chi è considerato il padre della lingua italiana ?",
+      "options": [
+        "Dante Alighieri",
+        "Francesco Petrarca",
+        "Giovanni Boccaccio",
+        "Alessandro Manzoni"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La 'Divina Commedia' è scritta in 'terza rima' (terzine incatenate).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La musa ispiratrice di Dante si chiamava `{{1}}`.",
+      "reponsesAttendues": [
+        "Beatrice"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qual è il tema principale del Dolce Stil Novo ?",
+      "options": [
+        "L'amore spirituale e la nobiltà d'animo (gentilezza)",
+        "La guerra e le crociate",
+        "La vita contadina",
+        "La critica politica"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Dante scrisse il 'De Vulgari Eloquentia' per difendere l'uso del volgare.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Com'è divisa la Divina Commedia ?",
+      "options": [
+        "3 cantiche : Inferno, Purgatorio, Paradiso",
+        "4 parti",
+        "100 capitoli in prosa",
+        "Senza divisioni"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Il dialetto alla base della lingua italiana è il `{{1}}`.",
+      "reponsesAttendues": [
+        "fiorentino",
+        "toscano"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Dante scrisse la Divina Commedia in esametri latini.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Cosa significa 'Donna gentile' nello Stilnovismo ?",
+      "options": [
+        "Donna di nobile cuore e animo elevato",
+        "Donna educata che dice grazie",
+        "Donna molto ricca",
+        "Donna straniera"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Dante fissa i tre stili della lingua latine e volgare nel suo pensiero.",
+      "reponse": true
+    }
+  ]
+}

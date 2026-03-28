@@ -1,0 +1,90 @@
+{
+  "id": "quiz9",
+  "titre": "Carlo Goldoni",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle réforme Carlo Goldoni a-t-il imposée au théâtre italien XVIIIe ?",
+      "options": [
+        "Le passage du canevas improvisé au texte écrit",
+        "L'interdiction des femmes sur scène",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Goldoni a abandonné progressivement les masques traditionnels pour des personnages plus psychologiques.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La pièce 'La {{1}}' (Locandiera) est l'un de ses chefs-d'œuvre les plus célèbres.",
+      "reponsesAttendues": ["Locandiera"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est le prénom de l'héroïne de 'La Locandiera' ?",
+      "options": [
+        "Mirandolina",
+        "Beatrice",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Goldoni a écrit de nombreuses pièces en dialecte vénitien.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel était le grand rival de Goldoni, défenseur du théâtre féerique et des masques ?",
+      "options": [
+        "Carlo Gozzi",
+        "Metastasio",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Goldoni a fini sa vie et sa carrière en {{1}} (France), à la cour de Louis XV.",
+      "reponsesAttendues": ["France"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Arlequin serviteur de deux maîtres' est l'une de ses pièces les plus jouées au monde.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la vision de Goldoni sur la société de son temps ?",
+      "options": [
+        "Il valorise la bourgeoisie active et critique l'aristocratie décadente",
+        "Il prône le retour à la féodalité",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Goldoni est considéré comme le 'Molière italien'.",
+      "reponse": true
+    }
+  ]
+}

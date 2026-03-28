@@ -1,0 +1,90 @@
+{
+  "id": "quiz26",
+  "titre": "Frameworks et Inclusion",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Avantage de React pour l'accessibilité ?",
+      "options": [
+        "Permet de gérer finement le cycle de vie et de manipuler les attributs ARIA dynamiquement",
+        "C'est déjà inclus",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "En React, on utilise l'attribut 'htmlFor' à la place de 'for' sur les <label>.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les {{1}} (Fragments) en React permettent de regrouper des éléments sans ajouter de <div> inutile au DOM, ce qui aide à garder une structure sémantique propre.",
+      "reponsesAttendues": ["Fragments", "<> ... </>"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quoi sert la 'Refs' (useRef) pour l'a11y ?",
+      "options": [
+        "À déplacer manuellement le focus clavier lors d'actions utilisateur",
+        "À stocker des données",
+        "À rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Next.js inclut des composants optimisés (Image, Script) qui aident indirectement à l'accessibilité via la performance.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Problème du rendu côté client (CSR) ?",
+      "options": [
+        "Le contenu peut ne pas être indexé ou visible par les lecteurs d'écran s'il y a un délai de chargement sans annonce",
+        "C'est trop moche",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le composant <{{1}}> d'Astro ou de frameworks similaires aide à l'accessibilité des images.",
+      "reponsesAttendues": ["Image"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Il est possible de faire du TDD (Test Driven Development) d'accessibilité avec Jest et dom-testing-library.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser une bibliothèque de composants (Radix, Headless UI) ?",
+      "options": [
+        "Parce qu'elles gèrent toute la logique ARIA et focus complexe pour vous",
+        "Pour le design",
+        "Pour le prix",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'accessibilité doit être intégrée au système de design (Design System) du framework.",
+      "reponse": true
+    }
+  ]
+}

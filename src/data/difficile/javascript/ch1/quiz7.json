@@ -1,0 +1,90 @@
+{
+  "id": "quiz7",
+  "titre": "Closures et Patterns de Modules",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel avantage principal offre le Module Pattern via les closures ?",
+      "options": [
+        "Vitesse d'exécution accrue",
+        "Encapsulation de données privées",
+        "Moins de lignes de code",
+        "Compatibilité IE6"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans un module utilisant une closure, seules les fonctions retournées sont publiques.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Un module qui expose ses fonctions via un objet retourné s'appelle le {{1}} Module Pattern.",
+      "reponsesAttendues": ["Revealing"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi utiliser une IIFE pour un module ?",
+      "options": [
+        "Pour créer un scope privé immédiat",
+        "Pour accélérer le chargement",
+        "Pour utiliser 'yield'",
+        "C'est obligatoire pour let"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les closures permettent d'implémenter des Singletons en JavaScript.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment accéder à une variable privée d'une closure depuis l'extérieur ?",
+      "options": [
+        "En utilisant le mot-clé super",
+        "En passant par une méthode publique (getter)",
+        "Ce n'est pas possible",
+        "En utilisant l'opérateur 'in'"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'encapsulation est un pilier de la programmation {{1}}.",
+      "reponsesAttendues": ["orientée objet", "objet", "OOP"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les modules ES6 import/export remplacent avantageusement les closures pour l'organisation du code.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une 'Factory Function' ?",
+      "options": [
+        "Une fonction qui crée et retourne un nouvel objet",
+        "Une fonction qui modifie le prototype",
+        "Une fonction asynchrone",
+        "Une classe statique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Une closure peut simuler le comportement d'une variable 'static' de classe.",
+      "reponse": true
+    }
+  ]
+}

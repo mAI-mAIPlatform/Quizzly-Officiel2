@@ -1,0 +1,94 @@
+{
+  "id": "quiz87",
+  "titre": "Musique Expert : Disco, Funk et Naissance du Hip-Hop",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qui est surnommé 'The Godfather of Soul' et a jeté les bases du Funk ?",
+      "options": [
+        "James Brown",
+        "Ray Charles",
+        "Willie Nelson",
+        "Stevie Wonder"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Disco se définit par un rythme binaire 'Four-on-the-floor' constant.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le producteur Giorgio `{{1}}` (Moroder) a révolutionné le Disco avec Donna Summer (I Feel Love).",
+      "reponsesAttendues": [
+        "Moroder"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment s'appelait la première chanson hip-hop à connaître un succès mondial en 1979 ?",
+      "options": [
+        "Rapper's Delight (Sugarhill Gang)",
+        "The Message",
+        "Planet Rock",
+        "King of Rock"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le Hip-Hop est né dans les Bronx Blocks Parties grâce à des DJs comme Grandmaster Flash.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel groupe de Funk était mené par George Clinton (P-Funk) ?",
+      "options": [
+        "Parliament-Funkadelic",
+        "The Commodores",
+        "Earth, Wind & Fire",
+        "Kool & The Gang"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La technique du `{{1}}` (Scratch) consiste à manipuler un disque vinyle à la main.",
+      "reponsesAttendues": [
+        "Scratch"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Nile Rodgers est le guitariste et fondateur du groupe Chic.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel film de 1977 a lancé l'explosion mondiale du Disco ?",
+      "options": [
+        "La Fièvre du samedi soir (Saturday Night Fever)",
+        "Grease",
+        "Fame",
+        "Hair"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le terme 'Rap' désigne l'ensemble de la culture Hip-Hop, incluant le tag et la danse.",
+      "reponse": false
+    }
+  ]
+}

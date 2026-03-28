@@ -1,0 +1,96 @@
+{
+  "id": "quiz89",
+  "titre": "Italien Expert : La Naissance de la République (1946-1948)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel était le choix proposé aux Italiens lors du référendum du 2 juin 1946 ?",
+      "options": [
+        "Monarchie ou République",
+        "Socialisme ou Libéralisme",
+        "Adhésion à l'OTAN ou Neutralité",
+        "Ancien ou Nouveau Roi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le résultat du référendum a été favorable à la république de justesse.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le roi `{{1}}` (Umberto II), surnommé le 'Roi de Mai', dut s'exiler après le référendum.",
+      "reponsesAttendues": [
+        "Umberto II",
+        "Humbert II"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui fut le premier chef de l'État (provisoire) de la République Italienne ?",
+      "options": [
+        "Enrico De Nicola",
+        "Alcide De Gasperi",
+        "Luigi Einaudi",
+        "Palmiro Togliatti"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La Constitution de la République Italienne est entrée en vigueur le 1er janvier 1948.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel parti politique a remporté les élections cruciales de 1948, ancrant l'Italie dans le bloc occidental ?",
+      "options": [
+        "Démocratie Chrétienne (DC)",
+        "Parti Communiste (PCI)",
+        "Parti Socialiste (PSI)",
+        "Mouvement Social Italien (MSI)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'article 1er de la Constitution dispose que 'L'Italie est une République démocratique, fondée sur le `{{1}}`' (travail).",
+      "reponsesAttendues": [
+        "travail",
+        "lavoro"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le vote des femmes a été exercé pour la première fois au niveau national en 1946.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qui fut le grand leader de la Démocratie Chrétienne et président du conseil durant cette période ?",
+      "options": [
+        "Alcide De Gasperi",
+        "Giulio Andreotti",
+        "Aldo Moro",
+        "Amintore Fanfani"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le drapeau tricolore a été maintenu comme symbole de la nouvelle République.",
+      "reponse": true
+    }
+  ]
+}

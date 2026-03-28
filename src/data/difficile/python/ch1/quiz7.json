@@ -1,0 +1,90 @@
+{
+  "id": "quiz7",
+  "titre": "Comprehensions : Filtres",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où se place la condition if pour filtrer les éléments dans une compréhension ?",
+      "options": [
+        "Au début : [if condition x for x in list]",
+        "À la fin : [x for x in list if condition]",
+        "Au milieu : [x if condition for x in list]",
+        "N'importe où"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser un 'if-else' complexe au début de la compréhension.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le résultat de [x for x in range(10) if x % 2 == 0] est la liste des nombres {{1}}.",
+      "reponsesAttendues": ["pairs", "even"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la syntaxe pour un 'if-else' (ternaire) dans une compréhension ?",
+      "options": [
+        "[x if x > 0 else 0 for x in list]",
+        "[x for x in list if x > 0 else 0]",
+        "[x for x in list case x > 0]",
+        "C'est impossible"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le 'if' à la fin sert à filtrer, alors que le 'if' au début sert à choisir la valeur à retourner.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que retourne [x for x in [1, None, 3] if x is not None] ?",
+      "options": [
+        "[1, None, 3]",
+        "[1, 3]",
+        "[]",
+        "Error"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Une compréhension peut avoir plusieurs {{1}} imbriqués (ex: [x for x in list if cond1 if cond2]).",
+      "reponsesAttendues": ["if"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'utilisation de compréhensions évite de créer des listes intermédiaires manuellement.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lequel est le plus 'Pythonic' ?",
+      "options": [
+        "L = []; for x in range(5): L.append(x)",
+        "L = [x for x in range(5)]",
+        "L = list(map(lambda x: x, range(5)))",
+        "L = []"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les compréhensions de listes consomment moins de mémoire que les générateurs.",
+      "reponse": false
+    }
+  ]
+}

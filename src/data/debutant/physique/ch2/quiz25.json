@@ -1,0 +1,94 @@
+{
+  "id": "quiz25",
+  "titre": "Expériences Rigolotes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Si je mélange du vinaigre et du bicarbonate, que se passe-t-il ?",
+      "options": [
+        "Rien du tout",
+        "Ça fait des bulles (gaz)",
+        "Ça devient solide",
+        "Ça s'éteint"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un glaçon flotte dans l'eau.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une aiguille en fer posée délicatement sur l'eau peut {{1}} (grâce à la tension).",
+      "reponsesAttendues": [
+        "flotter"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le jet d'eau qui sort d'un petit trou dans une bouteille ?",
+      "options": [
+        "La pression",
+        "La chute",
+        "Le vent",
+        "La masse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Toutes les substances réagissent de la même façon.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Un aimant attire ...",
+      "options": [
+        "Le bois",
+        "Le verre",
+        "Le fer",
+        "Le plastique"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le {{1}} est l'endroit par lequel l'aimant attire le plus fort.",
+      "reponsesAttendues": [
+        "pôle"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'électricité statique peut faire lever les cheveux.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Pourquoi la pomme tombe de l'arbre selon Newton ?",
+      "options": [
+        "À cause du vent",
+        "À cause de la gravité",
+        "Parce qu'elle est mûre",
+        "Pour s'amuser"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La physique permet de comprendre le monde qui nous entoure.",
+      "reponse": true
+    }
+  ]
+}

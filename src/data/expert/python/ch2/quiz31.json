@@ -1,0 +1,94 @@
+{
+  "id": "quiz31",
+  "titre": "Python Expert : Héritage Multiple & MRO",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le MRO (Method Resolution Order) en Python ?",
+      "options": [
+        "L'ordre dans lequel Python recherche une méthode dans la hiérarchie des classes",
+        "Une erreur de compilation",
+        "Un module de calcul matriciel",
+        "Une fonction d'optimisation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'algorithme utilisé par Python pour le MRO est C3 Linearization.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour accéder au MRO d'une classe `MaClasse`, on utilise l'attribut `MaClasse.{{1}}`.",
+      "reponsesAttendues": [
+        "__mro__"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Si une classe C hérite de A puis de B (class C(A, B)), où Python cherche-t-il la méthode d'abord ?",
+      "options": [
+        "Dans A",
+        "Dans B",
+        "Dans object",
+        "Au hasard"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La fonction super() suit strictement l'ordre défini par le MRO.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le problème du 'Diamant' ?",
+      "options": [
+        "Une ambiguïté dans l'héritage multiple quand deux classes parentes héritent d'une même classe grand-parente",
+        "Une erreur de syntaxe",
+        "Un type de donnée complexe",
+        "Une boucle infinie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La méthode `{{1}}()` de la classe parente est appelée via `super().method()`.",
+      "reponsesAttendues": [
+        "super"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Python accepte n'importe quel ordre d'héritage, même s'il est incohérent selon C3.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la racine de toutes les classes en Python 3 ?",
+      "options": [
+        "object",
+        "type",
+        "root",
+        "base"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "super() sans argument dans une méthode d'instance est équivalent à super(NomClasse, self).",
+      "reponse": true
+    }
+  ]
+}

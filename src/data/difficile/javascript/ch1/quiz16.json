@@ -1,0 +1,90 @@
+{
+  "id": "quiz16",
+  "titre": "Scopes imbriqués et Chaîne de portée",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quel sens JS cherche-t-il une variable dans la chaîne des portées ?",
+      "options": [
+        "Du global vers le local",
+        "Du local vers le global",
+        "Aléatoirement",
+        "Il ne cherche que dans le scope courant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Une fonction interne a accès à toutes les variables de ses fonctions parentes, même si elles sont imbriquées sur plusieurs niveaux.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'accès à une variable située très haut dans la chaîne de portée est légèrement plus {{1}} que l'accès local.",
+      "reponsesAttendues": ["lent", "coûteux"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si une variable n'est trouvée nulle part dans la chaîne (même au niveau global) ?",
+      "options": [
+        "undefined",
+        "null",
+        "ReferenceError",
+        "TypeError"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le mot-clé 'eval()' peut modifier dynamiquement la chaîne de portée au runtime.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Pourquoi l'usage de 'with' est-il déconseillé ?",
+      "options": [
+        "Il est trop lent",
+        "Il rend la chaîne de portée ambiguë et imprévisible",
+        "Il ne fonctionne pas avec let",
+        "Toutes les réponses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Une variable définie sans mot-clé dans une fonction finit par polluer le scope {{1}}.",
+      "reponsesAttendues": ["global"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Chaque appel de fonction crée un nouvel objet de scope dans la chaîne.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'affiche : let x = 1; function f(){ let x = 2; function g(){ console.log(x); } g(); } f(); ?",
+      "options": [
+        "1",
+        "2",
+        "undefined",
+        "ReferenceError"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le 'lexical scoping' signifie que le scope est gelé lors de la définition de la fonction.",
+      "reponse": true
+    }
+  ]
+}

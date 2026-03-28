@@ -1,0 +1,94 @@
+{
+  "id": "quiz51",
+  "titre": "Italien Expert : Dante e le Origini",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Come è chiamata comunemente la lingua di Dante, Petrarca e Boccaccio ?",
+      "options": [
+        "Le Tre Corone",
+        "Il Dolce Stil Novo",
+        "Il Volgare Illustre",
+        "Il Latino Volgare"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Divina Commedia è divisa in tre cantiche : Inferno, Purgatorio e Paradiso.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La guida di Dante nell'Inferno e nel Purgatorio è il poeta latino `{{1}}`.",
+      "reponsesAttendues": [
+        "Virgilio"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qual è il verso utilizzato da Dante nella Commedia ?",
+      "options": [
+        "Terza rima (terzine incatenate di endecasillabi)",
+        "Ottava rima",
+        "Sonetto",
+        "Verso libero"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Beatrice è la donna amata da Dante che lo guida nel Paradiso.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "In quale città nacque Dante Alighieri ?",
+      "options": [
+        "Firenze",
+        "Roma",
+        "Siena",
+        "Ravenna"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Il movimento poetico a cui aderì Dante in gioventù è il `{{1}}`.",
+      "reponsesAttendues": [
+        "Dolce Stil Novo"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Dante morì in esilio a Ravenna.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Cosa significa la parola 'Commedia' nel titolo originale ?",
+      "options": [
+        "Un'opera con un inizio tragico e una fine lieta, scritta in stile umile",
+        "Un'opera che fa ridere",
+        "Un'opera teatrale",
+        "Una satira politica"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Dante è considerato il 'Padre della lingua italiana'.",
+      "reponse": true
+    }
+  ]
+}

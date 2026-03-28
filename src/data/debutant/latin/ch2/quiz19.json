@@ -1,0 +1,94 @@
+{
+  "id": "quiz19",
+  "titre": "Les Mots Invariables (Prépositions et Adverbes)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle préposition signifie 'dans' (avec mouvement) ?",
+      "options": [
+        "in (+ accusatif)",
+        "ad",
+        "ex",
+        "ab"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Et' signifie 'et'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La particule '{{1}}' se fixe à la fin d'un mot pour dire 'et' (ex: puer puellaque).",
+      "reponsesAttendues": [
+        "que"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'semper' ?",
+      "options": [
+        "Toujours",
+        "Jamais",
+        "Souvent",
+        "Rarement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Ubi' signifie 'où'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'souvent' ?",
+      "options": [
+        "saepe",
+        "semper",
+        "numquam",
+        "hodie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": " 'Aujourd'hui' se dit '{{1}}' (hodie).",
+      "reponsesAttendues": [
+        "hodie"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Cum' (+ ablatif) signifie 'avec'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'sed' ?",
+      "options": [
+        "Mais",
+        "Car",
+        "Ou",
+        "Donc"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les prépositions sont suivies d'un cas précis (souvent accusatif ou ablatif).",
+      "reponse": true
+    }
+  ]
+}

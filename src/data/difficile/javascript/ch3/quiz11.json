@@ -1,0 +1,90 @@
+{
+  "id": "quiz11",
+  "titre": "Web Workers : Communication",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet d'envoyer des données à un Web Worker ?",
+      "options": [
+        "worker.send()",
+        "worker.postMessage()",
+        "worker.emit()",
+        "worker.broadcast()"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les données envoyées via postMessage sont copiées (Structured Clone) et non partagées par référence.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour recevoir un message, on écoute l'événement {{1}}.",
+      "reponsesAttendues": ["message"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'un 'Transferable Object' ?",
+      "options": [
+        "Un objet qu'on peut copier",
+        "Un objet dont la propriété (mémoire) est transférée au worker sans copie (ex: ArrayBuffer)",
+        "Un objet JSON",
+        "Une erreur de transfert"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Après avoir transféré un ArrayBuffer, le thread principal peut toujours y accéder.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment un worker répond-il au thread principal ?",
+      "options": [
+        "Via window.postMessage()",
+        "Via self.postMessage()",
+        "Il ne peut pas répondre",
+        "En modifiant une variable globale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'objet {{1}} permet de partager de la mémoire de manière réelle entre threads (SharedArrayBuffer).",
+      "reponsesAttendues": ["Atomics"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut envoyer des fonctions via postMessage.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel événement se déclenche en cas d'erreur dans le worker ?",
+      "options": [
+        "onerror",
+        "onfail",
+        "onterminate",
+        "onbadcode"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Un Web Worker peut créer d'autres 'sub-workers'.",
+      "reponse": true
+    }
+  ]
+}

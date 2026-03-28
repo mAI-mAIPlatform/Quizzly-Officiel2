@@ -1,0 +1,94 @@
+{
+  "id": "quiz57",
+  "titre": "Latin Expert : La Satire & l'Épigramme",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel genre littéraire est considéré par Quintilien comme 'purement romain' (Satura tota nostra est) ?",
+      "options": [
+        "La Satire",
+        "Le Théâtre",
+        "L'Épopée",
+        "La Philosophie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Horace a écrit des Satires visant à corriger les mœurs par le rire (Ridentem dicere verum).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le poète satirique connu pour sa violence et son indignation (Difficile est satiram non scribere) est `{{1}}`.",
+      "reponsesAttendues": [
+        "Juvénal"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qui est le maître de l'épigramme, petit poème court et piquant ?",
+      "options": [
+        "Martial",
+        "Horace",
+        "Ovide",
+        "Pétrone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Pétrone est l'auteur supposé du 'Satyricon', un roman parodique et picaresque.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment s'appelle le célèbre banquet chez un riche affranchi dans le Satyricon ?",
+      "options": [
+        "Le Festin de Trimalcion",
+        "Le Dîner de Nasidienus",
+        "Les Noces de Cana",
+        "Le Banquet de Plutarque"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'expression de Juvénal 'Panem et `{{1}}`' dénonce le peuple qui ne demande que du pain et des jeux.",
+      "reponsesAttendues": [
+        "circenses"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La satire romaine était toujours écrite dans un langage très vulgaire.",
+      "reponse : false (Elle utilisait différents niveaux de langue pour parodier)"
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la particularité des épigrammes de Martial ?",
+      "options": [
+        "Elles se terminent souvent par une 'pointe' (fulmen) inattendue",
+        "Elles sont très longues",
+        "Elles ne critiquent personne",
+        "Elles sont écrites en prose"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La satire servait de soupape sociale et de miroir critique de la société romaine.",
+      "reponse": true
+    }
+  ]
+}

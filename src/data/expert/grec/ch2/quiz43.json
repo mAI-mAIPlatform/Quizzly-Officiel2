@@ -1,0 +1,95 @@
+{
+  "id": "quiz43",
+  "titre": "Grec Expert : Platon et le Dialogue",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la forme littéraire choisie par Platon pour sa philosophie ?",
+      "options": [
+        "Le dialogue",
+        "Le traité systématique",
+        "Le poème",
+        "La tragédie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Platon considère l'écriture comme un médiocre substitut à la parole vive (Phèdre).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La méthode de Socrate pour faire 'accoucher' les esprits se nomme la `{{1}}`.",
+      "reponsesAttendues": [
+        "maïeutique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel dialogue de Platon traite de la justice et de la cité idéale ?",
+      "options": [
+        "La République (Politeia)",
+        "Le Banquet",
+        "L'Apologie de Socrate",
+        "Le Criton"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le style de Platon est admiré pour sa pureté attique et sa capacité à varier les tons.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que représente le 'mythe' chez Platon ?",
+      "options": [
+        "Un récit parabolique utilisé là où le logos (raisonnement) atteint ses limites",
+        "Une simple distraction",
+        "Une vérité historique",
+        "Une erreur de Genèse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le monde des `{{1}}` (Eidos) est le fondement de la réalité selon Platon.",
+      "reponsesAttendues": [
+        "idées",
+        "formes"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Socrate n'a rien écrit lui-même.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel dialogue met en scène un éloge de l'Amour ?",
+      "options": [
+        "Le Banquet (Symposion)",
+        "Le Menon",
+        "Le Gorgias",
+        "Le Timée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'allégorie de la Caverne se trouve dans le livre VII de la République.",
+      "reponse": true
+    }
+  ]
+}

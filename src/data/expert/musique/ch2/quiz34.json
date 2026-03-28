@@ -1,0 +1,95 @@
+{
+  "id": "quiz34",
+  "titre": "Musique Expert : L'Harmonie Tonale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelles sont les notes qui composent l'accord de Do majeur ?",
+      "options": [
+        "Do, Mi, Sol",
+        "Do, Ré, Mi",
+        "Do, Fa, La",
+        "Do, Mib, Sol"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La cadence parfaite enchaîne les degrés V (Dominante) et I (Tonique).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'accord de `{{1}}` est un accord de 4 notes (fondamentale, tierce, quinte, septième).",
+      "reponsesAttendues": [
+        "septième",
+        "septieme"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une modulation ?",
+      "options": [
+        "Le passage d'une tonalité à une autre au cours d'un morceau",
+        "Un changement de volume",
+        "Une technique de chant",
+        "Le réglage d'un instrument"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un accord mineur se distingue d'un accord majeur par sa tierce (mineure).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est le nom du degré IV dans une gamme ?",
+      "options": [
+        "Sous-dominante",
+        "Médiante",
+        "Dominante",
+        "Sensible"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Une cadence `{{1}}` (V-VI) donne une impression de surprise ou de suspension.",
+      "reponsesAttendues": [
+        "rompue"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'accord diminué ne contient que des tierces mineures superposées.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une pédale en harmonie ?",
+      "options": [
+        "Une note tenue à la basse pendant que l'harmonie change au-dessus",
+        "Un accessoire de piano",
+        "Une fin de morceau",
+        "Un rythme rapide"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'harmonie tonale s'est développée principalement entre le 17e et le 19e siècle.",
+      "reponse": true
+    }
+  ]
+}

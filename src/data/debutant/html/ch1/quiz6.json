@@ -1,0 +1,94 @@
+{
+  "id": "quiz6",
+  "titre": "Les Attributs HTML",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Où place-t-on les attributs d'une balise ?",
+      "options": [
+        "Dans la balise d'ouverture",
+        "Dans la balise de fermeture",
+        "Entre les deux balises",
+        "Dans un fichier séparé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un attribut se compose d'un nom et d'une valeur (nom=\"valeur\").",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut global pour identifier un élément de façon UNIQUE est {{1}}.",
+      "reponsesAttendues": [
+        "id"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel attribut permet de grouper plusieurs éléments ?",
+      "options": [
+        "id",
+        "class",
+        "group",
+        "style"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut mettre plusieurs classes sur un seul élément (séparées par un espace).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel attribut permet d'ajouter du CSS directement dans la balise ?",
+      "options": [
+        "css",
+        "design",
+        "style",
+        "format"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} est utilisé sur la balise <html> pour définir la langue.",
+      "reponsesAttendues": [
+        "lang"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'title' affiche une bulle d'aide au survol de la souris.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Lalquelle de ces syntaxes est correcte ?",
+      "options": [
+        "<p class=\"ma-classe\">",
+        "<p class=ma-classe>",
+        "<p class='ma-classe'>",
+        "Toutes ces réponses"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Certains attributs n'ont pas besoin de valeur (ex: disabled).",
+      "reponse": true
+    }
+  ]
+}

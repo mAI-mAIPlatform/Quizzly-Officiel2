@@ -1,0 +1,94 @@
+{
+  "id": "quiz17",
+  "titre": "L'Armée Romaine",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment s'appelait un soldat romain ?",
+      "options": [
+        "Un chevalier",
+        "Un légionnaire",
+        "Un gendarme",
+        "Un scribe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'armée romaine était très bien organisée.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La célèbre formation de défense avec les boucliers s'appelle la {{1}}.",
+      "reponsesAttendues": [
+        "tortue"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle était l'arme principale du légionnaire pour le corps à corps ?",
+      "options": [
+        "Le glaive",
+        "La lance",
+        "L'arc",
+        "La hache"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Les soldats construisaient un camp fortifié chaque soir.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui commandait l'armée ?",
+      "options": [
+        "Le centurion",
+        "Le général",
+        "Le sergent",
+        "Le roi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Une unité de 100 soldats s'appelait une {{1}}.",
+      "reponsesAttendues": [
+        "centurie"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'armée a permis à Rome de conquérir de nombreux pays.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment s'appelait le javelot romain ?",
+      "options": [
+        "Le pilum",
+        "Le scutum",
+        "Le lorica",
+        "Le galea"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les soldats romains marchaient des kilomètres chaque jour.",
+      "reponse": true
+    }
+  ]
+}

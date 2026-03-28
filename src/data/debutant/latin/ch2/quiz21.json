@@ -1,0 +1,94 @@
+{
+  "id": "quiz21",
+  "titre": "L'Adjectif : 2e Classe (Introduction)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Les adjectifs de la 2e classe suivent quelle déclinaison ?",
+      "options": [
+        "La 3e déclinaison",
+        "La 1ère déclinaison",
+        "La 2e déclinaison",
+        "Ils sont invariables"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Omnis' signifie 'tout / chaque'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": " 'Fort' se dit '{{1}}' (fortis).",
+      "reponsesAttendues": [
+        "fortis"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'brevis' ?",
+      "options": [
+        "Bref / court",
+        "Long",
+        "Lourd",
+        "Rapide"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Felis' est un adjectif signifiant 'heureux'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'difficile' ?",
+      "options": [
+        "difficilis",
+        "facilis",
+        "gravis",
+        "levis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'adverbe de 'fortis' (fortement) est '{{1}}' (fortiter).",
+      "reponsesAttendues": [
+        "fortiter"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Gravis' signifie 'grave' ou 'lourd'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'celer' ?",
+      "options": [
+        "Rapide",
+        "Lent",
+        "Vieux",
+        "Jeune"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les adjectifs de la 2e classe sont très utilisés.",
+      "reponse": true
+    }
+  ]
+}

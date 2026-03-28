@@ -1,0 +1,90 @@
+{
+  "id": "quiz4",
+  "titre": "Registres de Langue",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel terme désigne le langage soutenu et formel en italien ?",
+      "options": [
+        "Linguaggio formale / aulico",
+        "Parlato informale",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'usage du subjonctif est beaucoup plus fréquent et obligatoire dans le registre soutenu que dans le langage parlé familier.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le registre '{{1}}' (colloquiale) est celui utilisé entre amis ou en famille.",
+      "reponsesAttendues": ["familier", "colloquial", "colloquiale"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'C'est génial' dans un registre familier très courant ?",
+      "options": [
+        "È una figata! / Mitico!",
+        "È molto gradevole",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le mot 'Cazzo' est une interjection vulgaire très fréquente (équivalent de 'Putain' ou 'Merde') servant à ponctuer le discours.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment s'adresserait-on formellement à un professeur à l'université ?",
+      "options": [
+        "Professore, mi scusi...",
+        "Ehi prof, senti...",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'utilisation de '{{1}}' (mica) sert à renforcer la négation dans le langage parlé (ex: Non è mica vero!).",
+      "reponsesAttendues": ["mica"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'italien régional influence souvent le registre familier par des intonations ou des mots spécifiques.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel verbe signifie 'bavarder' ou 'papoter' de manière informelle ?",
+      "options": [
+        "Chiacchierare",
+        "Eloquire",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Maîtriser les différents registres permet de s'adapter à toutes les situations sociales.",
+      "reponse": true
+    }
+  ]
+}

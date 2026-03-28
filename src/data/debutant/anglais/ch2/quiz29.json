@@ -1,0 +1,94 @@
+{
+  "id": "quiz29",
+  "titre": "Basic Idioms and Phrases",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'It's a piece of cake' ?",
+      "options": [
+        "C'est très facile",
+        "C'est un morceau de gâteau",
+        "C'est lourd",
+        "C'est cher"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'To break a leg' est une façon de souhaiter bonne chance (souvent au théâtre).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": " 'Une fois de temps en temps' se dit 'Once in a blue {{1}}' (moon).",
+      "reponsesAttendues": [
+        "moon"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'Never mind' ?",
+      "options": [
+        "Peu importe / Laisse tomber",
+        "Ne jamais penser",
+        "Fais attention",
+        "Souviens-toi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'By the way' signifie 'À propos' ou 'D'ailleurs'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'prends ton temps' ?",
+      "options": [
+        "take your time",
+        "hurry up",
+        "be quick",
+        "wait a minute"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Dépêche-toi se dit '{{1}} up' (Hurry).",
+      "reponsesAttendues": [
+        "Hurry"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'So far, so good' signifie 'Jusqu'ici, tout va bien'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'I don't care' ?",
+      "options": [
+        "Ça m'est égal / Je m'en fiche",
+        "Je n'ai pas de voiture",
+        "Je ne porte rien",
+        "Je ne sais pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": " 'You're welcome' signifie 'De rien' (en réponse à 'Thank you').",
+      "reponse": true
+    }
+  ]
+}

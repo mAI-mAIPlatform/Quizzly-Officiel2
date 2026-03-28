@@ -1,0 +1,90 @@
+{
+  "id": "quiz22",
+  "titre": "Biblioth. Alexandrie",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Sous quelle dynastie la Bibliothèque d'Alexandrie a-t-elle été fondée ?",
+      "options": [
+        "Les Ptolémées (Lagides)",
+        "Les Séleucides",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Mouseîon d'Alexandrie était un centre de recherche scientifique et littéraire.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La {{1}} est la science de l'étude, de la correction et du commentaire des textes anciens, née à Alexandrie.",
+      "reponsesAttendues": ["philologie"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel savant a été le premier bibliothécaire en chef ?",
+      "options": [
+        "Zénodote d'Éphèse",
+        "Euclide",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On estime que la bibliothèque contenait jusqu'à 700 000 rouleaux de papyrus.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel ouvrage célèbre a été traduit de l'hébreu en grec à Alexandrie ?",
+      "options": [
+        "La Bible des Septante",
+        "Le Coran",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'astronome {{1}} a calculé la circonférence de la Terre à Alexandrie.",
+      "reponsesAttendues": ["Ératosthène"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La bibliothèque a été détruite en une seule fois par un incendie accidentel de Jules César.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Aristarque de Samothrace est célèbre pour :",
+      "options": [
+        "Son édition critique des poèmes d'Homère",
+        "Ses poèmes d'amour",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Grâce aux érudits alexandrins, une grande partie de la littérature grecque classique a été préservée.",
+      "reponse": true
+    }
+  ]
+}

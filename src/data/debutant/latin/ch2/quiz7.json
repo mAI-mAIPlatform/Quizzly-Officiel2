@@ -1,0 +1,94 @@
+{
+  "id": "quiz7",
+  "titre": "La 2e Déclinaison : Les Noms en -us",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "De quel genre sont généralement les noms en -us ?",
+      "options": [
+        "Masculin",
+        "Féminin",
+        "Neutre",
+        "Invariable"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Dominus' signifie 'le maître'.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'esclave se dit '{{1}}' (servus).",
+      "reponsesAttendues": [
+        "servus"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'amicus' ?",
+      "options": [
+        "L'ami",
+        "L'ennemi",
+        "Le voisin",
+        "Le fils"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le nominatif pluriel de 'amicus' est 'amici'.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est l'accusatif singulier de 'dominus' ?",
+      "options": [
+        "dominum",
+        "domino",
+        "domini",
+        "dominos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le mot 'cheval' se dit '{{1}}' (equus).",
+      "reponsesAttendues": [
+        "equus"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Lupus' signifie le loup.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la terminaison de l'accusatif pluriel (COD pluriel) ?",
+      "options": [
+        "-os",
+        "-i",
+        "-is",
+        "-orum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le vocatif de 'amicus' est 'amice' (seule exception où il change de forme).",
+      "reponse": true
+    }
+  ]
+}

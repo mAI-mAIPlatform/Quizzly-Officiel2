@@ -1,0 +1,94 @@
+{
+  "id": "quiz10",
+  "titre": "Révisions : Sémantique et Structure",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Dans quel cas doit-on utiliser la balise <aside> ?",
+      "options": [
+        "Pour du contenu indirectement lié au sujet principal (ex: barre latérale, lexique)",
+        "Uniquement pour les publicités",
+        "Pour le menu de navigation principal",
+        "Pour le pied de page"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le format JSON-LD doit être compressé (minifié) pour être valide.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise {{1}} regroupe un ensemble de balises <option>.",
+      "reponsesAttendues": [
+        "optgroup"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel attribut ARIA indique qu'un élément est étendu ou replié ?",
+      "options": [
+        "aria-expanded",
+        "aria-visible",
+        "aria-open",
+        "aria-state"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La balise <template> est visible par défaut sur la page si on ne met pas 'display: none'.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle propriété Schema.org définit le nom d'une personne ?",
+      "options": [
+        "name",
+        "fullName",
+        "personName",
+        "identity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le type d'input {{1}} permet de limiter la saisie à une adresse mail valide syntaxiquement.",
+      "reponsesAttendues": [
+        "email"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'itemscope' ne s'utilise qu'au début de la balise <body>.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "A quoi sert 'aria-live=\"polite\"' ?",
+      "options": [
+        "Annonce le changement dès que l'utilisateur est inactif",
+        "Interrompt l'utilisateur pour annoncer le changement",
+        "Le lecteur d'écran ne dit rien",
+        "Affiche une notification visuelle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La sémantique HTML5 permet de se passer totalement de classes CSS.",
+      "reponse": false
+    }
+  ]
+}

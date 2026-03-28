@@ -1,0 +1,90 @@
+{
+  "id": "quiz11",
+  "titre": "Textarea et Texte long",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle balise permet de saisir plusieurs lignes de texte ?",
+      "options": [
+        "<textarea>",
+        "<input type=\"text\">",
+        "<text>",
+        "<div>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Contrairement à l'input, la valeur par défaut d'un <textarea> se place entre les balises ouvrante et fermante.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} définit le nombre de lignes visibles du textarea.",
+      "reponsesAttendues": ["rows"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "À quoi sert l'attribut 'cols' ?",
+      "options": [
+        "À définir la largeur visible en nombre moyen de caractères",
+        "À faire des colonnes",
+        "À rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'wrap=\"hard\"' insère de vrais sauts de ligne lors de la soumission du formulaire.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment empêcher le redimensionnement manuel du textarea par l'utilisateur ?",
+      "options": [
+        "CSS: resize: none;",
+        "HTML: fixed=\"true\"",
+        "Il est impossible",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut {{1}} limite le nombre maximal de caractères acceptés.",
+      "reponsesAttendues": ["maxlength"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser 'placeholder' sur un <textarea>.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que fait l'attribut 'spellcheck' ?",
+      "options": [
+        "Active ou désactive la vérification orthographique native",
+        "Compte les mots",
+        "Traduit le texte",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Un <textarea> peut être marqué comme 'required'.",
+      "reponse": true
+    }
+  ]
+}

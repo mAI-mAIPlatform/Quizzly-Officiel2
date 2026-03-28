@@ -1,0 +1,95 @@
+{
+  "id": "quiz30",
+  "titre": "Révisions Finales : Latin Expert (Chapitre 1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel cas exprime le but après un verbe de mouvement ?",
+      "options": [
+        "Supin en -um",
+        "Supin en -u",
+        "Nominatif",
+        "Vocatif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Tacite imite la période cicéronienne.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'élision d'une voyelle devant un 'h' s'appelle l'`{{1}}`.",
+      "reponsesAttendues": [
+        "élision",
+        "élide"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'Aurea mediocritas' ?",
+      "options": [
+        "L'entre-deux doré (équilibre)",
+        "Une médiocrité d'or",
+        "L'argent fait le bonheur",
+        "La pauvreté est belle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'ablatif absolu peut exprimer la cause.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel est le 5e pied type de l'hexamètre ?",
+      "options": [
+        "Dactyle",
+        "Spondée",
+        "Iambe",
+        "Chorée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La 'prétérition' est une figure de `{{1}}`.",
+      "reponsesAttendues": [
+        "rhétorique"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les subordonnées du discours indirect sont à l'indicatif.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qui a écrit les Catilinaires ?",
+      "options": [
+        "Cicéron",
+        "César",
+        "Salluste",
+        "Néron"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Le gérondif est un nom verbal.",
+      "reponse": true
+    }
+  ]
+}

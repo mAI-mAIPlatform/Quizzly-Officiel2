@@ -1,0 +1,94 @@
+{
+  "id": "quiz21",
+  "titre": "Le Temps et les Jours (Il Tempo)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'lundi' ?",
+      "options": [
+        "lunedì",
+        "martedì",
+        "mercoledì",
+        "giovedì"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": " 'Domenica' signifie dimanche.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le jour se dit 'il {{1}}' (giorno).",
+      "reponsesAttendues": [
+        "giorno"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'oggi' ?",
+      "options": [
+        "Aujourd'hui",
+        "Demain",
+        "Hier",
+        "Maintenant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": " 'Domani' signifie demain.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment se dit 'la semaine' ?",
+      "options": [
+        "la settimana",
+        "il mese",
+        "l'anno",
+        "l'ora"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Hier se dit '{{1}}' (ieri).",
+      "reponsesAttendues": [
+        "ieri"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": " 'Sabato' signifie samedi.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'un mese' ?",
+      "options": [
+        "Un mois",
+        "Une masse",
+        "Une mesure",
+        "Une table"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les jours de la semaine (sauf dimanche) sont masculins en italien.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz29",
+  "titre": "Images et Accessibilité",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "L'attribut 'alt' sert-il au SEO ?",
+      "options": [
+        "Oui, il aide Google Images à comprendre le contenu de l'image",
+        "Non, c'est pour les aveugles uniquement",
+        "C'est pour la déco",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'title' (infobulle au survol) est un facteur SEO plus important que le 'alt'.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Entourer une image d'une balise {{1}} avec une légende <figcaption> renforce sa pertinence contextuelle.",
+      "reponsesAttendues": ["figure"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pourquoi soigner le nom du fichier image (ex: gateau-chocolat.jpg) ?",
+      "options": [
+        "C'est un autre signal sémantique utilisé par Google",
+        "Pour le ranger",
+        "Pour le script",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Google peut lire le texte écrit à l'intérieur d'une image (OCR), donc l'alt n'est plus utile.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Format d'image recommandé pour le web moderne ?",
+      "options": [
+        "WebP ou AVIF (compression supérieure et SEO-friendly)",
+        "BMP",
+        "TIFF",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La balise <{{1}}> permet de proposer différents formats d'image selon le support (Art Direction).",
+      "reponsesAttendues": ["picture"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le poids de l'image influe sur le SEO via le facteur de vitesse (Performance).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Impact des images dans la SERP ?",
+      "options": [
+        "Attire l'œil et augmente le CTR si une vignette apparaît à côté du titre",
+        "Aucun",
+        "Négatif",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Une stratégie image complète inclut l'attribut alt, un nom de fichier clair et des dimensions spécifiées.",
+      "reponse": true
+    }
+  ]
+}

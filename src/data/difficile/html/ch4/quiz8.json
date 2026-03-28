@@ -1,0 +1,90 @@
+{
+  "id": "quiz8",
+  "titre": "Propriétés ARIA",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle propriété lie un élément à son libellé textuel via l'ID de ce dernier ?",
+      "options": [
+        "aria-labelledby",
+        "aria-label",
+        "aria-describedby",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "aria-label permet de définir un libellé directement sur la balise (invisible visuellement).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On utilise aria-{{1}} pour lier un élément à un texte explicatif plus long (ex: consigne de mot de passe).",
+      "reponsesAttendues": ["describedby"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Différence entre label et description ?",
+      "options": [
+        "Le label est le nom court, la description est une info complémentaire lue par la suite",
+        "C'est la même chose",
+        "La description est interne",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "aria-required est redondant si l'attribut HTML5 'required' est déjà présent.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À quoi sert aria-controls ?",
+      "options": [
+        "Indique quel élément est piloté ou modifié par l'interaction actuelle (ex: bouton pilote menu)",
+        "Contrôle le volume",
+        "Sert pour les jeux",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut aria-{{1}} définit le rôle d'un élément (bouton, menu, etc.).",
+      "reponsesAttendues": ["role"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "aria-owns crée une relation de parenté virtuelle entre deux éléments distants dans le DOM.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "L'usage d'ARIA sans expertise peut :",
+      "options": [
+        "Dégrader gravement l'accessibilité si mal implémenté",
+        "Améliorer le design",
+        "Rien changer",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Bien utilisé, ARIA rend les applications web modernes aussi accessibles que les sites de base.",
+      "reponse": true
+    }
+  ]
+}

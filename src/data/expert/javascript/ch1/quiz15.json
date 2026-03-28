@@ -1,0 +1,96 @@
+{
+  "id": "quiz15",
+  "titre": "Héritage Prototypal Avancé",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la principale différence entre l'héritage classique et prototypal ?",
+      "options": [
+        "Le prototypal lie des objets à d'autres objets directement",
+        "L'héritage classique est plus rapide",
+        "Le prototypal n'autorise qu'un seul parent",
+        "Il n'y a aucune différence réelle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "JavaScript supporte nativement l'héritage multiple.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On peut simuler l'héritage multiple avec des {{1}} (mixins).",
+      "reponsesAttendues": [
+        "mélanges",
+        "mixins"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment déléguer un appel de méthode au prototype parent en ES5 ?",
+      "options": [
+        "Parent.prototype.methode.call(this)",
+        "super.methode()",
+        "this.proto.methode()",
+        "Obtenir par magie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "La délégation de comportement est un autre nom pour l'héritage prototypal.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel inconvénient majeur a l'héritage prototypal basé sur les constructeurs ?",
+      "options": [
+        "Les propriétés de type objet (références) sont partagées sur le prototype",
+        "C'est trop complexe à écrire",
+        "Ce n'est pas supporté par Node.js",
+        "C'est moins sécurisé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le pattern {{1}} consiste à hériter sans constructeurs.",
+      "reponsesAttendues": [
+        "OLOO",
+        "Objects Linked to Other Objects"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'super' ne fonctionne que dans les classes et les littéraux d'objet (ES6+).",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle méthode permet de copier les propriétés de plusieurs objets sources vers une cible ?",
+      "options": [
+        "Object.assign()",
+        "Object.copy()",
+        "Object.merge()",
+        "Object.clone()"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'héritage prototypal est une forme d'héritage 'par délégation'.",
+      "reponse": true
+    }
+  ]
+}

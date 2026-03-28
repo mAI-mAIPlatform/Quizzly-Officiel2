@@ -1,0 +1,90 @@
+{
+  "id": "quiz18",
+  "titre": "Expressions Vêtements",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Que signifie 'Ajustar as contas' ?",
+      "options": [
+        "Régler ses comptes",
+        "Calculer une facture",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'expression 'Bater as botas' (frapper les bottes) signifie mourir en argot.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Être très fier ou se vanter se dit 'Estar de {{1}}' (crête).",
+      "reponsesAttendues": ["crista"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que veut dire 'Estar com as calças na mão' ?",
+      "options": [
+        "Être dans une situation très précaire ou difficile / être pris au dépourvu",
+        "Être en sous-vêtements",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Esticar o pernil' est un autre synonyme familier pour mourir.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'Dar um nó cego' ?",
+      "options": [
+        "Faire un nœud impossible à défaire / bloquer une situation",
+        "Être aveugle",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Une personne élégante est '{{1}}' (janota) ou bien habillée.",
+      "reponsesAttendues": ["janota"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Tirar o chapéu' (tirer son chapeau) exprime l'admiration.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'Pôr-se na alheta' ?",
+      "options": [
+        "S'enfuir / s'éclipser discrètement",
+        "Mettre des ailes",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les vêtements fournissent des images concrètes pour des concepts abstraits en portugais.",
+      "reponse": true
+    }
+  ]
+}

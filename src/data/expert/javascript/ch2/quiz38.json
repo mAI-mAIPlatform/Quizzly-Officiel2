@@ -1,0 +1,96 @@
+{
+  "id": "quiz38",
+  "titre": "JS Expert : Debounce et Throttle",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le Debouncing ?",
+      "options": [
+        "Retarder l'exécution d'une fonction jusqu'à ce qu'un certain temps se soit écoulé sans nouvel appel",
+        "Limiter le nombre d'appels à un maximum par seconde",
+        "Supprimer des doublons dans un tableau",
+        "Accélérer le processeur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le Throttling garantit qu'une fonction ne s'exécute pas plus d'une fois par intervalle de temps donné.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "On utilise souvent le debounce pour optimiser la recherche en temps réel d'un champ de texte `{{1}}`.",
+      "reponsesAttendues": [
+        "input",
+        "recherche"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Lequel est préférable pour limiter le calcul lors d'un événement 'scroll' ?",
+      "options": [
+        "Throttle",
+        "Debounce",
+        "Les deux sont identiques",
+        "Aucun des deux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une implémentation de debounce utilise systématiquement `setTimeout`.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si on appelle une fonction debouncée toutes les 50ms avec un délai de 100ms ?",
+      "options": [
+        "Elle ne s'exécutera jamais tant que les appels continuent",
+        "Elle s'exécute toutes les 50ms",
+        "Elle s'exécute une fois au début",
+        "L'ordinateur redémarre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le throttle est souvent implémenté en comparant le `{{1}}` actuel avec celui du dernier appel.",
+      "reponsesAttendues": [
+        "timestamp",
+        "temps"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La librairie Lodash propose des fonctions _.debounce et _.throttle prêtes à l'emploi.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la différence majeure entre les deux ?",
+      "options": [
+        "Le throttle assure une exécution périodique, le debounce attend une accalmie",
+        "Le debounce est pour les nombres, le throttle pour les chaînes",
+        "Il n'y a aucune différence",
+        "L'un est synchrone, l'autre non"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Utiliser ces techniques permet d'économiser des ressources CPU et d'améliorer la fluidité de l'UI.",
+      "reponse": true
+    }
+  ]
+}

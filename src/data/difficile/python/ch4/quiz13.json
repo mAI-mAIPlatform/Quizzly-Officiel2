@@ -1,0 +1,90 @@
+{
+  "id": "quiz13",
+  "titre": "Introspection Avancée",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel module est dédié à l'introspection d'objets vivants ?",
+      "options": [
+        "inspect",
+        "sys",
+        "os",
+        "re"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "inspect.signature() permet de récupérer les arguments et leurs types par défaut d'une fonction.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La fonction {{1}}() retourne l'ID unique d'un objet en mémoire.",
+      "reponsesAttendues": ["id"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Comment vérifier si un objet possède un attribut spécifique ?",
+      "options": [
+        "hasattr(obj, 'attr')",
+        "obj.has('attr')",
+        "exists(obj.attr)",
+        "if 'attr' in obj"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "inspect.getsource(obj) permet de récupérer le code source d'une fonction ou classe définie dans un fichier.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que retourne type(type) ?",
+      "options": [
+        "type",
+        "object",
+        "class",
+        "None"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut __{{1}}__ contient la documentation (docstring) d'un objet.",
+      "reponsesAttendues": ["doc"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut naviguer dans la pile d'appels avec inspect.stack().",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment récupérer la liste de tous les attributs et méthodes d'un objet ?",
+      "options": [
+        "dir(obj)",
+        "list(obj)",
+        "vars(obj)",
+        "help(obj)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'introspection est la base de nombreux outils comme les débogueurs ou les frameworks de test.",
+      "reponse": true
+    }
+  ]
+}

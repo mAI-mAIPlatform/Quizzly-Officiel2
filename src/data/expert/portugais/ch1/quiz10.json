@@ -1,0 +1,94 @@
+{
+  "id": "quiz10",
+  "titre": "Revisão : Gramática (Capítulo 1)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qual modo expressa dúvida ?",
+      "options": [
+        "Subjuntivo",
+        "Indicativo",
+        "Imperativo",
+        "Infinitivo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Mesóclise usa-se no futuro.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Se nós `{{1}}` (ser) ricos, viajaríamos.",
+      "reponsesAttendues": [
+        "fôssemos"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "O que é o infinito pessoal ?",
+      "options": [
+        "Infinitivo flexionado",
+        "Infinitivo de uma pessoa",
+        "Verbo futuro",
+        "Verbo passado"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Haver (existir) tem plural.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qual atrai a próclise ?",
+      "options": [
+        "Não",
+        "Ontem,",
+        "Certo",
+        "Verbo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Vende-se esta `{{1}}`.",
+      "reponsesAttendues": [
+        "casa"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Obedecer rege a preposição 'a'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Futuro do subjuntivo de 'ter' ?",
+      "options": [
+        "tiver",
+        "tenha",
+        "tinha",
+        "tivesse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "É importante nós estudarmos.",
+      "reponse": true
+    }
+  ]
+}

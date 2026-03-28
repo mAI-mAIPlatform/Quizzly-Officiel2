@@ -1,0 +1,95 @@
+{
+  "id": "quiz27",
+  "titre": "Le Chef d'Orchestre",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le rôle principal du chef d'orchestre ?",
+      "options": [
+        "Jouer de tous les instruments en même temps",
+        "Diriger les musiciens et unifier l'interprétation",
+        "Vendre les billets de concert",
+        "Accorder les instruments"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le chef d'orchestre utilise souvent une petite baguette.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le chef d'orchestre lit toute la musique sur une {{1}} (conducteur).",
+      "reponsesAttendues": [
+        "partition"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie le mouvement de haut en bas de la main du chef ?",
+      "options": [
+        "Il demande le silence",
+        "Il indique le premier temps de la mesure",
+        "Il cherche ses clés",
+        "Il dit au revoir"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Certains chefs dirigent sans baguette, avec leurs mains uniquement.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "À qui le chef fait-il signe pour commencer ?",
+      "options": [
+        "À tout l'orchestre",
+        "Au public",
+        "Uniquement aux violons",
+        "Au concierge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La personne qui coordonne l'orchestre depuis son pupitre de violon est le '{{1}}' (Koncertmeister).",
+      "reponsesAttendues": [
+        "violon solo",
+        "premier violon"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le chef d'orchestre décide des nuances et du tempo.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le pupitre sur lequel le chef pose sa partition ?",
+      "options": [
+        "Une table",
+        "Un lutrin / pupitre de chef",
+        "Un canapé",
+        "Une estrade"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Sans chef, il serait très difficile de faire jouer 100 musiciens ensemble parfaitement.",
+      "reponse": true
+    }
+  ]
+}

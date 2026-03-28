@@ -1,0 +1,94 @@
+{
+  "id": "quiz6",
+  "titre": "Rythme et Mesure",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on le trait vertical qui sépare deux mesures ?",
+      "options": [
+        "Une barre de mesure",
+        "Une ligne de portée",
+        "Un soupir",
+        "Une clé"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Dans une mesure à 4/4, il y a 4 temps par mesure.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le chiffre du haut d'une indication de mesure indique le nombre de {{1}} par mesure.",
+      "reponsesAttendues": [
+        "temps"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la valeur de l'unité de temps dans une mesure en /4 ?",
+      "options": [
+        "La Ronde",
+        "La Blanche",
+        "La Noire",
+        "La Croche"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une mesure à 3/4 est une mesure à 3 temps.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie le 'C' placé au début d'une portée ?",
+      "options": [
+        "Clé de Do",
+        "Mesure à 4/4",
+        "Mesure à 2/2",
+        "Chut !"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'outil qui donne la pulsation régulière s'appelle un {{1}}.",
+      "reponsesAttendues": [
+        "métronome"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le premier temps d'une mesure est généralement le temps fort.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Combien de Noires peut-on mettre dans une mesure à 2/4 ?",
+      "options": [
+        "2",
+        "4",
+        "1",
+        "8"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les barres de mesures servent à organiser le temps musical.",
+      "reponse": true
+    }
+  ]
+}

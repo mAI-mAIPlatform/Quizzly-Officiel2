@@ -1,0 +1,90 @@
+{
+  "id": "quiz30",
+  "titre": "EXAMEN FINAL",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel historien a raconté la Guerre du Péloponnèse ?",
+      "options": [
+        "Thucydide",
+        "Hérodote",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La Boulè à Athènes comptait 500 membres.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Les esclaves de Sparte s'appelaient les {{1}}.",
+      "reponsesAttendues": ["hilotes"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle bataille marque la fin de l'indépendance grecque ?",
+      "options": [
+        "Chéronée",
+        "Salamine",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "L'ostracisme durait 10 ans.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle institution était le tribunal populaire ?",
+      "options": [
+        "L'Héliée",
+        "L'Ecclésia",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le trésor de la Ligue était initialement à {{1}}.",
+      "reponsesAttendues": ["Délos"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Alexandre le Grand est mort en Inde.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Qui a aboli l'esclavage pour dettes ?",
+      "options": [
+        "Solon",
+        "Dracon",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Bravo ! Vous avez terminé le Chapitre 3 de Grec (Difficile).",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz6",
+  "titre": "Docstrings et Annotations",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Qu'est-ce qu'une docstring en Python ?",
+      "options": [
+        "Un commentaire commençant par #",
+        "Une chaîne de caractères placée juste après la signature pour documenter la fonction",
+        "Une variable de documentation",
+        "Un type de donnée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "On utilise généralement des triples guillemets (\"\"\"...\"\"\") pour écrire une docstring.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'attribut spécial pour accéder à la docstring d'un objet est {{1}}.",
+      "reponsesAttendues": ["__doc__"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la syntaxe correcte pour annoter le type du retour d'une fonction ?",
+      "options": [
+        "def f(x) -> int:",
+        "def f(x) : int",
+        "def f(x) returns int:",
+        "def f(int x):"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Python impose strictement les contraintes de types définies par les annotations au moment de l'exécution.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quel outil permet de vérifier statiquement les types annotés ?",
+      "options": [
+        "Mypy",
+        "Flake8",
+        "Pylint",
+        "Pytest"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut spécial pour accéder aux annotations d'une fonction est {{1}}.",
+      "reponsesAttendues": ["__annotations__"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les docstrings peuvent être extraites par des outils comme Sphinx pour générer de la documentation HTML.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Dans une docstring, à quoi servent les 'doctests' ?",
+      "options": [
+        "À décorer le code",
+        "À inclure des exemples de code exécutables qui servent de tests unitaires",
+        "À ralentir le script",
+        "À rien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Une bonne docstring doit expliquer 'pourquoi' et 'comment' utiliser la fonction.",
+      "reponse": true
+    }
+  ]
+}

@@ -3,5 +3,30 @@
   "titre": "Latin",
   "niveau": "Génie",
   "description": "Découvre et maîtrise tout le programme de Latin au niveau Génie !",
-  "chapitres": []
+  "chapitres": [
+    {
+      "id": "ch1",
+      "titre": "Philologie et Linguistique Comparative",
+      "lecons": ["Évolution de l'indoeuropéen", "Lois phonétiques", "Étude des substrats"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch2",
+      "titre": "Exégèse des Textes Classiques",
+      "lecons": ["Analyse textuelle critique", "Variantes manuscrites", "Paléographie"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch3",
+      "titre": "Rhétorique et Oratoire",
+      "lecons": ["Systèmes de persuasion", "Figures de pensée complexes", "Déclamations"],
+      "quizCount": 30
+    },
+    {
+      "id": "ch4",
+      "titre": "Héritage Juridique et Politique",
+      "lecons": ["Droit romain archaïque", "Institutions de la République", "Influence médiévale"],
+      "quizCount": 30
+    }
+  ]
 }

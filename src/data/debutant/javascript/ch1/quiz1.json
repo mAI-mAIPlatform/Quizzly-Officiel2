@@ -1,0 +1,101 @@
+{
+  "id": "quiz1",
+  "titre": "Qu'est-ce que le JavaScript ?",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quel est le rôle principal de JavaScript côté client ?",
+      "options": [
+        "Structurer la page",
+        "Mettre en forme la page",
+        "Ajouter de l'interactivité",
+        "Gérer la base de données"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "JavaScript est le même langage que Java.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "qcm",
+      "enonce": "Dans quel élément HTML insère-t-on du code JavaScript ?",
+      "options": [
+        "<js>",
+        "<javascript>",
+        "<script>",
+        "<code>"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q4",
+      "type": "trous",
+      "enonce": "JavaScript est un langage de {{1}}.",
+      "reponsesAttendues": [
+        "programmation",
+        "script"
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "JavaScript peut changer le contenu HTML d'une page.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qui a créé JavaScript ?",
+      "options": [
+        "Bill Gates",
+        "Brendan Eich",
+        "Steve Jobs",
+        "Mark Zuckerberg"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'extension d'un fichier JavaScript est .{{1}}.",
+      "reponsesAttendues": [
+        "js"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "qcm",
+      "enonce": "En quelle année JavaScript est-il apparu ?",
+      "options": [
+        "1990",
+        "1995",
+        "2000",
+        "2005"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q9",
+      "type": "vrai_faux",
+      "enonce": "JavaScript est sensible à la casse (majuscules/minuscules).",
+      "reponse": true
+    },
+    {
+      "id": "q10",
+      "type": "qcm",
+      "enonce": "Quel symbole termine généralement une instruction en JavaScript ?",
+      "options": [
+        ":",
+        ",",
+        ";",
+        "."
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

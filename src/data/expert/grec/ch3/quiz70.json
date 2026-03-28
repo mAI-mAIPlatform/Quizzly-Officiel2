@@ -1,0 +1,95 @@
+{
+  "id": "quiz70",
+  "titre": "Revisione : Filosofia e Scienza (Capitolo 3 - Greco Expert)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Premier philosophe ?",
+      "options": [
+        "Thalès",
+        "Socrate",
+        "Platon",
+        "Zeus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Héraclite = Changement (Panta Rhei).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Art d'accoucher les esprits : `{{1}}`.",
+      "reponsesAttendues": [
+        "maïeutique",
+        "maieutique"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "École de Platon ?",
+      "options": [
+        "L'Académie",
+        "Le Lycée",
+        "L'Université",
+        "Le Collège"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Aristote = Précepteur d'Alexandre.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Père de la médecine ?",
+      "options": [
+        "Hippocrate",
+        "Galien",
+        "Thalès",
+        "Héron"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Auteur des 'Éléments' de géométrie : `{{1}}`.",
+      "reponsesAttendues": [
+        "Euclide"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Archimède a crié 'Eurêka'.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Modèle héliocentrique antique ?",
+      "options": [
+        "Aristarque de Samos",
+        "Ptolémée",
+        "Socrate",
+        "Homère"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Ataraxie = Paix de l'âme.",
+      "reponse": true
+    }
+  ]
+}

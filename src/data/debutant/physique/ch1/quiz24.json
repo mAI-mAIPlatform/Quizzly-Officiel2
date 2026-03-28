@@ -1,0 +1,94 @@
+{
+  "id": "quiz24",
+  "titre": "L'Ombre et la Lumière",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Lalquelle est une source de lumière naturelle ?",
+      "options": [
+        "Le Soleil",
+        "Une lampe",
+        "Une bougie",
+        "Une télévision"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "La lumière voyage toujours en ligne droite.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Une zone où la lumière ne passe pas s'appelle une {{1}}.",
+      "reponsesAttendues": [
+        "ombre"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Pour créer une ombre, il faut :",
+      "options": [
+        "Uniquement de la lumière",
+        "De la lumière et un objet opaque",
+        "Uniquement de l'obscurité",
+        "De l'eau"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un miroir produit sa propre lumière.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment appelle-t-on un objet qui laisse passer la lumière (comme une vitre) ?",
+      "options": [
+        "Opaque",
+        "Transparent",
+        "Noir",
+        "Solide"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'ombre d'un objet est toujours située à l'{{1}} de la source de lumière.",
+      "reponsesAttendues": [
+        "opposé"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La taille de l'ombre change selon la position de la source de lumière.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel phénomène forme un arc-en-ciel ?",
+      "options": [
+        "La décomposition de la lumière blanche du soleil par les gouttes de pluie",
+        "Le mélange de peintures dans le ciel",
+        "C'est un reflet de l'espace",
+        "Le vent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Sans lumière, nous ne pourrions rien voir.",
+      "reponse": true
+    }
+  ]
+}

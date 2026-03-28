@@ -1,0 +1,90 @@
+{
+  "id": "quiz28",
+  "titre": "Pratiques Écrit",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment commence-t-on généralement un e-mail professionnel en italien ?",
+      "options": [
+        "Gentile / Egregio [Titolo] [Cognome]",
+        "Ciao!",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Distinti saluti' est la formule de fin de lettre formelle la plus courante.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "L'expression 'En {{1}}' (allegato) signifie 'en pièce jointe'.",
+      "reponsesAttendues": ["allegato"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle abréviation utilise-t-on pour 'À l'attention de' ?",
+      "options": [
+        "C.A. (Alla cortese attenzione)",
+        "P.S.",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "En italien, on cite souvent le titre professionnel (Dottore, Avvocato, Ingegnere) dans l'en-tête.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment dit-on 'Cordialement' de manière semi-formelle ?",
+      "options": [
+        "Cordiali saluti",
+        "Un bacio",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le mot '{{1}}' (Mittente) désigne l'expéditeur d'une lettre.",
+      "reponsesAttendues": ["expéditeur", "mittente"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "L'italien écrit formel évite les répétitions et privilégie une syntaxe articulée.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle formule utilise-t-on pour une réponse rapide dans un fil de mails ?",
+      "options": [
+        "In merito a quanto sopra...",
+        "Basta",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "La maîtrise des codes de l'écrit est un signe de respect et de professionnalisme en Italie.",
+      "reponse": true
+    }
+  ]
+}

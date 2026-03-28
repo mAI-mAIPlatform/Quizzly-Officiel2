@@ -1,0 +1,94 @@
+{
+  "id": "quiz20",
+  "titre": "Synthèse Vocabulaire & Grammaire (2)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Comment se termine le Génitif Pluriel d'un mot parisyllabique de la 3ème déclinaison (ex: Civis) ?",
+      "options": [
+        "-um",
+        "-ium",
+        "-arum",
+        "-orum"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Omnis est un adjectif de la 1ère classe.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot 'Mare' (la mer) fait son pluriel en '{{1}}'.",
+      "reponsesAttendues": [
+        "maria"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Conjuguez 'Audire' à la 3ème personne du pluriel.",
+      "options": [
+        "Audiunt",
+        "Audint",
+        "Audient",
+        "Audunt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Bonae puellae' peut être un Nominatif Pluriel (les bonnes jeunes filles).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie 'Cape !' ?",
+      "options": [
+        "Prends !",
+        "Capitaine !",
+        "Fuis !",
+        "Vois !"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le mot pour 'Citoyen' est '{{1}}'.",
+      "reponsesAttendues": [
+        "civis"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La 3ème déclinaison neutre a les trois premiers cas identiques.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel adjectif signifie 'Fort / Courageux' ?",
+      "options": [
+        "Fortis",
+        "Bonus",
+        "Magnus",
+        "Malus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Bravo ! Tu as fini la deuxième série sur le latin.",
+      "reponse": true
+    }
+  ]
+}

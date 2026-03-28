@@ -1,0 +1,94 @@
+{
+  "id": "quiz38",
+  "titre": "HTML Expert : Resource Hinting & Performance",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert <link rel='preload'> ?",
+      "options": [
+        "À charger une ressource critique avec une haute priorité dès que possible",
+        "À charger une ressource pour la page suivante",
+        "À supprimer une ressource du cache",
+        "À retarder le chargement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "DNS-prefetch permet de résoudre à l'avance le nom de domaine d'un lien externe.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La valeur de rel permettant de charger des ressources en basse priorité pour une navigation future est `{{1}}`.",
+      "reponsesAttendues": [
+        "prefetch"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle est la différence entre async et defer pour charger un script ?",
+      "options": [
+        "Defer maintient l'ordre d'exécution et attend que le HTML soit parsé, Async s'exécute dès qu'il est chargé",
+        "Async est uniquement pour les modules",
+        "Defer est pour le CSS",
+        "Il n'y a plus aucune différence"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "preconnect établit une connexion TCP et TLS complète avec un serveur tiers avant qu'une requête ne soit faite.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que le 'Critical Rendering Path' ?",
+      "options": [
+        "La séquence d'étapes que le navigateur doit suivre pour transformer le code en pixels affichés",
+        "Un outil de débuggage",
+        "Le chemin vers le serveur",
+        "Le protocole HTTP/2"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'attribut permettant de différer le chargement d'une image hors-écran est `loading='{{1}}'`.",
+      "reponsesAttendues": [
+        "lazy"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Utiliser 'preload' pour trop de ressources peut nuire aux performances globales.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "À quoi sert 'rel=modulepreload' ?",
+      "options": [
+        "Optimiser le chargement et le parsing des modules ES",
+        "Précharger les images",
+        "Charger le CSS plus vite",
+        "Vérifier la sécurité"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "HTTP/2 Server Push est aujourd'hui déprécié au profit de Early Hints ou Preload.",
+      "reponse": true
+    }
+  ]
+}

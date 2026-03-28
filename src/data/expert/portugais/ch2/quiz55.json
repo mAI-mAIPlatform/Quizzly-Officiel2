@@ -1,0 +1,94 @@
+{
+  "id": "quiz55",
+  "titre": "Português Expert : José Saramago",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Em que ano José Saramago recebeu o Prémio Nobel da Literatura ?",
+      "options": [
+        "1998",
+        "2000",
+        "1990",
+        "2005"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Saramago é conhecido pelo seu estilo único : frases longas e ausência de pontuação convencional nos diálogos.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "O romance de Saramago sobre uma epidemia de cegueira branca intitula-se 'Ensaio sobre a `{{1}}`'.",
+      "reponsesAttendues": [
+        "Cegueira"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Qual é o tema de 'Memorial do Convento' ?",
+      "options": [
+        "A construção do Convento de Mafra no século XVIII",
+        "A história de um convento moderno",
+        "A vida de um padre",
+        "Uma guerra civil"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Saramago exilou-se na ilha de Lanzarote (Espanha) após polémica com o governo português.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qual obra de Saramago humaniza a figura de Cristo e causou grande escândalo ?",
+      "options": [
+        "O Evangelho Segundo Jesus Cristo",
+        "Caim",
+        "A Jangada de Pedra",
+        "O Homem Duplicado"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "'A `{{1}}` de Pedra' imagina a Península Ibérica a separar-se da Europa e a navegar pelo oceano.",
+      "reponsesAttendues": [
+        "Jangada"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Saramago foi o primeiro (e até agora único) autor de língua portuguesa a vencer o Nobel.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Onde nasceu José Saramago ?",
+      "options": [
+        "Azinhaga (Ribatejo, Portugal)",
+        "Lisboa",
+        "Porto",
+        "Coimbra"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Saramago usava a alegoria para criticar a sociedade e a natureza humana.",
+      "reponse": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "quiz29",
+  "titre": "Ditados Populares",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Complétez : 'Grão a grão, enche a galinha o...' ?",
+      "options": [
+        "Papo (Le jabot / Petit à petit l'oiseau fait son nid)",
+        "Saco",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "'Quem tem boca vai a Roma' signifie qu'en demandant son chemin, on arrive partout.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "'Mais vale um pássaro na mão do que dois a {{1}}' (voler).",
+      "reponsesAttendues": ["voar"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie 'Água mole em pedra dura, tanto dá até que fura' ?",
+      "options": [
+        "La persévérance finit par payer",
+        "L'eau est plus forte que la pierre",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "'Em casa de ferreiro, espeto de pau' (Chez le forgeron, brochette de bois) signifie qu'on néglige souvent ce qui est de notre compétence chez soi.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Complétez : 'Cão que ladra...' ?",
+      "options": [
+        "Não morde (Chien qui aboie ne mord pas)",
+        "Foge",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "'Quem vê caras não vê {{1}}' (coeurs).",
+      "reponsesAttendues": ["corações"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "'Antes só do que mal acompanhado' est un proverbe prônant l'indépendance.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que signifie 'Dar tempo ao tempo' ?",
+      "options": [
+        "Être patient, laisser les choses se faire naturellement",
+        "Avoir une montre",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les proverbes sont la sagesse des nations et le ciment de la culture populaire.",
+      "reponse": true
+    }
+  ]
+}

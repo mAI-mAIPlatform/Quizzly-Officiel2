@@ -1,0 +1,90 @@
+{
+  "id": "quiz9",
+  "titre": "Slicing avancé",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la syntaxe complète du slicing ?",
+      "options": [
+        "[start; stop; step]",
+        "[start:stop:step]",
+        "slice(start, stop)",
+        "[start.stop.step]"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'indice 'stop' est inclus dans le résultat du slice.",
+      "reponse": false
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour inverser une liste L : L[{{1}}].",
+      "reponsesAttendues": ["::-1"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que retourne [1, 2, 3, 4][1:3] ?",
+      "options": [
+        "[1, 2]",
+        "[2, 3]",
+        "[2, 3, 4]",
+        "[1, 2, 3]"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un pas (step) négatif permet de parcourir la liste à l'envers.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Comment obtenir une copie superficielle (shallow copy) d'une liste L ?",
+      "options": [
+        "L[:]",
+        "L[0]",
+        "L[-1]",
+        "L[1:1]"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'indice {{1}} représente le dernier élément d'une séquence.",
+      "reponsesAttendues": ["-1"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Le slicing fonctionne sur les dictionnaires.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que retourne 'Python'[:2] ?",
+      "options": [
+        "'Py'",
+        "'Pyt'",
+        "'y'",
+        "Error"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Si start est supérieur à stop avec un step positif, le résultat est une liste vide.",
+      "reponse": true
+    }
+  ]
+}

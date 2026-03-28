@@ -1,0 +1,90 @@
+{
+  "id": "quiz25",
+  "titre": "POO : Générateurs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Un générateur est :",
+      "options": [
+        "Une fonction utilisant le mot-clé yield",
+        "Une batterie d'ordinateur",
+        "Un script de compilation",
+        "Une erreur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Un générateur est un type d'itérateur.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le mot-clé {{1}} permet de 'suspendre' la fonction et de retourner une valeur tout en gardant son état local.",
+      "reponsesAttendues": ["yield"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel est l'avantage majeur des générateurs ?",
+      "options": [
+        "Consommation mémoire quasi-nulle (Lazy Evaluation)",
+        "Ils sont 100x plus rapides que les listes",
+        "Ils sont plus jolis",
+        "Ils ne s'arrêtent jamais"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut envoyer des données à un générateur via .send(valeur).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que fait 'yield from itérable' ?",
+      "options": [
+        "Une erreur",
+        "Délègue l'itération à un sous-itérable (évite une boucle for imbriquée)",
+        "Supprime l'itérable",
+        "Vérifie si l'itérable existe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Les générateurs sont utilisés pour implémenter des {{1}} (lightweight threads).",
+      "reponsesAttendues": ["coroutines", "coroutine"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Une 'Generator Expression' est entourée de crochets [ ].",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Que retourne type(x) si x est une fonction contenant 'yield' ?",
+      "options": [
+        "function",
+        "generator",
+        "list",
+        "None"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "À la fin d'un générateur, Python lève automatiquement StopIteration.",
+      "reponse": true
+    }
+  ]
+}

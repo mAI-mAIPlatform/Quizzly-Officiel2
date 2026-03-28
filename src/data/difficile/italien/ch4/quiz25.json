@@ -1,0 +1,90 @@
+{
+  "id": "quiz25",
+  "titre": "Italie des Dialectes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Combien de langues régionales sont reconnues comme minorités historiques en Italie ?",
+      "options": [
+        "12",
+        "2",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le sarde et le frioulan sont considérés comme des langues distinctes du système des dialectes italiens.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le {{1}} (Dialetto) est souvent utilisé en famille ou pour exprimer une émotion forte.",
+      "reponsesAttendues": ["Dialecte", "Dialetto"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quel écrivain a écrit en dialecte vénitien et a reçu un grand écho national ?",
+      "options": [
+        "Andrea Zanzotto (poète) / Luigi Meneghello",
+        "Dante",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Le napolitain est l'une des langues régionales les plus exportées mondialement grâce à la chanson.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Que signifie le terme 'Mistilinguismo' ?",
+      "options": [
+        "Le mélange alterné de langue standard et de dialecte dans une phrase",
+        "L'oubli de la langue",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L' {{1}} (UNESCO) protège certaines langues régionales italiennes en danger de disparition.",
+      "reponsesAttendues": ["UNESCO"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "La littérature dialectale connaît un renouveau contemporain en Italie.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel dialecte est célèbre pour ses rimes et sa sonorité chantante, base de la chanson classique italienne ?",
+      "options": [
+        "Le Napolitain",
+        "Le Milanais",
+        "Rien",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "L'Italie est une mosaïque linguistique qui enrichit l'italien standard.",
+      "reponse": true
+    }
+  ]
+}

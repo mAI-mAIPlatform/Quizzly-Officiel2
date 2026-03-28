@@ -1,0 +1,96 @@
+{
+  "id": "quiz2",
+  "titre": "La Portée Lexicale (Lexical Scope)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quand la portée lexicale d'une variable est-elle déterminée ?",
+      "options": [
+        "Au moment de la compilation (écriture du code)",
+        "Au moment de l'exécution",
+        "Lors de l'appel de la fonction",
+        "Jamais"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Le 'shadowing' se produit lorsqu'une variable interne a le même nom qu'une variable externe.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Le JavaScript utilise une portée de type {{1}}.",
+      "reponsesAttendues": [
+        "statique",
+        "lexicale"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Laquelle de ces déclarations n'a pas de portée bloc ?",
+      "options": [
+        "var",
+        "let",
+        "const",
+        "class"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Une fonction peut accéder aux variables définies dans son environnement de création.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Qu'est-ce que la 'Temporal Dead Zone' (TDZ) ?",
+      "options": [
+        "La période entre l'entrée dans un bloc et la déclaration d'une variable let/const",
+        "Une erreur de boucle infinie",
+        "Le temps de chargement d'un script",
+        "Une zone où le code ne s'exécute pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Le concept de {{1}} permet d'accéder aux variables déclarées après leur utilisation avec 'var'.",
+      "reponsesAttendues": [
+        "hoisting",
+        "hissage"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les fonctions fléchées n'ont pas leur propre portée bloc.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quelle est la portée par défaut d'une variable déclarée sans mot-clé ?",
+      "options": [
+        "Globale",
+        "Bloc",
+        "Fonction",
+        "Inexistante"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "'use strict' interdit la création de variables globales accidentelles.",
+      "reponse": true
+    }
+  ]
+}

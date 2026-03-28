@@ -1,0 +1,94 @@
+{
+  "id": "quiz6",
+  "titre": "Custom Elements (Introduction)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "Quelle est la contrainte syntaxique majeure pour le nom d'un Custom Element ?",
+      "options": [
+        "Il doit contenir au moins un tiret (kebab-case)",
+        "Il doit commencer par une majuscule",
+        "Il ne doit pas dépasser 5 caractères",
+        "Il doit se terminer par '-element'"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les Custom Elements permettent de créer ses propres balises HTML (ex: <mon-bouton>).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "Pour enregistrer un nouveau composant, on utilise l'API `customElements.{{1}}()`.",
+      "reponsesAttendues": [
+        "define"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Quelle classe JavaScript doit étendre un 'Autonomous Custom Element' ?",
+      "options": [
+        "HTMLElement",
+        "HTMLDivElement",
+        "Element",
+        "Component"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "Un 'Customized Built-in Element' étend une balise existante (ex: un bouton spécial).",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quelle méthode de cycle de vie est appelée quand le composant est ajouté au document ?",
+      "options": [
+        "connectedCallback",
+        "disconnectedCallback",
+        "attributeChangedCallback",
+        "onMount"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "L'encapsulation du style et du DOM dans un Custom Element est gérée par le {{1}}.",
+      "reponsesAttendues": [
+        "Shadow DOM"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "On peut utiliser des Custom Elements sans JavaScript.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Comment observer les changements d'attributs d'un Custom Element ?",
+      "options": [
+        "En utilisant la fonction statique observedAttributes",
+        "Via un event listener 'change'",
+        "C'est automatique pour tous les attributs",
+        "Avec un setInterval"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Les Custom Elements sont supportés par tous les navigateurs modernes.",
+      "reponse": true
+    }
+  ]
+}

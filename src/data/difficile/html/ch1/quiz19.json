@@ -1,0 +1,90 @@
+{
+  "id": "quiz19",
+  "titre": "BDI et BDO (Texte Bi-dir)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "À quoi sert la balise <bdo> ?",
+      "options": [
+        "Bi-Directional Override (forcer la direction du texte)",
+        "Bold Direct Object",
+        "Background Data Object",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "L'attribut 'dir' (ltr ou rtl) est obligatoire sur une balise <bdo>.",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La balise <{{1}}> isole un morceau de texte dont on ne connaît pas la direction (ex: nom d'utilisateur).",
+      "reponsesAttendues": ["bdi"]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que signifie BDI ?",
+      "options": [
+        "Bi-directional Isolation",
+        "Batch Data Input",
+        "Basic Display Item",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "BDO inverse l'ordre des caractères si la direction est opposée.",
+      "reponse": true
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Quand utiliser BDI ?",
+      "options": [
+        "Lors de l'affichage de données dynamiques (mélange arabe/français) pour éviter les erreurs de rendu",
+        "Pour mettre en gras",
+        "Pour traduire",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "La valeur {{1}} de l'attribut 'dir' permet d'écrire de droite à gauche.",
+      "reponsesAttendues": ["rtl"]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "BDI est supporté par tous les navigateurs depuis IE11.",
+      "reponse": true
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel est le comportement par défaut de l'isolement dans BDI ?",
+      "options": [
+        "Il empêche le texte environnant d'être influencé par la direction interne",
+        "Il centre le texte",
+        "Il le met en rouge",
+        "Rien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "Ces balises sont essentielles pour l'internationalisation (i18n).",
+      "reponse": true
+    }
+  ]
+}

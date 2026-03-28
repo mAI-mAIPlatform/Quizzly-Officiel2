@@ -1,0 +1,94 @@
+{
+  "id": "quiz16",
+  "titre": "Les Classes (ES6)",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "enonce": "L'introduction du mot-clé 'class' en ES6 a-t-elle changé le modèle d'héritage de JavaScript ?",
+      "options": [
+        "Non, c'est du sucre syntaxique sur l'héritage prototypal",
+        "Oui, JS utilise maintenant un héritage par classes réelles (comme Java)",
+        "Seulement pour les navigateurs récents",
+        "Aucune des deux"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "vrai_faux",
+      "enonce": "Les déclarations de classe ne sont PAS hissées (hoisted).",
+      "reponse": true
+    },
+    {
+      "id": "q3",
+      "type": "trous",
+      "enonce": "La méthode spéciale {{1}} est appelée lors de l'instanciation avec 'new'.",
+      "reponsesAttendues": [
+        "constructor"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "enonce": "Que se passe-t-il si on définit une classe en mode non strict ?",
+      "options": [
+        "Le corps de la classe est toujours en mode strict par défaut",
+        "Elle s'exécute en mode non strict",
+        "Une SyntaxError est lancée",
+        "Les classes nécessitent 'use strict' explicitement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "vrai_faux",
+      "enonce": "On peut déclarer plusieurs constructeurs dans une classe.",
+      "reponse": false
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "enonce": "Où sont définies les méthodes de classe par défaut ?",
+      "options": [
+        "Sur le prototype de la classe",
+        "Directement sur l'instance",
+        "Dans la mémoire statique",
+        "Elles ne sont pas partageables"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "trous",
+      "enonce": "Pour créer une sous-classe, on utilise le mot-clé {{1}}.",
+      "reponsesAttendues": [
+        "extends"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "vrai_faux",
+      "enonce": "Les expressions de classe (Class Expressions) ne peuvent pas être nommées.",
+      "reponse": false
+    },
+    {
+      "id": "q9",
+      "type": "qcm",
+      "enonce": "Quel avantage offre la syntaxe de classe par rapport aux constructeurs classiques ?",
+      "options": [
+        "Code plus lisible et standardisé",
+        "Exécution beaucoup plus rapide",
+        "Moins de consommation mémoire",
+        "Supprime le besoin de prototypes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "vrai_faux",
+      "enonce": "On peut instancier une classe sans utiliser le mot-clé 'new'.",
+      "reponse": false
+    }
+  ]
+}
