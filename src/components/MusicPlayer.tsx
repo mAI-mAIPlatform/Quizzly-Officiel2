@@ -5,9 +5,9 @@ import { useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
 
 // Simple Web Audio API music generator for stressed ambiance
-function createStressedMusic(ctx: AudioContext, intensity: 'medium' | 'high') {
+function createStressedMusic(ctx: AudioContext, intensity: "medium" | "high", volume: number) {
   const gainNode = ctx.createGain();
-  gainNode.gain.value = 0.08;
+  gainNode.gain.value = Math.max(0.01, volume * 0.12);
   gainNode.connect(ctx.destination);
 
   const oscillators: OscillatorNode[] = [];
@@ -53,9 +53,10 @@ export default function MusicPlayer() {
   const pathname = usePathname();
   const audioRef = useRef<{ stop: () => void } | null>(null);
   const ctxRef = useRef<AudioContext | null>(null);
+  const musicSettings = progress.settings.audio;
 
   useEffect(() => {
-    if (!progress.settings?.musicEnabled) {
+    if (!musicSettings.musicEnabled || musicSettings.musicVolume <= 0) {
       audioRef.current?.stop();
       audioRef.current = null;
       return;
@@ -67,7 +68,7 @@ export default function MusicPlayer() {
     if (isRanked || isSurvival) {
       try {
         if (!ctxRef.current) ctxRef.current = new AudioContext();
-        const music = createStressedMusic(ctxRef.current, isSurvival ? 'high' : 'medium');
+        const music = createStressedMusic(ctxRef.current, isSurvival ? "high" : "medium", musicSettings.musicVolume);
         music.start();
         audioRef.current = music;
       } catch (e) {
@@ -82,7 +83,7 @@ export default function MusicPlayer() {
       audioRef.current?.stop();
       audioRef.current = null;
     };
-  }, [pathname, progress.settings?.musicEnabled]);
+  }, [pathname, musicSettings.musicEnabled, musicSettings.musicVolume]);
 
   return null; // Invisible component
 }

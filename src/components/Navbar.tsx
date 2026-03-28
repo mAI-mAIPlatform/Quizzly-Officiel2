@@ -80,6 +80,10 @@ export default function Navbar() {
             {progress.level}
           </span>
         </Link>
+
+        <Link href="/reglages" className="hidden md:flex w-10 h-10 rounded-xl bg-foreground/5 hover:bg-foreground/10 transition-all items-center justify-center text-lg">
+          ⚙️
+        </Link>
       </div>
 
     </header>

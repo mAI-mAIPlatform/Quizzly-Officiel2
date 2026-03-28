@@ -9,6 +9,8 @@ import ChestModal from "@/components/ChestModal";
 import { ToastProvider } from "@/components/Toast";
 import MusicPlayer from "@/components/MusicPlayer";
 import MobileOverlay from "@/components/MobileOverlay";
+import AccountLockGate from "@/components/AccountLockGate";
+import MobileBottomNav from "@/components/MobileBottomNav";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space" });
@@ -25,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={`${inter.variable} font-sans bg-background text-foreground antialiased min-h-screen flex flex-col md:flex-row relative`}>
+      <body className={`${inter.variable} font-sans bg-background text-foreground antialiased min-h-screen flex flex-col md:flex-row relative overflow-x-hidden`}>
         <ProgressProvider>
           <ToastProvider>
           {/* Menu principal (côté gauche sur desktop, bas sur mobile) */}
@@ -35,11 +37,13 @@ export default function RootLayout({
           <main className="flex-1 flex flex-col min-h-screen bg-transparent relative z-10">
             <Navbar />
             <ChestModal />
+            <AccountLockGate />
             <MusicPlayer />
             <MobileOverlay />
-            <div className="flex-1 p-4 md:p-8 scroll-smooth pb-24 md:pb-8">
+            <div className="flex-1 p-4 md:p-8 scroll-smooth pb-32 md:pb-8">
               {children}
             </div>
+            <MobileBottomNav />
           </main>
           </ToastProvider>
         </ProgressProvider>

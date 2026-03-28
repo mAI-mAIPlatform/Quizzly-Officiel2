@@ -41,7 +41,13 @@ export default function ProfilePage() {
     { id: "collectionneur", nom: "Collectionneur", desc: "3 avatars débloqués", icon: "🎨", done: progress.unlockedAvatars.length >= 3 },
     { id: "infatigable", nom: "Infatigable", desc: "7 jours de série", icon: "🔋", done: progress.streak >= 7 },
     { id: "studieux", nom: "Studieux", desc: "14 jours de série", icon: "📚", done: progress.streak >= 14 },
-    { id: "classe_change", nom: "Maître des Classes", desc: "Changer de classe", icon: "🏫", done: progress.selectedClass !== "6ème" },
+    { id: "niveau_change", nom: "Maître du Niveau", desc: "Quitter Débutant", icon: "🎯", done: progress.settings.gameplay.learningLevel !== "Débutant" },
+    { id: "chrono", nom: "Chronométré", desc: "Activer le chrono", icon: "⏱️", done: progress.settings.gameplay.quizTimerSeconds > 0 },
+    { id: "titre", nom: "Titre Équipé", desc: "Choisir un titre", icon: "🏷️", done: progress.selectedTitle !== "Petit Nouveau" },
+    { id: "social", nom: "Ambassadeur", desc: "Avoir des amis ou une tribu", icon: "🤝", done: progress.friends.length >= 1 || progress.tribes.length >= 1 },
+    { id: "security", nom: "Gardien", desc: "Verrouiller le compte", icon: "🔒", done: progress.security.lockEnabled },
+    { id: "access", nom: "Accessible", desc: "Activer un réglage d'accessibilité", icon: "♿", done: progress.settings.accessibility.highContrast || progress.settings.accessibility.reducedMotion || progress.settings.accessibility.colorBlindMode !== "default" },
+    { id: "audio", nom: "DJ", desc: "Régler l'audio", icon: "🎵", done: progress.settings.audio.musicVolume !== 0.8 || progress.settings.audio.effectsVolume !== 0.8 || progress.settings.audio.notificationsVolume !== 0.7 },
     { id: "booster", nom: "Accélérateur", desc: "Acheter un booster", icon: "⚡", done: progress.xpBoost > 1 },
     { id: "roi_coffre", nom: "Roi du Coffre", desc: "Ouvrir 10 coffres", icon: "📦", done: progress.chests.length >= 10 },
     { id: "mondialiste", nom: "Mondialiste", desc: "Rejoindre 3 tribus", icon: "🌍", done: progress.tribes.length >= 3 },
@@ -213,6 +219,33 @@ export default function ProfilePage() {
           </motion.div>
         ))}
       </div>
+
+      <section className="glass p-8 border-primary/10 shadow-xl">
+        <h2 className="text-2xl font-space font-black mb-4 flex items-center gap-3 text-primary uppercase italic">
+          <span>🏷️</span> Titres de profil
+        </h2>
+        <p className="text-sm opacity-70 mb-5">
+          Choisis le titre qui s'affiche sur ton profil et dans la barre latérale.
+        </p>
+
+        <div className="flex flex-wrap gap-2">
+          {progress.unlockedTitles.map((title) => (
+            <button
+              key={title}
+              onClick={() => updateProfile({ selectedTitle: title })}
+              className={`px-4 py-2 rounded-xl text-xs font-black uppercase tracking-widest transition-all ${
+                progress.selectedTitle === title ? "bg-primary text-white shadow-lg" : "bg-foreground/5 hover:bg-foreground/10"
+              }`}
+            >
+              {title}
+            </button>
+          ))}
+        </div>
+
+        <div className="mt-4 text-[10px] font-black uppercase tracking-widest opacity-40">
+          {progress.unlockedTitles.length} titre(s) débloqué(s)
+        </div>
+      </section>
 
       {/* Sélection Cosmétiques */}
       <section className="glass p-8 border-violet/10">

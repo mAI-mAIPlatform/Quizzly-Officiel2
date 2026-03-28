@@ -10,6 +10,7 @@ import QuestionRelier from "./QuestionRelier";
 import { useProgress } from "@/context/ProgressContext";
 import confetti from "canvas-confetti";
 import { useRef } from "react";
+import { playUiSound } from "@/lib/quizzly-audio";
 
 export type QuizTypeEnum = 'classic' | 'ranked' | 'survival' | 'duel' | 'blitz' | 'vrai_faux' | 'visuel';
 
@@ -21,6 +22,11 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
   const [finishStep, setFinishStep] = useState<'results' | 'flame' | 'quests'>('results');
   const { addXP, markQuizCompleted, isQuizCompleted, progress: userProgress, useStar: consumeStar, sendMessage, addHistoryEntry, completeDailyQuiz } = useProgress();
   const hasSavedHistory = useRef(false);
+  const hasAnsweredRef = useRef(false);
+  const timeoutHandledRef = useRef(false);
+  const timerSeconds = userProgress.settings.gameplay.quizTimerSeconds;
+  const effectsVolume = userProgress.settings.audio.effectsEnabled ? userProgress.settings.audio.effectsVolume : 0;
+  const [timeLeft, setTimeLeft] = useState(timerSeconds);
 
   const encouragementsCorrect = [
     "Excellent !", "Impérial !", "Bravo !", "Incroyable !", "Quel talent !", 
@@ -29,6 +35,12 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
   const encouragementsWrong = [
     "Oups...", "Pas loin !", "Dommage...", "Presque !", "Concentre-toi !",
     "BOOM ! Perdu...", "Aïe !", "Raté !", "Réessaie !", "Courage !"
+  ];
+  const encouragementsTimeout = [
+    "Temps écoulé !",
+    "Le chrono a gagné...",
+    "Trop lent !",
+    "Essaie plus vite la prochaine fois !",
   ];
 
   const [currentEncouragement, setCurrentEncouragement] = useState("");
@@ -47,16 +59,51 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
   const currentQuestion = quiz.questions[currentIndex];
   const progressBarWidth = ((currentIndex) / quiz.questions.length) * 100;
 
-  const handleValidate = (correct: boolean) => {
+  // Le chronomètre ne tourne que tant que la question n'a pas encore reçu de réponse.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  useEffect(() => {
+    if (isFinished || hasAnswered) return;
+    timeoutHandledRef.current = false;
+    setTimeLeft(timerSeconds);
+
+    if (timerSeconds <= 0) return;
+
+    const interval = window.setInterval(() => {
+      setTimeLeft((previous) => {
+        if (previous <= 1) {
+          window.clearInterval(interval);
+          if (!hasAnsweredRef.current && !timeoutHandledRef.current) {
+            timeoutHandledRef.current = true;
+            handleValidate(false, "timeout");
+          }
+          return 0;
+        }
+
+        return previous - 1;
+      });
+    }, 1000);
+
+    return () => window.clearInterval(interval);
+  }, [currentQuestion.id, hasAnswered, isFinished, timerSeconds]);
+
+  const handleValidate = (correct: boolean, source: "user" | "timeout" = "user") => {
+    if (hasAnsweredRef.current || isFinished) return;
+    hasAnsweredRef.current = true;
     setHasAnswered(true);
     setIsCorrect(correct);
     if (correct) {
+      playUiSound("success", effectsVolume);
       setScore(s => s + 1);
       setCombo(c => c + 1);
       setCurrentEncouragement(encouragementsCorrect[Math.floor(Math.random() * encouragementsCorrect.length)]);
     } else {
+      playUiSound(source === "timeout" ? "timeout" : "error", effectsVolume);
       setCombo(0);
-      setCurrentEncouragement(encouragementsWrong[Math.floor(Math.random() * encouragementsWrong.length)]);
+      setCurrentEncouragement(
+        source === "timeout"
+          ? encouragementsTimeout[Math.floor(Math.random() * encouragementsTimeout.length)]
+          : encouragementsWrong[Math.floor(Math.random() * encouragementsWrong.length)],
+      );
       if (isSurvival) {
         // En mode survie, une erreur = fin immédiate après un petit délai pour voir la croix
         setTimeout(() => setIsFinished(true), 1500);
@@ -65,8 +112,11 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
   };
 
   const handleNext = () => {
+    hasAnsweredRef.current = false;
+    timeoutHandledRef.current = false;
     setHasAnswered(false);
     setIsCorrect(null);
+    setTimeLeft(timerSeconds);
     if (currentIndex < quiz.questions.length - 1) {
       setCurrentIndex(c => c + 1);
     } else {
@@ -289,11 +339,18 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
   return (
     <div className="flex flex-col h-full relative">
       {/* Barre de progression */}
-      <div className="w-full bg-foreground/10 h-3 rounded-full mb-8 overflow-hidden">
-        <div 
-          className="bg-primary h-full rounded-full transition-all duration-500 ease-out"
-          style={{ width: `${progressBarWidth}%` }}
-        ></div>
+      <div className="relative mb-8 pt-10">
+        {timerSeconds > 0 && (
+          <div className={`absolute left-1/2 top-0 -translate-x-1/2 px-4 py-2 rounded-full text-[10px] font-black uppercase tracking-widest shadow-lg ${timeLeft <= 5 ? "bg-rose-500 text-white animate-pulse" : "bg-primary text-white"}`}>
+            ⏱ {timeLeft}s
+          </div>
+        )}
+        <div className="w-full bg-foreground/10 h-3 rounded-full overflow-hidden">
+          <div 
+            className="bg-primary h-full rounded-full transition-all duration-500 ease-out"
+            style={{ width: `${progressBarWidth}%` }}
+          ></div>
+        </div>
       </div>
 
       <div className="flex-1 flex flex-col">

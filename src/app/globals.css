@@ -126,6 +126,69 @@ body {
   box-shadow: 0 0 20px rgba(0, 255, 204, 0.1), inset 0 0 10px rgba(255, 0, 255, 0.05);
 }
 
+[data-high-contrast="true"] {
+  --background: #ffffff;
+  --foreground: #000000;
+  --card: rgba(255, 255, 255, 0.96);
+  --card-border: rgba(0, 0, 0, 0.16);
+  --primary: #1d4ed8;
+  --secondary: #0f766e;
+  --violet: #7c3aed;
+  --blue: #2563eb;
+  --cyan: #0891b2;
+  --rose: #b91c1c;
+  --green: #047857;
+}
+
+[data-high-contrast="true"] .glass {
+  background: rgba(255, 255, 255, 0.96);
+  border-color: rgba(0, 0, 0, 0.14);
+  box-shadow: none;
+}
+
+[data-color-blind="protanopia"] {
+  --primary: #005f73;
+  --secondary: #0a9396;
+  --violet: #6c5ce7;
+  --blue: #0077b6;
+  --cyan: #00b4d8;
+  --rose: #ae2012;
+  --green: #2a9d8f;
+}
+
+[data-color-blind="deuteranopia"] {
+  --primary: #0077b6;
+  --secondary: #ffb703;
+  --violet: #8d99ae;
+  --blue: #023e8a;
+  --cyan: #0096c7;
+  --rose: #e63946;
+  --green: #2a9d8f;
+}
+
+[data-color-blind="tritanopia"] {
+  --primary: #6d597a;
+  --secondary: #b56576;
+  --violet: #355070;
+  --blue: #457b9d;
+  --cyan: #2a9d8f;
+  --rose: #e76f51;
+  --green: #f4a261;
+}
+
+[data-reduced-motion="true"] *,
+[data-reduced-motion="true"] *::before,
+[data-reduced-motion="true"] *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+
+[data-reduced-motion="true"] .glass::after {
+  animation: none !important;
+}
+
 /* Responsive fixes */
 @media (max-width: 768px) {
   .glass {
