@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import QuizEngine from "@/components/quiz/QuizEngine";
 import { allBlitzQuizzes } from "@/data/blitz/allBlitzQuizzes";
@@ -8,32 +8,29 @@ import { useSearchParams } from "next/navigation";
 
 export default function BlitzPage() {
   const searchParams = useSearchParams();
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [currentQuiz, setCurrentQuiz] = useState<{ id: string; titre: string; questions: unknown[] } | null>(null);
+  const [manualQuiz, setManualQuiz] = useState<{ id: string; titre: string; questions: unknown[] } | null>(null);
+
+  const quizFromUrl = (() => {
+    const quizId = searchParams.get("quiz");
+    if (!quizId) return null;
+    return allBlitzQuizzes.find((quiz) => quiz.id === quizId) ?? null;
+  })();
+
+  const activeQuiz = manualQuiz ?? quizFromUrl;
+  const isPlaying = !!activeQuiz;
 
   const startBlitz = () => {
     // Pick a random quiz from the pool of 20
     const randomIndex = Math.floor(Math.random() * allBlitzQuizzes.length);
-    setCurrentQuiz(allBlitzQuizzes[randomIndex]);
-    setIsPlaying(true);
+    setManualQuiz(allBlitzQuizzes[randomIndex]);
   };
 
-  useEffect(() => {
-    const quizId = searchParams.get("quiz");
-    if (!quizId) return;
-    const matchedQuiz = allBlitzQuizzes.find((quiz) => quiz.id === quizId);
-    if (matchedQuiz) {
-      setCurrentQuiz(matchedQuiz);
-      setIsPlaying(true);
-    }
-  }, [searchParams]);
-
-  if (isPlaying && currentQuiz) {
+  if (isPlaying && activeQuiz) {
     return (
       <div className="max-w-5xl mx-auto py-6 px-4 animate-in fade-in zoom-in duration-500">
         <div className="glass p-8 rounded-[2rem] border-cyan-500/20 shadow-2xl relative bg-white/40">
            <QuizEngine 
-              quiz={currentQuiz} 
+              quiz={activeQuiz} 
               backUrl="/modes" 
               matiereId="blitz"
               quizType="blitz"

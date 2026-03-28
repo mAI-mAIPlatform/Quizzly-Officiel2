@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 ﻿"use client";
 
 import Link from "next/link";
@@ -46,6 +47,9 @@ export default function SocialPage() {
   const [nicknameDrafts, setNicknameDrafts] = useState<Record<string, string>>({});
   const chatEndRef = useRef<HTMLDivElement>(null);
 
+  const resolvedChatId = activeTab === "messages" ? selectedChat ?? conversationEntries[0]?.conversation.id ?? null : null;
+  const activeChatId = resolvedChatId;
+
   const effectsVolume = progress.settings.audio.effectsEnabled ? progress.settings.audio.effectsVolume : 0;
   const reduceMotion = progress.settings.accessibility.reducedMotion;
   const friendRequestsEnabled = progress.settings.social.friendRequestsEnabled;
@@ -78,42 +82,38 @@ export default function SocialPage() {
       });
   }, [progress.conversations, progress.friends, progress.tribes, progress.messages]);
 
-  const currentConversation = selectedChat ? progress.conversations[selectedChat] ?? null : null;
-  const currentMessages = selectedChat ? progress.messages[selectedChat] || [] : [];
+  const currentConversation = resolvedChatId ? progress.conversations[resolvedChatId] ?? null : null;
+  const currentMessages = resolvedChatId ? progress.messages[resolvedChatId] || [] : [];
   const currentReplyMessage = replyToId ? currentMessages.find((message) => message.id === replyToId) ?? null : null;
   const currentEditingMessage = editingMessageId ? currentMessages.find((message) => message.id === editingMessageId) ?? null : null;
   const pinnedMessage = currentConversation?.pinnedMessageId ? currentMessages.find((message) => message.id === currentConversation.pinnedMessageId) ?? null : null;
   const myTribes = progress.tribes.filter((tribe) => tribe.members.includes(progress.pseudo));
 
   useEffect(() => {
-    if (activeTab !== "messages" || selectedChat) return;
-    setSelectedChat(conversationEntries[0]?.conversation.id ?? null);
-  }, [activeTab, conversationEntries, selectedChat]);
-
-  useEffect(() => {
-    if (!selectedChat) return;
-    if (progress.conversations[selectedChat]) return;
-    setSelectedChat(conversationEntries[0]?.conversation.id ?? null);
-  }, [conversationEntries, progress.conversations, selectedChat]);
-
-  useEffect(() => {
     chatEndRef.current?.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" });
-  }, [currentMessages.length, reduceMotion, selectedChat]);
-
-  useEffect(() => {
-    setReplyToId(null);
-    setEditingMessageId(null);
-    setMessageInput("");
-  }, [selectedChat]);
+  }, [currentMessages.length, reduceMotion, resolvedChatId]);
 
   const feedback = (message: string, type: "success" | "error" | "info" = "info", sound: "success" | "error" | "tap" | "notify" | "challenge" | "quest" | "streak" = "tap") => {
     showToast(message, type);
     playUiSound(sound, effectsVolume);
   };
 
+  const handleTabChange = (tab: SocialTab) => {
+    setActiveTab(tab);
+    if (tab !== "messages") {
+      setSelectedChat(null);
+      setReplyToId(null);
+      setEditingMessageId(null);
+      setMessageInput("");
+    }
+  };
+
   const openChat = (chatId: string) => {
     setSelectedChat(chatId);
-    setActiveTab("messages");
+    setReplyToId(null);
+    setEditingMessageId(null);
+    setMessageInput("");
+    handleTabChange("messages");
   };
 
   const handleAddFriend = (event: FormEvent<HTMLFormElement>) => {
@@ -196,7 +196,7 @@ export default function SocialPage() {
     if (!window.confirm(`Supprimer ${friend.nickname} de tes amis ?`)) return;
 
     removeFriend(friendId);
-    if (selectedChat === friendId) setSelectedChat(null);
+    if (activeChatId === friendId) setSelectedChat(null);
     feedback("Ami supprimé.", "info", "error");
   };
 
@@ -257,49 +257,49 @@ export default function SocialPage() {
   };
 
   const handleForwardMessage = (messageId: string) => {
-    if (!selectedChat) return;
+    if (!activeChatId) return;
     const message = currentMessages.find((entry) => entry.id === messageId);
     if (!message || message.deletedForAll) return;
 
-    sendMessage(selectedChat, message.text, { forwardedFrom: message.id });
+    sendMessage(activeChatId, message.text, { forwardedFrom: message.id });
     feedback("Message transféré.", "success", "notify");
   };
 
   const handlePinMessage = (messageId: string) => {
-    if (!selectedChat) return;
+    if (!activeChatId) return;
     const message = currentMessages.find((entry) => entry.id === messageId);
     if (!message) return;
 
     const nextPinned = !message.pinned;
-    updateMessage(selectedChat, messageId, { pinned: nextPinned });
-    updateConversation(selectedChat, { pinnedMessageId: nextPinned ? messageId : null });
+    updateMessage(activeChatId, messageId, { pinned: nextPinned });
+    updateConversation(activeChatId, { pinnedMessageId: nextPinned ? messageId : null });
     feedback(nextPinned ? "Message épinglé." : "Message désépinglé.", "info", "tap");
   };
 
   const handleToggleMessageFavorite = (messageId: string) => {
-    if (!selectedChat) return;
+    if (!activeChatId) return;
     const message = currentMessages.find((entry) => entry.id === messageId);
     if (!message) return;
 
-    updateMessage(selectedChat, messageId, { favorite: !message.favorite });
+    updateMessage(activeChatId, messageId, { favorite: !message.favorite });
     feedback(message.favorite ? "Message retiré des favoris." : "Message ajouté aux favoris.", "info", "tap");
   };
 
   const handleReportMessage = (messageId: string) => {
-    if (!selectedChat) return;
-    updateMessage(selectedChat, messageId, { reported: true });
-    updateConversation(selectedChat, { reported: true });
+    if (!activeChatId) return;
+    updateMessage(activeChatId, messageId, { reported: true });
+    updateConversation(activeChatId, { reported: true });
     feedback("Message signalé localement.", "info", "notify");
   };
 
   const handleDeleteMessageForSelf = (messageId: string) => {
-    if (!selectedChat) return;
-    updateMessage(selectedChat, messageId, { deletedForSelf: true });
+    if (!activeChatId) return;
+    updateMessage(activeChatId, messageId, { deletedForSelf: true });
     feedback("Message masqué pour toi.", "info", "error");
   };
 
   const handleDeleteMessageForAll = (messageId: string) => {
-    if (!selectedChat) return;
+    if (!activeChatId) return;
     const message = currentMessages.find((entry) => entry.id === messageId);
     if (!message) return;
 
@@ -309,7 +309,7 @@ export default function SocialPage() {
     }
 
     if (!window.confirm("Supprimer ce message pour tout le monde ?")) return;
-    updateMessage(selectedChat, messageId, {
+    updateMessage(activeChatId, messageId, {
       deletedForSelf: true,
       deletedForAll: true,
       text: "Message supprimé",
@@ -325,7 +325,7 @@ export default function SocialPage() {
 
   const handleSendMessage = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    if (!selectedChat) return;
+    if (!activeChatId) return;
     if (currentConversation?.blocked) {
       feedback("Cette discussion est bloquée.", "error", "error");
       return;
@@ -335,7 +335,7 @@ export default function SocialPage() {
     if (!text) return;
 
     if (editingMessageId) {
-      updateMessage(selectedChat, editingMessageId, { text, editedAt: new Date().toISOString() });
+      updateMessage(activeChatId, editingMessageId, { text, editedAt: new Date().toISOString() });
       setEditingMessageId(null);
       setMessageInput("");
       setReplyToId(null);
@@ -343,7 +343,7 @@ export default function SocialPage() {
       return;
     }
 
-    sendMessage(selectedChat, text, { replyTo: replyToId || undefined });
+    sendMessage(activeChatId, text, { replyTo: replyToId || undefined });
     setMessageInput("");
     setReplyToId(null);
     feedback("Message envoyé.", "success", "notify");
@@ -389,7 +389,7 @@ export default function SocialPage() {
         {tabs.map((tab) => (
           <button
             key={tab.id}
-            onClick={() => setActiveTab(tab.id)}
+            onClick={() => handleTabChange(tab.id)}
             className={`px-6 py-3 rounded-xl font-black text-sm uppercase tracking-widest transition-all ${
               activeTab === tab.id ? "bg-primary text-white shadow-lg shadow-primary/30" : "opacity-50 hover:opacity-100 hover:bg-foreground/5"
             }`}
@@ -457,7 +457,7 @@ export default function SocialPage() {
                 ) : (
                   <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">
                     {progress.friends.map((friend) => {
-                      const isSelected = selectedChat === friend.id;
+                      const isSelected = activeChatId === friend.id;
                       return (
                         <motion.article
                           key={friend.id}
@@ -592,7 +592,7 @@ export default function SocialPage() {
                         key={tribe.id}
                         initial={reduceMotion ? { opacity: 1 } : { opacity: 0, y: 10 }}
                         animate={reduceMotion ? { opacity: 1 } : { opacity: 1, y: 0 }}
-                        className={`glass border-cyan/10 p-5 space-y-4 transition-all ${selectedChat === tribe.id ? "ring-2 ring-cyan/20" : ""} ${conversation?.blocked ? "opacity-70 grayscale-[0.15]" : ""}`}
+                        className={`glass border-cyan/10 p-5 space-y-4 transition-all ${activeChatId === tribe.id ? "ring-2 ring-cyan/20" : ""} ${conversation?.blocked ? "opacity-70 grayscale-[0.15]" : ""}`}
                       >
                         <div className="flex items-start justify-between gap-4">
                           <div className="flex items-center gap-4 min-w-0">
@@ -706,7 +706,7 @@ export default function SocialPage() {
                           <article
                             key={conversation.id}
                             className={`rounded-3xl border p-4 space-y-4 transition-all ${
-                              selectedChat === conversation.id ? "border-primary/30 bg-primary/5" : "border-transparent bg-foreground/5 hover:bg-foreground/10"
+                              activeChatId === conversation.id ? "border-primary/30 bg-primary/5" : "border-transparent bg-foreground/5 hover:bg-foreground/10"
                             } ${conversation.blocked ? "opacity-70" : ""}`}
                           >
                             <button type="button" onClick={() => openChat(conversation.id)} className="w-full text-left">
@@ -749,7 +749,7 @@ export default function SocialPage() {
                   </div>
 
                   <div className="glass p-0 flex flex-col min-h-[640px] border-primary/20 overflow-hidden shadow-2xl">
-                    {!selectedChat || !currentConversation ? (
+                    {!activeChatId || !currentConversation ? (
                       <div className="flex-1 flex flex-col items-center justify-center space-y-6 p-12 opacity-50 text-center">
                         <div className="text-9xl mb-4 animate-bounce">💬</div>
                         <p className="text-2xl font-space font-black uppercase tracking-tighter italic">Sélectionne une discussion</p>

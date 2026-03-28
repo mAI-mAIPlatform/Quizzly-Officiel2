@@ -18,7 +18,7 @@
       "id": "q2",
       "type": "vrai_faux",
       "enonce": "Le format Pickle est universel et peut être lu par n'importe quel langage (Java, C++, etc.).",
-      "reponse : false (Il est spécifique à Python)"
+      "reponse": false
     },
     {
       "id": "q3",
@@ -70,7 +70,7 @@
       "id": "q8",
       "type": "vrai_faux",
       "enonce": "Pickle peut sérialiser des fonctions et des classes (le code est sauvegardé).",
-      "reponse : false (Seul le nom et le module sont sauvegardés, l'environnement doit avoir accès au code original)"
+      "reponse": false
     },
     {
       "id": "q9",

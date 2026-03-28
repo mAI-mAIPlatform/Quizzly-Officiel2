@@ -30,7 +30,8 @@ export default async function PlayQuizPage({
   const normalizedNiveau = levelMap[niveau] || levelMap[niveau.toLowerCase()] || "debutant";
   
   // v1.1.4 - Optimisation Turbopack pour éviter le bundling excessif
-  let quizData: any = null;
+  type QuizData = { id?: string; titre?: string; questions?: unknown[] } & Record<string, unknown>;
+  let quizData: QuizData | null = null;
   const quizFileName = `${quizId}.json`;
   const mId = matiereId;
   const cId = chapitre;

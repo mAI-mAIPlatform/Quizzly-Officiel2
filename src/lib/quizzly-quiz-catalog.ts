@@ -1,4 +1,5 @@
 import { promises as fs } from "fs";
+import type { Dirent } from "fs";
 import path from "path";
 import { normalizeText } from "@/lib/quizzly-utils";
 import { allBlitzQuizzes } from "@/data/blitz/allBlitzQuizzes";
@@ -61,8 +62,17 @@ function collectQuestionText(quiz: Record<string, unknown>) {
 }
 
 async function readJsonFile(filePath: string) {
-  const content = await fs.readFile(filePath, "utf8");
-  return JSON.parse(content) as Record<string, unknown>;
+  try {
+    const content = await fs.readFile(filePath, "utf8");
+    return JSON.parse(content) as Record<string, unknown>;
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code === "ENOENT") {
+      console.warn(`[quiz-catalog] Fichier non trouvé: ${filePath}`);
+    } else {
+      console.warn(`[quiz-catalog] JSON invalide ignoré: ${filePath}`, error);
+    }
+    return null;
+  }
 }
 
 async function buildLessonCatalog() {
@@ -71,7 +81,7 @@ async function buildLessonCatalog() {
 
   for (const level of lessonLevels) {
     const levelPath = path.join(dataRoot, level);
-    let subjectDirs: any[] = [];
+    let subjectDirs: Dirent[] = [];
 
     try {
       subjectDirs = await fs.readdir(levelPath, { withFileTypes: true });
@@ -89,12 +99,12 @@ async function buildLessonCatalog() {
       let chapterTitles: Array<{ id: string; titre?: string }> = [];
       try {
         const metadata = await readJsonFile(metadataPath);
-        chapterTitles = Array.isArray(metadata.chapitres) ? metadata.chapitres as Array<{ id: string; titre?: string }> : [];
+        chapterTitles = metadata && Array.isArray(metadata.chapitres) ? metadata.chapitres as Array<{ id: string; titre?: string }> : [];
       } catch {
         chapterTitles = [];
       }
 
-      let chapterDirs: any[] = [];
+      let chapterDirs: Dirent[] = [];
       try {
         chapterDirs = await fs.readdir(subjectPath, { withFileTypes: true });
       } catch {
@@ -109,7 +119,7 @@ async function buildLessonCatalog() {
         const chapterPath = path.join(subjectPath, chapterId);
         const chapterTitle = chapterTitles.find((entry) => entry.id === chapterId)?.titre || chapterId;
 
-        let chapterItems: any[] = [];
+        let chapterItems: Dirent[] = [];
         try {
           chapterItems = await fs.readdir(chapterPath, { withFileTypes: true });
         } catch {
@@ -121,6 +131,7 @@ async function buildLessonCatalog() {
           for (const quizFile of rootQuizFiles) {
             const quizPath = path.join(chapterPath, quizFile.name);
             const quiz = await readJsonFile(quizPath);
+            if (!quiz) continue;
             const part = 1;
             const levelLabel = levelLabels[level];
             const title = typeof quiz.titre === "string" ? quiz.titre : quizFile.name.replace(".json", "");
@@ -157,7 +168,7 @@ async function buildLessonCatalog() {
           const partNumber = Number.parseInt(partDir.name.replace("partie", ""), 10) || 1;
           const partPath = path.join(chapterPath, partDir.name);
 
-          let partFiles: any[] = [];
+          let partFiles: Dirent[] = [];
           try {
             partFiles = await fs.readdir(partPath, { withFileTypes: true });
           } catch {
@@ -167,6 +178,7 @@ async function buildLessonCatalog() {
           for (const quizFile of partFiles.filter((entry) => entry.isFile() && entry.name.endsWith(".json"))) {
             const quizPath = path.join(partPath, quizFile.name);
             const quiz = await readJsonFile(quizPath);
+            if (!quiz) continue;
             const title = typeof quiz.titre === "string" ? quiz.titre : quizFile.name.replace(".json", "");
             const questionCount = Array.isArray(quiz.questions) ? quiz.questions.length : 0;
             const questionText = collectQuestionText(quiz);

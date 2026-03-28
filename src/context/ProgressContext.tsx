@@ -742,9 +742,13 @@ function createConversationFromChatId(chatId: string, progress: UserProgress): S
 const ProgressContext = createContext<ProgressContextType | undefined>(undefined);
 
 export function ProgressProvider({ children }: { children: React.ReactNode }) {
-  const [progress, setProgress] = useState<UserProgress>(createDefaultProgress());
+  const [progress, setProgress] = useState<UserProgress>(() => {
+    if (typeof window === "undefined") return createDefaultProgress();
+    const saved = localStorage.getItem(storageKey);
+    return saved ? normalizeProgress(JSON.parse(saved)) : createDefaultProgress();
+  });
   const [activeChest, setActiveChest] = useState<{ type: string; isOpen: boolean } | null>(null);
-  const [isLoaded, setIsLoaded] = useState(false);
+  const [isLoaded] = useState(() => typeof window !== "undefined");
 
   const persist = (updated: UserProgress) => {
     if (typeof window !== "undefined") {
@@ -752,15 +756,6 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     }
     return updated;
   };
-
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-
-    const saved = localStorage.getItem(storageKey);
-    const parsed = saved ? normalizeProgress(JSON.parse(saved)) : createDefaultProgress();
-    setProgress(parsed);
-    setIsLoaded(true);
-  }, []);
 
   useEffect(() => {
     if (!isLoaded) return;

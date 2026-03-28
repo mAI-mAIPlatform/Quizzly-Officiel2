@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable react/no-unescaped-entities */
 import { promises as fs } from "fs";
 import path from "path";
 import Link from "next/link";
@@ -12,6 +13,16 @@ type ChapterQuiz = {
   partie: number;
   href: string;
 };
+
+async function readJsonFileSafely(filePath: string) {
+  try {
+    const raw = await fs.readFile(filePath, "utf8");
+    return JSON.parse(raw);
+  } catch (error) {
+    console.warn(`[chapitre-page] JSON invalide ignoré: ${filePath}`, error);
+    return null;
+  }
+}
 
 function getChapterRoute(level: string, subject: string, chapter: string, quizId: string, part: number) {
   return `/play/${level}/${subject}/${chapter}/${quizId}?partie=${part}`;
@@ -73,8 +84,9 @@ export default async function ChapitrePage({
 
     if (rootQuizzes.length > 0) {
       for (const file of rootQuizzes) {
-        const raw = await fs.readFile(path.join(chapDir, file), "utf8");
-        const quiz = JSON.parse(raw);
+        const quizPath = path.join(chapDir, file);
+        const quiz = await readJsonFileSafely(quizPath);
+        if (!quiz || typeof quiz.id !== "string") continue;
         const part = 1;
         quizzes.push({
           ...quiz,
@@ -92,8 +104,9 @@ export default async function ChapitrePage({
           const partFiles = files.filter((file) => file.endsWith(".json"));
 
           for (const file of partFiles) {
-            const raw = await fs.readFile(path.join(partDir, file), "utf8");
-            const quiz = JSON.parse(raw);
+            const quizPath = path.join(partDir, file);
+            const quiz = await readJsonFileSafely(quizPath);
+            if (!quiz || typeof quiz.id !== "string") continue;
             const partNumber = i + 1;
             quizzes.push({
               ...quiz,

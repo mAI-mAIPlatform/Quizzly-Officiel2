@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import QuestionQCM from "./QuestionQCM";
@@ -61,8 +61,6 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
   const currentQuestion = quiz.questions[currentIndex];
   const progressBarWidth = ((currentIndex) / quiz.questions.length) * 100;
 
-  // Le chronomètre ne tourne que tant que la question n'a pas encore reçu de réponse.
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     if (isFinished || hasAnswered) return;
     timeoutHandledRef.current = false;
@@ -86,9 +84,9 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
     }, 1000);
 
     return () => window.clearInterval(interval);
-  }, [currentQuestion.id, hasAnswered, isFinished, timerSeconds]);
+  }, [currentQuestion.id, hasAnswered, handleValidate, isFinished, timerSeconds]);
 
-  const handleValidate = (correct: boolean, source: "user" | "timeout" = "user") => {
+  const handleValidate = useCallback((correct: boolean, source: "user" | "timeout" = "user") => {
     if (hasAnsweredRef.current || isFinished) return;
     hasAnsweredRef.current = true;
     setHasAnswered(true);
@@ -111,7 +109,7 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
         setTimeout(() => setIsFinished(true), 1500);
       }
     }
-  };
+  }, [effectsVolume, encouragementsCorrect, encouragementsWrong, encouragementsTimeout, isFinished, isSurvival]);
 
   const handleNext = () => {
     hasAnsweredRef.current = false;

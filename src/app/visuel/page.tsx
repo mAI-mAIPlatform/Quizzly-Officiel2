@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import QuizEngine from "@/components/quiz/QuizEngine";
@@ -15,20 +15,19 @@ interface Quiz {
 
 export default function VisuelPage() {
   const searchParams = useSearchParams();
-  const [currentQuiz, setCurrentQuiz] = useState<Quiz | null>(null);
+  const [manualQuiz, setManualQuiz] = useState<Quiz | null>(null);
+
+  const quizFromUrl = (() => {
+    const quizId = searchParams.get("quiz");
+    if (!quizId) return null;
+    return allVisuelQuizzes.find((quiz) => quiz.id === quizId) ?? null;
+  })();
+
+  const currentQuiz = manualQuiz ?? quizFromUrl;
 
   const startQuiz = (quiz: Quiz) => {
-    setCurrentQuiz(quiz);
+    setManualQuiz(quiz);
   };
-
-  useEffect(() => {
-    const quizId = searchParams.get("quiz");
-    if (!quizId) return;
-    const matchedQuiz = allVisuelQuizzes.find((quiz) => quiz.id === quizId);
-    if (matchedQuiz) {
-      setCurrentQuiz(matchedQuiz);
-    }
-  }, [searchParams]);
 
   if (currentQuiz) {
     return (
