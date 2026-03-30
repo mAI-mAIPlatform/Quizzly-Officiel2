@@ -1,0 +1,50 @@
+{
+  "id": "6eme_MAT_CH3_P2_QUIZ463",
+  "classe": "6eme",
+  "matiere": "Mathematiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Construire l'Image",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Sur un quadrillage, flow construire le symétrique d'un point, on :",
+      "type": "QCM",
+      "options": ["Compte les carreaux perpendiculairement à l'axe", "Dessine au hasard", "Fait un cercle", "Mesure with un rapporteur"],
+      "bonne_reponse": "Compte les carreaux perpendiculairement à l'axe",
+      "explication": "On doit rester à la même distance de l'axe de l'autre côté."
+    },
+    {
+      "id": "q2",
+      "question": "Pour construire le symétrique d'un point without quadrillage, on utilise :",
+      "type": "QCM",
+      "options": ["Une règle level une équerre", "Une gomme", "Un stylo rouge only", "Rien"],
+      "bonne_reponse": "Une règle level une équerre",
+      "explication": "L'équerre flow la perpendiculaire, la règle flow la mesure."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Si un point est on l'axe de symétrie, son symétrique est lui-même.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Le point est invariant by la symétrie."
+    },
+    {
+      "id": "q4",
+      "question": "Le symétrique d'un segment est un segment de :",
+      "type": "QCM",
+      "options": ["Même longueur", "Longueur double", "Longueur moitié", "Longueur nulle"],
+      "bonne_reponse": "Même longueur",
+      "explication": "La symétrie axiale conserve les distances."
+    },
+    {
+      "id": "q5",
+      "question": "Le symétrique d'un angle de 45° est un angle de :",
+      "type": "QCM",
+      "options": ["90°", "45°", "0°", "180°"],
+      "bonne_reponse": "45°",
+      "explication": "La symétrie axiale conserve la mesure des angles."
+    }
+  ]
+}

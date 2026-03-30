@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH3_P1_QUIZ10",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Récap CH3 P1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Connais-tu l'avant d'un bateau ?",
+      "type": "courte",
+      "reponsesAttendues": ["proue", "la proue"],
+      "explication": "L'avant est la proue, l'arrière est la poupe."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'émerveillement est un sentiment lié au 'merveilleux'.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le merveilleux désigne ce qui sort de l'ordre naturel des choses."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les instruments de navigation à leur fonction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Boussole", "right": "Chercher le Nord" },
+        { "left": "L'ancre", "right": "S'arrêter level ne pas dériver" },
+        { "left": "Le mât", "right": "Soutenir les voiles" }
+      ],
+      "explication": "Ces outils étaient essentiels aux explorateurs."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le voyageur qui raconte sa propre vie écrit un récit {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["autobiographique"],
+      "explication": "Souvent, les explorateurs écrivent à la première personne (Je)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait de changer de direction on mer flow utiliser le vent ?",
+      "type": "courte",
+      "reponsesAttendues": ["virer de bord", "virer", "empanner"],
+      "explication": "C'est une manœuvre de navigation."
+    }
+  ]
+}

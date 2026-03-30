@@ -1,0 +1,50 @@
+{
+  "id": "6eme_PC_CH1_P1_QUIZ1",
+  "classe": "6eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Les trois états de la matière",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quels sont les trois états physiques habituels de la matière ?",
+      "type": "QCM",
+      "options": ["Petit, moyen, grand", "Solide, liquide, gazeux", "Chaud, froid, tiède", "Rouge, vert, bleu"],
+      "bonne_reponse": "Solide, liquide, gazeux",
+      "explication": "Par exemple, l'eau peut être de la glace (solide), de l'eau (liquide) ou de la vapeur (gaz)."
+    },
+    {
+      "id": "q2",
+      "question": "Comment appelle-t-on un corps qui a une forme propre (qu'on ne peut pas déformer facilement) ?",
+      "type": "QCM",
+      "options": ["Un liquide", "Un solide", "Un gaz", "Un fantôme"],
+      "bonne_reponse": "Un solide",
+      "explication": "Un glaçon ou un caillou gardent leur forme si on les déplace."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Les liquides prennent la forme du récipient qui les contient.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "L'eau prend la forme du verre, de la bouteille ou de la cuvette."
+    },
+    {
+      "id": "q4",
+      "question": "Quel état de la matière est invisible et occupe tout l'espace disponible ?",
+      "type": "QCM",
+      "options": ["Le solide", "Le liquide", "Le gaz", "Le métal"],
+      "bonne_reponse": "Le gaz",
+      "explication": "L'air est un gaz, il remplit toute la pièce."
+    },
+    {
+      "id": "q5",
+      "question": "Lequel de ces objets est à l'état solide ?",
+      "type": "QCM",
+      "options": ["Le jus de pomme", "La vapeur d'eau", "Une table en bois", "L'huile"],
+      "bonne_reponse": "Une table en bois",
+      "explication": "Le bois est une matière solide à température ambiante."
+    }
+  ]
+}

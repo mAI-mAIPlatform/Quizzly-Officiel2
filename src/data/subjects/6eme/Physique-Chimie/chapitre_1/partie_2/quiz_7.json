@@ -1,0 +1,50 @@
+{
+  "id": "6eme_PC_CH1_P2_QUIZ17",
+  "classe": "6eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Les familles de matériaux",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "À quelle famille appartient le papier ?",
+      "type": "QCM",
+      "options": ["Métal", "Matériaux organiques (issus du vivant)", "Céramique", "Plastique"],
+      "bonne_reponse": "Matériaux organiques (issus du vivant)",
+      "explication": "Le papier est fait à partir de fibres de bois."
+    },
+    {
+      "id": "q2",
+      "question": "Le verre fait partie de quelle famille ?",
+      "type": "QCM",
+      "options": ["Métallique", "Minérale (céramique / verre)", "Organique", "Plastique"],
+      "bonne_reponse": "Minérale (céramique / verre)",
+      "explication": "Il est fabriqué à partir de sable fondu."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Les matières plastiques sont fabriquées par l'Homme (synthétiques).",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Elles sont souvent dérivées du pétrole."
+    },
+    {
+      "id": "q4",
+      "question": "Quel matériau choisiriez-vous pour isoler la chaleur d'une casserole ?",
+      "type": "QCM",
+      "options": ["Du fer", "Du bois ou du plastique", "Du cuivre", "De l'aluminium"],
+      "bonne_reponse": "Du bois ou du plastique",
+      "explication": "Ce sont de bons isolants thermiques."
+    },
+    {
+      "id": "q5",
+      "question": "L'acier est un alliage composé principalement de :",
+      "type": "QCM",
+      "options": ["Fer et carbone", "Or et argent", "Plomb et plastique", "Verre et bois"],
+      "bonne_reponse": "Fer et carbone",
+      "explication": "L'acier est plus résistant que le fer pur."
+    }
+  ]
+}

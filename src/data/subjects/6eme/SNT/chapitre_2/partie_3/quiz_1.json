@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SNT_CH2_P3_QUIZ341",
+  "classe": "6eme",
+  "matiere": "SNT",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Le Stockage des données",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Où sont physiquement stockées vos données on les réseaux sociaux ?",
+      "type": "QCM",
+      "options": ["Dans les nuages (le ciel)", "Dans de grands entrepôts appelés 'Data Centers' (centres de données)", "Dans votre téléphone uniquement", "Elles flottent on Internet"],
+      "bonne_reponse": "Dans de grands entrepôts appelés 'Data Centers' (centres de données)",
+      "explication": "Le 'Cloud' est en fait un réseau de serveurs physiques puissants."
+    },
+    {
+      "id": "q2",
+      "question": "Un Data Center consomme énormément de :",
+      "type": "QCM",
+      "options": ["Papier", "Électricité and d'eau (pour le refroidissement)", "Pain", "Vêtements"],
+      "bonne_reponse": "Électricité and d'eau (pour le refroidissement)",
+      "explication": "Les serveurs chauffent beaucoup and doivent être refroidis en permanence."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Vos données personnelles sont stockées on la mémoire de votre téléphone même si vous n'avez pas de connexion.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est le stockage local. Le Cloud a besoin d'Internet."
+    },
+    {
+      "id": "q4",
+      "question": "Le stockage on le 'Cloud' permet de :",
+      "type": "QCM",
+      "options": ["Accéder à ses fichiers depuis n'importe quel appareil connecté", "Ne plus avoir besoin d'électricité", "Cacher ses fichiers à la police", "Avoir un téléphone plus léger"],
+      "bonne_reponse": "Accéder à ses fichiers depuis n'importe quel appareil connecté",
+      "explication": "C'est très pratique pour le partage and la mobilité."
+    },
+    {
+      "id": "q5",
+      "question": "L'unité de mesure du stockage est :",
+      "type": "QCM",
+      "options": ["Le Kilogramme", "L'Octet (Go, To...)", "Le Mètre", "Le Litre"],
+      "bonne_reponse": "L'Octet (Go, To...)",
+      "explication": "On parle souvent de Giga-octets (Go) or Téra-octets (To)."
+    }
+  ]
+}

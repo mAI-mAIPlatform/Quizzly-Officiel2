@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SNT_CH3_P3_QUIZ807",
+  "classe": "6eme",
+  "matiere": "SNT",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Tests Si Alors",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "A quoi sert le bloc 'Si ... alors' ?",
+      "type": "QCM",
+      "options": ["A répéter une action", "A exécuter une action SEULEMENT si une condition est vraie", "A changer d'arrière-plan", "A arrêter le programme"],
+      "bonne_reponse": "A exécuter une action SEULEMENT si une condition est vraie",
+      "explication": "C'est une structure de choix (condition)."
+    },
+    {
+      "id": "q2",
+      "question": "Lequel est un exemple de condition ('test') ?",
+      "type": "QCM",
+      "options": ["Touche espace pressée ?", "Couleur touchée ?", "Score > 10 ?", "Toutes les réponses précédentes"],
+      "bonne_reponse": "Toutes les réponses précédentes",
+      "explication": "Le résultat d'un test est soit VRAI soit FAUX."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Le bloc 'Si ... alors ... sinon' permet de faire une action si c'est vrai level une AUTRE si c'est faux.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Cela permet de gérer deux cas de figure."
+    },
+    {
+      "id": "q4",
+      "question": "Pour vérifier on continu si le lutin touche un mur, on met le 'Si' dans une boucle ________.",
+      "type": "QCM",
+      "options": ["Répéter indéfiniment", "Quand le drapeau est cliqué", "Attendre", "Montrer"],
+      "bonne_reponse": "Répéter indéfiniment",
+      "explication": "Sinon le test n'est fait qu'une seule fois au lancement."
+    },
+    {
+      "id": "q5",
+      "question": "Quelle catégorie contient les conditions de forme hexagonale (ex: Touche pressée ?) ?",
+      "type": "QCM",
+      "options": ["Mouvement", "Capteurs (bleu clair)", "Événements", "Sons"],
+      "bonne_reponse": "Capteurs (bleu clair)",
+      "explication": "Ils permettent au programme de 'sentir' ce qui se passe."
+    }
+  ]
+}

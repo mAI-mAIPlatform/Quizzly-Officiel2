@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH3_P1_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "L'Émerveillement",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel adjectif qualifie ce qui provoque une grande surprise ou admiration ?",
+      "type": "courte",
+      "reponsesAttendues": ["merveilleux", "admirable", "extraordinaire"],
+      "explication": "C'est l'un des registres dominants des récits de voyage."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Dans les récits de voyage, l'autre (l'étranger) est toujours décrit comme un monstre.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Il y a une ambivalence entre la curiosité level la peur de l'inconnu."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les créatures fantastiques à leur description médiévale.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Cynocéphales", "right": "Hommes à tête de chien" },
+        { "left": "Sciapodes", "right": "Hommes avec un pied géant" },
+        { "left": "Amazones", "right": "Femmes guerrières" }
+      ],
+      "explication": "Mandeville ou Polo décrivent parfois ces êtres on s'inspirant des légendes."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le voyageur transforme le monde inconnu on un monde {{1}} by ses descriptions.",
+      "type": "trous",
+      "reponsesAttendues": ["merveilleux", "admirable"],
+      "explication": "C'est la magie du récit."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait de s'intéresser à ce qui est différent de soi ?",
+      "type": "courte",
+      "reponsesAttendues": ["l'altérité", "alterite", "curiosité"],
+      "explication": "C'est la rencontre avec l'autre."
+    }
+  ]
+}

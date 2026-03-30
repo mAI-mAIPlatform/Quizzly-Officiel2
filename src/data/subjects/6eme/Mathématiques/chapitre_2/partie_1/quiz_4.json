@@ -1,0 +1,50 @@
+{
+  "id": "6eme_MATHS_CH2_P1_QUIZ34",
+  "classe": "6eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Comparer les Décimaux",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Lequel est le plus grand : 5,2 ou 5,19 ?",
+      "type": "QCM",
+      "options": ["5,2", "5,19", "Ils sont égaux", "On ne peut pas savoir"],
+      "bonne_reponse": "5,2",
+      "explication": "5,2 c'est aussi 5,20. Et 20 centièmes > 19 centièmes."
+    },
+    {
+      "id": "q2",
+      "question": "Pour comparer deux décimaux, on compare d'abord :",
+      "type": "QCM",
+      "options": ["La partie entière", "Le dernier chiffre", "Le nombre de chiffres", "La couleur"],
+      "bonne_reponse": "La partie entière",
+      "explication": "Si les parties entières sont différentes, le plus grand est celui qui a la plus grande partie entière."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 12,500 = 12,5.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Les zéros inutiles à la fin ne comptent pas."
+    },
+    {
+      "id": "q4",
+      "question": "Quel signe complète : 8,45 ... 8,6 ?",
+      "type": "QCM",
+      "options": [">", "<", "=", "+"],
+      "bonne_reponse": "<",
+      "explication": "4 dixièmes est plus petit que 6 dixièmes."
+    },
+    {
+      "id": "q5",
+      "question": "Lequel est le plus petit : 0,4 ; 0,04 ; 0,44 ?",
+      "type": "QCM",
+      "options": ["0,4", "0,04", "0,44", "4"],
+      "bonne_reponse": "0,04",
+      "explication": "C'est celui qui a le moins de dixièmes."
+    }
+  ]
+}

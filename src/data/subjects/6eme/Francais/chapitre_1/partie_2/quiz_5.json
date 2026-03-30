@@ -1,0 +1,50 @@
+{
+  "id": "6eme_Francais_CH1_P2_QUIZ15",
+  "classe": "6eme",
+  "matiere": "Francais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Les types de phrases",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle phrase est de type interrogatif ?",
+      "type": "QCM",
+      "options": ["Il pleut.", "Quelle heure est-il ?", "Ferme la porte !", "Comme c'est beau !"],
+      "bonne_reponse": "Quelle heure est-il ?",
+      "explication": "Une phrase interrogative sert à poser une question et finit par un point d'interrogation."
+    },
+    {
+      "id": "q2",
+      "question": "Une phrase impérative (ou injonctive) sert à :",
+      "type": "QCM",
+      "options": ["Raconter une histoire", "Donner un ordre ou un conseil", "Poser une question", "Exprimer une surprise"],
+      "bonne_reponse": "Donner un ordre ou un conseil",
+      "explication": "Exemple : 'Range ta chambre !'."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Une phrase déclarative finit par un point d'exclamation.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "Une phrase déclarative sert à donner une information et finit par un point simple."
+    },
+    {
+      "id": "q4",
+      "question": "De quel type est la phrase : 'Comme tu as grandi !'",
+      "type": "QCM",
+      "options": ["Déclaratif", "Exclamatif", "Interrogatif", "Impératif"],
+      "bonne_reponse": "Exclamatif",
+      "explication": "Elle exprime une émotion forte et finit par un point d'exclamation."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on une phrase qui donne un ordre ?",
+      "type": "QCM",
+      "options": ["Phrase interrogative", "Phrase impérative", "Phrase déclarative", "Phrase émotive"],
+      "bonne_reponse": "Phrase impérative",
+      "explication": "Le type impératif est utilisé pour les ordres, les conseils ou les interdictions."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MATHS_CH1_P3_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Maths",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Simplification",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Simplifier une fraction, c'est ________.",
+      "type": "QCM",
+      "options": ["L'agrandir", "Écrire une fraction égale with des nombres plus petits", "La supprimer", "La multiplier par 10"],
+      "bonne_reponse": "Écrire une fraction égale with des nombres plus petits",
+      "explication": "On divise le numérateur level le dénominateur par un diviseur commun."
+    },
+    {
+      "id": "q2",
+      "question": "Simplifiez 10/20 au maximum.",
+      "type": "QCM",
+      "options": ["5/10", "1/2", "2/1", "1/10"],
+      "bonne_reponse": "1/2",
+      "explication": "On divise par 10."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 12/18 simplifié par 6 donne 2/3.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "12:6=2 level 18:6=3."
+    },
+    {
+      "id": "q4",
+      "question": "Une fraction qu'on ne peut plus simplifier s'appelle une fraction ________.",
+      "type": "QCM",
+      "options": ["Terminée", "Irréductible", "Indépassable", "Finale"],
+      "bonne_reponse": "Irréductible",
+      "explication": "Le numérateur level le dénominateur n'ont plus de diviseur commun autre que 1."
+    },
+    {
+      "id": "q5",
+      "question": "Simplifiez 21/14.",
+      "type": "QCM",
+      "options": ["3/2", "7/2", "3/7", "2/3"],
+      "bonne_reponse": "3/2",
+      "explication": "On divise par 7."
+    }
+  ]
+}

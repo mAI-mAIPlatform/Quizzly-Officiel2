@@ -1,0 +1,50 @@
+{
+  "id": "6eme_Francais_CH1_P1_QUIZ4",
+  "classe": "6eme",
+  "matiere": "Francais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Identifier le verbe",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Dans 'L'élève écrit une leçon', quel est le verbe ?",
+      "type": "QCM",
+      "options": ["L'élève", "écrit", "une", "leçon"],
+      "bonne_reponse": "écrit",
+      "explication": "'écrit' est l'action faite par l'élève. C'est le verbe 'écrire' conjugué au présent."
+    },
+    {
+      "id": "q2",
+      "question": "Quel est l'infinitif de 'mangeons' ?",
+      "type": "QCM",
+      "options": ["Manger", "Mangé", "Mangent", "Mangeoire"],
+      "bonne_reponse": "Manger",
+      "explication": "L'infinitif est le nom du verbe quand il n'est pas conjugué. 'Manger' est un verbe du 1er groupe."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Le verbe s'accorde avec son sujet.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Si le sujet change de nombre (singulier/pluriel), la terminaison du verbe change aussi."
+    },
+    {
+      "id": "q4",
+      "question": "Lequel de ces mots n'est PAS un verbe ?",
+      "type": "QCM",
+      "options": ["Partir", "Jaune", "Finir", "Prendre"],
+      "bonne_reponse": "Jaune",
+      "explication": "'Jaune' est un adjectif qualificatif. Les autres sont des verbes à l'infinitif."
+    },
+    {
+      "id": "q5",
+      "question": "Le verbe exprime :",
+      "type": "QCM",
+      "options": ["Une action ou un état", "Une couleur", "Un nom de personne", "Le temps qu'il fait"],
+      "bonne_reponse": "Une action ou un état",
+      "explication": "Le verbe sert à dire ce que fait le sujet ou comment il est (état)."
+    }
+  ]
+}

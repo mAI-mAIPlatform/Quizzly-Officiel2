@@ -19,7 +19,8 @@ export default function QuestionQCM({
   const handleSelect = (index: number) => {
     if (hasAnswered) return;
     setSelectedIndex(index);
-    const actualCorrectIndex = question.correctIndex ?? question.options.findIndex((opt: string) => opt === question.answer);
+    const actualCorrectIndex = question.correctIndex ?? 
+                               question.options.findIndex((opt: string) => opt === (question.bonne_reponse || question.answer));
     onValidate(index === actualCorrectIndex);
   };
 
@@ -41,7 +42,8 @@ export default function QuestionQCM({
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-auto">
         {question.options.map((option: string, index: number) => {
-          const actualCorrectIndex = question.correctIndex ?? question.options.findIndex((opt: string) => opt === question.answer);
+          const actualCorrectIndex = question.correctIndex ?? 
+                                     question.options.findIndex((opt: string) => opt === (question.bonne_reponse || question.answer));
           let stateClass = "glass hover:bg-white/5 border-primary/20";
           
           if (hasAnswered) {
@@ -73,6 +75,14 @@ export default function QuestionQCM({
           );
         })}
       </div>
+
+      {hasAnswered && question.explication && (
+        <div className="mt-8 p-6 glass border-primary/20 rounded-2xl animate-in slide-in-from-bottom-4 duration-500">
+          <p className="text-sm font-medium opacity-90 leading-relaxed text-center italic">
+            💡 {question.explication}
+          </p>
+        </div>
+      )}
     </div>
   );
 }

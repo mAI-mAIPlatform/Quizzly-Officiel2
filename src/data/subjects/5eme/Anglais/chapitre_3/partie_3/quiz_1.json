@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ANG_CH3_P3_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Anglais",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Sports Vocab",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How do you say 'le football' on the UK?",
+      "type": "courte",
+      "reponsesAttendues": ["football"],
+      "explication": "Football (UK). Soccer (US)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Rugby' est un sport très populaire dans les pays anglophones.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Surtout au UK, en Australie level en Nouvelle-Zélande."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les sports à leur catégorie.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Swimming", "right": "Water sport" },
+        { "left": "Basketball", "right": "Team sport" },
+        { "left": "Tennis", "right": "Racket sport" }
+      ],
+      "explication": "Voici différents types de sports."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : I like {{1}} (faire du vélo).",
+      "type": "trous",
+      "reponsesAttendues": ["cycling", "riding a bike"],
+      "explication": "Cycling (Cyclisme)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'l'équitation' on anglais ?",
+      "type": "courte",
+      "reponsesAttendues": ["horse riding"],
+      "explication": "Horse riding (Équitation)."
+    }
+  ]
+}

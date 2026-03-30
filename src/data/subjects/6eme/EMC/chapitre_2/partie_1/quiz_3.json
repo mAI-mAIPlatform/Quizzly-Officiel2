@@ -1,0 +1,50 @@
+{
+  "id": "6eme_EMC_CH2_P1_QUIZ263",
+  "classe": "6eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Le déroulement d'un procès",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qui dirige les débats lors d'un procès ?",
+      "type": "QCM",
+      "options": ["Le procureur", "Le juge (ou président du tribunal)", "L'avocat", "Le greffier"],
+      "bonne_reponse": "Le juge (ou président du tribunal)",
+      "explication": "Il veille au respect de la procédure and du temps de parole."
+    },
+    {
+      "id": "q2",
+      "question": "Comment appelle-t-on la personne qui a subi un dommage (le préjudice) ?",
+      "type": "QCM",
+      "options": ["Le coupable", "La victime (ou partie civile)", "Le témoin", "L'huissier"],
+      "bonne_reponse": "La victime (ou partie civile)",
+      "explication": "Elle demande réparation pour le dommage subi."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Les débats au tribunal sont généralement publics.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est une garantie de transparence (sauf cas particuliers comme les mineurs)."
+    },
+    {
+      "id": "q4",
+      "question": "Quel est le rôle du Procureur de la République ?",
+      "type": "QCM",
+      "options": ["Défendre l'accusé", "Représenter la société and demander l'application de la loi", "Prendre des photos", "Nettoyer la salle"],
+      "bonne_reponse": "Représenter la société and demander l'application de la loi",
+      "explication": "Il soutient l'accusation lors du procès."
+    },
+    {
+      "id": "q5",
+      "question": "À la fin du procès, le juge rend une décision appelée :",
+      "type": "QCM",
+      "options": ["Une lettre", "Un jugement (ou verdict)", "Une loi", "Une promesse"],
+      "bonne_reponse": "Un jugement (ou verdict)",
+      "explication": "Elle fixe la peine or la relaxe."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "6eme_MAT_CH3_P2_QUIZ462",
+  "classe": "6eme",
+  "matiere": "Mathematiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Axes des Figures",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Combien d'axes de symétrie possède un carré ?",
+      "type": "QCM",
+      "options": ["2", "4", "0", "1"],
+      "bonne_reponse": "4",
+      "explication": "Les deux médiatrices des côtés level les deux diagonales."
+    },
+    {
+      "id": "q2",
+      "question": "Un triangle isocèle possède :",
+      "type": "QCM",
+      "options": ["3 axes de symétrie", "1 axe de symétrie", "2 axes de symétrie", "Aucun"],
+      "bonne_reponse": "1 axe de symétrie",
+      "explication": "C'est la médiatrice de sa base."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Un cercle possède une infinité d'axes de symétrie.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Toute droite passant by son centre est un axe de symétrie."
+    },
+    {
+      "id": "q4",
+      "question": "Combien d'axes possède un rectangle ?",
+      "type": "QCM",
+      "options": ["2", "4", "1", "0"],
+      "bonne_reponse": "2",
+      "explication": "Ses deux médiatrices de côtés. Les diagonales ne sont PAS des axes (essayez de plier !)."
+    },
+    {
+      "id": "q5",
+      "question": "Un triangle équilatéral possède :",
+      "type": "QCM",
+      "options": ["1 axe", "2 axes", "3 axes", "9 axes"],
+      "bonne_reponse": "3 axes",
+      "explication": "Un axe passant by chaque sommet."
+    }
+  ]
+}

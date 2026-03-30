@@ -1,0 +1,50 @@
+{
+  "id": "6eme_PC_CH1_P2_QUIZ18",
+  "classe": "6eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Quantités et mélanges",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Si je mélange 50g de sable et 50g d'eau, quelle est la masse finale ?",
+      "type": "QCM",
+      "options": ["50g", "100g", "Plus de 100g", "Zéro"],
+      "bonne_reponse": "100g",
+      "explication": "La masse totale est toujours la somme des masses des constituants."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le volume total est toujours égal à la somme des volumes quand on mélange deux liquides.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "Certaines molécules se 'rangent' les unes entre les autres, le volume peut diminuer un tout petit peu."
+    },
+    {
+      "id": "q3",
+      "question": "On veut mesurer la masse de l'air dans un ballon. On pèse le ballon gonflé, puis ... ?",
+      "type": "QCM",
+      "options": ["On le jette", "On le dégonfle et on le pèse vide", "On mesure son volume", "On regarde sa couleur"],
+      "bonne_reponse": "On le dégonfle et on le pèse vide",
+      "explication": "La différence entre les deux masses donne la masse de l'air."
+    },
+    {
+      "id": "q4",
+      "question": "Une balance de cuisine peut-elle servir au laboratoire ?",
+      "type": "QCM",
+      "options": ["Non, jamais", "Oui, mais elle est moins précise que les balances de précision du laboratoire", "Seulement pour peser de la farine", "Uniquement si elle est en métal"],
+      "bonne_reponse": "Oui, mais elle est moins précise que les balances de précision du laboratoire",
+      "explication": "Le principe est le même, mais la précision change."
+    },
+    {
+      "id": "q5",
+      "question": "De quoi dépend la masse d'un objet ?",
+      "type": "QCM",
+      "options": ["De sa couleur", "De la quantité de matière qu'il contient", "De l'endroit où on le pose", "De l'heure qu'il est"],
+      "bonne_reponse": "De la quantité de matière qu'il contient",
+      "explication": "Plus il y a d'atomes, plus c'est lourd."
+    }
+  ]
+}

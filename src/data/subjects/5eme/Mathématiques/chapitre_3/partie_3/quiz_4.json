@@ -1,0 +1,49 @@
+{
+  "id": "5eme_MATHS_CH3_P3_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Le Losange",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Un losange est un parallélogramme qui a deux côtés consécutifs de même ________.",
+      "type": "courte",
+      "reponsesAttendues": ["longueur"],
+      "explication": "S'il a deux côtés consécutifs égaux, alors les quatre sont égaux."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les diagonales d'un losange sont perpendiculaires.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est la propriété clé du losange."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les caractéristiques du losange.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Côtés", "right": "Quatre côtés de même longueur" },
+        { "left": "Diagonales", "right": "Perpendiculaires" },
+        { "left": "Angles", "right": "Angles opposés égaux" }
+      ],
+      "explication": "Le losange est un parallélogramme particulier."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Si les diagonales d'un parallélogramme sont perpendiculaires, alors c'est un {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["losange"],
+      "explication": "C'est une condition suffisante."
+    },
+    {
+      "id": "q5",
+      "question": "Combien d'axes de symétrie possède un losange ?",
+      "type": "courte",
+      "reponsesAttendues": ["2", "deux"],
+      "explication": "Ce sont ses deux diagonales."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ANG_CH1_P3_QUIZ9",
+  "classe": "5eme",
+  "matiere": "Anglais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Likes & Dislikes",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How do you say 'J'adore' on English?",
+      "type": "courte",
+      "reponsesAttendues": ["I love"],
+      "explication": "Love is stronger than like."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Après les verbes de goût (like, love, hate, detest), on utilise souvent le verbe suivant on '-ING'.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Exemple : 'I like swimming' (J'aime nager)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les verbes à leur niveau d'appréciation.",
+      "type": "relier",
+      "pairs": [
+        { "left": "I hate / detest", "right": "-- (Je déteste)" },
+        { "left": "I don't mind", "right": "+/- (Ça ne me dérange pas)" },
+        { "left": "I like", "right": "+ (J'aime)" }
+      ],
+      "explication": "Voici l'échelle des goûts."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : She {{1}} playing video games (déteste).",
+      "type": "trous",
+      "reponsesAttendues": ["hates", "detests"],
+      "explication": "3ème personne du singulier (-s)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'Je n'aime pas' ?",
+      "type": "courte",
+      "reponsesAttendues": ["I don't like"],
+      "explication": "Négation au présent simple."
+    }
+  ]
+}

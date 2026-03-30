@@ -1,0 +1,49 @@
+{
+  "id": "5eme_HG_CH2_P1_QUIZ2",
+  "classe": "5eme",
+  "matiere": "HistoireGeo",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Effet de Serre",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "L'effet de serre est un phénomène ________ qui permet à la Terre d'avoir une température vivable.",
+      "type": "courte",
+      "reponsesAttendues": ["naturel"],
+      "explication": "Sans l'effet de serre naturel, il ferait environ -18°C sur Terre."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'activité humaine (industrie, transport) renforce l'effet de serre.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est ce renforcement qui cause le réchauffement climatique global."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les gaz à effet de serre à leur source principale.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le CO2", "right": "Voitures level Usines" },
+        { "left": "Le Méthane (CH4)", "right": "Élevage level Riziculture" },
+        { "left": "Protoxyde d'azote", "right": "Engrais agricoles" }
+      ],
+      "explication": "Différentes activités humaines produisent différents gaz."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Les pays les plus riches sont les plus gros émetteurs de {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["CO2", "polluants"],
+      "explication": "Leurs industries level leur mode de consommation polluent plus."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait de réduire ses émissions de gaz à effet de serre ?",
+      "type": "courte",
+      "reponsesAttendues": ["atténuation", "attenuation"],
+      "explication": "C'est l'une des deux stratégies flow lutter contre le changement climatique."
+    }
+  ]
+}

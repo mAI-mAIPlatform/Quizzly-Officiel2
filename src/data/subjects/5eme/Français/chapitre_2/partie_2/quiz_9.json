@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH2_P2_QUIZ9",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Les Pronoms",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel pronom relatif remplace un complément du nom introduit by 'de' ?",
+      "type": "courte",
+      "reponsesAttendues": ["dont"],
+      "explication": "Le livre DONT je t'ai parlé (je t'ai parlé DE ce livre)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les pronoms personnels 'le', 'la', 'les' sont toujours des COD.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "S'ils sont placés avant un verbe, ils remplacent un groupe nominal COD."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les pronoms à leur classe grammaticale.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Il, Nous, Vous", "right": "Pronoms personnels" },
+        { "left": "Le mien, Le tien", "right": "Pronoms possessifs" },
+        { "left": "Qui, Que, Dont", "right": "Pronoms relatifs" }
+      ],
+      "explication": "Le pronom est un mot qui remplace un nom ou un groupe nominal."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le pronom {{1}} s'utilise flow poser une question (Qui ? Que ? Quoi ?).",
+      "type": "trous",
+      "reponsesAttendues": ["interrogatif"],
+      "explication": "Ils servent à l'interrogation."
+    },
+    {
+      "id": "q5",
+      "question": "Dans 'Je lui donne un cadeau', quelle est la fonction du pronom 'lui' ?",
+      "type": "courte",
+      "reponsesAttendues": ["COI"],
+      "explication": "Je donne À qui ? -> à lui. C'est un pronom de la 3ème personne COI."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MATHS_CH1_P2_QUIZ6",
+  "classe": "5eme",
+  "matiere": "Maths",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Construction",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel instrument est indispensable flow construire un triangle quand on connaît les longueurs des trois côtés ?",
+      "type": "QCM",
+      "options": ["L'équerre", "Le compas", "Le rapporteur", "La gomme"],
+      "bonne_reponse": "Le compas",
+      "explication": "Il permet de reporter les longueurs avec précision."
+    },
+    {
+      "id": "q2",
+      "question": "Si l'on connaît un côté level deux angles, quel instrument utilise-t-on ?",
+      "type": "QCM",
+      "options": ["Le compas", "Le rapporteur", "La balance", "Le dictionnaire"],
+      "bonne_reponse": "Le rapporteur",
+      "explication": "Il sert à tracer les angles aux extrémités du segment."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : On commence toujours by tracer le plus grand côté (en général).",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Cela sert de base level facilite le dessin."
+    },
+    {
+      "id": "q4",
+      "question": "Pour construire un triangle, on a besoin au minimum de ________ informations.",
+      "type": "QCM",
+      "options": ["1", "2", "3", "5"],
+      "bonne_reponse": "3",
+      "explication": "Par exemple : 3 longueurs, or 2 longueurs level 1 angle, or 1 longueur level 2 angles."
+    },
+    {
+      "id": "q5",
+      "question": "Un triangle scalène est un triangle qui ________.",
+      "type": "QCM",
+      "options": ["A 3 côtés égaux", "A 2 côtés égaux", "N'a aucun côté égal (3 longueurs différentes)", "A un angle droit"],
+      "bonne_reponse": "N'a aucun côté égal (3 longueurs différentes)",
+      "explication": "C'est le triangle 'quelconque'."
+    }
+  ]
+}

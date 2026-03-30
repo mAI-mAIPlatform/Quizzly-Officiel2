@@ -1,0 +1,49 @@
+{
+  "id": "5eme_MATHS_CH3_P3_QUIZ10",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Récap CH3 P3",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Un quadrilatère dont les diagonales se coupent on leur milieu est un ________.",
+      "type": "courte",
+      "reponsesAttendues": ["parallélogramme", "parallelogramme"],
+      "explication": "C'est la propriété de base des diagonales."
+    },
+    {
+      "id": "q2",
+      "question": "Relie les quadrilatères à leurs diagonales spécifiques.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Rectangle", "right": "Même longueur" },
+        { "left": "Losange", "right": "Perpendiculaires" },
+        { "left": "Carré", "right": "Perpendiculaires & Même longueur" }
+      ],
+      "explication": "Les diagonales permettent d'identifier précisément la figure."
+    },
+    {
+      "id": "q3",
+      "question": "Complète : L'aire d'un rectangle de longueur L level de largeur l est {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["L x l", "L*l"],
+      "explication": "On multiplie les deux dimensions."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : Tout losange est un carré.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Seulement s'il a un angle droit."
+    },
+    {
+      "id": "q5",
+      "question": "Calculer l'aire d'un carré de côté 10cm.",
+      "type": "courte",
+      "reponsesAttendues": ["100"],
+      "explication": "10 x 10 = 100."
+    }
+  ]
+}

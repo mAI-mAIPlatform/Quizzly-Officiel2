@@ -1,0 +1,50 @@
+{
+  "id": "6eme_Francais_CH1_P1_QUIZ7",
+  "classe": "6eme",
+  "matiere": "Francais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Accorder l'adjectif avec le nom",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment s'accorde l'adjectif dans 'Des fleurs ...' ?",
+      "type": "QCM",
+      "options": ["rouge", "rouges", "rouget"],
+      "bonne_reponse": "rouges",
+      "explication": "'Fleurs' est au pluriel, l'adjectif 'rouges' prend donc un 's'."
+    },
+    {
+      "id": "q2",
+      "question": "Quelle est la bonne orthographe : 'Une ... fille' ?",
+      "type": "QCM",
+      "options": ["petit", "petite", "petites"],
+      "bonne_reponse": "petite",
+      "explication": "'Fille' est féminin singulier, l'adjectif s'accorde donc au féminin singulier."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Si un adjectif qualifie un nom masculin et un nom féminin, il se met au masculin pluriel.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Le masculin l'emporte sur le féminin pour l'accord de l'adjectif : 'Un garçon et une fille contents'."
+    },
+    {
+      "id": "q4",
+      "question": "Accordez l'adjectif : 'Des manteaux ...' (neuf)",
+      "type": "QCM",
+      "options": ["neuf", "neufs", "neuves", "neuve"],
+      "bonne_reponse": "neufs",
+      "explication": "'Manteaux' est masculin pluriel, donc 'neufs' prend un 's'."
+    },
+    {
+      "id": "q5",
+      "question": "Trouve l'erreur d'accord :",
+      "type": "QCM",
+      "options": ["Un chat noir", "Une chienne noir", "Des oiseaux noirs", "Une porte noire"],
+      "bonne_reponse": "Une chienne noir",
+      "explication": "On devrait écrire 'Une chienne noire' car le nom est féminin."
+    }
+  ]
+}

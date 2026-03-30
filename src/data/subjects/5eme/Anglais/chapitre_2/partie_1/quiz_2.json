@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ANG_CH2_P1_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Anglais",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Saxon Genitive",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment dit-on 'le frère de Kim' on anglais ?",
+      "type": "courte",
+      "reponsesAttendues": ["Kim's brother"],
+      "explication": "On ajoute 's au possesseur (ici Kim)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Si le nom se termine déjà by un 's' au pluriel (ex: parents), on ajoute seulement l'apostrophe (').",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Exemple : 'My parents' house' (La maison de mes parents)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les phrases à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Tom's mother", "right": "La mère de Tom" },
+        { "left": "The teacher's pen", "right": "Le stylo du professeur" },
+        { "left": "My sister's bag", "right": "Le sac de ma sœur" }
+      ],
+      "explication": "Le 's indique le lien de parenté or la possession."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : 'The car of my father' -> My {{1}} {{2}}.",
+      "type": "trous",
+      "reponsesAttendues": ["father's car"],
+      "explication": "On inverse l'ordre level on ajoute 's."
+    },
+    {
+      "id": "q5",
+      "question": "Traduisez 'La chambre de Sarah'.",
+      "type": "courte",
+      "reponsesAttendues": ["Sarah's bedroom", "Sarah's room"],
+      "explication": "Possesseur (Sarah) + 's + Possédé (bedroom)."
+    }
+  ]
+}

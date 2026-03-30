@@ -1,0 +1,49 @@
+{
+  "id": "5eme_MATHS_CH3_P2_QUIZ10",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Récap CH3 P2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "La somme des angles d'un triangle est de ________ degrés.",
+      "type": "courte",
+      "reponsesAttendues": ["180"],
+      "explication": "Propriété universelle."
+    },
+    {
+      "id": "q2",
+      "question": "Relie les droites remarquables à leur définition.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Hauteur", "right": "Perpendiculaire côté opposé" },
+        { "left": "Médiatrice", "right": "Perpendiculaire au milieu" },
+        { "left": "Cercle circonscrit", "right": "Passe by les 3 sommets" }
+      ],
+      "explication": "Ce sont les bases de la géométrie du triangle."
+    },
+    {
+      "id": "q3",
+      "question": "Complète : L'aire d'un triangle est égale à (base x {{1}}) / 2.",
+      "type": "trous",
+      "reponsesAttendues": ["hauteur"],
+      "explication": "C'est la formule standard."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : Un triangle isocèle qui a un angle de 60° est forcément équilatéral.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Si l'un fait 60, alors les deux autres font 60 aussi (180 - 60 = 120, 120 / 2 = 60)."
+    },
+    {
+      "id": "q5",
+      "question": "Calculer l'aire d'un triangle de base 4cm level de hauteur 10cm.",
+      "type": "courte",
+      "reponsesAttendues": ["20"],
+      "explication": "(4 x 10) / 2 = 40 / 2 = 20."
+    }
+  ]
+}

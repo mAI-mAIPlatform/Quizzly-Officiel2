@@ -1,0 +1,50 @@
+{
+  "id": "6eme_PHIL_CH1_P1_QUIZ1",
+  "classe": "6eme",
+  "matiere": "Philosophie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "S'étonner de tout",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "D'après les philosophes grecs (Platon, Aristote), quel est le point de départ de la philosophie ?",
+      "type": "QCM",
+      "options": ["La colère", "L'étonnement", "L'ennui", "Le sommeil"],
+      "bonne_reponse": "L'étonnement",
+      "explication": "S'étonner, c'est se rendre compte que ce qui nous semble 'normal' cache en fait des mystères."
+    },
+    {
+      "id": "q2",
+      "question": "Philosopher, c'est avant tout :",
+      "type": "QCM",
+      "options": ["Donner des ordres", "Se poser des questions sur le monde et sur soi-même", "Apprendre des listes par cœur", "Être toujours d'accord"],
+      "bonne_reponse": "Se poser des questions sur le monde et sur soi-même",
+      "explication": "C'est chercher à comprendre le 'pourquoi' des choses."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Un enfant peut philosopher.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Tout le monde peut avoir une pensée philosophique dès qu'il réfléchit par lui-même."
+    },
+    {
+      "id": "q4",
+      "question": "Que signifie le mot 'Philosophie' en grec ancien ?",
+      "type": "QCM",
+      "options": ["L'amour de la sagesse", "La haine du bruit", "Le goût du chocolat", "La force physique"],
+      "bonne_reponse": "L'amour de la sagesse",
+      "explication": "Philo = aimer, Sophia = sagesse."
+    },
+    {
+      "id": "q5",
+      "question": "Une 'question philosophique' est une question qui :",
+      "type": "QCM",
+      "options": ["N'a qu'une seule réponse dans le dictionnaire", "Fait réfléchir et peut avoir plusieurs réponses possibles", "Se résout par une addition", "Ne sert à rien"],
+      "bonne_reponse": "Fait réfléchir et peut avoir plusieurs réponses possibles",
+      "explication": "Elle porte sur le sens de la vie, de la justice, de la beauté..."
+    }
+  ]
+}

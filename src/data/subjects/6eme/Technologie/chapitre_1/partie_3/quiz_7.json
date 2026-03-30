@@ -1,0 +1,50 @@
+{
+  "id": "6eme_TEC_CH1_P3_QUIZ27",
+  "classe": "6eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Mécanique : Transmettre et Transformer",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Le système 'Poulies-Courroie' est un système de :",
+      "type": "QCM",
+      "options": ["Transmission de mouvement", "Transformation de mouvement", "Stockage d'énergie", "Calcul"],
+      "bonne_reponse": "Transmission de mouvement",
+      "explication": "Le mouvement est toujours une rotation d'un bout à l'autre."
+    },
+    {
+      "id": "q2",
+      "question": "Le système 'Pignon-Crémaillère' est un système de :",
+      "type": "QCM",
+      "options": ["Transmission de mouvement", "Transformation de mouvement", "Guidage uniquement", "Éclairage"],
+      "bonne_reponse": "Transformation de mouvement",
+      "explication": "Il passe de la rotation au pignon à la translation de la crémaillère."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Les engrenages peuvent changer la vitesse de rotation.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Selon le nombre de dents des roues."
+    },
+    {
+      "id": "q4",
+      "question": "Lequel transforme une rotation en translation ?",
+      "type": "QCM",
+      "options": ["Une vis et un écrou", "Deux roues en contact", "Une chaîne de vélo", "Un levier"],
+      "bonne_reponse": "Une vis et un écrou",
+      "explication": "Quand on tourne la vis, l'écrou monte ou descend."
+    },
+    {
+      "id": "q5",
+      "question": "Pourquoi lubrifie-t-on (huile/graisse) les systèmes mécaniques ?",
+      "type": "QCM",
+      "options": ["Pour les salir", "Pour réduire les frottements et l'usure", "Pour changer leur couleur", "Pour les fixer"],
+      "bonne_reponse": "Pour réduire les frottements et l'usure",
+      "explication": "Cela facilite le mouvement et prolonge la vie de l'objet."
+    }
+  ]
+}

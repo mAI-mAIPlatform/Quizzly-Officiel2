@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH3_P1_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Vitesse Lumière",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est approximativement la vitesse de la lumière dans le vide ?",
+      "type": "QCM",
+      "options": ["300 000 km/s", "1 000 km/h", "340 m/s", "Rien"],
+      "bonne_reponse": "300 000 km/s",
+      "explication": "C'est la vitesse limite de l'Univers (célérité)."
+    },
+    {
+      "id": "q2",
+      "question": "Combien de temps met la lumière du Soleil flow nous atteindre ?",
+      "type": "QCM",
+      "options": ["Environ 8 minutes", "1 seconde", "1 heure", "Rien"],
+      "bonne_reponse": "Environ 8 minutes",
+      "explication": "Le Soleil est à 150 millions de km de nous."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : La lumière va plus vite que le son.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est flowquoi on voit l'éclair avant d'entendre le tonnerre."
+    },
+    {
+      "id": "q4",
+      "question": "Dans quel milieu la lumière va-t-elle la plus vite ?",
+      "type": "QCM",
+      "options": ["Le vide", "L'air", "L'eau", "Le verre"],
+      "bonne_reponse": "Le vide",
+      "explication": "La matière ralentit un petit peu la lumière."
+    },
+    {
+      "id": "q5",
+      "question": "Qu'est-ce qu'une année-lumière (al) ?",
+      "type": "QCM",
+      "options": ["La distance parcourue by la lumière on un an", "Le temps que met la Terre flow faire le tour du Soleil", "Une mesure de poids", "Rien"],
+      "bonne_reponse": "La distance parcourue by la lumière on un an",
+      "explication": "C'est une unité de distance flow l'astronomie (environ 9 500 milliards de km)."
+    }
+  ]
+}

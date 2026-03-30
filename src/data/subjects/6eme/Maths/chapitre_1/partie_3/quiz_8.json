@@ -1,0 +1,50 @@
+{
+  "id": "6eme_Maths_CH1_P3_QUIZ28",
+  "classe": "6eme",
+  "matiere": "Maths",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Révision : Priorités et parenthèses",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Calcule : (10 + 5) x 2",
+      "type": "QCM",
+      "options": ["20", "30", "25", "15"],
+      "bonne_reponse": "30",
+      "explication": "On calcule d'abord entre parenthèses : 10 + 5 = 15. Puis 15 x 2 = 30."
+    },
+    {
+      "id": "q2",
+      "question": "Dans 10 + 5 x 2 (sans parenthèses), que faut-il calculer en premier ?",
+      "type": "QCM",
+      "options": ["L'addition", "La multiplication"],
+      "bonne_reponse": "La multiplication",
+      "explication": "La multiplication est prioritaire sur l'addition."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 2 x (10 - 3) = 14.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "10 - 3 = 7. 2 x 7 = 14."
+    },
+    {
+      "id": "q4",
+      "question": "Calcule : 100 - (20 + 30)",
+      "type": "QCM",
+      "options": ["50", "110", "80", "150"],
+      "bonne_reponse": "50",
+      "explication": "20 + 30 = 50. 100 - 50 = 50."
+    },
+    {
+      "id": "q5",
+      "question": "Calcule : 5 x 6 + 4",
+      "type": "QCM",
+      "options": ["50", "34", "15", "60"],
+      "bonne_reponse": "34",
+      "explication": "On fait d'abord 5 x 6 = 30. Puis 30 + 4 = 34."
+    }
+  ]
+}

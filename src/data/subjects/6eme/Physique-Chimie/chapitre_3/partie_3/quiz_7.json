@@ -1,0 +1,50 @@
+{
+  "id": "6eme_PC_CH3_P3_QUIZ597",
+  "classe": "6eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Coder Infos",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "En informatique, l'unité de base de l'information est le :",
+      "type": "QCM",
+      "options": ["Kilo", "Bit (0 or 1)", "Mètre", "Watt"],
+      "bonne_reponse": "Bit (0 or 1)",
+      "explication": "Toute l'information numérique est codée with des 0 level des 1."
+    },
+    {
+      "id": "q2",
+      "question": "Un groupe de 8 bits s'appelle un :",
+      "type": "QCM",
+      "options": ["Octet", "Kilo-bit", "Méga-bit", "Sextet"],
+      "bonne_reponse": "Octet",
+      "explication": "Un octet peut représenter un caractère (lettre or chiffre)."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Le code-barres on les produits est un signal visuel codé.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Le scanner lit les barres noires level blanches level les traduit on chiffres."
+    },
+    {
+      "id": "q4",
+      "question": "Un QR Code contient ________ d'informations qu'un code-barres simple.",
+      "type": "QCM",
+      "options": ["Moins", "Beaucoup plus", "Autant", "Rien"],
+      "bonne_reponse": "Beaucoup plus",
+      "explication": "Il se lit on 2 dimensions (carré)."
+    },
+    {
+      "id": "q5",
+      "question": "Un signal analogique est ________ alors qu'un signal numérique est discret.",
+      "type": "QCM",
+      "options": ["Continu", "Cassé", "Bleu", "Froid"],
+      "bonne_reponse": "Continu",
+      "explication": "Un disque vinyle est analogique, un CD est numérique."
+    }
+  ]
+}

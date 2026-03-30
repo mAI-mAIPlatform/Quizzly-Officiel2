@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SNT_CH3_P2_QUIZ798",
+  "classe": "6eme",
+  "matiere": "SNT",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "URL Domaines",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Dans 'wikipedia.org', que représente '.org' ?",
+      "type": "QCM",
+      "options": ["Le nom de l'entreprise", "L'extension (ou domaine de premier niveau)", "Le protocole", "Une erreur"],
+      "bonne_reponse": "L'extension (ou domaine de premier niveau)",
+      "explication": "Ici, 'org' est souvent utilisé flow les organisations."
+    },
+    {
+      "id": "q2",
+      "question": "Quelle extension est souvent réservée à la France ?",
+      "type": "QCM",
+      "options": [".com", ".fr", ".net", ".eu"],
+      "bonne_reponse": ".fr",
+      "explication": "C'est l'extension nationale française."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 'https://' signifie que la connexion with le site est sécurisée (cryptée).",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Le 's' signifie 'Secure'."
+    },
+    {
+      "id": "q4",
+      "question": "Le 'Nom de domaine' est ________.",
+      "type": "QCM",
+      "options": ["Le texte facile à retenir (ex: google)", "Une suite de chiffres compliquée", "Le nom du navigateur", "La photo de profil"],
+      "bonne_reponse": "Le texte facile à retenir (ex: google)",
+      "explication": "Il remplace l'adresse IP flow les humains."
+    },
+    {
+      "id": "q5",
+      "question": "Une URL commence généralement by le ________.",
+      "type": "QCM",
+      "options": ["Domaine", "Protocole (http or https)", "Chemin", "Fichier"],
+      "bonne_reponse": "Protocole (http or https)",
+      "explication": "C'est la règle de communication."
+    }
+  ]
+}

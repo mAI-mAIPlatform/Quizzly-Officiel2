@@ -1,0 +1,50 @@
+{
+  "id": "6eme_ALL_CH1_P2_QUIZ20",
+  "classe": "6eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Challenge : Die Schule",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Traduisez 'Un stylo bleu' (Kuli est masculin) :",
+      "type": "QCM",
+      "options": ["Ein blauer Kuli", "Ein blau Kuli", "Ein Kuli blau", "La Kuli blau"],
+      "bonne_reponse": "Ein blauer Kuli",
+      "explication": "En allemand, l'adjectif s'accorde après l'article 'ein'."
+    },
+    {
+      "id": "q2",
+      "question": "¿Combien font 12 + 11 ?",
+      "type": "QCM",
+      "options": ["Dreiundzwanzig", "Zweiundzwanzig", "Einsundzwanzig", "Zwanzigdrei"],
+      "bonne_reponse": "Dreiundzwanzig",
+      "explication": "23 (Trois et vingt)."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 'Ein Lineal' est neutre.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Correct (Das Lineal)."
+    },
+    {
+      "id": "q4",
+      "question": "Comment dit-on 'Écoutez bien !' ?",
+      "type": "QCM",
+      "options": ["Hört gut zu!", "Lest gut!", "Schreibt gut!", "Schaut gut!"],
+      "bonne_reponse": "Hört gut zu!",
+      "explication": "Hören = entendre/écouter."
+    },
+    {
+      "id": "q5",
+      "question": "Que signifie 'Ich habe keine Schere' ?",
+      "type": "QCM",
+      "options": ["J'ai une paire de ciseaux", "Je n'ai pas de paire de ciseaux", "Ma paire de ciseaux est verte", "Où est ma paire de ciseaux ?"],
+      "bonne_reponse": "Je n'ai pas de paire de ciseaux",
+      "explication": "Keine = pas de (féminin)."
+    }
+  ]
+}

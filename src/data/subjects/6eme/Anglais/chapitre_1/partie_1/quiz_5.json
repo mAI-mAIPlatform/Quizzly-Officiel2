@@ -1,0 +1,50 @@
+{
+  "id": "6eme_ANG_CH1_P1_QUIZ5",
+  "classe": "6eme",
+  "matiere": "Anglais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Days of the week",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel jour vient après 'Monday' ?",
+      "type": "QCM",
+      "options": ["Friday", "Tuesday", "Thursday", "Wednesday"],
+      "bonne_reponse": "Tuesday",
+      "explication": "Monday (Lundi), Tuesday (Mardi)."
+    },
+    {
+      "id": "q2",
+      "question": "Comment dit-on 'Samedi' ?",
+      "type": "QCM",
+      "options": ["Sunday", "Saturday", "Friday", "Thursday"],
+      "bonne_reponse": "Saturday",
+      "explication": "Saturday = Samedi."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Tous les noms de jours en anglais se terminent par '-day'.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "'Day' signifie jour."
+    },
+    {
+      "id": "q4",
+      "question": "Lequel est le jour du milieu de la semaine scolaire ?",
+      "type": "QCM",
+      "options": ["Tuesday", "Wednesday", "Monday", "Friday"],
+      "bonne_reponse": "Wednesday",
+      "explication": "Wednesday = Mercredi."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on la fin de la semaine (samedi et dimanche) ?",
+      "type": "QCM",
+      "options": ["Weekstart", "The weekend", "Workdays", "Holydays"],
+      "bonne_reponse": "The weekend",
+      "explication": "'End' signifie fin."
+    }
+  ]
+}

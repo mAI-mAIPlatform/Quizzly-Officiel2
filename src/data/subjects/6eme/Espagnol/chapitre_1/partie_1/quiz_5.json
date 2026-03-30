@@ -1,0 +1,50 @@
+{
+  "id": "6eme_ESP_CH1_P1_QUIZ5",
+  "classe": "6eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Origen y Nacionalidad",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment demande-t-on 'D'où viens-tu ?'",
+      "type": "QCM",
+      "options": ["¿Cómo te llamas?", "¿De dónde eres?", "¿Dónde vives?", "¿Qué hora es?"],
+      "bonne_reponse": "¿De dónde eres?",
+      "explication": "On demande l'origine."
+    },
+    {
+      "id": "q2",
+      "question": "Comment dit-on 'Je suis français' ?",
+      "type": "QCM",
+      "options": ["Soy español", "Soy francés", "Soy inglés", "Soy alemán"],
+      "bonne_reponse": "Soy français",
+      "explication": "Soy = Je suis (verbe SER)."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 'Espagne' se dit 'España'.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Prononcez le 'ñ' comme 'gn' (Espania)."
+    },
+    {
+      "id": "q4",
+      "question": "Traduisez 'Je suis espagnole' (fille) :",
+      "type": "QCM",
+      "options": ["Soy española", "Soy español", "Soy de España", "Les deux corrects"],
+      "bonne_reponse": "Les deux corrects",
+      "explication": "On peut donner la nationalité ou le pays d'origine."
+    },
+    {
+      "id": "q5",
+      "question": "¿De dónde es Lionel Messi?",
+      "type": "QCM",
+      "options": ["De España", "De Argentina", "De Francia", "De México"],
+      "bonne_reponse": "De Argentina",
+      "explication": "Messi est argentin."
+    }
+  ]
+}

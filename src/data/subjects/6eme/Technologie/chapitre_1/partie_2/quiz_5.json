@@ -1,0 +1,50 @@
+{
+  "id": "6eme_TEC_CH1_P2_QUIZ15",
+  "classe": "6eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Transmettre le Mouvement",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une transmission de mouvement ?",
+      "type": "QCM",
+      "options": ["Changer la couleur du mouvement", "Envoyer le mouvement d'une pièce à une autre sans le changer", "Arrêter le mouvement", "Détruire l'objet"],
+      "bonne_reponse": "Envoyer le mouvement d'une pièce à une autre sans le changer",
+      "explication": "D'une roue à une autre par exemple."
+    },
+    {
+      "id": "q2",
+      "question": "Lequel de ces systèmes utilise des 'dents' ?",
+      "type": "QCM",
+      "options": ["La poulie", "L'engrenage", "La courroie", "Le levier"],
+      "bonne_reponse": "L'engrenage",
+      "explication": "Les dents des roues s'emboîtent entre elles."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Une chaîne de vélo relie le plateau aux pignons.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est une transmission par chaîne et pignons."
+    },
+    {
+      "id": "q4",
+      "question": "Quel système trouve-t-on souvent sur un moteur de voiture pour relier l'alternateur ?",
+      "type": "QCM",
+      "options": ["Une courroie", "Une échelle", "Une vis sans fin", "Une corde"],
+      "bonne_reponse": "Une courroie",
+      "explication": "Elle relie deux poulies."
+    },
+    {
+      "id": "q5",
+      "question": "Si une roue dentée tourne, celle qui est engrenée avec elle tourne :",
+      "type": "QCM",
+      "options": ["Dans le même sens", "Dans le sens inverse", "Elle ne bouge pas", "Par intermittence"],
+      "bonne_reponse": "Dans le sens inverse",
+      "explication": "Sauf s'il y a une roue intermédiaire."
+    }
+  ]
+}

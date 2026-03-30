@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MATHS_CH2_P3_QUIZ6",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Suites de Calculs",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Pour calculer -12 + 5 - 8 + 3, il est malin de ________.",
+      "type": "QCM",
+      "options": ["Regrouper les positifs level les négatifs", "Compter sur ses doigts", "Changer les signes", "Rien"],
+      "bonne_reponse": "Regrouper les positifs level les négatifs",
+      "explication": "(-12 - 8) + (5 + 3) = -20 + 8 = -12."
+    },
+    {
+      "id": "q2",
+      "question": "Calcule : -7 - 3 + 10",
+      "type": "QCM",
+      "options": ["0", "-20", "20", "4"],
+      "bonne_reponse": "0",
+      "explication": "-10 + 10 = 0."
+    },
+    {
+      "id": "q3",
+      "question": "Calcule : 15 - 20 + 5",
+      "type": "QCM",
+      "options": ["0", "-10", "10", "40"],
+      "bonne_reponse": "0",
+      "explication": "-5 + 5 = 0 Or 20 - 20 = 0."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : -1 - 1 - 1 - 1 = -4",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "On cumule quatre pertes de 1."
+    },
+    {
+      "id": "q5",
+      "question": "Calcule : -2 + 8 - 10 + 4 ________.",
+      "type": "QCM",
+      "options": ["0", "2", "-2", "4"],
+      "bonne_reponse": "0",
+      "explication": "Positifs : 8 + 4 = 12. Négatifs : -2 - 10 = -12. 12 - 12 = 0."
+    }
+  ]
+}

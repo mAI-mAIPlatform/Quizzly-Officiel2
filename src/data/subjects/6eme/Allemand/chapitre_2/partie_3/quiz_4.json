@@ -1,0 +1,50 @@
+{
+  "id": "6eme_ALL_CH2_P3_QUIZ224",
+  "classe": "6eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Dein, deine...",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment dit-on 'ton frère' ?",
+      "type": "QCM",
+      "options": ["Dein Bruder", "Deine Bruder", "Deiner Bruder", "Dein Schwester"],
+      "bonne_reponse": "Dein Bruder",
+      "explication": "Bruder est masculin, on utilise 'dein'."
+    },
+    {
+      "id": "q2",
+      "question": "Translate: 'Ta sœur' ",
+      "type": "QCM",
+      "options": ["Dein Schwester", "Deine Schwester", "Deina Schwester", "Deiner Schwester"],
+      "bonne_reponse": "Deine Schwester",
+      "explication": "Schwester est féminin, on ajoute 'e' : 'deine'."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 'Deine Eltern' signifie 'tes parents'.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": " 'Deine' s'utilise aussi pour le pluriel."
+    },
+    {
+      "id": "q4",
+      "question": " 'Ist das ___ Vater?' (Est-ce ton père ?) :",
+      "type": "QCM",
+      "options": ["dein", "deine", "deiner", "deines"],
+      "bonne_reponse": "dein",
+      "explication": "Vater est masculin."
+    },
+    {
+      "id": "q5",
+      "question": " '___ Mutter' (Ta mère) :",
+      "type": "QCM",
+      "options": ["Dein", "Deine", "Deina", "Deiner"],
+      "bonne_reponse": "Deine",
+      "explication": "Mutter est féminin."
+    }
+  ]
+}

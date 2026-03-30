@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ANG_CH2_P3_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Anglais",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Directions",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment dit-on 'Tourner à gauche' en anglais ?",
+      "type": "courte",
+      "reponsesAttendues": ["turn left"],
+      "explication": "Turn left (Tourner à gauche)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Go straight on' signifie 'Tourner à droite'.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "'Go straight on' signifie 'Aller tout droit'. 'Tourner à droite' se dit 'turn right'."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les directions à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Take the second right", "right": "Prenez la deuxième à droite" },
+        { "left": "Cross the road", "right": "Traversez la route" },
+        { "left": "On the corner", "right": "Au coin / À l'angle" }
+      ],
+      "explication": "Voici comment guider quelqu'un dans la rue."
+    },
+    {
+      "id": "q4",
+      "question": "Complète l'indication : {{1}} left at the traffic lights.",
+      "type": "trous",
+      "reponsesAttendues": ["Turn"],
+      "explication": "Turn left (Tournez à gauche)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'Traverser le pont' on anglais ?",
+      "type": "courte",
+      "reponsesAttendues": ["cross the bridge"],
+      "explication": "Cross (Traverser) + the bridge (le pont)."
+    }
+  ]
+}

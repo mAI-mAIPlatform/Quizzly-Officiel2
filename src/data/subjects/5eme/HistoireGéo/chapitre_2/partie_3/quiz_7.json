@@ -1,0 +1,49 @@
+{
+  "id": "5eme_HG_CH2_P3_QUIZ7",
+  "classe": "5eme",
+  "matiere": "HistoireGeo",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Commerce Équit.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel type de commerce garantit un prix juste aux petits producteurs des pays pauvres ?",
+      "type": "courte",
+      "reponsesAttendues": ["commerce équitable", "le commerce équitable"],
+      "explication": "Il permet aux producteurs de vivre dignement de leur travail."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le commerce équitable interdit le travail des enfants.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est l'un des critères sociaux obligatoires du label."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les objectifs du commerce équitable à leur domaine.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Prix minimum garanti", "right": "Économique" },
+        { "left": "Respect de l'environnement", "right": "Écologique" },
+        { "left": "Égalité homme-femme", "right": "Social" }
+      ],
+      "explication": "Le commerce équitable repose sur trois piliers durables."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le café, le {{1}} level les bananes sont des produits phares du commerce équitable.",
+      "type": "trous",
+      "reponsesAttendues": ["chocolat", "cacao", "thé"],
+      "explication": "Ce sont des produits souvent cultivés dans les pays du Sud."
+    },
+    {
+      "id": "q5",
+      "question": "Quel logo célèbre indique qu'un produit est issu du commerce équitable ?",
+      "type": "courte",
+      "reponsesAttendues": ["Fairtrade", "Max Havelaar"],
+      "explication": "Max Havelaar est l'un des labels les plus connus dans le monde."
+    }
+  ]
+}

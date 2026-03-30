@@ -1,0 +1,50 @@
+{
+  "id": "6eme_ARTS_CH1_P1_QUIZ2",
+  "classe": "6eme",
+  "matiere": "Arts Plastiques",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Les Couleurs Secondaires",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment obtient-on une couleur secondaire ?",
+      "type": "QCM",
+      "options": ["En mélangeant deux couleurs primaires", "En ajoutant du noir", "En achetant un nouveau tube", "En dessinant au crayon"],
+      "bonne_reponse": "En mélangeant deux couleurs primaires",
+      "explication": "C'est le résultat du mélange de deux bases."
+    },
+    {
+      "id": "q2",
+      "question": "Quelles sont les trois couleurs secondaires principales ?",
+      "type": "QCM",
+      "options": ["Rouge, Bleu, Jaune", "Orange, Vert, Violet", "Marron, Rose, Gris", "Noir, Blanc, Cyan"],
+      "bonne_reponse": "Orange, Vert, Violet",
+      "explication": "Rouge+Jaune=Orange, Jaune+Bleu=Vert, Bleu+Rouge=Violet."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Le vert est obtenu en mélangeant du bleu et du jaune.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est une règle de base du cercle chromatique."
+    },
+    {
+      "id": "q4",
+      "question": "Quelle couleur obtient-on en mélangeant du rouge et du bleu ?",
+      "type": "QCM",
+      "options": ["Du Vert", "Du Violet", "Du Orange", "Du Marron"],
+      "bonne_reponse": "Du Violet",
+      "explication": "Le violet est une couleur dite 'froide' ou 'mystérieuse'."
+    },
+    {
+      "id": "q5",
+      "question": "Dans le cercle chromatique, les secondaires se situent :",
+      "type": "QCM",
+      "options": ["Au centre", "Entre les deux primaires qui les composent", "Tout autour", "Elles n'y sont pas"],
+      "bonne_reponse": "Entre les deux primaires qui les composent",
+      "explication": "Cela permet de voir visuellement la logique des mélanges."
+    }
+  ]
+}

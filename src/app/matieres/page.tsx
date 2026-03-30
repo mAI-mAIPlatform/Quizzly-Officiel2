@@ -4,43 +4,35 @@
 import { useState } from "react";
 import Link from "next/link";
 
-const NIVEAUX = [
-  { id: "debutant", nom: "Débutant" },
-  { id: "entrainement", nom: "Entraînement" },
-  { id: "etudiant", nom: "Étudiant" },
-  { id: "difficile", nom: "Difficile" },
-  { id: "expert", nom: "Expert" },
-  { id: "savant", nom: "Savant" },
-  { id: "genie", nom: "Génie" },
+const CLASSES = [
+  { id: "6eme", nom: "6ème" },
+  { id: "5eme", nom: "5ème" },
+  { id: "4eme", nom: "4ème" },
+  { id: "3eme", nom: "3ème" },
+  { id: "2nde", nom: "2nde" },
+  { id: "1ere", nom: "1ère" },
+  { id: "terminale", nom: "Terminale" },
 ];
 
 const MATIERES = [
-  { id: 'maths', nom: 'Mathématiques', color: 'from-blue-500 to-cyan-400', icon: '🧮', dispo: true },
-  { id: 'francais', nom: 'Français', color: 'from-purple-500 to-pink-400', icon: '🖋️', dispo: true },
-  { id: 'histoire', nom: 'Histoire-Géo', color: 'from-orange-500 to-yellow-400', icon: '🏛️', dispo: true },
-  { id: 'svt', nom: 'SVT', icon: '🌿', color: 'from-green to-emerald-500', dispo: true },
-  { id: 'physique', nom: 'Physique-Chimie', icon: '🧪', color: 'from-violet to-purple-500', dispo: true },
-  { id: "anglais", nom: "Anglais", icon: "🗣️", color: "from-rose-500 to-red-600", dispo: true },
-  { id: "culture-generale", nom: "Culture Générale", icon: "🌍", color: "from-indigo-500 to-purple-600", dispo: true },
-  { id: "latin", nom: "Latin", icon: "📜", color: "from-amber-700 to-yellow-900", dispo: true },
-  { id: "musique", nom: "Education Musicale", icon: "🎵", color: "from-pink-400 to-rose-600", dispo: true },
-  { id: "html", nom: "HTML", icon: "🌐", color: "from-orange-400 to-red-500", dispo: true },
-  { id: "javascript", nom: "JavaScript", icon: "🟨", color: "from-yellow-300 to-amber-500", dispo: true },
-  { id: "python", nom: "Python", icon: "🐍", color: "from-blue-600 to-green-500", dispo: true },
-  { id: "italien", nom: "Italien", icon: "🇮🇹", color: "from-green-500 to-red-500", dispo: true },
-  { id: "portugais", nom: "Portugais", icon: "🇵🇹", color: "from-red-600 to-green-700", dispo: true },
-  { id: "grec", nom: "Grec", icon: "🏺", color: "from-blue-400 to-blue-800", dispo: true },
-  { id: "espagnol", nom: "Espagnol", icon: "🇪🇸", color: "from-yellow-400 to-orange-500", dispo: true },
-  { id: "allemand", nom: "Allemand", icon: "🇩🇪", color: "from-gray-700 to-black", dispo: true },
-  { id: "techno", nom: "Technologie", icon: "⚙️", color: "from-slate-500 to-blue-600", dispo: true },
-  { id: "emc", nom: "EMC", icon: "⚖️", color: "from-blue-600 to-red-600", dispo: true },
-  { id: "ses", nom: "SES", icon: "📈", color: "from-emerald-400 to-teal-600", dispo: true },
-  { id: "snt", nom: "SNT", icon: "💻", color: "from-cyan-500 to-blue-500", dispo: true },
-  { id: "philo", nom: "Philosphie", icon: "🧘", color: "from-indigo-400 to-purple-600", dispo: true },
+  { id: 'Maths', nom: 'Mathématiques', color: 'from-blue-500 to-cyan-400', icon: '🧮', dispo: true },
+  { id: 'Francais', nom: 'Français', color: 'from-purple-500 to-pink-400', icon: '🖋️', dispo: true },
+  { id: 'HistoireGeo', nom: 'Histoire-Géo', color: 'from-orange-500 to-yellow-400', icon: '🏛️', dispo: true },
+  { id: 'SVT', nom: 'SVT', icon: '🌿', color: 'from-green to-emerald-500', dispo: true },
+  { id: 'PhysiqueChimie', nom: 'Physique-Chimie', icon: '🧪', color: 'from-violet to-purple-500', dispo: true },
+  { id: "Anglais", nom: "Anglais", icon: "🗣️", color: "from-rose-500 to-red-600", dispo: true },
+  { id: "Espagnol", nom: "Espagnol", icon: "🇪🇸", color: "from-yellow-400 to-orange-500", dispo: true },
+  { id: "Allemand", nom: "Allemand", icon: "🇩🇪", color: "from-gray-700 to-black", dispo: true },
+  { id: "SES", nom: "SES", icon: "📈", color: "from-emerald-400 to-teal-600", dispo: true },
+  { id: "Philosophie", nom: "Philosophie", icon: "🧘", color: "from-indigo-400 to-purple-600", dispo: true },
+  { id: "Technologie", nom: "Technologie", icon: "⚙️", color: "from-slate-500 to-blue-600", dispo: true },
+  { id: "EMC", nom: "EMC", icon: "⚖️", color: "from-blue-600 to-red-600", dispo: true },
+  { id: "ArtsPlastiques", nom: "Arts Plastiques", icon: "🎨", color: "from-pink-400 to-rose-600", dispo: true },
+  { id: "Musique", nom: "Éducation Musicale", icon: "🎵", color: "from-pink-400 to-rose-600", dispo: true },
 ];
 
 export default function MatieresPage() {
-  const [activeNiveau, setActiveNiveau] = useState("debutant");
+  const [activeClasse, setActiveClasse] = useState("6eme");
 
   return (
     <div className="flex flex-col gap-8 w-full max-w-5xl mx-auto text-foreground relative z-10 animate-in fade-in duration-500">
@@ -51,19 +43,19 @@ export default function MatieresPage() {
         <p className="opacity-80 text-lg">Choisis ta classe et explore les chapitres disponibles pour t'entraîner.</p>
       </header>
 
-      {/* Selector de Niveaux */}
+      {/* Selector de Classes */}
       <div className="flex overflow-x-auto pb-2 gap-2 snap-x hide-scrollbar">
-        {NIVEAUX.map(niv => (
+        {CLASSES.map(cls => (
           <button
-            key={niv.id}
-            onClick={() => setActiveNiveau(niv.id)}
+            key={cls.id}
+            onClick={() => setActiveClasse(cls.id)}
             className={`px-6 py-3 rounded-2xl font-bold font-space whitespace-nowrap transition-all snap-center ${
-              activeNiveau === niv.id 
+              activeClasse === cls.id 
                 ? "bg-primary text-primary-foreground shadow-lg shadow-primary/20 scale-105" 
                 : "glass hover:bg-foreground/5 opacity-70 hover:opacity-100"
             }`}
           >
-            {niv.nom}
+            {cls.nom}
           </button>
         ))}
       </div>
@@ -74,7 +66,7 @@ export default function MatieresPage() {
           <div key={matiere.id} className="relative group">
             {matiere.dispo ? (
               <Link 
-                href={`/matiere/${matiere.id}-${activeNiveau}`}
+                href={`/matiere/${matiere.id}-${activeClasse}`}
                 className="glass p-6 rounded-3xl flex flex-col items-center text-center gap-4 hover:border-primary/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-xl cursor-pointer block h-full overflow-hidden"
               >
                 <div className="absolute top-0 right-0 w-32 h-32 opacity-20 bg-gradient-to-br blur-2xl group-hover:opacity-40 transition-opacity duration-500" style={{ backgroundImage: `linear-gradient(to bottom right, var(--tw-gradient-stops))` }}></div>

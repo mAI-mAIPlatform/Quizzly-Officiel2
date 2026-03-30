@@ -1,0 +1,50 @@
+{
+  "id": "5eme_FRANCAIS_CH1_P3_QUIZ7",
+  "classe": "5eme",
+  "matiere": "Francais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Le Futur",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelles sont les terminaisons du futur simple ?",
+      "type": "QCM",
+      "options": ["-ais, -ais, -ait, -ions, -iez, -aient", "-ai, -as, -a, -ons, -ez, -ont", "-e, -es, -e, -ons, -ez, -ent", "-rai, -ras, -ra, -rons, -rez, -ront"],
+      "bonne_reponse": "-ai, -as, -a, -ons, -ez, -ont",
+      "explication": "On ajoute ces terminaisons à l'infinitif."
+    },
+    {
+      "id": "q2",
+      "question": "Sur quel radical se construit le futur ?",
+      "type": "QCM",
+      "options": ["Le présent", "L'infinitif (en général)", "Le passé simple", "Le radical latin"],
+      "bonne_reponse": "L'infinitif (en général)",
+      "explication": "Ex: Chanter -> chanter + ai."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Tous les verbes au futur ont un 'r' avant la terminaison.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Le 'r' est la marque caractéristique du futur."
+    },
+    {
+      "id": "q4",
+      "question": "Conjuguez 'être' au futur (je).",
+      "type": "QCM",
+      "options": ["Je serai", "Je serais", "Je suis", "Je ferais"],
+      "bonne_reponse": "Je serai",
+      "explication": "Radical irrégulier 'ser-'."
+    },
+    {
+      "id": "q5",
+      "question": "'Nous ______ (verbe faire) cela demain.'",
+      "type": "QCM",
+      "options": ["Ferons", "Faisons", "Faitons", "Feront"],
+      "bonne_reponse": "Ferons",
+      "explication": "Faire -> fer- (au futur)."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH2_P1_QUIZ6",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Cond. or Isolant ?",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Un matériau conducteur ________.",
+      "type": "QCM",
+      "options": ["Laisse passer le courant électrique", "Bloque le courant", "Change la couleur des fils", "Rien"],
+      "bonne_reponse": "Laisse passer le courant électrique",
+      "explication": "Les métaux sont de bons conducteurs."
+    },
+    {
+      "id": "q2",
+      "question": "Un matériau isolant ________.",
+      "type": "QCM",
+      "options": ["Ne laisse pas passer le courant", "Permet de chauffer l'eau", "Laisse tout passer", "Rien"],
+      "bonne_reponse": "Ne laisse pas passer le courant",
+      "explication": "Le plastique, le verre level le bois sec sont des isolants."
+    },
+    {
+      "id": "q3",
+      "question": "Quel métal est le plus utilisé flow les fils électriques ?",
+      "type": "QCM",
+      "options": ["Le cuivre", "Le fer", "L'or", "Le plomb"],
+      "bonne_reponse": "Le cuivre",
+      "explication": "Il est très bon conducteur level peu coûteux."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : Le graphite (mine de crayon) est conducteur.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est une forme de carbone qui laisse passer le courant."
+    },
+    {
+      "id": "q5",
+      "question": "Pourquoi recouvre-t-on les fils de plastique ?",
+      "type": "QCM",
+      "options": ["Pour isoler level éviter les court-circuits or électrisations", "Pour que ce soit plus joli", "Pour les rendre plus lourds", "Rien"],
+      "bonne_reponse": "Pour isoler level éviter les court-circuits or électrisations",
+      "explication": "Le plastique protège l'utilisateur du contact avec le métal sous tension."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "6eme_TEC_CH2_P1_QUIZ239",
+  "classe": "6eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Découvrir l'électricité",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un isolant électrique ?",
+      "type": "QCM",
+      "options": ["Une matière qui laisse passer le courant", "Une matière qui bloque le courant", "Un type de batterie", "Une lampe"],
+      "bonne_reponse": "Une matière qui bloque le courant",
+      "explication": "Le plastique and le bois sont des isolants."
+    },
+    {
+      "id": "q2",
+      "question": "Quel métal est très utilisé pour les fils électriques ?",
+      "type": "QCM",
+      "options": ["Le fer", "Le cuivre", "L'aluminium", "Le plomb"],
+      "bonne_reponse": "Le cuivre",
+      "explication": "C'est un excellent conducteur."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : L'eau est conductrice d'électricité.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est pour cela qu'il faut être prudent près des sources d'eau."
+    },
+    {
+      "id": "q4",
+      "question": "L'unité de mesure de la tension électrique est :",
+      "type": "QCM",
+      "options": ["Le Volt (V)", "Le Mètre (m)", "Le Kilogramme (kg)", "Le Litre (L)"],
+      "bonne_reponse": "Le Volt (V)",
+      "explication": "On mesure la tension entre deux bornes."
+    },
+    {
+      "id": "q5",
+      "question": "Un court-circuit se produit quand :",
+      "type": "QCM",
+      "options": ["On éteint la lumière", "Les deux fils se touchent sans composant entre eux", "La pile est vide", "L'ampoule est grillée"],
+      "bonne_reponse": "Les deux fils se touchent sans composant entre eux",
+      "explication": "C'est dangereux and peut provoquer un incendie."
+    }
+  ]
+}

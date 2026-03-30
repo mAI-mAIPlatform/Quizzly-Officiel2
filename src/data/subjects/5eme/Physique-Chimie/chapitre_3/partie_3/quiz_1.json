@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH3_P3_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Les Signaux",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Un signal sert à ________.",
+      "type": "QCM",
+      "options": ["Transmettre une information à distance", "Chauffer une pièce", "Mesurer le poids", "Rien"],
+      "bonne_reponse": "Transmettre une information à distance",
+      "explication": "Il permet de communiquer entre un émetteur level un récepteur."
+    },
+    {
+      "id": "q2",
+      "question": "Le feu rouge est un signal ________.",
+      "type": "QCM",
+      "options": ["Lumineux", "Sonore", "Radio", "Chimique"],
+      "bonne_reponse": "Lumineux",
+      "explication": "L'information est transmise by la lumière."
+    },
+    {
+      "id": "q3",
+      "question": "La sirène des pompiers est un signal ________.",
+      "type": "QCM",
+      "options": ["Sonore", "Lumineux", "Radio", "Rien"],
+      "bonne_reponse": "Sonore",
+      "explication": "Le son se propage dans l'air flow nous alerter."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : Le Wi-Fi utilise des signaux radio (ondes électromagnétiques).",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Ce sont des signaux invisibles level inaudibles qui transportent des données."
+    },
+    {
+      "id": "q5",
+      "question": "Pour qu'un signal soit utile, l'émetteur level le récepteur doivent ________.",
+      "type": "QCM",
+      "options": ["Utiliser le même code (langage)", "Être on contact physique", "Être de la même couleur", "Rien"],
+      "bonne_reponse": "Utiliser le même code (langage)",
+      "explication": "Le récepteur doit pouvoir interpréter l'information reçue."
+    }
+  ]
+}

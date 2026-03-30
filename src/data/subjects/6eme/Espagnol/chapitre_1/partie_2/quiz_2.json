@@ -1,0 +1,50 @@
+{
+  "id": "6eme_ESP_CH1_P2_QUIZ12",
+  "classe": "6eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "En la clase",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment dit-on 'Le tableau' ?",
+      "type": "QCM",
+      "options": ["La mesa", "La pizarra", "La silla", "La puerta"],
+      "bonne_reponse": "La pizarra",
+      "explication": "Pizarra = Tableau noir/blanc."
+    },
+    {
+      "id": "q2",
+      "question": "Que signifie 'La silla' ?",
+      "type": "QCM",
+      "options": ["La table", "La chaise", "La fenêtre", "Le plafond"],
+      "bonne_reponse": "La chaise",
+      "explication": "Silla = Chaise."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 'La ventana' signifie 'La fenêtre'.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Prononcez [bentana]."
+    },
+    {
+      "id": "q4",
+      "question": "Comment dit-on 'Le professeur' ?",
+      "type": "QCM",
+      "options": ["El alumno", "El profesor", "El director", "El cartero"],
+      "bonne_reponse": "El profesor",
+      "explication": "Très proche du français."
+    },
+    {
+      "id": "q5",
+      "question": "Traduisez 'La table' :",
+      "type": "QCM",
+      "options": ["La mesa", "El pupitre", "La silla", "Les deux premiers"],
+      "bonne_reponse": "Les deux premiers",
+      "explication": "Mesa est la table générale, pupitre le bureau de l'élève."
+    }
+  ]
+}

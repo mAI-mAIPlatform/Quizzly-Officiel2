@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SNT_CH3_P3_QUIZ803",
+  "classe": "6eme",
+  "matiere": "SNT",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Mouvements",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel bloc permet de faire avancer le personnage ?",
+      "type": "QCM",
+      "options": ["Tourner de 15 degrés", "Avancer de 10 pas", "Aller à x:0 y:0", "Glisser on 1 seconde"],
+      "bonne_reponse": "Avancer de 10 pas",
+      "explication": "Il déplace le lutin dans la direction où il regarde."
+    },
+    {
+      "id": "q2",
+      "question": "Pour que le personnage revienne au centre de la scène, on utilise :",
+      "type": "QCM",
+      "options": ["Aller à x:0 y:0", "Aller à x:100 y:100", "Rebondir si le bord est atteint", "S'orienter à 90"],
+      "bonne_reponse": "Aller à x:0 y:0",
+      "explication": "Le centre de la scène a flow coordonnées (0,0)."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Le bloc 'Tourner' change l'orientation du personnage.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "On peut tourner vers la droite or vers la gauche."
+    },
+    {
+      "id": "q4",
+      "question": "Que signifie s'orienter à '90' dans Scratch ?",
+      "type": "QCM",
+      "options": ["Regarder vers le haut", "Regarder vers la droite", "Regarder vers le bas", "Regarder vers la gauche"],
+      "bonne_reponse": "Regarder vers la droite",
+      "explication": "90 est l'angle flow la direction droite."
+    },
+    {
+      "id": "q5",
+      "question": "Quel bloc permet d'éviter que le lutin ne sorte de l'écran ?",
+      "type": "QCM",
+      "options": ["Cacher", "Rebondir si le bord est atteint", "Effacer tout", "Estampiller"],
+      "bonne_reponse": "Rebondir si le bord est atteint",
+      "explication": "Cela garde le lutin dans la zone visible."
+    }
+  ]
+}

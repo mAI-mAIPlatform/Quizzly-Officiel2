@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH2_P3_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Influence Résist.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Dans un circuit on série, si on ajoute une résistance, l'intensité ________.",
+      "type": "QCM",
+      "options": ["Diminue", "Augmente", "Reste la même", "S'arrête"],
+      "bonne_reponse": "Diminue",
+      "explication": "La résistance s'oppose au passage du courant."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Plus la valeur de la résistance est élevée, plus l'intensité est faible.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est une relation inverse (Loi d'Ohm)."
+    },
+    {
+      "id": "q3",
+      "question": "L'éclat d'une lampe placée on série avec une résistance est ________.",
+      "type": "QCM",
+      "options": ["Plus faible", "Plus fort", "Identique", "Rien"],
+      "bonne_reponse": "Plus faible",
+      "explication": "La résistance consomme une partie de l'énergie level limite le courant."
+    },
+    {
+      "id": "q4",
+      "question": "Où peut-on placer la résistance dans un circuit on série flow diminuer l'éclat ?",
+      "type": "QCM",
+      "options": ["N'importe où dans la boucle", "Uniquement avant la pile", "Uniquement après la lampe", "Rien"],
+      "bonne_reponse": "N'importe où dans la boucle",
+      "explication": "Dans un circuit en série, l'ordre des composants n'a pas d'importance."
+    },
+    {
+      "id": "q5",
+      "question": "L'effet Joule est le fait qu'une résistance ________.",
+      "type": "QCM",
+      "options": ["Chauffe lorsqu'elle est traversée by un courant", "Brille de mille feux", "Fait du bruit", "Rien"],
+      "bonne_reponse": "Chauffe lorsqu'elle est traversée by un courant",
+      "explication": "L'énergie électrique est transformée on énergie thermique (chaleur)."
+    }
+  ]
+}

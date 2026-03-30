@@ -1,0 +1,52 @@
+{
+  "id": "6eme_ESP_CH1_P1_QUIZ1",
+  "classe": "6eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Saludos y Despedidas",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment dit-on 'Bonjour' en espagnol ?",
+      "type": "QCM",
+      "options": ["Hola", "Buenos días", "Buenas noches", "Adiós"],
+      "bonne_reponse": "Buenos días",
+      "explication": "'Buenos días' s'utilise le matin. 'Hola' est plus informel (Salut)."],
+      "bonne_reponse": "Buenos días",
+      "explication": "On l'utilise jusqu'à l'heure du déjeuner."
+    },
+    {
+      "id": "q2",
+      "question": "Comment dit-on 'Salut' ?",
+      "type": "QCM",
+      "options": ["Hola", "Adiós", "Gracias", "Por favor"],
+      "bonne_reponse": "Hola",
+      "explication": "Attention, le 'h' ne se prononce jamais en espagnol !"
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 'Buenas tardes' signifie 'Bonsoir'.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "On l'utilise de l'après-midi jusqu'à la tombée de la nuit."
+    },
+    {
+      "id": "q4",
+      "question": "Comment dit-on 'Au revoir' ?",
+      "type": "QCM",
+      "options": ["Hola", "Adiós", "Perdón", "Bienvenido"],
+      "bonne_reponse": "Adiós",
+      "explication": "Prononcez bien l'accent sur le 'o'."
+    },
+    {
+      "id": "q5",
+      "question": "Que signifie 'Hasta luego' ?",
+      "type": "QCM",
+      "options": ["À plus tard", "À demain", "Bienvenue", "Enchanté"],
+      "bonne_reponse": "À plus tard",
+      "explication": "'Hasta' veut dire 'jusqu'à'."
+    }
+  ]
+}

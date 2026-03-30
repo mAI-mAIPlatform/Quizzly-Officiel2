@@ -1,0 +1,50 @@
+{
+  "id": "6eme_Francais_CH1_P1_QUIZ5",
+  "classe": "6eme",
+  "matiere": "Francais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Les mots invariables",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un mot invariable ?",
+      "type": "QCM",
+      "options": ["Un mot qui change souvent", "Un mot qui ne change jamais d'orthographe", "Un mot qui n'a pas de sens", "Un verbe conjugué"],
+      "bonne_reponse": "Un mot qui ne change jamais d'orthographe",
+      "explication": "Les mots invariables ne prennent jamais de marque de genre (féminin) ni de nombre (pluriel)."
+    },
+    {
+      "id": "q2",
+      "question": "Lequel de ces mots est invariable ?",
+      "type": "QCM",
+      "options": ["Toujours", "Grand", "Pomme", "Chantent"],
+      "bonne_reponse": "Toujours",
+      "explication": "'Toujours' s'écrit toujours avec un 's', même au singulier (adverbe)."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Les prépositions (à, dans, par, pour...) sont des mots invariables.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Les prépositions ne changent jamais de forme."
+    },
+    {
+      "id": "q4",
+      "question": "Trouve l'adverbe dans 'Il court rapidement.'",
+      "type": "QCM",
+      "options": ["Il", "court", "rapidement"],
+      "bonne_reponse": "rapidement",
+      "explication": "'rapidement' est un adverbe qui modifie le sens du verbe. Il est invariable."
+    },
+    {
+      "id": "q5",
+      "question": "Parmi ces mots, lequel peut changer au pluriel ?",
+      "type": "QCM",
+      "options": ["Depuis", "Avec", "Livres", "Hélas"],
+      "bonne_reponse": "Livres",
+      "explication": "'Livres' est un nom commun, il prend un 's' au pluriel. Les autres sont invariables."
+    }
+  ]
+}

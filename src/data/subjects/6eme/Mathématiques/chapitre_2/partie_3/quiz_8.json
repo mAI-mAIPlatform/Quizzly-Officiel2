@@ -1,0 +1,50 @@
+{
+  "id": "6eme_MATHS_CH2_P3_QUIZ58",
+  "classe": "6eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Application : Aires",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "L'aire d'un rectangle se calcule par :",
+      "type": "QCM",
+      "options": ["Longueur + Largeur", "Longueur x Largeur", "Côté x 4", "Longueur - Largeur"],
+      "bonne_reponse": "Longueur x Largeur",
+      "explication": "La multiplication permet de trouver la surface."
+    },
+    {
+      "id": "q2",
+      "question": "Aire d'un rectangle de 4,5 cm de long and 2 cm de large ?",
+      "type": "QCM",
+      "options": ["9 cm²", "6,5 cm²", "13 cm²", "8 cm²"],
+      "bonne_reponse": "9 cm²",
+      "explication": "4,5 x 2 = 9."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : L'aire d'un carré de côté 0,5 m est de 0,25 m².",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "0,5 x 0,5 = 0,25."
+    },
+    {
+      "id": "q4",
+      "question": "Unité de mesure d'une aire ?",
+      "type": "QCM",
+      "options": ["m", "m²", "m³", "kg"],
+      "bonne_reponse": "m²",
+      "explication": "C'est une mesure de surface (deux dimensions)."
+    },
+    {
+      "id": "q5",
+      "question": "Si on double les côtés d'un rectangle, son aire est multipliée par :",
+      "type": "QCM",
+      "options": ["2", "4", "8", "Elle ne change pas"],
+      "bonne_reponse": "4",
+      "explication": "2 x 2 = 4 (la longueur double ET la largeur double)."
+    }
+  ]
+}

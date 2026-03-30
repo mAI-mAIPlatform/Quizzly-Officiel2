@@ -1,0 +1,50 @@
+{
+  "id": "6eme_TEC_CH1_P1_QUIZ1",
+  "classe": "6eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Objet Naturel vs Technique",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un objet naturel ?",
+      "type": "QCM",
+      "options": ["Un objet fabriqué par l'homme", "Un objet trouvé dans la nature, non transformé", "Un objet électronique", "Un objet en bois"],
+      "bonne_reponse": "Un objet trouvé dans la nature, non transformé",
+      "explication": "Un caillou ou une pomme sont des objets naturels."
+    },
+    {
+      "id": "q2",
+      "question": "Qu'est-ce qu'un objet technique ?",
+      "type": "QCM",
+      "options": ["Un objet créé ou transformé par l'homme", "Une plante", "Un nuage", "Une montagne"],
+      "bonne_reponse": "Un objet créé ou transformé par l'homme",
+      "explication": "Il répond à un besoin spécifique."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Une pomme de pin ramassée par terre est un objet technique.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "C'est un objet naturel. Si on en fait une décoration, elle devient technique."
+    },
+    {
+      "id": "q4",
+      "question": "Lequel de ces objets est technique ?",
+      "type": "QCM",
+      "options": ["Un silex taillé", "Un tronc d'arbre mort", "Une étoile", "Le vent"],
+      "bonne_reponse": "Un silex taillé",
+      "explication": "Il a été transformé pour servir d'outil."
+    },
+    {
+      "id": "q5",
+      "question": "Pourquoi l'homme fabrique-t-il des objets techniques ?",
+      "type": "QCM",
+      "options": ["Pour s'amuser seulement", "Pour satisfaire des besoins", "Pour détruire la nature", "Par hasard"],
+      "bonne_reponse": "Pour satisfaire des besoins",
+      "explication": "Se nourrir, se loger, se déplacer..."
+    }
+  ]
+}

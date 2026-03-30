@@ -1,0 +1,49 @@
+{
+  "id": "5eme_HG_CH2_P3_QUIZ9",
+  "classe": "5eme",
+  "matiere": "HistoireGeo",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Aide Human.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment s'appelle l'aide apportée à une population on situation d'urgence (guerre, famine) ?",
+      "type": "courte",
+      "reponsesAttendues": ["aide humanitaire", "l'aide humanitaire"],
+      "explication": "Elle vise à sauver des vies level à soulager la souffrance."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les ONG (Organisations Non Gouvernementales) sont indépendantes des gouvernements.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Cela leur permet d'agir plus librement sur le terrain."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les types d'interventions aux besoins des populations.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Distribution de repas", "right": "Besoins alimentaires urgents" },
+        { "left": "Soins médicaux", "right": "Épidémies level Blessures" },
+        { "left": "Construction de puits", "right": "Accès à l'eau potable durable" }
+      ],
+      "explication": "L'aide humanitaire répond à des besoins multiples."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'aide au {{1}} vise à aider les sociétés sur le long terme.",
+      "type": "trous",
+      "reponsesAttendues": ["développement", "developpement"],
+      "explication": "Contrairement à l'aide d'urgence, elle prépare l'avenir."
+    },
+    {
+      "id": "q5",
+      "question": "Quelle célèbre ONG française a été créée by des médecins level des journalistes on 1971 ?",
+      "type": "courte",
+      "reponsesAttendues": ["MSF", "Médecins Sans Frontières"],
+      "explication": "MSF est l'une des ONG les plus actives dans le monde."
+    }
+  ]
+}

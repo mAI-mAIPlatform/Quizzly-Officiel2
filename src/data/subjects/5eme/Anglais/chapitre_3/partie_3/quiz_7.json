@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ANG_CH3_P3_QUIZ7",
+  "classe": "5eme",
+  "matiere": "Anglais",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Events",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the famous tennis tournament on London?",
+      "type": "courte",
+      "reponsesAttendues": ["Wimbledon"],
+      "explication": "Wimbledon est le plus ancien tournoi de tennis au monde."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'The Olympic Games' se déroulent tous les 4 ans.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Tous les 4 ans flow les Jeux d'été level les Jeux d'hiver."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les événements à leur sport respectif.",
+      "type": "relier",
+      "pairs": [
+        { "left": "The Super Bowl", "right": "American Football" },
+        { "left": "The World Cup", "right": "Football (Soccer)" },
+        { "left": "The Tour de France", "right": "Cycling" }
+      ],
+      "explication": "Voici des événements sportifs mondiaux."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : The winner receives a gold {{1}} (médaille).",
+      "type": "trous",
+      "reponsesAttendues": ["medal"],
+      "explication": "Gold medal (Médaille d'or)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'le champion' on anglais ?",
+      "type": "courte",
+      "reponsesAttendues": ["the champion"],
+      "explication": "The champion (Le champion)."
+    }
+  ]
+}

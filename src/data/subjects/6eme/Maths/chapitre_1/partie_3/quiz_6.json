@@ -1,0 +1,50 @@
+{
+  "id": "6eme_Maths_CH1_P3_QUIZ26",
+  "classe": "6eme",
+  "matiere": "Maths",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Révision : Multiplier par 0,1 / 0,01",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Calcule : 450 x 0,1",
+      "type": "QCM",
+      "options": ["4,5", "45", "4500", "0,45"],
+      "bonne_reponse": "45",
+      "explication": "Multiplier par 0,1 revient à diviser par 10."
+    },
+    {
+      "id": "q2",
+      "question": "Calcule : 12 x 0,01",
+      "type": "QCM",
+      "options": ["1,2", "0,12", "0,012", "120"],
+      "bonne_reponse": "0,12",
+      "explication": "Multiplier par 0,01 revient à diviser par 100. On décale la virgule de deux rangs vers la gauche."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 100 x 0,01 = 1.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "100 / 100 = 1."
+    },
+    {
+      "id": "q4",
+      "question": "Multiplier par 0,1, c'est comme :",
+      "type": "QCM",
+      "options": ["Ajouter un zéro", "Décaler la virgule d'un rang vers la gauche", "Multiplier par 10", "Prendre le double"],
+      "bonne_reponse": "Décaler la virgule d'un rang vers la gauche",
+      "explication": "C'est la règle de base pour x 0,1."
+    },
+    {
+      "id": "q5",
+      "question": "Calcule : 0,1 x 0,1",
+      "type": "QCM",
+      "options": ["0,01", "0,2", "1", "0,1"],
+      "bonne_reponse": "0,01",
+      "explication": "Un dixième de dixième est un centième."
+    }
+  ]
+}

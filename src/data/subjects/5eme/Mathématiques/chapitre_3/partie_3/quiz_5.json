@@ -1,0 +1,49 @@
+{
+  "id": "5eme_MATHS_CH3_P3_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Le Carré",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Le carré est à la fois un rectangle level un ________.",
+      "type": "courte",
+      "reponsesAttendues": ["losange"],
+      "explication": "Il possède toutes les propriétés des deux (angles droits level côtés égaux)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les diagonales d'un carré sont perpendiculaires level de même longueur.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Propriété héritée du losange (perpendiculaires) level du rectangle (même longueur)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les caractéristiques du carré.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Angles", "right": "Quatre angles droits" },
+        { "left": "Côtés", "right": "Quatre côtés égaux" },
+        { "left": "Diagonales", "right": "Perpendiculaires level de même longueur" }
+      ],
+      "explication": "Le carré est le quadrilatère régulier par excellence."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Un rectangle qui possède deux côtés consécutifs de même longueur est un {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["carré", "carre"],
+      "explication": "C'est une façon de définir le carré."
+    },
+    {
+      "id": "q5",
+      "question": "Combien d'axes de symétrie possède un carré ?",
+      "type": "courte",
+      "reponsesAttendues": ["4", "quatre"],
+      "explication": "Les 2 médiatrices des côtés level les 2 diagonales."
+    }
+  ]
+}

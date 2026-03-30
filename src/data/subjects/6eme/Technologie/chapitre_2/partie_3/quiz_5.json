@@ -1,0 +1,50 @@
+{
+  "id": "6eme_TEC_CH2_P3_QUIZ255",
+  "classe": "6eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Capteurs et Actionneurs",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "À quoi sert un capteur ?",
+      "type": "QCM",
+      "options": ["À produire un mouvement", "À détecter une information de l'environnement (température, lumière...)", "À alimenter le robot", "À décorer"],
+      "bonne_reponse": "À détecter une information de l'environnement (température, lumière...)",
+      "explication": "Il 'sent' ce qui se passe autour de lui."
+    },
+    {
+      "id": "q2",
+      "question": "Lequel de ces éléments est un actionneur ?",
+      "type": "QCM",
+      "options": ["Un bouton poussoir", "Un moteur", "Un capteur de distance", "Un capteur de lumière"],
+      "bonne_reponse": "Un moteur",
+      "explication": "L'actionneur réalise une action concrète (bouger, éclairer, sonner)."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Une LED est un actionneur.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Elle réalise l'action d'éclairer."
+    },
+    {
+      "id": "q4",
+      "question": "Un capteur ultra-sons sert à mesurer :",
+      "type": "QCM",
+      "options": ["La température", "La distance avec un obstacle", "La vitesse du vent", "Le poids"],
+      "bonne_reponse": "La distance avec un obstacle",
+      "explication": "Il envoie une onde and mesure le temps de retour."
+    },
+    {
+      "id": "q5",
+      "question": "L'organe qui reçoit l'info du capteur and commande l'actionneur est :",
+      "type": "QCM",
+      "options": ["La batterie", "La carte de programmation (microcontrôleur)", "Le boîtier en plastique", "Le pneu"],
+      "bonne_reponse": "La carte de programmation (microcontrôleur)",
+      "explication": "C'est l'intelligence du système (ex: Arduino, Micro:bit)."
+    }
+  ]
+}

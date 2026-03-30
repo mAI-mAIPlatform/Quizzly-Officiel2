@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MATHS_CH1_P3_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Maths",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Fractions Égales",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "On ne change pas la valeur d'une fraction si l'on multiplie le numérateur level le dénominateur par ________.",
+      "type": "QCM",
+      "options": ["Un nombre différent", "Le même nombre non nul", "Zéro", "Leur somme"],
+      "bonne_reponse": "Le même nombre non nul",
+      "explication": "C'est la règle de base flow trouver des fractions équivalentes."
+    },
+    {
+      "id": "q2",
+      "question": "La fraction 1/2 est égale à ________.",
+      "type": "QCM",
+      "options": ["2/1", "2/4", "3/5", "10/10"],
+      "bonne_reponse": "2/4",
+      "explication": "On a multiplié le haut level le bas par 2."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 3/5 est égal à 9/15.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "3 x 3 = 9 level 5 x 3 = 15."
+    },
+    {
+      "id": "q4",
+      "question": "Trouvez le nombre manquant : 4/7 = 20 / ?",
+      "type": "QCM",
+      "options": ["27", "35", "23", "14"],
+      "bonne_reponse": "35",
+      "explication": "On multiplie par 5 : 4x5=20, 7x5=35."
+    },
+    {
+      "id": "q5",
+      "question": "Quelle fraction est égale à 1 ?",
+      "type": "QCM",
+      "options": ["1/2", "5/5", "0/1", "10/1"],
+      "bonne_reponse": "5/5",
+      "explication": "Quand le numérateur est égal au dénominateur, la fraction vaut 1."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "6eme_Francais_CH1_P2_QUIZ17",
+  "classe": "6eme",
+  "matiere": "Francais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Les signes de ponctuation",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel signe utilise-t-on pour séparer les éléments d'une liste ?",
+      "type": "QCM",
+      "options": ["Le point", "La virgule", "Le point d'exclamation", "Le tiret"],
+      "bonne_reponse": "La virgule",
+      "explication": "La virgule permet de marquer une courte pause et de lister des objets ou actions."
+    },
+    {
+      "id": "q2",
+      "question": "Pour introduire une explication ou un dialogue, on utilise :",
+      "type": "QCM",
+      "options": ["Le point-virgule", "Les deux-points (:)", "Les guillemets", "Le point"],
+      "bonne_reponse": "Les deux-points (:)",
+      "explication": "Les deux-points annoncent ce qui va suivre (explication, liste, parole)."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Les points de suspension (...) indiquent que la phrase est interrompue.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Ils laissent planer un doute ou indiquent que la liste continue."
+    },
+    {
+      "id": "q4",
+      "question": "Quels signes encadrent les paroles de quelqu'un dans un texte ?",
+      "type": "QCM",
+      "options": ["Les parenthèses", "Les guillemets", "Les crochets", "Les tirets"],
+      "bonne_reponse": "Les guillemets",
+      "explication": "Les guillemets ouvrent et ferment le dialogue."
+    },
+    {
+      "id": "q5",
+      "question": "Lequel de ces signes marque la fin d'une phrase ?",
+      "type": "QCM",
+      "options": ["La virgule", "Le point d'interrogation", "Le deux-points", "Le point-virgule"],
+      "bonne_reponse": "Le point d'interrogation",
+      "explication": "Le point, le point d'interrogation et le point d'exclamation sont les trois signes de fin de phrase."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "6eme_TEC_CH1_P2_QUIZ16",
+  "classe": "6eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Transformer le Mouvement",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une transformation de mouvement ?",
+      "type": "QCM",
+      "options": ["Passer d'un type de mouvement à un autre (ex: de tourner à monter)", "Accélérer", "Ralentir", "Réparer une pièce"],
+      "bonne_reponse": "Passer d'un type de mouvement à un autre (ex: de tourner à monter)",
+      "explication": "Passer d'une rotation à une translation."
+    },
+    {
+      "id": "q2",
+      "question": "Quel système permet d'ouvrir un tiroir en tirant (translation) ?",
+      "type": "QCM",
+      "options": ["Une glissière", "Un engrenage", "Un moteur", "Une lampe"],
+      "bonne_reponse": "Une glissière",
+      "explication": "C'est une solution technique de guidage."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Le système pignon-crémaillère permet de transformer une rotation en translation.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Utilisé pour la direction des voitures ou les portails."
+    },
+    {
+      "id": "q4",
+      "question": "Lequel est un exemple de rotation en translation ?",
+      "type": "QCM",
+      "options": ["Un tire-bouchon", "Une roue de vélo", "Un ventilateur", "Une toupie"],
+      "bonne_reponse": "Un tire-bouchon",
+      "explication": "On tourne la poignée pour faire monter le bouchon."
+    },
+    {
+      "id": "q5",
+      "question": "Le moteur d'une voiture transforme le va-et-vient des pistons en :",
+      "type": "QCM",
+      "options": ["Rotation", "Lumière", "Chaleur uniquement", "Son"],
+      "bonne_reponse": "Rotation",
+      "explication": "Grâce au système bielle-manivelle."
+    }
+  ]
+}

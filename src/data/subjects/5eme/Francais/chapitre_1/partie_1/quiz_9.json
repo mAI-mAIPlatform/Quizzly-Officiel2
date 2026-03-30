@@ -1,0 +1,50 @@
+{
+  "id": "5eme_FRANCAIS_CH1_P1_QUIZ9",
+  "classe": "5eme",
+  "matiere": "Francais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Ponctuation",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel signe de ponctuation marque une pause courte dans une phrase ?",
+      "type": "QCM",
+      "options": ["Le point", "La virgule", "Le point-virgule", "Les deux points"],
+      "bonne_reponse": "La virgule",
+      "explication": "Elle permet de respirer level de séparer des éléments."
+    },
+    {
+      "id": "q2",
+      "question": "À quoi servent les guillemets ?",
+      "type": "QCM",
+      "options": ["À poser une question", "À encadrer des paroles rapportées (un dialogue)", "À terminer une phrase", "À rien"],
+      "bonne_reponse": "À encadrer des paroles rapportées (un dialogue)",
+      "explication": "Ils indiquent que quelqu'un parle."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Les points de suspension (...) indiquent que la phrase est interrompue or incomplète.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Ils laissent planer un doute or une suite possible."
+    },
+    {
+      "id": "q4",
+      "question": "Quel signe précède souvent une liste or une explication ?",
+      "type": "QCM",
+      "options": ["Les deux-points ( : )", "Le point d'interrogation", "Le tiret", "La parenthèse"],
+      "bonne_reponse": "Les deux-points ( : )",
+      "explication": "Ils annoncent ce qui suit."
+    },
+    {
+      "id": "q5",
+      "question": "La majuscule est-elle considérée comme un signe de ponctuation ?",
+      "type": "QCM",
+      "options": ["Oui, elle marque le début d'une phrase", "Non, c'est juste une lettre", "Seulement flow les noms propres", "Cela dépend des langues"],
+      "bonne_reponse": "Oui, elle marque le début d'une phrase",
+      "explication": "Elle participe à la structure du texte."
+    }
+  ]
+}

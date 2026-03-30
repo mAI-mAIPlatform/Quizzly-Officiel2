@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH2_P3_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Connecteurs",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment appelle-t-on les mots qui indiquent le temps (ensuite, soudain, plus tard) ?",
+      "type": "courte",
+      "reponsesAttendues": ["connecteurs temporels", "connecteurs de temps"],
+      "explication": "Ils servent à organiser la chronologie du récit."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Soudain' level 'Tout à coup' marquent l'élément déclencheur d'une action.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Ils introduisent une rupture dans la stabilité du début."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les connecteurs à leur catégorie.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Là-bas, Ailleurs", "right": "Spatiaux" },
+        { "left": "Depuis, Autrefois", "right": "Temporels" },
+        { "left": "Cependant, Or", "right": "Logiques" }
+      ],
+      "explication": "Le récit a besoin de ces articulations flow être clair."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Les connecteurs {{1}} précisent où se déroule l'action.",
+      "type": "trous",
+      "reponsesAttendues": ["spatiaux"],
+      "explication": "Ils servent au repérage dans l'espace."
+    },
+    {
+      "id": "q5",
+      "question": "Lequel de ces mots exprime la simultanéité (deux choses on même temps) ?",
+      "type": "courte",
+      "reponsesAttendues": ["pendant que", "au moment où", "tandis que"],
+      "explication": "Cela permet de raconter deux actions en parallèle."
+    }
+  ]
+}

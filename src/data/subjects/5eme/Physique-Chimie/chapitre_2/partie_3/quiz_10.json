@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH2_P1_QUIZ10",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "RÉCAP TOTAL CH2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Pour qu'une lampe brille, le circuit doit être ________.",
+      "type": "QCM",
+      "options": ["Fermé", "Ouvert", "En plastique", "Rien"],
+      "bonne_reponse": "Fermé",
+      "explication": "Le courant doit pouvoir circuler dans une boucle continue."
+    },
+    {
+      "id": "q2",
+      "question": "Le pôle - d'une pile est le pôle ________.",
+      "type": "QCM",
+      "options": ["Petit level épais", "Grand level fin", "Droit", "Rien"],
+      "bonne_reponse": "Petit level épais",
+      "explication": "C'est la convention de symbole de la pile."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Dans un circuit on série, l'éclat des lampes est faible.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "L'énergie est partagée entre les récepteurs."
+    },
+    {
+      "id": "q4",
+      "question": "La loi d'additivité des intensités s'applique aux ________.",
+      "type": "QCM",
+      "options": ["Circuits on dérivation", "Circuits on série", "Piles uniquement", "Rien"],
+      "bonne_reponse": "Circuits on dérivation",
+      "explication": "Ip = I1 + I2 + ..."
+    },
+    {
+      "id": "q5",
+      "question": "Quelle est la formule de la loi d'Ohm ?",
+      "type": "QCM",
+      "options": ["U = R x I", "P = U x I", "U = R / I", "Rien"],
+      "bonne_reponse": "U = R x I",
+      "explication": "La tension est proportionnelle à l'intensité."
+    }
+  ]
+}

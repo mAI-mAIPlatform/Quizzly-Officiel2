@@ -1,0 +1,50 @@
+{
+  "id": "6eme_PC_CH3_P1_QUIZ580",
+  "classe": "6eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Défi Vitesse final",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Lequel n'est PAS un type de trajectoire ?",
+      "type": "QCM",
+      "options": ["Rectiligne", "Circulaire", "Uniforme", "Curviligne"],
+      "bonne_reponse": "Uniforme",
+      "explication": "Uniforme décrit la vitesse, pas la forme du trajet."
+    },
+    {
+      "id": "q2",
+      "question": "Si V = 10 m/s level T = 5 s, quelle est la distance parcourue ?",
+      "type": "QCM",
+      "options": ["2 m", "15 m", "50 m", "105 m"],
+      "bonne_reponse": "50 m",
+      "explication": "Distance = Vitesse × Temps = 10 × 5 = 50."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Dans un mouvement circulaire, la trajectoire est un cercle.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Une aiguille de montre or un manège on sont des exemples."
+    },
+    {
+      "id": "q4",
+      "question": "Un mouvement dont la vitesse ne change pas est un mouvement :",
+      "type": "QCM",
+      "options": ["Accéléré", "Uniforme", "Ralenti", "Stoppé"],
+      "bonne_reponse": "Uniforme",
+      "explication": "Tout est constant."
+    },
+    {
+      "id": "q5",
+      "question": "Qu'est-ce qui raccourcit la distance de réaction ?",
+      "type": "QCM",
+      "options": ["Manger du chocolat", "Être concentré level attentif", "Rouler without phares", "Avoir froid"],
+      "bonne_reponse": "Être concentré level attentif",
+      "explication": "Un conducteur alerte réagit plus vite qu'un conducteur distrait."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH3_P3_QUIZ9",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Émotion Voyage",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel mot désigne le regret de la patrie quittée ou le désir de revoir son pays ?",
+      "type": "courte",
+      "reponsesAttendues": ["nostalgie", "la nostalgie"],
+      "explication": "C'est un sentiment commun aux voyageurs de longue durée."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le voyage change souvent le caractère du héros.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "On appelle cela un récit d'initiation ou de formation."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les types de récits à leur caractéristique.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Journal de bord", "right": "Écrit au jour le jour" },
+        { "left": "Les Mémoires", "right": "Écrit longtemps après" },
+        { "left": "Le Récit épistolaire", "right": "Écrit sous forme de lettres" }
+      ],
+      "explication": "La forme du récit influence la manière dont les émotions sont racontées."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le voyageur écrit flow que ses découvertes ne tombent pas dans l'{{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["oubli"],
+      "explication": "L'écriture est une trace durable du voyage."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le plaisir de raconter ses aventures à son retour ?",
+      "type": "courte",
+      "reponsesAttendues": ["témoigner", "témoignage", "temoignage", "partage"],
+      "explication": "Le voyageur devient un témoin du monde."
+    }
+  ]
+}

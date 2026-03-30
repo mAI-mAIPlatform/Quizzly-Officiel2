@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ANG_CH1_P1_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Anglais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Verb TO BE",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Conjugue 'TO BE' : I {{1}} a student.",
+      "type": "trous",
+      "reponsesAttendues": ["am"],
+      "explication": "I am (Je suis)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'You is' est une forme correcte en anglais.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "On dit 'You are'."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les pronoms aux formes de TO BE correspondantes.",
+      "type": "relier",
+      "pairs": [
+        { "left": "He / She / It", "right": "Is" },
+        { "left": "We / You / They", "right": "Are" },
+        { "left": "I", "right": "Am" }
+      ],
+      "explication": "Chaque pronom a sa forme spécifique au présent."
+    },
+    {
+      "id": "q4",
+      "question": "Comment dit-on 'Ils sont' en anglais ?",
+      "type": "courte",
+      "reponsesAttendues": ["they are"],
+      "explication": "They are (Ils sont ou Elles sont)."
+    },
+    {
+      "id": "q5",
+      "question": "Complète la phrase : She {{1}} my best friend.",
+      "type": "trous",
+      "reponsesAttendues": ["is"],
+      "explication": "She is (Elle est)."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "6eme_Francais_CH1_P3_QUIZ22",
+  "classe": "6eme",
+  "matiere": "Francais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Révision : Accords du groupe nominal",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Accordez : 'Une ... plage' (beau)",
+      "type": "QCM",
+      "options": ["beau", "belle", "beaux", "belles"],
+      "bonne_reponse": "belle",
+      "explication": "'Plage' est féminin singulier."
+    },
+    {
+      "id": "q2",
+      "question": "Quelle est la bonne écriture plurielle de 'Le grand canal' ?",
+      "type": "QCM",
+      "options": ["Les grands canals", "Les grands canaux", "Les grand canaux"],
+      "bonne_reponse": "Les grands canaux",
+      "explication": "Les noms en -al font leur pluriel en -aux (exception: bal, carnaval...)."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 'Des petites souris' est bien accordé.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "'Souris' garde son 's' au singulier et au pluriel. L'adjectif 'petites' prend un 's'."
+    },
+    {
+      "id": "q4",
+      "question": "Trouve l'erreur d'accord :",
+      "type": "QCM",
+      "options": ["Des chats noirs", "Une voiture bleues", "Les billes rondes", "Un petit garçon"],
+      "bonne_reponse": "Une voiture bleues",
+      "explication": "'Voiture' est au singulier, 'bleues' ne devrait pas avoir de 's'."
+    },
+    {
+      "id": "q5",
+      "question": "Comment s'accorde l'adjectif avec 'Un chien et une chienne' ?",
+      "type": "QCM",
+      "options": ["heureux", "heureuse", "heureuses"],
+      "bonne_reponse": "heureux",
+      "explication": "Le masculin l'emporte et on met au pluriel. (Heureux est identique au singulier et pluriel masculin)."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_FRANCAIS_CH1_P1_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Francais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Classes de mots",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la classe de mot (nature) de 'marcher' ?",
+      "type": "QCM",
+      "options": ["Nom", "Verbe", "Adjectif", "Adverbe"],
+      "bonne_reponse": "Verbe",
+      "explication": "C'est une action."
+    },
+    {
+      "id": "q2",
+      "question": "Le mot 'lentement' appartient à la classe des ________.",
+      "type": "QCM",
+      "options": ["Adjectifs", "Pronoms", "Adverbes", "Déterminants"],
+      "bonne_reponse": "Adverbes",
+      "explication": "Il modifie le verbe ou l'adjectif."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Un nom propre commence toujours by une majuscule.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est une règle d'orthographe invariable."
+    },
+    {
+      "id": "q4",
+      "question": "Dans 'le petit chien', quelle est la nature de 'petit' ?",
+      "type": "QCM",
+      "options": ["Nom", "Adjectif qualificatif", "Verbe", "Déterminant"],
+      "bonne_reponse": "Adjectif qualificatif",
+      "explication": "Il décrit le nom 'chien'."
+    },
+    {
+      "id": "q5",
+      "question": "Lequel de ces mots est un pronom ?",
+      "type": "QCM",
+      "options": ["Maison", "Il", "Rouge", "Sauter"],
+      "bonne_reponse": "Il",
+      "explication": "Il remplace un nom."
+    }
+  ]
+}

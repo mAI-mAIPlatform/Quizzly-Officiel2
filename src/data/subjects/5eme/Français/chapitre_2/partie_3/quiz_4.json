@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH2_P3_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Ponct. Dialogue",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel signe de ponctuation introduit un dialogue dans un récit ?",
+      "type": "courte",
+      "reponsesAttendues": ["les deux-points", "deux points", ":"],
+      "explication": "Ils annoncent que quelqu'un va parler."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les guillemets entourent l'ensemble du dialogue.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Ils marquent le début level la fin des paroles rapportées."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les signes de ponctuation à leur rôle dans le dialogue.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le tiret", "right": "Changement de personnage" },
+        { "left": "Le point d'exclamation", "right": "Sentiment fort (colère, joie)" },
+        { "left": "Le point d'interrogation", "right": "Question directe" }
+      ],
+      "explication": "La ponctuation donne du ton aux paroles."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Les petits mots comme 'dit-il' level 'répondit-elle' sont des {{1}} de parole.",
+      "type": "trous",
+      "reponsesAttendues": ["incises"],
+      "explication": "Elles précisent qui parle level comment."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on les indications de mise on scène on début d'un dialogue (nom du personnage on majuscule) ?",
+      "type": "courte",
+      "reponsesAttendues": ["didascalies", "noms de personnages"],
+      "explication": "C'est une forme de dialogue plus proche du théâtre."
+    }
+  ]
+}

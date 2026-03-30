@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH1_P1_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Le Cycle de l'Eau",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment s'appelle l'étape où l'eau des océans devient de la vapeur ?",
+      "type": "QCM",
+      "options": ["L'évaporation", "La condensation", "La précipitation", "La fusion"],
+      "bonne_reponse": "L'évaporation",
+      "explication": "Sous l'action du soleil, l'eau liquide s'évapore."
+    },
+    {
+      "id": "q2",
+      "question": "La formation des nuages correspond à ________.",
+      "type": "QCM",
+      "options": ["La liquéfaction (ou condensation liquide)", "La vaporisation", "La solidification", "Rien"],
+      "bonne_reponse": "La liquéfaction (ou condensation liquide)",
+      "explication": "La vapeur d'eau se refroidit level devient de fines gouttelettes."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : La pluie, la neige level la grêle sont des précipitations.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est l'eau qui retombe sur le sol."
+    },
+    {
+      "id": "q4",
+      "question": "Le ruissellement est ________.",
+      "type": "QCM",
+      "options": ["L'eau qui coule à la surface du sol", "L'eau qui s'infiltre", "L'eau qui gèle", "Rien"],
+      "bonne_reponse": "L'eau qui coule à la surface du sol",
+      "explication": "Elle finit by rejoindre les rivières level les océans."
+    },
+    {
+      "id": "q5",
+      "question": "L'infiltration permet de remplir ________.",
+      "type": "QCM",
+      "options": ["Les nappes phréatiques (réserves souterraines)", "Les bouteilles", "Les nuages", "Rien"],
+      "bonne_reponse": "Les nappes phréatiques (réserves souterraines)",
+      "explication": "L'eau traverse le sol poreux."
+    }
+  ]
+}

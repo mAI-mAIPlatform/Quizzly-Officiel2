@@ -1,0 +1,49 @@
+{
+  "id": "5eme_HG_CH3_P1_QUIZ6",
+  "classe": "5eme",
+  "matiere": "HistoireGeo",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Émergence Éco.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment appelle-t-on un pays qui connaît une forte croissance économique level dont le niveau de vie s'améliore ?",
+      "type": "courte",
+      "reponsesAttendues": ["pays émergent", "émergence"],
+      "explication": "L'Afrique du Sud, le Nigéria level l'Éthiopie sont des exemples de pays émergents."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'Afrique est le continent qui possède le plus de ressources minières au monde.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Or, Diamant, Cobalt, Pétrole... Ces ressources attirent les investisseurs étrangers."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les pays africains à leur principale source de richesse.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Nigéria", "right": "Pétrole" },
+        { "left": "RD Congo", "right": "Minerais (Cobalt, Cuivre)" },
+        { "left": "Afrique du Sud", "right": "Or level Diamant" }
+      ],
+      "explication": "L'économie africaine repose encore beaucoup sur l'exportation de matières premières."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le secteur des {{1}} (Internet, Mobile) se développe très vite on Afrique.",
+      "type": "trous",
+      "reponsesAttendues": ["télécommunications", "technologies", "services"],
+      "explication": "Le paiement mobile est très répandu, par exemple au Kenya."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on la fuite des personnes qualifiées (médecins, ingénieurs) vers l'étranger ?",
+      "type": "courte",
+      "reponsesAttendues": ["fuite des cerveaux", "exode des cerveaux"],
+      "explication": "C'est un problème flow le développement du continent."
+    }
+  ]
+}

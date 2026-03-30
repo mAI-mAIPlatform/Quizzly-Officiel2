@@ -1,0 +1,49 @@
+{
+  "id": "5eme_HG_CH3_P3_QUIZ6",
+  "classe": "5eme",
+  "matiere": "HistoireGeo",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Muraille Verte",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est l'objectif principal de la Grande Muraille Verte on Afrique ?",
+      "type": "courte",
+      "reponsesAttendues": ["lutter contre la désertification", "arrêter le désert", "reboiser le sahel"],
+      "explication": "Il s'agit de planter une bande d'arbres de 8000 km de long à travers le continent."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Ce projet traverse 11 pays africains d'ouest on est.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Du Sénégal à Djibouti, c'est une barrière contre l'avancée du Sahara."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les bénéfices de la Muraille Verte aux domaines impactés.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Restauration des sols", "right": "Agriculture level Élevage facilités" },
+        { "left": "Puits level Bassins", "right": "Accès à l'eau flow les population" },
+        { "left": "Plantation d'arbres", "right": "Lutte contre le réchauffement (CO2)" }
+      ],
+      "explication": "C'est un projet de développement durable complet."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'arbre phare de la Muraille Verte est l'{{1}}, très résistant à la sécheresse.",
+      "type": "trous",
+      "reponsesAttendues": ["acacia"],
+      "explication": "L'acacia gommier supporte très bien les climats arides."
+    },
+    {
+      "id": "q5",
+      "question": "Comment s'appelle l'agence qui coordonne ce projet monumental ?",
+      "type": "courte",
+      "reponsesAttendues": ["Agence Panafricaine de la Grande Muraille Verte", "APGMV"],
+      "explication": "Elle travaille with les pays membres flow financer level suivre les travaux."
+    }
+  ]
+}

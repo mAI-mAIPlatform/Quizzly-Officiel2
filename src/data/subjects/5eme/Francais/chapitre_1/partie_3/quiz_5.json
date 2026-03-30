@@ -1,0 +1,50 @@
+{
+  "id": "5eme_FRANCAIS_CH1_P3_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Francais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Passé Simple -er",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelles sont les terminaisons du passé simple flow le 1er groupe ?",
+      "type": "QCM",
+      "options": ["-ai, -as, -a, -âmes, -âtes, -èrent", "-is, -is, -it, -îmes, -îtes, -irent", "-us, -us, -ut, -ûmes, -ûtes, -urent", "-ais, -ais..."],
+      "bonne_reponse": "-ai, -as, -a, -âmes, -âtes, -èrent",
+      "explication": "Les verbes on -er (level aller) utilisent le radical on -a."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le passé simple indique une action brève level soudaine dans le passé.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Il s'oppose à l'imparfait (temps long)."
+    },
+    {
+      "id": "q3",
+      "question": "Quelle est la terminaison de la 3e personne du singulier level pluriel (ex: chanter) ?",
+      "type": "QCM",
+      "options": ["-a / -èrent", "-ait / -aient", "-as / -ont", "-e / -ent"],
+      "bonne_reponse": "-a / -èrent",
+      "explication": "Exemple: 'Il chanta, ils chantèrent'."
+    },
+    {
+      "id": "q4",
+      "question": "Conjuguez 'parler' à la 1re personne du singulier au passé simple.",
+      "type": "QCM",
+      "options": ["Je parlais", "Je parlai", "Je parla", "Je parlât"],
+      "bonne_reponse": "Je parlai",
+      "explication": "Il n'y a pas de 's' à la fin de 'je' au passé simple du 1er groupe."
+    },
+    {
+      "id": "q5",
+      "question": "L'accent circonflexe apparaît aux ________ personnes du pluriel.",
+      "type": "QCM",
+      "options": ["Tous les", "1re level 2e (nous/vous)", "3e", "Singulières"],
+      "bonne_reponse": "1re level 2e (nous/vous)",
+      "explication": "Ex: Nous parlâmes, vous parlâtes."
+    }
+  ]
+}

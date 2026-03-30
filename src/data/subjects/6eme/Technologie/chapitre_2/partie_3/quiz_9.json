@@ -1,0 +1,50 @@
+{
+  "id": "6eme_TEC_CH2_P3_QUIZ259",
+  "classe": "6eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "La sécurité informatique",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un bon mot de passe ?",
+      "type": "QCM",
+      "options": ["Son prénom", "123456", "Une suite complexe de lettres, chiffres and caractères spéciaux", "Sa date de naissance"],
+      "bonne_reponse": "Une suite complexe de lettres, chiffres and caractères spéciaux",
+      "explication": "Il est plus difficile à deviner pour les pirates."
+    },
+    {
+      "id": "q2",
+      "question": "L'authentification à deux facteurs consiste à :",
+      "type": "QCM",
+      "options": ["Avoir deux ordinateurs", "Utiliser un mot de passe + un code reçu on son téléphone", "Taper son mot de passe deux fois", "Changer de mot de passe tous les jours"],
+      "bonne_reponse": "Utiliser un mot de passe + un code reçu on son téléphone",
+      "explication": "C'est une couche de sécurité supplémentaire."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Il ne faut jamais donner ses codes personnels on Internet.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Même si un mail semble provenir d'une banque or d'un service connu (phishing)."
+    },
+    {
+      "id": "q4",
+      "question": "Le pare-feu (Firewall) sert à :",
+      "type": "QCM",
+      "options": ["Éteindre l'ordinateur en cas de feu", "Bloquer les accès non autorisés au réseau", "Nettoyer l'écran", "Accélérer Internet"],
+      "bonne_reponse": "Bloquer les accès non autorisés au réseau",
+      "explication": "C'est une barrière de protection."
+    },
+    {
+      "id": "q5",
+      "question": "Si tu reçois un mail d'un inconnu avec une pièce jointe, tu :",
+      "type": "QCM",
+      "options": ["L'ouvres tout de suite", "L'effaces sans l'ouvrir", "L'envoies à tous tes amis", "Réponds poliment"],
+      "bonne_reponse": "L'effaces sans l'ouvrir",
+      "explication": "C'est la règle de base contre les virus."
+    }
+  ]
+}

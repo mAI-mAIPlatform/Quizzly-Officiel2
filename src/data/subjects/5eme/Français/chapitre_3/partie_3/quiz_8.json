@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH3_P3_QUIZ8",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Registre Épique",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel registre est utilisé flow raconter les exploits héroïques level les combats grandioses ?",
+      "type": "courte",
+      "reponsesAttendues": ["épique", "registre epique"],
+      "explication": "Le registre épique transforme le héros on un personnage surhumain."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'hyperbole (l'exagération) est une figure de style typique du registre épique.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Elle sert à souligner la grandeur des actions du héros."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les procédés épiques à leur effet sur le lecteur.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Hyperbole", "right": "Impression de grandeur" },
+        { "left": "Champ lexical de la force", "right": "Impression de puissance" },
+        { "left": "Comparaisons grandioses", "right": "Héroïsme" }
+      ],
+      "explication": "Ces outils linguistiques créent une atmosphère épique."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le héros épique affronte souvent des forces qui le {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["dépassent", "depassent"],
+      "explication": "Il lutte contre le destin, la nature ou des monstres géants."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le long poème racontant les exploits d'un héros (ex: L'Odyssée) ?",
+      "type": "courte",
+      "reponsesAttendues": ["une épopée", "epopee"],
+      "explication": "L'épopée est le genre d'origine du registre épique."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "6eme_ARTS_CH1_P1_QUIZ1",
+  "classe": "6eme",
+  "matiere": "Arts Plastiques",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Les Couleurs Primaires",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelles sont les trois couleurs primaires en peinture (synthèse soustractive) ?",
+      "type": "QCM",
+      "options": ["Vert, Orange, Violet", "Rouge, Bleu, Jaune", "Noir, Blanc, Gris", "Rose, Marron, Cyan"],
+      "bonne_reponse": "Rouge, Bleu, Jaune",
+      "explication": "On les appelle primaires car on ne peut pas les obtenir en mélangeant d'autres couleurs."
+    },
+    {
+      "id": "q2",
+      "question": "Pourquoi les appelle-t-on 'primaires' ?",
+      "type": "QCM",
+      "options": ["Parce qu'elles sont à l'école primaire", "Parce qu'elles sont à la base de toutes les autres couleurs", "Parce qu'elles sont les plus chères", "Parce qu'elles sèchent plus vite"],
+      "bonne_reponse": "Parce qu'elles sont à la base de toutes les autres couleurs",
+      "explication": "En les mélangeant, on crée les couleurs secondaires."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Le blanc et le noir sont considérés comme des couleurs primaires.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "En arts plastiques, ce sont des 'valeurs' qui servent à éclaircir ou foncer."
+    },
+    {
+      "id": "q4",
+      "question": "Quelle couleur primaire est associée au ciel et à la mer ?",
+      "type": "QCM",
+      "options": ["Le Rouge", "Le Bleu", "Le Jaune", "Le Vert"],
+      "bonne_reponse": "Le Bleu",
+      "explication": "C'est une couleur dite 'froide'."
+    },
+    {
+      "id": "q5",
+      "question": "Pour obtenir du orange, il faut mélanger :",
+      "type": "QCM",
+      "options": ["Bleu + Jaune", "Rouge + Jaune", "Rouge + Bleu", "Noir + Blanc"],
+      "bonne_reponse": "Rouge + Jaune",
+      "explication": "Le orange est une couleur secondaire."
+    }
+  ]
+}

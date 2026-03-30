@@ -1,0 +1,50 @@
+{
+  "id": "6eme_ALL_CH2_P2_QUIZ213",
+  "classe": "6eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Grammatik : Adjektive (Farben)",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment dit-on 'le t-shirt vert' ?",
+      "type": "QCM",
+      "options": ["Das grüne T-Shirt", "Das grün T-Shirt", "Der grüne T-Shirt", "Die grüne T-Shirt"],
+      "bonne_reponse": "Das grüne T-Shirt",
+      "explication": "L'adjectif prend un 'e' après l'article défini (nominatif neutre)."
+    },
+    {
+      "id": "q2",
+      "question": "Translate: 'Die blaue Hose' ",
+      "type": "QCM",
+      "options": ["Le pantalon bleu", "La chemise bleue", "Le sac bleu", "La jupe bleue"],
+      "bonne_reponse": "Le pantalon bleu",
+      "explication": "Die Hose = le pantalon (féminin en allemand)."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 'Ein rotes Auto' signifie 'une voiture rouge'.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "L'adjectif prend 'es' après 'ein' pour un nom neutre."
+    },
+    {
+      "id": "q4",
+      "question": " 'Ein ___ Rock' (un jupe noire) :",
+      "type": "QCM",
+      "options": ["schwarzer", "schwarzes", "schwarze", "schwarz"],
+      "bonne_reponse": "schwarzer",
+      "explication": "L'adjectif prend 'er' après 'ein' pour un nom masculin (Rock)."
+    },
+    {
+      "id": "q5",
+      "question": "Où place-t-on l'adjectif de couleur en allemand ?",
+      "type": "QCM",
+      "options": ["Après le nom", "Avant le nom", "À la fin de la phrase", "Au début de la phrase"],
+      "bonne_reponse": "Avant le nom",
+      "explication": "Contrairement au français : 'das rote Buch' (le rouge livre)."
+    }
+  ]
+}

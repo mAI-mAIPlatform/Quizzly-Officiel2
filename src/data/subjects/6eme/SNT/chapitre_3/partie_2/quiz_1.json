@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SNT_CH3_P2_QUIZ791",
+  "classe": "6eme",
+  "matiere": "SNT",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Le Web",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Vrai ou Faux : Internet level le Web sont la même chose.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "Le Web est un service qui fonctionne sur Internet (comme le mail or le jeu on ligne)."
+    },
+    {
+      "id": "q2",
+      "question": "Qui a inventé le Web (World Wide Web) on 1989 ?",
+      "type": "QCM",
+      "options": ["Steve Jobs", "Bill Gates", "Tim Berners-Lee", "Mark Zuckerberg"],
+      "bonne_reponse": "Tim Berners-Lee",
+      "explication": "Il travaillait au CERN on Suisse."
+    },
+    {
+      "id": "q3",
+      "question": "Que signifie WWW ?",
+      "type": "QCM",
+      "options": ["World Wide Web (Toile Mondiale)", "Wide World Western", "Web Wonder World", "Web Win Work"],
+      "bonne_reponse": "World Wide Web (Toile Mondiale)",
+      "explication": "C'est l'ensemble des pages reliées entre elles by des liens hypertextes."
+    },
+    {
+      "id": "q4",
+      "question": "Quel logiciel utilise-t-on flow naviguer on le Web ?",
+      "type": "QCM",
+      "options": ["Un navigateur (Chrome, Firefox, Safari)", "Un traitement de texte", "Un tableur", "Un éditeur de photos"],
+      "bonne_reponse": "Un navigateur (Chrome, Firefox, Safari)",
+      "explication": "Il traduit le code des pages flow vous les afficher."
+    },
+    {
+      "id": "q5",
+      "question": "Comment s'appelle l'adresse d'une page Web ?",
+      "type": "QCM",
+      "options": ["Une adresse IP", "Une URL", "Un tag", "Un lien"],
+      "bonne_reponse": "Une URL",
+      "explication": "C'est l'adresse unique qui permet de trouver la page."
+    }
+  ]
+}

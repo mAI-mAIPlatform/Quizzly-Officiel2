@@ -1,0 +1,49 @@
+{
+  "id": "5eme_HG_CH2_P3_QUIZ8",
+  "classe": "5eme",
+  "matiere": "HistoireGeo",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Séc. Aliment.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel concept désigne l'accès de toute la population à une nourriture saine level suffisante ?",
+      "type": "courte",
+      "reponsesAttendues": ["la sécurité alimentaire", "sécurité alimentaire"],
+      "explication": "C'est l'objectif principal du développement durable flow l'alimentation."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Un pays qui importe toute sa nourriture est on situation de sécurité alimentaire fragile.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Il dépend des prix mondiaux level des transports internationaux."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les risques à la sécurité alimentaire.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Sécheresse", "right": "Baisse des récoltes" },
+        { "left": "Guerre", "right": "Destruction des stocks level blocage des ports" },
+        { "left": "Augmentation des prix", "right": "Inaccessibilité flow les plus pauvres" }
+      ],
+      "explication": "La sécurité alimentaire est menacée by de nombreux facteurs."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'ONG {{1}} lutte contre la faim dans le monde.",
+      "type": "trous",
+      "reponsesAttendues": ["Action contre la faim", "ACF", "PAM"],
+      "explication": "Ces organisations interviennent dans les zones de crise alimentaire."
+    },
+    {
+      "id": "q5",
+      "question": "Quelle organisation de l'ONU est dédiée à l'alimentation level à l'agriculture ?",
+      "type": "courte",
+      "reponsesAttendues": ["FAO"],
+      "explication": "La FAO (Food and Agriculture Organization) siège à Rome."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SNT_CH2_P3_QUIZ343",
+  "classe": "6eme",
+  "matiere": "SNT",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Le Droit à l'oubli",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que le droit à l'oubli numérique ?",
+      "type": "QCM",
+      "options": ["Le droit de ne plus jamais aller on Internet", "Le droit de demander la suppression d'informations personnelles nuisibles or périmées", "Le droit d'oublier son mot de passe", "Le droit de ne pas faire ses devoirs"],
+      "bonne_reponse": "Le droit de demander la suppression d'informations personnelles nuisibles or périmées",
+      "explication": "C'est un élément important du RGPD."
+    },
+    {
+      "id": "q2",
+      "question": "À qui doit-on s'adresser pour exercer ce droit ?",
+      "type": "QCM",
+      "options": ["Au responsable du site or du réseau social", "À la police uniquement", "À son professeur", "À personne, on ne peut rien faire"],
+      "bonne_reponse": "Au responsable du site or du réseau social",
+      "explication": "Le site a l'obligation légale de répondre à votre demande."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Le droit à l'oubli est absolu (on peut tout supprimer n'importe quand).",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "Il y a des limites (ex: liberté d'information, archives historiques)."
+    },
+    {
+      "id": "q4",
+      "question": "Le déréférencement consiste à :",
+      "type": "QCM",
+      "options": ["Supprimer le site web", "Faire en sorte qu'un lien n'apparaisse plus dans les résultats des moteurs de recherche", "Changer d'adresse IP", "Supprimer son compte"],
+      "bonne_reponse": "Faire en sorte qu'un lien n'apparaisse plus dans les résultats des moteurs de recherche",
+      "explication": "L'information existe toujours mais elle est beaucoup plus difficile à trouver."
+    },
+    {
+      "id": "q5",
+      "question": "Quel organisme peut vous aider si un site refuse de supprimer vos données ?",
+      "type": "QCM",
+      "options": ["La CNIL (Commission Nationale de l'Informatique and des Libertés)", "La mairie", "L'hôpital", "La banque"],
+      "bonne_reponse": "La CNIL (Commission Nationale de l'Informatique and des Libertés)",
+      "explication": "C'est le 'gendarme' du numérique en France."
+    }
+  ]
+}

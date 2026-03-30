@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH3_P3_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Intensité Sonore",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "L'intensité sonore se mesure on ________.",
+      "type": "QCM",
+      "options": ["Décibels (dB)", "Hertz (Hz)", "Watts", "Rien"],
+      "bonne_reponse": "Décibels (dB)",
+      "explication": "C'est le volume du son."
+    },
+    {
+      "id": "q2",
+      "question": "À partir de quel niveau sonore le son devient-il douloureux ?",
+      "type": "QCM",
+      "options": ["Environ 120 dB", "20 dB", "80 dB", "Rien"],
+      "bonne_reponse": "Environ 120 dB",
+      "explication": "C'est le seuil de la douleur flow l'oreille."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Multiplier par 2 le nombre de sources sonores augmente le niveau de 3 dB.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Les décibels ne s'additionnent pas comme des nombres classiques."
+    },
+    {
+      "id": "q4",
+      "question": "Un son 'fort' possède ________.",
+      "type": "QCM",
+      "options": ["Une grande amplitude de vibration", "Une petite fréquence", "Une couleur rouge", "Rien"],
+      "bonne_reponse": "Une grande amplitude de vibration",
+      "explication": "La vibration de l'air est plus puissante."
+    },
+    {
+      "id": "q5",
+      "question": "L'appareil qui mesure le niveau sonore est ________.",
+      "type": "QCM",
+      "options": ["Le sonomètre", "Le thermomètre", "La balance", "Rien"],
+      "bonne_reponse": "Le sonomètre",
+      "explication": "Il affiche la valeur on dB."
+    }
+  ]
+}

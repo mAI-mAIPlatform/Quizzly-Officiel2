@@ -1,0 +1,49 @@
+{
+  "id": "5eme_HG_CH3_P1_QUIZ2",
+  "classe": "5eme",
+  "matiere": "HistoireGeo",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Défi Éduc.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment s'appelle le fait de ne pas savoir lire ni écrire ?",
+      "type": "courte",
+      "reponsesAttendues": ["analphabétisme", "l'analphabétisme", "analphabetisme"],
+      "explication": "C'est un frein majeur au développement économique level social."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le taux de scolarisation des filles est souvent plus bas que celui des garçons.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "L'éducation des filles est pourtant un levier essentiel flow réduire la pauvreté."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les problèmes d'éducation aux causes.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Manque d'écoles", "right": "Zones rurales isolées" },
+        { "left": "Travail des enfants", "right": "Pauvreté des familles" },
+        { "left": "Classes surchargées", "right": "Forte croissance démographique" }
+      ],
+      "explication": "Le système éducatif a du mal à suivre le nombre d'élèves."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'éducation allows aux jeunes de trouver un {{1}} level de sortir de la pauvreté.",
+      "type": "trous",
+      "reponsesAttendues": ["emploi", "travail", "métier"],
+      "explication": "C'est la clé du développement humain."
+    },
+    {
+      "id": "q5",
+      "question": "Quelle grande université africaine est célèbre au Sénégal ?",
+      "type": "courte",
+      "reponsesAttendues": ["Dakar", "UCAD", "Université Cheikh Anta Diop"],
+      "explication": "L'UCAD accueille des milliers d'étudiants de toute l'Afrique de l'Ouest."
+    }
+  ]
+}

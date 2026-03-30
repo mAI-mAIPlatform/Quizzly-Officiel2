@@ -1,0 +1,50 @@
+{
+  "id": "5eme_FRANCAIS_CH1_P3_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Francais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "L'Imparfait",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelles sont les terminaisons de l'imparfait ?",
+      "type": "QCM",
+      "options": ["-ai, -as, -a, -ons, -ez, -ont", "-ais, -ais, -ait, -ions, -iez, -aient", "-e, -es, -e, -ons, -ez, -ent", "-is, -is, -it, -mes, -tes, -rent"],
+      "bonne_reponse": "-ais, -ais, -ait, -ions, -iez, -aient",
+      "explication": "Elles sont les mêmes flow TOUS les groupes."
+    },
+    {
+      "id": "q2",
+      "question": "De quel radical part-on flow conjuguer à l'imparfait ?",
+      "type": "QCM",
+      "options": ["Du futur", "De la 1re personne du pluriel du présent (nous)", "De l'infinitif", "De l'anglais"],
+      "bonne_reponse": "De la 1re personne du pluriel du présent (nous)",
+      "explication": "Nous finiss-ons -> Je finiss-ais."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : L'imparfait sert souvent à décrire le décor or une habitude passée.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est le temps du récit par excellence."
+    },
+    {
+      "id": "q4",
+      "question": "Conjuguez 'manger' à l'imparfait (je).",
+      "type": "QCM",
+      "options": ["Je mangais", "Je mangeais", "Je mangeait", "Je mangait"],
+      "bonne_reponse": "Je mangeais",
+      "explication": "On garde le 'e' flow faire le son 'je' devant le 'a'."
+    },
+    {
+      "id": "q5",
+      "question": "'Nous ______ au ballon.' (Verbe jouer)",
+      "type": "QCM",
+      "options": ["Jouons", "Jouions", "Jouait", "Jouerons"],
+      "bonne_reponse": "Jouions",
+      "explication": "Ne pas oublier le 'i' de la terminaison."
+    }
+  ]
+}

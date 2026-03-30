@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MATHS_CH2_P3_QUIZ10",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Récap CH2 P3",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "(-5) + (-8) = ________.",
+      "type": "QCM",
+      "options": ["-13", "13", "3", "-3"],
+      "bonne_reponse": "-13",
+      "explication": "On garde le signe - level on fait 5 + 8 = 13."
+    },
+    {
+      "id": "q2",
+      "question": "(-10) + (+15) = ________.",
+      "type": "QCM",
+      "options": ["5", "-5", "25", "-25"],
+      "bonne_reponse": "5",
+      "explication": "Signes contraires : on prend le signe du plus éloigné de zéro (+15) level on soustrait 15 - 10."
+    },
+    {
+      "id": "q3",
+      "question": "Soustraire (-4) revient à ________.",
+      "type": "QCM",
+      "options": ["Ajouter +4", "Ajouter -4", "Multiplier by 4", "Rien"],
+      "bonne_reponse": "Ajouter +4",
+      "explication": "On ajoute l'opposé du nombre soustrait."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : 2 - 10 = -8",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est comme (+2) + (-10) = -8."
+    },
+    {
+      "id": "q5",
+      "question": "Calcule : -1 - 2 - 3 + 6 ________.",
+      "type": "QCM",
+      "options": ["0", "-12", "12", "6"],
+      "bonne_reponse": "0",
+      "explication": "(-1 - 2 - 3) + 6 = -6 + 6 = 0."
+    }
+  ]
+}

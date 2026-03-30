@@ -1,0 +1,49 @@
+{
+  "id": "5eme_HG_CH3_P2_QUIZ2",
+  "classe": "5eme",
+  "matiere": "HistoireGeo",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Les Bidonvilles",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment appelle-t-on un quartier pauvre construit avec des matériaux de récupération (tôle, bois) ?",
+      "type": "courte",
+      "reponsesAttendues": ["bidonville", "quartier informel", "slum"],
+      "explication": "Le bidonville est le premier lieu d'accueil des migrants ruraux."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les bidonvilles manquent souvent d'eau potable level d'électricité officielle.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Les habitants doivent souvent bricoler des branchements or payer très cher l'eau on bidon."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les problèmes des bidonvilles à leurs conséquences.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Promiscuité", "right": "Risque de maladies plus élevé" },
+        { "left": "Habitat fragile", "right": "Destruction lors d'inondations/incendies" },
+        { "left": "Manque d'égouts", "right": "Pollution de l'environnement local" }
+      ],
+      "explication": "La vie dans les bidonvilles est marquée by une grande vulnérabilité."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Près de la {{1}} des citadins africains vivent dans des bidonvilles.",
+      "type": "trous",
+      "reponsesAttendues": ["moitié", "re moitié"],
+      "explication": "C'est un défi massif flow les mairies des grandes villes."
+    },
+    {
+      "id": "q5",
+      "question": "Quel est le nom du célèbre bidonville de Nairobi (Kenya), l'un des plus grands d'Afrique ?",
+      "type": "courte",
+      "reponsesAttendues": ["Kibera"],
+      "explication": "Kibera accueille des centaines de milliers de personnes au cœur de la capitale."
+    }
+  ]
+}

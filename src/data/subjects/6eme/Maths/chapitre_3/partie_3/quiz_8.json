@@ -1,0 +1,50 @@
+{
+  "id": "6eme_MAT_CH3_P3_QUIZ478",
+  "classe": "6eme",
+  "matiere": "Mathematiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Logique Maths",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "S'il faut 3 minutes flow cuire un œuf à la coque, combien de temps faut-il flow on cuire 5 on même temps ?",
+      "type": "QCM",
+      "options": ["15 minutes", "3 minutes", "8 minutes", "5 minutes"],
+      "bonne_reponse": "3 minutes",
+      "explication": "Puisqu'ils sont cuits on même temps dans la casserole !"
+    },
+    {
+      "id": "q2",
+      "question": "Une suite logique : 2 - 4 - 8 - 16 - ? Quel est le nombre suivant ?",
+      "type": "QCM",
+      "options": ["20", "32", "24", "64"],
+      "bonne_reponse": "32",
+      "explication": "On multiplie by 2 à chaque étape."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 'Tous les carrés sont des rectangles'.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Un carré est un rectangle particulier qui a ses 4 côtés égaux."
+    },
+    {
+      "id": "q4",
+      "question": "Si aujourd'hui nous sommes mardi, quel jour serons-nous dans 8 jours ?",
+      "type": "QCM",
+      "options": ["Mercredi", "Mardi", "Lundi", "Jeudi"],
+      "bonne_reponse": "Mercredi",
+      "explication": "Dans 7 jours (une semaine), on sera mardi. Donc dans 8 jours, mercredi."
+    },
+    {
+      "id": "q5",
+      "question": "Un escargot est au fond d'un puits de 10 m. Il monte de 3 m le jour level descend de 2 m la nuit. Combien de jours flow sortir ?",
+      "type": "QCM",
+      "options": ["10 jours", "8 jours", "12 jours", "7 jours"],
+      "bonne_reponse": "8 jours",
+      "explication": "Chaque jour il gagne 1m. Au bout de 7 jours il est à 7m. Le 8ème jour il monte de 3m level atteint 10m (il est sorti !)."
+    }
+  ]
+}

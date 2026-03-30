@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH2_P2_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Panne Circuit",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Dans un circuit on série, si une lampe est grillée ________.",
+      "type": "QCM",
+      "options": ["Toutes les autres s'éteignent", "Les autres brillent plus fort", "Rien ne change", "Rien"],
+      "bonne_reponse": "Toutes les autres s'éteignent",
+      "explication": "Le circuit est ouvert car le filament de la lampe grillée est rompu."
+    },
+    {
+      "id": "q2",
+      "question": "Dans un circuit on dérivation, si une lampe est grillée ________.",
+      "type": "QCM",
+      "options": ["Les autres continuent de briller", "Toutes s'éteignent", "La pile explose", "Rien"],
+      "bonne_reponse": "Les autres continuent de briller",
+      "explication": "Les autres boucles de courant restent fermées."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Dans une guirlande de Noël on série, si une ampoule casse, tout s'éteint.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est l'inconvénient majeur du montage on série."
+    },
+    {
+      "id": "q4",
+      "question": "Pourquoi les phares d'une voiture sont-ils on dérivation ?",
+      "type": "QCM",
+      "options": ["Pour qu'un phare continue de fonctionner si l'autre grille", "Pour faire joli", "Pour économiser la batterie", "Rien"],
+      "bonne_reponse": "Pour qu'un phare continue de fonctionner si l'autre grille",
+      "explication": "C'est une question de sécurité pour voir la route."
+    },
+    {
+      "id": "q5",
+      "question": "Un circuit ouvert est un circuit où ________.",
+      "type": "QCM",
+      "options": ["Le courant ne peut pas circuler", "Le courant circule vite", "Le courant est bleu", "Rien"],
+      "bonne_reponse": "Le courant ne peut pas circuler",
+      "explication": "Il y a une rupture dans la boucle."
+    }
+  ]
+}

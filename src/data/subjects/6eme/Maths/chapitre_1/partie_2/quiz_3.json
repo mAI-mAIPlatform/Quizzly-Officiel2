@@ -1,0 +1,50 @@
+{
+  "id": "6eme_Maths_CH1_P2_QUIZ13",
+  "classe": "6eme",
+  "matiere": "Maths",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Critères de divisibilité (3 et 9)",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment savoir si un nombre est divisible par 3 ?",
+      "type": "QCM",
+      "options": ["S'il finit par 3", "Si la somme de ses chiffres est dans la table de 3", "S'il est impair", "S'il finit par 0"],
+      "bonne_reponse": "Si la somme de ses chiffres est dans la table de 3",
+      "explication": "C'est la règle d'or pour 3 et pour 9."
+    },
+    {
+      "id": "q2",
+      "question": "Le nombre 123 est-il divisible par 3 ?",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "1 + 2 + 3 = 6. 6 est dans la table de 3, donc 123 est divisible par 3."
+    },
+    {
+      "id": "q3",
+      "question": "Lequel de ces nombres est divisible par 9 ?",
+      "type": "QCM",
+      "options": ["81", "19", "29", "39"],
+      "bonne_reponse": "81",
+      "explication": "8 + 1 = 9. 9 est dans la table de 9 (9 x 1)."
+    },
+    {
+      "id": "q4",
+      "question": "Si un nombre est divisible par 9, est-il forcément divisible par 3 ?",
+      "type": "Vrai/Faux",
+      "options": ["Oui", "Non"],
+      "bonne_reponse": "Oui",
+      "explication": "Oui, car 9 est un multiple de 3. Mais l'inverse n'est pas vrai (ex: 12)."
+    },
+    {
+      "id": "q5",
+      "question": "Vrai ou Faux : 459 est divisible par 9.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "4 + 5 + 9 = 18. 1 + 8 = 9. C'est bien un multiple de 9."
+    }
+  ]
+}

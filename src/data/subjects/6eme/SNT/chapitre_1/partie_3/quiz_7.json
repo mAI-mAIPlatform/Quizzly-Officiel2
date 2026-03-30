@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SNT_CH1_P3_QUIZ27",
+  "classe": "6eme",
+  "matiere": "SNT",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Robots et IA",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un robot ?",
+      "type": "QCM",
+      "options": ["Une personne habillée en métal", "Une machine capable d'agir automatiquement selon son programme", "Un uniquement un jouet", "Un écran qui parle"],
+      "bonne_reponse": "Une machine capable d'agir automatiquement selon son programme",
+      "explication": "Un robot a des capteurs (yeux) et des actionneurs (bras, roues)."
+    },
+    {
+      "id": "q2",
+      "question": "Que signifie IA ?",
+      "type": "QCM",
+      "options": ["Image Animée", "Intelligence Artificielle", "Informatique Avancée", "Interface Amusante"],
+      "bonne_reponse": "Intelligence Artificielle",
+      "explication": "C'est la capacité d'une machine à imiter l'intelligence humaine (apprendre, raisonner)."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Les robots vont remplacer tous les humains demain.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "Ils aident pour les tâches dangereuses ou répétitives, mais l'humain reste indispensable."
+    },
+    {
+      "id": "q4",
+      "question": "Un aspirateur robot utilise-t-il un algorithme ?",
+      "type": "QCM",
+      "options": ["Non, il se débrouille tout seul", "Oui, pour savoir comment couvrir toute la pièce sans se cogner", "Seulement s'il est branché", "Il n'en a pas besoin"],
+      "bonne_reponse": "Oui, pour savoir comment couvrir toute la pièce sans se cogner",
+      "explication": "L'algorithme analyse les obstacles détectés par ses capteurs."
+    },
+    {
+      "id": "q5",
+      "question": "L'IA apprend grâce à :",
+      "type": "QCM",
+      "options": ["De la nourriture", "De grandes quantités de données (le Big Data)", "La lecture de livres papier", "Le sommeil"],
+      "bonne_reponse": "De grandes quantités de données (le Big Data)",
+      "explication": "C'est ce qu'on appelle l'apprentissage automatique (Machine Learning)."
+    }
+  ]
+}

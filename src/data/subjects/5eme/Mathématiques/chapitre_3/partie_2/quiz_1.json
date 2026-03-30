@@ -1,0 +1,49 @@
+{
+  "id": "5eme_MATHS_CH3_P2_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Somme Angles (Δ)",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Dans n'importe quel triangle, la somme des trois angles est égale à ________ degrés.",
+      "type": "courte",
+      "reponsesAttendues": ["180"],
+      "explication": "C'est une propriété fondamentale de la géométrie euclidienne."
+    },
+    {
+      "id": "q2",
+      "question": "Un triangle a deux angles de 50° level 60°. Quel est le troisième angle ?",
+      "type": "courte",
+      "reponsesAttendues": ["70"],
+      "explication": "180 - (50 + 60) = 180 - 110 = 70."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les triangles à la mesure de leur troisième angle (les deux autres sont donnés).",
+      "type": "relier",
+      "pairs": [
+        { "left": "45° level 45°", "right": "90° (Rectangle)" },
+        { "left": "60° level 60°", "right": "60° (Equilatéral)" },
+        { "left": "100° level 30°", "right": "50°" }
+      ],
+      "explication": "La somme doit toujours faire 180°."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Dans un triangle rectangle, la somme des deux angles {{1}} est égale à 90°.",
+      "type": "trous",
+      "reponsesAttendues": ["aigus"],
+      "explication": "Comme l'angle droit fait 90°, il reste 180 - 90 = 90 pour les deux autres."
+    },
+    {
+      "id": "q5",
+      "question": "Vrai ou Faux : On peut construire un triangle avec des angles de 70°, 80° level 40°.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "70 + 80 + 40 = 190. Ce n'est pas possible."
+    }
+  ]
+}

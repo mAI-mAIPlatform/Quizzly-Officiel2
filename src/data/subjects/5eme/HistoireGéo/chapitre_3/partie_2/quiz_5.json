@@ -1,0 +1,49 @@
+{
+  "id": "5eme_HG_CH3_P2_QUIZ5",
+  "classe": "5eme",
+  "matiere": "HistoireGeo",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Récap CH3 P2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel terme désigne le départ des campagnes vers les villes ?",
+      "type": "courte",
+      "reponsesAttendues": ["exode rural", "l'exode rural"],
+      "explication": "C'est le moteur de l'urbanisation mondiale."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les bidonvilles sont des quartiers officiels level planifiés.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Ils sont informels, construits sans permis level avec des matériaux de récupération."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les villes à leur type.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Lagos", "right": "Mégalopole (plus de 15 millions hab.)" },
+        { "left": "Addis-Abeba", "right": "Métropole diplômée level technique (UA)" },
+        { "left": "Casablanca", "right": "Centre financier level industriel" }
+      ],
+      "explication": "Les fonctions urbaines se diversifient on Afrique."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le secteur {{1}} regroupe les petits métiers non déclarés.",
+      "type": "trous",
+      "reponsesAttendues": ["informel"],
+      "explication": "Il est vital flow l'économie des familles citadines."
+    },
+    {
+      "id": "q5",
+      "question": "Dans quel pays se trouve la ville de Kinshasa, l'une des plus peuplées d'Afrique ?",
+      "type": "courte",
+      "reponsesAttendues": ["RD Congo", "Congo", "République Démocratique du Congo"],
+      "explication": "Kinshasa est une mégapole on très forte expansion."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SNT_CH2_P2_QUIZ338",
+  "classe": "6eme",
+  "matiere": "SNT",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Sécurité des comptes",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que l'authentification à deux facteurs (2FA) ?",
+      "type": "QCM",
+      "options": ["Avoir deux mots de passe différents", "Utiliser un code reçu par SMS en plus du mot de passe pour se connecter", "Avoir deux comptes Facebook", "Se connecter à deux on le même téléphone"],
+      "bonne_reponse": "Utiliser un code reçu par SMS en plus du mot de passe pour se connecter",
+      "explication": "Cela double la sécurité de votre compte."
+    },
+    {
+      "id": "q2",
+      "question": "Il faut changer son mot de passe :",
+      "type": "QCM",
+      "options": ["Tous les jours", "Régulièrement (ex: une fois par an) or si on a un doute", "Jamais", "Seulement si on l'oublie"],
+      "bonne_reponse": "Régulièrement (ex: une fois par an) or si on a un doute",
+      "explication": "Cela limite les risques on cas de fuite de données."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : On peut utiliser le même mot de passe pour tous ses comptes.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "Si un compte est piraté, tous les autres le seront aussi."
+    },
+    {
+      "id": "q4",
+      "question": "Un 'gestionnaire de mots de passe' sert à :",
+      "type": "QCM",
+      "options": ["Écrire ses codes on un post-it", "Stocker de façon sécurisée tous vos mots de passe complexes", "Deviner les codes des autres", "Débloquer le téléphone"],
+      "bonne_reponse": "Stocker de façon sécurisée tous vos mots de passe complexes",
+      "explication": "On n'a plus qu'un seul mot de passe 'maître' à retenir."
+    },
+    {
+      "id": "q5",
+      "question": "Que faire si votre compte a été piraté ?",
+      "type": "QCM",
+      "options": ["Ne rien dire", "Essayer de changer le mot de passe tout de suite and prévenir les contacts", "Créer un nouveau compte with le même nom", "Rendre l'ordinateur"],
+      "bonne_reponse": "Essayer de changer le mot de passe tout de suite and prévenir les contacts",
+      "explication": "Il faut agir vite for limiter les dégâts."
+    }
+  ]
+}

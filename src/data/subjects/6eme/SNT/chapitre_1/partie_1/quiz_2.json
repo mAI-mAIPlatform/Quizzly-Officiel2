@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SNT_CH1_P1_QUIZ2",
+  "classe": "6eme",
+  "matiere": "SNT",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "L'Adresse URL",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une URL ?",
+      "type": "QCM",
+      "options": ["Une sorte de gâteau", "L'adresse d'une page Web", "Le nom d'un ordinateur", "Un message secret"],
+      "bonne_reponse": "L'adresse d'une page Web",
+      "explication": "URL signifie Uniform Resource Locator."
+    },
+    {
+      "id": "q2",
+      "question": "Dans 'https://www.google.fr', le '.fr' est :",
+      "type": "QCM",
+      "options": ["Le prénom du site", "L'extension (indique souvent le pays ou le type de site)", "Une erreur", "Le mot de passe"],
+      "bonne_reponse": "L'extension (indique souvent le pays ou le type de site)",
+      "explication": "'.fr' pour France, '.com' pour Commercial, '.org' pour Organisation."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Le 's' dans 'https' signifie que la connexion est sécurisée.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Le cadenas à côté de l'adresse indique que les données sont chiffrées."
+    },
+    {
+      "id": "q4",
+      "question": "Que se passe-t-il si tu changes une seule lettre dans une URL ?",
+      "type": "QCM",
+      "options": ["Rien du tout", "Tu tombes sur une erreur 404 (page non trouvée) ou un autre site", "Ton ordinateur explose", "Le site se répare tout seul"],
+      "bonne_reponse": "Tu tombes sur une erreur 404 (page non trouvée) ou un autre site",
+      "explication": "Chaque page a une adresse unique et précise."
+    },
+    {
+      "id": "q5",
+      "question": "Le protocole 'HTTP' sert à :",
+      "type": "QCM",
+      "options": ["Envoyer des courriers papier", "Transférer les fichiers des pages Web entre le serveur et ton ordinateur", "Jouer de la musique", "Calculer des additions"],
+      "bonne_reponse": "Transférer les fichiers des pages Web entre le serveur et ton ordinateur",
+      "explication": "HyperText Transfer Protocol."
+    }
+  ]
+}

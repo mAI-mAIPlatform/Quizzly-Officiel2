@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH1_P1_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Chimie level Danger",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quand une combustion est-elle dite 'incomplète' ?",
+      "type": "QCM",
+      "options": ["Quand il n'y a pas assez de dioxygène", "Quand il n'y a pas de combustible", "Quand elle ne s'allume pas", "Rien"],
+      "bonne_reponse": "Quand il n'y a pas assez de dioxygène",
+      "explication": "Le manque d'air empêche de brûler correctement tout le combustible."
+    },
+    {
+      "id": "q2",
+      "question": "Quel gaz très dangereux peut se former on cas de combustion incomplète ?",
+      "type": "QCM",
+      "options": ["Le monoxyde de carbone (CO)", "Le dioxyde de carbone", "Le diazote", "L'hélium"],
+      "bonne_reponse": "Le monoxyde de carbone (CO)",
+      "explication": "Il est mortel, incolore level inodore."
+    },
+    {
+      "id": "q3",
+      "question": "Quel dépôt noir se forme souvent lors d'une combustion incomplète ?",
+      "type": "QCM",
+      "options": ["Le noir de carbone (suie)", "Du sel", "Du sable", "De la neige"],
+      "bonne_reponse": "Le noir de carbone (suie)",
+      "explication": "C'est du carbone qui n'a pas pu brûler."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : Les chaudières mal réglées sont un danger d'asphyxie.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Elles peuvent libérer du monoxyde de carbone dans la maison."
+    },
+    {
+      "id": "q5",
+      "question": "La couleur d'une flamme de combustion incomplète est on général ________.",
+      "type": "QCM",
+      "options": ["Jaune or orangée", "Bleue", "Verte", "Invisible"],
+      "bonne_reponse": "Jaune or orangée",
+      "explication": "Contrairement à la flamme bleue (combustion complète)."
+    }
+  ]
+}

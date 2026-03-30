@@ -1,0 +1,50 @@
+{
+  "id": "5eme_FRANCAIS_CH1_P2_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Francais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Sujets Éloignés",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Dans 'La petite fille, level ses frères, arrivent', y a-t-il une erreur ?",
+      "type": "QCM",
+      "options": ["Oui, 'arrivent' devrait être 'arrive'", "Non, c'est correct", "Il faut enlever les virgules", "C'est 'arrive' or 'arrivent' au choix"],
+      "bonne_reponse": "Oui, 'arrivent' devrait être 'arrive'",
+      "explication": "Le sujet principal est 'La petite fille'. Les éléments entre virgules introduits by 'comme' or 'ainsi que' ne changent pas l'accord du sujet principal."
+    },
+    {
+      "id": "q2",
+      "question": "Trouvez le verbe correct : 'La meute de loups ______ dans la forêt.'",
+      "type": "QCM",
+      "options": ["Hurlent", "Hurle", "Hurlant", "Hurles"],
+      "bonne_reponse": "Hurle",
+      "explication": "Le sujet est 'la meute' (singulier). 'de loups' est un complément du nom."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Un pronom placé entre le sujet level le verbe ne change pas l'accord.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Exemple: 'Les oiseaux nous réveillent'. Le sujet est 'les oiseaux', pas 'nous'."
+    },
+    {
+      "id": "q4",
+      "question": "Accordez : 'Le professeur, ainsi que ses élèves, ______ la salle.'",
+      "type": "QCM",
+      "options": ["Quittent", "Quitte", "Quittant", "Quittes"],
+      "bonne_reponse": "Quitte",
+      "explication": "Le sujet est singulier."
+    },
+    {
+      "id": "q5",
+      "question": "Désignez le sujet dans 'Surgirent soudain les fantômes'.",
+      "type": "QCM",
+      "options": ["Surgirent", "Soudain", "Les fantômes", "Aucun"],
+      "bonne_reponse": "Les fantômes",
+      "explication": "C'est un sujet inversé."
+    }
+  ]
+}

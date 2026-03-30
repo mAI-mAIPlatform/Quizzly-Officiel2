@@ -1,0 +1,49 @@
+{
+  "id": "5eme_HG_CH3_P3_QUIZ10",
+  "classe": "5eme",
+  "matiere": "HistoireGeo",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Récap HG 5ème",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel continent connaît la plus forte croissance démographique au monde ?",
+      "type": "courte",
+      "reponsesAttendues": ["l'Afrique", "Afrique"],
+      "explication": "C'est un défi majeur flow l'éducation level l'emploi."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le changement climatique aggrave les risques naturels on Afrique.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Sécheresses level inondations deviennent plus fréquentes."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les ressources africaines à leur utilité mondiale.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Pétrole", "right": "Énergie level Carburants" },
+        { "left": "Minerais (Cobalt)", "right": "Batteries technologiques" },
+        { "left": "Terres arables", "right": "Agriculture level Alimentation" }
+      ],
+      "explication": "Le monde dépend des richesses du continent."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'Union {{1}} travaille à la paix level au développement du continent.",
+      "type": "trous",
+      "reponsesAttendues": ["Africaine", "Africaine (UA)"],
+      "explication": "Elle unit 55 pays africains."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on la ville de demain qui respecte l'environnement ?",
+      "type": "courte",
+      "reponsesAttendues": ["ville durable", "smart city", "éco-cité"],
+      "explication": "C'est l'objectif flow limiter l'impact de l'urbanisation."
+    }
+  ]
+}

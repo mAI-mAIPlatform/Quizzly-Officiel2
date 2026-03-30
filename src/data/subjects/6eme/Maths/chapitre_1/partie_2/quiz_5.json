@@ -1,0 +1,50 @@
+{
+  "id": "6eme_Maths_CH1_P2_QUIZ15",
+  "classe": "6eme",
+  "matiere": "Maths",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Calculs avancés (Puissances de 10)",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Multiplier par 0,1 revient à :",
+      "type": "QCM",
+      "options": ["Multiplier par 10", "Diviser par 10", "Ajouter un zéro", "Enlever un zéro"],
+      "bonne_reponse": "Diviser par 10",
+      "explication": "Multiplier par un nombre plus petit que 1 (comme 0,1) réduit la valeur du résultat."
+    },
+    {
+      "id": "q2",
+      "question": "Calcule : 120 x 0,1",
+      "type": "QCM",
+      "options": ["1 200", "1,2", "12", "0,12"],
+      "bonne_reponse": "12",
+      "explication": "120 / 10 = 12."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Diviser par 10 revient à multiplier par 0,1.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est la même opération mathématique."
+    },
+    {
+      "id": "q4",
+      "question": "Calcule : 50 x 0,01",
+      "type": "QCM",
+      "options": ["5", "0,5", "0,05", "500"],
+      "bonne_reponse": "0,5",
+      "explication": "On divise par 100 : 50 / 100 = 0,5."
+    },
+    {
+      "id": "q5",
+      "question": "Vrai ou Faux : Multiplier par 0,5 revient à diviser par 2.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "0,5 est la moitié (1/2), donc multiplier par 0,5 donne la moitié du nombre."
+    }
+  ]
+}

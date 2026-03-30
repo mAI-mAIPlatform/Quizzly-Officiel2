@@ -1,0 +1,50 @@
+{
+  "id": "6eme_PC_CH2_P1_QUIZ135",
+  "classe": "6eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "La Filtration",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "À quoi sert un filtre ?",
+      "type": "QCM",
+      "options": ["À colorer l'eau", "À retenir les particules solides d'un mélange hétérogène", "À faire bouillir l'eau", "À mesurer le volume"],
+      "bonne_reponse": "À retenir les particules solides d'un mélange hétérogène",
+      "explication": "Le liquide passe à travers les petits trous, pas le solide."
+    },
+    {
+      "id": "q2",
+      "question": "Comment appelle-t-on le liquide recueilli après filtration ?",
+      "type": "QCM",
+      "options": ["Le résidu", "Le filtrat", "L'eau pure", "Le mélange"],
+      "bonne_reponse": "Le filtrat",
+      "explication": "C'est un mélange homogène (si le filtre était bon)."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : On peut retirer le sel dissous dans l'eau avec un filtre en papier.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "Le sel dissous est trop petit, il passe avec l'eau."
+    },
+    {
+      "id": "q4",
+      "question": "Que reste-t-il sur le papier filtre après l'opération ?",
+      "type": "QCM",
+      "options": ["Le filtrat", "Le résidu (solide)", "Rien", "De l'air"],
+      "bonne_reponse": "Le résidu (solide)",
+      "explication": "Ce sont les impuretés qu'on a voulu enlever."
+    },
+    {
+      "id": "q5",
+      "question": "Lequel est un exemple de filtration au quotidien ?",
+      "type": "QCM",
+      "options": ["Faire du café", "Ajouter du sucre dans son thé", "Boire de la grenadine", "Laver par terre"],
+      "bonne_reponse": "Faire du café",
+      "explication": "Le filtre retient le marc de café solide."
+    }
+  ]
+}

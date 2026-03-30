@@ -1,0 +1,50 @@
+{
+  "id": "5eme_FRANCAIS_CH1_P2_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Francais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Homophones est/et",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la nature de 'est' ?",
+      "type": "QCM",
+      "options": ["Le verbe être au présent", "Une conjonction", "Un nom", "Une préposition"],
+      "bonne_reponse": "Le verbe être au présent",
+      "explication": "On peut le remplacer by 'était'."
+    },
+    {
+      "id": "q2",
+      "question": "Quelle est la nature de 'et' ?",
+      "type": "QCM",
+      "options": ["Un verbe", "Une conjonction de coordination", "Un pronom", "Un adjectif"],
+      "bonne_reponse": "Une conjonction de coordination",
+      "explication": "Il sert à relier deux éléments. On peut le remplacer by 'et puis'."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Dans 'Le ciel et la terre', 'et' est un verbe.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "C'est un lien entre deux noms."
+    },
+    {
+      "id": "q4",
+      "question": "Complétez : 'Lucie ______ contente.'",
+      "type": "QCM",
+      "options": ["et", "es", "est", "ai"],
+      "bonne_reponse": "est",
+      "explication": "C'est l'auxiliaire être (Lucie était)."
+    },
+    {
+      "id": "q5",
+      "question": "'Il range son bureau ______ sa chambre.'",
+      "type": "QCM",
+      "options": ["est", "et", "es", "ai"],
+      "bonne_reponse": "et",
+      "explication": "Il relie deux compléments."
+    }
+  ]
+}

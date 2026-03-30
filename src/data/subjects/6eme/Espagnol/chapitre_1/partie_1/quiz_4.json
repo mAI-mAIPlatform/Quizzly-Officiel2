@@ -1,0 +1,50 @@
+{
+  "id": "6eme_ESP_CH1_P1_QUIZ4",
+  "classe": "6eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Cómo estás?",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Que signifie 'Estoy bien' ?",
+      "type": "QCM",
+      "options": ["Je suis beau", "Je vais bien", "Je suis fatigué", "Je suis ici"],
+      "bonne_reponse": "Je vais bien",
+      "explication": "Bien = Bien."
+    },
+    {
+      "id": "q2",
+      "question": "Comment dit-on 'Je suis fatigué' (si on est un garçon) ?",
+      "type": "QCM",
+      "options": ["Estoy cansado", "Estoy cansada", "Estoy triste", "Estoy alegre"],
+      "bonne_reponse": "Estoy cansado",
+      "explication": "On accorde l'adjectif avec le genre (o pour masculin, a pour féminin)."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 'Estoy regular' signifie 'Je vais moyennement bien'.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est entre bien et mal."
+    },
+    {
+      "id": "q4",
+      "question": "Traduisez 'Mal' :",
+      "type": "QCM",
+      "options": ["Mal", "Malé", "Malo", "Mala"],
+      "bonne_reponse": "Mal",
+      "explication": "C'est identique au français."
+    },
+    {
+      "id": "q5",
+      "question": "Si je suis contente, je dis :",
+      "type": "QCM",
+      "options": ["Estoy triste", "Estoy contenta", "Estoy enfadada", "Estoy enferma"],
+      "bonne_reponse": "Estoy contenta",
+      "explication": "Contenta = Contente."
+    }
+  ]
+}

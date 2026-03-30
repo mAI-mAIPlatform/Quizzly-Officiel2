@@ -1,0 +1,50 @@
+{
+  "id": "6eme_ALL_CH1_P1_QUIZ1",
+  "classe": "6eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Begrüßung und Abschied",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment dit-on 'Bonjour' en allemand (toute la journée) ?",
+      "type": "QCM",
+      "options": ["Guten Morgen", "Guten Tag", "Guten Abend", "Hallo"],
+      "bonne_reponse": "Guten Tag",
+      "explication": "'Guten Tag' est la salutation standard."
+    },
+    {
+      "id": "q2",
+      "question": "Comment dit-on 'Salut' ?",
+      "type": "QCM",
+      "options": ["Tschüss", "Hallo", "Danke", "Bitte"],
+      "bonne_reponse": "Hallo",
+      "explication": "Identique à l'anglais mais prononcé différemment."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 'Guten Morgen' se dit le soir.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "Morgen = Matin."
+    },
+    {
+      "id": "q4",
+      "question": "Comment dit-on 'Au revoir' (formel) ?",
+      "type": "QCM",
+      "options": ["Tschüss", "Auf Wiedersehen", "Gute Nacht", "Bis bald"],
+      "bonne_reponse": "Auf Wiedersehen",
+      "explication": "Wiedersehen = se revoir."
+    },
+    {
+      "id": "q5",
+      "question": "Que signifie 'Tschüss' ?",
+      "type": "QCM",
+      "options": ["Au revoir (familier)", "Bienvenue", "Merci", "S'il vous plaît"],
+      "bonne_reponse": "Au revoir (familier)",
+      "explication": "Très utilisé entre amis."
+    }
+  ]
+}

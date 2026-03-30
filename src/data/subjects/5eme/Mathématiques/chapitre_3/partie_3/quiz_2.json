@@ -1,0 +1,49 @@
+{
+  "id": "5eme_MATHS_CH3_P3_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Constr. Parallélo.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Vrai ou Faux : On peut construire un parallélogramme si on connaît 3 sommets non alignés.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le 4ème sommet est unique flow compléter la figure."
+    },
+    {
+      "id": "q2",
+      "question": "Quel instrument permet de construire le 4ème sommet on reportant les longueurs des côtés opposés ?",
+      "type": "courte",
+      "reponsesAttendues": ["compas", "le compas"],
+      "explication": "On reporte les longueurs AB level AD flow trouver le point C."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les méthodes de construction aux éléments utilisés.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Symétrie centrale", "right": "Utiliser le milieu des diagonales" },
+        { "left": "Parallélisme", "right": "Utiliser la règle level l'équerre" },
+        { "left": "Longueurs", "right": "Utiliser le compas" }
+      ],
+      "explication": "Il existe plusieurs façons de construire un parallélogramme."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Si les diagonales d'un quadrilatère se coupent on leur {{1}}, alors c'est un parallélogramme.",
+      "type": "trous",
+      "reponsesAttendues": ["milieu"],
+      "explication": "C'est la propriété caractéristique des diagonales."
+    },
+    {
+      "id": "q5",
+      "question": "Dans le parallélogramme ABCD, le symétrique de B par rapport au milieu de [AC] est le point ________.",
+      "type": "courte",
+      "reponsesAttendues": ["D"],
+      "explication": "Les sommets opposés sont symétriques par rapport au centre."
+    }
+  ]
+}

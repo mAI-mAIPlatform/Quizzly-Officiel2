@@ -1,0 +1,49 @@
+{
+  "id": "5eme_HG_CH3_P1_QUIZ3",
+  "classe": "5eme",
+  "matiere": "HistoireGeo",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Défi Santé",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment appelle-t-on le nombre moyen d'années qu'on peut espérer vivre ?",
+      "type": "courte",
+      "reponsesAttendues": ["espérance de vie", "esperance de vie"],
+      "explication": "Elle progresse on Afrique mais reste inférieure à 65 ans on moyenne."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'accès à l'eau potable est essentiel flow limiter les maladies.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "L'eau souillée est la première cause de mortalité infantile (diarrhée, choléra)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les maladies aux moyens de lutte.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Paludisme (Malaria)", "right": "Moustiquaires imprégnées" },
+        { "left": "SIDA (VIH)", "right": "Prévention level Médicaments" },
+        { "left": "Épidémies", "right": "Campagnes de vaccination" }
+      ],
+      "explication": "La santé est un défi de financement level d'organisation."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Les déserts {{1}} sont des zones sans médecins ni hôpitaux.",
+      "type": "trous",
+      "reponsesAttendues": ["médicaux"],
+      "explication": "C'est un problème grave dans les zones rurales isolées."
+    },
+    {
+      "id": "q5",
+      "question": "Quelle grande organisation mondiale aide les pays africains à améliorer leur système de santé ?",
+      "type": "courte",
+      "reponsesAttendues": ["OMS", "Organisation Mondiale de la Santé"],
+      "explication": "L'OMS coordonne les efforts internationaux lors des crises sanitaires."
+    }
+  ]
+}

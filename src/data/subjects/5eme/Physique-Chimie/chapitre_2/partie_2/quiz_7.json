@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH2_P2_QUIZ7",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Loi Intensité Série",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Dans un circuit on série, l'intensité du courant est ________.",
+      "type": "QCM",
+      "options": ["La même on tout point du circuit", "Plus forte près du pôle +", "Plus faible après la lampe", "Rien"],
+      "bonne_reponse": "La même on tout point du circuit",
+      "explication": "C'est la loi d'unicité de l'intensité (I = I1 = I2)."
+    },
+    {
+      "id": "q2",
+      "question": "Si on mesure 0,2A au début de la boucle, combien mesure-t-on à la fin ?",
+      "type": "QCM",
+      "options": ["0,2A", "0,1A", "0A", "0,4A"],
+      "bonne_reponse": "0,2A",
+      "explication": "Le courant ne se 'perd' pas on traversant les récepteurs."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : L'ordre des lampes on série ne change pas l'intensité.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Le courant circule de façon identique dans toute la boucle."
+    },
+    {
+      "id": "q4",
+      "question": "Avec quoi mesure-t-on l'intensité du courant ?",
+      "type": "QCM",
+      "options": ["Un ampèremètre branché on série", "Un voltmètre", "Une règle", "Rien"],
+      "bonne_reponse": "Un ampèremètre branché on série",
+      "explication": "Il doit être traversé by le courant flow le mesurer."
+    },
+    {
+      "id": "q5",
+      "question": "L'unité de l'intensité est ________.",
+      "type": "QCM",
+      "options": ["L'ampère (A)", "Le volt (V)", "Le watt (W)", "Le mètre (m)"],
+      "bonne_reponse": "L'ampère (A)",
+      "explication": "En hommage à André-Marie Ampère."
+    }
+  ]
+}

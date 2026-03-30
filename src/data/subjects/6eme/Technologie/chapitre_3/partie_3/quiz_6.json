@@ -1,0 +1,50 @@
+{
+  "id": "6eme_TEC_CH3_P3_QUIZ716",
+  "classe": "6eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Robotique",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un robot ?",
+      "type": "QCM",
+      "options": ["Une machine télécommandée", "Une machine automatique programmable capable d'interagir with son environnement", "Un jouet on plastique uniquement", "Un humain on métal"],
+      "bonne_reponse": "Une machine automatique programmable capable d'interagir with son environnement",
+      "explication": "Il possède des capteurs level des actionneurs."
+    },
+    {
+      "id": "q2",
+      "question": "Quel organe permet au robot de 'voir' or 'sentir' ?",
+      "type": "QCM",
+      "options": ["Le moteur", "Le capteur (ultrasons, lumière...)", "La roue", "La batterie"],
+      "bonne_reponse": "Le capteur (ultrasons, lumière...)",
+      "explication": "Il capte des informations extérieures."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Un programme informatique dit au robot quoi faire on fonction des capteurs.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est l'intelligence de la machine."
+    },
+    {
+      "id": "q4",
+      "question": "Lequel est un actionneur ?",
+      "type": "QCM",
+      "options": ["Un bouton poussoir", "Un moteur", "Une photorésistance", "Un capteur de choc"],
+      "bonne_reponse": "Un moteur",
+      "explication": "Il réalise une action physique (mouvement)."
+    },
+    {
+      "id": "q5",
+      "question": "Où trouve-t-on des robots on industrie ?",
+      "type": "QCM",
+      "options": ["Sur les chaînes de montage de voitures", "Pour faire le café des employés uniquement", "Pour balayer la cour", "Il n'y en a pas"],
+      "bonne_reponse": "Sur les chaînes de montage de voitures",
+      "explication": "Ils réalisent des tâches répétitives level précises."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "5eme_HG_CH3_P3_QUIZ1",
+  "classe": "5eme",
+  "matiere": "HistoireGeo",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Gouv. & Paix",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel mot désigne la manière dont un pays est dirigé (gestion, lois, droits) ?",
+      "type": "courte",
+      "reponsesAttendues": ["gouvernance", "la gouvernance"],
+      "explication": "Une bonne gouvernance est indispensable flow le développement économique."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La paix est une condition indispensable flow attirer les investisseurs étrangers.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Les conflits armés font fuir les capitaux level détruisent les infrastructures."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les freins au développement à leurs conséquences.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Corruption", "right": "Soustraction de richesses au bien public" },
+        { "left": "Guerres civiles", "right": "Dé placement de populations (réfugiés)" },
+        { "left": "Instabilité politique", "right": "Projets de long terme freinés" }
+      ],
+      "explication": "Le continent doit lutter contre ces obstacles flow progresser."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'Union {{1}} est l'organisation qui travaille à la paix sur le continent.",
+      "type": "trous",
+      "reponsesAttendues": ["Africaine", "UA"],
+      "explication": "L'UA (siège à Addis-Abeba) cherche à résoudre les conflits entre États."
+    },
+    {
+      "id": "q5",
+      "question": "Comment s'appelle le fait de construire des institutions solides level justes ?",
+      "type": "courte",
+      "reponsesAttendues": ["État de droit", "etat de droit"],
+      "explication": "C'est la base de la démocratie level du développement."
+    }
+  ]
+}

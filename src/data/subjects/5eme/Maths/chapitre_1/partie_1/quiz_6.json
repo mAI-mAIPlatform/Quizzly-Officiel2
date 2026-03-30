@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MATHS_CH1_P1_QUIZ6",
+  "classe": "5eme",
+  "matiere": "Maths",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Repérage Plan",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment appelle-t-on l'axe horizontal dans un repère ?",
+      "type": "QCM",
+      "options": ["L'axe des ordonnées", "L'axe des abscisses", "L'axe du milieu", "L'origine"],
+      "bonne_reponse": "L'axe des abscisses",
+      "explication": "C'est l'axe des x."
+    },
+    {
+      "id": "q2",
+      "question": "Comment appelle-t-on l'axe vertical dans un repère ?",
+      "type": "QCM",
+      "options": ["L'axe des abscisses", "L'axe des ordonnées", "L'axe du haut", "L'axe y"],
+      "bonne_reponse": "L'axe des ordonnées",
+      "explication": "C'est l'axe des y."
+    },
+    {
+      "id": "q3",
+      "question": "Quelles sont les coordonnées du point O (l'origine) ?",
+      "type": "QCM",
+      "options": ["(1 ; 1)", "(0 ; 0)", "(-1 ; -1)", "(10 ; 10)"],
+      "bonne_reponse": "(0 ; 0)",
+      "explication": "L'origine est le point de croisement des deux axes gradués à zéro."
+    },
+    {
+      "id": "q4",
+      "question": "Dans le couple (3 ; -2), quel nombre est l'ordonnée ?",
+      "type": "QCM",
+      "options": ["3", "-2", "On ne peut pas savoir", "Les deux"],
+      "bonne_reponse": "-2",
+      "explication": "Dans un couple (x ; y), le second nombre est l'ordonnée."
+    },
+    {
+      "id": "q5",
+      "question": "Un point situé on l'axe des ordonnées a une abscisse égale à ________.",
+      "type": "QCM",
+      "options": ["1", "-1", "0", "Elle dépend du point"],
+      "bonne_reponse": "0",
+      "explication": "S'il est pile on l'axe vertical, il n'a pas bougé horizontalement."
+    }
+  ]
+}

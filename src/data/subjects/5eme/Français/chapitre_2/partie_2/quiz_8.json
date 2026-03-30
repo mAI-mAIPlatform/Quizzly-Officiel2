@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH2_P2_QUIZ8",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Attribut Sujet",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "L'attribut du sujet est relié au sujet by un verbe d'________ (être, sembler, devenir...).",
+      "type": "courte",
+      "reponsesAttendues": ["état", "etat"],
+      "explication": "Il exprime une qualité ou une caractéristique du sujet."
+    },
+    {
+      "id": "q2",
+      "question": "Dans 'Le château semble abandonné', quelle est la fonction de 'abandonné' ?",
+      "type": "courte",
+      "reponsesAttendues": ["attribut du sujet", "attribut"],
+      "explication": "Le verbe 'sembler' est un verbe d'état."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les phrases à la fonction de l'élément souligné.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Il est courageux.", "right": "Attribut" },
+        { "left": "Il voit le dragon.", "right": "COD" },
+        { "left": "Le roi devient vieux.", "right": "Attribut" }
+      ],
+      "explication": "Verbe d'état -> Attribut. Verbe d'action -> COD."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : L'attribut du sujet s'accorde on genre level on nombre avec le sujet.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Exemple : La reine est contente."
+    },
+    {
+      "id": "q5",
+      "question": "Complète : L'attribut du sujet se trouve après un verbe comme {{1}}, paraître ou rester.",
+      "type": "trous",
+      "reponsesAttendues": ["être", "etre"],
+      "explication": "Ce sont les verbes d'état principaux."
+    }
+  ]
+}

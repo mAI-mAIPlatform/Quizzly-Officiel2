@@ -1,0 +1,49 @@
+{
+  "id": "5eme_HG_CH3_P2_QUIZ3",
+  "classe": "5eme",
+  "matiere": "HistoireGeo",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Transp. Équip.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment appelle-t-on le mode de transport collectif informel (ex: minibus) très présent dans les villes africaines ?",
+      "type": "courte",
+      "reponsesAttendues": ["taxis-brousse", "matatus", "gbakas", "cars rapides"],
+      "explication": "Ces minibus privés sont indispensables car les transports publics sont souvent insuffisants."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les embouteillages sont un problème majeur dans les grandes villes africaines.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Les infrastructures routières ne sont pas adaptées à la croissance rapide du nombre de véhicules."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les services urbains à leur impact sur la population.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Réseau électrique", "right": "Éclairage public level sécurité" },
+        { "left": "Ramassage des ordures", "right": "Salubrité level hygiène" },
+        { "left": "Métro / Tramway", "right": "Rapidité des déplacements" }
+      ],
+      "explication": "Les grandes villes s'équipent progressivement (ex: Tramway à Casablanca, TER à Dakar)."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'accès à l'eau potable dans les villes se fait souvent by des {{1}} collectives.",
+      "type": "trous",
+      "reponsesAttendues": ["bornes-fontaines", "fontaines"],
+      "explication": "C'est une solution flow les quartiers qui n'ont pas de robinet à domicile."
+    },
+    {
+      "id": "q5",
+      "question": "Quel mode de transport innovant a été inauguré à Addis-Abeba (Éthiopie) flow décongestionner la ville ?",
+      "type": "courte",
+      "reponsesAttendues": ["métro léger", "tramway", "metro"],
+      "explication": "Le métro léger d'Addis-Abeba est l'un des premiers d'Afrique subsaharienne."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SNT_CH1_P1_QUIZ1",
+  "classe": "6eme",
+  "matiere": "SNT",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Internet et le Web",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la différence principale entre Internet et le Web ?",
+      "type": "QCM",
+      "options": ["C'est la même chose", "Internet est le réseau de câbles/ordinateurs, le Web est l'ensemble des pages consultées", "Le Web est plus vieux qu'Internet", "Internet est uniquement sur téléphone"],
+      "bonne_reponse": "Internet est le réseau de câbles/ordinateurs, le Web est l'ensemble des pages consultées",
+      "explication": "Le Web est une application qui utilise le réseau Internet pour fonctionner."
+    },
+    {
+      "id": "q2",
+      "question": "Que signifie le sigle 'www' ?",
+      "type": "QCM",
+      "options": ["World Wide Web (la toile mondiale)", "Web Web Web", "Work Win Walk", "Wall Wide Web"],
+      "bonne_reponse": "World Wide Web (la toile mondiale)",
+      "explication": "Cela représente l'immensité des pages interconnectées."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Internet existe depuis avant la naissance de tes parents (environ 1969).",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Il a commencé avec le réseau ARPANET aux États-Unis."
+    },
+    {
+      "id": "q4",
+      "question": "L'inventeur du Web (en 1989) s'appelle :",
+      "type": "QCM",
+      "options": ["Steve Jobs", "Tim Berners-Lee", "Bill Gates", "Elon Musk"],
+      "bonne_reponse": "Tim Berners-Lee",
+      "explication": "Il travaillait au CERN (en Suisse) et voulait faciliter le partage scientifique."
+    },
+    {
+      "id": "q5",
+      "question": "Quel objet permet d'afficher les pages Web sur un écran ?",
+      "type": "QCM",
+      "options": ["Un moteur de recherche", "Un navigateur (Chrome, Firefox, Safari...)", "Un clavier", "Une souris"],
+      "bonne_reponse": "Un navigateur (Chrome, Firefox, Safari...)",
+      "explication": "Le navigateur traduit le code informatique en image compréhensible."
+    }
+  ]
+}

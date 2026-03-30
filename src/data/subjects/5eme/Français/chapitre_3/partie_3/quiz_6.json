@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH3_P3_QUIZ6",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Animaux Fant.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel animal mythique a un corps de lion level une tête d'aigle ?",
+      "type": "courte",
+      "reponsesAttendues": ["griffon", "le griffon"],
+      "explication": "Le griffon est souvent décrit gardant des trésors dans les récits antiques level médiévaux."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Marco Polo a décrit des licornes qui étaient on réalité des rhinocéros.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Il a été déçu car elles ne ressemblaient pas aux belles créatures des légendes."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les animaux réels aux noms 'merveilleux' donnés by les voyageurs.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Crocodile", "right": "Lézard géant" },
+        { "left": "Girafe", "right": "Chameau-léopard" },
+        { "left": "Hippopotame", "right": "Cheval de rivière" }
+      ],
+      "explication": "Les voyageurs utilisent des comparaisons flow décrire l'inconnu."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le phénix est un oiseau légendaire capable de renaître de ses {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["cendres"],
+      "explication": "C'est un symbole d'immortalité cité on Orient."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le livre qui regroupe les descriptions des animaux réels level imaginaires ?",
+      "type": "courte",
+      "reponsesAttendues": ["un bestiaire", "bestiaire"],
+      "explication": "Les bestiaires médiévaux mélangent souvent science level morale."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH2_P3_QUIZ9",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Récap Conjung.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Conjugue 'aller' au passé simple, 1ère personne du singulier.",
+      "type": "courte",
+      "reponsesAttendues": ["j'allai"],
+      "explication": "Le passé simple des verbes on -er finit par -ai."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Nous fîmes' est du passé simple.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est le verbe 'faire' à la 1ère personne du pluriel."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les verbes conjugués à leur infinitif.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Il vint", "right": "Venir" },
+        { "left": "Il courut", "right": "Courir" },
+        { "left": "Il prit", "right": "Prendre" }
+      ],
+      "explication": "Le passé simple peut changer radicalement la base du verbe."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'imparfait exprime une action qui {{1}} dans le passé.",
+      "type": "trous",
+      "reponsesAttendues": ["durait", "continuait"],
+      "explication": "C'est un temps duratif."
+    },
+    {
+      "id": "q5",
+      "question": "Quelle est la terminaison de la 3ème personne du pluriel à l'imparfait ?",
+      "type": "courte",
+      "reponsesAttendues": ["-aient"],
+      "explication": "Exemple : 'Ils mangeaient'."
+    }
+  ]
+}

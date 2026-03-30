@@ -1,0 +1,50 @@
+{
+  "id": "6eme_ESP_CH1_P2_QUIZ18",
+  "classe": "6eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "El Plural",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est le pluriel de 'Mesa' ?",
+      "type": "QCM",
+      "options": ["Mesas", "Meses", "Mesax", "Mesa"],
+      "bonne_reponse": "Mesas",
+      "explication": "Si le mot finit par une voyelle, on rajoute 's'."
+    },
+    {
+      "id": "q2",
+      "question": "Quel est le pluriel de 'Papel' (qui finit par une consonne) ?",
+      "type": "QCM",
+      "options": ["Papels", "Papeles", "Papelsi", "Papel"],
+      "bonne_reponse": "Papeles",
+      "explication": "Si le mot finit par une consonne, on rajoute 'es'."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Le pluriel de 'Lápiz' est 'Lápizes'.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "Le 'z' se transforme en 'c' : Lápices."
+    },
+    {
+      "id": "q4",
+      "question": "Comment dit-on 'Les garçons' ?",
+      "type": "QCM",
+      "options": ["Les chicos", "Los chicos", "Las chicos", "Lé chicos"],
+      "bonne_reponse": "Los chicos",
+      "explication": "Los est le pluriel de El."
+    },
+    {
+      "id": "q5",
+      "question": "Traduisez 'Des gommes' :",
+      "type": "QCM",
+      "options": ["Unas gomas", "Un gomas", "Un gomas", "Gomas"],
+      "bonne_reponse": "Unas gomas",
+      "explication": "Unas est l'article indéfini pluriel féminin."
+    }
+  ]
+}

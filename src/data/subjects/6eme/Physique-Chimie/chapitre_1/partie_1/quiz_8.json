@@ -1,0 +1,50 @@
+{
+  "id": "6eme_PC_CH1_P1_QUIZ8",
+  "classe": "6eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Les mélanges",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un mélange ?",
+      "type": "QCM",
+      "options": ["Un seul corps pur", "Plusieurs substances différentes mises ensemble", "Un objet cassé", "Une couleur"],
+      "bonne_reponse": "Plusieurs substances différentes mises ensemble",
+      "explication": "L'eau sucrée est un mélange d'eau et de sucre."
+    },
+    {
+      "id": "q2",
+      "question": "Comment appelle-t-on un mélange où l'on peut distinguer les différents constituants à l'œil nu ?",
+      "type": "QCM",
+      "options": ["Mélange homogène", "Mélange hétérogène", "Mélange invisible", "Mélange parfait"],
+      "bonne_reponse": "Mélange hétérogène",
+      "explication": "Exemple : de l'eau avec du sable ou de l'huile."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : L'eau minérale est un mélange homogène.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "On ne voit pas les sels minéraux dissous, l'eau semble pure mais c'est un mélange."
+    },
+    {
+      "id": "q4",
+      "question": "Lequel est un mélange hétérogène ?",
+      "type": "QCM",
+      "options": ["Le jus d'orange sans pulpe", "La soupe moulinée", "Le sirop à l'eau", "Une boisson gazeuse (avec bulles)"],
+      "bonne_reponse": "Une boisson gazeuse (avec bulles)",
+      "explication": "On voit les bulles (gaz) séparées du liquide."
+    },
+    {
+      "id": "q5",
+      "question": "Un corps composé d'une seule substance est un :",
+      "type": "QCM",
+      "options": ["Mélange", "Corps pur", "Mélange hétérogène", "Alliage"],
+      "bonne_reponse": "Corps pur",
+      "explication": "L'eau distillée est un corps pur."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SNT_CH1_P1_QUIZ7",
+  "classe": "6eme",
+  "matiere": "SNT",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Ton Identité Numérique",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que ton 'identité numérique' ?",
+      "type": "QCM",
+      "options": ["Ta carte d'identité réelle", "L'ensemble des traces que tu laisses sur Internet (messages, comptes, photos...)", "Ton nom sur ton ordinateur", "Le prix de ton téléphone"],
+      "bonne_reponse": "L'ensemble des traces que tu laisses sur Internet (messages, comptes, photos...)",
+      "explication": "Tout ce que tu fais sur le Web construit ton image en ligne."
+    },
+    {
+      "id": "q2",
+      "question": "Qu'est-ce qu'un pseudo ?",
+      "type": "QCM",
+      "options": ["Une insulte", "Un nom d'emprunt pour protéger son identité réelle", "Ta date de naissance", "Un virus"],
+      "bonne_reponse": "Un nom d'emprunt pour protéger son identité réelle",
+      "explication": "C'est conseillé d'utiliser un pseudo sur les forums ou jeux vidéo."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Internet n'oublie jamais rien.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Une fois publiée, une info peut être copiée et rester accessible très longtemps."
+    },
+    {
+      "id": "q4",
+      "question": "La CNIL (en France) sert à :",
+      "type": "QCM",
+      "options": ["Vendre des ordinateurs", "Protéger les données personnelles et les libertés des citoyens", "Réparer les vitres", "Donner des amendes de stationnement"],
+      "bonne_reponse": "Protéger les données personnelles et les libertés des citoyens",
+      "explication": "Commission Nationale de l'Informatique et des Libertés."
+    },
+    {
+      "id": "q5",
+      "question": "Ton identité numérique peut influencer :",
+      "type": "QCM",
+      "options": ["La météo", "Ton futur métier ou tes relations", "La couleur de tes yeux", "La vitesse de ton vélo"],
+      "bonne_reponse": "Ton futur métier ou tes relations",
+      "explication": "Un employeur peut chercher ton nom sur Google plus tard."
+    }
+  ]
+}

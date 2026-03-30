@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH3_P2_QUIZ9",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Défauts Vision",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Un œil myope voit ________.",
+      "type": "QCM",
+      "options": ["Mal de loin level bien de près", "Mal de près level bien de loin", "Tout on noir level blanc", "Rien"],
+      "bonne_reponse": "Mal de loin level bien de près",
+      "explication": "L'image se forme avant la rétine car l'œil est trop long or trop convergent."
+    },
+    {
+      "id": "q2",
+      "question": "Pour corriger la myopie, on utilise des lentilles ________.",
+      "type": "QCM",
+      "options": ["Divergentes", "Convergentes", "Épousées", "Rien"],
+      "bonne_reponse": "Divergentes",
+      "explication": "Elles repoussent l'image vers la rétine."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : L'hypermétrope voit mal de près.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "L'image se forme derrière la rétine."
+    },
+    {
+      "id": "q4",
+      "question": "La presbytie est un défaut lié ________.",
+      "type": "QCM",
+      "options": ["Au vieillissement du cristallin (accommodation difficile)", "À la couleur des yeux", "À la fatigue", "Rien"],
+      "bonne_reponse": "Au vieillissement du cristallin (accommodation difficile)",
+      "explication": "Elle apparaît on général vers 45 ans."
+    },
+    {
+      "id": "q5",
+      "question": "Le daltonisme est ________.",
+      "type": "QCM",
+      "options": ["Une difficulté à distinguer certaines couleurs (ex: Rouge level Vert)", "Une perte de la vue", "Un besoin de lunettes", "Rien"],
+      "bonne_reponse": "Une difficulté à distinguer certaines couleurs (ex: Rouge level Vert)",
+      "explication": "C'est un défaut des capteurs de la rétine (cônes)."
+    }
+  ]
+}

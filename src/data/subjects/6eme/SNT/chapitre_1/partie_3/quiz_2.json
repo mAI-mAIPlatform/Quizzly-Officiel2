@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SNT_CH1_P3_QUIZ22",
+  "classe": "6eme",
+  "matiere": "SNT",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Les Données",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "En informatique, une donnée (data) est :",
+      "type": "QCM",
+      "options": ["Uniquement un chiffre", "Une information qui peut être traitée par un ordinateur (texte, image, son...)", "Un meuble", "Une sorte de batterie"],
+      "bonne_reponse": "Une information qui peut être traitée par un ordinateur (texte, image, son...)",
+      "explication": "Tout ce que l'ordi manipule est une donnée."
+    },
+    {
+      "id": "q2",
+      "question": "Toutes les données sont transformées par l'ordinateur en :",
+      "type": "QCM",
+      "options": ["Lettres de l'alphabet", "Signaux binaires (suites de 0 et de 1)", "Couleurs primaires", "Ondes sonores"],
+      "bonne_reponse": "Signaux binaires (suites de 0 et de 1)",
+      "explication": "Le binaire est le langage de base des circuits électroniques."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Une photo est une donnée beaucoup plus lourde qu'un simple mot.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Une image contient des millions de pixels, ce qui prend plus de place (octets)."
+    },
+    {
+      "id": "q4",
+      "question": "Une 'Variable' en programmation sert à :",
+      "type": "QCM",
+      "options": ["Changer d'avis", "Stocker une valeur qui peut changer (ex: le score d'un jeu)", "Éteindre l'ordinateur", "Dessiner des ronds"],
+      "bonne_reponse": "Stocker une valeur qui peut changer (ex: le score d'un jeu)",
+      "explication": "C'est comme une boîte où l'on range une information."
+    },
+    {
+      "id": "q5",
+      "question": "Le format '.jpg' est une donnée de type :",
+      "type": "QCM",
+      "options": ["Texte", "Image", "Son", "Vidéo"],
+      "bonne_reponse": "Image",
+      "explication": "C'est l'un des formats les plus courants pour les photos."
+    }
+  ]
+}

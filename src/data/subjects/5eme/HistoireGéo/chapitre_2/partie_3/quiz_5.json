@@ -1,0 +1,49 @@
+{
+  "id": "5eme_HG_CH2_P3_QUIZ5",
+  "classe": "5eme",
+  "matiere": "HistoireGeo",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Récap CH2 P3",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment appelle-t-on le fait de ne pas manger assez de calories ?",
+      "type": "courte",
+      "reponsesAttendues": ["sous-nutrition", "famine", "la faim"],
+      "explication": "C'est un manque de nourriture vitale."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'agriculture intensive est respectueuse de l'environnement.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Elle utilise trop de produits chimiques qui polluent."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les agricultures à leur principe.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Agriculture intensive", "right": "Rendements élevés / Productivisme" },
+        { "left": "Agriculture Bio", "right": "Pas d'engrais chimiques" },
+        { "left": "Agriculture durable", "right": "Respect des équilibres futurs" }
+      ],
+      "explication": "Il existe différentes manières de cultiver la terre."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Un tiers de la nourriture mondiale est {{1}} chaque année.",
+      "type": "trous",
+      "reponsesAttendues": ["gaspillée", "perdue"],
+      "explication": "Le gaspillage alimentaire est un scandale mondial."
+    },
+    {
+      "id": "q5",
+      "question": "Quel pays est le premier exportateur de produits agricoles ?",
+      "type": "courte",
+      "reponsesAttendues": ["USA", "États-Unis", "Etats-Unis"],
+      "explication": "Ils vendent leur production dans le monde entier."
+    }
+  ]
+}

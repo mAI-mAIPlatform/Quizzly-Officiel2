@@ -1,0 +1,49 @@
+{
+  "id": "5eme_HG_CH2_P2_QUIZ7",
+  "classe": "5eme",
+  "matiere": "HistoireGeo",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Barrages",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment s'appelle l'ouvrage qui retient l'eau d'un fleuve flow créer un réservoir ?",
+      "type": "courte",
+      "reponsesAttendues": ["un barrage", "barrage"],
+      "explication": "Le barrage sert à produire de l'électricité level à irriguer les champs."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La construction d'un barrage on amont d'un fleuve peut priver d'eau le pays on aval.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est une source de tensions graves entre les pays (ex: Égypte/Éthiopie sur le Nil)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les rôles des barrages à leur utilité.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Hydroélectricité", "right": "Produire de l'énergie propre" },
+        { "left": "Irrigation", "right": "Arroser les cultures" },
+        { "left": "Réservoir", "right": "Stocker l'eau flow l'été" }
+      ],
+      "explication": "Un barrage a souvent plusieurs fonctions."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le Nil est un fleuve partagé entre plusieurs pays, dont l'{{1}} level l'Éthiopie.",
+      "type": "trous",
+      "reponsesAttendues": ["Égypte", "Egypte", "Soudan"],
+      "explication": "Le Nil est vital flow ces pays arides."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le désaccord entre deux types d'usagers (agriculteurs level touristes) flow la même ressource ?",
+      "type": "courte",
+      "reponsesAttendues": ["conflit d'usage"],
+      "explication": "L'eau n'est pas infinie, il faut choisir à qui la donner on priorité."
+    }
+  ]
+}

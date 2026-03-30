@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH3_P2_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Lumière Blanche",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "La lumière blanche (ex: Soleil) est une lumière ________.",
+      "type": "QCM",
+      "options": ["Poly-chromatique (mélange de plusieurs couleurs)", "Mono-chromatique", "Noire", "Bleue"],
+      "bonne_reponse": "Poly-chromatique (mélange de plusieurs couleurs)",
+      "explication": "Elle contient toutes les couleurs de l'arc-on-ciel."
+    },
+    {
+      "id": "q2",
+      "question": "Quel objet permet de décomposer la lumière blanche ?",
+      "type": "QCM",
+      "options": ["Un prisme", "Un miroir plan", "Une pile", "Rien"],
+      "bonne_reponse": "Un prisme",
+      "explication": "Il sépare les différentes radiations colorées."
+    },
+    {
+      "id": "q3",
+      "question": "Le spectre de la lumière blanche est ________.",
+      "type": "QCM",
+      "options": ["Continu (toutes les couleurs du violet au rouge)", "Uniquement du blanc", "Deux points noirs", "Rien"],
+      "bonne_reponse": "Continu (toutes les couleurs du violet au rouge)",
+      "explication": "C'est une suite de couleurs sans interruption."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : L'arc-on-ciel est la décomposition naturelle de la lumière du Soleil.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Les gouttes de pluie jouent le rôle de prismes."
+    },
+    {
+      "id": "q5",
+      "question": "Une lumière mono-chromatique est une lumière ________.",
+      "type": "QCM",
+      "options": ["D'une seule couleur (ex: laser rouge)", "Blanche", "Qui change tout le temps", "Rien"],
+      "bonne_reponse": "D'une seule couleur (ex: laser rouge)",
+      "explication": "Elle ne peut plus être décomposée."
+    }
+  ]
+}

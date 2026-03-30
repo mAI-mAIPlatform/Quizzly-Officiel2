@@ -1,0 +1,49 @@
+{
+  "id": "5eme_MATHS_CH3_P1_QUIZ6",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Constr. Avancée",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Sur un quadrillage, pour trouver le symétrique de A par rapport à O, on compte les carreaux de A vers O level on fait le ________ chemin de l'autre côté.",
+      "type": "courte",
+      "reponsesAttendues": ["même", "meme"],
+      "explication": "On reproduit le même décalage horizontal level vertical."
+    },
+    {
+      "id": "q2",
+      "question": "Relie les points à leur symétrique par rapport à l'origine (0,0).",
+      "type": "relier",
+      "pairs": [
+        { "left": "(2 ; 3)", "right": "(-2 ; -3)" },
+        { "left": "(-1 ; 4)", "right": "(1 ; -4)" },
+        { "left": "(5 ; -2)", "right": "(-5 ; 2)" }
+      ],
+      "explication": "Dans un repère, la symétrie centrale change les deux signes."
+    },
+    {
+      "id": "q3",
+      "question": "Complète : Si on tourne une figure de 180° autour d'un point, on obtient sa figure {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["symétrique", "symetrique"],
+      "explication": "La symétrie centrale est une rotation d'un demi-tour."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : Deux points symétriques par rapport à O sont à la même distance de O.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est la définition : O est le milieu de [AA']. OA = OA'."
+    },
+    {
+      "id": "q5",
+      "question": "Pour construire le symétrique d'un segment, il suffit de construire le symétrique de ses deux ________.",
+      "type": "courte",
+      "reponsesAttendues": ["extrémités", "extremites"],
+      "explication": "Relier les deux points images donne le segment image."
+    }
+  ]
+}

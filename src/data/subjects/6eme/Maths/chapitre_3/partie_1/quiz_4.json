@@ -1,0 +1,50 @@
+{
+  "id": "6eme_MAT_CH3_P1_QUIZ454",
+  "classe": "6eme",
+  "matiere": "Mathematiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Priorités (2)",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle opération est toujours prioritaire ?",
+      "type": "QCM",
+      "options": ["Celle entre parenthèses", "L'addition", "La multiplication", "Celle qui est à la fin"],
+      "bonne_reponse": "Celle entre parenthèses",
+      "explication": "Les parenthèses indiquent ce qui doit être calculé on premier."
+    },
+    {
+      "id": "q2",
+      "question": "Calcule : (5 + 3) x 4",
+      "type": "QCM",
+      "options": ["17", "32", "12", "23"],
+      "bonne_reponse": "32",
+      "explication": "5 + 3 = 8, puis 8 x 4 = 32."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 2 x (10 - 3) = 14.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "10 - 3 = 7, then 2 x 7 = 14."
+    },
+    {
+      "id": "q4",
+      "question": "Calcule : 20 - (5 + 5) x 1",
+      "type": "QCM",
+      "options": ["15", "10", "19", "0"],
+      "bonne_reponse": "10",
+      "explication": "5 + 5 = 10, then 10 x 1 = 10, finally 20 - 10 = 10."
+    },
+    {
+      "id": "q5",
+      "question": "Calcule : 100 : (10 + 10)",
+      "type": "QCM",
+      "options": ["20", "5", "0,5", "10"],
+      "bonne_reponse": "5",
+      "explication": "10 + 10 = 20, level 100 divisé by 20 fait 5."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "6eme_Maths_CH1_P2_QUIZ11",
+  "classe": "6eme",
+  "matiere": "Maths",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Multiples et diviseurs (Introduction)",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "45 est-il un multiple de 5 ?",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Oui, car 45 = 5 x 9. Il est dans la table de 5."
+    },
+    {
+      "id": "q2",
+      "question": "Lequel de ces nombres est un multiple de 3 ?",
+      "type": "QCM",
+      "options": ["10", "13", "15", "17"],
+      "bonne_reponse": "15",
+      "explication": "15 = 3 x 5. C'est le seul nombre de la liste qui est dans la table de 3."
+    },
+    {
+      "id": "q3",
+      "question": "6 est un diviseur de 24 car :",
+      "type": "QCM",
+      "options": ["24 + 6 = 30", "24 - 6 = 18", "24 x 6 = 144", "24 = 6 x 4"],
+      "bonne_reponse": "24 = 6 x 4",
+      "explication": "Un nombre est un diviseur si la division tombe juste (reste égal à zéro)."
+    },
+    {
+      "id": "q4",
+      "question": "Quel nombre est à la fois multiple de 2 et de 5 ?",
+      "type": "QCM",
+      "options": ["5", "8", "10", "15"],
+      "bonne_reponse": "10",
+      "explication": "10 est pair (multiple de 2) et se termine par 0 (multiple de 5)."
+    },
+    {
+      "id": "q5",
+      "question": "Vrai ou Faux : 1 est diviseur de tous les nombres.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Tout nombre divisé par 1 donne lui-même, il n'y a pas de reste."
+    }
+  ]
+}

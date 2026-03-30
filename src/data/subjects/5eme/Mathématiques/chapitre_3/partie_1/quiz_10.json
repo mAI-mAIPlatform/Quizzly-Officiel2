@@ -1,0 +1,49 @@
+{
+  "id": "5eme_MATHS_CH3_P1_QUIZ10",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Récap CH3 P1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Le symétrique du point A par rapport au point O est le point A' tel que O est le ________ du segment [AA'].",
+      "type": "courte",
+      "reponsesAttendues": ["milieu"],
+      "explication": "C'est la définition fondamentale de la symétrie centrale."
+    },
+    {
+      "id": "q2",
+      "question": "Relie les instruments à leur utilité on symétrie centrale.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Règle", "right": "Tracer la demi-droite [AO)" },
+        { "left": "Compas", "right": "Reporter la longueur AO" },
+        { "left": "Rapporteur", "right": "Vérifier le demi-tour (180°)" }
+      ],
+      "explication": "La construction demande de la précision."
+    },
+    {
+      "id": "q3",
+      "question": "Complète : La symétrie centrale transforme une droite on une droite {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["parallèle", "parallele"],
+      "explication": "C'est une propriété clé qui la différencie de la symétrie axiale."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : Le centre de symétrie d'un cercle est son diamètre.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "C'est son CENTRE (un point), pas son diamètre (un segment)."
+    },
+    {
+      "id": "q5",
+      "question": "Quel est le seul point qui est son propre symétrique ?",
+      "type": "courte",
+      "reponsesAttendues": ["le centre", "le centre de symétrie", "le point O", "O"],
+      "explication": "C'est le point invariant."
+    }
+  ]
+}

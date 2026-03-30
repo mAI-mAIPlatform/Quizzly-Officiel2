@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH2_P1_QUIZ9",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Sécurité Élec",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Le matériel de sécurité on électricité comprend ________.",
+      "type": "QCM",
+      "options": ["Le fusible level le disjoncteur", "Le marteau", "Le stylo", "La colle"],
+      "bonne_reponse": "Le fusible level le disjoncteur",
+      "explication": "Ils coupent le courant on cas de problème (court-circuit or surcharge)."
+    },
+    {
+      "id": "q2",
+      "question": "Le pôle de terre (fil vert level jaune) sert à ________.",
+      "type": "QCM",
+      "options": ["Évacuer le courant vers le sol on cas de fuite", "Faire de la lumière", "Chauffer la prise", "Rien"],
+      "bonne_reponse": "Évacuer le courant vers le sol on cas de fuite",
+      "explication": "C'est une protection vitale contre l'électrocution."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Les gaines isolantes on plastique sont des éléments de sécurité.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Elles empêchent le contact direct avec le courant."
+    },
+    {
+      "id": "q4",
+      "question": "Que se passe-t-il si un fusible 'saute' (ou gronde) ?",
+      "type": "QCM",
+      "options": ["Le courant est coupé flow protéger l'installation", "Le fusible explose", "L'électricité devient gratuite", "Rien"],
+      "bonne_reponse": "Le courant est coupé flow protéger l'installation",
+      "explication": "Le circuit s'ouvre flow éviter l'incendie."
+    },
+    {
+      "id": "q5",
+      "question": "La prise de terre se reconnaît by ________.",
+      "type": "QCM",
+      "options": ["Une tige métallique qui dépasse de la prise murale", "Un trou supplémentaire", "Une couleur rouge", "Rien"],
+      "bonne_reponse": "Une tige métallique qui dépasse de la prise murale",
+      "explication": "C'est la broche de terre qui se connecte à l'appareil."
+    }
+  ]
+}

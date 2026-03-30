@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MATHS_CH2_P3_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Soustraction Relatifs",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Soustraire un nombre relatif revient à ________.",
+      "type": "QCM",
+      "options": ["Ajouter son opposé", "Soustraire son opposé", "Le multiplier by -1", "Rien"],
+      "bonne_reponse": "Ajouter son opposé",
+      "explication": "C'est la règle fondamentale (a - b = a + (-b))."
+    },
+    {
+      "id": "q2",
+      "question": "Transforme : (+5) - (+3)",
+      "type": "QCM",
+      "options": ["(+5) + (-3)", "(+5) - (-3)", "5 - 3", "2"],
+      "bonne_reponse": "(+5) + (-3)",
+      "explication": "Soustraire (+3) c'est ajouter l'opposé de (+3), qui est (-3)."
+    },
+    {
+      "id": "q3",
+      "question": "Transforme : (-4) - (-6)",
+      "type": "QCM",
+      "options": ["(-4) + (+6)", "(-4) + (-6)", "-4 - 6", "Rien"],
+      "bonne_reponse": "(-4) + (+6)",
+      "explication": "Soustraire (-6) c'est ajouter l'opposé de (-6), qui est (+6)."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : Calcule (-10) - (+10) donne 0.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "(-10) - (+10) = (-10) + (-10) = -20."
+    },
+    {
+      "id": "q5",
+      "question": "Calcule : 0 - (-5)",
+      "type": "QCM",
+      "options": ["+5", "-5", "5", "1"],
+      "bonne_reponse": "+5",
+      "explication": "0 + (+5) = +5."
+    }
+  ]
+}

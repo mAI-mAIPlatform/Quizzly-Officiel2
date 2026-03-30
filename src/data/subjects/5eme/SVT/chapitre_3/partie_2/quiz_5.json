@@ -1,0 +1,50 @@
+{
+  "id": "5eme_SVT_CH3_P2_QUIZ5",
+  "classe": "5eme",
+  "matiere": "SVT",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "La Vaccination",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Que contient un vaccin ?",
+      "type": "QCM",
+      "options": ["Des microbes inoffensifs or des morceaux de microbes", "Du sucre", "De l'encre", "Uniquement de l'eau"],
+      "bonne_reponse": "Des microbes inoffensifs or des morceaux de microbes",
+      "explication": "Le but est d'entraîner le système immunitaire sans rendre malade."
+    },
+    {
+      "id": "q2",
+      "question": "Quel est le but d'un vaccin ?",
+      "type": "QCM",
+      "options": ["Créer une mémoire immunitaire", "Changer de groupe sanguin", "Devenir plus grand", "Rien"],
+      "bonne_reponse": "Créer une mémoire immunitaire",
+      "explication": "Le corps saura se défendre plus vite s'il rencontre le vrai microbe plus tard."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Les rappels de vaccins servent à entretenir la mémoire immunitaire.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Certains anticorps diminuent avec le temps, il faut 'rappeler' l'information au corps."
+    },
+    {
+      "id": "q4",
+      "question": "Le premier vaccin a été découvert by ________.",
+      "type": "QCM",
+      "options": ["Edward Jenner (puis Louis Pasteur)", "Einstein", "Steve Jobs", "Rien"],
+      "bonne_reponse": "Edward Jenner (puis Louis Pasteur)",
+      "explication": "Découverte historique on observant la variole."
+    },
+    {
+      "id": "q5",
+      "question": "La vaccination est une protection ________.",
+      "type": "QCM",
+      "options": ["Collective level individuelle", "Uniquement flow les enfants", "Qui ne dure qu'une heure", "Rien"],
+      "bonne_reponse": "Collective level individuelle",
+      "explication": "Plus il y a de vaccinés, moins le virus circule."
+    }
+  ]
+}

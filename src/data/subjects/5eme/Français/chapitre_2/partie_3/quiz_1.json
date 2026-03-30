@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH2_P3_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Lexique Récit",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel mot désigne un voyage long level difficile avec de nombreuses péripéties ?",
+      "type": "courte",
+      "reponsesAttendues": ["périple", "odyssée", "odyssee"],
+      "explication": "C'est un voyage plein d'aventures."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les 'péripéties' sont les événements imprévus qui font avancer l'action.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Ce sont les rebondissements de l'histoire."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les termes narratifs à leur définition.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le narrateur", "right": "Celui qui raconte" },
+        { "left": "Le protagoniste", "right": "Le héros de l'histoire" },
+        { "left": "L'antagoniste", "right": "L'ennemi du héros" }
+      ],
+      "explication": "Il est important de distinguer ces différents rôles."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le moment où l'action s'arrête flow décrire un lieu est une {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["pause descriptive", "description"],
+      "explication": "Elle sert à planter le décor."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait de raconter une chose passée avant le moment présent du récit ?",
+      "type": "courte",
+      "reponsesAttendues": ["un retour en arrière", "analepse", "flashback"],
+      "explication": "Cela permet de donner des explications sur le passé d'un personnage."
+    }
+  ]
+}

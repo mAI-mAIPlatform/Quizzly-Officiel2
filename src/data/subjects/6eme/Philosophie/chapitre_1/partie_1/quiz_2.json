@@ -1,0 +1,50 @@
+{
+  "id": "6eme_PHIL_CH1_P1_QUIZ2",
+  "classe": "6eme",
+  "matiere": "Philosophie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Opinion et Argument",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une opinion ?",
+      "type": "QCM",
+      "options": ["Une vérité scientifique", "Une idée que l'on a sans l'avoir forcément bien réfléchie", "Un vêtement", "Une loi"],
+      "bonne_reponse": "Une idée que l'on a sans l'avoir forcément bien réfléchie",
+      "explication": "L'opinion est immédiate, c'est ce qu'on pense 'comme ça'."
+    },
+    {
+      "id": "q2",
+      "question": "Qu'est-ce qu'un argument ?",
+      "type": "QCM",
+      "options": ["Une insulte", "Une raison qui sert à prouver ou à expliquer ce que l'on pense", "Une somme d'argent", "Un cri"],
+      "bonne_reponse": "Une raison qui sert à prouver ou à expliquer ce que l'on pense",
+      "explication": "L'argument transforme l'opinion en une pensée raisonnée."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : En philosophie, on a le droit de changer d'avis si on entend un meilleur argument.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Le dialogue sert à faire évoluer sa pensée."
+    },
+    {
+      "id": "q4",
+      "question": "Lequel est un argument ?",
+      "type": "QCM",
+      "options": ["'C'est comme ça et puis c'est tout'", "'Je pense que c'est mal parce que cela blesse les autres'", "'Tout le monde le fait'", "'Beurk'"],
+      "bonne_reponse": "'Je pense que c'est mal parce que cela blesse les autres'",
+      "explication": "Cette phrase donne une raison (la souffrance des autres)."
+    },
+    {
+      "id": "q5",
+      "question": "Socrate était célèbre pour :",
+      "type": "QCM",
+      "options": ["Écrire des livres très longs", "Poser des questions aux gens pour les faire réfléchir par eux-mêmes", "Faire des courses de char", "Cuisiner"],
+      "bonne_reponse": "Poser des questions aux gens pour les faire réfléchir par eux-mêmes",
+      "explication": "C'est la 'maïeutique' : l'art d'accoucher les esprits."
+    }
+  ]
+}

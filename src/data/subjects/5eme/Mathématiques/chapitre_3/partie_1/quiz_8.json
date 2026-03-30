@@ -1,0 +1,49 @@
+{
+  "id": "5eme_MATHS_CH3_P1_QUIZ8",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Sym. et Parallélo.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Vrai ou Faux : Un parallélogramme est une figure qui possède un centre de symétrie.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est le point d'intersection de ses diagonales."
+    },
+    {
+      "id": "q2",
+      "question": "Relie les propriétés du parallélogramme à la symétrie centrale.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Côtés opposés", "right": "Parallèles et de même longueur" },
+        { "left": "Diagonales", "right": "Se coupent en leur milieu" },
+        { "left": "Angles opposés", "right": "De même mesure" }
+      ],
+      "explication": "Toutes ces propriétés découlent de la symétrie centrale par rapport au milieu des diagonales."
+    },
+    {
+      "id": "q3",
+      "question": "Complète : Si ABCD est un parallélogramme de centre O, alors D est le symétrique de {{1}} par rapport à O.",
+      "type": "trous",
+      "reponsesAttendues": ["B"],
+      "explication": "Les sommets opposés sont symétriques par rapport au centre."
+    },
+    {
+      "id": "q4",
+      "question": "Le symétrique de la droite (AB) par rapport au centre O du parallélogramme est la droite ________.",
+      "type": "courte",
+      "reponsesAttendues": ["CD", "(CD)"],
+      "explication": "Car (AB) // (CD)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on un quadrilatère dont les diagonales se coupent on leur milieu ?",
+      "type": "courte",
+      "reponsesAttendues": ["parallélogramme", "parallelogramme"],
+      "explication": "C'est la définition par les diagonales."
+    }
+  ]
+}

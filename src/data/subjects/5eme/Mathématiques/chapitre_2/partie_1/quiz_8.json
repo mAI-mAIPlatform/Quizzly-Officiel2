@@ -1,0 +1,49 @@
+{
+  "id": "5eme_MATHS_CH2_P1_QUIZ8",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Priorités Master II",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Trouve le résultat de : (20 + 4) / (15 - 9)",
+      "type": "courte",
+      "reponsesAttendues": ["4"],
+      "explication": "24 / 6 = 4. On calcule chaque parenthèse d'abord."
+    },
+    {
+      "id": "q2",
+      "question": "Complète l'égalité avec le bon nombre : 10 + 2 x {{1}} = 30",
+      "type": "trous",
+      "reponsesAttendues": ["10"],
+      "explication": "10 + 20 = 30. Donc 2 x 10 = 20."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les calculs à leur priorité principale.",
+      "type": "relier",
+      "pairs": [
+        { "left": "5 + 2 x 3", "right": "Multiplication" },
+        { "left": "(5 + 2) x 3", "right": "Parenthèses" },
+        { "left": "10 - 2 + 3", "right": "De gauche à droite" }
+      ],
+      "explication": "Chaque cas a sa règle spécifique."
+    },
+    {
+      "id": "q4",
+      "question": "Calculer : 2 x [ 10 - ( 2 + 3 ) ]",
+      "type": "courte",
+      "reponsesAttendues": ["10"],
+      "explication": "On calcule l'intérieur : 10 - 5 = 5. Puis 2 x 5 = 10."
+    },
+    {
+      "id": "q5",
+      "question": "Vrai ou Faux : 20 / 4 / 5 = 25",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "20 / 4 = 5. Puis 5 / 5 = 1. (On suit l'ordre)."
+    }
+  ]
+}

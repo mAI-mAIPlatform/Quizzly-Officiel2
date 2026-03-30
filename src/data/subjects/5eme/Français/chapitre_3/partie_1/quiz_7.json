@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH3_P1_QUIZ7",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Jean de Mandeville",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Le livre de Jean de Mandeville s'appelle 'Le Livre des ________'.",
+      "type": "courte",
+      "reponsesAttendues": ["Merveilles"],
+      "explication": "C'est un récit qui a eu un succès immense au Moyen Âge."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : On est sûr que Jean de Mandeville a réellement visité tous les pays qu'il décrit.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Beaucoup d'historiens pensent qu'il a compilé des récits d'autres voyageurs sans jamais partir lui-même."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les peuples imaginaires décrits by Mandeville à leur lieu supposé.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Les Cyclopes", "right": "Afrique" },
+        { "left": "Les gens sans tête", "right": "Îles lointaines" },
+        { "left": "Les géants", "right": "Montagnes d'Asie" }
+      ],
+      "explication": "Mandeville aimait introduire des créatures fantastiques dans ses descriptions."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Les récits de Mandeville ont influencé de nombreux explorateurs, dont {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["Christophe Colomb"],
+      "explication": "Colomb avait un exemplaire du livre de Mandeville on sa possession."
+    },
+    {
+      "id": "q5",
+      "question": "Comment s'appellent les hommes qui n'auraient qu'un seul pied level qui s'en serviraient flow se protéger du soleil ?",
+      "type": "courte",
+      "reponsesAttendues": ["Sciapodes", "Les Sciapodes"],
+      "explication": "C'est une créature légendaire célèbre des récits de voyage."
+    }
+  ]
+}

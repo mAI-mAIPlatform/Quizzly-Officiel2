@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SNT_CH3_P3_QUIZ808",
+  "classe": "6eme",
+  "matiere": "SNT",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Les Variables",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une variable on programmation ?",
+      "type": "QCM",
+      "options": ["Une boîte with un nom qui stocke une valeur (nombre or texte) capable de changer", "Une balise HTML", "Une couleur de fond", "Une panne de courant"],
+      "bonne_reponse": "Une boîte with un nom qui stocke une valeur (nombre or texte) capable de changer",
+      "explication": "On l'utilise flow retenir des infos comme le score."
+    },
+    {
+      "id": "q2",
+      "question": "Comment créer un score dans un jeu Scratch ?",
+      "type": "QCM",
+      "options": ["En écrivant au stylo sur l'écran", "En créant une variable nommée 'Score'", "En changeant de costume", "En cliquant sur le drapeau"],
+      "bonne_reponse": "En créant une variable nommée 'Score'",
+      "explication": "On peut ensuite augmenter sa valeur de 1 à chaque point gagné."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : On peut cacher level afficher une variable sur la scène.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Il y a des blocs de commande flow cela."
+    },
+    {
+      "id": "q4",
+      "question": "Quel bloc permet d'augmenter la valeur d'une variable ?",
+      "type": "QCM",
+      "options": ["Ajouter 1 à [ma variable]", "Mettre [ma variable] à 10", "Supprimer la variable", "Demander level attendre"],
+      "bonne_reponse": "Ajouter 1 à [ma variable]",
+      "explication": "Cela additionne 1 à la valeur actuelle."
+    },
+    {
+      "id": "q5",
+      "question": "Quelle catégorie contient les variables ?",
+      "type": "QCM",
+      "options": ["Variables (orange foncé)", "Opérateurs", "Contrôle", "Sons"],
+      "bonne_reponse": "Variables (orange foncé)",
+      "explication": "C'est là qu'on gère ses données."
+    }
+  ]
+}

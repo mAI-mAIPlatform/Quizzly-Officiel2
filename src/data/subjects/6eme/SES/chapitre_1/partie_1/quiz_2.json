@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SES_CH1_P1_QUIZ2",
+  "classe": "6eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Biens et Services",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un 'bien' en économie ?",
+      "type": "QCM",
+      "options": ["Un objet matériel que l'on peut toucher", "Une personne gentille", "Une action immatérielle", "Uniquement de l'argent"],
+      "bonne_reponse": "Un objet matériel que l'on peut toucher",
+      "explication": "Un pain, un livre, un vélo sont des biens."
+    },
+    {
+      "id": "q2",
+      "question": "Qu'est-ce qu'un 'service' ?",
+      "type": "QCM",
+      "options": ["Un objet qu'on achète", "Une activité immatérielle fournie par quelqu'un", "Une pièce de monnaie", "Uniquement le service au restaurant"],
+      "bonne_reponse": "Une activité immatérielle fournie par quelqu'un",
+      "explication": "Une coupe de cheveux, un cours de maths, un trajet en bus sont des services."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : L'éducation nationale est un service non marchand.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est gratuit (ou presque) pour l'utilisateur, financé par les impôts."
+    },
+    {
+      "id": "q4",
+      "question": "Une baguette de pain achetée à la boulangerie est un :",
+      "type": "QCM",
+      "options": ["Bien durable", "Bien non durable (consommable immédiatement)", "Service marchand", "Service non marchand"],
+      "bonne_reponse": "Bien non durable (consommable immédiatement)",
+      "explication": "On la mange, elle disparaît après usage."
+    },
+    {
+      "id": "q5",
+      "question": "Un 'Bien durable' est un objet qui :",
+      "type": "QCM",
+      "options": ["Sert plusieurs fois sur une longue durée", "Se casse tout de suite", "Ne peut pas être vendu", "Est gratuit"],
+      "bonne_reponse": "Sert plusieurs fois sur une longue durée",
+      "explication": "Une télévision, un lave-linge ou une voiture sont des biens durables."
+    }
+  ]
+}

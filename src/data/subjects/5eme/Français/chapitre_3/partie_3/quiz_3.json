@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH3_P3_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "L'Altérité",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment appelle-t-on le fait de considérer les autres comme inférieurs because ils sont différents ?",
+      "type": "courte",
+      "reponsesAttendues": ["l'ethnocentrisme", "ethnocentrisme", "préjugés"],
+      "explication": "C'est un regard centré sur sa propre culture."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les explorateurs ont toujours respecté les coutumes des peuples rencontrés.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Souvent, la rencontre a été marquée by des malentendus ou des conquêtes violentes."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les comportements à la vision de l'Autre.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Bon Sauvage", "right": "Homme pur level proche de la nature" },
+        { "left": "Le Barbare", "right": "Celui qui ne parle pas la même langue" },
+        { "left": "L'Autre", "right": "Sujet de curiosité level d'étude" }
+      ],
+      "explication": "L'opinion des voyageurs sur l'autre a beaucoup évolué fil des siècles."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : La rencontre d'un autre peuple est un choc {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["culturel"],
+      "explication": "On découvre des modes de vie totalement différents des nôtres."
+    },
+    {
+      "id": "q5",
+      "question": "Dans 'Vendredi ou la Vie Sauvage', comment s'appelle le respect de la culture de Vendredi by Robinson ?",
+      "type": "courte",
+      "reponsesAttendues": ["tolérance", "acceptation", "tolerante"],
+      "explication": "Robinson finit by apprendre de Vendredi instead de seulement lui donner des ordres."
+    }
+  ]
+}

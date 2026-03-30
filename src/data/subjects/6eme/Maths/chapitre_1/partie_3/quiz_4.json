@@ -1,0 +1,50 @@
+{
+  "id": "6eme_Maths_CH1_P3_QUIZ24",
+  "classe": "6eme",
+  "matiere": "Maths",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Révision : Problèmes de synthèse",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Un cuisinier prépare 12 gâteaux. Il met 4 œufs par gâteau. Il avait un carton de 50 œufs. Combien en reste-t-il ?",
+      "type": "QCM",
+      "options": ["2", "4", "6", "10"],
+      "bonne_reponse": "2",
+      "explication": "Œufs utilisés = 12 x 4 = 48. Reste = 50 - 48 = 2."
+    },
+    {
+      "id": "q2",
+      "question": "Un train part à 9h00 et arrive à 11h30. Combien de temps a duré le voyage ?",
+      "type": "QCM",
+      "options": ["2h", "2h30", "3h", "1h30"],
+      "bonne_reponse": "2h30",
+      "explication": "De 9h à 11h = 2h. Plus les 30 minutes."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Si on partage 100€ entre 8 personnes, chacune a plus de 10€.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "100 / 8 = 12,50€. 12,50 > 10."
+    },
+    {
+      "id": "q4",
+      "question": "J'ai 3 billets de 20€ et 4 pièces de 2€. Je dépense 30€. Combien me reste-t-il ?",
+      "type": "QCM",
+      "options": ["34 €", "38 €", "28 €", "40 €"],
+      "bonne_reponse": "38 €",
+      "explication": "Total = (3 x 20) + (4 x 2) = 60 + 8 = 68€. Reste = 68 - 30 = 38€."
+    },
+    {
+      "id": "q5",
+      "question": "Quel est l'ordre de grandeur de 4 995 + 5 005 ?",
+      "type": "QCM",
+      "options": ["1 000", "10 000", "9 000", "50 000"],
+      "bonne_reponse": "10 000",
+      "explication": "Environ 5 000 + 5 000 = 10 000."
+    }
+  ]
+}

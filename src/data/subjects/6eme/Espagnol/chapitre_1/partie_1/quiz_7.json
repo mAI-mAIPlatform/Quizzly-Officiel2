@@ -1,0 +1,50 @@
+{
+  "id": "6eme_ESP_CH1_P1_QUIZ7",
+  "classe": "6eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "La Edad",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment demande-t-on l'âge ?",
+      "type": "QCM",
+      "options": ["¿Cómo estás?", "¿Cuántos años tienes?", "¿Qué hora es?", "¿De dónde eres?"],
+      "bonne_reponse": "¿Cuántos années tienes?",
+      "explication": "On demande 'Combien d'années as-tu ?'."
+    },
+    {
+      "id": "q2",
+      "question": "Traduisez 'J'ai onze ans' :",
+      "type": "QCM",
+      "options": ["Tengo once años", "Soy once años", "Tengo doce años", "Once años tengo"],
+      "bonne_reponse": "Tengo once años",
+      "explication": "On utilise le verbe TENER (avoir)."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 'Doce' signifie le nombre 12.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Once (11), Doce (12)."
+    },
+    {
+      "id": "q4",
+      "question": "Comment dit-on 'Années' ?",
+      "type": "QCM",
+      "options": ["Anos", "Años", "Annas", "Enos"],
+      "bonne_reponse": "Años",
+      "explication": "Attention à ne pas oublier le tilde (~) sur le 'n', sinon le sens change !"
+    },
+    {
+      "id": "q5",
+      "question": "Si j'ai 13 ans, je dis :",
+      "type": "QCM",
+      "options": ["Tengo doce", "Tengo trece", "Tengo diez", "Tengo tres"],
+      "bonne_reponse": "Tengo trece",
+      "explication": "Trece = 13."
+    }
+  ]
+}

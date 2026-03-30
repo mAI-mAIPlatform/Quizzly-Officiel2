@@ -1,0 +1,50 @@
+{
+  "id": "6eme_MATHS_CH2_P2_QUIZ50",
+  "classe": "6eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Bilan : Opérations avec les décimaux",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Pour poser 14 + 1,2 , je dois poser :",
+      "type": "QCM",
+      "options": ["14,0 + 1,2", "14 + 12", "1,4 + 1,2", "14,00 + 1,2"],
+      "bonne_reponse": "14,0 + 1,2",
+      "explication": "On ajoute une virgule et un zéro à l'entier pour bien aligner."
+    },
+    {
+      "id": "q2",
+      "question": "Dans une soustraction, quel nombre doit être en haut ?",
+      "type": "QCM",
+      "options": ["Le plus petit", "Le plus grand", "Celui qu'on veut", "Le premier écrit dans la phrase"],
+      "bonne_reponse": "Le plus grand",
+      "explication": "On retire d'une quantité existante (en 6ème)."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 0,25 + 0,25 + 0,5 = 1.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "0,5 + 0,5 = 1."
+    },
+    {
+      "id": "q4",
+      "question": "Résultat de 10 - 2,5 ?",
+      "type": "QCM",
+      "options": ["7,5", "8,5", "8", "7"],
+      "bonne_reponse": "7,5",
+      "explication": "10,0 - 2,5 = 7,5."
+    },
+    {
+      "id": "q5",
+      "question": "Pourquoi aligne-t-on les virgules ?",
+      "type": "QCM",
+      "options": ["Pour faire joli", "Pour additionner les chiffres de même rang (unités avec unités, etc.)", "C'est une tradition", "Parce que la virgule est lourde"],
+      "bonne_reponse": "Pour additionner les chiffres de même rang (unités avec unités, etc.)",
+      "explication": "C'est la base de la numération de position."
+    }
+  ]
+}

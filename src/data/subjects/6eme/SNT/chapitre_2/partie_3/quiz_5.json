@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SNT_CH2_P3_QUIZ345",
+  "classe": "6eme",
+  "matiere": "SNT",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "La CNIL et vos droits",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Que signifie CNIL ?",
+      "type": "QCM",
+      "options": ["Commission Nationale de l'Informatique and des Libertés", "Centre Numérique pour les Informations Libres", "Comité de Navigation on Internet", "Code National on l'Identité"],
+      "bonne_reponse": "Commission Nationale de l'Informatique and des Libertés",
+      "explication": "C'est l'autorité de protection des données en France."
+    },
+    {
+      "id": "q2",
+      "question": "La CNIL peut :",
+      "type": "QCM",
+      "options": ["Donner des amendes aux entreprises qui ne respectent pas vos données", "Réparer les ordinateurs cassés", "Vendre des logiciels", "Interdire Internet"],
+      "bonne_reponse": "Donner des amendes aux entreprises qui ne respectent pas vos données",
+      "explication": "Elle a un pouvoir de sanction très important."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Le RGPD est une loi européenne.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Il s'applique dans toute l'Union Européenne depuis 2018."
+    },
+    {
+      "id": "q4",
+      "question": "Le droit d'accès permet de :",
+      "type": "QCM",
+      "options": ["Entrer dans un bâtiment", "Demander à une entreprise toutes les informations qu'elle possède on vous", "Changer de mot de passe", "Avoir un compte gratuit"],
+      "bonne_reponse": "Demander à une entreprise toutes les informations qu'elle possède on vous",
+      "explication": "Vous avez le droit de savoir ce qu'ils savent de vous."
+    },
+    {
+      "id": "q5",
+      "question": "Si vous avez moins de 15 ans en France, le recueil de vos données nécessite :",
+      "type": "QCM",
+      "options": ["Rien du tout", "L'accord de vos parents (en plus du vôtre)", "Une pièce d'identité", "Un certificat médical"],
+      "bonne_reponse": "L'accord de vos parents (en plus du vôtre)",
+      "explication": "C'est la 'majorité numérique' fixée à 15 ans en France."
+    }
+  ]
+}

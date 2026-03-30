@@ -1,0 +1,50 @@
+{
+  "id": "6eme_PC_CH1_P2_QUIZ14",
+  "classe": "6eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "La composition de l'air",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "L'air est-il un corps pur ?",
+      "type": "QCM",
+      "options": ["Oui", "Non, c'est un mélange de plusieurs gaz", "Uniquement à la montagne", "Uniquement quand il pleut"],
+      "bonne_reponse": "Non, c'est un mélange de plusieurs gaz",
+      "explication": "L'air contient principalement du diazote et du dioxygène."
+    },
+    {
+      "id": "q2",
+      "question": "Quel gaz est le plus présent dans l'air (environ 78% ou 4/5èmes) ?",
+      "type": "QCM",
+      "options": ["Le dioxygène", "Le diazote", "Le gaz carbonique", "La vapeur d'eau"],
+      "bonne_reponse": "Le diazote",
+      "explication": "C'est le gaz majoritaire, mais il ne sert pas à la respiration humaine."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Le dioxygène représente environ 21% (1/5ème) de l'air.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est le gaz indispensable à notre vie."
+    },
+    {
+      "id": "q4",
+      "question": "L'air a-t-il une masse ?",
+      "type": "QCM",
+      "options": ["Non, il est trop léger", "Oui, environ 1,3 g pour un litre d'air", "Uniquement quand il y a du vent", "Seulement dans les pneus"],
+      "bonne_reponse": "Oui, environ 1,3 g pour un litre d'air",
+      "explication": "Même s'il est invisible, l'air est composé de molécules qui pèsent quelque chose."
+    },
+    {
+      "id": "q5",
+      "question": "Quel gaz les humains rejettent-ils en respirant ?",
+      "type": "QCM",
+      "options": ["Le dioxygène", "Le diazote", "Le dioxyde de carbone (CO2)", "L'hélium"],
+      "bonne_reponse": "Le dioxyde de carbone (CO2)",
+      "explication": "Nous consommons l'O2 et produisons du CO2."
+    }
+  ]
+}

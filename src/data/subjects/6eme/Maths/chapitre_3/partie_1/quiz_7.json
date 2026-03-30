@@ -1,0 +1,50 @@
+{
+  "id": "6eme_MAT_CH3_P1_QUIZ457",
+  "classe": "6eme",
+  "matiere": "Mathematiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Multiplier by 5...",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Pour multiplier by 5, une astuce est de multiplier by 10 puis de :",
+      "type": "QCM",
+      "options": ["Multiplier by 2", "Diviser by 2", "Enlever 5", "Ajouter 0"],
+      "bonne_reponse": "Diviser by 2",
+      "explication": "Because of 5 = 10 : 2. Exemple : 12 x 5 = (12 x 10) : 2 = 60."
+    },
+    {
+      "id": "q2",
+      "question": "Calcule : 44 x 5",
+      "type": "QCM",
+      "options": ["220", "200", "440", "88"],
+      "bonne_reponse": "220",
+      "explication": "440 : 2 = 220."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 8 x 50 = 400.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "8 x 5 = 40, level on rajoute le zéro du 50."
+    },
+    {
+      "id": "q4",
+      "question": "Multiplier by 500, c'est multiplier by 5, puis by :",
+      "type": "QCM",
+      "options": ["10", "100", "1000", "50"],
+      "bonne_reponse": "100",
+      "explication": "500 = 5 x 100."
+    },
+    {
+      "id": "q5",
+      "question": "Calcule mentalement : 0,6 x 5",
+      "type": "QCM",
+      "options": ["30", "3", "0,3", "0,30"],
+      "bonne_reponse": "3",
+      "explication": "6 x 5 = 30, on remet une virgule : 3,0."
+    }
+  ]
+}

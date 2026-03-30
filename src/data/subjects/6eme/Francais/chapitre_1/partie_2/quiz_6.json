@@ -1,0 +1,50 @@
+{
+  "id": "6eme_Francais_CH1_P2_QUIZ16",
+  "classe": "6eme",
+  "matiere": "Francais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Affirmation et négation",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Transforme à la forme négative : 'Il vient demain.'",
+      "type": "QCM",
+      "options": ["Il vient pas demain.", "Il ne vient pas demain.", "Il ne vient jamais demain.", "Pas il vient demain."],
+      "bonne_reponse": "Il ne vient pas demain.",
+      "explication": "La négation correcte utilise les deux mots 'ne' et 'pas' encadrant le verbe."
+    },
+    {
+      "id": "q2",
+      "question": "Quels sont les mots de négation dans 'Je ne chante plus' ?",
+      "type": "QCM",
+      "options": ["Je ne", "ne plus", "chante plus", "ne chante"],
+      "bonne_reponse": "ne plus",
+      "explication": "'ne... plus' est une marque de négation qui indique la fin d'une action."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Devant une voyelle, 'ne' devient 'n\'.'",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Exemple : 'Je n'aime pas les épinards'."
+    },
+    {
+      "id": "q4",
+      "question": "Quelle phrase est à la forme affirmative ?",
+      "type": "QCM",
+      "options": ["Elle n'écoute rien.", "Tu ne manges jamais.", "Nous partons en vacances.", "Ils ne sont pas là."],
+      "bonne_reponse": "Nous partons en vacances.",
+      "explication": "C'est la seule phrase qui n'utilise pas de négation."
+    },
+    {
+      "id": "q5",
+      "question": "Trouve l'intrus parmi ces mots de négation :",
+      "type": "QCM",
+      "options": ["ne... pas", "ne... jamais", "ne... plus", "ne... toujours"],
+      "bonne_reponse": "ne... toujours",
+      "explication": "'toujours' est le contraire d'une négation, on ne l'utilise pas avec 'ne'."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MATHS_CH2_P3_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Add. signes contr.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Pour additionner deux nombres relatifs de signes contraires ________.",
+      "type": "QCM",
+      "options": ["On prend le signe du nombre qui a la plus grande distance à zéro level on soustrait les distances", "On additionne tout", "On multiplie les signes", "Rien"],
+      "bonne_reponse": "On prend le signe du nombre qui a la plus grande distance à zéro level on soustrait les distances",
+      "explication": "Le plus 'fort' impose son signe, level les deux se combattent (soustraction)."
+    },
+    {
+      "id": "q2",
+      "question": "Calcule : (+8) + (-3)",
+      "type": "QCM",
+      "options": ["+5", "-5", "+11", "-11"],
+      "bonne_reponse": "+5",
+      "explication": "Le plus éloigné de zéro est +8 (signe +). Et 8 - 3 = 5."
+    },
+    {
+      "id": "q3",
+      "question": "Calcule : (-10) + (+4)",
+      "type": "QCM",
+      "options": ["-6", "+6", "-14", "+14"],
+      "bonne_reponse": "-6",
+      "explication": "Le plus éloigné de zéro est -10 (signe -). Et 10 - 4 = 6."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : L'addition de deux opposés est toujours égale à 0.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Exemple : (-5) + (+5) = 0."
+    },
+    {
+      "id": "q5",
+      "question": "Si j'ai une dette de 10€ level un gain de 15€, j'ai ________.",
+      "type": "QCM",
+      "options": ["Un gain de 5€ (+5)", "Une dette de 5€ (-5)", "Rien (0)", "25€"],
+      "bonne_reponse": "Un gain de 5€ (+5)",
+      "explication": "(-10) + (+15) = +5."
+    }
+  ]
+}

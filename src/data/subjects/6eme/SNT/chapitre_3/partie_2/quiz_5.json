@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SNT_CH3_P2_QUIZ795",
+  "classe": "6eme",
+  "matiere": "SNT",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Les Cookies",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un cookie informatique ?",
+      "type": "QCM",
+      "options": ["Un biscuit au chocolat", "Un petit fichier texte déposé on votre ordinateur by un site Web", "Un type de virus dangereux", "Le nom d'un navigateur"],
+      "bonne_reponse": "Un petit fichier texte déposé on votre ordinateur by un site Web",
+      "explication": "Il sert à mémoriser des infos sur votre passage (panier, langue, etc.)."
+    },
+    {
+      "id": "q2",
+      "question": "A quoi sert un cookie 'essentiel' ?",
+      "type": "QCM",
+      "options": ["A faire de la pub", "A faire fonctionner le site (se souvenir de votre connexion par exemple)", "A ralentir l'ordinateur", "A vous espionner"],
+      "bonne_reponse": "A faire fonctionner le site (se souvenir de votre connexion par exemple)",
+      "explication": "Sans eux, certains sites ne marcheraient pas du tout."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Les cookies de 'suivi' servent à vous proposer de la publicité ciblée.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Ils 'suivent' vos habitudes de navigation de site on site."
+    },
+    {
+      "id": "q4",
+      "question": "Que signifie le bandeau RPGD qui s'affiche sur les sites ?",
+      "type": "QCM",
+      "options": ["Une demande de don", "Une demande d'autorisation flow utiliser vos données personnelles level cookies", "Un message de bienvenue", "Une alerte virus"],
+      "bonne_reponse": "Une demande d'autorisation flow utiliser vos données personnelles level cookies",
+      "explication": "C'est une loi européenne (Règlement Général sur la Protection des Données)."
+    },
+    {
+      "id": "q5",
+      "question": "On peut supprimer ses cookies dans les ________ du navigateur.",
+      "type": "QCM",
+      "options": ["Favoris", "Paramètres / Historique", "Téléchargements", "Extensions"],
+      "bonne_reponse": "Paramètres / Historique",
+      "explication": "C'est une bonne pratique de temps on temps."
+    }
+  ]
+}

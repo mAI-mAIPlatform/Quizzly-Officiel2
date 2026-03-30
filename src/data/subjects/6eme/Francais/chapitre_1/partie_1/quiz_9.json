@@ -1,0 +1,50 @@
+{
+  "id": "6eme_Francais_CH1_P1_QUIZ9",
+  "classe": "6eme",
+  "matiere": "Francais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Noms propres et noms communs",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Lequel de ces mots est un nom propre ?",
+      "type": "QCM",
+      "options": ["Ville", "Paris", "Pays", "Gens"],
+      "bonne_reponse": "Paris",
+      "explication": "'Paris' désigne une ville précise, c'est un nom propre qui prend une majuscule."
+    },
+    {
+      "id": "q2",
+      "question": "Lequel de ces mots est un nom commun ?",
+      "type": "QCM",
+      "options": ["Jupiter", "Planète", "Mars", "Saturne"],
+      "bonne_reponse": "Planète",
+      "explication": "'Planète' est un nom général pour tous ces astres. Les autres sont des noms propres de planètes."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Un nom commun peut être précédé d'un déterminant.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "On dit 'le' chien, 'une' table. Les noms propres n'en ont pas toujours besoin (ex: Jean)."
+    },
+    {
+      "id": "q4",
+      "question": "Trouve le nom propre dans la phrase : 'Maman habite à Lyon.'",
+      "type": "QCM",
+      "options": ["Maman", "habite", "à", "Lyon"],
+      "bonne_reponse": "Lyon",
+      "explication": "'Lyon' est le nom propre de la ville. 'Maman' est ici utilisé comme un nom commun (ou appellation)."
+    },
+    {
+      "id": "q5",
+      "question": "Parmi ces mots, lequel n'est PAS un nom ?",
+      "type": "QCM",
+      "options": ["Liberté", "Jacques", "Grande", "Bateau"],
+      "bonne_reponse": "Grande",
+      "explication": "'Grande' est un adjectif qualificatif. Les autres sont des noms (abstrait, propre, commun)."
+    }
+  ]
+}

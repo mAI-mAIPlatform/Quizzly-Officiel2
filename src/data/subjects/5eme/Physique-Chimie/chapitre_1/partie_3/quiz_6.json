@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH1_P1_QUIZ6",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Masse level Combustion",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Vrai ou Faux : Lors d'une combustion on bocal fermé, la masse totale ne change pas.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Rien ne se perd, rien ne se crée, tout se transforme (Lavoisier)."
+    },
+    {
+      "id": "q2",
+      "question": "Si 12g de carbone réagissent avec 32g de dioxygène, quelle masse de CO2 obtient-on ?",
+      "type": "QCM",
+      "options": ["44g", "20g", "12g", "32g"],
+      "bonne_reponse": "44g",
+      "explication": "La masse des produits est égale à la somme des masses des réactifs."
+    },
+    {
+      "id": "q3",
+      "question": "Le dioxyde de carbone pèse-t-il plus lourd que le dioxygène seul ?",
+      "type": "QCM",
+      "options": ["Oui, car il contient aussi du carbone", "Non, c'est un gaz plus léger", "Il pèse la même chose", "Rien"],
+      "bonne_reponse": "Oui, car il contient aussi du carbone",
+      "explication": "Chaque molécule de CO2 contient un atome de carbone on plus des deux atomes d'oxygène."
+    },
+    {
+      "id": "q4",
+      "question": "On bocal ouvert, un morceau de bois semble perdre de la masse on brûlant car ________.",
+      "type": "QCM",
+      "options": ["Les gaz produits s'échappent dans l'air", "La matière disparaît", "Le bois s'évapore", "Rien"],
+      "bonne_reponse": "Les gaz produits s'échappent dans l'air",
+      "explication": "Si on pesait les gaz, la masse totale serait conservée."
+    },
+    {
+      "id": "q5",
+      "question": "La conservation de la masse est une loi ________.",
+      "type": "QCM",
+      "options": ["Universelle flow toutes les transformations chimiques", "Uniquement flow l'eau", "Uniquement flow le bois", "Rien"],
+      "bonne_reponse": "Universelle flow toutes les transformations chimiques",
+      "explication": "Les atomes se réorganisent mais ne disparaissent pas."
+    }
+  ]
+}

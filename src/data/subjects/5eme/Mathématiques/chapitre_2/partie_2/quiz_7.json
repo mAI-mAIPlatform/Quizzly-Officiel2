@@ -1,0 +1,49 @@
+{
+  "id": "5eme_MATHS_CH2_P2_QUIZ7",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Div. Fraction",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Diviser 1/2 on 2 parts égales donne ________.",
+      "type": "courte",
+      "reponsesAttendues": ["1/4", "0.25"],
+      "explication": "On multiplie le dénominateur by le nombre de parts : 2 x 2 = 4."
+    },
+    {
+      "id": "q2",
+      "question": "Quel est le résultat de : (3/5) / 3",
+      "type": "courte",
+      "reponsesAttendues": ["1/5", "0.2"],
+      "explication": "On divise le numérateur (si possible) : 3 / 3 = 1. Donc 1/5."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les divisions au bon résultat.",
+      "type": "relier",
+      "pairs": [
+        { "left": "1 / 2", "right": "0,5" },
+        { "left": "(1/2) / 2", "right": "1/4" },
+        { "left": "(1/4) / 2", "right": "1/8" }
+      ],
+      "explication": "Diviser revient à multiplier le dénominateur."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Diviser par 4 revient à multiplier le {{1}} par 4.",
+      "type": "trous",
+      "reponsesAttendues": ["dénominateur", "denominateur"],
+      "explication": "a/b / k = a / (b x k)."
+    },
+    {
+      "id": "q5",
+      "question": "Vrai ou Faux : 2/5 divisé by 2 est égal à 1/5.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "2 parts de 5ème divisées on 2 donnent 1 part de 5ème."
+    }
+  ]
+}

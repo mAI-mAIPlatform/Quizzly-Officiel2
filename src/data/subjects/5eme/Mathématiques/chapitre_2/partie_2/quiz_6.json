@@ -1,0 +1,49 @@
+{
+  "id": "5eme_MATHS_CH2_P2_QUIZ6",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Mult. Fraction",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Pour calculer 3 x (2/7), on multiplie ________.",
+      "type": "courte",
+      "reponsesAttendues": ["le numérateur", "le numerateur", "le haut"],
+      "explication": "3 x (2/7) = (3 x 2) / 7 = 6/7."
+    },
+    {
+      "id": "q2",
+      "question": "Calculer : 5 x (3/10)",
+      "type": "courte",
+      "reponsesAttendues": ["15/10", "1.5", "3/2"],
+      "explication": "5 x 3 = 15. Le résultat est 15/10, soit 1,5."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les calculs à leur forme simplifiée.",
+      "type": "relier",
+      "pairs": [
+        { "left": "4 x (1/4)", "right": "1" },
+        { "left": "2 x (3/4)", "right": "3/2" },
+        { "left": "10 x (1/2)", "right": "5" }
+      ],
+      "explication": "Multiplier by l'inverse du dénominateur simplifie souvent la fraction."
+    },
+    {
+      "id": "q4",
+      "question": "Complète l'égalité : Prendre les 2/3 de 15 revient à calculer 2/3 {{1}} 15.",
+      "type": "trous",
+      "reponsesAttendues": ["x", "*", "fois"],
+      "explication": "Le 'de' on mathématiques se traduit souvent by une multiplication."
+    },
+    {
+      "id": "q5",
+      "question": "Vrai ou Faux : 2/5 de 20 est égal à 8.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "(2 x 20) / 5 = 40 / 5 = 8."
+    }
+  ]
+}

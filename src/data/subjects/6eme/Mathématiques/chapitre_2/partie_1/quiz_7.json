@@ -1,0 +1,50 @@
+{
+  "id": "6eme_MATHS_CH2_P1_QUIZ37",
+  "classe": "6eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Multiplier par 10, 100, 1000",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Pour multiplier par 10 un décimal, on décale la virgule d'un rang vers :",
+      "type": "QCM",
+      "options": ["La droite", "La gauche", "Le haut", "Elle ne bouge pas"],
+      "bonne_reponse": "La droite",
+      "explication": "Le nombre devient plus grand."
+    },
+    {
+      "id": "q2",
+      "question": "4,58 x 100 = ?",
+      "type": "QCM",
+      "options": ["45,8", "458", "4580", "0,458"],
+      "bonne_reponse": "458",
+      "explication": "On décale de deux rangs car il y a deux zéros."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 0,07 x 10 = 0,7.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "On décale d'un rang."
+    },
+    {
+      "id": "q4",
+      "question": "12,5 x 1000 = ?",
+      "type": "QCM",
+      "options": ["1250", "12500", "125", "125000"],
+      "bonne_reponse": "12500",
+      "explication": "On décale de trois rangs (on ajoute des zéros si besoin)."
+    },
+    {
+      "id": "q5",
+      "question": "Que se passe-t-il si la virgule 'sort' du nombre à droite ?",
+      "type": "QCM",
+      "options": ["Elle disparaît", "Elle devient un zéro", "On la remet à gauche", "On ajoute des 9"],
+      "bonne_reponse": "Elle disparaît",
+      "explication": "Le nombre devient alors un entier."
+    }
+  ]
+}

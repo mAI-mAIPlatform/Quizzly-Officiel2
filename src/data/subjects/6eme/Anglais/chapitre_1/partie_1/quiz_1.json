@@ -1,0 +1,50 @@
+{
+  "id": "6eme_ANG_CH1_P1_QUIZ1",
+  "classe": "6eme",
+  "matiere": "Anglais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Greetings & Introductions",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment dit-on 'Bonjour' (le matin) en anglais ?",
+      "type": "QCM",
+      "options": ["Good afternoon", "Good night", "Good morning", "Goodbye"],
+      "bonne_reponse": "Good morning",
+      "explication": "'Morning' signifie le matin. On l'utilise jusqu'à midi."
+    },
+    {
+      "id": "q2",
+      "question": "Quelle question pose-t-on pour demander le nom de quelqu'un ?",
+      "type": "QCM",
+      "options": ["How old are you?", "What is your name?", "Where do you live?", "How are you?"],
+      "bonne_reponse": "What is your name?",
+      "explication": "C'est la base pour se présenter."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 'Hi!' est plus formel que 'Hello!'",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "'Hi!' est familier (entre amis), 'Hello!' est plus neutre."
+    },
+    {
+      "id": "q4",
+      "question": "Comment répond-on à 'Nice to meet you' ?",
+      "type": "QCM",
+      "options": ["I am fine", "Nice to meet you too", "Goodbye", "I am twelve"],
+      "bonne_reponse": "Nice to meet you too",
+      "explication": "On rajoute 'too' (moi aussi) à la fin."
+    },
+    {
+      "id": "q5",
+      "question": "Lequel sert à dire au revoir ?",
+      "type": "QCM",
+      "options": ["Good evening", "See you later", "Welcome", "How do you do?"],
+      "bonne_reponse": "See you later",
+      "explication": "'See you later' veut dire 'À plus tard'."
+    }
+  ]
+}

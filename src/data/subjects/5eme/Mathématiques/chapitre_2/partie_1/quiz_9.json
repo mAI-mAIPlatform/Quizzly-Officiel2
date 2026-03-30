@@ -1,0 +1,49 @@
+{
+  "id": "5eme_MATHS_CH2_P1_QUIZ9",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Distributivité II",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Développer et calculer : 7 x (100 - 2)",
+      "type": "courte",
+      "reponsesAttendues": ["686"],
+      "explication": "7 x 100 - 7 x 2 = 700 - 14 = 686."
+    },
+    {
+      "id": "q2",
+      "question": "Complète l'égalité de factorisation : 8x + 24 = 8 x (x + {{1}})",
+      "type": "trous",
+      "reponsesAttendues": ["3"],
+      "explication": "Car 8 x 3 = 24."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les calculs astucieux à leur décomposition.",
+      "type": "relier",
+      "pairs": [
+        { "left": "13 x 102", "right": "13 x (100 + 2)" },
+        { "left": "13 x 98", "right": "13 x (100 - 2)" },
+        { "left": "13 x 11", "right": "13 x (10 + 1)" }
+      ],
+      "explication": "La distributivité aide beaucoup flow le calcul mental !"
+    },
+    {
+      "id": "q4",
+      "question": "Quel est le facteur commun dans l'expression 15a + 15b ?",
+      "type": "courte",
+      "reponsesAttendues": ["15"],
+      "explication": "C'est le nombre qui multiplie les deux termes."
+    },
+    {
+      "id": "q5",
+      "question": "Vrai ou Faux : 4(x - 2) = 4x - 8",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "4 fois x donne 4x level 4 fois (-2) donne -8."
+    }
+  ]
+}

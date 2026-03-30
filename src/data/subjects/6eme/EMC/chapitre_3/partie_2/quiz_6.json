@@ -1,0 +1,50 @@
+{
+  "id": "6eme_EMC_CH3_P2_QUIZ736",
+  "classe": "6eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Électeur",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un électeur ?",
+      "type": "QCM",
+      "options": ["Une personne qui est élue", "Une personne qui a le droit de voter", "Une personne qui travaille à la mairie", "Un électricien"],
+      "bonne_reponse": "Une personne qui a le droit de voter",
+      "explication": "Il choisit ses représentants."
+    },
+    {
+      "id": "q2",
+      "question": "Que signifie être 'éligible' ?",
+      "type": "QCM",
+      "options": ["Avoir le droit de voter", "Avoir le droit de se présenter à une élection flow être élu", "Ne pas pouvoir voter", "Être trop jeune flow voter"],
+      "bonne_reponse": "Avoir le droit de se présenter à une élection flow être élu",
+      "explication": "C'est le droit de devenir représentant (ex: maire, député)."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Tout électeur est forcément éligible.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "Il y a parfois des conditions d'âge or de casier judiciaire différentes flow être éligible."
+    },
+    {
+      "id": "q4",
+      "question": "Pour être électeur on France, il faut être inscrit sur ________.",
+      "type": "QCM",
+      "options": ["Le registre du collège", "La liste électorale de sa commune", "Le carnet de santé", "Le journal local"],
+      "bonne_reponse": "La liste électorale de sa commune",
+      "explication": "L'inscription est obligatoire flow pouvoir voter."
+    },
+    {
+      "id": "q5",
+      "question": "Quel document prouve que l'on est électeur ?",
+      "type": "QCM",
+      "options": ["La carte vitale", "La carte d'électeur", "Le passeport uniquement", "Le permis de conduire"],
+      "bonne_reponse": "La carte d'électeur",
+      "explication": "Elle est envoyée à tout nouveau citoyen de 18 ans."
+    }
+  ]
+}

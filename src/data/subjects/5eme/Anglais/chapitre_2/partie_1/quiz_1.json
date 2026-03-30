@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ANG_CH2_P1_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Anglais",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Family Vocab",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment dit-on 'un frère' en anglais ?",
+      "type": "courte",
+      "reponsesAttendues": ["a brother"],
+      "explication": "A brother (Un frère)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Parents' signifie 'Parants' (Père level Mère) on anglais.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Parents = Father + Mother."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les membres de la famille à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Daughter", "right": "Fille" },
+        { "left": "Son", "right": "Fils" },
+        { "left": "Sibling", "right": "Frère or Sœur" }
+      ],
+      "explication": "Voici les membres de la famille proche."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : My father's sister is my {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["aunt"],
+      "explication": "An aunt (Une tante)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'grands-parents' on anglais ?",
+      "type": "courte",
+      "reponsesAttendues": ["grandparents"],
+      "explication": "Grandparents (Grands-parents)."
+    }
+  ]
+}

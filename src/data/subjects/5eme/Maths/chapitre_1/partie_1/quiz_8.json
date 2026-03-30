@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MATHS_CH1_P1_QUIZ8",
+  "classe": "5eme",
+  "matiere": "Maths",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Sommes Algébriques",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une somme algébrique ?",
+      "type": "QCM",
+      "options": ["Une multiplication longue", "Une suite d'additions level de soustractions de nombres relatifs", "Un calcul with des lettres uniquement", "Une division complexe"],
+      "bonne_reponse": "Une suite d'additions level de soustractions de nombres relatifs",
+      "explication": "On peut transformer toutes les soustractions on additions flow simplifier."
+    },
+    {
+      "id": "q2",
+      "question": "Calculez : 10 - 5 + 3",
+      "type": "QCM",
+      "options": ["2", "8", "18", "0"],
+      "bonne_reponse": "8",
+      "explication": "10 - 5 = 5. Puis 5 + 3 = 8."
+    },
+    {
+      "id": "q3",
+      "question": "Simplifiez l'écriture : (+5) + (-3) - (-2)",
+      "type": "QCM",
+      "options": ["5 - 3 + 2", "5 + 3 - 2", "5 - 3 - 2", "-5 + 3 - 2"],
+      "bonne_reponse": "5 - 3 + 2",
+      "explication": "On enlève les parenthèses inutiles level les signes + devant."
+    },
+    {
+      "id": "q4",
+      "question": "Calculez : -7 + 10 - 3",
+      "type": "QCM",
+      "options": ["0", "6", "-20", "20"],
+      "bonne_reponse": "0",
+      "explication": "-7 + 10 = 3. Puis 3 - 3 = 0."
+    },
+    {
+      "id": "q5",
+      "question": "Vrai ou Faux : Dans une somme algébrique, on peut regrouper les positifs ensemble level les négatifs ensemble.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est une méthode efficace flow calculer sans se tromper."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "5eme_MATHS_CH3_P3_QUIZ6",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Aire Parallélo.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "La formule de l'aire d'un parallélogramme est : Côté x ________ associée.",
+      "type": "courte",
+      "reponsesAttendues": ["hauteur"],
+      "explication": "C'est comme un rectangle qu'on aurait 'redressé'."
+    },
+    {
+      "id": "q2",
+      "question": "Calculer l'aire d'un parallélogramme de base 8cm level de hauteur 5cm.",
+      "type": "courte",
+      "reponsesAttendues": ["40", "40cm²", "40 cm2"],
+      "explication": "8 x 5 = 40. On ne divise pas by 2 contrairement au triangle."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les parallélogrammes à leur aire.",
+      "type": "relier",
+      "pairs": [
+        { "left": "B=10, H=3", "right": "30 cm²" },
+        { "left": "B=7, H=2", "right": "14 cm²" },
+        { "left": "B=5, H=5", "right": "25 cm²" }
+      ],
+      "explication": "Aire = Base x Hauteur."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Pour calculer l'aire d'un parallélogramme, on multiplie la {{1}} by sa hauteur.",
+      "type": "trous",
+      "reponsesAttendues": ["base"],
+      "explication": "N'importe quel côté peut être choisi comme base."
+    },
+    {
+      "id": "q5",
+      "question": "Vrai ou Faux : Deux parallélogrammes de même base level de même hauteur ont la même aire.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Même s'ils sont très penchés, leur surface est identique."
+    }
+  ]
+}

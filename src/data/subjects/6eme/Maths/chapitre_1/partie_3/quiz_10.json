@@ -1,0 +1,50 @@
+{
+  "id": "6eme_Maths_CH1_P3_QUIZ30",
+  "classe": "6eme",
+  "matiere": "Maths",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Grand Quiz Final : Chapitre 1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Lequel est un multiple de 9 ?",
+      "type": "QCM",
+      "options": ["18", "19", "28", "37"],
+      "bonne_reponse": "18",
+      "explication": "9 x 2 = 18."
+    },
+    {
+      "id": "q2",
+      "question": "456 x 100 = ?",
+      "type": "QCM",
+      "options": ["4 560", "45 600", "456 000", "45 000"],
+      "bonne_reponse": "45 600",
+      "explication": "On ajoute deux zéros."
+    },
+    {
+      "id": "q3",
+      "question": "Calcul : 100 - (10 + 20 + 30)",
+      "type": "QCM",
+      "options": ["40", "50", "60", "70"],
+      "bonne_reponse": "40",
+      "explication": "10+20+30 = 60. 100 - 60 = 40."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : 258 est divisible par 3.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "2+5+8 = 15. 15 est dans la table de 3."
+    },
+    {
+      "id": "q5",
+      "question": "Si j'ai 125 billes et que je les partage entre 5 amis, combien en ont-ils chacun ?",
+      "type": "QCM",
+      "options": ["20", "25", "30", "15"],
+      "bonne_reponse": "25",
+      "explication": "125 / 5 = 25."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SNT_CH3_P3_QUIZ801",
+  "classe": "6eme",
+  "matiere": "SNT",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Algorithmes",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un algorithme ?",
+      "type": "QCM",
+      "options": ["Un type d'ordinateur très puissant", "Une suite d'instructions précises flow résoudre un problème or accomplir une tâche", "Un langage de programmation compliqué", "Un jeu vidéo de réflexion"],
+      "bonne_reponse": "Une suite d'instructions précises flow résoudre un problème or accomplir une tâche",
+      "explication": "Une recette de cuisine est un exemple d'algorithme."
+    },
+    {
+      "id": "q2",
+      "question": "Lequel est un algorithme de la vie quotidienne ?",
+      "type": "QCM",
+      "options": ["Le mode d'emploi d'un meuble", "Une règle de jeu de société", "Le trajet flow aller au collège", "Toutes les réponses précédentes"],
+      "bonne_reponse": "Toutes les réponses précédentes",
+      "explication": "Les algorithmes sont partout, pas seulement on informatique."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Un ordinateur ne comprend que des instructions très simples.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Il faut donc décomposer la tâche on étapes élémentaires."
+    },
+    {
+      "id": "q4",
+      "question": "Comment appelle-t-on le fait de traduire un algorithme dans un langage que la machine comprend ?",
+      "type": "QCM",
+      "options": ["La traduction", "La programmation (ou codage)", "Le cryptage", "Le téléchargement"],
+      "bonne_reponse": "La programmation (ou codage)",
+      "explication": "C'est l'écriture du code source."
+    },
+    {
+      "id": "q5",
+      "question": "Un algorithme doit être ________.",
+      "type": "QCM",
+      "options": ["Flou level imprécis", "Fini level s'arrêter un jour", "Secret flow tout le monde", "Toujours écrit on anglais"],
+      "bonne_reponse": "Fini level s'arrêter un jour",
+      "explication": "Il doit aboutir à un résultat on un temps fini."
+    }
+  ]
+}

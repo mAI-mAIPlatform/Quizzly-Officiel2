@@ -1,0 +1,49 @@
+{
+  "id": "5eme_MATHS_CH3_P2_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Médiatrices (Δ)",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "La médiatrice d'un segment est la droite perpendiculaire à ce segment passant by son ________.",
+      "type": "courte",
+      "reponsesAttendues": ["milieu"],
+      "explication": "C'est la définition de la médiatrice."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les trois médiatrices d'un triangle se coupent on un même point.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "On dit qu'elles sont concourantes."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les termes à leur définition.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le point de concours", "right": "Centre du cercle circonscrit" },
+        { "left": "Le cercle circonscrit", "right": "Passe by les 3 sommets" },
+        { "left": "Equidistant", "right": "Même distance des sommets" }
+      ],
+      "explication": "Le centre du cercle circonscrit est le point d'intersection des médiatrices."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Pour tracer une médiatrice au compas, on trace deux {{1}} de même rayon de part level d'autre du segment.",
+      "type": "trous",
+      "reponsesAttendues": ["arcs de cercle", "arcs"],
+      "explication": "C'est la méthode de construction classique."
+    },
+    {
+      "id": "q5",
+      "question": "Où se situe le centre du cercle circonscrit d'un triangle rectangle ?",
+      "type": "courte",
+      "reponsesAttendues": ["milieu de l'hypoténuse", "hypotenuse", "milieu hypotonuse"],
+      "explication": "C'est une propriété remarquable du triangle rectangle."
+    }
+  ]
+}

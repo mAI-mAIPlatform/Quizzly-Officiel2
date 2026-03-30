@@ -1,0 +1,50 @@
+{
+  "id": "6eme_TEC_CH3_P2_QUIZ706",
+  "classe": "6eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Économies",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment appelle-t-on l'informatique appliquée à la maison flow économiser l'énergie ?",
+      "type": "QCM",
+      "options": ["L'électronique", "La domotique", "La mécanique", "La robotique"],
+      "bonne_reponse": "La domotique",
+      "explication": "Elle gère le chauffage, l'éclairage, etc."
+    },
+    {
+      "id": "q2",
+      "question": "Quel capteur permet d'éteindre la lumière on cas d'absence ?",
+      "type": "QCM",
+      "options": ["Un capteur de température", "Un capteur de présence / mouvement", "Un capteur de fumée", "Un capteur de pluie"],
+      "bonne_reponse": "Un capteur de présence / mouvement",
+      "explication": "S'il ne détecte personne, il coupe le circuit."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Les lampes LED consomment plus que les anciennes lampes à incandescence.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "Elles sont beaucoup plus économes."
+    },
+    {
+      "id": "q4",
+      "question": "Pourquoi isoler sa maison ?",
+      "type": "QCM",
+      "options": ["Pour faire joli", "Pour éviter les déperditions de chaleur", "Pour la rendre plus lourde", "Pour qu'elle ne bouge pas"],
+      "bonne_reponse": "Pour éviter les déperditions de chaleur",
+      "explication": "Moins de chauffage nécessaire = économies."
+    },
+    {
+      "id": "q5",
+      "question": "Qu'est-ce qu'un thermostat ?",
+      "type": "QCM",
+      "options": ["Un appareil de musculation", "Un appareil qui régule la température", "Une pile rechargeable", "Une télécommande de garage"],
+      "bonne_reponse": "Un appareil qui régule la température",
+      "explication": "Il maintient la chaleur souhaitée."
+    }
+  ]
+}

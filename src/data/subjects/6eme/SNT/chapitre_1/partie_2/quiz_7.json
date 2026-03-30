@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SNT_CH1_P2_QUIZ17",
+  "classe": "6eme",
+  "matiere": "SNT",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Tes Données Personnelles",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Lequel est une donnée personnelle ?",
+      "type": "QCM",
+      "options": ["Ton nom de famille", "Ton adresse mail", "Ta date de naissance", "Les trois (nom, mail, naissance)"],
+      "bonne_reponse": "Les trois (nom, mail, naissance)",
+      "explication": "C'est toute information qui permet de t'identifier."
+    },
+    {
+      "id": "q2",
+      "question": "Tes 'clics' et tes 'likes' sont-ils des données ?",
+      "type": "QCM",
+      "options": ["Non, ce sont des actions", "Oui, ils renseignent sur tes centres d'intérêt", "Seulement si tu es majeur", "Jamais"],
+      "bonne_reponse": "Oui, ils renseignent sur tes centres d'intérêt",
+      "explication": "Ils forment ton 'profil numérique'."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Tu as le droit de demander à un site ce qu'il sait sur toi.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est le droit d'accès et de rectification."
+    },
+    {
+      "id": "q4",
+      "question": "Le 'Droit à l'oubli' permet de :",
+      "type": "QCM",
+      "options": ["Ne plus aller à l'école", "Demander la suppression d'une information te concernant d'un moteur de recherche", "Changer de nom", "Oublier ses mots de passe"],
+      "bonne_reponse": "Demander la suppression d'une information te concernant d'un moteur de recherche",
+      "explication": "C'est utile pour protéger son e-réputation plus tard."
+    },
+    {
+      "id": "q5",
+      "question": "Où sont généralement stockées tes données ?",
+      "type": "QCM",
+      "options": ["Dans ton cerveau", "Sur les serveurs de l'entreprise (souvent aux États-Unis)", "Sur une feuille de papier", "Elles disparaissent tout de suite"],
+      "bonne_reponse": "Sur les serveurs de l'entreprise (souvent aux États-Unis)",
+      "explication": "D'où l'importance des lois internationales pour les protéger."
+    }
+  ]
+}

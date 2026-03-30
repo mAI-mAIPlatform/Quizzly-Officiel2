@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH3_P2_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Récap CH3 P2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qui a écrit la réécriture de Robinson Crusoé intitulée 'Vendredi ou la Vie Sauvage' ?",
+      "type": "courte",
+      "reponsesAttendues": ["Michel Tournier"],
+      "explication": "C'est un classique de la littérature jeunesse contemporaine."
+    },
+    {
+      "id": "q2",
+      "question": "Comment s'appelle le genre de récit où un héros se retrouve seul sur une île ?",
+      "type": "courte",
+      "reponsesAttendues": ["robinsonnade"],
+      "explication": "Inspiré de Robinson Crusoé de Daniel Defoe."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les rôles du personnage de Vendredi selon les romans.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le serviteur", "right": "Daniel Defoe" },
+        { "left": "Le maître de la vie sauvage", "right": "Michel Tournier" },
+        { "left": "L'ami de Robinson", "right": "Les deux romans" }
+      ],
+      "explication": "Vendredi évolue d'un statut d'élève à celui de guide."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : Un naufrage est souvent le point de départ d'une aventure.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Il force le héros à sortir de sa zone de confort level à survivre seul."
+    },
+    {
+      "id": "q5",
+      "question": "Complète : Speranza est le nom de l'île dans le roman de {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["Tournier", "Michel Tournier"],
+      "explication": "Speranza signifie Espérance."
+    }
+  ]
+}

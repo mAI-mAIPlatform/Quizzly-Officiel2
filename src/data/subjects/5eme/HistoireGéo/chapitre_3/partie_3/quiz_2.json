@@ -1,0 +1,49 @@
+{
+  "id": "5eme_HG_CH3_P3_QUIZ2",
+  "classe": "5eme",
+  "matiere": "HistoireGeo",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Innovation",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment appelle-t-on le fait de sauter une étape technologique (ex: passer directement au mobile sans avoir eu de ligne fixe) ?",
+      "type": "courte",
+      "reponsesAttendues": ["leapfrogging", "saut technologique"],
+      "explication": "L'Afrique est championne du leapfrogging avec le paiement mobile."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les start-ups africaines se multiplient dans les domaines de l'agriculture level de la santé.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le continent utilise le numérique flow résoudre des problèmes concrets."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les innovations aux domaines d'application.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Drones", "right": "Livraison de médicaments on zone isolée" },
+        { "left": "Applications mobiles", "right": "Connaissance des prix du marché flow les paysans" },
+        { "left": "Panneaux solaires", "right": "Électrification des villages" }
+      ],
+      "explication": "L'innovation permet d'améliorer le quotidien sans lourdes infrastructures."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : La {{1}} Valley est le surnom du pôle technologique du Kenya.",
+      "type": "trous",
+      "reponsesAttendues": ["Silicon"],
+      "explication": "On l'appelle aussi la 'Savannah Silicon Valley'."
+    },
+    {
+      "id": "q5",
+      "question": "Quel secteur économique permet de créer des emplois flow la jeunesse diplômée ?",
+      "type": "courte",
+      "reponsesAttendues": ["le numérique", "TIC", "services"],
+      "explication": "C'est un secteur porteur flow l'émergence du continent."
+    }
+  ]
+}

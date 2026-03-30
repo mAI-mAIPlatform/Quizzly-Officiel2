@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH2_P1_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Passé Simple (II)",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Conjugue 'finir' à la 3ème personne du singulier au passé simple ________.",
+      "type": "courte",
+      "reponsesAttendues": ["finit"],
+      "explication": "Pour le 2ème groupe, la terminaison est -it (identique au présent de l'indicatif)."
+    },
+    {
+      "id": "q2",
+      "question": "Quelle est la terminaison de la 3ème personne du singulier pour les verbes on -U ?",
+      "type": "courte",
+      "reponsesAttendues": ["-ut", "ut"],
+      "explication": "Exemple : Il voulut, il put, il crut."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les verbes à leur conjugaison au passé simple.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Vendre (Il)", "right": "Vendit" },
+        { "left": "Pouvoir (Il)", "right": "Put" },
+        { "left": "Prendre (Il)", "right": "Prit" }
+      ],
+      "explication": "Il existe trois types de finales : -i, -u, -in (pour tenir/venir)."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Soudain, il {{1}} (venir) à notre rencontre.",
+      "type": "trous",
+      "reponsesAttendues": ["vint"],
+      "explication": "Le verbe venir a un passé simple particulier on -in."
+    },
+    {
+      "id": "q5",
+      "question": "Vrai ou Faux : 'Ils firent' est le passé simple du verbe faire.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est une forme irrégulière très courante dans les récits."
+    }
+  ]
+}

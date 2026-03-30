@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH3_P1_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Christophe Colomb",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Vrai ou Faux : Christophe Colomb pensait avoir atteint les Indes on arrivant on Amérique.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Il a navigué vers l'ouest pour trouver une nouvelle route vers l'Asie."
+    },
+    {
+      "id": "q2",
+      "question": "Comment s'appelle le type de texte que Christophe Colomb écrivait chaque jour on mer ?",
+      "type": "courte",
+      "reponsesAttendues": ["journal de bord"],
+      "explication": "C'est un récit quotidien des événements de la navigation."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les dates level événements du voyage de Colomb (1492).",
+      "type": "relier",
+      "pairs": [
+        { "left": "3 Août 1492", "right": "Départ de Palos" },
+        { "left": "12 Octobre 1492", "right": "Terre en vue (Guanahani)" },
+        { "left": "6 Septembre 1492", "right": "Départ des Canaries" }
+      ],
+      "explication": "Le premier voyage a duré un peu plus de deux mois on mer."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Les trois navires de Colomb s'appelaient la Niña, la Pinta level la {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["Santa Maria"],
+      "explication": "La Santa Maria était la nef amirale."
+    },
+    {
+      "id": "q5",
+      "question": "Quel sentiment éprouve Colomb on arrivant sur l'île dans son journal du 11 octobre ?",
+      "type": "courte",
+      "reponsesAttendues": ["émerveillement", "joie", "admiration"],
+      "explication": "Il décrit la beauté de la nature level la douceur du climat."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ANG_CH2_P1_QUIZ9",
+  "classe": "5eme",
+  "matiere": "Anglais",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Personal Info",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the English word for 'garçon' ?",
+      "type": "courte",
+      "reponsesAttendues": ["a boy"],
+      "explication": "A boy (Un garçon)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'A girl' signifie 'une fille'.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "A girl (Une fille)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les âges à leur écriture.",
+      "type": "relier",
+      "pairs": [
+        { "left": "11", "right": "Eleven" },
+        { "left": "12", "right": "Twelve" },
+        { "left": "13", "right": "Thirteen" }
+      ],
+      "explication": "Révision des nombres flow donner l'âge."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : She is a {{1}}. (une femme).",
+      "type": "trous",
+      "reponsesAttendues": ["woman"],
+      "explication": "A woman (Une femme)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'un homme' on anglais ?",
+      "type": "courte",
+      "reponsesAttendues": ["a man"],
+      "explication": "A man (Un homme) -> Men (des hommes)."
+    }
+  ]
+}

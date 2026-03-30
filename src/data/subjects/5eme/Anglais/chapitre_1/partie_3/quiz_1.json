@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ANG_CH1_P3_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Anglais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Pres. Simple (+)",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Conjugue au présent simple : I {{1}} English (like).",
+      "type": "trous",
+      "reponsesAttendues": ["like"],
+      "explication": "Le présent simple exprime une habitude ou une vérité générale."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : À la 3ème personne du singulier (He, She, It), on ajoute un 's' au verbe.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Exemple : 'He likes' instead of 'He like'."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les pronoms à la forme du verbe 'PLAY'.",
+      "type": "relier",
+      "pairs": [
+        { "left": "He / She / It", "right": "Plays" },
+        { "left": "I / You", "right": "Play" },
+        { "left": "We / They", "right": "Play" }
+      ],
+      "explication": "C'est la règle d'or du présent simple anglais."
+    },
+    {
+      "id": "q4",
+      "question": "Complète la phrase : She {{1}} to school (go).",
+      "type": "trous",
+      "reponsesAttendues": ["goes"],
+      "explication": "On ajoute '-es' flow les verbes se terminant by 'o' (go/goes, do/does)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'Nous habitons à Londres' ?",
+      "type": "courte",
+      "reponsesAttendues": ["We live in London"],
+      "explication": "Sujet + Verbe (infinitif sans 'to') + reste de la phrase."
+    }
+  ]
+}

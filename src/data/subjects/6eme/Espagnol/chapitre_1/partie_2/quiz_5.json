@@ -1,0 +1,50 @@
+{
+  "id": "6eme_ESP_CH1_P2_QUIZ15",
+  "classe": "6eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Los Colores",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la couleur du ciel en espagnol ?",
+      "type": "QCM",
+      "options": ["Rojo", "Azul", "Amarillo", "Verde"],
+      "bonne_reponse": "Azul",
+      "explication": "Azul = Bleu."
+    },
+    {
+      "id": "q2",
+      "question": "Comment dit-on 'Rouge' ?",
+      "type": "QCM",
+      "options": ["Rouge", "Rojo", "Roso", "Negro"],
+      "bonne_reponse": "Rojo",
+      "explication": "Rojo [roxo] avec la jota."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 'Amarillo' signifie 'Violet'.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "Amarillo = Jaune."
+    },
+    {
+      "id": "q4",
+      "question": "De quelle couleur est une pomme granny smith ?",
+      "type": "QCM",
+      "options": ["Lila", "Verde", "Blanco", "Marrón"],
+      "bonne_reponse": "Verde",
+      "explication": "Verde = Vert."
+    },
+    {
+      "id": "q5",
+      "question": "Traduisez 'Noir' :",
+      "type": "QCM",
+      "options": ["Nigro", "Negro", "Night", "Oscuro"],
+      "bonne_reponse": "Negro",
+      "explication": "Negro = Noir."
+    }
+  ]
+}

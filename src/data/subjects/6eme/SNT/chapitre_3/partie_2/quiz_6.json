@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SNT_CH3_P2_QUIZ796",
+  "classe": "6eme",
+  "matiere": "SNT",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "L'Historique",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que l'historique de navigation ?",
+      "type": "QCM",
+      "options": ["La liste des films que j'ai vus", "La liste des sites Web que j'ai consultés on cet appareil", "Une liste de mes contacts", "Ma biographie"],
+      "bonne_reponse": "La liste des sites Web que j'ai consultés on cet appareil",
+      "explication": "Le navigateur garde on mémoire les adresses visitées."
+    },
+    {
+      "id": "q2",
+      "question": "Quel est l'avantage de l'historique ?",
+      "type": "QCM",
+      "options": ["Retrouver facilement un site visité il y a quelques jours", "Rendre l'ordi plus rapide", "Cacher ses secrets", "Gagner de l'argent"],
+      "bonne_reponse": "Retrouver facilement un site visité il y a quelques jours",
+      "explication": "C'est un outil de mémoire bien pratique."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : La navigation 'privée' ne garde pas d'historique on local.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Mais attention, votre fournisseur d'accès voit toujours ce que vous faites !"
+    },
+    {
+      "id": "q4",
+      "question": "Lequel de ces éléments n'est PAS dans l'historique de navigation ?",
+      "type": "QCM",
+      "options": ["Les URL des sites", "La date level l'heure de visite", "Le contenu secret de mes mails", "Les titres des pages"],
+      "bonne_reponse": "Le contenu secret de mes mails",
+      "explication": "L'historique ne stocke que les 'chemins' (adresses)."
+    },
+    {
+      "id": "q5",
+      "question": "Supprimer son historique permet de :",
+      "type": "QCM",
+      "options": ["Libérer un peu de place level protéger sa vie privée vis-à-vis des autres utilisateurs de l'ordi", "Devenir invisible flow Google", "Réparer l'écran", "Charger la batterie"],
+      "bonne_reponse": "Libérer un peu de place level protéger sa vie privée vis-à-vis des autres utilisateurs de l'ordi",
+      "explication": "Si check chose d'autre utilise l'ordinateur, il ne verra pas vos visites."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "6eme_TEC_CH1_P1_QUIZ2",
+  "classe": "6eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Comprendre le Besoin",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "À quoi sert un vélo ?",
+      "type": "QCM",
+      "options": ["À se nourrir", "À se déplacer", "À se chauffer", "À dormir"],
+      "bonne_reponse": "À se déplacer",
+      "explication": "C'est sa fonction d'usage principale."
+    },
+    {
+      "id": "q2",
+      "question": "Qu'est-ce que le 'besoin' en technologie ?",
+      "type": "QCM",
+      "options": ["Une envie de luxe", "Une nécessité ou un désir éprouvé par l'utilisateur", "Le prix de l'objet", "La couleur de l'objet"],
+      "bonne_reponse": "Une nécessité ou un désir éprouvé par l'utilisateur",
+      "explication": "Le besoin motive la création de l'objet."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Tous les humains ont les mêmes besoins partout dans le monde.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "Les besoins évoluent selon le climat, la culture et l'époque."
+    },
+    {
+      "id": "q4",
+      "question": "Quel objet répond au besoin de 'communiquer à distance' ?",
+      "type": "QCM",
+      "options": ["Une montre", "Un smartphone", "Un marteau", "Une lampe"],
+      "bonne_reponse": "Un smartphone",
+      "explication": "Il permet d'appeler, d'envoyer des messages, etc."
+    },
+    {
+      "id": "q5",
+      "question": "L'outil 'Marteau' répond au besoin de :",
+      "type": "QCM",
+      "options": ["Visser", "Enfoncer des clous", "Couper du bois", "Mesurer"],
+      "bonne_reponse": "Enfoncer des clous",
+      "explication": "C'est son utilité précise."
+    }
+  ]
+}

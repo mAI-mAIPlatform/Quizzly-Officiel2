@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH2_P1_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Récap Conj. Ch2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Conjugue 'faire' au passé simple (Ils) ________.",
+      "type": "courte",
+      "reponsesAttendues": ["firent"],
+      "explication": "Le radical est irrégulier."
+    },
+    {
+      "id": "q2",
+      "question": "Conjugue 'être' à l'imparfait (Nous) ________.",
+      "type": "courte",
+      "reponsesAttendues": ["étions", "etions"],
+      "explication": "L'imparfait garde toujours le même radical."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les terminaisons du passé simple à leur pronom.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Je (1er gr.)", "right": "-ai" },
+        { "left": "Il (2ème gr.)", "right": "-it" },
+        { "left": "Ils (3ème gr.)", "right": "-urent / -irent" }
+      ],
+      "explication": "Le passé simple a des terminaisons variées selon les groupes."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : 'Elle chanta' est de l'imparfait.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "C'est du passé simple (1er groupe)."
+    },
+    {
+      "id": "q5",
+      "question": "Complète : L'imparfait se termine toujours by {{1}} pour 'ils'.",
+      "type": "trous",
+      "reponsesAttendues": ["-aient", "aient"],
+      "explication": "C'est une terminaison invariable flow tous les verbes."
+    }
+  ]
+}

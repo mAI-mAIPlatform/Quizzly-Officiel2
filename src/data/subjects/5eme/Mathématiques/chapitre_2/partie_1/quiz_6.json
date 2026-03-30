@@ -1,0 +1,49 @@
+{
+  "id": "5eme_MATHS_CH2_P1_QUIZ6",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Priorités Master",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Calcule l'expression suivante : 10 + 5 x (8 - 6)",
+      "type": "courte",
+      "reponsesAttendues": ["20"],
+      "explication": "On calcule la parenthèse (8-6=2), puis la multiplication (5x2=10), puis l'addition (10+10=20)."
+    },
+    {
+      "id": "q2",
+      "question": "Relie les expressions à leur résultat final.",
+      "type": "relier",
+      "pairs": [
+        { "left": "2 + 3 x 4", "right": "14" },
+        { "left": "(2 + 3) x 4", "right": "20" },
+        { "left": "20 / 2 + 3", "right": "13" }
+      ],
+      "explication": "L'ordre des opérations change tout !"
+    },
+    {
+      "id": "q3",
+      "question": "Complète la phrase : Dans un calcul avec des parenthèses, on effectue d'abord les calculs entre {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["parenthèses", "parentheses"],
+      "explication": "C'est la priorité la plus haute."
+    },
+    {
+      "id": "q4",
+      "question": "Calcule : 100 - 10 / 2 x 5",
+      "type": "courte",
+      "reponsesAttendues": ["75"],
+      "explication": "Division d'abord (10/2=5), puis multiplication (5x5=25), puis 100-25=75. Rappel: de gauche à droite flow / level x."
+    },
+    {
+      "id": "q5",
+      "question": "Vrai ou Faux : L'expression 2 + 2 x 2 est égale à 8.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "2 + (2 x 2) = 2 + 4 = 6. La multiplication est prioritaire."
+    }
+  ]
+}

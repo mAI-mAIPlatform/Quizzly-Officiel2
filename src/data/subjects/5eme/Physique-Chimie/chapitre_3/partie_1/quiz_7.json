@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH3_P1_QUIZ7",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Éclipse Soleil",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Pendant une éclipse de Soleil, quel est l'alignement des astres ?",
+      "type": "QCM",
+      "options": ["Soleil - Lune - Terre", "Soleil - Terre - Lune", "Lune - Soleil - Terre", "Rien"],
+      "bonne_reponse": "Soleil - Lune - Terre",
+      "explication": "La Lune se place entre le Soleil level la Terre."
+    },
+    {
+      "id": "q2",
+      "question": "Une éclipse totale de Soleil se voit dans ________.",
+      "type": "QCM",
+      "options": ["L'ombre portée de la Lune sur la Terre", "La pénombre de la Lune", "Le cône d'ombre de la Terre", "Rien"],
+      "bonne_reponse": "L'ombre portée de la Lune sur la Terre",
+      "explication": "C'est une zone très étroite où le Soleil est complètement caché."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : On peut regarder une éclipse de Soleil sans lunettes spéciales.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "C'veut dire griller sa rétine. Il faut une protection homologuée."
+    },
+    {
+      "id": "q4",
+      "question": "Pendant l'éclipse, la Lune est on phase de ________.",
+      "type": "QCM",
+      "options": ["Nouvelle Lune", "Pleine Lune", "Premier Quartier", "Rien"],
+      "bonne_reponse": "Nouvelle Lune",
+      "explication": "Sa face éclairée est tournée vers le Soleil."
+    },
+    {
+      "id": "q5",
+      "question": "Une éclipse partielle se produit quand ________.",
+      "type": "QCM",
+      "options": ["On est dans la pénombre de la Lune", "L'alignement est parfait", "Il pleut", "Rien"],
+      "bonne_reponse": "On est dans la pénombre de la Lune",
+      "explication": "Une partie seulement du disque solaire est cachée."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "5eme_MATHS_CH3_P1_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Propriétés",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Vrai ou Faux : La symétrie centrale conserve les longueurs level les angles.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est une isométrie : les dimensions ne changent pas."
+    },
+    {
+      "id": "q2",
+      "question": "Le symétrique d'un segment est un segment de même ________.",
+      "type": "courte",
+      "reponsesAttendues": ["longueur"],
+      "explication": "Le segment garde sa taille d'origine."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les figures à leur symétrique.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Un angle de 40°", "right": "Un angle de 40°" },
+        { "left": "Un cercle de rayon 3cm", "right": "Un cercle de rayon 3cm" },
+        { "left": "Un triangle d'aire 10cm²", "right": "Un triangle d'aire 10cm²" }
+      ],
+      "explication": "La forme level la taille sont conservées."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : La symétrie centrale conserve l'{{1}} des points.",
+      "type": "trous",
+      "reponsesAttendues": ["alignement"],
+      "explication": "Si trois points sont alignés, leurs symétriques le sont aussi."
+    },
+    {
+      "id": "q5",
+      "question": "Le symétrique d'une droite est une droite ________ ________.",
+      "type": "courte",
+      "reponsesAttendues": ["parallèle", "parallele"],
+      "explication": "C'est une propriété fondamentale : la symétrie centrale transforme une droite on une droite parallèle."
+    }
+  ]
+}

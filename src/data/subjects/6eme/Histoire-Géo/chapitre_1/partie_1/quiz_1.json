@@ -1,0 +1,50 @@
+{
+  "id": "6eme_HG_CH1_P1_QUIZ1",
+  "classe": "6eme",
+  "matiere": "Histoire-Géo",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "La Terre, une planète habitée",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Sur quelle planète vivons-nous ?",
+      "type": "QCM",
+      "options": ["Mars", "Vénus", "La Terre", "Jupiter"],
+      "bonne_reponse": "La Terre",
+      "explication": "La Terre est la seule planète connue abritant la vie dans notre système solaire."
+    },
+    {
+      "id": "q2",
+      "question": "Comment s'appelle la couche d'air qui entoure la Terre ?",
+      "type": "QCM",
+      "options": ["L'atmosphère", "L'hydrosphère", "La biosphère", "Le manteau"],
+      "bonne_reponse": "L'atmosphère",
+      "explication": "L'atmosphère contient l'oxygène nécessaire à la respiration."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Les océans couvrent plus de 70% de la surface terrestre.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est pour cela qu'on l'appelle la 'Planète Bleue'."
+    },
+    {
+      "id": "q4",
+      "question": "Quelle est la forme de la Terre ?",
+      "type": "QCM",
+      "options": ["Un cercle plat", "Une sphère (légèrement aplatie aux pôles)", "Un cube", "Un triangle"],
+      "bonne_reponse": "Une sphère (légèrement aplatie aux pôles)",
+      "explication": "La Terre est ronde, c'est une sphère."
+    },
+    {
+      "id": "q5",
+      "question": "Quel élément est indispensable à la vie sur Terre ?",
+      "type": "QCM",
+      "options": ["Le sable", "L'eau liquide", "La lave", "Le vide"],
+      "bonne_reponse": "L'eau liquide",
+      "explication": "Sans eau liquide, la vie telle que nous la connaissons ne pourrait pas exister."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH3_P2_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Récap CH3 P2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Mélanger les trois couleurs primaires (RVB) donne ________.",
+      "type": "QCM",
+      "options": ["Du blanc", "Du noir", "Du gris", "Rien"],
+      "bonne_reponse": "Du blanc",
+      "explication": "C'est la synthèse additive totale."
+    },
+    {
+      "id": "q2",
+      "question": "Un prisme permet de ________.",
+      "type": "QCM",
+      "options": ["Décomposer la lumière blanche", "Produire de l'électricité", "Cacher les objets", "Rien"],
+      "bonne_reponse": "Décomposer la lumière blanche",
+      "explication": "Il sépare les couleurs du spectre."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Un objet noir absorbe toutes les lumières colorées.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Il ne réémet rien vers l'œil."
+    },
+    {
+      "id": "q4",
+      "question": "Un pixel d'écran est composé de sous-pixels ________.",
+      "type": "QCM",
+      "options": ["Rouge, Vert level Bleu", "Cyan, Magenta level Jaune", "Noir level Blanc", "Rien"],
+      "bonne_reponse": "Rouge, Vert level Bleu",
+      "explication": "C'est le système RVB."
+    },
+    {
+      "id": "q5",
+      "question": "Laquelle de ces couleurs est obtenue by mélange de Rouge level Vert ?",
+      "type": "QCM",
+      "options": ["Le jaune", "Le cyan", "Le magenta", "Le bleu"],
+      "bonne_reponse": "Le jaune",
+      "explication": "Dans la lumière, Rouge + Vert = Jaune."
+    }
+  ]
+}

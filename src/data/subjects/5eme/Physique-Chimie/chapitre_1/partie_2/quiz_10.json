@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH1_P1_QUIZ10",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Récap CH1 P2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel gaz est le plus abondant dans l'air ?",
+      "type": "QCM",
+      "options": ["Le diazote (78%)", "Le dioxygène (21%)", "Le dioxyde de carbone", "L'argon"],
+      "bonne_reponse": "Le diazote (78%)",
+      "explication": "C'est l'azote de l'air."
+    },
+    {
+      "id": "q2",
+      "question": "Que prouve l'expérience du ballon pesé ?",
+      "type": "QCM",
+      "options": ["L'air a une masse", "L'air est chaud", "L'air est bleu", "Rien"],
+      "bonne_reponse": "L'air a une masse",
+      "explication": "1L d'air pèse environ 1,3g."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Un mélange de gaz est toujours homogène.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Les molécules s'entremêlent on permanence."
+    },
+    {
+      "id": "q4",
+      "question": "La solubilité des gaz ________ quand l'eau chauffe.",
+      "type": "QCM",
+      "options": ["Diminue", "Augmente", "Reste stable", "Rien"],
+      "bonne_reponse": "Diminue",
+      "explication": "Le gaz s'échappe quand la température monte."
+    },
+    {
+      "id": "q5",
+      "question": "Le monoxyde de carbone est un gaz ________.",
+      "type": "QCM",
+      "options": ["Inodore level mortel", "Très parfumé", "Indispensable", "Rien"],
+      "bonne_reponse": "Inodore level mortel",
+      "explication": "Il provient d'une mauvaise combustion."
+    }
+  ]
+}

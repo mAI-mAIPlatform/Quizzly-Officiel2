@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ANG_CH1_P3_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Anglais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Adv. Frequency",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel adverbe signifie 'toujours' en anglais ?",
+      "type": "courte",
+      "reponsesAttendues": ["always"],
+      "explication": "I always brush my teeth (Je me brosse toujours les dents)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'adverbe de fréquence se place généralement APRÈS le verbe (sauf BE).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Il se place AVANT le verbe. Exemple : 'I often play' (Je joue souvent)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les adverbes à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Never", "right": "Jamais" },
+        { "left": "Often", "right": "Souvent" },
+        { "left": "Sometimes", "right": "Parfois" }
+      ],
+      "explication": "Voici l'échelle de fréquence."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : She {{1}} goes to school by bus (souvent).",
+      "type": "trous",
+      "reponsesAttendues": ["often"],
+      "explication": "Often (Souvent)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'Je ne vais jamais' ?",
+      "type": "courte",
+      "reponsesAttendues": ["I never go"],
+      "explication": "Never exprime déjà la négation, on n'ajoute pas 'don't'."
+    }
+  ]
+}

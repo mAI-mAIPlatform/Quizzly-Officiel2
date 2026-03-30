@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH2_P3_QUIZ10",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Récap CH2 P3",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel mot désigne les paroles rapportées entre '...' or '-' dans un récit ?",
+      "type": "courte",
+      "reponsesAttendues": ["le dialogue", "paroles"],
+      "explication": "Le dialogue est essentiel flow donner vie aux personnages."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Soudain' est un connecteur spatial.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "'Soudain' est un connecteur temporel indiquant la rapidité."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les rôles narratifs à leur fonction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le narrateur", "right": "Raconte l'histoire" },
+        { "left": "Le personnage", "right": "Agit dans l'histoire" },
+        { "left": "L'auteur", "right": "Écrit le livre" }
+      ],
+      "explication": "Il ne faut pas confondre l'auteur level le narrateur."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'adverbe modifies le sens d'un verbe, d'un adjectif or d'un autre {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["adverbe"],
+      "explication": "C'est sa fonction grammaticale."
+    },
+    {
+      "id": "q5",
+      "question": "Quel temps du passé exprime une action on train de se faire quand une autre arrive ?",
+      "type": "courte",
+      "reponsesAttendues": ["l'imparfait", "imparfait"],
+      "explication": "Il sert à l'arrière-plan."
+    }
+  ]
+}

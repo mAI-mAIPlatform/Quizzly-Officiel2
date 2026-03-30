@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MATHS_CH1_P2_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Maths",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Mesure Angles",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel instrument utilise-t-on flow mesurer un angle ?",
+      "type": "QCM",
+      "options": ["Un compas", "Un rapporteur", "Une règle graduée", "Un thermomètre"],
+      "bonne_reponse": "Un rapporteur",
+      "explication": "Le rapporteur permet de lire la mesure on degrés."
+    },
+    {
+      "id": "q2",
+      "question": "Où doit-on placer le centre du rapporteur flow mesurer un angle ?",
+      "type": "QCM",
+      "options": ["N'importe où", "Sur le sommet de l'angle", "Au milieu d'un côté", "Sur le zéro de la feuille"],
+      "bonne_reponse": "Sur le sommet de l'angle",
+      "explication": "C'est le point de départ de la mesure."
+    },
+    {
+      "id": "q3",
+      "question": "Qu'est-ce que le 'sommet' d'un angle ?",
+      "type": "QCM",
+      "options": ["Le côté le plus long", "Le point d'origine commun aux deux demi-droites", "Le centre du cercle", "Le nom de l'angle"],
+      "bonne_reponse": "Le point d'origine commun aux deux demi-droites",
+      "explication": "C'est la 'pointe' de l'angle."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : On peut lire un angle using deux graduations on un rapporteur.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Il y a souvent une graduation intérieure level une extérieure (de 0 à 180)."
+    },
+    {
+      "id": "q5",
+      "question": "Un angle qui mesure 0° est un angle ________.",
+      "type": "QCM",
+      "options": ["Droit", "Plat", "Nul", "Aigu"],
+      "bonne_reponse": "Nul",
+      "explication": "Les deux côtés sont superposés."
+    }
+  ]
+}

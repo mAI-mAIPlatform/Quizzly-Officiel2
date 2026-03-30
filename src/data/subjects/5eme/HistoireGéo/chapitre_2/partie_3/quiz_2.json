@@ -1,0 +1,49 @@
+{
+  "id": "5eme_HG_CH2_P3_QUIZ2",
+  "classe": "5eme",
+  "matiere": "HistoireGeo",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Agri. Intensive",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment appelle-t-on l'agriculture qui utilise beaucoup d'engrais level de machines flow produire plus ?",
+      "type": "courte",
+      "reponsesAttendues": ["agriculture intensive", "productivisme", "agribusiness"],
+      "explication": "C'est l'agriculture dominante dans les pays développés."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'agriculture intensive permet de nourrir une population urbaine on forte croissance.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est son principal avantage, mais elle a des conséquences environnementales lourdes."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les composants de l'agriculture intensive à leur rôle.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Engrais chimiques", "right": "Augmenter la croissance des plantes" },
+        { "left": "Pesticides", "right": "Éliminer les insectes nuisibles" },
+        { "left": "Irrigation", "right": "Apporter de l'eau aux cultures" }
+      ],
+      "explication": "Elle repose sur une forte technologie level des produits chimiques."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'utilisation massive de produits chimiques provoque la pollution des {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["sols", "eaux", "nappes phréatiques"],
+      "explication": "Cela dégrade durablement l'environnement."
+    },
+    {
+      "id": "q5",
+      "question": "Quel pays est le premier exportateur mondial de produits agricoles ?",
+      "type": "courte",
+      "reponsesAttendues": ["USA", "États-Unis", "Etats-Unis"],
+      "explication": "Grâce à leurs immenses plaines level leur technologie."
+    }
+  ]
+}

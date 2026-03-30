@@ -1,0 +1,50 @@
+{
+  "id": "6eme_PC_CH1_P1_QUIZ5",
+  "classe": "6eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Mesurer la masse",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel instrument utilise-t-on pour mesurer une masse ?",
+      "type": "QCM",
+      "options": ["Une règle", "Une balance", "Un thermomètre", "Un chronomètre"],
+      "bonne_reponse": "Une balance",
+      "explication": "La balance mesure la quantité de matière."
+    },
+    {
+      "id": "q2",
+      "question": "Quelle est l'unité légale de la masse ?",
+      "type": "QCM",
+      "options": ["Le mètre", "Le litre", "Le kilogramme (kg)", "Le degré Celsius"],
+      "bonne_reponse": "Le kilogramme (kg)",
+      "explication": "On utilise aussi le gramme (g) pour les petites quantités."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 1 kg est égal à 100 g.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "1 kg = 1000 g."
+    },
+    {
+      "id": "q4",
+      "question": "Que signifie 'faire la tare' sur une balance électronique ?",
+      "type": "QCM",
+      "options": ["Éteindre la balance", "Remettre l'affichage à zéro après avoir posé un récipient", "Peser son chat", "Changer les piles"],
+      "bonne_reponse": "Remettre l'affichage à zéro après avoir posé un récipient",
+      "explication": "Cela permet de ne peser que le contenu, pas le pot."
+    },
+    {
+      "id": "q5",
+      "question": "La masse d'un litre d'eau liquide est environ de :",
+      "type": "QCM",
+      "options": ["10 kg", "1 kg", "100 g", "1 t"],
+      "bonne_reponse": "1 kg",
+      "explication": "C'est une correspondance facile à retenir pour l'eau pure."
+    }
+  ]
+}

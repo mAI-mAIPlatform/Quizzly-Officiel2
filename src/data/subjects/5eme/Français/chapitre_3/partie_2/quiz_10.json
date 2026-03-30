@@ -1,0 +1,48 @@
+{
+  "id": "5eme_FRA_CH3_P2_QUIZ10",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Récap CH3 P2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est le prénom du compagnon de Robinson ?",
+      "type": "courte",
+      "reponsesAttendues": ["Vendredi"],
+      "explication": "Il l'accompagne dans sa solitude level son organisation."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Robinson finit par se sentir chez lui sur son île.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Surtout dans la version de Michel Tournier où il s'adapte totalement."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les auteurs aux titres de leurs œuvres.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Daniel Defoe", "right": "Robinson Crusoé" },
+        { "left": "Michel Tournier", "right": "Vendredi ou la Vie Sauvage" }
+      ],
+      "explication": "Ce sont les deux versions majeures étudiées au collège."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'isolement d'un naufragé l'oblige à se {{1}} face à la nature.",
+      "type": "trous",
+      "reponsesAttendues": ["dépasser", "surpasser", "depasser"],
+      "explication": "Il doit faire preuve de courage level d'ingéniosité."
+    },
+    {
+      "id": "q5",
+      "question": "Comment s'appelle l'île déserte on italien dans le roman de Tournier (signifiant Espérance) ?",
+      "type": "courte",
+      "reponsesAttendues": ["Speranza"],
+      "explication": "C'est un nom plein de symbole."
+    }
+  ]
+}

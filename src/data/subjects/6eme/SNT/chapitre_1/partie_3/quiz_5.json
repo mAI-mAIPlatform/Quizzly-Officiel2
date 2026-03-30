@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SNT_CH1_P3_QUIZ25",
+  "classe": "6eme",
+  "matiere": "SNT",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Les Boucles",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "À quoi sert une boucle en programmation ?",
+      "type": "QCM",
+      "options": ["À faire un cercle sur l'écran", "À répéter plusieurs fois une même suite d'instructions", "À supprimer le code", "À ralentir l'ordinateur"],
+      "bonne_reponse": "À répéter plusieurs fois une même suite d'instructions",
+      "explication": "Cela évite d'écrire 100 fois la même chose."
+    },
+    {
+      "id": "q2",
+      "question": "Une boucle 'Répéter 10 fois' fera l'action :",
+      "type": "QCM",
+      "options": ["1 fois", "10 fois", "A l'infini", "0 fois"],
+      "bonne_reponse": "10 fois",
+      "explication": "C'est une boucle dont on connaît le nombre de répétitions à l'avance."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Une 'boucle infinie' est une boucle qui ne s'arrête jamais.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Cela peut faire 'planter' un programme si ce n'est pas voulu."
+    },
+    {
+      "id": "q4",
+      "question": "La boucle 'Tant que' (WHILE) s'arrête quand :",
+      "type": "QCM",
+      "options": ["Le programme est fini", "La condition devient fausse", "On appuie sur Entrée", "Par hasard"],
+      "bonne_reponse": "La condition devient fausse",
+      "explication": "Ex: TANT QUE l'utilisateur n'a pas trouvé le chiffre ALORS redemander."
+    },
+    {
+      "id": "q5",
+      "question": "Utiliser une boucle fait gagner :",
+      "type": "QCM",
+      "options": ["De l'argent", "Du temps et de la clarté dans le code", "De la force", "Des points de vie"],
+      "bonne_reponse": "Du temps et de la clarté dans le code",
+      "explication": "Le code est plus court et plus facile à lire."
+    }
+  ]
+}

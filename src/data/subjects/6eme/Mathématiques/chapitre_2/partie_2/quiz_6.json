@@ -1,0 +1,50 @@
+{
+  "id": "6eme_MATHS_CH2_P2_QUIZ46",
+  "classe": "6eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Problèmes : Longueurs",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Un ruban de 5,4 m est coupé en deux morceaux. L'un mesure 2,1 m. Combien mesure l'autre ?",
+      "type": "QCM",
+      "options": ["3,3 m", "7,5 m", "3,4 m", "3 m"],
+      "bonne_reponse": "3,3 m",
+      "explication": "5,4 - 2,1 = 3,3."
+    },
+    {
+      "id": "q2",
+      "question": "Le périmètre d'un triangle dont les côtés font 3,5 cm ; 4,2 cm and 5,1 cm est :",
+      "type": "QCM",
+      "options": ["12,8 cm", "13 cm", "11,8 cm", "15 cm"],
+      "bonne_reponse": "12,8 cm",
+      "explication": "3,5 + 4,2 + 5,1 = 12,8."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : On ne peut pas additionner des mètres et des centimètres directement.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Il faut d'abord utiliser la même unité (conversion)."
+    },
+    {
+      "id": "q4",
+      "question": "Une fourmi parcourt 12,7 cm puis fait demi-tour de 4,5 cm. À quelle distance du départ est-elle ?",
+      "type": "QCM",
+      "options": ["17,2 cm", "8,2 cm", "8,3 cm", "10 cm"],
+      "bonne_reponse": "8,2 cm",
+      "explication": "12,7 - 4,5 = 8,2."
+    },
+    {
+      "id": "q5",
+      "question": "Le tour d'un terrain fait 400 m. J'ai couru 250,5 m. Combien reste-t-il ?",
+      "type": "QCM",
+      "options": ["149,5 m", "150,5 m", "150 m", "149 m"],
+      "bonne_reponse": "149,5 m",
+      "explication": "400,0 - 250,5 = 149,5."
+    }
+  ]
+}

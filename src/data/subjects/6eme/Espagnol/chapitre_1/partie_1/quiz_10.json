@@ -1,0 +1,50 @@
+{
+  "id": "6eme_ESP_CH1_P1_QUIZ10",
+  "classe": "6eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Desafío : Saludos y Presentación",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Traduisez 'Bonne nuit' :",
+      "type": "QCM",
+      "options": ["Buenas tardes", "Buenas noches", "Buenos días", "Adiós"],
+      "bonne_reponse": "Buenas noches",
+      "explication": "Noches = Nuits."
+    },
+    {
+      "id": "q2",
+      "question": "¿De dónde eres?",
+      "type": "QCM",
+      "options": ["Me llamo Ana", "Soy de España", "Tengo diez años", "Estoy bien"],
+      "bonne_reponse": "Soy de España",
+      "explication": "On répond sur son origine."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 'Ocho' est le chiffre 9.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "Ocho = 8. Nueve = 9."
+    },
+    {
+      "id": "q4",
+      "question": "¿Cómo se dice 'Pardon' ?",
+      "type": "QCM",
+      "options": ["Por favor", "Perdón", "Gracias", "De nada"],
+      "bonne_reponse": "Perdón",
+      "explication": "Identique au français, avec l'accent sur le 'o'."
+    },
+    {
+      "id": "q5",
+      "question": "Traduisez 'Elle s'appelle Maria' :",
+      "type": "QCM",
+      "options": ["Yo me llamo Maria", "Ella se llama Maria", "Tu te llamas Maria", "Él se llama Maria"],
+      "bonne_reponse": "Ella se llama Maria",
+      "explication": "Ella = Elle."
+    }
+  ]
+}

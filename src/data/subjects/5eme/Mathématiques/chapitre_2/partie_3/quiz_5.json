@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MATHS_CH2_P3_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Écriture Simpl.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "L'écriture simplifiée de (+5) + (-3) est ________.",
+      "type": "QCM",
+      "options": ["5 - 3", "5 + 3", "-5 - 3", "Rien"],
+      "bonne_reponse": "5 - 3",
+      "explication": "On supprime les parenthèses level les signes + de l'addition."
+    },
+    {
+      "id": "q2",
+      "question": "Simplifie l'écriture de (-4) - (+6) ________.",
+      "type": "QCM",
+      "options": ["-4 - 6", "-4 + 6", "4 - 6", "4 + 6"],
+      "bonne_reponse": "-4 - 6",
+      "explication": "Soustraire (+6) revient à ajouter (-6), donc on écrit -4 - 6."
+    },
+    {
+      "id": "q3",
+      "question": "Calcule : -10 + 15",
+      "type": "QCM",
+      "options": ["5", "-5", "25", "-25"],
+      "bonne_reponse": "5",
+      "explication": "On a une dette de 10 level un gain de 15, il reste 5."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : -2 - 8 = -6",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "-2 - 8 = -10. On cumule deux pertes."
+    },
+    {
+      "id": "q5",
+      "question": "Simplifie : (+2) - (-3) + (-4) ________.",
+      "type": "QCM",
+      "options": ["2 + 3 - 4", "2 - 3 - 4", "-2 + 3 - 4", "Rien"],
+      "bonne_reponse": "2 + 3 - 4",
+      "explication": "Soustraire (-3) donne +3. Ajouter (-4) donne -4."
+    }
+  ]
+}

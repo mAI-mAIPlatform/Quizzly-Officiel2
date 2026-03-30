@@ -1,0 +1,48 @@
+{
+  "id": "5eme_MATHS_CH3_P1_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Symétrie Centrale",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Transformer une figure by symétrie centrale revient à lui faire faire un demi-tour (________) autour d'un point.",
+      "type": "courte",
+      "reponsesAttendues": ["180", "180 degrés", "180 degres"],
+      "explication": "C'est une rotation d'un demi-tour complet."
+    },
+    {
+      "id": "q2",
+      "question": "Le point autour duquel on fait le demi-tour s'appelle le ________ de symétrie.",
+      "type": "courte",
+      "reponsesAttendues": ["centre"],
+      "explication": "Contrairement à la symétrie axiale qui a un axe (droite), la centrale a un point."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les symétries à leur nature.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Symétrie Axiale", "right": "Pliage (Miroir)" },
+        { "left": "Symétrie Centrale", "right": "Demi-tour (Rotation)" }
+      ],
+      "explication": "Ce sont les deux types de symétries étudiées au collège."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : Si A' est le symétrique de A par rapport à O, alors O est le milieu du segment [AA'].",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est la définition géométrique du symétrique d'un point."
+    },
+    {
+      "id": "q5",
+      "question": "Complète : Deux figures symétriques par rapport à un point sont {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["superposables"],
+      "explication": "Elles ont la même forme level les mêmes dimensions."
+    }
+  ]
+}

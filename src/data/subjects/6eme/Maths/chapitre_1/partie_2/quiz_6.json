@@ -1,0 +1,50 @@
+{
+  "id": "6eme_Maths_CH1_P2_QUIZ16",
+  "classe": "6eme",
+  "matiere": "Maths",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Problèmes à plusieurs étapes",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "J'achète 3 BD à 12€ l'unité et je paie avec un billet de 50€. Combien me rend-on ?",
+      "type": "QCM",
+      "options": ["14 €", "36 €", "24 €", "12 €"],
+      "bonne_reponse": "14 €",
+      "explication": "Coût total = 3 x 12 = 36€. Monnaie = 50 - 36 = 14€."
+    },
+    {
+      "id": "q2",
+      "question": "Une école achète 10 cartons de 24 stylos. Chaque stylo coûte 2€. Quel est le prix total ?",
+      "type": "QCM",
+      "options": ["240 €", "480 €", "24 €", "48 €"],
+      "bonne_reponse": "480 €",
+      "explication": "10 cartons x 24 stylos = 240 stylos. 240 x 2€ = 480€."
+    },
+    {
+      "id": "q3",
+      "question": "Un agriculteur a 120 œufs. Il en vend 40. Il range le reste dans des boîtes de 10. Combien de boîtes lui faut-il ?",
+      "type": "QCM",
+      "options": ["8", "12", "16", "10"],
+      "bonne_reponse": "8",
+      "explication": "Reste = 120 - 40 = 80 œufs. Nombre de boîtes = 80 / 10 = 8."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : Si on triple 15 puis on retire 10, on obtient 35.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "(15 x 3) - 10 = 45 - 10 = 35."
+    },
+    {
+      "id": "q5",
+      "question": "Dans un parking de 3 étages, il y a 50 places par étage. Si 40 places sont occupées au total, combien en reste-t-il de libres ?",
+      "type": "QCM",
+      "options": ["110", "150", "90", "10"],
+      "bonne_reponse": "110",
+      "explication": "Total places = 3 x 50 = 150. Libres = 150 - 40 = 110."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "6eme_MATHS_CH2_P1_QUIZ35",
+  "classe": "6eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Ordre Croissant et Décroissant",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "L'ordre 'croissant' va du :",
+      "type": "QCM",
+      "options": ["Plus petit au plus grand", "Plus grand au plus petit", "Double au triple", "Même au même"],
+      "bonne_reponse": "Plus petit au plus grand",
+      "explication": "Comme une plante qui croît (grandit)."
+    },
+    {
+      "id": "q2",
+      "question": "Quel est l'ordre croissant de (4,5 ; 4,05 ; 4,55) ?",
+      "type": "QCM",
+      "options": ["4,05 < 4,5 < 4,55", "4,5 < 4,05 < 4,55", "4,55 < 4,5 < 4,05", "4,05 < 4,55 < 4,5"],
+      "bonne_reponse": "4,05 < 4,5 < 4,55",
+      "explication": "On compare les dixièmes : 0 < 5 < 5 (avec centième 5)."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : L'ordre décroissant utilise le signe > .",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "On part du plus grand."
+    },
+    {
+      "id": "q4",
+      "question": "Quel nombre s'intercale entre 7,2 et 7,3 ?",
+      "type": "QCM",
+      "options": ["7,25", "7,15", "7,31", "8"],
+      "bonne_reponse": "7,25",
+      "explication": "Il y a une infinité de nombres entre deux décimaux."
+    },
+    {
+      "id": "q5",
+      "question": "Ranger 0,1 ; 1,0 ; 0,01 par ordre décroissant :",
+      "type": "QCM",
+      "options": ["1,0 > 0,1 > 0,01", "0,01 > 0,1 > 1,0", "0,1 > 0,01 > 1,0", "1,0 > 0,01 > 0,1"],
+      "bonne_reponse": "1,0 > 0,1 > 0,01",
+      "explication": "1 est plus grand qu'un dixième, qui est plus grand qu'un centième."
+    }
+  ]
+}

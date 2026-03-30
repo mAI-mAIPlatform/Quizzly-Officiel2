@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SVT_CH2_P1_QUIZ114",
+  "classe": "6eme",
+  "matiere": "SVT",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Le Jour et la Nuit",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment appelle-t-on le mouvement de la Terre qui tourne sur elle-même ?",
+      "type": "QCM",
+      "options": ["La révolution", "La rotation", "Le saut", "Le tournis"],
+      "bonne_reponse": "La rotation",
+      "explication": "La Terre tourne autour d'un axe imaginaire passant par les pôles."
+    },
+    {
+      "id": "q2",
+      "question": "Combien de temps met la Terre pour faire un tour sur elle-même ?",
+      "type": "QCM",
+      "options": ["12 heures", "24 heures (un jour)", "365 jours", "1 mois"],
+      "bonne_reponse": "24 heures (un jour)",
+      "explication": "C'est ce qui crée l'alternance jour/nuit."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Le Soleil se lève à l'Ouest.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "Le Soleil se lève à l'Est (car la Terre tourne vers l'Est)."
+    },
+    {
+      "id": "q4",
+      "question": "Pourquoi fait-il nuit ?",
+      "type": "QCM",
+      "options": ["Parce que le Soleil s'éteint", "Parce que nous sommes dans l'ombre de la Terre", "Parce que les nuages cachent tout", "Parce que la Lune brille trop"],
+      "bonne_reponse": "Parce que nous sommes dans l'ombre de la Terre",
+      "explication": "La partie à l'opposé du Soleil ne reçoit pas sa lumière."
+    },
+    {
+      "id": "q5",
+      "question": "L'axe de rotation de la Terre est :",
+      "type": "QCM",
+      "options": ["Vertical", "Incliné (penché)", "Horizontal", "Il change tout le temps"],
+      "bonne_reponse": "Incliné (penché)",
+      "explication": "Cette inclinaison est très importante pour les saisons."
+    }
+  ]
+}

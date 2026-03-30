@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ANG_CH1_P3_QUIZ7",
+  "classe": "5eme",
+  "matiere": "Anglais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Short Answers",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Réponse courte à : 'Do you like apples?' (oui).",
+      "type": "courte",
+      "reponsesAttendues": ["Yes, I do"],
+      "explication": "On utilise l'auxiliaire de la question dans la réponse."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La réponse courte à 'Does he play play tennis?' est 'Yes, he does'.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "On utilise 'does' car le sujet est HE."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les questions à leur réponse courte négative.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Do they speak English?", "right": "No, they don't." },
+        { "left": "Does she swim?", "right": "No, she doesn't." },
+        { "left": "Do you sing?", "right": "No, I don't." }
+      ],
+      "explication": "N'oublie pas d'utiliser l'auxiliaire correct."
+    },
+    {
+      "id": "q4",
+      "question": "Complète la réponse : 'Do you live here?' -> 'No, I {{1}}'.",
+      "type": "trous",
+      "reponsesAttendues": ["don't"],
+      "explication": "No, I don't."
+    },
+    {
+      "id": "q5",
+      "question": "Réponse courte à : 'Does your friend like pizza?' (oui).",
+      "type": "courte",
+      "reponsesAttendues": ["Yes, he does", "Yes, she does"],
+      "explication": "Your friend = HE or SHE."
+    }
+  ]
+}

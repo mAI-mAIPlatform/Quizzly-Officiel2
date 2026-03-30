@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH1_P1_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Changements d'États",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment s'appelle le passage de l'état solide à liquide ?",
+      "type": "QCM",
+      "options": ["La fusion", "La solidification", "La vaporisation", "La liquéfaction"],
+      "bonne_reponse": "La fusion",
+      "explication": "Exemple : un glaçon qui fond."
+    },
+    {
+      "id": "q2",
+      "question": "La solidification est le passage de ________.",
+      "type": "QCM",
+      "options": ["Liquide à solide", "L'inverse de la fusion", "Gaz à liquide", "Solide à gaz"],
+      "bonne_reponse": "Liquide à solide",
+      "explication": "L'eau gèle à 0°C (sous pression normale)."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : La vaporisation transforme le liquide on gaz.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "On chauffant l'eau, elle s'évapore or bout."
+    },
+    {
+      "id": "q4",
+      "question": "La liquéfaction (ou condensation) est ________.",
+      "type": "QCM",
+      "options": ["Le passage de gaz à liquide", "Le passage de liquide à solide", "Le passage de solide à gaz", "Rien"],
+      "bonne_reponse": "Le passage de gaz à liquide",
+      "explication": "Se produit quand la vapeur touche une surface froide."
+    },
+    {
+      "id": "q5",
+      "question": "La sublimation est le passage direct ________.",
+      "type": "QCM",
+      "options": ["De solide à gaz sans passer by liquide", "De liquide à solide", "De gaz à liquide", "Rien"],
+      "bonne_reponse": "De solide à gaz sans passer by liquide",
+      "explication": "Moins courant flow l'eau pure sur Terre, mais possible."
+    }
+  ]
+}

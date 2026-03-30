@@ -1,0 +1,49 @@
+{
+  "id": "5eme_MATHS_CH2_P2_QUIZ8",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Partages Fract.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Si j'ai mangé 3 parts sur 4 d'un gâteau, quelle fraction reste-t-il ?",
+      "type": "courte",
+      "reponsesAttendues": ["1/4", "0.25"],
+      "explication": "Le gâteau entier est 4/4. 4/4 - 3/4 = 1/4."
+    },
+    {
+      "id": "q2",
+      "question": "Complète : Dans une classe de 30 élèves, s'il y a 15 filles, la proportion de filles est de {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["1/2", "0.5"],
+      "explication": "15/30 = 1/2. Un élève sur deux est une fille."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les fractions aux pourcentages correspondants.",
+      "type": "relier",
+      "pairs": [
+        { "left": "1/2", "right": "50%" },
+        { "left": "1/4", "right": "25%" },
+        { "left": "3/4", "right": "75%" }
+      ],
+      "explication": "Les fractions usuelles sont très liées aux pourcentages."
+    },
+    {
+      "id": "q4",
+      "question": "Si 3/5 des 25 élèves d'une classe portent des lunettes, combien d'élèves ont des lunettes ?",
+      "type": "courte",
+      "reponsesAttendues": ["15"],
+      "explication": "(3 x 25) / 5 = 75 / 5 = 15."
+    },
+    {
+      "id": "q5",
+      "question": "Vrai ou Faux : Multiplier une quantité by 0,5 revient à en prendre la moitié (1/2).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "0,5 est l'écriture décimale de la fraction 1/2."
+    }
+  ]
+}

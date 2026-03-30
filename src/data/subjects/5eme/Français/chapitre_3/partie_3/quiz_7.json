@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH3_P3_QUIZ7",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "L'Eldorado",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment s'appelle le pays imaginaire où tout serait on or level on pierres précieuses ?",
+      "type": "courte",
+      "reponsesAttendues": ["l'Eldorado", "eldorado"],
+      "explication": "C'est une légende tenace qui a poussé de nombreux explorateurs vers l'Amérique."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'Eldorado symbolise la richesse infinie level le bonheur parfait.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est une forme de paradis terrestre."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les quêtes aux explorateurs (ou personnages).",
+      "type": "relier",
+      "pairs": [
+        { "left": "La Route de la Soie", "right": "Marco Polo" },
+        { "left": "Le passage de l'Ouest", "right": "Christophe Colomb" },
+        { "left": "La cité d'or", "right": "Conquistadors" }
+      ],
+      "explication": "Chacun part avec un but précis, souvent lié à la richesse ou au savoir."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Les récits de voyage transforment souvent la réalité on un monde d'{{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["abondance", "opulence", "or"],
+      "explication": "On surévalue les richesses des pays lointains flow attirer les investisseurs."
+    },
+    {
+      "id": "q5",
+      "question": "Quel métal était le plus recherché by les explorateurs du Nouveau Monde ?",
+      "type": "courte",
+      "reponsesAttendues": ["l'or", "or"],
+      "explication": "La soif de l'or a été le moteur de nombreuses expéditions."
+    }
+  ]
+}

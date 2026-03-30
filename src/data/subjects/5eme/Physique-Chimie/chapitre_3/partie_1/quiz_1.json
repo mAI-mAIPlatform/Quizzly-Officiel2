@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH3_P1_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Sources de Lumière",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une source primaire de lumière ?",
+      "type": "QCM",
+      "options": ["Un objet qui produit sa propre lumière", "Un objet qui renvoie la lumière reçue", "Un miroir", "La Lune"],
+      "bonne_reponse": "Un objet qui produit sa propre lumière",
+      "explication": "Exemples : le Soleil, une lampe allumée, une luciole."
+    },
+    {
+      "id": "q2",
+      "question": "Un objet diffusant (source secondaire) ________.",
+      "type": "QCM",
+      "options": ["Renvoie la lumière qu'il reçoit", "Produit des flammes", "Est toujours noir", "Rien"],
+      "bonne_reponse": "Renvoie la lumière qu'il reçoit",
+      "explication": "Exemples : la Lune, une table, un mur blanc."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Le Soleil est une source primaire.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est une étoile qui produit une énergie colossale."
+    },
+    {
+      "id": "q4",
+      "question": "La Lune est ________.",
+      "type": "QCM",
+      "options": ["Un objet diffusant", "Une source primaire", "Un trou noir", "Une planète"],
+      "bonne_reponse": "Un objet diffusant",
+      "explication": "Elle nous renvoie la lumière du Soleil."
+    },
+    {
+      "id": "q5",
+      "question": "Un miroir est-il une source primaire ?",
+      "type": "QCM",
+      "options": ["Non, c'est un réflecteur (objet diffusant particulier)", "Oui, il brille tout seul", "Parfois", "Rien"],
+      "bonne_reponse": "Non, c'est un réflecteur (objet diffusant particulier)",
+      "explication": "Il renvoie la lumière de façon ordonnée (réflexion)."
+    }
+  ]
+}

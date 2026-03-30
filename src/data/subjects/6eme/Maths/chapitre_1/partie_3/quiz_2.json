@@ -1,0 +1,50 @@
+{
+  "id": "6eme_Maths_CH1_P3_QUIZ22",
+  "classe": "6eme",
+  "matiere": "Maths",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Révision : Divisibilité et Multiples",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Lequel de ces nombres est divisible par 3 ?",
+      "type": "QCM",
+      "options": ["111", "112", "113", "115"],
+      "bonne_reponse": "111",
+      "explication": "1 + 1 + 1 = 3. 3 est divisible par 3."
+    },
+    {
+      "id": "q2",
+      "question": "25 est-il un diviseur de 100 ?",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Oui car 4 x 25 = 100."
+    },
+    {
+      "id": "q3",
+      "question": "Quel est le plus petit multiple de 4 supérieur à 20 ?",
+      "type": "QCM",
+      "options": ["20", "22", "24", "28"],
+      "bonne_reponse": "24",
+      "explication": "Le multiple suivant après 20 est 24 (4 x 6)."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : Un nombre fini par 5 est toujours divisible par 5.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est la règle de divisibilité par 5."
+    },
+    {
+      "id": "q5",
+      "question": "Combien de diviseurs possède le nombre 7 ?",
+      "type": "QCM",
+      "options": ["1", "2", "3", "0"],
+      "bonne_reponse": "2",
+      "explication": "7 est un nombre premier, il n'est divisible que par 1 et par lui-même (7)."
+    }
+  ]
+}

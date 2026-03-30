@@ -35,53 +35,51 @@ export default async function PlayQuizPage({
   const quizFileName = `${quizId}.json`;
   const mId = matiereId;
   const cId = chapitre;
-  const pId = partie ? `partie${partie}` : null;
+  const pId = partie;
 
   try {
     let fileContent: string;
     
-    // Switch explicite pour aider Turbopack à restreindre la recherche de fichiers
-    switch(normalizedNiveau) {
-      case "debutant":
-        fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/debutant", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/debutant", mId, cId, quizFileName), "utf8");
-        break;
-      case "entrainement":
-        fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/entrainement", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/entrainement", mId, cId, quizFileName), "utf8");
-        break;
-      case "etudiant":
-        fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/etudiant", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/etudiant", mId, cId, quizFileName), "utf8");
-        break;
-      case "difficile":
-        fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/difficile", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/difficile", mId, cId, quizFileName), "utf8");
-        break;
-      case "expert":
-        fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/expert", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/expert", mId, cId, quizFileName), "utf8");
-        break;
-      case "savant":
-        fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/savant", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/savant", mId, cId, quizFileName), "utf8");
-        break;
-      case "genie":
-        fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/genie", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/genie", mId, cId, quizFileName), "utf8");
-        break;
-      default:
-        fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/debutant", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/debutant", mId, cId, quizFileName), "utf8");
+    // Tentative de lecture dans la nouvelle structure src/data/subjects/
+    const subjectsPath = pId 
+      ? path.join(process.cwd(), "src/data/subjects", niveau, mId, `chapitre_${cId.replace('ch', '')}`, `partie_${pId.replace('partie', '')}`, quizFileName)
+      : path.join(process.cwd(), "src/data/subjects", niveau, mId, `chapitre_${cId.replace('ch', '')}`, quizFileName);
+
+    try {
+      fileContent = await fs.readFile(subjectsPath, "utf8");
+    } catch {
+      // Fallback vers l'ancienne structure si non trouvé
+      switch(normalizedNiveau) {
+        case "debutant":
+          fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/debutant", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/debutant", mId, cId, quizFileName), "utf8");
+          break;
+        case "entrainement":
+          fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/entrainement", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/entrainement", mId, cId, quizFileName), "utf8");
+          break;
+        case "etudiant":
+          fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/etudiant", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/etudiant", mId, cId, quizFileName), "utf8");
+          break;
+        case "difficile":
+          fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/difficile", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/difficile", mId, cId, quizFileName), "utf8");
+          break;
+        case "expert":
+          fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/expert", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/expert", mId, cId, quizFileName), "utf8");
+          break;
+        case "savant":
+          fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/savant", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/savant", mId, cId, quizFileName), "utf8");
+          break;
+        case "genie":
+          fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/genie", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/genie", mId, cId, quizFileName), "utf8");
+          break;
+        default:
+          fileContent = await fs.readFile(pId ? path.join(process.cwd(), "src/data/debutant", mId, cId, pId, quizFileName) : path.join(process.cwd(), "src/data/debutant", mId, cId, quizFileName), "utf8");
+      }
     }
     
     quizData = JSON.parse(fileContent);
 
   } catch (error) {
-    if (partie) {
-      // Fallback simple si la lecture avec partie échoue
-      try {
-        const fbPath = path.join(process.cwd(), "src/data", normalizedNiveau, mId, cId, quizFileName);
-        const fbContent = await fs.readFile(fbPath, "utf8");
-        quizData = JSON.parse(fbContent);
-      } catch (innerError) {
-        console.error("Erreur lecture quiz (fallback inclus) :", innerError);
-      }
-    } else {
-      console.error("Erreur lecture quiz :", error);
-    }
+    console.error("Erreur lecture quiz :", error);
   }
 
   if (!quizData) {
@@ -89,8 +87,8 @@ export default async function PlayQuizPage({
       <div className="flex flex-col items-center justify-center h-screen gap-4 text-center p-6">
         <h1 className="text-3xl font-bold font-space text-rose">Oups !</h1>
         <p className="text-lg opacity-80">Ce quiz semble introuvable ou n'existe pas encore.</p>
-        <Link href={`/matiere/${matiereId}-${niveau}/${chapitre}`} className="mt-4 px-6 py-3 glass rounded-full hover:bg-white/10 font-bold">
-          Retour au chapitre
+        <Link href={`/matiere/${matiereId}-${niveau}`} className="mt-4 px-6 py-3 glass rounded-full hover:bg-white/10 font-bold">
+          Retour à la matière
         </Link>
       </div>
     );
@@ -104,7 +102,7 @@ export default async function PlayQuizPage({
       {/* Header compact pour le quiz */}
       <header className="p-4 glass rounded-none border-t-0 border-x-0 flex items-center justify-between sticky top-0 z-50">
         <div className="flex items-center gap-4">
-          <Link href={`/matiere/${matiereId}-${niveau}/${chapitre}`} className="w-10 h-10 rounded-full bg-foreground/5 flex items-center justify-center hover:bg-foreground/10 transition-colors">
+          <Link href={`/matiere/${matiereId}-${niveau}`} className="w-10 h-10 rounded-full bg-foreground/5 flex items-center justify-center hover:bg-foreground/10 transition-colors">
             ✕
           </Link>
           <div>

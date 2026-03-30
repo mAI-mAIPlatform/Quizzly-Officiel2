@@ -7,12 +7,28 @@ import QuestionQCM from "./QuestionQCM";
 import QuestionVraiFaux from "./QuestionVraiFaux";
 import QuestionTrous from "./QuestionTrous";
 import QuestionRelier from "./QuestionRelier";
+import QuestionCourte from "./QuestionCourte";
 import { useProgress } from "@/context/ProgressContext";
 import confetti from "canvas-confetti";
 import { useRef } from "react";
 import { playUiSound } from "@/lib/quizzly-audio";
 
 export type QuizTypeEnum = 'classic' | 'ranked' | 'survival' | 'duel' | 'blitz' | 'vrai_faux' | 'visuel';
+
+const encouragementsCorrect = [
+  "Excellent !", "Impérial !", "Bravo !", "Incroyable !", "Quel talent !", 
+  "Tu gères !", "Parfait !", "Magnifique !", "Génie !", "Trop fort !"
+];
+const encouragementsWrong = [
+  "Oups...", "Pas loin !", "Dommage...", "Presque !", "Concentre-toi !",
+  "BOOM ! Perdu...", "Aïe !", "Raté !", "Réessaie !", "Courage !"
+];
+const encouragementsTimeout = [
+  "Temps écoulé !",
+  "Le chrono a gagné...",
+  "Trop lent !",
+  "Essaie plus vite la prochaine fois !",
+];
 
 export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSurvival, quizType = 'classic' }: { quiz: { id: string; titre: string; questions: any[] /* eslint-disable-line @typescript-eslint/no-explicit-any */ }; backUrl: string; matiereId: string; onComplete?: (score: number) => void; isSurvival?: boolean; quizType?: QuizTypeEnum }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -30,20 +46,6 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
   const [timeLeft, setTimeLeft] = useState(timerSeconds);
   const isRanked = quizType === "ranked";
 
-  const encouragementsCorrect = [
-    "Excellent !", "Impérial !", "Bravo !", "Incroyable !", "Quel talent !", 
-    "Tu gères !", "Parfait !", "Magnifique !", "Génie !", "Trop fort !"
-  ];
-  const encouragementsWrong = [
-    "Oups...", "Pas loin !", "Dommage...", "Presque !", "Concentre-toi !",
-    "BOOM ! Perdu...", "Aïe !", "Raté !", "Réessaie !", "Courage !"
-  ];
-  const encouragementsTimeout = [
-    "Temps écoulé !",
-    "Le chrono a gagné...",
-    "Trop lent !",
-    "Essaie plus vite la prochaine fois !",
-  ];
 
   const [currentEncouragement, setCurrentEncouragement] = useState("");
 
@@ -51,6 +53,30 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
   const [hasAnswered, setHasAnswered] = useState(false);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [hasLostStar, setHasLostStar] = useState(false);
+
+  const handleValidate = useCallback((correct: boolean, source: "user" | "timeout" = "user") => {
+    if (hasAnsweredRef.current || isFinished) return;
+    hasAnsweredRef.current = true;
+    setHasAnswered(true);
+    setIsCorrect(correct);
+    if (correct) {
+      playUiSound("success", effectsVolume);
+      setScore(s => s + 1);
+      setCombo(c => c + 1);
+      setCurrentEncouragement(encouragementsCorrect[Math.floor(Math.random() * encouragementsCorrect.length)]);
+    } else {
+      playUiSound(source === "timeout" ? "timeout" : "error", effectsVolume);
+      setCombo(0);
+      setCurrentEncouragement(
+        source === "timeout"
+          ? encouragementsTimeout[Math.floor(Math.random() * encouragementsTimeout.length)]
+          : encouragementsWrong[Math.floor(Math.random() * encouragementsWrong.length)],
+      );
+      if (isSurvival) {
+        setTimeout(() => setIsFinished(true), 1500);
+      }
+    }
+  }, [effectsVolume, isFinished, isSurvival]);
 
   useEffect(() => {
     if (!isFinished || !onComplete || hasCompletedCallback.current) return;
@@ -85,31 +111,6 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
 
     return () => window.clearInterval(interval);
   }, [currentQuestion.id, hasAnswered, handleValidate, isFinished, timerSeconds]);
-
-  const handleValidate = useCallback((correct: boolean, source: "user" | "timeout" = "user") => {
-    if (hasAnsweredRef.current || isFinished) return;
-    hasAnsweredRef.current = true;
-    setHasAnswered(true);
-    setIsCorrect(correct);
-    if (correct) {
-      playUiSound("success", effectsVolume);
-      setScore(s => s + 1);
-      setCombo(c => c + 1);
-      setCurrentEncouragement(encouragementsCorrect[Math.floor(Math.random() * encouragementsCorrect.length)]);
-    } else {
-      playUiSound(source === "timeout" ? "timeout" : "error", effectsVolume);
-      setCombo(0);
-      setCurrentEncouragement(
-        source === "timeout"
-          ? encouragementsTimeout[Math.floor(Math.random() * encouragementsTimeout.length)]
-          : encouragementsWrong[Math.floor(Math.random() * encouragementsWrong.length)],
-      );
-      if (isSurvival) {
-        // En mode survie, une erreur = fin immédiate après un petit délai pour voir la croix
-        setTimeout(() => setIsFinished(true), 1500);
-      }
-    }
-  }, [effectsVolume, encouragementsCorrect, encouragementsWrong, encouragementsTimeout, isFinished, isSurvival]);
 
   const handleNext = () => {
     hasAnsweredRef.current = false;
@@ -391,6 +392,14 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
         )}
         {currentQuestion.type === "relier" && (
           <QuestionRelier 
+            key={currentQuestion.id}
+            question={currentQuestion} 
+            hasAnswered={hasAnswered} 
+            onValidate={handleValidate} 
+          />
+        )}
+        {currentQuestion.type === "courte" && (
+          <QuestionCourte 
             key={currentQuestion.id}
             question={currentQuestion} 
             hasAnswered={hasAnswered} 

@@ -1,0 +1,50 @@
+{
+  "id": "6eme_EMC_CH2_P2_QUIZ277",
+  "classe": "6eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Le casier judiciaire",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que le casier judiciaire ?",
+      "type": "QCM",
+      "options": ["Une boîte au tribunal", "Le relevé des condamnations d'une personne", "Un type de prison", "Le nom d'un juge"],
+      "bonne_reponse": "Le relevé des condamnations d'une personne",
+      "explication": "Il est géré par le Ministère de la Justice."
+    },
+    {
+      "id": "q2",
+      "question": "Pourquoi certains employeurs demandent l'extrait de casier judiciaire ?",
+      "type": "QCM",
+      "options": ["Pour connaître l'adresse de la personne", "Pour vérifier que la personne n'a pas commis de délits incompatibles avec le métier (ex: école, banque)", "Pour savoir si la personne est mariée", "C'est interdit"],
+      "bonne_reponse": "Pour vérifier que la personne n'a pas commis de délits incompatibles avec le métier (ex: école, banque)",
+      "explication": "C'est une garantie de sécurité (notamment pour travailler avec des mineurs)."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : On peut demander l'effacement de certaines mentions on son casier après un certain temps.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est le droit à l'oubli and à la réinsertion."
+    },
+    {
+      "id": "q4",
+      "question": "Toute condamnation va-t-elle au casier judiciaire ?",
+      "type": "QCM",
+      "options": ["Oui, toujours", "Non, cela dépend de la gravité (contravention, délit, crime)", "Seulement si le juge le veut", "Non, seulement pour les crimes"],
+      "bonne_reponse": "Non, cela dépend de la gravité (contravention, délit, crime)",
+      "explication": "Les petites contraventions ne sont pas inscrites au casier."
+    },
+    {
+      "id": "q5",
+      "question": "Une personne qui a un casier vierge :",
+      "type": "QCM",
+      "options": ["N'a jamais été condamnée par la justice", "A oublié ses clés", "N'a pas d'adresse", "Est un policier"],
+      "bonne_reponse": "N'a jamais été condamnée par la justice",
+      "explication": "C'est souvent demandé pour devenir fonctionnaire."
+    }
+  ]
+}

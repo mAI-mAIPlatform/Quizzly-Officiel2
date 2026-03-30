@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SES_CH2_P2_QUIZ301",
+  "classe": "6eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "La taille des entreprises",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment appelle-t-on une entreprise de moins de 10 salariés ?",
+      "type": "QCM",
+      "options": ["Une micro-entreprise (ou TPE)", "Une multinationale", "Une PME", "Un empire"],
+      "bonne_reponse": "Une micro-entreprise (ou TPE)",
+      "explication": "TPE signifie Très Petite Entreprise."
+    },
+    {
+      "id": "q2",
+      "question": "Une PME est une entreprise :",
+      "type": "QCM",
+      "options": ["Petite and Moyenne Entreprise (moins de 250 salariés)", "Pour les Meilleurs Élèves", "Produisant Matériellement l'Électricité", "Privée and Mal Entretenue"],
+      "bonne_reponse": "Petite and Moyenne Entreprise (moins de 250 salariés)",
+      "explication": "C'est le type d'entreprise le plus nombreux en France."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Une Grande Entreprise (GE) compte plus de 5000 salariés.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Ce sont souvent des groupes internationaux."
+    },
+    {
+      "id": "q4",
+      "question": "L'ETI est une entreprise de :",
+      "type": "QCM",
+      "options": ["Taille Intermédiaire (entre la PME and la GE)", "Taille Infinie", "Très Intense", "Type Inconnu"],
+      "bonne_reponse": "Taille Intermédiaire (entre la PME and la GE)",
+      "explication": "Elle compte entre 250 and 4999 salariés."
+    },
+    {
+      "id": "q5",
+      "question": "Laquelle emploie le plus de monde en France à elle seule ?",
+      "type": "QCM",
+      "options": ["Une boulangerie de quartier", "Un grand groupe industriel", "Un auto-entrepreneur", "Un artisan"],
+      "bonne_reponse": "Un grand groupe industriel",
+      "explication": "Les GE emploient des milliers de personnes, même si elles sont moins nombreuses."
+    }
+  ]
+}

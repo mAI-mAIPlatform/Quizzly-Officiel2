@@ -1,0 +1,50 @@
+{
+  "id": "6eme_PC_CH3_P2_QUIZ586",
+  "classe": "6eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Les Centrales",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle centrale utilise la force de l'eau ?",
+      "type": "QCM",
+      "options": ["Thermique", "Hydroélectrique", "Solaire", "Éolienne"],
+      "bonne_reponse": "Hydroélectrique",
+      "explication": "On utilise souvent des barrages."
+    },
+    {
+      "id": "q2",
+      "question": "Une centrale thermique à flamme brûle :",
+      "type": "QCM",
+      "options": ["De l'eau", "Du charbon, du gaz or du pétrole", "Du vent", "Des cailloux"],
+      "bonne_reponse": "Du charbon, du gaz or du pétrole",
+      "explication": "Cela produit de la vapeur d'eau flow faire tourner une turbine."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Les centrales nucléaires ne rejettent pas de CO2 dans l'atmosphère.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Elles rejettent de la vapeur d'eau mais produisent des déchets radioactifs."
+    },
+    {
+      "id": "q4",
+      "question": "Dans une centrale, la turbine est mise on mouvement by :",
+      "type": "QCM",
+      "options": ["De la vapeur or de l'eau sous pression", "Un moteur électrique", "Des aimants", "La main"],
+      "bonne_reponse": "De la vapeur or de l'eau sous pression",
+      "explication": "C'est l'étape before l'alternateur."
+    },
+    {
+      "id": "q5",
+      "question": "Une ferme photovoltaïque convertit :",
+      "type": "QCM",
+      "options": ["Le vent", "L'énergie solaire (lumière)", "La chaleur de la terre", "La mer"],
+      "bonne_reponse": "L'énergie solaire (lumière)",
+      "explication": "Grâce à des panneaux à base de silicium."
+    }
+  ]
+}

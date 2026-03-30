@@ -1,0 +1,49 @@
+{
+  "id": "5eme_HG_CH2_P1_QUIZ6",
+  "classe": "5eme",
+  "matiere": "HistoireGeo",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Tempêtes & Cyclones",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment appelle-t-on un tourbillon de vent violent on zone tropicale ?",
+      "type": "courte",
+      "reponsesAttendues": ["cyclone", "ouragan", "typhon"],
+      "explication": "Le nom change selon la région (cyclone on Inde, typhon on Asie)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le cyclone se nourrit de l'énergie des eaux chaudes de l'océan.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est flowquoi ils se forment principalement on zone intertropicale."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les phénomènes aux dangers qu'ils provoquent.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Vents violents", "right": "Destruction des maisons" },
+        { "left": "Pluies torrentielles", "right": "Inondations, Glissements de terrain" },
+        { "left": "Houle cyclonique", "right": "Submersion des côtes" }
+      ],
+      "explication": "Un cyclone combine plusieurs types de dangers."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Les sociétés se protègent with des systèmes d'{{1}} (sirènes, messages).",
+      "type": "trous",
+      "reponsesAttendues": ["alerte", "prevention", "surveillance"],
+      "explication": "Prévenir la population permet de l'évacuer à temps."
+    },
+    {
+      "id": "q5",
+      "question": "Quel archipel français est souvent frappé by des cyclones ?",
+      "type": "courte",
+      "reponsesAttendues": ["Antilles", "Guadeloupe", "Martinique", "Réunion"],
+      "explication": "Les Outre-mer français sont très exposés aux risques tropicaux."
+    }
+  ]
+}

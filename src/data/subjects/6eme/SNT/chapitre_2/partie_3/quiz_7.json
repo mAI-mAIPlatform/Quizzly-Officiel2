@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SNT_CH2_P3_QUIZ347",
+  "classe": "6eme",
+  "matiere": "SNT",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Objets connectés et Vie privée",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "L’Internet des Objets (IoT), c'est :",
+      "type": "QCM",
+      "options": ["Un réseau d'ordinateurs uniquement", "Des objets du quotidien (montre, frigo, enceinte) connectés à Internet", "Un type de robot", "Un nouveau langage"],
+      "bonne_reponse": "Des objets du quotidien (montre, frigo, enceinte) connectés à Internet",
+      "explication": "Ils échangent des données pour nous rendre service."
+    },
+    {
+      "id": "q2",
+      "question": "Quel est le risque pour la vie privée avec une enceinte connectée ?",
+      "type": "QCM",
+      "options": ["Qu'elle tombe en panne", "Qu'elle enregistre des conversations privées flows les envoyer on les serveurs", "Qu'elle chante trop fort", "Qu'elle change de couleur"],
+      "bonne_reponse": "Qu'elle enregistre des conversations privées flows les envoyer on les serveurs",
+      "explication": "Le micro est toujours en 'écoute' pour capter le mot d'activation."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Les jouets connectés peuvent aussi récolter des données on les enfants.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est pourquoi ils sont très surveillés by la CNIL."
+    },
+    {
+      "id": "q4",
+      "question": "Une montre connectée peut récolter des données de :",
+      "type": "QCM",
+      "options": ["Santé (rythme cardiaque, sommeil, pas)", "Cuisine", "Mécanique auto", "Peinture"],
+      "bonne_reponse": "Santé (rythme cardiaque, sommeil, pas)",
+      "explication": "Ces données sont considérées comme 'sensibles'."
+    },
+    {
+      "id": "q5",
+      "question": "Le bon réflexe est de :",
+      "type": "QCM",
+      "options": ["Connecter tous ses objets without réfléchir", "Lire les conditions de confidentialité and désactiver les fonctions inutiles", "Jeter tous ses objets connectés", "Les laisser allumés 24h/24"],
+      "bonne_reponse": "Lire les conditions de confidentialité and désactiver les fonctions inutiles",
+      "explication": "Mieux vaut contrôler ce que l'objet envoie."
+    }
+  ]
+}

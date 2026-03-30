@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH1_P1_QUIZ6",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Solubilité des Gaz",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Vrai ou Faux : Les gaz peuvent se dissoudre dans les liquides.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Exemple : le dioxyde de carbone dans les boissons gazeuses."
+    },
+    {
+      "id": "q2",
+      "question": "Que se passe-t-il quand on ouvre une bouteille de boisson gazeuse ?",
+      "type": "QCM",
+      "options": ["La pression diminue level le gaz s'échappe (bulles)", "L'eau devient solide", "Le gaz se dissout davantage", "Rien"],
+      "bonne_reponse": "La pression diminue level le gaz s'échappe (bulles)",
+      "explication": "La baisse de pression libère le gaz dissout."
+    },
+    {
+      "id": "q3",
+      "question": "La solubilité des gaz diminue quand la température ________.",
+      "type": "QCM",
+      "options": ["Augmente", "Diminue", "Reste stable", "Rien"],
+      "bonne_reponse": "Augmente",
+      "explication": "Plus l'eau est chaude, moins elle peut retenir de gaz (ex: oxygène flow les poissons)."
+    },
+    {
+      "id": "q4",
+      "question": "Les poissons respirent grâce ________.",
+      "type": "QCM",
+      "options": ["Au dioxygène dissout dans l'eau", "À l'eau elle-même", "À des bouteilles d'air", "Rien"],
+      "bonne_reponse": "Au dioxygène dissout dans l'eau",
+      "explication": "C'est un gaz dissout indispensable à la vie aquatique."
+    },
+    {
+      "id": "q5",
+      "question": "Comment s'appelle l'appareil flow mesurer la pression ?",
+      "type": "QCM",
+      "options": ["Le baromètre (pour l'air)", "Le thermomètre", "La balance", "La règle"],
+      "bonne_reponse": "Le baromètre (pour l'air)",
+      "explication": "Il mesure la pression atmosphérique."
+    }
+  ]
+}

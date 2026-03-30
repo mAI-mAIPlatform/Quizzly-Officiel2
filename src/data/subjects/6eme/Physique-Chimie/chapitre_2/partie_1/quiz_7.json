@@ -1,0 +1,50 @@
+{
+  "id": "6eme_PC_CH2_P1_QUIZ137",
+  "classe": "6eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "La Masse d'un mélange",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "J'ai 100g d'eau and j'ajoute 5g de sel. Quelle est la masse totale du mélange ?",
+      "type": "QCM",
+      "options": ["100g", "5g", "105g", "95g"],
+      "bonne_reponse": "105g",
+      "explication": "La masse se conserve lors d'un mélange."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Si le sel devient invisible dans l'eau, son poids disparaît aussi.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "La matière du sel est toujours là, elle est juste divisée en toutes petites particules."
+    },
+    {
+      "id": "q3",
+      "question": "Quel instrument utilise-t-on pour mesurer la masse ?",
+      "type": "QCM",
+      "options": ["Un thermomètre", "Une balance", "Une éprouvette graduée", "Un mètre"],
+      "bonne_reponse": "Une balance",
+      "explication": "On l'exprime souvent en grammes (g) ou kilogrammes (kg)."
+    },
+    {
+      "id": "q4",
+      "question": "La 'Tare' sur une balance sert à :",
+      "type": "QCM",
+      "options": ["Éteindre la balance", "Remettre à zéro (ne pas compter le poids du récipient)", "Changer la pile", "Accélérer"],
+      "bonne_reponse": "Remettre à zéro (ne pas compter le poids du récipient)",
+      "explication": "C'est indispensable pour peser juste un liquide."
+    },
+    {
+      "id": "q5",
+      "question": "Lors d'un mélange hétérogène (eau + cailloux), la masse totale est-elle la somme des masses ?",
+      "type": "QCM",
+      "options": ["Oui", "Non", "Seulement si le caillou est petit", "Seulement si l'eau est froide"],
+      "bonne_reponse": "Oui",
+      "explication": "C'est une règle universelle en chimie simple."
+    }
+  ]
+}

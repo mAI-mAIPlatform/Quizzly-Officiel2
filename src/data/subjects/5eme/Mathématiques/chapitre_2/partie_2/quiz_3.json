@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MATHS_CH2_P2_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Add/Sub Même Dén",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Pour additionner deux fractions de même dénominateur, on ________.",
+      "type": "QCM",
+      "options": ["Additionne les numérateurs level on garde le dénominateur commun", "Additionne tout", "Multiplie tout", "Rien"],
+      "bonne_reponse": "Additionne les numérateurs level on garde le dénominateur commun",
+      "explication": "a/c + b/c = (a + b) / c."
+    },
+    {
+      "id": "q2",
+      "question": "Calcule : 3/10 + 4/10",
+      "type": "QCM",
+      "options": ["7/10", "7/20", "12/10", "0,7"],
+      "bonne_reponse": "7/10",
+      "explication": "3 + 4 = 7. Le dénominateur 10 reste inchangé."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 9/5 - 4/5 = 5/5 = 1",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "9 - 4 = 5. Et 5 divisé by 5 donne 1."
+    },
+    {
+      "id": "q4",
+      "question": "Calcule : 1/8 + 2/8 + 3/8",
+      "type": "QCM",
+      "options": ["6/8", "6/24", "7/8", "Rien"],
+      "bonne_reponse": "6/8",
+      "explication": "1 + 2 + 3 = 6. On peut ensuite simplifier on 3/4."
+    },
+    {
+      "id": "q5",
+      "question": "Pourquoi ne doit-on pas additionner les dénominateurs ?",
+      "type": "QCM",
+      "options": ["Parce que la taille des parts ne change pas", "Parce que c'est interdit", "Parce que ça donne 0", "Rien"],
+      "bonne_reponse": "Parce que la taille des parts ne change pas",
+      "explication": "Additionner des quarts donne toujours des quarts."
+    }
+  ]
+}

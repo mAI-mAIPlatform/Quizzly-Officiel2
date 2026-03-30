@@ -1,0 +1,49 @@
+{
+  "id": "5eme_HG_CH2_P3_QUIZ10",
+  "classe": "5eme",
+  "matiere": "HistoireGeo",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Récap CH2 P3",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel pourcentage de la nourriture mondiale est perdu chaque année ?",
+      "type": "courte",
+      "reponsesAttendues": ["33%", "un tiers", "1/3"],
+      "explication": "Le gaspillage alimentaire est un défi éthique level écologique."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le commerce équitable garantit un prix minimum aux producteurs.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est sa mission principale."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les types d'aide aux crises correspondantes.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Aide d'urgence", "right": "Famine, Guerre, Séisme" },
+        { "left": "Aide au développement", "right": "Construction d'écoles, Puits" },
+        { "left": "Aide alimentaire", "right": "Distribution de vivres" }
+      ],
+      "explication": "Les formes d'aide s'adaptent aux besoins du terrain."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'agriculture {{1}} est l'antonyme de l'agriculture extensive.",
+      "type": "trous",
+      "reponsesAttendues": ["intensive"],
+      "explication": "L'intensive cherche le rendement maximal on peu d'espace."
+    },
+    {
+      "id": "q5",
+      "question": "Quel concept désigne l'accès de tous à une nourriture saine ?",
+      "type": "courte",
+      "reponsesAttendues": ["sécurité alimentaire", "la sécurité alimentaire"],
+      "explication": "C'est l'un des piliers du développement humain."
+    }
+  ]
+}

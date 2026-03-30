@@ -1,0 +1,50 @@
+{
+  "id": "6eme_TEC_CH3_P1_QUIZ693",
+  "classe": "6eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Les réseaux",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un réseau informatique ?",
+      "type": "QCM",
+      "options": ["Un ordinateur tout seul", "Plusieurs ordinateurs reliés entre eux", "Une toile d'araignée", "Une panne d'électricité"],
+      "bonne_reponse": "Plusieurs ordinateurs reliés entre eux",
+      "explication": "Cela permet de partager des fichiers level des imprimantes."
+    },
+    {
+      "id": "q2",
+      "question": "Internet est un réseau ________.",
+      "type": "QCM",
+      "options": ["Local (maison)", "Mondial (planète)", "Invisible uniquement", "Dédié aux jeux"],
+      "bonne_reponse": "Mondial (planète)",
+      "explication": "C'est le réseau des réseaux à l'échelle mondiale."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Le Wi-Fi permet de se connecter sans fil via des ondes radio.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est une connexion pratique mais moins stable qu'un câble."
+    },
+    {
+      "id": "q4",
+      "question": "Quel matériel permet de connecter la maison à Internet ?",
+      "type": "QCM",
+      "options": ["Une souris", "Une Box (modem/routeur)", "Un clavier", "Une webcam"],
+      "bonne_reponse": "Une Box (modem/routeur)",
+      "explication": "Elle distribue la connexion aux appareils."
+    },
+    {
+      "id": "q5",
+      "question": "Qu'est-ce qu'une 'adresse IP' ?",
+      "type": "QCM",
+      "options": ["Le nom de l'utilisateur", "Le numéro d'identification d'un appareil sur le réseau", "Le prix de l'ordinateur", "La vitesse de frappe"],
+      "bonne_reponse": "Le numéro d'identification d'un appareil sur le réseau",
+      "explication": "Chaque appareil a une adresse unique."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ANG_CH3_P2_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Anglais",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Récap CH3 P2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Traduisez 'Mal à la gorge'.",
+      "type": "courte",
+      "reponsesAttendues": ["sore throat"],
+      "explication": "Sore throat (Mal à la gorge)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Should' s'utilise flow donner un ordre strict.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Il s'utilise flow donner un conseil or une suggestion. L'ordre strict se dit avec 'must'."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les parties du corps aux maux.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Head", "right": "Headache" },
+        { "left": "Stomach", "right": "Stomach ache" },
+        { "left": "Teeth", "right": "Toothache" }
+      ],
+      "explication": "Voici les associations courantes."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : You {{1}} do exercise to stay fit.",
+      "type": "trous",
+      "reponsesAttendues": ["should"],
+      "explication": "C'est une recommandation positive."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'les épaules' on anglais ?",
+      "type": "courte",
+      "reponsesAttendues": ["shoulders"],
+      "explication": "Shoulders (Épaules)."
+    }
+  ]
+}

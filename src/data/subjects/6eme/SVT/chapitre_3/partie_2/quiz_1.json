@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SVT_CH3_P2_QUIZ551",
+  "classe": "6eme",
+  "matiere": "SVT",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "La Terre Tremble",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un séisme ?",
+      "type": "QCM",
+      "options": ["Une éruption de lave", "Une vibration du sol due à une rupture de roches", "Un coup de vent", "Une chute de pluie"],
+      "bonne_reponse": "Une vibration du sol due à une rupture de roches",
+      "explication": "L'énergie libérée se propage sous forme d'ondes sismiques."
+    },
+    {
+      "id": "q2",
+      "question": "Le point de rupture des roches on profondeur s'appelle :",
+      "type": "QCM",
+      "options": ["L'épicentre", "Le foyer (or hypocentre)", "Le sommet", "Le cratère"],
+      "bonne_reponse": "Le foyer (or hypocentre)",
+      "explication": "C'est de là que partent les ondes."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : L'épicentre est le point à la surface où le séisme est le plus fort.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Il est situé directly à la verticale du foyer."
+    },
+    {
+      "id": "q4",
+      "question": "Pour mesurer la magnitude (puissance) d'un séisme, on utilise l'échelle de :",
+      "type": "QCM",
+      "options": ["Celsius", "Richter", "Beaufort", "Kilomètres"],
+      "bonne_reponse": "Richter",
+      "explication": "Elle va généralement de 1 à 9."
+    },
+    {
+      "id": "q5",
+      "question": "L'appareil qui enregistre les vibrations du sol est le :",
+      "type": "QCM",
+      "options": ["Thermographie", "Sismographe", "Baromètre", "Pluviomètre"],
+      "bonne_reponse": "Sismographe",
+      "explication": "Il produit un tracé appelé sismogramme."
+    }
+  ]
+}

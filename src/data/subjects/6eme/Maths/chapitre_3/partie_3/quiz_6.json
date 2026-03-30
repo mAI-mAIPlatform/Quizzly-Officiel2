@@ -1,0 +1,50 @@
+{
+  "id": "6eme_MAT_CH3_P3_QUIZ476",
+  "classe": "6eme",
+  "matiere": "Mathematiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "À la Caisse",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "J'achète 3 BD à 12,50 € chacune. Combien je paie ?",
+      "type": "QCM",
+      "options": ["36,50 €", "37,50 €", "30,50 €", "40 €"],
+      "bonne_reponse": "37,50 €",
+      "explication": "3 x 12 = 36. 3 x 0,50 = 1,50. 36 + 1,50 = 37,50."
+    },
+    {
+      "id": "q2",
+      "question": "Je paie with un billet de 50 €. Combien on me rend ?",
+      "type": "QCM",
+      "options": ["12,50 €", "13,50 €", "22,50 €", "7,50 €"],
+      "bonne_reponse": "12,50 €",
+      "explication": "50 - 37,50 = 12,50."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Acheter un lot de 4 flow 10 € est moins cher qu'un à l'unité flow 2,60 €.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "10 : 4 = 2,50. 2,50 < 2,60."
+    },
+    {
+      "id": "q4",
+      "question": "Une remise de 20% on un article à 40 € représente une baisse de :",
+      "type": "QCM",
+      "options": ["20 €", "4 €", "8 €", "10 €"],
+      "bonne_reponse": "8 €",
+      "explication": "(20 x 40) : 100 = 800 : 100 = 8."
+    },
+    {
+      "id": "q5",
+      "question": "After la remise de 8 €, quel est le nouveau prix de l'article ?",
+      "type": "QCM",
+      "options": ["32 €", "38 €", "20 €", "48 €"],
+      "bonne_reponse": "32 €",
+      "explication": "40 - 8 = 32."
+    }
+  ]
+}

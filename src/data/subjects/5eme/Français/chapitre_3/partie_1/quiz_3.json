@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH3_P1_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Lexique Marine",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment appelle-t-on l'arrière d'un navire ?",
+      "type": "courte",
+      "reponsesAttendues": ["poupe", "la poupe"],
+      "explication": "L'arrière est la poupe, l'avant est la proue."
+    },
+    {
+      "id": "q2",
+      "question": "Connais-tu la gauche d'un bateau (quand on regarde vers l'avant) ?",
+      "type": "courte",
+      "reponsesAttendues": ["bâbord", "babord"],
+      "explication": "Bâbord est à gauche, Tribord est à droite."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les termes de marine à leur définition.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le mât", "right": "Poteau vertical flow les voiles" },
+        { "left": "L'ancre", "right": "Crochet flow immobiliser le bateau" },
+        { "left": "Le gouvernail", "right": "Sert à diriger le navire" }
+      ],
+      "explication": "Le vocabulaire technique est essentiel dans les récits de voyage."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Un navire à voiles du XVe siècle s'appelle une {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["caravelle"],
+      "explication": "C'est le navire utilisé by les grands explorateurs."
+    },
+    {
+      "id": "q5",
+      "question": "Vrai ou Faux : 'Appareiller' signifie lever l'ancre et partir on mer.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est le terme maritime flow dire que le voyage commence."
+    }
+  ]
+}

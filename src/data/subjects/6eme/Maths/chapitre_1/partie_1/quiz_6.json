@@ -1,0 +1,50 @@
+{
+  "id": "6eme_Maths_CH1_P1_QUIZ6",
+  "classe": "6eme",
+  "matiere": "Maths",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Multiplier deux nombres entiers",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Calcule : 12 x 4",
+      "type": "QCM",
+      "options": ["42", "48", "52", "44"],
+      "bonne_reponse": "48",
+      "explication": "10 x 4 = 40 et 2 x 4 = 8. 40 + 8 = 48."
+    },
+    {
+      "id": "q2",
+      "question": "Quel est le produit de 15 par 3 ?",
+      "type": "QCM",
+      "options": ["35", "45", "55", "18"],
+      "bonne_reponse": "45",
+      "explication": "15 + 15 + 15 = 45."
+    },
+    {
+      "id": "q3",
+      "question": "Dans 25 x 4, comment appelle-t-on les nombres 25 et 4 ?",
+      "type": "QCM",
+      "options": ["Les sommes", "Les termes", "Les facteurs", "Les produits"],
+      "bonne_reponse": "Les facteurs",
+      "explication": "Dans une multiplication, les nombres que l'on multiplie s'appellent des facteurs."
+    },
+    {
+      "id": "q4",
+      "question": "Calcule : 11 x 11",
+      "type": "QCM",
+      "options": ["111", "121", "131", "110"],
+      "bonne_reponse": "121",
+      "explication": "11 x 10 = 110. 110 + 11 = 121."
+    },
+    {
+      "id": "q5",
+      "question": "Vrai ou Faux : Le produit de deux nombres ne change pas si on inverse l'ordre des facteurs.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "La multiplication est commutative : a x b = b x a."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH2_P1_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Passé Simple (I)",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la terminaison de la 3ème personne du singulier (Il/Elle) au passé simple pour un verbe en -ER ?",
+      "type": "courte",
+      "reponsesAttendues": ["-a", "a"],
+      "explication": "Exemple : Il chanta."
+    },
+    {
+      "id": "q2",
+      "question": "Conjugue 'donner' à la 1ère personne du singulier au passé simple ________.",
+      "type": "courte",
+      "reponsesAttendues": ["donnai"],
+      "explication": "Les terminaisons sont : -ai, -as, -a, -âmes, -âtes, -èrent."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les pronoms aux terminaisons du passé simple (-ER).",
+      "type": "relier",
+      "pairs": [
+        { "left": "Tu", "right": "-as" },
+        { "left": "Nous", "right": "-âmes" },
+        { "left": "Ils", "right": "-èrent" }
+      ],
+      "explication": "L'accent circonflexe est obligatoire pour Nous level Vous."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Hier, ils {{1}} (marcher) toute la journée.",
+      "type": "trous",
+      "reponsesAttendues": ["marchèrent", "marcherent"],
+      "explication": "3ème personne du pluriel, verbe du 1er groupe."
+    },
+    {
+      "id": "q5",
+      "question": "Vrai ou Faux : 'Nous chantâmes' est du passé simple.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est la 1ère personne du pluriel, avec l'accent circonflexe sur le 'a'."
+    }
+  ]
+}

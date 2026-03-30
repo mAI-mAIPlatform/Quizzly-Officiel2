@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ANG_CH3_P3_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Anglais",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Equipments",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How do you say 'une raquette' on English?",
+      "type": "courte",
+      "reponsesAttendues": ["a racket", "a racquet"],
+      "explication": "A racket (Une raquette)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Goggles' sont des lunettes de natation.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Goggles (Lunettes de protection / natation)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les sports à l'équipement nécessaire.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Swimming", "right": "Swimsuit" },
+        { "left": "Football", "right": "Ball level boots" },
+        { "left": "Cycling", "right": "Helmet" }
+      ],
+      "explication": "Chaque sport a son équipement spécifique."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : To play tennis, you need a {{1}} (une balle).",
+      "type": "trous",
+      "reponsesAttendues": ["ball"],
+      "explication": "A ball (Une balle)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'des baskets' (chaussures de sport) on anglais ?",
+      "type": "courte",
+      "reponsesAttendues": ["trainers", "sneakers"],
+      "explication": "Trainers (UK) / Sneakers (US)."
+    }
+  ]
+}

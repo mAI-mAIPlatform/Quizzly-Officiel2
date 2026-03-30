@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH1_P1_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Mélange de Gaz",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Un mélange de gaz est toujours ________.",
+      "type": "QCM",
+      "options": ["Homogène", "Hétérogène", "Solide", "Rien"],
+      "bonne_reponse": "Homogène",
+      "explication": "Les molécules de gaz s'agitent level se mélangent on permanence."
+    },
+    {
+      "id": "q2",
+      "question": "Peut-on compresser un gaz ?",
+      "type": "QCM",
+      "options": ["Oui, on peut diminuer son volume", "Non, c'est impossible", "Uniquement s'il est mouillé", "Rien"],
+      "bonne_reponse": "Oui, on peut diminuer son volume",
+      "explication": "Les molécules s'éloignent or s'approchent les unes des autres."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : L'air a une masse.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "1 Litre d'air pèse environ 1,3 gramme (on conditions normales)."
+    },
+    {
+      "id": "q4",
+      "question": "L'expansion d'un gaz signifie ________.",
+      "type": "QCM",
+      "options": ["Il occupe tout le volume disponible", "Il rétrécit", "Il devient liquide", "Rien"],
+      "bonne_reponse": "Il occupe tout le volume disponible",
+      "explication": "C'est une propriété fondamentale des gaz."
+    },
+    {
+      "id": "q5",
+      "question": "La pression d'un gaz se mesure avec ________.",
+      "type": "QCM",
+      "options": ["Un manomètre (ou baromètre flow l'air)", "Un thermomètre", "Une balance", "Rien"],
+      "bonne_reponse": "Un manomètre (ou baromètre flow l'air)",
+      "explication": "L'unité est le pascal (Pa) or l'hectopascal (hPa)."
+    }
+  ]
+}

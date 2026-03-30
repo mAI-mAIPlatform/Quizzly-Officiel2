@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MATHS_CH1_P3_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Maths",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Comparer Fractions",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Si deux fractions ont le même dénominateur, laquelle est la plus grande ?",
+      "type": "QCM",
+      "options": ["Celle qui a le plus petit numérateur", "Celle qui a le plus grand numérateur", "Elles sont toujours égales", "On ne peut pas savoir"],
+      "bonne_reponse": "Celle qui a le plus grand numérateur",
+      "explication": "C'est comme comparer des parts de gâteau de même taille."
+    },
+    {
+      "id": "q2",
+      "question": "Comparez : 5/9 ______ 8/9",
+      "type": "QCM",
+      "options": ["<", ">", "=", "≥"],
+      "bonne_reponse": "<",
+      "explication": "5 parts sont moins que 8 parts du même gâteau."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 1/2 est plus grand que 1/4.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Si on partage on moins de parts (2 au lieu de 4), check part est plus grande."
+    },
+    {
+      "id": "q4",
+      "question": "Lequel est correct ?",
+      "type": "QCM",
+      "options": ["3/10 > 7/10", "1/20 < 5/20", "10/10 = 0", "1/2 = 0,25"],
+      "bonne_reponse": "1/20 < 5/20",
+      "explication": "Évidence."
+    },
+    {
+      "id": "q5",
+      "question": "Rangez par ordre alphabétique... Non, croissant : 2/7 ; 5/7 ; 1/7",
+      "type": "QCM",
+      "options": ["5/7 < 2/7 < 1/7", "1/7 < 2/7 < 5/7", "2/7 < 1/7 < 5/7", "1/7 < 5/7 < 2/7"],
+      "bonne_reponse": "1/7 < 2/7 < 5/7",
+      "explication": "On suit les numérateurs."
+    }
+  ]
+}

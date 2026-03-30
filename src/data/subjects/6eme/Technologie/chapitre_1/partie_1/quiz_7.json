@@ -1,0 +1,50 @@
+{
+  "id": "6eme_TEC_CH1_P1_QUIZ7",
+  "classe": "6eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Cycle de Vie",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la première étape du cycle de vie d'un objet ?",
+      "type": "QCM",
+      "options": ["Le recyclage", "La conception (idée/dessin)", "La vente", "L'utilisation"],
+      "bonne_reponse": "La conception (idée/dessin)",
+      "explication": "Tout commence par une idée pour répondre à un besoin."
+    },
+    {
+      "id": "q2",
+      "question": "Que signifie 'Fin de vie' pour un objet ?",
+      "type": "QCM",
+      "options": ["Il devient tout neuf", "Il ne fonctionne plus ou n'est plus utile", "Il change de couleur", "Il est vendu"],
+      "bonne_reponse": "Il ne fonctionne plus ou n'est plus utile",
+      "explication": "Il doit alors être jeté, réparé ou recyclé."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Le recyclage permet de recréer de la matière première.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "On fond le plastique pour refaire des objets."
+    },
+    {
+      "id": "q4",
+      "question": "Qu'est-ce que l'étape de 'Production' ?",
+      "type": "QCM",
+      "options": ["L'utilisation de l'objet", "La fabrication en usine", "Le transport par camion", "La publicité"],
+      "bonne_reponse": "La fabrication en usine",
+      "explication": "C'est le moment où l'objet est construit."
+    },
+    {
+      "id": "q5",
+      "question": "L'impact environnemental doit être étudié :",
+      "type": "QCM",
+      "options": ["Uniquement à la fin", "Uniquement au début", "Pendant toutes les étapes", "Jamais"],
+      "bonne_reponse": "Pendant toutes les étapes",
+      "explication": "De l'extraction des ressources jusqu'au recyclage."
+    }
+  ]
+}

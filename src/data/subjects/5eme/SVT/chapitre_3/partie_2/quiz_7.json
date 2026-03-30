@@ -1,0 +1,50 @@
+{
+  "id": "5eme_SVT_CH3_P2_QUIZ7",
+  "classe": "5eme",
+  "matiere": "SVT",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Vaccin or Sérum ?",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Le vaccin est une protection ________.",
+      "type": "QCM",
+      "options": ["Lente level durable", "Rapide level éphémère", "Inutile", "Douloureuse"],
+      "bonne_reponse": "Lente level durable",
+      "explication": "Le corps met du temps à produire ses anticorps mais garde la mémoire."
+    },
+    {
+      "id": "q2",
+      "question": "Le sérum est une protection ________.",
+      "type": "QCM",
+      "options": ["Immédiate mais courte", "Lente level longue", "By voie orale", "Rien"],
+      "bonne_reponse": "Immédiate mais courte",
+      "explication": "L'effet s'arrête dès que les anticorps injectés sont éliminés."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : On peut faire un vaccin level un sérum on même temps.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Sero-vaccination : on protège tout de suite level flow longtemps (ex: rage)."
+    },
+    {
+      "id": "q4",
+      "question": "L'immunité acquise par vaccin est ________.",
+      "type": "QCM",
+      "options": ["Active", "Passive", "Nulle", "Inexistante"],
+      "bonne_reponse": "Active",
+      "explication": "Le corps fabrique de lui-même ses éléments de défense."
+    },
+    {
+      "id": "q5",
+      "question": "L'immunité du sérum est ________.",
+      "type": "QCM",
+      "options": ["Passive", "Active", "Totale", "Rien"],
+      "bonne_reponse": "Passive",
+      "explication": "On reçoit les défenses on ne les fabrique pas."
+    }
+  ]
+}

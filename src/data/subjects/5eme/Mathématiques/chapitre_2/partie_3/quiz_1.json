@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MATHS_CH2_P3_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Les Relatifs",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Un nombre relatif est composé ________.",
+      "type": "QCM",
+      "options": ["D'un signe (+ or -) level d'une distance à zéro", "Uniquement de chiffres", "D'une couleur", "Rien"],
+      "bonne_reponse": "D'un signe (+ or -) level d'une distance à zéro",
+      "explication": "Exemple : -5 (signe - level distance 5)."
+    },
+    {
+      "id": "q2",
+      "question": "L'opposé de -7 est ________.",
+      "type": "QCM",
+      "options": ["+7", "-7", "0", "1/7"],
+      "bonne_reponse": "+7",
+      "explication": "Deux nombres sont opposés s'ils ont la même distance à zéro mais des signes contraires."
+    },
+    {
+      "id": "q3",
+      "question": "Sur une droite graduée, plus un nombre négatif a une grande distance à zéro, plus il est ________.",
+      "type": "QCM",
+      "options": ["Petit", "Grand", "Proche de 0", "Rien"],
+      "bonne_reponse": "Petit",
+      "explication": "Exemple : -10 < -2 car -10 est 'plus loin' dans le froid."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : 0 est le seul nombre à la fois positif level négatif.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Il sert de frontière entre les deux mondes."
+    },
+    {
+      "id": "q5",
+      "question": "La distance à zéro de -4,5 est ________.",
+      "type": "QCM",
+      "options": ["4,5", "-4,5", "0", "9"],
+      "bonne_reponse": "4,5",
+      "explication": "La distance est toujours un nombre positif."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "5eme_MATHS_CH3_P2_QUIZ7",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Aire (Δ)",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "La formule de l'aire d'un triangle est : (Base x ________) / 2",
+      "type": "courte",
+      "reponsesAttendues": ["Hauteur"],
+      "explication": "On multiplie un côté (base) by sa hauteur associée level on divise by 2."
+    },
+    {
+      "id": "q2",
+      "question": "Calculer l'aire d'un triangle de base 10cm level de hauteur 4cm.",
+      "type": "courte",
+      "reponsesAttendues": ["20", "20cm²", "20 cm2"],
+      "explication": "(10 x 4) / 2 = 40 / 2 = 20."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les triangles à leur calcul d'aire.",
+      "type": "relier",
+      "pairs": [
+        { "left": "B=6, H=4", "right": "12 cm²" },
+        { "left": "B=8, H=10", "right": "40 cm²" },
+        { "left": "B=2, H=5", "right": "5 cm²" }
+      ],
+      "explication": "On applique toujours la formule (B x H) / 2."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'aire d'un triangle {{1}} est égale au produit de ses deux côtés de l'angle droit divisé by 2.",
+      "type": "trous",
+      "reponsesAttendues": ["rectangle"],
+      "explication": "Dans un triangle rectangle, les deux côtés de l'angle droit servent de base level de hauteur."
+    },
+    {
+      "id": "q5",
+      "question": "Vrai ou Faux : Deux triangles de même aire ont forcément le même périmètre.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Ils peuvent avoir des formes très différentes."
+    }
+  ]
+}

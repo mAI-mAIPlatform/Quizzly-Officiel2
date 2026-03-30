@@ -1,0 +1,50 @@
+{
+  "id": "6eme_ESP_CH2_P3_QUIZ191",
+  "classe": "6eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Repaso de números (0-10)",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment dit-on 'zéro' ?",
+      "type": "QCM",
+      "options": ["Cero", "Uno", "Nada", "Zéro"],
+      "bonne_reponse": "Cero",
+      "explication": "Cero = 0."
+    },
+    {
+      "id": "q2",
+      "question": "Translate: 'Cuatro' ",
+      "type": "QCM",
+      "options": ["2", "4", "6", "8"],
+      "bonne_reponse": "4",
+      "explication": "Cuatro = 4."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 'Nueve' signifie 'neuf'.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Nueve = 9."
+    },
+    {
+      "id": "q4",
+      "question": "Sept se dit :",
+      "type": "QCM",
+      "options": ["Seis", "Siete", "Ocho", "Diez"],
+      "bonne_reponse": "Siete",
+      "explication": "Siete = 7."
+    },
+    {
+      "id": "q5",
+      "question": " 'Dos y dos son ___' :",
+      "type": "QCM",
+      "options": ["tres", "cuatro", "cinco", "seis"],
+      "bonne_reponse": "cuatro",
+      "explication": "2 + 2 = 4 (cuatro)."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH2_P3_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Récap CH2 P3",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "L'unité de la résistance électrique est ________.",
+      "type": "QCM",
+      "options": ["L'ohm (Ω)", "L'ampère (A)", "Le volt (V)", "Le watt (W)"],
+      "bonne_reponse": "L'ohm (Ω)",
+      "explication": "C'est l'unité de mesure de l'opposition au courant."
+    },
+    {
+      "id": "q2",
+      "question": "Un composant dont la résistance est grande laisse passer ________.",
+      "type": "QCM",
+      "options": ["Moins de courant (intensité faible)", "Plus de courant", "Autant de courant", "Rien"],
+      "bonne_reponse": "Moins de courant (intensité faible)",
+      "explication": "La résistance freine le courant."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Le code des couleurs permet de lire la valeur d'une résistance.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Chaque couleur correspond à un chiffre."
+    },
+    {
+      "id": "q4",
+      "question": "La loi d'Ohm s'écrit ________.",
+      "type": "QCM",
+      "options": ["U = R x I", "U = R / I", "I = U x R", "Rien"],
+      "bonne_reponse": "U = R x I",
+      "explication": "C'est la loi fondamentale de l'électricité."
+    },
+    {
+      "id": "q5",
+      "question": "Un conducteur ohmique est représenté by ________.",
+      "type": "QCM",
+      "options": ["Un rectangle", "Un cercle", "Un triangle", "Rien"],
+      "bonne_reponse": "Un rectangle",
+      "explication": "C'est le symbole normalisé de la résistance."
+    }
+  ]
+}

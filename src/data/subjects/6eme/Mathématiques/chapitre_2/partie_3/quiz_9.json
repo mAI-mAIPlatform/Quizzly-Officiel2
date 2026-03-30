@@ -1,0 +1,50 @@
+{
+  "id": "6eme_MATHS_CH2_P3_QUIZ59",
+  "classe": "6eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Ordre de Grandeur (Multiplication)",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Donne un ordre de grandeur de 4,9 x 6,1.",
+      "type": "QCM",
+      "options": ["24", "30", "36", "42"],
+      "bonne_reponse": "30",
+      "explication": "5 x 6 = 30 environ."
+    },
+    {
+      "id": "q2",
+      "question": "Quel résultat est absurde pour 12,8 x 10,2 ?",
+      "type": "QCM",
+      "options": ["130,56", "1305,6", "128", "135"],
+      "bonne_reponse": "1305,6",
+      "explication": "12,8 x 10 vaut environ 130. 1300 est beaucoup trop grand."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Multiplier un nombre par une valeur plus petite que 1 (ex: 0,5) rend le nombre plus petit.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est une particularité des nombres compris entre 0 et 1."
+    },
+    {
+      "id": "q4",
+      "question": "Estimation de 0,98 x 105 :",
+      "type": "QCM",
+      "options": ["10", "100", "1000", "10000"],
+      "bonne_reponse": "100",
+      "explication": "C'est presque 1 x 105 = 105."
+    },
+    {
+      "id": "q5",
+      "question": "Si j'ai 3,2 m de bois à 9,80 € le mètre, je vais payer environ :",
+      "type": "QCM",
+      "options": ["15 €", "30 €", "50 €", "10 €"],
+      "bonne_reponse": "30 €",
+      "explication": "3 x 10 = 30."
+    }
+  ]
+}

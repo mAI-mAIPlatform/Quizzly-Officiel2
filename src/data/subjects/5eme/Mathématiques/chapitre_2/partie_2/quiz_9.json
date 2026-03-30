@@ -1,0 +1,49 @@
+{
+  "id": "5eme_MATHS_CH2_P2_QUIZ9",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Fract. level Décim.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est l'écriture décimale de la fraction 1/2 ?",
+      "type": "courte",
+      "reponsesAttendues": ["0.5", "0,5"],
+      "explication": "1 divisé by 2 = 0,5."
+    },
+    {
+      "id": "q2",
+      "question": "Quelle fraction est égale à 0,25 ?",
+      "type": "courte",
+      "reponsesAttendues": ["1/4"],
+      "explication": "Zéro virgule vingt-cinq est un quart."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les fractions à leur écriture décimale exacte.",
+      "type": "relier",
+      "pairs": [
+        { "left": "1/5", "right": "0,2" },
+        { "left": "1/10", "right": "0,1" },
+        { "left": "3/4", "right": "0,75" }
+      ],
+      "explication": "Certaines fractions ont une écriture décimale simple."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : 1/3 peut s'écrire sous forme d'un nombre décimal exact (fini).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "1/3 = 0,333... la division ne s'arrête jamais."
+    },
+    {
+      "id": "q5",
+      "question": "Complète : Pour transformer une fraction on nombre décimal, on effectue la {{1}} du numérateur by le dénominateur.",
+      "type": "trous",
+      "reponsesAttendues": ["division"],
+      "explication": "La barre de fraction signifie division (a/b = a : b)."
+    }
+  ]
+}

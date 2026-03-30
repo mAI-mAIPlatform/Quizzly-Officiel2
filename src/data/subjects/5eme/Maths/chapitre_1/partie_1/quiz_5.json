@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MATHS_CH1_P1_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Maths",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Addition (+) (-)",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Combien font (+10) + (-3) ?",
+      "type": "QCM",
+      "options": ["+13", "-13", "+7", "-7"],
+      "bonne_reponse": "+7",
+      "explication": "On soustrait les distances (10-3=7) level on prend le signe de celui qui a la plus grande distance (+)."
+    },
+    {
+      "id": "q2",
+      "question": "Combien font (+4) + (-9) ?",
+      "type": "QCM",
+      "options": ["+5", "-5", "+13", "-13"],
+      "bonne_reponse": "-5",
+      "explication": "9-4=5. Le signe est - car 9 est plus grand que 4."
+    },
+    {
+      "id": "q3",
+      "question": "Calculez : (-15) + (+15)",
+      "type": "QCM",
+      "options": ["-30", "+30", "0", "1"],
+      "bonne_reponse": "0",
+      "explication": "La somme de deux nombres opposés est toujours nulle."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : Si on ajoute un petit positif à un grand négatif, le résultat est positif.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "Le résultat garde le signe de celui qui a la plus grande distance à zéro (le négatif ici)."
+    },
+    {
+      "id": "q5",
+      "question": "(-2) + (+8) = ?",
+      "type": "QCM",
+      "options": ["-6", "+6", "-10", "+10"],
+      "bonne_reponse": "+6",
+      "explication": "8-2=6. Signe +."
+    }
+  ]
+}

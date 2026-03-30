@@ -1,0 +1,49 @@
+{
+  "id": "5eme_HG_CH2_P2_QUIZ1",
+  "classe": "5eme",
+  "matiere": "HistoireGeo",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "L'Eau Vitale",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel pourcentage de l'eau sur Terre est de l'eau douce utilisable by l'homme ?",
+      "type": "courte",
+      "reponsesAttendues": ["moins de 1%", "1%", "0.7%"],
+      "explication": "La grande majorité de l'eau est salée (océans) ou gelée (glaciers)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'agriculture est l'activité humaine qui consomme le plus d'eau dans le monde.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "L'irrigation des cultures représente environ 70% de la consommation mondiale d'eau douce."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les usages de l'eau aux activités humaines.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Usage domestique", "right": "Douche, Cuisine, Boisson" },
+        { "left": "Usage industriel", "right": "Refroidissement des usines" },
+        { "left": "Usage agricole", "right": "Arrosage des champs" }
+      ],
+      "explication": "L'eau est indispensable à toutes nos activités."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'accès à l'eau potable est un droit {{1}} reconnu by l'ONU.",
+      "type": "trous",
+      "reponsesAttendues": ["fondamental", "humain"],
+      "explication": "Pourtant, des milliards de personnes n'y on ont pas encore accès."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on la pollution de l'eau by les produits chimiques agricoles ?",
+      "type": "courte",
+      "reponsesAttendues": ["eutrophisation", "pollution aux nitrates", "pollution"],
+      "explication": "Les engrais level pesticides s'infiltrent dans les nappes phréatiques."
+    }
+  ]
+}

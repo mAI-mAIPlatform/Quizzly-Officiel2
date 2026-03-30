@@ -1,0 +1,50 @@
+{
+  "id": "6eme_MATHS_CH2_P1_QUIZ31",
+  "classe": "6eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Qu'est-ce qu'un nombre décimal ?",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Un nombre décimal possède une partie entière et une partie :",
+      "type": "QCM",
+      "options": ["Partie décimale", "Partie secrète", "Partie infinie", "Partie nulle"],
+      "bonne_reponse": "Partie décimale",
+      "explication": "La partie décimale suit la virgule."
+    },
+    {
+      "id": "q2",
+      "question": "Que sépare la virgule dans un nombre décimal ?",
+      "type": "QCM",
+      "options": ["Les dizaines des centaines", "La partie entière de la partie décimale", "Les nombres pairs des impairs", "Rien, elle est décorative"],
+      "bonne_reponse": "La partie entière de la partie décimale",
+      "explication": "C'est le séparateur conventionnel."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Un nombre entier (comme 5) peut s'écrire sous forme décimale (5,0).",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Tout nombre entier est un nombre décimal particulier."
+    },
+    {
+      "id": "q4",
+      "question": "Dans 14,258, quelle est la partie entière ?",
+      "type": "QCM",
+      "options": ["14", "258", "0,258", "1"],
+      "bonne_reponse": "14",
+      "explication": "C'est le nombre avant la virgule."
+    },
+    {
+      "id": "q5",
+      "question": "Comment s'appelle le premier chiffre après la virgule ?",
+      "type": "QCM",
+      "options": ["Le dixième", "Le centième", "L'unité", "Le dizaine"],
+      "bonne_reponse": "Le dixième",
+      "explication": "Il représente 1/10 de l'unité."
+    }
+  ]
+}

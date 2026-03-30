@@ -1,0 +1,50 @@
+{
+  "id": "6eme_MAT_CH3_P2_QUIZ469",
+  "classe": "6eme",
+  "matiere": "Mathematiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Cas Particuliers",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Que se passe-t-il si la figure traverse l'axe ?",
+      "type": "QCM",
+      "options": ["Elle disparaît", "Chaque partie est projetée de l'autre côté de l'axe", "Elle s'arrête on l'axe", "Elle explose"],
+      "bonne_reponse": "Chaque partie est projetée de l'autre côté de l'axe",
+      "explication": "La figure finale 'enjambe' l'axe de symétrie."
+    },
+    {
+      "id": "q2",
+      "question": "Le symétrique d'un polygone est :",
+      "type": "QCM",
+      "options": ["Un polygone with le même nombre de sommets", "Un cercle", "Un point", "Toujours un triangle"],
+      "bonne_reponse": "Un polygone with le même nombre de sommets",
+      "explication": "La nature de la figure ne change pas."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Deux segments parallèles ont des symétriques parallèles.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "La symétrie conserve le parallélisme."
+    },
+    {
+      "id": "q4",
+      "question": "Si l'axe (d) est perpendiculaire à un segment [AB], alors son symétrique [A'B'] est :",
+      "type": "QCM",
+      "options": ["Sur la même droite que [AB]", "Parallèle à [AB]", "Derrière [AB]", "Nul"],
+      "bonne_reponse": "Sur la même droite que [AB]",
+      "explication": "Les points sont simplement inversés on la droite."
+    },
+    {
+      "id": "q5",
+      "question": "Une figure level son symétrique ont des aires :",
+      "type": "QCM",
+      "options": ["Égales", "Différentes", "Incomparables", "Négatives"],
+      "bonne_reponse": "Égales",
+      "explication": "Conservation complète de la surface occupée."
+    }
+  ]
+}

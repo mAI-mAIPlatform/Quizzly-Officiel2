@@ -1,0 +1,50 @@
+{
+  "id": "6eme_TEC_CH1_P2_QUIZ13",
+  "classe": "6eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Schémas et Dessins",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "À quoi sert un schéma technique ?",
+      "type": "QCM",
+      "options": ["À faire un beau dessin réaliste", "À expliquer le fonctionnement de façon simplifiée", "À décorer le bureau", "À remplacer l'objet"],
+      "bonne_reponse": "À expliquer le fonctionnement de façon simplifiée",
+      "explication": "On utilise des symboles et des traits simples."
+    },
+    {
+      "id": "q2",
+      "question": "Qu'est-ce qu'un dessin en 'perspective' ?",
+      "type": "QCM",
+      "options": ["Un dessin à plat (2D)", "Un dessin qui donne l'illusion du volume (3D)", "Un dessin avec des couleurs uniquement", "Un dessin invisible"],
+      "bonne_reponse": "Un dessin qui donne l'illusion du volume (3D)",
+      "explication": "Il permet de mieux visualiser l'objet réel."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Les flèches sur un schéma indiquent souvent des mouvements ou des forces.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Action de pousser, tirer, tourner..."
+    },
+    {
+      "id": "q4",
+      "question": "Comment appelle-t-on le dessin qui montre l'intérieur d'un objet coupé ?",
+      "type": "QCM",
+      "options": ["Une vue éclatée", "Une coupe", "Un portrait", "Un croquis"],
+      "bonne_reponse": "Une coupe",
+      "explication": "On 'coupe' l'objet pour voir les détails internes."
+    },
+    {
+      "id": "q5",
+      "question": "Une 'vue éclatée' sert à :",
+      "type": "QCM",
+      "options": ["Montrer l'objet après une explosion", "Montrer comment les pièces s'assemblent entre elles", "Montrer uniquement la boîte", "Mesurer le poids"],
+      "bonne_reponse": "Montrer comment les pièces s'assemblent entre elles",
+      "explication": "Utile pour le montage et la réparation."
+    }
+  ]
+}

@@ -47,13 +47,6 @@ export default function SocialPage() {
   const [nicknameDrafts, setNicknameDrafts] = useState<Record<string, string>>({});
   const chatEndRef = useRef<HTMLDivElement>(null);
 
-  const resolvedChatId = activeTab === "messages" ? selectedChat ?? conversationEntries[0]?.conversation.id ?? null : null;
-  const activeChatId = resolvedChatId;
-
-  const effectsVolume = progress.settings.audio.effectsEnabled ? progress.settings.audio.effectsVolume : 0;
-  const reduceMotion = progress.settings.accessibility.reducedMotion;
-  const friendRequestsEnabled = progress.settings.social.friendRequestsEnabled;
-
   const conversationEntries = useMemo(() => {
     return Object.values(progress.conversations)
       .map((conversation) => {
@@ -81,6 +74,13 @@ export default function SocialPage() {
         return rightTime - leftTime;
       });
   }, [progress.conversations, progress.friends, progress.tribes, progress.messages]);
+
+  const resolvedChatId = activeTab === "messages" ? selectedChat ?? conversationEntries[0]?.conversation.id ?? null : null;
+  const activeChatId = resolvedChatId;
+
+  const effectsVolume = progress.settings.audio.effectsEnabled ? progress.settings.audio.effectsVolume : 0;
+  const reduceMotion = progress.settings.accessibility.reducedMotion;
+  const friendRequestsEnabled = progress.settings.social.friendRequestsEnabled;
 
   const currentConversation = resolvedChatId ? progress.conversations[resolvedChatId] ?? null : null;
   const currentMessages = resolvedChatId ? progress.messages[resolvedChatId] || [] : [];

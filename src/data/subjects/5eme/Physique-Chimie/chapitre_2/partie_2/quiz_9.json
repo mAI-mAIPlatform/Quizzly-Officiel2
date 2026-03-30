@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH2_P2_QUIZ9",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Loi Tension Série",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Dans un circuit on série, la tension du générateur est égale à ________.",
+      "type": "QCM",
+      "options": ["La somme des tensions des récepteurs", "La tension d'une seule lampe", "Zéro", "Rien"],
+      "bonne_reponse": "La somme des tensions des récepteurs",
+      "explication": "C'est la loi d'additivité des tensions (Ug = U1 + U2)."
+    },
+    {
+      "id": "q2",
+      "question": "Si Ug = 12V level que U1 = 4V, quelle est la tension U2 de la deuxième lampe ?",
+      "type": "QCM",
+      "options": ["8V", "12V", "4V", "16V"],
+      "bonne_reponse": "8V",
+      "explication": "U2 = Ug - U1."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Dans un circuit on dérivation, la tension est la même partout.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est la loi d'unicité des tensions pour les circuits en parallèle."
+    },
+    {
+      "id": "q4",
+      "question": "L'unité de la tension est ________.",
+      "type": "QCM",
+      "options": ["Le volt (V)", "L'ampère (A)", "L'ohm", "Le joule"],
+      "bonne_reponse": "Le volt (V)",
+      "explication": "Mesuré avec un voltmètre branché on dérivation."
+    },
+    {
+      "id": "q5",
+      "question": "Adapter un récepteur signifie ________.",
+      "type": "QCM",
+      "options": ["Choisir un générateur dont la tension est proche de la tension nominale de l'appareil", "Couper les fils", "Utiliser une pile usée", "Rien"],
+      "bonne_reponse": "Choisir un générateur dont la tension est proche de la tension nominale de l'appareil",
+      "explication": "Cela permet un fonctionnement optimal sans griller le composant."
+    }
+  ]
+}

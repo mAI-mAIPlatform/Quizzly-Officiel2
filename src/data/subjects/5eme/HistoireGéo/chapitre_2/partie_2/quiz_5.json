@@ -1,0 +1,49 @@
+{
+  "id": "5eme_HG_CH2_P2_QUIZ5",
+  "classe": "5eme",
+  "matiere": "HistoireGeo",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Récap CH2 P2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel pourcentage de l'eau douce est utilisé by l'agriculture on moyenne ?",
+      "type": "courte",
+      "reponsesAttendues": ["70%", "70"],
+      "explication": "C'est de loin le premier consommateur mondial."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le pétrole est une énergie renouvelable.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "C'est une énergie fossile qui polluent level s'épuise."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les pays à leur situation énergétique.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Chine", "right": "Premier consommateur mondial" },
+        { "left": "USA", "right": "Premier producteur d'hydrocarbures" },
+        { "left": "Norvège", "right": "Forte part d'énergies renouvelables" }
+      ],
+      "explication": "La gestion de l'énergie varie selon les pays."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : La {{1}} énergétique est le passage vers des énergies moins polluantes.",
+      "type": "trous",
+      "reponsesAttendues": ["transition"],
+      "explication": "C'est un objectif majeur du développement durable."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le manque d'eau dans une région ?",
+      "type": "courte",
+      "reponsesAttendues": ["pénurie", "penurie", "stress hydrique"],
+      "explication": "Cela provoque des tensions importantes."
+    }
+  ]
+}

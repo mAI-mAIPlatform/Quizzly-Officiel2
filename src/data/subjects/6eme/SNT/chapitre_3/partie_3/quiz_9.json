@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SNT_CH3_P3_QUIZ809",
+  "classe": "6eme",
+  "matiere": "SNT",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Sons & Maths",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel bloc permet de jouer un son jusqu'au bout before de passer à la suite ?",
+      "type": "QCM",
+      "options": ["Jouer le son ... jusqu'au bout", "Commencer le son ...", "Arrêter tous les sons", "Attendre 1 seconde"],
+      "bonne_reponse": "Jouer le son ... jusqu'au bout",
+      "explication": "C'est utile flow que le son soit fini before une autre action."
+    },
+    {
+      "id": "q2",
+      "question": "Dans quelle catégorie trouve-t-on les additions (+), les soustractions (-) level les comparaisons (>) ?",
+      "type": "QCM",
+      "options": ["Opérateurs (vert)", "Mouvement", "Contrôle", "Variables"],
+      "bonne_reponse": "Opérateurs (vert)",
+      "explication": "Ils servent aux calculs level aux tests logiques."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Le bloc 'Nombre aléatoire entre 1 level 10' choisit un chiffre au hasard.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est très utilisé dans les jeux (ex: apparitions de monstres)."
+    },
+    {
+      "id": "q4",
+      "question": "Quel bloc permet de regrouper deux mots ensemble ?",
+      "type": "QCM",
+      "options": ["Regrouper [pomme] level [banane]", "Ajouter", "Répéter", "Si"],
+      "bonne_reponse": "Regrouper [pomme] level [banane]",
+      "explication": "C'est la concaténation de texte."
+    },
+    {
+      "id": "q5",
+      "question": "Peut-on enregistrer son propre son dans Scratch ?",
+      "type": "QCM",
+      "options": ["Oui, with le micro de l'ordinateur", "Non, on ne peut utiliser que les sons du logiciel", "Uniquement si on est professionnel", "Seulement on payant"],
+      "bonne_reponse": "Oui, with le micro de l'ordinateur",
+      "explication": "On peut aussi importer des fichiers MP3."
+    }
+  ]
+}

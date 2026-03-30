@@ -1,0 +1,50 @@
+{
+  "id": "6eme_MATHS_CH2_P2_QUIZ48",
+  "classe": "6eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Estimation de Sommes",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Donne un ordre de grandeur de (12,1 + 7,9).",
+      "type": "QCM",
+      "options": ["15", "20", "25", "100"],
+      "bonne_reponse": "20",
+      "explication": "12 + 8 = 20 environ."
+    },
+    {
+      "id": "q2",
+      "question": "Quel est l'ordre de grandeur de (50,4 - 9,8) ?",
+      "type": "QCM",
+      "options": ["30", "40", "50", "60"],
+      "bonne_reponse": "40",
+      "explication": "50 - 10 = 40."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : L'ordre de grandeur est utile avant de poser le calcul pour éviter les grosses erreurs.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Si mon calcul donne 150 au lieu de 15, l'ordre de grandeur m'alertera."
+    },
+    {
+      "id": "q4",
+      "question": "Ordre de grandeur de 4,95 + 4,95 + 4,95 ?",
+      "type": "QCM",
+      "options": ["12", "15", "10", "20"],
+      "bonne_reponse": "15",
+      "explication": "5 + 5 + 5 = 15 environ."
+    },
+    {
+      "id": "q5",
+      "question": "Résultat possible pour 128,4 + 0,15 ?",
+      "type": "QCM",
+      "options": ["128,55", "143,4", "12,99", "278,4"],
+      "bonne_reponse": "128,55",
+      "explication": "Le nombre doit rester proche de 128."
+    }
+  ]
+}

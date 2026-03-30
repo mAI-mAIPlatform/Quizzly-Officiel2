@@ -1,0 +1,50 @@
+{
+  "id": "5eme_FRANCAIS_CH1_P1_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Francais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Attribut Sujet",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "L'attribut du sujet est relié au sujet by ________.",
+      "type": "QCM",
+      "options": ["Une préposition", "Un verbe d'état (être, sembler...)", "Une virgule", "Un pronom"],
+      "bonne_reponse": "Un verbe d'état (être, sembler...)",
+      "explication": "Exemple: 'Il est grand'."
+    },
+    {
+      "id": "q2",
+      "question": "Lequel est un verbe d'état ?",
+      "type": "QCM",
+      "options": ["Manger", "Dormir", "Paraître", "Chercher"],
+      "bonne_reponse": "Paraître",
+      "explication": "Les verbes d'état (être, paraître, sembler, devenir, rester, avoir l'air) introduisent un attribut."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : L'attribut du sujet peut être un nom.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Exemple: 'Molière est un écrivain'."
+    },
+    {
+      "id": "q4",
+      "question": "Dans 'Lucie semble fatiguée', quelle est la fonction de 'fatiguée' ?",
+      "type": "QCM",
+      "options": ["Épithète", "Attribut du sujet Lucie", "Complément du nom", "Sujet"],
+      "bonne_reponse": "Attribut du sujet Lucie",
+      "explication": "Le mot est séparé du sujet by le verbe 'semble'."
+    },
+    {
+      "id": "q5",
+      "question": "L'attribut du sujet s'accorde-t-il with le sujet ?",
+      "type": "QCM",
+      "options": ["Oui", "Non", "Seulement au pluriel", "Seulement au féminin"],
+      "bonne_reponse": "Oui",
+      "explication": "Il exprime une caractéristique du sujet."
+    }
+  ]
+}

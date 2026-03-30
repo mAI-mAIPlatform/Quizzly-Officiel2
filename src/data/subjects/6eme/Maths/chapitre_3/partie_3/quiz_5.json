@@ -1,0 +1,50 @@
+{
+  "id": "6eme_MAT_CH3_P3_QUIZ475",
+  "classe": "6eme",
+  "matiere": "Mathematiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Calculer le Temps",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Un film commence à 20h45 level dure 1h30. À quelle heure finit-il ?",
+      "type": "QCM",
+      "options": ["21h15", "22h15", "22h45", "21h45"],
+      "bonne_reponse": "22h15",
+      "explication": "20h45 + 1h = 21h45. 21h45 + 30 min = 22h15."
+    },
+    {
+      "id": "q2",
+      "question": "Combien de secondes y a-t-il dans 2 minutes level 15 secondes ?",
+      "type": "QCM",
+      "options": ["135 s", "115 s", "75 s", "215 s"],
+      "bonne_reponse": "135 s",
+      "explication": "(2 x 60) + 15 = 120 + 15 = 135 s."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 1,5 heure est égal à 1 heure level 50 minutes.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "1,5 h = 1h + 0,5 h = 1h30."
+    },
+    {
+      "id": "q4",
+      "question": "Un train part à 8h10 level arrive à 10h05. Quelle était la durée du trajet ?",
+      "type": "QCM",
+      "options": ["1h55", "2h05", "1h05", "2h55"],
+      "bonne_reponse": "1h55",
+      "explication": "De 8h10 à 9h10 = 1h. De 9h10 à 10h05 = 55 min."
+    },
+    {
+      "id": "q5",
+      "question": "Une semaine entière contient :",
+      "type": "QCM",
+      "options": ["144 heures", "168 heures", "150 heures", "200 heures"],
+      "bonne_reponse": "168 heures",
+      "explication": "7 jours x 24 heures = 168 h."
+    }
+  ]
+}

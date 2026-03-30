@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MATHS_CH2_P1_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Parenthèses (())",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Dans un calcul avec parenthèses, quelle est la règle de priorité absolue ?",
+      "type": "QCM",
+      "options": ["On calcule d'abord ce qui est entre parenthèses", "On ignore les parenthèses", "On commence by la fin", "Rien"],
+      "bonne_reponse": "On calcule d'abord ce qui est entre parenthèses",
+      "explication": "Les parenthèses servent à briser l'ordre habituel des opérations."
+    },
+    {
+      "id": "q2",
+      "question": "Calcule : (5 + 3) x 2",
+      "type": "QCM",
+      "options": ["16", "11", "10", "13"],
+      "bonne_reponse": "16",
+      "explication": "On fait d'abord (5 + 3) = 8, puis 8 x 2 = 16."
+    },
+    {
+      "id": "q3",
+      "question": "Calcule : 20 - (5 + 5)",
+      "type": "QCM",
+      "options": ["10", "20", "0", "15"],
+      "bonne_reponse": "10",
+      "explication": "On fait d'abord (5 + 5) = 10, puis 20 - 10 = 10."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : 2 x (10 - 2) = 16",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "2 x 8 = 16."
+    },
+    {
+      "id": "q5",
+      "question": "S'il y a des parenthèses imbriquées (les unes dans les autres) ________.",
+      "type": "QCM",
+      "options": ["On commence by les plus intérieures", "On commence by les bords", "On tire au sort", "Rien"],
+      "bonne_reponse": "On commence by les plus intérieures",
+      "explication": "On remonte vers l'extérieur au fur level à mesure."
+    }
+  ]
+}

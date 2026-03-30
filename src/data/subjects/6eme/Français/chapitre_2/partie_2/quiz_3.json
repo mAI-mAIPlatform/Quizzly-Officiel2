@@ -1,0 +1,50 @@
+{
+  "id": "6eme_FRA_CH2_P2_QUIZ73",
+  "classe": "6eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Passé Simple (1er groupe)",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelles sont les terminaisons du passé simple pour le 1er groupe (ex: parler) ?",
+      "type": "QCM",
+      "options": ["-ai, -as, -a, -âmes, -âtes, -èrent", "-ais, -as, -a, -ons, -ez, -ent", "-is, -is, -it, -îmes, -îtes, -irent", "-us, -us, -ut, -ûmes, -ûtes, -urent"],
+      "bonne_reponse": "-ai, -as, -a, -âmes, -âtes, -èrent",
+      "explication": "C'est la série en 'A' du passé simple."
+    },
+    {
+      "id": "q2",
+      "question": "Attention ! À la 1ère personne du singulier (Je chantai), il n'y a pas de :",
+      "type": "QCM",
+      "options": ["Accent", " 's' final", "Voyelle", "Consonne"],
+      "bonne_reponse": " 's' final",
+      "explication": "Contrairement à l'imparfait (Je chantais), le passé simple en -ai n'a pas de 's'."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 'Ils s'arrêtèrent' est au passé simple.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Terminaison -èrent typique du 3ème pluriel du 1er groupe."
+    },
+    {
+      "id": "q4",
+      "question": "Conjugue 'Il (marcher)' au passé simple.",
+      "type": "QCM",
+      "options": ["Il marcha", "Il marchait", "Il marchaia", "Il marchat"],
+      "bonne_reponse": "Il marcha",
+      "explication": "Pas de 't' final pour le 1er groupe (contrairement à il finit ou il but)."
+    },
+    {
+      "id": "q5",
+      "question": "Conjugue 'Vous (parler)' au passé simple.",
+      "type": "QCM",
+      "options": ["Vous parlâtes", "Vous parliez", "Vous parlat", "Vous parlassiez"],
+      "bonne_reponse": "Vous parlâtes",
+      "explication": "L'accent circonflexe sur le 'a' est obligatoire."
+    }
+  ]
+}

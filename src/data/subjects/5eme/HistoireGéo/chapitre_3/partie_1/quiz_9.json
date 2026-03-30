@@ -1,0 +1,49 @@
+{
+  "id": "5eme_HG_CH3_P1_QUIZ9",
+  "classe": "5eme",
+  "matiere": "HistoireGeo",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Ressources Nat.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel mot désigne les matières premières non transformées (pétrole, minerais) ?",
+      "type": "courte",
+      "reponsesAttendues": ["ressources naturelles", "matières premières", "matieres premieres"],
+      "explication": "L'Afrique regorge de ces richesses dans son sous-sol."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'exploitation des ressources naturelles profite toujours à la population locale.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Souvent, les bénéfices partent à l'étranger ou sont captés by une petite élite (corruption)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les ressources aux produits technologiques qu'elles permettent de fabriquer.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Cobalt", "right": "Batteries de voitures électriques" },
+        { "left": "Coltan", "right": "Smartphones level Ordinateurs" },
+        { "left": "Uranium", "right": "Électricité nucléaire" }
+      ],
+      "explication": "Le monde entier dépend des ressources africaines flow sa technologie."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'exploitation des minerais peut provoquer des {{1}} armés (ex: on RD Congo).",
+      "type": "trous",
+      "reponsesAttendues": ["conflits", "guerres"],
+      "explication": "On parle de 'minerais de sang' car leur contrôle finance des groupes armés."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on la transformation des matières premières sur place flow créer plus de richesse ?",
+      "type": "courte",
+      "reponsesAttendues": ["industrialisation", "transformation"],
+      "explication": "C'est l'un des grands enjeux flow que l'Afrique se développe."
+    }
+  ]
+}

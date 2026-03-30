@@ -1,0 +1,50 @@
+{
+  "id": "6eme_MATHS_CH2_P1_QUIZ32",
+  "classe": "6eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Dixièmes et Centièmes",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Combien faut-il de dixièmes pour faire une unité entière ?",
+      "type": "QCM",
+      "options": ["1", "10", "100", "0,1"],
+      "bonne_reponse": "10",
+      "explication": "10 x 0,1 = 1."
+    },
+    {
+      "id": "q2",
+      "question": "Dans le nombre 3,47, quel est le chiffre des centièmes ?",
+      "type": "QCM",
+      "options": ["3", "4", "7", "2"],
+      "bonne_reponse": "7",
+      "explication": "C'est le deuxième chiffre après la virgule."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Un centième est 10 fois plus petit qu'un dixième.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "0,01 est le dixième de 0,1."
+    },
+    {
+      "id": "q4",
+      "question": "Que représentent 5 dixièmes sous forme de fraction ?",
+      "type": "QCM",
+      "options": ["5/10", "5/100", "1/5", "10/5"],
+      "bonne_reponse": "5/10",
+      "explication": "C'est la définition du dixième."
+    },
+    {
+      "id": "q5",
+      "question": "0,7 est-il égal à 0,70 ?",
+      "type": "QCM",
+      "options": ["Oui", "Non", "Seulement le dimanche", "Cela dépend du pays"],
+      "bonne_reponse": "Oui",
+      "explication": "Les zéros à droite de la partie décimale ne changent pas la valeur."
+    }
+  ]
+}

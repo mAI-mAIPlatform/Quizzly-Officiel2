@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ANG_CH2_P3_QUIZ7",
+  "classe": "5eme",
+  "matiere": "Anglais",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Sightseeing",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment dit-on 'un monument' en anglais ?",
+      "type": "courte",
+      "reponsesAttendues": ["a monument", "a landmark"],
+      "explication": "Landmark (Repère / Monument célèbre)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'A statue' est une statue.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Comme on français."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les lieux touristiques célèbres de Londres à leur type.",
+      "type": "relier",
+      "pairs": [
+        { "left": "The London Eye", "right": "Big wheel" },
+        { "left": "Tower Bridge", "right": "Bridge" },
+        { "left": "Big Ben", "right": "Clock tower" }
+      ],
+      "explication": "Voici quelques icônes de la capitale britannique."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Let's visit the {{1}} (musée).",
+      "type": "trous",
+      "reponsesAttendues": ["museum"],
+      "explication": "Museum (Musée)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'un palais' on anglais ?",
+      "type": "courte",
+      "reponsesAttendues": ["a palace"],
+      "explication": "Buckingham Palace is the Queen's home (officially)."
+    }
+  ]
+}

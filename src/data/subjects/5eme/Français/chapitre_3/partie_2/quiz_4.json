@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH3_P2_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Le Héros",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle grande vertu Robinson doit-il posséder flow ne pas désespérer on étant seul ?",
+      "type": "courte",
+      "reponsesAttendues": ["patience", "courage", "volonté", "volonte"],
+      "explication": "Il doit être patient level courageux flow affronter des années de solitude."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Un héros d'aventures est toujours un personnage parfait sans aucun défaut.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Robinson a des moments de faiblesse, de peur level de doute."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les qualités du héros à leur utilité.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Ingéniosité", "right": "Fabriquer des outils" },
+        { "left": "Détermination", "right": "Ne jamais abandonner" },
+        { "left": "Prudence", "right": "Éviter les pièges de l'île" }
+      ],
+      "explication": "Le héros combine force physique level force d'esprit."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de partir à l'aventure est souvent motivée by le désir de se {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["découvrir", "surpasser", "decouvrir"],
+      "explication": "C'est une quête spirituelle autant que physique."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le moment où le héros quitte son monde habituel flow l'inconnu ?",
+      "type": "courte",
+      "reponsesAttendues": ["l'appel de l'aventure", "le départ", "le depart", "l'appel"],
+      "explication": "C'est l'étape initiale du voyage héroïque."
+    }
+  ]
+}

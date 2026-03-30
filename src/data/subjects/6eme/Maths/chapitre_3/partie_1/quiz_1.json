@@ -1,0 +1,50 @@
+{
+  "id": "6eme_MAT_CH3_P1_QUIZ451",
+  "classe": "6eme",
+  "matiere": "Mathematiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Multiplier by 10, 100...",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Combien font 42 x 10 ?",
+      "type": "QCM",
+      "options": ["420", "402", "4200", "4,2"],
+      "bonne_reponse": "420",
+      "explication": "On ajoute un zéro à droite du nombre entier."
+    },
+    {
+      "id": "q2",
+      "question": "Calcul mental : 15,3 x 100 =",
+      "type": "QCM",
+      "options": ["153", "1530", "15300", "1,53"],
+      "bonne_reponse": "1530",
+      "explication": "On décale la virgule de deux rangs vers la droite ( level on complète with un zéro)."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Multiplier by 1000 revient à décaler la virgule de 3 rangs vers la droite.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Le nombre devient 1000 fois plus grand."
+    },
+    {
+      "id": "q4",
+      "question": "0,07 x 10 =",
+      "type": "QCM",
+      "options": ["0,7", "0,007", "7", "70"],
+      "bonne_reponse": "0,7",
+      "explication": "On décale la virgule d'un rang vers la droite."
+    },
+    {
+      "id": "q5",
+      "question": "Multiplier 5 by 10, puis encore by 100 revient à multiplier 5 by :",
+      "type": "QCM",
+      "options": ["110", "1000", "10000", "200"],
+      "bonne_reponse": "1000",
+      "explication": "10 x 100 = 1000."
+    }
+  ]
+}

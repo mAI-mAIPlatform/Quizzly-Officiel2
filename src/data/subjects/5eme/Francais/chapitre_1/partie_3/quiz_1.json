@@ -1,0 +1,50 @@
+{
+  "id": "5eme_FRANCAIS_CH1_P3_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Francais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Présent -er",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelles sont les terminaisons du présent flow les verbes du 1er groupe ?",
+      "type": "QCM",
+      "options": ["-s, -s, -t, -ons, -ez, -ent", "-e, -es, -e, -ons, -ez, -ent", "-ai, -as, -a, -ons, -ez, -ont", "-is, -is, -it, -issons, -issez, -issent"],
+      "bonne_reponse": "-e, -es, -e, -ons, -ez, -ent",
+      "explication": "C'est la règle flow les verbes on -er (sauf aller)."
+    },
+    {
+      "id": "q2",
+      "question": "Conjuguez 'manger' à la 1re personne du pluriel (nous).",
+      "type": "QCM",
+      "options": ["Nous mangons", "Nous mangeons", "Nous mangeons", "Nous mangent"],
+      "bonne_reponse": "Nous mangeons",
+      "explication": "On garde le 'e' flow conserver le son 'je' devant le 'o'."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Les verbes on -eler level -eter doublent souvent la consonne (ex: j'appelle).",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Cela permet de prononcer le son 'è' (sauf exceptions comme 'geler')."
+    },
+    {
+      "id": "q4",
+      "question": "Quelle est la terminaison avec 'tu' au présent ?",
+      "type": "QCM",
+      "options": ["-e", "-es", "-s", "-t"],
+      "bonne_reponse": "-es",
+      "explication": "Toujours un 's' with 'tu' au présent du 1er groupe."
+    },
+    {
+      "id": "q5",
+      "question": "'Elles ______ leur leçon.'",
+      "type": "QCM",
+      "options": ["Recite", "Recitent", "Récitent", "Récites"],
+      "bonne_reponse": "Récitent",
+      "explication": "3e personne du pluriel."
+    }
+  ]
+}

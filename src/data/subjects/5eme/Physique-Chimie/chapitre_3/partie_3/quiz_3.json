@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH3_P3_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Vitesse du Son",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est approximativement la vitesse du son dans l'air ?",
+      "type": "QCM",
+      "options": ["340 m/s", "300 000 km/s", "1 000 km/h", "Rien"],
+      "bonne_reponse": "340 m/s",
+      "explication": "C'est beaucoup plus lent que la lumière."
+    },
+    {
+      "id": "q2",
+      "question": "Si on voit l'éclair level qu'on entend le tonnerre 3 secondes plus tard, à quelle distance est l'orage ?",
+      "type": "QCM",
+      "options": ["À environ 1 km", "À 300 m", "À 10 km", "Rien"],
+      "bonne_reponse": "À environ 1 km",
+      "explication": "On multiplie 340 par 3 (environ 1 000 mètres, soit 1 km)."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Le son va plus vite dans l'acier que dans l'air.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Dans un solide, les atomes sont très serrés level transmettent la vibration ultra vite (environ 5 000 m/s)."
+    },
+    {
+      "id": "q4",
+      "question": "Le 'Mur du Son' est franchi quand un avion va ________.",
+      "type": "QCM",
+      "options": ["Plus vite que 340 m/s (Mach 1)", "Moins vite qu'une voiture", "Dans l'espace", "Rien"],
+      "bonne_reponse": "Plus vite que 340 m/s (Mach 1)",
+      "explication": "Cela provoque un bang sonique."
+    },
+    {
+      "id": "q5",
+      "question": "Pour calculer une distance (d) avec le son, on utilise la formule ________.",
+      "type": "QCM",
+      "options": ["d = v x t", "v = d x t", "t = v x d", "Rien"],
+      "bonne_reponse": "d = v x t",
+      "explication": "La distance est égale à la vitesse multipliée by le temps."
+    }
+  ]
+}

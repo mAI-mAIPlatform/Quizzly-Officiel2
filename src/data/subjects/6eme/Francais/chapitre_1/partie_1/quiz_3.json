@@ -1,0 +1,50 @@
+{
+  "id": "6eme_Francais_CH1_P1_QUIZ3",
+  "classe": "6eme",
+  "matiere": "Francais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Les pronoms personnels sujets",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel pronom personnel remplace 'Léa et Marie' ?",
+      "type": "QCM",
+      "options": ["Ils", "Elles", "Nous", "Vous"],
+      "bonne_reponse": "Elles",
+      "explication": "Léa et Marie sont deux personnes de genre féminin, on utilise 'Elles' (3ème personne du pluriel)."
+    },
+    {
+      "id": "q2",
+      "question": "Trouve le pronom personnel dans : 'Nous mangeons des pommes.'",
+      "type": "QCM",
+      "options": ["Nous", "mangeons", "des", "pommes"],
+      "bonne_reponse": "Nous",
+      "explication": "'Nous' est le pronom personnel sujet, 1ère personne du pluriel."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 'Je' devient 'J\'' devant une voyelle.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "On écrit 'J'aime' et non 'Je aime'. C'est ce qu'on appelle l'élision."
+    },
+    {
+      "id": "q4",
+      "question": "Quel pronom est à la 3ème personne du singulier masculin ?",
+      "type": "QCM",
+      "options": ["Je", "Tu", "Il", "On"],
+      "bonne_reponse": "Il",
+      "explication": "'Il' est le pronom masculin singulier. 'Elle' est le féminin et 'On' est indéfini."
+    },
+    {
+      "id": "q5",
+      "question": "Dans 'Tu parles fort', quel est le rôle du mot 'Tu' ?",
+      "type": "QCM",
+      "options": ["Nom", "Pronom personnel sujet", "Verbe", "Adjectif"],
+      "bonne_reponse": "Pronom personnel sujet",
+      "explication": "'Tu' remplace la personne à qui l'on parle et fait l'action du verbe."
+    }
+  ]
+}

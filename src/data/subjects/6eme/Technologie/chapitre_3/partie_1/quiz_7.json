@@ -1,0 +1,50 @@
+{
+  "id": "6eme_TEC_CH3_P1_QUIZ697",
+  "classe": "6eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Arborescence",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment appelle-t-on un dossier qui contient d'autres dossiers ?",
+      "type": "QCM",
+      "options": ["Un super-fichier", "Un répertoire (ou dossier)", "Une boîte", "Un tiroir"],
+      "bonne_reponse": "Un répertoire (ou dossier)",
+      "explication": "L'organisation s'appelle une arborescence."
+    },
+    {
+      "id": "q2",
+      "question": "Quelle extension correspond à une image ?",
+      "type": "QCM",
+      "options": [".txt", ".jpg", ".mp3", ".exe"],
+      "bonne_reponse": ".jpg",
+      "explication": "Jpeg est un format de photo."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Le nom d'un fichier ne doit jamais contenir de caractères spéciaux.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Certains caractères (/, *, ?) sont interdits by le système."
+    },
+    {
+      "id": "q4",
+      "question": "Qu'est-ce que l'extension '.mp4' ?",
+      "type": "QCM",
+      "options": ["Un texte", "Une vidéo", "Une musique seule", "Une application"],
+      "bonne_reponse": "Une vidéo",
+      "explication": "C'est un format de compression vidéo."
+    },
+    {
+      "id": "q5",
+      "question": "Où se trouve la 'racine' du disque dur sur Windows ?",
+      "type": "QCM",
+      "options": ["Dans la corbeille", "Sur le lecteur C:", "Dans 'Mes documents'", "Sur le bureau"],
+      "bonne_reponse": "Sur le lecteur C:",
+      "explication": "C: est la partition principale."
+    }
+  ]
+}

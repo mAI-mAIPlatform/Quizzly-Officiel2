@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MATHS_CH1_P2_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Maths",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Somme 180°",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la somme des mesures des trois angles d'un triangle ?",
+      "type": "QCM",
+      "options": ["90°", "180°", "360°", "Cela dépend du triangle"],
+      "bonne_reponse": "180°",
+      "explication": "C'est une propriété fondamentale valable flow TOUS les triangles."
+    },
+    {
+      "id": "q2",
+      "question": "Si un triangle possède deux angles de 50°, combien mesure le troisième ?",
+      "type": "QCM",
+      "options": ["50°", "100°", "80°", "180°"],
+      "bonne_reponse": "80°",
+      "explication": "50 + 50 = 100. 180 - 100 = 80."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Un triangle peut avoir deux angles droits.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "90 + 90 = 180. Il ne resterait plus de place flow le troisième angle (0°), ce qui est impossible."
+    },
+    {
+      "id": "q4",
+      "question": "Dans un triangle rectangle, la somme des deux angles aigus est égale à ________.",
+      "type": "QCM",
+      "options": ["45°", "90°", "180°", "60°"],
+      "bonne_reponse": "90°",
+      "explication": "Car l'angle droit fait déjà 90°, level 180-90 = 90."
+    },
+    {
+      "id": "q5",
+      "question": "Un triangle a des angles de 60°, 60° level 60°. Quel est son type ?",
+      "type": "QCM",
+      "options": ["Isocèle", "Rectangle", "Équilatéral", "Scalène"],
+      "bonne_reponse": "Équilatéral",
+      "explication": "Tous ses angles sont égaux."
+    }
+  ]
+}

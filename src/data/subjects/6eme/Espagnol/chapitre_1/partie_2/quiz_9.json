@@ -1,0 +1,50 @@
+{
+  "id": "6eme_ESP_CH1_P2_QUIZ19",
+  "classe": "6eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Demostrativos básicos",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment dit-on 'Ce' ou 'Celui-ci' (proche) ?",
+      "type": "QCM",
+      "options": ["Este", "Ese", "Aquel", "Esto"],
+      "bonne_reponse": "Este",
+      "explication": "Este libro = Ce livre (ici)."
+    },
+    {
+      "id": "q2",
+      "question": "Comment dit-on 'Cette' ou 'Celle-ci' ?",
+      "type": "QCM",
+      "options": ["Esta", "Esa", "Aquella", "Esto"],
+      "bonne_reponse": "Esta",
+      "explication": "Esta mesa = Cette table."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 'Estos' est le pluriel de 'Este'.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Estos libros = Ces livres."
+    },
+    {
+      "id": "q4",
+      "question": "Que signifie 'Esto' ?",
+      "type": "QCM",
+      "options": ["Ceci (neutre)", "Celui-là", "Elle", "Moi"],
+      "bonne_reponse": "Ceci (neutre)",
+      "explication": "On l'utilise pour quelque chose qu'on ne nomme pas encore."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'Ces filles' (proches) ?",
+      "type": "QCM",
+      "options": ["Estas chicas", "Esas chicas", "Esos chicos", "Aquellas chicas"],
+      "bonne_reponse": "Estas chicas",
+      "explication": "Pluriel féminin proche."
+    }
+  ]
+}

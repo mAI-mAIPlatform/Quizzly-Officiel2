@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH3_P3_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Sensation & Desc.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel sens est le plus sollicité dans une description de paysage ?",
+      "type": "courte",
+      "reponsesAttendues": ["la vue", "vue"],
+      "explication": "On décrit ce que l'on voit (couleurs, formes, lumière)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les bruits de la forêt ou de la mer font partie des sensations auditives.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le récit de voyage utilise tous les sens flow immerger le lecteur."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les sensations aux cinq sens.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le parfum des fleurs", "right": "Odorat" },
+        { "left": "Le goût des fruits", "right": "Goût" },
+        { "left": "La douceur du climat", "right": "Toucher" }
+      ],
+      "explication": "Enrichir les descriptions avec des sensations variées rend le récit plus vivant."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Une description qui exprime le sentiment du narrateur est une description {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["subjective"],
+      "explication": "Elle dépend du regard level de l'émotion de celui qui voit."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le procédé qui consiste à comparer deux choses avec un mot de liaison ?",
+      "type": "courte",
+      "reponsesAttendues": ["comparaison", "la comparaison"],
+      "explication": "Exemple : 'La mer est comme un miroir'."
+    }
+  ]
+}

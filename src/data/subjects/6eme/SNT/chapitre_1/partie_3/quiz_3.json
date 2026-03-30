@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SNT_CH1_P3_QUIZ23",
+  "classe": "6eme",
+  "matiere": "SNT",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Programmer",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que programmer ?",
+      "type": "QCM",
+      "options": ["Regarder des vidéos", "Écrire un algorithme dans un langage que l'ordinateur peut comprendre", "Acheter un ordinateur", "Réparer un écran cassé"],
+      "bonne_reponse": "Écrire un algorithme dans un langage que l'ordinateur peut comprendre",
+      "explication": "C'est traduire nos idées en instructions machine."
+    },
+    {
+      "id": "q2",
+      "question": "Lequel est un langage de programmation ?",
+      "type": "QCM",
+      "options": ["Python", "Anglais", "Espagnol", "Chinois"],
+      "bonne_reponse": "Python",
+      "explication": "Python est très utilisé pour apprendre la programmation."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Scratch est un langage de programmation par blocs visuels.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Il permet d'apprendre la logique sans faire d'erreurs de frappe."
+    },
+    {
+      "id": "q4",
+      "question": "Un programme informatique est :",
+      "type": "QCM",
+      "options": ["Une personne", "Un fichier contenant des lignes de code", "Une pièce de monnaie", "Un type de plastique"],
+      "bonne_reponse": "Un fichier contenant des lignes de code",
+      "explication": "Ce code est ensuite exécuté par le processeur."
+    },
+    {
+      "id": "q5",
+      "question": "Le 'code source' est :",
+      "type": "QCM",
+      "options": ["De l'eau minérale", "Le texte du programme écrit par l'humain", "L'intérieur de la pile", "Le prix du clavier"],
+      "bonne_reponse": "Le texte du programme écrit par l'humain",
+      "explication": "C'est ce que les programmeurs écrivent et modifient."
+    }
+  ]
+}

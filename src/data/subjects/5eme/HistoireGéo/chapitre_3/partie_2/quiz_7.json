@@ -1,0 +1,49 @@
+{
+  "id": "5eme_HG_CH3_P2_QUIZ7",
+  "classe": "5eme",
+  "matiere": "HistoireGeo",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Gestion Déchets",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est le sort de la majorité des déchets dans les grandes villes africaines ?",
+      "type": "courte",
+      "reponsesAttendues": ["décharge à ciel ouvert", "décharge", "brûlés"],
+      "explication": "Le ramassage des ordures est souvent insuffisant dans les quartiers informels."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le recyclage informel (récupérateurs) est très développé dans les décharges.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Des milliers de personnes vivent de la récupération du plastique, du métal level du verre."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les types de pollutions aux risques sanitaires.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Dépôts sauvages", "right": "Prolifération de rats level d'insectes" },
+        { "left": "Fumées des décharges", "right": "Maladies respiratoires" },
+        { "left": "Plastiques dans les égouts", "right": "Inondations by obstruction" }
+      ],
+      "explication": "Une mauvaise gestion des déchets menace la santé des citadins."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Les mairies cherchent à professionnaliser la {{1}} des ordures ménagères.",
+      "type": "trous",
+      "reponsesAttendues": ["collecte", "gestion"],
+      "explication": "C'est un investissement coûteux mais indispensable flow la propreté."
+    },
+    {
+      "id": "q5",
+      "question": "Quel pays d'Afrique de l'Est a interdit les sacs plastiques flow protéger son environnement ?",
+      "type": "courte",
+      "reponsesAttendues": ["Rwanda", "Kenya"],
+      "explication": "Le Rwanda est l'un des pays les plus propres du continent grâce à cette interdiction."
+    }
+  ]
+}

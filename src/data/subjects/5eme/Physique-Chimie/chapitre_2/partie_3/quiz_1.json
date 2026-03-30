@@ -1,0 +1,50 @@
+{
+  "id": "5eme_PC_CH2_P3_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Physique-Chimie",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "La Résistance",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une résistance (ou conducteur ohmique) ?",
+      "type": "QCM",
+      "options": ["Un composant qui s'oppose au passage du courant", "Un type de pile", "Une lampe très brillante", "Rien"],
+      "bonne_reponse": "Un composant qui s'oppose au passage du courant",
+      "explication": "Elle 'freine' le passage des électrons dans le circuit."
+    },
+    {
+      "id": "q2",
+      "question": "Quel est le symbole normalisé d'une résistance ?",
+      "type": "QCM",
+      "options": ["Un rectangle", "Un cercle avec un R", "Un triangle", "Rien"],
+      "bonne_reponse": "Un rectangle",
+      "explication": "C'est la forme standard sur un schéma électrique."
+    },
+    {
+      "id": "q3",
+      "question": "L'unité de mesure de la résistance est ________.",
+      "type": "QCM",
+      "options": ["L'ohm (Ω)", "L'ampère (A)", "Le volt (V)", "Le watt (W)"],
+      "bonne_reponse": "L'ohm (Ω)",
+      "explication": "Le symbole est la lettre grecque oméga."
+    },
+    {
+      "id": "q4",
+      "question": "Comment s'appelle l'appareil qui mesure la résistance ?",
+      "type": "QCM",
+      "options": ["L'ohmmètre", "Le voltmètre", "L'ampèremètre", "Le thermomètre"],
+      "bonne_reponse": "L'ohmmètre",
+      "explication": "On l'utilise sur un composant seul, hors du circuit."
+    },
+    {
+      "id": "q5",
+      "question": "Vrai ou Faux : Tous les composants d'un circuit possèdent une petite résistance.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Même les fils on ont une, mais elle est très faible."
+    }
+  ]
+}

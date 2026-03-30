@@ -54,9 +54,15 @@ export default function QuestionVraiFaux({
   const handleSelect = (response: boolean) => {
     if (hasAnswered) return;
     setSelectedResponse(response);
-    const actualReponse = question.reponse !== undefined ? question.reponse : question.answer;
+    const actualReponse = question.bonne_reponse !== undefined 
+      ? (typeof question.bonne_reponse === 'string' ? question.bonne_reponse === "Vrai" : question.bonne_reponse)
+      : (question.reponse !== undefined ? question.reponse : question.answer);
     onValidate(response === actualReponse);
   };
+
+  const questionReponse = question.bonne_reponse !== undefined 
+    ? (typeof question.bonne_reponse === 'string' ? question.bonne_reponse === "Vrai" : question.bonne_reponse)
+    : (question.reponse !== undefined ? question.reponse : question.answer);
 
   return (
     <div className="flex flex-col h-full animate-in slide-in-from-right-8 duration-500">
@@ -72,15 +78,23 @@ export default function QuestionVraiFaux({
       <div className="grid grid-cols-2 gap-6 mt-12">
         <OptionButton 
           value={true} label="Vrai" color="green" bgHover="hover:bg-green/10" 
-          hasAnswered={hasAnswered} questionReponse={question.reponse !== undefined ? question.reponse : question.answer} 
+          hasAnswered={hasAnswered} questionReponse={questionReponse} 
           selectedResponse={selectedResponse} onSelect={handleSelect} 
         />
         <OptionButton 
           value={false} label="Faux" color="rose" bgHover="hover:bg-rose/10" 
-          hasAnswered={hasAnswered} questionReponse={question.reponse !== undefined ? question.reponse : question.answer} 
+          hasAnswered={hasAnswered} questionReponse={questionReponse} 
           selectedResponse={selectedResponse} onSelect={handleSelect} 
         />
       </div>
+
+      {hasAnswered && question.explication && (
+        <div className="mt-12 p-6 glass border-primary/20 rounded-2xl animate-in slide-in-from-bottom-4 duration-500">
+          <p className="text-sm font-medium opacity-90 leading-relaxed text-center italic">
+            💡 {question.explication}
+          </p>
+        </div>
+      )}
     </div>
   );
 }

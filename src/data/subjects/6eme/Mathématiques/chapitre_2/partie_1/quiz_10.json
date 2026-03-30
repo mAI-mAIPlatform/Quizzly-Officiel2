@@ -1,0 +1,50 @@
+{
+  "id": "6eme_MATHS_CH2_P1_QUIZ40",
+  "classe": "6eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Bilan : Nombres Décimaux",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Dans 105,487 , quel est le chiffre des millièmes ?",
+      "type": "QCM",
+      "options": ["4", "8", "7", "5"],
+      "bonne_reponse": "7",
+      "explication": "C'est le troisième chiffre après la virgule."
+    },
+    {
+      "id": "q2",
+      "question": "Lequel est vrai ?",
+      "type": "QCM",
+      "options": ["0,5 > 0,55", "0,09 > 0,1", "8,2 = 8,20", "4,1 < 4,09"],
+      "bonne_reponse": "8,2 = 8,20",
+      "explication": "Les zéros terminaux sont inutiles."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Multiplier par 100 agrandit le nombre de deux rangs.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "On décale la virgule à droite."
+    },
+    {
+      "id": "q4",
+      "question": "45 / 10 = ?",
+      "type": "QCM",
+      "options": ["450", "4,5", "0,45", "45,0"],
+      "bonne_reponse": "4,5",
+      "explication": "Diviser par 10 donne le dixième."
+    },
+    {
+      "id": "q5",
+      "question": "Arrondir 19,95 à l'unité donne :",
+      "type": "QCM",
+      "options": ["19", "20", "19,9", "10"],
+      "bonne_reponse": "20",
+      "explication": "C'est très proche de 20."
+    }
+  ]
+}

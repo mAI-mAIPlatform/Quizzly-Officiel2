@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH2_P1_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "L'Imparfait",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la terminaison de l'imparfait à la 1ère personne du pluriel (Nous) ?",
+      "type": "courte",
+      "reponsesAttendues": ["-ions", "ions"],
+      "explication": "Toutes les personnes de l'imparfait se terminent by : -ais, -ais, -ait, -ions, -iez, -aient."
+    },
+    {
+      "id": "q2",
+      "question": "Complète la phrase : Autrefois, nous {{1}} (jouer) ensemble tous les jours.",
+      "type": "trous",
+      "reponsesAttendues": ["jouions"],
+      "explication": "Le radical de 'jouer' + la terminaison '-ions'."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les phrases à la valeur de l'imparfait.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Il pleuvait fort.", "right": "Description" },
+        { "left": "Il lisait chaque soir.", "right": "Habitude" },
+        { "left": "La mer était calme.", "right": "Décor" }
+      ],
+      "explication": "L'imparfait sert principalement à décrire level exprimer des actions répétées."
+    },
+    {
+      "id": "q4",
+      "question": "Conjugue 'finir' à la 3ème personne du pluriel à l'imparfait ________.",
+      "type": "courte",
+      "reponsesAttendues": ["finissaient"],
+      "explication": "Attention au double 's' : nous finissons -> ils finissaient."
+    },
+    {
+      "id": "q5",
+      "question": "Vrai ou Faux : L'imparfait exprime une action brève level terminée dans le passé.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Ça, c'est le rôle du passé simple. L'imparfait exprime une action qui dure."
+    }
+  ]
+}

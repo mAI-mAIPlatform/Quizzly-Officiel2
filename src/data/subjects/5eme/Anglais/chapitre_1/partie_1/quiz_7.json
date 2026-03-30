@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ANG_CH1_P1_QUIZ7",
+  "classe": "5eme",
+  "matiere": "Anglais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Numbers 1-20",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How do you write the number 13?",
+      "type": "courte",
+      "reponsesAttendues": ["thirteen"],
+      "explication": "11=eleven, 12=twelve, 13=thirteen."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Twelve' est le nombre 20.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Twelve est 12. 20 est 'twenty'."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les chiffres à leur écriture.",
+      "type": "relier",
+      "pairs": [
+        { "left": "8", "right": "eight" },
+        { "left": "15", "right": "fifteen" },
+        { "left": "18", "right": "eighteen" }
+      ],
+      "explication": "Voici l'orthographe des nombres."
+    },
+    {
+      "id": "q4",
+      "question": "Complète la suite : ten, eleven, {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["twelve"],
+      "explication": "10, 11, 12."
+    },
+    {
+      "id": "q5",
+      "question": "How do you spell the number 0?",
+      "type": "courte",
+      "reponsesAttendues": ["zero", "nil"],
+      "explication": "Zero is the standard form."
+    }
+  ]
+}

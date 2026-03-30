@@ -1,0 +1,50 @@
+{
+  "id": "6eme_Francais_CH1_P1_QUIZ8",
+  "classe": "6eme",
+  "matiere": "Francais",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Les articles définis et indéfinis",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Lequel est un article défini ?",
+      "type": "QCM",
+      "options": ["Un", "Le", "Des", "Une"],
+      "bonne_reponse": "Le",
+      "explication": "Les articles définis sont 'le, la, l', les'. Ils désignent quelque chose de précis."
+    },
+    {
+      "id": "q2",
+      "question": "Lequel est un article indéfini ?",
+      "type": "QCM",
+      "options": ["La", "Les", "Des", "Du"],
+      "bonne_reponse": "Des",
+      "explication": "Les articles indéfinis sont 'un, une, des'. Ils désignent quelque chose de non précisé."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : 'L\'' est un article défini employé devant une voyelle.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "On utilise 'l'' au lieu de 'le' ou 'la' pour éviter le choc des voyelles (ex: l'ami)."
+    },
+    {
+      "id": "q4",
+      "question": "Dans 'Il mange une pomme', 'une' est :",
+      "type": "QCM",
+      "options": ["Un article défini", "Un article indéfini", "Un pronom", "Un nom"],
+      "bonne_reponse": "Un article indéfini",
+      "explication": "'une' introduit le nom 'pomme' sans préciser laquelle."
+    },
+    {
+      "id": "q5",
+      "question": "Complète avec l'article qui convient : '... enfants jouent.'",
+      "type": "QCM",
+      "options": ["Le", "La", "Les", "Une"],
+      "bonne_reponse": "Les",
+      "explication": "'Enfants' est au pluriel, il faut donc l'article pluriel 'Les'."
+    }
+  ]
+}

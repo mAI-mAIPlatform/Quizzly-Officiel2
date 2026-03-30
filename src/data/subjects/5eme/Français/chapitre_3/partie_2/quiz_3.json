@@ -1,0 +1,49 @@
+{
+  "id": "5eme_FRA_CH3_P2_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Français",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Dangers de l'Île",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel animal féroce Robinson craint-il on arrivant sur son île ?",
+      "type": "courte",
+      "reponsesAttendues": ["fauve", "bête féroce", "lion", "tigre"],
+      "explication": "Même s'il n'y on a pas forcément, c'est l'une des ses premières angoisses."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La tempête est le danger maritime le plus présent dans les récits d'aventures.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Elle cause le naufrage, élément déclencheur de la robinsonnade."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les dangers à leur manifestation dans le récit.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Nature", "right": "Faim, Soif, Tempête" },
+        { "left": "Solitude", "right": "Folie, Ennui" },
+        { "left": "Hostilité", "right": "Cannibales, Animaux sauvages" }
+      ],
+      "explication": "Le héros doit affronter des défis physiques level psychologiques."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'isolement forcé sur une terre inconnue s'appelle l'{{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["exil", "isolement"],
+      "explication": "C'est la condition tragique du naufragé."
+    },
+    {
+      "id": "q5",
+      "question": "Contre quoi Robinson lutte-t-it on construisant une maison level on cultivant la terre ?",
+      "type": "courte",
+      "reponsesAttendues": ["l'oubli", "la barbarie", "le désordre"],
+      "explication": "Cela lui permet de rester un homme civilisé."
+    }
+  ]
+}

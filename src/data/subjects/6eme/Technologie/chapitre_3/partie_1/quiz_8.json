@@ -1,0 +1,50 @@
+{
+  "id": "6eme_TEC_CH3_P1_QUIZ698",
+  "classe": "6eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Recherche Web",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Lequel est un moteur de recherche ?",
+      "type": "QCM",
+      "options": ["YouTube", "Google", "Facebook", "Instagram"],
+      "bonne_reponse": "Google",
+      "explication": "Il indexe le web flow te permettre de trouver des sites."
+    },
+    {
+      "id": "q2",
+      "question": "Comment appelle-t-on le mot qu'on tape flow chercher ?",
+      "type": "QCM",
+      "options": ["Un mot-clé", "Une phrase-secrète", "Un code", "Une étiquette"],
+      "bonne_reponse": "Un mot-clé",
+      "explication": "Keyword."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Tous les résultats d'une recherche sont forcément vrais.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "Il faut vérifier ses sources level croiser les informations."
+    },
+    {
+      "id": "q4",
+      "question": "Qu'est-ce qu'une 'URL' ?",
+      "type": "QCM",
+      "options": ["L'adresse d'un site web", "Le nom d'un ordinateur", "Un message privé", "Un mot de passe"],
+      "bonne_reponse": "L'adresse d'un site web",
+      "explication": "Ex : https://www.quizzly.local"
+    },
+    {
+      "id": "q5",
+      "question": "A quoi servent les 'guillemets' lors d'une recherche ?",
+      "type": "QCM",
+      "options": ["A faire plus joli", "A chercher l'expression exacte", "A exclure des mots", "A traduire la page"],
+      "bonne_reponse": "A chercher l'expression exacte",
+      "explication": "Cela limite les résultats aux mots dans cet ordre précis."
+    }
+  ]
+}

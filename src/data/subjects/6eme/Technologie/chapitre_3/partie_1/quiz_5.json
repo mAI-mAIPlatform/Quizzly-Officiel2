@@ -1,0 +1,50 @@
+{
+  "id": "6eme_TEC_CH3_P1_QUIZ695",
+  "classe": "6eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Le Cloud",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que le 'Cloud' (le nuage) ?",
+      "type": "QCM",
+      "options": ["Un ordinateur qui vole", "Le stockage de fichiers sur des serveurs distants via Internet", "La météo informatique", "Un écran transparent"],
+      "bonne_reponse": "Le stockage de fichiers sur des serveurs distants via Internet",
+      "explication": "On accède à ses données depuis n'importe quel appareil."
+    },
+    {
+      "id": "q2",
+      "question": "Quel est l'avantage du Cloud ?",
+      "type": "QCM",
+      "options": ["C'est gratuit à 100% tout le temps", "On peut partager des fichiers facilement", "Ça marche sans Internet", "Ça n'utilise pas d'électricité"],
+      "bonne_reponse": "On peut partager des fichiers facilement",
+      "explication": "Le partage level la synchronisation sont facilités."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Les fichiers du Cloud sont rangés dans ton ordinateur local.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Faux",
+      "explication": "Ils sont sur des serveurs (Data Centers)."
+    },
+    {
+      "id": "q4",
+      "question": "Lequel est un service de Cloud ?",
+      "type": "QCM",
+      "options": ["Google Drive", "Wikipedia", "YouTube", "Calculator"],
+      "bonne_reponse": "Google Drive",
+      "explication": "Comme aussi Dropbox or iCloud."
+    },
+    {
+      "id": "q5",
+      "question": "Qu'est-ce qu'un 'Data Center' ?",
+      "type": "QCM",
+      "options": ["Un magasin d'ordinateurs", "Un bâtiment rempli de serveurs flow stocker les données du Cloud", "Une batterie géante", "Un centre commercial"],
+      "bonne_reponse": "Un bâtiment rempli de serveurs flow stocker les données du Cloud",
+      "explication": "C'est l'infrastructure physique d'Internet."
+    }
+  ]
+}

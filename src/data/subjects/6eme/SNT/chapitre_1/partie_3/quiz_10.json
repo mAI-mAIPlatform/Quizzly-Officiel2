@@ -1,0 +1,50 @@
+{
+  "id": "6eme_SNT_CH1_P3_QUIZ30",
+  "classe": "6eme",
+  "matiere": "SNT",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Grand Défi Final : SNT Chapitre 1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Un algorithme est :",
+      "type": "QCM",
+      "options": ["Une suite d'instructions", "Une marque d'ordinateur", "Un virus", "Une vidéo"],
+      "bonne_reponse": "Une suite d'instructions",
+      "explication": "C'est la base de tout programme informatique."
+    },
+    {
+      "id": "q2",
+      "question": "Quel langage utilise des blocs visuels ?",
+      "type": "QCM",
+      "options": ["Python", "Scratch", "HTML", "C++"],
+      "bonne_reponse": "Scratch",
+      "explication": "C'est idéal pour débuter sans syntaxe compliquée."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : L'Intelligence Artificielle peut apprendre toute seule à partir de données.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "C'est le Machine Learning."
+    },
+    {
+      "id": "q4",
+      "question": "SI 'bouton pressé' ALORS 'allumer lumière' est une :",
+      "type": "QCM",
+      "options": ["Boucle", "Condition", "Variable", "Erreur"],
+      "bonne_reponse": "Condition",
+      "explication": "C'est un choix logique."
+    },
+    {
+      "id": "q5",
+      "question": "Que signifie le bit ?",
+      "type": "QCM",
+      "options": ["Une petite pièce", "Binary Digit (Chiffre binaire 0 ou 1)", "Bientôt Intelligent", "Rien"],
+      "bonne_reponse": "Binary Digit (Chiffre binaire 0 ou 1)",
+      "explication": "C'est l'atome de l'informatique."
+    }
+  ]
+}

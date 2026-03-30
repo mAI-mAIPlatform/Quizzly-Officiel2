@@ -1,0 +1,50 @@
+{
+  "id": "6eme_TEC_CH1_P1_QUIZ8",
+  "classe": "6eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Fonctionnement de l'Objet",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment appelle-t-on les différentes pièces d'un objet ?",
+      "type": "QCM",
+      "options": ["Les composants", "Les amis", "Les atomes", "Les décors"],
+      "bonne_reponse": "Les composants",
+      "explication": "Chaque composant a un rôle précis."
+    },
+    {
+      "id": "q2",
+      "question": "Sur un vélo, quel composant sert à freiner ?",
+      "type": "QCM",
+      "options": ["La selle", "Le patin de frein", "Le guidon", "La chaîne"],
+      "bonne_reponse": "Le patin de frein",
+      "explication": "Il frotte sur la jante pour ralentir."
+    },
+    {
+      "id": "q3",
+      "question": "Vrai ou Faux : Un schéma permet de comprendre comment les pièces bougent entre elles.",
+      "type": "Vrai/Faux",
+      "options": ["Vrai", "Faux"],
+      "bonne_reponse": "Vrai",
+      "explication": "Le schéma technique simplifie la réalité."
+    },
+    {
+      "id": "q4",
+      "question": "L'énergie nécessaire pour faire avancer un vélo classique est :",
+      "type": "QCM",
+      "options": ["Électrique", "Musculaire", "Solaire", "Nucléaire"],
+      "bonne_reponse": "Musculaire",
+      "explication": "Ce sont les jambes du cycliste."
+    },
+    {
+      "id": "q5",
+      "question": "Quel composant transmet le mouvement des pédales à la roue arrière ?",
+      "type": "QCM",
+      "options": ["Le pneu", "La chaîne", "La fourche", "Le garde-boue"],
+      "bonne_reponse": "La chaîne",
+      "explication": "Elle relie le plateau aux pignons."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "5eme_MATHS_CH3_P1_QUIZ7",
+  "classe": "5eme",
+  "matiere": "Mathématiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Problèmes Sym.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "A, B, C sont alignés. A', B', C' sont leurs symétriques. Sont-ils alignés ?",
+      "type": "courte",
+      "reponsesAttendues": ["oui"],
+      "explication": "La symétrie centrale conserve l'alignement."
+    },
+    {
+      "id": "q2",
+      "question": "Relie les propriétés aux éléments conservés.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Isométrie", "right": "Longueurs" },
+        { "left": "Demi-tour", "right": "Positions relatives" },
+        { "left": "Parallélisme", "right": "Directions des droites" }
+      ],
+      "explication": "La symétrie centrale préserve presque tout sauf la position absolue."
+    },
+    {
+      "id": "q3",
+      "question": "Complète : Le symétrique d'une demi-droite [Ox) par rapport à O est la demi-droite {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["opposée", "opposee"],
+      "explication": "C'est la demi-droite qui part de O on sens inverse."
+    },
+    {
+      "id": "q4",
+      "question": "Vrai ou Faux : Le symétrique d'un angle aigu est un angle obtus.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "La symétrie conserve la mesure des angles."
+    },
+    {
+      "id": "q5",
+      "question": "Un segment [AB] mesure 5cm. Son symétrique [A'B'] mesure ________.",
+      "type": "courte",
+      "reponsesAttendues": ["5", "5cm", "5 cm"],
+      "explication": "Conservation des longueurs."
+    }
+  ]
+}
