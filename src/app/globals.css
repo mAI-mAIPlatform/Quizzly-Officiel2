@@ -19,18 +19,22 @@
 }
 
 :root {
-  --background: #f8fafc;
-  --foreground: #0f172a;
-  --card: rgba(255, 255, 255, 0.7);
-  --card-border: rgba(255, 255, 255, 0.5);
+  --background: #fdfdfd;
+  --foreground: #1a1a2e;
+  --card: rgba(255, 255, 255, 0.4);
+  --card-border: rgba(255, 255, 255, 0.6);
 
-  --primary: #6366f1; /* Indigo/Violet */
-  --secondary: #3b82f6; /* Blue */
-  --violet: #8b5cf6;
-  --blue: #3b82f6;
-  --cyan: #06b6d4;
-  --rose: #f43f5e;
-  --green: #10b981;
+  --primary: #7c3aed; /* Pastel Violet */
+  --secondary: #60a5fa; /* Pastel Blue */
+  --violet: #a78bfa;
+  --blue: #93c5fd;
+  --cyan: #a5f3fc;
+  --rose: #fda4af;
+  --green: #86efac;
+  
+  --glass-bg: rgba(255, 255, 255, 0.2);
+  --glass-edge: rgba(255, 255, 255, 0.5);
+  --glass-blur: 24px;
 }
 
 body {
@@ -49,14 +53,26 @@ body {
 
 /* Supprimé : .light body et .dark body styles */
 
-/* Utilitaires pour le verre liquide */
+/* Utilitaires pour le verre liquide (v0.8.0) */
 @utility glass {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%);
-  backdrop-filter: blur(20px) saturate(180%);
-  -webkit-backdrop-filter: blur(20px) saturate(180%);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
-  border-radius: 2rem;
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur)) saturate(160%);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(160%);
+  border: 1px solid var(--glass-edge);
+  box-shadow: 
+    0 10px 40px rgba(124, 58, 237, 0.05),
+    inset 0 2px 8px rgba(255, 255, 255, 0.4);
+  border-radius: 2.25rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@utility glass-border-only {
+  background: transparent;
+  backdrop-filter: none;
+  border: 2px solid var(--glass-edge);
+  border-radius: 2.25rem;
   position: relative;
   overflow: hidden;
 }

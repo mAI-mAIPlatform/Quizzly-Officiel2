@@ -72,6 +72,14 @@ type FriendContact = {
   lastInteractionAt?: string;
 };
 
+type SocialActivity = {
+  id: string;
+  user: string;
+  type: "quiz_completed" | "level_up" | "join" | "achievement";
+  detail: string;
+  timestamp: string;
+};
+
 type Tribe = {
   id: string;
   name: string;
@@ -81,6 +89,7 @@ type Tribe = {
   archived?: boolean;
   blocked?: boolean;
   reported?: boolean;
+  activities: SocialActivity[];
 };
 
 type SocialConversation = {
@@ -179,6 +188,7 @@ type UserProgress = {
   weeklyXP: number;
   league: "Débutant" | "Apprenti" | "Étudiant" | "Nouveau" | "Intello" | "HPI" | "Savant" | "Expert" | "Génie";
   lastWeeklyReset: string | null;
+  customShortcuts: string[];
 };
 
 type ProgressContextType = {
@@ -228,6 +238,8 @@ type ProgressContextType = {
   setAccountPassword: (password: string) => Promise<boolean>;
   unlockAccount: (password: string) => Promise<boolean>;
   changeAccountPassword: (currentPassword: string, nextPassword: string) => Promise<boolean>;
+  reorderShortcuts: (newOrder: string[]) => void;
+  addTribeActivity: (tribeId: string, activity: Omit<SocialActivity, "id" | "timestamp">) => void;
 };
 
 const storageKey = "quizzly_progress";
@@ -336,6 +348,7 @@ const createDefaultProgress = (): UserProgress => ({
   weeklyXP: 0,
   league: "Débutant",
   lastWeeklyReset: null,
+  customShortcuts: ["Maths-6eme", "Français", "Histoire-Géo", "SVT", "Physique", "Anglais"],
 });
 
 function clampVolume(value: unknown, fallback: number) {
@@ -501,6 +514,7 @@ function normalizeTribes(rawTribes: unknown): Tribe[] {
         archived: Boolean(data.archived),
         blocked: Boolean(data.blocked),
         reported: Boolean(data.reported),
+        activities: Array.isArray(data.activities) ? data.activities : [],
       };
     })
     .filter(Boolean) as Tribe[];
@@ -706,6 +720,7 @@ function normalizeProgress(raw: unknown): UserProgress {
           }))
           .filter((booster) => Boolean(booster.id))
       : base.activeBoosters,
+    customShortcuts: Array.isArray(parsed.customShortcuts) ? (parsed.customShortcuts.filter((s): s is string => typeof s === "string")) : base.customShortcuts,
   };
 }
 
@@ -1082,7 +1097,7 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     setProgress((prev) =>
       persist({
         ...prev,
-        tribes: [...prev.tribes, { id: tribeId, name, members: [prev.pseudo], mascot }],
+        tribes: [...prev.tribes, { id: tribeId, name, members: [prev.pseudo], mascot, activities: [] }],
         conversations: {
           ...prev.conversations,
           [tribeId]: {
@@ -1521,6 +1536,30 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     return true;
   };
 
+  const reorderShortcuts = (newOrder: string[]) => {
+    setProgress((prev) => persist({ ...prev, customShortcuts: newOrder }));
+  };
+
+  const addTribeActivity = (tribeId: string, activity: Omit<SocialActivity, "id" | "timestamp">) => {
+    setProgress((prev) => {
+      const tribe = prev.tribes.find((t) => t.id === tribeId);
+      if (!tribe) return prev;
+
+      const newActivity: SocialActivity = {
+        ...activity,
+        id: createId("act"),
+        timestamp: new Date().toISOString(),
+      };
+
+      return persist({
+        ...prev,
+        tribes: prev.tribes.map((t) =>
+          t.id === tribeId ? { ...t, activities: [newActivity, ...t.activities].slice(0, 50) } : t,
+        ),
+      });
+    });
+  };
+
   if (!isLoaded) {
     return <div className="min-h-screen bg-background text-foreground flex items-center justify-center font-bold">Chargement de ton cerveau... 🧠</div>;
   }
@@ -1574,6 +1613,8 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
         setAccountPassword,
         unlockAccount,
         changeAccountPassword,
+        reorderShortcuts,
+        addTribeActivity,
       }}
     >
       {children}

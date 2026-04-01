@@ -161,24 +161,28 @@ export default function BoutiquePage() {
         </button>
       </section>
 
-      {/* Pass Pro */}
+      {/* Pass Pro (Liquid Glass Styling) */}
       {!progress.isPassPro && (
-        <section className="glass p-1 border-primary/20 bg-gradient-to-r from-violet/20 via-primary/20 to-cyan/20 rounded-[2.5rem] overflow-hidden group">
-          <div className="glass bg-white/40 p-10 rounded-[2.2rem] flex flex-col md:flex-row items-center justify-between gap-10">
+        <section className="glass-border-only p-1 border-primary/40 bg-gradient-to-r from-violet/10 via-primary/10 to-cyan/10 rounded-[2.5rem] overflow-hidden group">
+          <div className="glass p-10 rounded-[2.2rem] flex flex-col md:flex-row items-center justify-between gap-10">
             <div className="flex flex-col md:flex-row items-center gap-10">
-              <div className="w-32 h-32 rounded-[2rem] bg-gradient-to-br from-violet to-primary flex items-center justify-center text-6xl shadow-2xl shadow-primary/40 group-hover:rotate-12 transition-transform duration-500">
+              <div className="w-32 h-32 rounded-[2.5rem] bg-gradient-to-br from-violet to-primary flex items-center justify-center text-6xl shadow-2xl shadow-primary/40 group-hover:rotate-12 transition-all duration-500 border-2 border-white/20">
                 👑
               </div>
-              <div className="text-center md:text-left space-y-3">
-                <h2 className="text-4xl font-space font-black tracking-tighter uppercase italic text-primary">Quizzly Pass Pro</h2>
-                <p className="font-bold opacity-70">Débloque tous les paliers premium, des récompenses exclusives et un badge spécial !</p>
+              <div className="text-center md:text-left space-y-4">
+                <h2 className="text-4xl font-black font-space tracking-tighter uppercase italic text-transparent bg-clip-text bg-gradient-to-r from-primary to-violet">Quizzly Pass Pro</h2>
+                <div className="space-y-1">
+                  <p className="font-black text-xs uppercase tracking-widest opacity-60">Récompenses exclusives • Badge spécial • Déblocage immédiat</p>
+                  <p className="text-sm font-bold opacity-40 italic mt-2">"L'expérience ultime pour les futurs génies."</p>
+                </div>
               </div>
             </div>
             <button
               onClick={() => handleBuy(passItem)}
-              className="bg-primary text-white font-black px-12 py-5 rounded-2xl text-xl shadow-2xl shadow-primary/30 hover:scale-105 active:scale-95 transition-all flex items-center gap-4"
+              className="bg-primary text-white font-black px-12 py-6 rounded-2xl text-xl shadow-2xl shadow-primary/30 hover:scale-105 active:scale-95 transition-all flex items-center gap-4 group/btn"
             >
-              DEVENIR PRO <span className="flex items-center gap-1">50 💎</span>
+              <span>DEVENIR PRO</span> 
+              <span className="flex items-center gap-1 bg-white/20 px-3 py-1 rounded-lg">50 💎</span>
             </button>
           </div>
         </section>

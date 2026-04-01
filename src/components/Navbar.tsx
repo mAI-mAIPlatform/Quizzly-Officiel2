@@ -38,51 +38,56 @@ export default function Navbar() {
         <div className="w-96 h-10 rounded-full bg-foreground/5 p-4 flex items-center text-sm opacity-50 font-medium">Rechercher une matière...</div>
       </div>
 
-      <div className="flex items-center gap-4">
-        {/* Neurones */}
-        <div className="flex items-center gap-2">
-          <Link href="/boutique" className="flex items-center gap-2 font-black text-rose bg-rose/10 px-4 py-2 rounded-2xl border border-rose/10 shadow-sm cursor-pointer hover:scale-105 transition-all">
-            <span className="text-xl">⭐</span> {progress.stars}/5
-          </Link>
-          
-          {progress.activeBoosters.length > 0 && (
-            <motion.div 
-              initial={{ scale: 0, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              className="flex items-center gap-2 font-black text-violet bg-violet/10 px-3 py-2 rounded-2xl border border-violet/10 shadow-sm animate-pulse"
-            >
-              <span className="text-lg">⚡</span>
-              <div className="flex flex-col leading-none">
-                <span className="text-[10px] uppercase tracking-tighter">x{progress.xpBoost}</span>
-                <span className="text-[8px] opacity-60">
-                  {timeLeft}m
-                </span>
-              </div>
-            </motion.div>
-          )}
-        </div>
-
-        {/* Streak */}
-        <Link href="/serie" className="flex items-center gap-2 font-black text-orange-500 bg-orange-500/10 px-4 py-2 rounded-2xl border border-orange-500/10 shadow-sm hover:scale-105 transition-all">
-          <span className="text-xl">🔥</span> {progress.streak}j
-        </Link>
-        
-        {/* Cristaux -> Boutique */}
-        <Link href="/boutique" className="flex items-center gap-2 font-black text-cyan bg-cyan/10 px-4 py-2 rounded-2xl border border-cyan/10 hover:scale-105 transition-all shadow-sm">
-          <span className="text-xl">💎</span> {progress.crystals}
-        </Link>
-
-        {/* Profil */}
-        <Link href="/profil" className="ml-2 w-10 h-10 rounded-xl bg-gradient-to-tr from-violet/20 to-primary/20 border-2 border-primary/20 relative hover:scale-110 transition-all flex items-center justify-center text-xl shadow-lg group cursor-pointer overflow-hidden">
-          <div className="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity rounded-xl"></div>
+      <div className="flex items-center gap-3">
+        {/* Profil - Avatar en premier (v0.8.0) */}
+        <Link href="/profil" className="w-10 h-10 rounded-2xl bg-primary/10 border-2 border-primary/20 relative hover:scale-110 transition-all flex items-center justify-center text-xl shadow-lg group cursor-pointer overflow-hidden backdrop-blur-md">
           {progress.avatar}
-          <span className="absolute bottom-0 right-0 bg-primary text-white text-[8px] font-black px-1 rounded-tl-lg border-t border-l border-white/20">
+          <span className="absolute bottom-0 right-0 bg-primary text-white text-[8px] font-black px-1.5 py-0.5 rounded-tl-lg border-t border-l border-white/20">
             {progress.level}
           </span>
         </Link>
 
-        <Link href="/reglages" className="hidden md:flex w-10 h-10 rounded-xl bg-foreground/5 hover:bg-foreground/10 transition-all items-center justify-center text-lg">
-          ⚙️
+        {/* Streak (Série) */}
+        <Link href="/serie" className="flex items-center gap-2 font-black text-orange-500 bg-orange-500/5 px-4 py-2 rounded-2xl border border-orange-500/10 hover:bg-orange-500/10 transition-all">
+          <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M11.7,2.5c0,0-5.8,5.8-5.8,10.2c0,3.2,2.6,5.8,5.8,5.8s5.8-2.6,5.8-5.8C17.5,8.3,11.7,2.5,11.7,2.5z M11.7,16.5c-2.1,0-3.8-1.7-3.8-3.8c0-2,3.8-5.5,3.8-5.5s3.8,3.5,3.8,5.5C15.5,14.8,13.8,16.5,11.7,16.5z"/>
+          </svg>
+          <span className="text-sm">{progress.streak}j</span>
+        </Link>
+
+        {/* Neurones (Étoiles) */}
+        <Link href="/boutique" className="flex items-center gap-2 font-black text-violet bg-violet/5 px-4 py-2 rounded-2xl border border-violet/10 hover:bg-violet/10 transition-all">
+          <svg className="w-5 h-5 text-violet" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12,2L14.5,8.5L21.5,9L16.5,14L18,21L12,17.5L6,21L7.5,14L2.5,9L9.5,8.5L12,2Z"/>
+          </svg>
+          <span className="text-sm">{progress.stars}/5</span>
+        </Link>
+
+        {/* Diamants (Redimensionnés -30%) */}
+        <Link href="/boutique" className="flex items-center gap-2 font-black text-cyan bg-cyan/5 px-3 py-1.5 rounded-2xl border border-cyan/10 hover:bg-cyan/10 transition-all scale-[0.7] md:scale-[0.8]">
+          <svg className="w-6 h-6 text-cyan" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12,2L4.5,11L12,22L19.5,11L12,2Z M12,4.5L17.5,11L12,19.1L6.5,11L12,4.5Z"/>
+          </svg>
+          <span className="text-lg">{progress.crystals}</span>
+        </Link>
+
+        {/* Boosters (si actifs) */}
+        {progress.activeBoosters.length > 0 && (
+          <motion.div 
+            initial={{ scale: 0, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            className="flex items-center gap-2 font-black text-primary bg-primary/5 px-3 py-1.5 rounded-2xl border border-primary/10 shadow-sm animate-pulse"
+          >
+            <span className="text-sm">⚡ x{progress.xpBoost} ({timeLeft}m)</span>
+          </motion.div>
+        )}
+
+        {/* Réglages */}
+        <Link href="/reglages" className="hidden md:flex w-10 h-10 rounded-2xl bg-foreground/5 hover:bg-foreground/10 transition-all items-center justify-center">
+          <svg className="w-5 h-5 opacity-60" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="12" cy="12" r="3"></circle>
+            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+          </svg>
         </Link>
       </div>
 

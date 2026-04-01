@@ -583,6 +583,27 @@ export default function SocialPage() {
                   </div>
                 </div>
 
+                {/* Flux d'activité (v0.8.0) */}
+                {myTribes.length > 0 && (
+                  <div className="space-y-4">
+                    <h3 className="text-[10px] font-black uppercase tracking-[0.3em] opacity-40">Activités récentes</h3>
+                    <div className="flex flex-col gap-2">
+                      {myTribes.flatMap(t => t.activities || []).sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime()).slice(0, 5).map(activity => (
+                        <div key={activity.id} className="flex items-center gap-3 glass p-3 border-cyan/5 text-xs">
+                          <span className="text-lg">{activity.type === 'badge' ? '🎖️' : activity.type === 'quiz_score' ? '🏆' : '✨'}</span>
+                          <div className="flex-1">
+                            <span className="font-bold">{activity.userPseudo}</span> {activity.content}
+                          </div>
+                          <span className="text-[9px] opacity-40 uppercase font-black">{new Date(activity.timestamp).toLocaleDateString()}</span>
+                        </div>
+                      ))}
+                      {myTribes.every(t => !t.activities?.length) && (
+                        <div className="text-[10px] opacity-30 italic">Aucune activité récente dans tes tribus.</div>
+                      )}
+                    </div>
+                  </div>
+                )}
+
                 <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">
                   {progress.tribes.map((tribe) => {
                     const conversation = progress.conversations[tribe.id];
