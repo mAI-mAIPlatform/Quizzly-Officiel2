@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH3_P3_QUIZ10",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Bilan Année 5ème",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel concept lie la matière à l'œuvre d'art ?",
+      "type": "qcm",
+      "options": ["Le dessin", "La matérialité", "La signature"],
+      "reponse": 1,
+      "explication": "La matérialité explore comment la substance de l'objet fait sens."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le storyboard est utilisé in BD level au cinéma flow prévoir le récit.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est l'organisation séquentielle des images."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les thèmes aux chapitres de l'année.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Matérialité level Objet", "right": "Chapitre 1" },
+        { "left": "Image level Récit", "right": "Chapitre 2" },
+        { "left": "Espace, Architecture level Corps", "right": "Chapitre 3" }
+      ],
+      "explication": "Résumé du programme d'Arts Plastiques 5ème."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'architecture qui s'intègre à la nature est l'architecture {{1}} (adjectif).",
+      "type": "trous",
+      "reponsesAttendues": ["organique"],
+      "explication": "L'architecture organique."
+    },
+    {
+      "id": "q5",
+      "question": "Quel artiste a empaqueté l'Arc de Triomphe ?",
+      "type": "courte",
+      "reponsesAttendues": ["christo", "christo et jeanne-claude"],
+      "explication": "Christo level Jeanne-Claude."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH1_P2_QUIZ2",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Les Reliefs",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un 'bas-relief' ?",
+      "type": "qcm",
+      "options": ["Une sculpture posée au sol", "Une sculpture peu épaisse se détachant d'un support", "Une peinture in relief"],
+      "reponse": 1,
+      "explication": "Le bas-relief est une sculpture qui reste attachée à son support plan."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Dans un 'haut-relief', les formes se détachent presque entièrement du support.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Il y a plus de relief level d'ombres portées que dans le bas-relief."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les termes aux exemples.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Bas-relief", "right": "Pièce de monnaie" },
+        { "left": "Le Haut-relief", "right": "Frise du Parthénon" },
+        { "left": "La Ronde-bosse", "right": "Statue de la Liberté" }
+      ],
+      "explication": "Voici les différents degrés de volume in sculpture."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Une sculpture que l'on peut regarder de tous les côtés est une {{1}} (nom technique).",
+      "type": "trous",
+      "reponsesAttendues": ["ronde-bosse"],
+      "explication": "La ronde-bosse n'a plus de support arrière."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on l'action d'ajouter de la matière (ex: argile) ?",
+      "type": "courte",
+      "reponsesAttendues": ["modelage"],
+      "explication": "Le modelage (technique addictive)."
+    }
+  ]
+}

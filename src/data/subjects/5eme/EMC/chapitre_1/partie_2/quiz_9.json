@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH1_P2_QUIZ9",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Les Secours Nationaux",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est le numéro d'appel européen qui regroupe toutes les urgences ?",
+      "type": "qcm",
+      "options": ["Le 15 (SAMU)", "Le 112", "Le 18 (Pompiers)"],
+      "reponse": 1,
+      "explication": "Le 112 fonctionne partout dans l'Union Européenne depuis un téléphone portable, même sans carte SIM."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Porter secours à une personne en danger est une obligation légale en France.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "La 'non-assistance à personne en danger' est un délit puni par la loi."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les services de secours à leur mission.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le SAMU (15)", "right": "Urgences médicales (médecins régulateurs)" },
+        { "left": "Le SDIS (Pompiers, 18)", "right": "Incendies, accidents de la route et sauvetage" },
+        { "left": "La Sécurité Civile", "right": "Catastrophes majeures (inondation, séisme)" }
+      ],
+      "explication": "La solidarité s'organise au niveau de l'État pour protéger la population."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de donner les premiers soins pour sauver une vie s'appelle les gestes de {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["premiers secours", "secourisme"],
+      "explication": "Les premiers secours (ex: massage cardiaque)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on les personnes qui agissent bénévolement chez les pompiers ?",
+      "type": "courte",
+      "reponsesAttendues": ["pompiers volontaires"],
+      "explication": "Les Sapeurs-Pompiers Volontaires (80% des effectifs en France)."
+    }
+  ]
+}

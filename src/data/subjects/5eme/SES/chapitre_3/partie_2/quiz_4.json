@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH3_P2_QUIZ4",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Le Dialogue Social",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un 'Syndicat' ?",
+      "type": "qcm",
+      "options": [
+        "Une association de patrons uniquement",
+        "Une organisation de travailleurs qui se regroupent pour défendre leurs droits et leurs intérêts (salaires, temps de travail, sécurité)",
+        "Une branche de la police"
+      ],
+      "reponse": 1,
+      "explication": "Les syndicats discutent avec la direction pour améliorer la vie des salariés."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : En France, les salariés ont le droit de faire Grève pour protester, à condition de respecter certaines règles.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le droit de grève est un droit fondamental inscrit dans la Constitution."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'acteur du dialogue social à son rôle.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Délégué Syndical", "right": "Représente son syndicat et négocie des accords avec le patron" },
+        { "left": "CSE (Comité Social et Économique)", "right": "Instance obligatoire qui regroupe les élus du personnel pour discuter avec la direction" },
+        { "left": "L'Employeur", "right": "Représente la direction et doit écouter les demandes des salariés" }
+      ],
+      "explication": "Le dialogue social permet d'éviter les conflits violents."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'accord signé entre les syndicats et les employeurs pour définir les règles de travail d'un secteur (ex: la chimie) s'appelle une {{1}} collective.",
+      "type": "trous",
+      "reponsesAttendues": ["convention"],
+      "explication": "La convention collective complète le Code du Travail."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le document légal qui contient toutes les lois sur le travail en France ?",
+      "type": "courte",
+      "reponsesAttendues": ["le code du travail", "code du travail"],
+      "explication": "C'est le Code du Travail."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH1_P2_QUIZ1",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Surface vs Volume",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la principale différence entre une peinture level une sculpture ?",
+      "type": "qcm",
+      "options": ["La couleur", "La dimension (2D vs 3D)", "Le sujet"],
+      "reponse": 1,
+      "explication": "La peinture est sur une surface plane (2D), la sculpture occupe un volume réel (3D)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Un dessin est une œuvre in trois dimensions.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Le dessin est une pratique bidimensionnelle (2D)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les œuvres à leur dimensionnalité.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Statue en bronze", "right": "3D (Volume)" },
+        { "left": "Photographie", "right": "2D (Surface)" },
+        { "left": "Maquette d'architecture", "right": "3D (Volume)" }
+      ],
+      "explication": "Voici comment classer les types de productions artistiques."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'espace réel occupé par une sculpture est appelé son {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["volume"],
+      "explication": "Le volume."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on une œuvre que l'on peut contourner ?",
+      "type": "courte",
+      "reponsesAttendues": ["ronde-bosse"],
+      "explication": "Une sculpture in ronde-bosse."
+    }
+  ]
+}

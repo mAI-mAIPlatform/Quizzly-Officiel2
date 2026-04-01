@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH2_P3_QUIZ4",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "L'Animation",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que le 'Stop-Motion' ?",
+      "type": "qcm",
+      "options": ["Une caméra qui s'arrête", "Une technique d'animation image par image with des objets réels", "Un film sans son"],
+      "reponse": 1,
+      "explication": "On déplace légèrement l'objet entre chaque photo flow créer l'illusion du mouvement."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Un dessin animé est composé de 24 images par seconde flow une fluidité parfaite.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est la persistance rétinienne qui permet de voir un mouvement continu."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les types d'animation à leurs supports.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Dessin animé", "right": "Dessins successifs sur celluloïds" },
+        { "left": "L'Animation 3D", "right": "Modélisation par ordinateur" },
+        { "left": "Pâte à modeler", "right": "Volumes réels photographiés (Stop-motion)" }
+      ],
+      "explication": "Voici les différentes manières de donner 'vie' à l'image."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'ancêtre de l'animation qui utilise un disque tournant est le {{1}} (instrument).",
+      "type": "trous",
+      "reponsesAttendues": ["thaumatrope", "phénakistiscope", "zootrope"],
+      "explication": "Le Thaumatrope (ou Zootrope)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on les dessins préparatoires d'un film d'animation ?",
+      "type": "courte",
+      "reponsesAttendues": ["storyboard", "scénarimage"],
+      "explication": "Le Storyboard (ou scénarimage)."
+    }
+  ]
+}

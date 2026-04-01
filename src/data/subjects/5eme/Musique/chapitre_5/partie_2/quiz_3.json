@@ -1,0 +1,54 @@
+{
+  "id": "5eme_MUSIQUE_CH5_P2_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_5",
+  "partie": "partie_2",
+  "titre": "La Mesure et la Barre de Mesure",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "À quoi sert une 'Mesure' sur une partition de musique ?",
+      "type": "qcm",
+      "options": [
+        "À décorer la feuille avec des traits verticaux",
+        "À diviser le morceau en groupes de pulsations réguliers (souvent par 2, 3 ou 4) pour faciliter la lecture et l'accentuation",
+        "À mesurer la taille du papier"
+      ],
+      "reponse": 1,
+      "explication": "La mesure structure le temps musical."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La barre de mesure est un trait vertical qui sépare deux mesures.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Elle permet de structurer visuellement le temps sur la portée."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'indication chiffrée (au début de la portée) à son organisation.",
+      "type": "relier",
+      "pairs": [
+        { "left": "4/4", "right": "Mesure à 4 temps (le plus fréquent dans la Pop)" },
+        { "left": "3/4", "right": "Mesure à 3 temps (typiquement le rythme de la Valse)" },
+        { "left": "2/4", "right": "Mesure à 2 temps (rythme de marche)" }
+      ],
+      "explication": "Le chiffre du haut indique le nombre de pulsations par mesure."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le premier temps d'une mesure est généralement un temps {{1}} (plus accentué).",
+      "type": "trous",
+      "reponsesAttendues": ["fort"],
+      "explication": "L'accentuation du premier temps permet de ressentir la structure de la mesure."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le signe composé de deux barres de mesure (dont une plus épaisse) qui indique la fin totale d'un morceau ?",
+      "type": "courte",
+      "reponsesAttendues": ["la barre de fin", "double barre de fin", "barre de fin"],
+      "explication": "C'est la double barre de fin."
+    }
+  ]
+}

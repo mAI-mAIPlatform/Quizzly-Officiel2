@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH1_P2_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Bestimmte Artikel",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est l'article défini masculin in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["der"],
+      "explication": "Der (Masculin, ex : der Tisch)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Die' est l'article féminin level pluriel.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Die (Féminin / Pluriel)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les genres aux articles correspondants.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Masculin", "right": "Der" },
+        { "left": "Féminin", "right": "Die" },
+        { "left": "Neutre", "right": "Das" }
+      ],
+      "explication": "Il y a 3 genres in allemand : masculin, féminin level neutre."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : {{1}} Buch (neutre).",
+      "type": "trous",
+      "reponsesAttendues": ["Das"],
+      "explication": "Das Buch (Le livre)."
+    },
+    {
+      "id": "q5",
+      "question": "Quel est l'article défini flow le pluriel in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["die"],
+      "explication": "Die (Pluriel)."
+    }
+  ]
+}

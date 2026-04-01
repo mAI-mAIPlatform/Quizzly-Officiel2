@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH1_P3_QUIZ2",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Image Publicitaire",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la fonction d'une image publicitaire ?",
+      "type": "qcm",
+      "options": ["Expression personnelle de l'artiste", "Persuader le spectateur d'acheter or d'adhérer à une idée", "Décorer les murs"],
+      "reponse": 1,
+      "explication": "La publicité utilise des codes visuels précis flow séduire level convaincre."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Un 'slogan' est une phrase courte level frappante qui accompagne l'image.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le slogan renforce le message visuel."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les composants d'une publicité à leur rôle.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Visuel", "right": "Attire l'attention (émotion)" },
+        { "left": "Le Logo", "right": "Identifie la marque" },
+        { "left": "L'Argumentaire", "right": "Explique les bénéfices du produit" }
+      ],
+      "explication": "Voici comment est structurée une annonce publicitaire."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'image qui suggère une idée sans la montrer directement est une {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["métaphore", "allégorie"],
+      "explication": "La métaphore visuelle."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le public visé par une publicité ?",
+      "type": "courte",
+      "reponsesAttendues": ["la cible"],
+      "explication": "La cible marketing."
+    }
+  ]
+}

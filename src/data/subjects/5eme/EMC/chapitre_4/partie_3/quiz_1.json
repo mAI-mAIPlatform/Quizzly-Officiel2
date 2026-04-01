@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH4_P3_QUIZ1",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_4",
+  "partie": "partie_3",
+  "titre": "L'ASSR 1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle épreuve obligatoire sur la sécurité routière les élèves de 5ème passent-ils au collège ?",
+      "type": "qcm",
+      "options": ["Le Permis B", "L'ASSR 1 (Attestation Scolaire de Sécurité Routière de 1er niveau)", "Le brevet de cycliste"],
+      "reponse": 1,
+      "explication": "L'ASSR 1 s'obtient au collège et c'est la première étape indispensable pour conduire certains véhicules plus tard."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'ASSR 1 est obligatoire pour pouvoir s'inscrire à la formation pour conduire un scooter (BSR / Permis AM) dès 14 ans.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Sans cette attestation scolaire, on ne peut pas obtenir le Brevet de Sécurité Routière (BSR)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les rôles du collégien dans la rue.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Piéton", "right": "Doit utiliser les passages protégés (passage clouté) pour traverser" },
+        { "left": "Le Cycliste", "right": "Doit porter un casque et utiliser les pistes prévues pour lui" },
+        { "left": "Le Trotinettiste (Électrique)", "right": "N'a pas le droit de monter sur le trottoir pour rouler sous peine d'amende" }
+      ],
+      "explication": "La route est un espace partagé qui nécessite de la prudence et du respect."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de respecter la vie d'autrui sur la route relève du code de la {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["route"],
+      "explication": "Le Code de la Route."
+    },
+    {
+      "id": "q5",
+      "question": "Jusqu'à quel âge le port du casque à vélo est-il strictement obligatoire par la loi française ?",
+      "type": "courte",
+      "reponsesAttendues": ["12 ans", "douze ans", "12"],
+      "explication": "Il est obligatoire jusqu'à l'âge de 12 ans (mais fortement recommandé après)."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH2_P1_QUIZ10",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Récap CH2 P1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment dit-on 'Il y a' en espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["hay"],
+      "explication": "Hay (Il y a)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'La alfombra' est la chaise.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "'La alfombra' est le tapis. La chaise se dit 'la silla'."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les verbes aux objets.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Limpiar", "right": "El salón" },
+        { "left": "Cocinar", "right": "La cena" },
+        { "left": "Ordenar", "right": "El dormitorio" }
+      ],
+      "explication": "Révision des actions ménagères."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Mi casa es muy {{1}} (chaleureuse).",
+      "type": "trous",
+      "reponsesAttendues": ["acogedora"],
+      "explication": "Acogedora (Accueillante / Chaleureuse)."
+    },
+    {
+      "id": "q5",
+      "question": "Cómo se dice 'la salle de bain' on espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["el baño", "el cuarto de baño"],
+      "explication": "El baño (La salle de bain)."
+    }
+  ]
+}

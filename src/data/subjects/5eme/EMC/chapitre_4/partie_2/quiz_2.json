@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH4_P2_QUIZ2",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_4",
+  "partie": "partie_2",
+  "titre": "Cyberharcèlement",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que le cyberharcèlement ?",
+      "type": "qcm",
+      "options": ["Le fait que le téléphone s'éteigne tout seul à cause d'un virus", "Le fait de recevoir des messages méchants, des menaces ou des moqueries répétées sur son téléphone ou les réseaux sociaux", "Le fait de jouer trop longtemps à des jeux vidéo"],
+      "reponse": 1,
+      "explication": "Le harcèlement en ligne (SMS, TikTok, Insta) est puni par la loi. C'est un délit pénal."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Si on ne fait que 'liker' (aimer) un commentaire méchant sur un camarade, on ne peut pas être puni par la loi.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "La loi prévoit que ceux qui encouragent, diffusent ou partagent les insultes se rendent complices du harcèlement (effet de meute)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les numéros verts à la victime qu'ils aident.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le 3020", "right": "Protéger et écouter les victimes de harcèlement scolaire" },
+        { "left": "Le 3018", "right": "Protéger spécifiquement les victimes de cyberharcèlement ou de piratage sur Internet" },
+        { "left": "Le 119", "right": "Allô Enfance en Danger (maltraitances familiales)" }
+      ],
+      "explication": "L'État et le collège mettent à disposition ces outils gratuits et anonymes."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de bloquer l'accès d'une personne à un service numérique ou de la signaler car elle est toxique, c'est ce qu'on appelle la {{1}} (nom) sur les réseaux.",
+      "type": "trous",
+      "reponsesAttendues": ["modération", "protection", "le signalement"],
+      "explication": "Le signalement ou algorithme de modération."
+    },
+    {
+      "id": "q5",
+      "question": "Les auteurs de harcèlement (les agresseurs) sont aussi protégés sur le fait que la loi condamne les insultes ?",
+      "type": "courte",
+      "reponsesAttendues": ["non", "c'est un délit", "faux"],
+      "explication": "Le harceleur risque la prison et s'expose au renvoi (Conseil de Discipline)."
+    }
+  ]
+}

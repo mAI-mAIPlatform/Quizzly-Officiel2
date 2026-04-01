@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH2_P2_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Häufigkeit",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dit 'souvent' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["oft"],
+      "explication": "Oft (Souvent)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Nie' signifie jamais.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Nie (Jamais)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les adverbes à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Immer", "right": "Toujours" },
+        { "left": "Manchmal", "right": "Parfois / Quelquefois" },
+        { "left": "Selten", "right": "Rarement" }
+      ],
+      "explication": "Voici comment préciser la fréquence d'une activité."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Ich spiele {{1}} Fußball (tous les jours).",
+      "type": "trous",
+      "reponsesAttendues": ["jeden tag"],
+      "explication": "Jeden Tag (Chaque jour)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'presque jamais' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["fast nie"],
+      "explication": "Fast nie (Presque jamais)."
+    }
+  ]
+}

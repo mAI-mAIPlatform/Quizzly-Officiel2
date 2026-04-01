@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH1_P2_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Im Klassenzimmer",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dit 'le tableau' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["die tafel"],
+      "explication": "Die Tafel (Le tableau)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Der Stuhl' est la table.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Der Stuhl (La chaise). La table se dit 'der Tisch'."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les objets de la classe à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Das Fenster", "right": "La fenêtre" },
+        { "left": "Die Tür", "right": "La porte" },
+        { "left": "Die Landkarte", "right": "La carte géographique" }
+      ],
+      "explication": "Voici l'environnement de la classe."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Der Lehrer schreibt an die {{1}} (tableau).",
+      "type": "trous",
+      "reponsesAttendues": ["tafel"],
+      "explication": "Die Tafel (Le tableau)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'le bureau des élèves' (le banc) in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["der tisch", "die schulbank"],
+      "explication": "Der Tisch (La table / le bureau)."
+    }
+  ]
+}

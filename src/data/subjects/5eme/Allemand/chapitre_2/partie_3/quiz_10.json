@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH2_P3_QUIZ10",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Récap CH2 Final",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Conjugue : Ich habe {{1}} Vogel (un/accusatif).",
+      "type": "trous",
+      "reponsesAttendues": ["einen"],
+      "explication": "Ich habe einen (Accusatif masculin)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Die Hunde' est le pluriel de 'der Hund'.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Die Hunde."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les instruments de la nature.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Der Baum", "right": "L'arbre" },
+        { "left": "Die Blume", "right": "La fleur" },
+        { "left": "Der Wald", "right": "La forêt" }
+      ],
+      "explication": "Révision de la nature."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Mein Hund hat ein schönes {{1}} (pelage).",
+      "type": "trous",
+      "reponsesAttendues": ["fell"],
+      "explication": "Das Fell (Le pelage)."
+    },
+    {
+      "id": "q5",
+      "question": "Cómo se dit 'faire de la randonnée' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["wandern"],
+      "explication": "Wandern."
+    }
+  ]
+}

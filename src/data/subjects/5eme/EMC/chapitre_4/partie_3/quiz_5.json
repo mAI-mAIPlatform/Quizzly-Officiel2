@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH4_P3_QUIZ5",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_4",
+  "partie": "partie_3",
+  "titre": "Récap Final Ch4 P3",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "En quelle classe passe-t-on l'ASSR 1 au collège ?",
+      "type": "qcm",
+      "options": ["En 6ème", "En 5ème", "En 3ème"],
+      "reponse": 1,
+      "explication": "C'est en 5ème. L'ASSR 2 se passe ensuite en classe de 3ème."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Si je suis témoin d'un accident avec une personne blessée au sol, je dois d'abord essayer de la déplacer pour la mettre sur le côté.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Il ne faut jamais déplacer un blessé (risque de blessure à la colonne vertébrale), sauf en cas de danger immédiat (feu, voiture qui arrive)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie l'action de secours aux premiers maillons de la chaîne de survie.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Protéger", "right": "Sécuriser la zone (mettre un gilet jaune, triangle) pour éviter un autre accident" },
+        { "left": "Alerter", "right": "Appeler le SAMU (15) ou le 112 en donnant les détails" },
+        { "left": "Secourir", "right": "Pratiquer les gestes de premiers secours si on est formé (PSC1)" }
+      ],
+      "explication": "C'est la règle P-A-S enseignée lors de la formation aux premiers secours."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de composer le numéro européen neutre de secours se fait avec le {{1}} (chiffre).",
+      "type": "trous",
+      "reponsesAttendues": ["112", "cent douze"],
+      "explication": "112."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le vêtement de haute visibilité obligatoire dans la voiture en cas de panne ?",
+      "type": "courte",
+      "reponsesAttendues": ["gilet", "le gilet", "un gilet", "le gilet jaune"],
+      "explication": "Le gilet jaune (ou gilet de sécurité)."
+    }
+  ]
+}

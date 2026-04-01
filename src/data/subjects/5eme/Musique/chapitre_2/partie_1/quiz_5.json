@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH2_P1_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Récap Final Ch2 P1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est le but principal de l'utilisation d'une musique 'Hors-champ' (que les personnages n'entendent pas) dans un film ?",
+      "type": "qcm",
+      "options": ["Aider les acteurs à danser sur le plateau de tournage", "Susciter de l'émotion (peur, tristesse, joie) chez le spectateur, et guider l'interprétation de l'image", "Permettre à l'ingénieur du son d'entendre son micro"],
+      "reponse": 1,
+      "explication": "La musique nous dit ce qu'on doit ressentir sans utiliser de mot. Elle 'parle' au spectateur."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le 'Mickey Mousing' consiste à coller les notes de musique aux images animées de façon tellement précise et drôle qu'on a l'impression que la musique est 'bruiteuse'.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est une technique visuelle et musicale indissociable des dessins animés humoristiques."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la technique musicale à sa définition cinématographique.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Leitmotiv", "right": "Petit thème musical récurrent annonçant un personnage (Dark Vador)" },
+        { "left": "Le Bruitage", "right": "Son recréé en studio pour remplacer un bruit étouffé (une porte grincante, des pas)" },
+        { "left": "L'Anachronisme Musical", "right": "Musique moderne plaquée sur un film historique se passant 3 siècles avant (ex: Marie-Antoinette)" }
+      ],
+      "explication": "La bande sonore (B.O.) d'un film est constituée de dialogues, de bruitages et de musique."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action d'enregistrer toutes les voix d'un film dans une salle isolée et sans écho s'appelle le travail de {{1}} (nom féminin, qui veut dire 'son studio').",
+      "type": "trous",
+      "reponsesAttendues": ["post-synchronisation", "post synchronisation", "post-production"],
+      "explication": "La post-synchronisation."
+    },
+    {
+      "id": "q5",
+      "question": "Comment s'appelle l'une des bandes originales de cinéma les plus célèbres, composées au violon par John Williams pour un immense requin tueur ?",
+      "type": "courte",
+      "reponsesAttendues": ["les dents de la mer", "jaws"],
+      "explication": "Les Dents de la Mer (Jaws)."
+    }
+  ]
+}

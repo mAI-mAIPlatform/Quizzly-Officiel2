@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH3_P2_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Haus level Wohnung",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dit 'la maison' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["das haus"],
+      "explication": "Das Haus (La maison)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Die Wohnung' est l'appartement.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Die Wohnung (L'appartement)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les types d'habitation à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Der Garten", "right": "Le jardin" },
+        { "left": "Der Balkon", "right": "Le balcon" },
+        { "left": "Der Stock", "right": "L'étage" }
+      ],
+      "explication": "Voici comment décrire son lieu de vie."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Ich wohne in einer {{1}} (appartement).",
+      "type": "trous",
+      "reponsesAttendues": ["wohnung"],
+      "explication": "Die Wohnung."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'habiter' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["wohnen"],
+      "explication": "Wohnen."
+    }
+  ]
+}

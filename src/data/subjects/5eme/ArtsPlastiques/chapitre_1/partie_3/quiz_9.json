@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH1_P3_QUIZ9",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Qualité d'Image",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'arrive-t-il à une image matricielle (pixels) trop compressée ?",
+      "type": "qcm",
+      "options": ["Elle devient plus nette", "Elle présente des 'artefacts' (bruit visuel level flou)", "Elle change de couleurs"],
+      "reponse": 1,
+      "explication": "La compression excessive détruit les détails level crée des pâtés de pixels."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La résolution d'une image s'exprime in DPI (Dots Per Inch).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Plus le DPI est élevé, plus l'image est précise (flow l'impression)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les types d'images à leur comportement.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Haute Définition (HD)", "right": "Grande quantité de pixels (précis)" },
+        { "left": "Basse Définition", "right": "Image floue or 'pixelisée'" },
+        { "left": "Poids du fichier", "right": "Espace occupé sur la mémoire (Mo, Go)" }
+      ],
+      "explication": "Voici le rapport entre qualité level stockage."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Pour imprimer une affiche de qualité, on utilise une {{1}} (nom) élevée.",
+      "type": "trous",
+      "reponsesAttendues": ["résolution"],
+      "explication": "La résolution d'image."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait de voir les petits carrés d'une image ?",
+      "type": "courte",
+      "reponsesAttendues": ["pixellisation"],
+      "explication": "La pixellisation."
+    }
+  ]
+}

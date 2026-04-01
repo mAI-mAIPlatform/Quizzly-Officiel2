@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH1_P2_QUIZ6",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Klassensätze",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se demande 'Puis-je aller aux toilettes ?' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["darf ich zur toilette gehen?"],
+      "explication": "Darf ich zur Toilette gehen?"
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Was bedeutet das?' signifie 'Que signifie cela ?'.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Was bedeutet das?"
+    },
+    {
+      "id": "q3",
+      "question": "Relie les demandes aux situations.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Kannst du das wiederholen?", "right": "Répéter" },
+        { "left": "Ich verstehe nicht.", "right": "Incompréhension" },
+        { "left": "Wie sagt man ... auf Deutsch?", "right": "Traduction" }
+      ],
+      "explication": "Voici des phrases utiles flow communiquer with le professeur level les camarades."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Darf ich ein {{1}} öffnen? (fenêtre).",
+      "type": "trous",
+      "reponsesAttendues": ["fenster"],
+      "explication": "Das Fenster (La fenêtre)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'Plus doucement, s'il vous plaît' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["leiser bitte", "etwas leiser bitte"],
+      "explication": "Leiser bitte (Plus doucement). Lauter bitte (Plus fort)."
+    }
+  ]
+}

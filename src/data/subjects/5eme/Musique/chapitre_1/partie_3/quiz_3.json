@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH1_P3_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Chants Traditionnels",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une musique ou un chant 'traditionnel(le)' ?",
+      "type": "qcm",
+      "options": ["Une musique créée par un ordinateur", "Une musique ancienne transmise souvent à l'oral (de génération en génération) liée à la culture d'une région ou d'un pays", "Une musique de dessin animé"],
+      "reponse": 1,
+      "explication": "C'est souvent une musique anonyme, jouée lors de fêtes villageoises, de mariages ou de travaux des champs."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le Gospel, chanté dans les églises américaines, est une musique religieuse née de la tradition des esclaves afro-américains.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le 'Negro Spiritual' et le Gospel sont des chants de ferveur religieuse et d'espoir de libération."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la musique traditionnelle à son pays culturel.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Flamenco (guitare, danse, claquement de mains)", "right": "Espagne (Andalousie)" },
+        { "left": "La musique Celtique (cornemuse, flûte, harpe)", "right": "Irlande, Ecosse, Bretagne" },
+        { "left": "Le Yodel (chant de montagne à la voix rapide grave/aiguë)", "right": "Suisse et régions des Alpes" }
+      ],
+      "explication": "Le patrimoine musical immatériel du monde est très riche."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action d'apprendre une chanson sans la lire sur une partition, mais juste en l'écoutant de ses parents pour la rechanter, est une transmission dite {{1}} (adjectif).",
+      "type": "trous",
+      "reponsesAttendues": ["orale"],
+      "explication": "La transmission orale (typique des musiques folkloriques)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le grand ensemble de percussions brésiliennes (surdos, caisses claires) qui rythme le Carnaval de Rio de Janeiro ?",
+      "type": "courte",
+      "reponsesAttendues": ["la batucada", "batucada"],
+      "explication": "Une batucada (tambours typiques de la Samba)."
+    }
+  ]
+}

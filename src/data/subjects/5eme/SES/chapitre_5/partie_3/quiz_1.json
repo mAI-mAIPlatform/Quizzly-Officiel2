@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH5_P3_QUIZ1",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_5",
+  "partie": "partie_3",
+  "titre": "Politiques de l'Emploi",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est l'action de l'État pour réduire le chômage conjoncturel ?",
+      "type": "qcm",
+      "options": [
+        "Augmenter les impôts pour que les gens consomment moins",
+        "Relancer la consommation et l'investissement pour que les entreprises aient besoin de recruter",
+        "Interdire aux gens de chercher du travail"
+      ],
+      "reponse": 1,
+      "explication": "Le chômage conjoncturel se soigne par la relance de l'économie."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Baisser le coût du travail (réduire les cotisations des entreprises) est une solution pour encourager les embauches.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Si un salarié coûte moins cher à l'entreprise, elle peut plus facilement en recruter de nouveaux."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la mesure à son objectif.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Formation professionnelle", "right": "Adapter les compétences des chômeurs aux nouveaux métiers" },
+        { "left": "Emplois aidés", "right": "L'État paye une partie du salaire pour aider les personnes fragiles à travailler" },
+        { "left": "Réduction du temps de travail", "right": "Partager le travail existant entre plus de personnes (ex: les 35h)" }
+      ],
+      "explication": "Il existe de nombreux leviers pour agir sur l'emploi."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de l'État qui consiste à simplifier les règles pour embaucher et licencier s'appelle la {{1}} du marché du travail.",
+      "type": "trous",
+      "reponsesAttendues": ["flexibilité", "flexibilite"],
+      "explication": "La flexibilité vise à rendre le marché plus fluide, mais elle peut aussi augmenter la précarité."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait de donner de l'argent aux chômeurs pour qu'ils puissent vivre en attendant de trouver un job ?",
+      "type": "courte",
+      "reponsesAttendues": ["l'indemnisation", "indemnisation", "allocations chomage"],
+      "explication": "C'est l'indemnisation chômage (le 'traitement social')."
+    }
+  ]
+}

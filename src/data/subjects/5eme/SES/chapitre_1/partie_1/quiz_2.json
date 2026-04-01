@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH1_P1_QUIZ2",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Biens et Services",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un 'Service' en économie ?",
+      "type": "qcm",
+      "options": [
+        "Un objet solide qu'on achète au magasin",
+        "Une activité immatérielle (qu'on ne peut pas stocker) qui apporte une satisfaction (ex: cours de maths, coiffeur, transport)",
+        "Un cadeau gratuit"
+      ],
+      "reponse": 1,
+      "explication": "Un service est consommé au moment même où il est produit."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Une pomme est un Bien Durable, car on peut la garder pendant 10 ans sans qu'elle s'abîme.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Une pomme est un bien non durable (consommable). Un bien durable est un objet qui sert plusieurs fois (un frigo, une télévision)."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la production à sa catégorie exacte.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Un vélo", "right": "Bien Durable (matériel)" },
+        { "left": "Un ticket de cinéma", "right": "Service (consommation d'un film)" },
+        { "left": "Une baguette de pain", "right": "Bien Non Durable (détruit à la consommation)" }
+      ],
+      "explication": "Les entreprises produisent ces différents éléments pour le marché."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Un service rendu par l'État (comme l'école ou la police) qui est gratuit ou presque s'appelle un service {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["non marchand"],
+      "explication": "C'est un service 'non marchand' car il n'est pas vendu sur un marché pour faire du profit."
+    },
+    {
+      "id": "q5",
+      "question": "Quel est le but principal d'une entreprise privée quand elle vend des Biens Marchands ?",
+      "type": "courte",
+      "reponsesAttendues": ["le profit", "faire du profit", "bénéfice", "faire du bénéfice"],
+      "explication": "Le but est de réaliser un profit (ou bénéfice)."
+    }
+  ]
+}

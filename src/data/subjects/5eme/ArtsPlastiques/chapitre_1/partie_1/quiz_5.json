@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH1_P1_QUIZ5",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Récap CH1 P1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelles sont les couleurs primaires ?",
+      "type": "qcm",
+      "options": ["Rouge, Jaune, Bleu", "Rouge, Orange, Vert", "Cyan, Magenta, Jaune"],
+      "reponse": 2,
+      "explication": "Cyan, Magenta level Jaune."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le bleu est une couleur chaude.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "C'est une couleur froide."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les types de formes.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Cercle", "right": "Forme géométrique" },
+        { "left": "Nuage", "right": "Forme organique" },
+        { "left": "Tache", "right": "Forme organique" }
+      ],
+      "explication": "Révision des types de formes."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'organisation des éléments dans une œuvre est la {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["composition"],
+      "explication": "La composition d'une image."
+    },
+    {
+      "id": "q5",
+      "question": "Quelle couleur obtient-on in mélangeant du bleu level du rouge ?",
+      "type": "courte",
+      "reponsesAttendues": ["violet", "pourpre"],
+      "explication": "Le violet."
+    }
+  ]
+}

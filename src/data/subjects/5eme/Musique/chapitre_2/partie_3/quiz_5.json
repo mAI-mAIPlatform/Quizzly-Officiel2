@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH2_P3_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Récap Final Ch2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une musique de film de type 'Leitmotiv' ?",
+      "type": "qcm",
+      "options": ["Une musique qui ne passe qu'à la fin du film", "Un petit air de musique (un motif) toujours associé à la même idée ou au même personnage quand il apparaît (ex: La Force dans Star Wars)", "Une chanson qui passe à la radio dans le film"],
+      "reponse": 1,
+      "explication": "C'est l'identification musicale d'un héros ou d'un méchant, héritée des opéras de Richard Wagner au XIXe siècle."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Dans un film, la musique Diégétique (IN) est une musique que le spectateur entend mais que les personnages n'entendent pas du tout.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "La musique 'IN' (diégétique) est dans l'action, donc les personnages L'ENTENDENT. C'est la musique 'Hors-Champ' (extra-diégétique) qu'ils n'entendent pas."
+    },
+    {
+      "id": "q3",
+      "question": "Associe le métier du son à son rôle dans la fabrication d'un film.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Mixeur Son", "right": "Mélange toutes les pistes audio à la fin (dialogues, musique, bruitages) pour équilibrer le volume général" },
+        { "left": "Le Bruiteur (Foley Artist)", "right": "Recrée tous les sons en studio avec des objets bizarres pour rendre l'action réaliste (les pas, les chocs)" },
+        { "left": "Le Compositeur de Bande Originale", "right": "Écrit la partition musicale, souvent symphonique ou électronique, pour accompagner l'émotion du film" }
+      ],
+      "explication": "La bande-son est un immense travail d'équipe derrière les acteurs."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de caler parfaitement un bruitage musical comique sur une chute dans un dessin animé (comme Tom et Jerry) s'appelle le {{1}} (mot anglais) Mousing.",
+      "type": "trous",
+      "reponsesAttendues": ["mickey"],
+      "explication": "Le Mickey Mousing (très utilisé chez Disney ou dans les Looney Tunes)."
+    },
+    {
+      "id": "q5",
+      "question": "Quel célèbre acteur humoristique du cinéma muet, avec son chapeau melon et sa petite moustache noire, réalisait lui-même la musique pour accompagner ses films en noir et blanc ('Les Temps Modernes', 'Le Dictateur') ?",
+      "type": "courte",
+      "reponsesAttendues": ["charlie chaplin", "chaplin"],
+      "explication": "Charlie Chaplin."
+    }
+  ]
+}

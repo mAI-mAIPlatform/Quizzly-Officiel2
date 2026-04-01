@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH6_P2_QUIZ1",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_6",
+  "partie": "partie_2",
+  "titre": "Culture et Mondialisation",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que l''Uniformisation Culturelle' ?",
+      "type": "qcm",
+      "options": [
+        "Le fait que chaque pays garde ses propres traditions uniquement",
+        "Le risque que les modes de vie (musique, films, nourriture) se ressemblent partout dans le monde, souvent influencés par la culture américaine (Américanisation)",
+        "Le port obligatoire de l'uniforme à l'école"
+      ],
+      "reponse": 1,
+      "explication": "On peut manger un Big Mac et écouter la même musique à Paris, Tokyo ou New York."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'Acculturation est le processus par lequel un groupe adopte tout ou partie des valeurs culturelles d'un autre groupe.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est un mélange de cultures qui crée de nouveaux modes de vie."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'exemple au concept culturel.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le succès mondial des mangas", "right": "Rayonnement d'une culture spécifique (Soft Power Japonais)" },
+        { "left": "Le métissage culinaire", "right": "Création de nouveaux plats mélangeant plusieurs traditions" },
+        { "left": "L'exception culturelle", "right": "Règles protégeant les films nationaux face aux blockbusters mondiaux" }
+      ],
+      "explication": "La mondialisation culturelle n'est pas qu'à sens unique."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : La capacité d'un pays à influencer les autres par sa culture et ses idées plutôt que par la force s'appelle le {{1}} Power.",
+      "type": "trous",
+      "reponsesAttendues": ["Soft"],
+      "explication": "Le Soft Power est une arme de diplomatie très puissante."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait de protéger et de mettre en valeur les traditions locales face à la mondialisation ?",
+      "type": "courte",
+      "reponsesAttendues": ["la diversité culturelle", "diversite culturelle", "identite culturelle"],
+      "explication": "C'est la défense de la diversité culturelle (souvent soutenue par l'UNESCO)."
+    }
+  ]
+}

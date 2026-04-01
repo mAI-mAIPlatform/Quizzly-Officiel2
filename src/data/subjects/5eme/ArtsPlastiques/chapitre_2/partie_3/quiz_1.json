@@ -1,0 +1,49 @@
+{
+  "id": "5eme_AP_CH2_P3_QUIZ1",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Codes de la BD",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment appelle-t-on l'encadré qui contient le dessin in une BD ?",
+      "type": "courte",
+      "reponsesAttendues": ["la case", "vignette"],
+      "explication": "La case (ou vignette)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La 'gouttière' est l'espace blanc entre deux cases.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est là que le lecteur imagine le mouvement level le temps qui passe (ellipse)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les termes de BD à leur fonction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "La Bulle (Phylactère)", "right": "Contient les paroles or pensées" },
+        { "left": "L'Onomatopée", "right": "Traduit un bruit par écrit (BOUM !)" },
+        { "left": "Le Cartouche", "right": "Texte du narrateur (pendant ce temps...)" }
+      ],
+      "explication": "Voici les éléments de base de la narration graphique."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'ordre de lecture habituel d'une planche de BD est de {{1}} à droite level de haut in bas.",
+      "type": "trous",
+      "reponsesAttendues": ["gauche"],
+      "explication": "De gauche à droite."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on une suite de cases sur une même ligne ?",
+      "type": "courte",
+      "reponsesAttendues": ["un strip", "un bandeau"],
+      "explication": "Un strip (ou bandeau)."
+    }
+  ]
+}

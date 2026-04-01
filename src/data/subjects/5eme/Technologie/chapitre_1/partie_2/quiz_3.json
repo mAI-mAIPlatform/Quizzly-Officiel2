@@ -1,0 +1,54 @@
+{
+  "id": "5eme_TECH_CH1_P2_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Forces et Efforts",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que la force de 'Compression' ?",
+      "type": "qcm",
+      "options": [
+        "Quand on tire sur une barre pour l'étirer",
+        "Quand on appuie sur un objet pour l'écraser (ex: les piles d'un pont)",
+        "Quand on tord un linge mouillé"
+      ],
+      "reponse": 1,
+      "explication": "Les piliers et les murs porteurs sont soumis à la compression."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La 'Traction' est une force qui tend à allonger un objet.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Les câbles d'un pont suspendu sont soumis à une traction énorme."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la force à son effet sur la règle.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Flexion", "right": "Courber une barre en appuyant au milieu" },
+        { "left": "Torsion", "right": "Vriller l'objet en tournant les deux bouts en sens inverse" },
+        { "left": "Cisaillement", "right": "Tenter de couper l'objet avec deux forces proches (ex: ciseaux)" }
+      ],
+      "explication": "Les ingénieurs calculent ces efforts pour éviter que le bâtiment ne s'écroule."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Une poutre sur laquelle on marche subit une {{1}} (elle se courbe).",
+      "type": "trous",
+      "reponsesAttendues": ["flexion"],
+      "explication": "C'est pour cela qu'on utilise des poutres en 'I' ou 'H' pour plus de rigidité."
+    },
+    {
+      "id": "q5",
+      "question": "Quel nom donne-t-on à l'instrument qui permet de mesurer l'intensité d'une force en Newtons ?",
+      "type": "courte",
+      "reponsesAttendues": ["le dynamomètre", "dynamometre"],
+      "explication": "C'est le dynamomètre."
+    }
+  ]
+}

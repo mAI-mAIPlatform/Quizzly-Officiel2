@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH6_P1_QUIZ3",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_6",
+  "partie": "partie_1",
+  "titre": "La Spécialisation",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Pourquoi les pays se spécialisent-ils dans certaines productions (ex: l'Arabie Pétrole, l'Allemagne Voitures) ?",
+      "type": "qcm",
+      "options": [
+        "Parce qu'ils ne savent rien faire d'autre",
+        "Pour produire ce qu'ils font le mieux ou le moins cher, et l'échanger ensuite contre ce qu'ils ne produisent pas",
+        "Parce que c'est une règle punitive"
+      ],
+      "reponse": 1,
+      "explication": "En se spécialisant, le monde entier produit plus de richesses au total."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Un pays qui a un 'Avantage Comparatif' est un pays qui produit un bien avec un coût plus faible que les autres.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Il a donc intérêt à se concentrer sur cette production pour l'exporter."
+    },
+    {
+      "id": "q3",
+      "question": "Associe le pays à sa spécialisation célèbre.",
+      "type": "relier",
+      "pairs": [
+        { "left": "France", "right": "Luxe, Vins, Aéronautique (Airbus)" },
+        { "left": "Chine", "right": "Électronique, Produits manufacturés" },
+        { "left": "Bénin / Côte d'Ivoire", "right": "Coton, Cacao (Matières premières agricoles)" }
+      ],
+      "explication": "La spécialisation dépend des ressources du pays (climat, mines, technologie)."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'échange permet aux consommateurs d'avoir plus de {{1}} de produits à des prix moins élevés.",
+      "type": "trous",
+      "reponsesAttendues": ["choix", "variété", "variete"],
+      "explication": "Sans commerce, on ne mangerait pas de bananes en France et on ne vendrait pas nos avions à l'étranger."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait de vendre des produits à l'étranger ?",
+      "type": "courte",
+      "reponsesAttendues": ["l'exportation", "exportation", "exporter"],
+      "explication": "C'est l'exportation."
+    }
+  ]
+}

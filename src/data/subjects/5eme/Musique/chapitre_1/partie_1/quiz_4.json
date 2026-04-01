@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH1_P1_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Les Nuances",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "En musique, à quoi sert une 'nuance' (ex: piano, forte) ?",
+      "type": "qcm",
+      "options": ["À indiquer la vitesse du morceau", "À indiquer l'intensité ou le volume sonore (si on doit jouer doucement ou fort)", "À changer l'instrument de musique"],
+      "reponse": 1,
+      "explication": "Les nuances (souvent écrites en italien sur la partition) donnent de l'expression et de l'émotion à une musique."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le symbole 'f' sur une partition signifie qu'il faut jouer 'Piano' (très doucement).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Le 'f' veut dire 'Forte' (jouer fort et avec énergie). C'est le 'p' qui signifie 'Piano' (jouer doucement)."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la nuance (en italien) à sa traduction d'intensité.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Pianissimo (pp)", "right": "Jouer très doucement (presque chuchoté)" },
+        { "left": "Mezzo-Forte (mf)", "right": "Jouer moyennement fort" },
+        { "left": "Fortissimo (ff)", "right": "Jouer très fort" }
+      ],
+      "explication": "On peut aussi trouver un 'crescendo' (le son augmente peu à peu)."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'instrument dont le nom est 'piano-forte', l'ancêtre du {{1}} (nom), s'appelle ainsi car il pouvait jouer à la fois doucement et fort, contrairement au clavecin.",
+      "type": "trous",
+      "reponsesAttendues": ["piano"],
+      "explication": "Le piano."
+    },
+    {
+      "id": "q5",
+      "question": "Quel signe mathématique en forme de 'V' couché ( < ) utilise-t-on en musique pour indiquer un 'Crescendo' (le son augmente progressivement) ?",
+      "type": "courte",
+      "reponsesAttendues": ["un soufflet", "le soufflet", "soufflet", "signe inférieur à"],
+      "explication": "Un soufflet."
+    }
+  ]
+}

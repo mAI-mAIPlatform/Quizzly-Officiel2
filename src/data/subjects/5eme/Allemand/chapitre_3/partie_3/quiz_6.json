@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH3_P3_QUIZ6",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Trennbare Routine",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Conjugue : Ich {{1}} um 8 Uhr {{2}} (commencer).",
+      "type": "trous",
+      "reponsesAttendues": ["fange", "an"],
+      "explication": "Anfangen (Commencer)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Ich sehe abends fern' signifie je regarde la télé le soir.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Fernsehen -> Ich sehe ... fern."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les verbes à leur particule séparable.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Auf", "right": "stehen" },
+        { "left": "An", "right": "fangen" },
+        { "left": "Ein", "right": "kaufen" }
+      ],
+      "explication": "Révision des verbes à particule séparable."
+    },
+    {
+      "id": "q4",
+      "question": "Où se place la particule séparable in une phrase declarative ?",
+      "type": "courte",
+      "reponsesAttendues": ["à la fin", "en fin de phrase"],
+      "explication": "À la fin de la phrase."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'ranger' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["aufräumen"],
+      "explication": "Aufräumen."
+    }
+  ]
+}

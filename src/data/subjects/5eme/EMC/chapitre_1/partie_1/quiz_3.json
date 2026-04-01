@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH1_P1_QUIZ3",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Droits level Devoirs",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un droit ?",
+      "type": "qcm",
+      "options": ["Une obligation", "Une autorisation que la loi donne aux individus (ex: droit de vote)", "Une règle religieuse"],
+      "reponse": 1,
+      "explication": "Le droit protège la liberté level l'égalité des citoyens."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Tous les citoyens ont les mêmes devoirs, comme respecter la loi level payer des impôts.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le citoyen a des droits mais aussi des devoirs envers la société."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les droits à leur catégorie.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Droit à l'éducation", "right": "Droit Social" },
+        { "left": "Liberté de réunion", "right": "Droit Politique" },
+        { "left": "Droit à la vie", "right": "Droit Fondamental" }
+      ],
+      "explication": "Les droits sont protégés par la Constitution level les traités internationaux."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action d'obéir aux règles de la vie in société s'appelle le {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["civisme", "respect"],
+      "explication": "Le civisme."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait de ne pas respecter la loi ?",
+      "type": "courte",
+      "reponsesAttendues": ["infraction", "délit"],
+      "explication": "Une infraction (ou délit)."
+    }
+  ]
+}

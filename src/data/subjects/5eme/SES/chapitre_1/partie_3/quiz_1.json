@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH1_P3_QUIZ1",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Les Revenus du Travail",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un 'Revenu' en économie ?",
+      "type": "qcm",
+      "options": [
+        "L'argent que l'on dépense pour acheter du pain",
+        "Une somme d'argent perçue par un agent économique en échange de son travail ou de la possession d'un capital",
+        "Une aide gratuite donnée par la famille"
+      ],
+      "reponse": 1,
+      "explication": "Le revenu permet aux ménages de consommer ou d'épargner."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le 'Salaire' est le revenu perçu par un travailleur indépendant (comme un boulanger à son compte).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Le salaire est réservé aux salariés (qui ont un patron). Un indépendant perçoit un 'Revenu Mixte' ou un bénéfice."
+    },
+    {
+      "id": "q3",
+      "question": "Associe le type de rémunération à sa définition.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Salaire Brut", "right": "Montant total avant le retrait des cotisations sociales (impôts/sécurité sociale)" },
+        { "left": "Salaire Net", "right": "Somme réellement versée sur le compte bancaire du travailleur à la fin du mois" },
+        { "left": "SMIC", "right": "Salaire Minimum Interprofessionnel de Croissance (la loi interdit de payer moins)" }
+      ],
+      "explication": "Le salaire net est ce que le ménage peut utiliser pour ses besoins."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'argent prélevé sur le salaire brut pour financer la santé ou la retraite s'appelle les {{1}} sociales.",
+      "type": "trous",
+      "reponsesAttendues": ["cotisations", "charges"],
+      "explication": "Ces cotisations permettent de protéger les citoyens contre les risques de la vie."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le contrat écrit entre un employeur et un salarié qui fixe le salaire et le temps de travail ?",
+      "type": "courte",
+      "reponsesAttendues": ["le contrat de travail", "contrat de travail"],
+      "explication": "C'est le contrat de travail (CDI, CDD, etc.)."
+    }
+  ]
+}

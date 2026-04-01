@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH4_P3_QUIZ4",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_4",
+  "partie": "partie_3",
+  "titre": "Les Secours",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel numéro dois-tu appeler partout en Europe en cas d'urgence depuis un téléphone portable ?",
+      "type": "qcm",
+      "options": ["Le 15", "Le 112", "Le 911"],
+      "reponse": 1,
+      "explication": "Le 112 est le numéro d'urgence européen, gratuit, et qui fonctionne même sans carte SIM de ton opérateur."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Si on trouve une personne inconsciente au sol, la première chose à faire est d'appeler la police (17).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Pour une urgence vitale ou médicale, il faut appeler le SAMU (15) ou les Pompiers (18) ou le 112."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les numéros d'urgence français au service concerné.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le 15 (SAMU)", "right": "Problème médical grave, besoin urgent d'un médecin" },
+        { "left": "Le 17 (Police Secours ou Gendarmerie)", "right": "Besoin de sécurité (agression, cambriolage)" },
+        { "left": "Le 18 (Pompiers)", "right": "Incendie, accident de la route, sauvetage" }
+      ],
+      "explication": "Il est vital de connaître le bon numéro pour gagner du temps."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de donner l'endroit exact, la nature du problème et le nombre de victimes par téléphone s'appelle donner l'{{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["alerte"],
+      "explication": "Donner l'alerte."
+    },
+    {
+      "id": "q5",
+      "question": "Quel est le numéro spécifique (11...) destiné aux personnes sourdes et malentendantes (par SMS ou fax) pour les urgences ?",
+      "type": "courte",
+      "reponsesAttendues": ["le 114", "114"],
+      "explication": "Le 114."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH1_P1_QUIZ6",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Ombre level Lumière",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment appelle-t-on l'ombre qui se trouve directement sur l'objet éclairé ?",
+      "type": "qcm",
+      "options": ["L'ombre portée", "L'ombre propre", "La pénombre"],
+      "reponse": 1,
+      "explication": "L'ombre propre est la partie sombre de l'objet lui-même."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'ombre portée est l'ombre projetée par l'objet sur le sol or une paroi.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Elle dépend de la direction de la source lumineuse."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les termes aux effets produits.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Clair-obscur", "right": "Fort contraste entre lumière level ombre" },
+        { "left": "Le Modelé", "right": "Rendu du volume par les dégradés" },
+        { "left": "Le Contre-jour", "right": "Source lumineuse face à l'observateur" }
+      ],
+      "explication": "Voici comment la lumière sculpte les formes."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le point le plus lumineux sur un objet brillant est appelé le point de {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["brillance", "reflet"],
+      "explication": "Le reflet (ou éclat)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on une source de lumière artificielle (ex: lampe) ?",
+      "type": "courte",
+      "reponsesAttendues": ["lumière artificielle"],
+      "explication": "Lumière artificielle (opposée à naturelle)."
+    }
+  ]
+}

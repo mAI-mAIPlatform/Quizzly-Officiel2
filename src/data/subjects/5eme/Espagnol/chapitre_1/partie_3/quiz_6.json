@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH1_P3_QUIZ6",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Lugares",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dice 'la cour' en espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["el patio"],
+      "explication": "El patio (La cour de récréation)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'El comedor' est l'endroit où on mange (la cantine).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Comer (Manger) -> Comedor (Cantine / Salle à manger)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les lieux du collège à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "La biblioteca", "right": "La bibliothèque" },
+        { "left": "El gimnasio", "right": "Le gymnase" },
+        { "left": "Los aseos", "right": "Les toilettes" }
+      ],
+      "explication": "Voici les différents espaces du collège."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Reservo un libro on la {{1}} (bibliothèque).",
+      "type": "trous",
+      "reponsesAttendues": ["biblioteca"],
+      "explication": "Biblioteca (Bibliothèque)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'le secrétariat' on espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["la secretaría"],
+      "explication": "La secretaría (Le secrétariat)."
+    }
+  ]
+}

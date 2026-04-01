@@ -1,0 +1,54 @@
+{
+  "id": "5eme_TECH_CH1_P1_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Fonctions et Contraintes",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une 'Contrainte' en technologie ?",
+      "type": "qcm",
+      "options": [
+        "Un choix décoratif laissé au hasard",
+        "Une obligation à respecter (budget, sécurité, météo, loi) lors de la conception d'un objet",
+        "Le nom de l'architecte"
+      ],
+      "reponse": 1,
+      "explication": "Le concepteur doit composer avec des contraintes techniques, économiques et environnementales."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Résister au vent' est une contrainte technique pour un gratte-ciel.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le vent exerce une pression énorme sur les structures hautes."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la fonction au groupe de besoins.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Fonction d'Estime", "right": "L'objet me plaît-il ? (Beauté, couleur, style)" },
+        { "left": "Fonction d'Usage", "right": "À quoi sert l'objet ? (Abriter, éclairer, porter)" },
+        { "left": "Contrainte Normative", "right": "Respecter les lois de sécurité (NF, CE)" }
+      ],
+      "explication": "Un objet doit être utile ET plaire au client."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Une maison qui consomme très peu d'énergie respecte une contrainte {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["environnementale", "ecologique"],
+      "explication": "Les économies d'énergie sont une contrainte majeure aujourd'hui."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le dessin qui montre comment l'objet technique réagit avec son environnement (utilisateur, énergie, obstacles) ?",
+      "type": "courte",
+      "reponsesAttendues": ["le diagramme pieuvre", "diagramme pieuvre", "graphe des interactions"],
+      "explication": "C'est le diagramme pieuvre (ou graphe des interactions)."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH3_P1_QUIZ5",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Récap CH3 P1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qui nomme le Premier Ministre en France ?",
+      "type": "qcm",
+      "options": ["Le Maire de la ville de Paris", "Le Président de la République", "Le Sénat"],
+      "reponse": 1,
+      "explication": "Le Président (chef de l'État) choisit le chef du Gouvernement (Premier Ministre)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les députés et les sénateurs ont le pouvoir exécutif.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Les députés et les sénateurs forment le Parlement, qui détient le pouvoir législatif (voter les lois)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les institutions à leur domaine de compétence locale.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Conseil Municipal", "right": "Gère l'école primaire et la cantine de la ville" },
+        { "left": "Le Conseil Départemental", "right": "Occupe l'entretien des routes et gère les collèges" },
+        { "left": "Le Conseil Régional", "right": "S'occupe des transports en commun et des lycées" }
+      ],
+      "explication": "C'est la décentralisation : l'État transfère des compétences aux collectivités territoriales."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : La loi suprême au-dessus de toutes nos autres lois est la {{1}} (nom) de 1958.",
+      "type": "trous",
+      "reponsesAttendues": ["constitution", "constitution de la vème république"],
+      "explication": "La Constitution de la Vème République."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on la séparation des pouvoirs (exécutif, législatif, judiciaire) ?",
+      "type": "courte",
+      "reponsesAttendues": ["la séparation des pouvoirs", "séparation des pouvoirs"],
+      "explication": "La séparation des pouvoirs (principe démocratique fondamental)."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH1_P1_QUIZ4",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Composition d'Image",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que la 'symétrie' in une image ?",
+      "type": "qcm",
+      "options": ["Une répétition à l'identique de part level d'autre d'un axe", "Un mélange de couleurs", "Une forme aléatoire"],
+      "reponse": 0,
+      "explication": "La symétrie crée un sentiment d'équilibre level de stabilité."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La 'règle des tiers' consiste à placer le sujet principal au centre exact de l'image.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Elle consiste à diviser l'image in 9 level à placer le sujet sur les lignes de force."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les termes de composition à leur définition.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Cadrage", "right": "Ce qui est délimité par l'image" },
+        { "left": "Le Point de vue", "right": "L'angle sous lequel on regarde" },
+        { "left": "L'Arrière-plan", "right": "Ce qui est au fond de l'image" }
+      ],
+      "explication": "Voici les bases flow construire une image."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Un cadrage très serré sur un visage est appelé un {{1}} (échelle des plans).",
+      "type": "trous",
+      "reponsesAttendues": ["gros plan"],
+      "explication": "Le gros plan."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on l'organisation des éléments dans une œuvre ?",
+      "type": "courte",
+      "reponsesAttendues": ["composition"],
+      "explication": "La composition (Mise in page)."
+    }
+  ]
+}

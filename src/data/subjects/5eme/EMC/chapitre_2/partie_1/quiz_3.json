@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH2_P1_QUIZ3",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Les Risques Technologiques",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un risque technologique majeur ?",
+      "type": "qcm",
+      "options": ["Une panne temporaire d'internet", "Un accident grave lié aux activités humaines (usines, transport de matières dangereuses, nucléaire)", "Une usine qui ferme"],
+      "reponse": 1,
+      "explication": "C'est un risque lié à la manipulation de produits dangereux par l'homme."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'accident de l'usine AZF à Toulouse en 2001 est un exemple typique de risque industriel.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "L'explosion de cette usine a fait 31 morts et détruit de nombreux bâtiments."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les types de risques technologiques à leur description.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Risque Nucléaire", "right": "Lié à une fuite radioactive d'une centrale" },
+        { "left": "Le Risque Industriel", "right": "Explosion, incendie ou nuage toxique (usines Seveso)" },
+        { "left": "Le Transport de Matières Dangereuses", "right": "Accident d'un camion ou train contenant des produits chimiques" }
+      ],
+      "explication": "L'industrie nécessite des mesures de sécurité extrêmement strictes."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : En cas de nuage toxique, la consigne principale est de se {{1}} (verbe) à l'intérieur d'un bâtiment et de fermer les fenêtres.",
+      "type": "trous",
+      "reponsesAttendues": ["confiner"],
+      "explication": "Le confinement (se calfeutrer)."
+    },
+    {
+      "id": "q5",
+      "question": "Quelle radio publique faut-il écouter en cas d'alerte pour s'informer ?",
+      "type": "courte",
+      "reponsesAttendues": ["france bleu", "france info", "france inter"],
+      "explication": "Les radios du service public (France Bleu, France Info)."
+    }
+  ]
+}

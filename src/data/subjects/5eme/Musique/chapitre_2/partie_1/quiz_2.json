@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH2_P1_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Musique In / Off",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Au cinéma, qu'est-ce qu'une musique 'In' (ou diégétique) ?",
+      "type": "qcm",
+      "options": ["Une musique que les personnages dans le film peuvent entendre (ex: la radio est allumée dans la voiture)", "Une musique ajoutée plus tard pour faire peur au spectateur, et que les personnages n'entendent pas", "Une musique d'un compositeur indien"],
+      "reponse": 0,
+      "explication": "La musique 'In' fait partie de l'histoire du film (les personnages dansent dessus ou l'entendent)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Si on voit un grand orchestre symphonique jouer derrière Dark Vador dans Star Wars, c'est une musique 'In'. Mais comme on ne voit pas d'orchestre dans l'espace, la marche impériale est une musique 'Hors-champ' (ou extra-diégétique).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "La musique extra-diégétique (Hors-champ) est là pour nous, spectateurs, afin de nous faire ressentir des émotions."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la situation au type de musique (In ou Hors-champ).",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le héros met ses écouteurs et fredonne la chanson", "right": "Musique In (Diégétique)" },
+        { "left": "Un orchestre invisible joue une musique triste au moment où le héros pleure seul sur une montagne", "right": "Musique Hors-champ (Extra-diégétique)" },
+        { "left": "Un pianiste joue dans un restaurant pendant que les héros dînent", "right": "Musique In (Diégétique à l'écran)" }
+      ],
+      "explication": "Le réalisateur joue avec ces deux types de sons pour nous immerger dans l'action."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de rajouter des bruits (pas, portes) sur les images du film au moment du montage, en studio après le tournage, s'appelle le {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["bruitage"],
+      "explication": "Le bruitage."
+    },
+    {
+      "id": "q5",
+      "question": "Quel nom porte la toute dernière musique d'un film, souvent une longue suite d'orchestre ou une célèbre chanson qui accompagne la liste défilante de tous les créateurs ?",
+      "type": "courte",
+      "reponsesAttendues": ["générique", "le générique", "générique de fin", "le générique de fin"],
+      "explication": "Le générique."
+    }
+  ]
+}

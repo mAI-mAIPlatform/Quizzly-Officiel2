@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH3_P3_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Les Musiques Urbaines",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment la culture 'Hip-Hop' / Rap naît-elle dans les années 1970 à New York (Bronx) ?",
+      "type": "qcm",
+      "options": ["Grâce à des jeunes chantant de l'opéra italien pauvre", "Grâce aux Block Parties, fêtes de quartier où le 'DJ' utilise deux disques vinyles pour faire tourner en boucle le même rythme (le breakbeat) pendant que l'animateur (MC) parle dessus de manière rythmée pour haranguer la foule", "Grâce à des écoles de piano classique"],
+      "reponse": 1,
+      "explication": "Le 'Rap' (Rhythm And Poetry) vient des rimes de ces Maîtres de Cérémonie ('MC') improvisant sur la musique des Disc Jockeys ('DJ') américains, comme le premier de tous : DJ Kool Herc."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La musique 'Électronique' (comme la Techno ou la House) a été inventée au 19ème siècle grâce au piano acoustique de Mozart.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Les années 1980 vont révolutionner le monde avec les ordinateurs, les boîtes à rythmes (Roland TR-808) et les Synthétiseurs qui créeront la musique 'House' de Chicago ou 'Techno' de Detroit."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la technique fondatrice de la musique urbaine à sa définition précise.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Scratching (Scratch)", "right": "Frictionner son disque de vinyle d'avant en arrière à la main sur la platine pour créer un son de 'raclement' percussif comme un instrument" },
+        { "left": "Le Beatboxing", "right": "Imiter le son complet d'une énorme batterie rock et de basses... juste en faisant des bruits et claquements à l'intérieur de sa bouche" },
+        { "left": "Le Sampling (L'Échantillonnage)", "right": "Découper et voler 3 secondes d'un vieux disque des années 70 pour le passer en boucle et créer une toute nouvelle musique moderne" }
+      ],
+      "explication": "Ces musiciens n'ont d'abord pas d'instruments (par pauvreté des quartiers) et retournent les limites de la propre platine disque existante ! C'est le triomphe de la Machine."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de chanter et de faire du rap sans utiliser de vrais mots mais juste en fredonnant et testant la bonne hauteur des rimes ou des voyelles avant d'écrire le texte vrai final des paroles s'appelle chanter en {{1}} (mot familier anglais pour un yaourt sonore).",
+      "type": "trous",
+      "reponsesAttendues": ["yaourt", "fake english"],
+      "explication": "Le 'Yaourt' (fréquent chez beaucoup d'auteurs populaires)."
+    },
+    {
+      "id": "q5",
+      "question": "Quel célèbre duo français masqué de producteurs (avec des casques de robots) a donné ses lettres de noblesse à la fameuse 'French Touch' (la House de France) dans le monde entier aux Grammy Awards avant de se séparer ?",
+      "type": "courte",
+      "reponsesAttendues": ["daft punk", "les daft punk"],
+      "explication": "Daft Punk."
+    }
+  ]
+}

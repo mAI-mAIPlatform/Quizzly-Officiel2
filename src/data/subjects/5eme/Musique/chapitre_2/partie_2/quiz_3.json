@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH2_P2_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "L'Ambiance Sonore",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est le rôle d'une musique dite 'd'atmosphère' ou d'ambiance dans un film (souvent sans mélodie claire) ?",
+      "type": "qcm",
+      "options": ["Juste faire du bruit pour empêcher le public de s'endormir", "Créer une tension psychologique, de la peur ou du suspense (souvent avec des bruits graves ou des nappes sonores)", "Faire danser les personnages"],
+      "reponse": 1,
+      "explication": "Le 'Sound Design' (design sonore) brouille souvent la frontière entre la musique et le simple bruitage pour installer un climat (ex: film d'horreur)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le célèbre compositeur japonais Joe Hisaishi est connu mondialement pour ses musiques douces et poétiques réalisées pour les chefs-d'œuvre du studio Ghibli.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Il a composé les bandes originales (B.O.) de 'Mon Voisin Totoro', 'Le Voyage de Chihiro' ou 'Princesse Mononoké' pour le réalisateur Hayao Miyazaki."
+    },
+    {
+      "id": "q3",
+      "question": "Dans le design de l'atmosphère sonore d'une scène triste, quel instrument est souvent privilégié pour 'faire pleurer' ?",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Violoncelle (ou le Violon)", "right": "Instrument à cordes frottées très expressif (son mélancolique)" },
+        { "left": "Le Piano seul", "right": "Pour montrer la solitude ou la délicatesse d'un moment intime" },
+        { "left": "Le Grand Chœur (voix graves)", "right": "Pour créer une ambiance tragique ou religieuse de fin du monde" }
+      ],
+      "explication": "Le choix de l'instrument (le timbre) dicte directement l'émotion de la scène."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de faire monter doucement l'intensité d'une musique d'ambiance pendant que le héros s'approche d'une porte au cinéma crée un énorme effet de {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["suspense", "tension"],
+      "explication": "L'effet de suspense."
+    },
+    {
+      "id": "q5",
+      "question": "Quel compositeur américain moderne (souvent réalisateur pour Christopher Nolan) est le grand maître actuel des énormes nappes sonores oppressantes (Inception, Interstellar) ?",
+      "type": "courte",
+      "reponsesAttendues": ["hans zimmer", "zimmer"],
+      "explication": "Hans Zimmer."
+    }
+  ]
+}

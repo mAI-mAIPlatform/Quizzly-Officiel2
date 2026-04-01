@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH3_P2_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Die Möbel",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dit 'le lit' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["das bett"],
+      "explication": "Das Bett (Le lit)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Der Schrank' est l'armoire.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Der Schrank (L'armoire / Le placard)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les meubles à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Der Tisch", "right": "La table" },
+        { "left": "Der Stuhl", "right": "La chaise" },
+        { "left": "Le canapé", "right": "Das Sofa" }
+      ],
+      "explication": "Voici le mobilier de base d'une chambre or d'un salon."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Ich sitze auf dem {{1}} (chaise).",
+      "type": "trous",
+      "reponsesAttendues": ["stuhl"],
+      "explication": "Der Stuhl (La chaise)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'le bureau' (meuble) in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["der schreibtisch"],
+      "explication": "Der Schreibtisch."
+    }
+  ]
+}

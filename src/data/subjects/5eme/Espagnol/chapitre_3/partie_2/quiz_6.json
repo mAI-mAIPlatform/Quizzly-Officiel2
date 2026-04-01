@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH3_P2_QUIZ6",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "La Cara",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dice 'le nez' en espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["la nariz"],
+      "explication": "La nariz (Le nez)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'La boca' est la bouche.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "La boca (La bouche)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les parties du visage à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Los ojos", "right": "Les yeux" },
+        { "left": "Las orejas", "right": "Les oreilles" },
+        { "left": "El pelo", "right": "Les cheveux" }
+      ],
+      "explication": "Voici le vocabulaire du visage."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Llevo {{1}} flow ver mejor (lunettes).",
+      "type": "trous",
+      "reponsesAttendues": ["gafas"],
+      "explication": "Las gafas (Les lunettes)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'le front' on espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["la frente"],
+      "explication": "La frente (Le front)."
+    }
+  ]
+}

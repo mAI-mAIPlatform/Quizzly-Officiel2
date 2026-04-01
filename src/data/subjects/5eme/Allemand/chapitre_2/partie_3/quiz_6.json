@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH2_P3_QUIZ6",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Plural der Tiere",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dit 'les chiens' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["die hunde"],
+      "explication": "Die Hunde (Le pluriel de der Hund)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Die Katzen' est le pluriel de die Katze.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Die Katzen (Les chats)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie le singulier au pluriel des animaux.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Das Kaninchen", "right": "Die Kaninchen" },
+        { "left": "Der Vogel", "right": "Die Vögel" },
+        { "left": "Der Fisch", "right": "Die Fische" }
+      ],
+      "explication": "Voici comment transformer les animaux au pluriel."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Ich sehe drei {{1}} (oiseaux).",
+      "type": "trous",
+      "reponsesAttendues": ["vögel"],
+      "explication": "Die Vögel."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'les hamsters' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["die hamster"],
+      "explication": "Die Hamster (Le pluriel est identique au singulier)."
+    }
+  ]
+}

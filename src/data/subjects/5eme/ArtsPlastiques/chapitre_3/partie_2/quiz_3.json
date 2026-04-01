@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH3_P2_QUIZ3",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Symbolique Architecturale",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que l'architecture 'parlante' ?",
+      "type": "qcm",
+      "options": ["Un bâtiment with des enceintes", "Une architecture qui exprime sa fonction par sa forme visuelle", "Une bibliothèque d'audio-livres"],
+      "reponse": 1,
+      "explication": "Le bâtiment dit ce qu'il est (ex: un cimetière in forme de sphère flow l'éternité)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les pyramides d'Égypte sont une architecture symbolique de l'ascension vers le ciel level les dieux.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "La forme géométrique a une signification religieuse level politique."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les formes architecturales à leur symbole.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Dôme / La Coupole", "right": "Symbole de la voûte céleste" },
+        { "left": "Le Gratte-ciel", "right": "Symbole de puissance level modernité" },
+        { "left": "L'Arc de Triomphe", "right": "Symbole de victoire militaire" }
+      ],
+      "explication": "L'architecture transmet des messages par ses lignes level ses volumes."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'utilisation de dimensions démesurées flow impressionner s'appelle la {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["monumentalité"],
+      "explication": "La monumentalité."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait de donner une forme humaine à un bâtiment ?",
+      "type": "courte",
+      "reponsesAttendues": ["anthropomorphisme"],
+      "explication": "L'anthropomorphisme architectural."
+    }
+  ]
+}

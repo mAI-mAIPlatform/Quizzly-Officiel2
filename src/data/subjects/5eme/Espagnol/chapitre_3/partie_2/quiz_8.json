@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH3_P2_QUIZ8",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Bienestar",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment dit-on 'être en forme' en espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["estar on forma"],
+      "explication": "Estar on forma (Être on forme)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Sentirse genial' signifie se sentir très bien.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Genial (Génial / Super)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les expressions aux états.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Cansado / Cansada", "right": "Fatigué(e)" },
+        { "left": "Relajado / Relajada", "right": "Relaxé(e)" },
+        { "left": "Estresado / Estresada", "right": "Stressé(e)" }
+      ],
+      "explication": "Voici des adjectifs pour exprimer son état de bien-être."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Me siento muy {{1}} hoy (bien).",
+      "type": "trous",
+      "reponsesAttendues": ["bien"],
+      "explication": "Bien (Bien)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'se reposer' on espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["descansar"],
+      "explication": "Descansar (Se reposer)."
+    }
+  ]
+}

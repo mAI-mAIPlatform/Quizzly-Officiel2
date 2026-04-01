@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH2_P3_QUIZ7",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Körperteile Tiere",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dit 'la patte' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["die pfote"],
+      "explication": "Die Pfote (La patte)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Das Fell' est la fourrure / le poil.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Das Fell (Le pelage)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les parties du corps aux animaux.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Der Schwanz", "right": "La queue" },
+        { "left": "Die Flügel", "right": "Les ailes" },
+        { "left": "Der Schnabel", "right": "Le bec" }
+      ],
+      "explication": "Voici le vocabulaire spécifique à l'anatomie animale."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Der Vogel hat zwei {{1}} (ailes).",
+      "type": "trous",
+      "reponsesAttendues": ["flügel"],
+      "explication": "Die Flügel (Les ailes)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'les oreilles' (d'un animal) in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["die ohren"],
+      "explication": "Die Ohren (Les oreilles)."
+    }
+  ]
+}

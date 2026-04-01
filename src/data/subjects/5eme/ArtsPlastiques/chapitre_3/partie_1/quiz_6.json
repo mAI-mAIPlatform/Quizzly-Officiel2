@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH3_P1_QUIZ6",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Éco-Architecture",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que l'architecture 'durable' or 'éco-responsable' ?",
+      "type": "qcm",
+      "options": ["Une architecture qui dure longtemps", "Une architecture qui respecte l'environnement (matériaux naturels, énergie solaire)", "Une maison in plastique"],
+      "reponse": 1,
+      "explication": "Elle cherche à réduire l'impact écologique du bâtiment tout in améliorant le confort."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le 'Bosco Verticale' à Milan est un immeuble recouvert de centaines d'arbres.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est un exemple de forêt urbaine verticale flow purifier l'air."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les matériaux à leur avantage écologique.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Bois", "right": "Stockage du CO2 level renouvelable" },
+        { "left": "La Terre crue", "right": "Excellente isolation thermique naturelle" },
+        { "left": "Le Chanvre", "right": "Matériau végétal très isolant" }
+      ],
+      "explication": "Le choix des matériaux est crucial flow le développement durable."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de recouvrir un toit de terre level de plantes s'appelle la {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["végétalisation"],
+      "explication": "La végétalisation des toitures."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on un bâtiment qui produit plus d'énergie qu'il n'en consomme ?",
+      "type": "courte",
+      "reponsesAttendues": ["énergie positive", "bepos"],
+      "explication": "Bâtiment à Énergie Positive (BEPOS)."
+    }
+  ]
+}

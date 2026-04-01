@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH1_P2_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "La Familia",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dice 'la mère' en espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["la madre", "mamá"],
+      "explication": "La madre (La mère)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'El abuelo' est le grand-père.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Abuelo (Grand-père), Abuela (Grand-mère)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les membres de la famille à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "El padre", "right": "Le père" },
+        { "left": "El hermano", "right": "Le frère" },
+        { "left": "La tía", "right": "La tante" }
+      ],
+      "explication": "Voici le vocabulaire de base de la famille."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : El hijo de mi tío es mi {{1}} (cousin).",
+      "type": "trous",
+      "reponsesAttendues": ["primo"],
+      "explication": "Primo (Cousin)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'la sœur' on espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["la hermana"],
+      "explication": "La hermana (La sœur)."
+    }
+  ]
+}

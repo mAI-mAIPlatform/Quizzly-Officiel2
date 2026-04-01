@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH3_P2_QUIZ1",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Le Vote",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "En quelle année le suffrage universel masculin a-t-il été instauré de manière définitive en France ?",
+      "type": "qcm",
+      "options": ["1789", "1848", "1944"],
+      "reponse": 1,
+      "explication": "C'est en 1848 que tous les hommes de plus de 21 ans (à l'époque) ont eu le droit de voter, qu'ils soient riches ou non."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les femmes n'ont obtenu le droit de vote et d'éligibilité qu'en 1944 en France.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le suffrage est devenu véritablement 'universel' à partir de cette date."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les conditions matérielles du vote à leur but.",
+      "type": "relier",
+      "pairs": [
+        { "left": "L'Isoloir", "right": "Garantit le secret du vote (personne ne voit pour qui je vote)" },
+        { "left": "L'Urne transparente", "right": "Évite les fraudes (on voit que la boîte est vide au début)" },
+        { "left": "La Carte électorale", "right": "Prouve que l'on est bien inscrit sur les listes de la commune" }
+      ],
+      "explication": "Le vote suit une procédure très stricte pour être démocratique."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de glisser un bulletin blanc (sans nom dessus) dans l'urne montre qu'on participe mais qu'on refuse les candidats : c'est le vote {{1}} (adjectif).",
+      "type": "trous",
+      "reponsesAttendues": ["blanc"],
+      "explication": "Le vote blanc (différent de l'abstention)."
+    },
+    {
+      "id": "q5",
+      "question": "À quel âge acquiert-on le droit de vote en France aujourd'hui ?",
+      "type": "courte",
+      "reponsesAttendues": ["18 ans", "18", "dix-huit ans"],
+      "explication": "À 18 ans (la majorité)."
+    }
+  ]
+}

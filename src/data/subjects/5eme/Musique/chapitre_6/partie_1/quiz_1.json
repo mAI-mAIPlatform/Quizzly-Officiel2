@@ -1,0 +1,54 @@
+{
+  "id": "5eme_MUSIQUE_CH6_P1_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_6",
+  "partie": "partie_1",
+  "titre": "La Famille des Bois",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment définit-on la famille des 'Bois' dans l'orchestre symphonique ?",
+      "type": "qcm",
+      "options": [
+        "Ce sont tous les instruments fabriqués obligatoirement en bois",
+        "Ce sont les instruments à vent dont le son est produit par la vibration de l'air dans un tube, avec ou sans anche (même s'ils sont aujourd'hui en métal !)",
+        "Ce sont les instruments qui servent à faire du feu"
+      ],
+      "reponse": 1,
+      "explication": "La flûte traversière est un 'Bois' car elle était autrefois en bois, même si elle est en métal (argent, or) aujourd'hui."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le Hautbois et le Basson utilisent une 'anche double' (deux petites lamelles de roseau qui vibrent l'une contre l'autre).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "L'anche double donne un son très particulier, un peu nasillard et très expressif."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'instrument de la famille des bois à sa caractéristique.",
+      "type": "relier",
+      "pairs": [
+        { "left": "La Flûte traversière", "right": "Le son est produit par le passage de l'air sur un biseau (comme une bouteille)" },
+        { "left": "La Clarinette", "right": "Possède une 'anche simple' fixée sur un bec" },
+        { "left": "Le Basson", "right": "Le plus grand et le plus grave de la famille des bois" }
+      ],
+      "explication": "Chaque instrument a son propre mode de production du son."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le petit instrument très aigu de la famille des bois, qui ressemble à une toute petite flûte, s'appelle le {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["piccolo"],
+      "explication": "Le piccolo peut jouer les notes les plus aiguës de l'orchestre."
+    },
+    {
+      "id": "q5",
+      "question": "Quel est le nom de la petite languette de roseau qui vibre pour produire le son chez la clarinette ou le saxophone ?",
+      "type": "courte",
+      "reponsesAttendues": ["l'anche", "une anche", "anche"],
+      "explication": "C'est l'anche qui est l'élément vibrant."
+    }
+  ]
+}

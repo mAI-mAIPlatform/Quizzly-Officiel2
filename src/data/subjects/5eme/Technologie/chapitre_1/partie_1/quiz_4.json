@@ -1,0 +1,54 @@
+{
+  "id": "5eme_TECH_CH1_P1_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Les Ponts",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est le type de pont le plus simple et le plus ancien ?",
+      "type": "qcm",
+      "options": [
+        "Le pont à haubans",
+        "Le pont à poutres (une simple dalle posée sur des appuis)",
+        "Le pont suspendu"
+      ],
+      "reponse": 1,
+      "explication": "Un tronc d'arbre posé au-dessus d'un ruisseau est le premier pont à poutre."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Dans un pont suspendu (ex: Pont de San Francisco), le tablier 'pend' à des câbles géants attachés à des pylônes.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Cela permet de franchir de très grandes distances (plusieurs kilomètres)."
+    },
+    {
+      "id": "q3",
+      "question": "Associe le pont à sa forme caractéristique.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Pont en Arc", "right": "Le poids est renvoyé sur les côtés vers les rives" },
+        { "left": "Pont à Haubans", "right": "Le tablier est tenu par de multiples câbles inclinés fixés à un mât (ex: Millau)" },
+        { "left": "Pont-Levis", "right": "Pont mobile qui s'ouvre pour laisser passer les bateaux" }
+      ],
+      "explication": "Le choix du type de pont dépend de la distance et du sol."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : La partie du pont sur laquelle circulent les voitures s'appelle le {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["tablier"],
+      "explication": "Le tablier repose sur les piles ou est suspendu à des câbles."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on la distance entre deux appuis (piliers) d'un pont ?",
+      "type": "courte",
+      "reponsesAttendues": ["la portée", "portee"],
+      "explication": "C'est la portée."
+    }
+  ]
+}

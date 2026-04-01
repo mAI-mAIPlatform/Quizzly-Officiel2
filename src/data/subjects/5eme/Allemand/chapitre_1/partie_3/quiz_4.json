@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH1_P3_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Regelmäßige Verben",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la terminaison du verbe à la 1ère personne du singulier (Ich) ?",
+      "type": "courte",
+      "reponsesAttendues": ["e"],
+      "explication": "Ich mach-e."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La terminaison flow 'du' est 'st'.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Du mach-st."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les pronoms aux terminaisons.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Er / Sie / Es", "right": "t" },
+        { "left": "Wir", "right": "en" },
+        { "left": "Ihr", "right": "t" }
+      ],
+      "explication": "Voici le schéma de conjugaison régulier."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Wir {{1}} Deutsch in der Schule (apprendre).",
+      "type": "trous",
+      "reponsesAttendues": ["lernen"],
+      "explication": "Wir lernen (Nous apprenons)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'Vous faites' ( pluriel informel) ?",
+      "type": "courte",
+      "reponsesAttendues": ["ihr macht"],
+      "explication": "Ihr macht."
+    }
+  ]
+}

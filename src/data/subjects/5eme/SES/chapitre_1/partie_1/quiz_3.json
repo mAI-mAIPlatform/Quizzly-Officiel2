@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH1_P1_QUIZ3",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "La Production",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que la 'Production' au sens économique ?",
+      "type": "qcm",
+      "options": [
+        "Travailler dans son jardin pour soi-même",
+        "L'activité légale et déclarée qui crée des biens et des services pour satisfaire les besoins de la société",
+        "Regarder la télévision"
+      ],
+      "reponse": 1,
+      "explication": "La production crée de la richesse (Valeur Ajoutée) pour le pays."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les associations (comme les Restos du Cœur) font de la production marchande car elles vendent parfois des objets.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Les associations sont des organisations de production 'non marchande' : leur but n'est pas de gagner de l'argent mais de rendre service à la collectivité."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'acteur économique à son type de production.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Une boulangerie de quartier", "right": "Production marchande (but lucratif / profit)" },
+        { "left": "Un hôpital public", "right": "Production non marchande (financée par les impôts)" },
+        { "left": "Un bénévole à la Croix-Rouge", "right": "Activité solidaire (non marchande)" }
+      ],
+      "explication": "Le paysage économique est composé de secteurs publics et privés."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'ensemble des richesses produites par un pays en un an s'appelle le {{1}} (3 lettres).",
+      "type": "trous",
+      "reponsesAttendues": ["PIB"],
+      "explication": "Le Produit Intérieur Brut (PIB) mesure la croissance économique."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le travail réalisé par quelqu'un pour son propre compte (sans être payé par un patron), comme repeindre sa propre chambre ?",
+      "type": "courte",
+      "reponsesAttendues": ["autoconsommation", "autoproduction", "travail domestique"],
+      "explication": "C'est de l'autoproduction ou du travail domestique (non compté dans le PIB)."
+    }
+  ]
+}

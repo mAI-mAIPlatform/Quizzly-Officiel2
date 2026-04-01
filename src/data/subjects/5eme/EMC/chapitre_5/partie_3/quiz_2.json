@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH5_P3_QUIZ2",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_5",
+  "partie": "partie_3",
+  "titre": "L'Énergie Partagée",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'appelle-t-on la 'transition énergétique' ?",
+      "type": "qcm",
+      "options": ["Le fait de changer les câbles électriques d'une maison", "Le passage d'un système utilisant des énergies fossiles polluantes à un système utilisant des énergies renouvelables", "Le fait de payer plus cher son électricité"],
+      "reponse": 1,
+      "explication": "C'est un grand défi pour freiner le réchauffement climatique et préserver la planète."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les énergies fossiles (pétrole, charbon, gaz) sont inépuisables et ne s'arrêteront jamais.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Ce sont des ressources limitées de la Terre (qui mettent des millions d'années à se former)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie la source d'énergie à sa catégorie.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Charbon", "right": "Énergie fossile très polluante en CO2" },
+        { "left": "Le Soleil", "right": "Énergie renouvelable productrice d'électricité grâce aux panneaux photovoltaïques" },
+        { "left": "L'Uranium (Nucléaire)", "right": "Énergie non-renouvelable qui n'émet pas de CO2 mais produit des déchets radioactifs" }
+      ],
+      "explication": "Chaque énergie a des avantages et des inconvénients qu'il faut peser démocratiquement."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'énergie produite par la force du vent grâce aux grandes hélices blanches s'appelle l'énergie {{1}} (adjectif).",
+      "type": "trous",
+      "reponsesAttendues": ["éolienne"],
+      "explication": "L'énergie éolienne."
+    },
+    {
+      "id": "q5",
+      "question": "Quel mot désigne les grands panneaux posés sur les toits pour capter le soleil et faire de l'électricité ?",
+      "type": "courte",
+      "reponsesAttendues": ["panneaux solaires", "un panneau solaire", "panneau solaire"],
+      "explication": "Des panneaux solaires (ou photovoltaïques)."
+    }
+  ]
+}

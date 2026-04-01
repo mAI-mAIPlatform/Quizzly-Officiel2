@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH2_P2_QUIZ4",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "L'Hyperréalisme",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que l'hyperréalisme ?",
+      "type": "qcm",
+      "options": ["Une peinture de super-héros", "Une œuvre qui imite la réalité with une précision extrême (supérieure à l'œil humain)", "Un dessin abstrait"],
+      "reponse": 1,
+      "explication": "L'hyperréalisme cherche à recréer l'illusion parfaite de la vie (pores de la peau, poils, rides)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les sculptures de Duane Hanson représentent des gens ordinaires in des situations banales.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le spectateur peut les confondre with de vraies personnes in le musée."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les artistes hyperréalistes à leurs œuvres.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Ron Mueck", "right": "Sculptures humaines géantes or minuscules" },
+        { "left": "Duane Hanson", "right": "Personnages grandeur nature with vrais vêtements" },
+        { "left": "Richard Estes", "right": "Peintures de reflets in des vitrines de ville" }
+      ],
+      "explication": "Chacun explore le 'troublant' de la perfection visuelle."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'hyperréalisme est né in réaction à l'Art {{1}} (courant opposé).",
+      "type": "trous",
+      "reponsesAttendues": ["abstrait"],
+      "explication": "L'abstraction."
+    },
+    {
+      "id": "q5",
+      "question": "Quel sentiment éprouve souvent le spectateur face à une œuvre trop réelle ?",
+      "type": "courte",
+      "reponsesAttendues": ["malaise", "trouble"],
+      "explication": "Le trouble ou le malaise (la 'vallée de l'étrange')."
+    }
+  ]
+}

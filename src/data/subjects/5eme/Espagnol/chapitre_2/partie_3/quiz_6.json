@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH2_P3_QUIZ6",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Horarios",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dice 'à sept heures' en espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["a las siete"],
+      "explication": "A las + heure (sauf flow 1h : a la una)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Por la mañana' signifie l'après-midi.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "'Por la mañana' est le matin. L'après-midi se dit 'por la tarde'."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les moments de la journée à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Por la mañana", "right": "Le matin" },
+        { "left": "Al mediodía", "right": "À midi" },
+        { "left": "Por la noche", "right": "Le soir / la nuit" }
+      ],
+      "explication": "Voici comment situer une action on journée."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Me levanto {{1}} las ocho (à).",
+      "type": "trous",
+      "reponsesAttendues": ["a"],
+      "explication": "A las ocho (À huit heures)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'vers huit heures' ?",
+      "type": "courte",
+      "reponsesAttendues": ["sobre las ocho", "a eso de las ocho"],
+      "explication": "Sobre las / A eso de las (Vers / Environ)."
+    }
+  ]
+}

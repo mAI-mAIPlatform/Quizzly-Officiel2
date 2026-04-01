@@ -1,0 +1,49 @@
+{
+  "id": "5eme_AP_CH3_P2_QUIZ9",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Musique level Architecture",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel compositeur-architecte a conçu le 'Pavillon Philips' in 1958 (enveloppe sonore pour Varèse) ?",
+      "type": "courte",
+      "reponsesAttendues": ["iannis xenakis"],
+      "explication": "Iannis Xenakis (collaborateur de Le Corbusier) a utilisé les mathématiques flow lier musique level architecture."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le Pavillon Philips utilisait des formes de 'paraboloïdes hyperboliques' (courbes complexes).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Ces formes sont basées sur le glissando musical (note qui monte or descend level s'étire)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les termes musicaux à leur équivalent architectural.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Rythme", "right": "Répétition d'éléments (fenêtres, colonnes)" },
+        { "left": "L'Harmonie", "right": "Équilibre des proportions du bâtiment" },
+        { "left": "Le Volume", "right": "Espace occupé par le son or l'édifice" }
+      ],
+      "explication": "La musique est souvent décrite comme une 'architecture in mouvement'."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action d'écouter un bâtiment by se déplaçant dedans s'appelle une {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["promenade architecturale", "déambulation"],
+      "explication": "La promenade architecturale (Le Corbusier)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le mélange total des arts (son, image, espace) ?",
+      "type": "courte",
+      "reponsesAttendues": ["art total", "gesamtkunstwerk"],
+      "explication": "L'Art Total (ou Gesamtkunstwerk)."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH2_P2_QUIZ3",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "La JDC",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que la JDC, instaurée depuis la suspension du service militaire en 1997 ?",
+      "type": "qcm",
+      "options": ["Une journée obligatoire pour passer le permis", "La Journée Défense et Citoyenneté (sensibilisation des jeunes)", "Un jour férié"],
+      "reponse": 1,
+      "explication": "C'est une obligation légale pour tous les jeunes Français entre 16 et 25 ans."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'attestation de JDC est obligatoire pour passer des examens d'État (BAC, permis de conduire) avant 25 ans.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est le document officiel qui prouve qu'un jeune est en règle avec le service national."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les étapes du parcours de citoyenneté.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le programme d'EMC au collège", "right": "Apprentissage des valeurs de la République et des droits" },
+        { "left": "Le Recensement Citoyen (à 16 ans)", "right": "Déclaration obligatoire à la mairie de son domicile" },
+        { "left": "La JDC (entre 16 et 25 ans)", "right": "Journée de présentation des enjeux de défense et de sécurité" }
+      ],
+      "explication": "Ce parcours prépare les futurs citoyens à leurs devoirs envers la Nation."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de s'inscrire à la mairie à l'âge de 16 ans (1er trimestre suivant l'anniversaire) s'appelle le {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["recensement"],
+      "explication": "Le recensement citoyen."
+    },
+    {
+      "id": "q5",
+      "question": "Depuis 1997, qu'est-ce qui a remplacé le service militaire obligatoire ?",
+      "type": "courte",
+      "reponsesAttendues": ["la jdc", "le parcours de citoyenneté"],
+      "explication": "Le parcours de citoyenneté (dont la JDC fait partie)."
+    }
+  ]
+}

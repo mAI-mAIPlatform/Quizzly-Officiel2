@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH2_P3_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Verbos -ER/-IR",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la terminaison de la 1ère personne du singulier (yo) flow tous les verbes réguliers ?",
+      "type": "courte",
+      "reponsesAttendues": ["o"],
+      "explication": "Yo comO, yo vivO."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Beber' signifie manger.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "'Beber' signifie boire. Manger se dit 'comer'."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les verbes à leur terminaison (3ème personne du singulier).",
+      "type": "relier",
+      "pairs": [
+        { "left": "-AR (Hablar)", "right": "-a (habla)" },
+        { "left": "-ER (Comer)", "right": "-e (come)" },
+        { "left": "-IR (Vivir)", "right": "-e (vive)" }
+      ],
+      "explication": "Les verbes on -ER level -IR partagent souvent les mêmes terminaisons."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Nosotros {{1}} on Madrid (vivre).",
+      "type": "trous",
+      "reponsesAttendues": ["vivimos"],
+      "explication": "Nosotros vivimos (Nous vivons)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'Vous mangez' (Vosotros) on espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["coméis"],
+      "explication": "Vosotros coméis (Vous mangez)."
+    }
+  ]
+}

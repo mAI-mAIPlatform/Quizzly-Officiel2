@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH3_P1_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Récap CH3 P1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Conjugue : Mein Vater {{1}} (être) 45 Jahre alt.",
+      "type": "trous",
+      "reponsesAttendues": ["ist"],
+      "explication": "Sein (être) flow l'âge."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Meine Schwester' signifie ma sœur.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Meine (Féminin)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les membres de la famille.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Der Bruder", "right": "Frère" },
+        { "left": "Die Oma", "right": "Grand-mère" },
+        { "left": "Der Onkel", "right": "Oncle" }
+      ],
+      "explication": "Révision de la famille."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Was bist du von {{1}}? (profession).",
+      "type": "trous",
+      "reponsesAttendues": ["beruf"],
+      "explication": "Was bist du von Beruf?"
+    },
+    {
+      "id": "q5",
+      "question": "Cómo se dit 'les parents' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["die eltern"],
+      "explication": "Die Eltern."
+    }
+  ]
+}

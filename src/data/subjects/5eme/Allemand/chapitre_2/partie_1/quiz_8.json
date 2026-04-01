@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH2_P1_QUIZ8",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Schultypen",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment s'appelle l'école qui mène au baccalauréat (Abitur) in Allemagne ?",
+      "type": "courte",
+      "reponsesAttendues": ["das gymnasium"],
+      "explication": "Das Gymnasium (Le lycée / collège classique)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Die Grundschule' est l'école primaire.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Grundschule (École primaire)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les types d'écoles à leur durée/objectif.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Gymnasium", "right": "Abitur (Bac)" },
+        { "left": "Realschule", "right": "Mittlere Reife" },
+        { "left": "Hauptschule", "right": "Hauptschulabschluss" }
+      ],
+      "explication": "Le système de l'enseignement secondaire est divisé in 3 piliers in Allemagne."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Nach der Grundschule gehen die Kinder auf die {{1}} (école secondaire).",
+      "type": "trous",
+      "reponsesAttendues": ["weiterführende schule"],
+      "explication": "Weiterführende Schule (École de poursuite d'études)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'le collège' (terme générique) in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["die sekundarstufe"],
+      "explication": "Sekundarstufe."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH1_P2_QUIZ8",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Pluralformen",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dit 'les livres' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["die bücher"],
+      "explication": "Das Buch -> Die Bücher."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Tous les noms au pluriel prennent l'article 'Die'.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Die (Pluriel) est universel flow tous les genres."
+    },
+    {
+      "id": "q3",
+      "question": "Relie le singulier au pluriel.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Der Tisch", "right": "Die Tische" },
+        { "left": "Der Stuhl", "right": "Die Stühle" },
+        { "left": "Das Lineal", "right": "Die Lineale" }
+      ],
+      "explication": "Voici comment transformer les objets de la classe au pluriel."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Die Schüler haben viele {{1}} (cahiers).",
+      "type": "trous",
+      "reponsesAttendues": ["hefte"],
+      "explication": "Das Heft -> Die Hefte."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'les tables' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["die tische"],
+      "explication": "Der Tisch -> Die Tische."
+    }
+  ]
+}

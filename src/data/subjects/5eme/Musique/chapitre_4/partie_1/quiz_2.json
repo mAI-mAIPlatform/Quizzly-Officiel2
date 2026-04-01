@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH4_P1_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_4",
+  "partie": "partie_1",
+  "titre": "La Mue",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que 'la Mue' (qui arrive à la puberté vers 13/14 ans) dans le développement de la voix ?",
+      "type": "qcm",
+      "options": ["C'est quand on perd définitivement la voix pour toujours", "C'est un changement naturel et physique : les cordes vocales s'allongent et s'épaississent avec les hormones, rendant la voix plus grave (surtout chez les garçons) ! L'instrument devient plus grand.", "C'est quand on apprend à chanter en italien"],
+      "reponse": 1,
+      "explication": "Tout comme une grande corde de guitare fait un son grave et une petite corde fait un son aigu, les cordes vocales qui grandissent à l'adolescence produisent une voix plus basse (descendant jusqu'à une octave chez les garçons !)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les filles ne muent absolument pas, leur voix reste strictement identique de l'enfance jusqu'à la vieillesse.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Les filles muent aussi ! Leurs cordes vocales s'allongent légèrement, ce qui fait baisser leur voix (environ d'une tierce) et la rend plus riche et adulte. C'est juste moins spectaculaire que chez les garçons."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la période de la vie à l'état de l'instrument vocal.",
+      "type": "relier",
+      "pairs": [
+        { "left": "L'Enfance (Voix blanche)", "right": "Cordes vocales très fines et courtes, la voix est pure, très aiguë et androgyne (sans grand timbre sexué)" },
+        { "left": "L'Adolescence (La Mue)", "right": "Période de transition souvent compliquée où la voix 'déraille' car le cerveau doit s'habituer à son nouvel instrument plus grand" },
+        { "left": "L'Âge adulte", "right": "L'instrument vocal a fini sa croissance (vers 20 ans), le timbre personnel est fixé et la pleine puissance est disponible" }
+      ],
+      "explication": "C'est pour cela que les enfants chantent facilement les notes très aiguës des chansons de pop-stars, car ils ont de très petites cordes !"
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de chanter naturellement fort vers l'avant (comme quand on appelle quelqu'un au loin dans la rue) sans s'étrangler utilise le mécanisme de 'Voix de {{1}}' (nom, la plus utilisée au quotidien).",
+      "type": "trous",
+      "reponsesAttendues": ["poitrine", "la poitrine"],
+      "explication": "La Voix de poitrine (le son résonne en bas et c'est notre voix parlée normale)."
+    },
+    {
+      "id": "q5",
+      "question": "Quel nom tragique donnait-on du 16e au 18e siècle aux chanteurs garçons italiens extrêmement doués qui subissaient une opération très cruelle avant la puberté pour les empêcher de muer, afin qu'ils gardent leur voix magique d'enfant avec la puissance des poumons d'un adulte (comme le grand chanteur Farinelli) ?",
+      "type": "courte",
+      "reponsesAttendues": ["les castrats", "castrat", "un castrat"],
+      "explication": "Un castrat."
+    }
+  ]
+}

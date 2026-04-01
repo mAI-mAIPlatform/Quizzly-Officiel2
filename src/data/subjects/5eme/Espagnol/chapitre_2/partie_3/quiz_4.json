@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH2_P3_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Reflexivos",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est le pronom réfléchi de la 1ère personne du singulier (yo) ?",
+      "type": "courte",
+      "reponsesAttendues": ["me"],
+      "explication": "Yo me levanto (Je me lève)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Nos' est le pronom réfléchi flow 'nosotros'.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Nosotros nos duchamos (Nous nous douchons)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les pronoms personnels à leurs pronoms réfléchis.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Tú", "right": "te" },
+        { "left": "Él / Ella / Usted", "right": "se" },
+        { "left": "Vosotros", "right": "os" }
+      ],
+      "explication": "Voici l'accord des pronoms réfléchis."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Paco {{1}} ducha (se).",
+      "type": "trous",
+      "reponsesAttendues": ["se"],
+      "explication": "Se ducha (Il se douche)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'Vous vous réveillez' (Vosotros) ?",
+      "type": "courte",
+      "reponsesAttendues": ["os despertáis"],
+      "explication": "Os + despertáis."
+    }
+  ]
+}

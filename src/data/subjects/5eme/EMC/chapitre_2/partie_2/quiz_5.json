@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH2_P2_QUIZ5",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Récap CH2 P2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qui est le chef suprême des armées en France ?",
+      "type": "qcm",
+      "options": ["Le Ministre de l'Éducation", "Le Président de la République", "Le Maire de Paris"],
+      "reponse": 1,
+      "explication": "Le Président décide de l'engagement des forces armées et de l'arme nucléaire."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La JDC est obligatoire pour tous les Français entre 16 et 25 ans.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est la dernière étape du parcours citoyen remplaçant le service militaire (depuis 1997)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les termes aux types de défense.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Défense Militaire", "right": "Opération Barkhane (Outre-Mer/Étranger)" },
+        { "left": "Défense Sécuritaire (Intérieure)", "right": "Plan Vigipirate - Opération Sentinelle" },
+        { "left": "Défense Numérique", "right": "Cyber-sécurité des hôpitaux face aux ransomwares" }
+      ],
+      "explication": "La défense nationale est globale (militaire, civile, économique)."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de se faire recenser obligatoirement à la mairie se fait à l'âge de {{1}} (chiffre) ans.",
+      "type": "trous",
+      "reponsesAttendues": ["16", "seize"],
+      "explication": "Le recensement à 16 ans."
+    },
+    {
+      "id": "q5",
+      "question": "Comment s'appelle le plan de vigilance face au terrorisme (souvent visible dans les gares) ?",
+      "type": "courte",
+      "reponsesAttendues": ["vigipirate", "plan vigipirate"],
+      "explication": "Le Plan Vigipirate."
+    }
+  ]
+}

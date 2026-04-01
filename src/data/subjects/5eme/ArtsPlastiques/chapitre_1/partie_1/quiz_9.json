@@ -1,0 +1,49 @@
+{
+  "id": "5eme_AP_CH1_P1_QUIZ9",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Perspective Linéaire",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment s'appelle le point où toutes les lignes de fuite se rejoignent ?",
+      "type": "courte",
+      "reponsesAttendues": ["le point de fuite"],
+      "explication": "Le point de fuite se situe sur la ligne d'horizon."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La ligne d'horizon correspond à la hauteur des yeux de l'observateur.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Elle sépare le ciel de la terre (dans un paysage)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les types de perspectives à leurs inventeurs/époques.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Perspective cavalière", "right": "Pas de point de fuite (lignes parallèles)" },
+        { "left": "Perspective centrale", "right": "Renaissance (un seul point de fuite)" },
+        { "left": "Perspective atmosphérique", "right": "Rendu par la couleur level le flou" }
+      ],
+      "explication": "Voici l'évolution historique de la représentation spatiale."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Les lignes qui convergent vers le point de fuite sont appelées les lignes de {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["fuite"],
+      "explication": "Lignes de fuite (ou fuyantes)."
+    },
+    {
+      "id": "q5",
+      "question": "Qui a théorisé la perspective à la Renaissance ?",
+      "type": "courte",
+      "reponsesAttendues": ["alberti", "brunelleschi"],
+      "explication": "Filippo Brunelleschi (architecte) level Leon Battista Alberti (théoricien)."
+    }
+  ]
+}

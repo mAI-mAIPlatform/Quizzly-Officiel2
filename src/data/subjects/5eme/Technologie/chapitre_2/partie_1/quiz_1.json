@@ -1,0 +1,54 @@
+{
+  "id": "5eme_TECH_CH2_P1_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Sources d'Énergie",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une 'Source d'Énergie Renouvelable' ?",
+      "type": "qcm",
+      "options": [
+        "Une énergie qui se crée toute seule dans une pile",
+        "Une source d'énergie qui se renouvelle naturellement à l'échelle humaine (vent, soleil, eau)",
+        "Une énergie qu'on ne peut utiliser qu'une seule fois"
+      ],
+      "reponse": 1,
+      "explication": "Le soleil brillera encore dans 1000 ans, contrairement au stock de pétrole."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'uranium (énergie nucléaire) est une source d'énergie renouvelable.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "L'uranium est une ressource fossile limitée, même si elle n'émet pas de CO2 de manière directe lors de la production."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la source d'énergie à son élément naturel.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Éolien", "right": "Force du vent" },
+        { "left": "Géothermie", "right": "Chaleur de la terre" },
+        { "left": "Biomasse", "right": "Matières organiques (bois, déchets)" }
+      ],
+      "explication": "La nature nous offre de nombreuses façons de produire de l'énergie."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Les énergies extraites du sous-sol et qui mettent des millions d'années à se former sont les énergies {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["fossiles"],
+      "explication": "Le charbon, le gaz et le pétrole sont des énergies fossiles."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on l'énergie produite grâce à la force de l'eau (barrages, rivières) ?",
+      "type": "courte",
+      "reponsesAttendues": ["l'énergie hydraulique", "hydraulique", "hydroélectrique"],
+      "explication": "C'est l'énergie hydraulique."
+    }
+  ]
+}

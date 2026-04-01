@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH2_P1_QUIZ2",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Besoins et Mode",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Pourquoi nos besoins de consommation changent-ils avec le temps ?",
+      "type": "qcm",
+      "options": [
+        "Parce que les humains deviennent de plus en plus gourmands",
+        "À cause du progrès technique (nouveaux produits) et de l'évolution de la société (mode, publicité, niveau de vie)",
+        "Parce que la météo change"
+      ],
+      "reponse": 1,
+      "explication": "Ce qui était un luxe hier (ex: smartphone, voiture) peut devenir un besoin indispensable aujourd'hui."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La publicité a pour but d'influencer le consommateur en créant de nouveaux besoins ou désirs.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Les entreprises investissent des milliards pour nous inciter à choisir leur marque."
+    },
+    {
+      "id": "q3",
+      "question": "Associe le facteur d'influence à son effet sur la consommation.",
+      "type": "relier",
+      "pairs": [
+        { "left": "L'Âge", "right": "Un adolescent ne consomme pas les mêmes produits qu'une personne retraitée" },
+        { "left": "Le Groupe Social (Amis)", "right": "On a tendance à acheter ce que nos amis possèdent pour s'intégrer" },
+        { "left": "La Saison", "right": "On achète plus de glaces en été et plus de chauffage en hiver" }
+      ],
+      "explication": "La consommation n'est pas seulement une affaire d'argent, c'est aussi un fait social."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action d'acheter des produits qui respectent l'environnement s'appelle la consommation {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["responsable", "durable", "eco-responsable"],
+      "explication": "La consommation responsable prend en compte l'impact écologique."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on la science qui étudie comment les entreprises analysent les goûts des consommateurs pour leur vendre des produits ?",
+      "type": "courte",
+      "reponsesAttendues": ["le marketing", "marketing", "le mercatique", "mercatique"],
+      "explication": "C'est le marketing (ou mercatique)."
+    }
+  ]
+}

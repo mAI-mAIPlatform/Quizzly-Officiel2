@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH1_P1_QUIZ8",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "El Abecedario",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la lettre typique de l'alphabet espagnol qui se prononce 'gn' ?",
+      "type": "courte",
+      "reponsesAttendues": ["la ñ", "ñ"],
+      "explication": "La ñ (eñe)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'H' est toujours muet en espagnol.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "La lettre 'h' ne se prononce jamais."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les lettres à leur prononciation typique.",
+      "type": "relier",
+      "pairs": [
+        { "left": "J", "right": "Comme un 'h' expiré (jota)" },
+        { "left": "LL", "right": "Comme un 'y' (elle)" },
+        { "left": "Z / C (+e, i)", "right": "Comme le 'th' anglais (ceceo)" }
+      ],
+      "explication": "Voici quelques particularités phonétiques."
+    },
+    {
+      "id": "q4",
+      "question": "Complète le mot pour 'espagnol' : Espa{{1}}ol.",
+      "type": "trous",
+      "reponsesAttendues": ["ñ"],
+      "explication": "Español."
+    },
+    {
+      "id": "q5",
+      "question": "Comment se prononce la lettre 'V' en espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["Comme un b", "b"],
+      "explication": "La lettre 'v' se prononce presque comme un 'b'."
+    }
+  ]
+}

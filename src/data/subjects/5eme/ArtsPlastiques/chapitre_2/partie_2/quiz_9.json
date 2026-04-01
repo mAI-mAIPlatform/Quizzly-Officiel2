@@ -1,0 +1,49 @@
+{
+  "id": "5eme_AP_CH2_P2_QUIZ9",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Figuratif vs Non-Figuratif",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment appelle-t-on une œuvre qui représente un sujet reconnaissable ?",
+      "type": "courte",
+      "reponsesAttendues": ["figurative", "figuration"],
+      "explication": "L'art figuratif."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'art non-figuratif est un autre nom flow l'art abstrait.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Il ne fait pas référence à des formes figurées."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les œuvres à leur catégorie.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Portrait de Louis XIV", "right": "Figuratif" },
+        { "left": "Carré noir sur fond blanc", "right": "Non-figuratif (Abstrait)" },
+        { "left": "Dessin d'enfant stylisé", "right": "Figuratif stylisé" }
+      ],
+      "explication": "Voici comment classer les images selon leur degré de ressemblance."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le passage du réel à l'imaginaire s'appelle la {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["transposition", "fiction"],
+      "explication": "La transposition artistique."
+    },
+    {
+      "id": "q5",
+      "question": "Quel genre d'œuvre ne représente que des lignes level des couleurs sans sujet ?",
+      "type": "courte",
+      "reponsesAttendues": ["composition abstraite", "abstraction"],
+      "explication": "Une composition abstraite."
+    }
+  ]
+}

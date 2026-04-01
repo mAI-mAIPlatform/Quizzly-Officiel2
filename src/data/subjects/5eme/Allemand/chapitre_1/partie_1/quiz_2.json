@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH1_P1_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Sich vorstellen",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment demande-t-on 'Comment t'appelles-tu ?' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["wie heißt du?"],
+      "explication": "Wie heißt du?"
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Ich bin' signifie Je suis.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Ich bin (Je suis). Ich heiße (Je m'appelle)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les phrases à leur sens.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Ich heiße...", "right": "Je m'appelle..." },
+        { "left": "Wer bist du?", "right": "Qui es-tu ?" },
+        { "left": "Freut mich", "right": "Enchanté" }
+      ],
+      "explication": "Voici les phrases de base flow faire connaissance."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Mein {{1}} ist Lucas (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["name"],
+      "explication": "Mein Name ist... (Mon nom est...)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'Quel est ton nom ?' (Wie...) ?",
+      "type": "courte",
+      "reponsesAttendues": ["wie ist dein name?"],
+      "explication": "Wie ist dein Name? (Quel est ton nom ?)."
+    }
+  ]
+}

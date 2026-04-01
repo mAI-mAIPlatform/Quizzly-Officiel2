@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH3_P1_QUIZ10",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Récap Final P1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que l'architecture durable ?",
+      "type": "qcm",
+      "options": ["Une architecture in pierre uniquement", "Une architecture respectueuse de l'environnement", "Une architecture ancienne"],
+      "reponse": 1,
+      "explication": "Elle vise l'économie d'énergie level le respect de la nature."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La signalétique aide à s'orienter in la ville.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Panneaux, flèches, plans."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les termes urbains.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Banc / Abribus", "right": "Mobilier urbain" },
+        { "left": "Pochoir / Graffiti", "right": "Street Art" },
+        { "left": "Paysage Sonore", "right": "Ambiance auditive" }
+      ],
+      "explication": "Révision de l'environnement urbain."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Transformer une ancienne gare in musée est une {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["réhabilitation"],
+      "explication": "La réhabilitation (ou reconversion)."
+    },
+    {
+      "id": "q5",
+      "question": "Quel célèbre immeuble milanais est recouvert d'arbres ?",
+      "type": "courte",
+      "reponsesAttendues": ["bosco verticale"],
+      "explication": "Le Bosco Verticale."
+    }
+  ]
+}

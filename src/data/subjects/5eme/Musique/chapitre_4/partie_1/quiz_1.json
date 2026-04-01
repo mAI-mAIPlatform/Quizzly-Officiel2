@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH4_P1_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_4",
+  "partie": "partie_1",
+  "titre": "L'Instrument Vocal",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est le tout premier instrument de musique de l'humanité (qui ne nécessite aucun outil extérieur) ?",
+      "type": "qcm",
+      "options": ["Le Tam-Tam", "La Voix Humaine (et le claquement de mains ou de pieds)", "La Flûte en os"],
+      "reponse": 1,
+      "explication": "C'est l'instrument le plus expressif au monde car il est directement relié à nos émotions et possède notre Souffle vital."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le son de notre voix est créé uniquement par nos poumons qui fabriquent le bruit en expirant l'air.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "L'air sort des poumons, mais c'est la vibration des deux minuscules 'Cordes Vocales' situées dans notre Larynx (la gorge) qui crée réellement le son."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la partie du corps utile au chant à sa fonction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Diaphragme (le grand muscle du ventre)", "right": "Le 'Moteur' : il pousse l'air hors des poumons avec puissance et contrôle" },
+        { "left": "Les Cordes Vocales", "right": "Le 'Vibrateur' : elles s'écartent ou se resserrent très vite pour créer la note aiguë ou grave" },
+        { "left": "Les Cavités de Résonance (Bouche, Nez, Poitrine)", "right": "L''Ampli' : ce sont les espaces vides qui font grossir le son et donnent la couleur unique de ta voix (le Timbre)" }
+      ],
+      "explication": "Le corps entier est un véritable instrument de musique physique à entretenir : la voix peut se casser."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de chanter en n'insistant que sur la circulation de l'air dans sa gorge sans faire vibrer la poitrine s'appelle chanter en Voix de {{1}} (nom : comme Mickey ou les contre-ténors).",
+      "type": "trous",
+      "reponsesAttendues": ["tête"],
+      "explication": "La Voix de tête (son très aigu et léger)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on scientifiquement l'empreinte sonore ou la 'couleur' unique de la voix (ou d'un instrument) qui permet de reconnaître au téléphone qui nous parle même sans le voir ?",
+      "type": "courte",
+      "reponsesAttendues": ["le timbre", "timbre"],
+      "explication": "Le Timbre vocal."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH1_P2_QUIZ4",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Le Readymade",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un 'readymade' ?",
+      "type": "qcm",
+      "options": ["Un objet d'art fabriqué à la main", "Un objet du quotidien déjà fait, choisi par l'artiste level détourné de sa fonction", "Un ready-to-wear"],
+      "reponse": 1,
+      "explication": "L'artiste choisit un objet manufacturé level lui donne le statut d'œuvre par le simple fait de l'exposer."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Marcel Duchamp est l'inventeur du readymade.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Avec des œuvres comme 'Fontaine' (un urinoir) or 'Roue de bicyclette'."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les œuvres de Duchamp à leur objet d'origine.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Porte-bouteilles", "right": "Égouttoir à bouteilles" },
+        { "left": "Fontaine", "right": "Urinoir" },
+        { "left": "L.H.O.O.Q.", "right": "Carte postale de la Joconde" }
+      ],
+      "explication": "L'objet banal devient artistique par le regard de l'artiste."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : En détournant un objet, l'artiste change sa {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["fonction", "utilité"],
+      "explication": "L'objet n'est plus utilitaire mais devient esthétique."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on l'action de priver l'objet de son usage habituel ?",
+      "type": "courte",
+      "reponsesAttendues": ["désémantisation", "détournement"],
+      "explication": "Le détournement d'objet."
+    }
+  ]
+}

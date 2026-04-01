@@ -1,0 +1,54 @@
+{
+  "id": "5eme_TECH_CH1_P3_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Modélisation 3D",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "À quoi sert une 'Maquette Numérique' en 3D ?",
+      "type": "qcm",
+      "options": [
+        "À décorer l'ordinateur de l'architecte",
+        "À simuler le bâtiment avant sa construction pour détecter des erreurs et faire des tests virtuelles",
+        "À remplacer le vrai bâtiment car c'est moins cher"
+      ],
+      "reponse": 1,
+      "explication": "La 3D permet de voir l'intérieur des murs et de tester l'ensoleillement ou la résistance au vent."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le 'BIM' (Building Information Modeling) est une méthode de travail collaborative où tout le monde travaille sur la même maquette numérique.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Architectes, ingénieurs et électriciens partagent leurs données sur un seul modèle digital."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'outil 3D à son action.",
+      "type": "relier",
+      "pairs": [
+        { "left": "SketchUp / Revit", "right": "Logiciels pour dessiner en 3D les volumes" },
+        { "left": "Rendu photo-réaliste", "right": "Créer une image qui ressemble à une vraie photo du futur bâtiment" },
+        { "left": "Visite virtuelle", "right": "Se déplacer dans le bâtiment avec un casque de réalité virtuelle" }
+      ],
+      "explication": "Le numérique rend le projet plus concret pour le client."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Une maquette en carton ou en plastique à petite échelle s'appelle une maquette {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["physique", "réelle", "reelle"],
+      "explication": "On l'utilise encore pour mieux appréhender les volumes dans l'espace."
+    },
+    {
+      "id": "q5",
+      "question": "Quel sigle de 3 lettres désigne la représentation graphique en 3D assistée par ordinateur ?",
+      "type": "courte",
+      "reponsesAttendues": ["la CAO", "CAO", "DAO"],
+      "explication": "C'est la CAO (Conception Assistée par Ordinateur)."
+    }
+  ]
+}

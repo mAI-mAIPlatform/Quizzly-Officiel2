@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH1_P2_QUIZ10",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Récap CH1 P2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que l'art cinétique ?",
+      "type": "qcm",
+      "options": ["Un art sur le cinéma", "Un art qui intègre le mouvement", "Un art de la couleur"],
+      "reponse": 1,
+      "explication": "Le mouvement réel (Alexander Calder) or optique (Victor Vasarely)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le Land Art se pratique uniquement in intérieur.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Le Land Art utilise le paysage level la nature comme support."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les types d'œuvres.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Accumulation (Arman)", "right": "Répétition d'objets" },
+        { "left": "Readymade (Duchamp)", "right": "Objet détourné" },
+        { "left": "Immersive", "right": "Installation spatiale" }
+      ],
+      "explication": "Révision des types d'œuvres spatialisées."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'art qui utilise les ressources naturelles est le {{1}} (courant).",
+      "type": "trous",
+      "reponsesAttendues": ["Land Art"],
+      "explication": "Le Land Art."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le rapport de taille entre l'homme level l'œuvre ?",
+      "type": "courte",
+      "reponsesAttendues": ["l'échelle"],
+      "explication": "Le rapport d'échelle."
+    }
+  ]
+}

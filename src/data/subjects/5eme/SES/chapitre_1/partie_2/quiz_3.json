@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH1_P2_QUIZ3",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Les Matières Premières",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une 'Matière Première' ?",
+      "type": "qcm",
+      "options": [
+        "Un produit déjà fini et prêt à être vendu",
+        "Une ressource extraite de la nature (bois, fer, blé, pétrole) transformée pendant la production pour devenir un bien fini",
+        "Un outil de jardinage"
+      ],
+      "reponse": 1,
+      "explication": "Les matières premières sont des 'Consommations Intermédiaires' car elles sont transformées ou détruites pendant le processus."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le Soleil et le Vent sont des ressources naturelles 'Renouvelables' car elles se régénèrent à l'échelle humaine.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "À l'inverse, le pétrole ou le charbon sont des ressources épuisables."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la matière première au produit fini correspondant.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le minerai de fer", "right": "Deviendra l'acier de la carrosserie d'une voiture" },
+        { "left": "La farine", "right": "Sert de consommation intermédiaire pour faire du pain" },
+        { "left": "Le plastique (pétrole)", "right": "Permet de fabriquer des coques de smartphones" }
+      ],
+      "explication": "La production est une suite de transformations de ressources."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de réutiliser des matières premières issues de déchets s'appelle le {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["recyclage"],
+      "explication": "Le recyclage permet de limiter l'épuisement des ressources naturelles."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le secteur économique qui regroupe les activités d'extraction des matières premières (agriculture, mines) ?",
+      "type": "courte",
+      "reponsesAttendues": ["le secteur primaire", "secteur primaire"],
+      "explication": "C'est le secteur primaire."
+    }
+  ]
+}

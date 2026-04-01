@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH3_P1_QUIZ2",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Les Secteurs Économiques",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Dans quel secteur économique se trouve une entreprise qui fabrique des voitures ou des vêtements ?",
+      "type": "qcm",
+      "options": [
+        "Le secteur primaire",
+        "Le secteur secondaire (Industrie et transformation)",
+        "Le secteur tertiaire"
+      ],
+      "reponse": 1,
+      "explication": "Le secteur secondaire transforme les matières premières en produits finis ou semi-finis."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le secteur Tertiaire (services, commerces, banques) est celui qui regroupe le plus de travailleurs en France aujourd'hui.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Plus de 75% des emplois en France sont dans les services (c'est la 'Tertiarisation' de l'économie)."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'activité au bon secteur économique.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Culture de blé et élevage de vaches", "right": "Secteur Primaire (Ressources naturelles)" },
+        { "left": "Construction d'immeubles (BTP)", "right": "Secteur Secondaire (Transformation/Construction)" },
+        { "left": "Vente de billets d'avion ou Enseignement", "right": "Secteur Tertiaire (Services)" }
+      ],
+      "explication": "L'économie est divisée en trois grands secteurs d'activité."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Une entreprise qui appartient à l'État s'appelle une entreprise {{1}} (ex: SNCF).",
+      "type": "trous",
+      "reponsesAttendues": ["publique", "nationale"],
+      "explication": "Les entreprises publiques appartiennent à la collectivité."
+    },
+    {
+      "id": "q5",
+      "question": "Quel nom donne-t-on au secteur qui regroupe les activités de haute technologie, de recherche et d'informatique (parfois appelé 4ème secteur) ?",
+      "type": "courte",
+      "reponsesAttendues": ["le secteur quaternaire", "quaternaire"],
+      "explication": "C'est le secteur quaternaire."
+    }
+  ]
+}

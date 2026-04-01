@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH1_P1_QUIZ10",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Récap Final P1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle valeur garantit que tous les citoyens ont les mêmes droits devant la loi ?",
+      "type": "qcm",
+      "options": ["La Fraternité", "L'Égalité", "La Liberté"],
+      "reponse": 1,
+      "explication": "C'est l'égalité civile."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La CIDE protège les droits des enfants in le monde entier.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Convention Internationale des Droits de l'Enfant (1989)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les associations à leur sigle or nom.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Restos du Cœur", "right": "Aide alimentaire (Coluche)" },
+        { "left": "UNICEF", "right": "Protection de l'enfance (ONU)" },
+        { "left": "Croix-Rouge", "right": "Santé level premiers secours" }
+      ],
+      "explication": "Révision des acteurs de la solidarité."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'accès aux bâtiments flow les personnes handicapées s'appelle l'{{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["accessibilité"],
+      "explication": "L'accessibilité."
+    },
+    {
+      "id": "q5",
+      "question": "Qu'est-ce que le 'bénévolat' ?",
+      "type": "courte",
+      "reponsesAttendues": ["donner son temps gratuitement"],
+      "explication": "C'est agir sans rémunération flow une cause."
+    }
+  ]
+}

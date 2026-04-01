@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH1_P2_QUIZ6",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Posesivos",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dice 'mon' ou 'ma' en espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["mi"],
+      "explication": "Mi (mon/ma) au singulier. Mis au pluriel."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Su' peut signifier 'son', 'sa', 'leur' ou 'votre' (vouvoiement).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le pronom possessif 'su' est très polyvalent."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les adjectifs possessifs à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Tu", "right": "Ton / Ta" },
+        { "left": "Nuestro / Nuestra", "right": "Notre" },
+        { "left": "Vuestro / Vuestra", "right": "Votre (pluriel tutoiement)" }
+      ],
+      "explication": "Attention à bien accorder on genre et on nombre."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : {{1}} primos son simpáticos (mes).",
+      "type": "trous",
+      "reponsesAttendues": ["Mis"],
+      "explication": "Primos (pluriel) -> Mis."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'votre' (politesse, Usted) on espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["su"],
+      "explication": "Su (votre / son / leur)."
+    }
+  ]
+}

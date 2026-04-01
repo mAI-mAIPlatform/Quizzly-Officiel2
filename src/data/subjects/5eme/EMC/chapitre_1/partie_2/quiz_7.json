@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH1_P2_QUIZ7",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Acteurs de la Justice",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est le rôle de l'avocat lors d'un procès ?",
+      "type": "qcm",
+      "options": ["Rendre la décision finale (jugement)", "Défendre son client (accusé ou victime)", "Arrêter les criminels"],
+      "reponse": 1,
+      "explication": "L'avocat garantit les droits de la défense, qui est un principe fondamental."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le Procureur de la République défend les intérêts de la société et demande la condamnation.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le Procureur représente le ministère public."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les rôles judiciaires à leurs missions.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Juge", "right": "Tranche le litige et applique la loi" },
+        { "left": "Le Greffier", "right": "Note tout ce qui se dit à l'audience (le garant de la procédure)" },
+        { "left": "L'Huissier (Commissaire de justice)", "right": "Exécute les décisions et fait les constats" }
+      ],
+      "explication": "Un procès nécessite plusieurs professionnels pour être équitable."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Au pénal, la décision rendue par le juge s'appelle un {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["jugement", "arrêt"],
+      "explication": "Un jugement (ou un arrêt pour la Cour d'appel/Assises)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment s'appelle l'ensemble des règles qui assurent un procès juste (droits de la défense, appel...) ?",
+      "type": "courte",
+      "reponsesAttendues": ["procès équitable", "droit au procès équitable"],
+      "explication": "Le droit à un procès équitable."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH2_P2_QUIZ1",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Défense et Vigipirate",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que le Plan Vigipirate ?",
+      "type": "qcm",
+      "options": ["Un plan contre la piraterie informatique", "Le plan national de vigilance, de prévention et de protection face à la menace terroriste", "Un plan pour protéger les bateaux"],
+      "reponse": 1,
+      "explication": "Il permet de mobiliser les forces de sécurité (police, armée, gendarmerie) selon le niveau de menace."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La défense nationale ne concerne que l'armée française.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "La défense est globale : elle est militaire, mais aussi civile, économique et culturelle."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les acteurs de la Défense à leur rôle.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Président de la République", "right": "Chef des Armées, garant de l'indépendance nationale" },
+        { "left": "Le Parlement (Députés, Sénateurs)", "right": "Vote le budget de la Défense" },
+        { "left": "Les Citoyens", "right": "Participent à l'esprit de défense et à la résilience" }
+      ],
+      "explication": "La sécurité nationale dépend de l'implication de tous les acteurs de l'État."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'opération militaire qui déploie des soldats dans les rues pour protéger les lieux publics s'appelle l'opération {{1}} (nom propre).",
+      "type": "trous",
+      "reponsesAttendues": ["sentinelle"],
+      "explication": "L'Opération Sentinelle (créée en 2015)."
+    },
+    {
+      "id": "q5",
+      "question": "Quelle est la valeur républicaine qui motive la protection de ses concitoyens ?",
+      "type": "courte",
+      "reponsesAttendues": ["la fraternité", "fraternité"],
+      "explication": "La Fraternité."
+    }
+  ]
+}

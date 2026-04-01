@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH1_P1_QUIZ7",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Textures level Matières",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une texture 'tactile' in art ?",
+      "type": "qcm",
+      "options": ["Une texture qui ne se voit pas", "Une texture que l'on peut ressentir au toucher", "Une texture dessinée à la règle"],
+      "reponse": 1,
+      "explication": "Le relief, le grain du papier or l'épaisseur de la peinture."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Une texture 'visuelle' est une illusion de relief sur une surface plane.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le trompe-l'œil par exemple."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les matières aux effets visuels.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Lisse", "right": "Reflet / Brillance" },
+        { "left": "Le Rugueux", "right": "Accroche la lumière / Ombre" },
+        { "left": "Le Transparent", "right": "Laisse passer la vue" }
+      ],
+      "explication": "Voici comment la matière transforme l'aspect d'une œuvre."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'utilisation de matériaux réels collés sur une œuvre s'appelle un {{1}} (technique).",
+      "type": "trous",
+      "reponsesAttendues": ["collage", "assemblage"],
+      "explication": "Le collage (cubisme, surréalisme)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le grain d'une surface ?",
+      "type": "courte",
+      "reponsesAttendues": ["texture", "matière"],
+      "explication": "La texture."
+    }
+  ]
+}

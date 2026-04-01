@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH2_P3_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Beschreiben",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dit 'mignon' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["süß", "niedlich"],
+      "explication": "Süß (Mignon / Sucré)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Groß' signifie petit.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Groß (Grand). Petit se dit 'klein'."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les adjectifs qualificatífs à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Schwarz", "right": "Noir" },
+        { "left": "Weiß", "right": "Blanc" },
+        { "left": "Gefährlich", "right": "Dangereux" }
+      ],
+      "explication": "Voici comment décrire l'apparence or le caractère d'un animal."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Mein Hund ist sehr {{1}} (gentil/calme).",
+      "type": "trous",
+      "reponsesAttendues": ["lieb", "brav"],
+      "explication": "Lieb / Brav (Gentil / Sage)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'actif' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["aktiv"],
+      "explication": "Aktiv."
+    }
+  ]
+}

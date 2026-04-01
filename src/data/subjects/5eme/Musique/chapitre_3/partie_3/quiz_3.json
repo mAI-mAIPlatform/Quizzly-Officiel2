@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH3_P3_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Le Rock 'n' Roll",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "De qui et comment naît le formidable mouvement musical et culturel du 'Rock and Roll' aux États-Unis dans les années 1950 ?",
+      "type": "qcm",
+      "options": ["C'est de la musique inventée par des informaticiens", "C'est la fusion rebelle entre le Rhythm and Blues (musique noire rapide héritée du Jazz) et la Country Music (musique blanche paysanne très rythmée et swinguée) des jeunes américains", "C'est l'évolution d'une berceuse pour enfant"],
+      "reponse": 1,
+      "explication": "Le Rock a brisé les barrières raciales en Amérique. La jeunesse d'après-guerre a explosé grâce à ses héros provocateurs (Bill Haley, Chuck Berry) !"
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'instrument roi absolu du Rock, qui a électrifié la planète entière, est le Piano à queue classique.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "C'est la GUITARE ÉLECTRIQUE, reliée aux énormes amplis ! Suivie de la batterie pour un tempo assourdissant (le 'Beat')."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la légende du Rock à son surnom ou son origine européenne (l'invasion britannique).",
+      "type": "relier",
+      "pairs": [
+        { "left": "Elvis Presley (Le King)", "right": "Première icône mondiale absolue aux États-Unis (voix, banane dans les cheveux, danses folles des hanches censurées à la TV)" },
+        { "left": "Les Beatles (John Lennon, Paul McCartney)", "right": "Quatre garçons de Liverpool (UK) qui ont inventé la 'Pop' mondiale moderne et l'hystérie des fans ('la Beatlemania')" },
+        { "left": "Les Rolling Stones (Mick Jagger)", "right": "L'autre très grand groupe anglais, au style plus rebelle, provocant et 'Blues' avec leur logo en forme de langue tirée" }
+      ],
+      "explication": "Le marché du disque ('records') devient international avec la Pop-Rock (Popular Music)."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de jouer fort de sa guitare pour accompagner la voix principale sans s'arrêter et marteler la batterie (une sorte de petite phrase ou accord constant) s'appelle jouer un très grand {{1}} (mot anglais très court).",
+      "type": "trous",
+      "reponsesAttendues": ["riff"],
+      "explication": "Un Riff de guitare (comme l'intro de '(I Can't Get No) Satisfaction')."
+    },
+    {
+      "id": "q5",
+      "question": "Quel célèbre petit support portatif, avec son stylet, développé après la guerre par Columbia Records, s'insérant dans un Teppaz (Tourne-disque plat dans une valise) et contenant souvent deux voire une seule chanson 'single', a permis à la jeunesse d'écouter les Beatles partout ?",
+      "type": "courte",
+      "reponsesAttendues": ["le 45 tours", "un 45 tours", "le vinyle 45 tours", "le microsillon"],
+      "explication": "Le 45 tours (disque vinyle de taille réduite)."
+    }
+  ]
+}

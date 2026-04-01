@@ -1,0 +1,54 @@
+{
+  "id": "5eme_TECH_CH1_P1_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Besoin et Ouvrage",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "À quel besoin fondamental répond la construction d'un habitat (maison, immeuble) ?",
+      "type": "qcm",
+      "options": [
+        "Se divertir devant la télé",
+        "Se mettre à l'abri des intempéries, du froid et du danger pour vivre en sécurité",
+        "Gagner de l'argent en le revendant"
+      ],
+      "reponse": 1,
+      "explication": "C'est la fonction d'usage principale de l'habitat."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Un 'Ouvrage' est une construction de grande taille réalisée par l'homme (pont, barrage, tour).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "On distingue souvent l'habitat (logement) des autres ouvrages de génie civil."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'ouvrage au besoin qu'il satisfait.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Pont", "right": "Franchir un obstacle (rivière, ravin, route)" },
+        { "left": "Le Château d'eau", "right": "Stocker et distribuer de l'eau sous pression" },
+        { "left": "L'Hôpital", "right": "Assurer des soins de santé à la population" }
+      ],
+      "explication": "Chaque objet technique est conçu pour répondre à un besoin précis."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'énoncé d'un besoin se fait souvent en répondant à la question 'À qui l'objet rend-il {{1}} ?'.",
+      "type": "trous",
+      "reponsesAttendues": ["service"],
+      "explication": "C'est l'une des questions de la 'Bête à cornes' pour définir le besoin."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on la liste des attentes et des contraintes à respecter pour créer un nouvel ouvrage ?",
+      "type": "courte",
+      "reponsesAttendues": ["le cahier des charges", "cahier des charges", "CDCF"],
+      "explication": "C'est le cahier des charges fonctionnel."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH3_P1_QUIZ7",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Wohnort level Herkunft",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dit 'J'habite à' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["ich wohne in"],
+      "explication": "Ich wohne in + ville."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Ich komme aus' signifie je vais vers.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Ich komme aus (Je viens de - origine)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les verbes à leur usage.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Wohnen in", "right": "Lieu de résidence" },
+        { "left": "Kommen aus", "right": "Lieu de naissance / Origine" },
+        { "left": "Lebe in", "right": "Vivre (générique)" }
+      ],
+      "explication": "Voici comment préciser d'où l'on vient level où l'on réside."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Ich komme {{1}} Spanien (de).",
+      "type": "trous",
+      "reponsesAttendues": ["aus"],
+      "explication": "Aus (Origine)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment demande-t-on 'D'où viens-tu ?' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["woher kommst du?"],
+      "explication": "Woher kommst du?"
+    }
+  ]
+}

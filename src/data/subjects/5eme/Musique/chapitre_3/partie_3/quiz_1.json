@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH3_P3_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "La Musique Concrète",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qui caractérise la 'Musique Contemporaine Savante' européenne au début du 20ème siècle (vers 1900-1950) ?",
+      "type": "qcm",
+      "options": ["Le retour exclusif à la musique religieuse chantée par les moines", "La rupture totale avec le passé classique : on casse les règles de la mélodie et on invente des sons étranges (a-tonalité, dissonances)", "L'invention absolue de la guitare acoustique classique"],
+      "reponse": 1,
+      "explication": "Des compositeurs comme Igor Stravinsky ou Arnold Schönberg voulaient créer de nouvelles sensations auditives en détruisant les règles anciennes apprises au Conservatoire."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'invention de l'enregistrement magnétique (sur bande) en France dans les années 1940 a permis d'inventer la 'Musique Concrète', c'est-à-dire faire de la musique en découpant et en accélérant des bruits de train ou de casseroles.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est l'ingénieur français Pierre Schaeffer qui a inventé cette musique révolutionnaire (l'ancêtre direct du 'Sampling' dans le rap ou du DJing électro)."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la rupture musicale du 20ème siècle à son concept.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Sacre du Printemps (Stravinsky, 1913)", "right": "Un ballet tellement sauvage, brutal et rythmique qu'il a provoqué une bagarre énorme dans le théâtre de Paris le soir de la première" },
+        { "left": "L'Atonalité (Schönberg)", "right": "Une musique mathématique qui n'a pas de belle mélodie reposante (pas de tonalité), conçue pour troubler l'esprit humain" },
+        { "left": "La Musique Électro-Acoustique", "right": "L'utilisation de haut-parleurs et de synthétiseurs à câble pour modifier le son d'origine d'un instrument en direct" }
+      ],
+      "explication": "Après le traumatisme des deux Guerres Mondiales, l'Art refuse d'être simplement 'beau', il doit être un laboratoire industriel."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action d'utiliser des sons sans mélodie, des rythmes aléatoires ou du bruit pur dans un morceau de musique expérimentale prouve que l'industrie a créé une vraie {{1}} (nom féminin) musicale par rapport à Mozart.",
+      "type": "trous",
+      "reponsesAttendues": ["révolution", "rupture"],
+      "explication": "Une rupture (ou révolution) majeure."
+    },
+    {
+      "id": "q5",
+      "question": "Quel célèbre compositeur américain (John Cage) a écrit une célèbre partition intitulée '4 minutes 33' où le pianiste monte sur scène mais ne joue strictement... rien (laissant le public écouter le bruit de la salle) ?",
+      "type": "courte",
+      "reponsesAttendues": ["john cage", "cage"],
+      "explication": "John Cage (l'œuvre s'appelle '4'33')."
+    }
+  ]
+}

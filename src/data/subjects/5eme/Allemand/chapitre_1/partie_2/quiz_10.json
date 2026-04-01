@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH1_P2_QUIZ10",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Récap CH1 P2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est l'article défini flow le neutre in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["das"],
+      "explication": "Das (Neutre)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Keine' s'utilise flow le féminin level le pluriel.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Keine (Négation f / pl)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie le singulier au pluriel.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Die Tafel", "right": "Die Tafeln" },
+        { "left": "Das Buch", "right": "Die Bücher" },
+        { "left": "Der Bleistift", "right": "Die Bleistifte" }
+      ],
+      "explication": "Révision des pluriels courants."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Darf ich zur {{1}} gehen? (toilettes).",
+      "type": "trous",
+      "reponsesAttendues": ["toilette"],
+      "explication": "Darf ich zur Toilette gehen?"
+    },
+    {
+      "id": "q5",
+      "question": "Cómo se dit 'aider' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["helfen"],
+      "explication": "Helfen."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH2_P1_QUIZ1",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Support level Surface",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que le 'support' in arts plastiques ?",
+      "type": "qcm",
+      "options": ["La couleur utilisée", "La matière physique sur laquelle on peint or dessine", "Le cadre de l'œuvre"],
+      "reponse": 1,
+      "explication": "Le support peut être du papier, une toile, du bois, un mur, etc."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La 'surface' est la partie visible level travaillée du support.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est l'étendue sur laquelle l'artiste intervient."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les supports à leurs caractéristiques.",
+      "type": "relier",
+      "pairs": [
+        { "left": "La Toile", "right": "Souple, tendue sur un châssis" },
+        { "left": "Le Papier", "right": "Fragile, absorbant (plusieurs grains)" },
+        { "left": "Le Mur", "right": "Immobile, architectural (fresque)" }
+      ],
+      "explication": "Le choix du support influence le rendu final de l'œuvre."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Peindre directement sur un mur s'appelle réaliser une {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["fresque", "peinture murale"],
+      "explication": "La fresque (ou peinture murale)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait de préparer le support with une couche blanche ?",
+      "type": "courte",
+      "reponsesAttendues": ["le gesso", "l'apprêt"],
+      "explication": "L'apprêt (souvent du Gesso)."
+    }
+  ]
+}

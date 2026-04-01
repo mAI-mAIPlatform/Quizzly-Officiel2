@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH1_P1_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Begrüßung",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dice 'Bonjour' (le matin jusqu'à 11h) in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["guten morgen"],
+      "explication": "Guten Morgen (Bonjour - le matin)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Hallo' signifie Salut.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Hallo (Salut / Bonjour informel)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les salutations à leur moment de la journée.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Guten Tag", "right": "Journée" },
+        { "left": "Guten Abend", "right": "Soir" },
+        { "left": "Gute Nacht", "right": "Nuit (avant de dormir)" }
+      ],
+      "explication": "Voici comment saluer selon le moment."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Tschüss, {{1}} ! (Au revoir / À bientôt).",
+      "type": "trous",
+      "reponsesAttendues": ["bis bald"],
+      "explication": "Bis bald (À bientôt)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'Au revoir' (formel) in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["auf wiedersehen"],
+      "explication": "Auf Wiedersehen (Au revoir)."
+    }
+  ]
+}

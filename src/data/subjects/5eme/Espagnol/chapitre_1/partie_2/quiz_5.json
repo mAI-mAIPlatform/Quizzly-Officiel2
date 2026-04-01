@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH1_P2_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Récap CH1 P2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Conjugue : Mi madre {{1}} 40 años.",
+      "type": "trous",
+      "reponsesAttendues": ["tiene"],
+      "explication": "On utilise 'tener' flow l'âge."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Bajo' est le contraire de 'Alto'.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Alto (Grand), Bajo (Petit)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les membres de la famille.",
+      "type": "relier",
+      "pairs": [
+        { "left": "El abuelo", "right": "Le grand-père" },
+        { "left": "La hermana", "right": "La sœur" },
+        { "left": "El primo", "right": "Le cousin" }
+      ],
+      "explication": "Révision du vocabulaire familial."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Mi amigo es muy {{1}} (amusant).",
+      "type": "trous",
+      "reponsesAttendues": ["divertido"],
+      "explication": "Divertido (Amusant)."
+    },
+    {
+      "id": "q5",
+      "question": "Cómo se dice 'être blond' ?",
+      "type": "courte",
+      "reponsesAttendues": ["ser rubio"],
+      "explication": "Ser + rubio."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "5eme_TECH_CH1_P2_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Matériaux et Planète",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Pourquoi préfère-t-on recycler les métaux (acier, alu) ?",
+      "type": "qcm",
+      "options": [
+        "Parce que c'est une tradition",
+        "Pour économiser de l'énergie et préserver les mines de fer (ressources naturelles)",
+        "Parce que les métaux neufs sont plus fragiles"
+      ],
+      "reponse": 1,
+      "explication": "Recycler l'aluminium consomme 95% d'énergie en moins que d'en fabriquer du neuf."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les plastiques sont majoritairement fabriqués à partir de pétrole.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le pétrole est une ressource épuisable, d'où l'importance de limiter l'usage du plastique."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'étape du cycle de vie à son action.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Extraction", "right": "Aller chercher les matières premières dans la nature" },
+        { "left": "Production", "right": "Transformer la matière en objet dans une usine" },
+        { "left": "Fin de vie", "right": "Détruire, enfouir ou recycler l'objet hors d'usage" }
+      ],
+      "explication": "L'analyse du cycle de vie (ACV) mesure l'impact écolo d'un objet."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Un matériau qui peut être décomposé naturellement par des bactéries est dit {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["biodégradable", "biodegradable"],
+      "explication": "Le bois ou les cartons sont biodégradables, contrairement au plastique."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le sigle (3 flèches en triangle) qui indique qu'un emballage est recyclable ?",
+      "type": "courte",
+      "reponsesAttendues": ["ruban de Moebius", "moebius", "sigle recyclage"],
+      "explication": "C'est le ruban de Moebius."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH1_P3_QUIZ6",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Analyse d'Image",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que la 'dénotation' d'une image ?",
+      "type": "qcm",
+      "options": ["Ce que l'on interprète", "Ce que l'on voit objectivement (description brute)", "Le prix de l'œuvre"],
+      "reponse": 1,
+      "explication": "Décrire sans juger ni interpréter (ex: 'Un homme marche')."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La 'connotation' est le sens caché or suggéré d'une image.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est l'interprétation subjective (ex: 'Cet homme semble triste')."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les termes à leur niveau d'analyse.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Niveau Iconique", "right": "Identification des objets / personnages" },
+        { "left": "Le Niveau Plastique", "right": "Analyse des couleurs, formes level lignes" },
+        { "left": "Le Message", "right": "L'idée que l'image veut transmettre" }
+      ],
+      "explication": "Voici les étapes flow décrypter une image."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'étude des signes in une image s'appelle la {{1}} (discipline).",
+      "type": "trous",
+      "reponsesAttendues": ["sémiologie", "sémiotique"],
+      "explication": "La sémiologie de l'image."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le sentiment ressenti face à une image ?",
+      "type": "courte",
+      "reponsesAttendues": ["émotion", "subjectivité"],
+      "explication": "L'émotion esthétique."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH1_P3_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Die Uhrzeit",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se demande 'Quelle heure est-il ?' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["wie spät ist es?", "wie viel uhr ist es?"],
+      "explication": "Wie spät ist es? / Wie viel Uhr ist es?"
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Es ist acht Uhr' signifie il est huit heures.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Es ist... Uhr."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les heures à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Viertel vor", "right": "Moins le quart" },
+        { "left": "Viertel nach", "right": "Et quart" },
+        { "left": "Halb", "right": "Et demie (attention : heure suivante)" }
+      ],
+      "explication": "Voici les expressions flow l'heure in allemand."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Il est neuf heures level demie -> Es ist {{1}} zehn.",
+      "type": "trous",
+      "reponsesAttendues": ["halb"],
+      "explication": "Halb + heure suivante (Halb zehn = 9h30)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'Il est midi' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["es ist mittag", "es ist zwölf uhr"],
+      "explication": "Es ist Mittag / Es ist zwölf Uhr."
+    }
+  ]
+}

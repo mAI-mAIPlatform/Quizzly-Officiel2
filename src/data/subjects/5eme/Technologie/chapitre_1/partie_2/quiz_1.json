@@ -1,0 +1,54 @@
+{
+  "id": "5eme_TECH_CH1_P2_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Matériaux de Construction",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que le 'Béton Armé' ?",
+      "type": "qcm",
+      "options": [
+        "Un béton qui porte un fusil",
+        "Un mélange de béton (qui résiste bien à l'écrasement) et de barres d'acier (qui résistent bien à l'étirement)",
+        "Un béton de couleur jaune"
+      ],
+      "reponse": 1,
+      "explication": "C'est l'un des matériaux les plus utilisés car il combine les forces de la pierre et du métal."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le bois est un matériau renouvelable s'il provient de forêts gérées durablement.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Il est de plus en plus utilisé pour son faible impact carbone."
+    },
+    {
+      "id": "q3",
+      "question": "Associe le matériau à sa famille.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Acier / Aluminium", "right": "Métaux et alliages" },
+        { "left": "Brique / Verre", "right": "Céramiques et minéraux" },
+        { "left": "PVC / Plexiglas", "right": "Matières plastiques (polymères)" }
+      ],
+      "explication": "Il existe 4 grandes familles de matériaux en technologie."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Un matériau composé de plusieurs matières qui ne se mélangent pas (ex: fibre de carbone + plastique) est un matériau {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["composite"],
+      "explication": "Le béton armé est aussi un type de composite."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le mélange de sable, graviers, eau et ciment qui durcit comme de la pierre ?",
+      "type": "courte",
+      "reponsesAttendues": ["le béton", "beton"],
+      "explication": "C'est le béton."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH3_P1_QUIZ1",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Définition de l'Entreprise",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la définition économique simple d'une 'Entreprise' ?",
+      "type": "qcm",
+      "options": [
+        "Un bâtiment où les gens dorment",
+        "Une organisation qui combine du travail et du capital pour produire des biens ou des services marchands (vendus sur un marché pour faire du profit)",
+        "Un club de sport gratuit"
+      ],
+      "reponse": 1,
+      "explication": "L'entreprise est l'acteur principal de la production marchande."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Une entreprise peut appartenir à une seule personne (Entreprise Individuelle) ou à plusieurs personnes (Société).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Il existe différentes formes juridiques pour créer une entreprise."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la taille de l'entreprise à son nom officiel.",
+      "type": "relier",
+      "pairs": [
+        { "left": "PME (Petites et Moyennes Entreprises)", "right": "Entreprises de moins de 250 salariés" },
+        { "left": "TPE (Très Petites Entreprises)", "right": "Souvent moins de 10 salariés (gérant seul, commerçant)" },
+        { "left": "GE (Grandes Entreprises)", "right": "Plus de 5000 salariés (ex: Renault, Total, Carrefour)" }
+      ],
+      "explication": "La majorité des entreprises en France sont des TPE ou des PME."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Les personnes qui possèdent des parts d'une entreprise s'appellent les {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["associés", "actionnaires"],
+      "explication": "Les actionnaires investissent de l'argent et espèrent recevoir des dividendes."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le risque que prend un entrepreneur en créant son entreprise car il ne sait pas s'il va réussir à vendre ses produits ?",
+      "type": "courte",
+      "reponsesAttendues": ["le risque économique", "risque d'entreprise", "incertitude"],
+      "explication": "C'est le risque d'entreprise (ou risque entrepreneurial)."
+    }
+  ]
+}

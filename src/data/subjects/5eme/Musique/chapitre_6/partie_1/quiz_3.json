@@ -1,0 +1,54 @@
+{
+  "id": "5eme_MUSIQUE_CH6_P1_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_6",
+  "partie": "partie_1",
+  "titre": "La Respiration",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Pourquoi la gestion du souffle est-elle capitale pour un musicien jouant d'un instrument à vent ?",
+      "type": "qcm",
+      "options": [
+        "Pour ne pas s'évanouir",
+        "Pour contrôler la puissance, la durée de la note et la justesse du son",
+        "Pour faire des bulles dans l'instrument"
+      ],
+      "reponse": 1,
+      "explication": "Le souffle est le carburant de l'instrument à vent."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : On appelle 'Embouchure' la pièce de l'instrument que le musicien porte à ses lèvres.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "L'embouchure varie selon les familles (bec pour les bois, embouchure en métal pour les cuivres)."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'élément de l'instrument à vent à sa fonction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Pavillon", "right": "La partie évasée au bout de l'instrument qui diffuse le son" },
+        { "left": "Les Clefs", "right": "Mécanisme qui permet de boucher les trous pour changer les notes (sur les bois)" },
+        { "left": "La Coulisse", "right": "Partie mobile du trombone pour modifier la longueur du tube" }
+      ],
+      "explication": "Chaque mécanisme a un rôle précis dans la production des notes."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action d'utiliser la langue pour détacher les notes sur un instrument à vent s'appelle le {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["coup de langue"],
+      "explication": "Le coup de langue permet d'articuler la musique."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on la technique de respiration très difficile qui permet de souffler de l'air en continu tout en inspirant par le nez ?",
+      "type": "courte",
+      "reponsesAttendues": ["la respiration continue", "respiration circulaire", "la respiration circulaire"],
+      "explication": "C'est la respiration circulaire (utilisée aussi au Didgeridoo)."
+    }
+  ]
+}

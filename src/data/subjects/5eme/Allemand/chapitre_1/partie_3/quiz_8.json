@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH1_P3_QUIZ8",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "W-Fragen",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dit 'Quand' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["wann"],
+      "explication": "Wann (Quand)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Woher' signifie d'où (provenance).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Woher kommst du? (D'où viens-tu ?)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les mots interrogatifs à leur sens.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Was", "right": "Quoi / Que" },
+        { "left": "Wer", "right": "Qui" },
+        { "left": "Warum", "right": "Pourquoi" }
+      ],
+      "explication": "Voici les principaux adverbes interrogatifs in allemand."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : {{1}} wohnst du? (Où - lieu).",
+      "type": "trous",
+      "reponsesAttendues": ["Wo"],
+      "explication": "Wo (Où - sans mouvement)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'Comment' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["wie"],
+      "explication": "Wie (ex: Wie geht's?)."
+    }
+  ]
+}

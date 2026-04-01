@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH1_P3_QUIZ6",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Trennbare Verben",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Où se place la particule séparable dans une phrase déclaratíve (ex: aufstehen) ?",
+      "type": "courte",
+      "reponsesAttendues": ["à la fin", "en fin de phrase"],
+      "explication": "La particule (auf, an, fern...) va tout à la fin."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Ich sehe fern' signifie je regarde la télé.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Fernsehen -> Ich sehe ... fern."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les verbes à leur particule.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Auf", "right": "stehen" },
+        { "left": "An", "right": "rufen" },
+        { "left": "Ein", "right": "kaufen" }
+      ],
+      "explication": "Voici des verbes à particule séparable très courants."
+    },
+    {
+      "id": "q4",
+      "question": "Conjugue : Er {{1}} Lukas an (appeler).",
+      "type": "trous",
+      "reponsesAttendues": ["ruft"],
+      "explication": "Anrufen -> Er ruft ... an."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'faire des courses' (magasin) in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["einkaufen"],
+      "explication": "Einkaufen."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH4_P3_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_4",
+  "partie": "partie_3",
+  "titre": "Récap Final Ch4",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un 'Opéra Rock' par rapport à l'Opéra Classique traditionnel ?",
+      "type": "qcm",
+      "options": ["C'est un spectacle chanté sans instrument et en vieux français théâtral", "C'est une pièce de théâtre musicale moderne où tous les chanteurs utilisent des microphones pour dominer un énorme orchestre utilisant guitares électriques, basses ou synthétiseurs, chantant souvent la violence du monde urbain", "C'est un film muet en noir et blanc"],
+      "reponse": 1,
+      "explication": "Starmania ou Notre-Dame de Paris sont des exemples d'immenses 'Opéras Rocks' (ou Comédies Musicales) qui ont bouleversé le genre du Music-Hall."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les 'Vocaloids' (comme la star japonaise Hatsune Miku) sont de vraies chanteuses humaines qui portent des costumes de robots sur scène pour amuser le public.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Hatsune Miku n'existe pas physiquement : c'est un logiciel de synthèse vocale (créé en 2007). Le public vient voir chanter un Hologramme en 3D projeté sur la scène avec une voix artificielle."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la magie technologique moderne à son effet sur la voix humaine.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Microphone (Micro)", "right": "Capte la voix et l'amplifie dans toute la salle, il a permis aux voix très faibles et douces (ex: la Variété) d'exister face à l'énorme voix d'Opéra" },
+        { "left": "Le Vocoder (ou Effet Daft Punk)", "right": "Plier de force la voix d'un humain sur l'accord robotique joué en même temps sur un synthétiseur électronique ("Harder, Better...")" },
+        { "left": "L'Auto-Tune (ou Pitch correction)", "right": "Remettre automatiquement la voix d'un rappeur ou d'un chanteur sur la bonne note de la gamme, créant un léger saut métallique très à la mode (l'effet Cher / PNL)" }
+      ],
+      "explication": "Au 21ème siècle, la voix est traitée numériquement comme une matière première déformable à l'infini."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de filmer discrètement une foule qui se met subitement à chanter au milieu des passants dans la rue ou un magasin pour créer une chorale géante de la taille d'une foule s'appelle un {{1}} (expression de l'éclair en groupe).",
+      "type": "trous",
+      "reponsesAttendues": ["flash mob", "flashmob"],
+      "explication": "Un Flash Mob."
+    },
+    {
+      "id": "q5",
+      "question": "Quel célèbre ensemble de cinq incroyables jeunes chanteurs et beatboxers américains (A Cappella) a conquis YouTube ces dernières années en reprenant tous les tubes mondiaux (Daft Punk, Noël, Pop) uniquement avec la bouche, remportant plusieurs prix Grammy ?",
+      "type": "courte",
+      "reponsesAttendues": ["pentatonix", "ptx"],
+      "explication": "Pentatonix (PTX)."
+    }
+  ]
+}

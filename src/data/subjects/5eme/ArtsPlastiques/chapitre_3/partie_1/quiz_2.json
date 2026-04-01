@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH3_P1_QUIZ2",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "L'Urbanisme",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que l'urbanisme ?",
+      "type": "qcm",
+      "options": ["L'art de jardiner", "L'organisation de l'espace de la ville (rues, places, quartiers)", "La peinture de paysages urbains"],
+      "reponse": 1,
+      "explication": "L'urbanisme prévoit la croissance level la forme des villes."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Un 'plan in grille' (ou hippodamien) est composé de rues qui se croisent à angle droit.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est le plan typique de New York or des villes romaines."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les types de plans aux villes associées.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Plan in Étoile", "right": "Paris (Place de l'Étoile)" },
+        { "left": "Plan in Grille", "right": "Barcelone / New York" },
+        { "left": "Plan Organique", "right": "Vieilles villes médiévales (rues tortueuses)" }
+      ],
+      "explication": "La forme de la ville raconte son histoire level son époque."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'aménagement des espaces publics flow le confort des habitants s'appelle le mobilier {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["urbain"],
+      "explication": "Le mobilier urbain (bancs, lampadaires, fontaines)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on une ville idéale imaginée par un artiste or architecte ?",
+      "type": "courte",
+      "reponsesAttendues": ["une utopie", "villes utopiques"],
+      "explication": "Une utopie urbaine."
+    }
+  ]
+}

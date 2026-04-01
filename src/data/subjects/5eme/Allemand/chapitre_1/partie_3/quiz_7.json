@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH1_P3_QUIZ7",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Konjunktionen",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dit 'mais' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["aber"],
+      "explication": "Aber (Mais)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Oder' signifie où (le lieu).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Oder (Ou - choix). Où se dit 'wo'."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les conjonctions à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Und", "right": "Et" },
+        { "left": "Sondern", "right": "Mais (après une négation)" },
+        { "left": "Denn", "right": "Car" }
+      ],
+      "explication": "Voici l'acronyme ADUSO flow s'on souvenir (Aber, Denn, Und, Sondern, Oder)."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Ich lerne Deutsch {{1}} Englisch (et).",
+      "type": "trous",
+      "reponsesAttendues": ["und"],
+      "explication": "Und (Et)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'car' (conjonction de coordination) in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["denn"],
+      "explication": "Denn."
+    }
+  ]
+}

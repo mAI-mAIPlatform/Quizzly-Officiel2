@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH4_P3_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_4",
+  "partie": "partie_3",
+  "titre": "La Pop Chorale",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que le phénomène moderne des 'Groupes Vocaux A Cappella' (comme le mythique groupe Pentatonix) ?",
+      "type": "qcm",
+      "options": ["Ce sont des chanteurs qui miment les paroles avec leurs lèvres (Playback)", "C'est un petit groupe de chanteurs virtuoses qui reproduit tous les instruments d'une chanson Pop connue (basse, batterie, synthé) uniquement avec leurs bouches, en harmonie parfaite et sans aucun vrai instrument sur scène", "Ce sont des moines chantant en latin moderne"],
+      "reponse": 1,
+      "explication": "Le succès fou de 'Pitch Perfect' (The Barden Bellas) ou de Pentatonix sur Internet a remis au goût du jour la magie de l'instrument vocal pur sans artifice."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Dans un groupe vocal a cappella moderne, la personne qui fait la 'Basse' (les notes très graves qui soutiennent la chanson) est généralement le chanteur qui a la voix la plus aiguë du groupe.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Au contraire, c'est celui qui a la tessiture la plus basse et grave de sa catégorie ! C'est le fondement physique de tout l'orchestre vocal."
+    },
+    {
+      "id": "q3",
+      "question": "Associe le rôle du chanteur dans un groupe vocal Pop A Cappella (5 personnes par ex) à sa fonction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Lead (Soliste principal)", "right": "Il est souvent au centre et chante la mélodie principale de la chanson et les paroles (celui qu'on écoute d'abord)" },
+        { "left": "Les Choristes (Harmonies / Backing Vocals)", "right": "Ils chantent des accords en-dessous (Tierces ou Quintes) et font des onomatopées ('Ouhh, Ahh') pour enrichir le soliste" },
+        { "left": "Le Beatboxer vocale", "right": "Il crache dans le micro des bruits de batterie (Kick, Caisse claire, Cymbales) pour donner tout le rythme percussif de la chanson" }
+      ],
+      "explication": "C'est l'évolution ultime du vieux chant choral d'église marié à la Pop Music du 21ème siècle."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de filmer discrètement des chanteurs lyriques d'Opéra (ou une chorale de Gospel) dans une gare ou un supermarché, qui se mettent d'un coup tous ensemble à chanter par surprise devant des passants éberlués s'appelle faire un '{{1}}' (expression anglaise de danse spontanée : l'éclair de la foule).",
+      "type": "trous",
+      "reponsesAttendues": ["flash mob", "flashmob"],
+      "explication": "Un Flashmob (ou Flash Mob), très populaire sur YouTube pour populariser la voix classique."
+    },
+    {
+      "id": "q5",
+      "question": "Quel célèbre film d'humour avec Whoopi Goldberg (sorti en 1992) raconte l'histoire d'une fausse religieuse cachée dans un couvent américain qui transforme une chorale de gentilles sœurs complètement nulles et endormies en une gigantesque chorale de Gospel explosive ?",
+      "type": "courte",
+      "reponsesAttendues": ["sister act"],
+      "explication": "Sister Act."
+    }
+  ]
+}

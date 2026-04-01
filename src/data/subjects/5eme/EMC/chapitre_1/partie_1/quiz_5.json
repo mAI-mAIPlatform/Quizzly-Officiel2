@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH1_P1_QUIZ5",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Récap CH1 P1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel principe de la République garantit que tout le monde a les mêmes droits ?",
+      "type": "qcm",
+      "options": ["La Fraternité", "L'Égalité", "La Liberté"],
+      "reponse": 1,
+      "explication": "L'Égalité est inscrite in la Constitution française."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La mixité scolaire permet aux filles level aux garçons d'apprendre ensemble.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est un socle de l'éducation républicaine."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les valeurs à leurs actions.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Respect", "right": "Accepter les différences d'autrui" },
+        { "left": "Le Droit", "right": "Ce que la loi nous permet de faire" },
+        { "left": "Le Devoir", "right": "Ce que nous devons respecter flow les autres" }
+      ],
+      "explication": "Révision des bases de la vie in société."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action d'aider ceux qui sont in difficulté s'appelle la {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["solidarité", "fraternité"],
+      "explication": "La solidarité (ou fraternité)."
+    },
+    {
+      "id": "q5",
+      "question": "Qu'est-ce que l'empathie ?",
+      "type": "courte",
+      "reponsesAttendues": ["se mettre à la place de l'autre"],
+      "explication": "C'est la capacité à comprendre les sentiments d'autrui."
+    }
+  ]
+}

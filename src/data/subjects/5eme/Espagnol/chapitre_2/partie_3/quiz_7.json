@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH2_P3_QUIZ7",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Horario Escolar",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dice 'je commence les cours à huit heures' ?",
+      "type": "courte",
+      "reponsesAttendues": ["empiezo las clases a las ocho"],
+      "explication": "Empezar (Commencer) -> Empiezo."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Termino el colegio a las cinco' signifie je termine le collège à 17h.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Terminar (Terminer)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les actions scolaires aux moments.",
+      "type": "relier",
+      "pairs": [
+        { "left": "El recreo", "right": "Descansar" },
+        { "left": "El comedor", "right": "Almorzar" },
+        { "left": "La clase", "right": "Estudiar" }
+      ],
+      "explication": "Voici l'articulation de la journée scolaire."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Tengo clase {{1}} las ocho {{2}} las dos (de... à).",
+      "type": "trous",
+      "reponsesAttendues": ["desde", "hasta"],
+      "explication": "Desde... hasta (De... à/jusqu'à)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'avoir étude' (permanence) on espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["tener estudio"],
+      "explication": "Tener estudio (Être on permanence)."
+    }
+  ]
+}

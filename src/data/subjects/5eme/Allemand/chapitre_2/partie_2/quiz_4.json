@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH2_P2_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Einladungen",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se demande 'As-tu envie... ?' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["hast du lust?"],
+      "explication": "Hast du Lust? (As-tu envie ?)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Gehen wir ins Kino?' signifie allons-nous au cinéma ?",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Gehen wir... (Allons-nous...)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les réponses aux invitations.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Ja, gern!", "right": "Oui, avec plaisir !" },
+        { "left": "Gute Idee!", "right": "Bonne idée !" },
+        { "left": "Tut mir leid, ich kann nicht.", "right": "Désolé, je ne peux pas." }
+      ],
+      "explication": "Voici comment accepter or refuser une invitation."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Hast du Lust {{1}} Tischtennis spielen? (à/pour).",
+      "type": "trous",
+      "reponsesAttendues": ["auf"],
+      "explication": "Lust auf + nom (Lust auf Tischtennis)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'Peut-être' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["vielleicht"],
+      "explication": "Vielleicht."
+    }
+  ]
+}

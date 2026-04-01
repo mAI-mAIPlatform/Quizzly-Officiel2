@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH5_P1_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_5",
+  "partie": "partie_1",
+  "titre": "Qu'est-ce que le Son ?",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que le 'Son' d'un point de vue scientifique et physique ?",
+      "type": "qcm",
+      "options": ["C'est une lumière très rapide", "C'est une vibration invisible (une onde mécanique) qui traverse un milieu matériel (comme l'air ou l'eau) jusqu'à atteindre nos oreilles pour faire vibrer notre tympan", "C'est une réaction chimique toxique"],
+      "reponse": 1,
+      "explication": "Sans air (ou sans matière), le son ne peut pas se déplacer ! C'est pour ça que dans l'Espace (le vide absolu), il n'y a pas le moindre bruit."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Tous les bruits du monde sont composés de la exactement la même fréquence (vitesse de vibration).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Le nombre de vibrations par seconde (la Fréquence) permet de différencier tous les sons. Si ça vibre lentement (basses fréquences), le son est grave. Si ça vibre très vite (hautes fréquences), le son est aigu."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la notion acoustique de base à sa définition (ou son unité de mesure).",
+      "type": "relier",
+      "pairs": [
+        { "left": "L'Onde sonore", "right": "La propagation du bruit (comme une vague qui se propage quand on jette un caillou dans l'eau lissse)" },
+        { "left": "Le Hertz (Hz)", "right": "L'unité de mesure de la Hauteur (le nombre d'allers-retours vibratoires d'une corde par seconde)" },
+        { "left": "L'Acoustique", "right": "La science majestueuse qui étudie la création, la transmission et la réception des sons" }
+      ],
+      "explication": "L'oreille humaine n'entend qu'une partie des vibrations (entre 20 Hertz et 20 000 Hertz)."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action d'envoyer un cri dans une vallée montagneuse ou une cathédrale et de le ré-entendre deux secondes plus tard avec son propre rebond, s'appelle l'{{1}} (nom : la réflexion du son contre un mur lointain).",
+      "type": "trous",
+      "reponsesAttendues": ["écho", "echo"],
+      "explication": "L'écho (ou la réverbération s'il n'y a pas de rebond clair)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on les sons si aigus (au-dessus de 20 000 Hertz) que l'oreille humaine n'est plus capable de les entendre, mais que les chiens ou les chauves-souris parviennent à capter avec facilité ?",
+      "type": "courte",
+      "reponsesAttendues": ["les ultrasons", "un ultrason", "ultrason", "ultrasons"],
+      "explication": "Les Ultrasons (contrairement aux Infrasons utilisés par les éléphants et les baleines, qui sont trop graves pour nous)."
+    }
+  ]
+}

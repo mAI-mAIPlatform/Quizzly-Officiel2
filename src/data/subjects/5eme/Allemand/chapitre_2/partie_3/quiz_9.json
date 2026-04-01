@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH2_P3_QUIZ9",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Aktivitäten Natur",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dit 'faire de la randonnée' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["wandern"],
+      "explication": "Wandern (Faire de la randonnée)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Klettern' signifie grimper / faire de l'escalade.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Klettern (Grimper)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les activités de plein air à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Rad fahren", "right": "Faire du vélo" },
+        { "left": "Spazieren gehen", "right": "Se promener" },
+        { "left": "Zelten", "right": "Camper" }
+      ],
+      "explication": "Voici comment s'occuper in pleine nature."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Wir {{1}} im Wald (se promener).",
+      "type": "trous",
+      "reponsesAttendues": ["gehen"],
+      "explication": "Spazieren gehen."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'faire du canoë' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["paddeln", "kajak fahren"],
+      "explication": "Paddeln / Kajak fahren."
+    }
+  ]
+}

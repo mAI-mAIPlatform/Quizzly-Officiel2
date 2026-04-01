@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH3_P3_QUIZ7",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Land Art level Espace",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que le Land Art ?",
+      "type": "qcm",
+      "options": ["L'art de peindre des paysages", "Un courant artistique qui utilise le cadre level les matériaux de la nature (bois, terre, rochers)", "Une sculpture in plâtre"],
+      "reponse": 1,
+      "explication": "L'œuvre est indissociable du lieu où elle est créée."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les œuvres de Land Art sont souvent éphémères level soumises à l'érosion (pluie, vent).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Elle subissent le cycle de la nature."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les œuvres de Land Art à leur auteur.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Spiral Jetty", "right": "Robert Smithson (Sel flow rochers)" },
+        { "left": "The Gates", "right": "Christo level Jeanne-Claude (Installation urbaine / nature)" },
+        { "left": "Ligne de galets", "right": "Andy Goldsworthy (Matières naturelles)" }
+      ],
+      "explication": "Voici l'échelle monumentale de l'art in extérieur."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action d'empaqueter des monuments (Christo) s'appelle l'{{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["empaquetage"],
+      "explication": "L'empaquetage (wrapping)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait qu'une œuvre soit faite flow un endroit précis ?",
+      "type": "courte",
+      "reponsesAttendues": ["in situ"],
+      "explication": "In Situ."
+    }
+  ]
+}

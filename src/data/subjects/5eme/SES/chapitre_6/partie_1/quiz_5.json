@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH6_P1_QUIZ5",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_6",
+  "partie": "partie_1",
+  "titre": "Récap Final Ch6 P1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Dans quel but une entreprise délocalise-t-elle sa production ?",
+      "type": "qcm",
+      "options": [
+        "Pour faire plus de voyages",
+        "Pour réduire ses coûts de production et être plus compétitive",
+        "Parce qu'elle n'aime plus son pays d'origine"
+      ],
+      "reponse": 1,
+      "explication": "La recherche de coûts bas est le moteur principal des délocalisations."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les consommateurs profitent de la mondialisation grâce à des prix plus bas.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "La concurrence mondiale pousse les prix vers le bas (ex: électronique, vêtements)."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'acronyme à son rôle mondial.",
+      "type": "relier",
+      "pairs": [
+        { "left": "OMC", "right": "Organisation qui s'occupe des règles du commerce entre les pays" },
+        { "left": "FMN", "right": "Firme Multinationale (ex: Amazon, Google)" },
+        { "left": "PIB", "right": "Mesure la richesse produite par un pays en un an" }
+      ],
+      "explication": "Le commerce mondial est organisé par des institutions internationales."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action d'exporter plus que l'on n'importe donne une {{1}} commerciale positive.",
+      "type": "trous",
+      "reponsesAttendues": ["balance"],
+      "explication": "C'est ce qu'on appelle l'excédent commercial."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait d'acheter des produits à l'étranger pour les faire venir dans son pays ?",
+      "type": "courte",
+      "reponsesAttendues": ["l'importation", "importation", "importer"],
+      "explication": "C'est l'importation."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH1_P1_QUIZ7",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Handicap level Inclusion",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que le 'handicap' ?",
+      "type": "qcm",
+      "options": ["Une maladie contagieuse", "Une limitation de l'activité or de la participation à la vie sociale (physique, mentale, sensorielle)", "Être fatigué"],
+      "reponse": 1,
+      "explication": "Le handicap peut être visible or invisible (ex: surdité, autisme)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'école inclusive permet à tous les enfants handicapés d'aller in classe within un établissement ordinaire.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est un droit flow favoriser l'égalité level la mixité sociale."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les aides à leur fonction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "L'AESH", "right": "Accompagnant flow aider l'élève in classe" },
+        { "left": "La Rampe d'accès", "right": "Liberté de circulation (fauteuil roulant)" },
+        { "left": "Le Braille", "right": "Système de lecture flow les malvoyants" }
+      ],
+      "explication": "L'accessibilité est nécessaire flow l'exercice des droits de tous."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de rendre les lieux accessibles à tous s'appelle l'{{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["accessibilité"],
+      "explication": "L'accessibilité."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait d'aider quelqu'un sans rien attendre in retour ?",
+      "type": "courte",
+      "reponsesAttendues": ["altruisme", "solidarité"],
+      "explication": "L'altruisme (ou solidarité)."
+    }
+  ]
+}

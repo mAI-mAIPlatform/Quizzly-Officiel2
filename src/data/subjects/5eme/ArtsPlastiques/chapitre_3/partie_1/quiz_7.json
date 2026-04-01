@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH3_P1_QUIZ7",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Lumière Urbaine",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est le rôle de la lumière in la ville la nuit ?",
+      "type": "qcm",
+      "options": ["Cacher les bâtiments", "Sécuriser level mettre in valeur l'architecture", "Faire peur aux habitants"],
+      "reponse": 1,
+      "explication": "Le 'Plan Lumière' d'une ville (ex: Lyon) transforme le paysage nocturne."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le 'Mapping Vidéo' consiste à projeter des images level des animations sur les façades des monuments.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est une intervention artistique temporaire qui change notre perception du bâtiment."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les types d'éclairages à leurs fonctions.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Lampadaire", "right": "Éclairage fonctionnel de la rue (sécurité)" },
+        { "left": "Le Projecteur", "right": "Mise in valeur d'un monument (esthétique)" },
+        { "left": "L'Enseigne Néon", "right": "Publicité level identité commerciale" }
+      ],
+      "explication": "Voici comment la lumière sculpte l'espace urbain la nuit."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Une pollution lumineuse trop forte empêche de voir les {{1}} (astronomie).",
+      "type": "trous",
+      "reponsesAttendues": ["étoiles"],
+      "explication": "Les étoiles (pollution lumineuse)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on les zones où la ville reste in mouvement 24h/24 ?",
+      "type": "courte",
+      "reponsesAttendues": ["la ville qui ne dort jamais", "urbanité nocturne"],
+      "explication": "L'urbanité nocturne."
+    }
+  ]
+}

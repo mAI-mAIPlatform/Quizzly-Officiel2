@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH2_P3_QUIZ3",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Les Enjeux Environnementaux",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle grande menace écologique mondiale pèse sur notre avenir commun ?",
+      "type": "qcm",
+      "options": ["Le changement climatique (réchauffement)", "L'invasion extraterrestre", "La baisse du niveau des océans"],
+      "reponse": 0,
+      "explication": "Causé par les émissions de gaz à effet de serre (activités humaines), ce réchauffement menace la biodiversité et nos conditions de vie."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'environnement n'est pas protégé par la Constitution française.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "La Charte de l'environnement, adoptée en 2004, fait partie du bloc de constitutionnalité : 'Chacun a le droit de vivre dans un environnement équilibré et respectueux de la santé'."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les principes écologiques à leurs définitions.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le principe de précaution", "right": "Agir même s'il y a un doute scientifique sur un risque de dommage grave" },
+        { "left": "Le principe pollueur-payeur", "right": "Faire payer celui qui a causé les destructions écologiques (ex: marée noire)" },
+        { "left": "La biodiversité", "right": "L'ensemble des milieux naturels et des formes de vie (animaux, plantes)" }
+      ],
+      "explication": "Ces principes guident les lois pour limiter l'impact humain."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de produire massivement des gaz à effet de serre entraîne le {{1}} (nom) climatique.",
+      "type": "trous",
+      "reponsesAttendues": ["réchauffement", "dérèglement"],
+      "explication": "Le réchauffement (ou dérèglement) climatique."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le changement d'habitude pour consommer moins d'énergie (électricité, chauffage) ?",
+      "type": "courte",
+      "reponsesAttendues": ["la sobriété", "sobriété énergétique"],
+      "explication": "La sobriété énergétique."
+    }
+  ]
+}

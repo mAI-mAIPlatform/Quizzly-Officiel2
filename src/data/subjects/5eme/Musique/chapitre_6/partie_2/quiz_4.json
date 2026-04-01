@@ -1,0 +1,54 @@
+{
+  "id": "5eme_MUSIQUE_CH6_P2_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_6",
+  "partie": "partie_2",
+  "titre": "Percussions Rythmiques",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une percussion à 'Hauteur indéterminée' ?",
+      "type": "qcm",
+      "options": [
+        "Un instrument dont personne ne connaît la taille",
+        "Un instrument qui produit un bruit sec ou résonnant mais sur lequel on ne peut pas jouer de mélodie précise",
+        "Un instrument qui est cassé"
+      ],
+      "reponse": 1,
+      "explication": "Ils servent principalement à marquer le rythme et à donner de la couleur sonore."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La Caisse Claire est une percussion à hauteur indéterminée munie d'un timbre (fils métalliques) sous la peau inférieure pour grésiller.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est l'instrument de base du rythme militaire et de la batterie moderne."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'instrument de percussion rythmique à sa description.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Grosse Caisse", "right": "Immense tambour produisant un son très grave et puissant" },
+        { "left": "Cymbales", "right": "Deux disques de métal que l'on entrechoque violemment" },
+        { "left": "Triangle", "right": "Petite tige en métal pliée que l'on frappe avec une baguette en fer" }
+      ],
+      "explication": "Ces instruments apportent puissance et ponctuation à l'orchestre."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de faire vibrer très rapidement ses baguettes sur une peau pour créer un son continu s'appelle faire un {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["roulement"],
+      "explication": "Le roulement permet de créer une tension dramatique."
+    },
+    {
+      "id": "q5",
+      "question": "Quel petit instrument de bois, très utilisé dans la musique espagnole (Flamenco), se tient dans la paume de la main et claque ?",
+      "type": "courte",
+      "reponsesAttendues": ["les castagnettes", "castagnettes"],
+      "explication": "Les castagnettes marquent le rythme de la danse."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "5eme_MUSIQUE_CH5_P2_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_5",
+  "partie": "partie_2",
+  "titre": "Ostinato et Rythmes",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un 'Ostinato' en musique ?",
+      "type": "qcm",
+      "options": [
+        "Un petit instrument à vent",
+        "Une formule rythmique ou mélodique qui se répète obstinément tout au long d'un morceau ou d'une section",
+        "Une note qu'on ne joue qu'une seule fois"
+      ],
+      "reponse": 1,
+      "explication": "L'ostinato crée un tapis sonore répétitif, très utilisé dans le 'Boléro' de Ravel ou dans la musique Techno."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La 'Syncope' est un rythme qui déplace l'accentuation naturelle sur un temps faible ou une partie faible du temps.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "La syncope crée une sensation de surprise ou de dynamisme, très fréquente dans le Jazz et le Funk."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la technique rythmique à sa sensation musicale.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Contretemps", "right": "On joue uniquement 'entre' les pulsations (sur les silences de la pulsation)" },
+        { "left": "Le Triolet", "right": "Trois notes jouées dans le temps normalement prévu pour deux" },
+        { "left": "Le Tempo Rubato", "right": "Sensation de liberté où l'on accélère ou ralentit légèrement pour l'expression" }
+      ],
+      "explication": "Ces techniques permettent de sortir du cadre strict de la pulsation régulière pour plus d'expressivité."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Un tempo très lent, solennel et majestueux s'appelle en italien un {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["largo", "grave"],
+      "explication": "Largo signifie large, lent et solennel."
+    },
+    {
+      "id": "q5",
+      "question": "Quel terme italien utilise-t-on pour indiquer que l'on doit ralentir progressivement le tempo ?",
+      "type": "courte",
+      "reponsesAttendues": ["ritardando", "rallentando"],
+      "explication": "Ritardando (en retardant) ou Rallentando (en ralentissant)."
+    }
+  ]
+}

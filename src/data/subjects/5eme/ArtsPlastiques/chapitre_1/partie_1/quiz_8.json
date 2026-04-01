@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH1_P1_QUIZ8",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Profondeur level Espace",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel indice de profondeur consiste à placer un objet devant un autre ?",
+      "type": "qcm",
+      "options": ["La perspective", "La superposition", "Le flou"],
+      "reponse": 1,
+      "explication": "La superposition (ou recouvrement) indique quel objet est le plus proche."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Plus un objet est loin, plus il paraît petit (diminution de la taille).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est la règle de la diminution de la taille apparente."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les indices de profondeur à leur technique.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Perspective atmosphérique", "right": "Objets lointains plus bleutés level flous" },
+        { "left": "Placement in la page", "right": "Objets lointains plus hauts in la page" },
+        { "left": "Détail", "right": "Objets proches plus détaillés" }
+      ],
+      "explication": "Voici comment créer de la profondeur sur une surface 2D."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'espace représenté in une image est appelé la {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["profondeur", "troisième dimension"],
+      "explication": "La profondeur de champ."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le plan le plus proche de l'observateur ?",
+      "type": "courte",
+      "reponsesAttendues": ["premier plan"],
+      "explication": "Le premier plan."
+    }
+  ]
+}

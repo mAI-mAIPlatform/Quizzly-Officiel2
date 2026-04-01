@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH1_P1_QUIZ7",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Wie geht es dir?",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se demande 'Comment ça va ?' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["wie geht es dir?", "wie geht's?"],
+      "explication": "Wie geht es dir? (Informel)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Mir geht es gut' signifie ça va bien.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Mir geht es gut (Je vais bien)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les réponses aux états d'esprit.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Prima / Super", "right": "Très bien" },
+        { "left": "Es geht", "right": "Ça va (moyen)" },
+        { "left": "Nicht so gut", "right": "Pas très bien" }
+      ],
+      "explication": "Voici comment répondre à la question 'Wie geht's?'."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Und {{1}} ? (Et toi ?).",
+      "type": "trous",
+      "reponsesAttendues": ["dir"],
+      "explication": "Und dir? (Et toi ?)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'Comment allez-vous ?' (Formel) ?",
+      "type": "courte",
+      "reponsesAttendues": ["wie geht es ihnen?"],
+      "explication": "Wie geht es Ihnen? (Formel)."
+    }
+  ]
+}

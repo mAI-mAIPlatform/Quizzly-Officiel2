@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH3_P3_QUIZ5",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Récap Final Ch3",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est le seul pays à avoir quitté l'Union Européenne en 2020 (le 'Brexit') ?",
+      "type": "qcm",
+      "options": ["L'Allemagne", "Le Royaume-Uni", "L'Espagne"],
+      "reponse": 1,
+      "explication": "Le Royaume-Uni a voté sa sortie en 2016 et l'a appliquée officiellement en 2020."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Tous les pays de l'Union Européenne utilisent l'Euro comme monnaie officielle.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Certains pays (comme la Pologne, la Suède, ou la Hongrie) ont gardé leur propre monnaie. Seuls 20 pays sont dans la zone euro."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les institutions européennes à leur fonction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Parlement Européen", "right": "Vote les lois avec les représentants des citoyens" },
+        { "left": "La Commission Européenne", "right": "Propose les lois et veille à leur application (le gouvernement de l'UE)" },
+        { "left": "La Cour de Justice (CJUE)", "right": "Juge les pays membres qui ne respectent pas le droit européen" }
+      ],
+      "explication": "L'UE fonctionne avec des institutions qui partagent les pouvoirs."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'hymne de l'Union européenne est l'Ode à la {{1}} (nom), composée par Beethoven.",
+      "type": "trous",
+      "reponsesAttendues": ["joie"],
+      "explication": "L'Ode à la Joie (Symphonie n°9)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment s'appelle l'espace qui permet de voyager en Europe sans présenter son passeport aux frontières ?",
+      "type": "courte",
+      "reponsesAttendues": ["schengen", "l'espace schengen", "espace schengen"],
+      "explication": "L'Espace Schengen."
+    }
+  ]
+}

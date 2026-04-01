@@ -1,0 +1,54 @@
+{
+  "id": "5eme_TECH_CH2_P2_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Chaîne d'Énergie (Aval)",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle fonction permet de transformer l'énergie reçue en une autre forme (ex: élec en mouvement) ?",
+      "type": "qcm",
+      "options": [
+        "Transmettre",
+        "Convertir",
+        "Penser"
+      ],
+      "reponse": 1,
+      "explication": "C'est la fonction 'Convertir' (réalise par un moteur, une lampe, un vérin...)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Des engrenages ou une courroie servent à 'Transmettre' l'énergie mécanique.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "La transmission apporte le mouvement à l'effecteur final (roue, hélice...)."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'appareil à sa fonction de conversion.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Moteur électrique", "right": "Élec -> Mouvement" },
+        { "left": "Résistance chauffante", "right": "Élec -> Chaleur" },
+        { "left": "Vérin hydraulique", "right": "Pression (fluide) -> Mouvement" }
+      ],
+      "explication": "L'énergie change de forme pour effectuer un travail."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'élément final qui agit sur la matière (ex: la mèche d'une perceuse) s'appelle l'{{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["effecteur"],
+      "explication": "L'effecteur est au bout de la chaîne."
+    },
+    {
+      "id": "q5",
+      "question": "Quel composant transforme l'électricité en lumière ?",
+      "type": "courte",
+      "reponsesAttendues": ["la lampe", "ampoule", "LED"],
+      "explication": "La lampe (ou LED) est un convertisseur."
+    }
+  ]
+}

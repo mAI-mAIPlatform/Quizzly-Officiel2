@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH3_P2_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "L'Époque Classique",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qui caractérise la musique de l'Époque 'Classique' (dans la 2ème moitié du 18ème siècle, env. 1750-1820) ?",
+      "type": "qcm",
+      "options": ["Une musique très lourde, sombre et surchargée de notes partout (comme le Métal)", "La recherche absolue de l'élégance, de l'équilibre parfait, d'une mélodie simple et d'une clarté lumineuse dans la partition", "L'utilisation massive d'instruments électriques"],
+      "reponse": 1,
+      "explication": "C'est l'époque des Lumières (la raison, l'équilibre architectural) : on rejette les exagérations du style Baroque pour revenir à la grâce 'naturelle' et aux mathématiques pures de la forme (ex: la symphonie classique)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : C'est pendant l'Époque Classique qu'a été inventé le Piano, permettant de créer enfin des 'nuances' douces (Piano) ou fortes (Forte) en frappant les cordes avec de petits marteaux.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le 'Piano-Forte' vient remplacer très vite l'ancien clavecin baroque (qui ne pouvait faire qu'un seul volume sonore, très sec)."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la forme musicale reine du Classicisme à son effectif et sa définition.",
+      "type": "relier",
+      "pairs": [
+        { "left": "La Symphonie (Inventée par Joseph Haydn)", "right": "Grande œuvre en 4 parties immenses pour un grand orchestre complet (60 à 80 musiciens classiques)" },
+        { "left": "Le Quatuor à cordes", "right": "Musique de chambre très intime (2 violons, 1 alto, 1 violoncelle) dialoguant tous à égalité dans les salons parisiens ou viennois" },
+        { "left": "L'Opéra 'Bouffe' (Comique)", "right": "Pièce de théâtre chantée très drôle, légère et réaliste, se moquant souvent des nobles, née en Italie" }
+      ],
+      "explication": "La musique sort des Églises et de la Cour du Roi pour divertir la bourgeoisie urbaine payante dans de grands théâtres."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action d'entendre la musique la plus belle de l'époque Classique et de regarder les compositeurs viennois (autrichiens) jouer avec leurs perruques blanches poudrées s'appelle le classicisme de {{1}} (nom de la capitale).",
+      "type": "trous",
+      "reponsesAttendues": ["vienne"],
+      "explication": "Le classicisme viennois."
+    },
+    {
+      "id": "q5",
+      "question": "Quel compositeur de génie né à Salzbourg (en Autriche), enfant prodige absolu qui jouait du piano au grand aveugle à 5 ans, est l'auteur divin de 'La Flûte Enchantée' et de la sublime 'Petite Musique de Nuit' ?",
+      "type": "courte",
+      "reponsesAttendues": ["wolfgang amadeus mozart", "mozart", "amadeus mozart"],
+      "explication": "Wolfgang Amadeus Mozart."
+    }
+  ]
+}

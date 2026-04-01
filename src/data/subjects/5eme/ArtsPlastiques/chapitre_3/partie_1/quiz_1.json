@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH3_P1_QUIZ1",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "L'Architecture",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que l'architecture ?",
+      "type": "qcm",
+      "options": ["L'art de peindre des maisons", "L'art de concevoir level de construire des édifices level des espaces", "L'étude des fossiles"],
+      "reponse": 1,
+      "explication": "L'architecture allie technique, esthétique level fonctionnalité."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'La forme suit la fonction' signifie que l'aspect du bâtiment dépend de son usage.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est un principe majeur de l'architecture moderne."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les types d'architectures à leurs fonctions.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Architecture Civile", "right": "Habitations, mairies, écoles" },
+        { "left": "Architecture Religieuse", "right": "Églises, temples, mosquées" },
+        { "left": "Architecture Militaire", "right": "Châteaux forts, citadelles" }
+      ],
+      "explication": "Le bâtiment répond aux besoins de la société."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'esquisse or le dessin préparatoire d'un bâtiment s'appelle un {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["plan", "croquis d'architecte"],
+      "explication": "Le plan d'architecte."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on une maquette numérique d'un bâtiment ?",
+      "type": "courte",
+      "reponsesAttendues": ["modélisation 3d", "bim"],
+      "explication": "La modélisation 3D."
+    }
+  ]
+}

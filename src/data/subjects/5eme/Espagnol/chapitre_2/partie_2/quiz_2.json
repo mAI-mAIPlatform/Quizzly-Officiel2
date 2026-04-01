@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH2_P2_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Direcciones",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dice 'tourne à gauche' on espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["gira a la izquierda"],
+      "explication": "Gira (Tourne) + izquierda (gauche)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Sigue recto' signifie 'Continue tout droit'.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Seguir (Suivre/Continuer) + recto (tout droit)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les verbes de mouvement à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Cruza", "right": "Traverse" },
+        { "left": "Pasa", "right": "Passe" },
+        { "left": "Gira a la derecha", "right": "Tourne à droite" }
+      ],
+      "explication": "Voici comment donner des indications de chemin."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : {{1}} la calle (traverse).",
+      "type": "trous",
+      "reponsesAttendues": ["cruza"],
+      "explication": "Cruza la calle (Traverse la rue)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'la rue' on espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["la calle"],
+      "explication": "La calle (La rue)."
+    }
+  ]
+}

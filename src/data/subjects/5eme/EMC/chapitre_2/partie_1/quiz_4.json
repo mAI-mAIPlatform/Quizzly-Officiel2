@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH2_P1_QUIZ4",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Prévention et PPMS",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que le PPMS au collège ?",
+      "type": "qcm",
+      "options": ["Le Plan Particulier de Maintien en Santé (cantine)", "Le Plan Particulier de Mise en Sûreté (se protéger face à un risque majeur)", "Le Projet Protégé de Mathématiques Scientifiques"],
+      "reponse": 1,
+      "explication": "Le PPMS est obligatoire dans toutes les écoles pour faire face aux inondations, tempêtes, accidents industriels ou attentats."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les exercices d'évacuation incendie sont les seuls exercices de sécurité obligatoires au collège.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Il y a aussi les exercices PPMS 'risques majeurs' (comme le confinement) et 'attentat-intrusion'."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les rôles de l'alerte à leurs actions.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Maire", "right": "Déclenche l'alerte locale et informe ses citoyens" },
+        { "left": "Le Préfet", "right": "Prend la direction des secours au niveau du département" },
+        { "left": "Le Directeur/Principal", "right": "Déclenche le PPMS pour protéger les élèves" }
+      ],
+      "explication": "L'organisation des secours se fait à plusieurs échelles (commune, département)."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de quitter rapidement et dans le calme un bâtiment face à un incendie s'appelle une {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["évacuation"],
+      "explication": "Une évacuation."
+    },
+    {
+      "id": "q5",
+      "question": "Dans quel document l'élève trouve-t-il les consignes de sécurité valables dans son collège ?",
+      "type": "courte",
+      "reponsesAttendues": ["le règlement intérieur", "le carnet de correspondance", "règlement intérieur"],
+      "explication": "Dans le règlement intérieur (ou le carnet de liaison)."
+    }
+  ]
+}

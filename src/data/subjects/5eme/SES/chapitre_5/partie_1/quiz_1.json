@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH5_P1_QUIZ1",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_5",
+  "partie": "partie_1",
+  "titre": "Le Marché du Travail",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Sur le 'Marché du Travail', qui représente l''Offre' ?",
+      "type": "qcm",
+      "options": [
+        "Les entreprises qui proposent des postes",
+        "Les individus (travailleurs) qui proposent leur force de travail en échange d'un salaire",
+        "L'État qui donne des aides"
+      ],
+      "reponse": 1,
+      "explication": "Attention : l'offre de travail vient des travailleurs, la demande de travail vient des entreprises."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les entreprises représentent la 'Demande de Travail' car elles ont besoin de salariés pour produire.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est l'inverse du marché des biens (où les entreprises offrent et les ménages demandent)."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la notion à son rôle sur le marché du travail.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Salaire", "right": "C'est le 'prix' du travail qui permet d'équilibrer l'offre et la demande" },
+        { "left": "Le Pôle Emploi (France Travail)", "right": "Organisme public qui aide les chômeurs à retrouver un poste" },
+        { "left": "Le Diplôme", "right": "Preuve de compétence qui permet de négocier un meilleur salaire" }
+      ],
+      "explication": "Le marché du travail est très réglementé pour protéger les travailleurs."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Les personnes qui ont un emploi ou qui en cherchent un activement font partie de la population {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["active"],
+      "explication": "La population active regroupe les actifs occupés (en poste) et les chômeurs."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait pour une entreprise de chercher un nouveau travailleur pour un poste libre ?",
+      "type": "courte",
+      "reponsesAttendues": ["le recrutement", "recrutement", "embauche", "l'embauche"],
+      "explication": "C'est le recrutement (ou embauche)."
+    }
+  ]
+}

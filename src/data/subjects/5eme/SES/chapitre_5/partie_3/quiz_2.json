@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH5_P3_QUIZ2",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_5",
+  "partie": "partie_3",
+  "titre": "Numérique et Travail",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que le 'Télétravail' ?",
+      "type": "qcm",
+      "options": [
+        "Travailler dans une boutique de télévisions",
+        "Travailler à distance (souvent depuis chez soi) grâce aux outils numériques (Internet, visioconférence)",
+        "Réparer des câbles de téléphone"
+      ],
+      "reponse": 1,
+      "explication": "Le télétravail s'est énormément développé depuis la crise du Covid-19."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'Intelligence Artificielle (IA) et l'automatisation risquent de supprimer certains emplois répétitifs mais en créent aussi de nouveaux.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est ce qu'on appelle la 'Destruction Créatrice' (concept de Schumpeter)."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'outil numérique à son impact sur le travail.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Plateformes (ex: Uber)", "right": "Développement de l'auto-entrepreneuriat et de la fin du salariat classique" },
+        { "left": "Logiciels de gestion", "right": "Augmentation de la rapidité et de la productivité des tâches de bureau" },
+        { "left": "Réseaux Sociaux Pro", "right": "Faciliter le recrutement et la recherche d'emploi en réseau" }
+      ],
+      "explication": "Le numérique transforme tous les métiers."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le fait de travailler sans patron, via une plateforme, s'appelle l'{{1}} de l'économie.",
+      "type": "trous",
+      "reponsesAttendues": ["ubérisation", "uberisation"],
+      "explication": "L'ubérisation pose des questions sur la protection sociale des travailleurs."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on la capacité d'un travailleur à changer facilement de métier ou de ville pour trouver du travail ?",
+      "type": "courte",
+      "reponsesAttendues": ["la mobilité", "mobilite", "mobilité professionnelle"],
+      "explication": "C'est la mobilité (professionnelle ou géographique)."
+    }
+  ]
+}

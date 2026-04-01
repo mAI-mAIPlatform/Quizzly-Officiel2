@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH1_P1_QUIZ4",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Les Agents Économiques",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un 'Ménage' en économie ?",
+      "type": "qcm",
+      "options": [
+        "L'action de nettoyer sa maison",
+        "Une personne ou un groupe de personnes vivant sous le même toit et dont la fonction principale est la Consommation",
+        "Une grande entreprise internationale"
+      ],
+      "reponse": 1,
+      "explication": "Une famille, un étudiant seul ou des colocataires forment un 'Ménage'."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La fonction principale des Entreprises est de payer des impôts à l'État.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Leur fonction principale est de PRODUIRE des biens et services marchands (même si elles paient aussi des impôts)."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'agent économique à sa fonction principale dans l'économie.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Les Ménages", "right": "Consommer et fournir du travail (en échange d'un revenu)" },
+        { "left": "L'État (Administrations publiques)", "right": "Redistribuer les richesses et produire des services non marchands" },
+        { "left": "Les Banques", "right": "Prêter de l'argent et gérer les moyens de paiement" }
+      ],
+      "explication": "Tous ces acteurs interagissent entre eux dans le circuit économique."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'échange d'argent contre un bien ou un service s'appelle une {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["transaction", "consommation"],
+      "explication": "La transaction s'effectue souvent sur un marché."
+    },
+    {
+      "id": "q5",
+      "question": "Quel nom donne-t-on à l'ensemble des échanges entre les agents économiques (modélisé par des flèches) ?",
+      "type": "courte",
+      "reponsesAttendues": ["le circuit économique", "circuit économique"],
+      "explication": "C'est le circuit économique."
+    }
+  ]
+}

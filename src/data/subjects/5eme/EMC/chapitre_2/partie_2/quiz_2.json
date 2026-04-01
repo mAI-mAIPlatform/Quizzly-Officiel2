@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH2_P2_QUIZ2",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Missions de l'Armée",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la mission principale des forces armées françaises ?",
+      "type": "qcm",
+      "options": ["Assurer la sécurité de l'État, du territoire et de la population, y compris à l'étranger", "Organiser les Jeux Olympiques", "Construire des hôpitaux"],
+      "reponse": 0,
+      "explication": "L'armée garantit la souveraineté et les intérêts du pays, en France et dans le monde."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'armée française intervient uniquement en cas de guerre officielle.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "L'armée participe au maintien de la paix (ONU), à la lutte antiterroriste ou aux aides humanitaires après une catastrophe (Ouragan)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les composantes de l'Armée à leur domaine.",
+      "type": "relier",
+      "pairs": [
+        { "left": "L'Armée de Terre", "right": "Forces terrestres et blindées (Opération Sentinelle, Barkhane)" },
+        { "left": "La Marine Nationale", "right": "Protection des océans, dissuasion nucléaire (sous-marins)" },
+        { "left": "L'Armée de l'Air et de l'Espace", "right": "Surveillance aérienne et opérations extérieures" }
+      ],
+      "explication": "Chaque force a une expertise militaire clé."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'Opération extérieure où des soldats français luttent contre le terrorisme au Sahel (Afrique) s'appelait l'opération {{1}} (nom propre).",
+      "type": "trous",
+      "reponsesAttendues": ["barkhane"],
+      "explication": "L'Opération Barkhane."
+    },
+    {
+      "id": "q5",
+      "question": "Qui a l'autorité suprême et peut décider d'utiliser l'arme nucléaire en France ?",
+      "type": "courte",
+      "reponsesAttendues": ["le président", "le président de la république"],
+      "explication": "Le Président de la République (chef des armées)."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH1_P1_QUIZ1",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "L'Égalité",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la devise de la République française ?",
+      "type": "qcm",
+      "options": ["Liberté, Égalité, Solidarité", "Liberté, Égalité, Fraternité", "Travail, Famille, Patrie"],
+      "reponse": 1,
+      "explication": "La devise 'Liberté, Égalité, Fraternité' est un symbole de la France depuis 1848."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'égalité signifie que tout le monde doit avoir les mêmes besoins.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "L'égalité signifie que tout le monde a les mêmes droits level la même dignité, malgré les différences."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les types d'égalités à leur définition.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Égalité Civile", "right": "Tous les citoyens ont les mêmes droits devant la loi" },
+        { "left": "Égalité des Chances", "right": "Chacun doit pouvoir réussir selon ses talents (école)" },
+        { "left": "Égalité Homme-Femme", "right": "Mêmes droits level responsabilités sans distinction de sexe" }
+      ],
+      "explication": "L'égalité est un principe qui s'applique in de nombreux domaines."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de donner plus à ceux qui ont moins flow rétablir l'équilibre s'appelle l'{{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["équité"],
+      "explication": "L'équité."
+    },
+    {
+      "id": "q5",
+      "question": "Sur quel document officiel est inscrite la devise de la France ?",
+      "type": "courte",
+      "reponsesAttendues": ["la constitution", "façade des mairies"],
+      "explication": "In la Constitution de 1958 (ou sur le fronton des mairies)."
+    }
+  ]
+}

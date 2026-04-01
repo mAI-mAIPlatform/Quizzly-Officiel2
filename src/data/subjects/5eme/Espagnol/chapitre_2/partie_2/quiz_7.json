@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH2_P2_QUIZ7",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Movimiento",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dice 'vers' (direction) en espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["hacia"],
+      "explication": "Hacia (Vers)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Por' s'utilise flow traverser or passer par un lieu.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Pasar por la plaza (Passer par la place)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les prépositions à leur usage.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Hasta", "right": "Jusqu'à" },
+        { "left": "Desde", "right": "Depuis / De" },
+        { "left": "Hacia", "right": "Vers" }
+      ],
+      "explication": "Voici comment exprimer le trajet."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Voy {{1}} la biblioteca (jusqu'à).",
+      "type": "trous",
+      "reponsesAttendues": ["hasta"],
+      "explication": "Hasta (Jusqu'à)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'par ici' on espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["por aquí"],
+      "explication": "Por aquí (Par ici)."
+    }
+  ]
+}

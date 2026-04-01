@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH1_P3_QUIZ5",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Récap CH1 P3",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un pixel ?",
+      "type": "qcm",
+      "options": ["Un élément d'image 2D", "Un point de couleur numérique", "Une unité de longueur artistique"],
+      "reponse": 1,
+      "explication": "Le pixel est le composant de base d'une image numérique."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le photojournalisme sert à vendre des produits.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Il sert à informer. La publicité sert à vendre."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les termes de l'image.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Recadrage", "right": "Changement de limites" },
+        { "left": "Légende", "right": "Texte explicatif" },
+        { "left": "Retouche", "right": "Modification visuelle" }
+      ],
+      "explication": "Révision des manipulations de l'image d'information."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Une image qui ne perd pas de qualité à l'agrandissement est {{1}} (type).",
+      "type": "trous",
+      "reponsesAttendues": ["vectorielle"],
+      "explication": "L'image vectorielle."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le public visé par un message ?",
+      "type": "courte",
+      "reponsesAttendues": ["la cible"],
+      "explication": "La cible."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH5_P2_QUIZ1",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_5",
+  "partie": "partie_2",
+  "titre": "Définition du Chômage",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Selon le Bureau International du Travail (BIT), qui est considéré comme 'Chômeur' ?",
+      "type": "qcm",
+      "options": [
+        "Toute personne qui ne travaille pas",
+        "Une personne en âge de travailler, qui n'a pas d'emploi, qui est disponible pour travailler et qui cherche activement un emploi",
+        "Un étudiant qui finit ses études"
+      ],
+      "reponse": 1,
+      "explication": "Il faut remplir ces trois critères (pas d'emploi, disponible, recherche active) pour être compté comme chômeur officiel."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Une personne qui travaille seulement 2 heures par semaine est considérée comme chômeuse au sens du BIT.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Pour le BIT, avoir travaillé ne serait-ce qu'une heure pendant la semaine de référence suffit pour être considéré comme 'en emploi'."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la situation à sa catégorie.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Personne sans travail qui a arrêté de chercher", "right": "Inactif (Halo du chômage)" },
+        { "left": "Salarié qui a perdu son job et cherche un nouveau", "right": "Chômeur" },
+        { "left": "Personne qui travaille 35h par semaine", "right": "Actif occupé" }
+      ],
+      "explication": "Les frontières entre emploi, chômage et inactivité sont parfois floues (le halo)."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le nombre de chômeurs divisé par la population active donne le {{1}} de chômage.",
+      "type": "trous",
+      "reponsesAttendues": ["taux"],
+      "explication": "Le taux de chômage est l'indicateur principal de la santé du marché du travail."
+    },
+    {
+      "id": "q5",
+      "question": "Quel est le nom de l'organisme international (sigle de 3 lettres) qui définit les règles mondiales pour mesurer le chômage ?",
+      "type": "courte",
+      "reponsesAttendues": ["le BIT", "BIT"],
+      "explication": "C'est le BIT (Bureau International du Travail)."
+    }
+  ]
+}

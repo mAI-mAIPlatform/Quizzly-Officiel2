@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH3_P1_QUIZ6",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Las Bebidas",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dice 'le jus de fruits' en espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["el zumo", "el jugo"],
+      "explication": "El zumo (Espagne) / El jugo (Amérique latine)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Un refresco' est un soda / une boisson rafraîchissante.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Un refresco."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les boissons à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Leche", "right": "Lait" },
+        { "left": "Agua con gas", "right": "Eau pétillante" },
+        { "left": "Té", "right": "Thé" }
+      ],
+      "explication": "Voici le vocabulaire des boissons."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Bebo un vaso de {{1}} (eau).",
+      "type": "trous",
+      "reponsesAttendues": ["agua"],
+      "explication": "Vaso de agua (Verre d'eau)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'avoir soif' on espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["tener sed"],
+      "explication": "Tener sed (Avoir soif)."
+    }
+  ]
+}

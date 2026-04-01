@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH5_P2_QUIZ2",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_5",
+  "partie": "partie_2",
+  "titre": "Types de Chômage",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que le 'Chômage Conjoncturel' ?",
+      "type": "qcm",
+      "options": [
+        "Un chômage lié à la mauvaise météo",
+        "Un chômage lié à une baisse temporaire de l'activité économique (crise, baisse de la consommation)",
+        "Un chômage qui dure toute la vie"
+      ],
+      "reponse": 1,
+      "explication": "Quand l'économie va mal, les entreprises produisent moins et licencient ou n'embauchent plus."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le 'Chômage Structurel' est lié à des changements profonds de l'économie (disparition de métiers obsolètes, manque de formation).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Il est plus difficile à combattre car il nécessite de former les gens à de nouveaux métiers."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la cause au type de chômage.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Une crise économique mondiale", "right": "Chômage Conjoncturel" },
+        { "left": "L'automatisation et les robots remplaçant des ouvriers", "right": "Chômage Structurel" },
+        { "left": "Le temps de changer d'entreprise (quelques jours)", "right": "Chômage Frictionnel (de transition)" }
+      ],
+      "explication": "Comprendre le type de chômage aide l'État à choisir les bonnes solutions."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Quand les compétences des travailleurs ne correspondent plus aux besoins des entreprises, on parle d'{{1}} entre l'offre et la demande.",
+      "type": "trous",
+      "reponsesAttendues": ["inadéquation", "desequilibre"],
+      "explication": "L'inadéquation des compétences est une cause majeure de chômage structurel."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le chômage qui touche les activités qui ne s'exercent qu'une partie de l'année (ex: moniteur de ski, cueillette) ?",
+      "type": "courte",
+      "reponsesAttendues": ["le chômage saisonnier", "chomage saisonnier"],
+      "explication": "C'est le chômage saisonnier."
+    }
+  ]
+}

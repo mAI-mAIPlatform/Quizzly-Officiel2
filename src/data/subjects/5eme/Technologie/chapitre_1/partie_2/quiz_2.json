@@ -1,0 +1,54 @@
+{
+  "id": "5eme_TECH_CH1_P2_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Propriétés Physiques",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle propriété d'un matériau désigne sa capacité à laisser passer le courant électrique ?",
+      "type": "qcm",
+      "options": [
+        "La densité",
+        "La conductivité électrique",
+        "L'élasticité"
+      ],
+      "reponse": 1,
+      "explication": "Les métaux comme le cuivre sont d'excellents conducteurs."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'isolation thermique sert à empêcher la chaleur de sortir (en hiver) ou de rentrer (en été).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "La laine de roche ou le polystyrène sont des isolants."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la propriété à sa définition.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Dureté", "right": "Résistance à la rayeure ou à l'usure" },
+        { "left": "Élasticité", "right": "Capacité à reprendre sa forme après avoir été déformé" },
+        { "left": "Ductilité", "right": "Capacité à être étiré en fil sans rompre" }
+      ],
+      "explication": "On choisit un matériau selon ses propriétés mécaniques."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Un matériau qui se casse net sans se déformer (comme le verre) est dit {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["fragile"],
+      "explication": "Fragile ne veut pas dire 'peu solide', mais 'sans déformation avant rupture'."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait qu'un matériau puisse être fondu et réutilisé pour fabriquer un nouvel objet ?",
+      "type": "courte",
+      "reponsesAttendues": ["la recyclabilité", "recyclable", "recyclabilite"],
+      "explication": "C'est la recyclabilité (crucial pour l'environnement)."
+    }
+  ]
+}

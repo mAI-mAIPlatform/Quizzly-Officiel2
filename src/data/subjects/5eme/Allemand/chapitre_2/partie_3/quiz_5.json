@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH2_P3_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Récap CH2 P3",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Conjugue : Ich habe {{1}} Hund (un).",
+      "type": "trous",
+      "reponsesAttendues": ["einen"],
+      "explication": "Haben (Accusatif) + Masculin -> Einen."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Meine' est un article possessif féminin.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Meine Katze (Ma chatte)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les animaux.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Der Hund", "right": "Le chien" },
+        { "left": "Die Katze", "right": "Le chat" },
+        { "left": "Das Kaninchen", "right": "Le lapin" }
+      ],
+      "explication": "Révision du vocabulaire des animaux."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Hast du {{1}} Hamster? (un/accusatif).",
+      "type": "trous",
+      "reponsesAttendues": ["einen"],
+      "explication": "Der Hamster (masculin) -> Einen."
+    },
+    {
+      "id": "q5",
+      "question": "Cómo se dit 'grand' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["groß"],
+      "explication": "Groß."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH4_P3_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_4",
+  "partie": "partie_3",
+  "titre": "Les Vocaloids",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un 'Vocaloid' (phénomène musical né au Japon au 21ème siècle) ?",
+      "type": "qcm",
+      "options": ["C'est une plante chantante venue de l'Espace", "C'est un logiciel révolutionnaire de synthèse vocale qui permet de créer des chansons entières en tapant simplement la mélodie et les paroles sur un clavier d'ordinateur (la voix du chanteur est une base de données informatique japonaise)", "C'est un genre de guitare électrique"],
+      "reponse": 1,
+      "explication": "Le mot vient de 'Vocal' + 'Android'. L'Intelligence Artificielle remplace le véritable chanteur humain par un hologramme et des voix calculées par l'ordinateur à la milliseconde."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La plus grande star mondiale de cette musique synthétique japonaise s'appelle Hatsune Miku, une pop-star virtuelle de 16 ans projetée en hologramme géant sur de vraies scènes avec de vrais musiciens devant des milliers de fans hurlants en concert.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Hatsune Miku ('Le Premier Son du Futur' en japonais) a prouvé que la Pop moderne pouvait être chantée et dansée par des 'avatars' d'animation de style manga, créés par l'entreprise Crypton Future Media."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'évolution technologique vocale à sa technique de production moderne.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Synthétiseur Vocal (ex: Vocaloids)", "right": "Écrire une partition et un texte directement sur le logiciel de montage pour en générer le chant robotique sans aucun humain au micro" },
+        { "left": "L'Auto-Tune ou Melodyne", "right": "Chanter en direct au micro puis corriger de manière très brutale avec l'ordinateur toutes les fausses notes imperceptiblement (ou avec cet effet de palier cher au Rap ou au RnB)" },
+        { "left": "Le Montage 'Cut' et Boucle Studio", "right": "Coller 10 prises différentes d'une star (1 prise vocale parfaite par petite phrase) avec la souris pour faire croire qu'elle chante la chanson de manière magiquement continue en un souffle" }
+      ],
+      "explication": "Le chant n'est plus seulement une performance physique : c'est devenu une véritable industrie numérique de création auditive."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de chanter en play-back un refrain sur scène avec un micro éteint parce qu'une piste audio (Backing Track) diffuse déjà la chanson enregistrée en studio pour aider ou protéger la voix d'un danseur se nomme de la musique '{{1}}' (adjectif).",
+      "type": "trous",
+      "reponsesAttendues": ["pré-enregistrée", "pré enregistrée"],
+      "explication": "Musique pré-enregistrée."
+    },
+    {
+      "id": "q5",
+      "question": "Quel genre musical moderne, mondialement dominé par les groupes pop coréens très formatés et dansants composés de jeunes filles et garçons (les 'Idols'), mêle aujourd'hui extrêmement souvent l'Auto-tune et la danse synchronisée (ex: BTS ou Blackpink) ?",
+      "type": "courte",
+      "reponsesAttendues": ["la k-pop", "k-pop", "kpop"],
+      "explication": "La K-Pop (Pop de Corée du Sud)."
+    }
+  ]
+}

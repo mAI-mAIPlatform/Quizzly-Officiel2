@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH3_P1_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Las Comidas",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dice 'le petit-déjeuner' en espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["el desayuno"],
+      "explication": "El desayuno (Le petit-déjeuner)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'La merienda' est le goûter.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "La merienda (Le goûter)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les repas à leur moment de la journée.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Desayunar", "right": "Matin" },
+        { "left": "Cenar", "right": "Soir" },
+        { "left": "Almorzar", "right": "Midi / Début d'après-midi" }
+      ],
+      "explication": "Voici l'ordre des repas on Espagne."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Por la noche, yo {{1}} (dîner).",
+      "type": "trous",
+      "reponsesAttendues": ["ceno"],
+      "explication": "Cenar (Dîner)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'déjeuner' (le repas principal) en Espagne ?",
+      "type": "courte",
+      "reponsesAttendues": ["la comida", "el almuerzo"],
+      "explication": "On Espagne, 'la comida' est le repas de l'après-midi (vers 14h-15h)."
+    }
+  ]
+}

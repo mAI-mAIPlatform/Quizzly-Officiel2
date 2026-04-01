@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH5_P2_QUIZ1",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_5",
+  "partie": "partie_2",
+  "titre": "Les Enjeux Planète",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la principale cause du réchauffement climatique actuel selon les scientifiques (GIEC) ?",
+      "type": "qcm",
+      "options": ["Les activités humaines qui rejettent trop de gaz à effet de serre (usines, transports, déforestation)", "L'inclinaison naturelle de la Terre", "Les éruptions volcaniques"],
+      "reponse": 0,
+      "explication": "Le rapport du GIEC affirme que l'homme est le responsable principal du dérèglement rapide du climat (CO2)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les pays riches (qui polluent le plus) sont les seuls touchés par les conséquences du réchauffement climatique.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Au contraire, ce sont souvent les pays pauvres (qui polluent moins) qui subissent les pires conséquences (sécheresses, famines, inondations)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les conséquences du changement climatique à leurs causes.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Hausse du niveau des océans", "right": "Fonte des glaces (banquises, glaciers de montagne)" },
+        { "left": "Disparition des espèces animales (Biodiversité)", "right": "Destruction des forêts, pollution et braconnage" },
+        { "left": "Climat extrême et tempêtes", "right": "Hausse globale des températures de l'air et de l'eau" }
+      ],
+      "explication": "L'écosystème terrestre est très fragile."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de couper ou brûler de très grandes surfaces d'arbres (comme en Amazonie) s'appelle la {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["déforestation", "la déforestation", "destruction des forêts"],
+      "explication": "La déforestation (problème majeur car les arbres absorbent le CO2)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on les migrants qui doivent fuir leur pays à cause d'une catastrophe naturelle rendant leur terre invivable ?",
+      "type": "courte",
+      "reponsesAttendues": ["les réfugiés climatiques", "réfugié climatique", "réfugiés climatiques", "un réfugié climatique"],
+      "explication": "Un réfugié climatique."
+    }
+  ]
+}

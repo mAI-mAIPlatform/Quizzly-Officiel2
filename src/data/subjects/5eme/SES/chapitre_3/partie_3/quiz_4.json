@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH3_P3_QUIZ4",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Entreprise et État",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Pourquoi l'État s'intéresse-t-il autant aux entreprises ?",
+      "type": "qcm",
+      "options": [
+        "Pour pouvoir les fermer quand il veut",
+        "Parce qu'elles créent de l'emploi (donc moins de chômage) et payent des impôts qui servent à financer les services publics",
+        "Pour savoir comment on fabrique les bonbons"
+      ],
+      "reponse": 1,
+      "explication": "Les entreprises sont les poumons de l'économie d'un pays."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'État peut donner des subventions (aides financières) aux entreprises qui polluent moins ou qui créent des installations dans des zones pauvres.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "L'État incite les entreprises à agir dans l'intérêt général."
+    },
+    {
+      "id": "q3",
+      "question": "Associe le prélèvement à sa définition.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Impôt sur les Sociétés (IS)", "right": "Prélèvement sur le bénéfice réalisé par l'entreprise" },
+        { "left": "TVA (Taxe sur la Valeur Ajoutée)", "right": "Taxe sur la consommation que l'entreprise collecte pour l'État" },
+        { "left": "Cotisations Sociales", "right": "Argent servant à financer la protection sociale des travailleurs" }
+      ],
+      "explication": "L'entreprise est un collecteur d'impôts majeur pour le pays."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'ensemble des règles fixées par l'État pour protéger les consommateurs et les travailleurs s'appelle la {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["réglementation", "loi", "legislation"],
+      "explication": "L'économie n'est pas une jungle, il y a des règles."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on l'action d'une entreprise qui ne paye pas ses impôts en France en cachant son argent à l'étranger ?",
+      "type": "courte",
+      "reponsesAttendues": ["l'évasion fiscale", "evasion fiscale", "la fraude fiscale", "fraude fiscale"],
+      "explication": "C'est l'évasion fiscale (ou fraude fiscale)."
+    }
+  ]
+}

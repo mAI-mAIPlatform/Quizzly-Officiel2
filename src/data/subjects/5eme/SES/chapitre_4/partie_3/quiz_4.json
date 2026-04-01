@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH4_P3_QUIZ4",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_4",
+  "partie": "partie_3",
+  "titre": "Les Retraites",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que le système de 'Retraite par Répartition' en France ?",
+      "type": "qcm",
+      "options": [
+        "Chaque travailleur met de l'argent dans un coffre pour lui-même plus tard",
+        "Les cotisations payées aujourd'hui par les travailleurs (actifs) servent à payer immédiatement les pensions des retraités actuels",
+        "L'État donne la même somme à tout le monde à 60 ans"
+      ],
+      "reponse": 1,
+      "explication": "C'est un contrat de solidarité entre les générations."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le vieillissement de la population (plus de papis/mamies et moins de bébés) rend le financement des retraites plus difficile.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Il y a de moins en moins de travailleurs pour payer la pension de chaque retraité."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la solution possible à son effet pour équilibrer le système.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Reculer l'âge de départ", "right": "Augmenter la durée de cotisation des travailleurs" },
+        { "left": "Augmenter les cotisations", "right": "Prendre plus d'argent sur les salaires des actifs" },
+        { "left": "Baisser les pensions", "right": "Réduire le montant reçu par les retraités" }
+      ],
+      "explication": "Ces choix sont très difficiles et font souvent l'objet de vifs débats politiques."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'argent que reçoit un retraité chaque mois s'appelle une {{1}} de retraite.",
+      "type": "trous",
+      "reponsesAttendues": ["pension"],
+      "explication": "La pension dépend souvent du salaire gagné pendant la carrière."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le système inverse (utilisé dans certains pays) où chacun épargne pour sa propre retraite dans des fonds privés ?",
+      "type": "courte",
+      "reponsesAttendues": ["la capitalisation", "retraite par capitalisation", "capitalisation"],
+      "explication": "C'est la retraite par capitalisation."
+    }
+  ]
+}

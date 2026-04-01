@@ -1,0 +1,54 @@
+{
+  "id": "5eme_MUSIQUE_CH6_P3_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_6",
+  "partie": "partie_3",
+  "titre": "Orchestre et Cinéma",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Pourquoi utilise-t-on encore aujourd'hui de grands orchestres symphoniques pour la musique de film (Star Wars, Harry Potter, etc.) ?",
+      "type": "qcm",
+      "options": [
+        "Parce que c'est moins cher que des ordinateurs",
+        "Pour la richesse des timbres, l'émotion unique des vrais musiciens et la puissance sonore capable de souligner l'épopée à l'écran",
+        "Parce que les réalisateurs aiment la musique classique"
+      ],
+      "reponse": 1,
+      "explication": "L'orchestration symphonique apporte une dimension grandiose (épique) inimitable."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Un 'Ciné-Concert' consiste à projeter un film sur grand écran pendant qu'un orchestre symphonique joue la musique en direct dans la salle.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est une expérience spectaculaire qui demande une synchronisation parfaite entre le chef et l'image."
+    },
+    {
+      "id": "q3",
+      "question": "Associe le thème célèbre à sa famille d'instruments dominante dans l'orchestre cinématographique.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Marche Impériale (Star Wars)", "right": "Domination des Cuivres (Trompettes et Trombones) pour la puissance et le côté militaire" },
+        { "left": "Thème de Hedwige (Harry Potter)", "right": "Utilisation du Célesta (clochettes) et des bois pour le côté magique et mystérieux" },
+        { "left": "Scène de suspense", "right": "Cordes frottées jouées de manière aiguë et dissonante pour créer la peur" }
+      ],
+      "explication": "Le compositeur choisit les timbres en fonction de l'émotion qu'il veut transmettre."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le compositeur de musiques de films le plus célèbre (Star Wars, Indiana Jones, Jurassic Park) qui utilise l'orchestre symphonique comme personne s'appelle John {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["Williams"],
+      "explication": "John Williams a remis l'orchestre symphonique au goût du jour à Hollywood dans les années 70."
+    },
+    {
+      "id": "q5",
+      "question": "Quelle grande famille d'instruments est souvent utilisée pour illustrer la nature sauvage ou le calme dans une musique de film (ex: Le Seigneur des Anneaux) ?",
+      "type": "courte",
+      "reponsesAttendues": ["les bois", "bois", "la flûte", "les vents"],
+      "explication": "Les bois (flûtes, hautbois) évoquent souvent la nature et la sérénité."
+    }
+  ]
+}

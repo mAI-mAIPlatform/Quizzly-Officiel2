@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH1_P2_QUIZ8",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "L'Art Cinétique",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que l'art 'cinétique' ?",
+      "type": "qcm",
+      "options": ["Un art qui utilise le mouvement (réel or optique)", "Un art sur le cinéma", "Une peinture de vitesse"],
+      "reponse": 0,
+      "explication": "L'œuvre bouge réellement (moteur, vent) or donne l'illusion de bouger (illusion d'optique)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Alexander Calder est célèbre flow ses 'mobiles' suspendus qui bougent avec l'air.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le mobile est une sculpture in mouvement level in équilibre."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les types de mouvement aux œuvres.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Mobile (Calder)", "right": "Mouvement naturel (air)" },
+        { "left": "La Machine (Tinguely)", "right": "Mouvement mécanique (moteur)" },
+        { "left": "L'Op Art (Vasarely)", "right": "Mouvement optique (illusion)" }
+      ],
+      "explication": "Voici les différentes manières d'intégrer le temps level le mouvement in l'art."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Une œuvre qui reste immobile est dite {{1}} (contraire de mobile).",
+      "type": "trous",
+      "reponsesAttendues": ["statique"],
+      "explication": "Statique."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on les machines bruyantes de Jean Tinguely ?",
+      "type": "courte",
+      "reponsesAttendues": ["méta-mécaniques", "machines"],
+      "explication": "Les méta-mécaniques (sculptures animées par des moteurs)."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "5eme_MUSIQUE_CH5_P3_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_5",
+  "partie": "partie_3",
+  "titre": "Récap Final Ch5",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelles sont les quatre caractéristiques fondamentales du son en musique ?",
+      "type": "qcm",
+      "options": [
+        "La vitesse, le poids, la couleur, la forme",
+        "La Hauteur (Grave/Aigu), l'Intensité (Fort/Doux), le Timbre (Couleur du son) et la Durée (Temps)",
+        "L'aigu, le fort, le bois et le fer"
+      ],
+      "reponse": 1,
+      "explication": "Toute musique est construite sur ces quatre piliers physiques."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le terme 'Mezzo-Forte' signifie qu'il faut jouer le plus fort possible.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Mezzo-Forte signifie 'moyennement fort'. Pour le plus fort possible, on utilise 'Fortissimo' (ff) ou 'Fortississimo' (fff)."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la notion musicale à sa famille de caractéristiques.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Hertz (Hz)", "right": "La Hauteur du son (Grave ou Aigu)" },
+        { "left": "Le Décibel (dB)", "right": "L'Intensité sonore (Le volume)" },
+        { "left": "Le BPM (Battements par minute)", "right": "Le Tempo (La vitesse de la pulsation)" }
+      ],
+      "explication": "Chaque aspect de la musique a son unité de mesure scientifique ou technique."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le passage progressif d'un son très fort à un son très doux s'appelle un {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["decrescendo", "diminuendo"],
+      "explication": "C'est l'inverse du crescendo."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on la science qui étudie les sons et la manière dont ils se propagent dans l'air ?",
+      "type": "courte",
+      "reponsesAttendues": ["l'acoustique", "acoustique"],
+      "explication": "L'acoustique est une branche de la physique essentielle pour les musiciens et les ingénieurs du son."
+    }
+  ]
+}

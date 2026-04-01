@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH2_P1_QUIZ4",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Éco-Consommation",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que la 'Consommation Collaborative' ?",
+      "type": "qcm",
+      "options": [
+        "Acheter des produits très chers",
+        "Partager l'usage d'un bien au lieu de le posséder seul (covoiturage, location d'outils, échange d'appartements)",
+        "Travailler gratuitement pour une entreprise"
+      ],
+      "reponse": 1,
+      "explication": "On privilégie l'usage plutôt que la propriété, ce qui est souvent plus écologique et économique."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L''Obsolescence Programmée' est une technique de fabrication qui vise à réduire volontairement la durée de vie d'un produit pour obliger à en racheter un nouveau.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est une pratique critiquée car elle pousse à la surconsommation et au gaspillage."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'action de consommation écologique à son bénéfice.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Acheter en vrac (sans emballage)", "right": "Réduit la production de déchets plastiques" },
+        { "left": "Choisir le Commerce Equitable", "right": "Garantit un meilleur revenu aux petits producteurs des pays pauvres" },
+        { "left": "Réparer ses objets", "right": "Lutte contre le gaspillage et l'épuisement des ressources" }
+      ],
+      "explication": "Chaque achat est un vote pour le monde que l'on veut construire."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'étiquette sur les appareils électroménagers qui indique leur consommation d'énergie s'appelle l'étiquette {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["énergie", "energetique"],
+      "explication": "L'étiquette énergie (de A à G) aide à choisir les produits les moins gourmands."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait pour une entreprise de faire croire qu'elle est écologique juste pour vendre plus, alors que ce n'est pas vrai ?",
+      "type": "courte",
+      "reponsesAttendues": ["le greenwashing", "ecoblanchiment", "le blanchiment ecologique"],
+      "explication": "C'est le Greenwashing (ou Écoblanchiment)."
+    }
+  ]
+}

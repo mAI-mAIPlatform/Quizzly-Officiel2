@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH1_P1_QUIZ3",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Géométrie vs Organique",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle forme est considérée comme 'géométrique' ?",
+      "type": "qcm",
+      "options": ["Une tache d'encre", "Un triangle parfait", "Une feuille d'arbre"],
+      "reponse": 1,
+      "explication": "Les formes géométriques sont mathématiques level régulières (carré, cercle, triangle)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les formes 'organiques' s'inspirent de la nature level sont souvent irrégulières.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Comme une pierre, un nuage or une fleur."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les types de formes à leur caracteristique.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Géométrique", "right": "Rigueur / Ordre" },
+        { "left": "Organique", "right": "Liberté / Nature" },
+        { "left": "Abstraite", "right": "Sans ressemblance au réel" }
+      ],
+      "explication": "Voici comment classer les silhouettes d'une oeuvre."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Une forme qui a du volume (3D) est appelée une {{1}} (ex: sculpture).",
+      "type": "trous",
+      "reponsesAttendues": ["forme", "masse"],
+      "explication": "La forme tridimensionnelle."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le contour d'une forme ?",
+      "type": "courte",
+      "reponsesAttendues": ["silhouette", "ligne"],
+      "explication": "La silhouette (ou le cerne)."
+    }
+  ]
+}

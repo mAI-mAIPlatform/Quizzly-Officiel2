@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH1_P2_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "La Censure",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que la 'censure' dans le domaine musical ?",
+      "type": "qcm",
+      "options": ["Le fait de diffuser une chanson en boucle à la radio", "L'interdiction de diffuser une chanson, de la chanter ou de la vendre à cause de ses paroles (jugées politiques ou choquantes)", "Le fait de donner un prix à un artiste"],
+      "reponse": 1,
+      "explication": "Certains gouvernements ou régimes autoritaires censurent des chansons engagées car ils en ont peur."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Dans l'Histoire, de célèbres chansons comme 'Le Déserteur' de Boris Vian ont été interdites à la radio en France en temps de guerre.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Pendant la guerre d'Indochine, la chanson 'Le Déserteur' déconseillant d'aller se battre était jugée contraire au patriotisme et fut censurée."
+    },
+    {
+      "id": "q3",
+      "question": "Relie l'outil de contournement de censure utilisé par les artistes.",
+      "type": "relier",
+      "pairs": [
+        { "left": "L'allégorie / la métaphore", "right": "Utiliser des images poétiques ou des sous-entendus pour cacher le vrai message interdit" },
+        { "left": "L'exil", "right": "Quitter son pays pour l'étranger afin d'enregistrer et s'exprimer librement" },
+        { "left": "L'humour noir", "right": "Dénoncer une chose tragique ou un dictateur en le tournant en dérision avec le sourire" }
+      ],
+      "explication": "Les artistes doivent souvent faire preuve d'ingéniosité face au contrôle de l'État."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de ne pas subir la censure d'un État et de créer ce qu'on veut s'appelle la {{1}} (nom féminin) d'expression artistique.",
+      "type": "trous",
+      "reponsesAttendues": ["liberté"],
+      "explication": "La liberté d'expression."
+    },
+    {
+      "id": "q5",
+      "question": "Quel mot désigne un artiste qui conteste (s'oppose à) l'autorité de son pays et qui est souvent embastillé ou menacé pour sa musique d'opposition ?",
+      "type": "courte",
+      "reponsesAttendues": ["un dissident", "dissident"],
+      "explication": "Un (artiste) dissident."
+    }
+  ]
+}

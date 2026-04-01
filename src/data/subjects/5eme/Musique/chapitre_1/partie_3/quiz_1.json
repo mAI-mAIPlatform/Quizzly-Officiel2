@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH1_P3_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Musique et Publicité",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est le but principal d'une musique dans une publicité commerciale à la télévision ?",
+      "type": "qcm",
+      "options": ["Éduquer les enfants à la musique classique", "Attirer l'attention du spectateur, créer une émotion positive et l'inciter à acheter le produit", "Remplacer le silence parce que c'est effrayant"],
+      "reponse": 1,
+      "explication": "La musique de pub est un outil marketing très puissant (le 'Jingle' reste en tête)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les publicitaires n'utilisent que des musiques spécialement composées pour eux, jamais de succès populaires (hits) de la radio.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Ils achètent souvent les droits de chansons très célèbres ('Sync') car c'est un raccourci pour attirer l'attention du public qui connaît déjà la chanson."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la technique musicale publicitaire à son explication.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Jingle (Gimmick audio)", "right": "Courte mélodie de 3 secondes très accrocheuse associée à une marque (ex: SNCF, McDonald's)" },
+        { "left": "La Musique d'habillage (Background)", "right": "Musique douce en fond qui ne dérange pas la voix-off expliquant le produit" },
+        { "left": "La Reprise (Cover)", "right": "Chanter un tube connu mais en changeant les paroles pour vanter le produit" }
+      ],
+      "explication": "Le son joue sur notre subconscient pour nous faire consommer."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action d'associer systématiquement une marque à une petite phrase musicale s'appelle créer une identité {{1}} (adjectif).",
+      "type": "trous",
+      "reponsesAttendues": ["sonore"],
+      "explication": "Une identité sonore."
+    },
+    {
+      "id": "q5",
+      "question": "Quel artiste classique, mort il y a longtemps, voit souvent son œuvre 'Les Quatre Saisons' utilisée pour vendre des voitures ou de la nourriture à la télé ?",
+      "type": "courte",
+      "reponsesAttendues": ["vivaldi", "antonio vivaldi"],
+      "explication": "Vivaldi (L'Hiver ou Le Printemps)."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH4_P2_QUIZ1",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_4",
+  "partie": "partie_2",
+  "titre": "L'Identité Numérique",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'appelle-t-on l'identité numérique d'une personne ?",
+      "type": "qcm",
+      "options": ["Le mot de passe de son téléphone", "L'ensemble des traces qu'elle laisse sur Internet (photos, commentaires, profils, likes) qui construisent son image", "Le numéro de sa carte d'identité"],
+      "reponse": 1,
+      "explication": "Tout ce que l'on publie ou ce que les autres publient sur nous forme notre identité numérique, consultable par tous."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Tout ce que l'on poste sur Internet (comme une story Instagram ou un Snap) disparaît définitivement au bout de 24h.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Rien ne disparaît vraiment sur Internet (quelqu'un peut faire une capture d'écran ou les serveurs peuvent garder les données)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les concepts à l'usage d'Internet.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le droit à l'oubli", "right": "Demander à Google d'effacer des résultats de recherche gênants sur soi" },
+        { "left": "Le droit à l'image", "right": "Interdiction de publier la photo de quelqu'un sans son accord" },
+        { "left": "Le pseudo (pseudonyme)", "right": "Un faux nom pour protéger son identité réelle sur les jeux ou forums" }
+      ],
+      "explication": "La loi protège la vie privée, même sur les réseaux sociaux."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'auteur d'une photo possède des droits d'{{1}} (nom) sur son image ou sa création : on ne peut pas la voler.",
+      "type": "trous",
+      "reponsesAttendues": ["auteur"],
+      "explication": "Les droits d'auteur."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on la petite image ou le personnage virtuel (souvent en 3D) qui représente un internaute ?",
+      "type": "courte",
+      "reponsesAttendues": ["l'avatar", "un avatar", "avatar"],
+      "explication": "L'avatar."
+    }
+  ]
+}

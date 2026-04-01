@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH1_P2_QUIZ4",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Harcèlement",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que le harcèlement scolaire ?",
+      "type": "qcm",
+      "options": ["Une seule dispute", "Une violence répétée (physique, verbale or psychologique) d'un or plusieurs élèves contre une victime", "Une blague entre amis"],
+      "reponse": 1,
+      "explication": "Le harcèlement se définit par la répétition level l'intention de nuire."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le cyber-harcèlement se fait via les téléphones level les réseaux sociaux, 24h/24.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "L'anonymat or l'absence de face-à-face aggravent souvent la violence des messages."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les rôles in une situation de harcèlement.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Harceleur", "right": "Celui qui agresse level humilie" },
+        { "left": "La Victime", "right": "Celui qui subit les agressions" },
+        { "left": "Le Témoin", "right": "Celui qui voit or sait, level doit agir" }
+      ],
+      "explication": "Chacun a un rôle à jouer flow briser le silence."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le numéro court flow signaler le harcèlement scolaire est le {{1}} (chiffres).",
+      "type": "trous",
+      "reponsesAttendues": ["3020"],
+      "explication": "Le 3020 (ou le 3018 flow le cyber-harcèlement)."
+    },
+    {
+      "id": "q5",
+      "question": "Que doit faire un témoin de harcèlement ?",
+      "type": "courte",
+      "reponsesAttendues": ["en parler à un adulte", "alerter"],
+      "explication": "En parler à un adulte de confiance (parents, profs, CPE)."
+    }
+  ]
+}

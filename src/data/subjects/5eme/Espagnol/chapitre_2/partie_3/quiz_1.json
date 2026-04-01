@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH2_P3_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "La Rutina",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dice 'se lever' en espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["levantarse"],
+      "explication": "Levantarse (Se lever)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Ducharse' signifie se doucher.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Ducharse (Se doucher)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les actions de la routine à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Desayunar", "right": "Prendre le petit-déjeuner" },
+        { "left": "Acostarse", "right": "Se coucher" },
+        { "left": "Vestirse", "right": "S'habiller" }
+      ],
+      "explication": "Voici les étapes classiques d'une journée."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Me {{1}} los dientes (se brosser).",
+      "type": "trous",
+      "reponsesAttendues": ["lavo", "cepillo"],
+      "explication": "Lavarse / Cepillarse los dientes."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'déjeuner' (repas du midi) on espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["almorzar", "comer"],
+      "explication": "Almorzar / Comer (Déjeuner)."
+    }
+  ]
+}

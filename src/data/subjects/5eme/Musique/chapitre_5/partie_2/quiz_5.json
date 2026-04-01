@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH5_P2_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_5",
+  "partie": "partie_2",
+  "titre": "Récap Final Ch5 P2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est l'unité de mesure universelle de la pulsation (utilisée sur les métronomes) ?",
+      "type": "qcm",
+      "options": ["Le Hertz (Hz)", "Le BPM (Battements Par Minute)", "Le Décibel (dB)"],
+      "reponse": 1,
+      "explication": "Un tempo de 60 BPM signifie qu'il y a exactement une pulsation par seconde (comme une trotteuse de montre)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Un 'Andante' est plus rapide qu'un 'Allegro'.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Andante signifie 'allant' (vitesse de marche), alors qu'Allegro signifie 'gai' et donc beaucoup plus rapide."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la figure de note ou de silence à sa valeur temporelle sur la pulsation.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Deux Croches", "right": "Valent ensemble 1 pulsation (une noire)" },
+        { "left": "Une Blanche", "right": "Dure exactement 2 pulsations" },
+        { "left": "Un Soupir", "right": "Représente 1 pulsation de silence absolu" }
+      ],
+      "explication": "Toutes ces durées s'additionnent mathématiquement à l'intérieur d'une mesure."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de répéter une petite cellule rythmique de manière 'obstinée' pendant tout un morceau s'appelle un {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["ostinato"],
+      "explication": "L'ostinato est une base répétitive très solide pour une composition."
+    },
+    {
+      "id": "q5",
+      "question": "Quel terme italien utilise-t-on pour indiquer un tempo très, très rapide (plus rapide que l'Allegro) ?",
+      "type": "courte",
+      "reponsesAttendues": ["vivace", "presto", "prestissimo"],
+      "explication": "Presto ou Vivace indiquent une grande vitesse d'exécution."
+    }
+  ]
+}

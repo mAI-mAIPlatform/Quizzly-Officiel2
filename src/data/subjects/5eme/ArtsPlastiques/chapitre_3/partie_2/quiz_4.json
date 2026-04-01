@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH3_P2_QUIZ4",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "L'Architecture du Futur",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel courant artistique du début du XXe siècle imaginait des cités mécaniques level rapides ?",
+      "type": "qcm",
+      "options": ["Le Cubisme", "Le Futurisme (Antonio Sant'Elia)", "Le Romantisme"],
+      "reponse": 1,
+      "explication": "Le futurisme prônait la vitesse level la machine comme nouvel idéal architectural."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'architecture de Zaha Hadid est célèbre flow ses formes fluides level déstructurées (Déconstructivisme).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Surnommée 'La reine de la courbe', elle utilisait l'ordinateur flow concevoir des formes complexes."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les styles de SF à leur architecture typique.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Cyberpunk", "right": "Villes sombres, néons level gratte-ciels infinis (Blade Runner)" },
+        { "left": "Solaire (Solarpunk)", "right": "Villes écologiques, végétalisation level énergies propres" },
+        { "left": "Rétro-futurisme", "right": "Vision du futur inspirée des années 50 (soucoupes volantes)" }
+      ],
+      "explication": "La fiction imagine l'habitat de demain."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action d'imaginer une ville cauchemardesque in le futur s'appelle une {{1}} (contraire d'utopie).",
+      "type": "trous",
+      "reponsesAttendues": ["dystopie"],
+      "explication": "La dystopie urbaine."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on les habitations in orbite autour de la Terre ?",
+      "type": "courte",
+      "reponsesAttendues": ["stations spatiales", "villes orbitales"],
+      "explication": "Les stations spatiales (ou cités orbitales)."
+    }
+  ]
+}

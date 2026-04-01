@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH4_P2_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_4",
+  "partie": "partie_2",
+  "titre": "La Voix d'Opéra",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la principale caractéristique physique incroyable de la voix des chanteurs d'Opéra classique (Lyrique) ?",
+      "type": "qcm",
+      "options": ["Ils chantent en utilisant un très gros micro collé à leur bouche", "Ils ont été entraînés pendant des années à chanter tellement fort (puissance naturelle) que leur voix traverse un orchestre de 80 musiciens sans aucun micro pour atteindre le fond de la salle immense !", "Ils ne peuvent chanter que des notes graves"],
+      "reponse": 1,
+      "explication": "C'est l'essence de la voix lyrique : l'amplification est 100% corporelle (grâce à l'air du ventre et à toutes les caisses de résonance du crâne)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Dans l'opéra classique 'La Flûte Enchantée' de Mozart, le grand rôle de la volcanique 'Reine de la Nuit' est écrit pour une voix de femme tellement aiguë qu'on l'appelle 'Soprano Colorature'.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Cet 'air' est connu dans le monde entier pour sa difficulté extrême : il culmine sur des 'Contre-Fa' vertigineux de virtuosité !"
+    },
+    {
+      "id": "q3",
+      "question": "Associe la célèbre 'diva' (Déesse de la chanson) ou star du lyrique au métier ou au timbre vocal iconique.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Maria Callas ('La Divina')", "right": "Soprano grecque mythique du XXème siècle à la présence dramatique bouleversante (Carmen, Norma)" },
+        { "left": "Luciano Pavarotti", "right": "Ténor italien inoubliable (voix héroïque d'homme) chantant magistralement sur les plus grandes scènes mondiales" },
+        { "left": "Le Castrat (ou Contre-Ténor ajourd'hui)", "right": "Voix d'ange androgyne très puissante (poumons d'hommes mais voix aiguë de femme)" }
+      ],
+      "explication": "L'Opéra requiert de tels athlètes vocaux qu'ils sont adulés comme des idoles absolues."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de chanter en vibrant sur chaque note pour la faire sonner plus fort et l'enrichir, s'appelle faire un {{1}} (nom : tremblement de voix typique de l'Opéra).",
+      "type": "trous",
+      "reponsesAttendues": ["vibrato"],
+      "explication": "Un Vibrato."
+    },
+    {
+      "id": "q5",
+      "question": "Quel nom italien très célèbre signifie littéralement 'Le Beau Chant' (technique virtuose parfaite de respiration des sopranos du 18ème et 19ème siècle naissant en Italie) ?",
+      "type": "courte",
+      "reponsesAttendues": ["bel canto", "le bel canto", "bel-canto"],
+      "explication": "Le Bel Canto."
+    }
+  ]
+}

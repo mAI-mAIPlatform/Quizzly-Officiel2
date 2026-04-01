@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH1_P3_QUIZ10",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Récap CH1 Final",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Conjugue : Er {{1}} (faire) Hausaufgaben.",
+      "type": "trous",
+      "reponsesAttendues": ["macht"],
+      "explication": "Er macht."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Wann' signifie 'Comment'.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Wann (Quand). Comment se dit 'wie'."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les verbes à particule séparable.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Auf", "right": "stehen" },
+        { "left": "Fern", "right": "sehen" },
+        { "left": "An", "right": "rufen" }
+      ],
+      "explication": "Révision des verbes séparables vus in P3."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Ich lerne Deutsch, {{1}} es macht Spaß (car).",
+      "type": "trous",
+      "reponsesAttendues": ["denn"],
+      "explication": "Denn (Car)."
+    },
+    {
+      "id": "q5",
+      "question": "Où se place le verbe in 2ème position in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["toujours", "dans une phrase déclaratíve"],
+      "explication": "In 2ème position."
+    }
+  ]
+}

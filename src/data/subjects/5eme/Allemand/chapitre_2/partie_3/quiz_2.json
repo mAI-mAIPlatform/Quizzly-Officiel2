@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH2_P3_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Akkusativ",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est l'article défini masculin à l'accusatif (COD) ?",
+      "type": "courte",
+      "reponsesAttendues": ["den"],
+      "explication": "Le masculin change in 'den' à l'accusatif. Der Hund -> Ich habe den Hund."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les articles féminins level neutres changent aussi à l'accusatif.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Seul le masculin change à l'accusatif in 5ème. Die -> Die, Das -> Das."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les articles indéfinis masculins.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Nominatif (Sujet)", "right": "Ein" },
+        { "left": "Accusatif (COD)", "right": "Einen" },
+        { "left": "Négation Accusatif", "right": "Keinen" }
+      ],
+      "explication": "Voici la transformation du masculin flow le COD."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Ich habe {{1}} Hund (un).",
+      "type": "trous",
+      "reponsesAttendues": ["einen"],
+      "explication": "Ich habe (verbe flow l'accusatif) + einen Hund (masculin)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'Je n'ai pas de chien' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["ich habe keinen hund"],
+      "explication": "Keinen Hund (Accusatif masculin)."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH5_P3_QUIZ1",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_5",
+  "partie": "partie_3",
+  "titre": "L'Eau Bien Commun",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un 'bien commun de l'humanité' (comme l'eau ou l'air) ?",
+      "type": "qcm",
+      "options": ["Un produit qu'on peut acheter au supermarché", "Une ressource indispensable à la vie que nous devons partager équitablement et préserver pour les générations futures", "Une marque de vêtements"],
+      "reponse": 1,
+      "explication": "L'ONU a reconnu l'accès à l'eau potable comme un droit fondamental de l'être humain."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'eau douce et potable est une ressource illimitée sur la Terre.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Seulement 3% de l'eau sur Terre est douce (le reste est l'eau salée des océans) et une grande partie est gelée dans les glaciers. C'est donc précieux."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les rôles de l'eau dans le monde.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Une Inégalité d'accès (Stress hydrique)", "right": "Des millions d'habitants parcourent des kilomètres pour trouver un point d'eau" },
+        { "left": "Un Droit Humain fondamental", "right": "L'ONU exige que chaque être humain puisse boire à sa soif (ODD n°6)" },
+        { "left": "Le gaspillage de l'eau (Usage excessif)", "right": "Prendre de longs bains ou arroser pendant la sécheresse" }
+      ],
+      "explication": "Protéger l'eau, c'est protéger la paix (éviter les 'guerres de l'eau')."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de rejeter des produits chimiques d'usines dans un fleuve s'appelle de la {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["pollution", "pollution de l'eau", "la pollution"],
+      "explication": "La pollution de l'eau (qui détruit un bien commun)."
+    },
+    {
+      "id": "q5",
+      "question": "Connaissez-vous l'expression pour désigner ce gaspillage lié (par exemple) aux réseaux de tuyaux abîmés en ville laissant l'eau s'échapper sous terre ?",
+      "type": "courte",
+      "reponsesAttendues": ["une fuite", "les fuites d'eau", "fuite d'eau"],
+      "explication": "Les fuites d'eau (dans les réseaux)."
+    }
+  ]
+}

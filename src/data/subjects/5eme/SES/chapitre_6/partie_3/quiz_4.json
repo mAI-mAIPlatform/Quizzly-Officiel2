@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH6_P3_QUIZ4",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_6",
+  "partie": "partie_3",
+  "titre": "Numérique et Société",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que la 'Fracture Numérique' ?",
+      "type": "qcm",
+      "options": [
+        "Quand on casse son écran de smartphone",
+        "L'inégalité d'accès aux outils numériques et à Internet selon l'âge, le revenu ou la zone géographique",
+        "Un nouveau virus informatique"
+      ],
+      "reponse": 1,
+      "explication": "Ceux qui ne maîtrisent pas le numérique sont souvent exclus des aides et de l'emploi."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les données personnelles sont devenues 'l'or noir' du 21ème siècle pour les géants du web.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Nos données servent à nous envoyer de la publicité ciblée et valent très cher."
+    },
+    {
+      "id": "q3",
+      "question": "Associe le géant à son domaine.",
+      "type": "relier",
+      "pairs": [
+        { "left": "GAFAM", "right": "Les 5 géants américains (Google, Apple, FB, Amazon, Microsoft)" },
+        { "left": "BATX", "right": "Les 4 géants chinois (Baidu, Alibaba, Tencent, Xiaomi)" },
+        { "left": "RGPD", "right": "La loi européenne qui protège nos données personnelles" }
+      ],
+      "explication": "Le contrôle du numérique est un enjeu de puissance mondiale."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'utilisation de robots et d'algorithmes pour remplacer des tâches humaines s'appelle l'{{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["automatisation", "intelligence artificielle", "IA"],
+      "explication": "L'automatisation change en profondeur le monde du travail."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait d'avoir accès à tous les services de l'État sur Internet ?",
+      "type": "courte",
+      "reponsesAttendues": ["la dématérialisation", "dematerialisation", "e-administration"],
+      "explication": "C'est la dématérialisation (ou e-administration)."
+    }
+  ]
+}

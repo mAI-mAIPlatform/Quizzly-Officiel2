@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH1_P3_QUIZ7",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "La Nationalité Française",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que la nationalité française ?",
+      "type": "qcm",
+      "options": ["Le fait d'aimer le pays", "Le lien juridique qui relie un individu à l'État français (donnant des droits et des devoirs)", "Le droit de parler français"],
+      "reponse": 1,
+      "explication": "La nationalité fonde la citoyenneté politique (exemple: le droit de vote)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le 'droit du sang' permet à un enfant dont au moins un des parents est français d'être français dès la naissance.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est l'un des modes d'obtention de la nationalité par attribution à la naissance."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les modes d'acquisition de la nationalité française.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Droit du Sol", "right": "Être né en France de parents étrangers (obtention sous conditions à 18 ans)" },
+        { "left": "La Naturalisation", "right": "Décision de l'État d'accorder la nationalité à un étranger majeur" },
+        { "left": "Le Mariage", "right": "Déclaration possible après 4 ans de vie commune avec un conjoint français" }
+      ],
+      "explication": "Il existe différentes voies pour devenir Français."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de donner la nationalité aux étrangers par l'État s'appelle la {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["naturalisation"],
+      "explication": "La naturalisation."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait de posséder deux nationalités ?",
+      "type": "courte",
+      "reponsesAttendues": ["double nationalité", "binationalité"],
+      "explication": "La double nationalité ou binationalité."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH1_P2_QUIZ1",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Le Facteur Travail",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que le 'Facteur Travail' dans la production ?",
+      "type": "qcm",
+      "options": [
+        "L'ensemble des machines utilisées par l'entreprise",
+        "L'activité humaine (physique ou intellectuelle) rémunérée qui permet de produire des biens et des services",
+        "Le trajet pour aller au bureau"
+      ],
+      "reponse": 1,
+      "explication": "Le travail est l'un des deux piliers de la production avec le capital."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Un 'Salarié' est une personne qui travaille pour un patron en échange d'un salaire.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le salaire est le prix du travail sur le marché de l'emploi."
+    },
+    {
+      "id": "q3",
+      "question": "Associe le type de travail à sa définition.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Travail Manuel", "right": "Activités nécessitant principalement la force physique ou l'habileté des mains (ex: maçon)" },
+        { "left": "Travail Intellectuel", "right": "Activités basées sur la réflexion, la conception ou l'organisation (ex: ingénieur)" },
+        { "left": "Savoir-faire", "right": "L'expérience et les compétences acquises par le travailleur au fil du temps" }
+      ],
+      "explication": "Le travail moderne combine souvent ces différentes dimensions."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'ensemble des aptitudes, des qualifications et des diplômes d'un travailleur s'appelle son {{1}} humain.",
+      "type": "trous",
+      "reponsesAttendues": ["capital"],
+      "explication": "Investir dans le 'Capital Humain' (formation) permet d'être plus productif."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait de diviser les tâches entre les ouvriers pour produire plus vite et plus efficacement ?",
+      "type": "courte",
+      "reponsesAttendues": ["la division du travail", "division du travail"],
+      "explication": "C'est la division du travail (théorisée par Adam Smith)."
+    }
+  ]
+}

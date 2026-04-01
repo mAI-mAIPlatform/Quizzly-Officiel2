@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH4_P2_QUIZ2",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_4",
+  "partie": "partie_2",
+  "titre": "Les Dépenses Publiques",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est le premier poste de dépense de l'État en France (celui qui coûte le plus cher) ?",
+      "type": "qcm",
+      "options": [
+        "L'achat de voitures de luxe pour les ministres",
+        "L'Éducation Nationale et la Recherche (payer les professeurs, construire les collèges...)",
+        "La publicité pour le tourisme"
+      ],
+      "reponse": 1,
+      "explication": "L'éducation est la priorité pour préparer l'avenir du pays."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La construction des autoroutes et des lignes de TGV est financée par les dépenses d'investissement de l'État.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "L'État investit dans les infrastructures pour faciliter les échanges et la vie des citoyens."
+    },
+    {
+      "id": "q3",
+      "question": "Associe le ministère à sa mission de dépense.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Ministère des Armées", "right": "Assurer la défense du territoire et la sécurité militaire" },
+        { "left": "Ministère de l'Intérieur", "right": "Payer la police et assurer la sécurité au quotidien" },
+        { "left": "Ministère de la Justice", "right": "Faire fonctionner les tribunaux et les prisons" }
+      ],
+      "explication": "Toutes ces missions régaliennes sont financées par l'impôt."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'argent versé par l'État pour aider les entreprises ou les familles s'appelle des {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["subventions", "aides"],
+      "explication": "Les subventions soutiennent des activités utiles à la société (ex: culture, écologie)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on la branche de l'État qui gère l'argent (le ministère situé à Bercy) ?",
+      "type": "courte",
+      "reponsesAttendues": ["le ministère de l'économie", "ministere des finances", "le ministere des finances", "Bercy"],
+      "explication": "C'est le ministère de l'Économie et des Finances."
+    }
+  ]
+}

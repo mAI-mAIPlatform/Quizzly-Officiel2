@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH4_P2_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_4",
+  "partie": "partie_2",
+  "titre": "La Voix Jazz",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la grande invention vocale du trompettiste Louis Armstrong (un des pères du Jazz) appelée le 'Scat' ?",
+      "type": "qcm",
+      "options": ["C'est crier très fort la note sans bouger ses lèvres", "C'est utiliser sa bouche comme un instrument (une trompette ou batterie) pour inventer en direct (improviser) une folle mélodie très rapide en chantant des syllabes stupides sans queue ni tête (ex: Shoo-bee-doo-wa, Ba-dap-bop)", "C'est réciter un texte biblique sur du Rock"],
+      "reponse": 1,
+      "explication": "Le 'Scat Singing' a permis aux chanteurs de Jazz de prouver qu'ils étaient aussi virtuoses que le pianiste ou le bassiste lors des fameux solos."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'immense chanteuse noire américaine Ella Fitzgerald, surnommée 'The First Lady of Song', a été la plus grande imitatrice au monde d'instruments grâce à la technique du Scat (voix très douce et souple improvisant à l'infini).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Elle a enregistré des chefs-d'œuvre mondiaux de Scat et a marqué l'histoire des grands orchestres de Jazz des années 1930/40 ('Big Bands')."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la qualité spécifique du chant Jazz à son mode de fonctionnement technique.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Swing ('Groove')", "right": "Balancer (décaler son rythme subtilement) en chantant un peu après le vrai tempo prévu pour donner de l'élasticité à la mélodie (chose interdite au Classique !)" },
+        { "left": "L'Improvisation Vocale absolue", "right": "Invention totale des notes à vue sans suivre la partition devant le public (il n'y a jamais deux fois la même chanson !)" },
+        { "left": "Le Phrasé parlé (Style relax / Crooner)", "right": "Chanter très doucement devant le micro ('chuchoter' presque) en donnant l'impression qu'on raconte une histoire à un copain au téléphone" }
+      ],
+      "explication": "La voix de crooner (Frank Sinatra, Billie Holiday) révolutionna l'écoute intime."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de glisser sans aucune coupure d'une note très grave jusqu'à une note plus aiguë sur un seul souffle long sans jamais arrêter la vibration des cordes vocales s'appelle faire un {{1}} (nom technique : glissement).",
+      "type": "trous",
+      "reponsesAttendues": ["glissando", "portamento", "glissé"],
+      "explication": "Un Glissando ou Portamento (très répandu chez les chanteurs de Soul et de Jazz)."
+    },
+    {
+      "id": "q5",
+      "question": "Quel nom américain (venant de 'croon', murmurer) donne-t-on traditionnellement à un grand chanteur de variétés ou de jazz romantique à la voix très chaude et grave chantant souvent langoureusement accompagné d'un orchestre symphonique l'amour au cinéma (ex: Michael Bublé / Dean Martin) ?",
+      "type": "courte",
+      "reponsesAttendues": ["le crooner", "un crooner", "crooner"],
+      "explication": "Un Crooner."
+    }
+  ]
+}

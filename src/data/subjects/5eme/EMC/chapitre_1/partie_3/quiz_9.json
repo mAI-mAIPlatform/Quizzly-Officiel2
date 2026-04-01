@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH1_P3_QUIZ9",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Libertés Collectives",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une liberté collective ?",
+      "type": "qcm",
+      "options": ["Le droit de choisir sa religion", "Un droit qui s'exerce en groupe (réunion, association, manifestation)", "Le droit d'acheter un objet"],
+      "reponse": 1,
+      "explication": "Contrairement à la liberté individuelle (ex: conscience), elle nécessite d'être à plusieurs (loi 1901 pour les associations)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le droit de grève permet aux travailleurs de cesser le travail pour défendre leurs intérêts.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est un droit constitutionnel en France depuis 1946."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les libertés collectives à leur utilité.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Liberté syndicale", "right": "S'organiser pour défendre ses droits au travail" },
+        { "left": "Liberté d'association", "right": "Se regrouper autour d'une passion ou d'une cause" },
+        { "left": "Le droit de manifestation", "right": "Exprimer publiquement une revendication ou un mécontentement" }
+      ],
+      "explication": "Ces droits permettent aux citoyens d'agir sur la société."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action d'arrêter le travail pour protester s'appelle se mettre en {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["grève"],
+      "explication": "Faire grève."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on l'organisation qui défend les salariés (ex: CGT, CFDT) ?",
+      "type": "courte",
+      "reponsesAttendues": ["un syndicat", "syndicat"],
+      "explication": "Un syndicat."
+    }
+  ]
+}

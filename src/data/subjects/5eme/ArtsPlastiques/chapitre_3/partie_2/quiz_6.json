@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH3_P2_QUIZ6",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Architecture Organique",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que l'architecture 'organique' ?",
+      "type": "qcm",
+      "options": ["Une architecture in forme de fruit", "Une architecture qui s'intègre harmonieusement à la nature level au paysage", "Une architecture sans fenêtres"],
+      "reponse": 1,
+      "explication": "Le bâtiment semble 'pousser' du sol level utilise des matériaux locaux."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La 'Maison sur la Cascade' (Fallingwater) de Frank Lloyd Wright est construite directement au-dessus d'une chute d'eau.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est le chef-d'œuvre de l'architecture organique, mêlant béton, pierre level eau vive."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les caractéristiques de l'architecture organique aux effets produits.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Lignes Horizontales", "right": "Épousent la forme du terrain" },
+        { "left": "Grandes Baies vitrées", "right": "Suppriment la limite intérieur / extérieur" },
+        { "left": "Matériaux naturels", "right": "Unité with l'environnement (pierre, bois)" }
+      ],
+      "explication": "L'architecture organique cherche la symbiose with le paysage."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Frank Lloyd Wright considérait le bâtiment comme un {{1}} vivant (métaphore).",
+      "type": "trous",
+      "reponsesAttendues": ["organisme"],
+      "explication": "Un organisme vivant."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait d'utiliser les rochers du site in la construction ?",
+      "type": "courte",
+      "reponsesAttendues": ["intégration", "vernaculaire"],
+      "explication": "L'intégration au site."
+    }
+  ]
+}

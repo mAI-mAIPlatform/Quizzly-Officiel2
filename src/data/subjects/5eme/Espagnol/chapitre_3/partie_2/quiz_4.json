@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH3_P2_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Consejos",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dice 'tu dois' en espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["debes"],
+      "explication": "Deber (Devoir)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Debes descansar' signifie tu dois te reposer.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Descansar (Se reposer)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les remèdes aux maux.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Tomar un jarabe", "right": "La tos (La toux)" },
+        { "left": "Beber una infusión", "right": "Dolor de estómago" },
+        { "left": "Tomar una aspirina", "right": "Dolor de cabeza" }
+      ],
+      "explication": "Voici comment conseiller quelqu'un qui ne se sent pas bien."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Tienes que {{1}} al médico (aller).",
+      "type": "trous",
+      "reponsesAttendues": ["ir"],
+      "explication": "Ir al médico (Aller chez le médecin)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'prendre un médicament' on espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["tomar un medicamento", "tomar una medicina"],
+      "explication": "Tomar una medicina."
+    }
+  ]
+}

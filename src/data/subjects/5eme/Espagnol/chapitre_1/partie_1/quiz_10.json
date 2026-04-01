@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH1_P1_QUIZ10",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Récap CH1 P1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Conjugue : Yo {{1}} Pablo (être).",
+      "type": "trous",
+      "reponsesAttendues": ["soy"],
+      "explication": "Yo soy (Je suis)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Ocho' signifie neuf.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "'Ocho' signifie huit. Neuf se dit 'nueve'."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les expressions aux moments de la journée.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Buenos días", "right": "Matin" },
+        { "left": "Buenas tardes", "right": "Après-midi" },
+        { "left": "Buenas noches", "right": "Soir / Nuit" }
+      ],
+      "explication": "Synthèse des salutations."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : ¿ Cuántos {{1}} tienes ? (ans).",
+      "type": "trous",
+      "reponsesAttendues": ["años"],
+      "explication": "Años (Ans)."
+    },
+    {
+      "id": "q5",
+      "question": "Cómo se dice 'vert' en espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["verde"],
+      "explication": "Verde (Vert)."
+    }
+  ]
+}

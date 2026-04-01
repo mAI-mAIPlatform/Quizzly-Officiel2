@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH2_P3_QUIZ1",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Aide Humanitaire",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une ONG (Organisation Non Gouvernementale) ?",
+      "type": "qcm",
+      "options": ["Un ministère du gouvernement", "Une association indépendante des États, qui agit pour l'intérêt général (santé, droits de l'homme)", "Une grande entreprise commerciale"],
+      "reponse": 1,
+      "explication": "Les ONG fonctionnent souvent grâce aux dons des citoyens et au bénévolat (ex: Médecins Sans Frontières)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'aide humanitaire internationale intervient uniquement lors de guerres.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Elle intervient aussi lors de catastrophes naturelles (séismes, tsunamis) ou de famines."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les ONG à leur domaine d'intervention principal.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Amnesty International", "right": "Défense des droits de l'Homme et libération des prisonniers" },
+        { "left": "Médecins Sans Frontières", "right": "Aide médicale d'urgence dans le monde" },
+        { "left": "Action contre la Faim", "right": "Lutte contre la malnutrition et accès à l'eau potable" }
+      ],
+      "explication": "La solidarité ne s'arrête pas aux frontières."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action d'apporter de l'aide alimentaire ou médicale à des populations en détresse s'appelle l'aide {{1}} (adjectif).",
+      "type": "trous",
+      "reponsesAttendues": ["humanitaire"],
+      "explication": "L'aide humanitaire."
+    },
+    {
+      "id": "q5",
+      "question": "Quelle grande organisation mondiale (créée en 1945) coordonne l'aide internationale entre les pays ?",
+      "type": "courte",
+      "reponsesAttendues": ["l'onu", "onu"],
+      "explication": "L'Organisation des Nations Unies (ONU)."
+    }
+  ]
+}

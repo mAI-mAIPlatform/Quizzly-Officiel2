@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH3_P3_QUIZ8",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Deportistas",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se llama le joueur de tennis espagnol qui a gagné de nombreux Roland Garros ?",
+      "type": "courte",
+      "reponsesAttendues": ["rafael nadal", "nadal"],
+      "explication": "Rafael Nadal (Tennis)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Lionel Messi est un célèbre footballeur argentin.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Lionel Messi (Football)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les sportifs à leur sport.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Pau Gasol", "right": "Baloncesto" },
+        { "left": "Carlos Alcaraz", "right": "Tenis" },
+        { "left": "Alexia Putellas", "right": "Fútbol" }
+      ],
+      "explication": "Voici quelques grandes figures du sport hispanique."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : {{1}} es un gran piloto de Formula 1 español (Fernando).",
+      "type": "trous",
+      "reponsesAttendues": ["Fernando Alonso"],
+      "explication": "Fernando Alonso."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'un champion' on espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["un campeón", "una campeona"],
+      "explication": "Campeón (m) / Campeona (f)."
+    }
+  ]
+}

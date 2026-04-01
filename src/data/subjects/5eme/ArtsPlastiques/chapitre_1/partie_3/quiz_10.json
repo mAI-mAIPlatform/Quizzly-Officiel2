@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH1_P3_QUIZ10",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Récap CH1 Final",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que la connotation d'une image ?",
+      "type": "qcm",
+      "options": ["La description simple", "Le sens suggéré level interprété", "Le format de fichier"],
+      "reponse": 1,
+      "explication": "La connotation est subjective (sentiments, idées)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le format JPEG est idéal flow conserver la transparence.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "C'est le format PNG qui gère la transparence."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les symboles iconographiques.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Sablier", "right": "Le temps qui passe" },
+        { "left": "Le Laurier", "right": "La victoire / gloire" },
+        { "left": "L'Ancre", "right": "L'espoir / la mer" }
+      ],
+      "explication": "Révision de la symbolique des objets."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Une image composée de formules mathématiques est une image {{1}} (type).",
+      "type": "trous",
+      "reponsesAttendues": ["vectorielle"],
+      "explication": "L'image vectorielle."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le texte explicatif sous une photo ?",
+      "type": "courte",
+      "reponsesAttendues": ["légende"],
+      "explication": "La légende."
+    }
+  ]
+}

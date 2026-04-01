@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH1_P1_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Récap Final Ch1 P1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel paramètre musical définit si un son est grave ou aigu ?",
+      "type": "qcm",
+      "options": ["La hauteur (fréquence du son)", "Le timbre", "Le tempo"],
+      "reponse": 0,
+      "explication": "La hauteur se mesure en Hertz. Plus elle est élevée, plus le son est aigu. C'est l'un des 4 paramètres fondamentaux du son avec le timbre, la durée et l'intensité."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les instruments comme le xylophone, bien qu'ils fassent des notes différentes, font partie de la famille des percussions.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le xylophone est constitué de lames en bois qu'on frappe avec des baguettes (c'est une percussion à hauteur déterminée)."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la figure rythmique ou de silence à la bonne description.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Silence (Soupir)", "right": "Symbole qui demande de s'arrêter de jouer pendant la valeur d'une noire" },
+        { "left": "Une Croche", "right": "Note rapide valant un demi-temps (souvent regroupée par 2 ou 4 avec une barre)" },
+        { "left": "Une Mesure", "right": "Séparation par des barres verticales sur la partition pour grouper les temps" }
+      ],
+      "explication": "La musique est une combinaison de sons (durées, hauteurs) et de silences précis."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de jouer 2 notes en même temps avec harmonie (ou plusieurs chanteurs qui chantent ensemble la même idée musicale) s'appelle un accord ou une {{1}} (nom féminin, un travail à plusieurs voix).",
+      "type": "trous",
+      "reponsesAttendues": ["polyphonie"],
+      "explication": "La polyphonie (chanter à plusieurs voix différentes en même temps, contraire de la monodie)."
+    },
+    {
+      "id": "q5",
+      "question": "Quel nom italien signifiant 'Modéré' utilise-t-on pour indiquer sur la partition un Tempo ni trop lent ni trop rapide (vitesse de marche) ?",
+      "type": "courte",
+      "reponsesAttendues": ["andante", "moderato"],
+      "explication": "Andante ou Moderato."
+    }
+  ]
+}

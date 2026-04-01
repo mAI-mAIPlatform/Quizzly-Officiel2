@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH3_P2_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "L'Époque Romantique",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est le but principal des compositeurs de l'Époque 'Romantique' (au 19ème siècle, env. 1820-1900) par rapport à leurs prédécesseurs classiques ?",
+      "type": "qcm",
+      "options": ["Ils ne composaient que des chansons d'amour pour les mariages", "Ils rejetaient les règles mathématiques strictes du classicisme pour exprimer avant tout leurs propres sentiments, leurs passions, leurs colères et leurs drames personnels", "Ils utilisaient uniquement des ordinateurs pour composer"],
+      "reponse": 1,
+      "explication": "Le Romantisme en musique (comme en peinture ou en littérature avec Victor Hugo), c'est l'explosion du 'Moi', de la nature sauvage et de l'émotion pure."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Ludwig van Beethoven, le compositeur à la transition entre le Classicisme et le Romantisme (auteur de la 9ème Symphonie), est devenu complètement sourd à la fin de sa vie mais a continué à composer des chefs-d'œuvre titanesques.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Il ressentait les vibrations du piano. Son combat contre la surdité en fait le héros romantique et torturé absolu."
+    },
+    {
+      "id": "q3",
+      "question": "Associe ce compositeur romantique européen très célèbre à son style caractéristique ou son pays.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Frédéric Chopin", "right": "Polonais vivant à Paris, c'est le grand poète du Piano seul (Nocturnes et Valses mélancoliques)" },
+        { "left": "Hector Berlioz", "right": "Français, maître des orchestres démesurés et des symphonies très narratives (Symphonie Fantastique)" },
+        { "left": "Richard Wagner", "right": "Allemand, génie de l'Opéra total, de la puissance des cuivres et inventeur du 'Leitmotiv'" }
+      ],
+      "explication": "Le 19ème siècle est aussi le siècle de l'émergence des nations et du 'Nationalisme' musical (les artistes défendent les couleurs musicales de leur pays)."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de jouer de son instrument de musique avec une vitesse et une difficulté technique presque surhumaines sur scène (comme Franz Liszt au piano ou Paganini au violon) s'appelle faire preuve de {{1}} (nom féminin).",
+      "type": "trous",
+      "reponsesAttendues": ["virtuosité"],
+      "explication": "La virtuosité."
+    },
+    {
+      "id": "q5",
+      "question": "Quel célèbre compositeur russe romantique est l'auteur bouleversant des musiques de ballets les plus célèbres du monde, comme 'Le Lac des Cygnes' ou 'Casse-Noisette' ?",
+      "type": "courte",
+      "reponsesAttendues": ["tchaïkovski", "tchaikovski", "pyotr ilyich tchaïkovski"],
+      "explication": "Tchaïkovski."
+    }
+  ]
+}

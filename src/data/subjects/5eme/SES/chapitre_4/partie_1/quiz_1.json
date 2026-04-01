@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH4_P1_QUIZ1",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_4",
+  "partie": "partie_1",
+  "titre": "Inégalités de Revenus",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une 'Inégalité de Revenu' ?",
+      "type": "qcm",
+      "options": [
+        "Le fait que tout le monde gagne exactement la même chose",
+        "La différence de revenus entre les individus ou les ménages d'une société",
+        "Une erreur de calcul de la banque"
+      ],
+      "reponse": 1,
+      "explication": "Dans toutes les sociétés, il existe des écarts entre les plus hauts et les plus bas salaires."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les inégalités peuvent être liées aux diplômes, à l'expérience ou au type de métier exercé.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le niveau d'études est l'un des principaux facteurs expliquant les différences de salaires."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la notion à son impact sur les inégalités.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Pauvreté", "right": "Situation d'un ménage qui n'a pas assez de revenus pour vivre dignement" },
+        { "left": "Richesse", "right": "Possibilité d'accumuler de l'épargne et du patrimoine" },
+        { "left": "Classe Moyenne", "right": "Groupe de population situé entre les plus pauvres et les plus riches" }
+      ],
+      "explication": "La structure de la société dépend de la répartition de ces groupes."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'écart entre les riches et les pauvres s'appelle la {{1}} sociale.",
+      "type": "trous",
+      "reponsesAttendues": ["fracture", "distance", "inegalite"],
+      "explication": "Réduire la fracture sociale est un objectif politique majeur."
+    },
+    {
+      "id": "q5",
+      "question": "Quel nom donne-t-on au seuil de revenu en-dessous duquel on considère qu'une personne est pauvre ?",
+      "type": "courte",
+      "reponsesAttendues": ["le seuil de pauvreté", "seuil de pauvrete"],
+      "explication": "C'est le seuil de pauvreté."
+    }
+  ]
+}

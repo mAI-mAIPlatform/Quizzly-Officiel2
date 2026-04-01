@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH6_P1_QUIZ2",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_6",
+  "partie": "partie_1",
+  "titre": "Les Multinationales",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une 'Firme Multinationale' (FMN) ?",
+      "type": "qcm",
+      "options": [
+        "Une entreprise qui a des usines ou des bureaux dans plusieurs pays différents",
+        "Une entreprise qui ne vend que dans sa ville",
+        "Un rassemblement de pays"
+      ],
+      "reponse": 0,
+      "explication": "Apple, Samsung, Toyota ou L'Oréal sont des exemples célèbres de FMN."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Une FMN a généralement son 'Siège Social' dans son pays d'origine et des 'Filiales' dans d'autres pays.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "La filiale est une entreprise contrôlée par la 'Maison - Mère'."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la stratégie de la FMN à son but.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Produire à l'étranger", "right": "Payer la main-d'œuvre moins cher (délocalisation)" },
+        { "left": "S'installer près du client", "right": "Éviter les frais de transport et mieux connaître le marché local" },
+        { "left": "Optimisation fiscale", "right": "Payer ses impôts là où ils sont les plus bas" }
+      ],
+      "explication": "Les multinationales cherchent à maximiser leur profit à l'échelle du monde."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action d'une entreprise qui ferme une usine en France pour en ouvrir une dans un pays où les salaires sont plus bas s'appelle une {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["délocalisation", "delocalisation"],
+      "explication": "C'est la délocalisation (souvent critiquée pour les pertes d'emplois qu'elle cause)."
+    },
+    {
+      "id": "q5",
+      "question": "Quel sigle de 3 lettres désigne l'argent qu'une entreprise investit pour créer une nouvelle usine dans un autre pays ?",
+      "type": "courte",
+      "reponsesAttendues": ["IDE"],
+      "explication": "C'est l'Investissement Direct à l'Étranger (IDE)."
+    }
+  ]
+}

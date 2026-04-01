@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH3_P1_QUIZ5",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Récap Final Ch3 P1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Un agriculteur qui vend ses légumes sur le marché travaille dans quel secteur ?",
+      "type": "qcm",
+      "options": [
+        "Primaire",
+        "Secondaire",
+        "Tertiaire"
+      ],
+      "reponse": 0,
+      "explication": "Le secteur primaire concerne l'exploitation des ressources naturelles."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Si le Chiffre d'Affaires est inférieur aux Charges, l'entreprise fait un bénéfice.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Si elle dépense plus qu'elle ne gagne, elle fait une 'Perte' (Déficit)."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la taille de l'entreprise à sa réalité concrète.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Grandes Entreprises (GE)", "right": "Souvent présentes dans plusieurs pays (Multinatinales)" },
+        { "left": "PME", "right": "Le moteur de l'emploi local et de la proximité" },
+        { "left": "Auto-entrepreneur", "right": "Une seule personne qui crée son propre emploi" }
+      ],
+      "explication": "Le tissu économique est très varié."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'argent donné par les associés pour créer l'entreprise s'appelle le {{1}} social.",
+      "type": "trous",
+      "reponsesAttendues": ["capital"],
+      "explication": "Le capital social est la mise de départ de l'entreprise."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait pour une entreprise de transférer une partie de sa production dans un autre pays (souvent pour payer moins cher) ?",
+      "type": "courte",
+      "reponsesAttendues": ["la délocalisation", "delocalisation"],
+      "explication": "C'est la délocalisation."
+    }
+  ]
+}

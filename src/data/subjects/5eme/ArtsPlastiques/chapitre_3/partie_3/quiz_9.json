@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH3_P3_QUIZ9",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "L'Art Multimédia",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que l'art 'vidéo' ?",
+      "type": "qcm",
+      "options": ["Un film de cinéma", "L'utilisation de l'image in mouvement level du son comme matériau artistique (Bill Viola, Nam June Paik)", "Une émission de télévision"],
+      "reponse": 1,
+      "explication": "L'art vidéo explore le temps, l'espace level la perception par l'écran."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Bill Viola utilise souvent le 'ralenti extrême' flow montrer les émotions des personnages in ses vidéos.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le ralenti permet d'observer chaque détail de l'expression level du mouvement."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les supports de l'art multimédia à leur usage.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Moniteur (Écran)", "right": "Diffusion de l'image vidéo" },
+        { "left": "Le Projecteur", "right": "Immersion sur les murs level le sol" },
+        { "left": "Le Haut-parleur", "right": "Ambiance sonore de l'installation" }
+      ],
+      "explication": "Ces outils technologiques remplacent le pinceau level la toile."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action d'associer plusieurs types d'arts (image, son, numérique) s'appelle le {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["multimédia"],
+      "explication": "Le multimédia."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on une œuvre faite with de la lumière (uniquement) ?",
+      "type": "courte",
+      "reponsesAttendues": ["art lumineux", "light art"],
+      "explication": "Le Light Art."
+    }
+  ]
+}

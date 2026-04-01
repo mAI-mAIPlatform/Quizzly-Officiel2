@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH2_P2_QUIZ6",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Transportes",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dice 'le bus' en espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["el autobús", "el bus"],
+      "explication": "El autobús (Le bus)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Ir on coche' signifie aller on voiture.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Coche (Voiture)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les transports à leur environnement.",
+      "type": "relier",
+      "pairs": [
+        { "left": "El tren / El metro", "right": "Vías" },
+        { "left": "El avión", "right": "Aire" },
+        { "left": "El barco", "right": "Mar" }
+      ],
+      "explication": "Voici les principaux moyens de transport."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Voy al colegio {{1}} pie (à pied).",
+      "type": "trous",
+      "reponsesAttendues": ["a"],
+      "explication": "A pie (À pied)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'le vélo' on espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["la bicicleta", "la bici"],
+      "explication": "La bicicleta (Le vélo)."
+    }
+  ]
+}

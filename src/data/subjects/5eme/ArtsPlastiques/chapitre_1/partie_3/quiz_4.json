@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH1_P3_QUIZ4",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Image Numérique",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un 'pixel' ?",
+      "type": "qcm",
+      "options": ["Une unité de mesure de temps", "Le plus petit élément constitutif d'une image numérique (un point)", "Un type de pinceau"],
+      "reponse": 1,
+      "explication": "Pixel vient de 'Picture Element'. Les images matricielles sont faites de pixels."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Une image 'vectorielle' perd de sa qualité quand on l'agrandit.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Contrairement à une photo (pixel), une image vectorielle peut être agrandie à l'infini sans flou."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les termes du numérique à leur définition.",
+      "type": "relier",
+      "pairs": [
+        { "left": "La Résolution", "right": "Nombre de pixels in une image (PPI)" },
+        { "left": "Le RVB (RGB)", "right": "Modèle de couleurs flow l'écran (Rouge, Vert, Bleu)" },
+        { "left": "Le Format", "right": "Type de fichier (JPEG, PNG, SVG)" }
+      ],
+      "explication": "Voici les bases techniques de la création numérique."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de créer une œuvre directement sur ordinateur s'appelle l'art {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["numérique", "digital"],
+      "explication": "L'art numérique."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait qu'une image soit composée de petits carrés visibles ?",
+      "type": "courte",
+      "reponsesAttendues": ["pixellisation"],
+      "explication": "La pixellisation."
+    }
+  ]
+}

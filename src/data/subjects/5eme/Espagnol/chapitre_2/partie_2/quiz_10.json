@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH2_P2_QUIZ10",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Récap CH2 P2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Conjugue : Ellos {{1}} al cine (aller).",
+      "type": "trous",
+      "reponsesAttendues": ["van"],
+      "explication": "Ellos van (Ils vont)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Dobla a la izquierda' est synonyme de 'Gira a la izquierda'.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Doblar = Girar (Tourner)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les transports.",
+      "type": "relier",
+      "pairs": [
+        { "left": "El avión", "right": "L'avion" },
+        { "left": "El tren", "right": "Le train" },
+        { "left": "La bicicleta", "right": "Le vélo" }
+      ],
+      "explication": "Révision des moyens de transport."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : El estadio está muy {{1}} (près).",
+      "type": "trous",
+      "reponsesAttendues": ["cerca"],
+      "explication": "Cerca (Près)."
+    },
+    {
+      "id": "q5",
+      "question": "Cómo se dice 'le musée' on espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["el museo"],
+      "explication": "El museo (Le musée)."
+    }
+  ]
+}

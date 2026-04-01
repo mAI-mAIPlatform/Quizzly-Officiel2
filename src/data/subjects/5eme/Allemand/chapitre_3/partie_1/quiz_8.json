@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH3_P1_QUIZ8",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Sprachen",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dit 'Je parle' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["ich spreche"],
+      "explication": "Ich spreche (Sprechen)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Ich spreche Französisch' signifie je parle français.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Französisch (Français)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les langues à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Englisch", "right": "Anglais" },
+        { "left": "Spanisch", "right": "Espagnol" },
+        { "left": "Latein", "right": "Latin" }
+      ],
+      "explication": "Voici les langues couramment apprises au collège."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Welche {{1}} sprichst du? (langues).",
+      "type": "trous",
+      "reponsesAttendues": ["sprachen"],
+      "explication": "Die Sprachen (Les langues)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'un peu' (flow parler une langue) in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["ein bisschen"],
+      "explication": "Ein bisschen (Un peu)."
+    }
+  ]
+}

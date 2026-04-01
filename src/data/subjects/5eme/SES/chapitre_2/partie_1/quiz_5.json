@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH2_P1_QUIZ5",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Récap Final Ch2 P1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Lequel de ces facteurs n'influence PAS directement la consommation d'un ménage ?",
+      "type": "qcm",
+      "options": [
+        "Le revenu disponible",
+        "La météo de la veille",
+        "La mode et la publicité"
+      ],
+      "reponse": 1,
+      "explication": "Si la météo ponctuelle peut jouer (glace/chauffage), elle ne définit pas la structure du budget à long terme comme le font le revenu ou les goûts."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'épargne d'aujourd'hui est en fait la consommation de demain.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "On épargne pour pouvoir acheter des choses plus chères plus tard ou pour sa sécurité."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la notion budgétaire à sa définition.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Budget", "right": "L'équilibre entre les revenus et les dépenses" },
+        { "left": "La Consommation Marchande", "right": "Acheter un bien sur un marché à un prix donné" },
+        { "left": "Dépenses Contraintes", "right": "Factures et loyers qu'on ne peut pas éviter chaque mois" }
+      ],
+      "explication": "Gérer son budget est une compétence économique essentielle."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Plus le revenu d'une famille augmente, plus la part consacrée aux {{1}} (culture, voyages) a tendance à augmenter.",
+      "type": "trous",
+      "reponsesAttendues": ["loisirs"],
+      "explication": "C'est un signe d'amélioration du niveau de vie."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on l'ensemble des biens et services qu'un ménage peut s'offrir grâce à son revenu disponible et aux prix du marché ?",
+      "type": "courte",
+      "reponsesAttendues": ["le pouvoir d'achat", "pouvoir d'achat"],
+      "explication": "C'est le pouvoir d'achat."
+    }
+  ]
+}

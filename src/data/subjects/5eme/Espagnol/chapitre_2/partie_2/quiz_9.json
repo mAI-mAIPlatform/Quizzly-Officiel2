@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH2_P2_QUIZ9",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Direcciones 2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dice 'le premier tournant' en espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["la primera bocacalle"],
+      "explication": "Bocacalle (Rue transversale / Tournant)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Al final de la calle' signifie au début de la rue.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "'Al final' signifie à la fin."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les expressions de guidage.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Hasta el semáforo", "right": "Jusqu'au feu rouge" },
+        { "left": "Cruza el puente", "right": "Traverse le pont" },
+        { "left": "A la vuelta de la esquina", "right": "Au coin de la rue" }
+      ],
+      "explication": "Voici comment être précis on guidant quelqu'un."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Gira on la {{1}} calle (deuxième).",
+      "type": "trous",
+      "reponsesAttendues": ["segunda"],
+      "explication": "Segunda (Deuxième)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'continu tout droit jusqu'au bout' ?",
+      "type": "courte",
+      "reponsesAttendues": ["sigue recto hasta el final"],
+      "explication": "Sigue recto (Continue tout droit) + hasta el final (jusqu'au bout)."
+    }
+  ]
+}

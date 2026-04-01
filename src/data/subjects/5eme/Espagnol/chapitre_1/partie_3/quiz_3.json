@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH1_P3_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Verbos -AR",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la terminaison de la 1ère personne du singulier (yo) flow les verbes on -AR ?",
+      "type": "courte",
+      "reponsesAttendues": ["o"],
+      "explication": "Yo hablO, yo estudiO."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Estudiar' signifie écouter.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "'Estudiar' signifie étudier. Écouter se dit 'Escuchar'."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les verbes à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Hablar", "right": "Parler" },
+        { "left": "Escuchar", "right": "Écouter" },
+        { "left": "Mirar", "right": "Regarder" }
+      ],
+      "explication": "Voici les verbes d'action on classe."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Nosotros {{1}} mucho (étudier).",
+      "type": "trous",
+      "reponsesAttendues": ["estudiamos"],
+      "explication": "Nosotros estudiamos (Nous étudions)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'Tu parles' on espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["hablas", "tú hablas"],
+      "explication": "Tú hablas (Tu parles)."
+    }
+  ]
+}

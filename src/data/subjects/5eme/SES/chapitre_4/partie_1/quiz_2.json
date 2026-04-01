@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH4_P1_QUIZ2",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_4",
+  "partie": "partie_1",
+  "titre": "La Sécurité Sociale",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est le but principal de la 'Protection Sociale' (ex: Sécu) ?",
+      "type": "qcm",
+      "options": [
+        "Punir les gens qui tombent malades",
+        "Protéger les citoyens contre les risques de la vie (maladie, vieillesse, chômage, accidents) en leur versant des revenus ou en payant leurs soins",
+        "Donner de l'argent uniquement aux riches"
+      ],
+      "reponse": 1,
+      "explication": "C'est un système basé sur la solidarité entre tous les citoyens."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les cotisations sociales sont prélevées sur le salaire de ceux qui travaillent pour financer les retraites de ceux qui ne travaillent plus.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est le principe de la répartition : les actifs payent pour les retraités."
+    },
+    {
+      "id": "q3",
+      "question": "Associe le risque social à son aide correspondante.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Maladie", "right": "Remboursement des médicaments et de l'hôpital" },
+        { "left": "Famille", "right": "Allocations familiales pour aider à élever les enfants" },
+        { "left": "Chômage", "right": "Revenu de remplacement quand on perd son emploi" }
+      ],
+      "explication": "Le système nous protège 'du berceau à la tombe'."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le système français de solidarité où chacun cotise selon ses moyens et reçoit selon ses besoins s'appelle le modèle de {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["solidarité", "protection sociale", "securité sociale"],
+      "explication": "C'est la Sécurité Sociale, créée en 1945."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on l'argent que le patient doit payer de sa poche après le remboursement de la Sécurité Sociale (souvent remboursé par une mutuelle) ?",
+      "type": "courte",
+      "reponsesAttendues": ["le ticket modérateur", "ticket moderateur", "reste a charge"],
+      "explication": "C'est le ticket modérateur."
+    }
+  ]
+}

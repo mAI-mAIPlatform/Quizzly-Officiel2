@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH5_P1_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_5",
+  "partie": "partie_1",
+  "titre": "Récap Final Ch5 P1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelles sont les trois caractéristiques physiques principales obligatoires qui définissent n'importe quel 'Son' (ou bruit) dans l'univers musical ?",
+      "type": "qcm",
+      "options": ["La vitesse, le poids, l'odeur", "La Hauteur (Grave/Aigu), l'Intensité (Le Volume Fort/Doux), et le Timbre (La Couleur sonore propre au matériau)", "L'électricité, le bois, le vent"],
+      "reponse": 1,
+      "explication": "C'est la base absolue de l'acoustique. En ajoutant la 'Durée' (le temps de la note), tu as les 4 fondements physiques de toute musique sur Terre !"
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Un son incroyablement 'Grave' (comme le tonnerre au loin) possède une fréquence très élevée et est mesuré par un nombre gigantesque d'Hertz.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Le grave est lent (peu de vibrations par seconde = peu de Hertz, par ex: 40 Hz). Le son très Aigu de la flûte est extrêmement rapide et frénétique (ex: 4 000 Hertz) !"
+    },
+    {
+      "id": "q3",
+      "question": "Associe la mesure scientifique acoustique au symbole physique de la musique.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Décibel (dB)", "right": "Mesure du Volume de l'ampli (L'intensité du risque de surdité)" },
+        { "left": "Le Hertz (Hz)", "right": "Mesure de la Hauteur des notes (Grave ou Aigu)" },
+        { "left": "L'Onde Sonore", "right": "La propagation physique invisible du bruit dans l'air sous forme de vagues percutant notre tympan" }
+      ],
+      "explication": "Le son ne traverse pas le vide sidéral ! La guerre des étoiles devrait être complètement silencieuse selon la NASA."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de chanter et de reconnaître directement (sans effort) si le son du refrain est produit par un saxophone en cuivre brillant ou par un violon soyeux et poétique en bois, prouve que notre esprit identifie avec merveille le fabuleux {{1}} (nom de cette couleur instrumentale unique).",
+      "type": "trous",
+      "reponsesAttendues": ["timbre", "timbre sonore", "timbre musical"],
+      "explication": "Le Timbre sonore."
+    },
+    {
+      "id": "q5",
+      "question": "Quel nom, symbole parfait en musique d'un petit objet de métal à deux branches en forme de Y (surtout chanté par les petites chorales), offre avec magie la vibration absolue du La 440 Hz lorsqu'on le frappe doucement sur notre genou pour nous donner la bonne hauteur avant de chanter sans piano ?",
+      "type": "courte",
+      "reponsesAttendues": ["le diapason", "un diapason", "diapason"],
+      "explication": "Le Diapason."
+    }
+  ]
+}

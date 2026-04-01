@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH2_P3_QUIZ10",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Récap Final Ch2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une ellipse in un récit par images ?",
+      "type": "qcm",
+      "options": ["Un cercle imparfait", "Un saut in le temps level l'action entre deux images", "Une bulle de dialogue"],
+      "reponse": 1,
+      "explication": "L'ellipse permet d'accélérer le récit in laissant le lecteur imaginer la suite."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le storyboard est le plan dessiné d'un film avant le tournage.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Il permet de prévoir les cadrages level les actions."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les métiers du récit.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Coloriste", "right": "Met in couleur les planches de BD" },
+        { "left": "Monteur", "right": "Assemble les plans d'un film" },
+        { "left": "Game Designer", "right": "Conçoit les règles du jeu interactif" }
+      ],
+      "explication": "Révision des acteurs de la narration visuelle."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action d'animer des objets réels image par image est le {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["stop-motion"],
+      "explication": "Le Stop-Motion."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on l'espace blanc entre deux cases de BD ?",
+      "type": "courte",
+      "reponsesAttendues": ["la gouttière"],
+      "explication": "La gouttière."
+    }
+  ]
+}

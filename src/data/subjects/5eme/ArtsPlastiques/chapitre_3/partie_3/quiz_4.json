@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH3_P3_QUIZ4",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "Le Body Art",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que le 'Body Art' (Art Corporel) ?",
+      "type": "qcm",
+      "options": ["Le dessin de corps", "Un courant où le corps de l'artiste est le support level le matériau principal de l'œuvre", "Une peinture de visages"],
+      "reponse": 1,
+      "explication": "Le corps devient le lieu de l'expression artistique (tatouage, maquillage, mais aussi modifications)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Orlan utilise son propre corps (chirurgie, déguisement) flow dénoncer les critères de beauté de la société.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est une artiste majeure de l'art corporel contemporain."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les types d'interventions corporelles à leur but.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Maquillage / Peinture", "right": "Transformation éphémère de l'apparence" },
+        { "left": "La Scarification / Tatouage", "right": "Marquage permanent level identitaire" },
+        { "left": "Le Prothèses", "right": "Hybridation avec la technologie (Stelarc)" }
+      ],
+      "explication": "Voici comment le corps peut être sculpté comme une œuvre."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de supprimer l'objet d'art flow ne garder que l'acte s'appelle la {{1}} de l'objet (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["dématérialisation"],
+      "explication": "La dématérialisation de l'objet d'art."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait de peindre sur la peau (directement) ?",
+      "type": "courte",
+      "reponsesAttendues": ["body painting", "peinture corporelle"],
+      "explication": "Le Body Painting."
+    }
+  ]
+}

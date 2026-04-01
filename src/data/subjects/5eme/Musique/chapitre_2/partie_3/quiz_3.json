@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH2_P3_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Les Bruitages",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est le rôle du métier essentiel de 'Bruiteur' (ou Foley Artist) au cinéma ?",
+      "type": "qcm",
+      "options": ["Il écrit la partition pour l'orchestre symphonique", "Il recrée artificiellement en studio, après le tournage, les bruits de l'action très précisément pour les rendre plus réalistes que sur la caméra (ex: pas sur le gravier, grincement de porte)", "Il gère les lumières du plateau"],
+      "reponse": 1,
+      "explication": "Le bruiteur utilise la plupart du temps des objets invraisemblables (comme un chou pour imiter une bagarre ou de la farine pour la neige) pour tromper notre oreille."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les dinosaures du film 'Jurassic Park' (1993) hurlaient avec un son inventé par l'ordinateur à partir de bruits d'animaux réels enregistrés et ralentis.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "L'ingénieur du son ('Sound Designer') Gary Rydstrom a mixé des barrissements de bébé éléphant, de chien ou d'alligator pour créer le T-Rex terrifiant."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'objet studio (utilisé par le bruiteur) au son cinématographique final ressenti en salle.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Froissement de bandes magnétiques (K7) ou de céleri écrasé", "right": "Des herbes qu'on écrase, le bruit de pas dans la forêt" },
+        { "left": "Une noix de coco fendue en deux au micro", "right": "Des sabots de chevaux" },
+        { "left": "Du sable fin frotté rythmiquement sur du cuir", "right": "Le frottement des vêtements lors d'une longue scène sans dialogue" }
+      ],
+      "explication": "Le cinéma nous ment en permanence... par plaisir pour nos oreilles !"
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de ranger tous les sons du film dans une grande 'Banque de sons' appelée 'Sound {{1}}' (mot anglais) accélère la post-production des studios actuels.",
+      "type": "trous",
+      "reponsesAttendues": ["design", "library", "designers", "bank"],
+      "explication": "La Sound Library (ou Bibliothèque de Sons) des Sound Designers."
+    },
+    {
+      "id": "q5",
+      "question": "En 1977, quel célèbre 'bruitage' électronique inventé par l'ingénieur du son Ben Burtt avec un moteur de téléviseur fêlé est devenu le son le plus célèbre des duels spatiaux de Jedi (Star Wars) ?",
+      "type": "courte",
+      "reponsesAttendues": ["le sabre laser", "un sabre laser", "sabre laser"],
+      "explication": "Le Sabre Laser (Lightsaber)."
+    }
+  ]
+}

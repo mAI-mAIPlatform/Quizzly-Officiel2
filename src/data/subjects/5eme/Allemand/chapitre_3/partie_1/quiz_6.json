@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH3_P1_QUIZ6",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Nationalitäten",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dit 'allemand' (une personne) in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["deutscher", "deutsche"],
+      "explication": "Deutscher (m) / Deutsche (f)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Franzose' signifie français.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Franzose (m) / Französin (f)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les pays aux nationalités masculines.",
+      "type": "relier",
+      "pairs": [
+        { "left": "England", "right": "Engländer" },
+        { "left": "Spanien", "right": "Spanier" },
+        { "left": "Italien", "right": "Italiener" }
+      ],
+      "explication": "Voici comment se forment les nationalités."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Meine Freundin ist {{1}} (allemande).",
+      "type": "trous",
+      "reponsesAttendues": ["deutsche"],
+      "explication": "Die Deutsche."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'américain' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["amerikaner"],
+      "explication": "Amerikaner."
+    }
+  ]
+}

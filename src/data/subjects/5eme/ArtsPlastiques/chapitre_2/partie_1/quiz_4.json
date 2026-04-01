@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH2_P1_QUIZ4",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Collage level Assemblage",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un 'collage' in art ?",
+      "type": "qcm",
+      "options": ["Une peinture imitant le bois", "L'utilisation de morceaux de papier or d'autres matières collés sur le support", "Une sculpture in pierre"],
+      "reponse": 1,
+      "explication": "Le collage (initié par Picasso level Braque) brise la platitude du support."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Un 'assemblage' est la réunion d'objets in trois dimensions (3D).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est l'équivalent du collage mais flow la sculpture."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les techniques au relief créé.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Dessin", "right": "Absence de relief (plat)" },
+        { "left": "Le Collage", "right": "Faible relief (souvent 2D)" },
+        { "left": "L'Assemblage", "right": "Fort relief (3D)" }
+      ],
+      "explication": "Voici comment l'œuvre gagne in épaisseur."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'utilisation de vieux papiers level d'objets de récupération est le propre du courant de l'Art {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["Pauvre", "Brut"],
+      "explication": "L'Art Povera (Art Pauvre) utilise des matériaux bruts."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait de déchirer des éléments au lieu de les couper ?",
+      "type": "courte",
+      "reponsesAttendues": ["déchirure", "découpage"],
+      "explication": "La déchirure (laisse des bords irréguliers)."
+    }
+  ]
+}

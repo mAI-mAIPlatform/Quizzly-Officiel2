@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH3_P2_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "L'Époque Baroque",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qui caractérise la musique de l'Époque Baroque (du 17ème siècle jusqu'à la mort de Jean-Sébastien Bach en 1750) ?",
+      "type": "qcm",
+      "options": ["Une musique très simple, sans instrument, chantée seulement par des moines", "Une musique très ornée, chargée de détails éclatants et de contrastes (fort/doux, orchestre/soliste) faite pour impressionner les Rois (comme à Versailles)", "Une musique douce pour aider à dormir"],
+      "reponse": 1,
+      "explication": "Le mot 'Baroque' signifie d'ailleurs 'perle irrégulière'. C'est l'art de l'exagération, de la dorure et du spectacle majestueux."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le grand compositeur italien Antonio Vivaldi (célèbre pour son œuvre 'Les Quatre Saisons') était surnommé le 'Prêtre Roux' et a composé sa musique baroque pendant cette période.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Vivaldi est le maître incontesté du 'Concerto', une forme d'orchestre typiquement baroque où un instrument solo (le violon) dialogue avec le reste du groupe."
+    },
+    {
+      "id": "q3",
+      "question": "Associe le nom très célèbre du compositeur baroque à son chef-d'œuvre respectif.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Antonio Vivaldi (Italie)", "right": "'Les Quatre Saisons' (Concertos pour Violon)" },
+        { "left": "Jean-Sébastien Bach (Allemagne)", "right": "La 'Toccata et Fugue en Ré mineur' (Le célèbre et terrifiant morceau pour Orgue d'église)" },
+        { "left": "Jean-Baptiste Lully (France)", "right": "La 'Marche pour la cérémonie des Turcs' (Musique de Cour pour Louis XIV)" }
+      ],
+      "explication": "Le style baroque domine toute l'Europe pendant 150 ans."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de faire un dialogue théâtral et musical tendu entre un orchestre massif et un seul instrumentiste rapide (comme un violoncelliste) s'appelle un {{1}} (nom typique de cette époque).",
+      "type": "trous",
+      "reponsesAttendues": ["concerto"],
+      "explication": "Un concerto (ou 'concerter', qui signifie discuter musicalement)."
+    },
+    {
+      "id": "q5",
+      "question": "Quel instrument à clavier caractéristique de l'époque baroque, dont les cordes sont 'pincées' (contrairement au piano dont les cordes sont frappées), a un son très métallique et tintant (souvent présent chez Lully) ?",
+      "type": "courte",
+      "reponsesAttendues": ["le clavecin", "clavecin"],
+      "explication": "Le clavecin."
+    }
+  ]
+}

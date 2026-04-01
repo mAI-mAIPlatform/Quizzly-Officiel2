@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH3_P2_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Dolencias",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dice 'avoir de la fièvre' en espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["tener fiebre"],
+      "explication": "Tener fiebre (Avoir de la fièvre)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'La gripe' est la grippe.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "La gripe."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les symptômes aux maladies.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Toser", "right": "El resfriado" },
+        { "left": "Estornudar", "right": "La alergia" },
+        { "left": "Vomitar", "right": "La indigestión" }
+      ],
+      "explication": "Voici quelques symptômes de maladies courantes."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Estoy {{1}} (malade).",
+      "type": "trous",
+      "reponsesAttendues": ["enfermo", "enferma"],
+      "explication": "Enfermo (Malade)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'avoir mal au ventre' ?",
+      "type": "courte",
+      "reponsesAttendues": ["tener dolor de barriga", "dolor de estómago"],
+      "explication": "Tener dolor de... (Avoir mal à...)."
+    }
+  ]
+}

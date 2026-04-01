@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH3_P1_QUIZ3",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Le Pouvoir Législatif",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qui détient le pouvoir législatif (le pouvoir de voter la loi) en France ?",
+      "type": "qcm",
+      "options": ["Le Parlement (Assemblée Nationale et Sénat)", "Le Président de la République seul", "Les Juges"],
+      "reponse": 0,
+      "explication": "Le Parlement vote la loi et le budget, et contrôle les actions du Gouvernement."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'Assemblée Nationale (où sont les 577 députés) a toujours le dernier mot sur le Sénat en cas de désaccord pour voter une loi.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le Gouvernement peut donner le dernier mot aux députés (élus au suffrage direct par le peuple)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les rôles aux chambres du Parlement.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Député", "right": "Élu par les citoyens (suffrage direct), siège à l'Assemblée Nationale" },
+        { "left": "Le Sénateur", "right": "Élu par des grands électeurs (suffrage indirect), représente les territoires" },
+        { "left": "Le Parlement réuni en Congrès", "right": "Vote à Versailles pour réviser la Constitution" }
+      ],
+      "explication": "Les deux chambres assurent l'équilibre du pouvoir législatif."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'institution où siègent les députés s'appelle l'Assemblée {{1}} (adjectif).",
+      "type": "trous",
+      "reponsesAttendues": ["nationale"],
+      "explication": "L'Assemblée Nationale (Palais Bourbon)."
+    },
+    {
+      "id": "q5",
+      "question": "Où siègent les sénateurs à Paris ?",
+      "type": "courte",
+      "reponsesAttendues": ["le sénat", "au palais du luxembourg", "palais du luxembourg"],
+      "explication": "Le Sénat se trouve au Palais du Luxembourg."
+    }
+  ]
+}

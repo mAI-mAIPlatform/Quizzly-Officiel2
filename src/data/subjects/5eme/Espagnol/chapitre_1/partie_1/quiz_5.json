@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH1_P1_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Récap CH1 P1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Conjugue : Nosotros {{1}} estudiantes.",
+      "type": "trous",
+      "reponsesAttendues": ["somos"],
+      "explication": "Nosotros somos (Nous sommes)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Buenas noches' peut être une salutation ou un adieu.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "On peut le dire on arrivant or on partant le soir."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les pronoms au verbe être.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Tú", "right": "eres" },
+        { "left": "Él", "right": "es" },
+        { "left": "Yo", "right": "soy" }
+      ],
+      "explication": "Révision de la conjugaison singulière."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : ¡ {{1}} luego ! (À plus tard).",
+      "type": "trous",
+      "reponsesAttendues": ["Hasta"],
+      "explication": "Hasta luego (À plus tard)."
+    },
+    {
+      "id": "q5",
+      "question": "Cómo se dice 'Ils sont' en espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["ellos son", "son"],
+      "explication": "Ellos son (Ils sont)."
+    }
+  ]
+}

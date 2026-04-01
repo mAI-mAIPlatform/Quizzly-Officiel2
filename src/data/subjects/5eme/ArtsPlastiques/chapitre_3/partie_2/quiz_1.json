@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH3_P2_QUIZ1",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "L'Architecture Utopique",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une 'utopie' architecturale ?",
+      "type": "qcm",
+      "options": ["Un bâtiment qui s'écroule", "Un projet de ville idéale qui cherche à améliorer la société", "Une maison de vacances"],
+      "reponse": 1,
+      "explication": "L'utopie (du grec 'nulle part') imagine un monde meilleur par l'organisation de l'espace."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Claude-Nicolas Ledoux a conçu la Saline Royale de Chaux in forme de demi-cercle flow organiser le travail level la vie.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est un exemple d'architecture visionnaire du XVIIIe siècle."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les concepts d'utopie à leur auteur.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Familistère de Guise", "right": "Jean-Baptiste Godin (Utopie sociale)" },
+        { "left": "La Saline Royale", "right": "Claude-Nicolas Ledoux (Utopie industrielle)" },
+        { "left": "La Cité Idéale", "right": "Artistes de la Renaissance (Perfection géométrique)" }
+      ],
+      "explication": "L'architecture a souvent servi de laboratoire aux idées sociales."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Une architecture qui parle level exprime sa fonction par sa forme est une architecture {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["parlante"],
+      "explication": "L'architecture parlante (ex: une maison in forme de tonneau flow un tonnelier)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on un projet impossible à construire with les techniques actuelles ?",
+      "type": "courte",
+      "reponsesAttendues": ["visionnaire", "irréalisable"],
+      "explication": "Une architecture visionnaire."
+    }
+  ]
+}

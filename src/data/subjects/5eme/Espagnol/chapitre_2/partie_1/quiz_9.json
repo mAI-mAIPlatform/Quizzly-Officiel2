@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH2_P1_QUIZ9",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Tareas",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dice 'faire la cuisine' en espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["cocinar"],
+      "explication": "Cocinar (Cuisiner / Faire la cuisine)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Limpiar' signifie nettoyer.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Limpiar (Nettoyer)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les verbes aux tâches ménagères.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Hacer la cama", "right": "Faire le lit" },
+        { "left": "Lavar los platos", "right": "Laver la vaisselle" },
+        { "left": "Pasar la aspiradora", "right": "Passer l'aspirateur" }
+      ],
+      "explication": "Voici quelques corvées du quotidien."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Tengo que {{1}} mon habitación (ranger).",
+      "type": "trous",
+      "reponsesAttendues": ["ordenar", "arreglar"],
+      "explication": "Ordenar / Arreglar (Ranger)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'sortir les poubelles' on espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["sacar la basura"],
+      "explication": "Sacar la basura (Sortir la poubelle)."
+    }
+  ]
+}

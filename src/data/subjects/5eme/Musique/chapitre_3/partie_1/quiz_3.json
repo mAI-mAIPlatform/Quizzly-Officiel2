@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH3_P1_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "La Polyphonie",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle grande invention musicale apparaît chez les moines dans la Cathédrale Notre-Dame de Paris au 12ème siècle ?",
+      "type": "qcm",
+      "options": ["L'invention de l'opéra théâtral", "La Polyphonie : chanter plusieurs mélodies différentes en même temps avec grâce et beauté (au lieu d'une seule voix plate)", "L'invention de la basse électrique"],
+      "reponse": 1,
+      "explication": "C'est l'École de Notre-Dame (avec les maîtres Léonin et Pérotin). C'est la naissance de la musique classique 'savante' occidentale telle qu'on l'imagine aujourd'hui (l'harmonie)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Aux débuts de la polyphonie dans les églises, les femmes étaient enfin autorisées à chanter les parties très aiguës ('soprano') avec les hommes.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Les femmes n'avaient toujours pas le droit de chanter à l'Eglise pour des raisons religieuses. Ce sont de très jeunes garçons (avant la mue) qui chantaient les voix aiguës."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la technique vocale à son explication.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Chant 'Monodique' (Une voix)", "right": "Tout le chœur chante la même note au même moment (comme au début du Moyen-Âge)" },
+        { "left": "Le Chant 'Polyphonique' (Plusieurs voix)", "right": "Séparation du chœur en plusieurs pupitres (Ténors, Basses...) chantant des mélodies entrelacées" },
+        { "left": "Le Canon (forme simple de polyphonie)", "right": "Commencer la même mélodie populaire mais l'un après l'autre avec un décalage ('Frère Jacques')" }
+      ],
+      "explication": "La musique devient très mathématique et architecturale, copiant la construction des immenses cathédrales gothiques."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de chanter sans le moindre instrument d'accompagnement (comme le faisaient les moines polyphonistes) s'appelle chanter a {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["cappella"],
+      "explication": "Chanter a cappella ('comme dans une chapelle', c'est-à-dire sans orgue ni orchestre pour les accompagner)."
+    },
+    {
+      "id": "q5",
+      "question": "Quel célèbre Italien, au 11ème siècle (Guido d'Arezzo), a inventé le fameux nom des notes (Ut, Ré, Mi, Fa, Sol, La, Si) que l'on utilise aujourd'hui, à partir d'un hymne religieux ?",
+      "type": "courte",
+      "reponsesAttendues": ["guido d'arezzo", "arezzo", "guido"],
+      "explication": "Guido d'Arezzo."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH2_P2_QUIZ4",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Cyber-sécurité Nationale",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel nouveau domaine fait partie de la défense nationale au 21ème siècle ?",
+      "type": "qcm",
+      "options": ["La conquête sous-terraine", "Le cyberespace (réseaux, internet)", "L'exploration des volcans"],
+      "reponse": 1,
+      "explication": "La cyber-défense protège les données et les infrastructures vitales (hôpitaux, électricité) des attaques informatiques."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Un 'hacker' malveillant peut attaquer un pays entier à distance depuis son ordinateur.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Les cyberattaques (comme le blocage de serveurs) sont considérées comme de vraies menaces par l'État."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les rôles de la cyber-défense à leurs missions.",
+      "type": "relier",
+      "pairs": [
+        { "left": "L'ANSSI", "right": "Agence nationale qui protège les systèmes informatiques de l'État" },
+        { "left": "Le Cyber-combat", "right": "Mission de l'armée pour neutraliser les menaces numériques" },
+        { "left": "Le Citoyen Numérique", "right": "Protéger ses propres mots de passe (hygiène informatique)" }
+      ],
+      "explication": "La sécurité numérique est l'affaire de tous."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de récupérer illégalement des informations secrètes d'une entreprise ou d'un État sur Internet s'appelle l'{{1}} (nom) industriel ou d'État.",
+      "type": "trous",
+      "reponsesAttendues": ["espionnage"],
+      "explication": "L'espionnage (cybersécurité)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le rançongiciel qui bloque l'ordinateur jusqu'à ce qu'on paie (en anglais ou français) ?",
+      "type": "courte",
+      "reponsesAttendues": ["ransomware", "un ransomware"],
+      "explication": "Un ransomware ou rançongiciel."
+    }
+  ]
+}

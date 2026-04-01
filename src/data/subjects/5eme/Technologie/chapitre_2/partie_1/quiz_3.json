@@ -1,0 +1,50 @@
+{
+  "id": "5eme_TECH_CH2_P1_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Stocker l'Énergie",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel système permet de stocker l'énergie électrique sous forme chimique ?",
+      "type": "qcm",
+      "options": ["Un transformateur", "Une batterie (accumulateur)", "Un pylône"],
+      "reponse": 1,
+      "explication": "Les accumulateurs stockent l'énergie pendant la charge et la redonnent pendant la décharge."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Un barrage stocke de l'énergie sous forme de hauteur d'eau (énergie potentielle).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est un excellent moyen de stocker de grandes quantités d'énergie."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la solution à son usage.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Ballon d'eau chaude", "right": "Stockage thermique" },
+        { "left": "Batterie lithium", "right": "Téléphones et PC" },
+        { "left": "Réservoir d'essence", "right": "Stockage chimique (fossile)" }
+      ],
+      "explication": "Le stockage permet d'utiliser l'énergie quand on en a besoin."
+    },
+    {
+      "id": "q4",
+      "question": "Un appareil qui ne peut pas être rechargé s'appelle une {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["pile"],
+      "explication": "Une pile est à usage unique."
+    },
+    {
+      "id": "q5",
+      "question": "Quel gaz, produit par électrolyse, peut servir de stock d'énergie ?",
+      "type": "courte",
+      "reponsesAttendues": ["hydrogène", "hydrogene"],
+      "explication": "L'hydrogène est un vecteur d'énergie prometteur."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH1_P2_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Was machen wir?",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dit 'écrire' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["schreiben"],
+      "explication": "Schreiben (Écrire)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Lesen' signifie écouter.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Lesen (Lire). Écouter se dit 'hören'."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les verbes aux actions de la classe.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Malen", "right": "Peindre / Dessiner" },
+        { "left": "Sprechen", "right": "Parler" },
+        { "left": "Hören", "right": "Écouter" }
+      ],
+      "explication": "Voici les verbes d'action courants in classe."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Wir {{1}} ein Buch (lire).",
+      "type": "trous",
+      "reponsesAttendues": ["lesen"],
+      "explication": "Lesen (Lire)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'dessiner' (au crayon) in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["zeichnen"],
+      "explication": "Zeichnen (Dessiner)."
+    }
+  ]
+}

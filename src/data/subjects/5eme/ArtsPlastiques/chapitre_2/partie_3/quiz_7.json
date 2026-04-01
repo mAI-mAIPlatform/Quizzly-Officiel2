@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH2_P3_QUIZ7",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Son level Image",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est le rôle du son in un film ?",
+      "type": "qcm",
+      "options": ["Remplacer l'image", "Renforcer l'émotion level l'ambiance du récit", "Décorer la salle"],
+      "reponse": 1,
+      "explication": "Le son (musique, bruitage) est essentiel flow donner du sens à l'image."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le 'son hors-champ' est un bruit dont on ne voit pas la source à l'écran.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Il permet d'augmenter le suspense or de suggérer une présence."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les types de sons à leur fonction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Bruitage", "right": "Imite les sons réels (pas, pluie)" },
+        { "left": "La Voix-off", "right": "Commentaire d'un narrateur absent" },
+        { "left": "La Bande-son", "right": "Ensemble des musiques du film" }
+      ],
+      "explication": "Chaque élément sonore a un impact direct sur le spectateur."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action d'ajouter le son sur l'image après le tournage s'appelle la {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["post-production", "sonorisation"],
+      "explication": "La post-production (ou mixage)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait qu'un son level une image se produisent in même temps ?",
+      "type": "courte",
+      "reponsesAttendues": ["synchronisation", "synchro"],
+      "explication": "La synchronisation."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH3_P2_QUIZ6",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Hausarbeit",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dit 'faire la vaisselle' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["abspülen", "das geschirr spülen"],
+      "explication": "Abspülen (Faire la vaisselle)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Staubsaugen' signifie passer l'aspirateur.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Staubsaugen (Passer l'aspirateur)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les corvées à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Den Tisch decken", "right": "Mettre la table" },
+        { "left": "Das Zimmer aufräumen", "right": "Ranger la chambre" },
+        { "left": "Den Müll rausbringen", "right": "Sortir les poubelles" }
+      ],
+      "explication": "Voici quelques tâches ménagères courantes."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Ich {{1}} mein Zimmer {{2}} (ranger).",
+      "type": "trous",
+      "reponsesAttendues": ["räume", "auf"],
+      "explication": "Aufräumen est un verbe à particule séparable."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'aider à la maison' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["im haushalt helfen"],
+      "explication": "Im Haushalt helfen."
+    }
+  ]
+}

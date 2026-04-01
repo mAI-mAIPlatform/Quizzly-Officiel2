@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH4_P1_QUIZ1",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_4",
+  "partie": "partie_1",
+  "titre": "Les Délégués",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est le rôle principal d'un délégué de classe au collège ?",
+      "type": "qcm",
+      "options": ["Donner des punitions à la place du professeur", "Représenter tous les élèves de sa classe lors du conseil de classe et faire le lien avec l'équipe éducative", "Gérer l'argent de la cantine"],
+      "reponse": 1,
+      "explication": "Le délégué est le porte-parole des élèves, garantissant le dialogue démocratique."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'élection des délégués de classe en début d'année se fait au suffrage universel direct avec bulletin secret et isoloir.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est un apprentissage concret des règles de la démocratie."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les acteurs de la classe à leur statut électoral.",
+      "type": "relier",
+      "pairs": [
+        { "left": "L'Électeur", "right": "Chaque élève de la classe qui glisse son bulletin dans l'urne" },
+        { "left": "Le Candidat", "right": "L'élève qui se présente en faisant campagne (avec un suppléant)" },
+        { "left": "Le Professeur principal", "right": "L'adulte qui organise l'élection mais ne vote pas" }
+      ],
+      "explication": "Tout le monde a un rôle défini lors de l'élection."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'élection des délégués nécessite qu'il y ait la {{1}} (nom), c'est-à-dire un nombre égal de garçons et de filles (un titulaire et un suppléant de sexe opposé).",
+      "type": "trous",
+      "reponsesAttendues": ["parité"],
+      "explication": "La parité."
+    },
+    {
+      "id": "q5",
+      "question": "L'élection d'un délégué de classe se fait généralement à la majorité (50% + 1 voix). À quel tour est-il élu si aucun candidat n'a eu assez au premier tour ?",
+      "type": "courte",
+      "reponsesAttendues": ["au deuxième tour", "deuxième tour", "second tour", "au second tour"],
+      "explication": "Au second tour (majorité relative)."
+    }
+  ]
+}

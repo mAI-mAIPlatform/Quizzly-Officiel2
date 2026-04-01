@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH4_P2_QUIZ1",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_4",
+  "partie": "partie_2",
+  "titre": "Les Recettes Publiques",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "D'où provient la majeure partie de l'argent de l'État ?",
+      "type": "qcm",
+      "options": [
+        "De la vente de pétrole en France",
+        "Des impôts et des taxes payés par les citoyens et les entreprises (Prélèvements obligatoires)",
+        "De dons faits par les autres pays"
+      ],
+      "reponse": 1,
+      "explication": "L'État n'a pas d'argent propre, il utilise l'argent de la collectivité pour l'intérêt général."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La TVA est une taxe 'indirecte' car on la paye sans s'en rendre compte au moment d'acheter un produit en magasin.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est la taxe qui rapporte le plus d'argent à l'État (plus que l'impôt sur le revenu)."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la recette à sa définition.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Impôt sur le Revenu", "right": "Payé par les ménages selon ce qu'ils gagnent chaque année" },
+        { "left": "Impôt sur les Sociétés", "right": "Payé par les entreprises sur leurs bénéfices" },
+        { "left": "Taxes sur le tabac/alcool", "right": "Taxes spéciales pour décourager la consommation de produits dangereux" }
+      ],
+      "explication": "L'État utilise la fiscalité pour financer ses actions et orienter les comportements."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le document qui prévoit chaque année l'ensemble des recettes et des dépenses de l'État s'appelle le {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["budget", "loi de finances"],
+      "explication": "Le budget est voté chaque année par les députés à l'Assemblée Nationale."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait pour l'État de vendre ses parts dans une entreprise (comme la Française des Jeux) pour gagner de l'argent ?",
+      "type": "courte",
+      "reponsesAttendues": ["la privatisation", "privatisation"],
+      "explication": "C'est la privatisation."
+    }
+  ]
+}

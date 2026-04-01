@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH1_P1_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Rythme et Tempo",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la définition du 'tempo' en musique ?",
+      "type": "qcm",
+      "options": ["Le volume sonore de la musique (fort ou faible)", "La vitesse d'exécution d'une œuvre musicale (la vitesse de la pulsation)", "Le nom du chanteur"],
+      "reponse": 1,
+      "explication": "Le tempo indique la vitesse : lent (Largo, Lento), modéré (Andante) ou rapide (Allegro, Presto)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Dans une partition, la 'pulsation' est le battement régulier (comme le cœur) sur lequel on tape du pied ou dans les mains.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "La pulsation est l'unité de mesure du temps en musique sur laquelle vient se greffer le rythme."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la longueur (durée) de la note à sa figure musicale.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Une Ronde", "right": "Vaut 4 temps ou pulsations (la note la plus longue)" },
+        { "left": "Une Blanche", "right": "Vaut 2 temps ou pulsations" },
+        { "left": "Une Noire", "right": "Vaut 1 temps ou pulsation (la base)" }
+      ],
+      "explication": "Les figures de notes (ronde, blanche, noire, croche) organisent la durée des sons du rythme."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'appareil mécanique ou électronique souvent posé sur un piano, qui fait 'tic-tac' pour donner la vitesse exacte de la pulsation et aider le musicien, s'appelle un {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["métronome"],
+      "explication": "Le métronome."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on un ensemble de notes jouées de manière inégale, rapide ou lente sur la pulsation régulière (ce qui donne le mouvement de l'air) ?",
+      "type": "courte",
+      "reponsesAttendues": ["le rythme", "un rythme"],
+      "explication": "Le rythme."
+    }
+  ]
+}

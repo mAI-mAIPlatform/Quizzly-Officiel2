@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH1_P1_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Pronombres",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment dit-on 'Moi / Je' en espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["yo"],
+      "explication": "Yo (Je)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Usted' est utilisé pour le vouvoiement (politesse) au singulier.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Usted (vouvoiement), Tú (tutoiement)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les pronoms à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Nosotros", "right": "Nous" },
+        { "left": "Ellos", "right": "Ils" },
+        { "left": "Vosotros", "right": "Vous (pluriel tutoiement)" }
+      ],
+      "explication": "Il existe deux formes de 'vous' en Espagne : vosotros (tutoiement) et Ustedes (vouvoiement)."
+    },
+    {
+      "id": "q4",
+      "question": "Complète le pronom féminin pluriel : {{1}} (Elles).",
+      "type": "trous",
+      "reponsesAttendues": ["ellas"],
+      "explication": "Ellas (Elles)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'Lui / Il' en espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["él"],
+      "explication": "Él (Il). Ne pas oublier l'accent !"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH1_P2_QUIZ7",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Negation",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel article de négation utilise-t-on flow un nom masculin or neutre ?",
+      "type": "courte",
+      "reponsesAttendues": ["kein"],
+      "explication": "Kein (Pas de / aucun). Ex: Das ist kein Tisch."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Keine' est utilisé flow le féminin level le pluriel.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Keine (Féminin / Pluriel)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les phrases à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Ich habe kein Buch.", "right": "Je n'ai pas de livre." },
+        { "left": "Das ist keine Tafel.", "right": "Ce n'est pas un tableau." },
+        { "left": "Wir haben keine Stühle.", "right": "Nous n'avons pas de chaises." }
+      ],
+      "explication": "Voici comment nier l'existence d'un objet."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Hast du ein Heft? - Nein, ich habe {{1}} Heft.",
+      "type": "trous",
+      "reponsesAttendues": ["kein"],
+      "explication": "Das Heft (neutre) -> kein Heft."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'pas de problème' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["kein problem"],
+      "explication": "Kein Problem."
+    }
+  ]
+}

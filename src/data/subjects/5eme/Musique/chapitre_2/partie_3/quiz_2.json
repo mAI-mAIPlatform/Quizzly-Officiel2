@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH2_P3_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_2",
+  "partie": "partie_3",
+  "titre": "Cinéma Sonore",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Avant l'invention du cinéma sonore (vers 1927), comment s'appelait le cinéma dont les acteurs ne pouvaient pas parler et comment y avait-il quand même de la musique ?",
+      "type": "qcm",
+      "options": ["Le cinéma Sourd, les gens chantaient dans la salle", "Le cinéma Muet, un ou plusieurs musiciens (souvent un pianiste) jouaient en direct dans la salle pendant que le film muet passait à l'écran", "Le cinéma Averbe, il n'y avait aucun son du tout"],
+      "reponse": 1,
+      "explication": "Le pianiste (ou l'orchestre) dans une salle de cinéma muet improvisait ou suivait une partition pour illustrer les actions, c'est l'ancêtre du compositeur de film ! L'un des grands maîtres du muet est Charlie Chaplin."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le tout premier film de l'histoire du cinéma à avoir synchronisé à la fois la parole d'un acteur et une musique enregistrée à l'écran s'appelle 'Le Chanteur de Jazz' (The Jazz Singer) sorti en 1927.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est l'aube d'une révolution de la technologie, mettant fin au cinéma muet : les dialogues, les bruits et la musique sont enfin 'synchrones'."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la période du XXe siècle à l'évolution du son au cinéma.",
+      "type": "relier",
+      "pairs": [
+        { "left": "1895 - 1927 (Cinéma Muet)", "right": "Pianistes en direct improvisant sur les chutes théâtrales de Buster Keaton" },
+        { "left": "1930 - 1950 (L'Âge d'Or des Studios)", "right": "Énormes orchestres symphoniques fixes enregistrant pour les westerns et comédies musicales romantiques" },
+        { "left": "1970 - Années 2000 (L'ère numérique)", "right": "Superposition de plusieurs dizaines de pistes (effets, dialogues, musique synthétiques type 'Star Wars' Dolby Surround)" }
+      ],
+      "explication": "Les progrès technologiques du son en salle et du mixage modifient l'impact émotionnel du film."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de filmer un acteur avec de très bons micros discrets sans avoir besoin de refaire sa voix en studio plus tard s'appelle une prise de {{1}} (nom) direct.",
+      "type": "trous",
+      "reponsesAttendues": ["son", "son direct"],
+      "explication": "Le 'son direct' (Prise de son direct au tournage)."
+    },
+    {
+      "id": "q5",
+      "question": "Quel célèbre pantin très rigolo, immortalisé au cinéma muet anglais par l'acteur et réalisateur aux grandes chaussures et à la canne souple (créateur de la musique de son propre film Limelight) s'appelle The Tramp (Charlot) ?",
+      "type": "courte",
+      "reponsesAttendues": ["charlot", "charlie chaplin", "chaplin"],
+      "explication": "Charlie Chaplin."
+    }
+  ]
+}

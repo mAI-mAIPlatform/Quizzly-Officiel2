@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH5_P1_QUIZ3",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_5",
+  "partie": "partie_1",
+  "titre": "La Justice Sociale",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la différence entre l'égalité et l'équité en matière de solidarité ?",
+      "type": "qcm",
+      "options": ["C'est la même chose", "L'égalité donne la même chose à tout le monde. L'équité donne plus à ceux qui ont le plus besoin pour qu'ils soient au même niveau que les autres.", "L'égalité donne de l'argent aux enfants et l'équité aux adultes"],
+      "reponse": 1,
+      "explication": "L'équité est le cœur de la justice sociale : compenser les désavantages de départ (par le soutien scolaire, l'aide financière ciblée)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les impôts sur le revenu en France sont progressifs (plus on gagne d'argent, plus on paie en pourcentage).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est un principe d'équité fiscale pour financer la solidarité sans pénaliser les pauvres."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les mesures de justice sociale à leur but.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Tiers-Payant (chez le médecin)", "right": "Permet de ne pas avancer d'argent pour la consultation (la Sécu paie directement)" },
+        { "left": "Le système de Bourses scolaires", "right": "Aide financière sur critères sociaux pour payer la restauration et le matériel des élèves" },
+        { "left": "L'Allocation Rentrée Scolaire (ARS)", "right": "Versée en août aux familles modestes pour acheter les fournitures" }
+      ],
+      "explication": "L'État agit pour que l'argent ne soit pas un frein à l'éducation et à la santé."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de donner les mêmes chances de réussite à l'école à tous les enfants (peu importe leurs parents) s'appelle l'{{1}} (nom) des chances.",
+      "type": "trous",
+      "reponsesAttendues": ["égalité"],
+      "explication": "L'égalité des chances."
+    },
+    {
+      "id": "q5",
+      "question": "Quel terme juridique désigne les écarts de richesse et de conditions de vie entre les habitants d'un pays ?",
+      "type": "courte",
+      "reponsesAttendues": ["les inégalités", "inégalité", "inégalités sociales"],
+      "explication": "Les inégalités (ou inégalités sociales/économiques)."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH3_P2_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Verbo Doler",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Conjugue : Me {{1}} la cabeza (avoir mal).",
+      "type": "trous",
+      "reponsesAttendues": ["duele"],
+      "explication": "Duele (singulier) car 'la cabeza' est au singulier. C'est la même structure que Gustar."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Me duelen' s'utilise flow un nom au pluriel.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Me duelen las piernas (J'ai mal aux jambes)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les pronoms aux formes de DOLER.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le duele", "right": "À lui / À elle" },
+        { "left": "Nos duele", "right": "À nous" },
+        { "left": "Os duele", "right": "À vous (pluriel)" }
+      ],
+      "explication": "Le verbe Doler utilise les pronoms compléments indirects."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : A Paco le {{1}} los pies (avoir mal).",
+      "type": "trous",
+      "reponsesAttendues": ["duelen"],
+      "explication": "Duelen (pluriel) car 'los pies' est pluriel. Attention à l'affaiblissement o -> ue."
+    },
+    {
+      "id": "q5",
+      "question": "Comment demande-t-on 'Où as-tu mal ?' on espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["¿dónde te duele?"],
+      "explication": "¿Dónde te duele?"
+    }
+  ]
+}

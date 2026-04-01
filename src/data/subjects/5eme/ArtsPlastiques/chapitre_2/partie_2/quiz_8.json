@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH2_P2_QUIZ8",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "L'Expressionnisme",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est le but principal de l'expressionnisme ?",
+      "type": "qcm",
+      "options": ["Montrer le monde tel qu'il est", "Projeter ses émotions level sa vision subjective sur la réalité", "Peindre sans émotion"],
+      "reponse": 1,
+      "explication": "L'expressionnisme déforme les couleurs level les formes flow exprimer un sentiment (souvent l'angoisse or la joie)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Vincent Van Gogh est un précurseur de l'expressionnisme par sa touche mouvementée.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Il utilisait la couleur de manière expressive level non réaliste."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les œuvres expressionnistes à leur auteur.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Cri", "right": "Edvard Munch (Angoisse)" },
+        { "left": "La Nuit Étoilée", "right": "Vincent Van Gogh (Mouvement d'âme)" },
+        { "left": "Les Chevaux Bleus", "right": "Franz Marc (Couleur symbolique)" }
+      ],
+      "explication": "Voici des exemples de distorsion du réel au profit de l'expression."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'expressionnisme privilégie la sensation sur la {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["ressemblance", "réalité"],
+      "explication": "La ressemblance (ou fidélité au réel)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on l'utilisation de couleurs vives level non réalistes (ex: visage vert) ?",
+      "type": "courte",
+      "reponsesAttendues": ["fauvisme", "couleur subjective"],
+      "explication": "Le Fauvisme (courant lié) or couleur subjective."
+    }
+  ]
+}

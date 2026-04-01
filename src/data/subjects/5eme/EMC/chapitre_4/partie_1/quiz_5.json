@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH4_P1_QUIZ5",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_4",
+  "partie": "partie_1",
+  "titre": "Récap Final Ch4 P1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qui organise l'élection des délégués de classe en début d'année ?",
+      "type": "qcm",
+      "options": ["Le Maire de la ville", "Le Professeur Principal", "L'inspecteur de l'Éducation Nationale"],
+      "reponse": 1,
+      "explication": "Le professeur principal organise les élections (6 semaines max après la rentrée) dans les règles démocratiques."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Un élève peut se présenter seul, sans suppléant, pour être élu délégué de classe.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Chaque candidat doit avoir un suppléant de sexe différent (pour respecter la parité dans les classes mixtes)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les engagements à leur sigle ou fonction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le CVC", "right": "Conseil de Vie Collégienne (propositions pour améliorer la vie au collège)" },
+        { "left": "Le FSE", "right": "Foyer Socio-Éducatif (clubs, jeux, activités calmes)" },
+        { "left": "L'UNSS", "right": "Union Nationale du Sport Scolaire (compétitions sportives de l'AS)" }
+      ],
+      "explication": "Chaque association soutient l'engagement citoyen et sportif étudiant."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'élève élu pour porter des projets de développement durable (jardins partagés, tri à la cantine) s'appelle un {{1}} (nom composé).",
+      "type": "trous",
+      "reponsesAttendues": ["éco-délégué"],
+      "explication": "Un éco-délégué."
+    },
+    {
+      "id": "q5",
+      "question": "Où l'élève met-il son bulletin secret lors du vote de délégué de classe ?",
+      "type": "courte",
+      "reponsesAttendues": ["l'urne", "dans l'urne", "une urne"],
+      "explication": "Dans l'urne transparente (comme pour les élections nationales)."
+    }
+  ]
+}

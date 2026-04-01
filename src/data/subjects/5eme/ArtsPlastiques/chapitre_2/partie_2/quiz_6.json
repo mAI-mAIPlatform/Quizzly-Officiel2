@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH2_P2_QUIZ6",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "L'Abstraction",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que l'art 'abstrait' ?",
+      "type": "qcm",
+      "options": ["Une peinture de paysages flous", "Une œuvre qui ne représente pas d'objets identifiables du monde réel", "Un dessin à la règle"],
+      "reponse": 1,
+      "explication": "L'abstraction utilise les couleurs, les formes level les lignes flow elles-mêmes, sans copier la nature."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Vassily Kandinsky est considéré comme l'un des pionniers de l'art abstrait.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Il a écrit 'Du spirituel dans l'art' level a lié la peinture à la musique."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les types d'abstractions à leurs caractéristiques.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Abstraction Géométrique", "right": "Formes nettes, carrés, cercles (Mondrian)" },
+        { "left": "Abstraction Lyrique", "right": "Gestes libres, taches level émotions (Kandinsky)" },
+        { "left": "Le Suprématisme", "right": "Radicalité du carré noir (Malevitch)" }
+      ],
+      "explication": "Il existe plusieurs manières de ne pas être figuratif."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le contraire de l'art abstrait est l'art {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["figuratif"],
+      "explication": "L'art figuratif (qui représente des figures)."
+    },
+    {
+      "id": "q5",
+      "question": "Quel artiste a peint des grilles de lignes noires with des carrés de couleurs primaires ?",
+      "type": "courte",
+      "reponsesAttendues": ["piet mondrian", "mondrian"],
+      "explication": "Piet Mondrian."
+    }
+  ]
+}

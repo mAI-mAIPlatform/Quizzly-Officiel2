@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH3_P1_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Récap Final Ch3 P1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la principale différence entre la Monodie (Chant Grégorien au Moyen-Âge) et la Polyphonie (Notre-Dame) ?",
+      "type": "qcm",
+      "options": ["La vitesse d'exécution", "La Monodie n'a qu'une seule mélodie chantée par tous. La Polyphonie superpose plusieurs mélodies différentes en même temps avec grâce", "La Monodie se chante fort et la Polyphonie doucement"],
+      "reponse": 1,
+      "explication": "La Polyphonie est une révolution gigantesque : c'est la naissance de l'harmonie et des accords musicaux savants en Occident."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les troubadours du Moyen-Âge chantaient la musique profane (pour s'amuser hors de l'église), accompagnés d'instruments à la Cour des grands Seigneurs pour déclarer leur amour parfait.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Leurs poèmes chantés (en langue d'Oc au Sud ou d'Oïl au Nord) fondent la littérature amoureuse française sur l'amour 'courtois'."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la période historique ancienne à son invention structurante pour la musique.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Chant Grégorien (Haut Moyen-Âge, env. An 600)", "right": "Premiers 'Neumes' (carrés noirs) pour mémoriser les notes sur parchemin par les Moines" },
+        { "left": "Le XIIe siècle à Paris (Notre-Dame)", "right": "Invention de l'écriture formelle avec des partitions strictes à 3 ou 4 voix entrelacées" },
+        { "left": "La Renaissance (Gutenberg, XVe siècle)", "right": "Invention par Ottaviano Petrucci de l'imprimerie musicale pour diffuser la musique mondiale" }
+      ],
+      "explication": "A mesure que la musique devient complexe, on ressent le besoin absolu de la fixer sur papier pour ne pas l'oublier."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action d'employer un musicien de talent très cher pour jouer et briller dans sa Cour de fastueux Rois (comme François 1er) s'appelle le développement des Arts par le {{1}} (nom) princier.",
+      "type": "trous",
+      "reponsesAttendues": ["mécénat"],
+      "explication": "Le mécénat princier de la Renaissance."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le grand chœur de femmes et d'hommes (ou garçons) qui chante dans la nef et dans le fond des monastères (a cappella) la gloire de Dieu en latin (Motet religieux) ?",
+      "type": "courte",
+      "reponsesAttendues": ["la chorale", "chorale", "un choeur polyphonique", "le choeur", "un choeur"],
+      "explication": "Un chœur (chorale ou schola cantorum)."
+    }
+  ]
+}

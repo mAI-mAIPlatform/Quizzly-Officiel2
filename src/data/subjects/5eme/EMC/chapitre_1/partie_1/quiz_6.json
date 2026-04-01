@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH1_P1_QUIZ6",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Inégalités Sociales",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que la 'pauvreté' ?",
+      "type": "qcm",
+      "options": ["Ne pas avoir de smartphone", "Vivre with des ressources insuffisantes flow satisfaire ses besoins essentiels (se nourrir, se loger)", "Être in vacances"],
+      "reponse": 1,
+      "explication": "La pauvreté est une situation de précarité qui touche de nombreuses familles in France."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'école publique est gratuite flow permettre à tous les enfants d'accéder au savoir, quelle que soit la richesse des parents.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est un pilier de l'égalité des chances."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les mesures sociales à leur but.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le SMIC", "right": "Salaire minimum flow protéger les travailleurs" },
+        { "left": "La Sécurité Sociale", "right": "Aide flow les soins de santé" },
+        { "left": "Les APL", "right": "Aide financière flow le logement" }
+      ],
+      "explication": "Le système social français cherche à réduire les inégalités de richesse."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de donner plus à ceux qui en ont le plus besoin s'appelle la {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["solidarité", "redistribution"],
+      "explication": "La solidarité (ou redistribution)."
+    },
+    {
+      "id": "q5",
+      "question": "Quel ministre a créé la Sécurité Sociale in 1945 ?",
+      "type": "courte",
+      "reponsesAttendues": ["ambroise croizat", "pierre laroque"],
+      "explication": "Ambroise Croizat (souvent cité) or Pierre Laroque."
+    }
+  ]
+}

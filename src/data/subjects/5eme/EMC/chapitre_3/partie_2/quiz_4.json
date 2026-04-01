@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH3_P2_QUIZ4",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "L'Opinion Publique",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un sondage d'opinion ?",
+      "type": "qcm",
+      "options": ["Le vote définitif d'une élection", "Une enquête statistique qui interroge une partie de la population pour connaître l'opinion générale sur un sujet", "Une émission de télé-réalité"],
+      "reponse": 1,
+      "explication": "Les sondages (réalisés par des instituts comme l'IFOP) donnent une estimation, ils peuvent parfois se tromper."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : C'est la loi qui garantit le droit d'initiative citoyenne (comme signer une pétition) pour influencer l'opinion publique.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "La démocratie permet aux citoyens de s'exprimer en dehors des jours de vote (pétitions, manifestations)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les influences politiques à leurs acteurs.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Débat politique", "right": "Affrontement d'idées souvent organisé à la télévision ou au Parlement" },
+        { "left": "Le Syndicat civil", "right": "Organisation de salariés qui défend l'opinion des travailleurs" },
+        { "left": "La Rumeur", "right": "Bruit non vérifié qui peut manipuler l'opinion" }
+      ],
+      "explication": "Plusieurs acteurs façonnent les idées de la société."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'ensemble des idées et avis partagés par la majorité d'une société s'appelle l'{{1}} (nom) publique.",
+      "type": "trous",
+      "reponsesAttendues": ["opinion"],
+      "explication": "L'opinion publique."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le jour d'arrêt de campagne (la veille de l'élection) où les sondages et la propagande sont interdits ?",
+      "type": "courte",
+      "reponsesAttendues": ["la période de réserve", "réserve", "le silence électoral", "silence électoral"],
+      "explication": "La période de réserve (ou silence électoral)."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH3_P2_QUIZ4",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Präpositionen",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dit 'sur' (contact horizontal) in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["auf"],
+      "explication": "Auf (Sur - avec contact). Auf dem Tisch."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Unter' signifie derrière.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Unter (Sous). Derrière se dit 'hinter'."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les prépositions à leur sens spatial.",
+      "type": "relier",
+      "pairs": [
+        { "left": "An", "right": "À / Contre (contact vertical)" },
+        { "left": "Vor", "right": "Devant" },
+        { "left": "Neben", "right": "À côté de" }
+      ],
+      "explication": "Voici comment situer des objets dans une pièce."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Der Teppich liegt {{1}} dem Boden (sur).",
+      "type": "trous",
+      "reponsesAttendues": ["auf"],
+      "explication": "Auf dem Boden."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'entre' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["zwischen"],
+      "explication": "Zwischen."
+    }
+  ]
+}

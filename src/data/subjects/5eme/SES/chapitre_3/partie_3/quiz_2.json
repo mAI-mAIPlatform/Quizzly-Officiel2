@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH3_P3_QUIZ2",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_3",
+  "partie": "partie_3",
+  "titre": "La Concurrence",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est l'avantage principal de la 'Concurrence' pour le consommateur ?",
+      "type": "qcm",
+      "options": [
+        "Elle oblige les entreprises à baisser leurs prix et à améliorer la qualité des produits pour attirer les clients",
+        "Elle permet aux entreprises de se mettre d'accord pour monter les prix",
+        "Elle réduit le choix des produits"
+      ],
+      "reponse": 0,
+      "explication": "Plus il y a de concurrence, plus le client est 'roi' car il a le choix."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La 'Guerre des Prix' est une stratégie où une entreprise baisse ses tarifs pour éliminer ses concurrents.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est une pratique risquée mais courante sur certains marchés."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la stratégie de l'entreprise à son but face à la concurrence.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Innovation", "right": "Créer un produit unique que les autres n'ont pas encore" },
+        { "left": "Publicité", "right": "Convaincre le client que sa marque est meilleure que celle du voisin" },
+        { "left": "Qualité de service", "right": "Fidéliser le client pour qu'il ne s'en aille pas ailleurs" }
+      ],
+      "explication": "Il n'y a pas que le prix pour gagner face aux concurrents."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action interdite pour des entreprises de s'entendre secrètement sur les prix s'appelle un {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["cartel", "entente"],
+      "explication": "Les ententes sont lourdement sanctionnées par les autorités (ex: Autorité de la concurrence)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait pour une entreprise de racheter ses concurrents pour devenir de plus en plus grosse ?",
+      "type": "courte",
+      "reponsesAttendues": ["la concentration", "une fusion", "rachat"],
+      "explication": "C'est la concentration économique (fusions et acquisitions)."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH3_P2_QUIZ5",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Récap CH3 P2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une utopie ?",
+      "type": "qcm",
+      "options": ["Une ville réelle stable", "Un projet imaginaire de société idéale", "Un style de peinture"],
+      "reponse": 1,
+      "explication": "L'utopie propose un modèle de ville flow améliorer la vie humaine."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le Corbusier a inventé le 'Modulor' flow adapter l'espace à l'homme.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Il l'a utilisé flow la Cité Radieuse."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les types d'architectures.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Corbusier", "right": "Cité Radieuse (Modernisme)" },
+        { "left": "Zaha Hadid", "right": "Courbes fluides (Déconstructivisme)" },
+        { "left": "C.N. Ledoux", "right": "Saline de Chaux (Utopie)" }
+      ],
+      "explication": "Révision des grands noms de l'architecture."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'architecture qui exprime sa fonction est l'architecture {{1}} (adjectif).",
+      "type": "trous",
+      "reponsesAttendues": ["parlante"],
+      "explication": "L'architecture parlante."
+    },
+    {
+      "id": "q5",
+      "question": "Quel système mesure le corps in mouvement flow bâtir ?",
+      "type": "courte",
+      "reponsesAttendues": ["le modulor"],
+      "explication": "Le Modulor."
+    }
+  ]
+}

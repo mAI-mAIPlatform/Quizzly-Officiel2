@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH3_P1_QUIZ3",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Bénéfice et Profit",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment calcule-t-on le 'Bénéfice' d'une entreprise ?",
+      "type": "qcm",
+      "options": [
+        "On additionne tout l'argent reçu",
+        "On prend le Chiffre d'Affaires (ventes) et on retire toutes les Charges (salaires, matières premières, impôts)",
+        "On demande à la banque"
+      ],
+      "reponse": 1,
+      "explication": "Le bénéfice est ce qu'il reste à l'entreprise une fois qu'elle a tout payé. Si le résultat est négatif, c'est une 'Perte'."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le 'Chiffre d'Affaires' est la même chose que le 'Bénéfice'.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Le Chiffre d'Affaires est le montant total des ventes. Le bénéfice est ce qu'il reste après déduction des coûts."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la somme d'argent à son utilisation par l'entreprise.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Bénéfice réinvesti", "right": "Acheter de nouvelles machines plus performantes pour le futur" },
+        { "left": "Dividendes", "right": "Partie du bénéfice reversée aux actionnaires pour les remercier de leur investissement" },
+        { "left": "Impôt sur les sociétés", "right": "Argent versé à l'État pour financer les services publics" }
+      ],
+      "explication": "Le bénéfice a plusieurs destinations possibles."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Quand une entreprise ne gagne pas assez d'argent pour payer ses dettes, elle risque la {{1}} (fin de l'activité).",
+      "type": "trous",
+      "reponsesAttendues": ["faillite", "liquidation", "banqueroute"],
+      "explication": "La faillite entraîne souvent la fermeture de l'entreprise et la perte des emplois."
+    },
+    {
+      "id": "q5",
+      "question": "Quel est le moteur principal qui pousse un entrepreneur à prendre des risques et à innover ?",
+      "type": "courte",
+      "reponsesAttendues": ["le profit", "profit", "le benefice", "benefice"],
+      "explication": "C'est la recherche du profit (lucrativité)."
+    }
+  ]
+}

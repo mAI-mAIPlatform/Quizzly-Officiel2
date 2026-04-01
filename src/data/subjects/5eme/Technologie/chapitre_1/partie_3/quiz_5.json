@@ -1,0 +1,54 @@
+{
+  "id": "5eme_TECH_CH1_P3_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Technologie",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Récap Final Ch1 P3",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "En urbanisme, comment appelle-t-on une ville qui utilise le numérique pour mieux gérer ses ressources (énergie, trafic, déchets) ?",
+      "type": "qcm",
+      "options": [
+        "Une Lazy City",
+        "Une Smart City (Ville intelligente)",
+        "Une Robot City"
+      ],
+      "reponse": 1,
+      "explication": "La Smart City utilise des capteurs et des données pour être plus efficace et durable."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le style Haussmannien (grands boulevards parisiens) a été conçu pour assainir et moderniser la ville au 19ème siècle.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est un exemple majeur d'urbanisme planifié."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la règle à son but urbanistique.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Coefficient de Biotope", "right": "Obliger le maintien d'espaces verts sur le terrain" },
+        { "left": "Gabarit", "right": "Limiter la hauteur des façades pour garder du soleil dans la rue" },
+        { "left": "Servitude", "right": "Laisser passer un câble électrique ou un chemin sur son terrain" }
+      ],
+      "explication": "Le PLU contient toutes ces règles pour l'équilibre de la commune."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'utilisation d'ordinateurs pour créer et tester des bâtiments s'appelle la Conception Assistée par {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["Ordinateur"],
+      "explication": "CAO."
+    },
+    {
+      "id": "q5",
+      "question": "Quel nom donne-t-on au métier de celui qui dessine les plans et conçoit l'esthétique d'un bâtiment ?",
+      "type": "courte",
+      "reponsesAttendues": ["l'architecte", "architecte"],
+      "explication": "C'est l'architecte."
+    }
+  ]
+}

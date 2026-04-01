@@ -1,0 +1,54 @@
+{
+  "id": "5eme_MUSIQUE_CH5_P2_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_5",
+  "partie": "partie_2",
+  "titre": "La Notion de Rythme",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quelle est la différence entre la Pulsation et le Rythme ?",
+      "type": "qcm",
+      "options": [
+        "Il n'y en a aucune, c'est la même chose",
+        "La pulsation est régulière et constante, alors que le rythme est l'organisation des durées (longues ou courtes) par-dessus cette pulsation",
+        "Le rythme est seulement pour la batterie"
+      ],
+      "reponse": 1,
+      "explication": "Le rythme 'habille' la pulsation avec des notes de différentes longueurs."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Une note 'longue' dure plus longtemps qu'une pulsation.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Par exemple, une Blanche dure deux pulsations."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la figure de note à sa durée (en nombre de pulsations dans une mesure à 4 temps).",
+      "type": "relier",
+      "pairs": [
+        { "left": "Noire", "right": "1 pulsation" },
+        { "left": "Blanche", "right": "2 pulsations" },
+        { "left": "Ronde", "right": "4 pulsations" }
+      ],
+      "explication": "Chaque figure de note représente une durée précise par rapport à la pulsation."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Deux {{1}} durent le même temps qu'une seule noire.",
+      "type": "trous",
+      "reponsesAttendues": ["croches"],
+      "explication": "La croche vaut une demi-pulsation, donc deux croches valent une noire (1 pulsation)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le silence qui dure le même temps qu'une noire (1 pulsation) ?",
+      "type": "courte",
+      "reponsesAttendues": ["le soupir", "soupir"],
+      "explication": "En musique, le silence fait aussi partie du rythme !"
+    }
+  ]
+}

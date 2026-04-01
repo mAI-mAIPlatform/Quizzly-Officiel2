@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH2_P1_QUIZ1",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "La Consommation",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que la 'Consommation' au sens économique ?",
+      "type": "qcm",
+      "options": [
+        "Travailler pour gagner de l'argent",
+        "L'utilisation d'un bien ou d'un service pour satisfaire un besoin ou un désir",
+        "Économiser son argent à la banque"
+      ],
+      "reponse": 1,
+      "explication": "Consommer, c'est l'acte final de l'activité économique pour un ménage."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La 'Consommation Finale' désigne les produits achetés par les ménages pour leur propre usage.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "À l'inverse, une entreprise fait de la 'Consommation Intermédiaire' pour produire d'autres objets."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'exemple de consommation à sa nature.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Manger une pomme", "right": "Consommation d'un bien non durable (détruit immédiatement)" },
+        { "left": "Utiliser un lave-linge", "right": "Consommation d'un bien durable (utilisé plusieurs fois)" },
+        { "left": "Prendre le bus", "right": "Consommation d'un service (immatériel)" }
+      ],
+      "explication": "On consomme de différentes manières selon le type de produit."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de consommer ce que l'on a produit soi-même (ex: légumes du jardin) s'appelle l'{{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["autoconsommation"],
+      "explication": "L'autoconsommation ne passe pas par un achat sur le marché."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait d'acheter des produits uniquement pour montrer sa richesse aux autres (consommation de luxe) ?",
+      "type": "courte",
+      "reponsesAttendues": ["consommation ostentatoire", "ostentation"],
+      "explication": "C'est la consommation ostentatoire (pour paraître)."
+    }
+  ]
+}

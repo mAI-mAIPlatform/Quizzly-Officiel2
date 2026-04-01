@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH2_P1_QUIZ5",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Récap CH2 P1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un empâtement ?",
+      "type": "qcm",
+      "options": ["Une fine couche transparente", "Une couche épaisse de peinture in relief", "Un type de papier"],
+      "reponse": 1,
+      "explication": "L'empâtement donne de la matière level du relief."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le support est la partie sur laquelle l'artiste intervient.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Papier, toile, mur, etc."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les instruments artistiques.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Couteau", "right": "Travail de la pâte" },
+        { "left": "La Palette", "right": "Mélange des couleurs" },
+        { "left": "Le Pinceau", "right": "Application précise" }
+      ],
+      "explication": "Révision des outils de l'artiste."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de coller des matières sur un support est le {{1}} (technique).",
+      "type": "trous",
+      "reponsesAttendues": ["collage"],
+      "explication": "Le collage."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on une fine couche de peinture transparente ?",
+      "type": "courte",
+      "reponsesAttendues": ["un glacis"],
+      "explication": "Le glacis."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "5eme_MUSIQUE_CH5_P2_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_5",
+  "partie": "partie_2",
+  "titre": "Pulsation et Tempo",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que la 'Pulsation' en musique ?",
+      "type": "qcm",
+      "options": [
+        "Un instrument à cordes",
+        "Le battement régulier et constant (comme les battements du cœur) qui sert de repère à tous les musiciens pour jouer ensemble",
+        "Une note très aiguë"
+      ],
+      "reponse": 1,
+      "explication": "La pulsation est le battement que l'on tape instinctivement avec le pied en écoutant une musique."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le 'Tempo' désigne la vitesse à laquelle se succèdent les pulsations.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Un tempo lent signifie que les pulsations sont espacées, un tempo rapide signifie qu'elles sont très proches."
+    },
+    {
+      "id": "q3",
+      "question": "Associe le terme de tempo italien classique à sa traduction française.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Adagio", "right": "Lentement" },
+        { "left": "Andante", "right": "Allant (vitesse d'un pas normal)" },
+        { "left": "Allegro", "right": "Gai, rapide" }
+      ],
+      "explication": "On utilise historiquement l'italien pour les indications de tempo dans la musique classique."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'appareil qui donne la pulsation de manière précise (mécanique ou électronique) s'appelle un {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["métronome", "metronome"],
+      "explication": "Le métronome permet de travailler le rythme de manière rigoureuse."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on l'accélération progressive du tempo dans un morceau de musique ?",
+      "type": "courte",
+      "reponsesAttendues": ["accelerando", "un accelerando"],
+      "explication": "Accelerando signifie 'en accélérant' en italien."
+    }
+  ]
+}

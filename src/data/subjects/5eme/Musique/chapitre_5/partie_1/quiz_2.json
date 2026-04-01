@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH5_P1_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_5",
+  "partie": "partie_1",
+  "titre": "La Hauteur (Grave/Aigu)",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Comment appelle-t-on en musique la différence précise entre un son 'Grave' (comme une grosse caisse ou un Ours) et un son 'Aigu' (comme une petite flûte ou un oiseau) ?",
+      "type": "qcm",
+      "options": ["Le Volume", "La Hauteur du son (Lié à sa Fréquence)", "La Longueur du son"],
+      "reponse": 1,
+      "explication": "Plus la Fréquence du son est lente (pas beaucoup de vibrations par seconde), plus c'est Grave. Plus la fréquence s'accélère, plus le son monte vers l'Aigu."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Tous les humains de la Terre se sont mis d'accord scientifiquement pour accorder leurs instruments sur une note universelle de référence appelée le 'La 440' (La note LA qui vibre à 440 Hertz).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le chef d'orchestre ou le fameux 'Diapason' (petite fourche métallique qui donne le son quand on la tape) utilisent ce 'La 440 Hz' standard depuis les années 1930 pour que les violons du monde entier jouent tous le même LA à peu près juste."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la longueur ou l'épaisseur d'un objet vibrant (corde, tuyau) au son qu'il va produire.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Une corde très Longue, Souple et Épaisse (ex: le Violoncelle)", "right": "Produira toujours un son GRAVE, car la corde aura du mal à vibrer rapidement à cause de son poids" },
+        { "left": "Une corde très Courte, Fine et Tendue très fort (ex: le Violon aigu)", "right": "Produira toujours un son incroyablement AIGU (ça bouge très vite) et criard" },
+        { "left": "Le Tuyau d'un Grand Orgue d'église de 10 mètres de long", "right": "La colonne d'air y est énorme, l'air va mettre beaucoup de temps à vibrer = Son extrêmement PROFOND ou GRAVE ténébreux" }
+      ],
+      "explication": "C'est la loi mathématique absolue de l'acoustique et de la fabrication (lutherie) de chaque instrument."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de chanter en se trompant de hauteur de note (décalé à côté de la fréquence attendue) s'appelle chanter notoirement '{{1}}' (adjectif).",
+      "type": "trous",
+      "reponsesAttendues": ["faux", "fausse"],
+      "explication": "Chanter faux (on 'déraille'). À l'inverse, on chante 'juste'."
+    },
+    {
+      "id": "q5",
+      "question": "Comment s'appelle l'ordre défini des fameuses 7 syllabes latines (inventées par le moine Guido d'Arezzo au Moyen-Âge) utilisées pour nommer la 'Hauteur' des sons musicaux en France (du plus grave au plus aigu) ?",
+      "type": "courte",
+      "reponsesAttendues": ["do ré mi fa sol la si", "do re mi fa sol la si", "la gamme", "une gamme"],
+      "explication": "La Gamme ou l'Échelle musicale (Do, Ré, Mi, Fa, Sol, La, Si)."
+    }
+  ]
+}

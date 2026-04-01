@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH1_P3_QUIZ3",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Revenus de Transfert",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'un 'Revenu de Transfert' (ou revenu social) ?",
+      "type": "qcm",
+      "options": [
+        "Un transfert d'argent sur un compte par erreur",
+        "Une somme versée par l'État ou la Sécurité Sociale pour protéger les ménages contre certains risques (maladie, chômage, vieillesse)",
+        "L'argent de poche donné par les parents"
+      ],
+      "reponse": 1,
+      "explication": "Ces revenus servent à réduire les inégalités et à aider ceux qui ne peuvent pas travailler."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les Allocations Familiales sont des revenus de transfert versés pour aider les familles avec des enfants.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Elles font partie de la politique sociale de l'État."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la situation au revenu social correspondant.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Perte d'emploi", "right": "Allocations Chômage" },
+        { "left": "Départ à la retraite", "right": "Pension de retraite" },
+        { "left": "Invalidité ou handicap", "right": "Prestations sociales d'aide au handicap" }
+      ],
+      "explication": "Le système de protection sociale est le 'filet de sécurité' de l'économie."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'argent utilisé pour financer ces aides provient des impôts et des {{1}} sociales.",
+      "type": "trous",
+      "reponsesAttendues": ["cotisations"],
+      "explication": "C'est un système de solidarité entre les citoyens."
+    },
+    {
+      "id": "q5",
+      "question": "Quel nom donne-t-on au mécanisme par lequel l'État prend de l'argent aux plus riches pour le redonner sous forme d'aides aux plus pauvres ou en difficulté ?",
+      "type": "courte",
+      "reponsesAttendues": ["la redistribution", "redistribution"],
+      "explication": "C'est la redistribution des richesses."
+    }
+  ]
+}

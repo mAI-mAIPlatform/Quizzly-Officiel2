@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH1_P2_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Métissage Musical",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que le 'métissage' en musique ?",
+      "type": "qcm",
+      "options": ["Jouer d'un seul instrument", "Le mélange de styles, d'instruments ou d'influences provenant de cultures différentes", "Acheter un instrument d'occasion"],
+      "reponse": 1,
+      "explication": "Le métissage musical (comme le raï, le jazz-rock, ou la world music) crée de nouvelles sonorités en fusionnant des musiques du monde entier."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le Jazz est né du métissage entre la musique des esclaves africains (blues, worksongs) et la culture européenne (cuivres de fanfares) en Amérique.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "À la Nouvelle-Orléans au début du 20ème siècle, ce mélange a donné naissance à la musique la plus influente du monde moderne."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'instrument typique au pays ou continent d'où il provient souvent dans le métissage.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Djembé (percussion)", "right": "L'Afrique de l'Ouest" },
+        { "left": "Le Sitar (instrument à cordes pincées)", "right": "L'Inde (Musique classique indienne)" },
+        { "left": "Le Bandoléon (petit accordéon)", "right": "L'Argentine (le Tango)" }
+      ],
+      "explication": "Les artistes occidentaux adorent intégrer ces instruments traditionnels dans le rock ou la pop pour créer du métissage."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de prendre un passage musical déjà enregistré et de l'utiliser en boucle dans une nouvelle chanson s'appelle le {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["sample", "sampling", "échantillonnage"],
+      "explication": "Le sampling (en hip-hop et en musique électronique)."
+    },
+    {
+      "id": "q5",
+      "question": "Quelle célèbre chanteuse colombienne, symbole du métissage mondial avec sa chanson de la Coupe du Monde 'Waka Waka', mélange la pop latino et les rythmes africains ?",
+      "type": "courte",
+      "reponsesAttendues": ["shakira", "shakira isabel", "shakira ripoll"],
+      "explication": "Shakira."
+    }
+  ]
+}

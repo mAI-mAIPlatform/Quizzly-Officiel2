@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH4_P2_QUIZ5",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_4",
+  "partie": "partie_2",
+  "titre": "Récap Final Ch4 P2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Si l'État décide de construire une nouvelle école, c'est une dépense de quel type ?",
+      "type": "qcm",
+      "options": [
+        "Dépense de fonctionnement (courante)",
+        "Dépense d'investissement (préparer l'avenir)",
+        "Un gaspillage inutile"
+      ],
+      "reponse": 1,
+      "explication": "Construire un bâtiment est un investissement public."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le déficit est la même chose que la dette.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Le déficit est le manque d'argent sur UN an. La dette est le total de tous les manques accumulés depuis longtemps."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la notion budgétaire à sa définition.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Recettes fiscales", "right": "Argent provenant des impôts et taxes" },
+        { "left": "Charge de la dette", "right": "Paiement des intérêts sur l'argent emprunté" },
+        { "left": "Excédent", "right": "Situation rare où l'État gagne plus qu'il ne dépense" }
+      ],
+      "explication": "La gestion du budget est un exercice d'équilibre difficile."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'impôt payé au moment de consommer un produit s'appelle la {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["TVA"],
+      "explication": "La TVA est incluse dans le prix affiché en magasin."
+    },
+    {
+      "id": "q5",
+      "question": "Quelle grande institution internationale (à Washington) aide parfois les pays qui ont trop de dettes et ne peuvent plus rembourser ?",
+      "type": "courte",
+      "reponsesAttendues": ["le FMI", "FMI"],
+      "explication": "C'est le FMI (Fonds Monétaire International)."
+    }
+  ]
+}

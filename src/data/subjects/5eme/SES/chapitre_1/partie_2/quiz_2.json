@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH1_P2_QUIZ2",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Le Facteur Capital",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que le 'Capital Physique' (ou technique) d'une entreprise ?",
+      "type": "qcm",
+      "options": [
+        "L'argent que le patron a dans son portefeuille",
+        "L'ensemble des moyens de production durables (machines, ordinateurs, bâtiments, camions) utilisés pendant plus d'un an",
+        "Les ressources naturelles gratuites"
+      ],
+      "reponse": 1,
+      "explication": "Le capital physique permet d'aider le travailleur à produire plus et mieux."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'électricité utilisée pour faire tourner une machine est un élément du Capital Fixe.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "L'électricité est consommée immédiatement (Capital Circulant). Le Capital Fixe, c'est la machine elle-même qui dure longtemps."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'élément de production à sa catégorie de capital.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Une Moissonneuse-batteuse", "right": "Capital Fixe (outil durable)" },
+        { "left": "Le gasoil pour le tracteur", "right": "Consommation Intermédiaire (détruit pendant la production)" },
+        { "left": "Le bâtiment de l'usine", "right": "Capital Fixe (infrastructure)" }
+      ],
+      "explication": "L'entreprise doit investir régulièrement pour renouveler son capital fixe."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action pour une entreprise d'acheter de nouvelles machines pour se moderniser s'appelle un {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["investissement"],
+      "explication": "L'investissement est le moteur de la croissance future."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on l'usure naturelle des machines avec le temps, qui oblige l'entreprise à mettre de l'argent de côté pour les remplacer ?",
+      "type": "courte",
+      "reponsesAttendues": ["l'amortissement", "amortissement"],
+      "explication": "C'est l'amortissement comptable."
+    }
+  ]
+}

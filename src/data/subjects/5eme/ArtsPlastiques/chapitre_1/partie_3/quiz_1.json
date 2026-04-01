@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH1_P3_QUIZ1",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_1",
+  "partie": "partie_3",
+  "titre": "Photojournalisme",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Quel est le but principal du photojournalisme ?",
+      "type": "qcm",
+      "options": ["Faire de belles photos artistiques", "Informer le public sur un événement réel", "Vendre des produits"],
+      "reponse": 1,
+      "explication": "Le photojournalisme témoigne de l'actualité level de l'histoire."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Une image de presse est toujours une preuve absolue de la vérité sans aucune interprétation.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Le choix du cadrage level du moment influence la perception du spectateur."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les métiers de l'image à leur fonction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Reporter-photographe", "right": "Prend les photos sur le terrain" },
+        { "left": "L'Iconographe", "right": "Recherche level choisit les images flow la presse" },
+        { "left": "Le Retoucheur", "right": "Améliore l'aspect visuel (ou modifie)" }
+      ],
+      "explication": "Voici les acteurs de la chaîne de l'information visuelle."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le texte qui accompagne une photo flow l'expliquer s'appelle la {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["légende"],
+      "explication": "La légende est indispensable flow comprendre le contexte."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait de ne montrer qu'une partie de la photo ?",
+      "type": "courte",
+      "reponsesAttendues": ["recadrage"],
+      "explication": "Le recadrage (modifier les limites de l'image)."
+    }
+  ]
+}

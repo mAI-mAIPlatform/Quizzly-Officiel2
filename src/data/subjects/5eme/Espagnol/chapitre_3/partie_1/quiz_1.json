@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ESP_CH3_P1_QUIZ1",
+  "classe": "5eme",
+  "matiere": "Espagnol",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Frutas y Verduras",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dice 'la pomme' en espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["la manzana"],
+      "explication": "La manzana (La pomme)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'La zanahoria' est la pomme de terre.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "'La zanahoria' est la carotte. La pomme de terre se dit 'la patata' (Espagne) or 'la papa' (Amérique latine)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les aliments à leur catégorie.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Lechuga / Tomate", "right": "Verdura" },
+        { "left": "Pera / Plátano", "right": "Fruta" },
+        { "left": "Naranja / Limón", "right": "Cítrico" }
+      ],
+      "explication": "Voici le vocabulaire des fruits level légumes."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : El {{1}} es amarillo (banane).",
+      "type": "trous",
+      "reponsesAttendues": ["plátano"],
+      "explication": "El plátano (La banane)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'la fraise' on espagnol ?",
+      "type": "courte",
+      "reponsesAttendues": ["la fresa"],
+      "explication": "La fresa (La fraise)."
+    }
+  ]
+}

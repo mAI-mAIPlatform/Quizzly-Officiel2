@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH1_P1_QUIZ5",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Récap Final Ch1 P1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Lequel de ces exemples est un Service Non Marchand ?",
+      "type": "qcm",
+      "options": [
+        "Un Big Mac chez McDonald's",
+        "Une consultation gratuite chez un médecin de l'école publique",
+        "Une paire de baskets de marque"
+      ],
+      "reponse": 1,
+      "explication": "Le service est fourni gratuitement ou à un prix inférieur à son coût de production par l'État."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : L'économie existe parce que les ressources de la planète sont infinies.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Au contraire ! S'il y avait tout en abondance gratuite, l'économie ne servirait à rien. Elle gère la RARETÉ."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'objet économique à sa nature physique.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Un cours particulier", "right": "Service (Immatériel)" },
+        { "left": "Un ordinateur", "right": "Bien Durable (Matériel)" },
+        { "left": "Une canette de soda", "right": "Bien de consommation finale (Détruit)" }
+      ],
+      "explication": "Chaque achat correspond à une catégorie économique précise."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action d'utiliser un bien ou un service pour satisfaire un besoin s'appelle la {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["consommation"],
+      "explication": "La consommation est le but final de l'activité économique pour les ménages."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on la branche de la science qui étudie le comportement des individus en société (familles, amis, école) et que l'on étudie aussi en SES ?",
+      "type": "courte",
+      "reponsesAttendues": ["la sociologie", "sociologie"],
+      "explication": "La sociologie est la deuxième grande discipline des SES."
+    }
+  ]
+}

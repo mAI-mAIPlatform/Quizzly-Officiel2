@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH3_P1_QUIZ5",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Récap CH3 P1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que l'urbanisme ?",
+      "type": "qcm",
+      "options": ["L'art d'organiser la ville", "La peinture de fleurs", "La construction d'un seul bâtiment"],
+      "reponse": 0,
+      "explication": "L'urbanisme s'occupe de l'espace collectif de la cité."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le Street Art est réservé aux galeries d'art fermées.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Le Street Art se pratique in l'espace public (rue)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les types d'organisations urbaines.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Plan in Grille", "right": "Rues à angle droit (New York)" },
+        { "left": "Plan in Étoile", "right": "Rues partant d'un centre (Paris)" },
+        { "left": "Plan Organique", "right": "Rues tortueuses (Villes médiévales)" }
+      ],
+      "explication": "Révision de la structure des villes."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'esquisse préparatoire d'un bâtiment s'appelle un {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["plan"],
+      "explication": "Le plan d'architecte."
+    },
+    {
+      "id": "q5",
+      "question": "Quel artiste réalise des photos géantes in noir level blanc in la ville ?",
+      "type": "courte",
+      "reponsesAttendues": ["jr"],
+      "explication": "L'artiste JR."
+    }
+  ]
+}

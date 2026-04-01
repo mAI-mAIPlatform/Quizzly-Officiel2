@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH1_P2_QUIZ3",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Installation level In-situ",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une 'installation' in art contemporain ?",
+      "type": "qcm",
+      "options": ["Un tableau accroché au mur", "Une œuvre qui utilise tout l'espace level avec laquelle on peut interagir", "Un outil pour peindre"],
+      "reponse": 1,
+      "explication": "L'installation transforme l'espace d'exposition in une œuvre d'art globale."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Une œuvre 'in-situ' est créée spécifiquement flow un lieu précis level n'a de sens que là-bas.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "In-situ (Latin: sur place). L'œuvre dialogue avec le lieu."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les termes aux concepts.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Spectateur", "right": "Fait partie de l'œuvre (immersion)" },
+        { "left": "Le Lieu", "right": "Constitue le support de l'œuvre" },
+        { "left": "L'Éphémère", "right": "L'œuvre ne dure qu'un temps limité" }
+      ],
+      "explication": "Voici comment l'art sort des cadres traditionnels."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Une œuvre qui sollicite plusieurs sens (vue, ouïe, toucher) est dite {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["plurisensorielle", "immersive"],
+      "explication": "L'immersion du spectateur."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait de modifier l'espace de manière temporaire ?",
+      "type": "courte",
+      "reponsesAttendues": ["intervention"],
+      "explication": "Une intervention artistique."
+    }
+  ]
+}

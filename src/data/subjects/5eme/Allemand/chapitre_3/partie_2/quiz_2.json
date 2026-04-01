@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH3_P2_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Die Räume",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dit 'le salon' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["das wohnzimmer"],
+      "explication": "Das Wohnzimmer (La pièce de séjour)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Die Küche' est la salle de bain.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Die Küche (La cuisine). La salle de bain se dit 'das Bad'."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les pièces à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Das Schlafzimmer", "right": "La chambre à coucher" },
+        { "left": "Das Kinderzimmer", "right": "La chambre d'enfant" },
+        { "left": "Der Flur", "right": "Couloir / Entrée" }
+      ],
+      "explication": "Le suffixe '-zimmer' signifie pièce / chambre."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Ich koche in der {{1}} (cuisine).",
+      "type": "trous",
+      "reponsesAttendues": ["küche"],
+      "explication": "Die Küche."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'les toilettes' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["die toilette", "das wc"],
+      "explication": "Die Toilette (ou das WC)."
+    }
+  ]
+}

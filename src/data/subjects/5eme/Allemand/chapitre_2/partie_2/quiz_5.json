@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH2_P2_QUIZ5",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_2",
+  "partie": "partie_2",
+  "titre": "Récap CH2 P2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Conjugue : Er {{1}} (pouvoir) sehr gut tanzen.",
+      "type": "trous",
+      "reponsesAttendues": ["kann"],
+      "explication": "Er kann (Können)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Oft' signifie rarement.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Oft (Souvent)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les loisirs.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Singen", "right": "Chanter" },
+        { "left": "Kochen", "right": "Cuisiner" },
+        { "left": "Schwimmen", "right": "Nager" }
+      ],
+      "explication": "Révision des loisirs vus in P2."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Hast du {{1}} auf Kino? (envie).",
+      "type": "trous",
+      "reponsesAttendues": ["lust"],
+      "explication": "Hast du Lust?"
+    },
+    {
+      "id": "q5",
+      "question": "Cómo se dit 'jouer au tennis' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["tennis spielen"],
+      "explication": "Tennis spielen."
+    }
+  ]
+}

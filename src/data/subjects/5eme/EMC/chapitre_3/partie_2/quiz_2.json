@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH3_P2_QUIZ2",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Les Partis Politiques",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "À quoi sert un parti politique dans une démocratie ?",
+      "type": "qcm",
+      "options": ["À organiser des fêtes citoyennes", "À regrouper des citoyens ayant les mêmes idées pour conquérir et exercer le pouvoir", "À vérifier les lois"],
+      "reponse": 1,
+      "explication": "Le rôle officiel d'un parti est garanti par l'Article 4 de la Constitution."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : En France, il n'existe qu'un seul parti politique autorisé par la loi.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "C'est le principe du 'pluralisme' : de nombreux partis coexistent (gauche, droite, centre, écologistes...)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les rôles lors d'une campagne électorale.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Candidat", "right": "Personne qui se présente pour être élue" },
+        { "left": "Le Programme", "right": "L'ensemble des propositions et des idées défendues par le parti" },
+        { "left": "Le Meeting", "right": "Grande réunion publique pour convaincre les électeurs" }
+      ],
+      "explication": "La campagne politique permet de débattre des idées avant le vote."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action d'appartenir à un parti politique et de payer une cotisation fait de nous un {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["adhérent", "militant"],
+      "explication": "Un adhérent ou un militant."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le fait qu'aucun parti ne soit interdit d'exister en démocratie (si ses idées respectent la loi) ?",
+      "type": "courte",
+      "reponsesAttendues": ["le pluralisme", "pluralisme"],
+      "explication": "Le pluralisme politique."
+    }
+  ]
+}

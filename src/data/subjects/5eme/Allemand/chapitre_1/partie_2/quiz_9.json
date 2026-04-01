@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH1_P2_QUIZ10",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_1",
+  "partie": "partie_2",
+  "titre": "Klassenverben",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dit 'ranger' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["aufräumen"],
+      "explication": "Aufräumen (Ranger)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Helfen' signifie aider.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Helfen (Aider)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les verbes aux consignes du professeur.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Aufpassen", "right": "Faire attention" },
+        { "left": "Zuhören", "right": "Écouter attentivement" },
+        { "left": "Mitmachen", "right": "Participer" }
+      ],
+      "explication": "Voici des verbes essentiels flow la vie de classe."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Der Schüler {{1}} der Lehrerin (aide).",
+      "type": "trous",
+      "reponsesAttendues": ["hilft"],
+      "explication": "Helfen (verbe fort) -> er hilft."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'faire ses devoirs' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["hausaufgaben machen"],
+      "explication": "Hausaufgaben machen."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH4_P1_QUIZ4",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_4",
+  "partie": "partie_1",
+  "titre": "La Redistribution",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que le 'Revenu Primaire' ?",
+      "type": "qcm",
+      "options": [
+        "Le revenu qu'on gagne quand on est en primaire",
+        "Le revenu gagné grâce au travail ou au patrimoine, AVANT de payer les impôts et de recevoir les aides",
+        "L'argent de poche"
+      ],
+      "reponse": 1,
+      "explication": "C'est le gain brut du travail (salaire) ou de la propriété (loyer)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La redistribution réduit les inégalités de revenus entre les ménages.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "En prenant aux plus riches (impôts) et en donnant aux plus pauvres (aides), l'écart se réduit."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'étape à son calcul.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Revenu Disponible", "right": "Revenu Primaire - Impôts + Prestations Sociales" },
+        { "left": "Prestations Sociales", "right": "Aides reçues (allocations, RSA, bourses)" },
+        { "left": "Prélèvements", "right": "Argent retiré (Impôts sur le revenu, CSG)" }
+      ],
+      "explication": "Le revenu disponible est celui qui sert à la consommation finale."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de l'État pour assurer une égalité des chances entre tous les citoyens s'appelle la {{1}} sociale.",
+      "type": "trous",
+      "reponsesAttendues": ["justice"],
+      "explication": "La justice sociale vise à ce que chacun ait sa place, peu importe son origine."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le transfert de richesse des plus riches vers les plus pauvres via le système d'impôts et de prestations ?",
+      "type": "courte",
+      "reponsesAttendues": ["la redistribution verticale", "redistribution verticale", "redistribution"],
+      "explication": "C'est la redistribution verticale (des hauts revenus vers les bas revenus)."
+    }
+  ]
+}

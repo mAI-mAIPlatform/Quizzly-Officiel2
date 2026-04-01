@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH5_P3_QUIZ4",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_5",
+  "partie": "partie_3",
+  "titre": "Conditions de Travail",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que la 'Qualité de Vie au Travail' (QVT) ?",
+      "type": "qcm",
+      "options": [
+        "Le fait d'avoir une télévision dans son bureau",
+        "L'ensemble des conditions (ambiance, sécurité, équilibre vie pro/perso) qui font qu'on se sent bien au boulot",
+        "Travailler le moins possible"
+      ],
+      "reponse": 1,
+      "explication": "Une bonne QVT augmente la motivation et la productivité."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les syndicats sont des organisations qui défendent les droits et les intérêts des travailleurs face aux patrons.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Ils négocient les salaires, les horaires et les conditions de sécurité."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la notion à son enjeu de santé.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Burn-out", "right": "Épuisement professionnel lié à un stress trop fort" },
+        { "left": "Ergonomie", "right": "Adapter le poste de travail pour éviter les douleurs de dos ou de fatigue" },
+        { "left": "Dialogue Social", "right": "Discuter entre patrons et salariés pour éviter les conflits" }
+      ],
+      "explication": "Le travail ne doit pas nuire à la santé mais au contraire permettre de s'épanouir."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'ensemble des lois qui régissent le travail en France est regroupé dans le {{1}} du Travail.",
+      "type": "trous",
+      "reponsesAttendues": ["code"],
+      "explication": "Le Code du Travail définit les droits (repos, congés payés) et les devoirs."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on l'arrêt de travail collectif des salariés pour protester ou demander une amélioration ?",
+      "type": "courte",
+      "reponsesAttendues": ["la grève", "greve"],
+      "explication": "C'est la grève (un droit constitutionnel en France)."
+    }
+  ]
+}

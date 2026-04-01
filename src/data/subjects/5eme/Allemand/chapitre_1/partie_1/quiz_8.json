@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH1_P1_QUIZ8",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_1",
+  "partie": "partie_1",
+  "titre": "Höflichkeit",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dit 'Merci' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["danke", "danke schön"],
+      "explication": "Danke (Merci)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Bitte' signifie s'il vous plaît / de rien.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Bitte (S'il vous plaît / Je vous on prie / De rien)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les expressions de politesse.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Entschuldigung", "right": "Excusez-moi" },
+        { "left": "Es tut mir leid", "right": "Je suis désolé" },
+        { "left": "Kein Problem", "right": "Pas de problème" }
+      ],
+      "explication": "Voici comment être poli in allemand."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Vielen {{1}} ! (Merci beaucoup).",
+      "type": "trous",
+      "reponsesAttendues": ["dank"],
+      "explication": "Vielen Dank (Grand merci)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'S'il vous plaît' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["bitte"],
+      "explication": "Bitte."
+    }
+  ]
+}

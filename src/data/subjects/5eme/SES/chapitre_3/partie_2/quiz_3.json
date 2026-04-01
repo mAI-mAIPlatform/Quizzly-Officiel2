@@ -1,0 +1,54 @@
+{
+  "id": "5eme_SES_CH3_P2_QUIZ3",
+  "classe": "5eme",
+  "matiere": "SES",
+  "chapitre": "chapitre_3",
+  "partie": "partie_2",
+  "titre": "Conditions de Travail",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Pourquoi le 'Bien-être au travail' est-il important pour une entreprise ?",
+      "type": "qcm",
+      "options": [
+        "Juste pour faire plaisir aux salariés",
+        "Parce que des salariés heureux et en bonne santé sont plus motivés, plus créatifs et moins souvent absents",
+        "Parce que c'est écrit dans le journal"
+      ],
+      "reponse": 1,
+      "explication": "Le bien-être est un facteur de performance économique."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le télétravail (travailler depuis chez soi) fait partie des nouvelles organisations du travail.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Il permet souvent un meilleur équilibre entre vie pro et vie perso."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la notion à sa définition.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Ergonomie", "right": "Adapter le poste de travail (chaise, bureau) à la forme du corps humain" },
+        { "left": "Sécurité au travail", "right": "Prévenir les accidents grâce à des casques, des gants ou des formations" },
+        { "left": "Flexibilité", "right": "Possibilité d'adapter ses horaires de travail selon les besoins" }
+      ],
+      "explication": "De bonnes conditions de travail évitent les maladies professionnelles."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de donner plus de responsabilités à un salarié pour le motiver s'appelle l'{{1}} des tâches.",
+      "type": "trous",
+      "reponsesAttendues": ["enrichissement"],
+      "explication": "L'enrichissement des tâches évite l'ennui et le travail répétitif."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le stress ou l'épuisement total causé par un travail trop intense ou sans reconnaissance ?",
+      "type": "courte",
+      "reponsesAttendues": ["le burn-out", "burnout", "épuisement professionnel"],
+      "explication": "C'est le burn-out (ou épuisement professionnel)."
+    }
+  ]
+}

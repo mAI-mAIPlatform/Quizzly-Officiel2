@@ -1,0 +1,50 @@
+{
+  "id": "5eme_AP_CH2_P1_QUIZ10",
+  "classe": "5eme",
+  "matiere": "ArtsPlastiques",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Récap CH2 P1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce que l'Action Painting ?",
+      "type": "qcm",
+      "options": ["Une peinture de paysages", "Un courant misant sur le geste physique", "Une peinture à l'huile traditionnelle"],
+      "reponse": 1,
+      "explication": "Le corps de l'artiste devient l'outil principal."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Le liant permet de fixer les pigments sur le support.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Sans liant, la couleur ne tiendrait pas."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les termes aux définitions.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Pigment", "right": "Poudre colorante" },
+        { "left": "Le Dripping", "right": "Égouttement (Pollock)" },
+        { "left": "L'Opaque", "right": "Qui masque ce qu'il y a dessous" }
+      ],
+      "explication": "Révision de la matérialité de l'œuvre."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Le mélange de plusieurs techniques sur un même support est une technique {{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["mixte"],
+      "explication": "Technique mixte (Mixed Media)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on le support fait de tissu tendu ?",
+      "type": "courte",
+      "reponsesAttendues": ["une toile", "le châssis"],
+      "explication": "La toile."
+    }
+  ]
+}

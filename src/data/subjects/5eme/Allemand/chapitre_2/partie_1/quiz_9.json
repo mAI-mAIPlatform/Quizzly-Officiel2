@@ -1,0 +1,49 @@
+{
+  "id": "5eme_ALL_CH2_P1_QUIZ9",
+  "classe": "5eme",
+  "matiere": "Allemand",
+  "chapitre": "chapitre_2",
+  "partie": "partie_1",
+  "titre": "Negativ",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Cómo se dit 'horrible / terrible' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["schrecklich", "furchtbar"],
+      "explication": "Schrecklich (Horrible)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : 'Nicht so gut' signifie très bien.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Faux",
+      "explication": "Nicht so gut (Pas si bien)."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les adjectifs négatifs à leur traduction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Langweilig", "right": "Ennuyeux" },
+        { "left": "Dumm", "right": "Bête / Stupide" },
+        { "left": "Stressig", "right": "Stressant" }
+      ],
+      "explication": "Voici comment exprimer un avis négatif."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : Hausaufgaben sind {{1}} (fatigant).",
+      "type": "trous",
+      "reponsesAttendues": ["anstrengend"],
+      "explication": "Anstrengend (Fatigant / Épuisant)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment dit-on 'C'est une perte de temps' in allemand ?",
+      "type": "courte",
+      "reponsesAttendues": ["das ist zeitverschwendung"],
+      "explication": "Zeitverschwendung (Perte de temps)."
+    }
+  ]
+}

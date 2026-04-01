@@ -1,0 +1,50 @@
+{
+  "id": "5eme_MUSIQUE_CH3_P1_QUIZ2",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_3",
+  "partie": "partie_1",
+  "titre": "Les Troubadours",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Au Moyen-Âge, qui étaient les 'Troubadours' et les 'Trouvères' ?",
+      "type": "qcm",
+      "options": ["Des moines qui chantaient la messe", "Des poètes-musiciens qui chantaient l'amour courtois et les exploits des chevaliers de château en château", "Des soldats qui jouaient de la trompette à la guerre"],
+      "reponse": 1,
+      "explication": "C'est la grande musique 'profane' (non-religieuse) du Moyen-Âge. Les Troubadours étaient au Sud de la France (langue d'Oc) et les Trouvères au Nord (langue d'Oïl)."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Contrairement à l'Église qui interdisait les instruments pour la prière, les Troubadours utilisaient beaucoup d'instruments pour accompagner leurs chansons et faire danser.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Ils jouaient de la vièle (ancêtre du violon), du luth, de la flûte, ou du tambourin lors des grandes fêtes dans les châteaux forts."
+    },
+    {
+      "id": "q3",
+      "question": "Associe la musique médiévale à son lieu de création ou de représentation.",
+      "type": "relier",
+      "pairs": [
+        { "left": "La Musique Sacrée (Religieuse)", "right": "Dans les abbayes, les monastères et les cathédrales" },
+        { "left": "La Musique Profane Aristocratique (L'Amour Courtois)", "right": "Dans les châteaux forts et les cours des seigneurs" },
+        { "left": "La Musique Populaire Folklorique", "right": "Dans les villages, sur les places de marché avec les saltimbanques" }
+      ],
+      "explication": "La musique médiévale était très divisée selon le rang social et la religion."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de chanter l'amour pur et respectueux d'un chevalier pour sa 'Dame' noble (souvent la femme de son seigneur) s'appelle l'amour {{1}} (adjectif).",
+      "type": "trous",
+      "reponsesAttendues": ["courtois", "parfait"],
+      "explication": "L'amour courtois (la base de toute la poésie médiévale)."
+    },
+    {
+      "id": "q5",
+      "question": "Comment s'appelait au Moyen-Âge un saltimbanque de rue (parfois jongleur ou acrobate) qui accompagnait le trouvère et divertissait le public paysan ?",
+      "type": "courte",
+      "reponsesAttendues": ["un ménestrel", "le jongleur", "ménestrel"],
+      "explication": "Un ménestrel (ou un jongleur)."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH5_P3_QUIZ4",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_5",
+  "partie": "partie_3",
+  "titre": "Climat et Monde",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Pourquoi la protection du climat exige-t-elle une coopération mondiale ?",
+      "type": "qcm",
+      "options": ["Parce que l'ONU l'oblige sous peine de prison", "Parce que la pollution atmosphérique n'a pas de frontières : les gaz émis par un pays réchauffent l'ensemble de la planète", "Pour vendre plus de voitures électriques"],
+      "reponse": 1,
+      "explication": "Le CO2 se mélange dans l'atmosphère. L'effort d'un seul pays ne suffit pas si les autres polluent massivement."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : Les pays les plus riches donnent souvent des aides financières aux pays en développement pour les aider à utiliser des énergies propres et s'adapter au climat.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est la notion de 'justice climatique' (Le Fonds vert pour le Climat) décidée lors des COP."
+    },
+    {
+      "id": "q3",
+      "question": "Relie l'acteur mondial à son action climatique.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le GIEC", "right": "Groupe de milliers de scientifiques qui rédige des rapports sur l'état général du climat" },
+        { "left": "L'Union Européenne", "right": "Vote des pactes verts pour arrêter de vendre des voitures à essence neuves d'ici 2035" },
+        { "left": "La Cour Européenne", "right": "Peut parfois condamner un État pour 'inaction climatique' s'il ne respecte pas ses promesses" }
+      ],
+      "explication": "Le droit à un environnement sain est de plus en plus défendu en justice."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de juger de la culpabilité de chefs d'entreprise ou d'États pour avoir abîmé gravement la planète est appelée le crime d'{{1}} (nom).",
+      "type": "trous",
+      "reponsesAttendues": ["écocide"],
+      "explication": "L'écocide (crime contre les écosystèmes)."
+    },
+    {
+      "id": "q5",
+      "question": "Quel nom, composé de trois lettres, donne-t-on souvent aux gaz dangereux (comme le méthane ou le dioxyde de carbone) réchauffant l'air ?",
+      "type": "courte",
+      "reponsesAttendues": ["ges", "les ges"],
+      "explication": "Les GES (Gaz à Effet de Serre)."
+    }
+  ]
+}

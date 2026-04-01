@@ -1,0 +1,54 @@
+{
+  "id": "5eme_MUSIQUE_CH6_P3_QUIZ3",
+  "classe": "5eme",
+  "matiere": "Musique",
+  "chapitre": "chapitre_6",
+  "partie": "partie_3",
+  "titre": "Le Chef d'Orchestre",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "À quoi sert un chef d'orchestre ?",
+      "type": "qcm",
+      "options": [
+        "À faire de la gymnastique devant tout le monde",
+        "À assurer la cohésion du groupe, donner le tempo, les départs, et interpréter les nuances et le caractère de l'œuvre",
+        "À remplacer un musicien absent"
+      ],
+      "reponse": 1,
+      "explication": "Le chef est le 'cerveau' de l'orchestre. Sans lui, 100 musiciens auraient du mal à jouer exactement ensemble avec la même intention."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : La main droite du chef sert principalement à marquer la mesure (le tempo) tandis que la main gauche est réservée à l'expression (nuances, départs).",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "C'est la règle de base de la direction d'orchestre, même si chaque chef a sa propre gestuelle."
+    },
+    {
+      "id": "q3",
+      "question": "Associe l'outil ou le lieu du chef à sa fonction.",
+      "type": "relier",
+      "pairs": [
+        { "left": "La Baguette", "right": "Petit bâton pour rendre le geste plus lisible et précis (surtout pour le tempo)" },
+        { "left": "L'Estrade (ou Podium)", "right": "Petite plateforme qui permet au chef d'être dominant et vu par tous les musiciens" },
+        { "left": "Le Conducteur", "right": "Partition géante regroupant toutes les portées de tous les instruments de l'orchestre" }
+      ],
+      "explication": "Le chef doit avoir une vision globale de l'œuvre."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'action de donner le signal précis à un instrument pour qu'il commence à jouer s'appelle donner un {{1}}.",
+      "type": "trous",
+      "reponsesAttendues": ["départ", "un départ"],
+      "explication": "Les 'départs' sont cruciaux, surtout après de longs silences pour certains instruments."
+    },
+    {
+      "id": "q5",
+      "question": "Comment appelle-t-on la gestuelle (bras et corps) qu'un chef d'orchestre utilise pour communiquer avec ses musiciens ?",
+      "type": "courte",
+      "reponsesAttendues": ["la gestuelle", "la battue", "direction d'orchestre", "direction"],
+      "explication": "C'est la direction d'orchestre."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5eme_EMC_CH4_P2_QUIZ3",
+  "classe": "5eme",
+  "matiere": "EMC",
+  "chapitre": "chapitre_4",
+  "partie": "partie_2",
+  "titre": "Les Données",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Qu'est-ce qu'une donnée personnelle sur Internet ?",
+      "type": "qcm",
+      "options": ["Le modèle de son téléphone", "Toute information se rapportant à une personne qui permet de l'identifier (nom, adresse, âge, photo, numéro de téléphone)", "La taille de son écran"],
+      "reponse": 1,
+      "explication": "Les entreprises les collectent souvent pour nous envoyer des publicités ciblées."
+    },
+    {
+      "id": "q2",
+      "question": "Vrai ou Faux : En Europe, le RGPD (Règlement Européen) protège nos données personnelles et nous donne le droit de demander leur effacement.",
+      "type": "vrai_faux",
+      "bonne_reponse": "Vrai",
+      "explication": "Le RGPD (2018) est l'une des lois les plus strictes au monde pour protéger les citoyens sur Internet."
+    },
+    {
+      "id": "q3",
+      "question": "Relie les risques numériques à leurs définitions.",
+      "type": "relier",
+      "pairs": [
+        { "left": "Le Phishing (Hameçonnage)", "right": "Faux e-mail pour voler des mots de passe ou des numéros de carte bancaire" },
+        { "left": "L'Usurpation d'identité", "right": "Se faire passer pour quelqu'un d'autre en utilisant ses photos et son nom" },
+        { "left": "Le Ciblage publicitaire", "right": "Utilisation de l'historique de recherche pour afficher des pubs spécifiques" }
+      ],
+      "explication": "Protéger sa vie privée en ligne est un enjeu de citoyenneté majeur."
+    },
+    {
+      "id": "q4",
+      "question": "Complète : L'agence française chargée de protéger nos données informatiques s'appelle la {{1}} (sigle en 4 lettres).",
+      "type": "trous",
+      "reponsesAttendues": ["cnil"],
+      "explication": "La CNIL (Commission Nationale de l'Informatique et des Libertés)."
+    },
+    {
+      "id": "q5",
+      "question": "Quel symbole (ou icône) dans la barre d'adresse d'un site indique que la connexion est sécurisée (HTTPS) ?",
+      "type": "courte",
+      "reponsesAttendues": ["le cadenas", "un cadenas", "cadenas"],
+      "explication": "Le petit cadenas fermé au début de l'URL."
+    }
+  ]
+}
