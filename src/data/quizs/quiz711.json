@@ -1,0 +1,44 @@
+{
+  "id": "711",
+  "titre": "Grammaire : Les Classes Grammaticales",
+  "questions": [
+    {
+      "id": 1,
+      "type": "qcm",
+      "question": "Quelle est la classe grammaticale du mot 'petit' dans la phrase : 'Le petit chat dort.' ?",
+      "options": ["Nom", "Adjectif qualificatif", "Verbe", "Adverbe"],
+      "answer": 1,
+      "explanation": "'Petit' qualifie le nom 'chat', c'est donc un adjectif qualificatif."
+    },
+    {
+      "id": 2,
+      "type": "qcm",
+      "question": "Parmi ces mots, lequel est un pronom ?",
+      "options": ["Maison", "Nous", "Manger", "Rapidement"],
+      "answer": 1,
+      "explanation": "'Nous' est un pronom personnel."
+    },
+    {
+      "id": 3,
+      "type": "vrai_faux",
+      "question": "Un adverbe est une classe grammaticale variable.",
+      "answer": false,
+      "explanation": "Un adverbe est invariable, il ne change jamais de forme."
+    },
+    {
+      "id": 4,
+      "type": "courte",
+      "question": "Quelle est la classe grammaticale du mot 'sous' ?",
+      "answer": "Préposition",
+      "explanation": "'Sous' est une préposition qui indique une position."
+    },
+    {
+      "id": 5,
+      "type": "qcm",
+      "question": "Dans 'Il chante bien', quel est le rôle de 'bien' ?",
+      "options": ["Adjectif", "Adverbe", "Nom", "Préposition"],
+      "answer": 1,
+      "explanation": "'Bien' modifie le sens du verbe 'chante', c'est un adverbe."
+    }
+  ]
+}

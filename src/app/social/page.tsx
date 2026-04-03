@@ -93,6 +93,8 @@ export default function SocialPage() {
     chatEndRef.current?.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" });
   }, [currentMessages.length, reduceMotion, resolvedChatId]);
 
+  const actionChipClass = "px-3 py-1.5 rounded-full bg-foreground/5 text-[9px] font-black uppercase tracking-widest hover:bg-foreground/10 transition-all hover:scale-105 active:scale-95 whitespace-nowrap";
+
   const feedback = (message: string, type: "success" | "error" | "info" = "info", sound: "success" | "error" | "tap" | "notify" | "challenge" | "quest" | "streak" = "tap") => {
     showToast(message, type);
     playUiSound(sound, effectsVolume);
@@ -122,7 +124,7 @@ export default function SocialPage() {
     if (!pseudo) return;
 
     if (!friendRequestsEnabled) {
-      feedback("Les demandes d'amis sont désactivées dans les réglages.", "error", "error");
+      feedback("Les demandes d&apos;amis sont désactivées dans les réglages.", "error", "error");
       return;
     }
 
@@ -590,9 +592,11 @@ export default function SocialPage() {
                     <div className="flex flex-col gap-2">
                       {myTribes.flatMap(t => t.activities || []).sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime()).slice(0, 5).map(activity => (
                         <div key={activity.id} className="flex items-center gap-3 glass p-3 border-cyan/5 text-xs">
-                          <span className="text-lg">{activity.type === 'badge' ? '🎖️' : activity.type === 'quiz_score' ? '🏆' : '✨'}</span>
+                          <span className="text-lg">
+                            {activity.type === 'achievement' ? '🎖️' : activity.type === 'quiz_completed' ? '🏆' : '✨'}
+                          </span>
                           <div className="flex-1">
-                            <span className="font-bold">{activity.userPseudo}</span> {activity.content}
+                            <span className="font-bold">{activity.user}</span> {activity.detail}
                           </div>
                           <span className="text-[9px] opacity-40 uppercase font-black">{new Date(activity.timestamp).toLocaleDateString()}</span>
                         </div>
@@ -724,46 +728,50 @@ export default function SocialPage() {
                         </div>
                       ) : (
                         conversationEntries.map(({ conversation, linkedFriend, linkedTribe, preview, messageCount }) => (
-                          <article
+                          <motion.article
+                            layout
                             key={conversation.id}
-                            className={`rounded-3xl border p-4 space-y-4 transition-all ${
-                              activeChatId === conversation.id ? "border-primary/30 bg-primary/5" : "border-transparent bg-foreground/5 hover:bg-foreground/10"
-                            } ${conversation.blocked ? "opacity-70" : ""}`}
+                            className={`rounded-3xl border p-5 space-y-4 transition-all duration-300 relative group/item ${
+                              activeChatId === conversation.id 
+                                ? "border-primary/40 bg-primary/10 shadow-lg shadow-primary/5" 
+                                : "border-transparent bg-foreground/5 hover:bg-foreground/[0.08] hover:translate-x-1"
+                            } ${conversation.blocked ? "opacity-60" : ""}`}
                           >
                             <button type="button" onClick={() => openChat(conversation.id)} className="w-full text-left">
                               <div className="flex items-start justify-between gap-4">
                                 <div className="min-w-0">
-                                  <div className="font-black text-sm truncate">
+                                  <div className="font-space font-black text-sm truncate flex items-center gap-2">
+                                    {conversation.type === "tribe" ? "🏝️" : "👤"}
                                     {conversation.title || linkedFriend?.nickname || linkedTribe?.name || conversation.id}
                                   </div>
-                                  <div className="text-[10px] font-black uppercase tracking-widest opacity-40 mt-1">
-                                    {conversation.type === "tribe" ? "Tribu" : conversation.type === "friend" ? "Ami" : "Système"} • {messageCount} message(s)
+                                  <div className="text-[9px] font-black uppercase tracking-[0.2em] opacity-40 mt-1.5 flex items-center gap-1.5">
+                                    {conversation.type === "tribe" ? "Tribu" : conversation.type === "friend" ? "Ami" : "Système"} 
+                                    <span className="w-1 h-1 rounded-full bg-foreground/20" />
+                                    {messageCount} message(s)
                                   </div>
                                 </div>
-                                <div className="flex flex-wrap gap-1 justify-end">
-                                  {conversation.favorite && <span className="px-2 py-1 rounded-full bg-amber-500/10 text-amber-600 text-[9px] font-black uppercase tracking-widest">★</span>}
-                                  {conversation.archived && <span className="px-2 py-1 rounded-full bg-slate-500/10 text-slate-600 text-[9px] font-black uppercase tracking-widest">A</span>}
-                                  {conversation.blocked && <span className="px-2 py-1 rounded-full bg-rose-500/10 text-rose-600 text-[9px] font-black uppercase tracking-widest">⛔</span>}
+                                <div className="flex flex-wrap gap-1 justify-end shrink-0">
+                                  {conversation.favorite && <span className="w-6 h-6 flex items-center justify-center rounded-lg bg-amber-500/20 text-amber-600 text-[10px] animate-pulse">★</span>}
+                                  {conversation.archived && <span className="w-6 h-6 flex items-center justify-center rounded-lg bg-slate-500/20 text-slate-600 text-[10px]">A</span>}
+                                  {conversation.blocked && <span className="w-6 h-6 flex items-center justify-center rounded-lg bg-rose-500/20 text-rose-600 text-[10px]">⛔</span>}
                                 </div>
                               </div>
-                              <p className="text-[11px] opacity-60 mt-3 line-clamp-2">{preview}</p>
+                              <p className="text-[11px] font-medium opacity-50 mt-4 line-clamp-1 italic leading-relaxed">
+                                {preview}
+                              </p>
                             </button>
 
-                            <div className="flex flex-wrap gap-2">
-                              <button type="button" onClick={() => handleConversationFavorite(conversation.id)} className="px-3 py-2 rounded-xl bg-white/60 text-[10px] font-black uppercase tracking-widest hover:bg-white/80 transition-colors">
-                                {conversation.favorite ? "Retirer favori" : "Favori"}
+                            <div className="flex flex-wrap gap-1.5 pt-2 opacity-0 group-hover/item:opacity-100 transition-opacity">
+                              <button type="button" onClick={() => handleConversationFavorite(conversation.id)} className="px-2.5 py-1.5 rounded-xl bg-white/80 text-[8px] font-black uppercase tracking-widest hover:bg-white transition-colors">
+                                {conversation.favorite ? "Favori !" : "Favori"}
                               </button>
-                              <button type="button" onClick={() => handleConversationArchive(conversation.id)} className="px-3 py-2 rounded-xl bg-white/60 text-[10px] font-black uppercase tracking-widest hover:bg-white/80 transition-colors">
-                                {conversation.archived ? "Désarchiver" : "Archiver"}
-                              </button>
-                              <button type="button" onClick={() => handleConversationBlock(conversation.id)} className="px-3 py-2 rounded-xl bg-white/60 text-[10px] font-black uppercase tracking-widest hover:bg-white/80 transition-colors">
-                                {conversation.blocked ? "Débloquer" : "Bloquer"}
-                              </button>
-                              <button type="button" onClick={() => handleConversationReport(conversation.id)} className="px-3 py-2 rounded-xl bg-white/60 text-[10px] font-black uppercase tracking-widest hover:bg-white/80 transition-colors">
-                                Signaler
-                              </button>
+                              {!conversation.archived && (
+                                <button type="button" onClick={() => handleConversationArchive(conversation.id)} className="px-2.5 py-1.5 rounded-xl bg-white/80 text-[8px] font-black uppercase tracking-widest hover:bg-white transition-colors">
+                                  Archiver
+                                </button>
+                              )}
                             </div>
-                          </article>
+                          </motion.article>
                         ))
                       )}
                     </div>
@@ -842,83 +850,94 @@ export default function SocialPage() {
                           )}
                         </div>
 
-                        <div className="flex-1 p-6 space-y-5 overflow-y-auto max-h-[480px] scrollbar-hide bg-foreground/[0.02]">
+                        <div className="flex-1 p-6 space-y-6 overflow-y-auto max-h-[480px] scrollbar-hide bg-foreground/[0.01] backdrop-blur-3xl custom-scrollbar">
                           {currentMessages.length === 0 && (
-                            <div className="text-center py-20 opacity-30 italic font-medium">Début de la conversation... ✨</div>
+                            <div className="flex flex-col items-center justify-center py-20 opacity-30 text-center animate-in zoom-in duration-1000">
+                              <div className="text-6xl mb-4">✨</div>
+                              <p className="font-space font-black uppercase tracking-widest italic">Début de l&apos;aventure...</p>
+                            </div>
                           )}
 
-                          {currentMessages.map((message) => {
-                            const isMine = message.sender === progress.pseudo || message.sender === "Système";
-                            const replySource = message.replyTo ? currentMessages.find((entry) => entry.id === message.replyTo) ?? null : null;
-                            const bubbleText = message.deletedForAll ? "Message supprimé pour tout le monde" : message.deletedForSelf ? "Message supprimé pour toi" : message.text;
+                          <AnimatePresence initial={false}>
+                            {currentMessages.map((message, index) => {
+                              const isMine = message.sender === progress.pseudo || message.sender === "Système";
+                              const replySource = message.replyTo ? currentMessages.find((entry) => entry.id === message.replyTo) ?? null : null;
+                              const bubbleText = message.deletedForAll ? "Message supprimé pour tout le monde" : message.deletedForSelf ? "Message supprimé pour toi" : message.text;
 
-                            return (
-                              <div key={message.id} className={`flex flex-col ${isMine ? "items-end" : "items-start"}`}>
-                                <div className="text-[8px] font-black uppercase tracking-widest mb-1 opacity-40 mx-2">
-                                  {message.sender}
-                                  {message.editedAt && " • modifié"}
-                                </div>
+                              return (
+                                <motion.div
+                                  key={message.id}
+                                  initial={reduceMotion ? { opacity: 1 } : { opacity: 0, y: 20, scale: 0.95 }}
+                                  animate={reduceMotion ? { opacity: 1 } : { opacity: 1, y: 0, scale: 1 }}
+                                  transition={{ delay: index * 0.05, duration: 0.4, type: "spring", stiffness: 100 }}
+                                  className={`flex flex-col group ${isMine ? "items-end" : "items-start"}`}
+                                >
+                                  <div className="text-[9px] font-black uppercase tracking-[0.2em] mb-2 opacity-50 mx-4 flex items-center gap-2">
+                                    {isMine ? "Toi" : message.sender}
+                                    {message.editedAt && <span className="w-1 h-1 rounded-full bg-primary/40" />}
+                                    {message.editedAt && <span className="opacity-60 italic">Modifié</span>}
+                                  </div>
 
-                                <div className={`max-w-[88%] p-4 rounded-3xl text-sm font-bold shadow-sm ${isMine ? "bg-primary text-white rounded-tr-none" : "bg-white text-foreground border-2 border-foreground/5 rounded-tl-none"} ${message.favorite ? "ring-2 ring-amber-500/30" : ""}`}>
-                                  {replySource && (
-                                    <div className={`mb-3 rounded-2xl px-3 py-2 text-[10px] font-black uppercase tracking-widest ${isMine ? "bg-white/15" : "bg-foreground/5"}`}>
-                                      Réponse à {replySource.sender}
-                                      <div className="mt-1 normal-case font-bold tracking-normal opacity-70">
-                                        {replySource.deletedForAll ? "Message supprimé" : replySource.deletedForSelf ? "Message masqué" : replySource.text}
+                                  <div className={`relative max-w-[85%] p-5 rounded-[2rem] text-sm font-bold shadow-2xl transition-all hover:scale-[1.01] ${
+                                    isMine 
+                                      ? "bg-gradient-to-br from-primary to-violet text-white rounded-tr-none shadow-primary/20" 
+                                      : "glass bg-white/70 text-foreground border-white/50 rounded-tl-none shadow-black/5"
+                                  } ${message.favorite ? "ring-2 ring-amber-500/40 ring-offset-2 ring-offset-background" : ""}`}>
+                                    
+                                    {replySource && (
+                                      <div className={`mb-4 rounded-2xl px-4 py-3 text-[10px] font-black uppercase tracking-widest border-l-4 ${
+                                        isMine ? "bg-white/10 border-white/40" : "bg-primary/5 border-primary/40"
+                                      }`}>
+                                        <div className="opacity-60 mb-1 flex items-center gap-2">
+                                          <span>↩️</span> Réponse à {replySource.sender}
+                                        </div>
+                                        <div className="normal-case font-bold tracking-normal line-clamp-1">
+                                          {replySource.deletedForAll ? "Message supprimé" : replySource.deletedForSelf ? "Message masqué" : replySource.text}
+                                        </div>
                                       </div>
+                                    )}
+
+                                    {message.forwardedFrom && (
+                                      <div className={`mb-3 flex items-center gap-2 text-[9px] font-black uppercase tracking-[0.2em] ${isMine ? "text-white/60" : "text-primary/60"}`}>
+                                        <span>↪️</span> Transféré
+                                      </div>
+                                    )}
+
+                                    <div className={`leading-relaxed ${message.deletedForAll || message.deletedForSelf ? "italic opacity-60 font-medium" : ""}`}>
+                                      {bubbleText}
+                                    </div>
+
+                                    <div className={`mt-3 flex items-center justify-between gap-4 text-[8px] font-black uppercase tracking-widest ${isMine ? "text-white/50" : "text-foreground/30"}`}>
+                                      <span>{formatTime(message.timestamp)}</span>
+                                      {message.pinned && <span className="text-sm">📌</span>}
+                                    </div>
+                                  </div>
+
+                                  {!message.deletedForAll && !message.deletedForSelf && (
+                                    <div className="flex flex-wrap gap-1.5 mt-3 max-w-[90%] opacity-0 group-hover:opacity-100 transition-opacity translate-y-1 group-hover:translate-y-0 duration-300">
+                                      <button type="button" onClick={() => handleCopyMessage(message.text)} className={actionChipClass}>Copier</button>
+                                      <button type="button" onClick={() => handleReplyMessage(message.id)} className={actionChipClass}>Répondre</button>
+                                      <button type="button" onClick={() => handleForwardMessage(message.id)} className={actionChipClass}>Transférer</button>
+                                      <button type="button" onClick={() => handleToggleMessageFavorite(message.id)} className={`${actionChipClass} !text-amber-600 !bg-amber-500/10`}>
+                                        {message.favorite ? "Favori !" : "Favori"}
+                                      </button>
+                                      <button type="button" onClick={() => handlePinMessage(message.id)} className={actionChipClass}>
+                                        {message.pinned ? "Désépingler" : "Épingler"}
+                                      </button>
+                                      {message.sender === progress.pseudo && !message.deletedForAll && (
+                                        <button type="button" onClick={() => handleEditMessage(message.id)} className={actionChipClass}>Modifier</button>
+                                      )}
+                                      <button type="button" onClick={() => handleReportMessage(message.id)} className={actionChipClass}>Signaler</button>
+                                      <button type="button" onClick={() => handleDeleteMessageForSelf(message.id)} className={`${actionChipClass} !text-rose-600 !bg-rose-500/10`}>Supprimer</button>
+                                      {message.sender === progress.pseudo && (
+                                        <button type="button" onClick={() => handleDeleteMessageForAll(message.id)} className={`${actionChipClass} !text-rose-600 !bg-rose-500/10 font-black`}>X ALL</button>
+                                      )}
                                     </div>
                                   )}
-
-                                  {message.forwardedFrom && (
-                                    <div className={`mb-3 text-[9px] font-black uppercase tracking-widest ${isMine ? "text-white/70" : "text-foreground/40"}`}>
-                                      Transféré
-                                    </div>
-                                  )}
-
-                                  <div className={message.deletedForAll || message.deletedForSelf ? "italic opacity-90" : ""}>{bubbleText}</div>
-                                  <div className={`mt-2 text-[7px] font-black ${isMine ? "text-white/70" : "text-foreground/40"}`}>
-                                    {formatTime(message.timestamp)}
-                                  </div>
-                                </div>
-
-                                {!message.deletedForAll && !message.deletedForSelf && (
-                                  <div className="flex flex-wrap gap-2 mt-2 max-w-[88%]">
-                                    <button type="button" onClick={() => handleCopyMessage(message.text)} className="px-2.5 py-1.5 rounded-full bg-foreground/5 text-[9px] font-black uppercase tracking-widest hover:bg-foreground/10 transition-colors">
-                                      Copier
-                                    </button>
-                                    <button type="button" onClick={() => handleReplyMessage(message.id)} className="px-2.5 py-1.5 rounded-full bg-foreground/5 text-[9px] font-black uppercase tracking-widest hover:bg-foreground/10 transition-colors">
-                                      Répondre
-                                    </button>
-                                    <button type="button" onClick={() => handleForwardMessage(message.id)} className="px-2.5 py-1.5 rounded-full bg-foreground/5 text-[9px] font-black uppercase tracking-widest hover:bg-foreground/10 transition-colors">
-                                      Transférer
-                                    </button>
-                                    <button type="button" onClick={() => handleToggleMessageFavorite(message.id)} className="px-2.5 py-1.5 rounded-full bg-foreground/5 text-[9px] font-black uppercase tracking-widest hover:bg-foreground/10 transition-colors">
-                                      {message.favorite ? "Retirer favori" : "Favori"}
-                                    </button>
-                                    <button type="button" onClick={() => handlePinMessage(message.id)} className="px-2.5 py-1.5 rounded-full bg-foreground/5 text-[9px] font-black uppercase tracking-widest hover:bg-foreground/10 transition-colors">
-                                      {message.pinned ? "Désépingler" : "Épingler"}
-                                    </button>
-                                    {message.sender === progress.pseudo && !message.deletedForAll && (
-                                      <button type="button" onClick={() => handleEditMessage(message.id)} className="px-2.5 py-1.5 rounded-full bg-foreground/5 text-[9px] font-black uppercase tracking-widest hover:bg-foreground/10 transition-colors">
-                                        Modifier
-                                      </button>
-                                    )}
-                                    <button type="button" onClick={() => handleReportMessage(message.id)} className="px-2.5 py-1.5 rounded-full bg-foreground/5 text-[9px] font-black uppercase tracking-widest hover:bg-foreground/10 transition-colors">
-                                      Signaler
-                                    </button>
-                                    <button type="button" onClick={() => handleDeleteMessageForSelf(message.id)} className="px-2.5 py-1.5 rounded-full bg-rose-500/10 text-rose-600 text-[9px] font-black uppercase tracking-widest hover:bg-rose-500/15 transition-colors">
-                                      Supprimer moi
-                                    </button>
-                                    {message.sender === progress.pseudo && (
-                                      <button type="button" onClick={() => handleDeleteMessageForAll(message.id)} className="px-2.5 py-1.5 rounded-full bg-rose-500/10 text-rose-600 text-[9px] font-black uppercase tracking-widest hover:bg-rose-500/15 transition-colors">
-                                        Supprimer tous
-                                      </button>
-                                    )}
-                                  </div>
-                                )}
-                              </div>
-                            );
-                          })}
+                                </motion.div>
+                              );
+                            })}
+                          </AnimatePresence>
 
                           <div ref={chatEndRef} />
                         </div>

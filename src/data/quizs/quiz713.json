@@ -1,0 +1,44 @@
+{
+  "id": "713",
+  "titre": "Conjugaison : Le Présent de l'Indicatif",
+  "questions": [
+    {
+      "id": 1,
+      "type": "courte",
+      "question": "Conjugue 'manger' à la 1ère personne du pluriel au présent.",
+      "answer": "mangeons",
+      "explanation": "Attention au 'e' intercalaire pour garder le son 'j'."
+    },
+    {
+      "id": 2,
+      "type": "qcm",
+      "question": "Quelle est la terminaison de 'tu' pour les verbes en -er au présent ?",
+      "options": ["-e", "-es", "-s", "-t"],
+      "answer": 1,
+      "explanation": "Les verbes en -er prennent -es avec 'tu'."
+    },
+    {
+      "id": 3,
+      "type": "vrai_faux",
+      "question": "Le verbe 'aller' est un verbe du 1er groupe.",
+      "answer": false,
+      "explanation": "Malgré sa terminaison en -er, 'aller' est un verbe du 3ème groupe (irrégulier)."
+    },
+    {
+      "id": 4,
+      "type": "qcm",
+      "question": "Conjugue 'faire' à la 2ème personne du pluriel.",
+      "options": ["Faites", "Faisez", "Faisons", "Font"],
+      "answer": 0,
+      "explanation": "C'est une exception : on dit 'vous faites'."
+    },
+    {
+      "id": 5,
+      "type": "qcm",
+      "question": "Comment s'écrit 'ils' pour le verbe 'prendre' ?",
+      "options": ["Prendent", "Prennent", "Prend", "Prenent"],
+      "answer": 1,
+      "explanation": "On double le 'n' : ils prennent."
+    }
+  ]
+}

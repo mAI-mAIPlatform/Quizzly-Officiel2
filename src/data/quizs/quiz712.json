@@ -1,0 +1,44 @@
+{
+  "id": "712",
+  "titre": "Grammaire : Fonctions autour du Nom",
+  "questions": [
+    {
+      "id": 1,
+      "type": "qcm",
+      "question": "Dans 'Le chat noir', quelle est la fonction de 'noir' ?",
+      "options": ["Épithète", "Attribut du sujet", "Complément du nom", "Apposition"],
+      "answer": 0,
+      "explanation": "'Noir' est placé directement à côté du nom 'chat', c'est une épithète."
+    },
+    {
+      "id": 2,
+      "type": "qcm",
+      "question": "Dans 'La tour de Pise', quelle est la fonction de 'de Pise' ?",
+      "options": ["Épithète", "Complément du nom", "Attribut", "Sujet"],
+      "answer": 1,
+      "explanation": "'De Pise' complète le nom 'tour' à l'aide d'une préposition."
+    },
+    {
+      "id": 3,
+      "type": "vrai_faux",
+      "question": "L'attribut du sujet est relié au sujet par un verbe d'état.",
+      "answer": true,
+      "explanation": "Exemple : 'Le ciel est bleu'. 'Bleu' est attribut du sujet 'ciel' via le verbe 'être'."
+    },
+    {
+      "id": 4,
+      "type": "qcm",
+      "question": "Quel mot introduit souvent une proposition subordonnée relative ?",
+      "options": ["Et", "Qui", "Mais", "Car"],
+      "answer": 1,
+      "explanation": "'Qui', 'que', 'dont', 'où' sont des pronoms relatifs."
+    },
+    {
+      "id": 5,
+      "type": "courte",
+      "question": "Comment appelle-t-on un mot qui qualifie un nom sans être séparé par un verbe ?",
+      "answer": "Épithète",
+      "explanation": "L'épithète est directement rattachée au nom."
+    }
+  ]
+}

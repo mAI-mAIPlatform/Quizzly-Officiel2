@@ -1,0 +1,44 @@
+{
+  "id": "715",
+  "titre": "Orthographe : Accords Complexes",
+  "questions": [
+    {
+      "id": 1,
+      "type": "qcm",
+      "question": "Dans 'La foule d'enfants (crier)', comment accorde-t-on le verbe ?",
+      "options": ["Crie", "Crient", "Les deux sont possibles", "Cries"],
+      "answer": 0,
+      "explanation": "Le sujet principal est 'la foule' (singulier), donc le verbe s'accorde au singulier."
+    },
+    {
+      "id": 2,
+      "type": "vrai_faux",
+      "question": "Avec le sujet 'Toi et moi', le verbe se conjugue à 'nous'.",
+      "answer": true,
+      "explanation": "'Toi et moi' équivaut au pronom 'nous' (ex: Toi et moi mangeons)."
+    },
+    {
+      "id": 3,
+      "type": "courte",
+      "question": "Complète : 'C'est moi qui (avoir) raison.'",
+      "answer": "ai",
+      "explanation": "Le verbe s'accorde avec l'antécédent du pronom relatif 'qui', soit 'moi' (1ère pers. sing.)."
+    },
+    {
+      "id": 4,
+      "type": "qcm",
+      "question": "Lequel est correct ?",
+      "options": ["Des robes orange", "Des robes oranges", "Des robe orange", "Des robes oranger"],
+      "answer": 0,
+      "explanation": "'Orange' est un nom utilisé comme adjectif de couleur, il reste invariable."
+    },
+    {
+      "id": 5,
+      "type": "qcm",
+      "question": "Lequel est correct ?",
+      "options": ["Ils se sont téléphoné", "Ils se sont téléphonés", "Ils se sont téléphoner", "Ils sont téléphoné"],
+      "answer": 0,
+      "explanation": "On téléphone 'à' quelqu'un (COI), donc le participe passé ne s'accorde pas."
+    }
+  ]
+}

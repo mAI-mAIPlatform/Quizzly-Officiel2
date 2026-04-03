@@ -36,7 +36,7 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
   const [combo, setCombo] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
   const [finishStep, setFinishStep] = useState<'results' | 'flame' | 'quests'>('results');
-  const { addXP, markQuizCompleted, isQuizCompleted, progress: userProgress, useStar: consumeStar, sendMessage, addHistoryEntry, completeDailyQuiz } = useProgress();
+  const { addXP, markQuizCompleted, isQuizCompleted, progress: userProgress, useStar: consumeStar, sendMessage, addHistoryEntry, completeDailyQuiz, toggleFavoriteQuiz } = useProgress();
   const hasSavedHistory = useRef(false);
   const hasCompletedCallback = useRef(false);
   const hasAnsweredRef = useRef(false);
@@ -241,6 +241,17 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
           </svg>
           <span className="text-5xl font-black font-space text-primary tracking-tighter">{score}</span>
           <span className="text-[10px] uppercase tracking-widest opacity-40 font-black">sur {quiz.questions.length}</span>
+          
+          <button
+            onClick={() => toggleFavoriteQuiz(quiz.id)}
+            className={`absolute -bottom-4 right-0 w-12 h-12 rounded-full glass border-2 flex items-center justify-center z-30 transition-all ${
+              userProgress.favoriteQuizIds.includes(quiz.id) 
+                ? "text-amber-500 border-amber-400 bg-amber-500/10 scale-110 shadow-lg shadow-amber-500/20" 
+                : "text-foreground/20 border-foreground/5 hover:text-amber-500 hover:scale-110"
+            }`}
+          >
+            <span className="text-2xl">{userProgress.favoriteQuizIds.includes(quiz.id) ? "⭐" : "☆"}</span>
+          </button>
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 w-full max-w-sm px-6">

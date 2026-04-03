@@ -189,6 +189,8 @@ type UserProgress = {
   league: "Débutant" | "Apprenti" | "Étudiant" | "Nouveau" | "Intello" | "HPI" | "Savant" | "Expert" | "Génie";
   lastWeeklyReset: string | null;
   customShortcuts: string[];
+  favoriteQuizIds: string[];
+  unlockedQuizIds: string[];
 };
 
 type ProgressContextType = {
@@ -240,6 +242,8 @@ type ProgressContextType = {
   changeAccountPassword: (currentPassword: string, nextPassword: string) => Promise<boolean>;
   reorderShortcuts: (newOrder: string[]) => void;
   addTribeActivity: (tribeId: string, activity: Omit<SocialActivity, "id" | "timestamp">) => void;
+  toggleFavoriteQuiz: (quizId: string) => void;
+  unlockQuizPack: (quizIds: string[], cost: number) => boolean;
 };
 
 const storageKey = "quizzly_progress";
@@ -349,6 +353,8 @@ const createDefaultProgress = (): UserProgress => ({
   league: "Débutant",
   lastWeeklyReset: null,
   customShortcuts: ["Maths-6eme", "Français", "Histoire-Géo", "SVT", "Physique", "Anglais"],
+  favoriteQuizIds: [],
+  unlockedQuizIds: [],
 });
 
 function clampVolume(value: unknown, fallback: number) {
@@ -721,6 +727,8 @@ function normalizeProgress(raw: unknown): UserProgress {
           .filter((booster) => Boolean(booster.id))
       : base.activeBoosters,
     customShortcuts: Array.isArray(parsed.customShortcuts) ? (parsed.customShortcuts.filter((s): s is string => typeof s === "string")) : base.customShortcuts,
+    favoriteQuizIds: Array.isArray(parsed.favoriteQuizIds) ? parsed.favoriteQuizIds.filter((item): item is string => typeof item === "string") : base.favoriteQuizIds,
+    unlockedQuizIds: Array.isArray(parsed.unlockedQuizIds) ? parsed.unlockedQuizIds.filter((item): item is string => typeof item === "string") : base.unlockedQuizIds,
   };
 }
 
@@ -1564,6 +1572,29 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     return <div className="min-h-screen bg-background text-foreground flex items-center justify-center font-bold">Chargement de ton cerveau... 🧠</div>;
   }
 
+  const toggleFavoriteQuiz = (quizId: string) => {
+    setProgress((prev) => {
+      const isFavorite = prev.favoriteQuizIds.includes(quizId);
+      const updatedFavorites = isFavorite
+        ? prev.favoriteQuizIds.filter((id) => id !== quizId)
+        : [...prev.favoriteQuizIds, quizId];
+      return persist({ ...prev, favoriteQuizIds: updatedFavorites });
+    });
+  };
+
+  const unlockQuizPack = (quizIds: string[], cost: number) => {
+    if (progress.crystals < cost) return false;
+    setProgress((prev) => {
+      const newUnlocked = [...new Set([...prev.unlockedQuizIds, ...quizIds])];
+      return persist({
+        ...prev,
+        crystals: prev.crystals - cost,
+        unlockedQuizIds: newUnlocked,
+      });
+    });
+    return true;
+  };
+
   return (
     <ProgressContext.Provider
       value={{
@@ -1615,6 +1646,8 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
         changeAccountPassword,
         reorderShortcuts,
         addTribeActivity,
+        toggleFavoriteQuiz,
+        unlockQuizPack,
       }}
     >
       {children}

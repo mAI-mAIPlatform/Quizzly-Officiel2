@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 
 export default function BoutiquePage() {
-  const { progress, buyStars, buyCosmetic, buyPassPro, buyBooster, buyChest, claimDailyReward, buyRandomChest, buyFrame, buyBanner, buyEffect, buyMascot, buyShield, buyCustomBooster, buyPseudoEffect } = useProgress();
+  const { progress, buyStars, buyCosmetic, buyPassPro, buyBooster, buyChest, claimDailyReward, buyRandomChest, buyFrame, buyBanner, buyEffect, buyMascot, buyShield, buyCustomBooster, buyPseudoEffect, unlockQuizPack } = useProgress();
   const { showToast } = useToast();
   const [customMultiplier, setCustomMultiplier] = useState(1.5);
   const [customMinutes, setCustomMinutes] = useState(15);
@@ -99,12 +99,25 @@ export default function BoutiquePage() {
     { id: "royal", type: 'theme', name: "Royal", price: 700, icon: "👑", color: "from-indigo-950 via-violet-700 to-amber-400" },
   ];
 
+  const quizPacks = [
+    { id: "pack1", ids: ["901", "902", "903", "904", "905", "906", "907", "908", "909", "910"], name: "Pack Quiz #1", price: 50, icon: "📚", color: "from-amber-400 to-amber-600", desc: "10 Quiz Inédits (901-910)" },
+    { id: "pack2", ids: ["911", "912", "913", "914", "915", "916", "917", "918", "919", "920"], name: "Pack Quiz #2", price: 50, icon: "📚", color: "from-amber-500 to-orange-500", desc: "10 Quiz Inédits (911-920)" },
+    { id: "pack3", ids: ["921", "922", "923", "924", "925", "926", "927", "928", "929", "930"], name: "Pack Quiz #3", price: 50, icon: "📚", color: "from-orange-500 to-red-500", desc: "10 Quiz Inédits (921-930)" },
+    { id: "pack4", ids: ["931", "932", "933", "934", "935", "936", "937", "938", "939", "940"], name: "Pack Quiz #4", price: 50, icon: "📚", color: "from-red-500 to-rose-500", desc: "10 Quiz Inédits (931-940)" },
+  ];
+
   const passItem = { id: "pass_pro", type: 'pass', name: "Quizzly Pass Pro", price: 50, icon: "👑", color: "from-violet to-primary", desc: "Débloque toutes les récompenses Premium !" };
 
   const handleBuy = (item: any) => {
     if (item.type === 'chest') {
       const success = buyChest(item.tier, item.price);
       if (!success) showToast("Pas assez de diamants ! 💎", "error");
+      return;
+    }
+    if (item.ids) {
+      const success = unlockQuizPack(item.ids, item.price);
+      if (success) showToast(`${item.name} débloqué ! 📖`, "success");
+      else showToast("Pas assez de diamants ! 💎", "error");
       return;
     }
     if (item.id === 'pass_pro') {
@@ -365,7 +378,25 @@ export default function BoutiquePage() {
         </div>
       </section>
 
-      {/* Avatars */}
+      {/* Quiz Packs */}
+      <section className="space-y-8">
+        <h2 className="text-3xl font-space font-black flex items-center gap-4 tracking-tight">
+          <span className="p-3 bg-amber-500/10 text-amber-500 rounded-2xl">📚</span> Packs de Quiz Premium
+          <span className="text-[10px] bg-amber-500 text-white px-2 py-0.5 rounded-full font-black animate-pulse">OFFRE</span>
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {quizPacks.map((item) => (
+            <BoutiqueItem 
+              key={item.id} 
+              item={{ ...item, type: 'Pack Quiz' }} 
+              onBuy={handleBuy} 
+              crystals={progress.crystals} 
+              isOwned={item.ids.every(id => progress.unlockedQuizIds.includes(id))}
+            />
+          ))}
+        </div>
+      </section>
+
       <section className="space-y-8">
         <h2 className="text-3xl font-space font-black flex items-center gap-4 tracking-tight">
           <span className="p-3 bg-violet/10 rounded-2xl">✨</span> Avatars de Collection
