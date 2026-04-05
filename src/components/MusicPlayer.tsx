@@ -47,21 +47,19 @@ export default function MusicPlayer() {
   // Dynamic route music
   useEffect(() => {
     const isStressedRoute = pathname?.includes('/classe') || pathname?.includes('/survie') || pathname?.includes('/ranked');
-    if (isStressedRoute && musicEnabled) {
-      if (!isPlaying) {
-        setTimeout(() => setIsPlaying(true), 0);
-      }
-      
-      let targetIndex = currentTrackIndex;
-      if (pathname?.includes('/survie')) targetIndex = 3; // Energetic
-      else if (pathname?.includes('/ranked')) targetIndex = 2; // Dynamic
-      else if (pathname?.includes('/classe')) targetIndex = 1; // Learning Vibe
+    if (!isStressedRoute || !musicEnabled) return;
 
-      if (targetIndex !== currentTrackIndex) {
-        setTimeout(() => setCurrentTrackIndex(targetIndex), 0);
-      }
+    let targetIndex = currentTrackIndex;
+    if (pathname?.includes('/survie')) targetIndex = 3; // Energetic
+    else if (pathname?.includes('/ranked')) targetIndex = 2; // Dynamic
+    else if (pathname?.includes('/classe')) targetIndex = 1; // Learning Vibe
+
+    if (targetIndex !== currentTrackIndex) {
+      const timer = setTimeout(() => setCurrentTrackIndex(targetIndex), 0);
+      return () => clearTimeout(timer);
     }
-  }, [pathname, musicEnabled]); // Removed isPlaying and currentTrackIndex to avoid loops
+  }, [pathname, musicEnabled, currentTrackIndex]);
+
 
   const togglePlay = () => setIsPlaying(!isPlaying);
   const nextTrack = () => setCurrentTrackIndex((prev) => (prev + 1) % TRACKS.length);
