@@ -998,6 +998,9 @@ import { quiz997 } from "./quiz997";
 import { quiz998 } from "./quiz998";
 import { quiz999 } from "./quiz999";
 import { quiz1000 } from "./quiz1000";
+import { quiz1001 } from "./quiz1001";
+import { quiz1002 } from "./quiz1002";
+import { quiz1003 } from "./quiz1003";
 
 export const ALL_QUIZZES = [
   quiz1, quiz2, quiz3, quiz4, quiz5, quiz6, quiz7, quiz8, quiz9, quiz10,
@@ -1099,7 +1102,8 @@ export const ALL_QUIZZES = [
   quiz961, quiz962, quiz963, quiz964, quiz965, quiz966, quiz967, quiz968, quiz969, quiz970,
   quiz971, quiz972, quiz973, quiz974, quiz975, quiz976, quiz977, quiz978, quiz979, quiz980,
   quiz981, quiz982, quiz983, quiz984, quiz985, quiz986, quiz987, quiz988, quiz989, quiz990,
-  quiz991, quiz992, quiz993, quiz994, quiz995, quiz996, quiz997, quiz998, quiz999, quiz1000
+  quiz991, quiz992, quiz993, quiz994, quiz995, quiz996, quiz997, quiz998, quiz999, quiz1000,
+  quiz1001, quiz1002, quiz1003
 ];
 
 export const THEMES = [
@@ -1116,5 +1120,6 @@ export const THEMES = [
   "Nature",
   "Langues",
   "Art",
-  "Culture Générale"
+  "Culture Générale",
+  "Mixte"
 ];

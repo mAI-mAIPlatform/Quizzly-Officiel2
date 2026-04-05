@@ -52,17 +52,17 @@ export default function Home() {
     return () => clearTimeout(timer);
   }, []);
 
-  const xpNeededForNextLevel = progress.level * 100;
-  const xpProgressPercent = (progress.xp / xpNeededForNextLevel) * 100;
-  
-  const mathsProgressPercent = Math.min(100, Math.round((progress.completedQuizzes.length / 30) * 100));
+  const xpNeededForNextLevel = Math.max(100, progress.level * 100);
+  const xpProgressPercent = Math.min(100, Math.max(0, (progress.xp / xpNeededForNextLevel) * 100));
+
+  const mathsProgressPercent = Math.min(100, Math.max(0, Math.round((progress.completedQuizzes.length / 30) * 100)));
 
   const shortcuts = progress.customShortcuts || ['Maths-6eme', 'Français', 'Histoire-Géo', 'SVT', 'Physique', 'Anglais'];
 
   return (
     <div className="flex flex-col gap-8 w-full h-full text-foreground relative z-10 p-4 md:p-8">
       
-      {/* En-tête du Dashboard (v0.8.0) */}
+      {/* En-tête du Dashboard (v1.2.5) */}
       <header className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
         <motion.div 
           initial={{ opacity: 0, x: -20 }}
@@ -238,7 +238,7 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Quizzly Pass (Liquid Glass v0.8.0) */}
+          {/* Quizzly Pass (Liquid Glass v1.2.5) */}
           <section className="glass-border-only p-8 flex flex-col relative group hover:border-primary/40 transition-colors">
             <div className="absolute top-0 right-0 p-4 opacity-20 group-hover:opacity-40 transition-opacity">
               <svg className="w-12 h-12" viewBox="0 0 24 24" fill="currentColor">
