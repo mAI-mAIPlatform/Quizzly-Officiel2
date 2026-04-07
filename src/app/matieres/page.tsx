@@ -24,6 +24,13 @@ type GeneratedQuiz = {
   questions: GeneratedQuestion[];
 };
 
+type GenerateQuizResponse = {
+  quiz: GeneratedQuiz;
+  modelUsed?: string;
+  fallbackNotice?: string;
+  error?: string;
+};
+
 const CLASSES = ["6ème", "5ème", "4ème", "3ème", "2nde", "1ère", "Terminale"];
 const DIFFICULTES: Difficulty[] = ["facile", "moyen", "difficile"];
 
@@ -45,6 +52,7 @@ export default function MatieresPage() {
   const [step, setStep] = useState<QuizStep>("form");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [generatorInfo, setGeneratorInfo] = useState<string | null>(null);
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
@@ -78,8 +86,12 @@ export default function MatieresPage() {
         throw new Error(data?.error ?? "Impossible de générer le quiz.");
       }
 
-      setQuiz(data.quiz as GeneratedQuiz);
+      const payload = data as GenerateQuizResponse;
+      setQuiz(payload.quiz);
       setStep("playing");
+      setGeneratorInfo(
+        payload.fallbackNotice ?? (payload.modelUsed ? `Quiz généré via ${payload.modelUsed}.` : "Quiz généré avec succès."),
+      );
       setCurrentIndex(0);
       setScore(0);
       setSelectedAnswer("");
@@ -88,6 +100,7 @@ export default function MatieresPage() {
     } catch (caughtError) {
       const message = caughtError instanceof Error ? caughtError.message : "Erreur inconnue";
       setError(message);
+      setGeneratorInfo(null);
     } finally {
       setLoading(false);
     }
@@ -118,6 +131,7 @@ export default function MatieresPage() {
     setSelectedAnswer("");
     setIsAnswerLocked(false);
     setLastAnswerCorrect(null);
+    setGeneratorInfo(null);
   }
 
   function handleRestart() {
@@ -128,6 +142,7 @@ export default function MatieresPage() {
     setSelectedAnswer("");
     setIsAnswerLocked(false);
     setLastAnswerCorrect(null);
+    setGeneratorInfo(null);
   }
 
   const earnedXp = score * 12;
@@ -215,6 +230,7 @@ export default function MatieresPage() {
 
       {step === "playing" && quiz && currentQuestion && (
         <section className="space-y-4">
+          {generatorInfo && <p className="glass px-4 py-3 text-xs font-bold">{generatorInfo}</p>}
           <div className="glass p-6 space-y-4">
             <div className="flex items-center justify-between gap-4 text-xs uppercase tracking-widest opacity-70">
               <span>

@@ -44,6 +44,83 @@ const OPENROUTER_KEYS = [
 
 const APP_URL = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
 
+/**
+ * Génère un quiz local de secours quand l'API distante échoue.
+ * Permet d'éviter le blocage "Impossible de générer le quiz pour le moment".
+ */
+function buildLocalFallbackQuiz(fallback: Pick<GeneratedQuiz, "sujet" | "niveau" | "classe">): GeneratedQuiz {
+  const subject = fallback.sujet;
+  return {
+    id: `local-${Date.now()}`,
+    titre: `Quiz local • ${subject}`,
+    description: `Génération locale de secours pour ${fallback.classe} (${fallback.niveau}).`,
+    sujet: fallback.sujet,
+    niveau: fallback.niveau,
+    classe: fallback.classe,
+    questions: [
+      {
+        id: "q_1",
+        type: "qcm",
+        question: `Quelle affirmation est la plus cohérente avec le sujet "${subject}" ?`,
+        options: ["Définition générale", "Contre-exemple", "Élément hors sujet", "Information aléatoire"],
+        reponse: "Définition générale",
+        explication: "On commence par la base conceptuelle du sujet.",
+      },
+      {
+        id: "q_2",
+        type: "vrai_faux",
+        question: `Le sujet "${subject}" peut être étudié progressivement du simple au complexe.`,
+        reponse: "Vrai",
+        explication: "Un apprentissage progressif améliore la compréhension.",
+      },
+      {
+        id: "q_3",
+        type: "courte",
+        question: `Donne un mot-clé important lié à "${subject}".`,
+        reponse: "concept",
+        explication: "Un mot-clé structure la mémorisation.",
+      },
+      {
+        id: "q_4",
+        type: "qcm",
+        question: `Pour ${fallback.classe}, quelle méthode aide le plus à réviser "${subject}" ?`,
+        options: ["Répétition active", "Lecture passive unique", "Aucune pratique", "Mémorisation aléatoire"],
+        reponse: "Répétition active",
+        explication: "La répétition active renforce la rétention.",
+      },
+      {
+        id: "q_5",
+        type: "vrai_faux",
+        question: `S'entraîner avec des questions améliore la maîtrise de "${subject}".`,
+        reponse: "Vrai",
+        explication: "La pratique régulière consolide les acquis.",
+      },
+      {
+        id: "q_6",
+        type: "courte",
+        question: `Quel type d'exercice est utile pour "${subject}" ?`,
+        reponse: "qcm",
+        explication: "Les QCM permettent une évaluation rapide.",
+      },
+      {
+        id: "q_7",
+        type: "qcm",
+        question: `Quel réflexe est conseillé quand une notion de "${subject}" est difficile ?`,
+        options: ["La découper en étapes", "L'ignorer", "Changer de sujet", "Apprendre sans vérifier"],
+        reponse: "La découper en étapes",
+        explication: "Découper réduit la charge cognitive.",
+      },
+      {
+        id: "q_8",
+        type: "vrai_faux",
+        question: `Faire un bilan d'erreurs à la fin d'un quiz sur "${subject}" est utile.`,
+        reponse: "Vrai",
+        explication: "Le feedback final accélère la progression.",
+      },
+    ],
+  };
+}
+
 function extractJson(text: string): string {
   const trimmed = text.trim();
   if (trimmed.startsWith("{")) return trimmed;
@@ -188,7 +265,6 @@ Retourne uniquement cet objet JSON:
     const payload = {
       model,
       temperature: 0.4,
-      response_format: { type: "json_object" },
       messages: [
         { role: "system", content: "Tu produis uniquement du JSON valide." },
         { role: "user", content: prompt },
@@ -214,11 +290,14 @@ Retourne uniquement cet objet JSON:
     }
   }
 
+  const quiz = buildLocalFallbackQuiz({ sujet, niveau, classe });
   return NextResponse.json(
     {
-      error: "Impossible de générer le quiz pour le moment.",
+      quiz,
+      modelUsed: "local-fallback",
+      fallbackNotice: "L'IA distante est indisponible, un quiz local a été généré automatiquement.",
       details: lastError,
     },
-    { status: 502 },
+    { status: 200 },
   );
 }
