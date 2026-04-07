@@ -1,246 +1,342 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import Link from "next/link";
-import { ALL_QUIZZES, THEMES } from "@/data/quizs";
-import QuizCard from "@/components/quiz/QuizCard";
-import { AnimatePresence, motion } from "framer-motion";
+import { FormEvent, useMemo, useState } from "react";
 
-const CLASSES = [
-  { id: "6eme", nom: "6ème" },
-  { id: "5eme", nom: "5ème" },
-  { id: "4eme", nom: "4ème" },
-  { id: "3eme", nom: "3ème" },
-  { id: "2nde", nom: "2nde" },
-  { id: "1ere", nom: "1ère" },
-  { id: "terminale", nom: "Terminale" },
-] as const;
+type Difficulty = "facile" | "moyen" | "difficile";
+type QuizStep = "form" | "playing" | "results";
 
-const MATIERES = [
-  { id: "Maths", nom: "Mathématiques", color: "from-blue-500 to-cyan-400", icon: "🧮", dispo: true, theme: "Sciences" },
-  { id: "Francais", nom: "Français", color: "from-purple-500 to-pink-400", icon: "🖋️", dispo: true, theme: "Littérature" },
-  { id: "HistoireGeo", nom: "Histoire-Géo", color: "from-orange-500 to-yellow-400", icon: "🏛️", dispo: true, theme: "Histoire" },
-  { id: "SVT", nom: "SVT", icon: "🌿", color: "from-green-500 to-emerald-500", dispo: true, theme: "Sciences" },
-  { id: "PhysiqueChimie", nom: "Physique-Chimie", icon: "🧪", color: "from-violet-500 to-purple-500", dispo: true, theme: "Sciences" },
-  { id: "Anglais", nom: "Anglais", icon: "🗣️", color: "from-rose-500 to-red-600", dispo: true, theme: "Langues" },
-  { id: "Espagnol", nom: "Espagnol", icon: "🇪🇸", color: "from-yellow-400 to-orange-500", dispo: true, theme: "Langues" },
-  { id: "Allemand", nom: "Allemand", icon: "🇩🇪", color: "from-gray-700 to-black", dispo: true, theme: "Langues" },
-  { id: "SES", nom: "SES", icon: "📈", color: "from-emerald-400 to-teal-600", dispo: true, theme: "Sciences" },
-  { id: "Philosophie", nom: "Philosophie", icon: "🧘", color: "from-indigo-400 to-purple-600", dispo: true, theme: "Histoire" },
-  { id: "Technologie", nom: "Technologie", icon: "⚙️", color: "from-slate-500 to-blue-600", dispo: true, theme: "Technologie" },
-  { id: "EMC", nom: "EMC", icon: "⚖️", color: "from-blue-600 to-red-600", dispo: true, theme: "Histoire" },
-  { id: "ArtsPlastiques", nom: "Arts Plastiques", icon: "🎨", color: "from-pink-400 to-rose-600", dispo: true, theme: "Art" },
-  { id: "Musique", nom: "Éducation Musicale", icon: "🎵", color: "from-fuchsia-400 to-rose-600", dispo: true, theme: "Musique" },
-] as const;
+type GeneratedQuestion = {
+  id: string;
+  type: "qcm" | "vrai_faux" | "courte";
+  question: string;
+  options?: string[];
+  reponse: string;
+  explication?: string;
+};
+
+type GeneratedQuiz = {
+  id: string;
+  titre: string;
+  description: string;
+  sujet: string;
+  niveau: Difficulty;
+  classe: string;
+  questions: GeneratedQuestion[];
+};
+
+const CLASSES = ["6ème", "5ème", "4ème", "3ème", "2nde", "1ère", "Terminale"];
+const DIFFICULTES: Difficulty[] = ["facile", "moyen", "difficile"];
+
+const normalizeAnswer = (value: string) =>
+  value
+    .trim()
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9 ]/g, "")
+    .replace(/\s+/g, " ");
 
 export default function MatieresPage() {
-  const [activeClasse, setActiveClasse] = useState("6eme");
-  const [searchQuery, setSearchQuery] = useState("");
-  const [activeTheme, setActiveTheme] = useState("Tous");
-  const [viewMode, setViewMode] = useState<"explorer" | "quizz">("explorer");
+  const [sujet, setSujet] = useState("");
+  const [niveau, setNiveau] = useState<Difficulty>("moyen");
+  const [classe, setClasse] = useState(CLASSES[0]);
 
-  const query = searchQuery.trim().toLowerCase();
+  const [quiz, setQuiz] = useState<GeneratedQuiz | null>(null);
+  const [step, setStep] = useState<QuizStep>("form");
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
-  const filteredMatieres = useMemo(
-    () =>
-      MATIERES.filter((m) => {
-        const matchesSearch = query.length === 0 || m.nom.toLowerCase().includes(query);
-        const matchesTheme = activeTheme === "Tous" || m.theme === activeTheme;
-        return matchesSearch && matchesTheme;
-      }),
-    [query, activeTheme],
-  );
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [score, setScore] = useState(0);
+  const [selectedAnswer, setSelectedAnswer] = useState("");
+  const [isAnswerLocked, setIsAnswerLocked] = useState(false);
+  const [lastAnswerCorrect, setLastAnswerCorrect] = useState<boolean | null>(null);
 
-  const filteredQuizzes = useMemo(
-    () =>
-      ALL_QUIZZES.filter((q) => {
-        const matchesSearch = query.length === 0 || q.titre.toLowerCase().includes(query) || q.description.toLowerCase().includes(query);
-        const matchesTheme = activeTheme === "Tous" || q.theme === activeTheme;
-        return matchesSearch && matchesTheme;
-      }),
-    [query, activeTheme],
-  );
+  const currentQuestion = quiz?.questions[currentIndex];
+  const totalQuestions = quiz?.questions.length ?? 0;
 
-  const availableThemeCount = useMemo(() => {
-    const count = new Set(filteredMatieres.map((m) => m.theme)).size;
-    return Math.max(count, activeTheme === "Tous" ? THEMES.length - 1 : 1);
-  }, [filteredMatieres, activeTheme]);
+  const progress = useMemo(() => {
+    if (!totalQuestions) return 0;
+    return Math.round((currentIndex / totalQuestions) * 100);
+  }, [currentIndex, totalQuestions]);
+
+  async function handleGenerateQuiz(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    setLoading(true);
+    setError(null);
+
+    try {
+      const response = await fetch("/api/quiz/generate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ sujet, niveau, classe }),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data?.error ?? "Impossible de générer le quiz.");
+      }
+
+      setQuiz(data.quiz as GeneratedQuiz);
+      setStep("playing");
+      setCurrentIndex(0);
+      setScore(0);
+      setSelectedAnswer("");
+      setIsAnswerLocked(false);
+      setLastAnswerCorrect(null);
+    } catch (caughtError) {
+      const message = caughtError instanceof Error ? caughtError.message : "Erreur inconnue";
+      setError(message);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  function handleValidateAnswer() {
+    if (!quiz || !currentQuestion || isAnswerLocked || selectedAnswer.trim().length === 0) return;
+
+    const isCorrect = normalizeAnswer(selectedAnswer) === normalizeAnswer(currentQuestion.reponse);
+
+    if (isCorrect) {
+      setScore((prev) => prev + 1);
+    }
+
+    setLastAnswerCorrect(isCorrect);
+    setIsAnswerLocked(true);
+  }
+
+  function handleNextQuestion() {
+    if (!quiz) return;
+
+    if (currentIndex >= quiz.questions.length - 1) {
+      setStep("results");
+      return;
+    }
+
+    setCurrentIndex((prev) => prev + 1);
+    setSelectedAnswer("");
+    setIsAnswerLocked(false);
+    setLastAnswerCorrect(null);
+  }
+
+  function handleRestart() {
+    setStep("form");
+    setQuiz(null);
+    setCurrentIndex(0);
+    setScore(0);
+    setSelectedAnswer("");
+    setIsAnswerLocked(false);
+    setLastAnswerCorrect(null);
+  }
+
+  const earnedXp = score * 12;
+  const earnedCrystals = Math.max(1, Math.floor(score / 2));
 
   return (
-    <div className="flex flex-col gap-8 w-full max-w-6xl mx-auto text-foreground relative z-10 animate-in fade-in slide-in-from-bottom-4 duration-700 pb-20">
-      <header className="flex flex-col md:flex-row md:items-end justify-between gap-6">
-        <div className="flex flex-col gap-3">
-          <span className="w-fit px-4 py-1.5 rounded-full border border-white/15 bg-white/10 backdrop-blur-xl text-[10px] font-black uppercase tracking-[0.25em]">
-            Liquid Glass v1.2.5
-          </span>
-          <h1 className="text-5xl font-black font-space italic tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-primary via-violet to-cyan">
-            DÉCOUVRE 📚
-          </h1>
-          <p className="opacity-70 text-lg font-medium">Explore les matières, filtre vite et lance de nouveaux quiz express.</p>
-        </div>
-
-        <div className="relative w-full md:w-96 group">
-          <div className="absolute inset-y-0 left-4 flex items-center pointer-events-none opacity-50 group-focus-within:opacity-100 transition-opacity">🔍</div>
-          <input
-            type="text"
-            placeholder="Rechercher un quiz, une matière..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full h-14 pl-12 pr-4 rounded-2xl border border-white/15 bg-white/10 backdrop-blur-2xl shadow-[inset_0_1px_1px_rgba(255,255,255,0.2)] focus:border-primary/50 focus:ring-4 focus:ring-primary/10 transition-all outline-none font-medium text-sm"
-          />
-        </div>
+    <div className="mx-auto w-full max-w-5xl space-y-6 pb-24">
+      <header className="glass p-8">
+        <p className="text-[10px] font-black uppercase tracking-[0.3em] text-primary/70">Liquid Glass • IA Native</p>
+        <h1 className="mt-3 text-4xl font-space font-black uppercase italic tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-primary via-violet to-cyan">
+          Quizz
+        </h1>
+        <p className="mt-3 max-w-3xl text-sm opacity-80">
+          Génère un quiz intelligent en indiquant le sujet, la difficulté et la classe. Le moteur IA produit les questions automatiquement,
+          puis tu termines avec une synthèse de récompenses.
+        </p>
       </header>
 
-      <section className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-        <div className="rounded-3xl border border-white/15 bg-white/10 backdrop-blur-2xl p-4">
-          <p className="text-[10px] uppercase tracking-[0.2em] opacity-50">Matières visibles</p>
-          <p className="text-3xl font-black font-space mt-2">{filteredMatieres.length}</p>
-        </div>
-        <div className="rounded-3xl border border-white/15 bg-white/10 backdrop-blur-2xl p-4">
-          <p className="text-[10px] uppercase tracking-[0.2em] opacity-50">Quiz trouvés</p>
-          <p className="text-3xl font-black font-space mt-2">{filteredQuizzes.length}</p>
-        </div>
-        <div className="rounded-3xl border border-white/15 bg-white/10 backdrop-blur-2xl p-4">
-          <p className="text-[10px] uppercase tracking-[0.2em] opacity-50">Thèmes actifs</p>
-          <p className="text-3xl font-black font-space mt-2">{availableThemeCount}</p>
-        </div>
-        <div className="rounded-3xl border border-white/15 bg-white/10 backdrop-blur-2xl p-4">
-          <p className="text-[10px] uppercase tracking-[0.2em] opacity-50">Classe</p>
-          <p className="text-3xl font-black font-space mt-2">{CLASSES.find((c) => c.id === activeClasse)?.nom}</p>
-        </div>
-      </section>
-
-      <div className="flex items-center gap-4 p-1.5 rounded-2xl border border-white/15 bg-white/10 backdrop-blur-2xl w-fit">
-        <button
-          onClick={() => setViewMode("explorer")}
-          className={`px-6 py-2.5 rounded-xl font-bold font-space text-sm transition-all ${
-            viewMode === "explorer" ? "bg-primary text-white shadow-lg shadow-primary/20" : "opacity-60 hover:opacity-100"
-          }`}
-        >
-          PAR MATIÈRE
-        </button>
-        <button
-          onClick={() => setViewMode("quizz")}
-          className={`px-6 py-2.5 rounded-xl font-bold font-space text-sm transition-all ${
-            viewMode === "quizz" ? "bg-primary text-white shadow-lg shadow-primary/20" : "opacity-60 hover:opacity-100"
-          }`}
-        >
-          QUIZ EXPRESS
-        </button>
-      </div>
-
-      <div className="space-y-8">
-        <div className="flex flex-col gap-4">
-          <div className="flex items-center justify-between">
-            <h3 className="text-xs font-black uppercase tracking-[0.2em] opacity-40 italic">Filtrer par thème</h3>
-            {activeTheme !== "Tous" && (
-              <button onClick={() => setActiveTheme("Tous")} className="text-[10px] font-black uppercase text-primary hover:underline transition-all">
-                Réinitialiser
-              </button>
-            )}
+      {step === "form" && (
+        <form onSubmit={handleGenerateQuiz} className="glass p-8 space-y-6">
+          <div className="space-y-2">
+            <label htmlFor="sujet" className="text-xs font-black uppercase tracking-widest opacity-70">
+              Sujet
+            </label>
+            <input
+              id="sujet"
+              value={sujet}
+              onChange={(event) => setSujet(event.target.value)}
+              placeholder="Exemple : Fraction, Révolution française, ADN..."
+              className="h-14 w-full rounded-2xl border border-white/20 bg-white/15 px-4 text-sm outline-none transition focus:border-primary/60 focus:ring-4 focus:ring-primary/10"
+              required
+              minLength={3}
+            />
           </div>
-          <div className="flex overflow-x-auto pb-2 gap-2 snap-x hide-scrollbar">
-            {THEMES.map((theme) => (
-              <button
-                key={theme}
-                onClick={() => setActiveTheme(theme)}
-                className={`px-5 py-2.5 rounded-xl text-xs font-black uppercase tracking-widest transition-all snap-center border ${
-                  activeTheme === theme ? "bg-primary/10 border-primary text-primary" : "border-white/15 bg-white/10 backdrop-blur-xl opacity-70 hover:opacity-100"
-                }`}
+
+          <div className="grid gap-4 md:grid-cols-2">
+            <div className="space-y-2">
+              <label htmlFor="niveau" className="text-xs font-black uppercase tracking-widest opacity-70">
+                Difficulté
+              </label>
+              <select
+                id="niveau"
+                value={niveau}
+                onChange={(event) => setNiveau(event.target.value as Difficulty)}
+                className="h-12 w-full rounded-2xl border border-white/20 bg-white/15 px-4 text-sm outline-none transition focus:border-primary/60 focus:ring-4 focus:ring-primary/10"
               >
-                {theme}
-              </button>
-            ))}
+                {DIFFICULTES.map((item) => (
+                  <option key={item} value={item}>
+                    {item}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            <div className="space-y-2">
+              <label htmlFor="classe" className="text-xs font-black uppercase tracking-widest opacity-70">
+                Classe
+              </label>
+              <select
+                id="classe"
+                value={classe}
+                onChange={(event) => setClasse(event.target.value)}
+                className="h-12 w-full rounded-2xl border border-white/20 bg-white/15 px-4 text-sm outline-none transition focus:border-primary/60 focus:ring-4 focus:ring-primary/10"
+              >
+                {CLASSES.map((item) => (
+                  <option key={item} value={item}>
+                    {item}
+                  </option>
+                ))}
+              </select>
+            </div>
           </div>
-        </div>
 
-        <AnimatePresence mode="wait">
-          {viewMode === "explorer" ? (
-            <motion.div key="explorer" initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: 20 }} className="space-y-8">
-              <div className="flex flex-col gap-4">
-                <h3 className="text-xs font-black uppercase tracking-[0.2em] opacity-40 italic">Choisir ta classe</h3>
-                <div className="flex overflow-x-auto pb-2 gap-4 snap-x hide-scrollbar">
-                  {CLASSES.map((cls) => (
-                    <button
-                      key={cls.id}
-                      onClick={() => setActiveClasse(cls.id)}
-                      className={`min-w-[100px] h-20 rounded-2xl font-black font-space transition-all snap-center border flex flex-col items-center justify-center gap-1 ${
-                        activeClasse === cls.id
-                          ? "bg-primary text-white border-primary shadow-xl shadow-primary/20 scale-105"
-                          : "border-white/15 bg-white/10 backdrop-blur-xl opacity-60 hover:opacity-100"
-                      }`}
-                    >
-                      <span className="text-xs opacity-70">NIVEAU</span>
-                      <span className="text-lg">{cls.nom}</span>
-                    </button>
-                  ))}
-                </div>
-              </div>
+          {error && <p className="rounded-xl border border-red-500/20 bg-red-500/10 p-3 text-sm text-red-600">{error}</p>}
 
-              {filteredMatieres.length > 0 ? (
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                  {filteredMatieres.map((matiere) => (
-                    <div key={matiere.id} className="relative group">
-                      {matiere.dispo ? (
-                        <Link
-                          href={`/matiere/${matiere.id}-${activeClasse}`}
-                          className="border border-white/15 bg-white/10 backdrop-blur-2xl p-6 rounded-[2.5rem] flex flex-col items-center text-center gap-4 hover:border-primary/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl cursor-pointer block h-full overflow-hidden"
-                        >
-                          <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${matiere.color} flex items-center justify-center text-3xl text-white shadow-lg relative z-10 group-hover:scale-110 transition-transform duration-500`}>
-                            {matiere.icon}
-                          </div>
-                          <div className="relative z-10">
-                            <h2 className="text-xl font-space font-black uppercase italic tracking-tighter">{matiere.nom}</h2>
-                            <div className="mt-2 flex items-center justify-center gap-2">
-                              <span className="w-1 h-1 rounded-full bg-primary animate-pulse" />
-                              <span className="text-[10px] font-black uppercase tracking-widest opacity-40">Contenu disponible</span>
-                            </div>
-                          </div>
-                        </Link>
-                      ) : (
-                        <div className="border border-white/10 bg-white/5 backdrop-blur-xl p-6 rounded-[2.5rem] flex flex-col items-center text-center gap-4 opacity-40 grayscale select-none h-full">
-                          <div className="w-16 h-16 rounded-2xl bg-foreground/10 flex items-center justify-center text-3xl text-white shadow-inner">{matiere.icon}</div>
-                          <div className="mt-2">
-                            <h2 className="text-xl font-space font-black uppercase italic tracking-tighter">{matiere.nom}</h2>
-                            <p className="text-[10px] font-black uppercase tracking-widest opacity-60 mt-2">Bientôt</p>
-                          </div>
-                        </div>
-                      )}
-                    </div>
-                  ))}
-                </div>
-              ) : (
-                <div className="h-56 flex flex-col items-center justify-center text-center border border-white/15 bg-white/10 backdrop-blur-2xl rounded-[3rem] p-10">
-                  <span className="text-5xl mb-4">🧭</span>
-                  <h3 className="text-xl font-bold font-space uppercase">Aucune matière trouvée</h3>
-                  <p className="opacity-60 text-sm mt-2 max-w-xs">Change le thème ou vide la recherche pour relancer l&apos;exploration.</p>
-                </div>
-              )}
-            </motion.div>
-          ) : (
-            <motion.div key="quizz" initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -20 }} className="space-y-6">
-              <div className="flex items-center justify-between">
-                <h2 className="text-2xl font-black font-space italic uppercase tracking-tighter">Quiz Express 🔥</h2>
-                <span className="text-xs font-bold opacity-40">{filteredQuizzes.length} quiz trouvés</span>
-              </div>
+          <button
+            type="submit"
+            disabled={loading || sujet.trim().length < 3}
+            className="h-14 w-full rounded-2xl bg-primary text-sm font-black uppercase tracking-widest text-white transition hover:scale-[1.01] disabled:cursor-not-allowed disabled:opacity-60"
+          >
+            {loading ? "Génération en cours..." : "Générer mon quiz IA"}
+          </button>
+        </form>
+      )}
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                {filteredQuizzes.map((quiz) => (
-                  <QuizCard key={quiz.id} quiz={quiz} />
+      {step === "playing" && quiz && currentQuestion && (
+        <section className="space-y-4">
+          <div className="glass p-6 space-y-4">
+            <div className="flex items-center justify-between gap-4 text-xs uppercase tracking-widest opacity-70">
+              <span>
+                Question {currentIndex + 1} / {totalQuestions}
+              </span>
+              <span>
+                Score : {score}
+              </span>
+            </div>
+            <div className="h-2 w-full overflow-hidden rounded-full bg-white/20">
+              <div className="h-full rounded-full bg-gradient-to-r from-primary to-cyan transition-all" style={{ width: `${progress}%` }} />
+            </div>
+          </div>
+
+          <article className="glass p-8 space-y-6">
+            <div>
+              <p className="text-[10px] font-black uppercase tracking-[0.3em] opacity-50">{currentQuestion.type.replace("_", " ")}</p>
+              <h2 className="mt-2 text-2xl font-black tracking-tight">{currentQuestion.question}</h2>
+            </div>
+
+            {currentQuestion.type === "qcm" && currentQuestion.options && (
+              <div className="grid gap-3">
+                {currentQuestion.options.map((option) => (
+                  <button
+                    key={option}
+                    onClick={() => setSelectedAnswer(option)}
+                    disabled={isAnswerLocked}
+                    className={`rounded-2xl border p-4 text-left text-sm font-semibold transition ${
+                      selectedAnswer === option
+                        ? "border-primary bg-primary/10"
+                        : "border-white/20 bg-white/10 hover:border-primary/40"
+                    }`}
+                  >
+                    {option}
+                  </button>
                 ))}
               </div>
+            )}
 
-              {filteredQuizzes.length === 0 && (
-                <div className="h-64 flex flex-col items-center justify-center text-center border border-white/15 bg-white/10 backdrop-blur-2xl rounded-[3rem] p-10">
-                  <span className="text-5xl mb-4">🏜️</span>
-                  <h3 className="text-xl font-bold font-space uppercase">Aucun quiz trouvé</h3>
-                  <p className="opacity-60 text-sm mt-2 max-w-xs">Essaie de modifier ta recherche ou tes filtres pour trouver ce que tu cherches.</p>
-                </div>
-              )}
-            </motion.div>
-          )}
-        </AnimatePresence>
-      </div>
+            {currentQuestion.type === "vrai_faux" && (
+              <div className="grid gap-3 sm:grid-cols-2">
+                {["Vrai", "Faux"].map((option) => (
+                  <button
+                    key={option}
+                    onClick={() => setSelectedAnswer(option)}
+                    disabled={isAnswerLocked}
+                    className={`rounded-2xl border p-4 text-sm font-semibold transition ${
+                      selectedAnswer === option
+                        ? "border-primary bg-primary/10"
+                        : "border-white/20 bg-white/10 hover:border-primary/40"
+                    }`}
+                  >
+                    {option}
+                  </button>
+                ))}
+              </div>
+            )}
+
+            {currentQuestion.type === "courte" && (
+              <input
+                value={selectedAnswer}
+                onChange={(event) => setSelectedAnswer(event.target.value)}
+                disabled={isAnswerLocked}
+                placeholder="Écris ta réponse ici"
+                className="h-14 w-full rounded-2xl border border-white/20 bg-white/10 px-4 text-sm outline-none focus:border-primary/60 focus:ring-4 focus:ring-primary/10"
+              />
+            )}
+
+            {!isAnswerLocked ? (
+              <button
+                onClick={handleValidateAnswer}
+                className="h-12 w-full rounded-2xl bg-primary text-sm font-black uppercase tracking-widest text-white disabled:opacity-60"
+                disabled={selectedAnswer.trim().length === 0}
+              >
+                Valider ma réponse
+              </button>
+            ) : (
+              <div className="space-y-4">
+                <p className={`rounded-2xl border p-4 text-sm ${lastAnswerCorrect ? "border-green-500/30 bg-green-500/10" : "border-red-500/30 bg-red-500/10"}`}>
+                  {lastAnswerCorrect ? "✅ Bonne réponse !" : `❌ Mauvaise réponse. Réponse attendue : ${currentQuestion.reponse}`}
+                  {currentQuestion.explication ? ` — ${currentQuestion.explication}` : ""}
+                </p>
+
+                <button onClick={handleNextQuestion} className="h-12 w-full rounded-2xl border border-white/20 bg-white/10 text-sm font-black uppercase tracking-widest">
+                  {currentIndex === totalQuestions - 1 ? "Voir mes récompenses" : "Question suivante"}
+                </button>
+              </div>
+            )}
+          </article>
+        </section>
+      )}
+
+      {step === "results" && quiz && (
+        <section className="glass p-8 space-y-6 text-center">
+          <p className="text-[10px] font-black uppercase tracking-[0.3em] text-primary/70">Récompenses</p>
+          <h2 className="text-3xl font-space font-black uppercase italic tracking-tight">Quiz terminé 🎉</h2>
+          <p className="opacity-70">
+            {quiz.titre} • {quiz.classe} • Difficulté {quiz.niveau}
+          </p>
+
+          <div className="grid gap-4 md:grid-cols-3">
+            <div className="rounded-3xl border border-white/20 bg-white/10 p-5">
+              <p className="text-[10px] uppercase tracking-widest opacity-50">Score</p>
+              <p className="mt-2 text-3xl font-black">
+                {score}/{totalQuestions}
+              </p>
+            </div>
+            <div className="rounded-3xl border border-white/20 bg-white/10 p-5">
+              <p className="text-[10px] uppercase tracking-widest opacity-50">XP gagnée</p>
+              <p className="mt-2 text-3xl font-black">+{earnedXp}</p>
+            </div>
+            <div className="rounded-3xl border border-white/20 bg-white/10 p-5">
+              <p className="text-[10px] uppercase tracking-widest opacity-50">Cristaux</p>
+              <p className="mt-2 text-3xl font-black">+{earnedCrystals} 💎</p>
+            </div>
+          </div>
+
+          <button onClick={handleRestart} className="h-12 w-full rounded-2xl bg-primary text-sm font-black uppercase tracking-widest text-white">
+            Générer un nouveau quiz IA
+          </button>
+        </section>
+      )}
     </div>
   );
 }

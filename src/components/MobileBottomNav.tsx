@@ -7,7 +7,7 @@ import { useState } from "react";
 
 const primaryItems = [
   { href: "/", label: "Accueil", icon: "🏠" },
-  { href: "/matieres", label: "Matières", icon: "📚" },
+  { href: "/matieres", label: "Quizz", icon: "📚" },
   { href: "/social", label: "Social", icon: "🤝" },
   { href: "/quetes", label: "Quêtes", icon: "🎯" },
   { href: "/profil", label: "Profil", icon: "👤" },
