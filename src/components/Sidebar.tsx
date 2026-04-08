@@ -8,13 +8,13 @@ import { useProgress } from "@/context/ProgressContext";
 const primaryLinks = [
   { href: "/", label: "Tableau de bord", icon: "▣" },
   { href: "/quiz", label: "Quiz", icon: "🧠" },
+  { href: "/exercices", label: "Exercices", icon: "🧪" },
   { href: "/quetes", label: "Quêtes", icon: "🎯" },
   { href: "/profil", label: "Profil", icon: "👤" },
 ];
 
 const secondaryLinks = [
   { href: "/modes", label: "Modes de jeu", icon: "🎮" },
-  { href: "/exercices", label: "Exercices", icon: "🧪" },
   { href: "/historique", label: "Historique", icon: "🕘" },
   { href: "/boutique", label: "Boutique", icon: "💎" },
   { href: "/social", label: "Social", icon: "🤝" },
