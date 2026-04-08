@@ -56,7 +56,7 @@ Schéma JSON attendu:
 }`;
 
     const result = await generateGeminiJson(prompt, isEvaluationPayload);
-    return NextResponse.json({ evaluation: result.payload });
+    return NextResponse.json({ evaluation: result.payload, model: result.model });
   } catch (error) {
     const message = error instanceof Error ? error.message : "Impossible de corriger les réponses.";
     return NextResponse.json({ error: message }, { status: 502 });

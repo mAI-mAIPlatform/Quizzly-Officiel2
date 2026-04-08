@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { generateGeminiJson, GEMINI_MODEL } from "@/lib/gemini-fallback";
+import { generateGeminiJson } from "@/lib/gemini-fallback";
 
 type QuizDifficulty = "facile" | "moyen" | "difficile";
 
@@ -95,7 +95,7 @@ Retourne uniquement un JSON valide strict selon ce schéma:
 }`;
 
     const result = await generateGeminiJson(generationPrompt, isValidQuizPayload);
-    return NextResponse.json({ quiz: result.payload, model: GEMINI_MODEL });
+    return NextResponse.json({ quiz: result.payload, model: result.model });
   } catch (error) {
     const message = error instanceof Error ? error.message : "Requête invalide pour la génération de quiz.";
     return NextResponse.json({ error: message }, { status: 502 });

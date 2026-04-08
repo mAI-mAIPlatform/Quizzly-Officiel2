@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { generateGeminiJson, GEMINI_MODEL } from "@/lib/gemini-fallback";
+import { generateGeminiJson } from "@/lib/gemini-fallback";
 
 type ExerciseDifficulty = "facile" | "moyen" | "difficile";
 
@@ -103,7 +103,7 @@ Schéma JSON:
 }`;
 
     const result = await generateGeminiJson(prompt, isExercisePayload);
-    return NextResponse.json({ exercise: result.payload, model: GEMINI_MODEL });
+    return NextResponse.json({ exercise: result.payload, model: result.model });
   } catch (error) {
     const message = error instanceof Error ? error.message : "Impossible de générer l'exercice.";
     return NextResponse.json({ error: message }, { status: 502 });
