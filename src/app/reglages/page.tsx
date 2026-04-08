@@ -15,6 +15,8 @@ const THEME_OPTIONS = [
   { id: "royal", name: "Royal", icon: "👑", color: "bg-gradient-to-br from-indigo-950 via-violet-800 to-amber-500 text-amber-100" },
 ];
 
+const SCHOOL_YEAR_OPTIONS = ["6ème", "5ème", "4ème", "3ème", "2nde", "1ère", "Terminale"] as const;
+
 const TIMER_OPTIONS = [0, 15, 30, 45, 60, 90, 120];
 const SOUND_PRESETS = [
   { id: "calm", label: "Calme" },
@@ -28,7 +30,7 @@ const EFFECT_PRESETS = [
 ] as const;
 
 export default function ReglagesPage() {
-  const { progress, updateSettings, updateTheme, setAccountPassword, changeAccountPassword } = useProgress();
+  const { progress, updateSettings, updateTheme, setAccountPassword, changeAccountPassword, updateProfile } = useProgress();
   const { showToast } = useToast();
   const [setupPassword, setSetupPassword] = useState("");
   const [setupConfirm, setSetupConfirm] = useState("");
@@ -64,6 +66,17 @@ export default function ReglagesPage() {
       await Notification.requestPermission();
     }
     showToast(enabled ? "Notifications activées 🔔" : "Notifications désactivées 🔕", "info");
+  };
+
+  const lockSchoolYear = (schoolYear: string) => {
+    if (settings.gameplay.schoolYearLocked) {
+      showToast("Année scolaire déjà verrouillée.", "info");
+      return;
+    }
+
+    updateGameplay({ schoolYear, schoolYearLocked: true });
+    updateProfile({ selectedClass: schoolYear });
+    showToast(`Année scolaire verrouillée : ${schoolYear}`, "success");
   };
 
   const handleCreatePassword = async () => {
@@ -139,6 +152,35 @@ export default function ReglagesPage() {
                 </button>
               );
             })}
+          </div>
+
+          <div className="rounded-3xl border border-white/20 bg-white/5 p-5 space-y-4">
+            <h3 className="text-sm font-black uppercase tracking-[0.2em] opacity-70">Année scolaire (choix unique)</h3>
+            <p className="text-xs opacity-70">
+              Ce choix alimente la nouvelle page Quiz IA. Une fois défini, il ne peut plus être modifié.
+            </p>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+              {SCHOOL_YEAR_OPTIONS.map((schoolYear) => {
+                const isCurrent = settings.gameplay.schoolYear === schoolYear;
+                return (
+                  <button
+                    key={schoolYear}
+                    onClick={() => lockSchoolYear(schoolYear)}
+                    disabled={settings.gameplay.schoolYearLocked}
+                    className={`rounded-xl px-3 py-3 text-xs font-black transition-all border ${
+                      isCurrent
+                        ? "bg-primary text-white border-primary"
+                        : "bg-foreground/5 border-white/10 hover:border-primary/20"
+                    } ${settings.gameplay.schoolYearLocked && !isCurrent ? "opacity-40 cursor-not-allowed" : ""}`}
+                  >
+                    {schoolYear}
+                  </button>
+                );
+              })}
+            </div>
+            <div className="text-[11px] font-bold opacity-70">
+              Statut : {settings.gameplay.schoolYearLocked ? `Verrouillé sur ${settings.gameplay.schoolYear || "non défini"}` : "Non verrouillé"}
+            </div>
           </div>
         </div>
 

@@ -7,7 +7,7 @@ import { useProgress } from "@/context/ProgressContext";
 
 const primaryLinks = [
   { href: "/", label: "Tableau de bord", icon: "▣" },
-  { href: "/matieres", label: "Matières", icon: "📚" },
+  { href: "/quiz", label: "Quiz", icon: "🧠" },
   { href: "/quetes", label: "Quêtes", icon: "🎯" },
   { href: "/profil", label: "Profil", icon: "👤" },
 ];

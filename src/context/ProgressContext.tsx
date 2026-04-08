@@ -39,6 +39,8 @@ type AccessibilitySettings = {
 type GameplaySettings = {
   quizTimerSeconds: number;
   learningLevel: LearningLevel;
+  schoolYear: string;
+  schoolYearLocked: boolean;
 };
 
 type SocialSettings = {
@@ -273,6 +275,8 @@ const createDefaultSettings = (): SettingsSchema => ({
   gameplay: {
     quizTimerSeconds: 0,
     learningLevel: "Débutant",
+    schoolYear: "",
+    schoolYearLocked: false,
   },
   social: {
     friendRequestsEnabled: true,
@@ -306,7 +310,7 @@ const createDefaultProgress = (): UserProgress => ({
   unlockedThemes: ["light"],
   unlockedAvatars: ["🦁"],
   claimedPassRewards: [],
-  selectedClass: "6ème",
+  selectedClass: "",
   learningLevel: "Débutant",
   xpBoost: 1,
   unlockedAchievements: [],
@@ -439,6 +443,16 @@ function normalizeSettings(rawSettings: unknown, selectedClass?: string): Settin
         typeof legacyGameplay.learningLevel === "string"
           ? (legacyGameplay.learningLevel as LearningLevel)
           : mapLegacyClassToLearningLevel(selectedClass || "6ème"),
+      schoolYear:
+        typeof legacyGameplay.schoolYear === "string"
+          ? legacyGameplay.schoolYear
+          : typeof selectedClass === "string"
+            ? selectedClass
+            : base.gameplay.schoolYear,
+      schoolYearLocked:
+        typeof legacyGameplay.schoolYearLocked === "boolean"
+          ? legacyGameplay.schoolYearLocked
+          : Boolean(typeof legacyGameplay.schoolYear === "string" || (typeof selectedClass === "string" && selectedClass.trim().length > 0)),
     },
     social: {
       friendRequestsEnabled:

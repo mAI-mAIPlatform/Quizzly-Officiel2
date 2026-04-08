@@ -35,7 +35,7 @@ export default function Navbar() {
       
       <div className="hidden md:flex flex-1">
         {/* Barre de recherche (si besoin plus tard) */}
-        <div className="w-96 h-10 rounded-full bg-foreground/5 p-4 flex items-center text-sm opacity-50 font-medium">Rechercher une matière...</div>
+        <div className="w-96 h-10 rounded-full bg-foreground/5 p-4 flex items-center text-sm opacity-50 font-medium">Rechercher un quiz...</div>
       </div>
 
       <div className="flex items-center gap-3">
