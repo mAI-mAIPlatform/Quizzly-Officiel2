@@ -15,6 +15,7 @@ const primaryItems = [
 
 const moreItems = [
   { href: "/modes", label: "Modes", icon: "🎮" },
+  { href: "/exercices", label: "Exercices", icon: "🧪" },
   { href: "/boutique", label: "Boutique", icon: "💎" },
   { href: "/historique", label: "Historique", icon: "🕘" },
   { href: "/reglages", label: "Réglages", icon: "⚙️" },

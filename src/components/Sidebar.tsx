@@ -14,6 +14,7 @@ const primaryLinks = [
 
 const secondaryLinks = [
   { href: "/modes", label: "Modes de jeu", icon: "🎮" },
+  { href: "/exercices", label: "Exercices", icon: "🧪" },
   { href: "/historique", label: "Historique", icon: "🕘" },
   { href: "/boutique", label: "Boutique", icon: "💎" },
   { href: "/social", label: "Social", icon: "🤝" },
