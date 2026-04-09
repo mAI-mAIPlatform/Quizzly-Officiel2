@@ -3,7 +3,8 @@
 import { FormEvent, useMemo, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { ACTIVE_AI_MODELS, DEFAULT_AI_MODEL } from "@/lib/ai-models";
+import { ACTIVE_AI_MODELS } from "@/lib/ai-models";
+import { useProgress } from "@/context/ProgressContext";
 
 type GeneratedQuestion = {
   question: string;
@@ -24,20 +25,21 @@ const levels = ["6ème", "5ème", "4ème", "3ème", "Seconde", "Première", "Ter
 
 export default function QuizAIPage() {
   const searchParams = useSearchParams();
+  const { progress } = useProgress();
   const initialMode = searchParams.get("mode") && modes.includes(searchParams.get("mode") as string) ? (searchParams.get("mode") as string) : "Classé";
 
   const [topic, setTopic] = useState("");
   const [classLevel, setClassLevel] = useState("3ème");
   const [mode, setMode] = useState(initialMode);
   const [questionCount, setQuestionCount] = useState(8);
-  const [model, setModel] = useState(DEFAULT_AI_MODEL);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [quiz, setQuiz] = useState<GeneratedQuiz | null>(null);
 
-  const sortedModels = useMemo(
-    () => [...ACTIVE_AI_MODELS].sort((a, b) => Number(b.isDefault) - Number(a.isDefault) || a.name.localeCompare(b.name)),
-    [],
+  const selectedModel = progress.settings.gameplay.defaultAIModel;
+  const selectedModelLabel = useMemo(
+    () => ACTIVE_AI_MODELS.find((model) => model.model === selectedModel)?.name ?? selectedModel,
+    [selectedModel],
   );
 
   async function handleGenerate(event: FormEvent<HTMLFormElement>) {
@@ -49,7 +51,7 @@ export default function QuizAIPage() {
       const response = await fetch("/api/quiz-ai", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ topic, classLevel, mode, questionCount, model }),
+        body: JSON.stringify({ topic, classLevel, mode, questionCount, model: selectedModel }),
       });
 
       const data = (await response.json()) as GeneratedQuiz & { error?: string; details?: string };
@@ -87,6 +89,7 @@ export default function QuizAIPage() {
             <p className="text-[10px] font-black uppercase tracking-[0.2em] opacity-50">Mode rapide</p>
             <p className="text-3xl font-space font-black mt-2">{mode}</p>
             <p className="text-xs opacity-60 mt-1">{questionCount} questions • {classLevel}</p>
+            <p className="text-[10px] opacity-50 mt-1">Modèle par défaut : {selectedModelLabel}</p>
           </div>
         </div>
       </header>
@@ -147,19 +150,13 @@ export default function QuizAIPage() {
           </div>
 
           <div className="space-y-2">
-            <label htmlFor="model" className="text-xs uppercase font-black tracking-[0.2em] opacity-60">Modèle IA</label>
-            <select
-              id="model"
-              value={model}
-              onChange={(event) => setModel(event.target.value)}
-              className="w-full h-12 rounded-2xl border border-white/20 bg-white/15 backdrop-blur-xl px-4 text-sm outline-none"
-            >
-              {sortedModels.map((entry) => (
-                <option key={entry.id} value={entry.model}>
-                  {entry.name} ({entry.modelProvider}){entry.isDefault ? " • défaut" : ""}
-                </option>
-              ))}
-            </select>
+            <label className="text-xs uppercase font-black tracking-[0.2em] opacity-60">Modèle IA</label>
+            <div className="w-full h-12 rounded-2xl border border-white/20 bg-white/15 backdrop-blur-xl px-4 text-sm flex items-center justify-between">
+              <span>{selectedModelLabel}</span>
+              <Link href="/reglages" className="text-[10px] uppercase tracking-widest font-black text-primary hover:underline">
+                Modifier
+              </Link>
+            </div>
           </div>
 
           <div className="lg:col-span-2 flex items-center gap-3 pt-2">

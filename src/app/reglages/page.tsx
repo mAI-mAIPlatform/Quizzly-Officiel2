@@ -5,6 +5,7 @@ import { useState } from "react";
 import { useProgress } from "@/context/ProgressContext";
 import { useToast } from "@/components/Toast";
 import { LEARNING_LEVELS } from "@/lib/quizzly-utils";
+import { ACTIVE_AI_MODELS } from "@/lib/ai-models";
 
 const THEME_OPTIONS = [
   { id: "light", name: "Clair", icon: "☀️", color: "bg-white text-black" },
@@ -139,6 +140,27 @@ export default function ReglagesPage() {
                 </button>
               );
             })}
+          </div>
+
+          <div className="rounded-2xl bg-foreground/5 p-4 space-y-3">
+            <div>
+              <div className="font-black text-sm">Modèle IA par défaut</div>
+              <div className="text-[10px] font-bold opacity-40">Utilisé automatiquement dans Quiz IA</div>
+            </div>
+            <select
+              value={settings.gameplay.defaultAIModel}
+              onChange={(event) => {
+                updateGameplay({ defaultAIModel: event.target.value });
+                showToast(`Modèle IA par défaut : ${event.target.value}`, "success");
+              }}
+              className="w-full rounded-2xl bg-white/40 border border-white/20 px-4 py-3 font-bold outline-none focus:border-primary/30 focus:ring-4 focus:ring-primary/10"
+            >
+              {ACTIVE_AI_MODELS.map((model) => (
+                <option key={model.id} value={model.model}>
+                  {model.name} ({model.modelProvider}){model.isDefault ? " • recommandé" : ""}
+                </option>
+              ))}
+            </select>
           </div>
         </div>
 
