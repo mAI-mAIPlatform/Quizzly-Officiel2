@@ -3,7 +3,6 @@ import type { Dirent } from "fs";
 import path from "path";
 import { normalizeText } from "@/lib/quizzly-utils";
 import { allBlitzQuizzes } from "@/data/blitz/allBlitzQuizzes";
-import { allVisuelQuizzes } from "@/data/visuel/allVisuelQuizzes";
 import { allVraiFauxQuizzes } from "@/data/vrai_faux/allVraiFauxQuizzes";
 import { allQuizzes as rankedQuizzesByClass } from "@/data/ranked/allQuizzes";
 import { survivalQuizzes } from "@/data/survie/quizzes";
@@ -276,24 +275,6 @@ function flattenPoolCatalog() {
     } satisfies QuizCatalogEntry;
   });
 
-  const visuelEntries = allVisuelQuizzes.map((quiz: Record<string, unknown>, index: number) => {
-    const title = typeof quiz.titre === "string" ? quiz.titre : `Visuel ${index + 1}`;
-    const questionCount = Array.isArray(quiz.questions) ? quiz.questions.length : 0;
-    return {
-      id: `visuel/${quiz.id as string}`,
-      title,
-      href: `/visuel?quiz=${quiz.id as string}`,
-      searchText: normalizeText([title, "visuel", `session ${index + 1}`, `questions ${questionCount}`].join(" ")),
-      questionCount,
-      source: "Visuel",
-      level: "Mode",
-      subject: "Mode",
-      chapter: "Visuel",
-      part: index + 1,
-      accentClass: "from-rose-400 to-orange-500",
-    } satisfies QuizCatalogEntry;
-  });
-
   const blitzEntries = allBlitzQuizzes.map((quiz: Record<string, unknown>, index: number) => {
     const title = typeof quiz.titre === "string" ? quiz.titre : `Blitz ${index + 1}`;
     const questionCount = Array.isArray(quiz.questions) ? quiz.questions.length : 0;
@@ -312,7 +293,7 @@ function flattenPoolCatalog() {
     } satisfies QuizCatalogEntry;
   });
 
-  return [...survivalEntries, ...vraiFauxEntries, ...visuelEntries, ...blitzEntries];
+  return [...survivalEntries, ...vraiFauxEntries, ...blitzEntries];
 }
 
 export async function getGlobalQuizCatalog() {
