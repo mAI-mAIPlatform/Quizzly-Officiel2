@@ -51,6 +51,26 @@ export const AI_MODELS: AIModel[] = [
     isDefault: false,
   },
   {
+    id: 52,
+    name: "gpt-5.4-nano",
+    namespace: "openai",
+    description: "Ultra-compact model for very fast quiz generation.",
+    model: "gpt-5.4-nano",
+    modelProvider: "openai",
+    isActive: true,
+    isDefault: false,
+  },
+  {
+    id: 53,
+    name: "gpt-oss-120b",
+    namespace: "openai",
+    description: "Open-weight large model tuned for robust reasoning tasks.",
+    model: "gpt-oss-120b",
+    modelProvider: "openai",
+    isActive: true,
+    isDefault: false,
+  },
+  {
     id: 34,
     name: "gpt-5.2",
     namespace: "openai",
@@ -93,4 +113,7 @@ export const AI_MODELS: AIModel[] = [
 ];
 
 export const ACTIVE_AI_MODELS = AI_MODELS.filter((model) => model.isActive);
-export const DEFAULT_AI_MODEL = ACTIVE_AI_MODELS.find((model) => model.isDefault)?.model ?? "gpt-5.4";
+// Sécurise le défaut: on force GPT-5.4 si présent/actif, sinon fallback sur le 1er actif.
+export const DEFAULT_AI_MODEL = ACTIVE_AI_MODELS.some((model) => model.model === "gpt-5.4")
+  ? "gpt-5.4"
+  : (ACTIVE_AI_MODELS.find((model) => model.isDefault)?.model ?? ACTIVE_AI_MODELS[0]?.model ?? "gpt-5.4");
