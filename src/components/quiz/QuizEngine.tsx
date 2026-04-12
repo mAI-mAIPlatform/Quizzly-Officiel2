@@ -30,6 +30,14 @@ const encouragementsTimeout = [
   "Essaie plus vite la prochaine fois !",
 ];
 
+function getDifficultyMultiplier(level: string) {
+  // Règle demandée:
+  // Difficile = x1.5, Normal = x1, Facile = x0.5
+  if (level === "Difficile") return 1.5;
+  if (level === "Débutant" || level === "Entraînement") return 0.5;
+  return 1;
+}
+
 export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSurvival, quizType = 'classic' }: { quiz: { id: string; titre: string; questions: any[] /* eslint-disable-line @typescript-eslint/no-explicit-any */ }; backUrl: string; matiereId: string; onComplete?: (score: number) => void; isSurvival?: boolean; quizType?: QuizTypeEnum }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
@@ -53,6 +61,8 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
   const [hasAnswered, setHasAnswered] = useState(false);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [hasLostStar, setHasLostStar] = useState(false);
+  const [animatedScore, setAnimatedScore] = useState(0);
+  const [animatedXP, setAnimatedXP] = useState(0);
 
   const handleValidate = useCallback((correct: boolean, source: "user" | "timeout" = "user") => {
     if (hasAnsweredRef.current || isFinished) return;
@@ -129,6 +139,8 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
   useEffect(() => {
     if (isFinished) {
       const isSuccess = score >= quiz.questions.length / 2;
+      const difficultyMultiplier = getDifficultyMultiplier(userProgress.settings.gameplay.learningLevel);
+      const rawXP = Math.round(score * 2 * difficultyMultiplier);
 
       // Historique global (sauvegarde une seule fois)
       if (!hasSavedHistory.current) {
@@ -147,9 +159,9 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
       }
 
       if (!isQuizCompleted(quiz.id) && isSuccess) {
-        // Gain de base : bonnes réponses x 2
-        const baseXP = score * 2;
-        addXP(baseXP);
+        // Gain demandé = (bonnes réponses x2) * multiplicateur de difficulté.
+        // Le booster est appliqué dans addXP (ProgressContext).
+        addXP(rawXP);
         markQuizCompleted(quiz.id, matiereId);
         
         confetti({
@@ -168,10 +180,31 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isFinished]);
 
-  if (isFinished) {
+  useEffect(() => {
+    if (!isFinished || finishStep !== "results") return;
+
+    const difficultyMultiplier = getDifficultyMultiplier(userProgress.settings.gameplay.learningLevel);
+    const finalRawXP = Math.round(score * 2 * difficultyMultiplier);
+    const finalBoostedXP = Math.round(finalRawXP * (userProgress.xpBoost || 1));
+
+    let frame = 0;
+    const totalFrames = 28;
+    const interval = window.setInterval(() => {
+      frame += 1;
+      const progress = Math.min(1, frame / totalFrames);
+      setAnimatedScore(Math.round(score * progress));
+      setAnimatedXP(Math.round(finalBoostedXP * progress));
+      if (progress >= 1) {
+        window.clearInterval(interval);
+      }
+    }, 30);
+
+    return () => window.clearInterval(interval);
+  }, [finishStep, isFinished, score, userProgress.settings.gameplay.learningLevel, userProgress.xpBoost]);
+
+  if (isFinished && finishStep === "results") {
     const successRate = (score / quiz.questions.length) * 100;
-    const survivalBonus = isSurvival ? Math.floor(score * 10) : 0;
-    const earnedXP = ((score * 2) + survivalBonus) * (userProgress.xpBoost || 1);
+    const difficultyMultiplier = getDifficultyMultiplier(userProgress.settings.gameplay.learningLevel);
     
     let message = "Bien joué !";
     let statusImage = "/images/bien_joue.png";
@@ -206,7 +239,10 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
            )}
           <div className="text-[10px] uppercase tracking-[0.3em] font-black opacity-40 mb-2">Points d&apos;Expérience</div>
           <div className="text-5xl font-space font-black text-transparent bg-clip-text bg-gradient-to-r from-primary to-cyan mb-4 drop-shadow-md">
-            +{earnedXP} XP
+            +{animatedXP} XP
+          </div>
+          <div className="text-[10px] uppercase tracking-widest font-black opacity-50 mb-3">
+            Calcul : ({score} bonnes × 2) × {difficultyMultiplier}
           </div>
           {isRanked && (
             <div className="mb-4 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-500/10 text-amber-600 text-[10px] font-black uppercase tracking-widest border border-amber-500/20">
@@ -215,7 +251,7 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
             </div>
           )}
           <div className="text-lg font-bold opacity-60 flex items-center gap-2">
-            <span className="text-2xl">🎯</span> {score} / {quiz.questions.length} correctes
+            <span className="text-2xl">🎯</span> {animatedScore} / {quiz.questions.length} correctes
           </div>
         </div>
 
@@ -239,7 +275,7 @@ export default function QuizEngine({ quiz, backUrl, matiereId, onComplete, isSur
               strokeLinecap="round"
             />
           </svg>
-          <span className="text-5xl font-black font-space text-primary tracking-tighter">{score}</span>
+          <span className="text-5xl font-black font-space text-primary tracking-tighter">{animatedScore}</span>
           <span className="text-[10px] uppercase tracking-widest opacity-40 font-black">sur {quiz.questions.length}</span>
           
           <button

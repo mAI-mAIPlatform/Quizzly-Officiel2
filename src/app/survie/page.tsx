@@ -35,6 +35,11 @@ export default function SurvivalDashboard() {
         </div>
       </header>
 
+      <section className="glass p-5 rounded-2xl border-rose-500/20 bg-white/10 backdrop-blur-xl flex flex-col md:flex-row items-center justify-between gap-3">
+        <p className="text-xs font-black uppercase tracking-widest opacity-60">Tu veux un entraînement ciblé ? Génère une version Survie par IA.</p>
+        <Link href="/quiz?mode=Survie" className="h-10 px-4 rounded-xl bg-rose-500 text-white font-black text-[10px] uppercase tracking-widest flex items-center justify-center">Générer Quiz IA</Link>
+      </section>
+
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <div className="lg:col-span-2 space-y-8">
            <h2 className="text-3xl font-space font-black italic tracking-tighter uppercase border-b border-rose-500/10 pb-4">Défis du Jour ⚔️</h2>

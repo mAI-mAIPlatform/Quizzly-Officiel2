@@ -12,6 +12,7 @@ import {
   type LearningLevel,
   verifyPassword,
 } from "@/lib/quizzly-utils";
+import { ACTIVE_AI_MODELS, DEFAULT_AI_MODEL } from "@/lib/ai-models";
 
 export type Quest = {
   id: string;
@@ -39,6 +40,7 @@ type AccessibilitySettings = {
 type GameplaySettings = {
   quizTimerSeconds: number;
   learningLevel: LearningLevel;
+  defaultAIModel: string;
 };
 
 type SocialSettings = {
@@ -273,6 +275,7 @@ const createDefaultSettings = (): SettingsSchema => ({
   gameplay: {
     quizTimerSeconds: 0,
     learningLevel: "Débutant",
+    defaultAIModel: DEFAULT_AI_MODEL,
   },
   social: {
     friendRequestsEnabled: true,
@@ -415,6 +418,9 @@ function normalizeSettings(rawSettings: unknown, selectedClass?: string): Settin
   const legacySocial = typeof settings.social === "object" && settings.social !== null ? (settings.social as Record<string, unknown>) : {};
   const legacyNotifications = typeof settings.notifications === "object" && settings.notifications !== null ? (settings.notifications as Record<string, unknown>) : {};
 
+  const requestedModel = typeof legacyGameplay.defaultAIModel === "string" ? legacyGameplay.defaultAIModel : base.gameplay.defaultAIModel;
+  const validatedModel = ACTIVE_AI_MODELS.some((model) => model.model === requestedModel) ? requestedModel : DEFAULT_AI_MODEL;
+
   return {
     audio: {
       musicEnabled: typeof legacyAudio.musicEnabled === "boolean" ? legacyAudio.musicEnabled : typeof settings.musicEnabled === "boolean" ? settings.musicEnabled : base.audio.musicEnabled,
@@ -439,6 +445,7 @@ function normalizeSettings(rawSettings: unknown, selectedClass?: string): Settin
         typeof legacyGameplay.learningLevel === "string"
           ? (legacyGameplay.learningLevel as LearningLevel)
           : mapLegacyClassToLearningLevel(selectedClass || "6ème"),
+      defaultAIModel: validatedModel,
     },
     social: {
       friendRequestsEnabled:

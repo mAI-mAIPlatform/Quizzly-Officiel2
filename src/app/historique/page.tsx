@@ -54,7 +54,7 @@ export default function HistoriquePage() {
 
             {/* Filtres */}
             <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-none">
-              {["all", "classic", "ranked", "survival", "duel", "blitz", "vrai_faux", "visuel"].map((t) => (
+              {["all", "classic", "ranked", "survival", "duel", "blitz", "vrai_faux"].map((t) => (
                 <button
                   key={t}
                   onClick={() => setFilter(t)}

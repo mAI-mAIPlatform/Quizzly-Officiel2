@@ -82,6 +82,11 @@ export default function RankedPage() {
 
         {/* Quizz List */}
         <div className="lg:col-span-3 space-y-8">
+           <div className="glass p-4 rounded-2xl border-primary/10 bg-white/10 flex flex-col md:flex-row md:items-center justify-between gap-3">
+              <p className="text-xs font-black uppercase tracking-widest opacity-60">Nouveau : génère une session Classé par IA avec ton thème.</p>
+              <Link href="/quiz?mode=Class%C3%A9" className="h-10 px-4 rounded-xl bg-primary text-white font-black text-[10px] uppercase tracking-widest flex items-center justify-center">Générer Quiz IA</Link>
+           </div>
+
            <div className="flex justify-between items-end border-b border-primary/10 pb-6">
               <div className="flex gap-4">
                  {["6ème", "5ème", "4ème", "3ème", "Seconde", "Première", "Terminale"].map(c => (
