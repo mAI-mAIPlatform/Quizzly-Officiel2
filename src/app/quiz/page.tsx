@@ -27,6 +27,15 @@ type UploadAttachment = {
   dataUrl: string;
 };
 
+const ALLOWED_MIME_TYPES = new Set([
+  "application/pdf",
+  "image/png",
+  "image/jpeg",
+  "image/webp",
+  "image/gif",
+  "image/avif",
+]);
+
 const modes = ["Classé", "Survie", "Blitz", "Duel", "Vrai/Faux"];
 const levels = ["6ème", "5ème", "4ème", "3ème", "Seconde", "Première", "Terminale"];
 
@@ -89,6 +98,10 @@ export default function QuizAIPage() {
             new Promise<UploadAttachment>((resolve, reject) => {
               if (file.size > 5 * 1024 * 1024) {
                 reject(new Error(`Le fichier ${file.name} dépasse 5MB.`));
+                return;
+              }
+              if (!ALLOWED_MIME_TYPES.has(file.type)) {
+                reject(new Error(`Type non supporté pour ${file.name}.`));
                 return;
               }
               const reader = new FileReader();

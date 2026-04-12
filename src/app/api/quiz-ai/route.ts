@@ -33,6 +33,18 @@ type GeneratedQuizResponse = {
 const SYSTEM_PROMPT =
   "Tu es QuizzlyAI, un assistant pédagogique. Tu génères des quiz fiables, équilibrés et adaptés au niveau scolaire demandé. Réponds uniquement en JSON valide.";
 
+const ALLOWED_ATTACHMENT_TYPES = new Set([
+  "application/pdf",
+  "image/png",
+  "image/jpeg",
+  "image/webp",
+  "image/gif",
+  "image/avif",
+]);
+const MAX_ATTACHMENT_COUNT = 3;
+const MAX_DATA_URL_LENGTH = 7_000_000;
+const MAX_TEXT_INPUT_LENGTH = 400;
+
 const jsonSchemaInstruction = `Réponds UNIQUEMENT avec un objet JSON conforme au format:
 {
   "title": "string",
@@ -92,9 +104,9 @@ function isValidQuiz(payload: GeneratedQuizResponse, expectedQuestions: number):
 export async function POST(request: Request) {
   try {
     const body = (await request.json()) as RequestPayload;
-    const topic = body.topic?.trim();
-    const classLevel = body.classLevel?.trim();
-    const mode = body.mode?.trim() || "Classé";
+    const topic = body.topic?.trim().slice(0, MAX_TEXT_INPUT_LENGTH);
+    const classLevel = body.classLevel?.trim().slice(0, 80);
+    const mode = body.mode?.trim().slice(0, 80) || "Classé";
     const questionCount = Math.min(15, Math.max(3, Number(body.questionCount) || 8));
 
     if (!topic || !classLevel) {
@@ -104,7 +116,15 @@ export async function POST(request: Request) {
     const chosenModel = ACTIVE_AI_MODELS.some((candidate) => candidate.model === body.model)
       ? body.model ?? DEFAULT_AI_MODEL
       : DEFAULT_AI_MODEL;
-    const attachments = Array.isArray(body.attachments) ? body.attachments.slice(0, 3) : [];
+    const attachments = Array.isArray(body.attachments) ? body.attachments.slice(0, MAX_ATTACHMENT_COUNT) : [];
+    const safeAttachments = attachments.filter((file) => {
+      if (!file || typeof file.name !== "string" || typeof file.mimeType !== "string" || typeof file.dataUrl !== "string") {
+        return false;
+      }
+      if (!ALLOWED_ATTACHMENT_TYPES.has(file.mimeType)) return false;
+      if (file.dataUrl.length > MAX_DATA_URL_LENGTH) return false;
+      return file.dataUrl.startsWith(`data:${file.mimeType};base64,`);
+    });
 
     const apiKey = process.env.FS_API_KEY;
     if (!apiKey) {
@@ -116,7 +136,7 @@ export async function POST(request: Request) {
       `Sujet: ${topic}.`,
       `Nombre de questions: ${questionCount}.`,
       "Difficulté progressive et questions variées.",
-      attachments.length > 0 ? "Utilise aussi les pièces jointes importées par l'utilisateur pour générer les questions." : "",
+      safeAttachments.length > 0 ? "Utilise aussi les pièces jointes importées par l'utilisateur pour générer les questions." : "",
       jsonSchemaInstruction,
     ].join("\n");
 
@@ -124,7 +144,7 @@ export async function POST(request: Request) {
       { type: "text", text: userPrompt },
     ];
 
-    for (const file of attachments) {
+    for (const file of safeAttachments) {
       if (file.mimeType.startsWith("image/")) {
         userContent.push({
           type: "image_url",
