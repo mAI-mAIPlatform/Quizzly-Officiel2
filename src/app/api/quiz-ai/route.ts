@@ -9,6 +9,11 @@ type RequestPayload = {
   mode?: string;
   questionCount?: number;
   model?: string;
+  attachments?: Array<{
+    name: string;
+    mimeType: string;
+    dataUrl: string;
+  }>;
 };
 
 type GeneratedQuestion = {
@@ -99,6 +104,7 @@ export async function POST(request: Request) {
     const chosenModel = ACTIVE_AI_MODELS.some((candidate) => candidate.model === body.model)
       ? body.model ?? DEFAULT_AI_MODEL
       : DEFAULT_AI_MODEL;
+    const attachments = Array.isArray(body.attachments) ? body.attachments.slice(0, 3) : [];
 
     const apiKey = process.env.FS_API_KEY;
     if (!apiKey) {
@@ -110,8 +116,29 @@ export async function POST(request: Request) {
       `Sujet: ${topic}.`,
       `Nombre de questions: ${questionCount}.`,
       "Difficulté progressive et questions variées.",
+      attachments.length > 0 ? "Utilise aussi les pièces jointes importées par l'utilisateur pour générer les questions." : "",
       jsonSchemaInstruction,
     ].join("\n");
+
+    const userContent: Array<{ type: "text"; text: string } | { type: "image_url"; image_url: { url: string } }> = [
+      { type: "text", text: userPrompt },
+    ];
+
+    for (const file of attachments) {
+      if (file.mimeType.startsWith("image/")) {
+        userContent.push({
+          type: "image_url",
+          image_url: { url: file.dataUrl },
+        });
+      } else if (file.mimeType === "application/pdf") {
+        // Fallback robuste: certains endpoints chat/completions n'acceptent pas les PDF natifs.
+        // On transmet la référence DataURL pour contextualiser la demande.
+        userContent.push({
+          type: "text",
+          text: `Document PDF importé: ${file.name}\nDataURL: ${file.dataUrl.slice(0, 3000)}...`,
+        });
+      }
+    }
 
     const response = await fetch(ENDPOINT, {
       method: "POST",
@@ -123,7 +150,7 @@ export async function POST(request: Request) {
         model: chosenModel,
         messages: [
           { role: "developer", content: SYSTEM_PROMPT },
-          { role: "user", content: userPrompt },
+          { role: "user", content: userContent },
         ],
         temperature: 0.4,
       }),

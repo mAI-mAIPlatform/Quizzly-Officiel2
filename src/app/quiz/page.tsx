@@ -3,6 +3,7 @@
 import { FormEvent, useMemo, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
+import Script from "next/script";
 import { ACTIVE_AI_MODELS } from "@/lib/ai-models";
 import { useProgress } from "@/context/ProgressContext";
 
@@ -20,6 +21,12 @@ type GeneratedQuiz = {
   questions: GeneratedQuestion[];
 };
 
+type UploadAttachment = {
+  name: string;
+  mimeType: string;
+  dataUrl: string;
+};
+
 const modes = ["Classé", "Survie", "Blitz", "Duel", "Vrai/Faux"];
 const levels = ["6ème", "5ème", "4ème", "3ème", "Seconde", "Première", "Terminale"];
 
@@ -35,6 +42,7 @@ export default function QuizAIPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [quiz, setQuiz] = useState<GeneratedQuiz | null>(null);
+  const [attachments, setAttachments] = useState<UploadAttachment[]>([]);
 
   const selectedModel = progress.settings.gameplay.defaultAIModel;
   const selectedModelLabel = useMemo(
@@ -51,7 +59,7 @@ export default function QuizAIPage() {
       const response = await fetch("/api/quiz-ai", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ topic, classLevel, mode, questionCount, model: selectedModel }),
+        body: JSON.stringify({ topic, classLevel, mode, questionCount, model: selectedModel, attachments }),
       });
 
       const data = (await response.json()) as GeneratedQuiz & { error?: string; details?: string };
@@ -70,8 +78,49 @@ export default function QuizAIPage() {
     }
   }
 
+  async function handleFileImport(files: FileList | null) {
+    if (!files || files.length === 0) return;
+    const selectedFiles = Array.from(files).slice(0, 3);
+
+    try {
+      const processed = await Promise.all(
+        selectedFiles.map(
+          (file) =>
+            new Promise<UploadAttachment>((resolve, reject) => {
+              if (file.size > 5 * 1024 * 1024) {
+                reject(new Error(`Le fichier ${file.name} dépasse 5MB.`));
+                return;
+              }
+              const reader = new FileReader();
+              reader.onload = () => {
+                if (typeof reader.result !== "string") {
+                  reject(new Error(`Lecture impossible pour ${file.name}`));
+                  return;
+                }
+                resolve({
+                  name: file.name,
+                  mimeType: file.type || "application/octet-stream",
+                  dataUrl: reader.result,
+                });
+              };
+              reader.onerror = () => reject(new Error(`Erreur de lecture pour ${file.name}`));
+              reader.readAsDataURL(file);
+            }),
+        ),
+      );
+      setAttachments(processed);
+      setError(null);
+    } catch (fileError) {
+      setAttachments([]);
+      setError(fileError instanceof Error ? fileError.message : "Import impossible.");
+    }
+  }
+
   return (
     <div className="max-w-6xl mx-auto pb-24 space-y-8 animate-in fade-in duration-700">
+      <Script src="https://cdn.botpress.cloud/webchat/v3.6/inject.js" strategy="afterInteractive" />
+      <Script src="https://files.bpcontent.cloud/2026/03/30/13/20260330135905-MDUMO8ID.js" strategy="afterInteractive" />
+
       <header className="glass rounded-[2.2rem] p-8 border-white/20 bg-white/10 backdrop-blur-3xl shadow-2xl shadow-primary/10">
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
           <div>
@@ -106,6 +155,29 @@ export default function QuizAIPage() {
               placeholder="Ex: Révolution française, équations, SVT cellule..."
               className="w-full h-12 rounded-2xl border border-white/20 bg-white/15 backdrop-blur-xl px-4 text-sm outline-none focus:border-primary/50 focus:ring-4 focus:ring-primary/10"
             />
+          </div>
+
+          <div className="space-y-2 lg:col-span-2">
+            <label htmlFor="attachments" className="text-xs uppercase font-black tracking-[0.2em] opacity-60">Importer un support (images / PDF)</label>
+            <input
+              id="attachments"
+              type="file"
+              accept="image/*,application/pdf"
+              multiple
+              onChange={(event) => void handleFileImport(event.target.files)}
+              className="w-full h-12 rounded-2xl border border-white/20 bg-white/15 backdrop-blur-xl px-4 text-sm outline-none file:mr-4 file:border-0 file:bg-primary/15 file:text-primary file:px-3 file:py-2 file:rounded-xl"
+            />
+            <p className="text-[10px] uppercase tracking-widest opacity-50">3 fichiers max, 5MB max par fichier.</p>
+            {attachments.length > 0 && (
+              <div className="glass rounded-2xl p-3 border border-white/15 text-xs">
+                {attachments.map((file) => (
+                  <div key={file.name} className="flex items-center justify-between py-1">
+                    <span className="font-bold">{file.name}</span>
+                    <span className="opacity-60">{file.mimeType}</span>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
 
           <div className="space-y-2">
