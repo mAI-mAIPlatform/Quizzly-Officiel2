@@ -1,0 +1,55 @@
+name: Quizzly Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version de la release (ex: v0.8.2)"
+        required: true
+      description:
+        description: "Description de la release"
+        required: true
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout du repo
+        uses: actions/checkout@v4
+
+      - name: 📝 Générer le fichier release.yml
+        run: |
+          mkdir -p releases
+          cat <<EOF > releases/${{ github.event.inputs.version }}.yml
+          release:
+            title: "${{ github.event.inputs.version }}"
+            description: |
+              Nouvelle version ${{ github.event.inputs.version }} disponible.
+
+              ${{ github.event.inputs.description }}
+
+              Nous publierons de nouvelles mises à jour bientôt.
+          EOF
+
+      - name: 📤 Commit & push du fichier
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add releases/
+          git commit -m "🚀 Release ${{ github.event.inputs.version }}"
+          git push
+
+      - name: 🎉 Créer la release GitHub
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.event.inputs.version }}
+          name: ${{ github.event.inputs.version }}
+          body: |
+            Nouvelle version ${{ github.event.inputs.version }} disponible.
+
+            ${{ github.event.inputs.description }}
+
+            Nous publierons de nouvelles mises à jour bientôt.
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
